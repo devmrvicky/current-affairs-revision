@@ -41,6 +41,7 @@ const quizModules: Record<string, () => Promise<{ default: DailyQuiz }>> = {
   "06jun2026.json": () => import("../data/current-affairs/06jun2026.json"),
   "05jun2026.json": () => import("../data/current-affairs/05jun2026.json"),
   "04jun2026.json": () => import("../data/current-affairs/04jun2026.json"),
+  "09jun2026.json": () => import("../data/current-affairs/09jun2026.json"),
 };
 
 // ─── Quiz Loading ─────────────────────────────────────────────────────────────
@@ -55,7 +56,8 @@ export async function loadQuizForDate(
 export async function loadQuizByFileName(
   fileName: string,
 ): Promise<DailyQuiz | null> {
-  const loader = quizModules[fileName];
+  // const loader = quizModules[fileName];
+  const loader = quizModules["09jun2026.json"];
   console.log(
     loader ? `Loading quiz for ${fileName}` : `No quiz found for ${fileName}`,
   );
