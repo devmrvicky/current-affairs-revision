@@ -1,0 +1,75 @@
+{
+  "date": "07 June 2026",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which Indian state recently launched the 'Har Ghar Nal Jal' scheme to provide piped water to every household?",
+      "options": ["Rajasthan", "Uttar Pradesh", "Bihar", "Madhya Pradesh"],
+      "correctAnswer": "Bihar",
+      "explanation": "Bihar launched the 'Har Ghar Nal Jal' scheme under the Jal Jeevan Mission to provide piped drinking water to all rural households, achieving significant milestone in water coverage."
+    },
+    {
+      "id": 2,
+      "question": "The 'Project Cheetah' in India reintroduced cheetahs from which country?",
+      "options": ["Kenya", "South Africa", "Namibia and South Africa", "Zimbabwe"],
+      "correctAnswer": "Namibia and South Africa",
+      "explanation": "India's Project Cheetah reintroduced African cheetahs from Namibia (first batch in 2022) and South Africa (second batch in 2023) to Kuno National Park in Madhya Pradesh."
+    },
+    {
+      "id": 3,
+      "question": "Which institution is responsible for regulating Non-Banking Financial Companies (NBFCs) in India?",
+      "options": ["SEBI", "RBI", "IRDAI", "NABARD"],
+      "correctAnswer": "RBI",
+      "explanation": "The Reserve Bank of India (RBI) is the primary regulator for Non-Banking Financial Companies (NBFCs) in India, overseeing their registration, operations, and compliance."
+    },
+    {
+      "id": 4,
+      "question": "The 'Pradhan Mantri Formalisation of Micro Food Processing Enterprises' scheme is under which ministry?",
+      "options": ["Ministry of MSME", "Ministry of Food Processing Industries", "Ministry of Agriculture", "Ministry of Commerce"],
+      "correctAnswer": "Ministry of Food Processing Industries",
+      "explanation": "PM FME scheme is under the Ministry of Food Processing Industries with a budget of Rs 10,000 crore to provide financial, technical, and business support for upgradation of micro food enterprises."
+    },
+    {
+      "id": 5,
+      "question": "Which country launched the world's first fully solar-powered airport terminal?",
+      "options": ["Germany", "Australia", "India", "UAE"],
+      "correctAnswer": "India",
+      "explanation": "Cochin International Airport (CIAL) in Kerala became the world's first fully solar-powered airport, and in 2026 launched its expanded terminal powered entirely by its own solar plant."
+    },
+    {
+      "id": 6,
+      "question": "The term 'Donut Economics' is associated with which economist?",
+      "options": ["Thomas Piketty", "Kate Raworth", "Joseph Stiglitz", "Amartya Sen"],
+      "correctAnswer": "Kate Raworth",
+      "explanation": "Kate Raworth coined the concept of 'Doughnut Economics' - a framework balancing human needs within planetary boundaries, shaped like a doughnut with social foundation and ecological ceiling."
+    },
+    {
+      "id": 7,
+      "question": "India's 'Make in India' initiative was launched in the year:",
+      "options": ["2013", "2014", "2015", "2016"],
+      "correctAnswer": "2014",
+      "explanation": "The Make in India initiative was launched by Prime Minister Narendra Modi on September 25, 2014, to encourage companies to manufacture their products in India and boost the manufacturing sector."
+    },
+    {
+      "id": 8,
+      "question": "Which article of the Indian Constitution deals with the Right to Education?",
+      "options": ["Article 21", "Article 21A", "Article 45", "Article 51A"],
+      "correctAnswer": "Article 21A",
+      "explanation": "Article 21A was inserted by the 86th Constitutional Amendment Act 2002, making free and compulsory education a fundamental right for children aged 6-14 years."
+    },
+    {
+      "id": 9,
+      "question": "The 'International Solar Alliance' was co-founded by India and:",
+      "options": ["USA", "France", "Germany", "Japan"],
+      "correctAnswer": "France",
+      "explanation": "The International Solar Alliance (ISA) was co-founded by India and France during the COP21 climate summit in Paris in 2015, with headquarters in Gurugram, India."
+    },
+    {
+      "id": 10,
+      "question": "Which space agency launched the Europa Clipper mission to study Jupiter's moon Europa?",
+      "options": ["ESA", "NASA", "ISRO", "JAXA"],
+      "correctAnswer": "NASA",
+      "explanation": "NASA launched the Europa Clipper mission in October 2024 to study Jupiter's moon Europa, which is believed to harbor a vast ocean under its icy surface, potentially suitable for life."
+    }
+  ]
+}

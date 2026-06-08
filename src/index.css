@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #f4f5ff;
+    --surface: #ffffff;
+    --card: #ffffff;
+    --border: #e8eaff;
+    --text-primary: #0f0f23;
+    --text-secondary: #6b7280;
+    --text-muted: #9ca3af;
+    --brand: #6366f1;
+    --brand-dark: #4f46e5;
+  }
+
+  .dark {
+    --bg: #0a0a12;
+    --surface: #111118;
+    --card: #16161f;
+    --border: #1e1e2e;
+    --text-primary: #f0f0ff;
+    --text-secondary: #9ca3af;
+    --text-muted: #6b7280;
+    --brand: #818cf8;
+    --brand-dark: #6366f1;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    @apply font-body antialiased;
+    background-color: var(--bg);
+    color: var(--text-primary);
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { @apply bg-brand-300 dark:bg-brand-700 rounded-full; }
+}
+
+@layer components {
+  .card {
+    background-color: var(--card);
+    border: 1px solid var(--border);
+    @apply rounded-2xl shadow-card dark:shadow-card-dark;
+  }
+
+  .btn-primary {
+    @apply bg-brand-500 hover:bg-brand-600 active:bg-brand-700 text-white font-semibold px-6 py-3 rounded-xl transition-all duration-200 shadow-md hover:shadow-glow active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:shadow-none;
+  }
+
+  .btn-secondary {
+    @apply bg-transparent border-2 border-brand-400 text-brand-600 dark:text-brand-400 hover:bg-brand-50 dark:hover:bg-brand-900/30 font-semibold px-6 py-3 rounded-xl transition-all duration-200 active:scale-95;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent hover:bg-gray-100 dark:hover:bg-white/5 text-[var(--text-secondary)] font-medium px-4 py-2 rounded-lg transition-all duration-200 active:scale-95;
+  }
+
+  .shimmer {
+    background: linear-gradient(90deg, var(--border) 25%, var(--surface) 50%, var(--border) 75%);
+    background-size: 200% 100%;
+    @apply animate-shimmer;
+  }
+
+  .option-btn {
+    @apply w-full text-left px-5 py-4 rounded-xl border-2 transition-all duration-200 font-body text-base cursor-pointer;
+    border-color: var(--border);
+    background-color: var(--card);
+    color: var(--text-primary);
+  }
+
+  .option-btn:hover:not(:disabled) {
+    @apply border-brand-400 bg-brand-50 dark:bg-brand-900/20;
+  }
+
+  .option-btn.selected-correct {
+    @apply border-green-500 bg-green-50 dark:bg-green-900/20 text-green-800 dark:text-green-300;
+  }
+
+  .option-btn.selected-wrong {
+    @apply border-red-500 bg-red-50 dark:bg-red-900/20 text-red-800 dark:text-red-300;
+  }
+
+  .option-btn.reveal-correct {
+    @apply border-green-500 bg-green-50 dark:bg-green-900/20 text-green-800 dark:text-green-300;
+  }
+
+  .option-btn.neutral-disabled {
+    @apply opacity-60;
+  }
+}
+
+.quiz-palette-btn {
+  @apply w-9 h-9 rounded-lg text-sm font-semibold transition-all duration-150 flex items-center justify-center;
+}
+
+.glass {
+  @apply backdrop-blur-xl bg-white/70 dark:bg-black/40;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-brand-500 to-purple-600 bg-clip-text text-transparent;
+}

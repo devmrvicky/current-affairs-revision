@@ -1,0 +1,40 @@
+{
+  "date": "04 June 2026",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The 'Digital Personal Data Protection Act 2023' in India was passed by:",
+      "options": ["Lok Sabha only", "Rajya Sabha only", "Both Houses of Parliament", "Presidential Ordinance"],
+      "correctAnswer": "Both Houses of Parliament",
+      "explanation": "The Digital Personal Data Protection (DPDP) Act 2023 was passed by both Lok Sabha and Rajya Sabha, receiving Presidential assent on August 11, 2023. It is India's first comprehensive data privacy law."
+    },
+    {
+      "id": 2,
+      "question": "Which institution manages the 'PM Gati Shakti National Master Plan'?",
+      "options": ["NITI Aayog", "Ministry of Commerce and Industry", "Ministry of Railways", "Department for Promotion of Industry and Internal Trade (DPIIT)"],
+      "correctAnswer": "Department for Promotion of Industry and Internal Trade (DPIIT)",
+      "explanation": "PM Gati Shakti National Master Plan is coordinated by DPIIT under the Ministry of Commerce and Industry. It is a digital platform integrating plans of 16 ministries for holistic infrastructure planning."
+    },
+    {
+      "id": 3,
+      "question": "India's first indigenous aircraft carrier, INS Vikrant, was commissioned in:",
+      "options": ["Mumbai", "Kochi", "Visakhapatnam", "Chennai"],
+      "correctAnswer": "Kochi",
+      "explanation": "INS Vikrant, India's first indigenously built aircraft carrier, was commissioned by PM Narendra Modi on September 2, 2022, at Cochin Shipyard Limited in Kochi, Kerala."
+    },
+    {
+      "id": 4,
+      "question": "The 'Semiconductor Mission' in India aims to establish fabrication plants under which ministry?",
+      "options": ["Ministry of Electronics and IT", "Ministry of Heavy Industries", "Ministry of Commerce", "NITI Aayog"],
+      "correctAnswer": "Ministry of Electronics and IT",
+      "explanation": "India's Semiconductor Mission is under the Ministry of Electronics and Information Technology (MeitY) with an outlay of ₹76,000 crore to attract semiconductor and display manufacturing investments."
+    },
+    {
+      "id": 5,
+      "question": "Which country became the first to use nuclear energy to achieve net zero status?",
+      "options": ["France", "Finland", "Sweden", "Switzerland"],
+      "correctAnswer": "France",
+      "explanation": "France, with over 70% of its electricity from nuclear power, became the first country to formally achieve net zero carbon electricity by 2026, setting a benchmark for nuclear-assisted climate goals."
+    }
+  ]
+}
