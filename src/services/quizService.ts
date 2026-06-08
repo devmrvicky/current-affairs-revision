@@ -36,11 +36,11 @@ export function getDisplayDate(date: Date = new Date()): string {
 // Add new date files here as they're created.
 
 const quizModules: Record<string, () => Promise<{ default: DailyQuiz }>> = {
-  "08june2026.json": () => import("../data/current-affairs/08june2026.json"),
-  "07june2026.json": () => import("../data/current-affairs/07june2026.json"),
-  "06june2026.json": () => import("../data/current-affairs/06june2026.json"),
-  "05june2026.json": () => import("../data/current-affairs/05june2026.json"),
-  "04june2026.json": () => import("../data/current-affairs/04june2026.json"),
+  "08jun2026.json": () => import("../data/current-affairs/08jun2026.json"),
+  "07jun2026.json": () => import("../data/current-affairs/07jun2026.json"),
+  "06jun2026.json": () => import("../data/current-affairs/06jun2026.json"),
+  "05jun2026.json": () => import("../data/current-affairs/05jun2026.json"),
+  "04jun2026.json": () => import("../data/current-affairs/04jun2026.json"),
 };
 
 // ─── Quiz Loading ─────────────────────────────────────────────────────────────
@@ -55,7 +55,6 @@ export async function loadQuizForDate(
 export async function loadQuizByFileName(
   fileName: string,
 ): Promise<DailyQuiz | null> {
-  console.log(quizModules);
   const loader = quizModules[fileName];
   console.log(
     loader ? `Loading quiz for ${fileName}` : `No quiz found for ${fileName}`,
@@ -63,7 +62,6 @@ export async function loadQuizByFileName(
   if (!loader) return null;
   try {
     const module = await loader();
-    console.log(module);
     return module.default;
   } catch {
     return null;
