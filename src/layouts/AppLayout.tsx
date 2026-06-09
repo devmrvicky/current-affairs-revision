@@ -1,13 +1,14 @@
 import { Outlet, NavLink, useLocation } from 'react-router-dom';
-import { Home, Clock, BarChart3, Settings, BookOpen, Moon, Sun } from 'lucide-react';
+import { Home, Clock, BarChart3, Settings, BookOpen, Moon, Sun, Calendar, Brain } from 'lucide-react';
 import { useSettingsStore } from '../store/statsStore';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const NAV = [
   { to: '/', icon: Home, label: 'Home' },
+  { to: '/revision-calendar', icon: Calendar, label: 'Calendar' },
   { to: '/history', icon: Clock, label: 'History' },
+  { to: '/wrong-questions', icon: Brain, label: 'Practice' },
   { to: '/statistics', icon: BarChart3, label: 'Stats' },
-  { to: '/revision', icon: BookOpen, label: 'Revision' },
   { to: '/settings', icon: Settings, label: 'Settings' },
 ];
 
@@ -23,7 +24,7 @@ export default function AppLayout() {
 
   return (
     <div className="min-h-screen flex flex-col" style={{ background: 'var(--bg)' }}>
-      {/* Top Header (hidden on quiz/analysis) */}
+      {/* Top Header */}
       {!isQuizPage && (
         <header className="sticky top-0 z-40 glass border-b border-[var(--border)]">
           <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
@@ -31,11 +32,9 @@ export default function AppLayout() {
               <div className="w-8 h-8 bg-gradient-to-br from-brand-500 to-purple-600 rounded-lg flex items-center justify-center shadow-glow">
                 <BookOpen size={16} className="text-white" />
               </div>
-              <div>
-                <span className="font-display font-bold text-lg" style={{ color: 'var(--text-primary)' }}>
-                  CurrentAffairs<span className="gradient-text">Pro</span>
-                </span>
-              </div>
+              <span className="font-display font-bold text-lg" style={{ color: 'var(--text-primary)' }}>
+                CurrentAffairs<span className="gradient-text">Pro</span>
+              </span>
             </div>
 
             <button
@@ -43,11 +42,10 @@ export default function AppLayout() {
               className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
               aria-label="Toggle theme"
             >
-              {settings.theme === 'dark' ? (
-                <Sun size={18} className="text-amber-400" />
-              ) : (
-                <Moon size={18} style={{ color: 'var(--text-secondary)' }} />
-              )}
+              {settings.theme === 'dark'
+                ? <Sun size={18} className="text-amber-400" />
+                : <Moon size={18} style={{ color: 'var(--text-secondary)' }} />
+              }
             </button>
           </div>
         </header>
@@ -61,38 +59,36 @@ export default function AppLayout() {
             initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
-            transition={{ duration: 0.2 }}
+            transition={{ duration: 0.18 }}
           >
             <Outlet />
           </motion.div>
         </AnimatePresence>
       </main>
 
-      {/* Bottom Nav (mobile) / Side Nav (desktop) */}
+      {/* Nav (hidden on quiz/analysis) */}
       {!isQuizPage && (
         <>
           {/* Mobile Bottom Nav */}
           <nav className="md:hidden fixed bottom-0 left-0 right-0 z-40 glass border-t border-[var(--border)]">
-            <div className="flex items-center justify-around px-2 h-16">
+            <div className="flex items-center justify-around px-1 h-16">
               {NAV.map(({ to, icon: Icon, label }) => (
                 <NavLink
                   key={to}
                   to={to}
                   end={to === '/'}
                   className={({ isActive }) =>
-                    `flex flex-col items-center gap-0.5 px-3 py-1 rounded-xl transition-all duration-200 ${
-                      isActive
-                        ? 'text-brand-500 dark:text-brand-400'
-                        : 'text-gray-400 dark:text-gray-600'
+                    `flex flex-col items-center gap-0.5 px-2 py-1 rounded-xl transition-all duration-200 ${
+                      isActive ? 'text-brand-500 dark:text-brand-400' : 'text-gray-400 dark:text-gray-600'
                     }`
                   }
                 >
                   {({ isActive }) => (
                     <>
                       <div className={`p-1.5 rounded-lg transition-all ${isActive ? 'bg-brand-100 dark:bg-brand-900/40' : ''}`}>
-                        <Icon size={18} />
+                        <Icon size={17} />
                       </div>
-                      <span className="text-xs font-medium">{label}</span>
+                      <span className="text-[10px] font-medium leading-none">{label}</span>
                     </>
                   )}
                 </NavLink>
@@ -101,7 +97,7 @@ export default function AppLayout() {
           </nav>
 
           {/* Desktop Sidebar */}
-          <aside className="hidden md:flex fixed left-4 top-1/2 -translate-y-1/2 z-40 flex-col gap-2 card p-2">
+          <aside className="hidden md:flex fixed left-4 top-1/2 -translate-y-1/2 z-40 flex-col gap-1.5 card p-2">
             {NAV.map(({ to, icon: Icon, label }) => (
               <NavLink
                 key={to}

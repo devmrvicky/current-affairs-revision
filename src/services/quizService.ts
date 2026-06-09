@@ -1,75 +1,34 @@
-import type { DailyQuiz } from "../types";
+// quizService.ts — thin facade over QuizRepository
+// All pages/stores import from here; the repository is swapped in quizRepository.ts.
 
-// ─── Filename Generation ──────────────────────────────────────────────────────
+import { getQuizRepository, buildFileName, buildDisplayDate, parseDateFromFileName } from './quizRepository';
+import type { DailyQuiz } from '../types';
 
-export function getFileName(date: Date = new Date()): string {
-  const day = String(date.getDate()).padStart(2, "0");
-  const months = [
-    "jan",
-    "feb",
-    "mar",
-    "apr",
-    "may",
-    "jun",
-    "jul",
-    "aug",
-    "sep",
-    "oct",
-    "nov",
-    "dec",
-  ];
-  const month = months[date.getMonth()];
-  const year = date.getFullYear();
-  return `${day}${month}${year}.json`;
-}
+// ─── Re-export helpers so existing imports don't break ───────────────────────
 
-export function getDisplayDate(date: Date = new Date()): string {
-  return date.toLocaleDateString("en-IN", {
-    day: "2-digit",
-    month: "long",
-    year: "numeric",
-  });
-}
-
-// ─── Known quiz files manifest ─────────────────────────────────────────────────
-// Vite requires a static import map for dynamic imports with JSON.
-// Add new date files here as they're created.
-
-const quizModules: Record<string, () => Promise<{ default: DailyQuiz }>> = {
-  "08jun2026.json": () => import("../data/current-affairs/08jun2026.json"),
-  "07jun2026.json": () => import("../data/current-affairs/07jun2026.json"),
-  "06jun2026.json": () => import("../data/current-affairs/06jun2026.json"),
-  "05jun2026.json": () => import("../data/current-affairs/05jun2026.json"),
-  "04jun2026.json": () => import("../data/current-affairs/04jun2026.json"),
-  "09jun2026.json": () => import("../data/current-affairs/09jun2026.json"),
-};
+export { buildFileName as getFileName, buildDisplayDate as getDisplayDate, parseDateFromFileName };
 
 // ─── Quiz Loading ─────────────────────────────────────────────────────────────
 
-export async function loadQuizForDate(
-  date: Date = new Date(),
-): Promise<DailyQuiz | null> {
-  const fileName = getFileName(date);
-  return loadQuizByFileName(fileName);
+export async function loadQuizForDate(date: Date = new Date()): Promise<DailyQuiz | null> {
+  return getQuizRepository().getQuizByFileName(buildFileName(date));
 }
 
-export async function loadQuizByFileName(
-  fileName: string,
-): Promise<DailyQuiz | null> {
-  // const loader = quizModules[fileName];
-  const loader = quizModules["09jun2026.json"];
-  console.log(
-    loader ? `Loading quiz for ${fileName}` : `No quiz found for ${fileName}`,
-  );
-  if (!loader) return null;
-  try {
-    const module = await loader();
-    return module.default;
-  } catch {
-    return null;
-  }
+export async function loadQuizByFileName(fileName: string): Promise<DailyQuiz | null> {
+  return getQuizRepository().getQuizByFileName(fileName);
 }
 
 // ─── Available Files ──────────────────────────────────────────────────────────
 
-export const AVAILABLE_QUIZ_FILES = Object.keys(quizModules);
+/** Returns all known quiz filenames. Cached after first call. */
+export async function getAvailableFileNames(): Promise<string[]> {
+  return getQuizRepository().getAvailableFileNames();
+}
+
+/** @deprecated use getAvailableFileNames() — kept for backward compat */
+export const AVAILABLE_QUIZ_FILES: string[] = [];
+// Populated lazily — callers that need it should call getAvailableFileNames()
+getAvailableFileNames().then((files) => {
+  AVAILABLE_QUIZ_FILES.length = 0;
+  AVAILABLE_QUIZ_FILES.push(...files);
+});

@@ -124,3 +124,35 @@ export interface FilterOptions {
   search: string;
   sortBy: SortOrder;
 }
+
+// ─── Wrong Questions / Mastery ────────────────────────────────────────────────
+
+export type MasteryStatus = 'learning' | 'mastered';
+
+export interface WrongQuestion {
+  id: string;                // unique: `${dateKey}_${questionId}`
+  questionId: number;
+  question: string;
+  options: string[];
+  correctAnswer: string;
+  explanation: string;
+  dateKey: string;           // YYYY-MM-DD of original test
+  displayDate: string;
+  fileName: string;
+  wrongCount: number;
+  consecutiveCorrect: number; // mastered when this reaches 3
+  status: MasteryStatus;
+  lastAttemptAt: number;
+  addedAt: number;
+}
+
+// ─── Calendar ─────────────────────────────────────────────────────────────────
+
+export type CalendarDateStatus = 'available' | 'unavailable' | 'completed' | 'none';
+
+export interface CalendarDate {
+  date: Date;
+  dateKey: string;           // YYYY-MM-DD
+  fileName: string;          // e.g. 08june2026.json
+  status: CalendarDateStatus;
+}

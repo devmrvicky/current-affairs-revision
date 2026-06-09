@@ -1,5 +1,5 @@
 import { openDB, DBSchema, IDBPDatabase } from 'idb';
-import type { SavedTest, Statistics, Settings } from '../types';
+import type { SavedTest, Statistics, Settings, WrongQuestion } from '../types';
 
 // ─── Schema ───────────────────────────────────────────────────────────────────
 
@@ -22,31 +22,38 @@ interface AppDB extends DBSchema {
     value: { id: string; questionId: number; testId: string; addedAt: number };
     indexes: { 'by-testId': string };
   };
+  wrongQuestions: {
+    key: string;
+    value: WrongQuestion;
+    indexes: { 'by-status': string; 'by-dateKey': string };
+  };
 }
 
 const DB_NAME = 'CurrentAffairsDB';
-const DB_VERSION = 1;
+const DB_VERSION = 2; // bumped from 1 → 2 to add wrongQuestions store
 
 let dbInstance: IDBPDatabase<AppDB> | null = null;
 
 async function getDB(): Promise<IDBPDatabase<AppDB>> {
   if (dbInstance) return dbInstance;
   dbInstance = await openDB<AppDB>(DB_NAME, DB_VERSION, {
-    upgrade(db) {
-      // savedTests
-      const testStore = db.createObjectStore('savedTests', { keyPath: 'id' });
-      testStore.createIndex('by-date', 'date');
-      testStore.createIndex('by-savedAt', 'savedAt');
-
-      // statistics
-      db.createObjectStore('statistics', { keyPath: 'id' as never });
-
-      // settings
-      db.createObjectStore('settings', { keyPath: 'id' as never });
-
-      // revisionQueue
-      const revStore = db.createObjectStore('revisionQueue', { keyPath: 'id' });
-      revStore.createIndex('by-testId', 'testId');
+    upgrade(db, oldVersion) {
+      // v1 stores (create only if they don't exist)
+      if (oldVersion < 1) {
+        const testStore = db.createObjectStore('savedTests', { keyPath: 'id' });
+        testStore.createIndex('by-date', 'date');
+        testStore.createIndex('by-savedAt', 'savedAt');
+        db.createObjectStore('statistics', { keyPath: 'id' as never });
+        db.createObjectStore('settings', { keyPath: 'id' as never });
+        const revStore = db.createObjectStore('revisionQueue', { keyPath: 'id' });
+        revStore.createIndex('by-testId', 'testId');
+      }
+      // v2: wrong questions store
+      if (oldVersion < 2) {
+        const wqStore = db.createObjectStore('wrongQuestions', { keyPath: 'id' });
+        wqStore.createIndex('by-status', 'status');
+        wqStore.createIndex('by-dateKey', 'dateKey');
+      }
     },
   });
   return dbInstance;
@@ -203,5 +210,45 @@ export const settingsDB = {
   async save(settings: Settings): Promise<void> {
     const db = await getDB();
     await db.put('settings', { ...settings, id: 'user' } as never);
+  },
+};
+
+// ─── Wrong Questions ──────────────────────────────────────────────────────────
+
+export const wrongQuestionsDB = {
+  async getAll(): Promise<WrongQuestion[]> {
+    const db = await getDB();
+    return db.getAll('wrongQuestions');
+  },
+
+  async getActive(): Promise<WrongQuestion[]> {
+    const db = await getDB();
+    const all = await db.getAllFromIndex('wrongQuestions', 'by-status', 'learning');
+    return all.sort((a, b) => b.wrongCount - a.wrongCount);
+  },
+
+  async upsert(wq: WrongQuestion): Promise<void> {
+    const db = await getDB();
+    await db.put('wrongQuestions', wq);
+  },
+
+  async delete(id: string): Promise<void> {
+    const db = await getDB();
+    await db.delete('wrongQuestions', id);
+  },
+
+  async getById(id: string): Promise<WrongQuestion | undefined> {
+    const db = await getDB();
+    return db.get('wrongQuestions', id);
+  },
+
+  async count(): Promise<{ total: number; mastered: number; learning: number }> {
+    const db = await getDB();
+    const all = await db.getAll('wrongQuestions');
+    return {
+      total: all.length,
+      mastered: all.filter((q) => q.status === 'mastered').length,
+      learning: all.filter((q) => q.status === 'learning').length,
+    };
   },
 };

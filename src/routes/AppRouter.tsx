@@ -7,6 +7,8 @@ import HistoryPage from '../pages/HistoryPage';
 import HistoryDetailPage from '../pages/HistoryDetailPage';
 import StatisticsPage from '../pages/StatisticsPage';
 import RevisionPage from '../pages/RevisionPage';
+import RevisionCalendarPage from '../pages/RevisionCalendarPage';
+import WrongQuestionsPage from '../pages/WrongQuestionsPage';
 import SettingsPage from '../pages/SettingsPage';
 import NoQuizTodayPage from '../pages/NoQuizTodayPage';
 
@@ -20,12 +22,14 @@ const router = createBrowserRouter([
       { path: 'history/:id', element: <HistoryDetailPage /> },
       { path: 'statistics', element: <StatisticsPage /> },
       { path: 'revision', element: <RevisionPage /> },
+      { path: 'revision-calendar', element: <RevisionCalendarPage /> },
+      { path: 'wrong-questions', element: <WrongQuestionsPage /> },
       { path: 'settings', element: <SettingsPage /> },
       { path: 'no-quiz-today', element: <NoQuizTodayPage /> },
       { path: 'analysis', element: <AnalysisPage /> },
     ],
   },
-  // Quiz is full-screen outside the main layout
+  // Full-screen pages (no app shell)
   { path: '/quiz', element: <QuizPage /> },
 ]);
 

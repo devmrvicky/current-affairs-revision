@@ -1,24 +1,20 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Save, Trash2, Home, List, CheckCircle2, XCircle, Bookmark } from 'lucide-react';
+import { Save, Trash2, Home, CheckCircle2 } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { useQuizStore } from '../store/quizStore';
 import { useHistoryStore } from '../store/historyStore';
-import { buildAnalysis, sessionToSavedTest } from '../utils';
+import { useWrongQuestionsStore } from '../store/wrongQuestionsStore';
+import { buildAnalysis, sessionToSavedTest, formatDateKey } from '../utils';
 import { AnalysisOverview, QuestionReview } from '../components/analysis/AnalysisComponents';
-import type { QuestionAttempt } from '../types';
-import confetti from 'canvas-confetti';
 
 type TabKey = 'overview' | 'all' | 'wrong' | 'correct' | 'bookmarked';
 
-// Minimal confetti — imported lazily if available
 async function fireConfetti(score: number) {
   try {
     const mod = await import('canvas-confetti');
-    if (score >= 75) {
-      mod.default({ particleCount: 120, spread: 70, origin: { y: 0.6 } });
-    }
+    if (score >= 75) mod.default({ particleCount: 120, spread: 70, origin: { y: 0.6 } });
   } catch {}
 }
 
@@ -26,17 +22,14 @@ export default function AnalysisPage() {
   const navigate = useNavigate();
   const { session, clearSession } = useQuizStore();
   const { save } = useHistoryStore();
+  const { ingestFromAttempts } = useWrongQuestionsStore();
   const [saved, setSaved] = useState(false);
   const [tab, setTab] = useState<TabKey>('overview');
   const [isSaving, setIsSaving] = useState(false);
 
   useEffect(() => {
-    if (!session) {
-      navigate('/', { replace: true });
-      return;
-    }
-    const result = buildAnalysis(session);
-    fireConfetti(result.score);
+    if (!session) { navigate('/', { replace: true }); return; }
+    fireConfetti(buildAnalysis(session).score);
   }, []);
 
   if (!session) return null;
@@ -50,8 +43,15 @@ export default function AnalysisPage() {
     try {
       const test = sessionToSavedTest(session, false);
       await save(test);
+      // Auto-ingest wrong answers into the wrong questions tracker
+      await ingestFromAttempts(
+        session.attempts,
+        formatDateKey(new Date()),
+        session.date,
+        session.fileName
+      );
       setSaved(true);
-      toast.success('Test saved successfully!');
+      toast.success('Test saved! Wrong answers added to revision queue.');
     } catch {
       toast.error('Failed to save test');
     } finally {
@@ -105,11 +105,12 @@ export default function AnalysisPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
           className="card p-4 flex items-center justify-between gap-4"
-          style={{ borderColor: '#6366f120' }}
         >
           <div>
             <p className="font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>Save this test?</p>
-            <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Save to review later and track your progress</p>
+            <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
+              Saves results and adds wrong answers to your revision queue
+            </p>
           </div>
           <div className="flex gap-2 flex-shrink-0">
             <button
@@ -134,11 +135,13 @@ export default function AnalysisPage() {
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
-          className="card p-4 flex items-center gap-3 border-green-300 dark:border-green-700"
+          className="card p-4 flex items-center gap-3"
           style={{ borderColor: '#22c55e40' }}
         >
           <CheckCircle2 size={20} className="text-green-500 flex-shrink-0" />
-          <p className="text-sm font-medium text-green-700 dark:text-green-400">Test saved! You can review it in History.</p>
+          <p className="text-sm font-medium text-green-700 dark:text-green-400">
+            Test saved! Wrong answers added to your revision queue.
+          </p>
         </motion.div>
       )}
 
@@ -158,7 +161,9 @@ export default function AnalysisPage() {
             {label}
             {count !== undefined && count > 0 && (
               <span className={`ml-1 px-1.5 py-0.5 rounded-full text-xs ${
-                tab === key ? 'bg-brand-100 dark:bg-brand-900/30 text-brand-600 dark:text-brand-400' : 'bg-gray-200 dark:bg-white/10'
+                tab === key
+                  ? 'bg-brand-100 dark:bg-brand-900/30 text-brand-600 dark:text-brand-400'
+                  : 'bg-gray-200 dark:bg-white/10'
               }`}>
                 {count}
               </span>
@@ -167,15 +172,27 @@ export default function AnalysisPage() {
         ))}
       </div>
 
-      {/* Tab Content */}
-      {tab === 'overview' ? (
-        <AnalysisOverview result={result} />
-      ) : (
-        <QuestionReview
-          attempts={session.attempts}
-          filter={tab === 'all' ? 'all' : tab === 'wrong' ? 'wrong' : tab === 'correct' ? 'correct' : 'bookmarked'}
-        />
-      )}
+      {/* Content */}
+      <motion.div
+        key={tab}
+        initial={{ opacity: 0, y: 6 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.18 }}
+      >
+        {tab === 'overview' ? (
+          <AnalysisOverview result={result} />
+        ) : (
+          <QuestionReview
+            attempts={session.attempts}
+            filter={
+              tab === 'all' ? 'all'
+              : tab === 'wrong' ? 'wrong'
+              : tab === 'correct' ? 'correct'
+              : 'bookmarked'
+            }
+          />
+        )}
+      </motion.div>
     </div>
   );
 }

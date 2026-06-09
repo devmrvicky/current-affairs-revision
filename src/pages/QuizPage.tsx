@@ -1,13 +1,12 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowLeft, Pause, Play, Bookmark, ChevronLeft, ChevronRight, LayoutGrid, X } from 'lucide-react';
-import toast from 'react-hot-toast';
+import { Pause, Play, Bookmark, ChevronLeft, ChevronRight, LayoutGrid, X } from 'lucide-react';
 import { useQuizStore } from '../store/quizStore';
 import { useSettingsStore } from '../store/statsStore';
 import { QuizTimer } from '../components/quiz/QuizTimer';
 import { QuestionPalette } from '../components/quiz/QuestionPalette';
-import { AnswerFeedback } from '../components/quiz/AnswerFeedback';
+import { AnswerBottomSheet } from '../components/quiz/AnswerBottomSheet';
 import { getOptionLabel } from '../utils';
 
 export default function QuizPage() {
@@ -17,26 +16,29 @@ export default function QuizPage() {
 
   const [showPalette, setShowPalette] = useState(false);
   const [questionStartTime, setQuestionStartTime] = useState(Date.now());
-  const currentAttemptRef = useRef(session?.attempts[session?.currentIndex ?? 0]);
   const [isPaused, setIsPaused] = useState(false);
+  const [showSheet, setShowSheet] = useState(false);
 
+  // Redirect guards
   useEffect(() => {
-    if (!session) {
-      navigate('/', { replace: true });
-      return;
-    }
-    if (session.isCompleted) {
-      navigate('/analysis', { replace: true });
-      return;
-    }
+    if (!session) { navigate('/', { replace: true }); return; }
+    if (session.isCompleted) { navigate('/analysis', { replace: true }); return; }
   }, [session, navigate]);
 
+  // Reset timer and hide sheet when question changes
   useEffect(() => {
     setQuestionStartTime(Date.now());
-    if (session) {
-      currentAttemptRef.current = session.attempts[session.currentIndex];
-    }
+    setShowSheet(false);
   }, [session?.currentIndex]);
+
+  // Show sheet when answer is submitted
+  useEffect(() => {
+    if (!session) return;
+    const current = session.attempts[session.currentIndex];
+    if (current?.status !== 'unanswered') {
+      setShowSheet(true);
+    }
+  }, [session?.attempts[session?.currentIndex ?? 0]?.status]);
 
   // Keyboard navigation
   useEffect(() => {
@@ -44,20 +46,16 @@ export default function QuizPage() {
 
     function handleKey(e: KeyboardEvent) {
       const current = session!.attempts[session!.currentIndex];
-      if (current.status !== 'unanswered') {
-        if (e.key === 'ArrowRight' || e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          handleNext();
-        }
-        return;
-      }
-
-      const keyMap: Record<string, number> = { '1': 0, 'a': 0, 'A': 0, '2': 1, 'b': 1, 'B': 1, '3': 2, 'c': 2, 'C': 2, '4': 3, 'd': 3, 'D': 3 };
+      if (current.status !== 'unanswered') return; // bottom sheet handles nav when answered
+      const keyMap: Record<string, number> = {
+        '1': 0, 'a': 0, 'A': 0,
+        '2': 1, 'b': 1, 'B': 1,
+        '3': 2, 'c': 2, 'C': 2,
+        '4': 3, 'd': 3, 'D': 3,
+      };
       if (e.key in keyMap) {
         const idx = keyMap[e.key];
-        if (idx < current.options.length) {
-          handleSelect(current.options[idx]);
-        }
+        if (idx < current.options.length) handleSelect(current.options[idx]);
       }
     }
 
@@ -79,6 +77,7 @@ export default function QuizPage() {
   }
 
   function handleNext() {
+    setShowSheet(false);
     if (isLast) {
       navigate('/analysis');
     } else {
@@ -103,13 +102,22 @@ export default function QuizPage() {
     }
   }
 
+  function jumpTo(idx: number) {
+    useQuizStore.setState((s) => ({
+      session: s.session ? { ...s.session, currentIndex: idx } : null,
+    }));
+  }
+
   return (
     <div className="min-h-screen" style={{ background: 'var(--bg)' }}>
       {/* Header */}
       <header className="sticky top-0 z-30 glass border-b border-[var(--border)]">
         <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <button onClick={handleQuit} className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
+            <button
+              onClick={handleQuit}
+              className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
+            >
               <X size={18} style={{ color: 'var(--text-secondary)' }} />
             </button>
             <div>
@@ -134,7 +142,10 @@ export default function QuizPage() {
               className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
               title={isPaused ? 'Resume' : 'Pause'}
             >
-              {isPaused ? <Play size={16} style={{ color: 'var(--text-primary)' }} /> : <Pause size={16} style={{ color: 'var(--text-secondary)' }} />}
+              {isPaused
+                ? <Play size={16} style={{ color: 'var(--text-primary)' }} />
+                : <Pause size={16} style={{ color: 'var(--text-secondary)' }} />
+              }
             </button>
             <button
               onClick={() => setShowPalette(true)}
@@ -167,7 +178,9 @@ export default function QuizPage() {
           >
             <div className="card p-10 text-center">
               <div className="text-5xl mb-4">⏸️</div>
-              <h2 className="text-2xl font-display font-bold mb-2" style={{ color: 'var(--text-primary)' }}>Test Paused</h2>
+              <h2 className="text-2xl font-display font-bold mb-2" style={{ color: 'var(--text-primary)' }}>
+                Test Paused
+              </h2>
               <p className="mb-6" style={{ color: 'var(--text-secondary)' }}>Your progress is saved.</p>
               <button onClick={handlePause} className="btn-primary flex items-center gap-2 mx-auto">
                 <Play size={16} /> Resume Test
@@ -188,8 +201,7 @@ export default function QuizPage() {
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -20 }}
-                transition={{ duration: 0.25 }}
-                className="space-y-4"
+                transition={{ duration: 0.22 }}
               >
                 {/* Question Card */}
                 <div className="card p-6">
@@ -219,24 +231,18 @@ export default function QuizPage() {
                   <div className="space-y-3">
                     {currentAttempt.options.map((option, idx) => {
                       const label = getOptionLabel(idx);
-                      let className = 'option-btn';
-
+                      let cls = 'option-btn';
                       if (isAnswered) {
-                        if (option === currentAttempt.correctAnswer) {
-                          className += ' reveal-correct';
-                        } else if (option === currentAttempt.selectedAnswer) {
-                          className += ' selected-wrong';
-                        } else {
-                          className += ' neutral-disabled';
-                        }
+                        if (option === currentAttempt.correctAnswer) cls += ' reveal-correct';
+                        else if (option === currentAttempt.selectedAnswer) cls += ' selected-wrong';
+                        else cls += ' neutral-disabled';
                       }
-
                       return (
                         <motion.button
                           key={option}
                           whileHover={!isAnswered ? { scale: 1.005 } : {}}
                           whileTap={!isAnswered ? { scale: 0.995 } : {}}
-                          className={className}
+                          className={cls}
                           onClick={() => handleSelect(option)}
                           disabled={isAnswered}
                         >
@@ -258,27 +264,26 @@ export default function QuizPage() {
                   </div>
                 </div>
 
-                {/* Feedback */}
-                {isAnswered && (
-                  <AnswerFeedback
-                    attempt={currentAttempt}
-                    isLastQuestion={isLast}
-                    onNext={handleNext}
-                    onBookmark={() => toggleBookmark(currentAttempt.questionId)}
-                    showExplanation={settings.showExplanation}
-                  />
+                {/* Answered hint — bottom sheet is open so no inline feedback needed */}
+                {isAnswered && !showSheet && (
+                  <div className="mt-3 text-center">
+                    <button
+                      onClick={() => setShowSheet(true)}
+                      className="text-sm text-brand-500 font-medium underline underline-offset-2"
+                    >
+                      Show feedback ↑
+                    </button>
+                  </div>
                 )}
               </motion.div>
             </AnimatePresence>
 
-            {/* Navigation Buttons */}
+            {/* Navigation Buttons (unanswered only) */}
             {!isAnswered && (
               <div className="flex justify-between mt-4">
                 <button
                   className="btn-ghost flex items-center gap-1 text-sm"
-                  onClick={() => useQuizStore.getState().session && useQuizStore.setState(s => ({
-                    session: s.session ? { ...s.session, currentIndex: Math.max(0, s.session.currentIndex - 1) } : null
-                  }))}
+                  onClick={() => jumpTo(Math.max(0, session.currentIndex - 1))}
                   disabled={session.currentIndex === 0}
                 >
                   <ChevronLeft size={16} /> Previous
@@ -302,9 +307,7 @@ export default function QuizPage() {
                 onJump={(idx) => {
                   const attempt = session.attempts[idx];
                   if (attempt.status !== 'unanswered' || idx <= session.currentIndex) {
-                    useQuizStore.setState(s => ({
-                      session: s.session ? { ...s.session, currentIndex: idx } : null
-                    }));
+                    jumpTo(idx);
                   }
                 }}
               />
@@ -312,6 +315,16 @@ export default function QuizPage() {
           </div>
         </div>
       </div>
+
+      {/* Answer Bottom Sheet */}
+      <AnswerBottomSheet
+        attempt={showSheet ? currentAttempt : null}
+        isLastQuestion={isLast}
+        onNext={handleNext}
+        onBookmark={() => toggleBookmark(currentAttempt.questionId)}
+        onClose={() => setShowSheet(false)}
+        showExplanation={settings.showExplanation}
+      />
 
       {/* Mobile Palette Drawer */}
       <AnimatePresence>
@@ -333,8 +346,13 @@ export default function QuizPage() {
               style={{ background: 'var(--card)', borderLeft: '1px solid var(--border)' }}
             >
               <div className="flex items-center justify-between mb-4">
-                <h2 className="font-display font-bold" style={{ color: 'var(--text-primary)' }}>Question Palette</h2>
-                <button onClick={() => setShowPalette(false)} className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+                <h2 className="font-display font-bold" style={{ color: 'var(--text-primary)' }}>
+                  Question Palette
+                </h2>
+                <button
+                  onClick={() => setShowPalette(false)}
+                  className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10"
+                >
                   <X size={16} style={{ color: 'var(--text-secondary)' }} />
                 </button>
               </div>
@@ -342,9 +360,7 @@ export default function QuizPage() {
                 attempts={session.attempts}
                 currentIndex={session.currentIndex}
                 onJump={(idx) => {
-                  useQuizStore.setState(s => ({
-                    session: s.session ? { ...s.session, currentIndex: idx } : null
-                  }));
+                  jumpTo(idx);
                   setShowPalette(false);
                 }}
               />
