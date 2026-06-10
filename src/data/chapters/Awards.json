@@ -1,89 +1,187 @@
 {
-  "date": "N/A",
+  "date": "2024-2026",
   "questions": [
     {
       "id": 1,
-      "question": "The Nobel Prize in Literature 2024 was awarded to:",
-      "options": ["Salman Rushdie", "Han Kang", "Haruki Murakami", "Olga Tokarczuk"],
-      "correctAnswer": "Han Kang",
-      "explanation": "Han Kang, a South Korean author, won the Nobel Prize in Literature 2024 for 'her intense poetic prose that confronts historical traumas and exposes the fragility of human life.'"
+      "question": "भारत का सर्वोच्च नागरिक पुरस्कार कौन सा है, जो किसी भी क्षेत्र में उत्कृष्ट सेवा के लिए प्रदान किया जाता है?",
+      "options": ["पद्म विभूषण", "भारत रत्न", "पद्म भूषण", "परमवीर चक्र"],
+      "correctAnswer": "भारत रत्न",
+      "explanation": "भारत रत्न भारत का सर्वोच्च नागरिक पुरस्कार है जो किसी भी क्षेत्र में उत्कृष्ट और असाधारण सेवा के लिए प्रदान किया जाता है।"
     },
     {
       "id": 2,
-      "question": "Bharat Ratna is awarded for exceptional service in which fields?",
-      "options": ["Arts only", "Science only", "Public Service only", "Arts, Science, Literature, and Public Service"],
-      "correctAnswer": "Arts, Science, Literature, and Public Service",
-      "explanation": "Bharat Ratna is India's highest civilian honor awarded for exceptional service/performance of the highest order in recognition of distinguished service of any field including arts, literature, science and public service."
+      "question": "भारत रत्न पुरस्कार की स्थापना किस वर्ष और किस तारीख को की गई थी?",
+      "options": ["15 अगस्त 1947", "26 जनवरी 1950", "2 जनवरी 1954", "2 अक्टूबर 1956"],
+      "correctAnswer": "2 जनवरी 1954",
+      "explanation": "भारत रत्न पुरस्कार की स्थापना 2 जनवरी 1954 को की गई थी।"
     },
     {
       "id": 3,
-      "question": "The Pulitzer Prize is awarded for excellence in which field?",
-      "options": ["Cinema", "Music", "Journalism and Literature", "Science"],
-      "correctAnswer": "Journalism and Literature",
-      "explanation": "The Pulitzer Prize recognizes achievement in newspaper, magazine, online journalism, literature, and musical composition in the USA. It was established by Joseph Pulitzer."
+      "question": "भारत रत्न पुरस्कार की स्थापना निम्नलिखित में से किसके द्वारा की गई थी?",
+      "options": ["जवाहरलाल नेहरू", "डॉ. राजेंद्र प्रसाद", "डॉ. सर्वपल्ली राधाकृष्णन", "सरदार वल्लभभाई पटेल"],
+      "correctAnswer": "डॉ. राजेंद्र प्रसाद",
+      "explanation": "इस पुरस्कार की स्थापना भारत के प्रथम राष्ट्रपति डॉ. राजेंद्र प्रसाद द्वारा की गई थी।"
     },
     {
       "id": 4,
-      "question": "The Man Booker Prize is awarded for best novel written in which language?",
-      "options": ["Any language", "French", "English", "Spanish"],
-      "correctAnswer": "English",
-      "explanation": "The Booker Prize is awarded annually for the best novel written in English and published in the UK. It was previously restricted to Commonwealth authors before expanding in 2014."
+      "question": "वर्ष 1954 में पहली बार भारत रत्न कुल कितने व्यक्तियों को प्रदान किया गया था?",
+      "options": ["2 व्यक्ति", "3 व्यक्ति", "4 व्यक्ति", "5 व्यक्ति"],
+      "correctAnswer": "3 व्यक्ति",
+      "explanation": "वर्ष 1954 में पहली बार यह पुरस्कार तीन व्यक्तियों (डॉ. सर्वपल्ली राधाकृष्णन, चक्रवर्ती राजगोपालाचारी, और डॉ. सी.वी. रमन) को दिया गया था।"
     },
     {
       "id": 5,
-      "question": "Who was the first Indian to receive the Nobel Prize?",
-      "options": ["C.V. Raman", "Rabindranath Tagore", "Amartya Sen", "Mother Teresa"],
-      "correctAnswer": "Rabindranath Tagore",
-      "explanation": "Rabindranath Tagore was the first Indian to receive a Nobel Prize (1913 in Literature) for Gitanjali. He was also the first non-European to receive the Nobel Prize in Literature."
+      "question": "निम्नलिखित में से कौन वर्ष 1954 में भारत रत्न पाने वाले पहले वैज्ञानिक थे?",
+      "options": ["डॉ. एपीजे अब्दुल कलाम", "डॉ. सी.वी. रमन", "होमी जहांगीर भाभा", "विक्रम साराभाई"],
+      "correctAnswer": "डॉ. सी.वी. रमन",
+      "explanation": "डॉ. सी.वी. रमन वर्ष 1954 में भारत रत्न पाने वाले देश के पहले वैज्ञानिक थे।"
     },
     {
       "id": 6,
-      "question": "The International Booker Prize 2024 was won by:",
-      "options": ["Jenny Erpenbeck", "Percival Everett", "Rachel Cusk", "Karl Ove Knausgård"],
-      "correctAnswer": "Jenny Erpenbeck",
-      "explanation": "Jenny Erpenbeck won the International Booker Prize 2024 for 'Kairos', translated from German to English by Michael Hofmann. It also won the 2024 US National Book Award."
+      "question": "भारत रत्न के पदक का आकार और डिजाइन निम्नलिखित में से किसके समान होता है?",
+      "options": ["कमल के फूल की तरह", "पीपल के पत्ते की तरह", "बरगद के पत्ते की तरह", "गुलाब के फूल की तरह"],
+      "correctAnswer": "पीपल के पत्ते की तरह",
+      "explanation": "भारत रत्न पदक का आकार पीपल के पत्ते की तरह होता है, जिस पर सूर्य की छवि बनी होती है।"
     },
     {
       "id": 7,
-      "question": "The Padma awards in India are given on which occasion?",
-      "options": ["Independence Day", "Republic Day", "Gandhi Jayanti", "National Science Day"],
-      "correctAnswer": "Republic Day",
-      "explanation": "The Padma awards (Padma Vibhushan, Padma Bhushan, Padma Shri) are announced on the eve of Republic Day (January 26) every year by the Government of India."
+      "question": "भारत रत्न पदक पर 'भारत रत्न' शब्द किस लिपि में अंकित होता है?",
+      "options": ["ब्राह्मी लिपि", "रोमन लिपि", "देवनागरी लिपि", "गुरुमुखी लिपि"],
+      "correctAnswer": "देवनागरी लिपि",
+      "explanation": "पदक के अग्र भाग पर देवनागरी लिपि में 'भारत रत्न' लिखा होता है।"
     },
     {
       "id": 8,
-      "question": "Which award is given for the best direction at the Cannes Film Festival?",
-      "options": ["Palme d'Or", "Grand Prix", "Best Director Award", "Prix de la mise en scène"],
-      "correctAnswer": "Prix de la mise en scène",
-      "explanation": "The Best Director Award at Cannes is called 'Prix de la mise en scène.' The highest award is Palme d'Or (Best Film). The Cannes Film Festival is held annually in May."
+      "question": "भारत रत्न पुरस्कार के पदक को गले में पहनने के लिए किस रंग के फीते (Ribbon) का उपयोग किया जाता है?",
+      "options": ["लाल रंग", "नीला रंग", "सफेद रंग", "पीला रंग"],
+      "correctAnswer": "सफेद रंग",
+      "explanation": "भारत रत्न पदक को सफेद रंग के फीते (White Ribbon) के साथ गले में पहना जाता है।"
     },
     {
       "id": 9,
-      "question": "The Ramon Magsaysay Award is often called the 'Nobel Prize of Asia' and is based in which country?",
-      "options": ["Japan", "Philippines", "Thailand", "Singapore"],
-      "correctAnswer": "Philippines",
-      "explanation": "The Ramon Magsaysay Award is established by the Rockefeller Brothers Fund and is based in Manila, Philippines. It is named after Ramon Magsaysay, 7th President of the Philippines."
+      "question": "भारत रत्न पुरस्कार के पदक का निर्माण मुख्य रूप से भारत में किस स्थान पर किया जाता है?",
+      "options": ["मुंबई, महाराष्ट्र", "अलीपुर, पश्चिम बंगाल", "हैदराबाद, तेलंगाना", "नोएडा, उत्तर प्रदेश"],
+      "correctAnswer": "अलीपुर, पश्चिम बंगाल",
+      "explanation": "भारत रत्न पदकों का निर्माण अलीपुर, पश्चिम बंगाल में स्थित सरकारी टकसाल में किया जाता है।"
     },
     {
       "id": 10,
-      "question": "Dada Saheb Phalke Award is India's highest award in which field?",
-      "options": ["Theatre", "Cinema", "Television", "Literature"],
-      "correctAnswer": "Cinema",
-      "explanation": "Dada Saheb Phalke Award is India's highest award in Cinema, given at the National Film Awards ceremony. It is named after Dhundiraj Govind Phalke, the father of Indian cinema."
+      "question": "भारत रत्न पुरस्कार विजेता को पुरस्कार स्वरूप कितनी धनराशि प्रदान की जाती है?",
+      "options": ["₹5 लाख", "₹10 लाख", "₹25 लाख", "कोई धनराशि नहीं (शून्य)"],
+      "correctAnswer": "कोई धनराशि नहीं (शून्य)",
+      "explanation": "भारत रत्न के तहत विजेता को कोई भी नकद धनराशि (Money) नहीं दी जाती है। इसमें केवल एक प्रशस्ति पत्र और पदक दिया जाता है।"
     },
     {
       "id": 11,
-      "question": "The Nobel Peace Prize 2024 was awarded to:",
-      "options": ["Malala Yousafzai", "Nihon Hidankyo", "Greta Thunberg", "WHO"],
-      "correctAnswer": "Nihon Hidankyo",
-      "explanation": "Nihon Hidankyo, a Japanese organization of atomic bomb survivors (Hibakusha) from Hiroshima and Nagasaki, received the Nobel Peace Prize 2024 for its efforts toward a nuclear-weapon-free world."
+      "question": "भारत रत्न पुरस्कार के लिए नामों की सिफारिश किसके द्वारा राष्ट्रपति को की जाती है?",
+      "options": ["भारत के मुख्य न्यायाधीश", "उपराष्ट्रपति", "प्रधानमंत्री", "लोकसभा अध्यक्ष"],
+      "correctAnswer": "प्रधानमंत्री",
+      "explanation": "भारत रत्न के लिए पुरस्कार विजेताओं की सिफारिश भारत के प्रधानमंत्री द्वारा राष्ट्रपति को की जाती है।"
     },
     {
       "id": 12,
-      "question": "Jnanpith Award is India's highest literary honor. It is awarded for contribution to which literature?",
-      "options": ["English literature", "Indian literature in any scheduled language", "Hindi literature only", "Classical literature"],
-      "correctAnswer": "Indian literature in any scheduled language",
-      "explanation": "The Jnanpith Award, instituted in 1961, is awarded for outstanding contribution to Indian literature written in any of the 22 scheduled languages of India including English since 1982."
+      "question": "नियमों के अनुसार, सामान्यतः एक कैलेंडर वर्ष में अधिकतम कितने जीवित व्यक्तियों को भारत रत्न दिया जा सकता है?",
+      "options": ["2 व्यक्ति", "3 व्यक्ति", "4 व्यक्ति", "5 व्यक्ति"],
+      "correctAnswer": "3 व्यक्ति",
+      "explanation": "एक वर्ष में अधिकतम 3 जीवित व्यक्तियों को ही भारत रत्न देने का प्रावधान निर्धारित है।"
+    },
+    {
+      "id": 13,
+      "question": "भारत रत्न को मरणोपरांत (Posthumous) देने की शुरुआत किस वर्ष से की गई थी?",
+      "options": ["1954 से", "1955 से", "1962 से", "1966 से"],
+      "correctAnswer": "1955 से",
+      "explanation": "मूल रूप से 1954 में मरणोपरांत पुरस्कार का प्रावधान नहीं था, लेकिन वर्ष 1955 में संशोधन करके मरणोपरांत पुरस्कार देने की शुरुआत की गई।"
+    },
+    {
+      "id": 14,
+      "question": "मरणोपरांत (Posthumous) भारत रत्न पुरस्कार से सम्मानित होने वाले देश के पहले व्यक्ति कौन थे?",
+      "options": ["जवाहरलाल नेहरू", "लाल बहादुर शास्त्री", "डॉ. बी.आर. अंबेडकर", "राजीव गांधी"],
+      "correctAnswer": "लाल बहादुर शास्त्री",
+      "explanation": "पूर्व प्रधानमंत्री लाल बहादुर शास्त्री को वर्ष 1966 में पहली बार मरणोपरांत भारत रत्न से सम्मानित किया गया था।"
+    },
+    {
+      "id": 15,
+      "question": "किस वर्ष के संशोधन के बाद भारत रत्न देने के लिए कोई विशेष क्षेत्र (Field) का निर्धारण समाप्त कर दिया गया और इसे किसी भी क्षेत्र के लिए लागू किया गया?",
+      "options": ["1991 के संशोधन से", "2002 के संशोधन से", "2011 के संशोधन से", "2015 के संशोधन से"],
+      "correctAnswer": "2011 के संशोधन से",
+      "explanation": "दिसंबर 2011 में किए गए संशोधन के बाद से भारत रत्न देने के लिए किसी विशिष्ट क्षेत्र की बाध्यता नहीं रही, अब यह मानव प्रयास के किसी भी क्षेत्र में असाधारण सेवा के लिए दिया जा सकता है।"
+    },
+    {
+      "id": 16,
+      "question": "खेल जगत (Sports) से भारत रत्न पाने वाले पहले खिलाड़ी और सबसे कम उम्र के व्यक्ति कौन हैं?",
+      "options": ["महेंद्र सिंह धोनी", "कपिल देव", "सचिन तेंदुलकर", "मिल्खा सिंह"],
+      "correctAnswer": "सचิน तेंदुलकर",
+      "explanation": "सचिन तेंदुलकर को वर्ष 2014 में भारत रत्न मिला था। वह खेल क्षेत्र से पहले और अब तक के सबसे कम उम्र के भारत रत्न विजेता हैं।"
+    },
+    {
+      "id": 17,
+      "question": "भारत रत्न से सम्मानित होने वाली देश की पहली महिला कौन थीं?",
+      "options": ["मदर टेरेसा", "इंदिरा गांधी", "लता मंगेशकर", "सरोजिनी नायडू"],
+      "correctAnswer": "इंदिरा गांधी",
+      "explanation": "पूर्व प्रधानमंत्री इंदिरा गांधी को वर्ष 1971 में भारत रत्न से सम्मानित किया गया था, और वह यह पुरस्कार पाने वाली पहली महिला बनीं।"
+    },
+    {
+      "id": 18,
+      "question": "मरणोपरांत भारत रत्न पाने वाली देश की पहली महिला कौन थीं?",
+      "options": ["अरुणा आसफ अली", "मदर टेरेसा", "एम.एस. सुब्बुलक्ष्मी", "लता मंगेशकर"],
+      "correctAnswer": "अरुणा आसफ अली",
+      "explanation": "अरुणा आसफ अली को वर्ष 1997 में मरणोपरांत भारत रत्न दिया गया था। वह मरणोपरांत यह सम्मान पाने वाली पहली महिला थीं।"
+    },
+    {
+      "id": 19,
+      "question": "भारत रत्न पुरस्कार से सम्मानित होने वाले पहले संगीतकार (First Musician) कौन थे/थीं?",
+      "options": ["लता मंगेशकर", "पंडित रवि शंकर", "एम.एस. सुब्बुलक्ष्मी", "बिस्मिल्लाह खान"],
+      "correctAnswer": "एम.एस. सुब्बुलक्ष्मी",
+      "explanation": "वर्ष 1998 में एम.एस. सुब्बुलक्ष्मी को भारत रत्न से सम्मानित किया गया था, और वह यह पुरस्कार पाने वाली संगीत क्षेत्र की पहली कलाकार थीं।"
+    },
+    {
+      "id": 20,
+      "question": "अब तक कुल कितने राष्ट्रपतियों को भारत रत्न पुरस्कार से सम्मानित किया जा चुका है?",
+      "options": ["4 राष्ट्रपतियों को", "5 राष्ट्रपतियों को", "6 राष्ट्रपतियों को", "7 राष्ट्रपतियों को"],
+      "correctAnswer": "6 राष्ट्रपतियों को",
+      "explanation": "अब तक कुल 6 राष्ट्रपतियों को भारत रत्न मिला है: डॉ. सर्वपल्ली राधाकृष्णन (1954), डॉ. राजेंद्र प्रसाद (1962), डॉ. जाकिर हुसैन (1963), वी.वी. गिरी (1975), डॉ. एपीजे अब्दुल कलाम (1997), और प्रणब मुखर्जी (2019)।"
+    },
+    {
+      "id": 21,
+      "question": "वर्ष 2024 में कुल कितने व्यक्तियों को भारत रत्न पुरस्कार से सम्मानित किया गया है?",
+      "options": ["3 व्यक्तियों को", "4 व्यक्तियों को", "5 व्यक्तियों को", "6 व्यक्तियों को"],
+      "correctAnswer": "5 व्यक्तियों को",
+      "explanation": "वर्ष 2024 में एक विशेष अपवाद के तहत कुल 5 व्यक्तियों को भारत रत्न पुरस्कार प्रदान किया गया है।"
+    },
+    {
+      "id": 22,
+      "question": "वर्ष 2024 में भारत रत्न से सम्मानित होने वाले जीवित व्यक्ति कौन हैं, जिन्हें 50वां भारत रत्न प्राप्त हुआ है?",
+      "options": ["कर्पूरी ठाकुर", "लाल कृष्ण आडवाणी", "चौधरी चरण सिंह", "पी.वी. नरसिम्हा राव"],
+      "correctAnswer": "लाल कृष्ण आडवाणी",
+      "explanation": "भाजपा के वरिष्ठ नेता लाल कृष्ण आडवाणी को वर्ष 2024 में देश का 50वां भारत रत्न प्रदान किया गया है, और वह इस वर्ष के विजेताओं में एकमात्र जीवित व्यक्ति हैं।"
+    },
+    {
+      "id": 23,
+      "question": "बिहार के किस पूर्व मुख्यमंत्री को वर्ष 2024 में मरणोपरांत भारत रत्न से सम्मानित किया गया है?",
+      "options": ["नीतीश कुमार", "कर्पूरी ठाकुर", "लालू प्रसाद यादव", "डॉ. श्रीकृष्ण सिंह"],
+      "correctAnswer": "कर्पूरी ठाकुर",
+      "explanation": "बिहार के पूर्व मुख्यमंत्री और जननायक कर्पूरी ठाकुर को वर्ष 2024 में मरणोपरांत भारत रत्न से सम्मानित किया गया है।"
+    },
+    {
+      "id": 24,
+      "question": "वर्ष 2024 में भारत रत्न से सम्मानित किए गए चौधरी चरण सिंह भारत के कौन से नंबर के प्रधानमंत्री थे?",
+      "options": ["तीसरे (3rd)", "पांचवें (5th)", "सातवें (7th)", "नौवें (9th)"],
+      "correctAnswer": "पांचवें (5th)",
+      "explanation": "किसानों के मसीहा माने जाने वाले चौधरी चरण सिंह भारत के 5वें प्रधानमंत्री थे, जिन्हें वर्ष 2024 में मरणोपरांत भारत रत्न दिया गया।"
+    },
+    {
+      "id": 25,
+      "question": "भारत के पूर्व प्रधानमंत्री पी.वी. नरसिम्हा राव, जिन्हें 2024 में मरणोपरांत भारत रत्न मिला, वे भारत के कौन से प्रधानमंत्री थे?",
+      "options": ["5वें प्रधानमंत्री", "7वें प्रधानमंत्री", "9वें प्रधानमंत्री", "11वें प्रधानमंत्री"],
+      "correctAnswer": "9वें प्रधानमंत्री",
+      "explanation": "पी.वी. नरसिम्हा राव भारत के 9वें प्रधानमंत्री थे। उनके कार्यकाल में देश में महत्वपूर्ण आर्थिक सुधार (LPG) लागू किए गए थे।"
+    },
+    {
+      "id": 26,
+      "question": "भारत में 'हरित क्रांति के जनक' (Father of Green Revolution) कहे जाने वाले किस वैज्ञानिक को वर्ष 2024 में मरणोपरांत भारत रत्न से सम्मानित किया गया?",
+      "options": ["डॉ. वर्गीज कुरियन", "एम.एस. स्वामीनाथन", "सतीश धवन", "डॉ. सलीमुद्दीन"],
+      "correctAnswer": "एम.एस. स्वामीनाथन",
+      "explanation": "प्रसिद्ध कृषि वैज्ञानिक और भारत में हरित क्रांति के सूत्रधार डॉ. एम.एस. स्वामीनाथन को वर्ष 2024 में मरणोपरांत भारत रत्न दिया गया है।"
     }
   ]
 }
