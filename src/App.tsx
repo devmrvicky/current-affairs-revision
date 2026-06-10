@@ -2,21 +2,18 @@ import { useEffect } from 'react';
 import { Toaster } from 'react-hot-toast';
 import AppRouter from './routes/AppRouter';
 import { useSettingsStore, applyTheme } from './store/statsStore';
+import { PWAUpdateNotifier } from './components/common/PWAComponents';
 
 function App() {
   const { load, settings } = useSettingsStore();
 
-  useEffect(() => {
-    load();
-  }, []);
-
-  useEffect(() => {
-    applyTheme(settings.theme);
-  }, [settings.theme]);
+  useEffect(() => { load(); }, []);
+  useEffect(() => { applyTheme(settings.theme); }, [settings.theme]);
 
   return (
     <>
       <AppRouter />
+      <PWAUpdateNotifier />
       <Toaster
         position="bottom-center"
         toastOptions={{

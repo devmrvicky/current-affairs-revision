@@ -1,5 +1,5 @@
 import { openDB, DBSchema, IDBPDatabase } from 'idb';
-import type { SavedTest, Statistics, Settings, WrongQuestion } from '../types';
+import type { SavedTest, Statistics, Settings, WrongQuestion, BookmarkedQuestion, ChapterStats } from '../types';
 
 // ─── Schema ───────────────────────────────────────────────────────────────────
 
@@ -27,10 +27,19 @@ interface AppDB extends DBSchema {
     value: WrongQuestion;
     indexes: { 'by-status': string; 'by-dateKey': string };
   };
+  bookmarks: {
+    key: string;
+    value: BookmarkedQuestion;
+    indexes: { 'by-source': string; 'by-bookmarkedAt': number };
+  };
+  chapterStats: {
+    key: string;  // fileName
+    value: ChapterStats;
+  };
 }
 
 const DB_NAME = 'CurrentAffairsDB';
-const DB_VERSION = 2; // bumped from 1 → 2 to add wrongQuestions store
+const DB_VERSION = 3; // v2→v3: bookmarks + chapterStats stores
 
 let dbInstance: IDBPDatabase<AppDB> | null = null;
 
@@ -38,7 +47,6 @@ async function getDB(): Promise<IDBPDatabase<AppDB>> {
   if (dbInstance) return dbInstance;
   dbInstance = await openDB<AppDB>(DB_NAME, DB_VERSION, {
     upgrade(db, oldVersion) {
-      // v1 stores (create only if they don't exist)
       if (oldVersion < 1) {
         const testStore = db.createObjectStore('savedTests', { keyPath: 'id' });
         testStore.createIndex('by-date', 'date');
@@ -48,11 +56,16 @@ async function getDB(): Promise<IDBPDatabase<AppDB>> {
         const revStore = db.createObjectStore('revisionQueue', { keyPath: 'id' });
         revStore.createIndex('by-testId', 'testId');
       }
-      // v2: wrong questions store
       if (oldVersion < 2) {
         const wqStore = db.createObjectStore('wrongQuestions', { keyPath: 'id' });
         wqStore.createIndex('by-status', 'status');
         wqStore.createIndex('by-dateKey', 'dateKey');
+      }
+      if (oldVersion < 3) {
+        const bmStore = db.createObjectStore('bookmarks', { keyPath: 'id' });
+        bmStore.createIndex('by-source', 'sourceFileName');
+        bmStore.createIndex('by-bookmarkedAt', 'bookmarkedAt');
+        db.createObjectStore('chapterStats', { keyPath: 'fileName' });
       }
     },
   });
@@ -250,5 +263,92 @@ export const wrongQuestionsDB = {
       mastered: all.filter((q) => q.status === 'mastered').length,
       learning: all.filter((q) => q.status === 'learning').length,
     };
+  },
+};
+
+// ─── Bookmarks ────────────────────────────────────────────────────────────────
+
+export const bookmarksDB = {
+  async getAll(): Promise<BookmarkedQuestion[]> {
+    const db = await getDB();
+    const all = await db.getAll('bookmarks');
+    return all.sort((a, b) => b.bookmarkedAt - a.bookmarkedAt);
+  },
+
+  async upsert(bq: BookmarkedQuestion): Promise<void> {
+    const db = await getDB();
+    await db.put('bookmarks', bq);
+  },
+
+  async delete(id: string): Promise<void> {
+    const db = await getDB();
+    await db.delete('bookmarks', id);
+  },
+
+  async deleteAll(): Promise<void> {
+    const db = await getDB();
+    await db.clear('bookmarks');
+  },
+
+  async getById(id: string): Promise<BookmarkedQuestion | undefined> {
+    const db = await getDB();
+    return db.get('bookmarks', id);
+  },
+
+  async count(): Promise<number> {
+    const db = await getDB();
+    return db.count('bookmarks');
+  },
+};
+
+// ─── Chapter Stats ────────────────────────────────────────────────────────────
+
+export const chapterStatsDB = {
+  async getAll(): Promise<ChapterStats[]> {
+    const db = await getDB();
+    return db.getAll('chapterStats');
+  },
+
+  async getByFileName(fileName: string): Promise<ChapterStats | undefined> {
+    const db = await getDB();
+    return db.get('chapterStats', fileName);
+  },
+
+  async upsert(stats: ChapterStats): Promise<void> {
+    const db = await getDB();
+    await db.put('chapterStats', stats);
+  },
+
+  async recordAttempt(fileName: string, chapterName: string, score: number, correct: number, totalQuestions: number): Promise<void> {
+    const existing = await this.getByFileName(fileName);
+    const now = Date.now();
+    const displayDate = new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' });
+
+    if (existing) {
+      const totalAttempts = existing.totalAttempts + 1;
+      const avgScore = Math.round(((existing.averageScore * existing.totalAttempts) + score) / totalAttempts);
+      await this.upsert({
+        ...existing,
+        totalAttempts,
+        bestScore: Math.max(existing.bestScore, score),
+        averageScore: avgScore,
+        totalCorrect: existing.totalCorrect + correct,
+        totalQuestions: existing.totalQuestions + totalQuestions,
+        lastAttemptAt: now,
+        lastAttemptDate: displayDate,
+      });
+    } else {
+      await this.upsert({
+        fileName,
+        chapterName,
+        totalAttempts: 1,
+        bestScore: score,
+        averageScore: score,
+        totalCorrect: correct,
+        totalQuestions,
+        lastAttemptAt: now,
+        lastAttemptDate: displayDate,
+      });
+    }
   },
 };

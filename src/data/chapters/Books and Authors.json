@@ -1,0 +1,89 @@
+{
+  "date": "N/A",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Who authored 'The God of Small Things', which won the Booker Prize?",
+      "options": ["Jhumpa Lahiri", "Arundhati Roy", "Kiran Desai", "Anita Desai"],
+      "correctAnswer": "Arundhati Roy",
+      "explanation": "Arundhati Roy won the Booker Prize in 1997 for 'The God of Small Things', set in Kerala. It was her debut novel and became an international bestseller."
+    },
+    {
+      "id": 2,
+      "question": "The autobiography 'My Experiments with Truth' was written by:",
+      "options": ["Jawaharlal Nehru", "Subhas Chandra Bose", "Mahatma Gandhi", "Sardar Patel"],
+      "correctAnswer": "Mahatma Gandhi",
+      "explanation": "'The Story of My Experiments with Truth' (My Experiments with Truth) is the autobiography of Mahatma Gandhi, covering his life from 1869 to 1921, written originally in Gujarati."
+    },
+    {
+      "id": 3,
+      "question": "Which book by Raghuram Rajan discusses fault lines in the global economy?",
+      "options": ["Saving Capitalism", "Fault Lines", "The Third Pillar", "I Do What I Do"],
+      "correctAnswer": "Fault Lines",
+      "explanation": "Fault Lines: How Hidden Fractures Still Threaten the World Economy was written by Raghuram Rajan (former RBI Governor) and won the Financial Times and Goldman Sachs Business Book of the Year Award 2010."
+    },
+    {
+      "id": 4,
+      "question": "'Discovery of India' was written by which Indian leader?",
+      "options": ["Mahatma Gandhi", "B.R. Ambedkar", "Jawaharlal Nehru", "Rabindranath Tagore"],
+      "correctAnswer": "Jawaharlal Nehru",
+      "explanation": "'The Discovery of India' was written by Jawaharlal Nehru in 1946 while imprisoned at Ahmednagar Fort. It traces the cultural and political history of India from ancient times."
+    },
+    {
+      "id": 5,
+      "question": "The book 'Sapiens: A Brief History of Humankind' was authored by:",
+      "options": ["Bill Bryson", "Jared Diamond", "Yuval Noah Harari", "Steven Pinker"],
+      "correctAnswer": "Yuval Noah Harari",
+      "explanation": "Sapiens was written by Israeli historian Yuval Noah Harari, originally in Hebrew in 2011. The English translation became a global bestseller, exploring the history of Homo sapiens."
+    },
+    {
+      "id": 6,
+      "question": "Salman Rushdie's controversial novel published in 1988 that caused global protests was:",
+      "options": ["Midnight's Children", "The Satanic Verses", "The Moor's Last Sigh", "Shame"],
+      "correctAnswer": "The Satanic Verses",
+      "explanation": "The Satanic Verses (1988) by Salman Rushdie caused widespread protests in Muslim communities. Iran's Ayatollah Khomeini issued a fatwa against Rushdie in 1989."
+    },
+    {
+      "id": 7,
+      "question": "Which Indian author won the Booker Prize 2006 for 'The Inheritance of Loss'?",
+      "options": ["Arundhati Roy", "Amitav Ghosh", "Kiran Desai", "Jhumpa Lahiri"],
+      "correctAnswer": "Kiran Desai",
+      "explanation": "Kiran Desai won the Man Booker Prize 2006 for 'The Inheritance of Loss', set in the Himalayas in the 1980s. She was the youngest woman to win the prize at age 35."
+    },
+    {
+      "id": 8,
+      "question": "'Wings of Fire' is the autobiography of which Indian scientist and President?",
+      "options": ["C.V. Raman", "Vikram Sarabhai", "A.P.J. Abdul Kalam", "Homi Bhabha"],
+      "correctAnswer": "A.P.J. Abdul Kalam",
+      "explanation": "'Wings of Fire' is the autobiography of Dr. A.P.J. Abdul Kalam, India's Missile Man and 11th President, co-written with Arun Tiwari. It describes his journey from Rameswaram to ISRO."
+    },
+    {
+      "id": 9,
+      "question": "The novel 'White Tiger' by Aravind Adiga won which prestigious award in 2008?",
+      "options": ["Pulitzer Prize", "Man Booker Prize", "Commonwealth Prize", "Sahitya Akademi Award"],
+      "correctAnswer": "Man Booker Prize",
+      "explanation": "'The White Tiger' by Aravind Adiga won the Man Booker Prize 2008, depicting the rise of a driver from rural Bihar who murders his employer to become an entrepreneur."
+    },
+    {
+      "id": 10,
+      "question": "Who wrote 'India After Gandhi: The History of the World's Largest Democracy'?",
+      "options": ["Shashi Tharoor", "Ramachandra Guha", "Sunil Khilnani", "Amartya Sen"],
+      "correctAnswer": "Ramachandra Guha",
+      "explanation": "'India After Gandhi' by Ramachandra Guha (2007) is a comprehensive history of post-independence India, widely acclaimed as one of the definitive accounts of modern Indian history."
+    },
+    {
+      "id": 11,
+      "question": "The book '1984' by George Orwell introduced which concept into political vocabulary?",
+      "options": ["Animal Farm", "Big Brother", "Double Think only", "Room 101 only"],
+      "correctAnswer": "Big Brother",
+      "explanation": "George Orwell's dystopian novel '1984' (1949) introduced concepts like 'Big Brother', 'doublethink', 'Newspeak', and 'thoughtcrime' into political vocabulary. The term 'Orwellian' derives from it."
+    },
+    {
+      "id": 12,
+      "question": "Which Indian economist authored 'An Uncertain Glory: India and its Contradictions'?",
+      "options": ["Amartya Sen and Jean Drèze", "Raghuram Rajan", "Manmohan Singh", "Jagdish Bhagwati"],
+      "correctAnswer": "Amartya Sen and Jean Drèze",
+      "explanation": "'An Uncertain Glory' (2013) was co-authored by Nobel Laureate Amartya Sen and economist Jean Drèze, critically examining India's development challenges especially in healthcare and education."
+    }
+  ]
+}

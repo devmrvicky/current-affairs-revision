@@ -9,6 +9,9 @@ import StatisticsPage from '../pages/StatisticsPage';
 import RevisionPage from '../pages/RevisionPage';
 import RevisionCalendarPage from '../pages/RevisionCalendarPage';
 import WrongQuestionsPage from '../pages/WrongQuestionsPage';
+import ChapterWisePage from '../pages/ChapterWisePage';
+import MixedRevisionPage from '../pages/MixedRevisionPage';
+import BookmarkedQuestionsPage from '../pages/BookmarkedQuestionsPage';
 import SettingsPage from '../pages/SettingsPage';
 import NoQuizTodayPage from '../pages/NoQuizTodayPage';
 
@@ -24,12 +27,14 @@ const router = createBrowserRouter([
       { path: 'revision', element: <RevisionPage /> },
       { path: 'revision-calendar', element: <RevisionCalendarPage /> },
       { path: 'wrong-questions', element: <WrongQuestionsPage /> },
+      { path: 'chapter-wise-current-affairs', element: <ChapterWisePage /> },
+      { path: 'mixed-revision', element: <MixedRevisionPage /> },
+      { path: 'bookmarked-questions', element: <BookmarkedQuestionsPage /> },
       { path: 'settings', element: <SettingsPage /> },
       { path: 'no-quiz-today', element: <NoQuizTodayPage /> },
       { path: 'analysis', element: <AnalysisPage /> },
     ],
   },
-  // Full-screen pages (no app shell)
   { path: '/quiz', element: <QuizPage /> },
 ]);
 

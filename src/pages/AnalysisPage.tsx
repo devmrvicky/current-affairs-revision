@@ -6,8 +6,11 @@ import toast from 'react-hot-toast';
 import { useQuizStore } from '../store/quizStore';
 import { useHistoryStore } from '../store/historyStore';
 import { useWrongQuestionsStore } from '../store/wrongQuestionsStore';
+import { useBookmarkStore } from '../store/bookmarkStore';
+import { useChapterStore } from '../store/chapterStore';
 import { buildAnalysis, sessionToSavedTest, formatDateKey } from '../utils';
 import { AnalysisOverview, QuestionReview } from '../components/analysis/AnalysisComponents';
+import { getChapterList } from '../services/chapterRepository';
 
 type TabKey = 'overview' | 'all' | 'wrong' | 'correct' | 'bookmarked';
 
@@ -18,11 +21,17 @@ async function fireConfetti(score: number) {
   } catch {}
 }
 
+// Check if a fileName belongs to chapters
+const chapterFileNames = new Set(getChapterList().map((c) => c.fileName));
+
 export default function AnalysisPage() {
   const navigate = useNavigate();
   const { session, clearSession } = useQuizStore();
   const { save } = useHistoryStore();
   const { ingestFromAttempts } = useWrongQuestionsStore();
+  const { syncFromAttempts: syncBookmarks } = useBookmarkStore();
+  const { recordAttempt: recordChapterAttempt } = useChapterStore();
+
   const [saved, setSaved] = useState(false);
   const [tab, setTab] = useState<TabKey>('overview');
   const [isSaving, setIsSaving] = useState(false);
@@ -36,6 +45,7 @@ export default function AnalysisPage() {
 
   const result = buildAnalysis(session);
   const bookmarkedCount = session.attempts.filter((a) => a.bookmarked).length;
+  const isChapterQuiz = chapterFileNames.has(session.fileName);
 
   async function handleSave() {
     if (saved || !session) return;
@@ -43,13 +53,30 @@ export default function AnalysisPage() {
     try {
       const test = sessionToSavedTest(session, false);
       await save(test);
-      // Auto-ingest wrong answers into the wrong questions tracker
+
+      // Ingest wrong answers
       await ingestFromAttempts(
         session.attempts,
         formatDateKey(new Date()),
         session.date,
         session.fileName
       );
+
+      // Sync bookmarks from session
+      await syncBookmarks(session.attempts, session.fileName, session.date);
+
+      // Record chapter stats if this was a chapter quiz
+      if (isChapterQuiz) {
+        const chapterName = session.fileName.replace(/\.json$/i, '');
+        await recordChapterAttempt(
+          session.fileName,
+          chapterName,
+          result.score,
+          result.correct,
+          result.totalQuestions
+        );
+      }
+
       setSaved(true);
       toast.success('Test saved! Wrong answers added to revision queue.');
     } catch {
@@ -91,7 +118,10 @@ export default function AnalysisPage() {
           <h1 className="text-2xl font-display font-bold" style={{ color: 'var(--text-primary)' }}>
             Test Analysis
           </h1>
-          <p style={{ color: 'var(--text-muted)' }}>{session.date}</p>
+          <p style={{ color: 'var(--text-muted)' }}>
+            {session.date}
+            {isChapterQuiz && <span className="ml-2 text-xs px-2 py-0.5 rounded-full bg-brand-100 dark:bg-brand-900/30 text-brand-600 dark:text-brand-400">Chapter Quiz</span>}
+          </p>
         </div>
         <button onClick={handleGoHome} className="btn-ghost flex items-center gap-2 text-sm">
           <Home size={15} /> Home
@@ -109,7 +139,7 @@ export default function AnalysisPage() {
           <div>
             <p className="font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>Save this test?</p>
             <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
-              Saves results and adds wrong answers to your revision queue
+              Saves results, syncs bookmarks and adds wrong answers to revision queue
             </p>
           </div>
           <div className="flex gap-2 flex-shrink-0">
@@ -140,7 +170,7 @@ export default function AnalysisPage() {
         >
           <CheckCircle2 size={20} className="text-green-500 flex-shrink-0" />
           <p className="text-sm font-medium text-green-700 dark:text-green-400">
-            Test saved! Wrong answers added to your revision queue.
+            Test saved! Bookmarks synced and wrong answers added to revision queue.
           </p>
         </motion.div>
       )}

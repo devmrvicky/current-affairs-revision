@@ -156,3 +156,31 @@ export interface CalendarDate {
   fileName: string;          // e.g. 08june2026.json
   status: CalendarDateStatus;
 }
+
+// ─── Bookmarks ────────────────────────────────────────────────────────────────
+
+export interface BookmarkedQuestion {
+  id: string;                // unique: `${fileName}_${questionId}`
+  questionId: number;
+  question: string;
+  options: string[];
+  correctAnswer: string;
+  explanation: string;
+  sourceFileName: string;    // e.g. "08june2026.json" or "Sports.json"
+  sourceDate: string;        // display date or chapter name
+  bookmarkedAt: number;
+}
+
+// ─── Chapter Types ────────────────────────────────────────────────────────────
+
+export interface ChapterStats {
+  fileName: string;          // e.g. "Sports.json"
+  chapterName: string;       // display name without .json
+  totalAttempts: number;
+  bestScore: number;
+  averageScore: number;
+  totalCorrect: number;
+  totalQuestions: number;
+  lastAttemptAt: number;
+  lastAttemptDate: string;
+}

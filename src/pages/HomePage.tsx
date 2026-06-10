@@ -2,7 +2,8 @@ import { useEffect, useState, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   BookOpen, Clock, BarChart3, RefreshCcw, Zap,
-  CheckCircle2, XCircle, Target, TrendingUp, Calendar, Brain
+  CheckCircle2, XCircle, Target, TrendingUp,
+  Calendar, Brain, Bookmark, Layers
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';
@@ -10,9 +11,11 @@ import { useQuizStore } from '../store/quizStore';
 import { useHistoryStore } from '../store/historyStore';
 import { useStatisticsStore } from '../store/statsStore';
 import { useWrongQuestionsStore } from '../store/wrongQuestionsStore';
+import { useBookmarkStore } from '../store/bookmarkStore';
 import { loadQuizForDate, getFileName, getDisplayDate } from '../services/quizService';
 import { useAvailableDates } from '../hooks/useAvailableDates';
 import { DashboardCard, StatCard } from '../components/common/StatCard';
+import { PWAInstallBanner } from '../components/common/PWAComponents';
 import { formatTime, formatDateKey } from '../utils';
 
 function getGreeting(): string {
@@ -27,7 +30,8 @@ export default function HomePage() {
   const { startSession, session, clearSession } = useQuizStore();
   const { load: loadHistory, tests } = useHistoryStore();
   const { stats, load: loadStats } = useStatisticsStore();
-  const { questions: wrongQs, load: loadWrongQs, getSmartQueue } = useWrongQuestionsStore();
+  const { questions: wrongQs, load: loadWrongQs } = useWrongQuestionsStore();
+  const { load: loadBookmarks, getCount: getBookmarkCount } = useBookmarkStore();
   const { availableSet, isLoading: datesLoading } = useAvailableDates();
   const [isCreating, setIsCreating] = useState(false);
 
@@ -40,20 +44,20 @@ export default function HomePage() {
     loadHistory();
     loadStats();
     loadWrongQs();
+    loadBookmarks();
   }, []);
 
   const hasActiveSession = session && !session.isCompleted;
+  const activeWrongQs = wrongQs.filter((q) => q.status === 'learning').length;
+  const bookmarkCount = getBookmarkCount();
 
-  // Revision progress stats
   const revisionStats = useMemo(() => {
-    const nonRevisionTests = tests.filter((t) => !t.isRevision);
-    const attempted = new Set(nonRevisionTests.map((t) => t.date)).size;
+    const nonRevision = tests.filter((t) => !t.isRevision);
+    const attempted = new Set(nonRevision.map((t) => t.date)).size;
     const available = availableSet.size;
     const pct = available > 0 ? Math.round((attempted / available) * 100) : 0;
     return { attempted, available, pct };
   }, [tests, availableSet]);
-
-  const activeWrongQs = wrongQs.filter((q) => q.status === 'learning').length;
 
   async function handleCreateTest() {
     setIsCreating(true);
@@ -100,12 +104,23 @@ export default function HomePage() {
       badge: revisionStats.pct > 0 ? `${revisionStats.pct}%` : undefined,
     },
     {
-      title: 'Test History',
-      description: `${tests.length} saved test${tests.length !== 1 ? 's' : ''} • View past performance`,
-      icon: Clock,
+      title: 'Chapter Wise',
+      description: 'Government Schemes • Sports • Awards • Science & more',
+      icon: Layers,
+      color: '#a855f7',
+      gradient: 'linear-gradient(135deg, rgba(168,85,247,0.08) 0%, transparent 100%)',
+      onClick: () => navigate('/chapter-wise-current-affairs'),
+    },
+    {
+      title: 'Bookmarked Questions',
+      description: bookmarkCount > 0
+        ? `${bookmarkCount} question${bookmarkCount !== 1 ? 's' : ''} saved • Start bookmark revision`
+        : 'Bookmark questions during quizzes to revise them here',
+      icon: Bookmark,
       color: '#8b5cf6',
       gradient: 'linear-gradient(135deg, rgba(139,92,246,0.08) 0%, transparent 100%)',
-      onClick: () => navigate('/history'),
+      onClick: () => navigate('/bookmarked-questions'),
+      badge: bookmarkCount > 0 ? String(bookmarkCount) : undefined,
     },
     {
       title: 'Wrong Questions',
@@ -117,6 +132,14 @@ export default function HomePage() {
       gradient: 'linear-gradient(135deg, rgba(239,68,68,0.08) 0%, transparent 100%)',
       onClick: () => navigate('/wrong-questions'),
       badge: activeWrongQs > 0 ? String(activeWrongQs) : undefined,
+    },
+    {
+      title: 'Test History',
+      description: `${tests.length} saved test${tests.length !== 1 ? 's' : ''} • View past performance`,
+      icon: Clock,
+      color: '#6366f1',
+      gradient: 'linear-gradient(135deg, rgba(99,102,241,0.06) 0%, transparent 100%)',
+      onClick: () => navigate('/history'),
     },
     {
       title: 'Revision Mode',
@@ -148,6 +171,9 @@ export default function HomePage() {
         </p>
       </motion.div>
 
+      {/* PWA Install Banner */}
+      <PWAInstallBanner />
+
       {/* Streak Banner */}
       {stats && stats.currentStreak > 0 && (
         <motion.div
@@ -170,10 +196,10 @@ export default function HomePage() {
       {/* Quick Stats */}
       {stats && (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          <StatCard label="Total Tests"  value={stats.totalTests}           icon={Target}       color="#6366f1" delay={0}    />
-          <StatCard label="Accuracy"     value={`${stats.averageAccuracy}%`} icon={TrendingUp}   color="#22c55e" delay={0.05} />
-          <StatCard label="Correct"      value={stats.totalCorrect}          icon={CheckCircle2} color="#22c55e" delay={0.1}  />
-          <StatCard label="Wrong"        value={stats.totalWrong}            icon={XCircle}      color="#ef4444" delay={0.15} />
+          <StatCard label="Total Tests"  value={stats.totalTests}            icon={Target}       color="#6366f1" delay={0}    />
+          <StatCard label="Accuracy"     value={`${stats.averageAccuracy}%`}  icon={TrendingUp}   color="#22c55e" delay={0.05} />
+          <StatCard label="Correct"      value={stats.totalCorrect}           icon={CheckCircle2} color="#22c55e" delay={0.1}  />
+          <StatCard label="Wrong"        value={stats.totalWrong}             icon={XCircle}      color="#ef4444" delay={0.15} />
         </div>
       )}
 
@@ -248,7 +274,7 @@ export default function HomePage() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {dashCards.map((card, i) => (
-            <DashboardCard key={card.title} {...card} delay={i * 0.06} />
+            <DashboardCard key={card.title} {...card} delay={i * 0.05} />
           ))}
         </div>
       </div>

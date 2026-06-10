@@ -1,11 +1,12 @@
 import { Outlet, NavLink, useLocation } from 'react-router-dom';
-import { Home, Clock, BarChart3, Settings, BookOpen, Moon, Sun, Calendar, Brain } from 'lucide-react';
+import { Home, Clock, BarChart3, Settings, BookOpen, Moon, Sun, Calendar, Brain, Layers } from 'lucide-react';
 import { useSettingsStore } from '../store/statsStore';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const NAV = [
   { to: '/', icon: Home, label: 'Home' },
   { to: '/revision-calendar', icon: Calendar, label: 'Calendar' },
+  { to: '/chapter-wise-current-affairs', icon: Layers, label: 'Chapters' },
   { to: '/history', icon: Clock, label: 'History' },
   { to: '/wrong-questions', icon: Brain, label: 'Practice' },
   { to: '/statistics', icon: BarChart3, label: 'Stats' },

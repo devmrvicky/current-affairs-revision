@@ -1,0 +1,89 @@
+{
+  "date": "N/A",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The Nobel Prize in Literature 2024 was awarded to:",
+      "options": ["Salman Rushdie", "Han Kang", "Haruki Murakami", "Olga Tokarczuk"],
+      "correctAnswer": "Han Kang",
+      "explanation": "Han Kang, a South Korean author, won the Nobel Prize in Literature 2024 for 'her intense poetic prose that confronts historical traumas and exposes the fragility of human life.'"
+    },
+    {
+      "id": 2,
+      "question": "Bharat Ratna is awarded for exceptional service in which fields?",
+      "options": ["Arts only", "Science only", "Public Service only", "Arts, Science, Literature, and Public Service"],
+      "correctAnswer": "Arts, Science, Literature, and Public Service",
+      "explanation": "Bharat Ratna is India's highest civilian honor awarded for exceptional service/performance of the highest order in recognition of distinguished service of any field including arts, literature, science and public service."
+    },
+    {
+      "id": 3,
+      "question": "The Pulitzer Prize is awarded for excellence in which field?",
+      "options": ["Cinema", "Music", "Journalism and Literature", "Science"],
+      "correctAnswer": "Journalism and Literature",
+      "explanation": "The Pulitzer Prize recognizes achievement in newspaper, magazine, online journalism, literature, and musical composition in the USA. It was established by Joseph Pulitzer."
+    },
+    {
+      "id": 4,
+      "question": "The Man Booker Prize is awarded for best novel written in which language?",
+      "options": ["Any language", "French", "English", "Spanish"],
+      "correctAnswer": "English",
+      "explanation": "The Booker Prize is awarded annually for the best novel written in English and published in the UK. It was previously restricted to Commonwealth authors before expanding in 2014."
+    },
+    {
+      "id": 5,
+      "question": "Who was the first Indian to receive the Nobel Prize?",
+      "options": ["C.V. Raman", "Rabindranath Tagore", "Amartya Sen", "Mother Teresa"],
+      "correctAnswer": "Rabindranath Tagore",
+      "explanation": "Rabindranath Tagore was the first Indian to receive a Nobel Prize (1913 in Literature) for Gitanjali. He was also the first non-European to receive the Nobel Prize in Literature."
+    },
+    {
+      "id": 6,
+      "question": "The International Booker Prize 2024 was won by:",
+      "options": ["Jenny Erpenbeck", "Percival Everett", "Rachel Cusk", "Karl Ove Knausgård"],
+      "correctAnswer": "Jenny Erpenbeck",
+      "explanation": "Jenny Erpenbeck won the International Booker Prize 2024 for 'Kairos', translated from German to English by Michael Hofmann. It also won the 2024 US National Book Award."
+    },
+    {
+      "id": 7,
+      "question": "The Padma awards in India are given on which occasion?",
+      "options": ["Independence Day", "Republic Day", "Gandhi Jayanti", "National Science Day"],
+      "correctAnswer": "Republic Day",
+      "explanation": "The Padma awards (Padma Vibhushan, Padma Bhushan, Padma Shri) are announced on the eve of Republic Day (January 26) every year by the Government of India."
+    },
+    {
+      "id": 8,
+      "question": "Which award is given for the best direction at the Cannes Film Festival?",
+      "options": ["Palme d'Or", "Grand Prix", "Best Director Award", "Prix de la mise en scène"],
+      "correctAnswer": "Prix de la mise en scène",
+      "explanation": "The Best Director Award at Cannes is called 'Prix de la mise en scène.' The highest award is Palme d'Or (Best Film). The Cannes Film Festival is held annually in May."
+    },
+    {
+      "id": 9,
+      "question": "The Ramon Magsaysay Award is often called the 'Nobel Prize of Asia' and is based in which country?",
+      "options": ["Japan", "Philippines", "Thailand", "Singapore"],
+      "correctAnswer": "Philippines",
+      "explanation": "The Ramon Magsaysay Award is established by the Rockefeller Brothers Fund and is based in Manila, Philippines. It is named after Ramon Magsaysay, 7th President of the Philippines."
+    },
+    {
+      "id": 10,
+      "question": "Dada Saheb Phalke Award is India's highest award in which field?",
+      "options": ["Theatre", "Cinema", "Television", "Literature"],
+      "correctAnswer": "Cinema",
+      "explanation": "Dada Saheb Phalke Award is India's highest award in Cinema, given at the National Film Awards ceremony. It is named after Dhundiraj Govind Phalke, the father of Indian cinema."
+    },
+    {
+      "id": 11,
+      "question": "The Nobel Peace Prize 2024 was awarded to:",
+      "options": ["Malala Yousafzai", "Nihon Hidankyo", "Greta Thunberg", "WHO"],
+      "correctAnswer": "Nihon Hidankyo",
+      "explanation": "Nihon Hidankyo, a Japanese organization of atomic bomb survivors (Hibakusha) from Hiroshima and Nagasaki, received the Nobel Peace Prize 2024 for its efforts toward a nuclear-weapon-free world."
+    },
+    {
+      "id": 12,
+      "question": "Jnanpith Award is India's highest literary honor. It is awarded for contribution to which literature?",
+      "options": ["English literature", "Indian literature in any scheduled language", "Hindi literature only", "Classical literature"],
+      "correctAnswer": "Indian literature in any scheduled language",
+      "explanation": "The Jnanpith Award, instituted in 1961, is awarded for outstanding contribution to Indian literature written in any of the 22 scheduled languages of India including English since 1982."
+    }
+  ]
+}

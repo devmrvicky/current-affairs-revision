@@ -1,0 +1,89 @@
+{
+  "date": "N/A",
+  "questions": [
+    {
+      "id": 1,
+      "question": "PM-KISAN scheme provides direct income support of ₹6,000 per year to which category?",
+      "options": ["All farmers", "Small and marginal farmers", "Landless farmers", "Only BPL farmers"],
+      "correctAnswer": "Small and marginal farmers",
+      "explanation": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi) provides ₹6,000 per year in three equal instalments to small and marginal farmers having cultivable land up to 2 hectares."
+    },
+    {
+      "id": 2,
+      "question": "Under Pradhan Mantri Awas Yojana (Urban), houses are provided to which income group at the highest subsidy?",
+      "options": ["EWS", "LIG", "MIG-I", "MIG-II"],
+      "correctAnswer": "EWS",
+      "explanation": "The Economically Weaker Section (EWS) category with income up to ₹3 lakh per annum receives the highest subsidy of 6.5% under PMAY-Urban's Credit Linked Subsidy Scheme."
+    },
+    {
+      "id": 3,
+      "question": "Ayushman Bharat PM-JAY provides health coverage of how much per family per year?",
+      "options": ["₹2 lakh", "₹3 lakh", "₹5 lakh", "₹10 lakh"],
+      "correctAnswer": "₹5 lakh",
+      "explanation": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana provides health coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization."
+    },
+    {
+      "id": 4,
+      "question": "Which scheme was launched to provide clean cooking fuel to BPL households?",
+      "options": ["PM Ujjwala Yojana", "PM Surya Ghar Yojana", "PAHAL Scheme", "DBTL Scheme"],
+      "correctAnswer": "PM Ujjwala Yojana",
+      "explanation": "Pradhan Mantri Ujjwala Yojana was launched in 2016 to provide LPG connections to women belonging to Below Poverty Line (BPL) households, targeting 8 crore connections."
+    },
+    {
+      "id": 5,
+      "question": "The National Apprenticeship Promotion Scheme (NAPS) is implemented by which ministry?",
+      "options": ["Ministry of Education", "Ministry of Skill Development", "Ministry of Labour", "Ministry of MSME"],
+      "correctAnswer": "Ministry of Skill Development",
+      "explanation": "NAPS is implemented by the Ministry of Skill Development and Entrepreneurship to promote apprenticeship training by sharing 25% of stipend cost with employers."
+    },
+    {
+      "id": 6,
+      "question": "PM Vishwakarma Yojana targets traditional artisans with collateral-free credit up to:",
+      "options": ["₹1 lakh in first tranche", "₹2 lakh in first tranche", "₹3 lakh total", "₹5 lakh total"],
+      "correctAnswer": "₹1 lakh in first tranche",
+      "explanation": "PM Vishwakarma provides collateral-free credit support of ₹1 lakh in first tranche and ₹2 lakh in second tranche at 5% concessional interest rate to 18 traditional crafts."
+    },
+    {
+      "id": 7,
+      "question": "Stand-Up India scheme mandates at least one loan per bank branch to which categories?",
+      "options": ["SC/ST only", "Women only", "SC/ST and Women", "OBC and Women"],
+      "correctAnswer": "SC/ST and Women",
+      "explanation": "Stand-Up India facilitates bank loans between ₹10 lakh and ₹1 crore to at least one SC or ST borrower and at least one woman borrower per bank branch."
+    },
+    {
+      "id": 8,
+      "question": "Atal Pension Yojana is regulated and administered by:",
+      "options": ["LIC", "EPFO", "PFRDA", "RBI"],
+      "correctAnswer": "PFRDA",
+      "explanation": "Atal Pension Yojana is administered by the Pension Fund Regulatory and Development Authority (PFRDA) and targets unorganised sector workers aged 18-40 years."
+    },
+    {
+      "id": 9,
+      "question": "PM Surya Ghar Muft Bijli Yojana aims to install rooftop solar in how many households?",
+      "options": ["50 lakh", "75 lakh", "1 crore", "3 crore"],
+      "correctAnswer": "1 crore",
+      "explanation": "PM Surya Ghar Muft Bijli Yojana targets installation of rooftop solar panels in 1 crore households to provide up to 300 units of free electricity per month."
+    },
+    {
+      "id": 10,
+      "question": "Which scheme provides financial assistance for construction of individual household toilets under Swachh Bharat Mission (Rural)?",
+      "options": ["₹8,000", "₹10,000", "₹12,000", "₹15,000"],
+      "correctAnswer": "₹12,000",
+      "explanation": "Under Swachh Bharat Mission (Gramin), financial assistance of ₹12,000 is provided to each BPL household for construction of individual household toilets."
+    },
+    {
+      "id": 11,
+      "question": "The Pradhan Mantri Mudra Yojana offers Tarun category loans up to:",
+      "options": ["₹50,000", "₹5 lakh", "₹10 lakh", "₹20 lakh"],
+      "correctAnswer": "₹10 lakh",
+      "explanation": "PM Mudra Yojana offers three categories: Shishu (up to ₹50,000), Kishore (₹50,001 to ₹5 lakh), and Tarun (₹5 lakh to ₹10 lakh) for non-corporate, non-farm small enterprises."
+    },
+    {
+      "id": 12,
+      "question": "e-SHRAM portal was launched to create a national database of which workers?",
+      "options": ["Government employees", "Unorganised sector workers", "MSME workers", "Agricultural workers only"],
+      "correctAnswer": "Unorganised sector workers",
+      "explanation": "e-SHRAM portal was launched by Ministry of Labour to create a comprehensive National Database of Unorganised Workers (NDUW), linking to Aadhaar for social security benefits."
+    }
+  ]
+}
