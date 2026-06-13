@@ -184,3 +184,58 @@ export interface ChapterStats {
   lastAttemptAt: number;
   lastAttemptDate: string;
 }
+
+// ─── Daily Goal ───────────────────────────────────────────────────────────────
+
+export interface DailyGoal {
+  target: number;                     // questions per day target
+  questionsToday: number;             // answered today
+  dateKey: string;                    // YYYY-MM-DD
+  streakDays: number;                 // days in a row goal was met
+  bestStreakDays: number;
+  lastGoalMetDate: string;
+}
+
+// ─── Notification Settings ────────────────────────────────────────────────────
+
+export interface NotificationSettings {
+  enabled: boolean;
+  dailyReminderEnabled: boolean;
+  dailyReminderTime: string;          // "HH:MM"
+  streakReminderEnabled: boolean;
+  weeklyReportEnabled: boolean;
+  soundEnabled: boolean;
+  fcmToken?: string;
+}
+
+// ─── Smart Revision Queue Item ────────────────────────────────────────────────
+
+export type RevisionItemType = 'wrong' | 'bookmark' | 'old-test';
+
+export interface SmartRevisionItem {
+  id: string;
+  type: RevisionItemType;
+  question: string;
+  options: string[];
+  correctAnswer: string;
+  explanation: string;
+  priority: number;           // higher = more urgent
+  sourceLabel: string;        // e.g. "Wrong 3×" or "Bookmarked"
+  wrongCount?: number;
+  bookmarkedAt?: number;
+}
+
+// ─── Weekly Report ────────────────────────────────────────────────────────────
+
+export interface WeeklyReport {
+  weekStart: string;          // YYYY-MM-DD (Monday)
+  weekEnd: string;
+  totalAttempted: number;
+  totalCorrect: number;
+  totalWrong: number;
+  accuracy: number;
+  daysActive: number;
+  topicsStrong: string[];
+  topicsWeak: string[];
+  dailyBreakdown: { date: string; questions: number; accuracy: number }[];
+}

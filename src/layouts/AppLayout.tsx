@@ -1,26 +1,25 @@
 import { Outlet, NavLink, useLocation } from 'react-router-dom';
-import { Home, Clock, BarChart3, Settings, BookOpen, Moon, Sun, Calendar, Brain, Layers } from 'lucide-react';
+import { Home, Clock, BarChart3, Settings, BookOpen, Moon, Sun, Calendar, Brain, Layers, AlertTriangle } from 'lucide-react';
 import { useSettingsStore } from '../store/statsStore';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const NAV = [
-  { to: '/', icon: Home, label: 'Home' },
-  { to: '/revision-calendar', icon: Calendar, label: 'Calendar' },
-  { to: '/chapter-wise-current-affairs', icon: Layers, label: 'Chapters' },
-  { to: '/history', icon: Clock, label: 'History' },
-  { to: '/wrong-questions', icon: Brain, label: 'Practice' },
-  { to: '/statistics', icon: BarChart3, label: 'Stats' },
-  { to: '/settings', icon: Settings, label: 'Settings' },
+  { to: '/',                              icon: Home,          label: 'Home' },
+  { to: '/revision-calendar',             icon: Calendar,      label: 'Calendar' },
+  { to: '/chapter-wise-current-affairs',  icon: Layers,        label: 'Chapters' },
+  { to: '/history',                       icon: Clock,         label: 'History' },
+  { to: '/wrong-questions',               icon: Brain,         label: 'Practice' },
+  { to: '/statistics',                    icon: BarChart3,     label: 'Stats' },
+  { to: '/settings',                      icon: Settings,      label: 'Settings' },
 ];
 
 export default function AppLayout() {
   const { settings, update } = useSettingsStore();
   const location = useLocation();
-  const isQuizPage = location.pathname.startsWith('/quiz') || location.pathname === '/analysis';
+  const isQuizPage = location.pathname === '/quiz' || location.pathname === '/analysis';
 
   function toggleTheme() {
-    const next = settings.theme === 'dark' ? 'light' : 'dark';
-    update({ theme: next });
+    update({ theme: settings.theme === 'dark' ? 'light' : 'dark' });
   }
 
   return (
@@ -37,7 +36,6 @@ export default function AppLayout() {
                 CurrentAffairs<span className="gradient-text">Pro</span>
               </span>
             </div>
-
             <button
               onClick={toggleTheme}
               className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
@@ -60,14 +58,14 @@ export default function AppLayout() {
             initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
-            transition={{ duration: 0.18 }}
+            transition={{ duration: 0.15 }}
           >
             <Outlet />
           </motion.div>
         </AnimatePresence>
       </main>
 
-      {/* Nav (hidden on quiz/analysis) */}
+      {/* Nav */}
       {!isQuizPage && (
         <>
           {/* Mobile Bottom Nav */}
@@ -87,7 +85,7 @@ export default function AppLayout() {
                   {({ isActive }) => (
                     <>
                       <div className={`p-1.5 rounded-lg transition-all ${isActive ? 'bg-brand-100 dark:bg-brand-900/40' : ''}`}>
-                        <Icon size={17} />
+                        <Icon size={16} />
                       </div>
                       <span className="text-[10px] font-medium leading-none">{label}</span>
                     </>
@@ -106,9 +104,7 @@ export default function AppLayout() {
                 end={to === '/'}
                 className={({ isActive }) =>
                   `group relative flex items-center gap-2 p-3 rounded-xl transition-all duration-200 ${
-                    isActive
-                      ? 'bg-brand-500 text-white shadow-glow'
-                      : 'hover:bg-gray-100 dark:hover:bg-white/10'
+                    isActive ? 'bg-brand-500 text-white shadow-glow' : 'hover:bg-gray-100 dark:hover:bg-white/10'
                   }`
                 }
                 title={label}

@@ -1,5 +1,5 @@
 import { openDB, DBSchema, IDBPDatabase } from 'idb';
-import type { SavedTest, Statistics, Settings, WrongQuestion, BookmarkedQuestion, ChapterStats } from '../types';
+import type { SavedTest, Statistics, Settings, WrongQuestion, BookmarkedQuestion, ChapterStats, DailyGoal, NotificationSettings } from '../types';
 
 // ─── Schema ───────────────────────────────────────────────────────────────────
 
@@ -33,13 +33,21 @@ interface AppDB extends DBSchema {
     indexes: { 'by-source': string; 'by-bookmarkedAt': number };
   };
   chapterStats: {
-    key: string;  // fileName
+    key: string;
     value: ChapterStats;
+  };
+  dailyGoal: {
+    key: string;
+    value: DailyGoal;
+  };
+  notificationSettings: {
+    key: string;
+    value: NotificationSettings;
   };
 }
 
 const DB_NAME = 'CurrentAffairsDB';
-const DB_VERSION = 3; // v2→v3: bookmarks + chapterStats stores
+const DB_VERSION = 4;
 
 let dbInstance: IDBPDatabase<AppDB> | null = null;
 
@@ -66,6 +74,10 @@ async function getDB(): Promise<IDBPDatabase<AppDB>> {
         bmStore.createIndex('by-source', 'sourceFileName');
         bmStore.createIndex('by-bookmarkedAt', 'bookmarkedAt');
         db.createObjectStore('chapterStats', { keyPath: 'fileName' });
+      }
+      if (oldVersion < 4) {
+        db.createObjectStore('dailyGoal', { keyPath: 'dateKey' });
+        db.createObjectStore('notificationSettings', { keyPath: 'id' as never });
       }
     },
   });
@@ -350,5 +362,82 @@ export const chapterStatsDB = {
         lastAttemptDate: displayDate,
       });
     }
+  },
+};
+
+// ─── Daily Goal ───────────────────────────────────────────────────────────────
+
+const DEFAULT_GOAL_TARGET = 25;
+
+export const dailyGoalDB = {
+  async get(dateKey: string): Promise<DailyGoal | undefined> {
+    const db = await getDB();
+    return db.get('dailyGoal', dateKey);
+  },
+
+  async getOrCreate(dateKey: string): Promise<DailyGoal> {
+    const existing = await this.get(dateKey);
+    if (existing) return existing;
+    const yesterday = new Date(new Date(dateKey).getTime() - 86400000);
+    const ydKey = `${yesterday.getFullYear()}-${String(yesterday.getMonth()+1).padStart(2,'0')}-${String(yesterday.getDate()).padStart(2,'0')}`;
+    const yd = await this.get(ydKey);
+    const streakDays = yd && yd.questionsToday >= yd.target ? yd.streakDays : 0;
+    const bestStreakDays = yd ? Math.max(yd.bestStreakDays, streakDays) : 0;
+    const fresh: DailyGoal = {
+      target: DEFAULT_GOAL_TARGET,
+      questionsToday: 0,
+      dateKey,
+      streakDays,
+      bestStreakDays,
+      lastGoalMetDate: yd?.lastGoalMetDate ?? '',
+    };
+    const db = await getDB();
+    await db.put('dailyGoal', fresh);
+    return fresh;
+  },
+
+  async incrementQuestions(dateKey: string, count: number): Promise<DailyGoal> {
+    const goal = await this.getOrCreate(dateKey);
+    const wasMetBefore = goal.questionsToday >= goal.target;
+    const updated: DailyGoal = { ...goal, questionsToday: goal.questionsToday + count };
+    const nowMet = updated.questionsToday >= updated.target;
+    if (nowMet && !wasMetBefore) {
+      updated.streakDays = goal.streakDays + 1;
+      updated.bestStreakDays = Math.max(goal.bestStreakDays, updated.streakDays);
+      updated.lastGoalMetDate = dateKey;
+    }
+    const db = await getDB();
+    await db.put('dailyGoal', updated);
+    return updated;
+  },
+
+  async setTarget(dateKey: string, target: number): Promise<void> {
+    const goal = await this.getOrCreate(dateKey);
+    const db = await getDB();
+    await db.put('dailyGoal', { ...goal, target });
+  },
+};
+
+// ─── Notification Settings ────────────────────────────────────────────────────
+
+const DEFAULT_NOTIFICATION_SETTINGS: NotificationSettings = {
+  enabled: false,
+  dailyReminderEnabled: true,
+  dailyReminderTime: '09:00',
+  streakReminderEnabled: true,
+  weeklyReportEnabled: true,
+  soundEnabled: true,
+};
+
+export const notificationSettingsDB = {
+  async get(): Promise<NotificationSettings> {
+    const db = await getDB();
+    const s = await db.get('notificationSettings', 'user' as never);
+    return (s as unknown as NotificationSettings) ?? { ...DEFAULT_NOTIFICATION_SETTINGS };
+  },
+
+  async save(settings: NotificationSettings): Promise<void> {
+    const db = await getDB();
+    await db.put('notificationSettings', { ...settings, id: 'user' } as never);
   },
 };

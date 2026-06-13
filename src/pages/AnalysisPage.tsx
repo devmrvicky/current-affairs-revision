@@ -8,6 +8,7 @@ import { useHistoryStore } from '../store/historyStore';
 import { useWrongQuestionsStore } from '../store/wrongQuestionsStore';
 import { useBookmarkStore } from '../store/bookmarkStore';
 import { useChapterStore } from '../store/chapterStore';
+import { useDailyGoalStore } from '../store/dailyGoalStore';
 import { buildAnalysis, sessionToSavedTest, formatDateKey } from '../utils';
 import { AnalysisOverview, QuestionReview } from '../components/analysis/AnalysisComponents';
 import { getChapterList } from '../services/chapterRepository';
@@ -31,6 +32,7 @@ export default function AnalysisPage() {
   const { ingestFromAttempts } = useWrongQuestionsStore();
   const { syncFromAttempts: syncBookmarks } = useBookmarkStore();
   const { recordAttempt: recordChapterAttempt } = useChapterStore();
+  const { increment: incrementGoal } = useDailyGoalStore();
 
   const [saved, setSaved] = useState(false);
   const [tab, setTab] = useState<TabKey>('overview');
@@ -64,6 +66,9 @@ export default function AnalysisPage() {
 
       // Sync bookmarks from session
       await syncBookmarks(session.attempts, session.fileName, session.date);
+
+      // Increment daily goal with answered questions count
+      await incrementGoal(result.totalQuestions);
 
       // Record chapter stats if this was a chapter quiz
       if (isChapterQuiz) {

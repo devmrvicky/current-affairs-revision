@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
-  ResponsiveContainer, Legend, Area, AreaChart
+  ResponsiveContainer, Legend, AreaChart, Area
 } from 'recharts';
 import { motion } from 'framer-motion';
 import {
@@ -13,6 +13,7 @@ import { useStatisticsStore } from '../store/statsStore';
 import { useHistoryStore } from '../store/historyStore';
 import { CardSkeleton } from '../components/common/Skeleton';
 import { EmptyState } from '../components/common/EmptyState';
+import { RevisionHeatmap } from '../components/common/RevisionHeatmap';
 
 function StatItem({ label, value, icon: Icon, color }: { label: string; value: string | number; icon: any; color: string }) {
   return (
@@ -223,6 +224,9 @@ export default function StatisticsPage() {
           </div>
         </div>
       )}
+
+      {/* Revision Heatmap */}
+      <RevisionHeatmap dailyStats={stats.dailyStats} weeks={17} />
 
       {/* Daily Performance Table */}
       {stats.dailyStats.length > 0 && (

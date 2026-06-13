@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import {
   BookOpen, Clock, BarChart3, RefreshCcw, Zap,
   CheckCircle2, XCircle, Target, TrendingUp,
-  Calendar, Brain, Bookmark, Layers
+  Calendar, Brain, Bookmark, Layers, AlertTriangle, BarChart2
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';
@@ -12,10 +12,13 @@ import { useHistoryStore } from '../store/historyStore';
 import { useStatisticsStore } from '../store/statsStore';
 import { useWrongQuestionsStore } from '../store/wrongQuestionsStore';
 import { useBookmarkStore } from '../store/bookmarkStore';
+import { useDailyGoalStore } from '../store/dailyGoalStore';
+import { useSmartRevisionStore } from '../store/smartRevisionStore';
 import { loadQuizForDate, getFileName, getDisplayDate } from '../services/quizService';
 import { useAvailableDates } from '../hooks/useAvailableDates';
 import { DashboardCard, StatCard } from '../components/common/StatCard';
 import { PWAInstallBanner } from '../components/common/PWAComponents';
+import { DailyDashboard } from '../components/common/DailyDashboard';
 import { formatTime, formatDateKey } from '../utils';
 
 function getGreeting(): string {
@@ -31,7 +34,9 @@ export default function HomePage() {
   const { load: loadHistory, tests } = useHistoryStore();
   const { stats, load: loadStats } = useStatisticsStore();
   const { questions: wrongQs, load: loadWrongQs } = useWrongQuestionsStore();
-  const { load: loadBookmarks, getCount: getBookmarkCount } = useBookmarkStore();
+  const { bookmarks, load: loadBookmarks, getCount: getBookmarkCount } = useBookmarkStore();
+  const { load: loadGoal } = useDailyGoalStore();
+  const { buildQueue } = useSmartRevisionStore();
   const { availableSet, isLoading: datesLoading } = useAvailableDates();
   const [isCreating, setIsCreating] = useState(false);
 
@@ -45,11 +50,18 @@ export default function HomePage() {
     loadStats();
     loadWrongQs();
     loadBookmarks();
+    loadGoal();
   }, []);
+
+  // Rebuild smart queue whenever wrong questions or bookmarks change
+  useEffect(() => {
+    buildQueue(wrongQs, bookmarks);
+  }, [wrongQs, bookmarks]);
 
   const hasActiveSession = session && !session.isCompleted;
   const activeWrongQs = wrongQs.filter((q) => q.status === 'learning').length;
   const bookmarkCount = getBookmarkCount();
+  const dangerCount = wrongQs.filter((q) => q.status === 'learning' && q.wrongCount >= 2).length;
 
   const revisionStats = useMemo(() => {
     const nonRevision = tests.filter((t) => !t.isRevision);
@@ -69,9 +81,9 @@ export default function HomePage() {
         return;
       }
       if (hasActiveSession && session?.fileName === todayFileName) {
-        const confirmed = window.confirm("You have an in-progress test for today. Resume it?");
-        if (confirmed) { navigate('/quiz'); return; }
-        else clearSession();
+        if (window.confirm("You have an in-progress test for today. Resume it?")) {
+          navigate('/quiz'); return;
+        } else clearSession();
       }
       startSession(quiz, todayFileName);
       navigate('/quiz');
@@ -80,6 +92,26 @@ export default function HomePage() {
     } finally {
       setIsCreating(false);
     }
+  }
+
+  function handleStartSmartRevision() {
+    const { queue } = useSmartRevisionStore.getState();
+    if (queue.length === 0) {
+      toast('No pending revision items! Great job 🎉');
+      return;
+    }
+    const quiz = {
+      date: 'Smart Revision',
+      questions: queue.map((item, i) => ({
+        id: i + 1,
+        question: item.question,
+        options: item.options,
+        correctAnswer: item.correctAnswer,
+        explanation: `[${item.sourceLabel}] ${item.explanation}`,
+      })),
+    };
+    startSession(quiz, 'smart_revision.json');
+    navigate('/quiz');
   }
 
   const dashCards = [
@@ -114,8 +146,8 @@ export default function HomePage() {
     {
       title: 'Bookmarked Questions',
       description: bookmarkCount > 0
-        ? `${bookmarkCount} question${bookmarkCount !== 1 ? 's' : ''} saved • Start bookmark revision`
-        : 'Bookmark questions during quizzes to revise them here',
+        ? `${bookmarkCount} saved • Start bookmark revision`
+        : 'Bookmark questions during quizzes',
       icon: Bookmark,
       color: '#8b5cf6',
       gradient: 'linear-gradient(135deg, rgba(139,92,246,0.08) 0%, transparent 100%)',
@@ -123,10 +155,29 @@ export default function HomePage() {
       badge: bookmarkCount > 0 ? String(bookmarkCount) : undefined,
     },
     {
+      title: 'Danger Zone',
+      description: dangerCount > 0
+        ? `${dangerCount} question${dangerCount !== 1 ? 's' : ''} you keep forgetting`
+        : 'Questions you keep getting wrong',
+      icon: AlertTriangle,
+      color: '#f97316',
+      gradient: 'linear-gradient(135deg, rgba(249,115,22,0.08) 0%, transparent 100%)',
+      onClick: () => navigate('/danger-zone'),
+      badge: dangerCount > 0 ? String(dangerCount) : undefined,
+    },
+    {
+      title: 'Weekly Report',
+      description: 'Your performance analytics this week',
+      icon: BarChart2,
+      color: '#22c55e',
+      gradient: 'linear-gradient(135deg, rgba(34,197,94,0.08) 0%, transparent 100%)',
+      onClick: () => navigate('/weekly-report'),
+    },
+    {
       title: 'Wrong Questions',
       description: activeWrongQs > 0
-        ? `${activeWrongQs} question${activeWrongQs !== 1 ? 's' : ''} need practice • Master with repetition`
-        : 'No pending questions • Keep it up!',
+        ? `${activeWrongQs} to master • Spaced repetition`
+        : 'No pending questions',
       icon: Brain,
       color: '#ef4444',
       gradient: 'linear-gradient(135deg, rgba(239,68,68,0.08) 0%, transparent 100%)',
@@ -135,7 +186,7 @@ export default function HomePage() {
     },
     {
       title: 'Test History',
-      description: `${tests.length} saved test${tests.length !== 1 ? 's' : ''} • View past performance`,
+      description: `${tests.length} saved test${tests.length !== 1 ? 's' : ''}`,
       icon: Clock,
       color: '#6366f1',
       gradient: 'linear-gradient(135deg, rgba(99,102,241,0.06) 0%, transparent 100%)',
@@ -143,7 +194,7 @@ export default function HomePage() {
     },
     {
       title: 'Revision Mode',
-      description: 'Re-attempt saved tests • Reinforce your knowledge',
+      description: 'Re-attempt saved tests',
       icon: BookOpen,
       color: '#22c55e',
       gradient: 'linear-gradient(135deg, rgba(34,197,94,0.08) 0%, transparent 100%)',
@@ -151,7 +202,7 @@ export default function HomePage() {
     },
     {
       title: 'Statistics',
-      description: 'Track your progress • Performance trends and charts',
+      description: 'Trends, accuracy, streaks',
       icon: BarChart3,
       color: '#f59e0b',
       gradient: 'linear-gradient(135deg, rgba(245,158,11,0.08) 0%, transparent 100%)',
@@ -173,6 +224,9 @@ export default function HomePage() {
 
       {/* PWA Install Banner */}
       <PWAInstallBanner />
+
+      {/* Daily Dashboard */}
+      <DailyDashboard onStartRevision={handleStartSmartRevision} />
 
       {/* Streak Banner */}
       {stats && stats.currentStreak > 0 && (
@@ -203,7 +257,7 @@ export default function HomePage() {
         </div>
       )}
 
-      {/* Revision Progress Widget */}
+      {/* Revision Progress */}
       {!datesLoading && revisionStats.available > 0 && (
         <motion.div
           initial={{ opacity: 0, y: 8 }}
@@ -239,34 +293,6 @@ export default function HomePage() {
         </motion.div>
       )}
 
-      {/* Smart Revision CTA */}
-      {activeWrongQs > 0 && (
-        <motion.button
-          initial={{ opacity: 0, y: 8 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.25 }}
-          whileHover={{ scale: 1.01 }}
-          whileTap={{ scale: 0.98 }}
-          onClick={() => navigate('/wrong-questions')}
-          className="w-full card p-4 flex items-center gap-4 text-left border-l-4 border-l-red-400 hover:shadow-lg transition-shadow"
-        >
-          <div className="w-12 h-12 rounded-2xl bg-red-100 dark:bg-red-900/30 flex items-center justify-center flex-shrink-0">
-            <Brain size={22} className="text-red-500" />
-          </div>
-          <div className="flex-1">
-            <p className="font-display font-bold" style={{ color: 'var(--text-primary)' }}>
-              Start Smart Revision
-            </p>
-            <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-              {activeWrongQs} question{activeWrongQs !== 1 ? 's' : ''} waiting • Prioritised by difficulty
-            </p>
-          </div>
-          <span className="w-8 h-8 rounded-full bg-red-500 text-white text-sm font-bold flex items-center justify-center flex-shrink-0">
-            {activeWrongQs}
-          </span>
-        </motion.button>
-      )}
-
       {/* Dashboard Cards */}
       <div>
         <h2 className="text-lg font-display font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>
@@ -274,7 +300,7 @@ export default function HomePage() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {dashCards.map((card, i) => (
-            <DashboardCard key={card.title} {...card} delay={i * 0.05} />
+            <DashboardCard key={card.title} {...card} delay={i * 0.04} />
           ))}
         </div>
       </div>
@@ -301,12 +327,9 @@ export default function HomePage() {
                 onClick={() => navigate(`/history/${test.id}`)}
               >
                 <div>
-                  <p className="font-medium text-sm" style={{ color: 'var(--text-primary)' }}>
-                    {test.displayDate}
-                  </p>
+                  <p className="font-medium text-sm" style={{ color: 'var(--text-primary)' }}>{test.displayDate}</p>
                   <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
-                    {test.totalQuestions}Q • {formatTime(test.timeTaken)}
-                    {test.isRevision ? ' • Revision' : ''}
+                    {test.totalQuestions}Q • {formatTime(test.timeTaken)}{test.isRevision ? ' • Revision' : ''}
                   </p>
                 </div>
                 <div className="text-right">
