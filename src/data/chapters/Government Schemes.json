@@ -1,89 +1,497 @@
 {
-  "date": "N/A",
-  "questions": [
-    {
-      "id": 1,
-      "question": "PM-KISAN scheme provides direct income support of ₹6,000 per year to which category?",
-      "options": ["All farmers", "Small and marginal farmers", "Landless farmers", "Only BPL farmers"],
-      "correctAnswer": "Small and marginal farmers",
-      "explanation": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi) provides ₹6,000 per year in three equal instalments to small and marginal farmers having cultivable land up to 2 hectares."
-    },
-    {
-      "id": 2,
-      "question": "Under Pradhan Mantri Awas Yojana (Urban), houses are provided to which income group at the highest subsidy?",
-      "options": ["EWS", "LIG", "MIG-I", "MIG-II"],
-      "correctAnswer": "EWS",
-      "explanation": "The Economically Weaker Section (EWS) category with income up to ₹3 lakh per annum receives the highest subsidy of 6.5% under PMAY-Urban's Credit Linked Subsidy Scheme."
-    },
-    {
-      "id": 3,
-      "question": "Ayushman Bharat PM-JAY provides health coverage of how much per family per year?",
-      "options": ["₹2 lakh", "₹3 lakh", "₹5 lakh", "₹10 lakh"],
-      "correctAnswer": "₹5 lakh",
-      "explanation": "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana provides health coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization."
-    },
-    {
-      "id": 4,
-      "question": "Which scheme was launched to provide clean cooking fuel to BPL households?",
-      "options": ["PM Ujjwala Yojana", "PM Surya Ghar Yojana", "PAHAL Scheme", "DBTL Scheme"],
-      "correctAnswer": "PM Ujjwala Yojana",
-      "explanation": "Pradhan Mantri Ujjwala Yojana was launched in 2016 to provide LPG connections to women belonging to Below Poverty Line (BPL) households, targeting 8 crore connections."
-    },
-    {
-      "id": 5,
-      "question": "The National Apprenticeship Promotion Scheme (NAPS) is implemented by which ministry?",
-      "options": ["Ministry of Education", "Ministry of Skill Development", "Ministry of Labour", "Ministry of MSME"],
-      "correctAnswer": "Ministry of Skill Development",
-      "explanation": "NAPS is implemented by the Ministry of Skill Development and Entrepreneurship to promote apprenticeship training by sharing 25% of stipend cost with employers."
-    },
-    {
-      "id": 6,
-      "question": "PM Vishwakarma Yojana targets traditional artisans with collateral-free credit up to:",
-      "options": ["₹1 lakh in first tranche", "₹2 lakh in first tranche", "₹3 lakh total", "₹5 lakh total"],
-      "correctAnswer": "₹1 lakh in first tranche",
-      "explanation": "PM Vishwakarma provides collateral-free credit support of ₹1 lakh in first tranche and ₹2 lakh in second tranche at 5% concessional interest rate to 18 traditional crafts."
-    },
-    {
-      "id": 7,
-      "question": "Stand-Up India scheme mandates at least one loan per bank branch to which categories?",
-      "options": ["SC/ST only", "Women only", "SC/ST and Women", "OBC and Women"],
-      "correctAnswer": "SC/ST and Women",
-      "explanation": "Stand-Up India facilitates bank loans between ₹10 lakh and ₹1 crore to at least one SC or ST borrower and at least one woman borrower per bank branch."
-    },
-    {
-      "id": 8,
-      "question": "Atal Pension Yojana is regulated and administered by:",
-      "options": ["LIC", "EPFO", "PFRDA", "RBI"],
-      "correctAnswer": "PFRDA",
-      "explanation": "Atal Pension Yojana is administered by the Pension Fund Regulatory and Development Authority (PFRDA) and targets unorganised sector workers aged 18-40 years."
-    },
-    {
-      "id": 9,
-      "question": "PM Surya Ghar Muft Bijli Yojana aims to install rooftop solar in how many households?",
-      "options": ["50 lakh", "75 lakh", "1 crore", "3 crore"],
-      "correctAnswer": "1 crore",
-      "explanation": "PM Surya Ghar Muft Bijli Yojana targets installation of rooftop solar panels in 1 crore households to provide up to 300 units of free electricity per month."
-    },
-    {
-      "id": 10,
-      "question": "Which scheme provides financial assistance for construction of individual household toilets under Swachh Bharat Mission (Rural)?",
-      "options": ["₹8,000", "₹10,000", "₹12,000", "₹15,000"],
-      "correctAnswer": "₹12,000",
-      "explanation": "Under Swachh Bharat Mission (Gramin), financial assistance of ₹12,000 is provided to each BPL household for construction of individual household toilets."
-    },
-    {
-      "id": 11,
-      "question": "The Pradhan Mantri Mudra Yojana offers Tarun category loans up to:",
-      "options": ["₹50,000", "₹5 lakh", "₹10 lakh", "₹20 lakh"],
-      "correctAnswer": "₹10 lakh",
-      "explanation": "PM Mudra Yojana offers three categories: Shishu (up to ₹50,000), Kishore (₹50,001 to ₹5 lakh), and Tarun (₹5 lakh to ₹10 lakh) for non-corporate, non-farm small enterprises."
-    },
-    {
-      "id": 12,
-      "question": "e-SHRAM portal was launched to create a national database of which workers?",
-      "options": ["Government employees", "Unorganised sector workers", "MSME workers", "Agricultural workers only"],
-      "correctAnswer": "Unorganised sector workers",
-      "explanation": "e-SHRAM portal was launched by Ministry of Labour to create a comprehensive National Database of Unorganised Workers (NDUW), linking to Aadhaar for social security benefits."
-    }
-  ]
+"date": "11 June 2026",
+"questions": [
+{
+"id": 1,
+"question": "प्रधानमंत्री गरीब कल्याण योजना की शुरुआत किस वर्ष की गई थी?",
+"options": [
+"वर्ष 2018",
+"वर्ष 2019",
+"वर्ष 2020",
+"वर्ष 2021"
+],
+"correctAnswer": "वर्ष 2020",
+"explanation": "प्रधानमंत्री गरीब कल्याण योजना की शुरुआत कोविड-19 महामारी के दौरान वर्ष 2020 में गरीबों को राहत देने के लिए की गई थी।"
+},
+{
+"id": 2,
+"question": "प्रधानमंत्री गरीब कल्याण योजना किस मंत्रालय के अंतर्गत संचालित की जाती है?",
+"options": [
+"ग्रामीण विकास मंत्रालय",
+"खाद्य एवं सार्वजनिक वितरण मंत्रालय",
+"कृषि एवं किसान कल्याण मंत्रालय",
+"सामाजिक न्याय और अधिकारिता मंत्रालय"
+],
+"correctAnswer": "खाद्य एवं सार्वजनिक वितरण मंत्रालय",
+"explanation": "यह योजना खाद्य एवं सार्वजनिक वितरण मंत्रालय (Ministry of Food and Public Distribution) के अंतर्गत काम करती है।"
+},
+{
+"id": 3,
+"question": "प्रधानमंत्री नरेंद्र मोदी द्वारा आत्मनिर्भर भारत अभियान के तहत कितने रुपये के विशेष आर्थिक राहत पैकेज की घोषणा की गई थी?",
+"options": [
+"10 लाख करोड़ रुपये",
+"15 लाख करोड़ रुपये",
+"20 लाख करोड़ रुपये",
+"25 लाख करोड़ रुपये"
+],
+"correctAnswer": "20 लाख करोड़ रुपये",
+"explanation": "प्रधानमंत्री नरेंद्र मोदी ने 12 मई 2020 को कोरोना संकट के दौरान 20 लाख करोड़ रुपये के विशेष आर्थिक पैकेज की घोषणा की थी।"
+},
+{
+"id": 4,
+"question": "आत्मनिर्भर भारत अभियान के तहत घोषित आर्थिक पैकेज भारत की कुल जीडीपी (GDP) का लगभग कितना प्रतिशत है?",
+"options": [
+"5 प्रतिशत",
+"10 प्रतिशत",
+"12 प्रतिशत",
+"15 प्रतिशत"
+],
+"correctAnswer": "10 प्रतिशत",
+"explanation": "आत्मनिर्भर भारत अभियान का विशेष आर्थिक राहत पैकेज भारत की कुल जीडीपी का लगभग 10% है।"
+},
+{
+"id": 5,
+"question": "पीएम स्वनिधि (PM SVANidhi) योजना मुख्य रूप से किस वर्ग को वित्तीय सहायता प्रदान करने के लिए शुरू की गई है?",
+"options": [
+"सीमांत किसान",
+"छोटे उद्यमी",
+"रेहड़ी-पटरी वाले (Street Vendors)",
+"बेरोजगार युवा"
+],
+"correctAnswer": "रेहड़ी-पटरी वाले (Street Vendors)",
+"explanation": "पीएम स्वनिधि योजना का मुख्य उद्देश्य रेहड़ी-पटरी वाले (स्ट्रीट वेंडर्स) दुकानदारों को बिना किसी गारंटी के कार्यशील पूंजी ऋण प्रदान करना है।"
+},
+{
+"id": 6,
+"question": "पीएम स्वनिधि (PM SVANidhi) योजना का शुभारंभ किस मंत्रालय द्वारा किया गया था?",
+"options": [
+"वित्त मंत्रालय",
+"आवास एवं शहरी मामलों के मंत्रालय",
+"वाणिज्य एवं उद्योग मंत्रालय",
+"श्रम एवं रोजगार मंत्रालय"
+],
+"correctAnswer": "आवास एवं शहरी मामलों के मंत्रालय",
+"explanation": "पीएम स्वनिधि योजना को आवास एवं शहरी मामलों के मंत्रालय (MoHUA) द्वारा 1 जून 2020 को लॉन्च किया गया था।"
+},
+{
+"id": 7,
+"question": "राष्ट्रीय शिक्षा नीति 2020 (NEP 2020) को भारत सरकार द्वारा किस पूर्व शिक्षा नीति के स्थान पर लागू किया गया है?",
+"options": [
+"राष्ट्रीय शिक्षा नीति 1968",
+"राष्ट्रीय शिक्षा नीति 1986",
+"राष्ट्रीय शिक्षा नीति 1992",
+"राष्ट्रीय शिक्षा नीति 2000"
+],
+"correctAnswer": "राष्ट्रीय शिक्षा नीति 1986",
+"explanation": "राष्ट्रीय शिक्षा नीति 2020 को 34 वर्षों के बाद 1986 की शिक्षा नीति के स्थान पर लागू किया गया है।"
+},
+{
+"id": 8,
+"question": "नई राष्ट्रीय शिक्षा नीति 2020 (NEP 2020) के तहत पुराने 10+2 ढांचे के स्थान पर किस नए शैक्षणिक ढांचे को अपनाया गया है?",
+"options": [
+"5+3+3+4",
+"5+4+3+3",
+"3+4+4+5",
+"4+3+3+5"
+],
+"correctAnswer": "5+3+3+4",
+"explanation": "एनईपी 2020 में पुराने 10+2 के स्थान पर 5+3+3+4 के नए स्कूली ढांचे को शामिल किया गया है।"
+},
+{
+"id": 9,
+"question": "नई शिक्षा नीति 2020 के तहत शिक्षा क्षेत्र पर केंद्र व राज्य सरकार के सहयोग से जीडीपी (GDP) का कितना प्रतिशत खर्च करने का लक्ष्य रखा गया है?",
+"options": [
+"4 प्रतिशत",
+"5 प्रतिशत",
+"6 प्रतिशत",
+"7 प्रतिशत"
+],
+"correctAnswer": "6 प्रतिशत",
+"explanation": "राष्ट्रीय शिक्षा नीति 2020 के तहत कुल जीडीपी का 6% हिस्सा शिक्षा पर खर्च करने का लक्ष्य निर्धारित किया गया है।"
+},
+{
+"id": 10,
+"question": "प्रधानमंत्री नरेंद्र मोदी द्वारा राष्ट्रीय डिजिटल स्वास्थ्य मिशन (NDHM) का उद्घाटन कब किया गया था?",
+"options": [
+"15 अगस्त 2019",
+"26 जनवरी 2020",
+"15 अगस्त 2020",
+"2 अक्टूबर 2020"
+],
+"correctAnswer": "15 अगस्त 2020",
+"explanation": "भारत के 74वें स्वतंत्रता दिवस के अवसर पर 15 अगस्त 2020 को प्रधानमंत्री द्वारा इस डिजिटल स्वास्थ्य पारिस्थितिकी तंत्र की शुरुआत की गई थी।"
+},
+{
+"id": 11,
+"question": "पीएम विश्वकर्मा योजना का शुभारंभ 17 सितम्बर 2023 को किस स्थान से किया गया था?",
+"options": [
+"वाराणसी",
+"नई दिल्ली",
+"अहमदाबाद",
+"मुंबई"
+],
+"correctAnswer": "नई दिल्ली",
+"explanation": "पीएम विश्वकर्मा योजना की शुरुआत 17 सितम्बर 2023 को नई दिल्ली से पारंपरिक कारीगरों के कल्याण हेतु की गई थी।"
+},
+{
+"id": 12,
+"question": "पीएम विश्वकर्मा योजना के अंतर्गत कुल कितने पारंपरिक व्यवसायों/शिल्पों को शामिल किया गया है?",
+"options": [
+"12",
+"15",
+"18",
+"21"
+],
+"correctAnswer": "18",
+"explanation": "इस योजना के तहत देश के 18 पारंपरिक शिल्पों और व्यवसायों से जुड़े परिवारों को शामिल किया गया है।"
+},
+{
+"id": 13,
+"question": "पीएम विश्वकर्मा योजना के लिए सरकार द्वारा कुल कितना बजट प्रावधान निर्धारित किया गया है?",
+"options": [
+"10,000 करोड़ रुपये",
+"11,000 करोड़ रुपये",
+"13,000 करोड़ रुपये",
+"15,000 करोड़ रुपये"
+],
+"correctAnswer": "13,000 करोड़ रुपये",
+"explanation": "इस योजना को सुचारू रूप से लागू करने के लिए सरकार द्वारा 13,000 करोड़ रुपये का वित्तीय आवंटन किया गया है।"
+},
+{
+"id": 14,
+"question": "प्रधानमंत्री सूर्योदय योजना का मुख्य उद्देश्य क्या है?",
+"options": [
+"किसानों को मुफ्त सिंचाई पंप देना",
+"1 करोड़ घरों की छतों पर सौर पैनल (Solar Panels) स्थापित करना",
+"ग्रामीण क्षेत्रों में शत-प्रतिशत बिजली पहुँचाना",
+"सरकारी कार्यालयों को सौर ऊर्जा से संचालित करना"
+],
+"correctAnswer": "14",
+"explanation": "प्रधानमंत्री सूर्योदय योजना की शुरुआत 22 जनवरी 2024 को 1 करोड़ घरों की छतों पर सोलर पैनल लगाने के उद्देश्य से की गई थी।"
+},
+{
+"id": 15,
+"question": "प्रधानमंत्री सूर्योदय योजना के क्रियान्वयन के लिए किस नोडल मंत्रालय को जिम्मेदारी दी गई है?",
+"options": [
+"विद्युत मंत्रालय",
+"नवीन और नवीकरणीय ऊर्जा मंत्रालय",
+"शहरी विकास मंत्रालय",
+"कोयला एवं ऊर्जा मंत्रालय"
+],
+"correctAnswer": "नवीन और नवीकरणीय ऊर्जा मंत्रालय",
+"explanation": "यह योजना नवीन और नवीकरणीय ऊर्जा मंत्रालय (MNRE) के अंतर्गत संचालित की जाती है।"
+},
+{
+"id": 16,
+"question": "15 फरवरी 2024 को घोषित 'पीएम सूर्य घर मुफ्त बिजली योजना' के तहत प्रति माह कितने यूनिट तक मुफ्त बिजली देने का प्रावधान है?",
+"options": [
+"150 यूनिट",
+"200 यूनिट",
+"250 यूनिट",
+"300 UNIT"
+],
+"correctAnswer": "300 UNIT",
+"explanation": "पीएम सूर्य घर मुफ्त बिजली योजना के तहत लाभार्थियों को प्रति माह 300 यूनिट तक मुफ्त बिजली देने की व्यवस्था की गई है।"
+},
+{
+"id": 17,
+"question": "3 अक्टूबर 2024 को शुरू की गई पीएम इंटर्नशिप योजना (PM Internship Scheme) का नोडल मंत्रालय कौन सा है?",
+"options": [
+"श्रम एवं रोजगार मंत्रालय",
+"कौशल विकास मंत्रालय",
+"कॉर्पोरेट मामलों के मंत्रालय",
+"शिक्षा मंत्रालय"
+],
+"correctAnswer": "कॉर्पोरेट मामलों के मंत्रालय",
+"explanation": "युवाओं को शीर्ष कंपनियों में इंटर्नशिप के अवसर प्रदान करने वाली इस योजना का संचालन कॉर्पोरेट मामलों के मंत्रालय द्वारा किया जा रहा है।"
+},
+{
+"id": 18,
+"question": "पीएम इंटर्नशिप योजना के तहत आवेदन करने वाले युवाओं की आयु सीमा क्या निर्धारित की गई है?",
+"options": [
+"18 से 25 वर्ष",
+"21 से 24 वर्ष",
+"18 से 30 वर्ष",
+"20 से 28 वर्ष"
+],
+"correctAnswer": "21 से 24 वर्ष",
+"explanation": "इस योजना के लाभ के लिए पात्र छात्रों की आयु 21 वर्ष से 24 वर्ष के बीच होनी चाहिए।"
+},
+{
+"id": 19,
+"question": "पीएम इंटर्नशिप योजना के तहत प्रशिक्षुओं को प्रति माह मिलने वाले ₹5,000 में केंद्र सरकार और कंपनी का योगदान क्रमशः कितना है?",
+"options": [
+"₹4,000 और ₹1,000",
+"₹4,500 और ₹500",
+"₹3,500 और ₹1,500",
+"₹2,500 और ₹2,500"
+],
+"correctAnswer": "₹4,500 और ₹500",
+"explanation": "कुल ₹5,000 की वित्तीय सहायता में ₹4,500 केंद्र सरकार देती है तथा ₹500 संबंधित कंपनी अपने सीएसआर या फंड से देती है।"
+},
+{
+"id": 20,
+"question": "6 नवंबर 2024 को शुरू की गई प्रधानमंत्री विद्यालक्ष्मी योजना का मुख्य लक्ष्य क्या है?",
+"options": [
+"छात्राओं को मुफ्त साइकिल वितरण",
+"मेधावी छात्रों को उच्च शिक्षा के लिए बिना गारंटी वित्तीय सहायता/ऋण देना",
+"प्राथमिक विद्यालयों में डिजिटल बोर्ड लगाना",
+"गरीब बच्चों को मुफ्त कोचिंग प्रदान करना"
+],
+"correctAnswer": "मेधावी छात्रों को उच्च शिक्षा के लिए बिना गारंटी वित्तीय सहायता/ऋण देना",
+"explanation": "यह योजना NEP 2020 से जुड़ी है, जिसके तहत मेधावी छात्रों को उच्च शिक्षा के लिए बिना किसी गारंटी के ₹10 लाख तक का ऋण और ब्याज सब्सिडी दी जाती है।"
+},
+{
+"id": 21,
+"question": "प्रधानमंत्री विद्यालक्ष्मी योजना के लिए वित्तीय वर्ष 2024-25 से 2030-31 तक की अवधि हेतु कुल कितना परिव्यय (Outlay) स्वीकृत किया गया है?",
+"options": [
+"₹2,500 करोड़",
+"₹3,000 करोड़",
+"₹3,600 करोड़",
+"₹4,200 करोड़"
+],
+"correctAnswer": "₹3,600 करोड़",
+"explanation": "सरकार ने इस महत्वाकांक्षी योजना के लिए वर्ष 2031 तक के लिए कुल ₹3,600 करोड़ का वित्तीय बजट आवंटित किया है।"
+},
+{
+"id": 22,
+"question": "वर्ष 2000 में शुरू की गई 'प्रधानमंत्री ग्राम सड़क योजना' किस प्रधानमंत्री के कार्यकाल में प्रारंभ हुई थी?",
+"options": [
+"पी. वी. नरसिम्हा राव",
+"एच. डी. देवेगौड़ा",
+"इंद्र कुमार गुजराल",
+"अटल बिहारी वाजपेयी"
+],
+"correctAnswer": "अटल बिहारी वाजपेयी",
+"explanation": "इस योजना की शुरुआत तत्कालीन प्रधानमंत्री श्री अटल बिहारी वाजपेयी जी के कार्यकाल में ग्रामीण संपर्क सुधारने के लिए की गई थी।"
+},
+{
+"id": 23,
+"question": "प्रधानमंत्री ग्राम सड़क योजना का मूल लक्ष्य वर्ष 2007 तक कितनी आबादी वाले सभी गाँवों को बारहमासी सड़कों से जोड़ना था?",
+"options": [
+"250 और उससे अधिक",
+"500 और उससे अधिक",
+"1000 और उससे अधिक",
+"1500 और उससे अधिक"
+],
+"correctAnswer": "500 और उससे अधिक",
+"explanation": "इसका मूल उद्देश्य मैदानी क्षेत्रों में 500 और उससे अधिक आबादी वाले सभी गाँवों को पक्की सड़कों से जोड़ना था।"
+},
+{
+"id": 24,
+"question": "प्रधानमंत्री जन धन योजना (PMJDY) का आधिकारिक शुभारंभ कब हुआ था?",
+"options": [
+"15 अगस्त 2014",
+"28 अगस्त 2014",
+"25 सितम्बर 2014",
+"2 अक्टूबर 2014"
+],
+"correctAnswer": "28 अगस्त 2014",
+"explanation": "प्रधानमंत्री नरेंद्र मोदी द्वारा 15 अगस्त 2014 को लाल किले से इसकी घोषणा की गई थी और देश भर में इसका शुभारंभ 28 अगस्त 2014 को हुआ था।"
+},
+{
+"id": 25,
+"question": "प्रधानमंत्री जन धन योजना (PMJDY) का मुख्य नारा/शीर्षक क्या है?",
+"options": [
+"सबका साथ सबका विकास",
+"मेरा खाता भाग्य विधाता",
+"हर घर बैंक खाता",
+"सशक्त परिवार समृद्ध भारत"
+],
+"correctAnswer": "मेरा खाता भाग्य विधाता",
+"explanation": "वित्तीय समावेशन की इस सबसे बड़ी योजना का आधिकारिक शीर्षक/नारा 'मेरा खाता भाग्य विधाता' है।"
+},
+{
+"id": 26,
+"question": "जुलाई 2025 तक के आंकड़ों के अनुसार, प्रधानमंत्री जन धन योजना के तहत देश में कुल कितने करोड़ से अधिक बैंक खाते खोले जा चुके हैं?",
+"options": [
+"40 करोड़",
+"45 करोड़",
+"50 करोड़",
+"55 करोड़"
+],
+"correctAnswer": "55 करोड़",
+"explanation": "जुलाई 2025 तक इस योजना के अंतर्गत देश भर में सफलतापूर्व 55 करोड़ से अधिक जन धन बैंक खाते खोले जा चुके हैं।"
+},
+{
+"id": 27,
+"question": "प्रधानमंत्री जन धन योजना के खाताधारकों को वर्तमान में कितने रुपये का दुर्घटना बीमा कवर प्रदान किया जाता है?",
+"options": [
+"₹50,000",
+"₹1 लाख",
+"₹2 लाख",
+"₹3 लाख"
+],
+"correctAnswer": "₹2 लाख",
+"explanation": "जन धन खाताधारकों को ₹2 लाख का दुर्घटना बीमा कवर तथा ₹30,000 का जीवन बीमा कवर दिए जाने का लाभ मिलता है।"
+},
+{
+"id": 28,
+"question": "देश में विनिर्माण (Manufacturing) क्षेत्र को बढ़ावा देने के लिए 'मेक इन इंडिया' (Make In India) कार्यक्रम की शुरुआत कब की गई थी?",
+"options": [
+"28 अगस्त 2014",
+"25 सितम्बर 2014",
+"2 अक्टूबर 2014",
+"11 अक्टूबर 2014"
+],
+"correctAnswer": "25 सितम्बर 2014",
+"explanation": "भारत को एक वैश्विक विनिर्माण केंद्र बनाने के लक्ष्य के साथ 'मेक इन इंडिया' की शुरुआत 25 सितम्बर 2014 को की गई थी।"
+},
+{
+"id": 29,
+"question": "स्वच्छ भारत मिशन का शुभारंभ 2 अक्टूबर 2014 को किस केंद्रीय मंत्रालय के अंतर्गत किया गया था?",
+"options": [
+"शहरी विकास मंत्रालय",
+"पेजल और स्वच्छता मंत्रालय",
+"स्वास्थ्य एवं परिवार कल्याण मंत्रालय",
+"ग्रामीण विकास मंत्रालय"
+],
+"correctAnswer": "पेजल और स्वच्छता मंत्रालय",
+"explanation": "स्वच्छ भारत मिशन (ग्रामीण) का क्रियान्वयन पेयजल और स्वच्छता मंत्रालय (Ministry of Drinking Water and Sanitation) द्वारा किया गया था।"
+},
+{
+"id": 30,
+"question": "11 अक्टूबर 2014 को शुरू की गई 'सांसद आदर्श ग्राम योजना' का मुख्य उद्देश्य क्या है?",
+"options": [
+"प्रत्येक सांसद द्वारा ग्रामीण युवाओं को रोजगार देना",
+"प्रत्येक सांसद द्वारा एक-एक गाँव गोद लेकर उसका समग्र विकास करना",
+"ग्रामीण क्षेत्रों में डिजिटल साक्षरता बढ़ाना",
+"संसदीय क्षेत्रों में पक्की सड़कों का जाल बिछाना"
+],
+"correctAnswer": "प्रत्येक सांसद द्वारा एक-एक गाँव गोद लेकर उसका समग्र विकास करना",
+"explanation": "इस योजना के तहत देश के सभी सांसदों को अपने संसदीय क्षेत्र से गांवों को गोद लेकर उन्हें आदर्श गांव के रूप में विकसित करना था।"
+},
+{
+"id": 31,
+"question": "केंद्रीय स्वास्थ्य मंत्रालय द्वारा 25 दिसम्बर 2014 को शुरू किए गए 'मिशन इंद्रधनुष' का मुख्य संबंध किससे है?",
+"options": [
+"ग्रामीण स्वच्छता",
+"संपूर्ण टीकाकरण (Immunization)",
+"डिजिटल बैंकिंग",
+"महिला सशक्तिकरण"
+],
+"correctAnswer": "संपूर्ण टीकाकरण (Immunization)",
+"explanation": "मिशन इंद्रधनुष एक राष्ट्रव्यापी टीकाकरण अभियान है जिसका लक्ष्य बच्चों और गर्भवती महिलाओं का संपूर्ण टीकाकरण करना था।"
+},
+{
+"id": 32,
+"question": "मिशन इंद्रधनुष योजना के अंतर्गत कुल कितनी घातक बीमारियों के खिलाफ सुरक्षा के लिए टीकाकरण किया जाता है?",
+"options": [
+"5 बीमारियां",
+"7 बीमारियां",
+"9 बीमारियां",
+"12 बीमारियां"
+],
+"correctAnswer": "7 बीमारियां",
+"explanation": "इसके तहत 7 प्रमुख बीमारियों (डिप्थीरिया, काली खांसी, टिटनेस, पोलियो, टीबी, खसरा और हेपेटाइटिस-बी) के टीके लगाए जाते हैं।"
+},
+{
+"id": 33,
+"question": "9 मई 2015 को शुरू की गई 'प्रधानमंत्री सुरक्षा बीमा योजना' (PMSBY) किस मंत्रालय के अधीन है?",
+"options": [
+"श्रम और रोजगार मंत्रालय",
+"स्वास्थ्य एवं परिवार कल्याण मंत्रालय",
+"वित्त मंत्रालय",
+"सामाजिक न्याय मंत्रालय"
+],
+"correctAnswer": "वित्त मंत्रालय",
+"explanation": "प्रधानमंत्री सुरक्षा बीमा योजना (PMSBY) का नियंत्रण और संचालन केंद्रीय वित्त मंत्रालय द्वारा किया जाता है।"
+},
+{
+"id": 34,
+"question": "अटल पेंशन योजना (APY) के तहत आवेदन करने के लिए व्यक्ति की निर्धारित आयु सीमा क्या होनी चाहिए?",
+"options": [
+"15 से 35 वर्ष",
+"18 से 40 वर्ष",
+"21 से 50 वर्ष",
+"18 से 60 वर्ष"
+],
+"correctAnswer": "18 से 40 वर्ष",
+"explanation": "अटल पेंशन योजना का लाभ लेने के लिए अंशदाता की न्यूनतम आयु 18 वर्ष और अधिकतम आयु 40 वर्ष होनी चाहिए।"
+},
+{
+"id": 35,
+"question": "अटल पेंशन योजना के तहत 60 वर्ष की आयु पूरी होने के बाद जमा राशि के आधार पर प्रति माह न्यूनतम और अधिकतम कितनी पेंशन मिल सकती है?",
+"options": [
+"₹500 से ₹2,000",
+"₹1,000 से ₹3,000",
+"₹1,000 से ₹5,000",
+"₹2,000 से ₹10,000"
+],
+"correctAnswer": "1,000 से ₹5,000",
+"explanation": "इस योजना के तहत निवेशकों को उनके योगदान के अनुसार ₹1,000 से लेकर ₹5,000 तक की निश्चित मासिक पेंशन मिलती है।"
+},
+{
+"id": 36,
+"question": "24 जून 2015 को शुरू की गई 'अमृत' (AMRUT) योजना का पूरा नाम क्या है?",
+"options": [
+"Atal Mission for Rejuvenation and Urban Transformation",
+"Atal Mission for Rural Urban Transformation",
+"Atal Mission for Rejuvenation and Urban Transport",
+"Advanced Mission for Rural and Urban Transformation"
+],
+"correctAnswer": "Atal Mission for Rejuvenation and Urban Transformation",
+"explanation": "AMRUT का पूर्ण रूप 'Atal Mission for Rejuvenation and Urban Transformation' है, जो शहरों में बुनियादी ढांचे के विकास से संबंधित है।"
+},
+{
+"id": 37,
+"question": "1 अक्टूबर 2021 को लॉन्च की गई अमृत योजना 2.0 (AMRUT 2.0) की कुल कार्यान्वयन अवधि कब से कब तक निर्धारित की गई है?",
+"options": [
+"वित्त वर्ष 2020-21 से 2024-25",
+"वित्त वर्ष 2021-22 से 2025-26",
+"वित्त वर्ष 2022-23 से 2026-27",
+"वित्त वर्ष 2021-22 से 2026-27"
+],
+"correctAnswer": "वित्त वर्ष 2021-22 से 2025-26",
+"explanation": "अमृत 2.0 योजना को 5 वर्षों की अवधि (FY 2021-22 से FY 2025-26) के लिए देश के वैधानिक कस्बों में जल आपूर्ति सुनिश्चित करने हेतु बढ़ा दिया गया है।"
+},
+{
+"id": 38,
+"question": "अमृत 2.0 योजना का मुख्य विस्तार लक्ष्य देश के कितने वैधानिक कस्बों (Statutory Towns) तक सार्वभौमिक जलापूर्ति कवरेज सुनिश्चित करना है?",
+"options": [
+"लगभग 3,000",
+"लगभग 4,000",
+"लगभग 4,900",
+"लगभग 5,500"
+],
+"correctAnswer": "लगभग 4,900",
+"explanation": "अमृत 2.0 का लक्ष्य देश के 500 प्रमुख शहरों के साथ-साथ लगभग 4,900 वैधानिक कस्बों तक सार्वभौमिक जलापूर्ति पहुंचाना है।"
+},
+{
+"id": 39,
+"question": "1 जुलाई 2015 को शुरू किए गए 'डिजिटल इंडिया मिशन' (Digital India Mission) का नोडल मंत्रालय कौन सा है?",
+"options": [
+"विज्ञान एवं प्रौद्योगिकी मंत्रालय",
+"संचार मंत्रालय",
+"इलेक्ट्रॉनिक्स और सूचना प्रौद्योगिकी मंत्रालय",
+"सूचना और प्रसारण मंत्रालय"
+],
+"correctAnswer": "इलेक्ट्रॉनिक्स और सूचना प्रौद्योगिकी मंत्रालय",
+"explanation": "डिजिटल इंडिया मिशन का संचालन इलेक्ट्रॉनिक्स और सूचना प्रौद्योगिकी मंत्रालय (MeitY) द्वारा किया जाता है।"
+},
+{
+"id": 40,
+"question": "दिसंबर 2020 में दूरसंचार विभाग द्वारा शुरू की गई 'PM-WANI' योजना का प्राथमिक उद्देश्य क्या है?",
+"options": [
+"ग्रामीण युवाओं को मुफ्त मोबाइल देना",
+"सार्वजनिक वाई-फाई हॉटस्पॉट (Public Wi-Fi) का विस्तार करना",
+"डिजिटल साक्षरता केंद्रों की स्थापना करना",
+"देश भर में 5G नेटवर्क का विस्तार करना"
+],
+"correctAnswer": "सार्वजनिक वाई-फाई हॉटस्पॉट (Public Wi-Fi) का विस्तार करना",
+"explanation": "PM-WANI (Wi-Fi Access Network Interface) का उद्देश्य देश के कोने-कोने में, विशेषकर ग्रामीण क्षेत्रों में कम लागत पर सार्वजनिक वाई-फाई नेटवर्क का विस्तार करना है।"
+},
+{
+"id": 41,
+"question": "5 जुलाई 2021 को शिक्षा मंत्रालय द्वारा शुरू किए गए 'NIPUN भारत कार्यक्रम' का मुख्य लक्ष्य क्या है?",
+"options": [
+"कक्षा 5 तक के बच्चों को कोडिंग सिखाना",
+"कक्षा 3 के अंत तक सभी बच्चों में मूलभूत साक्षरता और संख्यात्मकता (FLN) प्राप्त करना",
+"माध्यमिक विद्यालय के छात्रों को तकनीकी प्रशिक्षण देना",
+"शिक्षकों के लिए डिजिटल प्रशिक्षण अनिवार्य करना"
+],
+"correctAnswer": "कक्षा 3 के अंत तक सभी बच्चों में मूलभूत साक्षरता और संख्यात्मकता (FLN) प्राप्त करना",
+"explanation": "NIPUN भारत का लक्ष्य वर्ष 2026-27 तक ग्रेड-3 के अंत तक के बच्चों को पढ़ने, समझने और बुनियादी गणित (अंकगणित) हल करने में सक्षम बनाना है।"
+}
+]
 }
