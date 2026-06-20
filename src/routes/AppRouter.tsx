@@ -59,11 +59,12 @@ const router = createBrowserRouter([
       { path: 'settings',                     element: <S><SettingsPage /></S> },
       { path: 'no-quiz-today',                element: <S><NoQuizTodayPage /></S> },
       { path: 'analysis',                     element: <S><AnalysisPage /></S> },
-    ],
-  },
   {
     path: '/quiz',
     element: <S><QuizPage /></S>,
+  },
+{ path: '*',                     element: <S><HomePage /></S> },
+    ],
   },
 ]);
 
