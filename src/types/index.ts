@@ -239,3 +239,44 @@ export interface WeeklyReport {
   topicsWeak: string[];
   dailyBreakdown: { date: string; questions: number; accuracy: number }[];
 }
+
+// ─── Reading / Highlights ─────────────────────────────────────────────────────
+
+export type HighlightColor = 'yellow' | 'green' | 'blue' | 'pink' | 'orange';
+
+export interface Highlight {
+  id: string;
+  chapterId: string;          // e.g. "Sports"
+  text: string;               // selected text content
+  color: HighlightColor;
+  note?: string;              // optional personal note
+  startOffset: number;        // character offset in full markdown text
+  endOffset: number;
+  createdAt: number;
+  updatedAt: number;
+}
+
+export interface ReadingProgress {
+  chapterId: string;
+  scrollPercent: number;      // 0-100
+  scrollY: number;            // px
+  timeSpentSeconds: number;
+  lastReadAt: number;
+  completionStatus: 'not_started' | 'reading' | 'completed';
+  isFavorite: boolean;
+}
+
+export interface ReadingPrefs {
+  fontSize: number;           // px, e.g. 16
+  fontFamily: 'serif' | 'sans' | 'mono';
+  lineHeight: number;         // e.g. 1.8
+  maxWidth: number;           // px, e.g. 720
+}
+
+export interface ReaderNote {
+  id: string;
+  chapterId: string;
+  text: string;               // the note content
+  anchorText: string;         // text the note is attached to
+  createdAt: number;
+}

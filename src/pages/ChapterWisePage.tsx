@@ -3,15 +3,15 @@ import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   BookOpen, Search, SlidersHorizontal, ChevronRight,
-  Trophy, Clock, Target, BarChart2, Layers
+  Trophy, Clock, Target, BarChart2, Layers, Star, Highlighter
 } from 'lucide-react';
-import toast from 'react-hot-toast';
-import { useQuizStore } from '../store/quizStore';
 import { useChapterStore } from '../store/chapterStore';
+import { useReaderStore } from '../store/readerStore';
 import { getChapterList, loadChapterByFileName } from '../services/chapterRepository';
+import { getChaptersWithMarkdown } from '../services/markdownRepository';
 import { EmptyState } from '../components/common/EmptyState';
 import { getBadge, getBadgeColors, formatRelativeDate } from '../utils';
-import type { ChapterStats } from '../types';
+import type { ChapterStats, ReadingProgress } from '../types';
 
 type SortKey = 'name' | 'questions' | 'attempts' | 'recent';
 
@@ -20,12 +20,15 @@ interface ChapterCardProps {
   fileName: string;
   questionCount: number;
   stats?: ChapterStats;
-  onStart: (fileName: string, chapterName: string) => void;
+  readingProgress?: ReadingProgress;
+  hasMarkdown: boolean;
+  onOpen: (chapterName: string) => void;
+  onToggleFavorite: (chapterName: string) => void;
   delay: number;
 }
 
 const ChapterCard = memo(function ChapterCard({
-  chapterName, fileName, questionCount, stats, onStart, delay
+  chapterName, fileName, questionCount, stats, readingProgress, hasMarkdown, onOpen, onToggleFavorite, delay
 }: ChapterCardProps) {
   const badge = stats ? getBadge(stats.bestScore) : null;
   const badgeColors = badge ? getBadgeColors(badge) : null;
@@ -45,9 +48,19 @@ const ChapterCard = memo(function ChapterCard({
       initial={{ opacity: 0, y: 12 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay, duration: 0.28 }}
-      className="card p-5 hover:shadow-lg transition-all duration-200 group cursor-pointer"
-      onClick={() => onStart(fileName, chapterName)}
+      className="card p-5 hover:shadow-lg transition-all duration-200 group cursor-pointer relative"
+      onClick={() => onOpen(chapterName)}
     >
+      {/* Favorite star */}
+      <button
+        onClick={(e) => { e.stopPropagation(); onToggleFavorite(chapterName); }}
+        className={`absolute top-3 right-3 p-1.5 rounded-lg transition-colors z-10 ${
+          readingProgress?.isFavorite ? 'text-amber-500' : 'text-gray-300 dark:text-gray-600 hover:text-amber-400'
+        }`}
+      >
+        <Star size={16} fill={readingProgress?.isFavorite ? 'currentColor' : 'none'} />
+      </button>
+
       <div className="flex items-start gap-4">
         {/* Icon */}
         <div className="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0"
@@ -56,7 +69,7 @@ const ChapterCard = memo(function ChapterCard({
         </div>
 
         <div className="flex-1 min-w-0">
-          <div className="flex items-start justify-between gap-2">
+          <div className="flex items-start justify-between gap-2 pr-6">
             <h3 className="font-display font-bold text-base leading-snug" style={{ color: 'var(--text-primary)' }}>
               {chapterName}
             </h3>
@@ -72,20 +85,39 @@ const ChapterCard = memo(function ChapterCard({
             <span className="flex items-center gap-1 text-xs" style={{ color: 'var(--text-muted)' }}>
               <Target size={11} /> {questionCount} questions
             </span>
+            {hasMarkdown && (
+              <span className="flex items-center gap-1 text-xs text-brand-500">
+                <BookOpen size={11} /> Revision available
+              </span>
+            )}
             {stats && (
-              <>
-                <span className="flex items-center gap-1 text-xs" style={{ color: 'var(--text-muted)' }}>
-                  <BarChart2 size={11} /> {stats.totalAttempts} attempt{stats.totalAttempts !== 1 ? 's' : ''}
-                </span>
-                <span className="flex items-center gap-1 text-xs" style={{ color: 'var(--text-muted)' }}>
-                  <Clock size={11} /> {formatRelativeDate(stats.lastAttemptAt)}
-                </span>
-              </>
+              <span className="flex items-center gap-1 text-xs" style={{ color: 'var(--text-muted)' }}>
+                <BarChart2 size={11} /> {stats.totalAttempts} attempt{stats.totalAttempts !== 1 ? 's' : ''}
+              </span>
             )}
           </div>
 
-          {/* Best score progress bar */}
-          {stats && (
+          {/* Reading progress bar */}
+          {readingProgress && readingProgress.scrollPercent > 0 && (
+            <div className="mt-3">
+              <div className="flex justify-between text-xs mb-1" style={{ color: 'var(--text-muted)' }}>
+                <span>Reading Progress</span>
+                <span className="font-semibold" style={{ color: 'var(--text-primary)' }}>{readingProgress.scrollPercent}%</span>
+              </div>
+              <div className="h-1.5 rounded-full overflow-hidden" style={{ background: 'var(--border)' }}>
+                <div
+                  className="h-full rounded-full transition-all"
+                  style={{
+                    width: `${readingProgress.scrollPercent}%`,
+                    background: readingProgress.completionStatus === 'completed' ? '#22c55e' : '#6366f1',
+                  }}
+                />
+              </div>
+            </div>
+          )}
+
+          {/* Best score progress bar (only if no reading progress to avoid clutter) */}
+          {stats && (!readingProgress || readingProgress.scrollPercent === 0) && (
             <div className="mt-3">
               <div className="flex justify-between text-xs mb-1" style={{ color: 'var(--text-muted)' }}>
                 <span>Best Score</span>
@@ -118,21 +150,22 @@ const ChapterCard = memo(function ChapterCard({
 
 export default function ChapterWisePage() {
   const navigate = useNavigate();
-  const { startSession } = useQuizStore();
   const { stats: chapterStats, load: loadChapterStats } = useChapterStore();
+  const { progress, loadAll: loadReaderData, toggleFavorite } = useReaderStore();
 
   const [search, setSearch] = useState('');
   const [sortBy, setSortBy] = useState<SortKey>('name');
-  const [isStarting, setIsStarting] = useState<string | null>(null);
 
   // Chapter list from glob — no async, it's synchronous
   const allChapters = useMemo(() => getChapterList(), []);
+  const markdownChapters = useMemo(() => getChaptersWithMarkdown(), []);
 
   // We need question counts — load them lazily
   const [questionCounts, setQuestionCounts] = useState<Record<string, number>>({});
 
   useEffect(() => {
     loadChapterStats();
+    loadReaderData();
     // Load all chapters to get question counts (lazy, cached in chapterRepository)
     allChapters.forEach(async ({ fileName, chapterName }) => {
       const quiz = await loadChapterByFileName(fileName);
@@ -174,22 +207,13 @@ export default function ChapterWisePage() {
     return result;
   }, [allChapters, search, sortBy, questionCounts, statsMap]);
 
-  const handleStart = useCallback(async (fileName: string, chapterName: string) => {
-    setIsStarting(fileName);
-    try {
-      const quiz = await loadChapterByFileName(fileName);
-      if (!quiz) {
-        toast.error(`Could not load "${chapterName}" — file may be missing or corrupted.`);
-        return;
-      }
-      startSession(quiz, fileName);
-      navigate('/quiz');
-    } catch {
-      toast.error('Failed to start chapter quiz');
-    } finally {
-      setIsStarting(null);
-    }
-  }, [startSession, navigate]);
+  const handleOpen = useCallback((chapterName: string) => {
+    navigate(`/chapter/${encodeURIComponent(chapterName)}`);
+  }, [navigate]);
+
+  const handleToggleFavorite = useCallback((chapterName: string) => {
+    toggleFavorite(chapterName);
+  }, [toggleFavorite]);
 
   const sortOptions: { value: SortKey; label: string }[] = [
     { value: 'name', label: 'Chapter Name' },
@@ -218,14 +242,24 @@ export default function ChapterWisePage() {
           </div>
         </div>
 
-        {/* Mixed Revision Button */}
-        <button
-          onClick={() => navigate('/mixed-revision')}
-          className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold border-2 border-brand-300 dark:border-brand-700 text-brand-600 dark:text-brand-400 hover:bg-brand-50 dark:hover:bg-brand-900/20 transition-colors flex-shrink-0"
-        >
-          <Layers size={15} />
-          <span className="hidden sm:inline">Mixed Quiz</span>
-        </button>
+        <div className="flex gap-2 flex-shrink-0">
+          {/* My Highlights Button */}
+          <button
+            onClick={() => navigate('/my-highlights')}
+            className="flex items-center gap-2 px-3 py-2 rounded-xl text-sm font-semibold border-2 border-amber-300 dark:border-amber-700 text-amber-600 dark:text-amber-400 hover:bg-amber-50 dark:hover:bg-amber-900/20 transition-colors"
+            title="My Highlights"
+          >
+            <Highlighter size={15} />
+          </button>
+          {/* Mixed Revision Button */}
+          <button
+            onClick={() => navigate('/mixed-revision')}
+            className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold border-2 border-brand-300 dark:border-brand-700 text-brand-600 dark:text-brand-400 hover:bg-brand-50 dark:hover:bg-brand-900/20 transition-colors"
+          >
+            <Layers size={15} />
+            <span className="hidden sm:inline">Mixed Quiz</span>
+          </button>
+        </div>
       </div>
 
       {/* Search + Sort */}
@@ -276,21 +310,14 @@ export default function ChapterWisePage() {
                 chapterName={chapter.chapterName}
                 questionCount={questionCounts[chapter.fileName] ?? 0}
                 stats={statsMap[chapter.fileName]}
-                onStart={handleStart}
+                readingProgress={progress[chapter.chapterName]}
+                hasMarkdown={markdownChapters.has(chapter.chapterName)}
+                onOpen={handleOpen}
+                onToggleFavorite={handleToggleFavorite}
                 delay={i * 0.04}
               />
             ))}
           </AnimatePresence>
-        </div>
-      )}
-
-      {/* Starting overlay */}
-      {isStarting && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
-          <div className="card px-8 py-6 flex items-center gap-4">
-            <div className="w-6 h-6 border-2 border-brand-500 border-t-transparent rounded-full animate-spin" />
-            <p className="font-medium" style={{ color: 'var(--text-primary)' }}>Loading chapter…</p>
-          </div>
         </div>
       )}
     </div>

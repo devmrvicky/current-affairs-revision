@@ -112,3 +112,128 @@
 .gradient-text {
   @apply bg-gradient-to-r from-brand-500 to-purple-600 bg-clip-text text-transparent;
 }
+
+/* ─── Markdown Reader Styles ──────────────────────────────────────────────── */
+
+.prose-reader {
+  color: var(--text-primary);
+}
+
+.prose-reader h1 {
+  @apply font-display font-bold text-2xl mt-8 mb-4 pb-2 border-b;
+  border-color: var(--border);
+}
+
+.prose-reader h2 {
+  @apply font-display font-bold text-xl mt-7 mb-3;
+  color: var(--brand);
+}
+
+.prose-reader h3 {
+  @apply font-display font-semibold text-lg mt-5 mb-2;
+}
+
+.prose-reader p {
+  @apply mb-4;
+}
+
+.prose-reader ul {
+  @apply list-disc pl-6 mb-4 space-y-1.5;
+}
+
+.prose-reader ol {
+  @apply list-decimal pl-6 mb-4 space-y-1.5;
+}
+
+.prose-reader li {
+  @apply leading-relaxed;
+}
+
+.prose-reader blockquote {
+  @apply border-l-4 pl-4 py-1 my-4 italic rounded-r-lg;
+  border-color: var(--brand);
+  background: var(--card);
+  color: var(--text-secondary);
+}
+
+.prose-reader strong {
+  @apply font-bold;
+  color: var(--text-primary);
+}
+
+.prose-reader em {
+  @apply italic;
+}
+
+.prose-reader code {
+  @apply font-mono text-sm px-1.5 py-0.5 rounded;
+  background: var(--border);
+  color: var(--brand);
+}
+
+.prose-reader pre {
+  @apply rounded-xl p-4 overflow-x-auto mb-4 text-sm;
+  background: var(--card);
+  border: 1px solid var(--border);
+}
+
+.prose-reader pre code {
+  @apply bg-transparent p-0;
+}
+
+.prose-reader table {
+  @apply w-full border-collapse mb-5 text-sm;
+}
+
+.prose-reader thead {
+  background: var(--border);
+}
+
+.prose-reader th {
+  @apply text-left font-semibold px-3 py-2 border;
+  border-color: var(--border);
+}
+
+.prose-reader td {
+  @apply px-3 py-2 border;
+  border-color: var(--border);
+}
+
+.prose-reader hr {
+  @apply my-6 border-t;
+  border-color: var(--border);
+}
+
+.prose-reader a {
+  color: var(--brand);
+  @apply underline underline-offset-2;
+}
+
+/* Highlight marks rendered inline in markdown */
+.reader-highlight {
+  border-radius: 3px;
+  padding: 0 2px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.reader-highlight:hover { opacity: 0.7; }
+.reader-highlight-yellow { background: #fef08a; }
+.reader-highlight-green  { background: #bbf7d0; }
+.reader-highlight-blue   { background: #bfdbfe; }
+.reader-highlight-pink   { background: #fbcfe8; }
+.reader-highlight-orange { background: #fed7aa; }
+
+.dark .reader-highlight-yellow { background: rgba(250, 204, 21, 0.35); }
+.dark .reader-highlight-green  { background: rgba(34, 197, 94, 0.3); }
+.dark .reader-highlight-blue   { background: rgba(59, 130, 246, 0.3); }
+.dark .reader-highlight-pink   { background: rgba(236, 72, 153, 0.3); }
+.dark .reader-highlight-orange { background: rgba(249, 115, 22, 0.3); }
+
+/* Reading mode full-screen */
+.reading-mode-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  overflow-y: auto;
+  background: var(--bg);
+}

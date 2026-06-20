@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import {
   BookOpen, Clock, BarChart3, RefreshCcw, Zap,
   CheckCircle2, XCircle, Target, TrendingUp,
-  Calendar, Brain, Bookmark, Layers, AlertTriangle, BarChart2
+  Calendar, Brain, Bookmark, Layers, AlertTriangle, BarChart2, Highlighter
 } from 'lucide-react';
 import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';
@@ -19,6 +19,8 @@ import { useAvailableDates } from '../hooks/useAvailableDates';
 import { DashboardCard, StatCard } from '../components/common/StatCard';
 import { PWAInstallBanner } from '../components/common/PWAComponents';
 import { DailyDashboard } from '../components/common/DailyDashboard';
+import { ContinueReadingWidget } from '../components/common/ContinueReadingWidget';
+import { useReaderStore } from '../store/readerStore';
 import { formatTime, formatDateKey } from '../utils';
 
 function getGreeting(): string {
@@ -37,6 +39,7 @@ export default function HomePage() {
   const { bookmarks, load: loadBookmarks, getCount: getBookmarkCount } = useBookmarkStore();
   const { load: loadGoal } = useDailyGoalStore();
   const { buildQueue } = useSmartRevisionStore();
+  const { loadAll: loadReaderData } = useReaderStore();
   const { availableSet, isLoading: datesLoading } = useAvailableDates();
   const [isCreating, setIsCreating] = useState(false);
 
@@ -51,6 +54,7 @@ export default function HomePage() {
     loadWrongQs();
     loadBookmarks();
     loadGoal();
+    loadReaderData();
   }, []);
 
   // Rebuild smart queue whenever wrong questions or bookmarks change
@@ -144,6 +148,14 @@ export default function HomePage() {
       onClick: () => navigate('/chapter-wise-current-affairs'),
     },
     {
+      title: 'My Highlights',
+      description: 'Saved highlights and notes from chapter reading',
+      icon: Highlighter,
+      color: '#f59e0b',
+      gradient: 'linear-gradient(135deg, rgba(245,158,11,0.06) 0%, transparent 100%)',
+      onClick: () => navigate('/my-highlights'),
+    },
+    {
       title: 'Bookmarked Questions',
       description: bookmarkCount > 0
         ? `${bookmarkCount} saved • Start bookmark revision`
@@ -227,6 +239,9 @@ export default function HomePage() {
 
       {/* Daily Dashboard */}
       <DailyDashboard onStartRevision={handleStartSmartRevision} />
+
+      {/* Continue Reading / Favorites */}
+      <ContinueReadingWidget />
 
       {/* Streak Banner */}
       {stats && stats.currentStreak > 0 && (

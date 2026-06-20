@@ -1,5 +1,5 @@
 import { openDB, DBSchema, IDBPDatabase } from 'idb';
-import type { SavedTest, Statistics, Settings, WrongQuestion, BookmarkedQuestion, ChapterStats, DailyGoal, NotificationSettings } from '../types';
+import type { SavedTest, Statistics, Settings, WrongQuestion, BookmarkedQuestion, ChapterStats, DailyGoal, NotificationSettings, Highlight, ReadingProgress, ReaderNote, ReadingPrefs } from '../types';
 
 // ─── Schema ───────────────────────────────────────────────────────────────────
 
@@ -44,10 +44,28 @@ interface AppDB extends DBSchema {
     key: string;
     value: NotificationSettings;
   };
+  highlights: {
+    key: string;
+    value: Highlight;
+    indexes: { 'by-chapter': string; 'by-createdAt': number };
+  };
+  readingProgress: {
+    key: string;
+    value: ReadingProgress;
+  };
+  readerNotes: {
+    key: string;
+    value: ReaderNote;
+    indexes: { 'by-chapter': string };
+  };
+  readerPrefs: {
+    key: string;
+    value: ReadingPrefs;
+  };
 }
 
 const DB_NAME = 'CurrentAffairsDB';
-const DB_VERSION = 4;
+const DB_VERSION = 5;
 
 let dbInstance: IDBPDatabase<AppDB> | null = null;
 
@@ -78,6 +96,15 @@ async function getDB(): Promise<IDBPDatabase<AppDB>> {
       if (oldVersion < 4) {
         db.createObjectStore('dailyGoal', { keyPath: 'dateKey' });
         db.createObjectStore('notificationSettings', { keyPath: 'id' as never });
+      }
+      if (oldVersion < 5) {
+        const hlStore = db.createObjectStore('highlights', { keyPath: 'id' });
+        hlStore.createIndex('by-chapter', 'chapterId');
+        hlStore.createIndex('by-createdAt', 'createdAt');
+        db.createObjectStore('readingProgress', { keyPath: 'chapterId' });
+        const notesStore = db.createObjectStore('readerNotes', { keyPath: 'id' });
+        notesStore.createIndex('by-chapter', 'chapterId');
+        db.createObjectStore('readerPrefs', { keyPath: 'id' as never });
       }
     },
   });
@@ -439,5 +466,124 @@ export const notificationSettingsDB = {
   async save(settings: NotificationSettings): Promise<void> {
     const db = await getDB();
     await db.put('notificationSettings', { ...settings, id: 'user' } as never);
+  },
+};
+
+// ─── Highlights ───────────────────────────────────────────────────────────────
+
+export const highlightsDB = {
+  async getAll(): Promise<Highlight[]> {
+    const db = await getDB();
+    const all = await db.getAll('highlights');
+    return all.sort((a, b) => b.createdAt - a.createdAt);
+  },
+
+  async getByChapter(chapterId: string): Promise<Highlight[]> {
+    const db = await getDB();
+    return db.getAllFromIndex('highlights', 'by-chapter', chapterId);
+  },
+
+  async upsert(h: Highlight): Promise<void> {
+    const db = await getDB();
+    await db.put('highlights', h);
+  },
+
+  async delete(id: string): Promise<void> {
+    const db = await getDB();
+    await db.delete('highlights', id);
+  },
+
+  async count(): Promise<number> {
+    const db = await getDB();
+    return db.count('highlights');
+  },
+};
+
+// ─── Reading Progress ─────────────────────────────────────────────────────────
+
+export const readingProgressDB = {
+  async getAll(): Promise<ReadingProgress[]> {
+    const db = await getDB();
+    return db.getAll('readingProgress');
+  },
+
+  async getByChapter(chapterId: string): Promise<ReadingProgress | undefined> {
+    const db = await getDB();
+    return db.get('readingProgress', chapterId);
+  },
+
+  async upsert(p: ReadingProgress): Promise<void> {
+    const db = await getDB();
+    await db.put('readingProgress', p);
+  },
+
+  async getOrCreate(chapterId: string): Promise<ReadingProgress> {
+    const existing = await this.getByChapter(chapterId);
+    if (existing) return existing;
+    const fresh: ReadingProgress = {
+      chapterId,
+      scrollPercent: 0,
+      scrollY: 0,
+      timeSpentSeconds: 0,
+      lastReadAt: Date.now(),
+      completionStatus: 'not_started',
+      isFavorite: false,
+    };
+    await this.upsert(fresh);
+    return fresh;
+  },
+
+  async toggleFavorite(chapterId: string): Promise<ReadingProgress> {
+    const p = await this.getOrCreate(chapterId);
+    const updated = { ...p, isFavorite: !p.isFavorite };
+    await this.upsert(updated);
+    return updated;
+  },
+};
+
+// ─── Reader Notes ─────────────────────────────────────────────────────────────
+
+export const readerNotesDB = {
+  async getAll(): Promise<ReaderNote[]> {
+    const db = await getDB();
+    const all = await db.getAll('readerNotes');
+    return all.sort((a, b) => b.createdAt - a.createdAt);
+  },
+
+  async getByChapter(chapterId: string): Promise<ReaderNote[]> {
+    const db = await getDB();
+    return db.getAllFromIndex('readerNotes', 'by-chapter', chapterId);
+  },
+
+  async upsert(n: ReaderNote): Promise<void> {
+    const db = await getDB();
+    await db.put('readerNotes', n);
+  },
+
+  async delete(id: string): Promise<void> {
+    const db = await getDB();
+    await db.delete('readerNotes', id);
+  },
+};
+
+// ─── Reader Preferences ───────────────────────────────────────────────────────
+
+const DEFAULT_READER_PREFS: ReadingPrefs = {
+  fontSize: 17,
+  fontFamily: 'serif',
+  lineHeight: 1.8,
+  maxWidth: 680,
+};
+
+export const readerPrefsDB = {
+  async get(): Promise<ReadingPrefs> {
+    const db = await getDB();
+    const p = await db.get('readerPrefs', 'user' as never);
+    return (p as unknown as ReadingPrefs) ?? { ...DEFAULT_READER_PREFS };
+  },
+
+  async save(prefs: ReadingPrefs): Promise<void> {
+    const db = await getDB();
+    await db.put('readerPrefs', { ...prefs, id: 'user' } as never);
   },
 };

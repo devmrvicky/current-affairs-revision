@@ -24,6 +24,8 @@ const RevisionPage          = lazy(() => import('../pages/RevisionPage'));
 const RevisionCalendarPage  = lazy(() => import('../pages/RevisionCalendarPage'));
 const WrongQuestionsPage    = lazy(() => import('../pages/WrongQuestionsPage'));
 const ChapterWisePage       = lazy(() => import('../pages/ChapterWisePage'));
+const ChapterDetailPage     = lazy(() => import('../pages/ChapterDetailPage'));
+const MyHighlightsPage      = lazy(() => import('../pages/MyHighlightsPage'));
 const MixedRevisionPage     = lazy(() => import('../pages/MixedRevisionPage'));
 const BookmarkedQuestionsPage = lazy(() => import('../pages/BookmarkedQuestionsPage'));
 const DangerZonePage        = lazy(() => import('../pages/DangerZonePage'));
@@ -48,6 +50,8 @@ const router = createBrowserRouter([
       { path: 'revision-calendar',            element: <S><RevisionCalendarPage /></S> },
       { path: 'wrong-questions',              element: <S><WrongQuestionsPage /></S> },
       { path: 'chapter-wise-current-affairs', element: <S><ChapterWisePage /></S> },
+      { path: 'chapter/:chapterName',         element: <S><ChapterDetailPage /></S> },
+      { path: 'my-highlights',                element: <S><MyHighlightsPage /></S> },
       { path: 'mixed-revision',               element: <S><MixedRevisionPage /></S> },
       { path: 'bookmarked-questions',         element: <S><BookmarkedQuestionsPage /></S> },
       { path: 'danger-zone',                  element: <S><DangerZonePage /></S> },
