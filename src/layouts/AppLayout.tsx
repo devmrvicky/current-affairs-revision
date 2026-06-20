@@ -68,26 +68,30 @@ export default function AppLayout() {
       {/* Nav */}
       {!isQuizPage && (
         <>
-          {/* Mobile Bottom Nav */}
+          {/* Mobile Bottom Nav — horizontally scrollable so all items stay reachable without clipping */}
           <nav className="md:hidden fixed bottom-0 left-0 right-0 z-40 glass border-t border-[var(--border)]">
-            <div className="flex items-center justify-around px-1 h-16">
+            <div
+              className="flex items-stretch gap-0.5 h-16 px-1 overflow-x-auto no-scrollbar"
+              style={{ scrollSnapType: 'x proximity' }}
+            >
               {NAV.map(({ to, icon: Icon, label }) => (
                 <NavLink
                   key={to}
                   to={to}
                   end={to === '/'}
                   className={({ isActive }) =>
-                    `flex flex-col items-center gap-0.5 px-2 py-1 rounded-xl transition-all duration-200 ${
+                    `flex flex-col items-center justify-center gap-0.5 px-3 py-1 rounded-xl transition-all duration-200 flex-shrink-0 min-w-[64px] ${
                       isActive ? 'text-brand-500 dark:text-brand-400' : 'text-gray-400 dark:text-gray-600'
                     }`
                   }
+                  style={{ scrollSnapAlign: 'center' }}
                 >
                   {({ isActive }) => (
                     <>
                       <div className={`p-1.5 rounded-lg transition-all ${isActive ? 'bg-brand-100 dark:bg-brand-900/40' : ''}`}>
                         <Icon size={16} />
                       </div>
-                      <span className="text-[10px] font-medium leading-none">{label}</span>
+                      <span className="text-[10px] font-medium leading-none whitespace-nowrap">{label}</span>
                     </>
                   )}
                 </NavLink>

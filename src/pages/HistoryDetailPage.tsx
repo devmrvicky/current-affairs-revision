@@ -78,30 +78,30 @@ export default function HistoryDetailPage() {
   return (
     <div className="max-w-3xl mx-auto space-y-6 pb-12">
       {/* Header */}
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <button onClick={() => navigate('/history')} className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors">
+      <div className="flex items-center justify-between gap-2">
+        <div className="flex items-center gap-2 sm:gap-3 min-w-0">
+          <button onClick={() => navigate('/history')} className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0">
             <ArrowLeft size={18} style={{ color: 'var(--text-secondary)' }} />
           </button>
-          <div>
-            <h1 className="text-xl font-display font-bold" style={{ color: 'var(--text-primary)' }}>
+          <div className="min-w-0">
+            <h1 className="text-lg sm:text-xl font-display font-bold truncate" style={{ color: 'var(--text-primary)' }}>
               {test.displayDate}
             </h1>
-            <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
+            <p className="text-xs sm:text-sm" style={{ color: 'var(--text-muted)' }}>
               {test.isRevision ? 'Revision Test' : 'Test Analysis'}
             </p>
           </div>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-1.5 sm:gap-2 flex-shrink-0">
           <button
             onClick={handleRevise}
-            className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium border-2 border-green-300 dark:border-green-700 text-green-600 dark:text-green-400 hover:bg-green-50 dark:hover:bg-green-900/20 transition-colors"
+            className="flex items-center gap-1.5 px-2.5 sm:px-4 py-2 rounded-xl text-xs sm:text-sm font-medium border-2 border-green-300 dark:border-green-700 text-green-600 dark:text-green-400 hover:bg-green-50 dark:hover:bg-green-900/20 transition-colors"
           >
-            <RotateCcw size={14} /> Revise
+            <RotateCcw size={14} /> <span className="hidden xs:inline">Revise</span>
           </button>
           <button
             onClick={handleDelete}
-            className="p-2 rounded-xl text-red-400 hover:text-red-600 hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors border border-transparent hover:border-red-200 dark:hover:border-red-800"
+            className="p-2 rounded-xl text-red-400 hover:text-red-600 hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors border border-transparent hover:border-red-200 dark:hover:border-red-800 flex-shrink-0"
           >
             <Trash2 size={15} />
           </button>

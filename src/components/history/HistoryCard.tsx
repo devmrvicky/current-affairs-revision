@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { motion } from 'framer-motion';
 import { Calendar, Target, CheckCircle2, XCircle, Clock, Trash2, Eye, RotateCcw } from 'lucide-react';
 import type { SavedTest } from '../../types';
@@ -11,7 +12,7 @@ interface HistoryCardProps {
   delay?: number;
 }
 
-export function HistoryCard({ test, onView, onDelete, onRevise, delay = 0 }: HistoryCardProps) {
+export const HistoryCard = memo(function HistoryCard({ test, onView, onDelete, onRevise, delay = 0 }: HistoryCardProps) {
   const badge = getBadge(test.score);
   const colors = getBadgeColors(badge);
 
@@ -107,4 +108,4 @@ export function HistoryCard({ test, onView, onDelete, onRevise, delay = 0 }: His
       </div>
     </motion.div>
   );
-}
+});

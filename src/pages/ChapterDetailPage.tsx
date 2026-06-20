@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState, useMemo, useRef } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
@@ -112,7 +112,7 @@ export default function ChapterDetailPage() {
     setNoteText('');
   }
 
-  const inlineContainerId = 'chapter-revision-content';
+  const revisionContentRef = useRef<HTMLDivElement>(null);
 
   return (
     <div className="space-y-6 pb-12">
@@ -227,7 +227,7 @@ export default function ChapterDetailPage() {
 
                 <div className="flex flex-col lg:flex-row gap-6">
                   {/* Markdown content */}
-                  <div className="flex-1 min-w-0 card p-6" id={inlineContainerId}>
+                  <div className="flex-1 min-w-0 card p-6" ref={revisionContentRef}>
                     <MarkdownRenderer
                       content={markdown}
                       highlights={chapterHighlights}
@@ -252,7 +252,7 @@ export default function ChapterDetailPage() {
 
                 {/* Highlight menu for inline (non-reading-mode) selection */}
                 <HighlightMenu
-                  containerRef={{ current: document.getElementById(inlineContainerId) } as React.RefObject<HTMLElement>}
+                  containerRef={revisionContentRef}
                   onHighlight={handleHighlight}
                   onAddNote={handleAddNotePrompt}
                 />

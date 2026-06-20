@@ -1,8 +1,9 @@
 // markdownRepository.ts — auto-discovers chapter markdown content via import.meta.glob
-// Pairs with chapterRepository.ts: Budget.json + Budget.md → one chapter "Budget"
+// Pairs with chapterRepository.ts: Budget/Budget.json + Budget/Budget.md → one chapter "Budget"
+// `**` recurses into per-chapter subfolders; legacy flat files still match too.
 
 const markdownModules = import.meta.glob<string>(
-  '../data/chapters/*.md',
+  '../data/chapters/**/*.md',
   { eager: false, query: '?raw', import: 'default' }
 );
 

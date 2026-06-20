@@ -112,25 +112,26 @@ export default function QuizPage() {
     <div className="min-h-screen" style={{ background: 'var(--bg)' }}>
       {/* Header */}
       <header className="sticky top-0 z-30 glass border-b border-[var(--border)]">
-        <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
+        <div className="max-w-5xl mx-auto px-3 sm:px-4 h-auto min-h-14 py-2 flex items-center justify-between gap-2 sm:gap-4">
+          <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
             <button
               onClick={handleQuit}
-              className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
+              className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0"
             >
               <X size={18} style={{ color: 'var(--text-secondary)' }} />
             </button>
-            <div>
-              <h1 className="font-display font-bold text-sm" style={{ color: 'var(--text-primary)' }}>
-                {session.date} — Current Affairs
+            <div className="min-w-0">
+              <h1 className="font-display font-bold text-xs sm:text-sm truncate" style={{ color: 'var(--text-primary)' }}>
+                {session.date}
+                <span className="hidden sm:inline"> — Current Affairs</span>
               </h1>
-              <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
+              <p className="text-[11px] sm:text-xs" style={{ color: 'var(--text-muted)' }}>
                 Q{session.currentIndex + 1} / {session.totalQuestions}
               </p>
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1 sm:gap-2 flex-shrink-0">
             <QuizTimer
               startTime={session.startTime}
               totalPausedTime={session.totalPausedTime}
@@ -139,7 +140,7 @@ export default function QuizPage() {
             />
             <button
               onClick={handlePause}
-              className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
+              className="p-1.5 sm:p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0"
               title={isPaused ? 'Resume' : 'Pause'}
             >
               {isPaused
@@ -149,7 +150,7 @@ export default function QuizPage() {
             </button>
             <button
               onClick={() => setShowPalette(true)}
-              className="md:hidden p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
+              className="md:hidden p-1.5 sm:p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0"
             >
               <LayoutGrid size={16} style={{ color: 'var(--text-secondary)' }} />
             </button>

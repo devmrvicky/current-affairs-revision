@@ -39,12 +39,12 @@ export function QuizTimer({ startTime, totalPausedTime, isPaused, pausedAt, onTi
   const isDanger = elapsed > 3600; // 1 hour
 
   return (
-    <div className={`flex items-center gap-2 px-4 py-2 rounded-xl font-mono font-semibold text-sm transition-colors ${
+    <div className={`flex items-center gap-1 sm:gap-2 px-2.5 sm:px-4 py-1.5 sm:py-2 rounded-xl font-mono font-semibold text-xs sm:text-sm transition-colors flex-shrink-0 ${
       isDanger ? 'bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400' :
       isWarning ? 'bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400' :
       'bg-brand-50 dark:bg-brand-900/20 text-brand-600 dark:text-brand-400'
     }`}>
-      <Timer size={14} />
+      <Timer size={13} className="flex-shrink-0" />
       {isPaused ? (
         <span className="animate-pulse">Paused</span>
       ) : (

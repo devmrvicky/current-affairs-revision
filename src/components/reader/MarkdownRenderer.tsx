@@ -1,4 +1,4 @@
-import { memo, useMemo } from 'react';
+import { memo } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import rehypeSlug from 'rehype-slug';
@@ -90,16 +90,6 @@ export const MarkdownRenderer = memo(function MarkdownRenderer({
   maxWidth = 720,
   searchQuery,
 }: MarkdownRendererProps) {
-  const textComponent = useMemo(() => {
-    // Custom text renderer that wraps highlights/search matches
-    return ({ children }: { children?: React.ReactNode }) => {
-      if (typeof children === 'string') {
-        return <>{wrapHighlightsInText(children, highlights, searchQuery)}</>;
-      }
-      return <>{children}</>;
-    };
-  }, [highlights, searchQuery]);
-
   return (
     <div
       className="prose-reader mx-auto"
@@ -135,6 +125,42 @@ export const MarkdownRenderer = memo(function MarkdownRenderer({
                 ? wrapHighlightsInText(children, highlights, searchQuery)
                 : children}
             </li>
+          ),
+          td: ({ children }) => (
+            <td>
+              {typeof children === 'string'
+                ? wrapHighlightsInText(children, highlights, searchQuery)
+                : children}
+            </td>
+          ),
+          th: ({ children }) => (
+            <th>
+              {typeof children === 'string'
+                ? wrapHighlightsInText(children, highlights, searchQuery)
+                : children}
+            </th>
+          ),
+          blockquote: ({ children }) => (
+            <blockquote>
+              {Array.isArray(children)
+                ? children.map((c, i) =>
+                    typeof c === 'string' ? (
+                      <span key={i}>{wrapHighlightsInText(c, highlights, searchQuery)}</span>
+                    ) : (
+                      c
+                    )
+                  )
+                : typeof children === 'string'
+                ? wrapHighlightsInText(children, highlights, searchQuery)
+                : children}
+            </blockquote>
+          ),
+          strong: ({ children }) => (
+            <strong>
+              {typeof children === 'string'
+                ? wrapHighlightsInText(children, highlights, searchQuery)
+                : children}
+            </strong>
           ),
         }}
       >

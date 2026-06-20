@@ -2,10 +2,13 @@ import type { DailyQuiz } from '../types';
 
 // ─── Chapter glob ─────────────────────────────────────────────────────────────
 // Separate glob from the date-based quiz files.
-// All files in src/data/chapters/*.json are chapter quizzes.
+// `**` recurses into per-chapter subfolders, e.g.
+//   data/chapters/Sports/Sports.json  →  fileName "Sports.json", chapterName "Sports"
+// while still matching legacy flat files (data/chapters/Sports.json) for
+// backward compatibility during migration.
 
 const chapterModules = import.meta.glob<{ default: DailyQuiz }>(
-  '../data/chapters/*.json',
+  '../data/chapters/**/*.json',
   { eager: false }
 );
 
@@ -29,8 +32,25 @@ let _chapterList: ChapterInfo[] | null = null;
 
 export function getChapterList(): ChapterInfo[] {
   if (_chapterList) return _chapterList;
-  _chapterList = Object.keys(chapterModules).map((path) => ({
-    fileName: pathToFileName(path),
+  // Dedupe by fileName in case both a legacy flat file and a new per-chapter
+  // folder briefly coexist during migration — last entry registered wins,
+  // and glob results are alphabetical by path so "Sports/Sports.json" naturally
+  // overrides a stray flat "Sports.json" since 'S' < 'S/' is false... to be
+  // explicit and not rely on sort order, we simply prefer the nested-folder match.
+  const seen = new Map<string, string>(); // fileName -> path
+  for (const path of Object.keys(chapterModules)) {
+    const fileName = pathToFileName(path);
+    const existingPath = seen.get(fileName);
+    if (!existingPath) {
+      seen.set(fileName, path);
+      continue;
+    }
+    // Prefer the path that lives inside a same-named subfolder (the new structure)
+    const isNewStructure = path.includes(`/${pathToChapterName(path)}/`);
+    if (isNewStructure) seen.set(fileName, path);
+  }
+  _chapterList = Array.from(seen.entries()).map(([fileName, path]) => ({
+    fileName,
     chapterName: pathToChapterName(path),
   }));
   return _chapterList;

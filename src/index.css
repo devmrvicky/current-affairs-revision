@@ -237,3 +237,20 @@
   overflow-y: auto;
   background: var(--bg);
 }
+
+/* ─── Mobile UX Utilities ──────────────────────────────────────────────────── */
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Ensure touch targets meet accessibility minimums on mobile nav/buttons */
+@media (max-width: 480px) {
+  .glass nav a, .glass nav button {
+    min-height: 44px;
+  }
+}

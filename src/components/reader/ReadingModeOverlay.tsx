@@ -47,18 +47,55 @@ export function ReadingModeOverlay({ chapterId, content, onClose }: ReadingModeO
     return () => { document.body.style.overflow = ''; };
   }, []);
 
-  // Track scroll progress
+  // Track scroll progress — throttled to avoid flooding IndexedDB writes
+  // and Zustand re-renders on every scroll tick (which fires dozens of times
+  // per second during a fling). We persist at most ~once per second, plus
+  // always on unmount so the final position is never lost.
+  const pendingScrollRef = useRef<{ percent: number; scrollY: number } | null>(null);
+  const scrollRafRef = useRef<number | null>(null);
+  const lastPersistRef = useRef(0);
+
   const handleScroll = useCallback(() => {
     const el = scrollRef.current;
     if (!el) return;
     const scrollable = el.scrollHeight - el.clientHeight;
     const percent = scrollable > 0 ? Math.min(100, Math.round((el.scrollTop / scrollable) * 100)) : 0;
-    updateProgress(chapterId, {
-      scrollPercent: percent,
-      scrollY: el.scrollTop,
-      completionStatus: percent >= 95 ? 'completed' : 'reading',
+    pendingScrollRef.current = { percent, scrollY: el.scrollTop };
+
+    if (scrollRafRef.current !== null) return; // already scheduled
+    scrollRafRef.current = requestAnimationFrame(() => {
+      scrollRafRef.current = null;
+      const pending = pendingScrollRef.current;
+      if (!pending) return;
+
+      const now = Date.now();
+      if (now - lastPersistRef.current < 1000) return; // throttle DB writes to 1/sec
+      lastPersistRef.current = now;
+
+      updateProgress(chapterId, {
+        scrollPercent: pending.percent,
+        scrollY: pending.scrollY,
+        completionStatus: pending.percent >= 95 ? 'completed' : 'reading',
+      });
     });
   }, [chapterId, updateProgress]);
+
+  // Flush any pending scroll position on unmount so the last position is saved
+  // even if it happened within the 1s throttle window.
+  useEffect(() => {
+    return () => {
+      if (scrollRafRef.current !== null) cancelAnimationFrame(scrollRafRef.current);
+      const pending = pendingScrollRef.current;
+      if (pending) {
+        updateProgress(chapterId, {
+          scrollPercent: pending.percent,
+          scrollY: pending.scrollY,
+          completionStatus: pending.percent >= 95 ? 'completed' : 'reading',
+        });
+      }
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [chapterId]);
 
   // Save reading time on unmount
   useEffect(() => {

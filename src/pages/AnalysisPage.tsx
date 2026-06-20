@@ -139,25 +139,25 @@ export default function AnalysisPage() {
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="card p-4 flex items-center justify-between gap-4"
+          className="card p-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4"
         >
-          <div>
+          <div className="min-w-0">
             <p className="font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>Save this test?</p>
-            <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
+            <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>
               Saves results, syncs bookmarks and adds wrong answers to revision queue
             </p>
           </div>
           <div className="flex gap-2 flex-shrink-0">
             <button
               onClick={handleDiscard}
-              className="flex items-center gap-1.5 px-4 py-2 rounded-xl text-sm font-medium border border-red-200 dark:border-red-800 text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors"
+              className="flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-4 py-2.5 sm:py-2 rounded-xl text-sm font-medium border border-red-200 dark:border-red-800 text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors"
             >
               <Trash2 size={13} /> Discard
             </button>
             <button
               onClick={handleSave}
               disabled={isSaving}
-              className="btn-primary flex items-center gap-1.5 text-sm py-2"
+              className="flex-1 sm:flex-none btn-primary flex items-center justify-center gap-1.5 text-sm py-2.5 sm:py-2"
             >
               <Save size={13} />
               {isSaving ? 'Saving...' : 'Save Test'}
