@@ -7,13 +7,14 @@ import { useQuizStore } from '../store/quizStore';
 import { useHistoryStore } from '../store/historyStore';
 import { useWrongQuestionsStore } from '../store/wrongQuestionsStore';
 import { useBookmarkStore } from '../store/bookmarkStore';
+import { useMarkedReviewStore } from '../store/markedReviewStore';
 import { useChapterStore } from '../store/chapterStore';
 import { useDailyGoalStore } from '../store/dailyGoalStore';
 import { buildAnalysis, sessionToSavedTest, formatDateKey } from '../utils';
 import { AnalysisOverview, QuestionReview } from '../components/analysis/AnalysisComponents';
-import { getChapterList } from '../services/chapterRepository';
+import { getAllChapterTestPaths, getChapterNameForTestPath } from '../services/chapterRepository';
 
-type TabKey = 'overview' | 'all' | 'wrong' | 'correct' | 'bookmarked';
+type TabKey = 'overview' | 'all' | 'wrong' | 'correct' | 'bookmarked' | 'marked';
 
 async function fireConfetti(score: number) {
   try {
@@ -22,8 +23,8 @@ async function fireConfetti(score: number) {
   } catch {}
 }
 
-// Check if a fileName belongs to chapters
-const chapterFileNames = new Set(getChapterList().map((c) => c.fileName));
+// Every test relPath that belongs to a chapter folder (vs. a daily current-affairs file)
+const chapterTestPaths = getAllChapterTestPaths();
 
 export default function AnalysisPage() {
   const navigate = useNavigate();
@@ -31,6 +32,7 @@ export default function AnalysisPage() {
   const { save } = useHistoryStore();
   const { ingestFromAttempts } = useWrongQuestionsStore();
   const { syncFromAttempts: syncBookmarks } = useBookmarkStore();
+  const { syncFromAttempts: syncMarkedReview } = useMarkedReviewStore();
   const { recordAttempt: recordChapterAttempt } = useChapterStore();
   const { increment: incrementGoal } = useDailyGoalStore();
 
@@ -47,7 +49,8 @@ export default function AnalysisPage() {
 
   const result = buildAnalysis(session);
   const bookmarkedCount = session.attempts.filter((a) => a.bookmarked).length;
-  const isChapterQuiz = chapterFileNames.has(session.fileName);
+  const markedCount = session.attempts.filter((a) => a.markedForReview).length;
+  const isChapterQuiz = chapterTestPaths.has(session.fileName);
 
   async function handleSave() {
     if (saved || !session) return;
@@ -64,15 +67,17 @@ export default function AnalysisPage() {
         session.fileName
       );
 
-      // Sync bookmarks from session
+      // Sync bookmarks and marked-for-review questions from session
       await syncBookmarks(session.attempts, session.fileName, session.date);
+      await syncMarkedReview(session.attempts, session.fileName, session.date);
 
       // Increment daily goal with answered questions count
       await incrementGoal(result.totalQuestions);
 
-      // Record chapter stats if this was a chapter quiz
+      // Record chapter stats if this was a chapter quiz — chapterName is
+      // derived from the test's folder, never from the test's own filename.
       if (isChapterQuiz) {
-        const chapterName = session.fileName.replace(/\.json$/i, '');
+        const chapterName = getChapterNameForTestPath(session.fileName);
         await recordChapterAttempt(
           session.fileName,
           chapterName,
@@ -108,6 +113,7 @@ export default function AnalysisPage() {
     { key: 'all', label: 'All', count: session.totalQuestions },
     { key: 'wrong', label: 'Wrong', count: result.wrong + result.unanswered },
     { key: 'correct', label: 'Correct', count: result.correct },
+    { key: 'marked', label: 'Marked', count: markedCount },
     { key: 'bookmarked', label: 'Saved', count: bookmarkedCount },
   ];
 
@@ -180,13 +186,13 @@ export default function AnalysisPage() {
         </motion.div>
       )}
 
-      {/* Tabs */}
-      <div className="flex gap-1 p-1 rounded-2xl" style={{ background: 'var(--border)' }}>
+      {/* Tabs — horizontally scrollable so they never overflow/clip on small screens */}
+      <div className="flex gap-1 p-1 rounded-2xl overflow-x-auto no-scrollbar" style={{ background: 'var(--border)' }}>
         {tabs.map(({ key, label, count }) => (
           <button
             key={key}
             onClick={() => setTab(key)}
-            className={`flex-1 px-3 py-2 rounded-xl text-sm font-medium transition-all ${
+            className={`flex-shrink-0 whitespace-nowrap px-3.5 py-2 rounded-xl text-sm font-medium transition-all ${
               tab === key
                 ? 'bg-white dark:bg-[var(--card)] shadow-sm text-brand-600 dark:text-brand-400'
                 : 'hover:bg-white/50 dark:hover:bg-white/5'
@@ -223,6 +229,7 @@ export default function AnalysisPage() {
               tab === 'all' ? 'all'
               : tab === 'wrong' ? 'wrong'
               : tab === 'correct' ? 'correct'
+              : tab === 'marked' ? 'marked'
               : 'bookmarked'
             }
           />

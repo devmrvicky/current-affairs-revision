@@ -3,19 +3,22 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   ArrowLeft, BookOpen, ListChecks, Sparkles, Star,
-  Clock, CheckCircle2, PlayCircle, Loader2
+  PlayCircle, Loader2, Trophy, RotateCcw
 } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { useQuizStore } from '../store/quizStore';
 import { useReaderStore } from '../store/readerStore';
-import { loadChapterByFileName } from '../services/chapterRepository';
-import { loadChapterMarkdown, getChaptersWithMarkdown } from '../services/markdownRepository';
+import { useChapterStore } from '../store/chapterStore';
+import {
+  getChapterByName, loadChapterTest, loadChapterMarkdown,
+} from '../services/chapterRepository';
 import { MarkdownRenderer } from '../components/reader/MarkdownRenderer';
 import { ReadingModeOverlay } from '../components/reader/ReadingModeOverlay';
 import { HighlightMenu } from '../components/reader/HighlightMenu';
 import { ChapterSearch } from '../components/reader/ChapterSearch';
 import { QuickRevisionPanel } from '../components/reader/QuickRevisionPanel';
 import { ExamRevisionMode } from '../components/reader/ExamRevisionMode';
+import { EmptyState } from '../components/common/EmptyState';
 import type { HighlightColor } from '../types';
 
 type TabKey = 'revision' | 'test';
@@ -25,22 +28,25 @@ export default function ChapterDetailPage() {
   const chapterName = decodeURIComponent(rawChapterName ?? '');
   const navigate = useNavigate();
   const { startSession } = useQuizStore();
+  const { getByFileName: getTestStats, load: loadChapterStats } = useChapterStore();
   const {
-    loadAll, highlights, notes, progress, getHighlightsForChapter, getNotesForChapter,
+    loadAll, progress, getHighlightsForChapter, getNotesForChapter,
     addHighlight, addNote, loadProgress, toggleFavorite, incrementReadingTime,
   } = useReaderStore();
+
+  // The chapter (folder) itself — undefined means the route doesn't match any known chapter folder.
+  const chapter = useMemo(() => getChapterByName(chapterName), [chapterName]);
 
   const [tab, setTab] = useState<TabKey>('revision');
   const [markdown, setMarkdown] = useState<string | null>(null);
   const [isLoadingMd, setIsLoadingMd] = useState(true);
-  const [questionCount, setQuestionCount] = useState<number | null>(null);
-  const [isStartingTest, setIsStartingTest] = useState(false);
+  const [questionCounts, setQuestionCounts] = useState<Record<string, number>>({});
+  const [startingTest, setStartingTest] = useState<string | null>(null);
   const [readingMode, setReadingMode] = useState(false);
   const [examMode, setExamMode] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
 
-  const hasMarkdown = useMemo(() => getChaptersWithMarkdown().has(chapterName), [chapterName]);
-  const chapterFileName = `${chapterName}.json`;
+  const hasMarkdown = chapter?.mdRelPath != null;
   const chapterHighlights = getHighlightsForChapter(chapterName);
   const chapterNotes = getNotesForChapter(chapterName);
   const chapterProgress = progress[chapterName];
@@ -48,9 +54,11 @@ export default function ChapterDetailPage() {
   useEffect(() => {
     loadAll();
     loadProgress(chapterName);
+    loadChapterStats();
   }, [chapterName]);
 
   useEffect(() => {
+    if (!chapter) { setIsLoadingMd(false); return; }
     let cancelled = false;
     setIsLoadingMd(true);
     loadChapterMarkdown(chapterName).then((content) => {
@@ -59,11 +67,15 @@ export default function ChapterDetailPage() {
         setIsLoadingMd(false);
       }
     });
-    loadChapterByFileName(chapterFileName).then((quiz) => {
-      if (!cancelled && quiz) setQuestionCount(quiz.questions.length);
+    // Lazily load each test's question count for the Test tab cards.
+    chapter.tests.forEach(async (t) => {
+      const quiz = await loadChapterTest(t.relPath);
+      if (!cancelled && quiz) {
+        setQuestionCounts((prev) => ({ ...prev, [t.relPath]: quiz.questions.length }));
+      }
     });
     return () => { cancelled = true; };
-  }, [chapterName]);
+  }, [chapterName, chapter]);
 
   // Track reading time while on revision tab (inline, non-immersive)
   useEffect(() => {
@@ -75,20 +87,20 @@ export default function ChapterDetailPage() {
     };
   }, [tab, readingMode, chapterName]);
 
-  async function handleStartTest() {
-    setIsStartingTest(true);
+  async function handleStartTest(relPath: string) {
+    setStartingTest(relPath);
     try {
-      const quiz = await loadChapterByFileName(chapterFileName);
+      const quiz = await loadChapterTest(relPath);
       if (!quiz) {
-        toast.error(`Could not load test for "${chapterName}"`);
+        toast.error('Could not load this test');
         return;
       }
-      startSession(quiz, chapterFileName);
+      startSession(quiz, relPath);
       navigate('/quiz');
     } catch {
       toast.error('Failed to start test');
     } finally {
-      setIsStartingTest(false);
+      setStartingTest(null);
     }
   }
 
@@ -114,6 +126,26 @@ export default function ChapterDetailPage() {
 
   const revisionContentRef = useRef<HTMLDivElement>(null);
 
+  // Chapter folder doesn't exist — friendly fallback instead of a blank/crashed page.
+  if (!chapter) {
+    return (
+      <div className="max-w-md mx-auto pt-10">
+        <EmptyState
+          icon={<BookOpen size={28} style={{ color: 'var(--text-muted)' }} />}
+          title="Chapter not found"
+          description={`"${chapterName}" doesn't match any chapter folder.`}
+          action={
+            <button onClick={() => navigate('/chapter-wise-current-affairs')} className="btn-primary mt-4 text-sm py-2 px-5">
+              Back to Chapters
+            </button>
+          }
+        />
+      </div>
+    );
+  }
+
+  const totalQuestions = chapter.tests.reduce((sum, t) => sum + (questionCounts[t.relPath] ?? 0), 0);
+
   return (
     <div className="space-y-6 pb-12">
       {/* Header */}
@@ -127,7 +159,13 @@ export default function ChapterDetailPage() {
               {chapterName}
             </h1>
             <div className="flex items-center gap-2 text-xs" style={{ color: 'var(--text-muted)' }}>
-              {questionCount !== null && <span>{questionCount} questions</span>}
+              <span>{chapter.tests.length} Test{chapter.tests.length !== 1 ? 's' : ''}</span>
+              {totalQuestions > 0 && (
+                <>
+                  <span>·</span>
+                  <span>{totalQuestions} questions</span>
+                </>
+              )}
               {chapterProgress && chapterProgress.scrollPercent > 0 && (
                 <>
                   <span>·</span>
@@ -204,7 +242,8 @@ export default function ChapterDetailPage() {
                   No revision content available
                 </p>
                 <p className="text-sm mt-1" style={{ color: 'var(--text-muted)' }}>
-                  Add <code className="px-1 rounded" style={{ background: 'var(--border)' }}>{chapterName}.md</code> to enable revision notes.
+                  Add a <code className="px-1 rounded" style={{ background: 'var(--border)' }}>.md</code> file inside the{' '}
+                  <code className="px-1 rounded" style={{ background: 'var(--border)' }}>{chapterName}/</code> folder to enable revision notes.
                 </p>
                 <button onClick={() => setTab('test')} className="btn-primary mt-4 text-sm py-2">
                   Go to Test instead
@@ -266,27 +305,84 @@ export default function ChapterDetailPage() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
             transition={{ duration: 0.2 }}
-            className="card p-8 text-center"
+            className="space-y-3"
           >
-            <div className="w-16 h-16 rounded-3xl bg-brand-100 dark:bg-brand-900/30 flex items-center justify-center mx-auto mb-4">
-              <ListChecks size={28} className="text-brand-500" />
-            </div>
-            <h2 className="font-display font-bold text-lg mb-2" style={{ color: 'var(--text-primary)' }}>
-              {chapterName} Test
-            </h2>
-            <p className="text-sm mb-6" style={{ color: 'var(--text-muted)' }}>
-              {questionCount !== null ? `${questionCount} questions • Instant feedback • Track your score` : 'Loading question count...'}
-            </p>
-            <motion.button
-              whileHover={{ scale: 1.02 }}
-              whileTap={{ scale: 0.97 }}
-              onClick={handleStartTest}
-              disabled={isStartingTest}
-              className="btn-primary flex items-center justify-center gap-2 mx-auto px-8 py-3"
-            >
-              {isStartingTest ? <Loader2 size={16} className="animate-spin" /> : <PlayCircle size={16} />}
-              {isStartingTest ? 'Loading…' : 'Start Test'}
-            </motion.button>
+            {chapter.tests.length === 0 ? (
+              <div className="card p-8 text-center">
+                <ListChecks size={32} className="mx-auto mb-3" style={{ color: 'var(--text-muted)' }} />
+                <p className="font-semibold" style={{ color: 'var(--text-primary)' }}>No tests available</p>
+                <p className="text-sm mt-1" style={{ color: 'var(--text-muted)' }}>
+                  Add JSON test files inside the <code className="px-1 rounded" style={{ background: 'var(--border)' }}>{chapterName}/</code> folder.
+                </p>
+              </div>
+            ) : (
+              chapter.tests.map((test, i) => {
+                const stats = getTestStats(test.relPath);
+                const qCount = questionCounts[test.relPath];
+                const progressPct = stats?.bestScore ?? 0;
+                const attempted = !!stats;
+                const isStarting = startingTest === test.relPath;
+
+                return (
+                  <motion.div
+                    key={test.relPath}
+                    initial={{ opacity: 0, y: 8 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: i * 0.04 }}
+                    className="card p-4 sm:p-5 flex items-center gap-4"
+                  >
+                    <div className={`w-11 h-11 rounded-2xl flex items-center justify-center flex-shrink-0 ${
+                      attempted ? 'bg-green-100 dark:bg-green-900/30' : 'bg-brand-100 dark:bg-brand-900/30'
+                    }`}>
+                      {attempted
+                        ? <Trophy size={18} className="text-green-500" />
+                        : <ListChecks size={18} className="text-brand-500" />
+                      }
+                    </div>
+
+                    <div className="flex-1 min-w-0">
+                      <p className="font-display font-bold text-sm" style={{ color: 'var(--text-primary)' }}>
+                        {test.label}
+                      </p>
+                      <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>
+                        Questions: {qCount ?? '…'}
+                        {attempted && (
+                          <>
+                            {' • '}Progress: <strong style={{ color: 'var(--text-secondary)' }}>{progressPct}%</strong>
+                            {' • '}{stats!.totalAttempts} attempt{stats!.totalAttempts !== 1 ? 's' : ''}
+                          </>
+                        )}
+                      </p>
+                      {attempted && (
+                        <div className="h-1.5 rounded-full overflow-hidden mt-2 max-w-[200px]" style={{ background: 'var(--border)' }}>
+                          <div
+                            className="h-full rounded-full transition-all"
+                            style={{
+                              width: `${progressPct}%`,
+                              background: progressPct >= 75 ? '#22c55e' : progressPct >= 50 ? '#f59e0b' : '#ef4444',
+                            }}
+                          />
+                        </div>
+                      )}
+                    </div>
+
+                    <motion.button
+                      whileHover={{ scale: 1.03 }}
+                      whileTap={{ scale: 0.96 }}
+                      onClick={() => handleStartTest(test.relPath)}
+                      disabled={isStarting}
+                      className="btn-primary flex items-center gap-1.5 px-4 py-2 text-sm flex-shrink-0"
+                    >
+                      {isStarting
+                        ? <Loader2 size={14} className="animate-spin" />
+                        : attempted ? <RotateCcw size={14} /> : <PlayCircle size={14} />
+                      }
+                      <span className="hidden sm:inline">{attempted ? 'Retake' : 'Start'}</span>
+                    </motion.button>
+                  </motion.div>
+                );
+              })
+            )}
           </motion.div>
         )}
       </AnimatePresence>

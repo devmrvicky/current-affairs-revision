@@ -12,11 +12,13 @@ interface QuizStore {
   startSession: (quiz: DailyQuiz, fileName: string) => void;
   submitAnswer: (selectedAnswer: string, timeTaken: number) => void;
   nextQuestion: () => void;
+  goToQuestion: (index: number) => void;
   pauseSession: () => void;
   resumeSession: () => void;
   completeSession: () => void;
   clearSession: () => void;
   toggleBookmark: (questionId: number) => void;
+  toggleMarkForReview: (questionId: number) => void;
   setLoading: (v: boolean) => void;
   setError: (e: string | null) => void;
 }
@@ -53,6 +55,7 @@ export const useQuizStore = create<QuizStore>()(
             totalPausedTime: 0,
             isCompleted: false,
             isPaused: false,
+            visitedIndices: [0],
           },
           error: null,
         });
@@ -84,8 +87,29 @@ export const useQuizStore = create<QuizStore>()(
         if (nextIndex >= session.totalQuestions) {
           set({ session: { ...session, isCompleted: true } });
         } else {
-          set({ session: { ...session, currentIndex: nextIndex } });
+          const visited = session.visitedIndices ?? [];
+          set({
+            session: {
+              ...session,
+              currentIndex: nextIndex,
+              visitedIndices: visited.includes(nextIndex) ? visited : [...visited, nextIndex],
+            },
+          });
         }
+      },
+
+      goToQuestion: (index) => {
+        const { session } = get();
+        if (!session) return;
+        if (index < 0 || index >= session.totalQuestions) return;
+        const visited = session.visitedIndices ?? [];
+        set({
+          session: {
+            ...session,
+            currentIndex: index,
+            visitedIndices: visited.includes(index) ? visited : [...visited, index],
+          },
+        });
       },
 
       pauseSession: () => {
@@ -119,6 +143,15 @@ export const useQuizStore = create<QuizStore>()(
         if (!session) return;
         const updated = session.attempts.map((a) =>
           a.questionId === questionId ? { ...a, bookmarked: !a.bookmarked } : a
+        );
+        set({ session: { ...session, attempts: updated } });
+      },
+
+      toggleMarkForReview: (questionId) => {
+        const { session } = get();
+        if (!session) return;
+        const updated = session.attempts.map((a) =>
+          a.questionId === questionId ? { ...a, markedForReview: !a.markedForReview } : a
         );
         set({ session: { ...session, attempts: updated } });
       },

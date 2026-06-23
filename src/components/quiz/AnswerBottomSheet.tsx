@@ -1,6 +1,6 @@
-import { useEffect, useCallback } from 'react';
+import { useEffect, useCallback, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { CheckCircle2, XCircle, ArrowRight, Bookmark, X } from 'lucide-react';
+import { CheckCircle2, XCircle, ArrowRight, Bookmark, Flag } from 'lucide-react';
 import type { QuestionAttempt } from '../../types';
 
 interface AnswerBottomSheetProps {
@@ -8,8 +8,11 @@ interface AnswerBottomSheetProps {
   isLastQuestion: boolean;
   onNext: () => void;
   onBookmark: () => void;
+  onMarkForReview: () => void;
   onClose: () => void;
   showExplanation: boolean;
+  /** 0 = auto-next disabled; otherwise seconds to wait before auto-advancing */
+  autoNextSeconds: number;
 }
 
 export function AnswerBottomSheet({
@@ -17,11 +20,39 @@ export function AnswerBottomSheet({
   isLastQuestion,
   onNext,
   onBookmark,
+  onMarkForReview,
   onClose,
   showExplanation,
+  autoNextSeconds,
 }: AnswerBottomSheetProps) {
   const isOpen = attempt !== null;
   const isCorrect = attempt?.status === 'correct';
+
+  // Auto-advance countdown — resets whenever a new question's sheet opens.
+  const [secondsLeft, setSecondsLeft] = useState(autoNextSeconds);
+
+  useEffect(() => {
+    if (isOpen && autoNextSeconds > 0) setSecondsLeft(autoNextSeconds);
+  }, [isOpen, attempt?.questionId, autoNextSeconds]);
+
+  useEffect(() => {
+    if (!isOpen || autoNextSeconds <= 0 || isLastQuestion) return;
+    if (secondsLeft <= 0) {
+      onNext();
+      return;
+    }
+    const t = setTimeout(() => setSecondsLeft((s) => s - 1), 1000);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isOpen, autoNextSeconds, secondsLeft, isLastQuestion]);
+
+  const autoNextActive = isOpen && autoNextSeconds > 0 && !isLastQuestion;
+
+  // Manually clicking Next always wins — just call through immediately;
+  // the countdown effect's cleanup (isOpen flips false) cancels any pending tick.
+  function handleManualNext() {
+    onNext();
+  }
 
   // Keyboard: Enter / Space = next
   const handleKeyDown = useCallback(
@@ -29,7 +60,7 @@ export function AnswerBottomSheet({
       if (!isOpen) return;
       if (e.key === 'Enter' || e.key === ' ' || e.key === 'ArrowRight') {
         e.preventDefault();
-        onNext();
+        handleManualNext();
       }
       if (e.key === 'Escape') onClose();
     },
@@ -132,6 +163,17 @@ export function AnswerBottomSheet({
                 </div>
 
                 <button
+                  onClick={onMarkForReview}
+                  className={`p-2 rounded-xl flex-shrink-0 transition-colors ${
+                    attempt.markedForReview
+                      ? 'text-amber-500 bg-amber-100 dark:bg-amber-900/30'
+                      : 'text-gray-400 hover:bg-gray-100 dark:hover:bg-white/10'
+                  }`}
+                  title="Mark for review"
+                >
+                  <Flag size={16} fill={attempt.markedForReview ? 'currentColor' : 'none'} />
+                </button>
+                <button
                   onClick={onBookmark}
                   className={`p-2 rounded-xl flex-shrink-0 transition-colors ${
                     attempt.bookmarked
@@ -180,15 +222,27 @@ export function AnswerBottomSheet({
                 transition={{ delay: 0.25 }}
                 whileHover={{ scale: 1.01 }}
                 whileTap={{ scale: 0.97 }}
-                onClick={onNext}
-                className={`w-full flex items-center justify-center gap-2 py-4 rounded-2xl font-display font-bold text-base text-white shadow-lg transition-all ${
+                onClick={handleManualNext}
+                className={`w-full flex items-center justify-center gap-2 py-4 rounded-2xl font-display font-bold text-base text-white shadow-lg transition-all relative overflow-hidden ${
                   isCorrect
                     ? 'bg-green-500 hover:bg-green-600 shadow-green-200 dark:shadow-green-900/40'
                     : 'bg-brand-500 hover:bg-brand-600 shadow-brand-200 dark:shadow-brand-900/40'
                 }`}
               >
-                {isLastQuestion ? 'View Results' : 'Next Question'}
-                <ArrowRight size={18} />
+                {autoNextActive && (
+                  <motion.div
+                    key={secondsLeft}
+                    initial={{ width: '100%' }}
+                    animate={{ width: '0%' }}
+                    transition={{ duration: 1, ease: 'linear' }}
+                    className="absolute left-0 top-0 bottom-0 bg-white/15"
+                  />
+                )}
+                <span className="relative">
+                  {isLastQuestion ? 'View Results' : 'Next Question'}
+                  {autoNextActive && ` (${secondsLeft})`}
+                </span>
+                <ArrowRight size={18} className="relative" />
               </motion.button>
             </div>
           </motion.div>

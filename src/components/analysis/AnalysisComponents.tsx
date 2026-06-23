@@ -2,7 +2,7 @@ import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, BarChart, Bar, XAxis
 import { motion } from 'framer-motion';
 import type { AnalysisResult, QuestionAttempt } from '../../types';
 import { formatTime, getBadgeColors } from '../../utils';
-import { CheckCircle2, XCircle, Clock, Target, Award, Percent } from 'lucide-react';
+import { CheckCircle2, XCircle, Clock, Target, Award, Percent, Flag } from 'lucide-react';
 
 interface AnalysisOverviewProps {
   result: AnalysisResult;
@@ -133,7 +133,7 @@ export function AnalysisOverview({ result }: AnalysisOverviewProps) {
 
 interface QuestionReviewProps {
   attempts: QuestionAttempt[];
-  filter: 'all' | 'wrong' | 'correct' | 'bookmarked';
+  filter: 'all' | 'wrong' | 'correct' | 'bookmarked' | 'marked';
 }
 
 export function QuestionReview({ attempts, filter }: QuestionReviewProps) {
@@ -141,6 +141,7 @@ export function QuestionReview({ attempts, filter }: QuestionReviewProps) {
     if (filter === 'wrong') return a.status === 'wrong' || a.status === 'unanswered';
     if (filter === 'correct') return a.status === 'correct';
     if (filter === 'bookmarked') return a.bookmarked;
+    if (filter === 'marked') return a.markedForReview;
     return true;
   });
 
@@ -161,6 +162,7 @@ export function QuestionReview({ attempts, filter }: QuestionReviewProps) {
           animate={{ opacity: 1, x: 0 }}
           transition={{ delay: idx * 0.05 }}
           className={`card p-5 border-l-4 ${
+            attempt.markedForReview ? 'border-l-amber-400' :
             attempt.status === 'correct' ? 'border-l-green-500' :
             attempt.status === 'wrong' ? 'border-l-red-500' :
             'border-l-gray-300 dark:border-l-gray-600'
@@ -171,9 +173,14 @@ export function QuestionReview({ attempts, filter }: QuestionReviewProps) {
               style={{ background: 'var(--border)', color: 'var(--text-secondary)' }}>
               {attempts.indexOf(attempt) + 1}
             </span>
-            <p className="text-sm font-medium leading-relaxed" style={{ color: 'var(--text-primary)' }}>
+            <p className="text-sm font-medium leading-relaxed flex-1" style={{ color: 'var(--text-primary)' }}>
               {attempt.question}
             </p>
+            {attempt.markedForReview && (
+              <span className="flex-shrink-0 text-amber-500" title="Marked for review">
+                <Flag size={14} fill="currentColor" />
+              </span>
+            )}
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-3 pl-9">

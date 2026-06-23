@@ -3,6 +3,7 @@ import { Toaster } from 'react-hot-toast';
 import AppRouter from './routes/AppRouter';
 import { useSettingsStore, applyTheme } from './store/statsStore';
 import { PWAUpdateNotifier } from './components/common/PWAComponents';
+import { GlobalErrorBoundary } from './components/common/GlobalErrorBoundary';
 
 function App() {
   const { load, settings } = useSettingsStore();
@@ -12,7 +13,9 @@ function App() {
 
   return (
     <>
-      <AppRouter />
+      <GlobalErrorBoundary>
+        <AppRouter />
+      </GlobalErrorBoundary>
       <PWAUpdateNotifier />
       <Toaster
         position="bottom-center"

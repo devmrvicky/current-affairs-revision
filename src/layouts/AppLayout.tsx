@@ -1,5 +1,5 @@
 import { Outlet, NavLink, useLocation } from 'react-router-dom';
-import { Home, Clock, BarChart3, Settings, BookOpen, Moon, Sun, Calendar, Brain, Layers, AlertTriangle } from 'lucide-react';
+import { Home, Clock, BarChart3, Settings, BookOpen, Moon, Sun, Calendar, Brain, Layers, AlertTriangle, Sparkles } from 'lucide-react';
 import { useSettingsStore } from '../store/statsStore';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -9,6 +9,7 @@ const NAV = [
   { to: '/chapter-wise-current-affairs',  icon: Layers,        label: 'Chapters' },
   { to: '/history',                       icon: Clock,         label: 'History' },
   { to: '/wrong-questions',               icon: Brain,         label: 'Practice' },
+  { to: '/review-center',                 icon: Sparkles,      label: 'Review' },
   { to: '/statistics',                    icon: BarChart3,     label: 'Stats' },
   { to: '/settings',                      icon: Settings,      label: 'Settings' },
 ];

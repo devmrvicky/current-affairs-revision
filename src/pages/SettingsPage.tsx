@@ -129,6 +129,13 @@ export default function SettingsPage() {
     { value: 'lg', label: 'Large' },
   ];
 
+  const autoNextOptions: { value: SettingsType['autoNextSeconds']; label: string }[] = [
+    { value: 0, label: 'Off' },
+    { value: 2, label: '2s' },
+    { value: 3, label: '3s' },
+    { value: 5, label: '5s' },
+  ];
+
   const goalOptions = [10, 25, 50, 100];
   const notifSupported = permissionState !== 'unsupported';
 
@@ -234,6 +241,33 @@ export default function SettingsPage() {
           description="Use A/B/C/D or 1/2/3/4 keys to answer"
           icon={<Keyboard size={16} style={{ color: 'var(--text-secondary)' }} />}
         />
+        <div className="py-4 border-b border-[var(--border)]">
+          <div className="flex items-center gap-3 mb-3">
+            <div className="w-9 h-9 rounded-xl flex items-center justify-center" style={{ background: 'var(--border)' }}>
+              <Clock size={16} style={{ color: 'var(--text-secondary)' }} />
+            </div>
+            <div>
+              <p className="font-medium text-sm" style={{ color: 'var(--text-primary)' }}>Auto Next Question</p>
+              <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>Automatically advance after answering</p>
+            </div>
+          </div>
+          <div className="grid grid-cols-4 gap-2">
+            {autoNextOptions.map(({ value, label }) => (
+              <button
+                key={value}
+                onClick={() => handleSettingChange({ autoNextSeconds: value })}
+                className={`py-2 rounded-xl text-xs font-semibold border-2 transition-all ${
+                  settings.autoNextSeconds === value
+                    ? 'border-brand-500 bg-brand-50 dark:bg-brand-900/20 text-brand-600 dark:text-brand-400'
+                    : 'border-[var(--border)] hover:border-brand-300'
+                }`}
+                style={settings.autoNextSeconds !== value ? { color: 'var(--text-secondary)' } : undefined}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+        </div>
         <Toggle
           enabled={settings.soundEnabled}
           onChange={(v) => handleSettingChange({ soundEnabled: v })}

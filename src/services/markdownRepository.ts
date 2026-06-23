@@ -1,48 +1,38 @@
-// markdownRepository.ts — auto-discovers chapter markdown content via import.meta.glob
-// Pairs with chapterRepository.ts: Budget/Budget.json + Budget/Budget.md → one chapter "Budget"
-// `**` recurses into per-chapter subfolders; legacy flat files still match too.
+// markdownRepository.ts — generic, path-based markdown loader.
+// Discovery of "which markdown belongs to which chapter" lives in
+// chapterRepository.ts (folder = chapter, first .md in the folder = revision
+// content). This module only knows how to enumerate and lazily load raw
+// markdown files by their relative path — it has no opinion about pairing.
 
 const markdownModules = import.meta.glob<string>(
   '../data/chapters/**/*.md',
   { eager: false, query: '?raw', import: 'default' }
 );
 
-function pathToChapterName(path: string): string {
-  const file = path.split('/').pop() ?? path;
-  return file.replace(/\.md$/i, '');
-}
-
-let _markdownChapterNames: Set<string> | null = null;
-
-/** Returns the set of chapter names that have markdown content available. */
-export function getChaptersWithMarkdown(): Set<string> {
-  if (_markdownChapterNames) return _markdownChapterNames;
-  _markdownChapterNames = new Set(Object.keys(markdownModules).map(pathToChapterName));
-  return _markdownChapterNames;
+/** Returns every markdown module path exactly as registered by the glob. */
+export function getRawMarkdownGlobKeys(): string[] {
+  return Object.keys(markdownModules);
 }
 
 const _cache = new Map<string, string | null>();
 
-/** Load raw markdown content for a chapter by its name (without extension). */
-export async function loadChapterMarkdown(chapterName: string): Promise<string | null> {
-  if (_cache.has(chapterName)) return _cache.get(chapterName)!;
+/** Load raw markdown content by its glob key / module path. */
+export async function loadMarkdownByGlobKey(globKey: string): Promise<string | null> {
+  if (_cache.has(globKey)) return _cache.get(globKey)!;
 
-  const entry = Object.entries(markdownModules).find(
-    ([path]) => pathToChapterName(path) === chapterName
-  );
-
-  if (!entry) {
-    _cache.set(chapterName, null);
+  const loader = markdownModules[globKey];
+  if (!loader) {
+    _cache.set(globKey, null);
     return null;
   }
 
   try {
-    const content = await entry[1]();
-    _cache.set(chapterName, content);
+    const content = await loader();
+    _cache.set(globKey, content);
     return content;
   } catch (err) {
-    console.error(`[MarkdownRepository] Failed to load ${chapterName}.md:`, err);
-    _cache.set(chapterName, null);
+    console.error(`[MarkdownRepository] Failed to load ${globKey}:`, err);
+    _cache.set(globKey, null);
     return null;
   }
 }

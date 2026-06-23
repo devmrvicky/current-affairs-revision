@@ -56,6 +56,7 @@ const defaultSettings: Settings = {
   showExplanation: true,
   keyboardNavigation: true,
   fontSize: 'md',
+  autoNextSeconds: 0,
 };
 
 export const useSettingsStore = create<SettingsStore>((set, get) => ({

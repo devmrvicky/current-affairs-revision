@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Pause, Play, Bookmark, ChevronLeft, ChevronRight, LayoutGrid, X } from 'lucide-react';
+import { Pause, Play, Bookmark, Flag, ChevronLeft, ChevronRight, LayoutGrid, X, AlertTriangle } from 'lucide-react';
 import { useQuizStore } from '../store/quizStore';
 import { useSettingsStore } from '../store/statsStore';
 import { QuizTimer } from '../components/quiz/QuizTimer';
@@ -11,13 +11,17 @@ import { getOptionLabel } from '../utils';
 
 export default function QuizPage() {
   const navigate = useNavigate();
-  const { session, submitAnswer, nextQuestion, pauseSession, resumeSession, clearSession, toggleBookmark } = useQuizStore();
+  const {
+    session, submitAnswer, nextQuestion, goToQuestion, pauseSession, resumeSession,
+    clearSession, toggleBookmark, toggleMarkForReview,
+  } = useQuizStore();
   const { settings } = useSettingsStore();
 
   const [showPalette, setShowPalette] = useState(false);
   const [questionStartTime, setQuestionStartTime] = useState(Date.now());
   const [isPaused, setIsPaused] = useState(false);
   const [showSheet, setShowSheet] = useState(false);
+  const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
 
   // Redirect guards
   useEffect(() => {
@@ -69,6 +73,9 @@ export default function QuizPage() {
   const isAnswered = currentAttempt.status !== 'unanswered';
   const isLast = session.currentIndex >= session.totalQuestions - 1;
   const progress = ((session.currentIndex + 1) / session.totalQuestions) * 100;
+  const markedIndices = session.attempts
+    .map((a, idx) => (a.markedForReview ? idx : -1))
+    .filter((idx) => idx !== -1);
 
   function handleSelect(option: string) {
     if (isAnswered) return;
@@ -79,10 +86,24 @@ export default function QuizPage() {
   function handleNext() {
     setShowSheet(false);
     if (isLast) {
-      navigate('/analysis');
+      if (markedIndices.length > 0) {
+        setShowSubmitConfirm(true);
+      } else {
+        navigate('/analysis');
+      }
     } else {
       nextQuestion();
     }
+  }
+
+  function handleConfirmSubmit() {
+    setShowSubmitConfirm(false);
+    navigate('/analysis');
+  }
+
+  function handleReviewMarked() {
+    setShowSubmitConfirm(false);
+    if (markedIndices.length > 0) goToQuestion(markedIndices[0]);
   }
 
   function handlePause() {
@@ -100,12 +121,6 @@ export default function QuizPage() {
       clearSession();
       navigate('/');
     }
-  }
-
-  function jumpTo(idx: number) {
-    useQuizStore.setState((s) => ({
-      session: s.session ? { ...s.session, currentIndex: idx } : null,
-    }));
   }
 
   return (
@@ -192,7 +207,7 @@ export default function QuizPage() {
       </AnimatePresence>
 
       {/* Main Content */}
-      <div className="max-w-5xl mx-auto px-4 py-6">
+      <div className="max-w-5xl mx-auto px-3 sm:px-4 py-4 sm:py-6">
         <div className="flex gap-6">
           {/* Question Area */}
           <div className="flex-1 min-w-0">
@@ -205,7 +220,7 @@ export default function QuizPage() {
                 transition={{ duration: 0.22 }}
               >
                 {/* Question Card */}
-                <div className="card p-6">
+                <div className="card p-4 sm:p-6">
                   <div className="flex items-start justify-between gap-3 mb-6">
                     <div className="flex items-start gap-3">
                       <span className="inline-flex items-center justify-center w-8 h-8 rounded-xl bg-brand-100 dark:bg-brand-900/40 text-brand-600 dark:text-brand-400 font-bold text-sm flex-shrink-0 mt-0.5">
@@ -215,17 +230,32 @@ export default function QuizPage() {
                         {currentAttempt.question}
                       </p>
                     </div>
-                    <button
-                      onClick={() => toggleBookmark(currentAttempt.questionId)}
-                      className={`p-2 rounded-xl flex-shrink-0 transition-colors ${
-                        currentAttempt.bookmarked
-                          ? 'text-purple-500 bg-purple-50 dark:bg-purple-900/20'
-                          : 'hover:bg-gray-100 dark:hover:bg-white/10'
-                      }`}
-                      style={!currentAttempt.bookmarked ? { color: 'var(--text-muted)' } : undefined}
-                    >
-                      <Bookmark size={16} fill={currentAttempt.bookmarked ? 'currentColor' : 'none'} />
-                    </button>
+                    <div className="flex items-center gap-1 flex-shrink-0">
+                      <button
+                        onClick={() => toggleMarkForReview(currentAttempt.questionId)}
+                        className={`p-2 rounded-xl transition-colors ${
+                          currentAttempt.markedForReview
+                            ? 'text-amber-500 bg-amber-50 dark:bg-amber-900/20'
+                            : 'hover:bg-gray-100 dark:hover:bg-white/10'
+                        }`}
+                        style={!currentAttempt.markedForReview ? { color: 'var(--text-muted)' } : undefined}
+                        title="Mark for review"
+                      >
+                        <Flag size={16} fill={currentAttempt.markedForReview ? 'currentColor' : 'none'} />
+                      </button>
+                      <button
+                        onClick={() => toggleBookmark(currentAttempt.questionId)}
+                        className={`p-2 rounded-xl transition-colors ${
+                          currentAttempt.bookmarked
+                            ? 'text-purple-500 bg-purple-50 dark:bg-purple-900/20'
+                            : 'hover:bg-gray-100 dark:hover:bg-white/10'
+                        }`}
+                        style={!currentAttempt.bookmarked ? { color: 'var(--text-muted)' } : undefined}
+                        title="Bookmark question"
+                      >
+                        <Bookmark size={16} fill={currentAttempt.bookmarked ? 'currentColor' : 'none'} />
+                      </button>
+                    </div>
                   </div>
 
                   {/* Options */}
@@ -284,7 +314,7 @@ export default function QuizPage() {
               <div className="flex justify-between mt-4">
                 <button
                   className="btn-ghost flex items-center gap-1 text-sm"
-                  onClick={() => jumpTo(Math.max(0, session.currentIndex - 1))}
+                  onClick={() => goToQuestion(Math.max(0, session.currentIndex - 1))}
                   disabled={session.currentIndex === 0}
                 >
                   <ChevronLeft size={16} /> Previous
@@ -305,12 +335,8 @@ export default function QuizPage() {
               <QuestionPalette
                 attempts={session.attempts}
                 currentIndex={session.currentIndex}
-                onJump={(idx) => {
-                  const attempt = session.attempts[idx];
-                  if (attempt.status !== 'unanswered' || idx <= session.currentIndex) {
-                    jumpTo(idx);
-                  }
-                }}
+                visitedIndices={session.visitedIndices ?? []}
+                onJump={(idx) => goToQuestion(idx)}
               />
             </div>
           </div>
@@ -323,9 +349,50 @@ export default function QuizPage() {
         isLastQuestion={isLast}
         onNext={handleNext}
         onBookmark={() => toggleBookmark(currentAttempt.questionId)}
+        onMarkForReview={() => toggleMarkForReview(currentAttempt.questionId)}
         onClose={() => setShowSheet(false)}
         showExplanation={settings.showExplanation}
+        autoNextSeconds={settings.autoNextSeconds}
       />
+
+      {/* Submit confirmation — shown when finishing the last question while some are still marked for review */}
+      <AnimatePresence>
+        {showSubmitConfirm && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[140] flex items-center justify-center p-4 bg-black/60"
+            onClick={() => setShowSubmitConfirm(false)}
+          >
+            <motion.div
+              initial={{ y: 20, opacity: 0, scale: 0.97 }}
+              animate={{ y: 0, opacity: 1, scale: 1 }}
+              exit={{ y: 20, opacity: 0, scale: 0.97 }}
+              className="card p-6 max-w-sm w-full text-center"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="w-14 h-14 rounded-2xl bg-amber-50 dark:bg-amber-900/20 flex items-center justify-center mx-auto mb-4">
+                <AlertTriangle size={26} className="text-amber-500" />
+              </div>
+              <h2 className="text-lg font-display font-bold mb-1" style={{ color: 'var(--text-primary)' }}>
+                Marked For Review: {markedIndices.length} Question{markedIndices.length !== 1 ? 's' : ''}
+              </h2>
+              <p className="text-sm mb-5" style={{ color: 'var(--text-secondary)' }}>
+                You can revisit them before submitting, or submit the test as-is.
+              </p>
+              <div className="flex flex-col gap-2">
+                <button onClick={handleReviewMarked} className="btn-secondary text-sm py-2.5">
+                  Review Marked Questions
+                </button>
+                <button onClick={handleConfirmSubmit} className="btn-primary text-sm py-2.5">
+                  Submit Test Anyway
+                </button>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* Mobile Palette Drawer */}
       <AnimatePresence>
@@ -360,8 +427,9 @@ export default function QuizPage() {
               <QuestionPalette
                 attempts={session.attempts}
                 currentIndex={session.currentIndex}
+                visitedIndices={session.visitedIndices ?? []}
                 onJump={(idx) => {
-                  jumpTo(idx);
+                  goToQuestion(idx);
                   setShowPalette(false);
                 }}
               />

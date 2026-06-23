@@ -1,10 +1,10 @@
 import { useState, useMemo, useEffect, memo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
-import { Layers, CheckSquare, Square, Play, ArrowLeft, Shuffle } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Layers, CheckSquare, Square, ArrowLeft, Shuffle } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { useQuizStore } from '../store/quizStore';
-import { getChapterList, loadMixedChapters, loadChapterByFileName } from '../services/chapterRepository';
+import { getChapterList, getChapterTotalQuestions, loadMixedChapters } from '../services/chapterRepository';
 
 const CHAPTER_EMOJIS: Record<string, string> = {
   'Government Schemes': '🏛️',
@@ -13,23 +13,25 @@ const CHAPTER_EMOJIS: Record<string, string> = {
   'Awards': '🥇',
   'Science and Technology': '🔬',
   'Books and Authors': '📚',
+  'Budget': '💰',
+  'Economy': '📈',
 };
 
 interface ChapterSelectCardProps {
   chapterName: string;
-  fileName: string;
+  testCount: number;
   questionCount: number;
   selected: boolean;
-  onToggle: (fileName: string) => void;
+  onToggle: (chapterName: string) => void;
 }
 
 const ChapterSelectCard = memo(function ChapterSelectCard({
-  chapterName, fileName, questionCount, selected, onToggle
+  chapterName, testCount, questionCount, selected, onToggle
 }: ChapterSelectCardProps) {
   return (
     <motion.button
       whileTap={{ scale: 0.97 }}
-      onClick={() => onToggle(fileName)}
+      onClick={() => onToggle(chapterName)}
       className={`w-full p-4 rounded-2xl border-2 text-left transition-all duration-150 flex items-center gap-3 ${
         selected
           ? 'border-brand-500 bg-brand-50 dark:bg-brand-900/20'
@@ -44,7 +46,7 @@ const ChapterSelectCard = memo(function ChapterSelectCard({
           {chapterName}
         </p>
         <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>
-          {questionCount > 0 ? `${questionCount} questions` : 'Loading…'}
+          {testCount} test{testCount !== 1 ? 's' : ''} · {questionCount > 0 ? `${questionCount} questions` : 'Loading…'}
         </p>
       </div>
       <div className={`flex-shrink-0 ${selected ? 'text-brand-500' : ''}`}
@@ -65,23 +67,23 @@ export default function MixedRevisionPage() {
   const [isStarting, setIsStarting] = useState(false);
 
   useEffect(() => {
-    allChapters.forEach(async ({ fileName }) => {
-      const quiz = await loadChapterByFileName(fileName);
-      if (quiz) setQuestionCounts((prev) => ({ ...prev, [fileName]: quiz.questions.length }));
+    allChapters.forEach(async (chapter) => {
+      const count = await getChapterTotalQuestions(chapter.chapterName);
+      setQuestionCounts((prev) => ({ ...prev, [chapter.chapterName]: count }));
     });
   }, [allChapters]);
 
-  function toggleChapter(fileName: string) {
+  function toggleChapter(chapterName: string) {
     setSelected((prev) => {
       const next = new Set(prev);
-      if (next.has(fileName)) next.delete(fileName);
-      else next.add(fileName);
+      if (next.has(chapterName)) next.delete(chapterName);
+      else next.add(chapterName);
       return next;
     });
   }
 
   function selectAll() {
-    setSelected(new Set(allChapters.map((c) => c.fileName)));
+    setSelected(new Set(allChapters.map((c) => c.chapterName)));
   }
 
   function clearAll() {
@@ -89,7 +91,7 @@ export default function MixedRevisionPage() {
   }
 
   const totalSelected = selected.size;
-  const totalQuestions = [...selected].reduce((sum, fn) => sum + (questionCounts[fn] ?? 0), 0);
+  const totalQuestions = [...selected].reduce((sum, name) => sum + (questionCounts[name] ?? 0), 0);
 
   async function handleStart() {
     if (selected.size === 0) {
@@ -165,11 +167,11 @@ export default function MixedRevisionPage() {
       <div className="space-y-2">
         {allChapters.map((chapter) => (
           <ChapterSelectCard
-            key={chapter.fileName}
-            fileName={chapter.fileName}
+            key={chapter.chapterName}
             chapterName={chapter.chapterName}
-            questionCount={questionCounts[chapter.fileName] ?? 0}
-            selected={selected.has(chapter.fileName)}
+            testCount={chapter.tests.length}
+            questionCount={questionCounts[chapter.chapterName] ?? 0}
+            selected={selected.has(chapter.chapterName)}
             onToggle={toggleChapter}
           />
         ))}

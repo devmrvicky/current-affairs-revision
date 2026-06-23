@@ -1,5 +1,5 @@
 import { openDB, DBSchema, IDBPDatabase } from 'idb';
-import type { SavedTest, Statistics, Settings, WrongQuestion, BookmarkedQuestion, ChapterStats, DailyGoal, NotificationSettings, Highlight, ReadingProgress, ReaderNote, ReadingPrefs } from '../types';
+import type { SavedTest, Statistics, Settings, WrongQuestion, BookmarkedQuestion, MarkedReviewQuestion, ChapterStats, DailyGoal, NotificationSettings, Highlight, ReadingProgress, ReaderNote, ReadingPrefs } from '../types';
 
 // ─── Schema ───────────────────────────────────────────────────────────────────
 
@@ -31,6 +31,11 @@ interface AppDB extends DBSchema {
     key: string;
     value: BookmarkedQuestion;
     indexes: { 'by-source': string; 'by-bookmarkedAt': number };
+  };
+  markedForReview: {
+    key: string;
+    value: MarkedReviewQuestion;
+    indexes: { 'by-source': string; 'by-markedAt': number };
   };
   chapterStats: {
     key: string;
@@ -65,7 +70,7 @@ interface AppDB extends DBSchema {
 }
 
 const DB_NAME = 'CurrentAffairsDB';
-const DB_VERSION = 5;
+const DB_VERSION = 6;
 
 let dbInstance: IDBPDatabase<AppDB> | null = null;
 
@@ -105,6 +110,11 @@ async function getDB(): Promise<IDBPDatabase<AppDB>> {
         const notesStore = db.createObjectStore('readerNotes', { keyPath: 'id' });
         notesStore.createIndex('by-chapter', 'chapterId');
         db.createObjectStore('readerPrefs', { keyPath: 'id' as never });
+      }
+      if (oldVersion < 6) {
+        const mfrStore = db.createObjectStore('markedForReview', { keyPath: 'id' });
+        mfrStore.createIndex('by-source', 'sourceFileName');
+        mfrStore.createIndex('by-markedAt', 'markedAt');
       }
     },
   });
@@ -250,13 +260,16 @@ const defaultSettings: Settings = {
   showExplanation: true,
   keyboardNavigation: true,
   fontSize: 'md',
+  autoNextSeconds: 0,
 };
 
 export const settingsDB = {
   async get(): Promise<Settings> {
     const db = await getDB();
     const s = await db.get('settings', 'user' as never);
-    return (s as unknown as Settings) ?? { ...defaultSettings };
+    // Merge with defaults so settings saved before a new field was added
+    // (e.g. autoNextSeconds) don't end up undefined.
+    return { ...defaultSettings, ...((s as unknown as Settings) ?? {}) };
   },
 
   async save(settings: Settings): Promise<void> {
@@ -337,6 +350,41 @@ export const bookmarksDB = {
   async count(): Promise<number> {
     const db = await getDB();
     return db.count('bookmarks');
+  },
+};
+
+// ─── Marked For Review ─────────────────────────────────────────────────────────
+
+export const markedForReviewDB = {
+  async getAll(): Promise<MarkedReviewQuestion[]> {
+    const db = await getDB();
+    const all = await db.getAll('markedForReview');
+    return all.sort((a, b) => b.markedAt - a.markedAt);
+  },
+
+  async upsert(mq: MarkedReviewQuestion): Promise<void> {
+    const db = await getDB();
+    await db.put('markedForReview', mq);
+  },
+
+  async delete(id: string): Promise<void> {
+    const db = await getDB();
+    await db.delete('markedForReview', id);
+  },
+
+  async deleteAll(): Promise<void> {
+    const db = await getDB();
+    await db.clear('markedForReview');
+  },
+
+  async getById(id: string): Promise<MarkedReviewQuestion | undefined> {
+    const db = await getDB();
+    return db.get('markedForReview', id);
+  },
+
+  async count(): Promise<number> {
+    const db = await getDB();
+    return db.count('markedForReview');
   },
 };
 

@@ -28,6 +28,7 @@ export interface QuestionAttempt {
   status: AnswerStatus;
   timeTaken: number; // seconds
   bookmarked?: boolean;
+  markedForReview?: boolean;
 }
 
 export interface QuizSession {
@@ -42,6 +43,7 @@ export interface QuizSession {
   totalPausedTime: number;
   isCompleted: boolean;
   isPaused: boolean;
+  visitedIndices: number[]; // indices the user has navigated to (for palette "visited" state)
 }
 
 // ─── Saved Test Types ─────────────────────────────────────────────────────────
@@ -100,6 +102,7 @@ export interface Settings {
   showExplanation: boolean;
   keyboardNavigation: boolean;
   fontSize: 'sm' | 'md' | 'lg';
+  autoNextSeconds: 0 | 2 | 3 | 5; // 0 = off
 }
 
 // ─── UI / Utility Types ───────────────────────────────────────────────────────
@@ -169,6 +172,20 @@ export interface BookmarkedQuestion {
   sourceFileName: string;    // e.g. "08june2026.json" or "Sports.json"
   sourceDate: string;        // display date or chapter name
   bookmarkedAt: number;
+}
+
+// ─── Marked For Review ────────────────────────────────────────────────────────
+
+export interface MarkedReviewQuestion {
+  id: string;                // unique: `${fileName}_${questionId}`
+  questionId: number;
+  question: string;
+  options: string[];
+  correctAnswer: string;
+  explanation: string;
+  sourceFileName: string;
+  sourceDate: string;
+  markedAt: number;
 }
 
 // ─── Chapter Types ────────────────────────────────────────────────────────────

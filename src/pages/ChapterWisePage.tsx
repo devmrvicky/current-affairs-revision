@@ -2,35 +2,33 @@ import { useEffect, useState, useMemo, useCallback, memo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  BookOpen, Search, SlidersHorizontal, ChevronRight,
-  Trophy, Clock, Target, BarChart2, Layers, Star, Highlighter
+  BookOpen, Search, ChevronRight,
+  Target, BarChart2, Layers, Star, Highlighter, ListChecks
 } from 'lucide-react';
-import { useChapterStore } from '../store/chapterStore';
+import { useChapterStore, type ChapterAggregate } from '../store/chapterStore';
 import { useReaderStore } from '../store/readerStore';
-import { getChapterList, loadChapterByFileName } from '../services/chapterRepository';
-import { getChaptersWithMarkdown } from '../services/markdownRepository';
+import { getChapterList, getChapterTotalQuestions, type ChapterInfo } from '../services/chapterRepository';
 import { EmptyState } from '../components/common/EmptyState';
-import { getBadge, getBadgeColors, formatRelativeDate } from '../utils';
-import type { ChapterStats, ReadingProgress } from '../types';
+import { getBadge, getBadgeColors } from '../utils';
+import type { ReadingProgress } from '../types';
 
 type SortKey = 'name' | 'questions' | 'attempts' | 'recent';
 
 interface ChapterCardProps {
-  chapterName: string;
-  fileName: string;
+  chapter: ChapterInfo;
   questionCount: number;
-  stats?: ChapterStats;
+  aggregate?: ChapterAggregate;
   readingProgress?: ReadingProgress;
-  hasMarkdown: boolean;
   onOpen: (chapterName: string) => void;
   onToggleFavorite: (chapterName: string) => void;
   delay: number;
 }
 
 const ChapterCard = memo(function ChapterCard({
-  chapterName, fileName, questionCount, stats, readingProgress, hasMarkdown, onOpen, onToggleFavorite, delay
+  chapter, questionCount, aggregate, readingProgress, onOpen, onToggleFavorite, delay
 }: ChapterCardProps) {
-  const badge = stats ? getBadge(stats.bestScore) : null;
+  const { chapterName, tests, mdRelPath } = chapter;
+  const badge = aggregate ? getBadge(aggregate.bestScore) : null;
   const badgeColors = badge ? getBadgeColors(badge) : null;
 
   // Pick an emoji per chapter
@@ -41,6 +39,8 @@ const ChapterCard = memo(function ChapterCard({
     'Awards': '🥇',
     'Science and Technology': '🔬',
     'Books and Authors': '📚',
+    'Budget': '💰',
+    'Economy': '📈',
   };
 
   return (
@@ -75,24 +75,27 @@ const ChapterCard = memo(function ChapterCard({
             </h3>
             {badgeColors && badge && (
               <span className={`text-xs px-2 py-0.5 rounded-full font-medium border flex-shrink-0 ${badgeColors.bg} ${badgeColors.text} ${badgeColors.border}`}>
-                {stats!.bestScore}%
+                {aggregate!.bestScore}%
               </span>
             )}
           </div>
 
           {/* Metadata row */}
           <div className="flex flex-wrap items-center gap-3 mt-1.5">
-            <span className="flex items-center gap-1 text-xs" style={{ color: 'var(--text-muted)' }}>
-              <Target size={11} /> {questionCount} questions
+            <span className="flex items-center gap-1 text-xs font-medium text-brand-500">
+              <ListChecks size={11} /> {tests.length} Test{tests.length !== 1 ? 's' : ''}
             </span>
-            {hasMarkdown && (
+            <span className="flex items-center gap-1 text-xs" style={{ color: 'var(--text-muted)' }}>
+              <Target size={11} /> {questionCount > 0 ? `${questionCount} questions` : 'Loading…'}
+            </span>
+            {mdRelPath && (
               <span className="flex items-center gap-1 text-xs text-brand-500">
                 <BookOpen size={11} /> Revision available
               </span>
             )}
-            {stats && (
+            {aggregate && (
               <span className="flex items-center gap-1 text-xs" style={{ color: 'var(--text-muted)' }}>
-                <BarChart2 size={11} /> {stats.totalAttempts} attempt{stats.totalAttempts !== 1 ? 's' : ''}
+                <BarChart2 size={11} /> {aggregate.totalAttempts} attempt{aggregate.totalAttempts !== 1 ? 's' : ''}
               </span>
             )}
           </div>
@@ -117,18 +120,18 @@ const ChapterCard = memo(function ChapterCard({
           )}
 
           {/* Best score progress bar (only if no reading progress to avoid clutter) */}
-          {stats && (!readingProgress || readingProgress.scrollPercent === 0) && (
+          {aggregate && (!readingProgress || readingProgress.scrollPercent === 0) && (
             <div className="mt-3">
               <div className="flex justify-between text-xs mb-1" style={{ color: 'var(--text-muted)' }}>
-                <span>Best Score</span>
-                <span className="font-semibold" style={{ color: 'var(--text-primary)' }}>{stats.bestScore}%</span>
+                <span>Best Score · {aggregate.testsAttempted}/{tests.length} tests attempted</span>
+                <span className="font-semibold" style={{ color: 'var(--text-primary)' }}>{aggregate.bestScore}%</span>
               </div>
               <div className="h-1.5 rounded-full overflow-hidden" style={{ background: 'var(--border)' }}>
                 <div
                   className="h-full rounded-full transition-all"
                   style={{
-                    width: `${stats.bestScore}%`,
-                    background: stats.bestScore >= 75 ? '#22c55e' : stats.bestScore >= 50 ? '#f59e0b' : '#ef4444',
+                    width: `${aggregate.bestScore}%`,
+                    background: aggregate.bestScore >= 75 ? '#22c55e' : aggregate.bestScore >= 50 ? '#f59e0b' : '#ef4444',
                   }}
                 />
               </div>
@@ -150,7 +153,7 @@ const ChapterCard = memo(function ChapterCard({
 
 export default function ChapterWisePage() {
   const navigate = useNavigate();
-  const { stats: chapterStats, load: loadChapterStats } = useChapterStore();
+  const { stats: chapterStats, load: loadChapterStats, getAggregateForChapter } = useChapterStore();
   const { progress, loadAll: loadReaderData, toggleFavorite } = useReaderStore();
 
   const [search, setSearch] = useState('');
@@ -158,28 +161,29 @@ export default function ChapterWisePage() {
 
   // Chapter list from glob — no async, it's synchronous
   const allChapters = useMemo(() => getChapterList(), []);
-  const markdownChapters = useMemo(() => getChaptersWithMarkdown(), []);
 
-  // We need question counts — load them lazily
+  // Total question counts (summed across every test in a chapter) — loaded lazily, only
+  // when this page is opened, not at app startup.
   const [questionCounts, setQuestionCounts] = useState<Record<string, number>>({});
 
   useEffect(() => {
     loadChapterStats();
     loadReaderData();
-    // Load all chapters to get question counts (lazy, cached in chapterRepository)
-    allChapters.forEach(async ({ fileName, chapterName }) => {
-      const quiz = await loadChapterByFileName(fileName);
-      if (quiz) {
-        setQuestionCounts((prev) => ({ ...prev, [fileName]: quiz.questions.length }));
-      }
+    allChapters.forEach(async (chapter) => {
+      const count = await getChapterTotalQuestions(chapter.chapterName);
+      setQuestionCounts((prev) => ({ ...prev, [chapter.chapterName]: count }));
     });
   }, [allChapters]);
 
-  const statsMap = useMemo(() => {
-    const m: Record<string, ChapterStats> = {};
-    chapterStats.forEach((s) => { m[s.fileName] = s; });
+  const aggregateMap = useMemo(() => {
+    const m: Record<string, ChapterAggregate> = {};
+    allChapters.forEach((c) => {
+      const agg = getAggregateForChapter(c.chapterName);
+      if (agg) m[c.chapterName] = agg;
+    });
     return m;
-  }, [chapterStats]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [allChapters, chapterStats]);
 
   const filtered = useMemo(() => {
     let result = [...allChapters];
@@ -194,18 +198,18 @@ export default function ChapterWisePage() {
         case 'name':
           return a.chapterName.localeCompare(b.chapterName);
         case 'questions':
-          return (questionCounts[b.fileName] ?? 0) - (questionCounts[a.fileName] ?? 0);
+          return (questionCounts[b.chapterName] ?? 0) - (questionCounts[a.chapterName] ?? 0);
         case 'attempts':
-          return (statsMap[b.fileName]?.totalAttempts ?? 0) - (statsMap[a.fileName]?.totalAttempts ?? 0);
+          return (aggregateMap[b.chapterName]?.totalAttempts ?? 0) - (aggregateMap[a.chapterName]?.totalAttempts ?? 0);
         case 'recent':
-          return (statsMap[b.fileName]?.lastAttemptAt ?? 0) - (statsMap[a.fileName]?.lastAttemptAt ?? 0);
+          return (aggregateMap[b.chapterName]?.lastAttemptAt ?? 0) - (aggregateMap[a.chapterName]?.lastAttemptAt ?? 0);
         default:
           return 0;
       }
     });
 
     return result;
-  }, [allChapters, search, sortBy, questionCounts, statsMap]);
+  }, [allChapters, search, sortBy, questionCounts, aggregateMap]);
 
   const handleOpen = useCallback((chapterName: string) => {
     navigate(`/chapter/${encodeURIComponent(chapterName)}`);
@@ -222,7 +226,7 @@ export default function ChapterWisePage() {
     { value: 'recent', label: 'Recently Attempted' },
   ];
 
-  const attemptedCount = allChapters.filter((c) => statsMap[c.fileName]).length;
+  const attemptedCount = allChapters.filter((c) => aggregateMap[c.chapterName]).length;
 
   return (
     <div className="space-y-6 pb-12">
@@ -292,7 +296,7 @@ export default function ChapterWisePage() {
         <EmptyState
           icon={<BookOpen size={28} style={{ color: 'var(--text-muted)' }} />}
           title="No chapters found"
-          description="Add JSON files to src/data/chapters/ to see them here."
+          description="Add a folder with JSON test files (and an optional .md) under src/data/chapters/ to see it here."
         />
       ) : filtered.length === 0 ? (
         <EmptyState
@@ -305,13 +309,11 @@ export default function ChapterWisePage() {
           <AnimatePresence>
             {filtered.map((chapter, i) => (
               <ChapterCard
-                key={chapter.fileName}
-                fileName={chapter.fileName}
-                chapterName={chapter.chapterName}
-                questionCount={questionCounts[chapter.fileName] ?? 0}
-                stats={statsMap[chapter.fileName]}
+                key={chapter.chapterName}
+                chapter={chapter}
+                questionCount={questionCounts[chapter.chapterName] ?? 0}
+                aggregate={aggregateMap[chapter.chapterName]}
                 readingProgress={progress[chapter.chapterName]}
-                hasMarkdown={markdownChapters.has(chapter.chapterName)}
                 onOpen={handleOpen}
                 onToggleFavorite={handleToggleFavorite}
                 delay={i * 0.04}
