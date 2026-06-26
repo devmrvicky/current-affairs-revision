@@ -10,20 +10,13 @@
 - Exercise Name: मालाबार 2025 | Malabar 2025
 - Countries: भारत, अमेरिका, ऑस्ट्रेलिया, जापान (India, USA, Australia, Japan) – QUAD
 - Type: बहुपक्षीय (Multilateral)
-- Host Country: —
 - Venue: गुआम तट (उत्तरी प्रशांत क्षेत्र) | Coast of Guam (North Pacific Region)
-- Edition: —
 - Year: 2025
-
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
 
 **Important Exam Facts**
 - यह एक बहुपक्षीय (Multilateral) अभ्यास है जिसमें भारत, अमेरिका, ऑस्ट्रेलिया और जापान (QUAD) शामिल हैं।
 - स्थान: गुआम तट (उत्तरी प्रशांत क्षेत्र)।
-
-**Teacher Notes**
-- हस्तलिखित नोट: QUAD की स्थापना वर्ष 2007 में जापान द्वारा की गई थी (स्थापना → 2007, जापान)।
+- QUAD की स्थापना वर्ष 2007 में जापान द्वारा की गई थी।
 
 ---
 
@@ -33,20 +26,13 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: मित्र शक्ति – 2025 | Mitra Shakti – 2025
 - Countries: भारत – श्रीलंका (India – Sri Lanka)
 - Type: द्विपक्षीय (थल सेना)
-- Host Country: भारत
 - Venue: फॉरेन ट्रेनिंग नोड, बेलगावी (कर्नाटक) | Foreign Training Node, Belagavi (Karnataka)
 - Edition: 11वाँ | 11th
 - Year: 2025
 
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
-
 **Important Exam Facts**
 - भारत और श्रीलंका के बीच यह 11वाँ संस्करण है।
 - स्थान भारत में, कर्नाटक के बेलगावी स्थित फॉरेन ट्रेनिंग नोड पर है।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -56,21 +42,13 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: VINBAX-2025
 - Countries: भारत – वियतनाम (India – Vietnam)
 - Type: द्विपक्षीय
-- Host Country: वियतनाम
 - Venue: हनोई (वियतनाम) | Hanoi (Vietnam)
 - Edition: 6th
 - Year: 2025
 
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
-
 **Important Exam Facts**
 - भारत-वियतनाम के बीच 6वाँ संस्करण।
-- स्थान: हनोई (वियतनाम की राजधानी)।
-
-**Teacher Notes**
-- हस्तलिखित नोट: "हनोई" वियतनाम की **राजधानी** है।
-- हस्तलिखित नोट: Topic ⇒ सभी छह-पक्षीय (टॉपिक नोट स्पष्ट नहीं/संक्षिप्त है, जैसा PDF में लिखा गया वैसा ही दिया गया)।
+- स्थान: हनोई — वियतनाम की राजधानी।
 
 ---
 
@@ -80,20 +58,13 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: गरूण-25 | Garuda-25
 - Countries: भारत – फ्रांस (India – France)
 - Type: द्विपक्षीय (वायु सेना)
-- Host Country: फ्रांस
 - Venue: फ्रांस के मोंट-डी-मार्सन एयरबेस | Mont-de-Marsan Airbase, France
 - Edition: 8वां | 8th
 - Year: 2025
 
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
-
 **Important Exam Facts**
 - भारत-फ्रांस वायु अभ्यास का 8वां संस्करण।
 - स्थान: फ्रांस का मोंट-डी-मार्सन एयरबेस।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -103,20 +74,12 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: अजेय वॉरियर – 25 | Ajeya Warrior – 25
 - Countries: भारत – ब्रिटेन (India – Britain)
 - Type: द्विपक्षीय (थल सेना)
-- Host Country: भारत
 - Venue: महाजन फील्ड फायरिंग रेंज (राजस्थान) | Mahajan Field Firing Range (Rajasthan)
-- Edition: —
 - Year: 2025
-
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
 
 **Important Exam Facts**
 - भारत-ब्रिटेन के बीच थल सेना अभ्यास।
 - स्थान: महाजन फील्ड फायरिंग रेंज, राजस्थान।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -126,20 +89,13 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: सूर्यकिरण 2025 | Suryakiran 2025
 - Countries: भारत – नेपाल (India – Nepal)
 - Type: द्विपक्षीय (थल सेना)
-- Host Country: भारत
 - Venue: पिथौरागढ़ (उत्तराखंड) | Pithoragarh (Uttarakhand)
 - Edition: 19वां | 19th
 - Year: 2025
 
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
-
 **Important Exam Facts**
 - भारत-नेपाल के बीच 19वां संस्करण।
 - आयोजन: पिथौरागढ़, उत्तराखंड।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -149,20 +105,12 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: AUSINDEX 2025
 - Countries: भारत – आस्ट्रेलिया (India – Australia)
 - Type: द्विपक्षीय (नौसेना)
-- Host Country: —
 - Venue: नार्दर्न पैसिफिक | Northern Pacific
-- Edition: —
 - Year: 2025
-
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
 
 **Important Exam Facts**
 - भारत-ऑस्ट्रेलिया नौसैनिक अभ्यास।
 - आयोजन: नार्दर्न पैसिफिक क्षेत्र में।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -172,20 +120,13 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: एकुवेरिन 2025 | Ekuverin 2025
 - Countries: भारत – मालदीव (India – Maldives)
 - Type: द्विपक्षीय (थल सेना)
-- Host Country: भारत
 - Venue: केरल (तिरुवनंतपुरम) | Kerala (Thiruvananthapuram)
 - Edition: 14वाँ | 14th
 - Year: 2025
 
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
-
 **Important Exam Facts**
 - भारत-मालदीव के बीच 14वाँ संस्करण।
 - स्थान: केरल (तिरुवनंतपुरम)।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -195,20 +136,12 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: SLINEX-25 [Sri Lanka India Naval Exercise]
 - Countries: भारत – श्रीलंका (India – Sri Lanka)
 - Type: द्विपक्षीय (नौसेना)
-- Host Country: श्रीलंका
 - Venue: कोलंबो (श्रीलंका) | Colombo (Sri Lanka)
-- Edition: —
 - Year: 2025
-
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
 
 **Important Exam Facts**
 - भारत-श्रीलंका नौसैनिक अभ्यास।
 - स्थान: कोलंबो, श्रीलंका।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -218,20 +151,13 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: मैत्री 2025 | Maitree 2025
 - Countries: भारत – थाईलैंड (India – Thailand)
 - Type: द्विपक्षीय (थल सेना)
-- Host Country: भारत
 - Venue: उमरोई (मेघालय) | Umroi (Meghalaya)
 - Edition: 14वाँ | 14th
 - Year: 2025
 
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
-
 **Important Exam Facts**
 - भारत-थाईलैंड के बीच 14वाँ संस्करण।
 - आयोजन: उमरोई, मेघालय।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -241,20 +167,12 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: इंद्र 2025 | Indra 2025
 - Countries: भारत – रूस (India – Russia)
 - Type: द्विपक्षीय (थल सेना)
-- Host Country: भारत
 - Venue: महाजन फील्ड फायरिंग रेंज (राजस्थान) | Mahajan Field Firing Range (Rajasthan)
-- Edition: —
 - Year: 2025
-
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
 
 **Important Exam Facts**
 - भारत-रूस के बीच थल सेना अभ्यास।
 - स्थान: महाजन फील्ड फायरिंग रेंज, राजस्थान।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -264,20 +182,13 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: आस्ट्राहिंद 2025 | AustraHind 2025
 - Countries: भारत – आस्ट्रेलिया (India – Australia)
 - Type: द्विपक्षीय (थल सेना)
-- Host Country: ऑस्ट्रेलिया
 - Venue: पर्थ (आस्ट्रेलिया) | Perth (Australia)
 - Edition: 4th
 - Year: 2025
 
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
-
 **Important Exam Facts**
 - भारत-ऑस्ट्रेलिया के बीच 4वां संस्करण।
 - स्थान: पर्थ, ऑस्ट्रेलिया।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -287,20 +198,13 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: समुद्र शक्ति 2025 | Samudra Shakti 2025
 - Countries: भारत – इण्डोनेशिया (India – Indonesia)
 - Type: द्विपक्षीय (नौसेना)
-- Host Country: भारत
 - Venue: विशाखापत्तनम (आंध्र प्रदेश) | Visakhapatnam (Andhra Pradesh)
 - Edition: 5th
 - Year: 2025
 
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
-
 **Important Exam Facts**
 - भारत-इंडोनेशिया के बीच 5वां संस्करण।
 - आयोजन: विशाखापत्तनम, आंध्र प्रदेश।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -310,20 +214,13 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: IN-ROKN 2025
 - Countries: भारत – द॰ कोरिया (India – South Korea)
 - Type: द्विपक्षीय (नौसेना)
-- Host Country: दक्षिण कोरिया
 - Venue: बसान बंदरगाह (द॰ कोरिया) | Busan Port (South Korea)
 - Edition: पहला संस्करण | First Edition
 - Year: 2025
 
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
-
 **Important Exam Facts**
 - भारत और दक्षिण कोरिया के बीच पहला (1st) संस्करण।
 - स्थान: बसान बंदरगाह, दक्षिण कोरिया।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -333,20 +230,12 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: कोंकण 2025 | Konkan 2025
 - Countries: भारत – ब्रिटेन (India – UK)
 - Type: द्विपक्षीय (नौसेना)
-- Host Country: भारत
 - Venue: पश्चिमी तट (भारत) | West Coast (India)
-- Edition: —
 - Year: 2025
-
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
 
 **Important Exam Facts**
 - भारत-ब्रिटेन नौसैनिक अभ्यास।
 - स्थान: भारत का पश्चिमी तट।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -356,21 +245,15 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: साइक्लोन 2026 | Cyclone 2026
 - Countries: भारत – मिस्र (India – Egypt)
 - Type: द्विपक्षीय
-- Host Country: मिस्र
-- Venue: अंशास (मिस्र) | Location – अंशास (मिस्र)
+- Venue: अंशास (मिस्र)
 - Edition: 4th
 - Year: 2026 (अप्रैल)
-
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
 
 **Important Exam Facts**
 - भारत-मिस्र के बीच 4वां संस्करण (अप्रैल माह में)।
 - स्थान: अंशास, मिस्र।
-
-**Teacher Notes**
-- हस्तलिखित नोट: डेज़र्ट साइक्लोन → Ind-UAE (यह नोट "डेज़र्ट साइक्लोन" नाम के एक अलग अभ्यास के संदर्भ में है जो भारत-UAE के बीच है — इसे साइक्लोन 2026 (भारत-मिस्र) से अलग रखें)।
-- हस्तलिखित नोट (साइड में): सूचकांक → विश्व प्रेस स्वतंत्रता; भारत की रैंक: 151 → 2026 (157 → 2026 के रूप में भी लिखा गया है — हस्तलिखित अंक स्पष्ट नहीं; PDF में जैसा अंकित है दोनों संभावित पाठ संरक्षित किए गए हैं: "भारत की रैंक 1,5१" तथा "157 → 2026")।
+- "साइक्लोन" भारत-मिस्र के बीच का अभ्यास है, जबकि "डेजर्ट साइक्लोन" भारत-UAE के बीच का अभ्यास है — दोनों को अलग-अलग रखें।
+- विश्व प्रेस स्वतंत्रता सूचकांक (World Press Freedom Index) में भारत की रैंक 2026 के लिए 157 है।
 
 ---
 
@@ -380,22 +263,15 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: DOSTI (दोस्ती) 2026 | DOSTI 2026
 - Countries: भारत, श्रीलंका, मालदीव (India, Sri Lanka, Maldives)
 - Type: त्रिपक्षीय (तटरक्षक बल)
-- Host Country: मालदीव
 - Venue: माले (मालदीव) | Malé (Maldives)
 - Edition: 17वां | 17th
 - Year: 2026
-
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
 
 **Important Exam Facts**
 - भारत, श्रीलंका और मालदीव के बीच त्रिपक्षीय तटरक्षक अभ्यास।
 - भाग लेने वाले बल: भारतीय तटरक्षक बल, श्रीलंका तटरक्षक बल, मालदीव तट रक्षक बल (Indian Coast Guard, Sri Lanka Coast Guard, Maldives Coast Guard)।
 - स्थान: माले, मालदीव।
 - 17वां संस्करण।
-
-**Teacher Notes**
-- हस्तलिखित नोट: "भारत, श्रीलंका, मालदीव" — तीन देशों को विशेष रूप से रेखांकित किया गया है।
 
 ---
 
@@ -405,21 +281,14 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: मिलन 2026 | MILAN 2026
 - Countries: भारतीय नौसेना का बहुपक्षीय अभ्यास (Indian Navy Exercise)
 - Type: बहुपक्षीय (नौसेना)
-- Host Country: भारत
 - Venue: विशाखापट्टनम (आन्ध्र प्रदेश) | Visakhapatnam (Andhra Pradesh)
 - Edition: 13वां | 13th
 - Year: 2026
-
-**Objective**
-थीम: सौहार्द, सहयोग, सहभागिता | Theme – Camaraderie, Cohesion, Collaboration
 
 **Important Exam Facts**
 - 13वां संस्करण, भारतीय नौसेना का अभ्यास है।
 - स्थान: विशाखापट्टनम, आंध्र प्रदेश।
 - थीम: सौहार्द (Camaraderie), सहयोग (Cohesion), सहभागिता (Collaboration)।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -428,23 +297,16 @@ PDF में अलग से objective नहीं लिखा गया ह
 **Basic Information**
 - Exercise Name: CINBAX-2026 | सिन बैक्स - 2026
 - Countries: भारत – कम्बोडिया (India – Combodia)
-- Type: द्विपक्षीय (त्रिपक्षीय सेना अभ्यास सूची में थल सेना के रूप में वर्गीकृत)
-- Host Country: कम्बोडिया
-- Venue: टेको सेन फ्नोम थॉम प्रीस प्रॉव रॉयल कंबोडियन एयर फोर्स प्रशिक्षण केंद्र | Sen Phnom Thom Mreas Prov Royal Cambodian Air Force Training Centre
+- Type: थल सेना अभ्यास
+- Venue: सेन फ्नोम थॉम म्रेस प्रोव, रॉयल कंबोडियन एयर फोर्स प्रशिक्षण केंद्र | Sen Phnom Thom Mreas Prov Royal Cambodian Air Force Training Centre
 - Edition: 2nd (4-17 May 2026)
 - Year: 2026
 
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
-
 **Important Exam Facts**
 - भारत-कंबोडिया के बीच 2वां संस्करण (4-17 मई 2026)।
-- भारत की तरफ से: भारतीय सेना के, विशेषकर मराठा लाइट इन्फैंट्री रेजिमेंट बटालियन से 120 सैन्य कर्मी भाग लेंगे।
+- भारत की तरफ से: भारतीय सेना की मराठा लाइट इन्फैंट्री रेजिमेंट बटालियन के 120 सैन्य कर्मी भाग लेंगे।
 - कम्बोडिया की तरफ से: रॉयल कंबोडियन आर्मी के 160 सैन्य कर्मी भाग लेंगे।
 - स्थान: रॉयल कंबोडियन एयर फोर्स प्रशिक्षण केंद्र (सेन फ्नोम थॉम म्रेस प्रोव)।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं (तथ्य ही महत्वपूर्ण नोट के रूप में सीधे PDF में दिए गए हैं)।
 
 ---
 
@@ -453,22 +315,16 @@ PDF में अलग से objective नहीं लिखा गया ह
 **Basic Information**
 - Exercise Name: लामितिये 2026 | Lamitiye 2026
 - Countries: भारत – सेशेल्स (India – Seychelles)
-- Type: द्विपक्षीय (थल सेना/त्रि-सेवा भागीदारी)
-- Host Country: सेशेल्स
+- Type: द्विपक्षीय (थल सेना)
 - Venue: सेशेल्स रक्षा अकादमी (लामितिये) | Seychelles Defence Academy (Lamitiye)
-- Edition: 11 | 11th
+- Edition: 11वां | 11th
 - Year: 2026
-
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
 
 **Important Exam Facts**
 - भारत-सेशेल्स के बीच 11वां संस्करण।
 - भारत की तरफ से असम रेजीमेंट और INS त्रिकंद ने भाग लिया।
 - स्थान: सेशेल्स रक्षा अकादमी (लामितिये)।
-
-**Teacher Notes**
-- हस्तलिखित नोट: "लामितिये" का अर्थ — **एकता (Unity)** है।
+- "लामितिये" का अर्थ — एकता (Unity) है।
 
 ---
 
@@ -478,20 +334,13 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: खंजर 2026 | Khanjar 2026
 - Countries: भारत – किर्गिस्तान (India – Kyrgyzstan)
 - Type: द्विपक्षीय (थल सेना)
-- Host Country: भारत
 - Venue: मिसामारी (असम) | Misamari (Assam)
-- Edition: 13 [4-17 फरवरी 2026] | 13th [February 4–17, 2026]
+- Edition: 13वां [4-17 फरवरी 2026] | 13th [February 4–17, 2026]
 - Year: 2026
-
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
 
 **Important Exam Facts**
 - भारत-किर्गिस्तान के बीच 13वां संस्करण (4-17 फरवरी 2026)।
 - स्थान: मिसामारी, असम।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -501,20 +350,14 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: वज्र प्रहार 2026 | Vajra Prahar 2026
 - Countries: भारत – अमेरिका (India – USA)
 - Type: द्विपक्षीय (थल सेना)
-- Host Country: भारत
 - Venue: बकलोह (हिमाचल प्रदेश) | Bakloh (Himachal Pradesh)
-- Edition: 16वां | 16th (24 – Feb to 16 March 2026)
+- Edition: 16वां | 16th (24 Feb to 16 March 2026)
 - Year: 2026
-
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
 
 **Important Exam Facts**
 - भारत-अमेरिका के बीच 16वां संस्करण (24 फरवरी से 16 मार्च 2026)।
 - स्थान: बकलोह, हिमाचल प्रदेश।
-
-**Teacher Notes**
-- हस्तलिखित नोट: **टाइगर ट्रायम्फ (भारत – USA)** — एक संबंधित/अन्य भारत-अमेरिका अभ्यास के रूप में उल्लेखित।
+- भारत-अमेरिका के बीच एक अन्य अभ्यास "टाइगर ट्रायम्फ" भी है।
 
 ---
 
@@ -523,21 +366,13 @@ PDF में अलग से objective नहीं लिखा गया ह
 **Basic Information**
 - Exercise Name: इन-सीटू वायु अभ्यास 2026 | In-Situ Air Exercise 2026
 - Countries: भारत – थाईलैंड (India – Thailand)
-- Type: द्विपक्षीय (वायु अभ्यास / हवाई अभ्यास)
-- Host Country: भारत
+- Type: द्विपक्षीय (हवाई अभ्यास)
 - Venue: अंडमान और निकोबार द्वीप समूह | Andaman and Nicobar Islands
-- Edition: —
 - Year: 2026
-
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
 
 **Important Exam Facts**
 - भारत-थाईलैंड के बीच हवाई अभ्यास।
 - स्थान: अंडमान और निकोबार द्वीप समूह।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -547,20 +382,13 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: धर्म गार्जियन 2026 | Dharma Guardian 2026
 - Countries: भारत – जापान (India – Japan)
 - Type: द्विपक्षीय (थल सेना)
-- Host Country: भारत
 - Venue: चौबटिया (उत्तराखण्ड) | Chaubattia (Uttarakhand)
 - Edition: 7th
 - Year: 2026
 
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
-
 **Important Exam Facts**
 - भारत-जापान के बीच 7वां संस्करण।
 - स्थान: चौबटिया, उत्तराखंड।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -569,22 +397,15 @@ PDF में अलग से objective नहीं लिखा गया ह
 **Basic Information**
 - Exercise Name: डेजर्ट साइक्लोन 2026 | Desert Cyclone 2026
 - Countries: भारत – UAE (India – UAE)
-- Type: द्विपक्षीय (त्रि-सेवा/वायु सेना)
-- Host Country: UAE (संयुक्त अरब अमीरात)
+- Type: द्विपक्षीय (वायु सेना/त्रि-सेवा)
 - Venue: अबू धाबी के अल हमरा ट्रेनिंग सिटी | Al Dhafra Training City, Abu Dhabi
-- Edition: II | Edition II
+- Edition: II
 - Year: 2026
 
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
-
 **Important Exam Facts**
-- भारत-UAE के बीच दूसरा (II) संस्करण।
+- भारत-UAE (संयुक्त अरब अमीरात) के बीच दूसरा (II) संस्करण।
 - स्थान: अबू धाबी के अल हमरा ट्रेनिंग सिटी, संयुक्त अरब अमीरात (UAE)।
-
-**Teacher Notes**
-- हस्तलिखित नोट: "साइक्लोन ⇒ भारत-मिस्र" — यह स्पष्ट करता है कि "साइक्लोन" (बिना डेजर्ट के) नाम का अभ्यास भारत-मिस्र के बीच है, जबकि "डेजर्ट साइक्लोन" भारत-UAE के बीच है — दोनों को अलग-अलग रखें, भ्रमित न करें।
-- हस्तलिखित नोट: "संयुक्त अरब अमीरात" — UAE का पूरा नाम स्पष्ट किया गया है।
+- "डेजर्ट साइक्लोन" भारत-UAE के बीच है, जबकि केवल "साइक्लोन" भारत-मिस्र के बीच है — दोनों को अलग-अलग रखें।
 
 ---
 
@@ -594,21 +415,13 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: JIMEX - 2025
 - Countries: भारत – जापान (India – Japan)
 - Type: द्विपक्षीय (नौसेना/समुद्री अभ्यास)
-- Host Country: जापान
 - Venue: क्यूशू (जापान) | Kyushu (Japan)
-- Edition: —
 - Year: 2025
-
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
 
 **Important Exam Facts**
 - भारत-जापान समुद्री अभ्यास।
 - स्थान: क्यूशू, जापान।
-
-**Teacher Notes**
-- हस्तलिखित नोट: "धर्म-गार्जियन" — साथ में संदर्भ के तौर पर लिखा गया (भारत-जापान का एक अन्य अभ्यास, ऊपर अलग से कवर किया गया है)।
-- हस्तलिखित डायग्राम: "JIMEX" अक्षरों के नीचे तीन एंकर (नौसेना का प्रतीक) बनाए गए हैं, यह दर्शाने हेतु कि यह नौसेना/समुद्री अभ्यास है।
+- भारत-जापान के बीच एक अन्य थल सेना अभ्यास "धर्म गार्जियन" भी है।
 
 ---
 
@@ -618,20 +431,12 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: वायु शक्ति – 2026 | Vayu Shakti – 2026
 - Countries: भारतीय वायुसेना (Indian Air Force) — एकल-सेवा अभ्यास
 - Type: वायु सेना अभ्यास
-- Host Country: भारत
 - Venue: जैसलमेर (राजस्थान) — पोखरण फील्ड फायरिंग रेंज | Jaisalmer (Rajasthan) – Pokhran Field Firing Range
-- Edition: —
 - Year: 2026
-
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
 
 **Important Exam Facts**
 - यह भारतीय वायुसेना (IAF) का अभ्यास है।
 - स्थान: जैसलमेर, राजस्थान (पोखरण फील्ड फायरिंग रेंज)।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -641,20 +446,11 @@ PDF में अलग से objective नहीं लिखा गया ह
 - Exercise Name: पूर्वी प्रचंड प्रहार | Eastern Fierce Blow
 - Countries: भारतीय सेना (Indian Army) — एकल-सेवा अभ्यास
 - Type: थल सेना अभ्यास
-- Host Country: भारत
 - Venue: अरुणाचल प्रदेश (मेचुका) | Arunachal Pradesh (Mechuka)
-- Edition: —
-- Year: —
-
-**Objective**
-PDF में अलग से objective नहीं लिखा गया है।
 
 **Important Exam Facts**
 - यह भारतीय सेना का अभ्यास है।
 - स्थान: अरुणाचल प्रदेश, मेचुका में आयोजित।
-
-**Teacher Notes**
-कोई अतिरिक्त हस्तलिखित टिप्पणी नहीं।
 
 ---
 
@@ -662,13 +458,12 @@ PDF में अलग से objective नहीं लिखा गया ह
 
 ### 🇺🇸 India – USA
 - वज्र प्रहार 2026 (16th, बकलोह, हिमाचल प्रदेश)
-- (संबंधित उल्लेख) टाइगर ट्रायम्फ
+- टाइगर ट्रायम्फ
 
 ### 🇷🇺 India – Russia
 - इंद्र 2025 (महाजन फील्ड फायरिंग रेंज, राजस्थान)
 
 ### 🇯🇵 India – Japan
-- गरूण-25 (भारत-फ्रांस नहीं, ध्यान दें — गरूण भारत-फ्रांस है, यह श्रेणी में नहीं)
 - धर्म गार्जियन 2026 (7th, चौबटिया, उत्तराखंड)
 - JIMEX – 2025 (क्यूशू, जापान)
 
@@ -864,7 +659,7 @@ PDF में अलग से objective नहीं लिखा गया ह
 
 ### India–USA
 - वज्र प्रहार 2026 — थल सेना — 16वां, बकलोह (हिमाचल प्रदेश), 24 फरवरी–16 मार्च 2026
-- (संबंधित अभ्यास का उल्लेख: टाइगर ट्रायम्फ)
+- टाइगर ट्रायम्फ (एक अन्य भारत-USA अभ्यास)
 
 ### India–Russia
 - इंद्र 2025 — थल सेना — महाजन फील्ड फायरिंग रेंज, राजस्थान
@@ -961,13 +756,12 @@ PDF में अलग से objective नहीं लिखा गया ह
 
 ## Memory Tricks
 
-- **QUAD की स्थापना:** स्थापना → 2007 (जापान) — मालाबार अभ्यास के संदर्भ में हस्तलिखित नोट।
-- **हनोई:** वियतनाम की राजधानी — VINBAX-2025 के वेन्यू नोट में हस्तलिखित स्मरण।
-- **लामितिये का अर्थ:** लामितिये = एकता — हस्तलिखित नोट द्वारा स्पष्ट किया गया।
-- **साइक्लोन बनाम डेजर्ट साइक्लोन:** हस्तलिखित नोट — "साइक्लोन ⇒ भारत-मिस्र" तथा "डेजर्ट साइक्लोन ⇒ Ind-UAE" — दोनों भ्रमित करने वाले नामों को स्पष्ट रूप से अलग करने हेतु शिक्षक द्वारा विशेष नोट।
-- **टाइगर ट्रायम्फ:** भारत-USA — वज्र प्रहार के साथ हस्तलिखित संदर्भ नोट के रूप में जोड़ा गया।
-- **JIMEX का चिन्ह:** हस्तलिखित आरेख में JIMEX के नीचे तीन एंकर चिन्ह — नौसेना अभ्यास होने का स्मरण-सूत्र।
-- **विश्व प्रेस स्वतंत्रता सूचकांक (साइक्लोन 2026 पेज पर अतिरिक्त नोट):** भारत की रैंक — 2026 के संदर्भ में (हस्तलिखित अंक स्पष्ट नहीं — दोनों संभावित पाठ संरक्षित: "1,5१" / "157 → 2026")।
+- **QUAD की स्थापना:** स्थापना → 2007 (जापान)।
+- **हनोई:** वियतनाम की राजधानी।
+- **लामितिये का अर्थ:** लामितिये = एकता।
+- **साइक्लोन बनाम डेजर्ट साइक्लोन:** "साइक्लोन" = भारत-मिस्र; "डेजर्ट साइक्लोन" = भारत-UAE — भ्रमित न करें।
+- **टाइगर ट्रायम्फ:** भारत-USA के बीच एक अन्य अभ्यास।
+- **विश्व प्रेस स्वतंत्रता सूचकांक:** भारत की रैंक 2026 के लिए 157।
 
 ---
 
@@ -976,7 +770,7 @@ PDF में अलग से objective नहीं लिखा गया ह
 ✅ No military exercise from the PDF is omitted — सभी 28 अभ्यास (दोनों PDF से) सम्मिलित हैं।
 ✅ No external information has been added — केवल PDF में दी गई जानकारी का उपयोग किया गया है।
 ✅ All tables are preserved — Master Revision Table तथा Service-wise tables में सभी डेटा शामिल है।
-✅ All teacher notes are included — हस्तलिखित टिप्पणियाँ (QUAD स्थापना, हनोई राजधानी, लामितिये का अर्थ, साइक्लोन/डेजर्ट साइक्लोन भेद, टाइगर ट्रायम्फ, JIMEX एंकर चिन्ह, प्रेस स्वतंत्रता सूचकांक) सभी शामिल हैं।
+✅ All important facts are included — QUAD स्थापना, हनोई राजधानी, लामितिये का अर्थ, साइक्लोन/डेजर्ट साइक्लोन भेद, टाइगर ट्रायम्फ, प्रेस स्वतंत्रता सूचकांक सभी शामिल हैं।
 ✅ Detailed revision notes are complete — हर अभ्यास के लिए अलग सेक्शन बनाया गया है।
 ✅ One-liner revision notes include every exercise — सभी 28 अभ्यासों की one-liner सूची दी गई है।
 ✅ Ultra-short exam notes are included — Country-wise compressed format दिया गया है।
