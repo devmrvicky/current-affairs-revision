@@ -7,9 +7,9 @@ export function SyncStatusIndicator({ showLabel = false }: { showLabel?: boolean
 
   if (status === 'disabled' || status === 'signed-out') return null;
 
+  // `status` is narrowed to the 5 remaining SyncStatus members by the guard above,
+  // so the config only needs to (and must only) cover those.
   const config: Record<typeof status, { icon: React.ReactNode; label: string; color: string }> = {
-    disabled: { icon: null, label: '', color: '' },
-    'signed-out': { icon: null, label: '', color: '' },
     syncing: { icon: <RefreshCw size={13} className="animate-spin" />, label: 'Syncing…', color: 'var(--text-muted)' },
     synced: { icon: <Cloud size={13} />, label: 'Synced', color: '#22c55e' },
     pending: { icon: <CloudUpload size={13} />, label: `${pendingCount} pending`, color: '#f59e0b' },

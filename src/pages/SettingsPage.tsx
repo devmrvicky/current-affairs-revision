@@ -341,6 +341,13 @@ export default function SettingsPage() {
             : <VolumeX size={16} style={{ color: 'var(--text-secondary)' }} />
           }
         />
+        <Toggle
+          enabled={settings.hapticEnabled !== false}
+          onChange={(v) => handleSettingChange({ hapticEnabled: v })}
+          label="Haptic Feedback"
+          description="Vibrate on answer selection (this device only)"
+          icon={<Smartphone size={16} style={{ color: 'var(--text-secondary)' }} />}
+        />
       </div>
 
       {/* Notifications */}

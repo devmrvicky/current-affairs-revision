@@ -11,15 +11,25 @@ import { EmptyState, NoSearchResults } from '../components/common/EmptyState';
 import type { SortOrder, SavedTest } from '../types';
 import { loadQuizByFileName } from '../services/quizService';
 
+const PAGE_SIZE = 20;
+
 export default function HistoryPage() {
   const navigate = useNavigate();
   const { tests, isLoading, load, remove, filters, setFilters, getFiltered } = useHistoryStore();
   const { startSession } = useQuizStore();
   const [deleteConfirm, setDeleteConfirm] = useState<string | null>(null);
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   useEffect(() => { load(); }, []);
 
   const filtered = getFiltered();
+
+  // Reset how many are shown whenever the filtered set itself changes
+  // (new search/sort/filter), rather than staying stuck mid-pagination.
+  useEffect(() => { setVisibleCount(PAGE_SIZE); }, [filters.search, filters.sortBy, tests.length]);
+
+  const visible = filtered.slice(0, visibleCount);
+  const hasMore = filtered.length > visibleCount;
 
   async function handleRevise(test: SavedTest) {
     try {
@@ -122,7 +132,7 @@ export default function HistoryPage() {
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <AnimatePresence>
-            {filtered.map((test, i) => (
+            {visible.map((test, i) => (
               <HistoryCard
                 key={test.id}
                 test={test}
@@ -133,6 +143,17 @@ export default function HistoryPage() {
               />
             ))}
           </AnimatePresence>
+        </div>
+      )}
+
+      {hasMore && (
+        <div className="flex justify-center mt-6">
+          <button
+            onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
+            className="btn-ghost text-sm px-5 py-2"
+          >
+            Show {Math.min(PAGE_SIZE, filtered.length - visibleCount)} more ({filtered.length - visibleCount} remaining)
+          </button>
         </div>
       )}
 

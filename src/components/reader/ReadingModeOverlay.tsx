@@ -47,6 +47,19 @@ export function ReadingModeOverlay({ chapterId, content, onClose }: ReadingModeO
     return () => { document.body.style.overflow = ''; };
   }, []);
 
+  // Escape closes whatever's on top first (note prompt, then search), and
+  // only exits the whole overlay once nothing else is open.
+  useEffect(() => {
+    function handleKey(e: KeyboardEvent) {
+      if (e.key !== 'Escape') return;
+      if (notePrompt !== null) { setNotePrompt(null); return; }
+      if (showSearch) { setShowSearch(false); return; }
+      onClose();
+    }
+    window.addEventListener('keydown', handleKey);
+    return () => window.removeEventListener('keydown', handleKey);
+  }, [notePrompt, showSearch, onClose]);
+
   // Track scroll progress — throttled to avoid flooding IndexedDB writes
   // and Zustand re-renders on every scroll tick (which fires dozens of times
   // per second during a fling). We persist at most ~once per second, plus
@@ -171,19 +184,19 @@ export function ReadingModeOverlay({ chapterId, content, onClose }: ReadingModeO
             className="sticky top-0 z-20 glass border-b border-[var(--border)]"
           >
             <div className="max-w-4xl mx-auto px-4 h-14 flex items-center justify-between gap-2">
-              <button onClick={onClose} className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0">
+              <button onClick={onClose} className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0" aria-label="Exit reading mode">
                 <X size={18} style={{ color: 'var(--text-secondary)' }} />
               </button>
 
               <div className="flex items-center gap-1 flex-1 justify-center overflow-x-auto">
                 {/* Font size */}
-                <button onClick={() => adjustFontSize(-1)} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 flex-shrink-0">
+                <button onClick={() => adjustFontSize(-1)} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 flex-shrink-0" aria-label="Decrease font size">
                   <Minus size={14} style={{ color: 'var(--text-secondary)' }} />
                 </button>
                 <span className="text-xs font-mono w-8 text-center flex-shrink-0" style={{ color: 'var(--text-muted)' }}>
                   {prefs.fontSize}
                 </span>
-                <button onClick={() => adjustFontSize(1)} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 flex-shrink-0">
+                <button onClick={() => adjustFontSize(1)} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 flex-shrink-0" aria-label="Increase font size">
                   <Plus size={14} style={{ color: 'var(--text-secondary)' }} />
                 </button>
 
@@ -195,6 +208,7 @@ export function ReadingModeOverlay({ chapterId, content, onClose }: ReadingModeO
                   onChange={(e) => updatePrefs({ fontFamily: e.target.value as 'serif' | 'sans' | 'mono' })}
                   className="text-xs rounded-lg px-2 py-1.5 border outline-none flex-shrink-0"
                   style={{ background: 'var(--card)', borderColor: 'var(--border)', color: 'var(--text-primary)' }}
+                  aria-label="Font family"
                 >
                   {FONT_FAMILIES.map((f) => <option key={f.value} value={f.value}>{f.label}</option>)}
                 </select>
@@ -202,10 +216,10 @@ export function ReadingModeOverlay({ chapterId, content, onClose }: ReadingModeO
                 <div className="w-px h-5 mx-1 flex-shrink-0" style={{ background: 'var(--border)' }} />
 
                 {/* Line height */}
-                <button onClick={() => adjustLineHeight(-0.1)} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 flex-shrink-0" title="Decrease line spacing">
+                <button onClick={() => adjustLineHeight(-0.1)} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 flex-shrink-0" title="Decrease line spacing" aria-label="Decrease line spacing">
                   <AlignJustify size={13} style={{ color: 'var(--text-secondary)' }} />
                 </button>
-                <button onClick={() => adjustLineHeight(0.1)} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 flex-shrink-0" title="Increase line spacing">
+                <button onClick={() => adjustLineHeight(0.1)} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 flex-shrink-0" title="Increase line spacing" aria-label="Increase line spacing">
                   <AlignJustify size={17} style={{ color: 'var(--text-secondary)' }} />
                 </button>
 
@@ -221,10 +235,10 @@ export function ReadingModeOverlay({ chapterId, content, onClose }: ReadingModeO
               </div>
 
               <div className="flex items-center gap-1 flex-shrink-0">
-                <button onClick={() => setShowSearch((v) => !v)} className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10">
+                <button onClick={() => setShowSearch((v) => !v)} className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10" aria-label="Search in chapter" aria-pressed={showSearch}>
                   <Search size={16} style={{ color: 'var(--text-secondary)' }} />
                 </button>
-                <button onClick={toggleFullscreen} className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10">
+                <button onClick={toggleFullscreen} className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10" aria-label={isFullscreen ? 'Exit fullscreen' : 'Enter fullscreen'}>
                   {isFullscreen ? <Minimize2 size={16} style={{ color: 'var(--text-secondary)' }} /> : <Maximize2 size={16} style={{ color: 'var(--text-secondary)' }} />}
                 </button>
               </div>

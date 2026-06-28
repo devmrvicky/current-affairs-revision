@@ -3,7 +3,7 @@ import { Home, Clock, BarChart3, Settings, BookOpen, Moon, Sun, Calendar, Brain,
 import { useSettingsStore } from '../store/statsStore';
 import { useAuthStore } from '../store/authStore';
 import { SyncStatusIndicator } from '../components/common/SyncStatusIndicator';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 
 const NAV = [
   { to: '/',                              icon: Home,          label: 'Home' },
@@ -24,6 +24,7 @@ export default function AppLayout() {
   const location = useLocation();
   const isQuizPage = location.pathname === '/quiz' || location.pathname === '/analysis';
   const navItems = isAdmin ? [...NAV, ADMIN_NAV_ITEM] : NAV;
+  const shouldReduceMotion = useReducedMotion();
 
   function toggleTheme() {
     update({ theme: settings.theme === 'dark' ? 'light' : 'dark' });
@@ -65,10 +66,10 @@ export default function AppLayout() {
         <AnimatePresence mode="wait">
           <motion.div
             key={location.pathname}
-            initial={{ opacity: 0, y: 8 }}
+            initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -8 }}
-            transition={{ duration: 0.15 }}
+            exit={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: -8 }}
+            transition={{ duration: shouldReduceMotion ? 0.01 : 0.15 }}
           >
             <Outlet />
           </motion.div>

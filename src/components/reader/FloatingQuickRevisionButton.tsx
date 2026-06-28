@@ -74,6 +74,15 @@ export function FloatingQuickRevisionButton({
     return () => window.removeEventListener('resize', handleResize);
   }, [x, y]);
 
+  useEffect(() => {
+    if (!open) return;
+    function handleKey(e: KeyboardEvent) {
+      if (e.key === 'Escape') setOpen(false);
+    }
+    window.addEventListener('keydown', handleKey);
+    return () => window.removeEventListener('keydown', handleKey);
+  }, [open]);
+
   function persistPosition() {
     lsSet(POSITION_KEY, { x: x.get(), y: y.get() });
   }

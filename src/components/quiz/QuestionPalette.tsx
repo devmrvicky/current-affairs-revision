@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { motion } from 'framer-motion';
 import type { QuestionAttempt } from '../../types';
 import { CheckCircle2, XCircle, Circle, Flag } from 'lucide-react';
@@ -9,7 +10,7 @@ interface QuestionPaletteProps {
   onJump: (index: number) => void;
 }
 
-export function QuestionPalette({ attempts, currentIndex, visitedIndices, onJump }: QuestionPaletteProps) {
+export const QuestionPalette = memo(function QuestionPalette({ attempts, currentIndex, visitedIndices, onJump }: QuestionPaletteProps) {
   const correct = attempts.filter((a) => a.status === 'correct').length;
   const wrong = attempts.filter((a) => a.status === 'wrong').length;
   const unanswered = attempts.filter((a) => a.status === 'unanswered').length;
@@ -128,4 +129,4 @@ export function QuestionPalette({ attempts, currentIndex, visitedIndices, onJump
       </div>
     </div>
   );
-}
+});

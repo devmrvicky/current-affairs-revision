@@ -106,6 +106,8 @@ const ReviewItemCard = memo(function ReviewItemCard({ item, accentClass, onRemov
   );
 });
 
+const PAGE_SIZE = 20;
+
 export default function ReviewCenterPage() {
   const navigate = useNavigate();
   const { bookmarks, isLoading: loadingBookmarks, load: loadBookmarks, remove: removeBookmark } = useBookmarkStore();
@@ -113,6 +115,7 @@ export default function ReviewCenterPage() {
   const { items: markedItems, isLoading: loadingMarked, load: loadMarked, remove: removeMarked } = useMarkedReviewStore();
 
   const [tab, setTab] = useState<ReviewTab>('bookmarked');
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   useEffect(() => {
     loadBookmarks();
@@ -152,6 +155,10 @@ export default function ReviewCenterPage() {
 
   const activeItems = tab === 'bookmarked' ? bookmarkedItems : tab === 'wrong' ? wrongItems : markedReviewItems;
   const activeAccent = tabs.find((t) => t.key === tab)!.accent;
+
+  useEffect(() => { setVisibleCount(PAGE_SIZE); }, [tab]);
+  const visibleItems = activeItems.slice(0, visibleCount);
+  const hasMore = activeItems.length > visibleCount;
 
   return (
     <div className="max-w-2xl mx-auto space-y-6 pb-12">
@@ -230,9 +237,16 @@ export default function ReviewCenterPage() {
         />
       ) : (
         <div className="space-y-3">
-          {activeItems.map((item, i) => (
+          {visibleItems.map((item, i) => (
             <ReviewItemCard key={item.id} item={item} accentClass={activeAccent} onRemove={handleRemove} delay={i * 0.03} />
           ))}
+          {hasMore && (
+            <div className="flex justify-center pt-3">
+              <button onClick={() => setVisibleCount((c) => c + PAGE_SIZE)} className="btn-ghost text-sm px-5 py-2">
+                Show {Math.min(PAGE_SIZE, activeItems.length - visibleCount)} more ({activeItems.length - visibleCount} remaining)
+              </button>
+            </div>
+          )}
         </div>
       )}
     </div>

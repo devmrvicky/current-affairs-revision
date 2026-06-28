@@ -57,6 +57,7 @@ const defaultSettings: Settings = {
   keyboardNavigation: true,
   fontSize: 'md',
   autoNextSeconds: 0,
+  hapticEnabled: true,
 };
 
 export const useSettingsStore = create<SettingsStore>((set, get) => ({

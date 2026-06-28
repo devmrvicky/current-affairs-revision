@@ -238,7 +238,10 @@ export async function pullChanges(): Promise<void> {
 
     const { data: settingsRow } = await supabase.from('settings').select('*').eq('user_id', userId).maybeSingle();
     if (settingsRow && new Date(settingsRow.updated_at).getTime() > (meta.lastSyncedAt || 0)) {
-      await settingsDB.save(rowToSettings(settingsRow));
+      // Merge onto current local settings rather than overwriting wholesale —
+      // some fields (e.g. hapticEnabled) are deliberately local/device-only
+      // and aren't part of the synced row at all.
+      await settingsDB.save({ ...(await settingsDB.get()), ...rowToSettings(settingsRow) });
       maxSeen = Math.max(maxSeen, new Date(settingsRow.updated_at).getTime());
     }
   });

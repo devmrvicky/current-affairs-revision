@@ -100,6 +100,30 @@ export default function QuizPage() {
     return () => window.removeEventListener('keydown', handleKey);
   }, [session, settings.keyboardNavigation]);
 
+  // Accessibility: Escape closes whichever overlay is open (palette takes
+  // priority since it's drawn on top); ArrowLeft goes to the previous
+  // question, mirroring the visible Previous button. Always on — unlike the
+  // shortcut effect above, this is baseline navigability, not an opt-in
+  // power-user feature, so it isn't gated behind settings.keyboardNavigation.
+  useEffect(() => {
+    function handleA11yKey(e: KeyboardEvent) {
+      if (e.key === 'Escape') {
+        if (showPalette) { setShowPalette(false); return; }
+        if (searchSheetOpen) { setSearchSheetOpen(false); return; }
+        return;
+      }
+      if (!session || showSheet || searchSheetOpen || showPalette) return;
+      const current = session.attempts[session.currentIndex];
+      if (current.status !== 'unanswered') return;
+      if (e.key === 'ArrowLeft' && session.currentIndex > 0) {
+        e.preventDefault();
+        goToQuestion(session.currentIndex - 1);
+      }
+    }
+    window.addEventListener('keydown', handleA11yKey);
+    return () => window.removeEventListener('keydown', handleA11yKey);
+  }, [session, showSheet, searchSheetOpen, showPalette, goToQuestion]);
+
   if (!session) return null;
 
   const currentAttempt = session.attempts[session.currentIndex];
@@ -114,6 +138,10 @@ export default function QuizPage() {
     if (isAnswered) return;
     const timeTaken = Math.floor((Date.now() - questionStartTime) / 1000);
     submitAnswer(option, timeTaken);
+    if (settings.hapticEnabled !== false && 'vibrate' in navigator) {
+      const isCorrect = option === currentAttempt.correctAnswer;
+      navigator.vibrate(isCorrect ? 40 : [40, 60, 40]);
+    }
   }
 
   function handleNext() {
@@ -158,7 +186,8 @@ export default function QuizPage() {
           <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
             <button
               onClick={handleQuit}
-              className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0"
+              className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0"
+              aria-label="Quit test"
             >
               <X size={18} style={{ color: 'var(--text-secondary)' }} />
             </button>
@@ -182,8 +211,10 @@ export default function QuizPage() {
             />
             <button
               onClick={handlePause}
-              className="p-1.5 sm:p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0"
+              className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0"
               title={manualPause ? 'Resume' : 'Pause'}
+              aria-label={manualPause ? 'Resume test' : 'Pause test'}
+              aria-pressed={manualPause}
             >
               {manualPause
                 ? <Play size={16} style={{ color: 'var(--text-primary)' }} />
@@ -192,7 +223,8 @@ export default function QuizPage() {
             </button>
             <button
               onClick={() => setShowPalette(true)}
-              className="md:hidden p-1.5 sm:p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0"
+              className="md:hidden p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0"
+              aria-label="Open question palette"
             >
               <LayoutGrid size={16} style={{ color: 'var(--text-secondary)' }} />
             </button>
@@ -267,6 +299,8 @@ export default function QuizPage() {
                         }`}
                         style={!currentAttempt.markedForReview ? { color: 'var(--text-muted)' } : undefined}
                         title="Mark for review"
+                        aria-label="Mark for review"
+                        aria-pressed={!!currentAttempt.markedForReview}
                       >
                         <Flag size={16} fill={currentAttempt.markedForReview ? 'currentColor' : 'none'} />
                       </button>
@@ -279,6 +313,8 @@ export default function QuizPage() {
                         }`}
                         style={!currentAttempt.bookmarked ? { color: 'var(--text-muted)' } : undefined}
                         title="Bookmark question"
+                        aria-label="Bookmark question"
+                        aria-pressed={!!currentAttempt.bookmarked}
                       >
                         <Bookmark size={16} fill={currentAttempt.bookmarked ? 'currentColor' : 'none'} />
                       </button>
@@ -372,7 +408,7 @@ export default function QuizPage() {
                 attempts={session.attempts}
                 currentIndex={session.currentIndex}
                 visitedIndices={session.visitedIndices ?? []}
-                onJump={(idx) => goToQuestion(idx)}
+                onJump={goToQuestion}
               />
             </div>
           </div>
@@ -463,6 +499,7 @@ export default function QuizPage() {
                 <button
                   onClick={() => setShowPalette(false)}
                   className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10"
+                  aria-label="Close question palette"
                 >
                   <X size={16} style={{ color: 'var(--text-secondary)' }} />
                 </button>

@@ -1,6 +1,6 @@
 import { openDB, DBSchema, IDBPDatabase } from 'idb';
 import { v4 as uuidv4 } from 'uuid';
-import type { SavedTest, Statistics, Settings, WrongQuestion, BookmarkedQuestion, MarkedReviewQuestion, ChapterStats, DailyGoal, NotificationSettings, Highlight, ReadingProgress, ReaderNote, ReadingPrefs } from '../types';
+import type { SavedTest, Statistics, Settings, WrongQuestion, BookmarkedQuestion, MarkedReviewQuestion, ChapterStats, DailyGoal, NotificationSettings, NotificationCategorySettings, Highlight, ReadingProgress, ReaderNote, ReadingPrefs } from '../types';
 
 // ─── Sync types ───────────────────────────────────────────────────────────────
 // Local store name → remote (Supabase) table name. Kept distinct on purpose so
@@ -363,6 +363,7 @@ const defaultSettings: Settings = {
   keyboardNavigation: true,
   fontSize: 'md',
   autoNextSeconds: 0,
+  hapticEnabled: true,
 };
 
 export const settingsDB = {
@@ -657,8 +658,8 @@ function normalizeNotificationSettings(raw: unknown): NotificationSettings {
   const legacyWeekly = typeof r.weeklyReportEnabled === 'boolean' ? r.weeklyReportEnabled : undefined;
 
   const existingCategories = (r.categories && typeof r.categories === 'object') ? r.categories as Record<string, boolean> : {};
-  const categories = { ...DEFAULT_NOTIFICATION_CATEGORIES } as Record<string, boolean>;
-  for (const key of Object.keys(categories)) {
+  const categories: NotificationCategorySettings = { ...DEFAULT_NOTIFICATION_CATEGORIES };
+  for (const key of Object.keys(categories) as (keyof NotificationCategorySettings)[]) {
     if (typeof existingCategories[key] === 'boolean') categories[key] = existingCategories[key];
   }
   // Fold legacy flags in wherever the new category hasn't been explicitly set yet
@@ -671,7 +672,7 @@ function normalizeNotificationSettings(raw: unknown): NotificationSettings {
 
   return {
     enabled: typeof r.enabled === 'boolean' ? r.enabled : fallback.enabled,
-    categories: categories as NotificationSettings['categories'],
+    categories,
     reminderTime: typeof r.reminderTime === 'string' ? r.reminderTime
       : (typeof r.dailyReminderTime === 'string' ? r.dailyReminderTime : fallback.reminderTime),
     quietHoursEnabled: typeof r.quietHoursEnabled === 'boolean' ? r.quietHoursEnabled : fallback.quietHoursEnabled,

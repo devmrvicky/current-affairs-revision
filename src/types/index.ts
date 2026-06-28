@@ -103,6 +103,8 @@ export interface Settings {
   keyboardNavigation: boolean;
   fontSize: 'sm' | 'md' | 'lg';
   autoNextSeconds: 0 | 2 | 3 | 5; // 0 = off
+  /** Deliberately local/device-only — not part of the synced settings row, so it survives sync pulls untouched. */
+  hapticEnabled?: boolean;
 }
 
 // ─── UI / Utility Types ───────────────────────────────────────────────────────

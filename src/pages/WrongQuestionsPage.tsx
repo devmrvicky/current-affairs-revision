@@ -194,15 +194,22 @@ const WQCard = memo(function WQCard({ wq, onDismiss, onRecord }: WQCardProps) {
 
 type FilterMode = 'learning' | 'mastered' | 'all';
 
+const PAGE_SIZE = 20;
+
 export default function WrongQuestionsPage() {
   const { questions, isLoading, load, recordRevisionAttempt, dismiss, getActive, getMastered } = useWrongQuestionsStore();
   const [filter, setFilter] = useState<FilterMode>('learning');
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   useEffect(() => { load(); }, []);
 
   const active = getActive();
   const mastered = getMastered();
   const displayed = filter === 'learning' ? active : filter === 'mastered' ? mastered : questions;
+
+  useEffect(() => { setVisibleCount(PAGE_SIZE); }, [filter]);
+  const visible = displayed.slice(0, visibleCount);
+  const hasMore = displayed.length > visibleCount;
 
   const handleRecord = useCallback(async (id: string, correct: boolean) => {
     await recordRevisionAttempt(id, correct);
@@ -301,7 +308,7 @@ export default function WrongQuestionsPage() {
       ) : (
         <div className="space-y-3">
           <AnimatePresence initial={false}>
-            {displayed.map((wq) => (
+            {visible.map((wq) => (
               <WQCard
                 key={wq.id}
                 wq={wq}
@@ -310,6 +317,13 @@ export default function WrongQuestionsPage() {
               />
             ))}
           </AnimatePresence>
+          {hasMore && (
+            <div className="flex justify-center pt-3">
+              <button onClick={() => setVisibleCount((c) => c + PAGE_SIZE)} className="btn-ghost text-sm px-5 py-2">
+                Show {Math.min(PAGE_SIZE, displayed.length - visibleCount)} more ({displayed.length - visibleCount} remaining)
+              </button>
+            </div>
+          )}
         </div>
       )}
     </div>

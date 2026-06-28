@@ -19,10 +19,14 @@ import { notifyTestCompleted, notifyChapterCompleted, checkAchievements } from '
 type TabKey = 'overview' | 'all' | 'wrong' | 'correct' | 'bookmarked' | 'marked';
 
 async function fireConfetti(score: number) {
+  if (score < 75) return;
+  if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return;
   try {
     const mod = await import('canvas-confetti');
-    if (score >= 75) mod.default({ particleCount: 120, spread: 70, origin: { y: 0.6 } });
-  } catch {}
+    mod.default({ particleCount: 120, spread: 70, origin: { y: 0.6 } });
+  } catch {
+    // Confetti is decorative — never let a failed/blocked dynamic import affect the analysis page itself.
+  }
 }
 
 // Every test relPath that belongs to a chapter folder (vs. a daily current-affairs file)

@@ -111,6 +111,8 @@ const BookmarkCard = memo(function BookmarkCard({
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
+const PAGE_SIZE = 20;
+
 export default function BookmarkedQuestionsPage() {
   const navigate = useNavigate();
   const { bookmarks, isLoading, load, remove, clearAll, toQuizQuestions } = useBookmarkStore();
@@ -118,6 +120,7 @@ export default function BookmarkedQuestionsPage() {
 
   const [search, setSearch] = useState('');
   const [showClearConfirm, setShowClearConfirm] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   useEffect(() => { load(); }, []);
 
@@ -128,6 +131,10 @@ export default function BookmarkedQuestionsPage() {
       (b) => b.question.toLowerCase().includes(q) || b.sourceDate.toLowerCase().includes(q)
     );
   }, [bookmarks, search]);
+
+  useEffect(() => { setVisibleCount(PAGE_SIZE); }, [search]);
+  const visible = filtered.slice(0, visibleCount);
+  const hasMore = filtered.length > visibleCount;
 
   const handleRemove = useCallback(async (id: string) => {
     await remove(id);
@@ -274,10 +281,17 @@ export default function BookmarkedQuestionsPage() {
       ) : (
         <div className="space-y-3">
           <AnimatePresence initial={false}>
-            {filtered.map((bq) => (
+            {visible.map((bq) => (
               <BookmarkCard key={bq.id} bq={bq} onRemove={handleRemove} />
             ))}
           </AnimatePresence>
+          {hasMore && (
+            <div className="flex justify-center pt-3">
+              <button onClick={() => setVisibleCount((c) => c + PAGE_SIZE)} className="btn-ghost text-sm px-5 py-2">
+                Show {Math.min(PAGE_SIZE, filtered.length - visibleCount)} more ({filtered.length - visibleCount} remaining)
+              </button>
+            </div>
+          )}
         </div>
       )}
 
