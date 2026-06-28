@@ -1,0 +1,61 @@
+{
+  "date": "05 June 2026",
+  "questions": [
+    {
+      "id": 1,
+      "question": "World Environment Day is celebrated on which date every year?",
+      "options": ["5 June", "22 April", "16 September", "3 March"],
+      "correctAnswer": "5 June",
+      "explanation": "World Environment Day has been celebrated on 5 June every year since 1974, making it the principal vehicle for the United Nations for promoting awareness and action for the environment."
+    },
+    {
+      "id": 2,
+      "question": "The theme for World Environment Day 2026 was:",
+      "options": ["Only One Earth", "Land Restoration", "Ecosystem Restoration", "Beat Plastic Pollution"],
+      "correctAnswer": "Beat Plastic Pollution",
+      "explanation": "World Environment Day 2026 focused on 'Beat Plastic Pollution', urging nations and individuals to reduce plastic waste and its devastating impact on marine and terrestrial ecosystems."
+    },
+    {
+      "id": 3,
+      "question": "Which article of the Indian Constitution directs the state to protect and improve environment?",
+      "options": ["Article 48A", "Article 51A(g)", "Both Article 48A and 51A(g)", "Article 21"],
+      "correctAnswer": "Both Article 48A and 51A(g)",
+      "explanation": "Article 48A (Directive Principle) directs the State to protect and improve environment. Article 51A(g) (Fundamental Duty) makes it the duty of every citizen to protect and improve the natural environment."
+    },
+    {
+      "id": 4,
+      "question": "The 'National Action Plan on Climate Change (NAPCC)' was launched in India in the year:",
+      "options": ["2002", "2005", "2008", "2012"],
+      "correctAnswer": "2008",
+      "explanation": "India's National Action Plan on Climate Change (NAPCC) was launched on June 30, 2008, comprising eight national missions including Solar Mission, Enhanced Energy Efficiency, and Sustainable Agriculture."
+    },
+    {
+      "id": 5,
+      "question": "Which country recently achieved 100% renewable electricity for an entire month?",
+      "options": ["Denmark", "Germany", "Portugal", "Norway"],
+      "correctAnswer": "Portugal",
+      "explanation": "Portugal achieved a historic milestone by running entirely on renewable energy (wind, hydro, and solar) for a full month, demonstrating the viability of 100% clean electricity for a European nation."
+    },
+    {
+      "id": 6,
+      "question": "The 'Green Credit Programme' in India is regulated by:",
+      "options": ["SEBI", "Ministry of Environment, Forest and Climate Change", "NABARD", "RBI"],
+      "correctAnswer": "Ministry of Environment, Forest and Climate Change",
+      "explanation": "The Green Credit Programme (GCP) is administered by the Ministry of Environment, Forest and Climate Change (MoEFCC) under the Environment Protection Act 1986, incentivizing voluntary green actions."
+    },
+    {
+      "id": 7,
+      "question": "The Ramsar Convention is related to the conservation of:",
+      "options": ["Mangroves", "Wetlands", "Coral Reefs", "Migratory Birds"],
+      "correctAnswer": "Wetlands",
+      "explanation": "The Ramsar Convention (1971) is an international treaty for the conservation and sustainable use of wetlands. India has 75+ Ramsar sites, the largest network in Asia."
+    },
+    {
+      "id": 8,
+      "question": "Which Indian state has the highest number of Ramsar Wetland sites?",
+      "options": ["Uttar Pradesh", "Jammu & Kashmir", "Tamil Nadu", "Manipur"],
+      "correctAnswer": "Tamil Nadu",
+      "explanation": "Tamil Nadu has the highest number of Ramsar sites in India, reflecting its rich biodiversity of wetlands including Vedanthangal Bird Sanctuary, Karikili Bird Sanctuary, and Point Calimere Wildlife Sanctuary."
+    }
+  ]
+}

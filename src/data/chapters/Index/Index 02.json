@@ -1,0 +1,358 @@
+{
+  "date": "2025-2026",
+  "topic": "सूचकांक (Index) - Part 2",
+  "source": "Rojgar with Ankit (Adarsh Sir)",
+  "total_questions": 50,
+  "questions": [
+        {
+      "id": 51,
+      "question": "भ्रष्टाचार धारणा सूचकांक (CPI) किस संस्था द्वारा जारी किया जाता है?",
+      "options": ["World Bank", "Transparency International", "UNDP", "IMF"],
+      "correctAnswer": "Transparency International",
+      "explanation": "CPI ट्रांसपेरेंसी इंटरनेशनल (Transparency International) द्वारा जारी किया जाता है।"
+    },
+    {
+      "id": 52,
+      "question": "CPI 2025 में शीर्ष देश (सबसे कम भ्रष्टाचार) कौन सा है?",
+      "options": ["Finland", "Singapore", "Denmark", "Sweden"],
+      "correctAnswer": "Denmark",
+      "explanation": "CPI 2025 में डेनमार्क (Denmark) सबसे कम भ्रष्ट देशों में पहले स्थान पर है।"
+    },
+    {
+      "id": 53,
+      "question": "CPI 2025 में अंतिम स्थान (सबसे अधिक भ्रष्ट) पर कौन सा देश है?",
+      "options": ["Somalia", "Venezuela", "South Sudan / दक्षिण सूडान", "North Korea"],
+      "correctAnswer": "South Sudan / दक्षिण सूडान",
+      "explanation": "CPI 2025 में दक्षिण सूडान (South Sudan) सबसे अधिक भ्रष्ट देश के रूप में अंतिम स्थान पर है।"
+    },
+    {
+      "id": 54,
+      "question": "सतत विकास लक्ष्य सूचकांक (Sustainable Development Goals Index) में भारत का स्थान क्या है?",
+      "options": ["85वां", "90वां", "95वां", "99वां"],
+      "correctAnswer": "99वां",
+      "explanation": "सतत विकास लक्ष्य सूचकांक (SDG Index) के 10वें संस्करण में भारत 99वें स्थान पर है।"
+    },
+    {
+      "id": 55,
+      "question": "SDG सूचकांक किस संस्था द्वारा जारी किया जाता है?",
+      "options": ["UNDP", "Sustainable Development Solutions Network (SDSN)", "World Bank", "UN Environment Programme"],
+      "correctAnswer": "Sustainable Development Solutions Network (SDSN)",
+      "explanation": "SDG सूचकांक 'सस्टेनेबल डेवलपमेंट सॉल्यूशन्स नेटवर्क' (SDSN) द्वारा जारी किया जाता है।"
+    },
+    {
+      "id": 56,
+      "question": "SDG Index में शीर्ष तीन देश कौन से हैं?",
+      "options": ["Norway, Denmark, Sweden", "Finland, Denmark, Sweden", "Iceland, Norway, Switzerland", "Sweden, Finland, Norway"],
+      "correctAnswer": "Finland, Denmark, Sweden",
+      "explanation": "SDG Index में: 1.Finland (फिनलैंड), 2.Denmark (डेनमार्क), 3.Sweden (स्वीडन) शीर्ष पर हैं।"
+    },
+    {
+      "id": 57,
+      "question": "वैश्विक भूख सूचकांक 2025 (Global Hunger Index - GHI) में भारत का स्थान क्या है?",
+      "options": ["85वां", "95वां", "102वां", "115वां"],
+      "correctAnswer": "102वां",
+      "explanation": "वैश्विक भूख सूचकांक 2025 में भारत 123 देशों में 102वें स्थान पर है।"
+    },
+    {
+      "id": 58,
+      "question": "GHI 2025 में भारत का स्कोर क्या है और यह किस श्रेणी में आता है?",
+      "options": ["20.1 - Moderate", "25.8 - Serious (गंभीर)", "30.5 - Alarming", "15.2 - Low"],
+      "correctAnswer": "25.8 - Serious (गंभीर)",
+      "explanation": "GHI 2025 में भारत का स्कोर 25.8 है जो 'Serious (गंभीर)' श्रेणी में आता है।"
+    },
+    {
+      "id": 59,
+      "question": "GHI 2025 किन 4 संकेतकों पर आधारित है?",
+      "options": ["GDP, Literacy, Life Expectancy, HDI", "Undernutrition, Child Stunting, Wasting, Infant Mortality", "Food Access, Poverty, Sanitation, Water", "Agriculture, Trade, Aid, Conflict"],
+      "correctAnswer": "Undernutrition, Child Stunting, Wasting, Infant Mortality",
+      "explanation": "GHI 4 संकेतकों पर आधारित है: 1.अल्पपोषण (Undernutrition), 2.बाल ठिगनापन (Child Stunting), 3.दुबलापन (Wasting), 4.शिशु मृत्यु दर (Infant Mortality)।"
+    },
+    {
+      "id": 60,
+      "question": "GHI 2025 में पड़ोसी देशों की तुलना में भारत (102) से बेहतर कौन से देश हैं?",
+      "options": ["Pakistan (107), Afghanistan (112)", "Nepal (74), Bangladesh (90)", "Sri Lanka (62), Nepal (74), Bangladesh (90)", "Nepal, Sri Lanka"],
+      "correctAnswer": "Sri Lanka (62), Nepal (74), Bangladesh (90)",
+      "explanation": "GHI 2025 में पड़ोसी देशों में: श्रीलंका (62), नेपाल (74), बांग्लादेश (90) भारत (102) से बेहतर हैं; जबकि पाकिस्तान (107) और अफगानिस्तान (112) भारत से खराब हैं।"
+    },
+    {
+      "id": 61,
+      "question": "वैश्विक शांति सूचकांक (Global Peace Index) में भारत का स्थान क्या है?",
+      "options": ["105वां", "110वां", "115वां", "120वां"],
+      "correctAnswer": "115वां",
+      "explanation": "वैश्विक शांति सूचकांक में भारत 163 देशों में 115वें स्थान पर है, स्कोर 40.05।"
+    },
+    {
+      "id": 62,
+      "question": "वैश्विक शांति सूचकांक (GPI) किस संस्था द्वारा जारी किया जाता है?",
+      "options": ["SIPRI", "Institute for Economics and Peace (IEP)", "UN", "World Bank"],
+      "correctAnswer": "Institute for Economics and Peace (IEP)",
+      "explanation": "वैश्विक शांति सूचकांक (GPI) इंस्टीट्यूट फॉर इकोनॉमिक्स एंड पीस (IEP) द्वारा जारी किया जाता है।"
+    },
+    {
+      "id": 63,
+      "question": "GPI 2025 में सबसे शांतिपूर्ण देश (पहला स्थान) कौन सा है?",
+      "options": ["Ireland (1.260)", "Iceland (1.095)", "New Zealand (1.282)", "Denmark"],
+      "correctAnswer": "Iceland (1.095)",
+      "explanation": "GPI 2025 में आइसलैंड (Iceland) 1.095 स्कोर के साथ सबसे शांतिपूर्ण देश के रूप में पहले स्थान पर है।"
+    },
+    {
+      "id": 64,
+      "question": "GPI 2025 में एशिया में सर्वोच्च स्थान पर कौन सा देश है?",
+      "options": ["Japan", "South Korea", "Singapore (1.357)", "Bhutan"],
+      "correctAnswer": "Singapore (1.357)",
+      "explanation": "GPI 2025 में एशिया में सिंगापुर (1.357 स्कोर) सर्वोच्च स्थान पर है।"
+    },
+    {
+      "id": 65,
+      "question": "GPI 2025 में सबसे अशांत (163वां) देश कौन सा है?",
+      "options": ["Ukraine", "Sweden", "Russia", "Sudan"],
+      "correctAnswer": "Russia",
+      "explanation": "GPI 2025 में रूस (Russia) 163वें (अंतिम) स्थान पर है, यानी दुनिया का सबसे अशांत देश।"
+    },
+    {
+      "id": 66,
+      "question": "विश्व खुशहाली रिपोर्ट 2026 (World Happiness Report 2026) में भारत का स्थान क्या है?",
+      "options": ["110वां", "113वां", "116वां", "120वां"],
+      "correctAnswer": "116वां",
+      "explanation": "विश्व खुशहाली रिपोर्ट 2026 में भारत 116वें स्थान पर है (2025 में 118वां था)।"
+    },
+    {
+      "id": 67,
+      "question": "विश्व खुशहाली रिपोर्ट किस संस्था द्वारा जारी की जाती है?",
+      "options": ["UNDP", "World Bank", "UN Sustainable Development Solutions Network", "IEP"],
+      "correctAnswer": "UN Sustainable Development Solutions Network",
+      "explanation": "विश्व खुशहाली रिपोर्ट संयुक्त राष्ट्र सतत विकास समाधान नेटवर्क (UN SDSN) द्वारा जारी की जाती है।"
+    },
+    {
+      "id": 68,
+      "question": "विश्व खुशहाली रिपोर्ट 2026 में पहले स्थान पर कौन सा देश है?",
+      "options": ["Iceland", "Denmark", "Finland", "Sweden"],
+      "correctAnswer": "Finland",
+      "explanation": "विश्व खुशहाली रिपोर्ट 2026 में फिनलैंड (Finland) लगातार 9वें साल पहले स्थान पर है।"
+    },
+    {
+      "id": 69,
+      "question": "विश्व खुशहाली रिपोर्ट 2026 में अंतिम स्थान पर कौन सा देश है?",
+      "options": ["North Korea", "Sudan", "Afghanistan / अफगानिस्तान", "Yemen"],
+      "correctAnswer": "Afghanistan / अफगानिस्तान",
+      "explanation": "विश्व खुशहाली रिपोर्ट 2026 में अफगानिस्तान (Afghanistan) अंतिम स्थान पर है।"
+    },
+    {
+      "id": 70,
+      "question": "खुशहाली रैंकिंग के 6 प्रमुख कारक कौन से हैं?",
+      "options": ["GDP, Trade, Military, Education, Health, Tourism", "प्रति व्यक्ति GDP, सामाजिक सहयोग, जीवन प्रत्याशा, जीवन की स्वतंत्रता, उदारता, भ्रष्टाचार का बोध", "Literacy, Employment, Peace, Freedom, Equality, Wealth", "Infrastructure, Justice, Democracy, Trade, Science, Art"],
+      "correctAnswer": "प्रति व्यक्ति GDP, सामाजिक सहयोग, जीवन प्रत्याशा, जीवन की स्वतंत्रता, उदारता, भ्रष्टाचार का बोध",
+      "explanation": "विश्व खुशहाली रैंकिंग 6 कारकों पर आधारित है: 1.प्रति व्यक्ति GDP, 2.सामाजिक सहयोग, 3.जीवन प्रत्याशा, 4.जीवन की स्वतंत्रता, 5.उदारता, 6.भ्रष्टाचार का बोध।"
+    },
+    {
+      "id": 71,
+      "question": "आर्थिक स्वतंत्रता सूचकांक 2025 (Economic Freedom Index 2025) में भारत का स्थान क्या है?",
+      "options": ["100वां", "115वां", "128वां", "135वां"],
+      "correctAnswer": "128वां",
+      "explanation": "आर्थिक स्वतंत्रता सूचकांक 2025 में भारत 128वें स्थान पर है, स्कोर 53.0।"
+    },
+    {
+      "id": 72,
+      "question": "आर्थिक स्वतंत्रता सूचकांक किन संस्थाओं द्वारा जारी किया जाता है?",
+      "options": ["IMF और World Bank", "The Heritage Foundation और The Wall Street Journal", "WEF और OECD", "Transparency International और IEP"],
+      "correctAnswer": "The Heritage Foundation और The Wall Street Journal",
+      "explanation": "आर्थिक स्वतंत्रता सूचकांक 'द हेरिटेज फाउंडेशन' (The Heritage Foundation) और 'द वॉल स्ट्रीट जर्नल' (The Wall Street Journal) द्वारा संयुक्त रूप से जारी किया जाता है।"
+    },
+    {
+      "id": 73,
+      "question": "आर्थिक स्वतंत्रता सूचकांक 2025 में पहला स्थान किस देश को मिला?",
+      "options": ["Switzerland (83.3)", "Ireland (83.1)", "Singapore (84.01)", "UK"],
+      "correctAnswer": "Singapore (84.01)",
+      "explanation": "आर्थिक स्वतंत्रता सूचकांक 2025 में सिंगापुर (84.01) पहले स्थान पर है।"
+    },
+    {
+      "id": 74,
+      "question": "मानव विकास सूचकांक 2025 (Human Development Index - HDI) में भारत का स्थान क्या है?",
+      "options": ["115वां", "122वां", "128वां", "130वां"],
+      "correctAnswer": "130वां",
+      "explanation": "मानव विकास सूचकांक 2025 में भारत 193 देशों में 130वें स्थान पर है, स्कोर 0.644।"
+    },
+    {
+      "id": 75,
+      "question": "मानव विकास सूचकांक (HDI) किस संस्था द्वारा जारी किया जाता है?",
+      "options": ["World Bank", "IMF", "United Nations Development Programme (UNDP)", "WHO"],
+      "correctAnswer": "United Nations Development Programme (UNDP)",
+      "explanation": "HDI संयुक्त राष्ट्र विकास कार्यक्रम (UNDP - United Nations Development Programme) द्वारा जारी किया जाता है।"
+    },
+    {
+      "id": 76,
+      "question": "HDI 2025 में शीर्ष स्थान पर कौन सा देश है?",
+      "options": ["Norway (0.972)", "Switzerland (0.970)", "Iceland (0.972)", "Sweden"],
+      "correctAnswer": "Iceland (0.972)",
+      "explanation": "HDI 2025 में आइसलैंड (Iceland) और नॉर्वे (Norway) दोनों 0.972 स्कोर के साथ संयुक्त रूप से शीर्ष पर हैं।"
+    },
+    {
+      "id": 77,
+      "question": "वैश्विक लैंगिक अंतर रिपोर्ट (Global Gender Gap Report) में भारत का स्थान क्या है?",
+      "options": ["115वां", "120वां", "125वां", "131वां"],
+      "correctAnswer": "131वां",
+      "explanation": "वैश्विक लैंगिक अंतर रिपोर्ट में भारत 148 देशों में 131वें स्थान पर है, स्कोर 64.4।"
+    },
+    {
+      "id": 78,
+      "question": "वैश्विक लैंगिक अंतर रिपोर्ट किस संस्था द्वारा जारी की जाती है?",
+      "options": ["UNDP", "UN Women", "विश्व आर्थिक मंच (World Economic Forum)", "World Bank"],
+      "correctAnswer": "विश्व आर्थिक मंच (World Economic Forum)",
+      "explanation": "वैश्विक लैंगिक अंतर रिपोर्ट (Global Gender Gap Report) विश्व आर्थिक मंच (WEF) द्वारा जारी की जाती है।"
+    },
+    {
+      "id": 79,
+      "question": "Global Gender Gap Report में अंतिम स्थान पर कौन सा देश है?",
+      "options": ["Yemen", "Afghanistan", "Pakistan / पाकिस्तान", "Sudan"],
+      "correctAnswer": "Pakistan / पाकिस्तान",
+      "explanation": "वैश्विक लैंगिक अंतर रिपोर्ट में पाकिस्तान (Pakistan) अंतिम स्थान पर है।"
+    },
+    {
+      "id": 80,
+      "question": "विश्व प्रेस स्वतंत्रता सूचकांक 2025 (World Press Freedom Index 2025) में भारत का स्थान क्या है?",
+      "options": ["140वां", "145वां", "151वां", "159वां"],
+      "correctAnswer": "151वां",
+      "explanation": "विश्व प्रेस स्वतंत्रता सूचकांक 2025 में भारत 180 देशों में 151वें स्थान पर है (2024 में 159वां था, +8 सुधार)।"
+    },
+    {
+      "id": 81,
+      "question": "विश्व प्रेस स्वतंत्रता सूचकांक (WPFI) किस संस्था द्वारा जारी किया जाता है?",
+      "options": ["UNESCO", "Reporters without Borders (RSF)", "Freedom House", "IFJ"],
+      "correctAnswer": "Reporters without Borders (RSF)",
+      "explanation": "विश्व प्रेस स्वतंत्रता सूचकांक 'रिपोर्टर्स विदाउट बॉर्डर्स' (Reporters without Borders / RSF) द्वारा जारी किया जाता है।"
+    },
+    {
+      "id": 82,
+      "question": "WPFI 2025 में पहले स्थान पर कौन सा देश है?",
+      "options": ["Denmark", "Sweden", "Norway / नॉर्वे", "Finland"],
+      "correctAnswer": "Norway / नॉर्वे",
+      "explanation": "विश्व प्रेस स्वतंत्रता सूचकांक 2025 में नॉर्वे (Norway) पहले स्थान पर है।"
+    },
+    {
+      "id": 83,
+      "question": "WPFI 2025 में अंतिम (180वें) स्थान पर कौन सा देश है?",
+      "options": ["North Korea", "Eritrea / इरिट्रिया", "China", "Afghanistan"],
+      "correctAnswer": "Eritrea / इरिट्रिया",
+      "explanation": "WPFI 2025 में इरिट्रिया (Eritrea) 180वें (अंतिम) स्थान पर है।"
+    },
+    {
+      "id": 84,
+      "question": "एशिया पावर इंडेक्स 2026 (Asia Power Index 2026) में भारत का स्थान क्या है?",
+      "options": ["पहला", "दूसरा", "तीसरा", "चौथा"],
+      "correctAnswer": "तीसरा",
+      "explanation": "एशिया पावर इंडेक्स 2026 में भारत एशिया-प्रशांत के 27 देशों में 40.0 स्कोर के साथ तीसरे स्थान पर है।"
+    },
+    {
+      "id": 85,
+      "question": "एशिया पावर इंडेक्स (Asia Power Index) किस संस्था द्वारा जारी किया जाता है?",
+      "options": ["ADB", "ASEAN", "Lowy Institute", "Chatham House"],
+      "correctAnswer": "Lowy Institute",
+      "explanation": "एशिया पावर इंडेक्स लोवी इंस्टीट्यूट (Lowy Institute) द्वारा जारी किया जाता है।"
+    },
+    {
+      "id": 86,
+      "question": "एशिया पावर इंडेक्स 2026 में पहले स्थान पर कौन सा देश है?",
+      "options": ["China (73.7)", "America / अमेरिका (80.4)", "India (40.0)", "Japan"],
+      "correctAnswer": "America / अमेरिका (80.4)",
+      "explanation": "एशिया पावर इंडेक्स 2026 में अमेरिका 80.4 स्कोर के साथ पहले स्थान पर है।"
+    },
+    {
+      "id": 87,
+      "question": "एशिया पावर इंडेक्स 2026 में कितने देशों और क्षेत्रों का आकलन किया जाता है?",
+      "options": ["20", "25", "27", "30"],
+      "correctAnswer": "27",
+      "explanation": "एशिया पावर इंडेक्स एशिया-प्रशांत क्षेत्र के 27 देशों और क्षेत्रों (territories) की शक्ति का आकलन करता है।"
+    },
+    {
+      "id": 88,
+      "question": "ग्लोबल फायर पावर इंडेक्स 2026 में चीन (China) किस स्थान पर है?",
+      "options": ["दूसरा", "तीसरा", "चौथा", "पाँचवाँ"],
+      "correctAnswer": "तीसरा",
+      "explanation": "ग्लोबल फायर पावर इंडेक्स 2026 में चीन 0.0919 स्कोर के साथ तीसरे स्थान पर है।"
+    },
+    {
+      "id": 89,
+      "question": "GPI 2025 में 162वें स्थान पर कौन से देश हैं?",
+      "options": ["Russia और Sudan", "Ukraine और Sweden", "Syria और Afghanistan", "Yemen और Libya"],
+      "correctAnswer": "Ukraine और Sweden",
+      "explanation": "GPI 2025 में यूक्रेन (Ukraine) और स्वीडन (Sweden) दोनों 162वें स्थान पर हैं।"
+    },
+    {
+      "id": 90,
+      "question": "विश्व खुशहाली रिपोर्ट 2026 में भारत की तुलना में नेपाल और पाकिस्तान की रैंकिंग क्या है?",
+      "options": ["नेपाल (80वां), पाकिस्तान (90वां)", "नेपाल (99वां), पाकिस्तान (104वां)", "नेपाल (110वां), पाकिस्तान (120वां)", "नेपाल (115वां), पाकिस्तान (125वां)"],
+      "correctAnswer": "नेपाल (99वां), पाकिस्तान (104वां)",
+      "explanation": "विश्व खुशहाली रिपोर्ट 2026 में नेपाल 99वें और पाकिस्तान 104वें स्थान पर है, जबकि भारत 116वें स्थान पर है — यानी भारत दोनों पड़ोसी देशों से पीछे है।"
+    },
+    {
+      "id": 91,
+      "question": "IMD विश्व प्रतिस्पर्धात्मकता रैंकिंग में तीसरे स्थान पर कौन सा देश है?",
+      "options": ["Denmark", "Switzerland (100)", "Hong Kong (99.22)", "UAE"],
+      "correctAnswer": "Hong Kong (99.22)",
+      "explanation": "IMD विश्व प्रतिस्पर्धात्मकता रैंकिंग में हांगकांग (99.22 अंक) तीसरे स्थान पर है।"
+    },
+    {
+      "id": 92,
+      "question": "वैश्विक लैंगिक अंतर रिपोर्ट में आइसलैंड (Iceland) लगातार कितने साल से पहले स्थान पर है?",
+      "options": ["10वें साल", "14वें साल", "16वें साल", "20वें साल"],
+      "correctAnswer": "16वें साल",
+      "explanation": "वैश्विक लैंगिक अंतर रिपोर्ट में आइसलैंड (Iceland) लगातार 16वें साल पहले स्थान पर है।"
+    },
+    {
+      "id": 93,
+      "question": "CCPI 2026 की पूर्ण रैंकिंग में पाकिस्तान का स्थान क्या है?",
+      "options": ["10वां", "15वां", "20वां", "25वां"],
+      "correctAnswer": "15वां",
+      "explanation": "CCPI 2026 की पूर्ण रैंकिंग में पाकिस्तान 15वें स्थान पर है।"
+    },
+    {
+      "id": 94,
+      "question": "GII 2025 में दूसरे स्थान पर कौन सा देश है?",
+      "options": ["United States (61.7)", "Sweden (62.6)", "Switzerland (66)", "Denmark"],
+      "correctAnswer": "Sweden (62.6)",
+      "explanation": "GII 2025 में स्वीडन (Sweden) 62.6 स्कोर के साथ दूसरे स्थान पर है।"
+    },
+    {
+      "id": 95,
+      "question": "ग्लोबल फायर पावर इंडेक्स 2026 में दक्षिण कोरिया (South Korea) किस स्थान पर है?",
+      "options": ["4वां", "5वां", "6वां", "7वां"],
+      "correctAnswer": "5वां",
+      "explanation": "ग्लोबल फायर पावर इंडेक्स 2026 में दक्षिण कोरिया 0.1642 स्कोर के साथ 5वें स्थान पर है।"
+    },
+    {
+      "id": 96,
+      "question": "हेनले पासपोर्ट सूचकांक (जनवरी 2026) में भारत किस स्थान पर था?",
+      "options": ["75वां", "78वां", "80वां", "85वां"],
+      "correctAnswer": "80वां",
+      "explanation": "हेनले पासपोर्ट सूचकांक में जनवरी 2026 में भारत 80वें स्थान पर था, जो फरवरी 2026 में सुधरकर 75वां हो गया।"
+    },
+    {
+      "id": 97,
+      "question": "WPFI 2025 में नेपाल की रैंकिंग क्या है?",
+      "options": ["75वां", "82वां", "90वां", "104वां"],
+      "correctAnswer": "90वां",
+      "explanation": "WPFI 2025 में नेपाल 90वें स्थान पर है, जो भारत (151वां) से काफी बेहतर है।"
+    },
+    {
+      "id": 98,
+      "question": "GHI 2025 में भारत की अल्पपोषण (Undernourishment) दर लगभग कितनी है?",
+      "options": ["8.5%", "10.2%", "13.5%", "18.0%"],
+      "correctAnswer": "13.5%",
+      "explanation": "GHI 2025 के अनुसार भारत में अल्पपोषण (Undernourishment) दर लगभग 13.5% है।"
+    },
+    {
+      "id": 99,
+      "question": "Global Gender Gap Report 2025 में भारत की Economic Participation (आर्थिक भागीदारी) रैंकिंग 148 देशों में क्या है?",
+      "options": ["100/148", "120/148", "144/148", "130/148"],
+      "correctAnswer": "144/148",
+      "explanation": "Global Gender Gap Report 2025 में भारत की Economic Participation श्रेणी में रैंकिंग 144/148 है।"
+    },
+    {
+      "id": 100,
+      "question": "विश्व खुशहाली सूचकांक 2026 में फिनलैंड (Finland) लगातार कितने साल से पहले स्थान पर है?",
+      "options": ["5वें साल", "7वें साल", "9वें साल", "12वें साल"],
+      "correctAnswer": "9वें साल",
+      "explanation": "विश्व खुशहाली सूचकांक में फिनलैंड (Finland) लगातार 9वें साल पहले स्थान पर है।"
+    }
+  ]
+}
