@@ -1,5 +1,27 @@
 import { openDB, DBSchema, IDBPDatabase } from 'idb';
+import { v4 as uuidv4 } from 'uuid';
 import type { SavedTest, Statistics, Settings, WrongQuestion, BookmarkedQuestion, MarkedReviewQuestion, ChapterStats, DailyGoal, NotificationSettings, Highlight, ReadingProgress, ReaderNote, ReadingPrefs } from '../types';
+
+// ─── Sync types ───────────────────────────────────────────────────────────────
+// Local store name → remote (Supabase) table name. Kept distinct on purpose so
+// the local schema and remote schema can evolve independently.
+export type SyncTable = 'saved_tests' | 'bookmarks' | 'wrong_questions' | 'marked_for_review' | 'settings';
+export type SyncOp = 'upsert' | 'delete' | 'clear';
+
+export interface SyncOutboxEntry {
+  id: string;          // uuid, unique per queued operation
+  table: SyncTable;
+  op: SyncOp;
+  payload: unknown;    // the record itself for upsert; the record id for delete; unused for clear
+  createdAt: number;
+}
+
+export interface SyncMeta {
+  id: 'meta';
+  deviceId: string;
+  userId: string | null;
+  lastSyncedAt: number; // server timestamp watermark for pull
+}
 
 // ─── Schema ───────────────────────────────────────────────────────────────────
 
@@ -67,10 +89,19 @@ interface AppDB extends DBSchema {
     key: string;
     value: ReadingPrefs;
   };
+  syncOutbox: {
+    key: string;
+    value: SyncOutboxEntry;
+    indexes: { 'by-createdAt': number };
+  };
+  syncMeta: {
+    key: string;
+    value: SyncMeta;
+  };
 }
 
 const DB_NAME = 'CurrentAffairsDB';
-const DB_VERSION = 6;
+const DB_VERSION = 7;
 
 let dbInstance: IDBPDatabase<AppDB> | null = null;
 
@@ -116,10 +147,79 @@ async function getDB(): Promise<IDBPDatabase<AppDB>> {
         mfrStore.createIndex('by-source', 'sourceFileName');
         mfrStore.createIndex('by-markedAt', 'markedAt');
       }
+      if (oldVersion < 7) {
+        const outboxStore = db.createObjectStore('syncOutbox', { keyPath: 'id' });
+        outboxStore.createIndex('by-createdAt', 'createdAt');
+        db.createObjectStore('syncMeta', { keyPath: 'id' as never });
+      }
     },
   });
   return dbInstance;
 }
+
+// ─── Sync outbox ──────────────────────────────────────────────────────────────
+// Every locally-synced table (saved_tests, bookmarks, wrong_questions,
+// marked_for_review, settings) enqueues its writes here. syncService.ts drains
+// this queue to Supabase when online. When *applying* data pulled down from
+// the server back into IndexedDB, withSyncSuppressed() prevents that write
+// from re-enqueueing itself (which would otherwise loop forever).
+
+let _syncSuppressed = false;
+
+export async function withSyncSuppressed<T>(fn: () => Promise<T>): Promise<T> {
+  _syncSuppressed = true;
+  try {
+    return await fn();
+  } finally {
+    _syncSuppressed = false;
+  }
+}
+
+async function enqueueSync(table: SyncTable, op: SyncOp, payload: unknown): Promise<void> {
+  if (_syncSuppressed) return;
+  const db = await getDB();
+  const entry: SyncOutboxEntry = {
+    id: uuidv4(),
+    table,
+    op,
+    payload,
+    createdAt: Date.now(),
+  };
+  await db.put('syncOutbox', entry);
+}
+
+export const syncOutboxDB = {
+  async getAll(): Promise<SyncOutboxEntry[]> {
+    const db = await getDB();
+    const all = await db.getAll('syncOutbox');
+    return all.sort((a, b) => a.createdAt - b.createdAt);
+  },
+
+  async deleteMany(ids: string[]): Promise<void> {
+    const db = await getDB();
+    const tx = db.transaction('syncOutbox', 'readwrite');
+    await Promise.all(ids.map((id) => tx.store.delete(id)));
+    await tx.done;
+  },
+
+  async count(): Promise<number> {
+    const db = await getDB();
+    return db.count('syncOutbox');
+  },
+};
+
+export const syncMetaDB = {
+  async get(): Promise<SyncMeta> {
+    const db = await getDB();
+    const m = await db.get('syncMeta', 'meta' as never);
+    return m ?? { id: 'meta', deviceId: '', userId: null, lastSyncedAt: 0 };
+  },
+
+  async save(meta: SyncMeta): Promise<void> {
+    const db = await getDB();
+    await db.put('syncMeta', meta);
+  },
+};
 
 // ─── Saved Tests ──────────────────────────────────────────────────────────────
 
@@ -127,6 +227,7 @@ export const testDB = {
   async save(test: SavedTest): Promise<void> {
     const db = await getDB();
     await db.put('savedTests', test);
+    await enqueueSync('saved_tests', 'upsert', test);
   },
 
   async getAll(): Promise<SavedTest[]> {
@@ -143,6 +244,7 @@ export const testDB = {
   async delete(id: string): Promise<void> {
     const db = await getDB();
     await db.delete('savedTests', id);
+    await enqueueSync('saved_tests', 'delete', id);
   },
 
   async count(): Promise<number> {
@@ -275,6 +377,7 @@ export const settingsDB = {
   async save(settings: Settings): Promise<void> {
     const db = await getDB();
     await db.put('settings', { ...settings, id: 'user' } as never);
+    await enqueueSync('settings', 'upsert', settings);
   },
 };
 
@@ -295,11 +398,13 @@ export const wrongQuestionsDB = {
   async upsert(wq: WrongQuestion): Promise<void> {
     const db = await getDB();
     await db.put('wrongQuestions', wq);
+    await enqueueSync('wrong_questions', 'upsert', wq);
   },
 
   async delete(id: string): Promise<void> {
     const db = await getDB();
     await db.delete('wrongQuestions', id);
+    await enqueueSync('wrong_questions', 'delete', id);
   },
 
   async getById(id: string): Promise<WrongQuestion | undefined> {
@@ -330,16 +435,19 @@ export const bookmarksDB = {
   async upsert(bq: BookmarkedQuestion): Promise<void> {
     const db = await getDB();
     await db.put('bookmarks', bq);
+    await enqueueSync('bookmarks', 'upsert', bq);
   },
 
   async delete(id: string): Promise<void> {
     const db = await getDB();
     await db.delete('bookmarks', id);
+    await enqueueSync('bookmarks', 'delete', id);
   },
 
   async deleteAll(): Promise<void> {
     const db = await getDB();
     await db.clear('bookmarks');
+    await enqueueSync('bookmarks', 'clear', null);
   },
 
   async getById(id: string): Promise<BookmarkedQuestion | undefined> {
@@ -365,16 +473,19 @@ export const markedForReviewDB = {
   async upsert(mq: MarkedReviewQuestion): Promise<void> {
     const db = await getDB();
     await db.put('markedForReview', mq);
+    await enqueueSync('marked_for_review', 'upsert', mq);
   },
 
   async delete(id: string): Promise<void> {
     const db = await getDB();
     await db.delete('markedForReview', id);
+    await enqueueSync('marked_for_review', 'delete', id);
   },
 
   async deleteAll(): Promise<void> {
     const db = await getDB();
     await db.clear('markedForReview');
+    await enqueueSync('marked_for_review', 'clear', null);
   },
 
   async getById(id: string): Promise<MarkedReviewQuestion | undefined> {
@@ -453,7 +564,8 @@ export const dailyGoalDB = {
   async getOrCreate(dateKey: string): Promise<DailyGoal> {
     const existing = await this.get(dateKey);
     if (existing) return existing;
-    const yesterday = new Date(new Date(dateKey).getTime() - 86400000);
+    const [y, m, d] = dateKey.split('-').map(Number);
+    const yesterday = new Date(y, (m || 1) - 1, (d || 1) - 1); // local-date arithmetic, no UTC parsing
     const ydKey = `${yesterday.getFullYear()}-${String(yesterday.getMonth()+1).padStart(2,'0')}-${String(yesterday.getDate()).padStart(2,'0')}`;
     const yd = await this.get(ydKey);
     const streakDays = yd && yd.questionsToday >= yd.target ? yd.streakDays : 0;

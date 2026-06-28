@@ -1,12 +1,13 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Pause, Play, Bookmark, Flag, ChevronLeft, ChevronRight, LayoutGrid, X, AlertTriangle } from 'lucide-react';
+import { Pause, Play, Bookmark, Flag, ChevronLeft, ChevronRight, LayoutGrid, X, AlertTriangle, Search } from 'lucide-react';
 import { useQuizStore } from '../store/quizStore';
 import { useSettingsStore } from '../store/statsStore';
 import { QuizTimer } from '../components/quiz/QuizTimer';
 import { QuestionPalette } from '../components/quiz/QuestionPalette';
 import { AnswerBottomSheet } from '../components/quiz/AnswerBottomSheet';
+import { QuestionWebSearchSheet } from '../components/quiz/QuestionWebSearchSheet';
 import { getOptionLabel } from '../utils';
 
 export default function QuizPage() {
@@ -19,9 +20,18 @@ export default function QuizPage() {
 
   const [showPalette, setShowPalette] = useState(false);
   const [questionStartTime, setQuestionStartTime] = useState(Date.now());
-  const [isPaused, setIsPaused] = useState(false);
+  const [manualPause, setManualPause] = useState(false);
+  const [hiddenPause, setHiddenPause] = useState(false);
   const [showSheet, setShowSheet] = useState(false);
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
+  const [searchSheetOpen, setSearchSheetOpen] = useState(false);
+
+  // Reading the explanation, or searching the web, auto-pauses the timer;
+  // combine with manual pause and tab-hidden so any of the four keeps the
+  // session paused.
+  const sheetPause = (showSheet && settings.showExplanation) || searchSheetOpen;
+  const anyPause = manualPause || hiddenPause || sheetPause;
+  const prevAnyPauseRef = useRef(false);
 
   // Redirect guards
   useEffect(() => {
@@ -43,6 +53,29 @@ export default function QuizPage() {
       setShowSheet(true);
     }
   }, [session?.attempts[session?.currentIndex ?? 0]?.status]);
+
+  // Commit pause/resume to the persisted session exactly once per transition,
+  // regardless of which source (manual button, explanation/search sheet
+  // open, tab hidden) caused it. This keeps session.totalPausedTime accurate
+  // for stats while letting all sources combine without double-pausing.
+  useEffect(() => {
+    if (anyPause && !prevAnyPauseRef.current) {
+      pauseSession();
+    } else if (!anyPause && prevAnyPauseRef.current) {
+      resumeSession();
+    }
+    prevAnyPauseRef.current = anyPause;
+  }, [anyPause, pauseSession, resumeSession]);
+
+  // Pause the timer when the tab/app is backgrounded so users aren't
+  // penalized for time spent away from the test.
+  useEffect(() => {
+    function handleVisibility() {
+      setHiddenPause(document.hidden);
+    }
+    document.addEventListener('visibilitychange', handleVisibility);
+    return () => document.removeEventListener('visibilitychange', handleVisibility);
+  }, []);
 
   // Keyboard navigation
   useEffect(() => {
@@ -107,13 +140,7 @@ export default function QuizPage() {
   }
 
   function handlePause() {
-    if (isPaused) {
-      resumeSession();
-      setIsPaused(false);
-    } else {
-      pauseSession();
-      setIsPaused(true);
-    }
+    setManualPause((p) => !p);
   }
 
   function handleQuit() {
@@ -150,15 +177,15 @@ export default function QuizPage() {
             <QuizTimer
               startTime={session.startTime}
               totalPausedTime={session.totalPausedTime}
-              isPaused={isPaused}
+              isPaused={session.isPaused}
               pausedAt={session.pausedAt}
             />
             <button
               onClick={handlePause}
               className="p-1.5 sm:p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0"
-              title={isPaused ? 'Resume' : 'Pause'}
+              title={manualPause ? 'Resume' : 'Pause'}
             >
-              {isPaused
+              {manualPause
                 ? <Play size={16} style={{ color: 'var(--text-primary)' }} />
                 : <Pause size={16} style={{ color: 'var(--text-secondary)' }} />
               }
@@ -184,7 +211,7 @@ export default function QuizPage() {
 
       {/* Pause Overlay */}
       <AnimatePresence>
-        {isPaused && (
+        {manualPause && (
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -257,6 +284,15 @@ export default function QuizPage() {
                       </button>
                     </div>
                   </div>
+
+                  <button
+                    onClick={() => setSearchSheetOpen(true)}
+                    className="inline-flex items-center gap-1.5 mb-5 px-3 py-1.5 rounded-full text-xs font-medium border transition-colors hover:bg-gray-100 dark:hover:bg-white/10"
+                    style={{ color: 'var(--text-muted)', borderColor: 'var(--border)' }}
+                  >
+                    <Search size={12} />
+                    Search on Web
+                  </button>
 
                   {/* Options */}
                   <div className="space-y-3">
@@ -353,6 +389,13 @@ export default function QuizPage() {
         onClose={() => setShowSheet(false)}
         showExplanation={settings.showExplanation}
         autoNextSeconds={settings.autoNextSeconds}
+        frozen={manualPause}
+      />
+
+      <QuestionWebSearchSheet
+        isOpen={searchSheetOpen}
+        query={currentAttempt.question}
+        onClose={() => setSearchSheetOpen(false)}
       />
 
       {/* Submit confirmation — shown when finishing the last question while some are still marked for review */}

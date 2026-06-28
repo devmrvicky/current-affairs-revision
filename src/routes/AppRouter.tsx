@@ -35,6 +35,8 @@ const WeeklyReportPage      = lazy(() => import('../pages/WeeklyReportPage'));
 const SettingsPage          = lazy(() => import('../pages/SettingsPage'));
 const NoQuizTodayPage       = lazy(() => import('../pages/NoQuizTodayPage'));
 const NotFoundPage          = lazy(() => import('../pages/NotFoundPage'));
+const AdminDashboardPage    = lazy(() => import('../pages/AdminDashboardPage'));
+const AuthCallbackPage      = lazy(() => import('../pages/AuthCallbackPage'));
 
 function S({ children }: { children: React.ReactNode }) {
   return <Suspense fallback={<PageLoader />}>{children}</Suspense>;
@@ -64,6 +66,8 @@ const router = createBrowserRouter([
       { path: 'settings',                     element: <S><SettingsPage /></S> },
       { path: 'no-quiz-today',                element: <S><NoQuizTodayPage /></S> },
       { path: 'analysis',                     element: <S><AnalysisPage /></S> },
+      { path: 'admin',                        element: <S><AdminDashboardPage /></S> },
+      { path: 'auth/callback',                element: <S><AuthCallbackPage /></S> },
       // Catch-all for any unmatched route under '/' — keeps header/nav chrome.
       { path: '*',                            element: <S><NotFoundPage /></S> },
     ],

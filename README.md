@@ -28,6 +28,21 @@ npm run dev
 2. Follow the JSON schema (date + questions array with id/question/options/correctAnswer/explanation)
 3. Register in `src/services/quizService.ts` quizModules map
 
+## Web Search Assistant ("Search on Web")
+
+Tapping **Search on Web** during a test opens an in-app panel with:
+- A Wikipedia summary — works out of the box, no setup (public, keyless API).
+- General web results + government-source detection — needs a one-time Edge Function deploy:
+
+```bash
+# 1. Get a key from your search provider of choice (defaults wired to Brave Search: https://brave.com/search/api/)
+supabase secrets set BRAVE_SEARCH_API_KEY=your-key-here
+# 2. Deploy (no JWT check — usable while signed out, like the rest of quiz-taking)
+supabase functions deploy web-search --no-verify-jwt
+```
+
+See `supabase/functions/web-search/index.ts` to swap in a different provider — the frontend contract (`POST { query } -> { query, references }`) stays the same regardless of which one you use.
+
 ## Tech Stack
 React 19 + TypeScript + Vite + Tailwind CSS + Zustand + IndexedDB + Framer Motion + Recharts
 

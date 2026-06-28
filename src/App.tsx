@@ -2,14 +2,21 @@ import { useEffect } from 'react';
 import { Toaster } from 'react-hot-toast';
 import AppRouter from './routes/AppRouter';
 import { useSettingsStore, applyTheme } from './store/statsStore';
+import { useAuthStore } from './store/authStore';
+import { initSyncListeners } from './services/syncService';
 import { PWAUpdateNotifier } from './components/common/PWAComponents';
 import { GlobalErrorBoundary } from './components/common/GlobalErrorBoundary';
 
 function App() {
   const { load, settings } = useSettingsStore();
+  const { init: initAuth } = useAuthStore();
 
   useEffect(() => { load(); }, []);
   useEffect(() => { applyTheme(settings.theme); }, [settings.theme]);
+  useEffect(() => {
+    initAuth();
+    initSyncListeners();
+  }, []);
 
   return (
     <>

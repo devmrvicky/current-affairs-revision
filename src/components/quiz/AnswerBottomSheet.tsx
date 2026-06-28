@@ -13,6 +13,8 @@ interface AnswerBottomSheetProps {
   showExplanation: boolean;
   /** 0 = auto-next disabled; otherwise seconds to wait before auto-advancing */
   autoNextSeconds: number;
+  /** When true (manual pause), freeze the auto-next countdown without losing remaining time */
+  frozen?: boolean;
 }
 
 export function AnswerBottomSheet({
@@ -24,6 +26,7 @@ export function AnswerBottomSheet({
   onClose,
   showExplanation,
   autoNextSeconds,
+  frozen = false,
 }: AnswerBottomSheetProps) {
   const isOpen = attempt !== null;
   const isCorrect = attempt?.status === 'correct';
@@ -36,7 +39,7 @@ export function AnswerBottomSheet({
   }, [isOpen, attempt?.questionId, autoNextSeconds]);
 
   useEffect(() => {
-    if (!isOpen || autoNextSeconds <= 0 || isLastQuestion) return;
+    if (!isOpen || autoNextSeconds <= 0 || isLastQuestion || frozen) return;
     if (secondsLeft <= 0) {
       onNext();
       return;
@@ -44,7 +47,7 @@ export function AnswerBottomSheet({
     const t = setTimeout(() => setSecondsLeft((s) => s - 1), 1000);
     return () => clearTimeout(t);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [isOpen, autoNextSeconds, secondsLeft, isLastQuestion]);
+  }, [isOpen, autoNextSeconds, secondsLeft, isLastQuestion, frozen]);
 
   const autoNextActive = isOpen && autoNextSeconds > 0 && !isLastQuestion;
 
@@ -240,7 +243,7 @@ export function AnswerBottomSheet({
                 )}
                 <span className="relative">
                   {isLastQuestion ? 'View Results' : 'Next Question'}
-                  {autoNextActive && ` (${secondsLeft})`}
+                  {autoNextActive && (frozen ? ' (paused)' : ` (${secondsLeft})`)}
                 </span>
                 <ArrowRight size={18} className="relative" />
               </motion.button>

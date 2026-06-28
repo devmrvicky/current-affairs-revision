@@ -1,5 +1,5 @@
 import { useEffect, useState, useMemo, useRef } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   ArrowLeft, BookOpen, ListChecks, Sparkles, Star,
@@ -17,6 +17,7 @@ import { ReadingModeOverlay } from '../components/reader/ReadingModeOverlay';
 import { HighlightMenu } from '../components/reader/HighlightMenu';
 import { ChapterSearch } from '../components/reader/ChapterSearch';
 import { QuickRevisionPanel } from '../components/reader/QuickRevisionPanel';
+import { FloatingQuickRevisionButton } from '../components/reader/FloatingQuickRevisionButton';
 import { ExamRevisionMode } from '../components/reader/ExamRevisionMode';
 import { EmptyState } from '../components/common/EmptyState';
 import type { HighlightColor } from '../types';
@@ -27,6 +28,7 @@ export default function ChapterDetailPage() {
   const { chapterName: rawChapterName } = useParams<{ chapterName: string }>();
   const chapterName = decodeURIComponent(rawChapterName ?? '');
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
   const { startSession } = useQuizStore();
   const { getByFileName: getTestStats, load: loadChapterStats } = useChapterStore();
   const {
@@ -86,6 +88,57 @@ export default function ChapterDetailPage() {
       if (seconds > 3) incrementReadingTime(chapterName, seconds);
     };
   }, [tab, readingMode, chapterName]);
+
+  function flashElement(el: Element) {
+    el.classList.remove('revision-jump-flash');
+    // restart the animation even if the same element was just flashed
+    void (el as HTMLElement).offsetWidth;
+    el.classList.add('revision-jump-flash');
+    setTimeout(() => el.classList.remove('revision-jump-flash'), 1600);
+  }
+
+  function handleJumpToHeading(id: string) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    flashElement(el);
+    setSearchParams((prev) => {
+      const next = new URLSearchParams(prev);
+      next.set('section', id);
+      return next;
+    }, { replace: true });
+  }
+
+  function handleJumpToHighlight(highlightId: string) {
+    const el = document.querySelector(`[data-highlight-id="${highlightId}"]`);
+    if (!el) return;
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    flashElement(el);
+  }
+
+  // Deep linking: /chapter/X?section=some-heading-slug scrolls there on load.
+  // Retries briefly since the markdown DOM needs a render pass after `markdown` loads.
+  useEffect(() => {
+    if (!markdown || tab !== 'revision' || readingMode) return;
+    const section = searchParams.get('section');
+    if (!section) return;
+    let attempts = 0;
+    let cancelled = false;
+    const tryScroll = () => {
+      if (cancelled) return;
+      const el = document.getElementById(section);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        flashElement(el);
+      } else if (attempts < 10) {
+        attempts++;
+        setTimeout(tryScroll, 150);
+      }
+    };
+    requestAnimationFrame(tryScroll);
+    return () => { cancelled = true; };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [markdown, tab, readingMode]);
 
   async function handleStartTest(relPath: string) {
     setStartingTest(relPath);
@@ -278,16 +331,28 @@ export default function ChapterDetailPage() {
                     />
                   </div>
 
-                  {/* Sidebar */}
-                  <div className="lg:w-72 flex-shrink-0">
+                  {/* Sidebar — desktop/tablet only; mobile gets the floating button below */}
+                  <div className="hidden lg:block lg:w-72 flex-shrink-0">
                     <QuickRevisionPanel
                       content={markdown}
                       highlights={chapterHighlights}
                       notes={chapterNotes}
+                      onJumpToHeading={handleJumpToHeading}
+                      onJumpToHighlight={handleJumpToHighlight}
                       onExamMode={() => setExamMode(true)}
                     />
                   </div>
                 </div>
+
+                {/* Mobile/tablet: floating draggable Quick Revision button (replaces the sidebar below lg) */}
+                <FloatingQuickRevisionButton
+                  content={markdown}
+                  highlights={chapterHighlights}
+                  notes={chapterNotes}
+                  onJumpToHeading={handleJumpToHeading}
+                  onJumpToHighlight={handleJumpToHighlight}
+                  onExamMode={() => setExamMode(true)}
+                />
 
                 {/* Highlight menu for inline (non-reading-mode) selection */}
                 <HighlightMenu

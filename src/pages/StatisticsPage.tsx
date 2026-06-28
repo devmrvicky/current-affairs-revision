@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { parseDateKey } from '../utils';
 import {
   LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
   ResponsiveContainer, Legend, AreaChart, Area
@@ -84,7 +85,7 @@ export default function StatisticsPage() {
   const chartData = stats.dailyStats
     .slice(-14)
     .map((d) => ({
-      date: new Date(d.date).toLocaleDateString('en-IN', { day: '2-digit', month: 'short' }),
+      date: parseDateKey(d.date).toLocaleDateString('en-IN', { day: '2-digit', month: 'short' }),
       accuracy: d.accuracy,
       score: d.avgScore,
       questions: d.totalQuestions,
@@ -96,7 +97,7 @@ export default function StatisticsPage() {
   const weeklyData = (() => {
     const map: Record<string, { week: string; accuracy: number; questions: number; count: number }> = {};
     stats.dailyStats.forEach((d) => {
-      const dt = new Date(d.date);
+      const dt = parseDateKey(d.date);
       const weekStart = new Date(dt);
       weekStart.setDate(dt.getDate() - dt.getDay());
       const key = weekStart.toLocaleDateString('en-IN', { day: '2-digit', month: 'short' });
@@ -248,7 +249,7 @@ export default function StatisticsPage() {
                   <tr key={day.date} style={{ borderBottom: '1px solid var(--border)' }}
                     className="hover:bg-gray-50 dark:hover:bg-white/5 transition-colors">
                     <td className="py-3 font-medium" style={{ color: 'var(--text-primary)' }}>
-                      {new Date(day.date).toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: '2-digit' })}
+                      {parseDateKey(day.date).toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: '2-digit' })}
                     </td>
                     <td className="py-3" style={{ color: 'var(--text-secondary)' }}>{day.testsAttempted}</td>
                     <td className="py-3" style={{ color: 'var(--text-secondary)' }}>{day.totalQuestions}</td>

@@ -46,7 +46,7 @@ export function QuizTimer({ startTime, totalPausedTime, isPaused, pausedAt, onTi
     }`}>
       <Timer size={13} className="flex-shrink-0" />
       {isPaused ? (
-        <span className="animate-pulse">Paused</span>
+        <span className="animate-pulse">⏸ Timer Paused</span>
       ) : (
         <span>{formatTime(elapsed)}</span>
       )}

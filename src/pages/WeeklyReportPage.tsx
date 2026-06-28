@@ -5,7 +5,7 @@ import { Calendar, TrendingUp, TrendingDown, CheckCircle2, XCircle, Target, Flam
 import { useStatisticsStore } from '../store/statsStore';
 import { useHistoryStore } from '../store/historyStore';
 import { EmptyState } from '../components/common/EmptyState';
-import { getBadge, getBadgeColors, formatDateKey } from '../utils';
+import { getBadge, getBadgeColors, formatDateKey, parseDateKey } from '../utils';
 import type { WeeklyReport } from '../types';
 
 function getWeekStart(date: Date): Date {
@@ -23,7 +23,7 @@ function buildWeeklyReport(dailyStats: { date: string; totalQuestions: number; c
   const targetWeekEnd = new Date(targetWeekStart.getTime() + 6 * 24 * 60 * 60 * 1000);
 
   const weekStats = dailyStats.filter((s) => {
-    const d = new Date(s.date);
+    const d = parseDateKey(s.date);
     return d >= targetWeekStart && d <= targetWeekEnd;
   });
 
@@ -115,8 +115,8 @@ export default function WeeklyReportPage() {
             Weekly Report
           </h1>
           <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
-            {new Date(report.weekStart).toLocaleDateString('en-IN', { day: '2-digit', month: 'short' })} –{' '}
-            {new Date(report.weekEnd).toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' })}
+            {parseDateKey(report.weekStart).toLocaleDateString('en-IN', { day: '2-digit', month: 'short' })} –{' '}
+            {parseDateKey(report.weekEnd).toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' })}
           </p>
         </div>
       </div>

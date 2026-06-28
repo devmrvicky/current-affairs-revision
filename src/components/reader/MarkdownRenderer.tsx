@@ -155,6 +155,11 @@ export const MarkdownRenderer = memo(function MarkdownRenderer({
                 : children}
             </blockquote>
           ),
+          table: ({ children }) => (
+            <div className="overflow-x-auto -mx-1 px-1">
+              <table>{children}</table>
+            </div>
+          ),
           strong: ({ children }) => (
             <strong>
               {typeof children === 'string'

@@ -1,6 +1,8 @@
 import { Outlet, NavLink, useLocation } from 'react-router-dom';
-import { Home, Clock, BarChart3, Settings, BookOpen, Moon, Sun, Calendar, Brain, Layers, AlertTriangle, Sparkles } from 'lucide-react';
+import { Home, Clock, BarChart3, Settings, BookOpen, Moon, Sun, Calendar, Brain, Layers, AlertTriangle, Sparkles, ShieldCheck } from 'lucide-react';
 import { useSettingsStore } from '../store/statsStore';
+import { useAuthStore } from '../store/authStore';
+import { SyncStatusIndicator } from '../components/common/SyncStatusIndicator';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const NAV = [
@@ -14,10 +16,14 @@ const NAV = [
   { to: '/settings',                      icon: Settings,      label: 'Settings' },
 ];
 
+const ADMIN_NAV_ITEM = { to: '/admin', icon: ShieldCheck, label: 'Admin' };
+
 export default function AppLayout() {
   const { settings, update } = useSettingsStore();
+  const { isAdmin } = useAuthStore();
   const location = useLocation();
   const isQuizPage = location.pathname === '/quiz' || location.pathname === '/analysis';
+  const navItems = isAdmin ? [...NAV, ADMIN_NAV_ITEM] : NAV;
 
   function toggleTheme() {
     update({ theme: settings.theme === 'dark' ? 'light' : 'dark' });
@@ -37,16 +43,19 @@ export default function AppLayout() {
                 CurrentAffairs<span className="gradient-text">Pro</span>
               </span>
             </div>
-            <button
-              onClick={toggleTheme}
-              className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
-              aria-label="Toggle theme"
-            >
-              {settings.theme === 'dark'
-                ? <Sun size={18} className="text-amber-400" />
-                : <Moon size={18} style={{ color: 'var(--text-secondary)' }} />
-              }
-            </button>
+            <div className="flex items-center gap-3">
+              <SyncStatusIndicator />
+              <button
+                onClick={toggleTheme}
+                className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
+                aria-label="Toggle theme"
+              >
+                {settings.theme === 'dark'
+                  ? <Sun size={18} className="text-amber-400" />
+                  : <Moon size={18} style={{ color: 'var(--text-secondary)' }} />
+                }
+              </button>
+            </div>
           </div>
         </header>
       )}
@@ -75,7 +84,7 @@ export default function AppLayout() {
               className="flex items-stretch gap-0.5 h-16 px-1 overflow-x-auto no-scrollbar"
               style={{ scrollSnapType: 'x proximity' }}
             >
-              {NAV.map(({ to, icon: Icon, label }) => (
+              {navItems.map(({ to, icon: Icon, label }) => (
                 <NavLink
                   key={to}
                   to={to}
@@ -102,7 +111,7 @@ export default function AppLayout() {
 
           {/* Desktop Sidebar */}
           <aside className="hidden md:flex fixed left-4 top-1/2 -translate-y-1/2 z-40 flex-col gap-1.5 card p-2">
-            {NAV.map(({ to, icon: Icon, label }) => (
+            {navItems.map(({ to, icon: Icon, label }) => (
               <NavLink
                 key={to}
                 to={to}

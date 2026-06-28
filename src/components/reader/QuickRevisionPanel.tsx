@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ListTree, Sparkles, ChevronRight, FileDown } from 'lucide-react';
+import { ListTree, Sparkles, ChevronRight } from 'lucide-react';
+import GithubSlugger from 'github-slugger';
 import type { Highlight, ReaderNote } from '../../types';
 
 interface OutlineItem {
@@ -14,30 +15,54 @@ interface QuickRevisionPanelProps {
   highlights: Highlight[];
   notes: ReaderNote[];
   onJumpToHeading?: (id: string) => void;
+  onJumpToHighlight?: (id: string) => void;
   onExamMode: () => void;
+  /** 'sidebar' (default) keeps the existing sticky desktop styling.
+   *  'sheet' drops the sticky/max-height wrapper so the panel can be
+   *  embedded inside a mobile bottom sheet, which provides its own
+   *  scroll container and sizing. */
+  variant?: 'sidebar' | 'sheet';
 }
 
+/**
+ * Mirrors rehype-slug exactly by using the same underlying slugger, so a
+ * Key Point's id always matches the id actually assigned to the rendered
+ * heading in MarkdownRenderer — including duplicate-heading suffixes
+ * (-1, -2…) and punctuation handling (em-dashes, ampersands, etc.) that a
+ * hand-rolled regex would get subtly wrong.
+ */
 function extractOutline(markdown: string): OutlineItem[] {
   const lines = markdown.split('\n');
   const items: OutlineItem[] = [];
+  const slugger = new GithubSlugger();
+  let inFence = false;
   for (const line of lines) {
-    const match = line.match(/^(#{1,3})\s+(.+)$/);
+    if (/^```/.test(line.trim())) { inFence = !inFence; continue; }
+    if (inFence) continue;
+    const match = line.match(/^(#{1,6})\s+(.+)$/);
     if (match) {
       const level = match[1].length;
       const text = match[2].replace(/[*_`]/g, '').trim();
-      const id = text.toLowerCase().replace(/[^\w]+/g, '-').replace(/^-+|-+$/g, '');
-      items.push({ level, text, id });
+      // Slug every heading, not just h1-h3, so duplicate-suffix numbering
+      // stays in sync with rehype-slug (which slugs the whole document).
+      const id = slugger.slug(text);
+      if (level <= 3) items.push({ level, text, id });
     }
   }
   return items;
 }
 
-export function QuickRevisionPanel({ content, highlights, notes, onJumpToHeading, onExamMode }: QuickRevisionPanelProps) {
+export function QuickRevisionPanel({
+  content, highlights, notes, onJumpToHeading, onJumpToHighlight, onExamMode, variant = 'sidebar',
+}: QuickRevisionPanelProps) {
   const [tab, setTab] = useState<'outline' | 'highlights'>('outline');
   const outline = useMemo(() => extractOutline(content), [content]);
+  const wrapperClass = variant === 'sidebar'
+    ? 'card p-4 sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto'
+    : 'p-1';
 
   return (
-    <div className="card p-4 sticky top-20 max-h-[calc(100vh-6rem)] overflow-y-auto">
+    <div className={wrapperClass}>
       <div className="flex items-center gap-2 mb-3">
         <ListTree size={16} className="text-brand-500" />
         <h3 className="font-display font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>
@@ -106,13 +131,14 @@ export function QuickRevisionPanel({ content, highlights, notes, onJumpToHeading
               <p className="text-xs" style={{ color: 'var(--text-muted)' }}>No highlights yet. Select text to highlight.</p>
             ) : (
               highlights.slice(0, 8).map((h) => (
-                <div
+                <button
                   key={h.id}
-                  className={`p-2 rounded-lg text-xs reader-highlight-${h.color}`}
+                  onClick={() => onJumpToHighlight?.(h.id)}
+                  className={`w-full text-left p-2 rounded-lg text-xs reader-highlight-${h.color} hover:opacity-80 transition-opacity`}
                   style={{ color: '#1a1a1a' }}
                 >
                   {h.text.slice(0, 80)}{h.text.length > 80 ? '…' : ''}
-                </div>
+                </button>
               ))
             )}
             {notes.length > 0 && (

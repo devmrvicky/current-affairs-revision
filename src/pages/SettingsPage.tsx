@@ -9,6 +9,7 @@ import toast from 'react-hot-toast';
 import { useSettingsStore } from '../store/statsStore';
 import { useNotificationStore } from '../store/notificationStore';
 import { useDailyGoalStore } from '../store/dailyGoalStore';
+import { AccountSyncCard } from '../components/auth/AccountSyncCard';
 import type { Settings as SettingsType } from '../types';
 
 interface ToggleProps {
@@ -151,6 +152,9 @@ export default function SettingsPage() {
           <p className="text-sm" style={{ color: 'var(--text-muted)' }}>Customize your experience</p>
         </div>
       </div>
+
+      {/* Account & Sync */}
+      <AccountSyncCard />
 
       {/* Theme */}
       <div className="card p-5">

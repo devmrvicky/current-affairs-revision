@@ -117,6 +117,16 @@
 
 .prose-reader {
   color: var(--text-primary);
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.prose-reader img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 0.75rem;
 }
 
 .prose-reader h1 {
@@ -169,6 +179,8 @@
   @apply font-mono text-sm px-1.5 py-0.5 rounded;
   background: var(--border);
   color: var(--brand);
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .prose-reader pre {
@@ -179,10 +191,31 @@
 
 .prose-reader pre code {
   @apply bg-transparent p-0;
+  white-space: pre;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+/* Brief flash applied to whatever element a Key Point / highlight jump lands on */
+.revision-jump-flash {
+  animation: revision-jump-flash-pulse 1.6s ease-out;
+  border-radius: 0.5rem;
+}
+@keyframes revision-jump-flash-pulse {
+  0% { background-color: rgba(245, 158, 11, 0.35); }
+  100% { background-color: transparent; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .revision-jump-flash {
+    animation: none;
+    outline: 2px solid var(--brand);
+    outline-offset: 2px;
+  }
 }
 
 .prose-reader table {
-  @apply w-full border-collapse mb-5 text-sm;
+  @apply border-collapse mb-5 text-sm;
+  min-width: 100%;
 }
 
 .prose-reader thead {

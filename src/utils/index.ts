@@ -82,6 +82,21 @@ export function formatDateKey(date: Date): string {
   return `${y}-${m}-${d}`;
 }
 
+/**
+ * Inverse of formatDateKey. Parses a `YYYY-MM-DD` key into a Date at local
+ * midnight on that calendar day.
+ *
+ * Deliberately avoids `new Date(dateKeyString)` — the JS spec parses a
+ * date-only string as UTC midnight, and combining that with local-timezone
+ * reads (toLocaleDateString, getFullYear/getMonth/getDate) silently shows
+ * the wrong calendar day for anyone west of UTC. Always go through this
+ * helper (or keep working with the string key directly) instead.
+ */
+export function parseDateKey(dateKey: string): Date {
+  const [y, m, d] = dateKey.split('-').map(Number);
+  return new Date(y, (m || 1) - 1, d || 1);
+}
+
 export function formatRelativeDate(ts: number): string {
   const now = Date.now();
   const diff = now - ts;
@@ -117,6 +132,24 @@ export function getBadgeColors(badge: PerformanceBadge) {
 }
 
 // ─── Option Labels ────────────────────────────────────────────────────────────
+
+/**
+ * Unbiased Fisher-Yates shuffle. Returns a new array — does not mutate input.
+ *
+ * `array.sort(() => Math.random() - 0.5)` (used previously) is a well-known
+ * anti-pattern: most sort implementations aren't guaranteed to call the
+ * comparator on every pair, so the result is measurably biased rather than
+ * a uniform random permutation. Use this instead anywhere a true shuffle is
+ * needed (question order, answer-option order, etc.).
+ */
+export function shuffleArray<T>(arr: T[]): T[] {
+  const result = [...arr];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
+}
 
 export function getOptionLabel(index: number): string {
   return String.fromCharCode(65 + index); // A, B, C, D
