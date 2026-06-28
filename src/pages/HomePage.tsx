@@ -22,6 +22,7 @@ import { DailyDashboard } from '../components/common/DailyDashboard';
 import { ContinueReadingWidget } from '../components/common/ContinueReadingWidget';
 import { useReaderStore } from '../store/readerStore';
 import { formatTime, formatDateKey } from '../utils';
+import { checkAndFireDueReminders, notifyStudyStreak } from '../services/notificationTriggers';
 
 function getGreeting(): string {
   const h = new Date().getHours();
@@ -49,12 +50,16 @@ export default function HomePage() {
   const todayKey = formatDateKey(today);
 
   useEffect(() => {
-    loadHistory();
-    loadStats();
-    loadWrongQs();
-    loadBookmarks();
-    loadGoal();
-    loadReaderData();
+    (async () => {
+      await Promise.all([loadHistory(), loadStats(), loadWrongQs(), loadBookmarks(), loadGoal(), loadReaderData()]);
+      // Run once everything reminders depend on (history, stats, wrong
+      // questions, daily goal, reading progress) has actually finished
+      // loading — checking only `stats` here would race against `tests`
+      // still being empty, risking a false "missed revision" notification.
+      checkAndFireDueReminders();
+      const freshStreak = useStatisticsStore.getState().stats?.currentStreak ?? 0;
+      if (freshStreak > 0) notifyStudyStreak(freshStreak);
+    })();
   }, []);
 
   // Rebuild smart queue whenever wrong questions or bookmarks change

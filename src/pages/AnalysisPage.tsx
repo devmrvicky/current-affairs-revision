@@ -12,7 +12,9 @@ import { useChapterStore } from '../store/chapterStore';
 import { useDailyGoalStore } from '../store/dailyGoalStore';
 import { buildAnalysis, sessionToSavedTest, formatDateKey } from '../utils';
 import { AnalysisOverview, QuestionReview } from '../components/analysis/AnalysisComponents';
-import { getAllChapterTestPaths, getChapterNameForTestPath } from '../services/chapterRepository';
+import { getAllChapterTestPaths, getChapterNameForTestPath, getChapterList } from '../services/chapterRepository';
+import { statsDB } from '../services/db';
+import { notifyTestCompleted, notifyChapterCompleted, checkAchievements } from '../services/notificationTriggers';
 
 type TabKey = 'overview' | 'all' | 'wrong' | 'correct' | 'bookmarked' | 'marked';
 
@@ -33,7 +35,7 @@ export default function AnalysisPage() {
   const { ingestFromAttempts } = useWrongQuestionsStore();
   const { syncFromAttempts: syncBookmarks } = useBookmarkStore();
   const { syncFromAttempts: syncMarkedReview } = useMarkedReviewStore();
-  const { recordAttempt: recordChapterAttempt } = useChapterStore();
+  const { recordAttempt: recordChapterAttempt, getAggregateForChapter } = useChapterStore();
   const { increment: incrementGoal } = useDailyGoalStore();
 
   const [saved, setSaved] = useState(false);
@@ -85,6 +87,20 @@ export default function AnalysisPage() {
           result.correct,
           result.totalQuestions
         );
+
+        const chapterInfo = getChapterList().find((c) => c.chapterName === chapterName);
+        const aggregate = getAggregateForChapter(chapterName);
+        if (chapterInfo && aggregate && aggregate.testsAttempted >= chapterInfo.tests.length) {
+          notifyChapterCompleted(chapterName);
+        }
+      }
+
+      notifyTestCompleted(result.score, result.correct, result.totalQuestions);
+      try {
+        const freshStats = await statsDB.get();
+        if (freshStats) checkAchievements(freshStats.totalTests, freshStats.averageAccuracy, result.score);
+      } catch {
+        // Achievement checks are a non-critical bonus — never block the save flow on them.
       }
 
       setSaved(true);

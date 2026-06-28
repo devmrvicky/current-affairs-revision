@@ -57,6 +57,9 @@ export default defineConfig({
         cleanupOutdatedCaches: true,
         skipWaiting: false,
         clientsClaim: false,
+        // Adds push/notificationclick/pushsubscriptionchange handlers on top
+        // of the generated service worker — see public/push-sw.js.
+        importScripts: ['push-sw.js'],
         // Navigation fallback for SPA routing
         navigateFallback: '/index.html',
         navigateFallbackDenylist: [/^\/_/, /\/[^/?]+\.[^/]+$/],

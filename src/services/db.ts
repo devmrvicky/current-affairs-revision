@@ -607,20 +607,95 @@ export const dailyGoalDB = {
 
 // ─── Notification Settings ────────────────────────────────────────────────────
 
-const DEFAULT_NOTIFICATION_SETTINGS: NotificationSettings = {
-  enabled: false,
-  dailyReminderEnabled: true,
-  dailyReminderTime: '09:00',
-  streakReminderEnabled: true,
-  weeklyReportEnabled: true,
-  soundEnabled: true,
+const DEFAULT_NOTIFICATION_CATEGORIES: NotificationSettings['categories'] = {
+  dailyRevisionReminder: true,
+  dailyQuizReminder: true,
+  studyStreak: true,
+  weeklyProgress: true,
+  revisionTargetCompleted: true,
+  chapterCompleted: true,
+  testCompleted: false, // off by default — fires right after the user already sees their result on-screen
+  wrongQuestionReview: true,
+  newChapterAdded: true,
+  continueReadingReminder: true,
+  incompleteTestReminder: true,
+  resumePreviousTest: true,
+  achievementUnlocked: true,
+  monthlySummary: true,
+  missedRevision: true,
+  longTimeNoStudy: true,
 };
+
+function defaultNotificationSettings(): NotificationSettings {
+  return {
+    enabled: false,
+    categories: { ...DEFAULT_NOTIFICATION_CATEGORIES },
+    reminderTime: '09:00',
+    quietHoursEnabled: true,
+    quietHoursStart: '22:00',
+    quietHoursEnd: '07:00',
+    soundEnabled: true,
+    vibrationEnabled: true,
+    deviceId: uuidv4(),
+  };
+}
+
+/**
+ * Migrates whatever shape happens to be stored (including the older 6-field
+ * version of this settings object, or nothing at all) into the current
+ * 16-category shape, preserving every choice the user already made instead
+ * of silently resetting them.
+ */
+function normalizeNotificationSettings(raw: unknown): NotificationSettings {
+  const fallback = defaultNotificationSettings();
+  if (!raw || typeof raw !== 'object') return fallback;
+  const r = raw as Record<string, unknown>;
+
+  // Old shape (pre-v10): dailyReminderEnabled, dailyReminderTime, streakReminderEnabled, weeklyReportEnabled
+  const legacyDaily = typeof r.dailyReminderEnabled === 'boolean' ? r.dailyReminderEnabled : undefined;
+  const legacyStreak = typeof r.streakReminderEnabled === 'boolean' ? r.streakReminderEnabled : undefined;
+  const legacyWeekly = typeof r.weeklyReportEnabled === 'boolean' ? r.weeklyReportEnabled : undefined;
+
+  const existingCategories = (r.categories && typeof r.categories === 'object') ? r.categories as Record<string, boolean> : {};
+  const categories = { ...DEFAULT_NOTIFICATION_CATEGORIES } as Record<string, boolean>;
+  for (const key of Object.keys(categories)) {
+    if (typeof existingCategories[key] === 'boolean') categories[key] = existingCategories[key];
+  }
+  // Fold legacy flags in wherever the new category hasn't been explicitly set yet
+  if (legacyDaily !== undefined && existingCategories.dailyRevisionReminder === undefined) {
+    categories.dailyRevisionReminder = legacyDaily;
+    categories.dailyQuizReminder = legacyDaily;
+  }
+  if (legacyStreak !== undefined && existingCategories.studyStreak === undefined) categories.studyStreak = legacyStreak;
+  if (legacyWeekly !== undefined && existingCategories.weeklyProgress === undefined) categories.weeklyProgress = legacyWeekly;
+
+  return {
+    enabled: typeof r.enabled === 'boolean' ? r.enabled : fallback.enabled,
+    categories: categories as NotificationSettings['categories'],
+    reminderTime: typeof r.reminderTime === 'string' ? r.reminderTime
+      : (typeof r.dailyReminderTime === 'string' ? r.dailyReminderTime : fallback.reminderTime),
+    quietHoursEnabled: typeof r.quietHoursEnabled === 'boolean' ? r.quietHoursEnabled : fallback.quietHoursEnabled,
+    quietHoursStart: typeof r.quietHoursStart === 'string' ? r.quietHoursStart : fallback.quietHoursStart,
+    quietHoursEnd: typeof r.quietHoursEnd === 'string' ? r.quietHoursEnd : fallback.quietHoursEnd,
+    soundEnabled: typeof r.soundEnabled === 'boolean' ? r.soundEnabled : fallback.soundEnabled,
+    vibrationEnabled: typeof r.vibrationEnabled === 'boolean' ? r.vibrationEnabled : fallback.vibrationEnabled,
+    deviceId: typeof r.deviceId === 'string' && r.deviceId ? r.deviceId : fallback.deviceId,
+    fcmToken: typeof r.fcmToken === 'string' ? r.fcmToken : undefined,
+    pushEndpoint: typeof r.pushEndpoint === 'string' ? r.pushEndpoint : undefined,
+  };
+}
 
 export const notificationSettingsDB = {
   async get(): Promise<NotificationSettings> {
     const db = await getDB();
     const s = await db.get('notificationSettings', 'user' as never);
-    return (s as unknown as NotificationSettings) ?? { ...DEFAULT_NOTIFICATION_SETTINGS };
+    const normalized = normalizeNotificationSettings(s);
+    // Persist the migration once so the device id (and any folded-in legacy
+    // flags) are stable from here on, rather than re-migrating every read.
+    if (!s || (s as { deviceId?: string }).deviceId !== normalized.deviceId) {
+      await db.put('notificationSettings', { ...normalized, id: 'user' } as never);
+    }
+    return normalized;
   },
 
   async save(settings: NotificationSettings): Promise<void> {

@@ -85,11 +85,70 @@ function ThemeButton({ label, value, icon, current, onClick }: ThemeButtonProps)
   );
 }
 
+function CategoryRow({ label, enabled, onChange, disabled }: { label: string; enabled: boolean; onChange: (v: boolean) => void; disabled?: boolean }) {
+  return (
+    <div className={`flex items-center justify-between py-2.5 ${disabled ? 'opacity-50' : ''}`}>
+      <span className="text-sm" style={{ color: 'var(--text-secondary)' }}>{label}</span>
+      <button
+        onClick={() => !disabled && onChange(!enabled)}
+        disabled={disabled}
+        className={`relative w-9 h-5 rounded-full transition-colors duration-200 flex-shrink-0 ${
+          enabled ? 'bg-brand-500' : 'bg-gray-300 dark:bg-gray-600'
+        }`}
+        role="switch"
+        aria-checked={enabled}
+        aria-label={label}
+      >
+        <span className={`absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform duration-200 ${enabled ? 'translate-x-4' : 'translate-x-0'}`} />
+      </button>
+    </div>
+  );
+}
+
+const NOTIFICATION_CATEGORY_GROUPS: { title: string; items: { key: keyof import('../types').NotificationCategorySettings; label: string }[] }[] = [
+  {
+    title: 'Daily Reminders',
+    items: [
+      { key: 'dailyQuizReminder', label: "Today's quiz reminder" },
+      { key: 'dailyRevisionReminder', label: 'Daily revision reminder' },
+      { key: 'continueReadingReminder', label: 'Continue reading reminder' },
+      { key: 'resumePreviousTest', label: 'Resume previous test' },
+      { key: 'incompleteTestReminder', label: 'Incomplete test reminder' },
+    ],
+  },
+  {
+    title: 'Progress & Streaks',
+    items: [
+      { key: 'studyStreak', label: 'Study streak milestones' },
+      { key: 'weeklyProgress', label: 'Weekly progress' },
+      { key: 'monthlySummary', label: 'Monthly summary' },
+      { key: 'revisionTargetCompleted', label: 'Daily goal completed' },
+    ],
+  },
+  {
+    title: 'Tests & Chapters',
+    items: [
+      { key: 'testCompleted', label: 'Test completed' },
+      { key: 'chapterCompleted', label: 'Chapter completed' },
+      { key: 'achievementUnlocked', label: 'Achievement unlocked' },
+      { key: 'newChapterAdded', label: 'New chapter added' },
+    ],
+  },
+  {
+    title: 'Revision Health',
+    items: [
+      { key: 'wrongQuestionReview', label: 'Wrong question review due' },
+      { key: 'missedRevision', label: 'Missed revision' },
+      { key: 'longTimeNoStudy', label: "Haven't studied in a while" },
+    ],
+  },
+];
+
 export default function SettingsPage() {
   const { settings, load: loadSettings, update } = useSettingsStore();
   const {
     settings: notifSettings, permissionState,
-    load: loadNotif, save: saveNotif, requestPermission
+    load: loadNotif, save: saveNotif, setCategory: setNotifCategory, requestPermission
   } = useNotificationStore();
   const { goal, load: loadGoal, setTarget } = useDailyGoalStore();
   const [requestingPermission, setRequestingPermission] = useState(false);
@@ -322,57 +381,104 @@ export default function SettingsPage() {
           enabled={notifSettings.enabled}
           onChange={handleNotifToggle}
           label="Enable Notifications"
-          description="Get reminders and streak alerts"
+          description="Master switch for every reminder and alert below"
           icon={notifSettings.enabled
             ? <Bell size={16} style={{ color: 'var(--text-secondary)' }} />
             : <BellOff size={16} style={{ color: 'var(--text-secondary)' }} />
           }
           disabled={!notifSupported || requestingPermission}
         />
-        <Toggle
-          enabled={notifSettings.dailyReminderEnabled}
-          onChange={(v) => saveNotif({ dailyReminderEnabled: v })}
-          label="Daily Reminder"
-          description="Remind me to complete my daily revision"
-          icon={<Clock size={16} style={{ color: 'var(--text-secondary)' }} />}
-          disabled={!notifSettings.enabled}
-        />
-        {notifSettings.dailyReminderEnabled && notifSettings.enabled && (
+
+        {notifSettings.enabled && (
           <div className="flex items-center justify-between py-3 pl-12 border-b border-[var(--border)]">
             <span className="text-sm" style={{ color: 'var(--text-secondary)' }}>Reminder time</span>
             <input
               type="time"
-              value={notifSettings.dailyReminderTime}
-              onChange={(e) => saveNotif({ dailyReminderTime: e.target.value })}
+              value={notifSettings.reminderTime}
+              onChange={(e) => saveNotif({ reminderTime: e.target.value })}
               className="text-sm font-medium rounded-lg px-2 py-1 border outline-none focus:border-brand-400"
               style={{ background: 'var(--card)', borderColor: 'var(--border)', color: 'var(--text-primary)' }}
             />
           </div>
         )}
+
         <Toggle
-          enabled={notifSettings.streakReminderEnabled}
-          onChange={(v) => saveNotif({ streakReminderEnabled: v })}
-          label="Streak Reminder"
-          description="Alert when your streak is about to break"
-          icon={<Flame size={16} style={{ color: 'var(--text-secondary)' }} />}
+          enabled={notifSettings.quietHoursEnabled}
+          onChange={(v) => saveNotif({ quietHoursEnabled: v })}
+          label="Quiet Hours"
+          description={`No notifications between ${notifSettings.quietHoursStart} and ${notifSettings.quietHoursEnd}`}
+          icon={<Clock size={16} style={{ color: 'var(--text-secondary)' }} />}
+          disabled={!notifSettings.enabled}
+        />
+        {notifSettings.enabled && notifSettings.quietHoursEnabled && (
+          <div className="flex items-center justify-between gap-3 py-3 pl-12 border-b border-[var(--border)]">
+            <div className="flex items-center gap-2">
+              <input
+                type="time"
+                value={notifSettings.quietHoursStart}
+                onChange={(e) => saveNotif({ quietHoursStart: e.target.value })}
+                className="text-sm font-medium rounded-lg px-2 py-1 border outline-none focus:border-brand-400"
+                style={{ background: 'var(--card)', borderColor: 'var(--border)', color: 'var(--text-primary)' }}
+              />
+              <span className="text-xs" style={{ color: 'var(--text-muted)' }}>to</span>
+              <input
+                type="time"
+                value={notifSettings.quietHoursEnd}
+                onChange={(e) => saveNotif({ quietHoursEnd: e.target.value })}
+                className="text-sm font-medium rounded-lg px-2 py-1 border outline-none focus:border-brand-400"
+                style={{ background: 'var(--card)', borderColor: 'var(--border)', color: 'var(--text-primary)' }}
+              />
+            </div>
+          </div>
+        )}
+
+        <Toggle
+          enabled={notifSettings.soundEnabled}
+          onChange={(v) => saveNotif({ soundEnabled: v })}
+          label="Sound"
+          icon={notifSettings.soundEnabled
+            ? <Volume2 size={16} style={{ color: 'var(--text-secondary)' }} />
+            : <VolumeX size={16} style={{ color: 'var(--text-secondary)' }} />
+          }
           disabled={!notifSettings.enabled}
         />
         <Toggle
-          enabled={notifSettings.weeklyReportEnabled}
-          onChange={(v) => saveNotif({ weeklyReportEnabled: v })}
-          label="Weekly Report"
-          description="Receive your weekly performance summary"
-          icon={<Target size={16} style={{ color: 'var(--text-secondary)' }} />}
+          enabled={notifSettings.vibrationEnabled}
+          onChange={(v) => saveNotif({ vibrationEnabled: v })}
+          label="Vibration"
+          icon={<Smartphone size={16} style={{ color: 'var(--text-secondary)' }} />}
           disabled={!notifSettings.enabled}
         />
 
-        {/* FCM Info */}
+        {notifSettings.enabled && (
+          <div className="mt-2">
+            {NOTIFICATION_CATEGORY_GROUPS.map((group) => (
+              <div key={group.title} className="mb-1">
+                <p className="text-xs font-semibold uppercase tracking-wide pt-4 pb-1" style={{ color: 'var(--text-muted)' }}>
+                  {group.title}
+                </p>
+                <div className="divide-y divide-[var(--border)]">
+                  {group.items.map((item) => (
+                    <CategoryRow
+                      key={item.key}
+                      label={item.label}
+                      enabled={notifSettings.categories[item.key]}
+                      onChange={(v) => setNotifCategory(item.key, v)}
+                    />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* Push (closed-app) info */}
         <div className="mt-4 p-3 rounded-xl" style={{ background: 'var(--bg)' }}>
-          <p className="text-xs font-semibold mb-1" style={{ color: 'var(--text-muted)' }}>PUSH NOTIFICATIONS (FCM)</p>
+          <p className="text-xs font-semibold mb-1" style={{ color: 'var(--text-muted)' }}>NOTIFICATIONS WHEN THE APP IS CLOSED</p>
           <p className="text-xs leading-relaxed" style={{ color: 'var(--text-muted)' }}>
-            For push notifications when the app is closed, configure Firebase in{' '}
-            <code className="px-1 rounded text-brand-500" style={{ background: 'var(--border)' }}>.env</code>.
-            See README for setup instructions.
+            Everything above works while the app is open. For reminders to reach you while it's closed, set{' '}
+            <code className="px-1 rounded text-brand-500" style={{ background: 'var(--border)' }}>VITE_VAPID_PUBLIC_KEY</code>{' '}
+            and deploy the scheduled push function — see README.
           </p>
         </div>
       </div>

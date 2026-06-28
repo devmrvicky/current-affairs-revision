@@ -215,14 +215,41 @@ export interface DailyGoal {
 
 // ─── Notification Settings ────────────────────────────────────────────────────
 
+export interface NotificationCategorySettings {
+  dailyRevisionReminder: boolean;
+  dailyQuizReminder: boolean;
+  studyStreak: boolean;
+  weeklyProgress: boolean;
+  revisionTargetCompleted: boolean;
+  chapterCompleted: boolean;
+  testCompleted: boolean;
+  wrongQuestionReview: boolean;
+  newChapterAdded: boolean;
+  continueReadingReminder: boolean;
+  incompleteTestReminder: boolean;
+  resumePreviousTest: boolean;
+  achievementUnlocked: boolean;
+  monthlySummary: boolean;
+  missedRevision: boolean;
+  longTimeNoStudy: boolean;
+}
+
 export interface NotificationSettings {
   enabled: boolean;
-  dailyReminderEnabled: boolean;
-  dailyReminderTime: string;          // "HH:MM"
-  streakReminderEnabled: boolean;
-  weeklyReportEnabled: boolean;
+  categories: NotificationCategorySettings;
+  /** "HH:MM", used for the daily revision/quiz reminder categories */
+  reminderTime: string;
+  quietHoursEnabled: boolean;
+  quietHoursStart: string; // "HH:MM"
+  quietHoursEnd: string;   // "HH:MM"
   soundEnabled: boolean;
+  vibrationEnabled: boolean;
+  /** Stable per-install id, generated once, used to target server-sent push without requiring sign-in. */
+  deviceId: string;
+  /** Optional FCM token, kept for backward compatibility with any existing Firebase setup. */
   fcmToken?: string;
+  /** Set once the browser's standard Web Push subscription has been created. */
+  pushEndpoint?: string;
 }
 
 // ─── Smart Revision Queue Item ────────────────────────────────────────────────
