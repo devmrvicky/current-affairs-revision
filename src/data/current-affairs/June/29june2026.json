@@ -1,0 +1,488 @@
+{
+  "data": "29 June 2026",
+  "questions": [
+    {
+      "id": 1,
+      "question": "हाल ही में दुनिया की पहली न्यूक्लियर प्रोसेस हीट-बेस्ड हाइड्रोजन प्रोडक्शन सुविधा किसने शुरू की है?",
+      "options": ["भारत", "रूस", "यूएसए", "चीन"],
+      "correctAnswer": "भारत",
+      "explanation": "भारत ने दुनिया की पहली nuclear process heat-based hydrogen production facility शुरू की। यह तमिलनाडु के कलपक्कम में IGCAR के Fast Breeder Test Reactor से उत्पन्न ऊष्मा का उपयोग करती है।"
+    },
+    {
+      "id": 2,
+      "question": "विश्व की पहली न्यूक्लियर हाइड्रोजन प्रोडक्शन सुविधा किस तकनीक पर आधारित है?",
+      "options": ["Iron-Sulfur Cycle", "Copper-Chlorine (Cu-Cl) Thermochemical Cycle", "Steam Methane Reforming", "Alkaline Electrolysis"],
+      "correctAnswer": "Copper-Chlorine (Cu-Cl) Thermochemical Cycle",
+      "explanation": "यह सुविधा Copper-Chlorine (Cu-Cl) Thermochemical Cycle पर आधारित है जो nuclear process heat का उपयोग करती है।"
+    },
+    {
+      "id": 3,
+      "question": "भारत की परमाणु ऊर्जा विभाग की पहली न्यूक्लियर हाइड्रोजन सुविधा किस संस्था ने विकसित की?",
+      "options": ["ISRO", "DRDO", "BARC (भाभा परमाणु अनुसंधान केंद्र)", "ONGC"],
+      "correctAnswer": "BARC (भाभा परमाणु अनुसंधान केंद्र)",
+      "explanation": "BARC (Bhabha Atomic Research Centre) ने इस nuclear hydrogen production facility को विकसित किया है।"
+    },
+    {
+      "id": 4,
+      "question": "भारत की न्यूक्लियर हाइड्रोजन प्रोडक्शन सुविधा कहाँ स्थित है?",
+      "options": ["मुंबई", "तारापुर", "कलपक्कम (तमिलनाडु)", "नरोरा (UP)"],
+      "correctAnswer": "कलपक्कम (तमिलनाडु)",
+      "explanation": "यह सुविधा IGCAR, कलपक्कम, तमिलनाडु में स्थित है। यहाँ का Fast Breeder Test Reactor इसके लिए गर्मी प्रदान करता है।"
+    },
+    {
+      "id": 5,
+      "question": "भारत के कौन से चार प्रमुख न्यूक्लियर पावर प्लांट क्रमशः महाराष्ट्र, कर्नाटक, UP और गुजरात में हैं?",
+      "options": ["तारापुर, कैगा, नरोरा, काकरपार", "कुडनकुलम, रावतभाटा, कैगा, काकरपार", "तारापुर, कुडनकुलम, नरोरा, रावतभाटा", "कैगा, तारापुर, काकरपार, नरोरा"],
+      "correctAnswer": "तारापुर, कैगा, नरोरा, काकरपार",
+      "explanation": "तारापुर (MH), कैगा (KR), नरोरा (UP), और काकरपार (Guj) भारत के प्रमुख न्यूक्लियर पावर प्लांट हैं।"
+    },
+    {
+      "id": 6,
+      "question": "वर्ष 2024 में भारत ने दुनिया की शीर्ष पर्यटन अर्थव्यवस्थाओं में कौनसा स्थान हासिल किया है?",
+      "options": ["5वाँ", "6वाँ", "7वाँ", "8वाँ"],
+      "correctAnswer": "8वाँ",
+      "explanation": "Travel & Tourism Development Report (WEF) के अनुसार भारत 2024 में दुनिया की शीर्ष पर्यटन अर्थव्यवस्थाओं में 8वें स्थान पर है।"
+    },
+    {
+      "id": 7,
+      "question": "Travel & Tourism Development Report किस संस्था द्वारा जारी की जाती है?",
+      "options": ["UNWTO", "WEF (विश्व आर्थिक मंच)", "World Bank", "IMF"],
+      "correctAnswer": "WEF (विश्व आर्थिक मंच)",
+      "explanation": "Travel & Tourism Development Report WEF (World Economic Forum) द्वारा जारी की जाती है। WEF का मुख्यालय दावोस, स्विट्जरलैंड में है।"
+    },
+    {
+      "id": 8,
+      "question": "2024 में पर्यटन अर्थव्यवस्था में भारत का Overall Ranking क्या था?",
+      "options": ["25वाँ", "35वाँ", "39वाँ", "45वाँ"],
+      "correctAnswer": "39वाँ",
+      "explanation": "भारत का Overall Ranking 39वाँ था जबकि पर्यटन अर्थव्यवस्था में 8वाँ स्थान मिला।"
+    },
+    {
+      "id": 9,
+      "question": "WTTC के अनुसार, अगले एक दशक में भारत वैश्विक पर्यटन में किस स्थान पर पहुँचेगा?",
+      "options": ["दूसरे", "तीसरे", "चौथे", "पाँचवें"],
+      "correctAnswer": "चौथे",
+      "explanation": "WTTC (World Travel & Tourism Council) के अनुसार, भारत अगले एक दशक में वैश्विक पर्यटन में 4th position पर पहुँचेगा।"
+    },
+    {
+      "id": 10,
+      "question": "पर्यटन में भारत का कुल आर्थिक योगदान कितना है?",
+      "options": ["US$ 131.6 बिलियन", "US$ 231.6 बिलियन", "US$ 331.6 बिलियन", "US$ 431.6 बिलियन"],
+      "correctAnswer": "US$ 231.6 बिलियन",
+      "explanation": "पर्यटन में भारत का कुल आर्थिक योगदान US$ 231.6 बिलियन है।"
+    },
+    {
+      "id": 11,
+      "question": "ग्वाटेमाला में स्थित 'वोल्कैन डी फ्यूगो' ज्वालामुखी में हाल ही में क्या हुआ?",
+      "options": ["बुझ गया", "जबरदस्त विस्फोट हुआ", "UNESCO स्थल घोषित हुआ", "नया नाम मिला"],
+      "correctAnswer": "जबरदस्त विस्फोट हुआ",
+      "explanation": "ग्वाटेमाला में 'Volcán de Fuego' ज्वालामुखी में हाल ही में जबरदस्त विस्फोट हुआ जिससे Pyroclastic Flow निकला।"
+    },
+    {
+      "id": 12,
+      "question": "Pyroclastic Flow किसके साथ जुड़ा है?",
+      "options": ["बाढ़", "ज्वालामुखी विस्फोट", "भूकंप", "सूनामी"],
+      "correctAnswer": "ज्वालामुखी विस्फोट",
+      "explanation": "Pyroclastic Flow ज्वालामुखी विस्फोट के दौरान निकलने वाला गर्म गैस और राख का प्रवाह होता है।"
+    },
+    {
+      "id": 13,
+      "question": "ग्वाटेमाला किस क्षेत्र का देश है?",
+      "options": ["दक्षिण अमेरिका", "मध्य अमेरिका (Central America)", "उत्तरी अमेरिका", "कैरेबियाई देश"],
+      "correctAnswer": "मध्य अमेरिका (Central America)",
+      "explanation": "ग्वाटेमाला मध्य अमेरिका (Central America) का देश है। Central America में होंडुरास, निकारागुआ, बेलिज, ग्वाटेमाला, पनामा, कोस्टा रिका देश हैं।"
+    },
+    {
+      "id": 14,
+      "question": "'Ring of Fire' (अग्नि वलय) किस से संबंधित है?",
+      "options": ["हिंद महासागर", "प्रशांत महासागर अग्नि मेखला", "अटलांटिक महासागर", "भूमध्य सागर"],
+      "correctAnswer": "प्रशांत महासागर अग्नि मेखला",
+      "explanation": "'Ring of Fire' प्रशांत महासागर के चारों ओर स्थित है जहाँ सक्रिय ज्वालामुखी और भूकंप अधिक आते हैं।"
+    },
+    {
+      "id": 15,
+      "question": "हुरुन ग्लोबल यूनिकॉर्न इंडेक्स 2026 में 61 यूनिकॉर्न के साथ भारत को कौनसा स्थान मिला है?",
+      "options": ["दूसरा", "तीसरा", "चौथा", "पाँचवाँ"],
+      "correctAnswer": "चौथा",
+      "explanation": "हुरुन ग्लोबल यूनिकॉर्न इंडेक्स 2026 में भारत को 61 यूनिकॉर्न के साथ चौथा स्थान मिला है।"
+    },
+    {
+      "id": 16,
+      "question": "हुरुन ग्लोबल यूनिकॉर्न इंडेक्स 2026 में कौन सा देश प्रथम स्थान पर है?",
+      "options": ["चीन", "भारत", "यूएसए", "यूके"],
+      "correctAnswer": "यूएसए",
+      "explanation": "हुरुन ग्लोबल यूनिकॉर्न इंडेक्स 2026 में USA प्रथम (806 यूनिकॉर्न), चीन द्वितीय (381), UK तृतीय (70) और भारत चौथे (61) स्थान पर है।"
+    },
+    {
+      "id": 17,
+      "question": "यूनिकॉर्न स्टार्टअप की न्यूनतम वैल्यू कितनी होती है?",
+      "options": ["$500 मिलियन", "$1 बिलियन", "$5 बिलियन", "$10 बिलियन"],
+      "correctAnswer": "$1 बिलियन",
+      "explanation": "यूनिकॉर्न वे स्टार्टअप हैं जिनकी वैल्यू $1 बिलियन या उससे अधिक होती है।"
+    },
+    {
+      "id": 18,
+      "question": "हुरुन यूनिकॉर्न इंडेक्स 2026 में कुल कितने यूनिकॉर्न हैं?",
+      "options": ["1400", "1500", "1603", "1700"],
+      "correctAnswer": "1603",
+      "explanation": "हुरुन ग्लोबल यूनिकॉर्न इंडेक्स 2026 में कुल 1603 यूनिकॉर्न हैं।"
+    },
+    {
+      "id": 19,
+      "question": "भारत का यूनिकॉर्न कैपिटल कौन सा शहर है?",
+      "options": ["मुंबई", "दिल्ली", "बेंगलुरु", "हैदराबाद"],
+      "correctAnswer": "बेंगलुरु",
+      "explanation": "भारत का यूनिकॉर्न कैपिटल बेंगलुरु है।"
+    },
+    {
+      "id": 20,
+      "question": "विश्व का यूनिकॉर्न सिटी कौन सा है?",
+      "options": ["न्यूयॉर्क", "लंदन", "सैन फ्रांसिस्को (Silicon Valley)", "बीजिंग"],
+      "correctAnswer": "सैन फ्रांसिस्को (Silicon Valley)",
+      "explanation": "विश्व का यूनिकॉर्न सिटी सैन फ्रांसिस्को (Silicon Valley) USA है।"
+    },
+    {
+      "id": 21,
+      "question": "IRCTC ने 'भारत गौरव डीलक्स टूरिस्ट ट्रेन' के लिए कौन सा नया सर्किट शुरू किया है?",
+      "options": ["Golden Triangle Tour", "Divine East Temple Tour", "South India Temple Tour", "Heritage India Tour"],
+      "correctAnswer": "Divine East Temple Tour",
+      "explanation": "IRCTC ने 'भारत गौरव डीलक्स टूरिस्ट ट्रेन' के लिए 'Divine East Temple Tour' सर्किट शुरू किया है।"
+    },
+    {
+      "id": 22,
+      "question": "IRCTC के 'Divine East Temple Tour' सर्किट में कौन से राज्य शामिल हैं?",
+      "options": ["UP और ओडिशा", "UP और पश्चिम बंगाल", "a और b दोनों", "केवल ओडिशा"],
+      "correctAnswer": "a और b दोनों",
+      "explanation": "Divine East Temple Tour में दिल्ली → UP (वाराणसी) → WB (कोलकाता, गंगासागर) → ओडिशा (पुरी, कोणार्क, भुवनेश्वर) → JH (देवघर-बैद्यनाथ धाम) शामिल हैं।"
+    },
+    {
+      "id": 23,
+      "question": "'Divine East Temple Tour' कितने दिनों की यात्रा है?",
+      "options": ["7 दिन", "11 दिन (10 Nights/11 Days)", "14 दिन", "21 दिन"],
+      "correctAnswer": "11 दिन (10 Nights/11 Days)",
+      "explanation": "Divine East Temple Tour 10 Nights/11 Days की यात्रा है जिसकी पैकेज कीमत ₹91,370 प्रति व्यक्ति है।"
+    },
+    {
+      "id": 24,
+      "question": "भारत समेत 35 देशों ने USA में किस समिट में 'AI Opportunity' पर संयुक्त बयान पर हस्ताक्षर किए?",
+      "options": ["AI Impact Summit", "Pax Silica Summit", "G7 AI Summit", "Tech World Summit"],
+      "correctAnswer": "Pax Silica Summit",
+      "explanation": "भारत समेत 35 देशों ने USA (Washington DC) में 'Pax Silica Summit' में 'AI Opportunity' पर संयुक्त बयान पर हस्ताक्षर किए।"
+    },
+    {
+      "id": 25,
+      "question": "दूसरा 'पैक्स सिलिका समिट' कहाँ हुआ है?",
+      "options": ["ब्रिटेन", "यूएसए (वाशिंगटन DC)", "रूस", "ऑस्ट्रेलिया"],
+      "correctAnswer": "यूएसए (वाशिंगटन DC)",
+      "explanation": "दूसरा पैक्स सिलिका समिट USA के Washington DC में हुआ।"
+    },
+    {
+      "id": 26,
+      "question": "'Pax Silica' का क्या अर्थ है?",
+      "options": ["शांति, स्थिरता, समृद्धि", "Silicon की शांति", "AI का भविष्य", "सिलिकॉन चिप"],
+      "correctAnswer": "शांति, स्थिरता, समृद्धि",
+      "explanation": "'Pax Silica' का अर्थ शांति, स्थिरता और समृद्धि है। Silicon का उपयोग Computer chip बनाने में होता है जो AI के लिए आवश्यक है।"
+    },
+    {
+      "id": 27,
+      "question": "भारत ने Pax Silica Summit में भारत का प्रतिनिधित्व किसने किया?",
+      "options": ["नरेन्द्र मोदी", "S. कृष्णन (IT सचिव)", "अश्विनी वैष्णव", "जयशंकर"],
+      "correctAnswer": "S. कृष्णन (IT सचिव)",
+      "explanation": "Pax Silica Summit में भारत का प्रतिनिधित्व S. कृष्णन (भारत के IT सचिव) ने किया।"
+    },
+    {
+      "id": 28,
+      "question": "AI Impact Summit कब और कहाँ हुआ था?",
+      "options": ["10 Feb 2026, दिल्ली", "16 Feb 2026, दिल्ली", "20 March 2026, मुंबई", "1 April 2026, बेंगलुरु"],
+      "correctAnswer": "16 Feb 2026, दिल्ली",
+      "explanation": "AI Impact Summit 16 Feb 2026 को दिल्ली में 'AI for All' थीम के साथ आयोजित हुआ था।"
+    },
+    {
+      "id": 29,
+      "question": "पाँच बार के विश्व शतरंज चैंपियन विश्वनाथन आनंद को SJFI गोल्ड मेडल से कब सम्मानित किया गया?",
+      "options": ["20 June 2026", "24 June 2026", "27 June 2026", "29 June 2026"],
+      "correctAnswer": "24 June 2026",
+      "explanation": "पाँच बार के विश्व शतरंज चैंपियन विश्वनाथन आनंद को 24 June 2026 को चेन्नई में SJFI Gold Medal से सम्मानित किया गया।"
+    },
+    {
+      "id": 30,
+      "question": "SJFI का पूरा नाम क्या है?",
+      "options": ["Sports Journalists Federation of India", "Sports Journalists Forum of India", "Sports Justice Federation of India", "Sports Journalism Federation International"],
+      "correctAnswer": "Sports Journalists Federation of India",
+      "explanation": "SJFI का पूरा नाम Sports Journalists Federation of India है।"
+    },
+    {
+      "id": 31,
+      "question": "विश्वनाथन आनंद कितनी बार विश्व शतरंज चैंपियन रहे हैं?",
+      "options": ["तीन बार", "चार बार", "पाँच बार", "छह बार"],
+      "correctAnswer": "पाँच बार",
+      "explanation": "विश्वनाथन आनंद पाँच बार (5 times) के विश्व शतरंज चैंपियन हैं।"
+    },
+    {
+      "id": 32,
+      "question": "हैदराबाद में एक सड़क का नाम बदलकर क्या रखा गया है?",
+      "options": ["Obama Avenue", "Trump Tower Road", "Donald Trump Avenue", "Biden Street"],
+      "correctAnswer": "Donald Trump Avenue",
+      "explanation": "हैदराबाद में एक सड़क का नाम बदलकर 'Donald Trump Avenue' रखा गया है।"
+    },
+    {
+      "id": 33,
+      "question": "27 जून को कौन सा राष्ट्रीय दिवस मनाया जाता है?",
+      "options": ["राष्ट्रीय उद्योग दिवस", "राष्ट्रीय MSME दिवस", "राष्ट्रीय कृषि दिवस", "राष्ट्रीय व्यापार दिवस"],
+      "correctAnswer": "राष्ट्रीय MSME दिवस",
+      "explanation": "27 जून को राष्ट्रीय MSME दिवस (Micro, Small and Medium Enterprises Day) मनाया जाता है।"
+    },
+    {
+      "id": 34,
+      "question": "राष्ट्रीय MSME दिवस 2026 की थीम क्या है?",
+      "options": ["Digital MSMEs for India", "Empowering MSMEs through Innovation and Sustainable Industrial Development", "Green MSMEs for Future", "MSME for Atmanirbhar Bharat"],
+      "correctAnswer": "Empowering MSMEs through Innovation and Sustainable Industrial Development",
+      "explanation": "MSME दिवस 2026 की थीम 'Empowering MSMEs through Innovation and Sustainable Industrial Development' है।"
+    },
+    {
+      "id": 35,
+      "question": "ओडिशा ने इंडस्ट्रियल ग्रोथ को बढ़ावा देने के लिए कौन सी पॉलिसी लॉन्च की है?",
+      "options": ["EAST Policy", "GO-EAST Policy", "Odisha Invest Policy", "Industrial Boost Policy"],
+      "correctAnswer": "GO-EAST Policy",
+      "explanation": "ओडिशा ने इंडस्ट्रियल ग्रोथ को तेज करने और निवेश लाने के लिए 'GO-EAST Policy' लॉन्च की है।"
+    },
+    {
+      "id": 36,
+      "question": "APEDA ने UAE को GI-टैग वाले किस आम के पहले कमर्शियल निर्यात में मदद की?",
+      "options": ["अल्फांसो", "केसर", "रीवा सुंदरजा", "दशहरी"],
+      "correctAnswer": "रीवा सुंदरजा",
+      "explanation": "APEDA ने UAE को GI-tagged 'Rewa Sundarja Mangoes' के पहले commercial export में मदद की। ये मध्य प्रदेश के रीवा से आती हैं।"
+    },
+    {
+      "id": 37,
+      "question": "APEDA का पूरा नाम क्या है?",
+      "options": ["Agricultural Products Export Development Authority", "Agricultural and Processed Food Products Export Development Authority", "Agriculture Production Evaluation and Development Authority", "Agricultural Production Export Development Authority"],
+      "correctAnswer": "Agricultural and Processed Food Products Export Development Authority",
+      "explanation": "APEDA का पूरा नाम Agricultural and Processed Food Products Export Development Authority है।"
+    },
+    {
+      "id": 38,
+      "question": "रीवा सुंदरजा आम किस राज्य से संबंधित है?",
+      "options": ["उत्तर प्रदेश", "बिहार", "मध्य प्रदेश", "राजस्थान"],
+      "correctAnswer": "मध्य प्रदेश",
+      "explanation": "रीवा सुंदरजा आम मध्य प्रदेश के रीवा से आती है और इसे GI-tag प्राप्त है।"
+    },
+    {
+      "id": 39,
+      "question": "भारत में 8,931 दिनों के साथ सबसे लंबे समय तक सेवा करने वाले निर्वाचित सरकार के प्रमुख कौन बने हैं?",
+      "options": ["मनमोहन सिंह", "जवाहरलाल नेहरू", "नरेन्द्र मोदी (PM)", "इंदिरा गांधी"],
+      "correctAnswer": "नरेन्द्र मोदी (PM)",
+      "explanation": "नरेन्द्र मोदी 8,931 दिनों के साथ भारत में सबसे लंबे समय तक सेवा करने वाले निर्वाचित सरकार के प्रमुख (PM) बन गए हैं।"
+    },
+    {
+      "id": 40,
+      "question": "हाल ही में चर्चा में रही पुस्तक 'करुणा: द पावर ऑफ कम्पैशन' का लेखक कौन है?",
+      "options": ["दलाई लामा", "रविशंकर", "करुणा महाजन", "स्वामी विवेकानंद"],
+      "correctAnswer": "दलाई लामा",
+      "explanation": "'करुणा: द पावर ऑफ कम्पैशन' पुस्तक दलाई लामा द्वारा लिखी गई है।"
+    },
+    {
+      "id": 41,
+      "question": "'PRARAMBH 2026' IT जागरूकता अभियान किसने लॉन्च किया है?",
+      "options": ["NASSCOM", "IT Ministry", "IT Act से", "ITACT / 1 April 2026"],
+      "correctAnswer": "ITACT / 1 April 2026",
+      "explanation": "'PRARAMBH 2026' IT जागरूकता अभियान ITACT द्वारा 1 April 2026 को शुरू किया गया है।"
+    },
+    {
+      "id": 42,
+      "question": "पहली राष्ट्रीय इंडोर एथलेटिक्स चैंपियनशिप कहाँ प्रारंभ होगी?",
+      "options": ["महाराष्ट्र", "तमिलनाडु", "ओडिशा", "दिल्ली"],
+      "correctAnswer": "ओडिशा",
+      "explanation": "पहली राष्ट्रीय इंडोर एथलेटिक्स चैंपियनशिप ओडिशा में प्रारंभ होगी।"
+    },
+    {
+      "id": 43,
+      "question": "RIIT का पहला Public Issue BSE पर किसने लिस्टेड किया है?",
+      "options": ["NALCO", "NTPC", "NNACL (NALCO)", "BHEL"],
+      "correctAnswer": "NNACL (NALCO)",
+      "explanation": "RIIT का पहला Public Issue BSE पर NNACL (NALCO) ने लिस्टेड किया है।"
+    },
+    {
+      "id": 44,
+      "question": "BRICS शिखर सम्मेलन 2026 में 'महिला सशक्तिकरण ट्रेलब्लेज़र पुरस्कार' किसे मिला है?",
+      "options": ["स्मृति ईरानी", "किरण बेदी", "कल्याणी (Kalyani)", "सुषमा स्वराज"],
+      "correctAnswer": "कल्याणी (Kalyani)",
+      "explanation": "BRICS शिखर सम्मेलन 2026 में 'महिला सशक्तिकरण ट्रेलब्लेज़र पुरस्कार' कल्याणी को मिला है।"
+    },
+    {
+      "id": 45,
+      "question": "IQAir की रिपोर्ट के अनुसार वर्ष 2025 में दुनिया का सबसे प्रदूषित देश कौन सा है?",
+      "options": ["भारत", "बांग्लादेश", "पाकिस्तान", "चीन"],
+      "correctAnswer": "पाकिस्तान",
+      "explanation": "IQAir की रिपोर्ट के अनुसार वर्ष 2025 में दुनिया का सबसे प्रदूषित देश पाकिस्तान (Pak) है।"
+    },
+    {
+      "id": 46,
+      "question": "पहले इंटरनेशनल फिल्म फेस्टिवल दिल्ली 2026 का आगाज किस फिल्म से हुआ है?",
+      "options": ["RRR", "सिराट (Siraat)", "Pathaan", "Dangal"],
+      "correctAnswer": "सिराट (Siraat)",
+      "explanation": "पहले International Film Festival Delhi 2026 का आगाज 'Siraat' (सिराट) फिल्म से हुआ है।"
+    },
+    {
+      "id": 47,
+      "question": "यूनिफॉर्म सिविल कोड बिल पास करने वाला देश का दूसरा राज्य कौन सा है?",
+      "options": ["उत्तराखंड (पहला), गुजरात (दूसरा)", "उत्तराखंड (पहला), असम (दूसरा)", "गुजरात (पहला), असम (दूसरा)", "उत्तर प्रदेश (पहला), गुजरात (दूसरा)"],
+      "correctAnswer": "उत्तराखंड (पहला), गुजरात (दूसरा)",
+      "explanation": "UCC बिल पास करने वाला पहला राज्य उत्तराखंड था और दूसरा गुजरात बना।"
+    },
+    {
+      "id": 48,
+      "question": "हाल ही में सुप्रीम कोर्ट ने SC का दर्जा किस धर्म के लोगों पर लागू करने का आदेश दिया है?",
+      "options": ["बौद्ध धर्म", "सिख धर्म", "हिंदू धर्म", "HLOLS (Hindu, Low Other Less Schedule)"],
+      "correctAnswer": "HLOLS (Hindu, Low Other Less Schedule)",
+      "explanation": "सुप्रीम कोर्ट ने SC का दर्जा हिंदू, बौद्ध और सिख धर्म (HLOLS) के लोगों पर लागू करने का आदेश दिया है।"
+    },
+    {
+      "id": 49,
+      "question": "महिलाओं के SHG के लिए UPI-आधारित क्रेडिट लाइन शुरू करने वाला पहला बैंक कौन सा है?",
+      "options": ["SBI", "PNB", "BOB (Bank of Baroda)", "Canara Bank"],
+      "correctAnswer": "BOB (Bank of Baroda)",
+      "explanation": "महिलाओं के SHG (Self Help Groups) के लिए UPI-आधारित क्रेडिट लाइन शुरू करने वाला पहला बैंक BOB (Bank of Baroda) है।"
+    },
+    {
+      "id": 50,
+      "question": "विश्व व्यापार संगठन (WTO) का 14वाँ मंत्रिस्तरीय सम्मेलन कहाँ शुरू हुआ है?",
+      "options": ["जिनेवा", "याउंडे (Yaoundé)", "दिल्ली", "लंदन"],
+      "correctAnswer": "याउंडे (Yaoundé)",
+      "explanation": "WTO का 14वाँ मंत्रिस्तरीय सम्मेलन याउंडे (Yaoundé) में शुरू हुआ है।"
+    },
+    {
+      "id": 51,
+      "question": "IPL के इतिहास की सबसे कीमती फ्रेंचाइजी कौन बनी है?",
+      "options": ["CSK", "MI", "RCB", "KKR"],
+      "correctAnswer": "RCB",
+      "explanation": "IPL के इतिहास में RCB (Royal Challengers Bengaluru) सबसे कीमती फ्रेंचाइजी बनी है।"
+    },
+    {
+      "id": 52,
+      "question": "हाल ही में सरस्वती सम्मान 2025 के लिए किसे चुना गया है?",
+      "options": ["गुलजार", "रामदास (Ramdas)", "ममता कालिया", "उदय प्रकाश"],
+      "correctAnswer": "रामदास (Ramdas)",
+      "explanation": "सरस्वती सम्मान 2025 के लिए रामदास को चुना गया है।"
+    },
+    {
+      "id": 53,
+      "question": "अग्निकुल कॉसमॉस ने अपनी तरह का पहला पूर्णत: 3D-प्रिंटेड बूस्टर इंजन 'Agnite' का सफल परीक्षण कहाँ किया है?",
+      "options": ["श्रीहरिकोटा", "चेन्नई", "बेंगलुरु", "हैदराबाद"],
+      "correctAnswer": "चेन्नई",
+      "explanation": "अग्निकुल कॉसमॉस ने अपना पूर्णत: 3D-Printed बूस्टर इंजन 'Agnite' का सफल परीक्षण चेन्नई में किया है।"
+    },
+    {
+      "id": 54,
+      "question": "वन उत्पादों के लिए 'प्रमाण' सर्टिफिकेशन हासिल करने वाला पहला राज्य कौन सा है?",
+      "options": ["केरल", "ओडिशा", "आंध्र प्रदेश (AP)", "मेघालय"],
+      "correctAnswer": "आंध्र प्रदेश (AP)",
+      "explanation": "आंध्र प्रदेश (AP) वन उत्पादों के लिए 'प्रमाण' सर्टिफिकेशन हासिल करने वाला पहला राज्य बना है।"
+    },
+    {
+      "id": 55,
+      "question": "भारत ने पश्चिम एशिया में बढ़ते तनाव के बीच होर्मुज जलडमरूमध्य में कौनसा ऑपरेशन चलाया है?",
+      "options": ["ऑपरेशन शक्ति", "ऑपरेशन सिंधु सुरक्षा", "ऑपरेशन ब्रह्मास्त्र", "ऑपरेशन त्रिशूल"],
+      "correctAnswer": "ऑपरेशन सिंधु सुरक्षा",
+      "explanation": "भारत ने होर्मुज जलडमरूमध्य में 'ऑपरेशन सिंधु सुरक्षा' चलाया है।"
+    },
+    {
+      "id": 56,
+      "question": "दूसरे 'पैक्स सिलिका समिट' में 'AI Opportunity' संयुक्त बयान पर कितने देशों ने हस्ताक्षर किए?",
+      "options": ["25 देश", "30 देश", "35 देश", "40 देश"],
+      "correctAnswer": "35 देश",
+      "explanation": "दूसरे Pax Silica Summit में 35 देशों (भारत सहित) ने 'AI Opportunity' संयुक्त बयान पर हस्ताक्षर किए।"
+    },
+    {
+      "id": 57,
+      "question": "हुरुन ग्लोबल यूनिकॉर्न इंडेक्स 2026 में नंबर 1 यूनिकॉर्न कंपनी कौन सी है?",
+      "options": ["OpenAI", "Anthropic", "ByteDance", "Stripe"],
+      "correctAnswer": "Anthropic",
+      "explanation": "हुरुन ग्लोबल यूनिकॉर्न इंडेक्स 2026 में नंबर 1 कंपनी Anthropic (AI) है जिसकी वैल्यूएशन $965 बिलियन है।"
+    },
+    {
+      "id": 58,
+      "question": "IRCTC का पूर्ण नाम क्या है?",
+      "options": ["Indian Railway Catering and Tourism Corporation", "Indian Rail Catering Tourism Company", "Indian Railway Corporation for Tourism", "International Railway Catering and Tourism Corporation"],
+      "correctAnswer": "Indian Railway Catering and Tourism Corporation",
+      "explanation": "IRCTC का पूरा नाम Indian Railway Catering and Tourism Corporation है। यह Indian Railway की Catering और Tourism का काम करता है।"
+    },
+    {
+      "id": 59,
+      "question": "MSME दिवस किस तारीख को मनाया जाता है?",
+      "options": ["25 जून", "26 जून", "27 जून", "28 जून"],
+      "correctAnswer": "27 जून",
+      "explanation": "MSME (Micro, Small and Medium Enterprises) दिवस 27 जून को मनाया जाता है।"
+    },
+    {
+      "id": 60,
+      "question": "MSME का पूर्ण रूप क्या है?",
+      "options": ["Micro, Small and Medium Enterprises", "Medium, Small and Micro Enterprises", "Micro, Small and Manufacturing Enterprises", "Major, Small and Micro Enterprises"],
+      "correctAnswer": "Micro, Small and Medium Enterprises",
+      "explanation": "MSME का पूरा नाम Micro, Small and Medium Enterprises है।"
+    },
+    {
+      "id": 61,
+      "question": "हाल ही में Anthropic (AI कंपनी) की वैल्यूएशन लगभग कितनी है?",
+      "options": ["$500 बिलियन", "$752 बिलियन", "$965 बिलियन", "$1.2 ट्रिलियन"],
+      "correctAnswer": "$965 बिलियन",
+      "explanation": "Anthropic (AI कंपनी) की वैल्यूएशन $965 बिलियन है और यह हुरुन यूनिकॉर्न इंडेक्स 2026 में नंबर 1 है।"
+    },
+    {
+      "id": 62,
+      "question": "ग्वाटेमाला की राजधानी क्या है?",
+      "options": ["सैन साल्वाडोर", "ग्वाटेमाला सिटी", "मनागुआ", "टेगुसिगाल्पा"],
+      "correctAnswer": "ग्वाटेमाला सिटी",
+      "explanation": "ग्वाटेमाला की राजधानी ग्वाटेमाला सिटी है।"
+    },
+    {
+      "id": 63,
+      "question": "चिली-अर्जेंटीना सीमा पर दुनिया का सबसे ऊँचा ज्वालामुखी कौन सा है?",
+      "options": ["Fuego", "Krakatoa", "Ojos del Salado", "Mauna Loa"],
+      "correctAnswer": "Ojos del Salado",
+      "explanation": "चिली-अर्जेंटीना सीमा पर Ojos del Salado दुनिया का सबसे ऊँचा ज्वालामुखी है।"
+    },
+    {
+      "id": 64,
+      "question": "इथियोपिया में कौन सी घटना हेली मुद्रा से संबंधित थी?",
+      "options": ["भूकंप", "ज्वालामुखी विस्फोट", "हेली विस्फोट (ज्वालामुखी)", "सूनामी"],
+      "correctAnswer": "हेली विस्फोट (ज्वालामुखी)",
+      "explanation": "इथियोपिया में हेली ज्वालामुखी विस्फोट हुआ था।"
+    },
+    {
+      "id": 65,
+      "question": "WTO का 14वाँ मंत्रिस्तरीय सम्मेलन कहाँ हुआ?",
+      "options": ["Geneva", "Nairobi", "Buenos Aires", "Yaoundé (Cameroon)"],
+      "correctAnswer": "Yaoundé (Cameroon)",
+      "explanation": "WTO का 14वाँ मंत्रिस्तरीय सम्मेलन Yaoundé, Cameroon में हुआ। WTO का मुख्यालय Geneva में है।"
+    },
+    {
+      "id": 66,
+      "question": "WTO की स्थापना किस वर्ष हुई थी?",
+      "options": ["1990", "1994", "1995", "1997"],
+      "correctAnswer": "1995",
+      "explanation": "WTO (World Trade Organization) की स्थापना 1995 में हुई थी। इसका मुख्यालय Geneva, Switzerland में है।"
+    },
+    {
+      "id": 67,
+      "question": "भारत ने होर्मुज जलडमरूमध्य में कौन सा नौसेना ऑपरेशन चलाया है?",
+      "options": ["ऑपरेशन समुद्र सेतु", "ऑपरेशन सिंधु सुरक्षा", "ऑपरेशन त्रिशूल", "ऑपरेशन समुद्र रक्षक"],
+      "correctAnswer": "ऑपरेशन सिंधु सुरक्षा",
+      "explanation": "भारत ने पश्चिम एशिया में बढ़ते तनाव के बीच होर्मुज जलडमरूमध्य में 'ऑपरेशन सिंधु सुरक्षा' नौसेना ऑपरेशन चलाया है।"
+    },
+    {
+      "id": 68,
+      "question": "BARC का पूरा नाम क्या है?",
+      "options": ["Bhabha Atomic Research Centre", "Bharat Atomic Research Centre", "Bhabha Advanced Research Centre", "Board of Atomic Research in CERN"],
+      "correctAnswer": "Bhabha Atomic Research Centre",
+      "explanation": "BARC का पूरा नाम Bhabha Atomic Research Centre है जो परमाणु ऊर्जा अनुसंधान केंद्र है।"
+    },
+    {
+      "id": 69,
+      "question": "पहली Nuclear Heat-based Hydrogen Production Facility का उद्घाटन किसने किया?",
+      "options": ["नरेन्द्र मोदी", "जितेंद्र सिंह", "अजीत कुमार मोहंती (परमाणु ऊर्जा विभाग के सचिव)", "अश्विनी वैष्णव"],
+      "correctAnswer": "अजीत कुमार मोहंती (परमाणु ऊर्जा विभाग के सचिव)",
+      "explanation": "परमाणु ऊर्जा विभाग के सचिव अजीत कुमार मोहंती ने दुनिया की पहली Nuclear Process Heat-based Hydrogen Production Facility का उद्घाटन किया।"
+    }
+  ]
+}
