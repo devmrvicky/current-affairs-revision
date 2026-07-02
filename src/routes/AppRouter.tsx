@@ -26,6 +26,7 @@ const RevisionCalendarPage  = lazy(() => import('../pages/RevisionCalendarPage')
 const WrongQuestionsPage    = lazy(() => import('../pages/WrongQuestionsPage'));
 const ChapterWisePage       = lazy(() => import('../pages/ChapterWisePage'));
 const ChapterDetailPage     = lazy(() => import('../pages/ChapterDetailPage'));
+const MonthlyMagazineDetailPage = lazy(() => import('../pages/MonthlyMagazineDetailPage'));
 const MyHighlightsPage      = lazy(() => import('../pages/MyHighlightsPage'));
 const MixedRevisionPage     = lazy(() => import('../pages/MixedRevisionPage'));
 const BookmarkedQuestionsPage = lazy(() => import('../pages/BookmarkedQuestionsPage'));
@@ -57,6 +58,7 @@ const router = createBrowserRouter([
       { path: 'wrong-questions',              element: <S><WrongQuestionsPage /></S> },
       { path: 'chapter-wise-current-affairs', element: <S><ChapterWisePage /></S> },
       { path: 'chapter/:chapterName',         element: <S><ChapterDetailPage /></S> },
+      { path: 'monthly-magazine/:issueKey',   element: <S><MonthlyMagazineDetailPage /></S> },
       { path: 'my-highlights',                element: <S><MyHighlightsPage /></S> },
       { path: 'mixed-revision',               element: <S><MixedRevisionPage /></S> },
       { path: 'bookmarked-questions',         element: <S><BookmarkedQuestionsPage /></S> },

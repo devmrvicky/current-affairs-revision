@@ -66,7 +66,7 @@ export function QuickRevisionPanel({
       <div className="flex items-center gap-2 mb-3">
         <ListTree size={16} className="text-brand-500" />
         <h3 className="font-display font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>
-          Quick Revision
+          Index
         </h3>
       </div>
 

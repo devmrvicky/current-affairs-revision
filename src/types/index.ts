@@ -310,6 +310,8 @@ export interface ReadingProgress {
   lastReadAt: number;
   completionStatus: 'not_started' | 'reading' | 'completed';
   isFavorite: boolean;
+  /** User-set override, independent of the auto-calculated completionStatus/scrollPercent above. */
+  manuallyCompleted?: boolean;
 }
 
 export interface ReadingPrefs {
@@ -326,3 +328,29 @@ export interface ReaderNote {
   anchorText: string;         // text the note is attached to
   createdAt: number;
 }
+
+// ─── Monthly Magazine ─────────────────────────────────────────────────────────
+// A magazine "issue" is a Year/Month folder under data/monthly-magazine/, e.g.
+// data/monthly-magazine/2025/July/. Same philosophy as the Chapter system
+// (folder = the unit), but supports MULTIPLE markdown parts per issue instead
+// of just the first one found.
+
+export interface MonthlyMagazineTest {
+  relPath: string;   // unique key, e.g. "2025/July/Test 01.json"
+  label: string;      // "Test 01", "Test 02", ... assigned by stable order
+}
+
+export interface MonthlyMagazinePart {
+  relPath: string;    // e.g. "2025/July/Part 1.md"
+  globKey: string;    // needed to actually load it via markdownRepository
+  label: string;       // "Part 1", "Part 2", ... assigned by stable order
+}
+
+export interface MonthlyMagazineIssue {
+  year: number;
+  month: string;          // "January".."December"
+  issueKey: string;        // unique id, e.g. "2025/July" — used as the reader/progress key
+  parts: MonthlyMagazinePart[];
+  tests: MonthlyMagazineTest[];
+}
+

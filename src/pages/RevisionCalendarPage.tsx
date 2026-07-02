@@ -7,13 +7,17 @@ import { useQuizStore } from '../store/quizStore';
 import { useHistoryStore } from '../store/historyStore';
 import { useAvailableDates } from '../hooks/useAvailableDates';
 import { loadQuizByFileName } from '../services/quizService';
-import { formatDateKey } from '../utils';
+import { formatDateKey, lsGet, lsSet } from '../utils';
+import { MonthlyMagazineList } from '../components/common/MonthlyMagazineList';
 
 const MONTH_NAMES = [
   'January','February','March','April','May','June',
   'July','August','September','October','November','December',
 ];
 const DAY_LABELS = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+
+type CalendarTabKey = 'daily' | 'monthly-magazine';
+const CALENDAR_TAB_KEY = 'revision-calendar-tab';
 
 // ─── Single day cell ──────────────────────────────────────────────────────────
 
@@ -89,6 +93,12 @@ export default function RevisionCalendarPage() {
   const [viewYear, setViewYear] = useState(today.getFullYear());
   const [viewMonth, setViewMonth] = useState(today.getMonth()); // 0-indexed
   const [isStarting, setIsStarting] = useState(false);
+  const [tab, setTab] = useState<CalendarTabKey>(() => lsGet<CalendarTabKey>(CALENDAR_TAB_KEY, 'daily'));
+
+  function selectTab(next: CalendarTabKey) {
+    setTab(next);
+    lsSet(CALENDAR_TAB_KEY, next);
+  }
 
   // Set of dateKeys that have been completed (saved in history)
   const completedSet = useMemo(() => {
@@ -186,115 +196,140 @@ export default function RevisionCalendarPage() {
         </div>
       </div>
 
-      {/* Month stats */}
-      <div className="grid grid-cols-3 gap-3">
-        {[
-          { label: 'Available', value: monthStats.available, icon: Calendar, color: '#6366f1', bg: '#6366f118' },
-          { label: 'Completed', value: monthStats.completed, icon: CheckCircle2, color: '#22c55e', bg: '#22c55e18' },
-          { label: 'Remaining', value: Math.max(0, monthStats.available - monthStats.completed), icon: Clock, color: '#f59e0b', bg: '#f59e0b18' },
-        ].map(({ label, value, icon: Icon, color, bg }) => (
-          <div key={label} className="card p-3 text-center">
-            <div className="w-8 h-8 rounded-xl mx-auto mb-1.5 flex items-center justify-center" style={{ background: bg }}>
-              <Icon size={16} style={{ color }} />
-            </div>
-            <p className="text-lg font-display font-bold" style={{ color: 'var(--text-primary)' }}>{value}</p>
-            <p className="text-xs" style={{ color: 'var(--text-muted)' }}>{label}</p>
-          </div>
+      {/* Tabs */}
+      <div className="flex gap-1 p-1 rounded-2xl" style={{ background: 'var(--border)' }}>
+        {([
+          { key: 'daily' as const, label: 'Daily' },
+          { key: 'monthly-magazine' as const, label: 'Monthly Magazine' },
+        ]).map(({ key, label }) => (
+          <button
+            key={key}
+            onClick={() => selectTab(key)}
+            className={`flex-1 px-3.5 py-2 rounded-xl text-sm font-medium transition-all ${
+              tab === key ? 'bg-white dark:bg-[var(--card)] shadow-sm text-brand-600 dark:text-brand-400' : ''
+            }`}
+            style={tab !== key ? { color: 'var(--text-secondary)' } : undefined}
+          >
+            {label}
+          </button>
         ))}
       </div>
 
-      {/* Calendar Card */}
-      <div className="card p-5">
-        {/* Month Navigation */}
-        <div className="flex items-center justify-between mb-5">
-          <button
-            onClick={prevMonth}
-            className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
-          >
-            <ChevronLeft size={18} style={{ color: 'var(--text-secondary)' }} />
-          </button>
+      {tab === 'daily' ? (
+        <>
+          {/* Month stats — horizontally scrollable row of vertically-stacked stat cards */}
+          <div className="flex gap-3 overflow-x-auto no-scrollbar pb-1">
+            {[
+              { label: 'Available', value: monthStats.available, icon: Calendar, color: '#6366f1', bg: '#6366f118' },
+              { label: 'Completed', value: monthStats.completed, icon: CheckCircle2, color: '#22c55e', bg: '#22c55e18' },
+              { label: 'Remaining', value: Math.max(0, monthStats.available - monthStats.completed), icon: Clock, color: '#f59e0b', bg: '#f59e0b18' },
+            ].map(({ label, value, icon: Icon, color, bg }) => (
+              <div key={label} className="card p-3 text-center flex-shrink-0 w-24">
+                <div className="w-8 h-8 rounded-xl mx-auto mb-1.5 flex items-center justify-center" style={{ background: bg }}>
+                  <Icon size={16} style={{ color }} />
+                </div>
+                <p className="text-lg font-display font-bold" style={{ color: 'var(--text-primary)' }}>{value}</p>
+                <p className="text-xs" style={{ color: 'var(--text-muted)' }}>{label}</p>
+              </div>
+            ))}
+          </div>
 
-          <div className="text-center">
-            <h2 className="font-display font-bold text-lg" style={{ color: 'var(--text-primary)' }}>
-              {MONTH_NAMES[viewMonth]} {viewYear}
-            </h2>
-            {(viewMonth !== today.getMonth() || viewYear !== today.getFullYear()) && (
+          {/* Calendar Card */}
+          <div className="card p-5">
+            {/* Month Navigation */}
+            <div className="flex items-center justify-between mb-5">
               <button
-                onClick={() => { setViewMonth(today.getMonth()); setViewYear(today.getFullYear()); }}
-                className="text-xs text-brand-500 font-medium mt-0.5 hover:underline"
+                onClick={prevMonth}
+                className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
               >
-                Back to today
+                <ChevronLeft size={18} style={{ color: 'var(--text-secondary)' }} />
               </button>
+
+              <div className="text-center">
+                <h2 className="font-display font-bold text-lg" style={{ color: 'var(--text-primary)' }}>
+                  {MONTH_NAMES[viewMonth]} {viewYear}
+                </h2>
+                {(viewMonth !== today.getMonth() || viewYear !== today.getFullYear()) && (
+                  <button
+                    onClick={() => { setViewMonth(today.getMonth()); setViewYear(today.getFullYear()); }}
+                    className="text-xs text-brand-500 font-medium mt-0.5 hover:underline"
+                  >
+                    Back to today
+                  </button>
+                )}
+              </div>
+
+              <button
+                onClick={nextMonth}
+                className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
+              >
+                <ChevronRight size={18} style={{ color: 'var(--text-secondary)' }} />
+              </button>
+            </div>
+
+            {/* Day labels */}
+            <div className="grid grid-cols-7 mb-2">
+              {DAY_LABELS.map((d) => (
+                <div key={d} className="text-center text-xs font-semibold uppercase tracking-wide py-1"
+                  style={{ color: 'var(--text-muted)' }}>
+                  {d}
+                </div>
+              ))}
+            </div>
+
+            {/* Day grid */}
+            {datesLoading ? (
+              <div className="grid grid-cols-7 gap-1">
+                {Array.from({ length: 35 }).map((_, i) => (
+                  <div key={i} className="aspect-square rounded-xl shimmer" style={{ background: 'var(--border)' }} />
+                ))}
+              </div>
+            ) : (
+              <div className="grid grid-cols-7 gap-1">
+                {calendarGrid.map((date, i) => {
+                  if (!date) return <div key={i} />;
+                  const dateKey = formatDateKey(date);
+                  const isCurrentMonth = date.getMonth() === viewMonth;
+                  const isToday = dateKey === formatDateKey(today);
+                  const isAvailable = availableSet.has(dateKey);
+                  const isCompleted = completedSet.has(dateKey);
+                  return (
+                    <DayCell
+                      key={dateKey + i}
+                      date={date}
+                      isToday={isToday}
+                      isCurrentMonth={isCurrentMonth}
+                      isAvailable={isAvailable}
+                      isCompleted={isCompleted}
+                      onClick={handleDateClick}
+                    />
+                  );
+                })}
+              </div>
             )}
           </div>
 
-          <button
-            onClick={nextMonth}
-            className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
-          >
-            <ChevronRight size={18} style={{ color: 'var(--text-secondary)' }} />
-          </button>
-        </div>
-
-        {/* Day labels */}
-        <div className="grid grid-cols-7 mb-2">
-          {DAY_LABELS.map((d) => (
-            <div key={d} className="text-center text-xs font-semibold uppercase tracking-wide py-1"
-              style={{ color: 'var(--text-muted)' }}>
-              {d}
+          {/* Legend */}
+          <div className="card p-4">
+            <p className="text-xs font-bold uppercase tracking-wider mb-3" style={{ color: 'var(--text-muted)' }}>Legend</p>
+            <div className="grid grid-cols-2 gap-2">
+              {[
+                { dot: 'bg-brand-400', label: 'Available to attempt' },
+                { dot: 'bg-green-500', label: 'Completed' },
+                { dot: 'ring-2 ring-brand-500', label: "Today's date", extraClass: 'rounded-sm' },
+                { dot: 'bg-gray-300 dark:bg-gray-600 opacity-40', label: 'Future / unavailable' },
+              ].map(({ dot, label, extraClass }) => (
+                <div key={label} className="flex items-center gap-2">
+                  <span className={`w-2.5 h-2.5 rounded-full flex-shrink-0 ${dot} ${extraClass ?? ''}`} />
+                  <span className="text-xs" style={{ color: 'var(--text-secondary)' }}>{label}</span>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
-
-        {/* Day grid */}
-        {datesLoading ? (
-          <div className="grid grid-cols-7 gap-1">
-            {Array.from({ length: 35 }).map((_, i) => (
-              <div key={i} className="aspect-square rounded-xl shimmer" style={{ background: 'var(--border)' }} />
-            ))}
           </div>
-        ) : (
-          <div className="grid grid-cols-7 gap-1">
-            {calendarGrid.map((date, i) => {
-              if (!date) return <div key={i} />;
-              const dateKey = formatDateKey(date);
-              const isCurrentMonth = date.getMonth() === viewMonth;
-              const isToday = dateKey === formatDateKey(today);
-              const isAvailable = availableSet.has(dateKey);
-              const isCompleted = completedSet.has(dateKey);
-              return (
-                <DayCell
-                  key={dateKey + i}
-                  date={date}
-                  isToday={isToday}
-                  isCurrentMonth={isCurrentMonth}
-                  isAvailable={isAvailable}
-                  isCompleted={isCompleted}
-                  onClick={handleDateClick}
-                />
-              );
-            })}
-          </div>
-        )}
-      </div>
-
-      {/* Legend */}
-      <div className="card p-4">
-        <p className="text-xs font-bold uppercase tracking-wider mb-3" style={{ color: 'var(--text-muted)' }}>Legend</p>
-        <div className="grid grid-cols-2 gap-2">
-          {[
-            { dot: 'bg-brand-400', label: 'Available to attempt' },
-            { dot: 'bg-green-500', label: 'Completed' },
-            { dot: 'ring-2 ring-brand-500', label: "Today's date", extraClass: 'rounded-sm' },
-            { dot: 'bg-gray-300 dark:bg-gray-600 opacity-40', label: 'Future / unavailable' },
-          ].map(({ dot, label, extraClass }) => (
-            <div key={label} className="flex items-center gap-2">
-              <span className={`w-2.5 h-2.5 rounded-full flex-shrink-0 ${dot} ${extraClass ?? ''}`} />
-              <span className="text-xs" style={{ color: 'var(--text-secondary)' }}>{label}</span>
-            </div>
-          ))}
-        </div>
-      </div>
+        </>
+      ) : (
+        <MonthlyMagazineList />
+      )}
 
       {/* Loading overlay for quiz start */}
       {isStarting && (

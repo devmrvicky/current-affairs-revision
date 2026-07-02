@@ -354,12 +354,12 @@ export default function MixedRevisionPage() {
       let ordered = shuffleArray(deduped);
       if (count !== 'all') ordered = ordered.slice(0, count);
 
-      // Shuffle each question's options independently every session.
-      // correctAnswer is matched by text, not index, so no remapping is needed.
+      // Note: option order no longer needs shuffling here — startSession()
+      // now does that centrally for every quiz type, so every question
+      // still just needs a stable numeric id reassigned for this session.
       const finalQuestions: Question[] = ordered.map((q, i) => ({
         ...q,
         id: i + 1,
-        options: shuffleArray(q.options),
       }));
 
       startSession({ date: 'Mixed Revision', questions: finalQuestions }, `mixed_${Date.now()}.json`);

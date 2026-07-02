@@ -2,6 +2,7 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { QuizSession, QuestionAttempt, DailyQuiz } from '../types';
 import { v4 as uuidv4 } from 'uuid';
+import { shuffleArray } from '../utils';
 
 interface QuizStore {
   session: QuizSession | null;
@@ -34,7 +35,11 @@ export const useQuizStore = create<QuizStore>()(
         const attempts: QuestionAttempt[] = quiz.questions.map((q) => ({
           questionId: q.id,
           question: q.question,
-          options: q.options,
+          // Shuffled fresh every session — every downstream check (submitAnswer,
+          // wrong questions, bookmarks, review center) compares answer TEXT
+          // against correctAnswer, never a positional index, so reordering
+          // options here can never corrupt which one is "correct".
+          options: shuffleArray(q.options),
           correctAnswer: q.correctAnswer,
           explanation: q.explanation,
           selectedAnswer: null,

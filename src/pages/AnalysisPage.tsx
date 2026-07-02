@@ -13,6 +13,7 @@ import { useDailyGoalStore } from '../store/dailyGoalStore';
 import { buildAnalysis, sessionToSavedTest, formatDateKey } from '../utils';
 import { AnalysisOverview, QuestionReview } from '../components/analysis/AnalysisComponents';
 import { getAllChapterTestPaths, getChapterNameForTestPath, getChapterList } from '../services/chapterRepository';
+import { getAllMonthlyMagazineTestPaths } from '../services/monthlyMagazineRepository';
 import { statsDB } from '../services/db';
 import { notifyTestCompleted, notifyChapterCompleted, checkAchievements } from '../services/notificationTriggers';
 
@@ -31,6 +32,17 @@ async function fireConfetti(score: number) {
 
 // Every test relPath that belongs to a chapter folder (vs. a daily current-affairs file)
 const chapterTestPaths = getAllChapterTestPaths();
+// Same idea for Monthly Magazine issues — a disjoint set of relPaths, e.g. "2025/July/Test 01.json".
+// Monthly Magazine tests reuse chapterStore/chapterStatsDB below (generically keyed by
+// fileName/chapterName already) rather than a separate stats store — same data, same code path.
+const monthlyMagazineTestPaths = getAllMonthlyMagazineTestPaths();
+
+// "2025/July/Test 01.json" → "July 2025" (used as the chapterName/label passed
+// into the shared chapterStore — mirrors getChapterNameForTestPath's role).
+function getMonthlyMagazineLabelForTestPath(relPath: string): string {
+  const [year, month] = relPath.split('/');
+  return month && year ? `${month} ${year}` : relPath;
+}
 
 export default function AnalysisPage() {
   const navigate = useNavigate();
@@ -57,6 +69,7 @@ export default function AnalysisPage() {
   const bookmarkedCount = session.attempts.filter((a) => a.bookmarked).length;
   const markedCount = session.attempts.filter((a) => a.markedForReview).length;
   const isChapterQuiz = chapterTestPaths.has(session.fileName);
+  const isMonthlyMagazineQuiz = monthlyMagazineTestPaths.has(session.fileName);
 
   async function handleSave() {
     if (saved || !session) return;
@@ -97,6 +110,19 @@ export default function AnalysisPage() {
         if (chapterInfo && aggregate && aggregate.testsAttempted >= chapterInfo.tests.length) {
           notifyChapterCompleted(chapterName);
         }
+      }
+
+      // Record Monthly Magazine stats the same way — same store, same table,
+      // just labeled by "Month Year" instead of a chapter folder name.
+      if (isMonthlyMagazineQuiz) {
+        const issueLabel = getMonthlyMagazineLabelForTestPath(session.fileName);
+        await recordChapterAttempt(
+          session.fileName,
+          issueLabel,
+          result.score,
+          result.correct,
+          result.totalQuestions
+        );
       }
 
       notifyTestCompleted(result.score, result.correct, result.totalQuestions);
@@ -152,6 +178,7 @@ export default function AnalysisPage() {
           <p style={{ color: 'var(--text-muted)' }}>
             {session.date}
             {isChapterQuiz && <span className="ml-2 text-xs px-2 py-0.5 rounded-full bg-brand-100 dark:bg-brand-900/30 text-brand-600 dark:text-brand-400">Chapter Quiz</span>}
+            {isMonthlyMagazineQuiz && <span className="ml-2 text-xs px-2 py-0.5 rounded-full bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-400">Monthly Magazine</span>}
           </p>
         </div>
         <button onClick={handleGoHome} className="btn-ghost flex items-center gap-2 text-sm">

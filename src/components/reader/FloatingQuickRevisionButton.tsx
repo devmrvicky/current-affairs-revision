@@ -108,10 +108,10 @@ export function FloatingQuickRevisionButton({
         onTap={() => setOpen(true)}
         style={{ x, y, width: BUTTON_SIZE, height: BUTTON_SIZE }}
         className="fixed top-0 left-0 z-[45] rounded-full shadow-lg bg-gradient-to-br from-brand-500 to-brand-600 text-white flex flex-col items-center justify-center gap-0.5 touch-none"
-        aria-label="Open Quick Revision"
+        aria-label="Open Index"
       >
         <BookOpen size={18} />
-        <span className="text-[9px] font-semibold leading-none">Revise</span>
+        <span className="text-[9px] font-semibold leading-none">Index</span>
       </motion.button>
 
       <AnimatePresence>
@@ -141,7 +141,7 @@ export function FloatingQuickRevisionButton({
               </div>
               <div className="flex items-center justify-between px-4 pb-2">
                 <h3 className="font-display font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>
-                  Quick Revision
+                  Index
                 </h3>
                 <button
                   onClick={() => setOpen(false)}
