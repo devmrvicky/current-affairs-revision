@@ -10,7 +10,7 @@ import { useQuizStore } from '../store/quizStore';
 import { useReaderStore } from '../store/readerStore';
 import { useChapterStore } from '../store/chapterStore';
 import {
-  getChapterByName, loadChapterTest, loadChapterMarkdown,
+  getChapterByName, loadChapterTest, loadChapterParts,
 } from '../services/chapterRepository';
 import { MarkdownRenderer } from '../components/reader/MarkdownRenderer';
 import { ReadingModeOverlay } from '../components/reader/ReadingModeOverlay';
@@ -19,6 +19,7 @@ import { ChapterSearch } from '../components/reader/ChapterSearch';
 import { QuickRevisionPanel } from '../components/reader/QuickRevisionPanel';
 import { FloatingQuickRevisionButton } from '../components/reader/FloatingQuickRevisionButton';
 import { ExamRevisionMode } from '../components/reader/ExamRevisionMode';
+import { AiSummarySheet } from '../components/reader/AiSummarySheet';
 import { EmptyState } from '../components/common/EmptyState';
 import type { HighlightColor } from '../types';
 
@@ -40,15 +41,21 @@ export default function ChapterDetailPage() {
   const chapter = useMemo(() => getChapterByName(chapterName), [chapterName]);
 
   const [tab, setTab] = useState<TabKey>('revision');
-  const [markdown, setMarkdown] = useState<string | null>(null);
+  const [parts, setParts] = useState<{ label: string; content: string }[]>([]);
   const [isLoadingMd, setIsLoadingMd] = useState(true);
   const [questionCounts, setQuestionCounts] = useState<Record<string, number>>({});
   const [startingTest, setStartingTest] = useState<string | null>(null);
   const [readingMode, setReadingMode] = useState(false);
   const [examMode, setExamMode] = useState(false);
+  const [aiSummaryOpen, setAiSummaryOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
 
-  const hasMarkdown = chapter?.mdRelPath != null;
+  const hasMarkdown = (chapter?.parts.length ?? 0) > 0;
+  // One joined string for anything that needs a single content blob (outline,
+  // reading mode, search, AI summary, exam mode) — parts stay separately
+  // loaded/rendered for the inline tab view below; this is purely a
+  // display-time join, never written back to storage.
+  const combinedMarkdown = useMemo(() => parts.map((p) => p.content).join('\n\n---\n\n'), [parts]);
   const chapterHighlights = getHighlightsForChapter(chapterName);
   const chapterNotes = getNotesForChapter(chapterName);
   const chapterProgress = progress[chapterName];
@@ -60,12 +67,12 @@ export default function ChapterDetailPage() {
   }, [chapterName]);
 
   useEffect(() => {
-    if (!chapter) { setIsLoadingMd(false); return; }
+    if (!chapter) return;
     let cancelled = false;
     setIsLoadingMd(true);
-    loadChapterMarkdown(chapterName).then((content) => {
+    loadChapterParts(chapterName).then((loaded) => {
       if (!cancelled) {
-        setMarkdown(content);
+        setParts(loaded);
         setIsLoadingMd(false);
       }
     });
@@ -117,9 +124,9 @@ export default function ChapterDetailPage() {
   }
 
   // Deep linking: /chapter/X?section=some-heading-slug scrolls there on load.
-  // Retries briefly since the markdown DOM needs a render pass after `markdown` loads.
+  // Retries briefly since the markdown DOM needs a render pass after parts load.
   useEffect(() => {
-    if (!markdown || tab !== 'revision' || readingMode) return;
+    if (parts.length === 0 || tab !== 'revision' || readingMode) return;
     const section = searchParams.get('section');
     if (!section) return;
     let attempts = 0;
@@ -138,7 +145,7 @@ export default function ChapterDetailPage() {
     requestAnimationFrame(tryScroll);
     return () => { cancelled = true; };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [markdown, tab, readingMode]);
+  }, [parts, tab, readingMode]);
 
   async function handleStartTest(relPath: string) {
     setStartingTest(relPath);
@@ -288,7 +295,7 @@ export default function ChapterDetailPage() {
                   <div key={i} className="card h-20 shimmer" style={{ background: 'var(--border)' }} />
                 ))}
               </div>
-            ) : !hasMarkdown || !markdown ? (
+            ) : !hasMarkdown ? (
               <div className="card p-8 text-center">
                 <BookOpen size={32} className="mx-auto mb-3" style={{ color: 'var(--text-muted)' }} />
                 <p className="font-semibold" style={{ color: 'var(--text-primary)' }}>
@@ -307,8 +314,14 @@ export default function ChapterDetailPage() {
                 {/* Actions row */}
                 <div className="flex flex-col sm:flex-row gap-3 mb-4">
                   <div className="flex-1">
-                    <ChapterSearch content={markdown} query={searchQuery} onQueryChange={setSearchQuery} />
+                    <ChapterSearch content={combinedMarkdown} query={searchQuery} onQueryChange={setSearchQuery} />
                   </div>
+                  <button
+                    onClick={() => setAiSummaryOpen(true)}
+                    className="btn-secondary flex items-center justify-center gap-2 text-sm py-2.5 flex-shrink-0"
+                  >
+                    <Sparkles size={14} /> Generate Summary
+                  </button>
                   <button
                     onClick={() => setReadingMode(true)}
                     className="btn-primary flex items-center justify-center gap-2 text-sm py-2.5 flex-shrink-0"
@@ -318,23 +331,33 @@ export default function ChapterDetailPage() {
                 </div>
 
                 <div className="flex flex-col lg:flex-row gap-6">
-                  {/* Markdown content */}
-                  <div className="flex-1 min-w-0 card p-6" ref={revisionContentRef}>
-                    <MarkdownRenderer
-                      content={markdown}
-                      highlights={chapterHighlights}
-                      searchQuery={searchQuery}
-                      fontSize={16}
-                      fontFamily="sans"
-                      lineHeight={1.7}
-                      maxWidth={9999}
-                    />
+                  {/* Markdown content — every part rendered in order, each labeled when there's more than one */}
+                  <div className="flex-1 min-w-0 space-y-6" ref={revisionContentRef}>
+                    {parts.map((part, i) => (
+                      <div key={part.label} className="card p-6">
+                        {parts.length > 1 && (
+                          <p className="text-xs font-bold uppercase tracking-wider mb-4 pb-2 border-b" style={{ color: 'var(--text-muted)', borderColor: 'var(--border)' }}>
+                            {part.label}
+                          </p>
+                        )}
+                        <MarkdownRenderer
+                          content={part.content}
+                          highlights={chapterHighlights}
+                          searchQuery={searchQuery}
+                          fontSize={16}
+                          fontFamily="sans"
+                          lineHeight={1.7}
+                          maxWidth={9999}
+                        />
+                        {i < parts.length - 1 && <hr className="mt-6" style={{ borderColor: 'var(--border)' }} />}
+                      </div>
+                    ))}
                   </div>
 
                   {/* Sidebar — desktop/tablet only; mobile gets the floating button below */}
                   <div className="hidden lg:block lg:w-72 flex-shrink-0">
                     <QuickRevisionPanel
-                      content={markdown}
+                      content={combinedMarkdown}
                       highlights={chapterHighlights}
                       notes={chapterNotes}
                       onJumpToHeading={handleJumpToHeading}
@@ -346,7 +369,7 @@ export default function ChapterDetailPage() {
 
                 {/* Mobile/tablet: floating draggable Index button (replaces the sidebar below lg) */}
                 <FloatingQuickRevisionButton
-                  content={markdown}
+                  content={combinedMarkdown}
                   highlights={chapterHighlights}
                   notes={chapterNotes}
                   onJumpToHeading={handleJumpToHeading}
@@ -454,10 +477,10 @@ export default function ChapterDetailPage() {
 
       {/* Reading Mode Overlay */}
       <AnimatePresence>
-        {readingMode && markdown && (
+        {readingMode && combinedMarkdown && (
           <ReadingModeOverlay
             chapterId={chapterName}
-            content={markdown}
+            content={combinedMarkdown}
             onClose={() => setReadingMode(false)}
           />
         )}
@@ -474,6 +497,16 @@ export default function ChapterDetailPage() {
           />
         )}
       </AnimatePresence>
+
+      {/* AI Summary */}
+      <AiSummarySheet
+        isOpen={aiSummaryOpen}
+        onClose={() => setAiSummaryOpen(false)}
+        contentKey={chapterName}
+        title={chapterName}
+        markdown={combinedMarkdown}
+        onSaveAsNote={(text) => addNote(chapterName, text, `AI Summary — ${chapterName}`)}
+      />
 
       {/* Note prompt modal (inline mode) */}
       <AnimatePresence>

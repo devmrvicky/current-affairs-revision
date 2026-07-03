@@ -1,4 +1,4 @@
-import type { QuizSession, SavedTest, AnalysisResult, PerformanceBadge, QuestionAttempt } from '../types';
+import type { QuizSession, SavedTest, AnalysisResult, PerformanceBadge, QuestionAttempt, Question } from '../types';
 import { v4 as uuidv4 } from 'uuid';
 
 // ─── Time Formatting ──────────────────────────────────────────────────────────
@@ -151,6 +151,21 @@ export function shuffleArray<T>(arr: T[]): T[] {
   return result;
 }
 
+/**
+ * Returns a NEW Question with its `options` array shuffled (Fisher–Yates) —
+ * every other field is copied through untouched, and the original question
+ * object is never mutated. `correctAnswer` is left exactly as-is: since it's
+ * stored as the answer TEXT (not a positional index), it stays correct no
+ * matter how `options` gets reordered — no recalculation needed.
+ *
+ * Call this exactly once per question when a new test session starts, and
+ * store the result in the session so navigating between questions, pausing,
+ * resuming, or reviewing never reshuffles it again.
+ */
+export function shuffleQuestion(question: Question): Question {
+  return { ...question, options: shuffleArray(question.options) };
+}
+
 export function getOptionLabel(index: number): string {
   return String.fromCharCode(65 + index); // A, B, C, D
 }
@@ -187,4 +202,21 @@ export function lsSet<T>(key: string, value: T): void {
   } catch {
     console.warn('localStorage unavailable');
   }
+}
+
+// ─── Content Hashing ──────────────────────────────────────────────────────────
+
+/**
+ * Fast, dependency-free, non-cryptographic string hash (djb2 variant).
+ * Only used to detect "has this content changed since it was cached?" —
+ * e.g. invalidating an AI-generated summary when the source markdown edits.
+ * Collisions are astronomically unlikely for this use case and harmless
+ * even if they occurred (worst case: an unnecessary regeneration).
+ */
+export function hashString(input: string): string {
+  let hash = 5381;
+  for (let i = 0; i < input.length; i++) {
+    hash = ((hash << 5) + hash + input.charCodeAt(i)) | 0; // hash * 33 + c
+  }
+  return (hash >>> 0).toString(36);
 }

@@ -1,6 +1,6 @@
 import { openDB, DBSchema, IDBPDatabase } from 'idb';
 import { v4 as uuidv4 } from 'uuid';
-import type { SavedTest, Statistics, Settings, WrongQuestion, BookmarkedQuestion, MarkedReviewQuestion, ChapterStats, DailyGoal, NotificationSettings, NotificationCategorySettings, Highlight, ReadingProgress, ReaderNote, ReadingPrefs } from '../types';
+import type { SavedTest, Statistics, Settings, WrongQuestion, BookmarkedQuestion, MarkedReviewQuestion, ChapterStats, DailyGoal, NotificationSettings, NotificationCategorySettings, Highlight, ReadingProgress, ReaderNote, ReadingPrefs, AiSummaryCacheEntry } from '../types';
 
 // ─── Sync types ───────────────────────────────────────────────────────────────
 // Local store name → remote (Supabase) table name. Kept distinct on purpose so
@@ -98,10 +98,14 @@ interface AppDB extends DBSchema {
     key: string;
     value: SyncMeta;
   };
+  aiSummaries: {
+    key: string;
+    value: AiSummaryCacheEntry;
+  };
 }
 
 const DB_NAME = 'CurrentAffairsDB';
-const DB_VERSION = 7;
+const DB_VERSION = 8;
 
 let dbInstance: IDBPDatabase<AppDB> | null = null;
 
@@ -151,6 +155,9 @@ async function getDB(): Promise<IDBPDatabase<AppDB>> {
         const outboxStore = db.createObjectStore('syncOutbox', { keyPath: 'id' });
         outboxStore.createIndex('by-createdAt', 'createdAt');
         db.createObjectStore('syncMeta', { keyPath: 'id' as never });
+      }
+      if (oldVersion < 8) {
+        db.createObjectStore('aiSummaries', { keyPath: 'contentKey' });
       }
     },
   });
@@ -821,5 +828,27 @@ export const readerPrefsDB = {
   async save(prefs: ReadingPrefs): Promise<void> {
     const db = await getDB();
     await db.put('readerPrefs', { ...prefs, id: 'user' } as never);
+  },
+};
+
+// ─── AI Summary cache ───────────────────────────────────────────────────────
+// One cached entry per contentKey (e.g. "chapter:Awards", "monthly:2025/june").
+// Regenerating simply overwrites the existing entry — there's no history of
+// past summaries, matching "invalidate cache only when markdown changes"
+// rather than keeping every past generation.
+export const aiSummaryDB = {
+  async get(contentKey: string): Promise<AiSummaryCacheEntry | undefined> {
+    const db = await getDB();
+    return db.get('aiSummaries', contentKey);
+  },
+
+  async upsert(entry: AiSummaryCacheEntry): Promise<void> {
+    const db = await getDB();
+    await db.put('aiSummaries', entry);
+  },
+
+  async delete(contentKey: string): Promise<void> {
+    const db = await getDB();
+    await db.delete('aiSummaries', contentKey);
   },
 };

@@ -2,7 +2,7 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { QuizSession, QuestionAttempt, DailyQuiz } from '../types';
 import { v4 as uuidv4 } from 'uuid';
-import { shuffleArray } from '../utils';
+import { shuffleQuestion } from '../utils';
 
 interface QuizStore {
   session: QuizSession | null;
@@ -32,21 +32,28 @@ export const useQuizStore = create<QuizStore>()(
       error: null,
 
       startSession: (quiz, fileName) => {
-        const attempts: QuestionAttempt[] = quiz.questions.map((q) => ({
-          questionId: q.id,
-          question: q.question,
-          // Shuffled fresh every session — every downstream check (submitAnswer,
-          // wrong questions, bookmarks, review center) compares answer TEXT
-          // against correctAnswer, never a positional index, so reordering
-          // options here can never corrupt which one is "correct".
-          options: shuffleArray(q.options),
-          correctAnswer: q.correctAnswer,
-          explanation: q.explanation,
-          selectedAnswer: null,
-          status: 'unanswered',
-          timeTaken: 0,
-          bookmarked: false,
-        }));
+        // Shuffle once, here, at session creation — the single funnel point
+        // for every quiz type (Daily, Chapter, Monthly Magazine, Mixed
+        // Revision, Bookmarks practice). The shuffled order then lives
+        // inside each QuestionAttempt for the rest of the session: nothing
+        // else (next/previous, palette, pause/resume, review) ever calls
+        // shuffleQuestion again, so option order stays fixed for the
+        // duration of this session and is preserved exactly as-is if the
+        // session is persisted and resumed later.
+        const attempts: QuestionAttempt[] = quiz.questions.map((q) => {
+          const shuffled = shuffleQuestion(q);
+          return {
+            questionId: shuffled.id,
+            question: shuffled.question,
+            options: shuffled.options,
+            correctAnswer: shuffled.correctAnswer,
+            explanation: shuffled.explanation,
+            selectedAnswer: null,
+            status: 'unanswered',
+            timeTaken: 0,
+            bookmarked: false,
+          };
+        });
 
         set({
           session: {

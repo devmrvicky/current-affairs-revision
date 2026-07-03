@@ -21,6 +21,7 @@ import { ChapterSearch } from '../components/reader/ChapterSearch';
 import { QuickRevisionPanel } from '../components/reader/QuickRevisionPanel';
 import { FloatingQuickRevisionButton } from '../components/reader/FloatingQuickRevisionButton';
 import { ExamRevisionMode } from '../components/reader/ExamRevisionMode';
+import { AiSummarySheet } from '../components/reader/AiSummarySheet';
 import { EmptyState } from '../components/common/EmptyState';
 import type { HighlightColor } from '../types';
 
@@ -51,6 +52,7 @@ export default function MonthlyMagazineDetailPage() {
   const [startingTest, setStartingTest] = useState<string | null>(null);
   const [readingMode, setReadingMode] = useState(false);
   const [examMode, setExamMode] = useState(false);
+  const [aiSummaryOpen, setAiSummaryOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [partCompletion, setPartCompletion] = useState<Record<number, boolean>>({});
 
@@ -348,6 +350,12 @@ export default function MonthlyMagazineDetailPage() {
                     <ChapterSearch content={combinedMarkdown} query={searchQuery} onQueryChange={setSearchQuery} />
                   </div>
                   <button
+                    onClick={() => setAiSummaryOpen(true)}
+                    className="btn-secondary flex items-center justify-center gap-2 text-sm py-2.5 flex-shrink-0"
+                  >
+                    <Sparkles size={14} /> Generate Summary
+                  </button>
+                  <button
                     onClick={() => setReadingMode(true)}
                     className="btn-primary flex items-center justify-center gap-2 text-sm py-2.5 flex-shrink-0"
                   >
@@ -535,6 +543,16 @@ export default function MonthlyMagazineDetailPage() {
           />
         )}
       </AnimatePresence>
+
+      {/* AI Summary */}
+      <AiSummarySheet
+        isOpen={aiSummaryOpen}
+        onClose={() => setAiSummaryOpen(false)}
+        contentKey={readerKey}
+        title={displayLabel}
+        markdown={combinedMarkdown}
+        onSaveAsNote={(text) => addNote(readerKey, text, `AI Summary — ${displayLabel}`)}
+      />
 
       {/* Note prompt modal (inline mode) */}
       <AnimatePresence>

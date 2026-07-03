@@ -8,8 +8,10 @@ import { getRawMarkdownGlobKeys, loadMarkdownByGlobKey } from './markdownReposit
 //   data/chapters/Budget/Budget.md
 // A chapter is a FOLDER. The folder name is always the chapter title —
 // never derived from the file names inside it. Every .json file inside the
-// folder is a separate Test; the first .md file found is the Revision
-// content. Names never need to match each other.
+// folder is a separate Test; every .md file becomes a Part, in natural sort
+// order (a folder with just one .md file is the common case and displays as
+// plain "Revision" rather than "Part 1" — see ChapterDetailPage). Names never
+// need to match each other or the folder.
 
 const jsonModules = import.meta.glob<{ default: DailyQuiz }>(
   '../data/chapters/**/*.json',
@@ -48,11 +50,16 @@ export interface ChapterTest {
   label: string;      // "Test 01", "Test 02", ... — assigned by stable order, not filename
 }
 
+export interface ChapterPart {
+  relPath: string;    // e.g. "Budget/Part 2.md" — unique key
+  globKey: string;    // needed to actually load it via markdownRepository
+  label: string;       // "Part 1", "Part 2", ... assigned by stable order
+}
+
 export interface ChapterInfo {
   chapterName: string;       // folder name = chapter title (also the unique key)
   tests: ChapterTest[];       // every JSON file inside the folder
-  mdRelPath: string | null;   // first markdown file found in the folder, or null
-  mdGlobKey: string | null;   // the original glob key needed to actually load it
+  parts: ChapterPart[];        // every markdown file inside the folder, in order (often just one)
 }
 
 let _chapterList: ChapterInfo[] | null = null;
@@ -83,15 +90,17 @@ export function getChapterList(): ChapterInfo[] {
     .map(([chapterName, { jsonPaths, mdPaths }]) => {
       const sortedJson = [...jsonPaths].sort(naturalCompare);
       const sortedMd = [...mdPaths].sort((a, b) => naturalCompare(a.relPath, b.relPath));
-      const firstMd = sortedMd[0] ?? null;
       return {
         chapterName,
         tests: sortedJson.map((relPath, i) => ({
           relPath,
           label: `Test ${String(i + 1).padStart(2, '0')}`,
         })),
-        mdRelPath: firstMd?.relPath ?? null,
-        mdGlobKey: firstMd?.globKey ?? null,
+        parts: sortedMd.map(({ relPath, globKey }, i) => ({
+          relPath,
+          globKey,
+          label: `Part ${i + 1}`,
+        })),
       };
     })
     .sort((a, b) => a.chapterName.localeCompare(b.chapterName));
@@ -115,16 +124,24 @@ export function getAllChapterTestPaths(): Set<string> {
   return set;
 }
 
-// ─── Revision (markdown) loading ──────────────────────────────────────────────
+// ─── Revision (markdown) loading — ALL parts, not just the first ─────────────
 
-export async function loadChapterMarkdown(chapterName: string): Promise<string | null> {
+export async function loadChapterParts(chapterName: string): Promise<{ label: string; content: string }[]> {
   const chapter = getChapterByName(chapterName);
-  if (!chapter || !chapter.mdGlobKey) return null;
-  return loadMarkdownByGlobKey(chapter.mdGlobKey);
+  if (!chapter || chapter.parts.length === 0) return [];
+
+  const loaded = await Promise.all(
+    chapter.parts.map(async (p) => ({
+      label: p.label,
+      content: await loadMarkdownByGlobKey(p.globKey),
+    }))
+  );
+
+  return loaded.filter((p): p is { label: string; content: string } => p.content !== null);
 }
 
 export function chapterHasMarkdown(chapterName: string): boolean {
-  return getChapterByName(chapterName)?.mdRelPath != null;
+  return (getChapterByName(chapterName)?.parts.length ?? 0) > 0;
 }
 
 // ─── Test (JSON quiz) loading ─────────────────────────────────────────────────

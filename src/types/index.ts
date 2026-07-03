@@ -354,3 +354,24 @@ export interface MonthlyMagazineIssue {
   tests: MonthlyMagazineTest[];
 }
 
+// ─── AI Summary ────────────────────────────────────────────────────────────────
+// Powers the "✨ Generate Summary" button in Chapter and Monthly Magazine
+// readers. Generation happens server-side (supabase/functions/ai-summary)
+// so the OpenRouter API key never ships to the browser.
+
+export interface AiSummaryContent {
+  shortSummary: string;
+  keyPoints: string[];
+  examHighlights: string[];
+  importantFacts: string[];
+  revisionNotes: string;
+}
+
+export interface AiSummaryCacheEntry {
+  contentKey: string;    // e.g. "chapter:Awards" or "monthly:2025/june" — reuses the same reader key
+  contentHash: string;   // hash of the markdown that produced this summary; cache is stale if this changes
+  summary: AiSummaryContent;
+  model: string;
+  generatedAt: number;
+}
+

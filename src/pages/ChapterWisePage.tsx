@@ -27,7 +27,7 @@ interface ChapterCardProps {
 const ChapterCard = memo(function ChapterCard({
   chapter, questionCount, aggregate, readingProgress, onOpen, onToggleFavorite, delay
 }: ChapterCardProps) {
-  const { chapterName, tests, mdRelPath } = chapter;
+  const { chapterName, tests, parts } = chapter;
   const badge = aggregate ? getBadge(aggregate.bestScore) : null;
   const badgeColors = badge ? getBadgeColors(badge) : null;
 
@@ -88,7 +88,7 @@ const ChapterCard = memo(function ChapterCard({
             <span className="flex items-center gap-1 text-xs" style={{ color: 'var(--text-muted)' }}>
               <Target size={11} /> {questionCount > 0 ? `${questionCount} questions` : 'Loading…'}
             </span>
-            {mdRelPath && (
+            {parts.length > 0 && (
               <span className="flex items-center gap-1 text-xs text-brand-500">
                 <BookOpen size={11} /> Revision available
               </span>
