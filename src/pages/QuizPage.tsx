@@ -14,9 +14,16 @@ export default function QuizPage() {
   const navigate = useNavigate();
   const {
     session, submitAnswer, nextQuestion, goToQuestion, pauseSession, resumeSession,
-    clearSession, toggleBookmark, toggleMarkForReview,
+    clearSession, toggleBookmark, toggleMarkForReview, completeSession,
   } = useQuizStore();
   const { settings } = useSettingsStore();
+
+  // Mock Test Engine: sessions started via the Practice/Test configurator with
+  // testMeta.isTest render an exam-like, no-reveal experience. Every other
+  // session (daily current affairs, chapter practice, revision...) is
+  // completely unaffected — isTestMode is false and every branch below falls
+  // through to the exact original behavior.
+  const isTestMode = !!session?.testMeta?.isTest;
 
   const [showPalette, setShowPalette] = useState(false);
   const [questionStartTime, setQuestionStartTime] = useState(Date.now());
@@ -28,15 +35,19 @@ export default function QuizPage() {
 
   // Reading the explanation, or searching the web, auto-pauses the timer;
   // combine with manual pause and tab-hidden so any of the four keeps the
-  // session paused.
-  const sheetPause = (showSheet && settings.showExplanation) || searchSheetOpen;
+  // session paused. Test mode never opens the explanation sheet, so
+  // sheetPause naturally stays false there.
+  const sheetPause = (showSheet && settings.showExplanation && !isTestMode) || searchSheetOpen;
   const anyPause = manualPause || hiddenPause || sheetPause;
   const prevAnyPauseRef = useRef(false);
 
   // Redirect guards
   useEffect(() => {
     if (!session) { navigate('/', { replace: true }); return; }
-    if (session.isCompleted) { navigate('/analysis', { replace: true }); return; }
+    if (session.isCompleted) {
+      navigate(session.testMeta?.isTest ? '/tests/result' : '/analysis', { replace: true });
+      return;
+    }
   }, [session, navigate]);
 
   // Reset timer and hide sheet when question changes
@@ -45,14 +56,14 @@ export default function QuizPage() {
     setShowSheet(false);
   }, [session?.currentIndex]);
 
-  // Show sheet when answer is submitted
+  // Show sheet when answer is submitted — test mode never reveals per-question, so skip entirely.
   useEffect(() => {
-    if (!session) return;
+    if (!session || isTestMode) return;
     const current = session.attempts[session.currentIndex];
     if (current?.status !== 'unanswered') {
       setShowSheet(true);
     }
-  }, [session?.attempts[session?.currentIndex ?? 0]?.status]);
+  }, [session?.attempts[session?.currentIndex ?? 0]?.status, isTestMode]);
 
   // Commit pause/resume to the persisted session exactly once per transition,
   // regardless of which source (manual button, explanation/search sheet
@@ -98,6 +109,7 @@ export default function QuizPage() {
 
     window.addEventListener('keydown', handleKey);
     return () => window.removeEventListener('keydown', handleKey);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [session, settings.keyboardNavigation]);
 
   // Accessibility: Escape closes whichever overlay is open (palette takes
@@ -114,7 +126,7 @@ export default function QuizPage() {
       }
       if (!session || showSheet || searchSheetOpen || showPalette) return;
       const current = session.attempts[session.currentIndex];
-      if (current.status !== 'unanswered') return;
+      if (!isTestMode && current.status !== 'unanswered') return;
       if (e.key === 'ArrowLeft' && session.currentIndex > 0) {
         e.preventDefault();
         goToQuestion(session.currentIndex - 1);
@@ -122,7 +134,14 @@ export default function QuizPage() {
     }
     window.addEventListener('keydown', handleA11yKey);
     return () => window.removeEventListener('keydown', handleA11yKey);
-  }, [session, showSheet, searchSheetOpen, showPalette, goToQuestion]);
+  }, [session, showSheet, searchSheetOpen, showPalette, goToQuestion, isTestMode]);
+
+  // Timed mock tests: auto-submit the instant the countdown reaches zero.
+  const handleExpire = useCallback(() => {
+    if (!session) return;
+    completeSession();
+    navigate('/tests/result');
+  }, [session, completeSession, navigate]);
 
   if (!session) return null;
 
@@ -133,21 +152,27 @@ export default function QuizPage() {
   const markedIndices = session.attempts
     .map((a, idx) => (a.markedForReview ? idx : -1))
     .filter((idx) => idx !== -1);
+  const unansweredCount = session.attempts.filter((a) => a.status === 'unanswered').length;
 
   function handleSelect(option: string) {
     if (isAnswered) return;
     const timeTaken = Math.floor((Date.now() - questionStartTime) / 1000);
     submitAnswer(option, timeTaken);
     if (settings.hapticEnabled !== false && 'vibrate' in navigator) {
-      const isCorrect = option === currentAttempt.correctAnswer;
-      navigator.vibrate(isCorrect ? 40 : [40, 60, 40]);
+      // Test mode gives no correctness feedback, so keep the haptic neutral rather than signaling right/wrong.
+      if (isTestMode) {
+        navigator.vibrate(30);
+      } else {
+        const isCorrect = option === currentAttempt.correctAnswer;
+        navigator.vibrate(isCorrect ? 40 : [40, 60, 40]);
+      }
     }
   }
 
   function handleNext() {
     setShowSheet(false);
     if (isLast) {
-      if (markedIndices.length > 0) {
+      if (isTestMode || markedIndices.length > 0) {
         setShowSubmitConfirm(true);
       } else {
         navigate('/analysis');
@@ -159,7 +184,8 @@ export default function QuizPage() {
 
   function handleConfirmSubmit() {
     setShowSubmitConfirm(false);
-    navigate('/analysis');
+    completeSession();
+    navigate(isTestMode ? '/tests/result' : '/analysis');
   }
 
   function handleReviewMarked() {
@@ -172,7 +198,7 @@ export default function QuizPage() {
   }
 
   function handleQuit() {
-    if (window.confirm('Quit the test? Your progress will be lost.')) {
+    if (window.confirm(isTestMode ? 'Quit the test? Your progress will be lost and it will not be scored.' : 'Quit the test? Your progress will be lost.')) {
       clearSession();
       navigate('/');
     }
@@ -194,7 +220,9 @@ export default function QuizPage() {
             <div className="min-w-0">
               <h1 className="font-display font-bold text-xs sm:text-sm truncate" style={{ color: 'var(--text-primary)' }}>
                 {session.date}
-                <span className="hidden sm:inline"> — Current Affairs</span>
+                <span className="hidden sm:inline">
+                  {isTestMode ? ` — ${session.testMeta!.examName}` : ' — Current Affairs'}
+                </span>
               </h1>
               <p className="text-[11px] sm:text-xs" style={{ color: 'var(--text-muted)' }}>
                 Q{session.currentIndex + 1} / {session.totalQuestions}
@@ -208,6 +236,8 @@ export default function QuizPage() {
               totalPausedTime={session.totalPausedTime}
               isPaused={session.isPaused}
               pausedAt={session.pausedAt}
+              durationSeconds={session.testMeta?.durationSeconds}
+              onExpire={session.testMeta?.durationSeconds ? handleExpire : undefined}
             />
             <button
               onClick={handlePause}
@@ -304,59 +334,74 @@ export default function QuizPage() {
                       >
                         <Flag size={16} fill={currentAttempt.markedForReview ? 'currentColor' : 'none'} />
                       </button>
-                      <button
-                        onClick={() => toggleBookmark(currentAttempt.questionId)}
-                        className={`p-2 rounded-xl transition-colors ${
-                          currentAttempt.bookmarked
-                            ? 'text-purple-500 bg-purple-50 dark:bg-purple-900/20'
-                            : 'hover:bg-gray-100 dark:hover:bg-white/10'
-                        }`}
-                        style={!currentAttempt.bookmarked ? { color: 'var(--text-muted)' } : undefined}
-                        title="Bookmark question"
-                        aria-label="Bookmark question"
-                        aria-pressed={!!currentAttempt.bookmarked}
-                      >
-                        <Bookmark size={16} fill={currentAttempt.bookmarked ? 'currentColor' : 'none'} />
-                      </button>
+                      {!isTestMode && (
+                        <button
+                          onClick={() => toggleBookmark(currentAttempt.questionId)}
+                          className={`p-2 rounded-xl transition-colors ${
+                            currentAttempt.bookmarked
+                              ? 'text-purple-500 bg-purple-50 dark:bg-purple-900/20'
+                              : 'hover:bg-gray-100 dark:hover:bg-white/10'
+                          }`}
+                          style={!currentAttempt.bookmarked ? { color: 'var(--text-muted)' } : undefined}
+                          title="Bookmark question"
+                          aria-label="Bookmark question"
+                          aria-pressed={!!currentAttempt.bookmarked}
+                        >
+                          <Bookmark size={16} fill={currentAttempt.bookmarked ? 'currentColor' : 'none'} />
+                        </button>
+                      )}
                     </div>
                   </div>
 
-                  <button
-                    onClick={() => setSearchSheetOpen(true)}
-                    className="inline-flex items-center gap-1.5 mb-5 px-3 py-1.5 rounded-full text-xs font-medium border transition-colors hover:bg-gray-100 dark:hover:bg-white/10"
-                    style={{ color: 'var(--text-muted)', borderColor: 'var(--border)' }}
-                  >
-                    <Search size={12} />
-                    Search on Web
-                  </button>
+                  {/* Web search is a study aid, not appropriate inside a timed test (§93: immersive, minimal, no cheating aids) */}
+                  {!isTestMode && (
+                    <button
+                      onClick={() => setSearchSheetOpen(true)}
+                      className="inline-flex items-center gap-1.5 mb-5 px-3 py-1.5 rounded-full text-xs font-medium border transition-colors hover:bg-gray-100 dark:hover:bg-white/10"
+                      style={{ color: 'var(--text-muted)', borderColor: 'var(--border)' }}
+                    >
+                      <Search size={12} />
+                      Search on Web
+                    </button>
+                  )}
 
                   {/* Options */}
                   <div className="space-y-3">
                     {currentAttempt.options.map((option, idx) => {
                       const label = getOptionLabel(idx);
                       let cls = 'option-btn';
-                      if (isAnswered) {
+                      const isSelected = option === currentAttempt.selectedAnswer;
+
+                      if (isTestMode) {
+                        // No reveal, ever — just show what's selected.
+                        if (isSelected) cls += ' selected-neutral';
+                      } else if (isAnswered) {
                         if (option === currentAttempt.correctAnswer) cls += ' reveal-correct';
-                        else if (option === currentAttempt.selectedAnswer) cls += ' selected-wrong';
+                        else if (isSelected) cls += ' selected-wrong';
                         else cls += ' neutral-disabled';
                       }
+
+                      const badgeCls = isTestMode
+                        ? isSelected
+                          ? 'bg-brand-500 text-white'
+                          : 'bg-brand-100 dark:bg-brand-900/40 text-brand-600 dark:text-brand-400'
+                        : isAnswered && option === currentAttempt.correctAnswer
+                          ? 'bg-green-500 text-white'
+                          : isAnswered && isSelected
+                            ? 'bg-red-500 text-white'
+                            : 'bg-brand-100 dark:bg-brand-900/40 text-brand-600 dark:text-brand-400';
+
                       return (
                         <motion.button
                           key={option}
-                          whileHover={!isAnswered ? { scale: 1.005 } : {}}
-                          whileTap={!isAnswered ? { scale: 0.995 } : {}}
+                          whileHover={!isAnswered || isTestMode ? { scale: 1.005 } : {}}
+                          whileTap={!isAnswered || isTestMode ? { scale: 0.995 } : {}}
                           className={cls}
                           onClick={() => handleSelect(option)}
-                          disabled={isAnswered}
+                          disabled={isAnswered && !isTestMode}
                         >
                           <span className="inline-flex items-center gap-3">
-                            <span className={`w-6 h-6 rounded-lg flex items-center justify-center text-xs font-bold flex-shrink-0 ${
-                              isAnswered && option === currentAttempt.correctAnswer
-                                ? 'bg-green-500 text-white'
-                                : isAnswered && option === currentAttempt.selectedAnswer
-                                ? 'bg-red-500 text-white'
-                                : 'bg-brand-100 dark:bg-brand-900/40 text-brand-600 dark:text-brand-400'
-                            }`}>
+                            <span className={`w-6 h-6 rounded-lg flex items-center justify-center text-xs font-bold flex-shrink-0 ${badgeCls}`}>
                               {label}
                             </span>
                             {option}
@@ -368,7 +413,7 @@ export default function QuizPage() {
                 </div>
 
                 {/* Answered hint — bottom sheet is open so no inline feedback needed */}
-                {isAnswered && !showSheet && (
+                {!isTestMode && isAnswered && !showSheet && (
                   <div className="mt-3 text-center">
                     <button
                       onClick={() => setShowSheet(true)}
@@ -381,8 +426,11 @@ export default function QuizPage() {
               </motion.div>
             </AnimatePresence>
 
-            {/* Navigation Buttons (unanswered only) */}
-            {!isAnswered && (
+            {/* Navigation Buttons — in test mode these stay visible even after
+                answering, since there's no bottom-sheet-driven "Next" (no
+                reveal to show). In practice mode, unchanged: only shown
+                before answering, the bottom sheet takes over afterward. */}
+            {(isTestMode || !isAnswered) && (
               <div className="flex justify-between mt-4">
                 <button
                   className="btn-ghost flex items-center gap-1 text-sm"
@@ -392,10 +440,11 @@ export default function QuizPage() {
                   <ChevronLeft size={16} /> Previous
                 </button>
                 <button
-                  className="btn-ghost flex items-center gap-1 text-sm"
+                  className="btn-primary flex items-center gap-1 text-sm"
                   onClick={handleNext}
                 >
-                  Skip <ChevronRight size={16} />
+                  {isLast ? (isTestMode ? 'Submit Test' : 'Finish') : isTestMode ? 'Next' : 'Skip'}
+                  {!isLast && <ChevronRight size={16} />}
                 </button>
               </div>
             )}
@@ -409,32 +458,38 @@ export default function QuizPage() {
                 currentIndex={session.currentIndex}
                 visitedIndices={session.visitedIndices ?? []}
                 onJump={goToQuestion}
+                hideCorrectness={isTestMode}
               />
             </div>
           </div>
         </div>
       </div>
 
-      {/* Answer Bottom Sheet */}
-      <AnswerBottomSheet
-        attempt={showSheet ? currentAttempt : null}
-        isLastQuestion={isLast}
-        onNext={handleNext}
-        onBookmark={() => toggleBookmark(currentAttempt.questionId)}
-        onMarkForReview={() => toggleMarkForReview(currentAttempt.questionId)}
-        onClose={() => setShowSheet(false)}
-        showExplanation={settings.showExplanation}
-        autoNextSeconds={settings.autoNextSeconds}
-        frozen={manualPause}
-      />
+      {/* Answer Bottom Sheet — practice mode only; test mode never reveals per-question */}
+      {!isTestMode && (
+        <AnswerBottomSheet
+          attempt={showSheet ? currentAttempt : null}
+          isLastQuestion={isLast}
+          onNext={handleNext}
+          onBookmark={() => toggleBookmark(currentAttempt.questionId)}
+          onMarkForReview={() => toggleMarkForReview(currentAttempt.questionId)}
+          onClose={() => setShowSheet(false)}
+          showExplanation={settings.showExplanation}
+          autoNextSeconds={settings.autoNextSeconds}
+          frozen={manualPause}
+        />
+      )}
 
-      <QuestionWebSearchSheet
-        isOpen={searchSheetOpen}
-        query={currentAttempt.question}
-        onClose={() => setSearchSheetOpen(false)}
-      />
+      {!isTestMode && (
+        <QuestionWebSearchSheet
+          isOpen={searchSheetOpen}
+          query={currentAttempt.question}
+          onClose={() => setSearchSheetOpen(false)}
+        />
+      )}
 
-      {/* Submit confirmation — shown when finishing the last question while some are still marked for review */}
+      {/* Submit confirmation — always shown for tests on the final question; for
+          practice, only when something is still marked for review. */}
       <AnimatePresence>
         {showSubmitConfirm && (
           <motion.div
@@ -455,17 +510,21 @@ export default function QuizPage() {
                 <AlertTriangle size={26} className="text-amber-500" />
               </div>
               <h2 className="text-lg font-display font-bold mb-1" style={{ color: 'var(--text-primary)' }}>
-                Marked For Review: {markedIndices.length} Question{markedIndices.length !== 1 ? 's' : ''}
+                {isTestMode ? 'Submit Test?' : `Marked For Review: ${markedIndices.length} Question${markedIndices.length !== 1 ? 's' : ''}`}
               </h2>
               <p className="text-sm mb-5" style={{ color: 'var(--text-secondary)' }}>
-                You can revisit them before submitting, or submit the test as-is.
+                {isTestMode
+                  ? `${unansweredCount} unanswered${markedIndices.length > 0 ? `, ${markedIndices.length} marked for review` : ''}. You can still go back and review before submitting.`
+                  : 'You can revisit them before submitting, or submit the test as-is.'}
               </p>
               <div className="flex flex-col gap-2">
-                <button onClick={handleReviewMarked} className="btn-secondary text-sm py-2.5">
-                  Review Marked Questions
-                </button>
+                {markedIndices.length > 0 && (
+                  <button onClick={handleReviewMarked} className="btn-secondary text-sm py-2.5">
+                    Review Marked Questions
+                  </button>
+                )}
                 <button onClick={handleConfirmSubmit} className="btn-primary text-sm py-2.5">
-                  Submit Test Anyway
+                  Submit Test {!isTestMode && 'Anyway'}
                 </button>
               </div>
             </motion.div>
@@ -512,6 +571,7 @@ export default function QuizPage() {
                   goToQuestion(idx);
                   setShowPalette(false);
                 }}
+                hideCorrectness={isTestMode}
               />
             </motion.div>
           </>

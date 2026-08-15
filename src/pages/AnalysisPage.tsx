@@ -16,6 +16,7 @@ import { getAllChapterTestPaths, getChapterNameForTestPath, getChapterList } fro
 import { getAllMonthlyMagazineTestPaths } from '../services/monthlyMagazineRepository';
 import { statsDB } from '../services/db';
 import { notifyTestCompleted, notifyChapterCompleted, checkAchievements } from '../services/notificationTriggers';
+import { recordSessionToLedger } from '../services/attemptLedgerService';
 
 type TabKey = 'overview' | 'all' | 'wrong' | 'correct' | 'bookmarked' | 'marked';
 
@@ -92,6 +93,16 @@ export default function AnalysisPage() {
 
       // Increment daily goal with answered questions count
       await incrementGoal(result.totalQuestions);
+
+      // Universal attempt ledger: chapter quizzes get accurate id
+      // reconstruction + topic tagging; Practice-Configurator sessions
+      // already carry their own universal id; daily current-affairs quizzes
+      // reconstruct from the filename. Monthly Magazine / Mixed Revision /
+      // Bookmarks Revision aren't confidently mappable and are skipped
+      // inside recordSessionToLedger rather than guessed.
+      await recordSessionToLedger(session, {
+        chapterName: isChapterQuiz ? getChapterNameForTestPath(session.fileName) : undefined,
+      });
 
       // Record chapter stats if this was a chapter quiz — chapterName is
       // derived from the test's folder, never from the test's own filename.

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "vocabulary-0001",
+    "topicId": "vocabulary",
+    "question": "Choose the correct meaning of the word 'Benevolent'.",
+    "options": [
+      { "id": "A", "text": "Cruel" },
+      { "id": "B", "text": "Kind and generous" },
+      { "id": "C", "text": "Angry" },
+      { "id": "D", "text": "Careless" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Benevolent' means well-meaning and kindly. याद रखने की ट्रिक: 'Bene-' (Latin: good) जैसे Benefit, Benefactor में भी आता है।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "vocabulary-0002",
+    "topicId": "vocabulary",
+    "question": "Choose the correct meaning of the word 'Ephemeral'.",
+    "options": [
+      { "id": "A", "text": "Lasting forever" },
+      { "id": "B", "text": "Very loud" },
+      { "id": "C", "text": "Short-lived" },
+      { "id": "D", "text": "Extremely heavy" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Ephemeral' means lasting for a very short time.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "vocabulary-0003",
+    "topicId": "vocabulary",
+    "question": "Choose the correct meaning of the word 'Candid'.",
+    "options": [
+      { "id": "A", "text": "Frank and honest" },
+      { "id": "B", "text": "Secretive" },
+      { "id": "C", "text": "Colourful" },
+      { "id": "D", "text": "Formal" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Candid' means truthful and straightforward.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "error-detection-0001",
+    "topicId": "error-detection",
+    "question": "Identify the part with an error: (A) Neither of the students / (B) have completed / (C) their assignment / (D) No error",
+    "options": [
+      { "id": "A", "text": "Neither of the students" },
+      { "id": "B", "text": "have completed" },
+      { "id": "C", "text": "their assignment" },
+      { "id": "D", "text": "No error" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Neither' is singular, so it takes a singular verb: 'has completed', not 'have completed'। याद रखने की ट्रिक: Neither/Either + of + plural noun → हमेशा singular verb।",
+    "difficulty": "medium"
+  },
+  {
+    "id": "error-detection-0002",
+    "topicId": "error-detection",
+    "question": "Identify the part with an error: (A) She is one of the / (B) best singer / (C) in the school / (D) No error",
+    "options": [
+      { "id": "A", "text": "She is one of the" },
+      { "id": "B", "text": "best singer" },
+      { "id": "C", "text": "in the school" },
+      { "id": "D", "text": "No error" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'One of the' is always followed by a plural noun: 'best singers', not 'best singer'।",
+    "difficulty": "medium"
+  },
+  {
+    "id": "error-detection-0003",
+    "topicId": "error-detection",
+    "question": "Identify the part with an error: (A) Each of the boys / (B) were given / (C) a separate task / (D) No error",
+    "options": [
+      { "id": "A", "text": "Each of the boys" },
+      { "id": "B", "text": "were given" },
+      { "id": "C", "text": "a separate task" },
+      { "id": "D", "text": "No error" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Each' is singular, so it takes a singular verb: 'was given', not 'were given'।",
+    "difficulty": "medium"
+  },
+  {
+    "id": "error-detection-0004",
+    "topicId": "error-detection",
+    "question": "Identify the part with an error: (A) The number of accidents / (B) have increased / (C) in the last few years / (D) No error",
+    "options": [
+      { "id": "A", "text": "The number of accidents" },
+      { "id": "B", "text": "have increased" },
+      { "id": "C", "text": "in the last few years" },
+      { "id": "D", "text": "No error" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'The number of' takes a singular verb: 'has increased'. (Contrast with 'A number of', which takes a plural verb.)",
+    "difficulty": "hard"
+  },
+  {
+    "id": "synonyms-0001",
+    "topicId": "synonyms",
+    "question": "Choose the word most similar in meaning to 'Abundant'.",
+    "options": [
+      { "id": "A", "text": "Scarce" },
+      { "id": "B", "text": "Plentiful" },
+      { "id": "C", "text": "Empty" },
+      { "id": "D", "text": "Broken" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Abundant' and 'Plentiful' both mean existing in large quantities.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "synonyms-0002",
+    "topicId": "synonyms",
+    "question": "Choose the word most similar in meaning to 'Meticulous'.",
+    "options": [
+      { "id": "A", "text": "Careless" },
+      { "id": "B", "text": "Careful and precise" },
+      { "id": "C", "text": "Fast" },
+      { "id": "D", "text": "Lazy" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Meticulous' means showing great attention to detail; very careful and precise.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "synonyms-0003",
+    "topicId": "synonyms",
+    "question": "Choose the word most similar in meaning to 'Robust'.",
+    "options": [
+      { "id": "A", "text": "Fragile" },
+      { "id": "B", "text": "Strong and healthy" },
+      { "id": "C", "text": "Slow" },
+      { "id": "D", "text": "Quiet" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Robust' means strong and vigorous, in good health or in good condition.",
+    "difficulty": "easy"
+  }
+]

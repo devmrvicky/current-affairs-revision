@@ -1,0 +1,142 @@
+[
+  {
+    "id": "physics-0001",
+    "topicId": "physics",
+    "question": "SI मात्रक में बल (Force) का मात्रक क्या है?",
+    "options": [
+      { "id": "A", "text": "जूल (Joule)" },
+      { "id": "B", "text": "न्यूटन (Newton)" },
+      { "id": "C", "text": "वाट (Watt)" },
+      { "id": "D", "text": "पास्कल (Pascal)" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "बल का SI मात्रक न्यूटन (N) है। याद रखने की ट्रिक: 'न्यूटन' → न्यूटन के गति के नियम से जुड़ा है।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "physics-0002",
+    "topicId": "physics",
+    "question": "ध्वनि की चाल किस माध्यम में सबसे अधिक होती है?",
+    "options": [
+      { "id": "A", "text": "निर्वात (Vacuum)" },
+      { "id": "B", "text": "गैस" },
+      { "id": "C", "text": "द्रव" },
+      { "id": "D", "text": "ठोस" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "ठोस में कणों के बीच दूरी सबसे कम होती है, इसलिए ध्वनि सबसे तेज़ ठोस में चलती है।",
+    "difficulty": "medium"
+  },
+  {
+    "id": "physics-0003",
+    "topicId": "physics",
+    "question": "एक वस्तु का भार (Weight) निर्भर करता है:",
+    "options": [
+      { "id": "A", "text": "केवल द्रव्यमान पर" },
+      { "id": "B", "text": "केवल आयतन पर" },
+      { "id": "C", "text": "द्रव्यमान और गुरुत्वीय त्वरण पर" },
+      { "id": "D", "text": "केवल घनत्व पर" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "भार = द्रव्यमान × गुरुत्वीय त्वरण (W = mg)।",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chemistry-0001",
+    "topicId": "chemistry",
+    "question": "जल का रासायनिक सूत्र क्या है?",
+    "options": [
+      { "id": "A", "text": "CO₂" },
+      { "id": "B", "text": "H₂O" },
+      { "id": "C", "text": "NaCl" },
+      { "id": "D", "text": "O₂" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "जल के एक अणु में 2 हाइड्रोजन और 1 ऑक्सीजन परमाणु होते हैं — H₂O।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "chemistry-0002",
+    "topicId": "chemistry",
+    "question": "आवर्त सारणी (Periodic Table) में तत्वों को किस आधार पर व्यवस्थित किया गया है?",
+    "options": [
+      { "id": "A", "text": "परमाणु द्रव्यमान" },
+      { "id": "B", "text": "परमाणु क्रमांक (Atomic Number)" },
+      { "id": "C", "text": "घनत्व" },
+      { "id": "D", "text": "रंग" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "आधुनिक आवर्त सारणी परमाणु क्रमांक के बढ़ते क्रम में व्यवस्थित है (मेंडलीफ की सारणी परमाणु द्रव्यमान पर आधारित थी)।",
+    "difficulty": "medium"
+  },
+  {
+    "id": "chemistry-0003",
+    "topicId": "chemistry",
+    "question": "निम्न में से कौन-सी गैस प्रकाश संश्लेषण (Photosynthesis) के दौरान पौधों द्वारा अवशोषित की जाती है?",
+    "options": [
+      { "id": "A", "text": "ऑक्सीजन" },
+      { "id": "B", "text": "नाइट्रोजन" },
+      { "id": "C", "text": "कार्बन डाइऑक्साइड" },
+      { "id": "D", "text": "हाइड्रोजन" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "पौधे प्रकाश संश्लेषण के दौरान कार्बन डाइऑक्साइड अवशोषित करते हैं और ऑक्सीजन छोड़ते हैं।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "biology-0001",
+    "topicId": "biology",
+    "question": "मानव शरीर में सबसे बड़ा अंग (Organ) कौन-सा है?",
+    "options": [
+      { "id": "A", "text": "यकृत (Liver)" },
+      { "id": "B", "text": "त्वचा (Skin)" },
+      { "id": "C", "text": "फेफड़े (Lungs)" },
+      { "id": "D", "text": "हृदय (Heart)" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "त्वचा मानव शरीर का सबसे बड़ा अंग है।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "biology-0002",
+    "topicId": "biology",
+    "question": "मानव हृदय में कितने कक्ष (Chambers) होते हैं?",
+    "options": [
+      { "id": "A", "text": "2" },
+      { "id": "B", "text": "3" },
+      { "id": "C", "text": "4" },
+      { "id": "D", "text": "5" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "मानव हृदय में 4 कक्ष होते हैं: 2 अलिंद (Atria) और 2 निलय (Ventricles)।",
+    "difficulty": "medium"
+  },
+  {
+    "id": "biology-0003",
+    "topicId": "biology",
+    "question": "रक्त में ऑक्सीजन का परिवहन किस के द्वारा होता है?",
+    "options": [
+      { "id": "A", "text": "श्वेत रक्त कणिका (WBC)" },
+      { "id": "B", "text": "लाल रक्त कणिका (RBC)" },
+      { "id": "C", "text": "प्लेटलेट्स" },
+      { "id": "D", "text": "प्लाज्मा" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "लाल रक्त कणिकाओं में हीमोग्लोबिन होता है, जो ऑक्सीजन का परिवहन करता है।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "biology-0004",
+    "topicId": "biology",
+    "question": "प्रकाश संश्लेषण की प्रक्रिया पौधों की किस कोशिकांग (Organelle) में होती है?",
+    "options": [
+      { "id": "A", "text": "माइटोकॉन्ड्रिया" },
+      { "id": "B", "text": "क्लोरोप्लास्ट" },
+      { "id": "C", "text": "केंद्रक (Nucleus)" },
+      { "id": "D", "text": "राइबोसोम" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "क्लोरोप्लास्ट में क्लोरोफिल होता है, जो प्रकाश संश्लेषण के लिए आवश्यक है।",
+    "difficulty": "medium"
+  }
+]

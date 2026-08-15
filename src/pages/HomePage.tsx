@@ -3,8 +3,12 @@ import { useNavigate } from 'react-router-dom';
 import {
   BookOpen, Clock, BarChart3, RefreshCcw, Zap,
   CheckCircle2, XCircle, Target, TrendingUp,
-  Calendar, Brain, Bookmark, Layers, AlertTriangle, BarChart2, Highlighter
+  Calendar, Brain, Bookmark, Layers, AlertTriangle, BarChart2, Highlighter,
+  Newspaper, ArrowRight, Target as TargetIcon, ListChecks
 } from 'lucide-react';
+import { useExamStore } from '../store/examStore';
+import { examRegistry } from '../data/registry/examRegistry';
+import { getSyllabusWithCounts } from '../services/examService';
 import { motion } from 'framer-motion';
 import toast from 'react-hot-toast';
 import { useQuizStore } from '../store/quizStore';
@@ -43,6 +47,24 @@ export default function HomePage() {
   const { loadAll: loadReaderData } = useReaderStore();
   const { availableSet, isLoading: datesLoading } = useAvailableDates();
   const [isCreating, setIsCreating] = useState(false);
+
+  // ── Exam-aware dashboard scoping (ExamVerse Phase 2) ──────────────────────
+  // Current Affairs is the one exam with real content today, so its
+  // selection keeps showing the full dashboard below unchanged. Any other
+  // selected exam gets an honest "here's what's live so far" panel instead
+  // of pretending question banks exist that haven't been built yet.
+  const { selectedExamId } = useExamStore();
+  const selectedExam = examRegistry.getExam(selectedExamId);
+  const isCurrentAffairsExam = selectedExamId === 'current-affairs';
+  const [syllabus, setSyllabus] = useState<Awaited<ReturnType<typeof getSyllabusWithCounts>>>([]);
+
+  useEffect(() => {
+    if (isCurrentAffairsExam || !selectedExam) {
+      setSyllabus([]);
+      return;
+    }
+    getSyllabusWithCounts(selectedExamId).then(setSyllabus);
+  }, [selectedExamId, isCurrentAffairsExam, selectedExam]);
 
   const today = new Date();
   const todayFileName = getFileName(today);
@@ -134,6 +156,22 @@ export default function HomePage() {
       gradient: 'linear-gradient(135deg, rgba(99,102,241,0.08) 0%, transparent 100%)',
       onClick: hasActiveSession ? () => navigate('/quiz') : handleCreateTest,
       badge: hasActiveSession ? 'Resume' : 'Today',
+    },
+    {
+      title: 'Practice by Topic',
+      description: 'Choose subject, topic, difficulty & count',
+      icon: TargetIcon,
+      color: '#14b8a6',
+      gradient: 'linear-gradient(135deg, rgba(20,184,166,0.08) 0%, transparent 100%)',
+      onClick: () => navigate('/practice/configure'),
+    },
+    {
+      title: 'Mock Test',
+      description: 'Timed, negative marking, exam-standard',
+      icon: ListChecks,
+      color: '#a855f7',
+      gradient: 'linear-gradient(135deg, rgba(168,85,247,0.08) 0%, transparent 100%)',
+      onClick: () => navigate('/tests/configure'),
     },
     {
       title: 'Revision Calendar',
@@ -238,6 +276,62 @@ export default function HomePage() {
           {todayDisplay} • Stay consistent, stay ahead
         </p>
       </motion.div>
+
+      {/* Exam-scoped panel — only shown for exams beyond Current Affairs, which keeps its full dashboard below */}
+      {!isCurrentAffairsExam && selectedExam && (
+        <motion.div
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.08 }}
+          className="card p-5"
+        >
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <h3 className="font-display font-semibold" style={{ color: 'var(--text-primary)' }}>
+                {selectedExam.name}
+              </h3>
+              <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>
+                {selectedExam.fullName ?? 'Your preparation, by subject'}
+              </p>
+            </div>
+            <button
+              onClick={() => navigate('/exams')}
+              className="text-xs font-medium text-brand-500 hover:text-brand-600 flex items-center gap-1"
+            >
+              Switch <ArrowRight size={12} />
+            </button>
+          </div>
+
+          {syllabus.every((s) => s.questionCount === 0) ? (
+            <div className="flex items-start gap-3 p-4 rounded-xl" style={{ background: 'var(--border)' }}>
+              <Newspaper size={20} className="flex-shrink-0 mt-0.5" style={{ color: 'var(--text-muted)' }} />
+              <div>
+                <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>
+                  Question bank coming soon
+                </p>
+                <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>
+                  {selectedExam.name} content isn't live yet. Current Affairs is fully available in the meantime.
+                </p>
+                <button
+                  onClick={() => useExamStore.getState().setSelectedExam('current-affairs')}
+                  className="text-xs font-medium text-brand-500 hover:text-brand-600 mt-2"
+                >
+                  Switch to Current Affairs →
+                </button>
+              </div>
+            </div>
+          ) : (
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+              {syllabus.map(({ subject, questionCount }) => (
+                <div key={subject.id} className="p-3 rounded-xl" style={{ background: 'var(--border)' }}>
+                  <p className="text-xs font-medium" style={{ color: 'var(--text-secondary)' }}>{subject.name}</p>
+                  <p className="text-lg font-display font-bold" style={{ color: 'var(--text-primary)' }}>{questionCount}</p>
+                </div>
+              ))}
+            </div>
+          )}
+        </motion.div>
+      )}
 
       {/* PWA Install Banner */}
       <PWAInstallBanner />

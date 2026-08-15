@@ -8,11 +8,14 @@ interface QuestionPaletteProps {
   currentIndex: number;
   visitedIndices: number[];
   onJump: (index: number) => void;
+  /** Test mode: don't reveal correct/wrong — just show answered/unanswered. */
+  hideCorrectness?: boolean;
 }
 
-export const QuestionPalette = memo(function QuestionPalette({ attempts, currentIndex, visitedIndices, onJump }: QuestionPaletteProps) {
+export const QuestionPalette = memo(function QuestionPalette({ attempts, currentIndex, visitedIndices, onJump, hideCorrectness }: QuestionPaletteProps) {
   const correct = attempts.filter((a) => a.status === 'correct').length;
   const wrong = attempts.filter((a) => a.status === 'wrong').length;
+  const answered = attempts.filter((a) => a.status !== 'unanswered').length;
   const unanswered = attempts.filter((a) => a.status === 'unanswered').length;
   const marked = attempts.filter((a) => a.markedForReview).length;
   const visited = new Set(visitedIndices ?? []);
@@ -25,14 +28,23 @@ export const QuestionPalette = memo(function QuestionPalette({ attempts, current
           Question Palette
         </h3>
         <div className="flex flex-wrap gap-3 text-xs">
-          <div className="flex items-center gap-1.5">
-            <div className="w-3 h-3 rounded bg-green-500" />
-            <span style={{ color: 'var(--text-secondary)' }}>Correct ({correct})</span>
-          </div>
-          <div className="flex items-center gap-1.5">
-            <div className="w-3 h-3 rounded bg-red-500" />
-            <span style={{ color: 'var(--text-secondary)' }}>Wrong ({wrong})</span>
-          </div>
+          {hideCorrectness ? (
+            <div className="flex items-center gap-1.5">
+              <div className="w-3 h-3 rounded bg-brand-500" />
+              <span style={{ color: 'var(--text-secondary)' }}>Answered ({answered})</span>
+            </div>
+          ) : (
+            <>
+              <div className="flex items-center gap-1.5">
+                <div className="w-3 h-3 rounded bg-green-500" />
+                <span style={{ color: 'var(--text-secondary)' }}>Correct ({correct})</span>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <div className="w-3 h-3 rounded bg-red-500" />
+                <span style={{ color: 'var(--text-secondary)' }}>Wrong ({wrong})</span>
+              </div>
+            </>
+          )}
           <div className="flex items-center gap-1.5">
             <div className="w-3 h-3 rounded ring-2 ring-amber-400" style={{ background: 'var(--card)' }} />
             <span style={{ color: 'var(--text-secondary)' }}>Current</span>
@@ -66,7 +78,14 @@ export const QuestionPalette = memo(function QuestionPalette({ attempts, current
           let extraClass = 'border';
           let borderColor = 'var(--border)';
 
-          if (attempt.status === 'correct') {
+          if (hideCorrectness) {
+            if (isAnswered) {
+              bg = '#6366f1'; textColor = '#fff'; extraClass = ''; // brand-500, no correctness reveal
+            } else if (isVisited) {
+              bg = 'var(--border)'; textColor = 'var(--text-secondary)'; extraClass = 'border-2 border-dashed';
+              borderColor = 'var(--text-muted)';
+            }
+          } else if (attempt.status === 'correct') {
             bg = '#22c55e'; textColor = '#fff'; extraClass = '';
           } else if (attempt.status === 'wrong') {
             bg = '#ef4444'; textColor = '#fff'; extraClass = '';
@@ -89,7 +108,7 @@ export const QuestionPalette = memo(function QuestionPalette({ attempts, current
               onClick={() => onJump(idx)}
               className={`quiz-palette-btn relative ${extraClass} ${isCurrent ? 'ring-2 ring-amber-400 ring-offset-1' : ''}`}
               style={{ background: bg, color: textColor, borderColor }}
-              title={`Q${idx + 1}: ${attempt.markedForReview ? 'marked for review, ' : ''}${isAnswered ? attempt.status : isVisited ? 'visited' : 'not visited'}`}
+              title={`Q${idx + 1}: ${attempt.markedForReview ? 'marked for review, ' : ''}${hideCorrectness ? (isAnswered ? 'answered' : isVisited ? 'visited' : 'not visited') : isAnswered ? attempt.status : isVisited ? 'visited' : 'not visited'}`}
             >
               {idx + 1}
               {attempt.bookmarked && (
@@ -105,27 +124,48 @@ export const QuestionPalette = memo(function QuestionPalette({ attempts, current
 
       {/* Summary */}
       <div className="mt-4 pt-4 border-t border-[var(--border)] grid grid-cols-3 gap-2">
-        <div className="text-center">
-          <div className="flex items-center justify-center gap-1 text-green-500 mb-0.5">
-            <CheckCircle2 size={14} />
-            <span className="text-sm font-bold">{correct}</span>
-          </div>
-          <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Right</p>
-        </div>
-        <div className="text-center">
-          <div className="flex items-center justify-center gap-1 text-red-500 mb-0.5">
-            <XCircle size={14} />
-            <span className="text-sm font-bold">{wrong}</span>
-          </div>
-          <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Wrong</p>
-        </div>
-        <div className="text-center">
-          <div className="flex items-center justify-center gap-1 mb-0.5" style={{ color: 'var(--text-muted)' }}>
-            <Circle size={14} />
-            <span className="text-sm font-bold">{unanswered}</span>
-          </div>
-          <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Left</p>
-        </div>
+        {hideCorrectness ? (
+          <>
+            <div className="text-center col-span-1">
+              <div className="flex items-center justify-center gap-1 text-brand-500 mb-0.5">
+                <CheckCircle2 size={14} />
+                <span className="text-sm font-bold">{answered}</span>
+              </div>
+              <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Answered</p>
+            </div>
+            <div className="text-center col-span-2">
+              <div className="flex items-center justify-center gap-1 mb-0.5" style={{ color: 'var(--text-muted)' }}>
+                <Circle size={14} />
+                <span className="text-sm font-bold">{unanswered}</span>
+              </div>
+              <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Left</p>
+            </div>
+          </>
+        ) : (
+          <>
+            <div className="text-center">
+              <div className="flex items-center justify-center gap-1 text-green-500 mb-0.5">
+                <CheckCircle2 size={14} />
+                <span className="text-sm font-bold">{correct}</span>
+              </div>
+              <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Right</p>
+            </div>
+            <div className="text-center">
+              <div className="flex items-center justify-center gap-1 text-red-500 mb-0.5">
+                <XCircle size={14} />
+                <span className="text-sm font-bold">{wrong}</span>
+              </div>
+              <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Wrong</p>
+            </div>
+            <div className="text-center">
+              <div className="flex items-center justify-center gap-1 mb-0.5" style={{ color: 'var(--text-muted)' }}>
+                <Circle size={14} />
+                <span className="text-sm font-bold">{unanswered}</span>
+              </div>
+              <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Left</p>
+            </div>
+          </>
+        )}
       </div>
     </div>
   );

@@ -23,6 +23,28 @@ export interface SyncMeta {
   lastSyncedAt: number; // server timestamp watermark for pull
 }
 
+// ─── Universal attempt ledger (ExamVerse) ─────────────────────────────────────
+// One record per answered/skipped question, tagged with universal
+// exam/subject/topic identity when known. Powers "Unattempted Questions" and
+// cross-content Weak Topics in the Review Center. Immutable content (the
+// question bank) lives in src/data/*; this is purely user state, consistent
+// with the app's existing content/user-data separation.
+
+export interface UniversalAttemptRecord {
+  id: string; // uuid, one per attempt
+  /** Exact id in the universal question pool — present whenever we can determine it (daily, chapter-wise, and anything from the Practice/Test Configurator). Absent for content not yet in the universal pool (e.g. Monthly Magazine). */
+  universalQuestionId?: string;
+  examId: string;
+  subjectId: string;
+  topicId?: string;
+  isCorrect: boolean;
+  wasAnswered: boolean;
+  timeTaken: number;
+  attemptedAt: number;
+  sessionId: string;
+  sourceFileName: string;
+}
+
 // ─── Schema ───────────────────────────────────────────────────────────────────
 
 interface AppDB extends DBSchema {
@@ -102,10 +124,15 @@ interface AppDB extends DBSchema {
     key: string;
     value: AiSummaryCacheEntry;
   };
+  universalAttempts: {
+    key: string;
+    value: UniversalAttemptRecord;
+    indexes: { 'by-universalQuestionId': string; 'by-examId': string; 'by-topicId': string; 'by-attemptedAt': number };
+  };
 }
 
 const DB_NAME = 'CurrentAffairsDB';
-const DB_VERSION = 8;
+const DB_VERSION = 9;
 
 let dbInstance: IDBPDatabase<AppDB> | null = null;
 
@@ -158,6 +185,13 @@ async function getDB(): Promise<IDBPDatabase<AppDB>> {
       }
       if (oldVersion < 8) {
         db.createObjectStore('aiSummaries', { keyPath: 'contentKey' });
+      }
+      if (oldVersion < 9) {
+        const uaStore = db.createObjectStore('universalAttempts', { keyPath: 'id' });
+        uaStore.createIndex('by-universalQuestionId', 'universalQuestionId');
+        uaStore.createIndex('by-examId', 'examId');
+        uaStore.createIndex('by-topicId', 'topicId');
+        uaStore.createIndex('by-attemptedAt', 'attemptedAt');
       }
     },
   });
@@ -850,5 +884,43 @@ export const aiSummaryDB = {
   async delete(contentKey: string): Promise<void> {
     const db = await getDB();
     await db.delete('aiSummaries', contentKey);
+  },
+};
+
+// ─── Universal attempt ledger ──────────────────────────────────────────────────
+// Local-only (not enqueued to the sync outbox) — this is derived/bulk attempt
+// history, not a small user-editable table like bookmarks/settings, so it's
+// out of scope for cross-device sync until that's actually needed (master
+// prompt §72: design for it later, don't build it before it's required).
+
+export const universalAttemptsDB = {
+  async recordMany(records: UniversalAttemptRecord[]): Promise<void> {
+    if (records.length === 0) return;
+    const db = await getDB();
+    const tx = db.transaction('universalAttempts', 'readwrite');
+    await Promise.all([...records.map((r) => tx.store.put(r)), tx.done]);
+  },
+
+  async getAttemptedQuestionIds(examId?: string): Promise<Set<string>> {
+    const db = await getDB();
+    const all = examId
+      ? await db.getAllFromIndex('universalAttempts', 'by-examId', examId)
+      : await db.getAll('universalAttempts');
+    return new Set(all.map((r) => r.universalQuestionId).filter((id): id is string => Boolean(id)));
+  },
+
+  async getAll(): Promise<UniversalAttemptRecord[]> {
+    const db = await getDB();
+    return db.getAll('universalAttempts');
+  },
+
+  async getByTopic(topicId: string): Promise<UniversalAttemptRecord[]> {
+    const db = await getDB();
+    return db.getAllFromIndex('universalAttempts', 'by-topicId', topicId);
+  },
+
+  async count(): Promise<number> {
+    const db = await getDB();
+    return db.count('universalAttempts');
   },
 };

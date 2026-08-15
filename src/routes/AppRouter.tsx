@@ -38,6 +38,14 @@ const NoQuizTodayPage       = lazy(() => import('../pages/NoQuizTodayPage'));
 const NotFoundPage          = lazy(() => import('../pages/NotFoundPage'));
 const AdminDashboardPage    = lazy(() => import('../pages/AdminDashboardPage'));
 const AuthCallbackPage      = lazy(() => import('../pages/AuthCallbackPage'));
+const ExamSelectionPage     = lazy(() => import('../pages/ExamSelectionPage'));
+const PracticeConfigurePage = lazy(() => import('../pages/PracticeConfigurePage'));
+const TestConfigurePage     = lazy(() => import('../pages/TestConfigurePage'));
+const TestResultPage        = lazy(() => import('../pages/TestResultPage'));
+const TestReviewPage        = lazy(() => import('../pages/TestReviewPage'));
+const UniversalSessionPage  = lazy(() => import('../pages/UniversalSessionPage'));
+const UniversalResultPage   = lazy(() => import('../pages/UniversalResultPage'));
+const UniversalReviewPage   = lazy(() => import('../pages/UniversalReviewPage'));
 
 function S({ children }: { children: React.ReactNode }) {
   return <Suspense fallback={<PageLoader />}>{children}</Suspense>;
@@ -69,6 +77,14 @@ const router = createBrowserRouter([
       { path: 'no-quiz-today',                element: <S><NoQuizTodayPage /></S> },
       { path: 'analysis',                     element: <S><AnalysisPage /></S> },
       { path: 'admin',                        element: <S><AdminDashboardPage /></S> },
+      { path: 'exams',                        element: <S><ExamSelectionPage /></S> },
+      { path: 'practice/configure',           element: <S><PracticeConfigurePage /></S> },
+      { path: 'tests/configure',              element: <S><TestConfigurePage /></S> },
+      { path: 'tests/result',                 element: <S><TestResultPage /></S> },
+      { path: 'tests/result/review',          element: <S><TestReviewPage /></S> },
+      { path: 'session',                      element: <S><UniversalSessionPage /></S> },
+      { path: 'session/result',               element: <S><UniversalResultPage /></S> },
+      { path: 'session/result/review',        element: <S><UniversalReviewPage /></S> },
       { path: 'auth/callback',                element: <S><AuthCallbackPage /></S> },
       // Catch-all for any unmatched route under '/' — keeps header/nav chrome.
       { path: '*',                            element: <S><NotFoundPage /></S> },

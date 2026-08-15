@@ -1,0 +1,142 @@
+[
+  {
+    "id": "percentage-0001",
+    "topicId": "percentage",
+    "question": "45 का 20% कितना होगा?",
+    "options": [
+      { "id": "A", "text": "8" },
+      { "id": "B", "text": "9" },
+      { "id": "C", "text": "10" },
+      { "id": "D", "text": "12" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "45 × 20/100 = 9। याद रखने की ट्रिक: 20% = 1/5, तो 45 ÷ 5 = 9।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "percentage-0002",
+    "topicId": "percentage",
+    "question": "यदि किसी संख्या का 15% 45 है, तो वह संख्या क्या है?",
+    "options": [
+      { "id": "A", "text": "250" },
+      { "id": "B", "text": "280" },
+      { "id": "C", "text": "300" },
+      { "id": "D", "text": "320" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "संख्या = 45 ÷ 15 × 100 = 300।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "percentage-0003",
+    "topicId": "percentage",
+    "question": "एक वस्तु का मूल्य 20% बढ़ाकर फिर 20% घटाया गया। शुद्ध परिवर्तन क्या होगा?",
+    "options": [
+      { "id": "A", "text": "कोई परिवर्तन नहीं" },
+      { "id": "B", "text": "4% वृद्धि" },
+      { "id": "C", "text": "4% कमी" },
+      { "id": "D", "text": "8% कमी" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "शुद्ध % परिवर्तन = a + b + (ab/100) = 20 − 20 + (20×−20/100) = −4%। याद रखने की ट्रिक: बराबर % बढ़ाने-घटाने पर हमेशा शुद्ध कमी होती है, वृद्धि नहीं।",
+    "difficulty": "medium"
+  },
+  {
+    "id": "percentage-0004",
+    "topicId": "percentage",
+    "question": "एक छात्र परीक्षा में 480 में से 384 अंक प्राप्त करता है। उसका प्रतिशत क्या है?",
+    "options": [
+      { "id": "A", "text": "70%" },
+      { "id": "B", "text": "75%" },
+      { "id": "C", "text": "80%" },
+      { "id": "D", "text": "85%" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "384/480 × 100 = 80%।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "percentage-0005",
+    "topicId": "percentage",
+    "question": "A की आय B से 25% अधिक है। B की आय A से कितने प्रतिशत कम है?",
+    "options": [
+      { "id": "A", "text": "20%" },
+      { "id": "B", "text": "25%" },
+      { "id": "C", "text": "30%" },
+      { "id": "D", "text": "15%" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "याद रखने की ट्रिक: यदि A, B से x% अधिक है तो B, A से [x/(100+x)]×100 % कम है। यहाँ 25/(125)×100 = 20%।",
+    "difficulty": "medium"
+  },
+  {
+    "id": "percentage-0006",
+    "topicId": "percentage",
+    "question": "एक संख्या को पहले 10% बढ़ाया गया, फिर परिणाम को 10% घटाया गया। मूल संख्या 500 हो तो अंतिम संख्या क्या होगी?",
+    "options": [
+      { "id": "A", "text": "490" },
+      { "id": "B", "text": "495" },
+      { "id": "C", "text": "500" },
+      { "id": "D", "text": "505" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "500 × 1.10 = 550; 550 × 0.90 = 495।",
+    "difficulty": "medium"
+  },
+  {
+    "id": "percentage-0007",
+    "topicId": "percentage",
+    "question": "किसी शहर की जनसंख्या में प्रतिवर्ष 10% की वृद्धि होती है। यदि वर्तमान जनसंख्या 1,00,000 है, तो 2 वर्ष बाद जनसंख्या क्या होगी?",
+    "options": [
+      { "id": "A", "text": "1,20,000" },
+      { "id": "B", "text": "1,21,000" },
+      { "id": "C", "text": "1,10,000" },
+      { "id": "D", "text": "1,25,000" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "1,00,000 × (1.10)² = 1,21,000। याद रखने की ट्रिक: चक्रवृद्धि वृद्धि में सीधे जोड़ना गलत है।",
+    "difficulty": "hard"
+  },
+  {
+    "id": "percentage-0008",
+    "topicId": "percentage",
+    "question": "एक परीक्षा में उत्तीर्ण होने के लिए 33% अंक आवश्यक हैं। एक छात्र को 168 अंक मिले और वह 30 अंकों से फेल हो गया। पूर्णांक क्या था?",
+    "options": [
+      { "id": "A", "text": "550" },
+      { "id": "B", "text": "580" },
+      { "id": "C", "text": "600" },
+      { "id": "D", "text": "620" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "उत्तीर्णांक = 168 + 30 = 198। पूर्णांक = 198 ÷ 33 × 100 = 600।",
+    "difficulty": "hard"
+  },
+  {
+    "id": "percentage-0009",
+    "topicId": "percentage",
+    "question": "60 का कितना प्रतिशत 45 होगा?",
+    "options": [
+      { "id": "A", "text": "65%" },
+      { "id": "B", "text": "70%" },
+      { "id": "C", "text": "75%" },
+      { "id": "D", "text": "80%" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "45/60 × 100 = 75%।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "percentage-0010",
+    "topicId": "percentage",
+    "question": "यदि x, y से 20% कम है, तो y, x से कितने प्रतिशत अधिक है?",
+    "options": [
+      { "id": "A", "text": "20%" },
+      { "id": "B", "text": "25%" },
+      { "id": "C", "text": "30%" },
+      { "id": "D", "text": "22%" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "याद रखने की ट्रिक: यदि x, y से a% कम है तो y, x से [a/(100−a)]×100 % अधिक है। 20/80×100 = 25%।",
+    "difficulty": "medium"
+  }
+]

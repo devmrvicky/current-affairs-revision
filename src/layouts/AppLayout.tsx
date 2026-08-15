@@ -1,7 +1,9 @@
-import { Outlet, NavLink, useLocation } from 'react-router-dom';
-import { Home, Clock, BarChart3, Settings, BookOpen, Moon, Sun, Calendar, Brain, Layers, AlertTriangle, Sparkles, ShieldCheck } from 'lucide-react';
+import { Outlet, NavLink, useLocation, useNavigate } from 'react-router-dom';
+import { Home, Clock, BarChart3, Settings, BookOpen, Moon, Sun, Calendar, Brain, Layers, AlertTriangle, Sparkles, ShieldCheck, ChevronDown } from 'lucide-react';
 import { useSettingsStore } from '../store/statsStore';
 import { useAuthStore } from '../store/authStore';
+import { useExamStore } from '../store/examStore';
+import { examRegistry } from '../data/registry/examRegistry';
 import { SyncStatusIndicator } from '../components/common/SyncStatusIndicator';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 
@@ -21,6 +23,9 @@ const ADMIN_NAV_ITEM = { to: '/admin', icon: ShieldCheck, label: 'Admin' };
 export default function AppLayout() {
   const { settings, update } = useSettingsStore();
   const { isAdmin } = useAuthStore();
+  const { selectedExamId } = useExamStore();
+  const selectedExam = examRegistry.getExam(selectedExamId);
+  const navigate = useNavigate();
   const location = useLocation();
   const isQuizPage = location.pathname === '/quiz' || location.pathname === '/analysis';
   const navItems = isAdmin ? [...NAV, ADMIN_NAV_ITEM] : NAV;
@@ -40,9 +45,18 @@ export default function AppLayout() {
               <div className="w-8 h-8 bg-gradient-to-br from-brand-500 to-purple-600 rounded-lg flex items-center justify-center shadow-glow">
                 <BookOpen size={16} className="text-white" />
               </div>
-              <span className="font-display font-bold text-lg" style={{ color: 'var(--text-primary)' }}>
+              <span className="font-display font-bold text-lg hidden sm:inline" style={{ color: 'var(--text-primary)' }}>
                 CurrentAffairs<span className="gradient-text">Pro</span>
               </span>
+              <button
+                onClick={() => navigate('/exams')}
+                className="flex items-center gap-1 pl-2.5 pr-2 py-1 rounded-full text-xs font-medium max-w-[140px] sm:max-w-[180px] transition-colors hover:bg-gray-100 dark:hover:bg-white/10"
+                style={{ border: '1px solid var(--border)', color: 'var(--text-secondary)' }}
+                title="Switch exam"
+              >
+                <span className="truncate">{selectedExam?.name ?? 'Choose Exam'}</span>
+                <ChevronDown size={12} className="flex-shrink-0" />
+              </button>
             </div>
             <div className="flex items-center gap-3">
               <SyncStatusIndicator />

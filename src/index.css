@@ -98,6 +98,10 @@
   .option-btn.neutral-disabled {
     @apply opacity-60;
   }
+
+  .option-btn.selected-neutral {
+    @apply border-brand-500 bg-brand-50 dark:bg-brand-900/20;
+  }
 }
 
 .quiz-palette-btn {

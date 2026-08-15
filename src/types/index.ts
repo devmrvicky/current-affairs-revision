@@ -7,6 +7,11 @@ export interface Question {
   correctAnswer: string;
   explanation: string;
   bookmarked?: boolean;
+  /** Present when this question came from the universal question repository (Practice/Test Configurator) — links back to it for the attempt ledger. Absent for legacy content, which is fine; nothing downstream requires it. */
+  universalId?: string;
+  subjectId?: string;
+  topicId?: string;
+  examId?: string;
 }
 
 export interface DailyQuiz {
@@ -29,6 +34,31 @@ export interface QuestionAttempt {
   timeTaken: number; // seconds
   bookmarked?: boolean;
   markedForReview?: boolean;
+  /** Carried over from Question when present — see Question.universalId. */
+  universalId?: string;
+  subjectId?: string;
+  topicId?: string;
+  examId?: string;
+}
+
+export interface TestNegativeMarking {
+  marksPerCorrect: number;
+  negativeMarks: number; // 0 = no negative marking
+}
+
+/**
+ * Present only on sessions started via the Mock Test Engine. When absent,
+ * the session behaves exactly as before (practice/current-affairs quiz) —
+ * this field is purely additive so no existing session shape changes.
+ */
+export interface TestMeta {
+  isTest: true;
+  testType: 'sectional' | 'full';
+  examId: string;
+  examName: string;
+  marking: TestNegativeMarking;
+  /** Fixed test duration for countdown + auto-submit. Undefined = untimed. */
+  durationSeconds?: number;
 }
 
 export interface QuizSession {
@@ -44,6 +74,7 @@ export interface QuizSession {
   isCompleted: boolean;
   isPaused: boolean;
   visitedIndices: number[]; // indices the user has navigated to (for palette "visited" state)
+  testMeta?: TestMeta;
 }
 
 // ─── Saved Test Types ─────────────────────────────────────────────────────────

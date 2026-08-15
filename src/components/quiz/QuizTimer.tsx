@@ -8,11 +8,15 @@ interface QuizTimerProps {
   isPaused: boolean;
   pausedAt?: number;
   onTick?: (elapsed: number) => void;
+  /** When set, the timer counts DOWN from this many seconds and fires `onExpire` once at zero — used by timed mock tests. Omit for the default count-up stopwatch. */
+  durationSeconds?: number;
+  onExpire?: () => void;
 }
 
-export function QuizTimer({ startTime, totalPausedTime, isPaused, pausedAt, onTick }: QuizTimerProps) {
+export function QuizTimer({ startTime, totalPausedTime, isPaused, pausedAt, onTick, durationSeconds, onExpire }: QuizTimerProps) {
   const [elapsed, setElapsed] = useState(0);
   const rafRef = useRef<number>(0);
+  const expiredRef = useRef(false);
 
   useEffect(() => {
     function update() {
@@ -23,6 +27,13 @@ export function QuizTimer({ startTime, totalPausedTime, isPaused, pausedAt, onTi
       const e = Math.floor(rawElapsed - paused - currentPause);
       setElapsed(e);
       onTick?.(e);
+
+      if (durationSeconds !== undefined && e >= durationSeconds && !expiredRef.current) {
+        expiredRef.current = true;
+        onExpire?.();
+        return; // stop the loop — test has ended
+      }
+
       rafRef.current = requestAnimationFrame(update);
     }
 
@@ -33,10 +44,13 @@ export function QuizTimer({ startTime, totalPausedTime, isPaused, pausedAt, onTi
     return () => {
       if (rafRef.current !== undefined) cancelAnimationFrame(rafRef.current);
     };
-  }, [startTime, totalPausedTime, isPaused, pausedAt, onTick]);
+  }, [startTime, totalPausedTime, isPaused, pausedAt, onTick, durationSeconds, onExpire]);
 
-  const isWarning = elapsed > 1800; // 30 min warning
-  const isDanger = elapsed > 3600; // 1 hour
+  const remaining = durationSeconds !== undefined ? Math.max(0, durationSeconds - elapsed) : undefined;
+  const displaySeconds = remaining ?? elapsed;
+
+  const isWarning = remaining !== undefined ? remaining <= 300 : elapsed > 1800; // countdown: 5 min left; stopwatch: 30 min elapsed
+  const isDanger = remaining !== undefined ? remaining <= 60 : elapsed > 3600; // countdown: 1 min left; stopwatch: 1 hr elapsed
 
   return (
     <div className={`flex items-center gap-1 sm:gap-2 px-2.5 sm:px-4 py-1.5 sm:py-2 rounded-xl font-mono font-semibold text-xs sm:text-sm transition-colors flex-shrink-0 ${
@@ -48,7 +62,7 @@ export function QuizTimer({ startTime, totalPausedTime, isPaused, pausedAt, onTi
       {isPaused ? (
         <span className="animate-pulse">⏸ Timer Paused</span>
       ) : (
-        <span>{formatTime(elapsed)}</span>
+        <span>{formatTime(displaySeconds)}</span>
       )}
     </div>
   );

@@ -1,6 +1,6 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-import type { QuizSession, QuestionAttempt, DailyQuiz } from '../types';
+import type { QuizSession, QuestionAttempt, DailyQuiz, TestMeta } from '../types';
 import { v4 as uuidv4 } from 'uuid';
 import { shuffleQuestion } from '../utils';
 
@@ -10,7 +10,7 @@ interface QuizStore {
   error: string | null;
 
   // Actions
-  startSession: (quiz: DailyQuiz, fileName: string) => void;
+  startSession: (quiz: DailyQuiz, fileName: string, testMeta?: TestMeta) => void;
   submitAnswer: (selectedAnswer: string, timeTaken: number) => void;
   nextQuestion: () => void;
   goToQuestion: (index: number) => void;
@@ -31,7 +31,7 @@ export const useQuizStore = create<QuizStore>()(
       isLoading: false,
       error: null,
 
-      startSession: (quiz, fileName) => {
+      startSession: (quiz, fileName, testMeta) => {
         // Shuffle once, here, at session creation — the single funnel point
         // for every quiz type (Daily, Chapter, Monthly Magazine, Mixed
         // Revision, Bookmarks practice). The shuffled order then lives
@@ -52,6 +52,10 @@ export const useQuizStore = create<QuizStore>()(
             status: 'unanswered',
             timeTaken: 0,
             bookmarked: false,
+            universalId: shuffled.universalId,
+            subjectId: shuffled.subjectId,
+            topicId: shuffled.topicId,
+            examId: shuffled.examId,
           };
         });
 
@@ -68,6 +72,7 @@ export const useQuizStore = create<QuizStore>()(
             isCompleted: false,
             isPaused: false,
             visitedIndices: [0],
+            testMeta,
           },
           error: null,
         });
