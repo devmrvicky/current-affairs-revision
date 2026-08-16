@@ -237,9 +237,13 @@ export interface ChapterStats {
 
 // ─── Daily Goal ───────────────────────────────────────────────────────────────
 
+export type DailyGoalType = 'questions' | 'tests';
+
 export interface DailyGoal {
-  target: number;                     // questions per day target
+  type: DailyGoalType;                // what the user chose to track — user-controlled, never auto-changed
+  target: number;                     // target per day, in the chosen type's unit
   questionsToday: number;             // answered today
+  testsToday: number;                 // sessions completed today (any engine — native or legacy)
   dateKey: string;                    // YYYY-MM-DD
   streakDays: number;                 // days in a row goal was met
   bestStreakDays: number;

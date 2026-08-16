@@ -20,7 +20,7 @@ export default function TestResultPage() {
   const { ingestFromAttempts } = useWrongQuestionsStore();
   const { syncFromAttempts: syncBookmarks } = useBookmarkStore();
   const { syncFromAttempts: syncMarkedReview } = useMarkedReviewStore();
-  const { increment: incrementGoal } = useDailyGoalStore();
+  const { increment: incrementGoal, incrementTests } = useDailyGoalStore();
 
   const ingestedRef = useRef(false);
   const [isRetrying, setIsRetrying] = useState(false);
@@ -43,6 +43,7 @@ export default function TestResultPage() {
     syncBookmarks(session.attempts, session.fileName, session.date);
     syncMarkedReview(session.attempts, session.fileName, session.date);
     incrementGoal(session.attempts.filter((a) => a.status !== 'unanswered').length);
+    incrementTests();
     recordSessionToLedger(session);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [session]);

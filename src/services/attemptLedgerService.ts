@@ -193,7 +193,19 @@ export async function getTopicPerformance(): Promise<TopicPerformance[]> {
   return Array.from(byTopic.values());
 }
 
-/** Most recent N ledger records, most recent first — spans every exam/subject, not just Current Affairs. */
+/** Per-subject attempted/correct counts across every exam with attempts — the canonical progress source for any subject except Current Affairs, which still uses statsStore's longer-established accuracy (see HomePage's "Your Subjects" card for why). */
+export async function getSubjectPerformance(): Promise<{ subjectId: string; attempted: number; correct: number }[]> {
+  const all = await universalAttemptsDB.getAll();
+  const bySubject = new Map<string, { subjectId: string; attempted: number; correct: number }>();
+  for (const record of all) {
+    if (!record.wasAnswered) continue;
+    const existing = bySubject.get(record.subjectId) ?? { subjectId: record.subjectId, attempted: 0, correct: 0 };
+    existing.attempted += 1;
+    if (record.isCorrect) existing.correct += 1;
+    bySubject.set(record.subjectId, existing);
+  }
+  return Array.from(bySubject.values());
+}
 export async function getRecentAttemptRecords(limit: number): Promise<UniversalAttemptRecord[]> {
   const all = await universalAttemptsDB.getAll();
   return all.sort((a, b) => b.attemptedAt - a.attemptedAt).slice(0, limit);

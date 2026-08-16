@@ -605,16 +605,28 @@ export const dailyGoalDB = {
 
   async getOrCreate(dateKey: string): Promise<DailyGoal> {
     const existing = await this.get(dateKey);
-    if (existing) return existing;
+    if (existing) {
+      // Backward compatibility: records created before goal types existed
+      // won't have `type`/`testsToday` — default them without losing the
+      // user's existing target/streak (Phase-product-refactor §11, §95).
+      if (existing.type && existing.testsToday !== undefined) return existing;
+      const migrated: DailyGoal = { ...existing, type: existing.type ?? 'questions', testsToday: existing.testsToday ?? 0 };
+      const db = await getDB();
+      await db.put('dailyGoal', migrated);
+      return migrated;
+    }
     const [y, m, d] = dateKey.split('-').map(Number);
     const yesterday = new Date(y, (m || 1) - 1, (d || 1) - 1); // local-date arithmetic, no UTC parsing
     const ydKey = `${yesterday.getFullYear()}-${String(yesterday.getMonth()+1).padStart(2,'0')}-${String(yesterday.getDate()).padStart(2,'0')}`;
     const yd = await this.get(ydKey);
-    const streakDays = yd && yd.questionsToday >= yd.target ? yd.streakDays : 0;
+    const ydMet = yd ? (yd.type === 'tests' ? yd.testsToday >= yd.target : yd.questionsToday >= yd.target) : false;
+    const streakDays = yd && ydMet ? yd.streakDays : 0;
     const bestStreakDays = yd ? Math.max(yd.bestStreakDays, streakDays) : 0;
     const fresh: DailyGoal = {
-      target: DEFAULT_GOAL_TARGET,
+      type: yd?.type ?? 'questions', // carry the user's chosen type forward day to day — never silently reset it
+      target: yd?.target ?? DEFAULT_GOAL_TARGET,
       questionsToday: 0,
+      testsToday: 0,
       dateKey,
       streakDays,
       bestStreakDays,
@@ -625,11 +637,35 @@ export const dailyGoalDB = {
     return fresh;
   },
 
+  /** User explicitly changes what they're tracking and/or the target. Never called automatically (Phase §94: no silent goal changes). */
+  async setGoal(dateKey: string, type: DailyGoal['type'], target: number): Promise<DailyGoal> {
+    const goal = await this.getOrCreate(dateKey);
+    const updated: DailyGoal = { ...goal, type, target };
+    const db = await getDB();
+    await db.put('dailyGoal', updated);
+    return updated;
+  },
+
+  async incrementTests(dateKey: string, count = 1): Promise<DailyGoal> {
+    const goal = await this.getOrCreate(dateKey);
+    const wasMetBefore = goal.type === 'tests' && goal.testsToday >= goal.target;
+    const updated: DailyGoal = { ...goal, testsToday: goal.testsToday + count };
+    const nowMet = updated.type === 'tests' && updated.testsToday >= updated.target;
+    if (nowMet && !wasMetBefore) {
+      updated.streakDays = goal.streakDays + 1;
+      updated.bestStreakDays = Math.max(goal.bestStreakDays, updated.streakDays);
+      updated.lastGoalMetDate = dateKey;
+    }
+    const db = await getDB();
+    await db.put('dailyGoal', updated);
+    return updated;
+  },
+
   async incrementQuestions(dateKey: string, count: number): Promise<DailyGoal> {
     const goal = await this.getOrCreate(dateKey);
-    const wasMetBefore = goal.questionsToday >= goal.target;
+    const wasMetBefore = goal.type === 'questions' && goal.questionsToday >= goal.target;
     const updated: DailyGoal = { ...goal, questionsToday: goal.questionsToday + count };
-    const nowMet = updated.questionsToday >= updated.target;
+    const nowMet = updated.type === 'questions' && updated.questionsToday >= updated.target;
     if (nowMet && !wasMetBefore) {
       updated.streakDays = goal.streakDays + 1;
       updated.bestStreakDays = Math.max(goal.bestStreakDays, updated.streakDays);
@@ -906,7 +942,11 @@ export const universalAttemptsDB = {
     const all = examId
       ? await db.getAllFromIndex('universalAttempts', 'by-examId', examId)
       : await db.getAll('universalAttempts');
-    return new Set(all.map((r) => r.universalQuestionId).filter((id): id is string => Boolean(id)));
+    // "Attempted" means actually answered, matching wasAnswered semantics
+    // used everywhere else (test results, scoring) — a question the user
+    // saw but skipped hasn't really been engaged with, so it should still
+    // surface as Unattempted rather than silently disappearing from it.
+    return new Set(all.filter((r) => r.wasAnswered).map((r) => r.universalQuestionId).filter((id): id is string => Boolean(id)));
   },
 
   async getAll(): Promise<UniversalAttemptRecord[]> {

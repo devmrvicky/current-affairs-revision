@@ -1,5 +1,5 @@
 import { Outlet, NavLink, useLocation, useNavigate } from 'react-router-dom';
-import { Home, Clock, BarChart3, Settings, BookOpen, Moon, Sun, Calendar, Brain, Layers, AlertTriangle, Sparkles, ShieldCheck, ChevronDown } from 'lucide-react';
+import { Home, BarChart3, Settings, BookOpen, Moon, Sun, Layers, Sparkles, ShieldCheck, ChevronDown, Target, ListChecks, Newspaper } from 'lucide-react';
 import { useSettingsStore } from '../store/statsStore';
 import { useAuthStore } from '../store/authStore';
 import { useExamStore } from '../store/examStore';
@@ -7,14 +7,21 @@ import { examRegistry } from '../data/registry/examRegistry';
 import { SyncStatusIndicator } from '../components/common/SyncStatusIndicator';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 
+// Reorganized around the universal exam-prep model, not Current Affairs
+// (product-refactor §20/§77). "Practice" now correctly points at the actual
+// Practice engine — it previously pointed at Wrong Questions, a leftover
+// from before the Practice Configurator existed. History and Wrong
+// Questions remain reachable via Home's Recent Activity and Review Center
+// respectively; the primary dock only has room for the highest-traffic
+// destinations.
 const NAV = [
   { to: '/',                              icon: Home,          label: 'Home' },
-  { to: '/revision-calendar',             icon: Calendar,      label: 'Calendar' },
-  { to: '/chapter-wise-current-affairs',  icon: Layers,        label: 'Chapters' },
-  { to: '/history',                       icon: Clock,         label: 'History' },
-  { to: '/wrong-questions',               icon: Brain,         label: 'Practice' },
+  { to: '/practice/configure',            icon: Target,        label: 'Practice' },
+  { to: '/tests/configure',               icon: ListChecks,    label: 'Mock Test' },
+  { to: '/chapters',                      icon: Layers,        label: 'Chapters' },
   { to: '/review-center',                 icon: Sparkles,      label: 'Review' },
-  { to: '/statistics',                    icon: BarChart3,     label: 'Stats' },
+  { to: '/current-affairs',               icon: Newspaper,     label: 'Current Affairs' },
+  { to: '/statistics',                    icon: BarChart3,     label: 'Progress' },
   { to: '/settings',                      icon: Settings,      label: 'Settings' },
 ];
 
@@ -27,7 +34,7 @@ export default function AppLayout() {
   const selectedExam = examRegistry.getExam(selectedExamId);
   const navigate = useNavigate();
   const location = useLocation();
-  const isQuizPage = location.pathname === '/quiz' || location.pathname === '/analysis';
+  const isQuizPage = location.pathname === '/quiz' || location.pathname === '/analysis' || location.pathname === '/session';
   const navItems = isAdmin ? [...NAV, ADMIN_NAV_ITEM] : NAV;
   const shouldReduceMotion = useReducedMotion();
 

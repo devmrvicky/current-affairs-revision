@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
 import AppLayout from '../layouts/AppLayout';
 import RouteErrorBoundary from '../components/common/RouteErrorBoundary';
 
@@ -46,6 +46,10 @@ const TestReviewPage        = lazy(() => import('../pages/TestReviewPage'));
 const UniversalSessionPage  = lazy(() => import('../pages/UniversalSessionPage'));
 const UniversalResultPage   = lazy(() => import('../pages/UniversalResultPage'));
 const UniversalReviewPage   = lazy(() => import('../pages/UniversalReviewPage'));
+const CurrentAffairsHubPage = lazy(() => import('../pages/CurrentAffairsHubPage'));
+const ChaptersPage          = lazy(() => import('../pages/ChaptersPage'));
+const SubjectChaptersPage   = lazy(() => import('../pages/SubjectChaptersPage'));
+const GenericChapterDetailPage = lazy(() => import('../pages/GenericChapterDetailPage'));
 
 function S({ children }: { children: React.ReactNode }) {
   return <Suspense fallback={<PageLoader />}>{children}</Suspense>;
@@ -85,6 +89,10 @@ const router = createBrowserRouter([
       { path: 'session',                      element: <S><UniversalSessionPage /></S> },
       { path: 'session/result',               element: <S><UniversalResultPage /></S> },
       { path: 'session/result/review',        element: <S><UniversalReviewPage /></S> },
+      { path: 'current-affairs',              element: <S><CurrentAffairsHubPage /></S> },
+      { path: 'chapters',                     element: <S><ChaptersPage /></S> },
+      { path: 'chapters/:subjectId',          element: <S><SubjectChaptersPage /></S> },
+      { path: 'chapters/:subjectId/:chapterId', element: <S><GenericChapterDetailPage /></S> },
       { path: 'auth/callback',                element: <S><AuthCallbackPage /></S> },
       // Catch-all for any unmatched route under '/' — keeps header/nav chrome.
       { path: '*',                            element: <S><NotFoundPage /></S> },

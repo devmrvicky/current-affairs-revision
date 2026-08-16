@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Pause, Play, Flag, ChevronLeft, ChevronRight, LayoutGrid, X, AlertTriangle, CheckCircle2, XCircle } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { usePracticeSessionStore } from '../store/practiceSessionStore';
+import { useDailyGoalStore } from '../store/dailyGoalStore';
 import { resolveQuestionsByIds } from '../services/questionRepository';
 import { recordPracticeSessionAttempts } from '../services/attemptLedgerService';
 import { QuizTimer } from '../components/quiz/QuizTimer';
@@ -50,6 +51,7 @@ export default function UniversalSessionPage() {
     session, selectAnswer, toggleMarkForReview, goToQuestion, nextQuestion,
     pauseSession, resumeSession, completeSession, clearSession,
   } = usePracticeSessionStore();
+  const { increment: incrementQuestionsGoal, incrementTests: incrementTestsGoal } = useDailyGoalStore();
 
   const [questionsById, setQuestionsById] = useState<Map<string, UniversalQuestion>>(new Map());
   const [loaded, setLoaded] = useState(false);
@@ -104,6 +106,9 @@ export default function UniversalSessionPage() {
     try {
       await recordPracticeSessionAttempts(session, questionsById);
       completeSession();
+      const answeredCount = session.states.filter((s) => s.selectedAnswer !== null).length;
+      incrementQuestionsGoal(answeredCount);
+      incrementTestsGoal();
       navigate('/session/result');
     } catch (err) {
       console.error('Failed to record session attempts', err);

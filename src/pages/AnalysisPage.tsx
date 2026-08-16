@@ -53,7 +53,7 @@ export default function AnalysisPage() {
   const { syncFromAttempts: syncBookmarks } = useBookmarkStore();
   const { syncFromAttempts: syncMarkedReview } = useMarkedReviewStore();
   const { recordAttempt: recordChapterAttempt, getAggregateForChapter } = useChapterStore();
-  const { increment: incrementGoal } = useDailyGoalStore();
+  const { increment: incrementGoal, incrementTests } = useDailyGoalStore();
 
   const [saved, setSaved] = useState(false);
   const [tab, setTab] = useState<TabKey>('overview');
@@ -93,6 +93,7 @@ export default function AnalysisPage() {
 
       // Increment daily goal with answered questions count
       await incrementGoal(result.totalQuestions);
+      await incrementTests();
 
       // Universal attempt ledger: chapter quizzes get accurate id
       // reconstruction + topic tagging; Practice-Configurator sessions
