@@ -1,0 +1,122 @@
+[
+  {
+    "id": "0001",
+    "subjectId": "mathematics",
+    "topicId": "percentage",
+    "question": "80 का 15% कितना होगा?",
+    "options": [
+      { "id": "A", "text": "10" },
+      { "id": "B", "text": "12" },
+      { "id": "C", "text": "14" },
+      { "id": "D", "text": "16" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "80 × 15/100 = 12।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "0002",
+    "subjectId": "mathematics",
+    "topicId": "percentage",
+    "question": "एक संख्या का 40% 120 है। वह संख्या क्या है?",
+    "options": [
+      { "id": "A", "text": "280" },
+      { "id": "B", "text": "300" },
+      { "id": "C", "text": "320" },
+      { "id": "D", "text": "360" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "संख्या = 120 ÷ 40 × 100 = 300।",
+    "difficulty": "medium"
+  },
+  {
+    "id": "0003",
+    "subjectId": "mathematics",
+    "topicId": "percentage",
+    "question": "75 में से कितना प्रतिशत घटाने पर 60 प्राप्त होगा?",
+    "options": [
+      { "id": "A", "text": "15%" },
+      { "id": "B", "text": "18%" },
+      { "id": "C", "text": "20%" },
+      { "id": "D", "text": "25%" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "कमी = 75 − 60 = 15। प्रतिशत कमी = 15/75 × 100 = 20%।",
+    "difficulty": "medium"
+  },
+  {
+    "id": "0004",
+    "subjectId": "english",
+    "topicId": "vocabulary",
+    "question": "Choose the correct meaning of the word 'Diligent'.",
+    "options": [
+      { "id": "A", "text": "Lazy" },
+      { "id": "B", "text": "Hardworking and careful" },
+      { "id": "C", "text": "Angry" },
+      { "id": "D", "text": "Confused" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Diligent' means showing care and effort in one's work or duties.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "0005",
+    "subjectId": "english",
+    "topicId": "vocabulary",
+    "question": "Choose the correct meaning of the word 'Reluctant'.",
+    "options": [
+      { "id": "A", "text": "Eager" },
+      { "id": "B", "text": "Unwilling and hesitant" },
+      { "id": "C", "text": "Confident" },
+      { "id": "D", "text": "Loud" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Reluctant' means unwilling and hesitant to do something.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "0006",
+    "subjectId": "english",
+    "topicId": "error-detection",
+    "question": "Identify the part with an error: (A) Neither the manager nor the staff / (B) was aware of / (C) the new policy changes / (D) No error",
+    "options": [
+      { "id": "A", "text": "Neither the manager nor the staff" },
+      { "id": "B", "text": "was aware of" },
+      { "id": "C", "text": "the new policy changes" },
+      { "id": "D", "text": "No error" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "With 'neither...nor', the verb agrees with the nearer subject ('staff', singular-treated here) — 'was aware' is correct, so there is no error.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "0007",
+    "subjectId": "mathematics",
+    "topicId": "percentage",
+    "question": "किसी वस्तु के मूल्य में 25% की कमी की गई। मूल मूल्य को पुनः प्राप्त करने के लिए नए मूल्य में कितने प्रतिशत की वृद्धि करनी होगी?",
+    "options": [
+      { "id": "A", "text": "25%" },
+      { "id": "B", "text": "30%" },
+      { "id": "C", "text": "33.33%" },
+      { "id": "D", "text": "40%" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "यदि x, y से 25% कम है तो y, x से [25/(100−25)]×100 = 33.33% अधिक है।",
+    "difficulty": "hard"
+  },
+  {
+    "id": "0008",
+    "subjectId": "english",
+    "topicId": "synonyms",
+    "question": "Choose the word most similar in meaning to 'Genuine'.",
+    "options": [
+      { "id": "A", "text": "Fake" },
+      { "id": "B", "text": "Authentic" },
+      { "id": "C", "text": "Rare" },
+      { "id": "D", "text": "Expensive" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Genuine' means truly what it is said to be — authentic.",
+    "difficulty": "easy"
+  }
+]

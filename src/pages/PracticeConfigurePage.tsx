@@ -1,14 +1,16 @@
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { motion } from 'framer-motion';
-import { ArrowLeft, Check, Zap, ClipboardList } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Check, Settings2, X, ListChecks, Zap, ClipboardList, Newspaper } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { useExamStore } from '../store/examStore';
 import { usePracticeSessionStore } from '../store/practiceSessionStore';
+import { examRegistry } from '../data/registry/examRegistry';
 import { getSubjectsForExam } from '../services/examService';
-import { getAvailableTopics, getAvailableSubjects, type AvailableTopic } from '../services/questionRepository';
-import { createQuestionPool, buildSessionQuestionIds } from '../services/practiceService';
-import type { UniversalQuestion, Difficulty } from '../types/universalQuestion';
+import { getAvailableTopics, getAvailableSubjects, getRandomQuestions, type AvailableTopic } from '../services/questionRepository';
+import { createQuestionPool } from '../services/practiceService';
+import { getPracticeTests, describeTestSource, type PracticeTestDefinition } from '../services/practiceTestRepository';
+import type { Difficulty } from '../types/universalQuestion';
 import type { PracticeConfiguration } from '../types/practiceSession';
 
 const COUNT_OPTIONS = [10, 20, 25, 50];
@@ -19,22 +21,22 @@ const DIFFICULTY_OPTIONS: { id: Difficulty | 'mixed'; label: string }[] = [
   { id: 'hard', label: 'Hard' },
 ];
 
-// Phase 8: this configurator now produces a PracticeConfiguration and hands
-// off to the universal session engine (practiceSessionStore + practiceService)
-// — it never builds a DailyQuiz or calls toLegacyQuestion (master prompt §23).
+// Practice by Topic (product-refactor §43-53): horizontal subject selector,
+// a settings gear instead of controls occupying the main screen, and a real
+// list of available tests/mocks per subject — not just abstract filters.
+// Every "Start" button, whichever source the card came from, ends at the
+// same universal session engine (§60-63).
 
 export default function PracticeConfigurePage() {
   const navigate = useNavigate();
   const { selectedExamId } = useExamStore();
+  const exam = examRegistry.getExam(selectedExamId);
   const { session, startSession, clearSession } = usePracticeSessionStore();
 
-  const subjects = useMemo(() => getSubjectsForExam(selectedExamId), [selectedExamId]);
-
-  // Official syllabus (subjects) vs actual available content — a subject the
-  // exam config lists but with zero real questions is shown disabled with
-  // "Coming Soon" rather than silently behaving as if it had content
-  // (master prompt Phase 8 §7, §38).
+  const subjects = getSubjectsForExam(selectedExamId);
   const [contentSubjectIds, setContentSubjectIds] = useState<Set<string>>(new Set());
+  const [selectedSubjectId, setSelectedSubjectId] = useState<string>('');
+
   useEffect(() => {
     let cancelled = false;
     getAvailableSubjects(selectedExamId).then((avail) => {
@@ -43,287 +45,350 @@ export default function PracticeConfigurePage() {
     return () => { cancelled = true; };
   }, [selectedExamId]);
 
-  const [selectedSubjectIds, setSelectedSubjectIds] = useState<string[]>([]);
-  const [selectedTopicId, setSelectedTopicId] = useState<string>('all');
+  useEffect(() => {
+    if (selectedSubjectId || contentSubjectIds.size === 0) return;
+    const first = subjects.find((s) => contentSubjectIds.has(s.id));
+    if (first) setSelectedSubjectId(first.id);
+  }, [contentSubjectIds, subjects, selectedSubjectId]);
+
+  // Settings — applies to Quick Practice and to non-mock fixed tests when
+  // started in Test mode. Fixed Exam Mocks always ignore these and use
+  // their own marking/mode (§100-101).
+  const [showSettings, setShowSettings] = useState(false);
   const [difficulty, setDifficulty] = useState<Difficulty | 'mixed'>('mixed');
-  const [questionCount, setQuestionCount] = useState(10);
+  const [questionCount, setQuestionCount] = useState(20);
   const [mode, setMode] = useState<'practice' | 'test'>('practice');
-  const [pool, setPool] = useState<UniversalQuestion[]>([]);
-  const [poolLoading, setPoolLoading] = useState(false);
-  const [isStarting, setIsStarting] = useState(false);
+
   const [topics, setTopics] = useState<AvailableTopic[]>([]);
+  const [selectedTopicIds, setSelectedTopicIds] = useState<string[]>([]);
+  const [quickPool, setQuickPool] = useState(0);
+  const [quickPoolLoading, setQuickPoolLoading] = useState(false);
+  const [tests, setTests] = useState<PracticeTestDefinition[]>([]);
+  const [testsLoading, setTestsLoading] = useState(false);
+  const [isStarting, setIsStarting] = useState(false);
 
-  // Default the selection to the first subject that actually has content,
-  // once we know which ones do — never default to an empty subject.
   useEffect(() => {
-    if (selectedSubjectIds.length > 0 || contentSubjectIds.size === 0) return;
-    const firstWithContent = subjects.find((s) => contentSubjectIds.has(s.id));
-    if (firstWithContent) setSelectedSubjectIds([firstWithContent.id]);
-  }, [contentSubjectIds, subjects, selectedSubjectIds.length]);
-
-  // Topics come from actual content (getAvailableTopics), not a manually
-  // maintained registry — a subject's topics show up here the instant a
-  // question file with that topicId exists, no code/registry edit required.
-  useEffect(() => {
-    if (selectedSubjectIds.length !== 1) {
-      setTopics([]);
-      return;
-    }
+    if (!selectedSubjectId) return;
     let cancelled = false;
-    getAvailableTopics(selectedExamId, selectedSubjectIds[0]).then((t) => { if (!cancelled) setTopics(t); });
+    getAvailableTopics(selectedExamId, selectedSubjectId).then((t) => { if (!cancelled) setTopics(t); });
+    setSelectedTopicIds([]);
     return () => { cancelled = true; };
-  }, [selectedSubjectIds, selectedExamId]);
+  }, [selectedSubjectId, selectedExamId]);
 
   useEffect(() => {
-    setSelectedTopicId('all');
-  }, [selectedSubjectIds.join(',')]);
-
-  useEffect(() => {
-    if (selectedSubjectIds.length === 0) { setPool([]); return; }
+    if (!selectedSubjectId) return;
     let cancelled = false;
+    setQuickPoolLoading(true);
     (async () => {
-      setPoolLoading(true);
-      try {
-        const config: PracticeConfiguration = {
-          examId: selectedExamId,
-          subjectIds: selectedSubjectIds,
-          topicId: selectedSubjectIds.length === 1 && selectedTopicId !== 'all' ? selectedTopicId : undefined,
-          difficulty,
-          questionCount,
-          mode,
-          label: '',
-        };
-        const combined = await createQuestionPool(config);
-        if (!cancelled) setPool(combined);
-      } finally {
-        if (!cancelled) setPoolLoading(false);
-      }
-    })();
+      const config: PracticeConfiguration = {
+        examId: selectedExamId, subjectIds: [selectedSubjectId],
+        topicId: selectedTopicIds.length === 1 ? selectedTopicIds[0] : undefined,
+        difficulty, questionCount: 0, mode, label: '',
+      };
+      let pool = await createQuestionPool(config);
+      if (selectedTopicIds.length > 1) pool = pool.filter((q) => q.topicId && selectedTopicIds.includes(q.topicId));
+      if (!cancelled) setQuickPool(pool.length);
+    })().finally(() => { if (!cancelled) setQuickPoolLoading(false); });
     return () => { cancelled = true; };
-  }, [selectedSubjectIds, selectedTopicId, difficulty, selectedExamId]);
+  }, [selectedSubjectId, selectedTopicIds, difficulty, selectedExamId]);
 
-  function toggleSubject(id: string) {
-    if (!contentSubjectIds.has(id)) return; // Coming Soon subjects aren't selectable
-    setSelectedSubjectIds((prev) => (prev.includes(id) ? prev.filter((s) => s !== id) : [...prev, id]));
+  useEffect(() => {
+    if (!selectedSubjectId) { setTests([]); return; }
+    let cancelled = false;
+    setTestsLoading(true);
+    getPracticeTests(selectedExamId, selectedSubjectId).then((t) => { if (!cancelled) setTests(t); }).finally(() => { if (!cancelled) setTestsLoading(false); });
+    return () => { cancelled = true; };
+  }, [selectedSubjectId, selectedExamId]);
+
+  function toggleTopic(topicId: string) {
+    setSelectedTopicIds((prev) => (prev.includes(topicId) ? prev.filter((t) => t !== topicId) : [...prev, topicId]));
   }
 
-  async function handleStart() {
-    if (selectedSubjectIds.length === 0) {
-      toast.error('Pick at least one subject');
-      return;
-    }
-    if (pool.length === 0) {
-      toast.error('No questions available for this selection yet');
-      return;
-    }
+  async function guardActiveSession(): Promise<boolean> {
     if (session && !session.isCompleted) {
-      if (!window.confirm('You have an in-progress session. Starting a new practice will discard it. Continue?')) return;
+      if (!window.confirm('You have an in-progress session. Starting a new one will discard it. Continue?')) return false;
       clearSession();
     }
+    return true;
+  }
 
+  async function handleStartQuickPractice() {
+    if (!(await guardActiveSession())) return;
+    if (quickPool === 0) { toast.error('No questions available for this selection yet'); return; }
     setIsStarting(true);
     try {
-      const label =
-        selectedSubjectIds.length === 1
-          ? subjects.find((s) => s.id === selectedSubjectIds[0])?.name ?? 'Practice'
-          : 'Mixed Practice';
-
+      const subject = subjects.find((s) => s.id === selectedSubjectId);
       const config: PracticeConfiguration = {
-        examId: selectedExamId,
-        subjectIds: selectedSubjectIds,
-        topicId: selectedSubjectIds.length === 1 && selectedTopicId !== 'all' ? selectedTopicId : undefined,
-        difficulty,
-        questionCount: Math.min(questionCount, pool.length),
-        mode,
-        label,
+        examId: selectedExamId, subjectIds: [selectedSubjectId],
+        topicId: selectedTopicIds.length === 1 ? selectedTopicIds[0] : undefined,
+        difficulty, questionCount: Math.min(questionCount, quickPool), mode,
+        label: subject?.name ?? 'Practice',
       };
-
-      const questionIds = await buildSessionQuestionIds(config);
-      startSession(config, questionIds);
+      let pool = await createQuestionPool(config);
+      if (selectedTopicIds.length > 1) pool = pool.filter((q) => q.topicId && selectedTopicIds.includes(q.topicId));
+      const picked = await getRandomQuestions(config.questionCount, pool);
+      startSession(config, picked.map((q) => q.id));
       navigate('/session');
     } finally {
       setIsStarting(false);
     }
   }
 
+  async function handleStartTest(test: PracticeTestDefinition) {
+    if (!(await guardActiveSession())) return;
+    setIsStarting(true);
+    try {
+      const useTestMode = test.isFixedMock || mode === 'test';
+      const config: PracticeConfiguration = {
+        examId: test.examId,
+        subjectIds: [test.subjectId],
+        questionCount: test.questionCount,
+        mode: useTestMode ? 'test' : 'practice',
+        label: test.title,
+        ...(useTestMode
+          ? {
+              marking: exam?.mockConfig.marking ?? { marksPerCorrect: 1, negativeMarks: 0 },
+              // No per-file duration metadata for mocks/chapter tests yet — a
+              // reasonable 90s/question default rather than the exam's full
+              // mock duration, which would be misleadingly generous for a
+              // short set. Documented simplification, not a hidden guess.
+              durationSeconds: Math.max(300, test.questionCount * 90),
+              testType: test.isFixedMock ? 'sectional' : undefined,
+            }
+          : {}),
+      };
+      startSession(config, test.questionIds);
+      navigate('/session');
+    } finally {
+      setIsStarting(false);
+    }
+  }
+
+  if (!exam) {
+    return (
+      <div className="max-w-2xl mx-auto pt-10 text-center">
+        <p style={{ color: 'var(--text-muted)' }}>No exam selected.</p>
+        <button onClick={() => navigate('/exams')} className="btn-primary mt-4">Choose an Exam</button>
+      </div>
+    );
+  }
+
   return (
-    <div className="space-y-6 pb-4">
-      <motion.div initial={{ opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }} className="pt-2 flex items-center gap-3">
-        <button
-          onClick={() => navigate(-1)}
-          className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
-          aria-label="Back"
-        >
-          <ArrowLeft size={18} style={{ color: 'var(--text-secondary)' }} />
-        </button>
+    <div className="max-w-2xl mx-auto space-y-5 pb-12">
+      <div className="flex items-center justify-between pt-2">
         <div>
-          <h1 className="text-2xl font-display font-bold" style={{ color: 'var(--text-primary)' }}>
-            Practice
-          </h1>
-          <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-            Configure your set, then start
-          </p>
+          <h1 className="text-2xl font-display font-bold" style={{ color: 'var(--text-primary)' }}>Practice by Topic</h1>
+          <p className="text-sm" style={{ color: 'var(--text-muted)' }}>{exam.name}</p>
         </div>
-      </motion.div>
+        <button
+          onClick={() => setShowSettings(true)}
+          className="p-2.5 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
+          aria-label="Practice settings"
+        >
+          <Settings2 size={18} style={{ color: 'var(--text-secondary)' }} />
+        </button>
+      </div>
 
-      {/* Subjects */}
-      <section className="card p-4">
-        <h2 className="text-sm font-display font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>
-          Subjects {selectedSubjectIds.length > 1 && <span style={{ color: 'var(--text-muted)' }}>· Mixed</span>}
-        </h2>
-        <div className="flex flex-wrap gap-2">
-          {subjects.map((subject) => {
-            const active = selectedSubjectIds.includes(subject.id);
-            const hasContent = contentSubjectIds.has(subject.id);
-            return (
-              <button
-                key={subject.id}
-                onClick={() => toggleSubject(subject.id)}
-                disabled={!hasContent}
-                className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors flex items-center gap-1.5 disabled:opacity-40 disabled:cursor-not-allowed ${
-                  active ? 'bg-brand-500 text-white' : 'hover:bg-gray-100 dark:hover:bg-white/10'
-                }`}
-                style={!active ? { border: '1px solid var(--border)', color: 'var(--text-secondary)' } : undefined}
-              >
-                {active && <Check size={12} />}
-                {subject.name}
-                {!hasContent && <span className="text-[10px]" style={{ color: 'var(--text-muted)' }}>· Coming Soon</span>}
-              </button>
-            );
-          })}
-          {subjects.length === 0 && (
-            <p className="text-sm" style={{ color: 'var(--text-muted)' }}>No subjects configured for this exam yet.</p>
-          )}
-        </div>
-      </section>
-
-      {/* Topic — only when a single subject is selected */}
-      {selectedSubjectIds.length === 1 && topics.length > 0 && (
-        <section className="card p-4">
-          <h2 className="text-sm font-display font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>
-            Topic
-          </h2>
-          <div className="flex flex-wrap gap-2 max-h-40 overflow-y-auto">
+      {/* Horizontal subject selector — scrolls, never wraps (§44) */}
+      <div className="flex gap-2 overflow-x-auto no-scrollbar -mx-4 px-4 sm:mx-0 sm:px-0">
+        {subjects.map((subject) => {
+          const hasContent = contentSubjectIds.has(subject.id) || subject.id === 'current-affairs';
+          const active = selectedSubjectId === subject.id;
+          return (
             <button
-              onClick={() => setSelectedTopicId('all')}
-              className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                selectedTopicId === 'all' ? 'bg-brand-500 text-white' : ''
+              key={subject.id}
+              onClick={() => hasContent && setSelectedSubjectId(subject.id)}
+              disabled={!hasContent}
+              className={`flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-colors disabled:opacity-40 disabled:cursor-not-allowed ${
+                active ? 'bg-brand-500 text-white' : 'hover:bg-gray-100 dark:hover:bg-white/10'
               }`}
-              style={selectedTopicId !== 'all' ? { border: '1px solid var(--border)', color: 'var(--text-secondary)' } : undefined}
+              style={!active ? { border: '1px solid var(--border)', color: 'var(--text-secondary)' } : undefined}
             >
-              All Topics
+              {subject.name}
             </button>
-            {topics.map((topic) => (
-              <button
-                key={topic.topicId}
-                onClick={() => setSelectedTopicId(topic.topicId)}
-                className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                  selectedTopicId === topic.topicId ? 'bg-brand-500 text-white' : ''
-                }`}
-                style={selectedTopicId !== topic.topicId ? { border: '1px solid var(--border)', color: 'var(--text-secondary)' } : undefined}
-              >
-                {topic.topicName} ({topic.questionCount})
-              </button>
-            ))}
+          );
+        })}
+      </div>
+
+      {selectedSubjectId === 'current-affairs' ? (
+        <div className="card p-5 flex items-start gap-3">
+          <Newspaper size={20} className="text-amber-500 flex-shrink-0 mt-0.5" />
+          <div>
+            <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>Current Affairs has its own hub</p>
+            <p className="text-xs mt-1 mb-3" style={{ color: 'var(--text-muted)' }}>Daily quiz, chapters, and mixed revision live together there.</p>
+            <button onClick={() => navigate('/current-affairs')} className="btn-primary text-sm py-2 px-4">Open Current Affairs</button>
           </div>
-        </section>
+        </div>
+      ) : !selectedSubjectId ? (
+        <div className="card p-6 text-center">
+          <p className="text-sm" style={{ color: 'var(--text-muted)' }}>Pick a subject above to get started.</p>
+        </div>
+      ) : (
+        <>
+          {/* Quick Practice — topic multi-select + Start, using current settings */}
+          <section className="card p-4">
+            <h2 className="text-sm font-display font-semibold mb-3 flex items-center gap-2" style={{ color: 'var(--text-primary)' }}>
+              <Zap size={14} className="text-teal-500" /> Quick Practice
+            </h2>
+            {topics.length > 0 && (
+              <div className="flex flex-wrap gap-2 mb-3">
+                {topics.map((topic) => {
+                  const active = selectedTopicIds.includes(topic.topicId);
+                  return (
+                    <button
+                      key={topic.topicId}
+                      onClick={() => toggleTopic(topic.topicId)}
+                      className={`px-3 py-1.5 rounded-full text-xs font-medium transition-colors flex items-center gap-1 ${
+                        active ? 'bg-brand-500 text-white' : ''
+                      }`}
+                      style={!active ? { border: '1px solid var(--border)', color: 'var(--text-secondary)' } : undefined}
+                    >
+                      {active && <Check size={10} />}
+                      {topic.topicName} ({topic.questionCount})
+                    </button>
+                  );
+                })}
+              </div>
+            )}
+            <div className="flex items-center justify-between">
+              <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
+                {quickPoolLoading ? 'Checking…' : `${quickPool} available · ${DIFFICULTY_OPTIONS.find((d) => d.id === difficulty)?.label} · ${mode === 'practice' ? 'Practice' : 'Test'}`}
+              </span>
+              <button onClick={handleStartQuickPractice} disabled={isStarting || quickPool === 0} className="btn-primary text-sm py-2 px-5 disabled:opacity-40">
+                Start ({Math.min(questionCount, quickPool)})
+              </button>
+            </div>
+          </section>
+
+          {/* Available Tests — all three sources, normalized, grouped */}
+          <section>
+            <h2 className="text-sm font-display font-semibold mb-3 flex items-center gap-2" style={{ color: 'var(--text-primary)' }}>
+              <ListChecks size={14} className="text-purple-500" /> Available Tests
+            </h2>
+            {testsLoading ? (
+              <div className="space-y-2">
+                {[1, 2].map((i) => <div key={i} className="card h-20 shimmer" style={{ background: 'var(--border)' }} />)}
+              </div>
+            ) : tests.length === 0 ? (
+              <div className="card p-5 text-center">
+                <p className="text-sm" style={{ color: 'var(--text-muted)' }}>No named tests for this subject yet — try Quick Practice above.</p>
+              </div>
+            ) : (
+              <div className="space-y-2.5">
+                {tests.map((test, i) => (
+                  <motion.div
+                    key={test.id}
+                    initial={{ opacity: 0, y: 6 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ delay: i * 0.03 }}
+                    className="card p-4 flex items-center justify-between gap-3"
+                  >
+                    <div className="min-w-0">
+                      <div className="flex items-center gap-2 mb-1">
+                        <p className="font-display font-semibold text-sm truncate" style={{ color: 'var(--text-primary)' }}>{test.title}</p>
+                        <span className="text-[10px] px-1.5 py-0.5 rounded-full flex-shrink-0" style={{ background: 'var(--border)', color: 'var(--text-muted)' }}>
+                          {describeTestSource(test.source)}
+                        </span>
+                      </div>
+                      <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
+                        {test.questionCount} Questions · {test.difficulty === 'mixed' ? 'Mixed' : test.difficulty}
+                        {test.isFixedMock && ' · Timed'}
+                      </p>
+                    </div>
+                    <button onClick={() => handleStartTest(test)} disabled={isStarting} className="btn-secondary text-sm py-2 px-4 flex-shrink-0 disabled:opacity-40">
+                      Start
+                    </button>
+                  </motion.div>
+                ))}
+              </div>
+            )}
+          </section>
+        </>
       )}
 
-      {/* Difficulty */}
-      <section className="card p-4">
-        <h2 className="text-sm font-display font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>
-          Difficulty
-        </h2>
-        <div className="flex flex-wrap gap-2">
-          {DIFFICULTY_OPTIONS.map((opt) => (
-            <button
-              key={opt.id}
-              onClick={() => setDifficulty(opt.id)}
-              className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                difficulty === opt.id ? 'bg-brand-500 text-white' : ''
-              }`}
-              style={difficulty !== opt.id ? { border: '1px solid var(--border)', color: 'var(--text-secondary)' } : undefined}
-            >
-              {opt.label}
-            </button>
-          ))}
-        </div>
-      </section>
-
-      {/* Question count — never allow more than the actual pool (master prompt §37) */}
-      <section className="card p-4">
-        <div className="flex items-center justify-between mb-3">
-          <h2 className="text-sm font-display font-semibold" style={{ color: 'var(--text-primary)' }}>
-            Number of Questions
-          </h2>
-          <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
-            {poolLoading ? 'Checking availability…' : `${pool.length} available`}
-          </span>
-        </div>
-        <div className="flex flex-wrap gap-2">
-          {COUNT_OPTIONS.map((n) => (
-            <button
-              key={n}
-              onClick={() => setQuestionCount(n)}
-              disabled={pool.length > 0 && n > pool.length}
-              className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors disabled:opacity-35 disabled:cursor-not-allowed ${
-                questionCount === n ? 'bg-brand-500 text-white' : ''
-              }`}
-              style={questionCount !== n ? { border: '1px solid var(--border)', color: 'var(--text-secondary)' } : undefined}
-            >
-              {n}
-            </button>
-          ))}
-          {pool.length > 0 && (
-            <button
-              onClick={() => setQuestionCount(pool.length)}
-              className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
-                questionCount === pool.length ? 'bg-brand-500 text-white' : ''
-              }`}
-              style={questionCount !== pool.length ? { border: '1px solid var(--border)', color: 'var(--text-secondary)' } : undefined}
-            >
-              All ({pool.length})
-            </button>
-          )}
-        </div>
-      </section>
-
-      {/* Mode — practice reveals per-question, test withholds until submission (drives config.mode, not a global setting) */}
-      <section className="card p-4">
-        <h2 className="text-sm font-display font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>
-          Mode
-        </h2>
-        <div className="grid grid-cols-2 gap-3">
-          <button
-            onClick={() => setMode('practice')}
-            className={`p-3 rounded-xl text-left transition-colors ${mode === 'practice' ? 'ring-2 ring-brand-500' : ''}`}
-            style={{ border: '1px solid var(--border)' }}
+      {/* Settings bottom sheet (§48-51) */}
+      <AnimatePresence>
+        {showSettings && (
+          <motion.div
+            initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[140] flex items-end sm:items-center justify-center p-0 sm:p-4 bg-black/60"
+            onClick={() => setShowSettings(false)}
           >
-            <Zap size={16} style={{ color: '#22c55e' }} className="mb-1.5" />
-            <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>Practice</p>
-            <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Instant feedback + explanation</p>
-          </button>
-          <button
-            onClick={() => setMode('test')}
-            className={`p-3 rounded-xl text-left transition-colors ${mode === 'test' ? 'ring-2 ring-brand-500' : ''}`}
-            style={{ border: '1px solid var(--border)' }}
-          >
-            <ClipboardList size={16} style={{ color: '#ef4444' }} className="mb-1.5" />
-            <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>Test</p>
-            <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Answers revealed at the end</p>
-          </button>
-        </div>
-      </section>
+            <motion.div
+              initial={{ y: 40, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: 40, opacity: 0 }}
+              className="card p-6 w-full sm:max-w-sm rounded-b-none sm:rounded-2xl"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-lg font-display font-bold" style={{ color: 'var(--text-primary)' }}>Practice Settings</h2>
+                <button onClick={() => setShowSettings(false)} className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10" aria-label="Close">
+                  <X size={16} style={{ color: 'var(--text-secondary)' }} />
+                </button>
+              </div>
 
-      <motion.button
-        initial={{ opacity: 0, y: 8 }}
-        animate={{ opacity: 1, y: 0 }}
-        onClick={handleStart}
-        disabled={isStarting || pool.length === 0 || selectedSubjectIds.length === 0}
-        className="w-full py-3.5 rounded-2xl font-display font-bold text-white bg-brand-500 hover:bg-brand-600 transition-colors disabled:opacity-40 disabled:cursor-not-allowed shadow-glow"
-      >
-        {isStarting ? 'Starting…' : `Start ${mode === 'practice' ? 'Practice' : 'Test'} (${Math.min(questionCount, pool.length)} Q)`}
-      </motion.button>
+              <p className="text-xs font-medium mb-2" style={{ color: 'var(--text-secondary)' }}>Difficulty</p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {DIFFICULTY_OPTIONS.map((opt) => (
+                  <button
+                    key={opt.id}
+                    onClick={() => setDifficulty(opt.id)}
+                    className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${difficulty === opt.id ? 'bg-brand-500 text-white' : ''}`}
+                    style={difficulty !== opt.id ? { border: '1px solid var(--border)', color: 'var(--text-secondary)' } : undefined}
+                  >
+                    {opt.label}
+                  </button>
+                ))}
+              </div>
+
+              <p className="text-xs font-medium mb-2" style={{ color: 'var(--text-secondary)' }}>Number of Questions</p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {COUNT_OPTIONS.map((n) => (
+                  <button
+                    key={n}
+                    onClick={() => setQuestionCount(n)}
+                    disabled={quickPool > 0 && n > quickPool}
+                    className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors disabled:opacity-35 disabled:cursor-not-allowed ${questionCount === n ? 'bg-brand-500 text-white' : ''}`}
+                    style={questionCount !== n ? { border: '1px solid var(--border)', color: 'var(--text-secondary)' } : undefined}
+                  >
+                    {n}
+                  </button>
+                ))}
+                {quickPool > 0 && (
+                  <button
+                    onClick={() => setQuestionCount(quickPool)}
+                    className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${questionCount === quickPool ? 'bg-brand-500 text-white' : ''}`}
+                    style={questionCount !== quickPool ? { border: '1px solid var(--border)', color: 'var(--text-secondary)' } : undefined}
+                  >
+                    All Available ({quickPool})
+                  </button>
+                )}
+              </div>
+
+              <p className="text-xs font-medium mb-2" style={{ color: 'var(--text-secondary)' }}>Mode</p>
+              <div className="grid grid-cols-2 gap-2 mb-5">
+                <button
+                  onClick={() => setMode('practice')}
+                  className={`p-3 rounded-xl text-left transition-colors ${mode === 'practice' ? 'ring-2 ring-brand-500' : ''}`}
+                  style={{ border: '1px solid var(--border)' }}
+                >
+                  <Zap size={14} style={{ color: '#22c55e' }} className="mb-1" />
+                  <p className="text-xs font-medium" style={{ color: 'var(--text-primary)' }}>Practice</p>
+                </button>
+                <button
+                  onClick={() => setMode('test')}
+                  className={`p-3 rounded-xl text-left transition-colors ${mode === 'test' ? 'ring-2 ring-brand-500' : ''}`}
+                  style={{ border: '1px solid var(--border)' }}
+                >
+                  <ClipboardList size={14} style={{ color: '#ef4444' }} className="mb-1" />
+                  <p className="text-xs font-medium" style={{ color: 'var(--text-primary)' }}>Test</p>
+                </button>
+              </div>
+
+              <button onClick={() => setShowSettings(false)} className="btn-primary w-full py-2.5">Apply</button>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

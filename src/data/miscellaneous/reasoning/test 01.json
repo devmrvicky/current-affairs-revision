@@ -1,0 +1,114 @@
+[
+  {
+    "id": "0001",
+    "topicId": "coding-decoding",
+    "question": "एक निश्चित कोड में, यदि CAT को DBU लिखा जाता है (प्रत्येक अक्षर को अगले अक्षर से बदला जाता है), तो DOG को कैसे लिखा जाएगा?",
+    "options": [
+      { "id": "A", "text": "EPH" },
+      { "id": "B", "text": "EQH" },
+      { "id": "C", "text": "FPH" },
+      { "id": "D", "text": "EPI" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "प्रत्येक अक्षर को वर्णमाला में अगले अक्षर से बदलें: D→E, O→P, G→H, अतः उत्तर EPH है। याद रखने की ट्रिक: हर अक्षर +1 शिफ्ट करें।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "0002",
+    "topicId": "coding-decoding",
+    "question": "यदि ROSE को SPTF लिखा जाता है, तो उसी कोड में TULIP को कैसे लिखा जाएगा?",
+    "options": [
+      { "id": "A", "text": "UVMJQ" },
+      { "id": "B", "text": "UVNJQ" },
+      { "id": "C", "text": "UWMJQ" },
+      { "id": "D", "text": "TVMJQ" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "हर अक्षर +1: T→U, U→V, L→M, I→J, P→Q, अतः UVMJQ।",
+    "difficulty": "medium"
+  },
+  {
+    "id": "0003",
+    "topicId": "coding-decoding",
+    "question": "यदि MONEY को NPOFZ लिखा जाता है, तो उसी कोड में TIGER को कैसे लिखा जाएगा?",
+    "options": [
+      { "id": "A", "text": "UJHFS" },
+      { "id": "B", "text": "UJHFR" },
+      { "id": "C", "text": "UIHFS" },
+      { "id": "D", "text": "VJHFS" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "हर अक्षर +1: T→U, I→J, G→H, E→F, R→S, अतः UJHFS।",
+    "difficulty": "medium"
+  },
+  {
+    "id": "0004",
+    "topicId": "series",
+    "question": "श्रृंखला को पूरा करें: 2, 4, 8, 16, 32, ?",
+    "options": [
+      { "id": "A", "text": "48" },
+      { "id": "B", "text": "56" },
+      { "id": "C", "text": "64" },
+      { "id": "D", "text": "72" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "प्रत्येक संख्या पिछली संख्या का दोगुना है: 32 × 2 = 64।",
+    "difficulty": "easy"
+  },
+  {
+    "id": "0005",
+    "topicId": "series",
+    "question": "श्रृंखला को पूरा करें: 3, 6, 11, 18, 27, ?",
+    "options": [
+      { "id": "A", "text": "36" },
+      { "id": "B", "text": "38" },
+      { "id": "C", "text": "40" },
+      { "id": "D", "text": "42" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "अंतर 3, 5, 7, 9, 11 है (लगातार विषम संख्याएँ बढ़ रही हैं): 27 + 11 = 38।",
+    "difficulty": "medium"
+  },
+  {
+    "id": "0006",
+    "topicId": "series",
+    "question": "श्रृंखला में गलत संख्या पहचानें: 4, 9, 16, 25, 35, 49",
+    "options": [
+      { "id": "A", "text": "16" },
+      { "id": "B", "text": "25" },
+      { "id": "C", "text": "35" },
+      { "id": "D", "text": "49" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "यह वर्ग संख्याओं की श्रृंखला है: 2², 3², 4², 5², 6², 7² = 4, 9, 16, 25, 36, 49। 35 की जगह 36 होना चाहिए।",
+    "difficulty": "hard"
+  },
+  {
+    "id": "0007",
+    "topicId": "series",
+    "question": "अक्षर श्रृंखला को पूरा करें: A, C, F, J, O, ?",
+    "options": [
+      { "id": "A", "text": "S" },
+      { "id": "B", "text": "T" },
+      { "id": "C", "text": "U" },
+      { "id": "D", "text": "V" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "अंतर +2, +3, +4, +5, +6 है (A=1, C=3, F=6, J=10, O=15): 15+6=21=U।",
+    "difficulty": "hard"
+  },
+  {
+    "id": "0008",
+    "topicId": "series",
+    "question": "श्रृंखला को पूरा करें: 5, 11, 23, 47, ?",
+    "options": [
+      { "id": "A", "text": "89" },
+      { "id": "B", "text": "93" },
+      { "id": "C", "text": "95" },
+      { "id": "D", "text": "97" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "पैटर्न ×2+1 है: 5×2+1=11, 11×2+1=23, 23×2+1=47, 47×2+1=95।",
+    "difficulty": "medium"
+  }
+]

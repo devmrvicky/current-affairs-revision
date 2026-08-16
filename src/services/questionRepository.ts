@@ -20,6 +20,7 @@ import { getQuizRepository, parseDateFromFileName } from './quizRepository';
 import { getChapterList, loadChapterTest } from './chapterRepository';
 import { convertDailyQuiz } from './legacyQuestionAdapter';
 import { subjectRegistry, getTopicDisplayName } from '../data/registry/subjectRegistry';
+import { examRegistry } from '../data/registry/examRegistry';
 
 // ─── Topic-name → topic-id resolution ──────────────────────────────────────────
 // Chapter folder names are free-text ("Books and authors"); TOPICS registry ids
@@ -137,6 +138,149 @@ async function loadNativeUniversalQuestions(): Promise<UniversalQuestion[]> {
   return all;
 }
 
+// ─── Exam-specific mocks ────────────────────────────────────────────────────
+// src/data/{examId}/mock/{fileName}.json — unlike the single-subject native
+// loader above, a mock file is inherently MULTI-subject (a full mock mixes
+// English+Reasoning+Maths+GA), so each entry declares its own `subjectId`
+// rather than inferring it from the path. This is source B of the Practice
+// page's three content sources (product-refactor §56).
+
+const mockModules = import.meta.glob<{ default: MockFileEntry[] }>(
+  '../data/*/mock/*.json',
+  { eager: false }
+);
+
+interface MockFileEntry extends NativeQuestionFileEntry {
+  subjectId: string;
+}
+
+// Folders that are never an examId, even though `*/mock/*.json` could
+// theoretically match something unrelated — defense in depth alongside the
+// `parts[1] !== 'mock'` check, which already rules out everything that
+// currently exists in src/data (no real folder's second segment is "mock").
+const RESERVED_TOP_FOLDERS = new Set(['current-affairs', 'chapters', 'monthly-magazine', 'registry', 'syllabus', 'miscellaneous']);
+
+function parseMockPath(globKey: string): { examId: string; fileName: string } | null {
+  const marker = '/data/';
+  const idx = globKey.indexOf(marker);
+  if (idx < 0) return null;
+  const parts = globKey.slice(idx + marker.length).split('/'); // [examId, "mock", "mock01.json"]
+  if (parts.length !== 3 || parts[1] !== 'mock') return null;
+  const [examId, , fileName] = parts;
+  if (RESERVED_TOP_FOLDERS.has(examId)) return null;
+  return { examId, fileName: fileName.replace(/\.json$/i, '') };
+}
+
+let _mockCache: UniversalQuestion[] | null = null;
+
+async function loadExamMockQuestions(): Promise<UniversalQuestion[]> {
+  if (_mockCache) return _mockCache;
+  const all: UniversalQuestion[] = [];
+
+  for (const [globKey, loader] of Object.entries(mockModules)) {
+    const parsed = parseMockPath(globKey);
+    if (!parsed) continue;
+    const { examId, fileName } = parsed;
+
+    const mod = await loader();
+    const entries = mod.default;
+    if (!Array.isArray(entries)) continue;
+
+    for (const entry of entries) {
+      all.push({
+        id: `${examId}-mock-${fileName}-${entry.id}`,
+        examIds: [examId],
+        subjectId: entry.subjectId,
+        topicId: entry.topicId,
+        subtopicId: entry.subtopicId,
+        questionType: entry.questionType ?? 'mcq',
+        question: entry.question,
+        options: entry.options,
+        correctAnswer: entry.correctAnswer,
+        explanation: entry.explanation,
+        difficulty: entry.difficulty ?? 'medium',
+        language: entry.language ?? 'hi',
+        source: `mock:${fileName}`,
+        tags: entry.tags,
+      });
+    }
+  }
+
+  _mockCache = all;
+  return all;
+}
+
+// ─── Miscellaneous subject tests ────────────────────────────────────────────
+// src/data/miscellaneous/{subjectId}/{fileName}.json — single-subject, but
+// deliberately NOT tied to one exam (product-refactor §57). `examIds` is
+// computed from examRegistry: every exam whose configured syllabus already
+// includes this subject gets this content automatically — reusing the
+// universal question model's existing multi-exam-membership design
+// (Phase 1) rather than inventing a wildcard "applies everywhere" marker.
+
+const miscModules = import.meta.glob<{ default: NativeQuestionFileEntry[] }>(
+  '../data/miscellaneous/*/*.json',
+  { eager: false }
+);
+
+function parseMiscPath(globKey: string): { subjectId: string; fileName: string } | null {
+  const marker = '/data/miscellaneous/';
+  const idx = globKey.indexOf(marker);
+  if (idx < 0) return null;
+  const parts = globKey.slice(idx + marker.length).split('/'); // [subjectId, "test 01.json"]
+  if (parts.length !== 2) return null;
+  const [subjectId, fileName] = parts;
+  if (!subjectId || !fileName) return null;
+  return { subjectId, fileName: fileName.replace(/\.json$/i, '') };
+}
+
+function examIdsForSubject(subjectId: string): string[] {
+  return examRegistry.getAllExams()
+    .filter((exam) => exam.subjects.some((s) => s.subjectId === subjectId))
+    .map((exam) => exam.id);
+}
+
+let _miscCache: UniversalQuestion[] | null = null;
+
+async function loadMiscellaneousQuestions(): Promise<UniversalQuestion[]> {
+  if (_miscCache) return _miscCache;
+  const all: UniversalQuestion[] = [];
+
+  for (const [globKey, loader] of Object.entries(miscModules)) {
+    const parsed = parseMiscPath(globKey);
+    if (!parsed) continue;
+    const { subjectId, fileName } = parsed;
+    const examIds = examIdsForSubject(subjectId);
+    if (examIds.length === 0) continue; // no exam currently lists this subject — nothing would ever surface it, skip rather than orphan it
+
+    const mod = await loader();
+    const entries = mod.default;
+    if (!Array.isArray(entries)) continue;
+
+    for (const entry of entries) {
+      all.push({
+        id: `misc-${subjectId}-${normalize(fileName)}-${entry.id}`,
+        examIds,
+        subjectId,
+        topicId: entry.topicId,
+        subtopicId: entry.subtopicId,
+        questionType: entry.questionType ?? 'mcq',
+        question: entry.question,
+        options: entry.options,
+        correctAnswer: entry.correctAnswer,
+        explanation: entry.explanation,
+        difficulty: entry.difficulty ?? 'medium',
+        language: entry.language ?? 'hi',
+        source: `miscellaneous:${fileName}`,
+        tags: entry.tags,
+      });
+    }
+  }
+
+  _miscCache = all;
+  return all;
+}
+
 // ─── In-memory cache ────────────────────────────────────────────────────────
 // Bundled JSON is immutable content (master prompt §41) — safe to cache for
 // the session once loaded. Never cache user state (attempts/bookmarks) here.
@@ -200,16 +344,18 @@ async function loadChapterWiseCurrentAffairsQuestions(): Promise<UniversalQuesti
 
 /** All questions currently loadable in the app, across every source. Cached after first call. */
 async function loadAllQuestions(): Promise<UniversalQuestion[]> {
-  const [daily, chapterWise, native] = await Promise.all([
+  const [daily, chapterWise, native, mocks, misc] = await Promise.all([
     loadDailyCurrentAffairsQuestions(),
     loadChapterWiseCurrentAffairsQuestions(),
     loadNativeUniversalQuestions(),
+    loadExamMockQuestions(),
+    loadMiscellaneousQuestions(),
   ]);
   // De-dupe by id defensively — every source uses a disjoint id prefix so
   // collisions shouldn't happen, but a repository consumer should never have
   // to worry about it either way.
   const seen = new Map<string, UniversalQuestion>();
-  for (const q of [...daily, ...chapterWise, ...native]) seen.set(q.id, q);
+  for (const q of [...daily, ...chapterWise, ...native, ...mocks, ...misc]) seen.set(q.id, q);
   return Array.from(seen.values());
 }
 
@@ -218,6 +364,8 @@ export function clearQuestionCache(): void {
   _dailyCache = null;
   _chapterCache = null;
   _nativeCache = null;
+  _mockCache = null;
+  _miscCache = null;
 }
 
 // ─── Public repository API (master prompt §14) ────────────────────────────────
