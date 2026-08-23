@@ -11,6 +11,7 @@ import { useReaderStore } from '../store/readerStore';
 import { subjectRegistry, getTopicDisplayName } from '../data/registry/subjectRegistry';
 import { getSyllabusChapter, loadSyllabusNotes, syllabusReaderKey } from '../services/syllabusRepository';
 import { getQuestionsByExam, getRandomQuestions } from '../services/questionRepository';
+import { getChapterAttemptStats, type ChapterAttemptStats } from '../services/attemptLedgerService';
 import { buildSessionQuestionIds } from '../services/practiceService';
 import type { PracticeConfiguration } from '../types/practiceSession';
 
@@ -34,12 +35,13 @@ export default function GenericChapterDetailPage() {
   const [notes, setNotes] = useState<string | null>(null);
   const [notesLoading, setNotesLoading] = useState(true);
   const [questionCount, setQuestionCount] = useState<number | null>(null);
+  const [attemptStats, setAttemptStats] = useState<ChapterAttemptStats | null>(null);
   const [isStarting, setIsStarting] = useState(false);
   const scrollStart = useRef(Date.now());
   const chapterProgress = progress[readerKey];
 
   useEffect(() => {
-    loadProgress(readerKey);
+    loadProgress(readerKey, { examId: selectedExamId, subjectId, chapterName });
     scrollStart.current = Date.now();
     return () => {
       const seconds = Math.floor((Date.now() - scrollStart.current) / 1000);
@@ -63,6 +65,7 @@ export default function GenericChapterDetailPage() {
     getQuestionsByExam(selectedExamId).then((pool) => {
       if (!cancelled) setQuestionCount(pool.filter((q) => q.subjectId === subjectId && q.topicId === chapterId).length);
     });
+    getChapterAttemptStats(chapterId).then((stats) => { if (!cancelled) setAttemptStats(stats); });
     return () => { cancelled = true; };
   }, [selectedExamId, subjectId, chapterId]);
 
@@ -156,14 +159,21 @@ export default function GenericChapterDetailPage() {
         ) : questionCount === 0 ? (
           <p className="text-sm" style={{ color: 'var(--text-muted)' }}>No tests available yet.</p>
         ) : (
-          <div className="grid grid-cols-2 gap-3">
-            <button onClick={() => startChapterSession('practice', false)} disabled={isStarting} className="btn-secondary py-2.5 text-sm">
-              Practice ({questionCount})
-            </button>
-            <button onClick={() => startChapterSession('test', false)} disabled={isStarting} className="btn-primary py-2.5 text-sm">
-              Test Mode
-            </button>
-          </div>
+          <>
+            {attemptStats && (
+              <p className="text-xs mb-3" style={{ color: 'var(--text-muted)' }}>
+                Attempted {attemptStats.timesAttempted}× · Best {attemptStats.bestCorrect}/{attemptStats.bestTotal} ({attemptStats.bestAccuracy}%)
+              </p>
+            )}
+            <div className="grid grid-cols-2 gap-3">
+              <button onClick={() => startChapterSession('practice', false)} disabled={isStarting} className="btn-secondary py-2.5 text-sm">
+                Practice ({questionCount})
+              </button>
+              <button onClick={() => startChapterSession('test', false)} disabled={isStarting} className="btn-primary py-2.5 text-sm">
+                Test Mode
+              </button>
+            </div>
+          </>
         )}
       </div>
 

@@ -27,6 +27,8 @@ export interface PracticeConfiguration {
   durationSeconds?: number;
   marking?: SessionNegativeMarking;
   testType?: 'sectional' | 'full';
+  /** Present when started from a specific PracticeTestDefinition card (an exam mock, chapter test, or miscellaneous set) rather than free-form Quick Practice — enables per-test attempt statistics (product-refactor §89-90). */
+  testDefinitionId?: string;
   /** Human-readable label for headers/results, e.g. "SSC CHSL — Mathematics". */
   label: string;
 }

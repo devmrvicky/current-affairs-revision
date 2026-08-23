@@ -56,7 +56,7 @@ export default function UniversalSessionPage() {
   const [questionsById, setQuestionsById] = useState<Map<string, UniversalQuestion>>(new Map());
   const [loaded, setLoaded] = useState(false);
   const [showPalette, setShowPalette] = useState(false);
-  const [questionStartTime, setQuestionStartTime] = useState(Date.now());
+  const [questionStartTime, setQuestionStartTime] = useState(() => Date.now());
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
   const [isFinishing, setIsFinishing] = useState(false);
   const finishingRef = useRef(false);
@@ -80,6 +80,12 @@ export default function UniversalSessionPage() {
       setLoaded(true);
     });
     return () => { cancelled = true; };
+    // Deliberately depend on session?.id only, not the full session object:
+    // session mutates on every answer, and re-running this would re-fetch
+    // content and needlessly reset `loaded` mid-attempt. session.questionIds
+    // is fixed for the session's lifetime, so id alone is the correct
+    // trigger for "did the session itself change".
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [session?.id]);
 
   useEffect(() => {
@@ -87,7 +93,15 @@ export default function UniversalSessionPage() {
     if (session.isCompleted) { navigate('/session/result', { replace: true }); }
   }, [session, navigate]);
 
+  // Resets the per-question timer when the question changes — a
+  // legitimate "derived reset" (React docs: "Resetting all state when a
+  // prop changes"), not an accidental cascading update. There's no
+  // alternative that avoids an effect here since the reset must happen in
+  // response to store-driven navigation (Previous/Next/palette jump),
+  // not a local event we could set state from directly. Same established
+  // pattern as the legacy QuizPage.tsx's per-question timer.
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setQuestionStartTime(Date.now());
   }, [session?.currentIndex]);
 
@@ -116,7 +130,7 @@ export default function UniversalSessionPage() {
       finishingRef.current = false;
       setIsFinishing(false);
     }
-  }, [session, questionsById, completeSession, navigate]);
+  }, [session, questionsById, completeSession, navigate, incrementQuestionsGoal, incrementTestsGoal]);
 
   const handleExpire = useCallback(() => { finishAndRecord(); }, [finishAndRecord]);
 
@@ -141,6 +155,11 @@ export default function UniversalSessionPage() {
 
   function handleSelect(optionId: string) {
     if (isAnswered) return;
+    // Runs inside a click handler, not during render — the "impure
+    // function" rule is flagging closures defined in component scope
+    // generally, not actual render-time calls. Same established pattern as
+    // legacy QuizPage.tsx.
+    // eslint-disable-next-line react-hooks/purity
     const timeTaken = Math.floor((Date.now() - questionStartTime) / 1000);
     selectAnswer(optionId, timeTaken);
   }

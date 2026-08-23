@@ -10,6 +10,7 @@ import { getSubjectsForExam } from '../services/examService';
 import { getAvailableTopics, getAvailableSubjects, getRandomQuestions, type AvailableTopic } from '../services/questionRepository';
 import { createQuestionPool } from '../services/practiceService';
 import { getPracticeTests, describeTestSource, type PracticeTestDefinition } from '../services/practiceTestRepository';
+import { getTestAttemptStats, type TestAttemptStats } from '../services/attemptLedgerService';
 import type { Difficulty } from '../types/universalQuestion';
 import type { PracticeConfiguration } from '../types/practiceSession';
 
@@ -65,6 +66,7 @@ export default function PracticeConfigurePage() {
   const [quickPoolLoading, setQuickPoolLoading] = useState(false);
   const [tests, setTests] = useState<PracticeTestDefinition[]>([]);
   const [testsLoading, setTestsLoading] = useState(false);
+  const [testStats, setTestStats] = useState<Record<string, TestAttemptStats | null>>({});
   const [isStarting, setIsStarting] = useState(false);
 
   useEffect(() => {
@@ -96,7 +98,14 @@ export default function PracticeConfigurePage() {
     if (!selectedSubjectId) { setTests([]); return; }
     let cancelled = false;
     setTestsLoading(true);
-    getPracticeTests(selectedExamId, selectedSubjectId).then((t) => { if (!cancelled) setTests(t); }).finally(() => { if (!cancelled) setTestsLoading(false); });
+    getPracticeTests(selectedExamId, selectedSubjectId)
+      .then(async (t) => {
+        if (cancelled) return;
+        setTests(t);
+        const statsEntries = await Promise.all(t.map(async (test) => [test.id, await getTestAttemptStats(test.id)] as const));
+        if (!cancelled) setTestStats(Object.fromEntries(statsEntries));
+      })
+      .finally(() => { if (!cancelled) setTestsLoading(false); });
     return () => { cancelled = true; };
   }, [selectedSubjectId, selectedExamId]);
 
@@ -145,6 +154,7 @@ export default function PracticeConfigurePage() {
         questionCount: test.questionCount,
         mode: useTestMode ? 'test' : 'practice',
         label: test.title,
+        testDefinitionId: test.id,
         ...(useTestMode
           ? {
               marking: exam?.mockConfig.marking ?? { marksPerCorrect: 1, negativeMarks: 0 },
@@ -294,6 +304,11 @@ export default function PracticeConfigurePage() {
                         {test.questionCount} Questions · {test.difficulty === 'mixed' ? 'Mixed' : test.difficulty}
                         {test.isFixedMock && ' · Timed'}
                       </p>
+                      {testStats[test.id] && (
+                        <p className="text-xs mt-0.5 text-brand-500">
+                          Attempted {testStats[test.id]!.timesAttempted}× · Best {testStats[test.id]!.bestCorrect}/{testStats[test.id]!.bestTotal}
+                        </p>
+                      )}
                     </div>
                     <button onClick={() => handleStartTest(test)} disabled={isStarting} className="btn-secondary text-sm py-2 px-4 flex-shrink-0 disabled:opacity-40">
                       Start

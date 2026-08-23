@@ -347,6 +347,10 @@ export interface ReadingProgress {
   isFavorite: boolean;
   /** User-set override, independent of the auto-calculated completionStatus/scrollPercent above. */
   manuallyCompleted?: boolean;
+  /** Structured identity for native (non-Current-Affairs) chapters — lets consumers query "all progress for subject X" without parsing the composite chapterId. Absent on legacy Current Affairs records and on records created before this field existed; chapterId remains the source of truth either way. */
+  examId?: string;
+  subjectId?: string;
+  chapterName?: string;
 }
 
 export interface ReadingPrefs {

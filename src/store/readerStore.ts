@@ -28,7 +28,7 @@ interface ReaderStore {
   getNotesForChapter: (chapterId: string) => ReaderNote[];
 
   // Progress actions
-  loadProgress: (chapterId: string) => Promise<ReadingProgress>;
+  loadProgress: (chapterId: string, meta?: { examId?: string; subjectId?: string; chapterName?: string }) => Promise<ReadingProgress>;
   updateProgress: (chapterId: string, patch: Partial<ReadingProgress>) => Promise<void>;
   toggleFavorite: (chapterId: string) => Promise<void>;
   incrementReadingTime: (chapterId: string, seconds: number) => Promise<void>;
@@ -40,6 +40,8 @@ interface ReaderStore {
   getContinueReading: () => ReadingProgress[];
   getFavorites: () => string[];
   getCompletedCount: () => number;
+  /** All reading progress for one subject — only returns records that were created with subjectId metadata (native syllabus chapters). Legacy Current Affairs records predate this field and won't appear here even though they're the same underlying data; use getContinueReading()/getFavorites() for those. */
+  getProgressForSubject: (subjectId: string) => ReadingProgress[];
 }
 
 const DEFAULT_PREFS: ReadingPrefs = {
@@ -125,10 +127,10 @@ export const useReaderStore = create<ReaderStore>((set, get) => ({
   getNotesForChapter: (chapterId) =>
     get().notes.filter((n) => n.chapterId === chapterId),
 
-  loadProgress: async (chapterId) => {
+  loadProgress: async (chapterId, meta) => {
     const existing = get().progress[chapterId];
     if (existing) return existing;
-    const p = await readingProgressDB.getOrCreate(chapterId);
+    const p = await readingProgressDB.getOrCreate(chapterId, meta);
     set((s) => ({ progress: { ...s.progress, [chapterId]: p } }));
     return p;
   },
@@ -175,4 +177,7 @@ export const useReaderStore = create<ReaderStore>((set, get) => ({
 
   getCompletedCount: () =>
     Object.values(get().progress).filter((p) => p.completionStatus === 'completed').length,
+
+  getProgressForSubject: (subjectId) =>
+    Object.values(get().progress).filter((p) => p.subjectId === subjectId),
 }));

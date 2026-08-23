@@ -43,6 +43,8 @@ export interface UniversalAttemptRecord {
   attemptedAt: number;
   sessionId: string;
   sourceFileName: string;
+  /** Present when the session came from a specific PracticeTestDefinition (a named test/mock card, not free-form Quick Practice) — powers per-test "Attempted N times, Best M/Q" stats generically across every subject (product-refactor §89-90). */
+  testDefinitionId?: string;
 }
 
 // ─── Schema ───────────────────────────────────────────────────────────────────
@@ -830,7 +832,7 @@ export const readingProgressDB = {
     await db.put('readingProgress', p);
   },
 
-  async getOrCreate(chapterId: string): Promise<ReadingProgress> {
+  async getOrCreate(chapterId: string, meta?: { examId?: string; subjectId?: string; chapterName?: string }): Promise<ReadingProgress> {
     const existing = await this.getByChapter(chapterId);
     if (existing) return existing;
     const fresh: ReadingProgress = {
@@ -841,6 +843,7 @@ export const readingProgressDB = {
       lastReadAt: Date.now(),
       completionStatus: 'not_started',
       isFavorite: false,
+      ...meta,
     };
     await this.upsert(fresh);
     return fresh;

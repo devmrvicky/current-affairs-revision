@@ -162,6 +162,7 @@ export async function recordPracticeSessionAttempts(
       attemptedAt: state.answeredAt ?? session.completedAt ?? Date.now(),
       sessionId: session.id,
       sourceFileName: `universal-session-${session.id}`,
+      testDefinitionId: session.config.testDefinitionId,
     };
   });
   await universalAttemptsDB.recordMany(records);
@@ -206,7 +207,104 @@ export async function getSubjectPerformance(): Promise<{ subjectId: string; atte
   }
   return Array.from(bySubject.values());
 }
+
+export interface ChapterAttemptStats {
+  timesAttempted: number; // distinct sessions that touched this topic
+  bestCorrect: number;
+  bestTotal: number;
+  bestAccuracy: number; // 0-100, from the best session
+  lastAttemptedAt: number;
+}
+
+/**
+ * Generic per-chapter/topic attempt history — "Attempted 3 times, Best 18/25"
+ * — works for ANY subject's chapter the moment it has ledger data, not just
+ * Current Affairs (product-refactor §89). Sessions are grouped by
+ * `sessionId`, since one session can touch a topic across several
+ * questions; "best" is the highest-accuracy session, matching how a student
+ * actually thinks about "my best attempt at this chapter."
+ */
+export async function getChapterAttemptStats(topicId: string): Promise<ChapterAttemptStats | null> {
+  const records = await universalAttemptsDB.getByTopic(topicId);
+  const answered = records.filter((r) => r.wasAnswered);
+  if (answered.length === 0) return null;
+
+  const bySession = new Map<string, { correct: number; total: number; lastAt: number }>();
+  for (const r of answered) {
+    const entry = bySession.get(r.sessionId) ?? { correct: 0, total: 0, lastAt: 0 };
+    entry.total += 1;
+    if (r.isCorrect) entry.correct += 1;
+    entry.lastAt = Math.max(entry.lastAt, r.attemptedAt);
+    bySession.set(r.sessionId, entry);
+  }
+
+  let best = { correct: 0, total: 1, lastAt: 0 };
+  let lastAttemptedAt = 0;
+  for (const session of bySession.values()) {
+    const accuracy = session.correct / session.total;
+    const bestAccuracy = best.correct / best.total;
+    if (accuracy > bestAccuracy || (accuracy === bestAccuracy && session.total > best.total)) best = session;
+    lastAttemptedAt = Math.max(lastAttemptedAt, session.lastAt);
+  }
+
+  return {
+    timesAttempted: bySession.size,
+    bestCorrect: best.correct,
+    bestTotal: best.total,
+    bestAccuracy: Math.round((best.correct / best.total) * 100),
+    lastAttemptedAt,
+  };
+}
 export async function getRecentAttemptRecords(limit: number): Promise<UniversalAttemptRecord[]> {
   const all = await universalAttemptsDB.getAll();
   return all.sort((a, b) => b.attemptedAt - a.attemptedAt).slice(0, limit);
+}
+
+export interface TestAttemptStats {
+  timesAttempted: number;
+  bestCorrect: number;
+  bestTotal: number;
+  bestAccuracy: number;
+  lastAttemptedAt: number;
+}
+
+/**
+ * "Attempted N times, Best M/Q" for one SPECIFIC named test (e.g. "Test 01"
+ * within a chapter that has several test files) — finer-grained than
+ * getChapterAttemptStats above, which aggregates every attempt across an
+ * entire topic regardless of which file. Matches product-refactor §89's
+ * literal example ("Percentage → Test 01 → Attempted 3 times → Best 18/25")
+ * exactly, generically for exam mocks, chapter tests, and miscellaneous
+ * sets alike — not just Current Affairs.
+ */
+export async function getTestAttemptStats(testDefinitionId: string): Promise<TestAttemptStats | null> {
+  const all = await universalAttemptsDB.getAll();
+  const records = all.filter((r) => r.testDefinitionId === testDefinitionId && r.wasAnswered);
+  if (records.length === 0) return null;
+
+  const bySession = new Map<string, { correct: number; total: number; lastAt: number }>();
+  for (const r of records) {
+    const entry = bySession.get(r.sessionId) ?? { correct: 0, total: 0, lastAt: 0 };
+    entry.total += 1;
+    if (r.isCorrect) entry.correct += 1;
+    entry.lastAt = Math.max(entry.lastAt, r.attemptedAt);
+    bySession.set(r.sessionId, entry);
+  }
+
+  let best = { correct: 0, total: 1, lastAt: 0 };
+  let lastAttemptedAt = 0;
+  for (const session of bySession.values()) {
+    const accuracy = session.correct / session.total;
+    const bestAccuracy = best.correct / best.total;
+    if (accuracy > bestAccuracy || (accuracy === bestAccuracy && session.total > best.total)) best = session;
+    lastAttemptedAt = Math.max(lastAttemptedAt, session.lastAt);
+  }
+
+  return {
+    timesAttempted: bySession.size,
+    bestCorrect: best.correct,
+    bestTotal: best.total,
+    bestAccuracy: Math.round((best.correct / best.total) * 100),
+    lastAttemptedAt,
+  };
 }
