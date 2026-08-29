@@ -1,18 +1,12 @@
-// ─── Exam Mock Configuration (config-driven Mock/Sectional engine) ─────────────
-// This is the layer the new CBT-style Mock Test / Sectional Mock system reads
-// instead of hard-coding section counts, timings or marking anywhere in the
-// UI. Adding a new mock, or a whole new exam's section pattern, is a JSON
-// file drop under src/data/{category}/{examId}/mock-config/*.json — no
-// component or engine code changes.
-//
-// A mock's QUESTION CONTENT still lives in the existing exam-mock JSON files
-// (src/data/{category}/{examId}/mock/{file}.json, loaded by
-// questionRepository's mock loader). This config layer only adds the
-// exam-simulation metadata (sections, timing, marking) on top, and resolves
-// each section's question order by filtering that same question pool by
-// subjectId — so one authored question file can back a Full Mock AND every
-// Sectional Mock for that exam without duplicating a single question
-// (product spec §92/§93).
+// ─── Exam Mock Configuration (runtime shapes for the Mock/Sectional engine) ────
+// These are the RESOLVED, RUNTIME shapes the Mock Test UI consumes — the
+// question ids on FullMockDefinition/SectionalMockDefinition are already
+// namespaced and ordered by the time a page sees them. They are DERIVED
+// (never hand-authored) from a single-source-of-truth Mock Source File —
+// see types/mockSourceFile.ts for the on-disk schema a content author
+// writes, and services/mockDefinitionRepository.ts for the derivation
+// (one Full Mock + N virtual Sectional Mocks per source file, no separate
+// config files, no question duplication — product spec §0-3/§10-12).
 
 export type MockMode = 'full-mock' | 'sectional-mock';
 

@@ -41,6 +41,11 @@ export interface UniversalQuestion {
 
   tags?: string[];
 
+  /** Set only for questions sourced from a Mock Source File (product spec §89) — lets Review Center/analytics trace a question back to its mock and section without a second lookup. */
+  sourceMockId?: string;
+  sourceSectionId?: string;
+  sourceSectionTitle?: string;
+
   isCurrentAffairs?: boolean;
   currentAffairDate?: string; // ISO date, e.g. "2026-06-27"
   currentAffairCategory?: string; // National, Sports, Appointments, ...

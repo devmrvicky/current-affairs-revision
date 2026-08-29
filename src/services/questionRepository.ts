@@ -21,6 +21,7 @@ import { getChapterList, loadChapterTest } from './chapterRepository';
 import { convertDailyQuiz } from './legacyQuestionAdapter';
 import { subjectRegistry, getTopicDisplayName } from '../data/registry/subjectRegistry';
 import { examRegistry } from '../data/registry/examRegistry';
+import { getAllMockSourceUniversalQuestions, clearMockSourceCache } from './mockSourceRegistry';
 
 // ─── Topic-name → topic-id resolution ──────────────────────────────────────────
 // Chapter folder names are free-text ("Books and authors"); TOPICS registry ids
@@ -297,6 +298,13 @@ async function loadMiscellaneousQuestions(): Promise<UniversalQuestion[]> {
 
 let _dailyCache: UniversalQuestion[] | null = null;
 let _chapterCache: UniversalQuestion[] | null = null;
+let _mockSourceCache: UniversalQuestion[] | null = null;
+
+async function loadMockSourceQuestions(): Promise<UniversalQuestion[]> {
+  if (_mockSourceCache) return _mockSourceCache;
+  _mockSourceCache = await getAllMockSourceUniversalQuestions();
+  return _mockSourceCache;
+}
 
 async function loadDailyCurrentAffairsQuestions(): Promise<UniversalQuestion[]> {
   if (_dailyCache) return _dailyCache;
@@ -354,18 +362,19 @@ async function loadChapterWiseCurrentAffairsQuestions(): Promise<UniversalQuesti
 
 /** All questions currently loadable in the app, across every source. Cached after first call. */
 async function loadAllQuestions(): Promise<UniversalQuestion[]> {
-  const [daily, chapterWise, native, mocks, misc] = await Promise.all([
+  const [daily, chapterWise, native, mocks, misc, mockSource] = await Promise.all([
     loadDailyCurrentAffairsQuestions(),
     loadChapterWiseCurrentAffairsQuestions(),
     loadNativeUniversalQuestions(),
     loadExamMockQuestions(),
     loadMiscellaneousQuestions(),
+    loadMockSourceQuestions(),
   ]);
   // De-dupe by id defensively — every source uses a disjoint id prefix so
   // collisions shouldn't happen, but a repository consumer should never have
   // to worry about it either way.
   const seen = new Map<string, UniversalQuestion>();
-  for (const q of [...daily, ...chapterWise, ...native, ...mocks, ...misc]) seen.set(q.id, q);
+  for (const q of [...daily, ...chapterWise, ...native, ...mocks, ...misc, ...mockSource]) seen.set(q.id, q);
   return Array.from(seen.values());
 }
 
@@ -376,6 +385,8 @@ export function clearQuestionCache(): void {
   _nativeCache = null;
   _mockCache = null;
   _miscCache = null;
+  _mockSourceCache = null;
+  clearMockSourceCache();
 }
 
 // ─── Public repository API (master prompt §14) ────────────────────────────────

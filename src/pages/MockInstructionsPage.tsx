@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { AlertTriangle, Clock, ListChecks } from 'lucide-react';
-import { getMockDefinition, resolveFullMock, resolveSectionalMock } from '../services/mockDefinitionRepository';
+import { getMockDefinition, getValidationErrorsForMock, resolveFullMock, resolveSectionalMock } from '../services/mockDefinitionRepository';
 import { useMockSessionStore } from '../store/mockSessionStore';
 import type { MockDefinition } from '../types/examMock';
 
@@ -11,6 +11,7 @@ export default function MockInstructionsPage() {
   const { startFullMock, startSectionalMock, session } = useMockSessionStore();
 
   const [definition, setDefinition] = useState<MockDefinition | null>(null);
+  const [notFoundReasons, setNotFoundReasons] = useState<string[]>([]);
   const [loaded, setLoaded] = useState(false);
   const [errors, setErrors] = useState<string[]>([]);
   const [acknowledged, setAcknowledged] = useState(false);
@@ -19,10 +20,18 @@ export default function MockInstructionsPage() {
   useEffect(() => {
     let cancelled = false;
     if (!mockId) return;
-    getMockDefinition(mockId).then((def) => {
-      if (cancelled || !def) { setLoaded(true); return; }
-      setDefinition(def);
-      setLoaded(true);
+    getMockDefinition(mockId).then(async (def) => {
+      if (cancelled) return;
+      if (!def) {
+        // Could be a genuinely unknown id, or a mock whose source file failed
+        // content validation and was excluded entirely — surface the real
+        // reason when there is one (product spec §158) instead of a bare 404.
+        const reasons = await getValidationErrorsForMock(mockId);
+        if (!cancelled) setNotFoundReasons(reasons.map((r) => r.reason));
+      } else {
+        setDefinition(def);
+      }
+      if (!cancelled) setLoaded(true);
     });
     return () => { cancelled = true; };
   }, [mockId]);
@@ -59,7 +68,14 @@ export default function MockInstructionsPage() {
       <div className="max-w-2xl mx-auto pt-10">
         <div className="card p-6 text-center">
           <AlertTriangle size={24} className="mx-auto mb-2 text-red-500" />
-          <p className="text-sm" style={{ color: 'var(--text-primary)' }}>This mock couldn't be found.</p>
+          <p className="text-sm" style={{ color: 'var(--text-primary)' }}>
+            {notFoundReasons.length > 0 ? 'This mock has a content problem and could not be loaded.' : "This mock couldn't be found."}
+          </p>
+          {notFoundReasons.length > 0 && (
+            <ul className="text-xs mt-3 space-y-1 text-left list-disc pl-4" style={{ color: 'var(--text-muted)' }}>
+              {notFoundReasons.map((r, i) => <li key={i}>{r}</li>)}
+            </ul>
+          )}
         </div>
       </div>
     );

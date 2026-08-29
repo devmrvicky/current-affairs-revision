@@ -11,7 +11,7 @@
 import { getQuestionsByExam } from './questionRepository';
 import type { UniversalQuestion, Difficulty } from '../types/universalQuestion';
 
-export type PracticeTestSource = 'exam-mock' | 'legacy-chapter' | 'miscellaneous';
+export type PracticeTestSource = 'exam-mock' | 'legacy-chapter' | 'miscellaneous' | 'mock-source';
 
 export interface PracticeTestDefinition {
   id: string;
@@ -40,6 +40,15 @@ function inferSource(rawSource: string): { kind: PracticeTestSource; title: stri
   if (rawSource.startsWith('mock:')) {
     return { kind: 'exam-mock', title: humanize(rawSource.slice(5)) };
   }
+  // Single-source-of-truth Mock JSON (mockSourceRegistry.ts) — every question
+  // tagged `mock-source:{mockId}` becomes ONE subject-wise practice set per
+  // mock per subject here, e.g. "Ssc Chsl Pyq 2019 07 02 Shift3 — Mathematics
+  // Mock Questions". This is generic grouping-by-source, not a mock-specific
+  // special case — any new source prefix gets the same treatment for free
+  // (product spec §14/§29/§68/§123).
+  if (rawSource.startsWith('mock-source:')) {
+    return { kind: 'mock-source', title: humanize(rawSource.slice(12)) };
+  }
   if (rawSource.startsWith('miscellaneous:')) {
     return { kind: 'miscellaneous', title: humanize(rawSource.slice(14)) };
   }
@@ -51,7 +60,7 @@ function inferSource(rawSource: string): { kind: PracticeTestSource; title: stri
   return null; // e.g. a bare daily-quiz filename — not a discrete "test" unit worth listing here, it already has its own Daily Quiz entry point
 }
 
-const SOURCE_ORDER: Record<PracticeTestSource, number> = { 'exam-mock': 0, 'legacy-chapter': 1, miscellaneous: 2 };
+const SOURCE_ORDER: Record<PracticeTestSource, number> = { 'exam-mock': 0, 'mock-source': 1, 'legacy-chapter': 2, miscellaneous: 3 };
 
 export async function getPracticeTests(examId: string, subjectId: string): Promise<PracticeTestDefinition[]> {
   const pool = (await getQuestionsByExam(examId)).filter((q) => q.subjectId === subjectId);
@@ -90,5 +99,8 @@ export async function getPracticeTests(examId: string, subjectId: string): Promi
 }
 
 export function describeTestSource(source: PracticeTestSource): string {
-  return source === 'exam-mock' ? 'Exam Mock' : source === 'legacy-chapter' ? 'Chapter Test' : 'Practice Set';
+  if (source === 'exam-mock') return 'Exam Mock';
+  if (source === 'mock-source') return 'Mock Questions';
+  if (source === 'legacy-chapter') return 'Chapter Test';
+  return 'Practice Set';
 }
