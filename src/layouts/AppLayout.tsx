@@ -17,7 +17,7 @@ import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 const NAV = [
   { to: '/',                              icon: Home,          label: 'Home' },
   { to: '/practice/configure',            icon: Target,        label: 'Practice' },
-  { to: '/tests/configure',               icon: ListChecks,    label: 'Mock Test' },
+  { to: '/mock-tests',                    icon: ListChecks,    label: 'Mock Test' },
   { to: '/chapters',                      icon: Layers,        label: 'Chapters' },
   { to: '/review-center',                 icon: Sparkles,      label: 'Review' },
   { to: '/current-affairs',               icon: Newspaper,     label: 'Current Affairs' },
@@ -34,7 +34,8 @@ export default function AppLayout() {
   const selectedExam = examRegistry.getExam(selectedExamId);
   const navigate = useNavigate();
   const location = useLocation();
-  const isQuizPage = location.pathname === '/quiz' || location.pathname === '/analysis' || location.pathname === '/session';
+  const isQuizPage = location.pathname === '/quiz' || location.pathname === '/analysis' || location.pathname === '/session'
+    || /^\/mock-tests\/[^/]+\/session$/.test(location.pathname);
   const navItems = isAdmin ? [...NAV, ADMIN_NAV_ITEM] : NAV;
   const shouldReduceMotion = useReducedMotion();
 

@@ -47,6 +47,10 @@ const UniversalSessionPage  = lazy(() => import('../pages/UniversalSessionPage')
 const UniversalResultPage   = lazy(() => import('../pages/UniversalResultPage'));
 const UniversalReviewPage   = lazy(() => import('../pages/UniversalReviewPage'));
 const CurrentAffairsHubPage = lazy(() => import('../pages/CurrentAffairsHubPage'));
+const MockTestListPage      = lazy(() => import('../pages/MockTestListPage'));
+const MockInstructionsPage  = lazy(() => import('../pages/MockInstructionsPage'));
+const MockTestShellPage     = lazy(() => import('../pages/MockTestShellPage'));
+const MockResultPage        = lazy(() => import('../pages/MockResultPage'));
 const ChaptersPage          = lazy(() => import('../pages/ChaptersPage'));
 const SubjectChaptersPage   = lazy(() => import('../pages/SubjectChaptersPage'));
 const GenericChapterDetailPage = lazy(() => import('../pages/GenericChapterDetailPage'));
@@ -89,6 +93,10 @@ const router = createBrowserRouter([
       { path: 'session',                      element: <S><UniversalSessionPage /></S> },
       { path: 'session/result',               element: <S><UniversalResultPage /></S> },
       { path: 'session/result/review',        element: <S><UniversalReviewPage /></S> },
+      { path: 'mock-tests',                   element: <S><MockTestListPage /></S> },
+      { path: 'mock-tests/:mockId/start',     element: <S><MockInstructionsPage /></S> },
+      { path: 'mock-tests/:mockId/session',   element: <S><MockTestShellPage /></S> },
+      { path: 'mock-tests/:mockId/result',    element: <S><MockResultPage /></S> },
       { path: 'current-affairs',              element: <S><CurrentAffairsHubPage /></S> },
       { path: 'chapters',                     element: <S><ChaptersPage /></S> },
       { path: 'chapters/:subjectId',          element: <S><SubjectChaptersPage /></S> },

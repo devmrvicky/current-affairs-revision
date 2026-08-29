@@ -145,8 +145,15 @@ async function loadNativeUniversalQuestions(): Promise<UniversalQuestion[]> {
 // rather than inferring it from the path. This is source B of the Practice
 // page's three content sources (product-refactor §56).
 
+// NOTE: uses `**` (not a single `*`) so an examId may sit directly under
+// data/ (data/ssc-chsl/mock/mock01.json) OR nested under an organizational
+// category folder, matching the same category/examId nesting the native
+// loader above already allows (data/ssc/ssc-chsl/mock/mock01.json). Only the
+// path segment immediately before "mock" is treated as the examId, so this
+// is a superset of the old exact-3-segment pattern — nothing that matched
+// before stops matching.
 const mockModules = import.meta.glob<{ default: MockFileEntry[] }>(
-  '../data/*/mock/*.json',
+  '../data/**/mock/*.json',
   { eager: false }
 );
 
@@ -154,19 +161,22 @@ interface MockFileEntry extends NativeQuestionFileEntry {
   subjectId: string;
 }
 
-// Folders that are never an examId, even though `*/mock/*.json` could
+// Folders that are never an examId, even though `**/mock/*.json` could
 // theoretically match something unrelated — defense in depth alongside the
-// `parts[1] !== 'mock'` check, which already rules out everything that
-// currently exists in src/data (no real folder's second segment is "mock").
+// "examId is whatever sits directly before /mock/" rule below.
 const RESERVED_TOP_FOLDERS = new Set(['current-affairs', 'chapters', 'monthly-magazine', 'registry', 'syllabus', 'miscellaneous']);
 
 function parseMockPath(globKey: string): { examId: string; fileName: string } | null {
   const marker = '/data/';
   const idx = globKey.indexOf(marker);
   if (idx < 0) return null;
-  const parts = globKey.slice(idx + marker.length).split('/'); // [examId, "mock", "mock01.json"]
-  if (parts.length !== 3 || parts[1] !== 'mock') return null;
-  const [examId, , fileName] = parts;
+  const parts = globKey.slice(idx + marker.length).split('/'); // [...categoryFolders, examId, "mock", "mock01.json"]
+  const mockIdx = parts.lastIndexOf('mock');
+  // "mock" must be the second-to-last segment (immediately before the filename),
+  // and there must be at least one segment before it to serve as examId.
+  if (mockIdx < 1 || mockIdx !== parts.length - 2) return null;
+  const examId = parts[mockIdx - 1];
+  const fileName = parts[parts.length - 1];
   if (RESERVED_TOP_FOLDERS.has(examId)) return null;
   return { examId, fileName: fileName.replace(/\.json$/i, '') };
 }

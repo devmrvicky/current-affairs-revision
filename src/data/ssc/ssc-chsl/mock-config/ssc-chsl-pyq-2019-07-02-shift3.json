@@ -1,0 +1,19 @@
+{
+  "id": "ssc-chsl-pyq-2019-07-02-shift3",
+  "examId": "ssc-chsl",
+  "tierId": "tier-1",
+  "title": "SSC CHSL Tier 1 — 2 July 2019, Shift 3 (PYQ)",
+  "mode": "full-mock",
+  "mockFile": "pyq-2019-07-02-shift3",
+  "totalQuestions": 100,
+  "totalMarks": 200,
+  "durationSeconds": 3600,
+  "randomizeQuestions": false,
+  "pyq": { "exam": "SSC CHSL", "year": 2019, "date": "2019-07-02", "shift": "Shift 3" },
+  "sections": [
+    { "id": "reasoning", "title": "General Intelligence & Reasoning", "subjectId": "reasoning", "questionCount": 25, "durationSeconds": 900, "marksPerQuestion": 2, "negativeMarks": 0.5 },
+    { "id": "general-awareness", "title": "General Awareness", "subjectId": "general-awareness", "questionCount": 25, "durationSeconds": 900, "marksPerQuestion": 2, "negativeMarks": 0.5 },
+    { "id": "mathematics", "title": "Quantitative Aptitude", "subjectId": "mathematics", "questionCount": 25, "durationSeconds": 900, "marksPerQuestion": 2, "negativeMarks": 0.5 },
+    { "id": "english", "title": "English Comprehension", "subjectId": "english", "questionCount": 25, "durationSeconds": 900, "marksPerQuestion": 2, "negativeMarks": 0.5 }
+  ]
+}

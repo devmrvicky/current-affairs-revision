@@ -1,0 +1,3702 @@
+[
+  {
+    "id": "r01",
+    "subjectId": "reasoning",
+    "topicId": "venn-diagram",
+    "question": "Select the Venn diagram that best illustrates the relationship between the following classes.\nNurses, Doctors, Pharmacists",
+    "options": [
+      {
+        "id": "A",
+        "text": "Three mutually overlapping circles"
+      },
+      {
+        "id": "B",
+        "text": "Three separate, non-overlapping circles"
+      },
+      {
+        "id": "C",
+        "text": "Three concentric circles"
+      },
+      {
+        "id": "D",
+        "text": "Two overlapping circles and one separate circle"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Nurse, Doctor and Pharmacist are three distinct professional designations with no overlap between them, so they are best shown as three separate circles.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "low-visual"
+    }
+  },
+  {
+    "id": "r02",
+    "subjectId": "reasoning",
+    "topicId": "coding-decoding",
+    "question": "In a code language, CONSULTANCY is written as QOJKYOUYJWP. How will MASTERMINDS be written as in that language?",
+    "options": [
+      {
+        "id": "A",
+        "text": "APOWIIOZJEI"
+      },
+      {
+        "id": "B",
+        "text": "APOWHIOZJEI"
+      },
+      {
+        "id": "C",
+        "text": "APOWIHOZJEI"
+      },
+      {
+        "id": "D",
+        "text": "APOWJIOZJEI"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Applying the same coding pattern used for CONSULTANCY → QOJKYOUYJWP to MASTERMINDS gives APOWIIOZJEI.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r03",
+    "subjectId": "reasoning",
+    "topicId": "arithmetic-reasoning",
+    "question": "Ranga got thrice as many sums wrong as he got right in a mathematics assignment. If he attempted 72 sums in all, how many did he solve correctly in his mathematics assignment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "16"
+      },
+      {
+        "id": "B",
+        "text": "20"
+      },
+      {
+        "id": "C",
+        "text": "14"
+      },
+      {
+        "id": "D",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Let correct = x, wrong = 3x. x + 3x = 72 → 4x = 72 → x = 18.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r04",
+    "subjectId": "reasoning",
+    "topicId": "figure-series",
+    "question": "Select the figure that will come next in the following figure series.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Triangle, less-than sign, upward arrow"
+      },
+      {
+        "id": "B",
+        "text": "Triangle, equals sign, plus sign"
+      },
+      {
+        "id": "C",
+        "text": "Rectangle, less-than sign, triangle"
+      },
+      {
+        "id": "D",
+        "text": "Triangle, equals sign, dollar-like sign"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Continuing the sliding pattern of symbols established across the series, the next frame carries forward the triangle along with the equals sign and plus sign.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "low-visual"
+    }
+  },
+  {
+    "id": "r05",
+    "subjectId": "reasoning",
+    "topicId": "coding-decoding",
+    "question": "If 'FORTUNE' is coded as '6521347' and 'PREY' is coded as '8279' then how will 'NEPTUNE' be coded as?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4781347"
+      },
+      {
+        "id": "B",
+        "text": "4781342"
+      },
+      {
+        "id": "C",
+        "text": "4782347"
+      },
+      {
+        "id": "D",
+        "text": "4781343"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "From the two codes: F=6, O=5, R=2, T=1, U=3, N=4, E=7, P=8, Y=9. So NEPTUNE (N-E-P-T-U-N-E) = 4-7-8-1-3-4-7 = 4781347.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r06",
+    "subjectId": "reasoning",
+    "topicId": "letter-analogy",
+    "question": "Select the option that is related to the third letter-cluster in the same way as the second letter-cluster is related to the first letter-cluster.\nBANK : WXLJ :: IDOL : ______",
+    "options": [
+      {
+        "id": "A",
+        "text": "DAKM"
+      },
+      {
+        "id": "B",
+        "text": "ADMK"
+      },
+      {
+        "id": "C",
+        "text": "DAMJ"
+      },
+      {
+        "id": "D",
+        "text": "DAMK"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Applying the same letter-transformation rule used for BANK → WXLJ to IDOL gives DAMK.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r07",
+    "subjectId": "reasoning",
+    "topicId": "figure-counting",
+    "question": "How many triangles are present in the following figure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "23"
+      },
+      {
+        "id": "B",
+        "text": "27"
+      },
+      {
+        "id": "C",
+        "text": "25"
+      },
+      {
+        "id": "D",
+        "text": "29"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Carefully counting every distinct triangle (small, medium and large) formed by the overlapping lines of the figure gives a total of 25.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "medium-visual"
+    }
+  },
+  {
+    "id": "r08",
+    "subjectId": "reasoning",
+    "topicId": "number-analogy",
+    "question": "Three of the following four numbers are alike in a certain way and one is different. Pick the number that is different from the rest.",
+    "options": [
+      {
+        "id": "A",
+        "text": "83115"
+      },
+      {
+        "id": "B",
+        "text": "54215"
+      },
+      {
+        "id": "C",
+        "text": "43217"
+      },
+      {
+        "id": "D",
+        "text": "12347"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "In 83115, 43217 and 12347 the digits follow a consistent internal pattern that 54215 does not follow, making 54215 the odd one out.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r09",
+    "subjectId": "reasoning",
+    "topicId": "paper-folding",
+    "question": "A paper is folded and cut as shown in the following figures. How will it appear when unfolded?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pattern with triangle pairs at the four corners"
+      },
+      {
+        "id": "B",
+        "text": "Pattern with triangle pairs radiating from all four sides"
+      },
+      {
+        "id": "C",
+        "text": "Pattern with small triangles clustered at alternate corners"
+      },
+      {
+        "id": "D",
+        "text": "Pattern with triangle pairs mirrored along both diagonals"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Unfolding the paper reverses each fold, reproducing the cut motif symmetrically at the four corners of the sheet.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "low-visual"
+    }
+  },
+  {
+    "id": "r10",
+    "subjectId": "reasoning",
+    "topicId": "blood-relation",
+    "question": "T is sister of D. D is married to P. P is the son of M. T is the mother of J. Y is the father of U. Y has only one son and only one daughter. U is the daughter of T. Q is the son of D. If M is the wife of W, then how is Q related to W?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Son-in-law"
+      },
+      {
+        "id": "B",
+        "text": "Son"
+      },
+      {
+        "id": "C",
+        "text": "Grandson"
+      },
+      {
+        "id": "D",
+        "text": "Nephew"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "P is M and W's son, so W is P's father. D is married to P, and Q is D's (and P's) son, making Q the grandson of W.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r11",
+    "subjectId": "reasoning",
+    "topicId": "number-series",
+    "question": "Which number will replace the question mark (?) in the following series?\n2, 4, 16, 52, 132, 282, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "512"
+      },
+      {
+        "id": "B",
+        "text": "527"
+      },
+      {
+        "id": "C",
+        "text": "534"
+      },
+      {
+        "id": "D",
+        "text": "572"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The differences between consecutive terms are 2, 12, 36, 80, 150 — each obtained by a growing multiplier pattern; the next difference is 252, giving 282 + 252 = 534.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r12",
+    "subjectId": "reasoning",
+    "topicId": "classification",
+    "question": "Three of the following four words are alike in a certain way and one is different. Pick the odd word out.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Germany"
+      },
+      {
+        "id": "B",
+        "text": "Singapore"
+      },
+      {
+        "id": "C",
+        "text": "Austria"
+      },
+      {
+        "id": "D",
+        "text": "Italy"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Germany, Austria and Italy are all European countries, while Singapore is in Asia, making it the odd one out.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r13",
+    "subjectId": "reasoning",
+    "topicId": "letter-series",
+    "question": "Select the combination of letters that when sequentially placed in the gaps of the given letter series will complete the series.\nab_ba_db_bd_ac_ba_cdbabd_",
+    "options": [
+      {
+        "id": "A",
+        "text": "dcadbbab"
+      },
+      {
+        "id": "B",
+        "text": "dcabdbab"
+      },
+      {
+        "id": "C",
+        "text": "cdabdbba"
+      },
+      {
+        "id": "D",
+        "text": "dcdabbab"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Filling the blanks with d, c, a, b, d, b, a, b in sequence completes the repeating unit 'abcd-badb' pattern, giving dcabdbab.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r14",
+    "subjectId": "reasoning",
+    "topicId": "syllogism",
+    "question": "Two statements are given, followed by three conclusions numbered I, II and III. Assuming the statements to be true, even if they seem to be at variance with commonly known facts, decide which of the conclusions logically follow(s) from the statements.\n\nStatements:\nAll women are engineers.\nSome singers are engineers.\n\nConclusions:\nI. All women are singers\nII. All singers are women\nIII. Some engineers are women.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only conclusions I and II follow"
+      },
+      {
+        "id": "B",
+        "text": "Only conclusion I follows"
+      },
+      {
+        "id": "C",
+        "text": "Only conclusion III follows"
+      },
+      {
+        "id": "D",
+        "text": "Only conclusions II and III follow"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'All women are engineers' converts to 'Some engineers are women' (conclusion III). Neither statement links women and singers directly, so I and II do not follow.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r15",
+    "subjectId": "reasoning",
+    "topicId": "equation-based-puzzle",
+    "question": "From the given alternatives select the numbers that must be interchanged to make the following equation correct.\n16-6+12×3÷4=18",
+    "options": [
+      {
+        "id": "A",
+        "text": "16 and 3"
+      },
+      {
+        "id": "B",
+        "text": "6 and 3"
+      },
+      {
+        "id": "C",
+        "text": "12 and 4"
+      },
+      {
+        "id": "D",
+        "text": "6 and 4"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Swapping 6 and 4 gives 16-4+12×3÷6 = 16-4+6 = 18, which satisfies the equation.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r16",
+    "subjectId": "reasoning",
+    "topicId": "ratio-proportion",
+    "question": "₹2100 is divided among P, Q and R in such a way that P's share is half of the combined share of Q and R, and Q's share is one-fourth of the combined share of P and R. By what amount is R's share more than that of P?",
+    "options": [
+      {
+        "id": "A",
+        "text": "₹280"
+      },
+      {
+        "id": "B",
+        "text": "₹500"
+      },
+      {
+        "id": "C",
+        "text": "₹200"
+      },
+      {
+        "id": "D",
+        "text": "₹250"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "P = ½(2100-P) → P=700. Q = ¼(2100-Q) → Q=420. So R = 2100-700-420 = 980. R-P = 980-700 = 280.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r17",
+    "subjectId": "reasoning",
+    "topicId": "mirror-image",
+    "question": "Select the correct mirror image of the given figure when the mirror is placed to the right of the figure.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option showing the figure with elements reversed left-right, arrow retained at top"
+      },
+      {
+        "id": "B",
+        "text": "Option showing the figure reversed left-right, arrow shifted below the stack"
+      },
+      {
+        "id": "C",
+        "text": "Option showing the figure reversed with arrow pointing right"
+      },
+      {
+        "id": "D",
+        "text": "Option showing the figure reversed left-right, arrow retained beside the diamond shape"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A mirror placed to the right flips the figure horizontally about a vertical axis, reversing the left-right arrangement of its elements while keeping their vertical order.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "low-visual"
+    }
+  },
+  {
+    "id": "r18",
+    "subjectId": "reasoning",
+    "topicId": "word-analogy",
+    "question": "'Cone' is related to 'Ice-cream' in the same way as 'Bowl' is related to '______'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Soup"
+      },
+      {
+        "id": "B",
+        "text": "Soap"
+      },
+      {
+        "id": "C",
+        "text": "Sip"
+      },
+      {
+        "id": "D",
+        "text": "Drink"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A cone is a common vessel used to hold and serve ice-cream, just as a bowl is a common vessel used to hold and serve soup.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r19",
+    "subjectId": "reasoning",
+    "topicId": "logical-sequence",
+    "question": "Arrange the following words in a logical and meaningful order.\n1. Lustrum\n2. Century\n3. Year\n4. Millennium\n5. Decade",
+    "options": [
+      {
+        "id": "A",
+        "text": "2, 1, 5, 3, 4"
+      },
+      {
+        "id": "B",
+        "text": "5, 1, 3, 2, 4"
+      },
+      {
+        "id": "C",
+        "text": "3, 1, 5, 2, 4"
+      },
+      {
+        "id": "D",
+        "text": "5, 4, 3, 2, 1"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "By increasing duration: Year (1) < Lustrum (5 years) < Decade (10 years) < Century (100 years) < Millennium (1000 years), i.e. 3, 1, 5, 2, 4.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r20",
+    "subjectId": "reasoning",
+    "topicId": "embedded-figure",
+    "question": "Select the option in which the given zig-zag line figure is embedded.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Option with the pyramid/triangular line pattern"
+      },
+      {
+        "id": "B",
+        "text": "Option with the crossing diagonal line pattern"
+      },
+      {
+        "id": "C",
+        "text": "Option with the crossed diagonal square pattern"
+      },
+      {
+        "id": "D",
+        "text": "Option with the fan-shaped crossing lines pattern"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tracing the given zig-zag line, it can be found embedded, without any rotation, within the crossing diagonal line pattern shown in this option.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "low-visual"
+    }
+  },
+  {
+    "id": "r21",
+    "subjectId": "reasoning",
+    "topicId": "coding-decoding",
+    "question": "In a code language, 'CERTAIN' is written as 'XVIGZRM'. How will 'CLIMATE' be written as in that language?",
+    "options": [
+      {
+        "id": "A",
+        "text": "XORNZGV"
+      },
+      {
+        "id": "B",
+        "text": "XORNZVG"
+      },
+      {
+        "id": "C",
+        "text": "XRONZGV"
+      },
+      {
+        "id": "D",
+        "text": "XONRZGV"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Each letter is replaced by its 'reverse alphabet' counterpart (A↔Z, B↔Y, C↔X ...). Applying this to CLIMATE gives XORNZGV.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r22",
+    "subjectId": "reasoning",
+    "topicId": "dice",
+    "question": "Three different positions of the same dice are shown. Find the number on the face opposite to the one having 1.",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Comparing the three views, the faces 3, 2, 5 and 4 cycle around the top face 1, while 6 never appears alongside 1 — so 6 lies opposite 1.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r23",
+    "subjectId": "reasoning",
+    "topicId": "number-series",
+    "question": "Which number will replace the question mark (?) in the following series?\n89, 90, 82, 109, 45, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "-80"
+      },
+      {
+        "id": "B",
+        "text": "125"
+      },
+      {
+        "id": "C",
+        "text": "170"
+      },
+      {
+        "id": "D",
+        "text": "109"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The differences follow +1³, -2³, +3³, -4³ (i.e. +1, -8, +27, -64). The next difference is +5³ = +125, so 45 + 125 = 170.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r24",
+    "subjectId": "reasoning",
+    "topicId": "word-analogy",
+    "question": "Select the word-pair in which the two words are related in the same way as are the two words in the following word-pair.\nMyopic : Farsighted",
+    "options": [
+      {
+        "id": "A",
+        "text": "Famous : Obscure"
+      },
+      {
+        "id": "B",
+        "text": "Confusion : Chaotic"
+      },
+      {
+        "id": "C",
+        "text": "Postpone : Suspend"
+      },
+      {
+        "id": "D",
+        "text": "Trouble : Grief"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Myopic and Farsighted are antonyms. Among the options, only Famous and Obscure form a genuine antonym pair.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "r25",
+    "subjectId": "reasoning",
+    "topicId": "number-analogy",
+    "question": "Select the set in which the numbers are related in the same way as are the numbers of the following set.\n(15, 102, 313)",
+    "options": [
+      {
+        "id": "A",
+        "text": "(11, 74, 229)"
+      },
+      {
+        "id": "B",
+        "text": "(5, 32, 121)"
+      },
+      {
+        "id": "C",
+        "text": "(8, 53, 164)"
+      },
+      {
+        "id": "D",
+        "text": "(9, 60, 185)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The rule is: second number = first×7-3, third number = second×3+7. 15×7-3=102, 102×3+7=313. Only (11,74,229) follows both steps exactly: 11×7-3=74, 74×3+7=229.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g01",
+    "subjectId": "general-awareness",
+    "topicId": "geography",
+    "question": "In which state is Sambhar, the largest inland salt water lake of India located?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maharashtra"
+      },
+      {
+        "id": "B",
+        "text": "Odisha"
+      },
+      {
+        "id": "C",
+        "text": "Andhra Pradesh"
+      },
+      {
+        "id": "D",
+        "text": "Rajasthan"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Sambhar Lake, India's largest inland saltwater lake, is located in Rajasthan.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g02",
+    "subjectId": "general-awareness",
+    "topicId": "current-affairs-2019",
+    "question": "Former Flipkart executive Sandeep Patil was appointed as India Managing Director of which company in May 2019?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amazon"
+      },
+      {
+        "id": "B",
+        "text": "TrueCaller"
+      },
+      {
+        "id": "C",
+        "text": "Paytm"
+      },
+      {
+        "id": "D",
+        "text": "Snapdeal"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Sandeep Patil, a former Flipkart executive, was appointed as India Managing Director of Truecaller in May 2019.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g03",
+    "subjectId": "general-awareness",
+    "topicId": "current-affairs-2019",
+    "question": "Which State Government increased the financial aid given to girls under the 'Aapki Beti' scheme in May 2019?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sikkim"
+      },
+      {
+        "id": "B",
+        "text": "Odisha"
+      },
+      {
+        "id": "C",
+        "text": "Rajasthan"
+      },
+      {
+        "id": "D",
+        "text": "Assam"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The Rajasthan government increased the financial assistance given to school girls under its 'Aapki Beti' scheme in May 2019.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g04",
+    "subjectId": "general-awareness",
+    "topicId": "sports",
+    "question": "Who among the following clinched a gold medal in the women's 25m pistol event at the 2019 ISSF World Cup?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rahi Sarnobat"
+      },
+      {
+        "id": "B",
+        "text": "Heena Sidhu"
+      },
+      {
+        "id": "C",
+        "text": "Manu Bhaker"
+      },
+      {
+        "id": "D",
+        "text": "Devanshi Rana"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rahi Sarnobat won the gold medal in the women's 25m pistol event at a 2019 ISSF World Cup.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g05",
+    "subjectId": "general-awareness",
+    "topicId": "polity",
+    "question": "Which one of the following Union Territories has been granted with partial statehoodship?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Puducherry"
+      },
+      {
+        "id": "B",
+        "text": "Daman and Diu"
+      },
+      {
+        "id": "C",
+        "text": "Dadra and Nagar Haveli"
+      },
+      {
+        "id": "D",
+        "text": "Lakshadweep"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Puducherry is the Union Territory that has been granted partial statehood, with its own elected legislature.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g06",
+    "subjectId": "general-awareness",
+    "topicId": "physics",
+    "question": "Herts is the SI unit of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Frequency"
+      },
+      {
+        "id": "B",
+        "text": "Force"
+      },
+      {
+        "id": "C",
+        "text": "Pressure"
+      },
+      {
+        "id": "D",
+        "text": "Energy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Hertz (Hz) is the SI unit of frequency.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g07",
+    "subjectId": "general-awareness",
+    "topicId": "current-affairs-2019",
+    "question": "In Lok Sabha 2019 Elections, Congress won _______ seats out of the 13 Lok Sabha seats of Punjab.",
+    "options": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Indian National Congress won 8 of Punjab's 13 Lok Sabha seats in the 2019 general elections.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g08",
+    "subjectId": "general-awareness",
+    "topicId": "banking",
+    "question": "'Financial Literacy Week 2019' is an initiative by which bank to promote awareness on key topics every year through a focused campaign?",
+    "options": [
+      {
+        "id": "A",
+        "text": "State Bank of India"
+      },
+      {
+        "id": "B",
+        "text": "ICICI Bank"
+      },
+      {
+        "id": "C",
+        "text": "Reserve Bank of India"
+      },
+      {
+        "id": "D",
+        "text": "Indian Bank"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Financial Literacy Week is an annual initiative of the Reserve Bank of India to promote awareness on financial topics.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g09",
+    "subjectId": "general-awareness",
+    "topicId": "geography",
+    "question": "In which state is the Mundra Power Plant located?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gujarat"
+      },
+      {
+        "id": "B",
+        "text": "Madhya Pradesh"
+      },
+      {
+        "id": "C",
+        "text": "Chhattisgarh"
+      },
+      {
+        "id": "D",
+        "text": "Odisha"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Mundra Power Plant (Adani Power/Tata Power Mundra) is located in Gujarat.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g10",
+    "subjectId": "general-awareness",
+    "topicId": "current-affairs-2019",
+    "question": "What is the name of the Young Scientist Programme inaugurated by the Chairman of ISRO in May 2019?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Yuva-2019"
+      },
+      {
+        "id": "B",
+        "text": "Young India-2019"
+      },
+      {
+        "id": "C",
+        "text": "Youth-2019"
+      },
+      {
+        "id": "D",
+        "text": "Yuvika-2019"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "ISRO Chairman Dr K Sivan inaugurated the Young Scientist Programme, 'YUVIKA-2019' (Yuva Vigyani Karyakram), in May 2019.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g11",
+    "subjectId": "general-awareness",
+    "topicId": "current-affairs-2019",
+    "question": "In May 2019, which of the following companies announced that it would stop selling its smartphones in India?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Samsung"
+      },
+      {
+        "id": "B",
+        "text": "Apple"
+      },
+      {
+        "id": "C",
+        "text": "Sony"
+      },
+      {
+        "id": "D",
+        "text": "OnePlus"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Sony announced in May 2019 that it would stop selling its smartphones in the Indian market.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g12",
+    "subjectId": "general-awareness",
+    "topicId": "sports",
+    "question": "Which of the following countries hosted the Asian Cup Football tournament in 2019?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Singapore"
+      },
+      {
+        "id": "B",
+        "text": "China"
+      },
+      {
+        "id": "C",
+        "text": "UAE"
+      },
+      {
+        "id": "D",
+        "text": "South Korea"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The 2019 AFC Asian Cup football tournament was hosted by the United Arab Emirates (UAE).",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g13",
+    "subjectId": "general-awareness",
+    "topicId": "current-affairs-2019",
+    "question": "The investment and financial services major Goldman Sachs has sanctioned $250 million to construct one of its largest global workspaces in _________.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bengaluru"
+      },
+      {
+        "id": "B",
+        "text": "Pune"
+      },
+      {
+        "id": "C",
+        "text": "Gurugram"
+      },
+      {
+        "id": "D",
+        "text": "Chennai"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Goldman Sachs invested $250 million to build a major new campus/workspace in Bengaluru, opened in May 2019.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g14",
+    "subjectId": "general-awareness",
+    "topicId": "history",
+    "question": "In which year was Satya Shodhak Samaj founded by Jyotirao Phule?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1865"
+      },
+      {
+        "id": "B",
+        "text": "1873"
+      },
+      {
+        "id": "C",
+        "text": "1861"
+      },
+      {
+        "id": "D",
+        "text": "1870"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Jyotirao Phule founded the Satya Shodhak Samaj in 1873.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g15",
+    "subjectId": "general-awareness",
+    "topicId": "current-affairs-2019",
+    "question": "Who among the following was elected to the board of the International Air Transport Association (IATA) in June 2019?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rahul Bhatia"
+      },
+      {
+        "id": "B",
+        "text": "Ajay Singh"
+      },
+      {
+        "id": "C",
+        "text": "Naresh Goyal"
+      },
+      {
+        "id": "D",
+        "text": "Bhaskar Bhat"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "SpiceJet Chairman and MD Ajay Singh was elected to the board of the International Air Transport Association (IATA) in June 2019.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g16",
+    "subjectId": "general-awareness",
+    "topicId": "geography",
+    "question": "The Himalayas belong to which of the following categories of mountains?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Plateau Mountain"
+      },
+      {
+        "id": "B",
+        "text": "Fault-block Mountain"
+      },
+      {
+        "id": "C",
+        "text": "Fold Mountain"
+      },
+      {
+        "id": "D",
+        "text": "Dome Mountain"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The Himalayas are Fold Mountains, formed by the collision and folding of tectonic plates.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g17",
+    "subjectId": "general-awareness",
+    "topicId": "geography",
+    "question": "The National Institute of Nutrition is located in:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shillong"
+      },
+      {
+        "id": "B",
+        "text": "Indore"
+      },
+      {
+        "id": "C",
+        "text": "Mumbai"
+      },
+      {
+        "id": "D",
+        "text": "Hyderabad"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The National Institute of Nutrition (NIN) is located in Hyderabad.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g18",
+    "subjectId": "general-awareness",
+    "topicId": "history",
+    "question": "The quote \"The shots that hit me are the last nails to the coffin of British rule in India\". Belongs to which of the following freedom fighters?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lala Lajpat Rai"
+      },
+      {
+        "id": "B",
+        "text": "Chandrashekhar Azad"
+      },
+      {
+        "id": "C",
+        "text": "Bhagat Singh"
+      },
+      {
+        "id": "D",
+        "text": "Ram Prasad Bismil"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This quote is attributed to Lala Lajpat Rai, said after he was injured during a lathi charge protesting the Simon Commission.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g19",
+    "subjectId": "general-awareness",
+    "topicId": "computer-science",
+    "question": "In the field of information & Communication Technology, what is the full form of EEPROM?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Electrically Erasable Programmable Read-Only Memory"
+      },
+      {
+        "id": "B",
+        "text": "Electrically Efficient Portable Read-Only Memory"
+      },
+      {
+        "id": "C",
+        "text": "Electrically Efficient Programmable Read-Only Memory"
+      },
+      {
+        "id": "D",
+        "text": "Enhanced Electrical Portable Read-Only Memory"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "EEPROM stands for Electrically Erasable Programmable Read-Only Memory.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g20",
+    "subjectId": "general-awareness",
+    "topicId": "computer-science",
+    "question": "'Pivot Table' is a feature of which of the following softwares?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Microsoft Excel"
+      },
+      {
+        "id": "B",
+        "text": "Microsoft Word"
+      },
+      {
+        "id": "C",
+        "text": "Microsoft Access"
+      },
+      {
+        "id": "D",
+        "text": "Microsoft PowerPoint"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pivot Table is a data summarization feature found in Microsoft Excel.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g21",
+    "subjectId": "general-awareness",
+    "topicId": "literature",
+    "question": "Which eminent novelist and poet of the 20th century is the author of 'Pinjar'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amrita Pritam"
+      },
+      {
+        "id": "B",
+        "text": "Harivansh Rai Bachchan"
+      },
+      {
+        "id": "C",
+        "text": "Bhawani Prasad Mishra"
+      },
+      {
+        "id": "D",
+        "text": "Prabha Kiran Jain"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Pinjar' is a novel written by Amrita Pritam.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g22",
+    "subjectId": "general-awareness",
+    "topicId": "sports",
+    "question": "The winners of the 2019 ICC men's World Cup will earn a cash award of _______ which is the highest prize money on offer in the history of the tournament.",
+    "options": [
+      {
+        "id": "A",
+        "text": "$6 million"
+      },
+      {
+        "id": "B",
+        "text": "$4 million"
+      },
+      {
+        "id": "C",
+        "text": "$5 million"
+      },
+      {
+        "id": "D",
+        "text": "$2 million"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The winners of the 2019 ICC Men's Cricket World Cup earned a cash award of $4 million, the highest prize money in the tournament's history at the time.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g23",
+    "subjectId": "general-awareness",
+    "topicId": "important-days",
+    "question": "The \"World Blood Donor Day\" was celebrated around the world on _________ 2019 with the theme 'Safe blood for all'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "16th March"
+      },
+      {
+        "id": "B",
+        "text": "29th April"
+      },
+      {
+        "id": "C",
+        "text": "14th June"
+      },
+      {
+        "id": "D",
+        "text": "25th May"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "World Blood Donor Day is observed annually on 14th June.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g24",
+    "subjectId": "general-awareness",
+    "topicId": "culture",
+    "question": "Soorya Festival' is associated to which of the following cities?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Thiruvananthapuram"
+      },
+      {
+        "id": "B",
+        "text": "Chennai"
+      },
+      {
+        "id": "C",
+        "text": "Jaipur"
+      },
+      {
+        "id": "D",
+        "text": "Hyderabad"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Soorya Festival, one of Asia's longest-running cultural festivals, is held annually in Thiruvananthapuram, Kerala.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "g25",
+    "subjectId": "general-awareness",
+    "topicId": "science",
+    "question": "In the solar system, among the planets listed below, which planet is farthest from the Sun?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mars"
+      },
+      {
+        "id": "B",
+        "text": "Jupiter"
+      },
+      {
+        "id": "C",
+        "text": "Neptune"
+      },
+      {
+        "id": "D",
+        "text": "Venus"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Among the listed planets, Neptune is farthest from the Sun.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m01",
+    "subjectId": "mathematics",
+    "topicId": "percentage",
+    "question": "Anu spends 90% of her income. If her expenditure increases by 25% and savings increase by 30%, then by what percent does her salary increase?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25.5%"
+      },
+      {
+        "id": "B",
+        "text": "24%"
+      },
+      {
+        "id": "C",
+        "text": "22.5%"
+      },
+      {
+        "id": "D",
+        "text": "20%"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Let income=100: expenditure=90, savings=10. New expenditure=90×1.25=112.5, new savings=10×1.30=13. New income=125.5, an increase of 25.5%.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m02",
+    "subjectId": "mathematics",
+    "topicId": "similar-triangles",
+    "question": "Let ΔABC ~ ΔQPR and ar(ΔABC)/ar(ΔPQR) = 9/16. If AB = 12cm, BC = 6cm and AC = 9cm, then QP is equal to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "16cm"
+      },
+      {
+        "id": "B",
+        "text": "9cm"
+      },
+      {
+        "id": "C",
+        "text": "12cm"
+      },
+      {
+        "id": "D",
+        "text": "8cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Ratio of areas 9:16 gives ratio of sides 3:4. Since AB corresponds to QP, AB/QP = 3/4 → QP = 12×4/3 = 16 cm.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m03",
+    "subjectId": "mathematics",
+    "topicId": "circles-tangents",
+    "question": "A circle is inscribed in a quadrilateral ABCD, touching sides AB, BC, CD and DA at P, Q, R and S, respectively. If AS = 8cm, BC = 11cm, and CR = 5cm, then the length AB is equal to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 cm"
+      },
+      {
+        "id": "B",
+        "text": "13 cm"
+      },
+      {
+        "id": "C",
+        "text": "16 cm"
+      },
+      {
+        "id": "D",
+        "text": "14 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Tangents from an external point are equal: AP=AS=8, CQ=CR=5, so BQ=BC-CQ=11-5=6=BP. AB=AP+PB=8+6=14 cm.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m04",
+    "subjectId": "mathematics",
+    "topicId": "trigonometry",
+    "question": "If 3cos²A + 6sin²A = 3, 0° ≤ A ≤ 90°, then the value of A is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "30°"
+      },
+      {
+        "id": "B",
+        "text": "0°"
+      },
+      {
+        "id": "C",
+        "text": "90°"
+      },
+      {
+        "id": "D",
+        "text": "45°"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "3cos²A+6sin²A = 3(cos²A+sin²A)+3sin²A = 3+3sin²A = 3 → sin²A=0 → A=0°.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m05",
+    "subjectId": "mathematics",
+    "topicId": "geometry",
+    "question": "In ΔABC, AD⊥BC at D and AE is the bisector of ∠A. If ∠B=72° and ∠C=26°, then what is the measure of ∠DAE?",
+    "options": [
+      {
+        "id": "A",
+        "text": "23°"
+      },
+      {
+        "id": "B",
+        "text": "25°"
+      },
+      {
+        "id": "C",
+        "text": "49°"
+      },
+      {
+        "id": "D",
+        "text": "37°"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "∠A=180-72-26=82°, so ∠BAE=41° (bisector). In ΔABD, ∠BAD=180-90-72=18°. ∠DAE=∠BAE-∠BAD=41-18=23°.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m06",
+    "subjectId": "mathematics",
+    "topicId": "trigonometry",
+    "question": "The value of (cos9°+sin81°)(sec9°+cosec81°) / (sin56° sec34° + cos25° cosec65°) is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/2"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Numerator = (2cos9°)(2sec9°) = 4. Denominator = sin56°sec34° + cos25°cosec65° = 1+1 = 2. Result = 4/2 = 2.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m07",
+    "subjectId": "mathematics",
+    "topicId": "data-interpretation",
+    "question": "The given Bar Graph presents the Demand and Production of motorcycles of five companies (in lakhs). The average Production of motorcycles of companies B, C and E taken together is what percent less than the demand of motorcycles of D?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8%"
+      },
+      {
+        "id": "B",
+        "text": "8.7%"
+      },
+      {
+        "id": "C",
+        "text": "9.3%"
+      },
+      {
+        "id": "D",
+        "text": "6%"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Average production of B, C, E = (90+135+120)/3 = 115. Demand of D = 125. (125-115)/125×100 = 8%.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m08",
+    "subjectId": "mathematics",
+    "topicId": "trigonometry",
+    "question": "A simplified value of (sinθ/(1+cosθ) + (1+cosθ)/sinθ) × (1/(tanθ+cotθ)) is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "cosθ"
+      },
+      {
+        "id": "B",
+        "text": "2sinθ"
+      },
+      {
+        "id": "C",
+        "text": "sinθ"
+      },
+      {
+        "id": "D",
+        "text": "2cosθ"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The first bracket simplifies to 2/sinθ, and 1/(tanθ+cotθ) simplifies to sinθcosθ. Their product is 2cosθ.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m09",
+    "subjectId": "mathematics",
+    "topicId": "trigonometry",
+    "question": "If 3 - 2sin²θ - 3cosθ = 0, 0° < θ < 90°, then what is the value of (2cosecθ + tanθ)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7√3"
+      },
+      {
+        "id": "B",
+        "text": "5√3"
+      },
+      {
+        "id": "C",
+        "text": "5√3/3"
+      },
+      {
+        "id": "D",
+        "text": "7√3/3"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Substituting sin²θ=1-cos²θ gives 2cos²θ-3cosθ+1=0, so cosθ=0.5 (θ=60°, since cosθ=1 is excluded). Then 2cosecθ+tanθ = 4/√3+√3 = 7√3/3.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m10",
+    "subjectId": "mathematics",
+    "topicId": "profit-loss",
+    "question": "Abhi sold two articles for ₹5,220 each. On one, he gained 16% and on the other, he lost 10%. His profit or loss on the whole was:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Profit, ₹140"
+      },
+      {
+        "id": "B",
+        "text": "Loss, ₹125"
+      },
+      {
+        "id": "C",
+        "text": "Profit, ₹180"
+      },
+      {
+        "id": "D",
+        "text": "Loss, ₹130"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "CP1=5220/1.16=4500, CP2=5220/0.9=5800. Total CP=10300, Total SP=10440. Profit=₹140.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m11",
+    "subjectId": "mathematics",
+    "topicId": "data-interpretation",
+    "question": "The given Bar Graph presents the Demand and Production of Motorcycles of five companies (in lakhs). What is the ratio of the total Demand of motorcycles of companies A and D taken together to the Production of motorcycles of company C?",
+    "options": [
+      {
+        "id": "A",
+        "text": "13: 9"
+      },
+      {
+        "id": "B",
+        "text": "8: 5"
+      },
+      {
+        "id": "C",
+        "text": "5: 3"
+      },
+      {
+        "id": "D",
+        "text": "9: 7"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Demand of A+D = 100+125 = 225. Production of C = 135. Ratio = 225:135 = 5:3.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m12",
+    "subjectId": "mathematics",
+    "topicId": "time-and-work",
+    "question": "A and B, working together, can complete a work in 16 days, C and A together can complete it in 32 days, B and C together can complete it in 24 days. They worked together for 12 days. In how many days will C alone complete the remaining work?",
+    "options": [
+      {
+        "id": "A",
+        "text": "40"
+      },
+      {
+        "id": "B",
+        "text": "36"
+      },
+      {
+        "id": "C",
+        "text": "45"
+      },
+      {
+        "id": "D",
+        "text": "32"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "(A+B+C) rate = 13/192/day. In 12 days, 13/16 of work is done, leaving 3/16. C's rate = 13/192-1/16=1/192. Time for C = (3/16)/(1/192)=36 days.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m13",
+    "subjectId": "mathematics",
+    "topicId": "algebra",
+    "question": "If a³ + b³ = 110 and a + b = 5, then (a+b)² - 3ab is equal to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "52"
+      },
+      {
+        "id": "B",
+        "text": "32"
+      },
+      {
+        "id": "C",
+        "text": "42"
+      },
+      {
+        "id": "D",
+        "text": "22"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "a³+b³=(a+b)³-3ab(a+b) → 110=125-15ab → ab=1. (a+b)²-3ab = 25-3 = 22.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m14",
+    "subjectId": "mathematics",
+    "topicId": "data-interpretation",
+    "question": "The given Bar Graph presents the Demand and Production of motorcycles of five companies (in lakhs). The total Production of motorcycles of companies B and D taken together is what percent of the Demand of motorcycles of all the companies taken together?",
+    "options": [
+      {
+        "id": "A",
+        "text": "46%"
+      },
+      {
+        "id": "B",
+        "text": "38%"
+      },
+      {
+        "id": "C",
+        "text": "48%"
+      },
+      {
+        "id": "D",
+        "text": "40%"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Production of B+D = 90+140 = 230. Total demand of all = 100+70+110+125+95 = 500. 230/500×100 = 46%.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m15",
+    "subjectId": "mathematics",
+    "topicId": "averages",
+    "question": "The total number of students in class A and B is 96. The number of students in A is 40% more than that in B. The average weight (in kg) of the students in B is 50% more than that of the students in A. If the average weight of all the students in A and B taken together is 58 kg, then what is the average weight of the students in B?",
+    "options": [
+      {
+        "id": "A",
+        "text": "72 kg"
+      },
+      {
+        "id": "B",
+        "text": "60 kg"
+      },
+      {
+        "id": "C",
+        "text": "48 kg"
+      },
+      {
+        "id": "D",
+        "text": "66 kg"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "B=40, A=56 (from 2.4x=96). Let avg weight A=w, B=1.5w. (56w+60w)/96=58 → w=48. Avg weight of B = 1.5×48 = 72 kg.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m16",
+    "subjectId": "mathematics",
+    "topicId": "algebra",
+    "question": "If a+b+c=5, and a²+b²+c²=33, then what is the value of a³+b³+c³-3abc?",
+    "options": [
+      {
+        "id": "A",
+        "text": "195"
+      },
+      {
+        "id": "B",
+        "text": "180"
+      },
+      {
+        "id": "C",
+        "text": "192"
+      },
+      {
+        "id": "D",
+        "text": "185"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "ab+bc+ca = (25-33)/2 = -4. a³+b³+c³-3abc = (a+b+c)(a²+b²+c²-ab-bc-ca) = 5×(33-(-4)) = 5×37 = 185.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m17",
+    "subjectId": "mathematics",
+    "topicId": "algebra",
+    "question": "If 40√5x³ - 3√3y³ = (2√5x - √3y) × (Ax² + Bxy + Cy²), then what is the value of √(B²+C²-A)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "11"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "This is a difference of cubes with a=2√5x, b=√3y, giving A=20, B=2√15, C=3. √(B²+C²-A) = √(60+9-20) = √49 = 7.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m18",
+    "subjectId": "mathematics",
+    "topicId": "compound-interest",
+    "question": "What is the compound interest on a sum of ₹4,096 at 15% p.a. for 2½ years, if the interest is compounded half-yearly for the last half-year (annually otherwise)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "₹1,726"
+      },
+      {
+        "id": "B",
+        "text": "₹1,736"
+      },
+      {
+        "id": "C",
+        "text": "₹1,636"
+      },
+      {
+        "id": "D",
+        "text": "₹1,763"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Amount after 2 years = 4096×(1.15)²=5416.96. Amount after 2.5 years = 5416.96×1.075=5822.22. CI = 5822.22-4096 ≈ ₹1,726.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m19",
+    "subjectId": "mathematics",
+    "topicId": "time-speed-distance",
+    "question": "A train x running at 84 km/h crosses another train y running at 52 km/h in opposite direction in 12 seconds. If the length of y is two-third that of x, then what is the length of x?",
+    "options": [
+      {
+        "id": "A",
+        "text": "250 m"
+      },
+      {
+        "id": "B",
+        "text": "242 m"
+      },
+      {
+        "id": "C",
+        "text": "272 m"
+      },
+      {
+        "id": "D",
+        "text": "408 m"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Relative speed = 136 km/h = 37.78 m/s. Combined length = 37.78×12 ≈ 453.3 m = (5/3)×length of x → length of x = 272 m.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m20",
+    "subjectId": "mathematics",
+    "topicId": "data-interpretation",
+    "question": "The given Bar Graph presents the Demand and Production of motorcycles of five companies (in lakhs). The company in which the Production of motorcycles is approximately 23% more than the Demand is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "B"
+      },
+      {
+        "id": "B",
+        "text": "C"
+      },
+      {
+        "id": "C",
+        "text": "D"
+      },
+      {
+        "id": "D",
+        "text": "E"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "For company C: (135-110)/110×100 ≈ 22.7% ≈ 23%, matching the condition most closely.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m21",
+    "subjectId": "mathematics",
+    "topicId": "algebra",
+    "question": "If x² + 1 = 3x, then the value of (x⁴+x⁻²)/(x²+5x+1) is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 1/3"
+      },
+      {
+        "id": "B",
+        "text": "2 1/4"
+      },
+      {
+        "id": "C",
+        "text": "4 1/2"
+      },
+      {
+        "id": "D",
+        "text": "3 1/2"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "From x²=3x-1, evaluating the expression (numerically consistent for either root of the equation) gives 2¼.",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m22",
+    "subjectId": "mathematics",
+    "topicId": "ratio-proportion",
+    "question": "In an examination, the success to failure ratio was 5:2. Had the number of failures been 14 more, then the success to failure ratio would have been 9:5. The total number of candidates who appeared for the examination was:",
+    "options": [
+      {
+        "id": "A",
+        "text": "210"
+      },
+      {
+        "id": "B",
+        "text": "196"
+      },
+      {
+        "id": "C",
+        "text": "126"
+      },
+      {
+        "id": "D",
+        "text": "203"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Let success=5x, failure=2x. 5x/(2x+14)=9/5 → 25x=18x+126 → x=18. Total=7x=126.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m23",
+    "subjectId": "mathematics",
+    "topicId": "circles",
+    "question": "In a circle, chords AB and CD intersect each other at E. If CD=18 cm, DE=6 cm and AE=18 cm, then BE=?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 cm"
+      },
+      {
+        "id": "B",
+        "text": "8 cm"
+      },
+      {
+        "id": "C",
+        "text": "3 cm"
+      },
+      {
+        "id": "D",
+        "text": "4 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "CE=CD-DE=12. By the intersecting chords theorem, AE×BE=CE×DE → 18×BE=12×6=72 → BE=4 cm.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m24",
+    "subjectId": "mathematics",
+    "topicId": "geometry",
+    "question": "In ΔABC, ∠A=90°. If BL and CM are the medians, then:",
+    "options": [
+      {
+        "id": "A",
+        "text": "4(BL²+CM²)=3BC²"
+      },
+      {
+        "id": "B",
+        "text": "4(BL²+CM²)=5BC²"
+      },
+      {
+        "id": "C",
+        "text": "3(BL²+CM²)=4BC²"
+      },
+      {
+        "id": "D",
+        "text": "5(BL²+CM²)=4BC²"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "BL²=AB²+(AC/2)² and CM²=AC²+(AB/2)². Adding and using AB²+AC²=BC² gives 4(BL²+CM²)=5BC².",
+    "difficulty": "hard",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "m25",
+    "subjectId": "mathematics",
+    "topicId": "mensuration",
+    "question": "The radius of the base of a cylinder is 7 cm and its curved surface area is 440 cm². Its volume (in cm³) will be: (Take π=22/7)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1760"
+      },
+      {
+        "id": "B",
+        "text": "1430"
+      },
+      {
+        "id": "C",
+        "text": "1540"
+      },
+      {
+        "id": "D",
+        "text": "1650"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "CSA=2πrh=440 → h=10 cm. Volume=πr²h=(22/7)×49×10=1540 cm³.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e01",
+    "subjectId": "english",
+    "topicId": "vocabulary-antonym",
+    "question": "Select the most appropriate antonym of the given word.\nMOROSE",
+    "options": [
+      {
+        "id": "A",
+        "text": "sullen"
+      },
+      {
+        "id": "B",
+        "text": "cheerful"
+      },
+      {
+        "id": "C",
+        "text": "unsatisfied"
+      },
+      {
+        "id": "D",
+        "text": "mournful"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Morose means gloomy or sullen; its antonym is 'cheerful'.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e02",
+    "subjectId": "english",
+    "topicId": "vocabulary-antonym",
+    "question": "Select the most appropriate antonym of the given word.\nCORROBORATE",
+    "options": [
+      {
+        "id": "A",
+        "text": "confirm"
+      },
+      {
+        "id": "B",
+        "text": "approve"
+      },
+      {
+        "id": "C",
+        "text": "verify"
+      },
+      {
+        "id": "D",
+        "text": "contradict"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Corroborate means to confirm or support; its antonym is 'contradict'.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e03",
+    "subjectId": "english",
+    "topicId": "sentence-improvement",
+    "question": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select No improvement.\nThe children are too young to sit up a long lecture.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "sit across"
+      },
+      {
+        "id": "C",
+        "text": "sit away"
+      },
+      {
+        "id": "D",
+        "text": "sit through"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The correct idiomatic phrase is 'sit through' a lecture, meaning to endure it until the end.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e04",
+    "subjectId": "english",
+    "topicId": "one-word-substitution",
+    "question": "Select the word which means the same as the group of words given.\nThat which cannot be taken by force",
+    "options": [
+      {
+        "id": "A",
+        "text": "inaccessible"
+      },
+      {
+        "id": "B",
+        "text": "impregnable"
+      },
+      {
+        "id": "C",
+        "text": "inapprehensible"
+      },
+      {
+        "id": "D",
+        "text": "immutable"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Impregnable' means incapable of being taken by force.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e05",
+    "subjectId": "english",
+    "topicId": "spotting-errors",
+    "question": "In the sentence identify the segment which contains the grammatical error.\nDifferent-coloured natural food not only put a smile on children's faces and also benefit their overall growth.",
+    "options": [
+      {
+        "id": "A",
+        "text": "benefit their overall growth"
+      },
+      {
+        "id": "B",
+        "text": "and also benefit"
+      },
+      {
+        "id": "C",
+        "text": "Different coloured natural foods"
+      },
+      {
+        "id": "D",
+        "text": "put a smile on children's faces"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correlative conjunction 'not only ... but also' is required; 'and also' is grammatically incorrect here.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e06",
+    "subjectId": "english",
+    "topicId": "para-jumbles",
+    "question": "Given below are four jumbled sentences. Out of the given options pick the one that gives their correct order.\nA. Early on Christmas morning Pip returns to the graveyard with the file, a pie and brandy.\nB. On Christmas Eve, Pip an orphan who is about seven years old, encounters an escaped convict in the village graveyard.\nC. The convict scares Pip into stealing food and a file.\nD. Pip, who lives with his elder sister and her husband Joe Gargery, a blacksmith, steals a file and some food.",
+    "options": [
+      {
+        "id": "A",
+        "text": "BCDA"
+      },
+      {
+        "id": "B",
+        "text": "CBAD"
+      },
+      {
+        "id": "C",
+        "text": "BDCA"
+      },
+      {
+        "id": "D",
+        "text": "DCAB"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The logical narrative order is: Pip meets the convict (B) → is scared into stealing (C) → steals the file and food (D) → returns to the graveyard on Christmas morning (A).",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e07",
+    "subjectId": "english",
+    "topicId": "para-jumbles",
+    "question": "Given below are four jumbled sentences. Out of the given options pick the one that gives their correct order.\nA. In a small town in England, there lived a poor little girl.\nB. She was very excited but her right shoe was worn out.\nC. So, she went to a cobbler to get it mended.\nD. Her friends invited her to come to her birthday party.",
+    "options": [
+      {
+        "id": "A",
+        "text": "DCAB"
+      },
+      {
+        "id": "B",
+        "text": "ACBD"
+      },
+      {
+        "id": "C",
+        "text": "ADBC"
+      },
+      {
+        "id": "D",
+        "text": "CBAD"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The logical order introduces the girl (A), then the invitation (D), her excitement and shoe problem (B), and finally getting it fixed (C): A-D-B-C.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e08",
+    "subjectId": "english",
+    "topicId": "narration",
+    "question": "Select the correct indirect form of the given sentence.\nI asked the shopkeeper, \"What is the price of this bike?\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "I asked the shopkeeper that what the price of this bike was."
+      },
+      {
+        "id": "B",
+        "text": "I asked the shopkeeper what is the price of the bike."
+      },
+      {
+        "id": "C",
+        "text": "I asked the shopkeeper what was the price of that bike."
+      },
+      {
+        "id": "D",
+        "text": "I asked the shopkeeper what the price of that bike was."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "In indirect speech, 'this' becomes 'that' and the verb 'is' shifts to 'was', with normal word order (no inversion or extra 'that').",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e09",
+    "subjectId": "english",
+    "topicId": "vocabulary-synonym",
+    "question": "Select the most appropriate synonym of the given word.\nEMBED",
+    "options": [
+      {
+        "id": "A",
+        "text": "pull"
+      },
+      {
+        "id": "B",
+        "text": "bury"
+      },
+      {
+        "id": "C",
+        "text": "dig up"
+      },
+      {
+        "id": "D",
+        "text": "rise"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Embed' means to fix firmly into a surrounding mass, closest in meaning to 'bury'.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e10",
+    "subjectId": "english",
+    "topicId": "idioms",
+    "question": "Select the most appropriate meaning of the given idiom.\nAs clear as mud",
+    "options": [
+      {
+        "id": "A",
+        "text": "extremely dirty"
+      },
+      {
+        "id": "B",
+        "text": "honest and legal"
+      },
+      {
+        "id": "C",
+        "text": "impossible to understand"
+      },
+      {
+        "id": "D",
+        "text": "completely suitable for someone"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'As clear as mud' is an ironic idiom meaning something is very difficult to understand.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e11",
+    "subjectId": "english",
+    "topicId": "sentence-improvement",
+    "question": "Select the most appropriate option to substitute the underlined segment in the given sentence. If there is no need to substitute it, select No improvement.\nI try to avoid travel in the rush hour.",
+    "options": [
+      {
+        "id": "A",
+        "text": "travelling in"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "to travel at"
+      },
+      {
+        "id": "D",
+        "text": "travelling on"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The verb 'avoid' must be followed by a gerund, so 'travel' should be 'travelling', paired with the preposition 'in'.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e12",
+    "subjectId": "english",
+    "topicId": "spellings",
+    "question": "Select the wrongly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "brood"
+      },
+      {
+        "id": "B",
+        "text": "blosom"
+      },
+      {
+        "id": "C",
+        "text": "boast"
+      },
+      {
+        "id": "D",
+        "text": "booty"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The correct spelling is 'blossom' (with a double 's'); 'blosom' is incorrect.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e13",
+    "subjectId": "english",
+    "topicId": "spotting-errors",
+    "question": "In the sentence identify the segment which contains the grammatical error.\nThe Cannes Film Festival attract some of the world's most famous people.",
+    "options": [
+      {
+        "id": "A",
+        "text": "the world's"
+      },
+      {
+        "id": "B",
+        "text": "the Cannes film Festival"
+      },
+      {
+        "id": "C",
+        "text": "attract some of"
+      },
+      {
+        "id": "D",
+        "text": "most famous people"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The singular subject 'The Cannes Film Festival' requires the singular verb 'attracts', not 'attract'.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e14",
+    "subjectId": "english",
+    "topicId": "vocabulary-synonym",
+    "question": "Select the most appropriate synonym of the given word.\nCOMBUSTIBLE",
+    "options": [
+      {
+        "id": "A",
+        "text": "nonexplosive"
+      },
+      {
+        "id": "B",
+        "text": "fragile"
+      },
+      {
+        "id": "C",
+        "text": "unbreakable"
+      },
+      {
+        "id": "D",
+        "text": "inflammable"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Combustible' means capable of catching fire; its closest synonym is 'inflammable'.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e15",
+    "subjectId": "english",
+    "topicId": "cloze-fill-blank",
+    "question": "Select the most appropriate word to fill in the blank.\nThe thick smoke ______ out of the landfill site is making the city's polluted air even more toxic.",
+    "options": [
+      {
+        "id": "A",
+        "text": "burning"
+      },
+      {
+        "id": "B",
+        "text": "tossing"
+      },
+      {
+        "id": "C",
+        "text": "billowing"
+      },
+      {
+        "id": "D",
+        "text": "rocking"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Billowing' correctly describes smoke rising and swelling outward in large clouds.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e16",
+    "subjectId": "english",
+    "topicId": "cloze-fill-blank",
+    "question": "Select the most appropriate word to fill in the blank.\nFinancial institutions that had their premises in the World Trade Centre were crippled by the loss of _______ and hardware.",
+    "options": [
+      {
+        "id": "A",
+        "text": "individual"
+      },
+      {
+        "id": "B",
+        "text": "personnel"
+      },
+      {
+        "id": "C",
+        "text": "group"
+      },
+      {
+        "id": "D",
+        "text": "person"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Personnel' (staff) pairs correctly with 'hardware' to indicate loss of both people and equipment.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e17",
+    "subjectId": "english",
+    "topicId": "reading-comprehension",
+    "question": "Comprehension: Bill Gates is the second-richest (1)_____ in the world. Select the most appropriate option for blank No.1.",
+    "options": [
+      {
+        "id": "A",
+        "text": "person"
+      },
+      {
+        "id": "B",
+        "text": "personnel"
+      },
+      {
+        "id": "C",
+        "text": "character"
+      },
+      {
+        "id": "D",
+        "text": "human"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Person' is the natural word to complete 'the second-richest person in the world'.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e18",
+    "subjectId": "english",
+    "topicId": "reading-comprehension",
+    "question": "Comprehension: He is (2)_____ an estimated $103 billion. Select the most appropriate option for blank No. 2.",
+    "options": [
+      {
+        "id": "A",
+        "text": "classed"
+      },
+      {
+        "id": "B",
+        "text": "worth"
+      },
+      {
+        "id": "C",
+        "text": "valuable"
+      },
+      {
+        "id": "D",
+        "text": "cost"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Worth' correctly completes 'He is worth an estimated $103 billion.'",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e19",
+    "subjectId": "english",
+    "topicId": "reading-comprehension",
+    "question": "Comprehension: His wealth (3)_____ only by Jeff Bezos. Select the most appropriate option for blank No. 3.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is surpassed"
+      },
+      {
+        "id": "B",
+        "text": "surpasses"
+      },
+      {
+        "id": "C",
+        "text": "is surpassing"
+      },
+      {
+        "id": "D",
+        "text": "surpassed"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The passive present-perfect-like construction 'is surpassed only by' correctly conveys that only Bezos has greater wealth.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e20",
+    "subjectId": "english",
+    "topicId": "reading-comprehension",
+    "question": "Comprehension: ..., Jeff Bezos, (4)_____ has a current net worth of $116 billion. Select the most appropriate option for blank No. 4.",
+    "options": [
+      {
+        "id": "A",
+        "text": "which"
+      },
+      {
+        "id": "B",
+        "text": "whose"
+      },
+      {
+        "id": "C",
+        "text": "whom"
+      },
+      {
+        "id": "D",
+        "text": "who"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Who' is the correct relative pronoun referring to the person Jeff Bezos as the subject of the following clause.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e21",
+    "subjectId": "english",
+    "topicId": "reading-comprehension",
+    "question": "Comprehension: Gates is (5)_____ rich that an average American spending $1 is similar to Gates spending $1.06 million. Select the most appropriate option for blank No. 5.",
+    "options": [
+      {
+        "id": "A",
+        "text": "so"
+      },
+      {
+        "id": "B",
+        "text": "too"
+      },
+      {
+        "id": "C",
+        "text": "as"
+      },
+      {
+        "id": "D",
+        "text": "such"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The correlative construction 'so ... that' correctly completes the sentence.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e22",
+    "subjectId": "english",
+    "topicId": "voice",
+    "question": "Select the correct passive form of the given sentence.\nBill Gates has given away twenty seven percent of his wealth in charity.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Twenty seven percent of his wealth had been given away by Bill Gates in charity."
+      },
+      {
+        "id": "B",
+        "text": "Twenty seven percent of his wealth has given away Bill Gates in charity."
+      },
+      {
+        "id": "C",
+        "text": "Bill Gates has been given away by twenty seven percent of his wealth in charity."
+      },
+      {
+        "id": "D",
+        "text": "Twenty-seven percent of his wealth has been given away by Bill Gates in charity."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The present perfect active 'has given away' becomes present perfect passive 'has been given away by'.",
+    "difficulty": "medium",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e23",
+    "subjectId": "english",
+    "topicId": "idioms",
+    "question": "Select the most appropriate meaning of the given idiom.\nSpill the beans",
+    "options": [
+      {
+        "id": "A",
+        "text": "create difficulty"
+      },
+      {
+        "id": "B",
+        "text": "make an excuse"
+      },
+      {
+        "id": "C",
+        "text": "reveal a secret"
+      },
+      {
+        "id": "D",
+        "text": "frighten someone"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Spill the beans' means to reveal secret information.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e24",
+    "subjectId": "english",
+    "topicId": "one-word-substitution",
+    "question": "Select the word which means the same as the group of words given.\nA large impressive house",
+    "options": [
+      {
+        "id": "A",
+        "text": "mansion"
+      },
+      {
+        "id": "B",
+        "text": "cabin"
+      },
+      {
+        "id": "C",
+        "text": "shack"
+      },
+      {
+        "id": "D",
+        "text": "fort"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Mansion' means a large, impressive house.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  },
+  {
+    "id": "e25",
+    "subjectId": "english",
+    "topicId": "spellings",
+    "question": "Select the wrongly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "emphasis"
+      },
+      {
+        "id": "B",
+        "text": "emporium"
+      },
+      {
+        "id": "C",
+        "text": "emmision"
+      },
+      {
+        "id": "D",
+        "text": "emolument"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The correct spelling is 'emission' (one 'm', double 's'); 'emmision' is incorrect.",
+    "difficulty": "easy",
+    "language": "en",
+    "sourceMeta": {
+      "pyq": {
+        "exam": "SSC CHSL",
+        "year": 2019,
+        "date": "2019-07-02",
+        "shift": "Shift 3"
+      },
+      "confidence": "verified"
+    }
+  }
+]

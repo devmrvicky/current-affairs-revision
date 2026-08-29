@@ -168,6 +168,50 @@ export async function recordPracticeSessionAttempts(
   await universalAttemptsDB.recordMany(records);
 }
 
+/**
+ * Records a completed Mock/Sectional Mock session (product spec §66/§67).
+ * Uses the same deterministic `sessionId::questionId` ledger key as every
+ * other engine, so a duplicate call (timer-expiry racing a manual Submit,
+ * a retried failed write) safely overwrites rather than double-counting —
+ * this is what makes `completeSession()`'s own status guard belt-and-braces
+ * rather than the only thing standing between the user and a duplicate
+ * Attempt Ledger record.
+ */
+export async function recordMockSessionAttempts(
+  sessionId: string,
+  examId: string,
+  sectionsWithStates: { sectionId: string; questionIds: string[] }[],
+  states: Record<string, { selectedAnswer: string | null; timeSpentSeconds: number; answeredAt?: number }>,
+  questionsById: Map<string, UniversalQuestion>,
+  completedAt: number,
+  mockDefinitionId: string
+): Promise<void> {
+  const records: UniversalAttemptRecord[] = [];
+  for (const section of sectionsWithStates) {
+    for (const questionId of section.questionIds) {
+      const state = states[questionId];
+      const q = questionsById.get(questionId);
+      const wasAnswered = !!state && state.selectedAnswer !== null;
+      const isCorrect = wasAnswered && !!q && state!.selectedAnswer === q.correctAnswer;
+      records.push({
+        id: ledgerRecordId(sessionId, questionId),
+        universalQuestionId: questionId,
+        examId,
+        subjectId: q?.subjectId ?? 'unknown',
+        topicId: q?.topicId,
+        isCorrect,
+        wasAnswered,
+        timeTaken: state?.timeSpentSeconds ?? 0,
+        attemptedAt: state?.answeredAt ?? completedAt,
+        sessionId,
+        sourceFileName: `mock-session-${sessionId}`,
+        testDefinitionId: mockDefinitionId,
+      });
+    }
+  }
+  await universalAttemptsDB.recordMany(records);
+}
+
 // ─── Universal analytics queries ────────────────────────────────────────────
 // These read the ledger directly — no `if (subjectId === 'current-affairs')`
 // anywhere. A Mathematics topic gets exactly the same treatment as a Current
