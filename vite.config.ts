@@ -10,10 +10,13 @@ export default defineConfig({
       includeAssets: ['favicon.svg', 'icons/**/*'],
       manifest: {
         // PWA Builder requires these exact fields
+        // NOTE: `id` intentionally left unchanged — it's the PWA's install
+        // identity. Changing it would make this look like a brand-new app to
+        // browsers/app stores and orphan everyone who already installed it.
         id: '/ca-revision/',
-        name: 'Current Affairs Revision',
-        short_name: 'CA Revision',
-        description: 'Daily current affairs revision and quiz platform for competitive exam aspirants. Practice chapter-wise questions, track wrong answers, and build revision streaks.',
+        name: 'ExamVerse',
+        short_name: 'ExamVerse',
+        description: 'ExamVerse — Prepare. Practice. Perform. Full-length mock tests, sectional tests, subject and topic-wise practice, and daily current affairs for competitive exam aspirants.',
         start_url: '/',
         scope: '/',
         display: 'standalone',

@@ -6,6 +6,7 @@ import toast from 'react-hot-toast';
 import { useMockSessionStore } from '../store/mockSessionStore';
 import { resolveQuestionsByIds } from '../services/questionRepository';
 import { recordMockSessionAttempts } from '../services/attemptLedgerService';
+import { mockAttemptsDB } from '../services/db';
 import { QuizTimer } from '../components/quiz/QuizTimer';
 import { MockQuestionPalette } from '../components/mock/MockQuestionPalette';
 import type { UniversalQuestion } from '../types/universalQuestion';
@@ -32,7 +33,7 @@ export default function MockTestShellPage() {
     if (!session || session.mockDefinitionId !== mockId) {
       navigate(mockId ? `/mock-tests/${mockId}/start` : '/mock-tests', { replace: true });
     } else if (session.status === 'completed') {
-      navigate(`/mock-tests/${mockId}/result`, { replace: true });
+      navigate(`/mock-tests/${mockId}/result/${session.id}`, { replace: true });
     }
   }, [session, mockId, navigate]);
 
@@ -86,7 +87,14 @@ export default function MockTestShellPage() {
         session.mockDefinitionId
       );
       completeSession();
-      navigate(`/mock-tests/${mockId}/result`);
+      // Freeze the now-completed session as a durable, permalink-addressable
+      // attempt (product spec: refresh/direct-load of the result route must
+      // never depend on the live in-memory session).
+      const completedSession = useMockSessionStore.getState().session;
+      if (completedSession && completedSession.completedAt) {
+        await mockAttemptsDB.save({ ...completedSession, completedAt: completedSession.completedAt });
+      }
+      navigate(`/mock-tests/${mockId}/result/${session.id}`);
     } catch (err) {
       console.error('Failed to record mock session attempts', err);
       toast.error("Couldn't save your results — check your connection and try submitting again.");

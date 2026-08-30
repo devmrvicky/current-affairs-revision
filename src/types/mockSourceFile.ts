@@ -63,6 +63,8 @@ export interface MockSourceSettings {
   sectionNavigation: 'sequential-locked' | 'free';
   questionNavigation: 'within-section' | 'global';
   randomizeQuestions?: boolean;
+  /** Optional, real exam cutoff — only set this when you actually have it. Absent means the result page correctly shows cutoff as unavailable rather than a guessed number. */
+  cutoff?: { min?: number; max?: number };
 }
 
 export interface MockSourceFile {

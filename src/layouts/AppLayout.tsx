@@ -54,7 +54,7 @@ export default function AppLayout() {
                 <BookOpen size={16} className="text-white" />
               </div>
               <span className="font-display font-bold text-lg hidden sm:inline" style={{ color: 'var(--text-primary)' }}>
-                CurrentAffairs<span className="gradient-text">Pro</span>
+                Exam<span className="gradient-text">Verse</span>
               </span>
               <button
                 onClick={() => navigate('/exams')}

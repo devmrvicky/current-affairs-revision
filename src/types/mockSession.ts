@@ -58,6 +58,22 @@ export interface MockSession {
   completedAt?: number;
 }
 
+/**
+ * A completed MockSession, frozen and persisted at the moment of submission
+ * (attemptId === the session's own id). This is what makes
+ * `/mock-tests/:mockId/result/:attemptId` directly loadable and
+ * refresh-safe: the result page reconstructs everything from this durable
+ * record rather than the live, in-memory/localStorage "current session" in
+ * mockSessionStore, which is cleared the moment the user starts a new
+ * attempt. Distinct from the per-question UniversalAttemptRecord ledger,
+ * which stays the source of truth for cross-attempt topic/subject analytics
+ * — this record exists specifically to replay ONE attempt in full fidelity
+ * (section timings, marked-for-review, per-question dwell time).
+ */
+export interface MockAttemptRecord extends MockSession {
+  completedAt: number;
+}
+
 // ─── Result shapes ──────────────────────────────────────────────────────────
 
 export interface MockSectionResult {

@@ -1,7 +1,7 @@
 {
-  "name": "CurrentAffairsPro",
-  "short_name": "CAP",
-  "description": "Daily current affairs revision and quiz platform for competitive exam aspirants",
+  "name": "ExamVerse",
+  "short_name": "ExamVerse",
+  "description": "Prepare. Practice. Perform. A complete competitive exam preparation platform — mock tests, sectional tests, topic-wise practice, and daily current affairs.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0a12",
@@ -24,19 +24,19 @@
   ],
   "shortcuts": [
     {
-      "name": "Today's Quiz",
-      "url": "/",
-      "description": "Start today's current affairs quiz"
+      "name": "Mock Tests",
+      "url": "/mock-tests",
+      "description": "Start a full-length or sectional mock test"
     },
     {
-      "name": "Revision Calendar",
-      "url": "/revision-calendar",
-      "description": "Browse past quizzes by date"
+      "name": "Practice",
+      "url": "/practice/configure",
+      "description": "Practice by subject, topic or difficulty"
     },
     {
-      "name": "Wrong Questions",
-      "url": "/wrong-questions",
-      "description": "Practise wrong questions"
+      "name": "Current Affairs",
+      "url": "/current-affairs",
+      "description": "Today's current affairs quiz"
     }
   ]
 }

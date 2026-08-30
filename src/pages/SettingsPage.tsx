@@ -517,8 +517,8 @@ export default function SettingsPage() {
             <BookOpen size={18} className="text-white" />
           </div>
           <div>
-            <p className="font-display font-bold" style={{ color: 'var(--text-primary)' }}>CurrentAffairsPro</p>
-            <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Version 2.0.0 • PWA-ready</p>
+            <p className="font-display font-bold" style={{ color: 'var(--text-primary)' }}>ExamVerse</p>
+            <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Prepare. Practice. Perform. • Version 2.0.0 • PWA-ready</p>
           </div>
         </div>
         <div className="flex flex-wrap gap-2">

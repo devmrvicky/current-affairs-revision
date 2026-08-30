@@ -39,6 +39,7 @@ export function toFullMockDefinition(file: MockSourceFile): FullMockDefinition {
     durationSeconds: file.settings.durationSeconds,
     randomizeQuestions: file.settings.randomizeQuestions ?? false,
     pyq: file.source?.type === 'pyq' ? { exam: file.title, year: file.source.year ?? 0, date: file.source.date, shift: file.source.shift } : undefined,
+    cutoff: file.settings.cutoff,
     sections: file.sections.map((s) => toSectionConfig(s, file.settings.negativeMarks)),
   };
 }
@@ -54,6 +55,7 @@ export function deriveSectionalMockDefinitions(file: MockSourceFile): SectionalM
     mockFile: file.id,
     randomizeQuestions: false, // sectional mocks preserve exam order by default (product spec §38)
     pyq: file.source?.type === 'pyq' ? { exam: file.title, year: file.source.year ?? 0, date: file.source.date, shift: file.source.shift } : undefined,
+    cutoff: undefined, // cutoff is a whole-paper concept; sectional mocks don't have their own
     section: toSectionConfig(s, file.settings.negativeMarks),
   }));
 }

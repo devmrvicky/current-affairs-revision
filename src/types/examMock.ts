@@ -40,6 +40,8 @@ interface MockDefinitionBase {
   /** Official/PYQ mocks keep authored question order; only practice-generated mocks should randomize. */
   randomizeQuestions?: boolean;
   pyq?: PyqMeta;
+  /** Only ever set when a content author explicitly supplies real cutoff data for this mock — the result page shows "Cut-off data unavailable" rather than a fabricated number when this is absent. */
+  cutoff?: { min?: number; max?: number };
 }
 
 export interface FullMockDefinition extends MockDefinitionBase {

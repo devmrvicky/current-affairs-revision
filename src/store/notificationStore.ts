@@ -142,7 +142,7 @@ export const useNotificationStore = create<NotificationStore>((set, get) => ({
   scheduleLocalReminder: (message, delayMs) => {
     if (get().settings.enabled && Notification.permission === 'granted') {
       setTimeout(() => {
-        get().showLocalNotification('CA Revision', message);
+        get().showLocalNotification('ExamVerse', message);
       }, delayMs);
     }
   },

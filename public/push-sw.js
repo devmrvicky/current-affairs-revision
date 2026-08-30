@@ -12,9 +12,9 @@ self.addEventListener('push', function (event) {
   try {
     payload = event.data ? event.data.json() : {};
   } catch (e) {
-    payload = { title: 'CA Revision', body: event.data ? event.data.text() : 'You have a new notification' };
+    payload = { title: 'ExamVerse', body: event.data ? event.data.text() : 'You have a new notification' };
   }
-  var title = payload.title || 'CA Revision';
+  var title = payload.title || 'ExamVerse';
   var options = {
     body: payload.body || '',
     icon: '/icons/icon-192x192.png',

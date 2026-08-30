@@ -1,6 +1,7 @@
 import { openDB, DBSchema, IDBPDatabase } from 'idb';
 import { v4 as uuidv4 } from 'uuid';
 import type { SavedTest, Statistics, Settings, WrongQuestion, BookmarkedQuestion, MarkedReviewQuestion, ChapterStats, DailyGoal, NotificationSettings, NotificationCategorySettings, Highlight, ReadingProgress, ReaderNote, ReadingPrefs, AiSummaryCacheEntry } from '../types';
+import type { MockAttemptRecord } from '../types/mockSession';
 
 // ─── Sync types ───────────────────────────────────────────────────────────────
 // Local store name → remote (Supabase) table name. Kept distinct on purpose so
@@ -131,10 +132,15 @@ interface AppDB extends DBSchema {
     value: UniversalAttemptRecord;
     indexes: { 'by-universalQuestionId': string; 'by-examId': string; 'by-topicId': string; 'by-attemptedAt': number };
   };
+  mockAttempts: {
+    key: string;
+    value: MockAttemptRecord;
+    indexes: { 'by-mockDefinitionId': string; 'by-completedAt': number };
+  };
 }
 
 const DB_NAME = 'CurrentAffairsDB';
-const DB_VERSION = 9;
+const DB_VERSION = 10;
 
 let dbInstance: IDBPDatabase<AppDB> | null = null;
 
@@ -194,6 +200,11 @@ async function getDB(): Promise<IDBPDatabase<AppDB>> {
         uaStore.createIndex('by-examId', 'examId');
         uaStore.createIndex('by-topicId', 'topicId');
         uaStore.createIndex('by-attemptedAt', 'attemptedAt');
+      }
+      if (oldVersion < 10) {
+        const maStore = db.createObjectStore('mockAttempts', { keyPath: 'id' });
+        maStore.createIndex('by-mockDefinitionId', 'mockDefinitionId');
+        maStore.createIndex('by-completedAt', 'completedAt');
       }
     },
   });
@@ -965,5 +976,37 @@ export const universalAttemptsDB = {
   async count(): Promise<number> {
     const db = await getDB();
     return db.count('universalAttempts');
+  },
+};
+
+// One frozen, completed Mock/Sectional Mock session per attempt — see
+// MockAttemptRecord's doc comment for why this is separate from the
+// per-question universalAttempts ledger above.
+export const mockAttemptsDB = {
+  async save(record: MockAttemptRecord): Promise<void> {
+    const db = await getDB();
+    await db.put('mockAttempts', record);
+  },
+
+  async get(attemptId: string): Promise<MockAttemptRecord | undefined> {
+    const db = await getDB();
+    return db.get('mockAttempts', attemptId);
+  },
+
+  async getForMock(mockDefinitionId: string): Promise<MockAttemptRecord[]> {
+    const db = await getDB();
+    const records = await db.getAllFromIndex('mockAttempts', 'by-mockDefinitionId', mockDefinitionId);
+    return records.sort((a, b) => b.completedAt - a.completedAt);
+  },
+
+  async getMostRecentForMock(mockDefinitionId: string): Promise<MockAttemptRecord | undefined> {
+    const records = await this.getForMock(mockDefinitionId);
+    return records[0];
+  },
+
+  async getAll(): Promise<MockAttemptRecord[]> {
+    const db = await getDB();
+    const all = await db.getAll('mockAttempts');
+    return all.sort((a, b) => b.completedAt - a.completedAt);
   },
 };
