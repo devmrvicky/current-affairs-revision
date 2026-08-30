@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams, useBlocker } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { AlertTriangle, ChevronLeft, ChevronRight, Flag, LayoutGrid, X } from 'lucide-react';
 import toast from 'react-hot-toast';
@@ -27,6 +27,31 @@ export default function MockTestShellPage() {
   const [isFinishing, setIsFinishing] = useState(false);
   const finishingRef = useRef(false);
   const questionEnteredAtRef = useRef(0);
+
+  // Intercepts in-app navigation AWAY from an active session — including the
+  // browser/Android back gesture, not just our own explicit Quit button —
+  // and asks for confirmation rather than silently abandoning the test
+  // ("native app-like routing": back from Mock Session should never just
+  // vanish the test without asking).
+  const blocker = useBlocker(
+    ({ currentLocation, nextLocation }) => {
+      const s = useMockSessionStore.getState().session;
+      // Only block leaving THIS mock's own in-progress session — never an
+      // unrelated stale active session that just happens to exist (that
+      // case is the mismatched-mockId redirect below, which must stay silent).
+      return s?.status === 'active' && s.mockDefinitionId === mockId && currentLocation.pathname !== nextLocation.pathname;
+    }
+  );
+  useEffect(() => {
+    if (blocker.state !== 'blocked') return;
+    if (window.confirm('Your test is in progress. If you leave, your current progress will be saved, but you may not be able to resume depending on the test rules.\n\nLeave the test?')) {
+      abandonSession();
+      blocker.proceed();
+    } else {
+      blocker.reset();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [blocker.state]);
 
   // Redirect away if there's no session, or it belongs to a different mock (e.g. stale URL from a previous test).
   useEffect(() => {

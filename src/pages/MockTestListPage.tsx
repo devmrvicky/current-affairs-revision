@@ -1,11 +1,12 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ClipboardList, Clock, ListChecks, Layers } from 'lucide-react';
+import { ClipboardList, Clock, ListChecks, Layers, Zap } from 'lucide-react';
 import { useExamStore } from '../store/examStore';
 import { getMockDefinitionsForExam } from '../services/mockDefinitionRepository';
+import { QuickTestPanel } from '../components/mock/QuickTestPanel';
 import type { MockDefinition, FullMockDefinition, SectionalMockDefinition } from '../types/examMock';
 
-type Tab = 'full' | 'sectional';
+type Tab = 'full' | 'sectional' | 'quick';
 
 export default function MockTestListPage() {
   const navigate = useNavigate();
@@ -46,28 +47,37 @@ export default function MockTestListPage() {
       <div>
         <h1 className="font-display text-xl sm:text-2xl font-bold" style={{ color: 'var(--text-primary)' }}>Mock Tests</h1>
         <p className="text-sm mt-1" style={{ color: 'var(--text-muted)' }}>
-          Full-length exam simulations with independent, locked section timers — plus standalone sectional mocks for focused speed practice.
+          Full-length exam simulations with independent, locked section timers — plus standalone sectional mocks and a quick, adjustable practice test.
         </p>
       </div>
 
-      <div className="flex gap-2 p-1 rounded-xl w-fit" style={{ background: 'var(--border)' }}>
+      <div className="flex gap-2 p-1 rounded-xl w-fit overflow-x-auto no-scrollbar" style={{ background: 'var(--border)' }}>
         <button
           onClick={() => setTab('full')}
-          className={`px-4 py-1.5 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5 ${tab === 'full' ? '' : ''}`}
+          className="flex-shrink-0 px-4 py-1.5 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5"
           style={tab === 'full' ? { background: 'var(--card)', color: 'var(--text-primary)' } : { color: 'var(--text-secondary)' }}
         >
           <ClipboardList size={14} /> Full Mock
         </button>
         <button
           onClick={() => setTab('sectional')}
-          className="px-4 py-1.5 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5"
+          className="flex-shrink-0 px-4 py-1.5 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5"
           style={tab === 'sectional' ? { background: 'var(--card)', color: 'var(--text-primary)' } : { color: 'var(--text-secondary)' }}
         >
           <Layers size={14} /> Sectional
         </button>
+        <button
+          onClick={() => setTab('quick')}
+          className="flex-shrink-0 px-4 py-1.5 rounded-lg text-sm font-medium transition-colors flex items-center gap-1.5"
+          style={tab === 'quick' ? { background: 'var(--card)', color: 'var(--text-primary)' } : { color: 'var(--text-secondary)' }}
+        >
+          <Zap size={14} /> Quick Test
+        </button>
       </div>
 
-      {!loaded ? (
+      {tab === 'quick' ? (
+        <QuickTestPanel />
+      ) : !loaded ? (
         <div className="space-y-3">
           {[1, 2].map((i) => <div key={i} className="card h-28 shimmer" style={{ background: 'var(--border)' }} />)}
         </div>

@@ -101,7 +101,7 @@ export default function HomePage() {
       icon: ListChecks,
       color: '#a855f7',
       gradient: 'linear-gradient(135deg, rgba(168,85,247,0.08) 0%, transparent 100%)',
-      onClick: () => navigate('/tests/configure'),
+      onClick: () => navigate('/mock-tests'),
     },
     {
       title: 'Chapters',

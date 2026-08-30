@@ -31,6 +31,8 @@ export interface MockSourceQuestion {
   language?: 'en' | 'hi' | 'bilingual';
   image?: string;
   passageId?: string;
+  /** Free-form provenance metadata some content carries (e.g. PYQ exam/year/date/shift) — not required, used opportunistically for nicer auto-derived titles when present. */
+  sourceMeta?: { pyq?: { exam?: string; year?: number; date?: string; shift?: string }; confidence?: string };
 }
 
 export interface MockSourceSection {

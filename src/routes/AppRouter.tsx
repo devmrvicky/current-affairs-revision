@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
 import AppLayout from '../layouts/AppLayout';
 import RouteErrorBoundary from '../components/common/RouteErrorBoundary';
 
@@ -40,7 +40,6 @@ const AdminDashboardPage    = lazy(() => import('../pages/AdminDashboardPage'));
 const AuthCallbackPage      = lazy(() => import('../pages/AuthCallbackPage'));
 const ExamSelectionPage     = lazy(() => import('../pages/ExamSelectionPage'));
 const PracticeConfigurePage = lazy(() => import('../pages/PracticeConfigurePage'));
-const TestConfigurePage     = lazy(() => import('../pages/TestConfigurePage'));
 const TestResultPage        = lazy(() => import('../pages/TestResultPage'));
 const TestReviewPage        = lazy(() => import('../pages/TestReviewPage'));
 const UniversalSessionPage  = lazy(() => import('../pages/UniversalSessionPage'));
@@ -51,6 +50,7 @@ const MockTestListPage      = lazy(() => import('../pages/MockTestListPage'));
 const MockInstructionsPage  = lazy(() => import('../pages/MockInstructionsPage'));
 const MockTestShellPage     = lazy(() => import('../pages/MockTestShellPage'));
 const MockResultPage        = lazy(() => import('../pages/MockResultPage'));
+const MockDiagnosticsPage   = lazy(() => import('../pages/MockDiagnosticsPage'));
 const ChaptersPage          = lazy(() => import('../pages/ChaptersPage'));
 const SubjectChaptersPage   = lazy(() => import('../pages/SubjectChaptersPage'));
 const GenericChapterDetailPage = lazy(() => import('../pages/GenericChapterDetailPage'));
@@ -87,7 +87,7 @@ const router = createBrowserRouter([
       { path: 'admin',                        element: <S><AdminDashboardPage /></S> },
       { path: 'exams',                        element: <S><ExamSelectionPage /></S> },
       { path: 'practice/configure',           element: <S><PracticeConfigurePage /></S> },
-      { path: 'tests/configure',              element: <S><TestConfigurePage /></S> },
+      { path: 'tests/configure',              element: <Navigate to="/mock-tests" replace /> },
       { path: 'tests/result',                 element: <S><TestResultPage /></S> },
       { path: 'tests/result/review',          element: <S><TestReviewPage /></S> },
       { path: 'session',                      element: <S><UniversalSessionPage /></S> },
@@ -95,9 +95,11 @@ const router = createBrowserRouter([
       { path: 'session/result/review',        element: <S><UniversalReviewPage /></S> },
       { path: 'mock-tests',                   element: <S><MockTestListPage /></S> },
       { path: 'mock-tests/:mockId/start',     element: <S><MockInstructionsPage /></S> },
+      { path: 'mock-tests/:mockId/instructions', element: <S><MockInstructionsPage /></S> },
       { path: 'mock-tests/:mockId/session',   element: <S><MockTestShellPage /></S> },
       { path: 'mock-tests/:mockId/result',              element: <S><MockResultPage /></S> },
       { path: 'mock-tests/:mockId/result/:attemptId',   element: <S><MockResultPage /></S> },
+      { path: 'dev/mock-diagnostics',                   element: <S><MockDiagnosticsPage /></S> },
       { path: 'current-affairs',              element: <S><CurrentAffairsHubPage /></S> },
       { path: 'chapters',                     element: <S><ChaptersPage /></S> },
       { path: 'chapters/:subjectId',          element: <S><SubjectChaptersPage /></S> },

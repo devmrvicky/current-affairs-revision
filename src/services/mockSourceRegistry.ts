@@ -14,71 +14,104 @@
 
 import type { UniversalQuestion } from '../types/universalQuestion';
 import type { MockSourceFile, MockSourceValidationError } from '../types/mockSourceFile';
-import { validateMockSourceFile } from '../types/mockSourceFile';
+import { normalizeMockSource, validateNormalized } from './mockSourceNormalizer';
 
-// Canonical path: src/data/{examId}/mocks/{file}.json (product spec §3). `**`
-// also allows an organizational category folder above examId
+// Canonical path: src/data/{examId}/mocks/{file}.json (product spec: this is
+// THE canonical convention — the old singular "mock/" folder is legacy and
+// must never be required for new content). `**` also allows an
+// organizational category folder above examId
 // (src/data/ssc/ssc-chsl/mocks/mock01.json), consistent with every other
 // loader in this app — examId is simply "whatever sits directly before
 // /mocks/".
-const mockSourceModules = import.meta.glob<{ default: MockSourceFile }>(
+const mockSourceModules = import.meta.glob<{ default: unknown }>(
   '../data/**/mocks/*.json',
   { eager: false }
 );
 
-function parseMocksPath(globKey: string): { examIdFromPath: string } | null {
+function parseMocksPath(globKey: string): { examIdFromPath: string; fileName: string } | null {
   const marker = '/data/';
   const idx = globKey.indexOf(marker);
   if (idx < 0) return null;
   const parts = globKey.slice(idx + marker.length).split('/');
   const mocksIdx = parts.lastIndexOf('mocks');
   if (mocksIdx < 1 || mocksIdx !== parts.length - 2) return null;
-  return { examIdFromPath: parts[mocksIdx - 1] };
+  const fileName = parts[parts.length - 1].replace(/\.json$/i, '');
+  return { examIdFromPath: parts[mocksIdx - 1], fileName };
+}
+
+export interface MockSourceDiagnosticEntry {
+  filePath: string;
+  fileName: string;
+  examId: string;
+  status: 'ok' | 'error';
+  mockId?: string;
+  questionCount?: number;
+  sectionSummaries?: { title: string; questionCount: number }[];
+  warnings: string[];
+  errors: string[];
 }
 
 interface LoadedMockSources {
   files: MockSourceFile[];
   errors: MockSourceValidationError[];
+  diagnostics: MockSourceDiagnosticEntry[];
 }
 
 let _cache: LoadedMockSources | null = null;
+let _cacheFailed = false;
 
 async function loadMockSourceFiles(): Promise<LoadedMockSources> {
-  if (_cache) return _cache;
+  // Never permanently cache a bad load — a failed pass (e.g. a transient
+  // import error while content is mid-edit in dev) gets retried on the next
+  // call rather than freezing the app in a broken state until reload.
+  if (_cache && !_cacheFailed) return _cache;
   const files: MockSourceFile[] = [];
   const errors: MockSourceValidationError[] = [];
+  const diagnostics: MockSourceDiagnosticEntry[] = [];
+  _cacheFailed = false;
 
   for (const [globKey, loader] of Object.entries(mockSourceModules)) {
     const parsed = parseMocksPath(globKey);
     if (!parsed) continue;
+    const { examIdFromPath, fileName } = parsed;
 
-    let file: MockSourceFile;
+    let raw: unknown;
     try {
       const mod = await loader();
-      file = mod.default;
+      raw = mod.default;
     } catch (err) {
-      errors.push({ mockSourceId: '(unknown)', filePath: globKey, reason: `failed to load: ${err instanceof Error ? err.message : String(err)}` });
+      const reason = `failed to load: ${err instanceof Error ? err.message : String(err)}`;
+      errors.push({ mockSourceId: fileName, filePath: globKey, reason });
+      diagnostics.push({ filePath: globKey, fileName, examId: examIdFromPath, status: 'error', warnings: [], errors: [reason] });
+      _cacheFailed = true;
       continue;
     }
 
-    if (!file || typeof file !== 'object') {
-      errors.push({ mockSourceId: '(unknown)', filePath: globKey, reason: 'file does not contain a valid mock object' });
+    const { file, warnings, errors: normalizeErrors } = normalizeMockSource(raw, { examIdFromPath, fileName, filePath: globKey });
+
+    if (!file || normalizeErrors.length > 0) {
+      errors.push(...normalizeErrors);
+      diagnostics.push({ filePath: globKey, fileName, examId: examIdFromPath, status: 'error', warnings, errors: normalizeErrors.map((e) => e.reason) });
       continue;
     }
-    // examId on the file itself is authoritative; the path only needs to
-    // avoid accidentally matching something unrelated to this exam's mocks.
-    if (!file.examId) file.examId = parsed.examIdFromPath;
 
-    const fileErrors = validateMockSourceFile(file, globKey);
-    if (fileErrors.length > 0) {
-      errors.push(...fileErrors);
-      continue; // excluded entirely — a half-valid mock never partially loads
+    const validationErrors = validateNormalized(file, globKey);
+    if (validationErrors.length > 0) {
+      errors.push(...validationErrors);
+      diagnostics.push({ filePath: globKey, fileName, examId: examIdFromPath, status: 'error', mockId: file.id, warnings, errors: validationErrors.map((e) => e.reason) });
+      continue; // excluded entirely — a half-valid mock never partially loads, and never breaks any other mock
     }
 
     files.push(file);
+    diagnostics.push({
+      filePath: globKey, fileName, examId: file.examId, status: 'ok', mockId: file.id,
+      questionCount: file.questions.length,
+      sectionSummaries: file.sections.map((s) => ({ title: s.title, questionCount: s.questionCount })),
+      warnings, errors: [],
+    });
   }
 
-  _cache = { files, errors };
+  _cache = { files, errors, diagnostics };
   return _cache;
 }
 
@@ -88,6 +121,11 @@ export async function getAllMockSourceFiles(): Promise<MockSourceFile[]> {
 
 export async function getMockSourceValidationErrors(): Promise<MockSourceValidationError[]> {
   return (await loadMockSourceFiles()).errors;
+}
+
+/** Development diagnostics — "Mock Content Diagnostics": one entry per discovered file, ok or error, with every warning surfaced (never silently absorbed). */
+export async function getMockSourceDiagnostics(): Promise<MockSourceDiagnosticEntry[]> {
+  return (await loadMockSourceFiles()).diagnostics;
 }
 
 export async function getMockSourceFile(mockId: string): Promise<MockSourceFile | null> {
@@ -146,4 +184,5 @@ export async function getAllMockSourceUniversalQuestions(): Promise<UniversalQue
 /** Test-only / dev hook — mirrors questionRepository's clearQuestionCache. */
 export function clearMockSourceCache(): void {
   _cache = null;
+  _cacheFailed = false;
 }

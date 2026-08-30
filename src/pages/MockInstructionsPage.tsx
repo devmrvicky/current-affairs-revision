@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { AlertTriangle, Clock, ListChecks } from 'lucide-react';
+import { AlertTriangle, ArrowLeft, Clock, ListChecks } from 'lucide-react';
 import { getMockDefinition, getValidationErrorsForMock, resolveFullMock, resolveSectionalMock } from '../services/mockDefinitionRepository';
 import { useMockSessionStore } from '../store/mockSessionStore';
 import type { MockDefinition } from '../types/examMock';
@@ -76,6 +76,7 @@ export default function MockInstructionsPage() {
               {notFoundReasons.map((r, i) => <li key={i}>{r}</li>)}
             </ul>
           )}
+          <button onClick={() => navigate('/mock-tests')} className="btn-primary mt-5 px-5 py-2 text-sm">Back to Mock Tests</button>
         </div>
       </div>
     );
@@ -86,6 +87,9 @@ export default function MockInstructionsPage() {
 
   return (
     <div className="max-w-2xl mx-auto pt-4 pb-10 space-y-4">
+      <button onClick={() => navigate('/mock-tests')} className="flex items-center gap-1.5 text-sm" style={{ color: 'var(--text-muted)' }}>
+        <ArrowLeft size={14} /> Back to Mock Tests
+      </button>
       <div className="card p-5 sm:p-6 text-center border-b-0">
         <p className="text-xs uppercase tracking-wide font-semibold" style={{ color: 'var(--text-muted)' }}>ExamVerse Exam Simulation</p>
         <h1 className="font-display text-lg sm:text-xl font-bold mt-1" style={{ color: 'var(--text-primary)' }}>{definition.title}</h1>
