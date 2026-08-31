@@ -15,6 +15,8 @@
 export interface MockSourceOption {
   id: string; // "A" | "B" | "C" | "D"
   text: string;
+  /** Asset filename (resolved via mockAssetRepository, e.g. "asset:q021-option-a.png" or a bare filename) for image-based options — common in reasoning (figure/diagram choices). Text may still be present alongside (e.g. as a caption) or empty. */
+  image?: string;
 }
 
 export interface MockSourceQuestion {
@@ -23,7 +25,15 @@ export interface MockSourceQuestion {
   subjectId: string;
   topicId: string;
   subTopicId?: string;
-  question: string;
+  /**
+   * Exactly one of `question` / `questionFile` must be set. `question` is
+   * inline Markdown text (fine for most questions). `questionFile` points to
+   * a sibling Markdown file (e.g. "questions/q001.md", relative to the mock's
+   * own folder) for richer content — tables, multi-line PQRS statements,
+   * math, images — without bloating mock.json with long text blocks.
+   */
+  question?: string;
+  questionFile?: string;
   options: MockSourceOption[];
   correctAnswer: string;
   explanation?: string;
@@ -78,8 +88,20 @@ export interface MockSourceFile {
   type: 'full-mock';
   source?: MockSourceMeta;
   settings: MockSourceSettings;
+  /**
+   * Normalized/derived by the time a MockSourceFile reaches this shape —
+   * always present here even though authors never write it in mock.json
+   * (sections are derived from question subjectId grouping; see
+   * mockSourceNormalizer.ts).
+   */
   sections: MockSourceSection[];
   questions: MockSourceQuestion[];
+  /**
+   * Folder-based mocks (mock.json + questions/*.md + assets/*) need to know
+   * their own directory to resolve `questionFile` and asset references —
+   * flat single-file mocks (author put everything inline) leave this unset.
+   */
+  baseDir?: string;
 }
 
 // ─── Validation (product spec §79-83) ──────────────────────────────────────
@@ -107,10 +129,15 @@ export function validateMockSourceFile(file: MockSourceFile, filePath: string): 
 
   const questionById = new Map(file.questions.map((q) => [q.id, q]));
 
-  // Every question: exactly 4 options (A-D), correctAnswer must match one, subjectId+topicId required (§82/§83).
+  // Every question: exactly 4 options (A-D), correctAnswer must match one, subjectId+topicId required (§82/§83), and exactly one of question/questionFile.
   for (const q of file.questions) {
     if (!q.subjectId) fail(`question "${q.id}" is missing subjectId`);
     if (!q.topicId) fail(`question "${q.id}" is missing topicId`);
+    const hasInline = !!q.question;
+    const hasFile = !!q.questionFile;
+    if (hasInline === hasFile) {
+      fail(`question "${q.id}" must have exactly one of "question" (inline text) or "questionFile" (path to a Markdown file), found ${hasInline && hasFile ? 'both' : 'neither'}`);
+    }
     if (!q.options || q.options.length !== 4) fail(`question "${q.id}" must have exactly 4 options, found ${q.options?.length ?? 0}`);
     if (q.options && !q.options.some((o) => o.id === q.correctAnswer)) {
       fail(`question "${q.id}" correctAnswer "${q.correctAnswer}" does not match any option id`);

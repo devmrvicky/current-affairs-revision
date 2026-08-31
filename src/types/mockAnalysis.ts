@@ -129,7 +129,7 @@ export interface QuestionAnalysis {
   subjectId: string;
   topicId: string;
   question: string;
-  options: { id: string; text: string }[];
+  options: { id: string; text: string; image?: string }[];
   selectedAnswer: string | null;
   correctAnswer: string;
   explanation?: string;
@@ -137,6 +137,8 @@ export interface QuestionAnalysis {
   isMarkedForReview: boolean;
   timeSpentSeconds: number;
   difficulty?: 'easy' | 'medium' | 'hard';
+  /** Needed to resolve `asset:filename` image references within this question's Markdown. */
+  baseDir?: string;
 }
 
 export interface MockAnalysis {

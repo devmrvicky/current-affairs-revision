@@ -275,6 +275,7 @@ function buildSolutions(entries: FlatQuestionEntry[]): QuestionAnalysis[] {
     isMarkedForReview: e.isMarkedForReview,
     timeSpentSeconds: e.timeSpentSeconds,
     difficulty: e.question.difficulty,
+    baseDir: e.question.sourceMockBaseDir,
   }));
 }
 

@@ -9,6 +9,7 @@ import { recordMockSessionAttempts } from '../services/attemptLedgerService';
 import { mockAttemptsDB } from '../services/db';
 import { QuizTimer } from '../components/quiz/QuizTimer';
 import { MockQuestionPalette } from '../components/mock/MockQuestionPalette';
+import { QuestionMarkdownRenderer, QuestionOptionContent } from '../components/mock/QuestionMarkdownRenderer';
 import type { UniversalQuestion } from '../types/universalQuestion';
 
 export default function MockTestShellPage() {
@@ -307,9 +308,9 @@ export default function MockTestShellPage() {
                       <p className="text-[11px] font-medium uppercase tracking-wide mb-2" style={{ color: 'var(--text-muted)' }}>
                         Question {currentIndexInSection + 1}
                       </p>
-                      <p className="text-sm sm:text-base font-medium mb-5 whitespace-pre-line" style={{ color: 'var(--text-primary)' }}>
-                        {currentQuestion.question}
-                      </p>
+                      <div className="text-sm sm:text-base font-medium mb-5" style={{ color: 'var(--text-primary)' }}>
+                        <QuestionMarkdownRenderer content={currentQuestion.question} baseDir={currentQuestion.sourceMockBaseDir} />
+                      </div>
                       <div className="space-y-2.5">
                         {currentQuestion.options.map((opt) => {
                           const isSelected = currentState?.selectedAnswer === opt.id;
@@ -330,7 +331,7 @@ export default function MockTestShellPage() {
                               >
                                 {opt.id}
                               </span>
-                              <span>{opt.text}</span>
+                              <QuestionOptionContent text={opt.text} image={opt.image} baseDir={currentQuestion.sourceMockBaseDir} />
                             </button>
                           );
                         })}

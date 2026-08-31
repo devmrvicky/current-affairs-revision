@@ -16,19 +16,23 @@ import type { UniversalQuestion } from '../types/universalQuestion';
 import type { MockSourceFile, MockSourceValidationError } from '../types/mockSourceFile';
 import { normalizeMockSource, validateNormalized } from './mockSourceNormalizer';
 
-// Canonical path: src/data/{examId}/mocks/{file}.json (product spec: this is
-// THE canonical convention — the old singular "mock/" folder is legacy and
-// must never be required for new content). `**` also allows an
-// organizational category folder above examId
-// (src/data/ssc/ssc-chsl/mocks/mock01.json), consistent with every other
-// loader in this app — examId is simply "whatever sits directly before
-// /mocks/".
-const mockSourceModules = import.meta.glob<{ default: unknown }>(
+// Two on-disk layouts are both canonical:
+//   1. Flat single file:   src/data/{examId}/mocks/{file}.json
+//   2. Folder-based:       src/data/{examId}/mocks/{mockId}/mock.json
+//                          (+ questions/*.md, assets/* alongside it)
+// `**` also allows an organizational category folder above examId
+// (src/data/ssc/ssc-chsl/mocks/...), consistent with every other loader in
+// this app — examId is simply "whatever sits directly before /mocks/".
+const flatMockModules = import.meta.glob<{ default: unknown }>(
   '../data/**/mocks/*.json',
   { eager: false }
 );
+const folderMockModules = import.meta.glob<{ default: unknown }>(
+  '../data/**/mocks/*/mock.json',
+  { eager: false }
+);
 
-function parseMocksPath(globKey: string): { examIdFromPath: string; fileName: string } | null {
+function parseFlatMockPath(globKey: string): { examIdFromPath: string; fileName: string } | null {
   const marker = '/data/';
   const idx = globKey.indexOf(marker);
   if (idx < 0) return null;
@@ -37,6 +41,18 @@ function parseMocksPath(globKey: string): { examIdFromPath: string; fileName: st
   if (mocksIdx < 1 || mocksIdx !== parts.length - 2) return null;
   const fileName = parts[parts.length - 1].replace(/\.json$/i, '');
   return { examIdFromPath: parts[mocksIdx - 1], fileName };
+}
+
+function parseFolderMockPath(globKey: string): { examIdFromPath: string; fileName: string; baseDir: string } | null {
+  const marker = '/data/';
+  const idx = globKey.indexOf(marker);
+  if (idx < 0) return null;
+  const parts = globKey.slice(idx + marker.length).split('/'); // [...category, examId, "mocks", mockId, "mock.json"]
+  const mocksIdx = parts.lastIndexOf('mocks');
+  if (mocksIdx < 1 || mocksIdx !== parts.length - 3) return null;
+  const mockId = parts[parts.length - 2];
+  const baseDir = globKey.slice(0, globKey.length - 'mock.json'.length); // trailing slash preserved, matches mockAssetRepository/mockQuestionContentRepository's baseDir convention
+  return { examIdFromPath: parts[mocksIdx - 1], fileName: mockId, baseDir };
 }
 
 export interface MockSourceDiagnosticEntry {
@@ -70,49 +86,66 @@ async function loadMockSourceFiles(): Promise<LoadedMockSources> {
   const diagnostics: MockSourceDiagnosticEntry[] = [];
   _cacheFailed = false;
 
-  for (const [globKey, loader] of Object.entries(mockSourceModules)) {
-    const parsed = parseMocksPath(globKey);
+  for (const [globKey, loader] of Object.entries(flatMockModules)) {
+    const parsed = parseFlatMockPath(globKey);
     if (!parsed) continue;
-    const { examIdFromPath, fileName } = parsed;
-
-    let raw: unknown;
-    try {
-      const mod = await loader();
-      raw = mod.default;
-    } catch (err) {
-      const reason = `failed to load: ${err instanceof Error ? err.message : String(err)}`;
-      errors.push({ mockSourceId: fileName, filePath: globKey, reason });
-      diagnostics.push({ filePath: globKey, fileName, examId: examIdFromPath, status: 'error', warnings: [], errors: [reason] });
-      _cacheFailed = true;
-      continue;
-    }
-
-    const { file, warnings, errors: normalizeErrors } = normalizeMockSource(raw, { examIdFromPath, fileName, filePath: globKey });
-
-    if (!file || normalizeErrors.length > 0) {
-      errors.push(...normalizeErrors);
-      diagnostics.push({ filePath: globKey, fileName, examId: examIdFromPath, status: 'error', warnings, errors: normalizeErrors.map((e) => e.reason) });
-      continue;
-    }
-
-    const validationErrors = validateNormalized(file, globKey);
-    if (validationErrors.length > 0) {
-      errors.push(...validationErrors);
-      diagnostics.push({ filePath: globKey, fileName, examId: examIdFromPath, status: 'error', mockId: file.id, warnings, errors: validationErrors.map((e) => e.reason) });
-      continue; // excluded entirely — a half-valid mock never partially loads, and never breaks any other mock
-    }
-
-    files.push(file);
-    diagnostics.push({
-      filePath: globKey, fileName, examId: file.examId, status: 'ok', mockId: file.id,
-      questionCount: file.questions.length,
-      sectionSummaries: file.sections.map((s) => ({ title: s.title, questionCount: s.questionCount })),
-      warnings, errors: [],
-    });
+    await loadOne(globKey, loader, parsed.examIdFromPath, parsed.fileName, undefined, files, errors, diagnostics, () => { _cacheFailed = true; });
+  }
+  for (const [globKey, loader] of Object.entries(folderMockModules)) {
+    const parsed = parseFolderMockPath(globKey);
+    if (!parsed) continue;
+    await loadOne(globKey, loader, parsed.examIdFromPath, parsed.fileName, parsed.baseDir, files, errors, diagnostics, () => { _cacheFailed = true; });
   }
 
   _cache = { files, errors, diagnostics };
   return _cache;
+}
+
+async function loadOne(
+  globKey: string,
+  loader: () => Promise<{ default: unknown }>,
+  examIdFromPath: string,
+  fileName: string,
+  baseDir: string | undefined,
+  files: MockSourceFile[],
+  errors: MockSourceValidationError[],
+  diagnostics: MockSourceDiagnosticEntry[],
+  markCacheFailed: () => void
+): Promise<void> {
+  let raw: unknown;
+  try {
+    const mod = await loader();
+    raw = mod.default;
+  } catch (err) {
+    const reason = `failed to load: ${err instanceof Error ? err.message : String(err)}`;
+    errors.push({ mockSourceId: fileName, filePath: globKey, reason });
+    diagnostics.push({ filePath: globKey, fileName, examId: examIdFromPath, status: 'error', warnings: [], errors: [reason] });
+    markCacheFailed();
+    return;
+  }
+
+  const { file, warnings, errors: normalizeErrors } = normalizeMockSource(raw, { examIdFromPath, fileName, filePath: globKey, baseDir });
+
+  if (!file || normalizeErrors.length > 0) {
+    errors.push(...normalizeErrors);
+    diagnostics.push({ filePath: globKey, fileName, examId: examIdFromPath, status: 'error', warnings, errors: normalizeErrors.map((e) => e.reason) });
+    return;
+  }
+
+  const validationErrors = validateNormalized(file, globKey);
+  if (validationErrors.length > 0) {
+    errors.push(...validationErrors);
+    diagnostics.push({ filePath: globKey, fileName, examId: examIdFromPath, status: 'error', mockId: file.id, warnings, errors: validationErrors.map((e) => e.reason) });
+    return; // excluded entirely — a half-valid mock never partially loads, and never breaks any other mock
+  }
+
+  files.push(file);
+  diagnostics.push({
+    filePath: globKey, fileName, examId: file.examId, status: 'ok', mockId: file.id,
+    questionCount: file.questions.length,
+    sectionSummaries: file.sections.map((s) => ({ title: s.title, questionCount: s.questionCount })),
+    warnings, errors: [],
+  });
 }
 
 export async function getAllMockSourceFiles(): Promise<MockSourceFile[]> {
@@ -160,8 +193,8 @@ export function toUniversalQuestions(file: MockSourceFile): UniversalQuestion[] 
       topicId: q.topicId,
       subtopicId: q.subTopicId,
       questionType: 'mcq',
-      question: q.question,
-      options: q.options,
+      question: q.question ?? '',
+      options: q.options.map((o) => ({ id: o.id, text: o.text, image: o.image })),
       correctAnswer: q.correctAnswer,
       explanation: q.explanation,
       difficulty: q.difficulty ?? 'medium',
@@ -172,6 +205,7 @@ export function toUniversalQuestions(file: MockSourceFile): UniversalQuestion[] 
       sourceMockId: file.id,
       sourceSectionId: section?.id,
       sourceSectionTitle: section?.title,
+      sourceMockBaseDir: file.baseDir,
     };
   });
 }

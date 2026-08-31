@@ -11,6 +11,8 @@ export type QuestionLanguage = 'en' | 'hi' | 'bilingual';
 export interface UniversalQuestionOption {
   id: string; // "A" | "B" | "C" | "D" — stable within the question
   text: string;
+  /** Resolved through mockAssetRepository when present — image-based reasoning options (Venn diagrams, figure choices, etc.). */
+  image?: string;
 }
 
 export interface UniversalQuestion {
@@ -45,6 +47,8 @@ export interface UniversalQuestion {
   sourceMockId?: string;
   sourceSectionId?: string;
   sourceSectionTitle?: string;
+  /** Set only for folder-based mocks (mock.json + questions/*.md + assets/*) — lets the question renderer resolve `asset:filename` image references without a second lookup. */
+  sourceMockBaseDir?: string;
 
   isCurrentAffairs?: boolean;
   currentAffairDate?: string; // ISO date, e.g. "2026-06-27"

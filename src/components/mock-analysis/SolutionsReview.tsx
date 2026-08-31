@@ -1,6 +1,7 @@
 import { useMemo, useRef, useState } from 'react';
 import { Flag } from 'lucide-react';
 import type { QuestionAnalysis } from '../../types/mockAnalysis';
+import { QuestionMarkdownRenderer, QuestionOptionContent } from '../mock/QuestionMarkdownRenderer';
 
 type SolutionFilter = 'all' | 'correct' | 'incorrect' | 'unattempted' | 'marked';
 
@@ -98,7 +99,9 @@ export function SolutionsReview({ solutions }: { solutions: QuestionAnalysis[] }
                     {s.status}
                   </span>
                 </div>
-                <p className="text-sm font-medium mb-3 whitespace-pre-line" style={{ color: 'var(--text-primary)' }}>{s.question}</p>
+                <div className="text-sm font-medium mb-3" style={{ color: 'var(--text-primary)' }}>
+                  <QuestionMarkdownRenderer content={s.question} baseDir={s.baseDir} />
+                </div>
                 <div className="space-y-1 mb-2">
                   {s.options.map((opt) => {
                     const isSelected = opt.id === s.selectedAnswer;
@@ -106,19 +109,23 @@ export function SolutionsReview({ solutions }: { solutions: QuestionAnalysis[] }
                     return (
                       <div
                         key={opt.id}
-                        className="text-xs px-2.5 py-1.5 rounded-lg flex items-center gap-2"
+                        className="text-xs px-2.5 py-1.5 rounded-lg flex items-start gap-2"
                         style={{
                           background: isCorrect ? 'rgba(34,197,94,0.1)' : isSelected ? 'rgba(239,68,68,0.1)' : 'transparent',
                           color: isCorrect ? '#22c55e' : isSelected ? '#ef4444' : 'var(--text-secondary)',
                         }}
                       >
-                        <span className="font-semibold">{opt.id}.</span> {opt.text}
+                        <span className="font-semibold">{opt.id}.</span> <QuestionOptionContent text={opt.text} image={opt.image} baseDir={s.baseDir} />
                       </div>
                     );
                   })}
                 </div>
                 {!selectedOption && <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Not attempted — correct answer: {correctOption?.id}</p>}
-                {s.explanation && <p className="text-xs mt-2 p-2.5 rounded-lg" style={{ background: 'var(--border)', color: 'var(--text-secondary)' }}>{s.explanation}</p>}
+                {s.explanation && (
+                  <div className="text-xs mt-2 p-2.5 rounded-lg" style={{ background: 'var(--border)', color: 'var(--text-secondary)' }}>
+                    <QuestionMarkdownRenderer content={s.explanation} baseDir={s.baseDir} />
+                  </div>
+                )}
                 <p className="text-[11px] mt-2" style={{ color: 'var(--text-muted)' }}>Time spent: {s.timeSpentSeconds}s{s.isMarkedForReview ? ' · Marked for review' : ''}</p>
               </div>
             );
