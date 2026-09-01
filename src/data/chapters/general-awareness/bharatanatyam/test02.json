@@ -1,0 +1,30 @@
+[
+  {
+    "id": "bn04",
+    "question": "The 'Natya Shastra', foundational to Bharatanatyam, is attributed to which sage?",
+    "options": [
+      { "id": "A", "text": "Bharata Muni" },
+      { "id": "B", "text": "Valmiki" },
+      { "id": "C", "text": "Vyasa" },
+      { "id": "D", "text": "Patanjali" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Natya Shastra is attributed to sage Bharata Muni.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "bn05",
+    "question": "Which of these is the expressive, storytelling aspect of Bharatanatyam?",
+    "options": [
+      { "id": "A", "text": "Nritya" },
+      { "id": "B", "text": "Nritta" },
+      { "id": "C", "text": "Tala" },
+      { "id": "D", "text": "Laya" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Nritya is the expressive component conveying meaning through gesture and expression.",
+    "difficulty": "medium",
+    "language": "en"
+  }
+]

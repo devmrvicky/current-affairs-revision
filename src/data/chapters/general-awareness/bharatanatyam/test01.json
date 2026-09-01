@@ -1,0 +1,44 @@
+[
+  {
+    "id": "bn01",
+    "question": "Bharatanatyam is traditionally associated with which Indian state?",
+    "options": [
+      { "id": "A", "text": "Tamil Nadu" },
+      { "id": "B", "text": "Kerala" },
+      { "id": "C", "text": "Odisha" },
+      { "id": "D", "text": "Assam" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Bharatanatyam is traditionally associated with Tamil Nadu, originating as a temple dance form there.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "bn02",
+    "question": "Simplify: $\\frac{3}{4}+\\frac{5}{8}-\\frac{1}{2}$",
+    "options": [
+      { "id": "A", "text": "7/8" },
+      { "id": "B", "text": "5/8" },
+      { "id": "C", "text": "3/4" },
+      { "id": "D", "text": "1" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "3/4 + 5/8 - 1/2 = 6/8 + 5/8 - 4/8 = 7/8.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "bn03",
+    "questionFile": "questions/q05.md",
+    "options": [
+      { "id": "A", "text": "The two circles represent overlapping categories" },
+      { "id": "B", "text": "The two circles represent unrelated categories" },
+      { "id": "C", "text": "The two circles are identical sets" },
+      { "id": "D", "text": "None of the above" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The overlapping region in a Venn diagram represents elements common to both sets.",
+    "difficulty": "medium",
+    "language": "en"
+  }
+]

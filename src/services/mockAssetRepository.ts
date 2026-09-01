@@ -17,10 +17,21 @@ const assetModules = import.meta.glob<string>('../data/**/mocks/**/assets/*', {
   import: 'default',
 });
 
+// Same scheme, for the canonical Universal Chapter structure
+// (src/data/chapters/{subjectId}/{chapterId}/assets/*) — question images
+// referenced from chapter test JSON / question Markdown as
+// `asset:filename.png`. A second glob rather than widening the mocks
+// pattern above so the two content systems stay independently discoverable.
+const chapterAssetModules = import.meta.glob<string>('../data/chapters/*/*/assets/*', {
+  eager: true,
+  query: '?url',
+  import: 'default',
+});
+
 // Precompute baseDir -> filename -> url for O(1) lookups instead of
 // rescanning the glob map on every resolve call.
 const byBaseDirAndFile = new Map<string, Map<string, string>>();
-for (const [globKey, url] of Object.entries(assetModules)) {
+for (const [globKey, url] of Object.entries({ ...assetModules, ...chapterAssetModules })) {
   const marker = '/assets/';
   const idx = globKey.lastIndexOf(marker);
   if (idx < 0) continue;

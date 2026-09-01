@@ -1,12 +1,10 @@
-import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Layers, ChevronRight } from 'lucide-react';
 import { useExamStore } from '../store/examStore';
 import { examRegistry } from '../data/registry/examRegistry';
 import { getSubjectsForExam } from '../services/examService';
-import { getAvailableSubjects } from '../services/questionRepository';
-import { getSyllabusSubjectIds } from '../services/syllabusRepository';
+import { getSubjectIdsWithChapterContent } from '../services/universalChapterRepository';
 
 // Level 1 of the generic Chapters flow (product-refactor §27-29): every
 // subject configured for the selected exam, in the exam's own order — no
@@ -18,16 +16,11 @@ export default function ChaptersPage() {
   const exam = examRegistry.getExam(selectedExamId);
   const subjects = getSubjectsForExam(selectedExamId);
 
-  const [contentSubjectIds, setContentSubjectIds] = useState<Set<string>>(new Set());
-  const syllabusSubjectIds = new Set(getSyllabusSubjectIds());
-
-  useEffect(() => {
-    let cancelled = false;
-    getAvailableSubjects(selectedExamId).then((avail) => {
-      if (!cancelled) setContentSubjectIds(new Set(avail.map((a) => a.subjectId)));
-    });
-    return () => { cancelled = true; };
-  }, [selectedExamId]);
+  // Content-driven, not a per-subject special case: a subject shows "Notes &
+  // Tests" the moment the Universal Chapter Repository can find at least one
+  // chapter for it (any source — canonical, legacy, or syllabus), never
+  // because of which subjectId it happens to be.
+  const contentSubjectIds = getSubjectIdsWithChapterContent();
 
   if (!exam) {
     return (
@@ -55,8 +48,7 @@ export default function ChaptersPage() {
 
       <div className="space-y-2.5">
         {subjects.map((subject, i) => {
-          const hasQuestions = contentSubjectIds.has(subject.id) || subject.id === 'current-affairs'; // CA's chapters are quiz-only via its own established page, always available
-          const hasNotes = syllabusSubjectIds.has(subject.id);
+          const hasContent = contentSubjectIds.has(subject.id);
           return (
             <motion.button
               key={subject.id}
@@ -69,7 +61,7 @@ export default function ChaptersPage() {
               <div>
                 <p className="font-display font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>{subject.name}</p>
                 <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>
-                  {hasQuestions || hasNotes ? 'Notes & Tests' : 'Coming soon'}
+                  {hasContent ? 'Notes & Tests' : 'Coming soon'}
                 </p>
               </div>
               <ChevronRight size={16} style={{ color: 'var(--text-muted)' }} />

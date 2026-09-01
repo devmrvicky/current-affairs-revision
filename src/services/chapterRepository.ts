@@ -39,6 +39,20 @@ function folderNameOf(relPath: string): string {
   return parts[0];
 }
 
+/**
+ * Legacy chapters are exactly ONE folder deep: data/chapters/<Name>/<file>.
+ * The newer canonical structure nests a subject folder above the chapter
+ * folder — data/chapters/<subjectId>/<chapterId>/<file> — one level deeper.
+ * Without this guard, a canonical file would flow through folderNameOf()
+ * above (which only ever looks at parts[0]) and get silently merged into a
+ * bogus "chapter" named after its subject folder. universalChapterRepository
+ * owns discovery of the canonical structure; this repository only ever
+ * touches genuinely flat, legacy paths.
+ */
+function isLegacyRelPath(relPath: string): boolean {
+  return relPath.split('/').length <= 2;
+}
+
 function naturalCompare(a: string, b: string): number {
   return a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
 }
@@ -72,6 +86,7 @@ export function getChapterList(): ChapterInfo[] {
 
   for (const globKey of Object.keys(jsonModules)) {
     const relPath = relativeToChaptersRoot(globKey);
+    if (!isLegacyRelPath(relPath)) continue; // canonical subjectId/chapterId/file.json — not this repository's concern
     const chapter = folderNameOf(relPath);
     const entry = byChapter.get(chapter) ?? { jsonPaths: [], mdPaths: [] };
     entry.jsonPaths.push(relPath);
@@ -80,6 +95,7 @@ export function getChapterList(): ChapterInfo[] {
 
   for (const globKey of getRawMarkdownGlobKeys()) {
     const relPath = relativeToChaptersRoot(globKey);
+    if (!isLegacyRelPath(relPath)) continue; // canonical subjectId/chapterId/notes.md — not this repository's concern
     const chapter = folderNameOf(relPath);
     const entry = byChapter.get(chapter) ?? { jsonPaths: [], mdPaths: [] };
     entry.mdPaths.push({ relPath, globKey });

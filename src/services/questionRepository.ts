@@ -22,21 +22,23 @@ import { convertDailyQuiz } from './legacyQuestionAdapter';
 import { subjectRegistry, getTopicDisplayName } from '../data/registry/subjectRegistry';
 import { examRegistry } from '../data/registry/examRegistry';
 import { getAllMockSourceUniversalQuestions, clearMockSourceCache } from './mockSourceRegistry';
+import { slugify } from '../utils/slug';
 
 // ─── Topic-name → topic-id resolution ──────────────────────────────────────────
 // Chapter folder names are free-text ("Books and authors"); TOPICS registry ids
 // are slugs. Resolve by normalized match so content authors don't need to
-// rename folders to satisfy the registry.
+// rename folders to satisfy the registry — and when there's no registry entry
+// at all, fall back to the folder name's own slug rather than leaving the
+// question topicless, so a brand-new chapter folder is practiceable/testable
+// with zero registry edits (Universal Chapter auto-discovery requirement).
 
-function normalize(s: string): string {
-  return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-}
+const normalize = slugify;
 
-export function resolveTopicId(chapterFolderName: string): string | undefined {
+export function resolveTopicId(chapterFolderName: string): string {
   const target = normalize(chapterFolderName);
   const topics = subjectRegistry.getTopicsForSubject('current-affairs');
   const hit = topics.find((t) => normalize(t.name) === target || t.id === target);
-  return hit?.id;
+  return hit?.id ?? target;
 }
 
 // ─── Native universal content loader ───────────────────────────────────────────
@@ -292,6 +294,113 @@ async function loadMiscellaneousQuestions(): Promise<UniversalQuestion[]> {
   return all;
 }
 
+// ─── Universal Chapter test questions (canonical structure) ────────────────
+// src/data/chapters/{subjectId}/{chapterId}/{testFile}.json — the canonical
+// two-level Universal Chapter layout (see universalChapterRepository.ts,
+// which owns discovery/display for the chapter itself; this is only the
+// question-pool side, so Practice/Test/Mixed Revision — the SAME universal
+// session engine as everywhere else — can find these questions too).
+// Deliberately a distinct glob from the flat legacy `chapters/**/*.json`
+// used by chapterRepository.ts/loadChapterWiseCurrentAffairsQuestions below
+// — `*/*/*.json` only ever matches exactly subjectId/chapterId/file.json,
+// so the two structures can never double-count each other's files.
+const canonicalChapterModules = import.meta.glob<{ default: NativeQuestionFileEntry[] }>(
+  '../data/chapters/*/*/*.json',
+  { eager: false }
+);
+
+// A chapter question's Markdown body can optionally live in its own file —
+// "questionFile": "questions/q05.md" — instead of inline in the JSON, the
+// same "authoring convenience, resolved once at load time" pattern
+// mockQuestionContentRepository.ts already uses for folder-based mocks.
+const canonicalQuestionFileModules = import.meta.glob<string>(
+  '../data/chapters/*/*/questions/*.md',
+  { eager: true, query: '?raw', import: 'default' }
+);
+
+interface CanonicalChapterEntry extends NativeQuestionFileEntry {
+  subjectId?: string;
+  examId?: string;
+  sourceMeta?: { exam?: string };
+  /** e.g. "questions/q05.md" — relative to the chapter's own folder. */
+  questionFile?: string;
+}
+
+function parseCanonicalChapterPath(globKey: string): { subjectId: string; chapterId: string; fileName: string } | null {
+  const marker = '/data/chapters/';
+  const idx = globKey.indexOf(marker);
+  if (idx < 0) return null;
+  const parts = globKey.slice(idx + marker.length).split('/'); // [subjectId, chapterId, "test01.json"] — exactly 3 by construction of the glob pattern
+  if (parts.length !== 3) return null;
+  const [subjectId, chapterId, fileName] = parts;
+  if (!subjectId || !chapterId || !fileName) return null;
+  return { subjectId, chapterId, fileName: fileName.replace(/\.json$/i, '') };
+}
+
+/** Folder containing this chapter's `assets/` and `questions/` subfolders — the same baseDir convention resolveMockAsset()/resolveQuestionMarkdown() already use for folder-based mocks. */
+export function canonicalChapterBaseDir(subjectId: string, chapterId: string): string {
+  return `../data/chapters/${subjectId}/${chapterId}/`;
+}
+
+let _canonicalChapterCache: UniversalQuestion[] | null = null;
+
+async function loadCanonicalChapterQuestions(): Promise<UniversalQuestion[]> {
+  if (_canonicalChapterCache) return _canonicalChapterCache;
+  const all: UniversalQuestion[] = [];
+
+  for (const [globKey, loader] of Object.entries(canonicalChapterModules)) {
+    const parsed = parseCanonicalChapterPath(globKey);
+    if (!parsed) continue;
+    const { subjectId: folderSubjectId, chapterId, fileName } = parsed;
+    const baseDir = canonicalChapterBaseDir(folderSubjectId, chapterId);
+
+    const mod = await loader();
+    const entries = mod.default as CanonicalChapterEntry[];
+    if (!Array.isArray(entries)) continue;
+
+    for (const entry of entries) {
+      // Preserve an explicitly-authored subjectId/topicId; otherwise derive
+      // from the folder itself, and topicId defaults to the chapter's own id
+      // (master prompt "Chapter Question Derivation").
+      const subjectId = entry.subjectId ?? folderSubjectId;
+      const topicId = entry.topicId ?? chapterId;
+
+      const restrictedExamId = entry.examId ?? entry.sourceMeta?.exam;
+      const examIds = restrictedExamId ? [restrictedExamId] : examIdsForSubject(subjectId);
+      if (examIds.length === 0) continue; // not on any exam's syllabus yet — nothing would ever surface it
+
+      let question = entry.question;
+      if (entry.questionFile) {
+        const fileGlobKey = `${baseDir}${entry.questionFile}`;
+        const resolved = canonicalQuestionFileModules[fileGlobKey];
+        if (resolved) question = resolved;
+        else console.warn(`[UniversalChapterRepository] questionFile not found: ${entry.questionFile} (chapter ${folderSubjectId}/${chapterId})`);
+      }
+
+      all.push({
+        id: `chapter-${folderSubjectId}-${chapterId}-${normalize(fileName)}-${entry.id}`,
+        examIds,
+        subjectId,
+        topicId,
+        subtopicId: entry.subtopicId,
+        questionType: entry.questionType ?? 'mcq',
+        question,
+        options: entry.options,
+        correctAnswer: entry.correctAnswer,
+        explanation: entry.explanation,
+        difficulty: entry.difficulty ?? 'medium',
+        language: entry.language ?? 'hi',
+        source: `chapter:${folderSubjectId}/${chapterId}/${fileName}`,
+        tags: entry.tags,
+        sourceMockBaseDir: baseDir,
+      });
+    }
+  }
+
+  _canonicalChapterCache = all;
+  return all;
+}
+
 // ─── In-memory cache ────────────────────────────────────────────────────────
 // Bundled JSON is immutable content (master prompt §41) — safe to cache for
 // the session once loaded. Never cache user state (attempts/bookmarks) here.
@@ -362,9 +471,10 @@ async function loadChapterWiseCurrentAffairsQuestions(): Promise<UniversalQuesti
 
 /** All questions currently loadable in the app, across every source. Cached after first call. */
 async function loadAllQuestions(): Promise<UniversalQuestion[]> {
-  const [daily, chapterWise, native, mocks, misc, mockSource] = await Promise.all([
+  const [daily, chapterWise, canonicalChapter, native, mocks, misc, mockSource] = await Promise.all([
     loadDailyCurrentAffairsQuestions(),
     loadChapterWiseCurrentAffairsQuestions(),
+    loadCanonicalChapterQuestions(),
     loadNativeUniversalQuestions(),
     loadExamMockQuestions(),
     loadMiscellaneousQuestions(),
@@ -374,7 +484,7 @@ async function loadAllQuestions(): Promise<UniversalQuestion[]> {
   // collisions shouldn't happen, but a repository consumer should never have
   // to worry about it either way.
   const seen = new Map<string, UniversalQuestion>();
-  for (const q of [...daily, ...chapterWise, ...native, ...mocks, ...misc, ...mockSource]) seen.set(q.id, q);
+  for (const q of [...daily, ...chapterWise, ...canonicalChapter, ...native, ...mocks, ...misc, ...mockSource]) seen.set(q.id, q);
   return Array.from(seen.values());
 }
 
@@ -382,6 +492,7 @@ async function loadAllQuestions(): Promise<UniversalQuestion[]> {
 export function clearQuestionCache(): void {
   _dailyCache = null;
   _chapterCache = null;
+  _canonicalChapterCache = null;
   _nativeCache = null;
   _mockCache = null;
   _miscCache = null;
