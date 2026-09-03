@@ -9,15 +9,24 @@ import { subjectRegistry, getTopicDisplayName } from '../../data/registry/subjec
 const COLLAPSE_KEY = 'continue-reading-collapsed';
 
 /**
- * readerStore keys everything by a flat `chapterId` string. Native subject
- * chapters use the composite key `syllabus::{subjectId}::{chapterId}`
- * (syllabusRepository.syllabusReaderKey) so they can never collide with a
- * legacy Current Affairs chapter, whose id is just its bare chapter name in
- * the same namespace. This resolves either shape to a route + display label
- * without readerStore itself needing to know the difference.
+ * readerStore keys everything by a flat `chapterId` string, and three shapes
+ * have existed over time:
+ *  - `chapter::{subjectId}::{chapterId}` — the Universal Chapter Engine's key
+ *    (universalChapterRepository.chapterReaderKey), used by every chapter
+ *    reached through /chapters/:subjectId/:chapterId, INCLUDING Current
+ *    Affairs' topic-wise chapters when opened that way.
+ *  - `syllabus::{subjectId}::{chapterId}` — an earlier, now-retired key shape
+ *    kept here only so progress/favorites saved before this migration still
+ *    resolve to a working link instead of a broken one.
+ *  - a bare chapter name (e.g. "Budget") — Current Affairs' own dedicated
+ *    reader at /chapter/:chapterName (ChapterDetailPage.tsx), unrelated to
+ *    and independent from the Universal Chapter Engine's own progress
+ *    tracking for the same content.
+ * This resolves any of the three to a route + display label without
+ * readerStore itself needing to know the difference.
  */
 function resolveChapterLink(chapterId: string): { route: string; label: string } {
-  if (chapterId.startsWith('syllabus::')) {
+  if (chapterId.startsWith('chapter::') || chapterId.startsWith('syllabus::')) {
     const [, subjectId, subChapterId] = chapterId.split('::');
     const subjectName = subjectRegistry.getSubject(subjectId)?.name ?? subjectId;
     const chapterName = getTopicDisplayName(subjectId, subChapterId);
@@ -28,7 +37,7 @@ function resolveChapterLink(chapterId: string): { route: string; label: string }
 
 export function ContinueReadingWidget() {
   const navigate = useNavigate();
-  const { getContinueReading, getFavorites, progress } = useReaderStore();
+  const { getContinueReading, getFavorites } = useReaderStore();
   const [collapsed, setCollapsed] = useState(() => lsGet(COLLAPSE_KEY, false));
 
   const continueReading = getContinueReading().slice(0, 3);

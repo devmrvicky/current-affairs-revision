@@ -5,8 +5,7 @@ import { Check, Settings2, X, ListChecks, Zap, ClipboardList, Newspaper } from '
 import toast from 'react-hot-toast';
 import { useExamStore } from '../store/examStore';
 import { usePracticeSessionStore } from '../store/practiceSessionStore';
-import { examRegistry } from '../data/registry/examRegistry';
-import { getSubjectsForExam } from '../services/examService';
+import { getSubjectsForExam, getExam } from '../services/examService';
 import { getAvailableTopics, getAvailableSubjects, getRandomQuestions, type AvailableTopic } from '../services/questionRepository';
 import { createQuestionPool } from '../services/practiceService';
 import { getPracticeTests, describeTestSource, type PracticeTestDefinition } from '../services/practiceTestRepository';
@@ -31,7 +30,7 @@ const DIFFICULTY_OPTIONS: { id: Difficulty | 'mixed'; label: string }[] = [
 export default function PracticeConfigurePage() {
   const navigate = useNavigate();
   const { selectedExamId } = useExamStore();
-  const exam = examRegistry.getExam(selectedExamId);
+  const exam = getExam(selectedExamId);
   const { session, startSession, clearSession } = usePracticeSessionStore();
 
   const subjects = getSubjectsForExam(selectedExamId);

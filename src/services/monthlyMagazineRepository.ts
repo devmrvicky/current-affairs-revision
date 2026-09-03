@@ -3,25 +3,28 @@ import { getMonthlyMagazineMarkdownGlobKeys, loadMarkdownByGlobKey } from './mar
 
 // ─── Monthly Magazine glob ─────────────────────────────────────────────────────
 // Folder structure (source of truth — never inferred from filenames):
-//   data/monthly-magazine/2025/june/june.md
-//   data/monthly-magazine/2025/june/june 01.json
-//   data/monthly-magazine/2025/june/june 02.json
-// The Year is the first folder segment, the Month is the second — folder
-// names are typically lowercase ("june"), but ARE case-insensitive: every
-// month folder normalizes to its canonical display form ("June") regardless
-// of how it's actually cased on disk. Every .md file in the folder becomes a
-// Part (in natural sort order); every .json file becomes a Test. Filenames
-// themselves are NEVER parsed for meaning ("june.md", "Part 1.md", whatever
-// convention is used doesn't matter) — only file TYPE and folder position do.
-// Unlike chapterRepository, ALL markdown parts are kept (not just the first)
-// — this system was built multi-part-first.
+//   data/chapters/General Awareness/Current Affairs/Monthly/2025/june/june.md
+//   data/chapters/General Awareness/Current Affairs/Monthly/2025/june/june 01.json
+//   data/chapters/General Awareness/Current Affairs/Monthly/2025/june/june 02.json
+// (data-architecture migration — this used to be its own top-level
+// data/monthly-magazine/ root before Monthly Magazine moved under Current
+// Affairs/General Awareness.) The Year is the first folder segment after
+// Monthly/, the Month is the second — folder names are typically lowercase
+// ("june"), but ARE case-insensitive: every month folder normalizes to its
+// canonical display form ("June") regardless of how it's actually cased on
+// disk. Every .md file in the folder becomes a Part (in natural sort order);
+// every .json file becomes a Test. Filenames themselves are NEVER parsed for
+// meaning ("june.md", "Part 1.md", whatever convention is used doesn't
+// matter) — only file TYPE and folder position do. Unlike the Current
+// Affairs chapter-wise reader, ALL markdown parts are kept (not just the
+// first) — this system was built multi-part-first.
 
 const jsonModules = import.meta.glob<{ default: DailyQuiz }>(
-  '../data/monthly-magazine/**/*.json',
+  '../data/chapters/General Awareness/Current Affairs/Monthly/**/*.json',
   { eager: false }
 );
 
-const MAGAZINE_ROOT_MARKER = '/data/monthly-magazine/';
+const MAGAZINE_ROOT_MARKER = '/data/chapters/General Awareness/Current Affairs/Monthly/';
 
 /** "../data/monthly-magazine/2025/june/june.md" → "2025/june/june.md" */
 function relativeToMagazineRoot(globKey: string): string {
@@ -60,6 +63,12 @@ function naturalCompare(a: string, b: string): number {
   return a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
 }
 
+/** "June 02.json" → "June 02". Only the extension is stripped — casing, spacing and wording are preserved exactly as uploaded (data-architecture migration §15: never replace a real filename with a generated "Test 01" label). */
+function labelFromFileName(relPath: string): string {
+  const fileName = relPath.split('/').pop() ?? relPath;
+  return fileName.replace(/\.json$/i, '');
+}
+
 let _issueList: MonthlyMagazineIssue[] | null = null;
 
 export function getMonthlyMagazineIssues(): MonthlyMagazineIssue[] {
@@ -96,9 +105,9 @@ export function getMonthlyMagazineIssues(): MonthlyMagazineIssue[] {
       const sortedJson = [...jsonPaths].sort(naturalCompare);
       const sortedMd = [...mdPaths].sort((a, b) => naturalCompare(a.relPath, b.relPath));
 
-      const tests: MonthlyMagazineTest[] = sortedJson.map((relPath, i) => ({
+      const tests: MonthlyMagazineTest[] = sortedJson.map((relPath) => ({
         relPath,
-        label: `Test ${String(i + 1).padStart(2, '0')}`,
+        label: labelFromFileName(relPath),
       }));
 
       const parts: MonthlyMagazinePart[] = sortedMd.map(({ relPath, globKey }, i) => ({

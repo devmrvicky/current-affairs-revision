@@ -5,8 +5,7 @@ import { Clock, ListChecks, Layers } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { useExamStore } from '../../store/examStore';
 import { usePracticeSessionStore } from '../../store/practiceSessionStore';
-import { examRegistry } from '../../data/registry/examRegistry';
-import { getSubjectsForExam } from '../../services/examService';
+import { getSubjectsForExam, getExam } from '../../services/examService';
 import { getAvailableSubjects } from '../../services/questionRepository';
 import { createQuestionPool, buildSessionQuestionIds } from '../../services/practiceService';
 import type { UniversalQuestion } from '../../types/universalQuestion';
@@ -30,7 +29,7 @@ export function QuickTestPanel() {
   const { selectedExamId } = useExamStore();
   const { session, startSession, clearSession } = usePracticeSessionStore();
 
-  const exam = examRegistry.getExam(selectedExamId);
+  const exam = getExam(selectedExamId);
   const subjects = useMemo(() => getSubjectsForExam(selectedExamId), [selectedExamId]);
 
   const [contentSubjectIds, setContentSubjectIds] = useState<Set<string>>(new Set());

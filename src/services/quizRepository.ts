@@ -56,11 +56,15 @@ export function parseDateFromFileName(fileName: string): Date | null {
 // ─── Implementation 1: Local JSON files via import.meta.glob ─────────────────
 // Zero manual registration. Drop a new .json file → it's auto-discovered.
 // Vite's glob import produces a lazy module map at build time.
-// `**` recurses into month subfolders (e.g. data/current-affairs/June/08june2026.json)
-// while still matching files placed directly in the root for backward compatibility.
+// `**` recurses into month subfolders (e.g.
+// data/chapters/General Awareness/Current Affairs/Daily/June/08june2026.json)
+// while still matching files placed directly in the root for backward
+// compatibility. (data-architecture migration — this used to be its own
+// top-level data/current-affairs/ root before Daily Current Affairs moved
+// under General Awareness/Current Affairs/.)
 
 const globModules = import.meta.glob<{ default: DailyQuiz }>(
-  '../data/current-affairs/**/*.json',
+  '../data/chapters/General Awareness/Current Affairs/Daily/**/*.json',
   { eager: false }
 );
 

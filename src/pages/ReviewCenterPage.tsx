@@ -13,7 +13,7 @@ import { useHistoryStore } from '../store/historyStore';
 import { useChapterStore } from '../store/chapterStore';
 import { useExamStore } from '../store/examStore';
 import { useQuizStore } from '../store/quizStore';
-import { examRegistry } from '../data/registry/examRegistry';
+import { getExam } from '../services/examService';
 import { resolveTopicId, getUnattemptedQuestions, getRandomQuestions, resolveQuestionsByIds } from '../services/questionRepository';
 import { getTopicPerformance, getRecentAttemptRecords } from '../services/attemptLedgerService';
 import { toLegacyQuestion } from '../services/legacyQuestionAdapter';
@@ -164,7 +164,7 @@ export default function ReviewCenterPage() {
   const { stats: chapterStats, isLoading: loadingChapters, load: loadChapters } = useChapterStore();
   const { selectedExamId } = useExamStore();
   const { startSession } = useQuizStore();
-  const exam = examRegistry.getExam(selectedExamId);
+  const exam = getExam(selectedExamId);
 
   const [unattemptedCount, setUnattemptedCount] = useState<number | null>(null);
   const [loadingUnattempted, setLoadingUnattempted] = useState(false);

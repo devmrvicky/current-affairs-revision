@@ -11,7 +11,7 @@
 import { getQuestionsByExam } from './questionRepository';
 import type { UniversalQuestion, Difficulty } from '../types/universalQuestion';
 
-export type PracticeTestSource = 'exam-mock' | 'legacy-chapter' | 'miscellaneous' | 'mock-source';
+export type PracticeTestSource = 'exam-mock' | 'chapter' | 'mock-source';
 
 export interface PracticeTestDefinition {
   id: string;
@@ -49,18 +49,27 @@ function inferSource(rawSource: string): { kind: PracticeTestSource; title: stri
   if (rawSource.startsWith('mock-source:')) {
     return { kind: 'mock-source', title: humanize(rawSource.slice(12)) };
   }
-  if (rawSource.startsWith('miscellaneous:')) {
-    return { kind: 'miscellaneous', title: humanize(rawSource.slice(14)) };
+  // Universal Chapter test file — source is "chapter:{subjectId}/{chapterId}/{fileName}".
+  // The title is the fileName exactly as it came in from questionRepository's
+  // canonical chapter loader — already extension-stripped there, and never
+  // re-generated as "Test 01" (data-architecture migration §15/§35: a test
+  // card must show the real uploaded filename verbatim).
+  if (rawSource.startsWith('chapter:')) {
+    const parts = rawSource.slice(8).split('/');
+    const fileName = parts[parts.length - 1];
+    return { kind: 'chapter', title: fileName || humanize(rawSource) };
   }
   if (rawSource.includes('/')) {
-    // Chapter-wise Current Affairs: source is "{chapterName}/{testLabel}"
+    // Current Affairs' own topic-wise chapters: source is "{chapterName}/{testLabel}",
+    // where testLabel is likewise the real filename (chapterRepository.ts),
+    // never a generated "Test 01".
     const [chapterName, testLabel] = rawSource.split('/');
-    return { kind: 'legacy-chapter', title: `${chapterName} — ${testLabel}` };
+    return { kind: 'chapter', title: `${chapterName} — ${testLabel}` };
   }
   return null; // e.g. a bare daily-quiz filename — not a discrete "test" unit worth listing here, it already has its own Daily Quiz entry point
 }
 
-const SOURCE_ORDER: Record<PracticeTestSource, number> = { 'exam-mock': 0, 'mock-source': 1, 'legacy-chapter': 2, miscellaneous: 3 };
+const SOURCE_ORDER: Record<PracticeTestSource, number> = { 'exam-mock': 0, 'mock-source': 1, chapter: 2 };
 
 export async function getPracticeTests(examId: string, subjectId: string): Promise<PracticeTestDefinition[]> {
   const pool = (await getQuestionsByExam(examId)).filter((q) => q.subjectId === subjectId);
@@ -93,7 +102,7 @@ export async function getPracticeTests(examId: string, subjectId: string): Promi
     });
   }
 
-  // Featured mocks first, then chapter tests, then miscellaneous practice sets (product-refactor §97)
+  // Featured mocks first, then chapter tests (product-refactor §97)
   defs.sort((a, b) => SOURCE_ORDER[a.source] - SOURCE_ORDER[b.source] || a.title.localeCompare(b.title));
   return defs;
 }
@@ -101,6 +110,6 @@ export async function getPracticeTests(examId: string, subjectId: string): Promi
 export function describeTestSource(source: PracticeTestSource): string {
   if (source === 'exam-mock') return 'Exam Mock';
   if (source === 'mock-source') return 'Mock Questions';
-  if (source === 'legacy-chapter') return 'Chapter Test';
+  if (source === 'chapter') return 'Chapter Test';
   return 'Practice Set';
 }

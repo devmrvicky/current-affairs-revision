@@ -4,8 +4,7 @@ import {
   ListChecks, Layers, Sparkles, ArrowRight, Target as TargetIcon, Newspaper, RefreshCcw,
 } from 'lucide-react';
 import { useExamStore } from '../store/examStore';
-import { examRegistry } from '../data/registry/examRegistry';
-import { getSyllabusWithCounts } from '../services/examService';
+import { getSyllabusWithCounts, getExam } from '../services/examService';
 import { getSubjectPerformance } from '../services/attemptLedgerService';
 import { getActiveResumableSession, type ResumableSession } from '../services/resumeSessionService';
 import { motion } from 'framer-motion';
@@ -41,7 +40,7 @@ export default function HomePage() {
   const { loadAll: loadReaderData } = useReaderStore();
 
   const { selectedExamId } = useExamStore();
-  const selectedExam = examRegistry.getExam(selectedExamId);
+  const selectedExam = getExam(selectedExamId);
   const isCurrentAffairsExam = selectedExamId === 'current-affairs';
 
   const [syllabus, setSyllabus] = useState<Awaited<ReturnType<typeof getSyllabusWithCounts>>>([]);

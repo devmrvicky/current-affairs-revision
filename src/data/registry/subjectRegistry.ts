@@ -1,5 +1,6 @@
 import type { Subject, Topic, SubjectRegistry } from '../../types/exam';
 import { EXAMS } from './examRegistry';
+import { slugify } from '../../utils/slug';
 
 // ─── Subjects ───────────────────────────────────────────────────────────────
 // Reusable across exams. An exam references these by id in its `subjects[]`
@@ -70,6 +71,22 @@ function humanizeId(id: string): string {
 export function getTopicDisplayName(subjectId: string, topicId: string): string {
   const registered = TOPICS.find((t) => t.subjectId === subjectId && t.id === topicId);
   return registered?.name ?? humanizeId(topicId);
+}
+
+// ─── Folder name → subject id resolution ───────────────────────────────────
+// Canonical chapter folders are human-readable ("General Awareness",
+// "Mathematics") so content stays readable on disk; the rest of the app
+// (question tagging, exam syllabi, practice filtering) needs the stable slug
+// ("general-awareness"). Resolve by normalized match against the registry
+// first — same two-tier model as topic display names above — and fall back
+// to the folder's own slug when there's no registry entry yet, so a brand
+// new subject folder is usable immediately with zero registry edits
+// (data-architecture migration §19/§30: no hardcoded content registries).
+
+export function resolveSubjectId(subjectFolderName: string): string {
+  const target = slugify(subjectFolderName);
+  const hit = SUBJECTS.find((s) => slugify(s.name) === target || s.id === target);
+  return hit?.id ?? target;
 }
 
 // ─── Registry implementation ──────────────────────────────────────────────────

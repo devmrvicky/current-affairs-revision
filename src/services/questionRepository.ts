@@ -19,7 +19,7 @@ import { validateUniversalQuestion } from '../types/universalQuestion';
 import { getQuizRepository, parseDateFromFileName } from './quizRepository';
 import { getChapterList, loadChapterTest } from './chapterRepository';
 import { convertDailyQuiz } from './legacyQuestionAdapter';
-import { subjectRegistry, getTopicDisplayName } from '../data/registry/subjectRegistry';
+import { subjectRegistry, getTopicDisplayName, resolveSubjectId } from '../data/registry/subjectRegistry';
 import { examRegistry } from '../data/registry/examRegistry';
 import { getAllMockSourceUniversalQuestions, clearMockSourceCache } from './mockSourceRegistry';
 import { slugify } from '../utils/slug';
@@ -82,7 +82,7 @@ type NativeQuestionFile = NativeQuestionFileEntry[];
 // "Jan 01.json" — 4 segments, and "January" would coincidentally NOT parse
 // as a year, but relying on that coincidence is fragile, so we exclude these
 // folders by name explicitly instead).
-const RESERVED_CATEGORY_FOLDERS = new Set(['current-affairs', 'chapters', 'monthly-magazine', 'registry']);
+const RESERVED_CATEGORY_FOLDERS = new Set(['chapters', 'registry']);
 
 /** "../data/ssc/ssc-chsl/2026/mathematics.json" → { category: "ssc", examId: "ssc-chsl", year: 2026, subjectId: "mathematics" } */
 function parseNativePath(globKey: string): { examId: string; year: number; subjectId: string } | null {
@@ -167,7 +167,7 @@ interface MockFileEntry extends NativeQuestionFileEntry {
 // Folders that are never an examId, even though `**/mock/*.json` could
 // theoretically match something unrelated — defense in depth alongside the
 // "examId is whatever sits directly before /mock/" rule below.
-const RESERVED_TOP_FOLDERS = new Set(['current-affairs', 'chapters', 'monthly-magazine', 'registry', 'syllabus', 'miscellaneous']);
+const RESERVED_TOP_FOLDERS = new Set(['chapters', 'registry']);
 
 function parseMockPath(globKey: string): { examId: string; fileName: string } | null {
   const marker = '/data/';
@@ -223,29 +223,13 @@ async function loadExamMockQuestions(): Promise<UniversalQuestion[]> {
   return all;
 }
 
-// ─── Miscellaneous subject tests ────────────────────────────────────────────
-// src/data/miscellaneous/{subjectId}/{fileName}.json — single-subject, but
-// deliberately NOT tied to one exam (product-refactor §57). `examIds` is
-// computed from examRegistry: every exam whose configured syllabus already
-// includes this subject gets this content automatically — reusing the
-// universal question model's existing multi-exam-membership design
-// (Phase 1) rather than inventing a wildcard "applies everywhere" marker.
-
-const miscModules = import.meta.glob<{ default: NativeQuestionFileEntry[] }>(
-  '../data/miscellaneous/*/*.json',
-  { eager: false }
-);
-
-function parseMiscPath(globKey: string): { subjectId: string; fileName: string } | null {
-  const marker = '/data/miscellaneous/';
-  const idx = globKey.indexOf(marker);
-  if (idx < 0) return null;
-  const parts = globKey.slice(idx + marker.length).split('/'); // [subjectId, "test 01.json"]
-  if (parts.length !== 2) return null;
-  const [subjectId, fileName] = parts;
-  if (!subjectId || !fileName) return null;
-  return { subjectId, fileName: fileName.replace(/\.json$/i, '') };
-}
+// ─── Cross-exam availability ────────────────────────────────────────────────
+// `examIds` for content that isn't tied to one specific exam (a canonical
+// chapter test with no explicit exam restriction, etc.) is computed from
+// examRegistry: every exam whose configured syllabus already includes this
+// subject gets the content automatically — reusing the universal question
+// model's existing multi-exam-membership design rather than inventing a
+// wildcard "applies everywhere" marker.
 
 function examIdsForSubject(subjectId: string): string[] {
   return examRegistry.getAllExams()
@@ -253,59 +237,29 @@ function examIdsForSubject(subjectId: string): string[] {
     .map((exam) => exam.id);
 }
 
-let _miscCache: UniversalQuestion[] | null = null;
-
-async function loadMiscellaneousQuestions(): Promise<UniversalQuestion[]> {
-  if (_miscCache) return _miscCache;
-  const all: UniversalQuestion[] = [];
-
-  for (const [globKey, loader] of Object.entries(miscModules)) {
-    const parsed = parseMiscPath(globKey);
-    if (!parsed) continue;
-    const { subjectId, fileName } = parsed;
-    const examIds = examIdsForSubject(subjectId);
-    if (examIds.length === 0) continue; // no exam currently lists this subject — nothing would ever surface it, skip rather than orphan it
-
-    const mod = await loader();
-    const entries = mod.default;
-    if (!Array.isArray(entries)) continue;
-
-    for (const entry of entries) {
-      all.push({
-        id: `misc-${subjectId}-${normalize(fileName)}-${entry.id}`,
-        examIds,
-        subjectId,
-        topicId: entry.topicId,
-        subtopicId: entry.subtopicId,
-        questionType: entry.questionType ?? 'mcq',
-        question: entry.question,
-        options: entry.options,
-        correctAnswer: entry.correctAnswer,
-        explanation: entry.explanation,
-        difficulty: entry.difficulty ?? 'medium',
-        language: entry.language ?? 'hi',
-        source: `miscellaneous:${fileName}`,
-        tags: entry.tags,
-      });
-    }
-  }
-
-  _miscCache = all;
-  return all;
-}
-
 // ─── Universal Chapter test questions (canonical structure) ────────────────
-// src/data/chapters/{subjectId}/{chapterId}/{testFile}.json — the canonical
-// two-level Universal Chapter layout (see universalChapterRepository.ts,
-// which owns discovery/display for the chapter itself; this is only the
-// question-pool side, so Practice/Test/Mixed Revision — the SAME universal
-// session engine as everywhere else — can find these questions too).
-// Deliberately a distinct glob from the flat legacy `chapters/**/*.json`
-// used by chapterRepository.ts/loadChapterWiseCurrentAffairsQuestions below
-// — `*/*/*.json` only ever matches exactly subjectId/chapterId/file.json,
-// so the two structures can never double-count each other's files.
+// src/data/chapters/{Subject}/{Chapter}/{testFile}.json — the canonical
+// Universal Chapter layout (see universalChapterRepository.ts, which owns
+// discovery/display for the chapter itself; this is only the question-pool
+// side, so Practice/Test/Mixed Revision — the SAME universal session engine
+// as everywhere else — can find these questions too). A subject can
+// optionally group chapters under a category folder —
+// src/data/chapters/{Subject}/{Category}/{Chapter}/{testFile}.json — used
+// where a subject's chapters are naturally grouped (e.g. General Awareness's
+// Polity/Parliament). Folder names are human-readable ("General Awareness");
+// subjectId/chapterId are derived via resolveSubjectId()/slugify() so the
+// folder itself never needs to already be a slug.
+//
+// "General Awareness/Current Affairs/**" is deliberately EXCLUDED here — that
+// whole subtree (topic-wise chapters, Daily, Monthly) is still owned by
+// chapterRepository.ts/monthlyMagazineRepository.ts/quizRepository.ts for
+// backward compatibility with the pre-existing Current Affairs reader and
+// its user progress/highlights/attempt-ledger keys (data-architecture
+// migration §32) — those loaders feed loadChapterWiseCurrentAffairsQuestions
+// /loadDailyCurrentAffairsQuestions below instead. Letting this loader also
+// pick up the same files would double-load them under a different subjectId.
 const canonicalChapterModules = import.meta.glob<{ default: NativeQuestionFileEntry[] }>(
-  '../data/chapters/*/*/*.json',
+  ['../data/chapters/*/*/*.json', '../data/chapters/*/*/*/*.json'],
   { eager: false }
 );
 
@@ -314,7 +268,7 @@ const canonicalChapterModules = import.meta.glob<{ default: NativeQuestionFileEn
 // same "authoring convenience, resolved once at load time" pattern
 // mockQuestionContentRepository.ts already uses for folder-based mocks.
 const canonicalQuestionFileModules = import.meta.glob<string>(
-  '../data/chapters/*/*/questions/*.md',
+  ['../data/chapters/*/*/questions/*.md', '../data/chapters/*/*/*/questions/*.md'],
   { eager: true, query: '?raw', import: 'default' }
 );
 
@@ -326,20 +280,31 @@ interface CanonicalChapterEntry extends NativeQuestionFileEntry {
   questionFile?: string;
 }
 
-function parseCanonicalChapterPath(globKey: string): { subjectId: string; chapterId: string; fileName: string } | null {
+const RESERVED_CANONICAL_SEGMENTS = new Set(['assets', 'questions']);
+
+function parseCanonicalChapterPath(globKey: string): { subjectId: string; chapterId: string; fileName: string; baseDir: string } | null {
   const marker = '/data/chapters/';
   const idx = globKey.indexOf(marker);
   if (idx < 0) return null;
-  const parts = globKey.slice(idx + marker.length).split('/'); // [subjectId, chapterId, "test01.json"] — exactly 3 by construction of the glob pattern
-  if (parts.length !== 3) return null;
-  const [subjectId, chapterId, fileName] = parts;
-  if (!subjectId || !chapterId || !fileName) return null;
-  return { subjectId, chapterId, fileName: fileName.replace(/\.json$/i, '') };
-}
+  const parts = globKey.slice(idx + marker.length).split('/'); // [Subject, Chapter, file] or [Subject, Category, Chapter, file]
+  if (parts.length !== 3 && parts.length !== 4) return null;
+  if (parts.some((p) => RESERVED_CANONICAL_SEGMENTS.has(p))) return null;
 
-/** Folder containing this chapter's `assets/` and `questions/` subfolders — the same baseDir convention resolveMockAsset()/resolveQuestionMarkdown() already use for folder-based mocks. */
-export function canonicalChapterBaseDir(subjectId: string, chapterId: string): string {
-  return `../data/chapters/${subjectId}/${chapterId}/`;
+  const [subjectFolder, ...rest] = parts;
+  const fileName = rest[rest.length - 1];
+  const chapterFolder = rest[rest.length - 2];
+  if (!subjectFolder || !chapterFolder || !fileName) return null;
+
+  // "General Awareness/Current Affairs/**" stays with the legacy-compatible
+  // Current Affairs loaders (see block comment above) — never double-loaded here.
+  if (rest[0] === 'Current Affairs') return null;
+
+  return {
+    subjectId: resolveSubjectId(subjectFolder),
+    chapterId: slugify(chapterFolder),
+    fileName: fileName.replace(/\.json$/i, ''),
+    baseDir: `../data/chapters/${parts.slice(0, -1).join('/')}/`,
+  };
 }
 
 let _canonicalChapterCache: UniversalQuestion[] | null = null;
@@ -351,8 +316,7 @@ async function loadCanonicalChapterQuestions(): Promise<UniversalQuestion[]> {
   for (const [globKey, loader] of Object.entries(canonicalChapterModules)) {
     const parsed = parseCanonicalChapterPath(globKey);
     if (!parsed) continue;
-    const { subjectId: folderSubjectId, chapterId, fileName } = parsed;
-    const baseDir = canonicalChapterBaseDir(folderSubjectId, chapterId);
+    const { subjectId: folderSubjectId, chapterId, fileName, baseDir } = parsed;
 
     const mod = await loader();
     const entries = mod.default as CanonicalChapterEntry[];
@@ -471,20 +435,19 @@ async function loadChapterWiseCurrentAffairsQuestions(): Promise<UniversalQuesti
 
 /** All questions currently loadable in the app, across every source. Cached after first call. */
 async function loadAllQuestions(): Promise<UniversalQuestion[]> {
-  const [daily, chapterWise, canonicalChapter, native, mocks, misc, mockSource] = await Promise.all([
+  const [daily, chapterWise, canonicalChapter, native, mocks, mockSource] = await Promise.all([
     loadDailyCurrentAffairsQuestions(),
     loadChapterWiseCurrentAffairsQuestions(),
     loadCanonicalChapterQuestions(),
     loadNativeUniversalQuestions(),
     loadExamMockQuestions(),
-    loadMiscellaneousQuestions(),
     loadMockSourceQuestions(),
   ]);
   // De-dupe by id defensively — every source uses a disjoint id prefix so
   // collisions shouldn't happen, but a repository consumer should never have
   // to worry about it either way.
   const seen = new Map<string, UniversalQuestion>();
-  for (const q of [...daily, ...chapterWise, ...canonicalChapter, ...native, ...mocks, ...misc, ...mockSource]) seen.set(q.id, q);
+  for (const q of [...daily, ...chapterWise, ...canonicalChapter, ...native, ...mocks, ...mockSource]) seen.set(q.id, q);
   return Array.from(seen.values());
 }
 
@@ -495,7 +458,6 @@ export function clearQuestionCache(): void {
   _canonicalChapterCache = null;
   _nativeCache = null;
   _mockCache = null;
-  _miscCache = null;
   _mockSourceCache = null;
   clearMockSourceCache();
 }

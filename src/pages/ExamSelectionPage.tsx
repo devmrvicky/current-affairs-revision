@@ -1,13 +1,13 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { GraduationCap, TrainFront, Landmark, Newspaper, Check, ArrowLeft } from 'lucide-react';
+import { GraduationCap, TrainFront, Landmark, Check, ArrowLeft } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 import type { ExamCategory } from '../types/exam';
 import { getAllExams } from '../services/examService';
 import { useExamStore } from '../store/examStore';
 
 const CATEGORY_META: Record<ExamCategory, { label: string; icon: LucideIcon; color: string }> = {
-  other:    { label: 'Current Affairs',  icon: Newspaper,     color: '#6366f1' },
+  other:    { label: 'Other Exams',      icon: GraduationCap, color: '#6366f1' },
   ssc:      { label: 'SSC',              icon: GraduationCap, color: '#a855f7' },
   railway:  { label: 'Railway',          icon: TrainFront,    color: '#0ea5e9' },
   banking:  { label: 'Banking',          icon: Landmark,      color: '#22c55e' },

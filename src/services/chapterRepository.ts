@@ -1,67 +1,65 @@
 import type { DailyQuiz } from '../types';
 import { getRawMarkdownGlobKeys, loadMarkdownByGlobKey } from './markdownRepository';
 
-// ─── Chapter glob ─────────────────────────────────────────────────────────────
-// `**` recurses into per-chapter subfolders, e.g.
-//   data/chapters/Budget/Budget 01.json
-//   data/chapters/Budget/Budget 02.json
-//   data/chapters/Budget/Budget.md
-// A chapter is a FOLDER. The folder name is always the chapter title —
-// never derived from the file names inside it. Every .json file inside the
-// folder is a separate Test; every .md file becomes a Part, in natural sort
-// order (a folder with just one .md file is the common case and displays as
-// plain "Revision" rather than "Part 1" — see ChapterDetailPage). Names never
-// need to match each other or the folder.
+// ─── Chapter-wise Current Affairs glob ─────────────────────────────────────────
+// Current Affairs' topic-wise content now lives at:
+//   data/chapters/General Awareness/Current Affairs/Budget/Budget 01.json
+//   data/chapters/General Awareness/Current Affairs/Budget/Budget 02.json
+//   data/chapters/General Awareness/Current Affairs/Budget/Budget.md
+// (data-architecture migration — this used to sit directly under
+// data/chapters/<Name>/ before Current Affairs moved under General Awareness).
+// A chapter is a FOLDER, one level under ".../Current Affairs/". The folder
+// name is always the chapter title — never derived from the file names
+// inside it. Every .json file inside the folder is a separate Test; every
+// .md file becomes a Part, in natural sort order (a folder with just one .md
+// file is the common case and displays as plain "Revision" rather than
+// "Part 1" — see ChapterDetailPage). "Daily" and "Monthly" are reserved
+// sibling folders for Current Affairs' own date/issue-indexed content (see
+// quizRepository.ts / monthlyMagazineRepository.ts) — never treated as a
+// topic-wise chapter by this repository.
+
+const CHAPTERS_ROOT_MARKER = '/data/chapters/General Awareness/Current Affairs/';
+const RESERVED_SIBLING_FOLDERS = new Set(['Daily', 'Monthly']);
 
 const jsonModules = import.meta.glob<{ default: DailyQuiz }>(
-  '../data/chapters/**/*.json',
+  '../data/chapters/General Awareness/Current Affairs/**/*.json',
   { eager: false }
 );
 
-const CHAPTERS_ROOT_MARKER = '/data/chapters/';
-
-/** "../data/chapters/Budget/Budget 02.json" → "Budget/Budget 02.json" */
+/** ".../Current Affairs/Budget/Budget 02.json" → "Budget/Budget 02.json" */
 function relativeToChaptersRoot(globKey: string): string {
   const idx = globKey.indexOf(CHAPTERS_ROOT_MARKER);
   if (idx >= 0) return globKey.slice(idx + CHAPTERS_ROOT_MARKER.length);
   return globKey.split('/').pop() ?? globKey;
 }
 
-/**
- * The chapter name is the immediate parent folder.
- * Legacy fallback: a file placed directly under data/chapters/ with no
- * subfolder uses its own base name as the chapter name, so any old flat
- * files keep working unchanged.
- */
+/** The chapter name is the immediate parent folder — never derived from the file names inside it. */
 function folderNameOf(relPath: string): string {
   const parts = relPath.split('/');
-  if (parts.length === 1) return parts[0].replace(/\.(json|md)$/i, '');
   return parts[0];
 }
 
-/**
- * Legacy chapters are exactly ONE folder deep: data/chapters/<Name>/<file>.
- * The newer canonical structure nests a subject folder above the chapter
- * folder — data/chapters/<subjectId>/<chapterId>/<file> — one level deeper.
- * Without this guard, a canonical file would flow through folderNameOf()
- * above (which only ever looks at parts[0]) and get silently merged into a
- * bogus "chapter" named after its subject folder. universalChapterRepository
- * owns discovery of the canonical structure; this repository only ever
- * touches genuinely flat, legacy paths.
- */
-function isLegacyRelPath(relPath: string): boolean {
-  return relPath.split('/').length <= 2;
+/** A topic-wise chapter is exactly one folder deep under Current Affairs/: <Name>/<file>. Anything deeper (e.g. an "assets/" subfolder) or named "Daily"/"Monthly" isn't this repository's concern. */
+function isChapterWiseRelPath(relPath: string): boolean {
+  const parts = relPath.split('/');
+  return parts.length === 2 && !RESERVED_SIBLING_FOLDERS.has(parts[0]);
 }
 
 function naturalCompare(a: string, b: string): number {
   return a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
 }
 
+/** "My Venn Diagram Practice Set.json" → "My Venn Diagram Practice Set". Only the extension is stripped — casing, spacing and wording are preserved exactly as uploaded (data-architecture migration §15: never replace a real filename with a generated "Test 01" label). */
+function labelFromFileName(relPath: string): string {
+  const fileName = relPath.split('/').pop() ?? relPath;
+  return fileName.replace(/\.(json|md)$/i, '');
+}
+
 // ─── Chapter info ─────────────────────────────────────────────────────────────
 
 export interface ChapterTest {
   relPath: string;   // unique key, e.g. "Budget/Budget 02.json"
-  label: string;      // "Test 01", "Test 02", ... — assigned by stable order, not filename
+  label: string;      // the original filename, extension stripped — e.g. "Budget 02"
 }
 
 export interface ChapterPart {
@@ -86,7 +84,7 @@ export function getChapterList(): ChapterInfo[] {
 
   for (const globKey of Object.keys(jsonModules)) {
     const relPath = relativeToChaptersRoot(globKey);
-    if (!isLegacyRelPath(relPath)) continue; // canonical subjectId/chapterId/file.json — not this repository's concern
+    if (!isChapterWiseRelPath(relPath)) continue;
     const chapter = folderNameOf(relPath);
     const entry = byChapter.get(chapter) ?? { jsonPaths: [], mdPaths: [] };
     entry.jsonPaths.push(relPath);
@@ -95,7 +93,8 @@ export function getChapterList(): ChapterInfo[] {
 
   for (const globKey of getRawMarkdownGlobKeys()) {
     const relPath = relativeToChaptersRoot(globKey);
-    if (!isLegacyRelPath(relPath)) continue; // canonical subjectId/chapterId/notes.md — not this repository's concern
+    if (!globKey.includes(CHAPTERS_ROOT_MARKER)) continue; // not under Current Affairs/ at all
+    if (!isChapterWiseRelPath(relPath)) continue;
     const chapter = folderNameOf(relPath);
     const entry = byChapter.get(chapter) ?? { jsonPaths: [], mdPaths: [] };
     entry.mdPaths.push({ relPath, globKey });
@@ -108,9 +107,9 @@ export function getChapterList(): ChapterInfo[] {
       const sortedMd = [...mdPaths].sort((a, b) => naturalCompare(a.relPath, b.relPath));
       return {
         chapterName,
-        tests: sortedJson.map((relPath, i) => ({
+        tests: sortedJson.map((relPath) => ({
           relPath,
-          label: `Test ${String(i + 1).padStart(2, '0')}`,
+          label: labelFromFileName(relPath),
         })),
         parts: sortedMd.map(({ relPath, globKey }, i) => ({
           relPath,

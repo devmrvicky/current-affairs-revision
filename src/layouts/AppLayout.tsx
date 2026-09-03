@@ -3,7 +3,7 @@ import { Home, BarChart3, Settings, BookOpen, Moon, Sun, Layers, Sparkles, Shiel
 import { useSettingsStore } from '../store/statsStore';
 import { useAuthStore } from '../store/authStore';
 import { useExamStore } from '../store/examStore';
-import { examRegistry } from '../data/registry/examRegistry';
+import { getExam } from '../services/examService';
 import { SyncStatusIndicator } from '../components/common/SyncStatusIndicator';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 
@@ -31,7 +31,7 @@ export default function AppLayout() {
   const { settings, update } = useSettingsStore();
   const { isAdmin } = useAuthStore();
   const { selectedExamId } = useExamStore();
-  const selectedExam = examRegistry.getExam(selectedExamId);
+  const selectedExam = getExam(selectedExamId);
   const navigate = useNavigate();
   const location = useLocation();
   const isQuizPage = location.pathname === '/quiz' || location.pathname === '/analysis' || location.pathname === '/session'

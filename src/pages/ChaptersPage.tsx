@@ -2,8 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Layers, ChevronRight } from 'lucide-react';
 import { useExamStore } from '../store/examStore';
-import { examRegistry } from '../data/registry/examRegistry';
-import { getSubjectsForExam } from '../services/examService';
+import { getSubjectsForExam, getExam } from '../services/examService';
 import { getSubjectIdsWithChapterContent } from '../services/universalChapterRepository';
 
 // Level 1 of the generic Chapters flow (product-refactor §27-29): every
@@ -13,7 +12,7 @@ import { getSubjectIdsWithChapterContent } from '../services/universalChapterRep
 export default function ChaptersPage() {
   const navigate = useNavigate();
   const { selectedExamId } = useExamStore();
-  const exam = examRegistry.getExam(selectedExamId);
+  const exam = getExam(selectedExamId);
   const subjects = getSubjectsForExam(selectedExamId);
 
   // Content-driven, not a per-subject special case: a subject shows "Notes &

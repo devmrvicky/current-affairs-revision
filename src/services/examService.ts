@@ -7,18 +7,20 @@ import type { Exam, Subject, Topic, ExamCategory } from '../types/exam';
 import { examRegistry } from '../data/registry/examRegistry';
 import { subjectRegistry } from '../data/registry/subjectRegistry';
 import { getQuestionsByExam, getContentSummary } from './questionRepository';
+import { getAvailableExams } from './examDiscoveryService';
 
+/** Every exam that actually has content on disk (data-architecture migration §13/§14) — the registry alone is configuration, not proof an exam exists. */
 export function getAllExams(): Exam[] {
-  return examRegistry.getAllExams();
+  return getAvailableExams();
 }
 
-/** Only exams that currently have real question data — safe to show in the exam selector today. */
+/** Same as getAllExams() — kept as a distinct name for callers that only care about "safe to show in the exam selector today", which content-driven discovery now guarantees for everything it returns. */
 export function getActiveExams(): Exam[] {
-  return examRegistry.getActiveExams();
+  return getAvailableExams();
 }
 
 export function getExam(examId: string): Exam | undefined {
-  return examRegistry.getExam(examId);
+  return getAvailableExams().find((e) => e.id === examId) ?? examRegistry.getExam(examId);
 }
 
 export function getExamsByCategory(category: ExamCategory): Exam[] {

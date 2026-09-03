@@ -13,7 +13,7 @@ const markdownModules = import.meta.glob<string>(
 // chapters glob above so extending/fixing one system can never affect the
 // other — same reasoning as having two repositories instead of one shared one.
 const monthlyMagazineMarkdownModules = import.meta.glob<string>(
-  '../data/monthly-magazine/**/*.md',
+  '../data/chapters/General Awareness/Current Affairs/Monthly/**/*.md',
   { eager: false, query: '?raw', import: 'default' }
 );
 
