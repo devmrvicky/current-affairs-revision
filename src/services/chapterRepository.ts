@@ -2,12 +2,16 @@ import type { DailyQuiz } from '../types';
 import { getRawMarkdownGlobKeys, loadMarkdownByGlobKey } from './markdownRepository';
 
 // ─── Chapter-wise Current Affairs glob ─────────────────────────────────────────
-// Current Affairs' topic-wise content now lives at:
-//   data/chapters/General Awareness/Current Affairs/Budget/Budget 01.json
-//   data/chapters/General Awareness/Current Affairs/Budget/Budget 02.json
-//   data/chapters/General Awareness/Current Affairs/Budget/Budget.md
-// (data-architecture migration — this used to sit directly under
-// data/chapters/<Name>/ before Current Affairs moved under General Awareness).
+// This repository is scoped ONLY to genuinely date/CA-workflow-specific
+// content that lives directly under ".../Current Affairs/" — permanent,
+// reusable General Awareness topics (Budget, Art & Culture, Science & Tech,
+// GI Tags, etc.) were audited by actual content, not folder name, and moved
+// out to be direct General Awareness chapters (data-architecture correction
+// — "Current Affairs is not a dumping ground for every GA question that
+// happened to be collected via a current-affairs pipeline"). What's left
+// here is content whose SUBJECT MATTER is itself time-bound — e.g.:
+//   data/chapters/General Awareness/Current Affairs/Modi mantrimandal/Modi mantrimandal 01.json
+//   data/chapters/General Awareness/Current Affairs/App & Portal/app_portal.md
 // A chapter is a FOLDER, one level under ".../Current Affairs/". The folder
 // name is always the chapter title — never derived from the file names
 // inside it. Every .json file inside the folder is a separate Test; every
@@ -26,7 +30,7 @@ const jsonModules = import.meta.glob<{ default: DailyQuiz }>(
   { eager: false }
 );
 
-/** ".../Current Affairs/Budget/Budget 02.json" → "Budget/Budget 02.json" */
+/** ".../Current Affairs/Modi mantrimandal/Modi mantrimandal 02.json" → "Modi mantrimandal/Modi mantrimandal 02.json" */
 function relativeToChaptersRoot(globKey: string): string {
   const idx = globKey.indexOf(CHAPTERS_ROOT_MARKER);
   if (idx >= 0) return globKey.slice(idx + CHAPTERS_ROOT_MARKER.length);

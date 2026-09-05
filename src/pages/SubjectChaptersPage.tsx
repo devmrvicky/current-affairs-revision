@@ -12,12 +12,14 @@ import { getQuestionCountByTopic } from '../services/questionRepository';
 // hard-coded list, and not special-cased per subject.
 //
 // General Awareness gets exactly one deliberate addition: Current Affairs'
-// own topic-wise chapters (Budget, GI Tags, ...) are merged in underneath
-// their own "Current Affairs" heading — real content, reachable from here,
-// each opening in the same universal chapter workspace as any other chapter
-// — plus a single link to the full Current Affairs hub for Daily/Calendar/
-// Monthly, which stay CA-only extensions rather than becoming generic
-// chapter features (data-architecture migration §3/§10/§11).
+// own topic-wise chapters (Modi Mantrimandal, App & Portal, ...) — genuinely
+// date/CA-workflow-specific content, audited by actual substance rather than
+// historical folder location — are merged in underneath their own "Current
+// Affairs" heading — real content, reachable from here, each opening in the
+// same universal chapter workspace as any other chapter — plus a single
+// link to the full Current Affairs hub for Daily/Calendar/Monthly, which
+// stay CA-only extensions rather than becoming generic chapter features
+// (data-architecture migration §3/§10/§11).
 
 interface ChapterRow extends UniversalChapter {
   /** The chapter's OWN subjectId for navigation — distinct from the page's subjectId when this row was merged in from Current Affairs. */
