@@ -1,0 +1,511 @@
+[
+  {
+    "id": "pro01",
+    "question": "Both my sister (1) / and me (2) / went to a boarding school. (3) / No error (4).",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both my sister"
+      },
+      {
+        "id": "B",
+        "text": "and me"
+      },
+      {
+        "id": "C",
+        "text": "went to a boarding school."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correction shown in the class: “Both my sister and I went to a boarding school.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro02",
+    "question": "My uncle forced (1) / my friend and I (2) / to stay back. (3) / No error (4).",
+    "options": [
+      {
+        "id": "A",
+        "text": "My uncle forced"
+      },
+      {
+        "id": "B",
+        "text": "my friend and I"
+      },
+      {
+        "id": "C",
+        "text": "to stay back."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "After “forced”, the pronoun is an object; the class uses “my friend and me”.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro03",
+    "question": "He invited (1) / my sister and I (2) / to the party. (3) / No error (4).",
+    "options": [
+      {
+        "id": "A",
+        "text": "He invited"
+      },
+      {
+        "id": "B",
+        "text": "my sister and I"
+      },
+      {
+        "id": "C",
+        "text": "to the party."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "The pronoun is the object of “invited”; use “my sister and me”.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro04",
+    "question": "This gift is for you and ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "I"
+      },
+      {
+        "id": "B",
+        "text": "me"
+      },
+      {
+        "id": "C",
+        "text": "myself"
+      },
+      {
+        "id": "D",
+        "text": "none of these"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "After the preposition “for”, use the objective pronoun “me”.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "pro05",
+    "question": "You and ___ are responsible for the project.",
+    "options": [
+      {
+        "id": "A",
+        "text": "I"
+      },
+      {
+        "id": "B",
+        "text": "me"
+      },
+      {
+        "id": "C",
+        "text": "myself"
+      },
+      {
+        "id": "D",
+        "text": "none of these"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The pronoun is part of the subject “You and I”.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "pro06",
+    "question": "Between you and I (1) / there is no misunderstanding. (2) / We are clear about it. (3) / No error (4).",
+    "options": [
+      {
+        "id": "A",
+        "text": "Between you and I"
+      },
+      {
+        "id": "B",
+        "text": "there is no misunderstanding."
+      },
+      {
+        "id": "C",
+        "text": "We are clear about it."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "After “between”, use the objective form: “between you and me”.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "pro07",
+    "question": "Everyone except he (1) / is aware of the plan. (2) / You should inform him. (3) / No error (4).",
+    "options": [
+      {
+        "id": "A",
+        "text": "Everyone except he"
+      },
+      {
+        "id": "B",
+        "text": "is aware of the plan."
+      },
+      {
+        "id": "C",
+        "text": "You should inform him."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "After “except”, use the objective pronoun “him”.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "pro08",
+    "question": "There was a (1) / comparison between (2) / you and he (3) / no error (4).",
+    "options": [
+      {
+        "id": "A",
+        "text": "There was a"
+      },
+      {
+        "id": "B",
+        "text": "comparison between"
+      },
+      {
+        "id": "C",
+        "text": "you and he"
+      },
+      {
+        "id": "D",
+        "text": "no error"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "After “between”, both pronouns should be objective: “between you and him”.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "pro09",
+    "question": "Unless two or more members object to him joining the club, we shall have to accept his application for membership.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The slide highlights “him joining” after “object to”.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro10",
+    "question": "I was surprised and pleased when I was informed of me winning the contest.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The slide correction uses the possessive form before the gerund: “of my winning the contest”.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro11",
+    "question": "My teacher did not object to me using the calculator.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The slide focuses on the pronoun used with the -ing form after “object to”.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro12",
+    "question": "He, you and I are going to play Cricket.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The class teaches the preferred sequence as 2 + 3 + 1: You + third person + I.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro13",
+    "question": "I and you are going to watch movie.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The class applies the preferred sequence and gives “You and I” as the natural order.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro14",
+    "question": "Jai, I and Shivam have finished our work.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The class rearranges the subject according to the taught sequence and uses “our” for the group containing I.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro15",
+    "question": "He and you are found guilty.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The class applies the 2 + 3 + 1 order: “You and he …”.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro16",
+    "question": "She and you are at fault and will be punished.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The class applies the 2 + 3 + 1 order: “You and she …”.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro17",
+    "question": "You and they are responsible.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The slide marks this compound-subject sentence as correct.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "pro18",
+    "question": "You and he made a mistake.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The slide marks this compound-subject sentence as correct.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "pro19",
+    "question": "You and he will win the match.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The slide marks this compound-subject sentence as correct.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "pro20",
+    "question": "You and they have done a great job.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The slide marks this compound-subject sentence as correct.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "pro21",
+    "question": "John, I and Hari (1) / have finished (2) / our studies. (3) / No error (4).",
+    "options": [
+      {
+        "id": "A",
+        "text": "John, I and Hari"
+      },
+      {
+        "id": "B",
+        "text": "have finished"
+      },
+      {
+        "id": "C",
+        "text": "our studies."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The class rearranges the subject to “John, Hari and I”.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro22",
+    "question": "I and he (1) / have prepared (2) / the lesson thoroughly. (3) / No error. (4)",
+    "options": [
+      {
+        "id": "A",
+        "text": "I and he"
+      },
+      {
+        "id": "B",
+        "text": "have prepared"
+      },
+      {
+        "id": "C",
+        "text": "the lesson thoroughly."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The preferred order taught is “He and I”.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "pro23",
+    "question": "You and he have done our/their/his/her work.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The class note tests possessive agreement after a compound subject.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro24",
+    "question": "You, he and I have done our/your/their/my/his job.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The class note highlights “our” when referring to the whole group containing You, he and I.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro25",
+    "question": "The climate of Shimla is colder than Delhi.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The class highlights comparison of comparable entities, i.e. Shimla’s climate with Delhi’s climate.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro26",
+    "question": "The questions in this book are easier than that book.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The class highlights comparing like things: questions with questions, not questions with a book.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro27",
+    "question": "Your job is better than Ram’s.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "“Ram’s” represents “Ram’s job” in the comparison.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "pro28",
+    "question": "His voice is sweeter than you.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The class correction uses the possessive pronoun: “His voice is sweeter than yours.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro29",
+    "question": "The problems in India are similar to China.",
+    "options": [],
+    "correctAnswer": "",
+    "explanation": "The class highlights comparison of like entities: India’s problems with China’s problems.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro30",
+    "question": "The phone that (1) / my father bought was different (2) / from yours. (3) / No error (4).",
+    "options": [
+      {
+        "id": "A",
+        "text": "The phone that"
+      },
+      {
+        "id": "B",
+        "text": "my father bought was different"
+      },
+      {
+        "id": "C",
+        "text": "from yours."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The slide marks “from yours” as correct; “yours” stands for “your phone”.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro31",
+    "question": "Her handwriting (1) / is definitely more (2) / beautiful than me. (3) / No Error (4)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Her handwriting"
+      },
+      {
+        "id": "B",
+        "text": "is definitely more"
+      },
+      {
+        "id": "C",
+        "text": "beautiful than me."
+      },
+      {
+        "id": "D",
+        "text": "No Error"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The class correction uses “mine”: compare her handwriting with my handwriting.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "pro32",
+    "question": "He is (1) / fatter (2) / than me. (3) / No error (4)",
+    "options": [
+      {
+        "id": "A",
+        "text": "He is"
+      },
+      {
+        "id": "B",
+        "text": "fatter"
+      },
+      {
+        "id": "C",
+        "text": "than me."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The slide marks this sentence as having no error in the pattern shown.",
+    "difficulty": "medium",
+    "language": "en"
+  }
+]
