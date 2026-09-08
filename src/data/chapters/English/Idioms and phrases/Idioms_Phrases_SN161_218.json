@@ -5,34 +5,7 @@
     "options": [
       {
         "id": "A",
-        "text": "resume duty"
-      },
-      {
-        "id": "B",
-        "text": "produce an even and balanced result over time"
-      },
-      {
-        "id": "C",
-        "text": "full of wisdom"
-      },
-      {
-        "id": "D",
-        "text": "a young defenceless person"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "\"An old head on young shoulders\" means: full of wisdom. हिंदी: अपनी उम्र से अधिक बुद्धिमान. The other options describe different expressions and do not match this idiom.",
-    "example": "His mature advice showed that he had an old head on young shoulders.",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "idiom02",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"An olive branch\"",
-    "options": [
-      {
-        "id": "A",
-        "text": "resume duty"
+        "text": "one that holds no secrets; straightforward and honest"
       },
       {
         "id": "B",
@@ -40,42 +13,69 @@
       },
       {
         "id": "C",
-        "text": "produce an even and balanced result over time"
+        "text": "difficult task"
       },
       {
         "id": "D",
-        "text": "a young defenceless person"
+        "text": "full of wisdom"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\"An olive branch\" means: gesture of peace. हिंदी: शांति का प्रस्ताव. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "D",
+    "explanation": "\"An old head on young shoulders\" means \"full of wisdom\". हिंदी: अपनी उम्र से अधिक बुद्धिमान. In the example, \"His mature advice showed that he had an old head on young shoulders.\" This shows how the idiom is used in context.",
+    "example": "His mature advice showed that he had an old head on young shoulders.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "idiom02",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The two sides offered ________ to end the dispute.",
+    "options": [
+      {
+        "id": "A",
+        "text": "An uphill task"
+      },
+      {
+        "id": "B",
+        "text": "An open book"
+      },
+      {
+        "id": "C",
+        "text": "An old head on young shoulders"
+      },
+      {
+        "id": "D",
+        "text": "An olive branch"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The correct idiom is \"An olive branch\" because it means \"gesture of peace\". हिंदी: शांति का प्रस्ताव. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The two sides offered an olive branch to end the dispute.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom03",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"An open book\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: She is ________ and never hides her feelings.",
     "options": [
       {
         "id": "A",
-        "text": "resume duty"
+        "text": "An open book"
       },
       {
         "id": "B",
-        "text": "produce an even and balanced result over time"
+        "text": "An old head on young shoulders"
       },
       {
         "id": "C",
-        "text": "a young defenceless person"
+        "text": "An uphill task"
       },
       {
         "id": "D",
-        "text": "one that holds no secrets; straightforward and honest"
+        "text": "An olive branch"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "\"An open book\" means: one that holds no secrets; straightforward and honest. हिंदी: खुली किताब (बिना किसी रहस्य के). The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "The correct idiom is \"An open book\" because it means \"one that holds no secrets; straightforward and honest\". हिंदी: खुली किताब (बिना किसी रहस्य के). The sentence describes this exact situation, so this idiom fits the context.",
     "example": "She is an open book and never hides her feelings.",
     "difficulty": "medium",
     "language": "en"
@@ -86,11 +86,11 @@
     "options": [
       {
         "id": "A",
-        "text": "a young defenceless person"
+        "text": "full of wisdom"
       },
       {
         "id": "B",
-        "text": "produce an even and balanced result over time"
+        "text": "gesture of peace"
       },
       {
         "id": "C",
@@ -98,65 +98,65 @@
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "one that holds no secrets; straightforward and honest"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "\"An uphill task\" means: difficult task. हिंदी: मुश्किल कार्य. The other options describe different expressions and do not match this idiom.",
+    "explanation": "\"An uphill task\" means \"difficult task\". हिंदी: मुश्किल कार्य. In the example, \"Completing the syllabus in two days is an uphill task.\" This shows how the idiom is used in context.",
     "example": "Completing the syllabus in two days is an uphill task.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom05",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"Appeal to Caesar\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The situation described in the sentence is best expressed by: ________. ",
     "options": [
       {
         "id": "A",
-        "text": "produce an even and balanced result over time"
+        "text": "Appeal to Caesar"
       },
       {
         "id": "B",
-        "text": "a young defenceless person"
+        "text": "At a stretch"
       },
       {
         "id": "C",
-        "text": "appeal to the highest possible authority"
+        "text": "Apple-cart"
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "Average out"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "\"Appeal to Caesar\" means: appeal to the highest possible authority. हिंदी: उच्चतम अधिकारी से अपील करना. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "The correct idiom is \"Appeal to Caesar\" because it means \"appeal to the highest possible authority\". हिंदी: उच्चतम अधिकारी से अपील करना. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "He appealed to Caesar when the lower authority rejected his request.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom06",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"Apple of discord\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The disputed property became an ________ between the families.",
     "options": [
       {
         "id": "A",
-        "text": "produce an even and balanced result over time"
+        "text": "At loggerheads"
       },
       {
         "id": "B",
-        "text": "reason for quarrel; cause of friction"
+        "text": "Apple of discord"
       },
       {
         "id": "C",
-        "text": "resume duty"
+        "text": "Apples and oranges"
       },
       {
         "id": "D",
-        "text": "a young defenceless person"
+        "text": "As fit as a fiddle"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "\"Apple of discord\" means: reason for quarrel; cause of friction. हिंदी: फसाद की जड़ (झगड़े का कारण). The other options describe different expressions and do not match this idiom.",
+    "explanation": "The correct idiom is \"Apple of discord\" because it means \"reason for quarrel; cause of friction\". हिंदी: फसाद की जड़ (झगड़े का कारण). The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The disputed property became an apple of discord between the families.",
     "difficulty": "medium",
     "language": "en"
@@ -167,77 +167,77 @@
     "options": [
       {
         "id": "A",
-        "text": "resume duty"
+        "text": "unable to decide"
       },
       {
         "id": "B",
-        "text": "someone very precious or dear"
+        "text": "paid for by someone"
       },
       {
         "id": "C",
-        "text": "a young defenceless person"
+        "text": "unquestionably dead or inoperative"
       },
       {
         "id": "D",
-        "text": "produce an even and balanced result over time"
+        "text": "someone very precious or dear"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\"Apple of one’s eye\" means: someone very precious or dear. हिंदी: आंखों का तारा (बहुत प्यारा). The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "D",
+    "explanation": "\"Apple of one’s eye\" means \"someone very precious or dear\". हिंदी: आंखों का तारा (बहुत प्यारा). In the example, \"Her youngest child is the apple of her eye.\" This shows how the idiom is used in context.",
     "example": "Her youngest child is the apple of her eye.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom08",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"Apple-cart\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The sudden resignation upset the ________ of the project.",
     "options": [
       {
         "id": "A",
-        "text": "spoil careful plans"
+        "text": "Asleep at the wheel"
       },
       {
         "id": "B",
-        "text": "produce an even and balanced result over time"
+        "text": "Babe in the woods"
       },
       {
         "id": "C",
-        "text": "resume duty"
+        "text": "Apple-cart"
       },
       {
         "id": "D",
-        "text": "a young defenceless person"
+        "text": "At random"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "\"Apple-cart\" means: spoil careful plans. हिंदी: काम बिगाड़ जाना. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "C",
+    "explanation": "The correct idiom is \"Apple-cart\" because it means \"spoil careful plans\". हिंदी: काम बिगाड़ जाना. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The sudden resignation upset the apple-cart of the project.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom09",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"Apples and oranges\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: Comparing a bicycle with a luxury car is like comparing ________.",
     "options": [
       {
         "id": "A",
-        "text": "two unlike things; unequal comparisons"
+        "text": "Apples and oranges"
       },
       {
         "id": "B",
-        "text": "resume duty"
+        "text": "Apple of discord"
       },
       {
         "id": "C",
-        "text": "a young defenceless person"
+        "text": "An olive branch"
       },
       {
         "id": "D",
-        "text": "produce an even and balanced result over time"
+        "text": "At large"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Apples and oranges\" means: two unlike things; unequal comparisons. हिंदी: दो अलग चीजें. The other options describe different expressions and do not match this idiom.",
+    "explanation": "The correct idiom is \"Apples and oranges\" because it means \"two unlike things; unequal comparisons\". हिंदी: दो अलग चीजें. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "Comparing a bicycle with a luxury car is like comparing apples and oranges.",
     "difficulty": "medium",
     "language": "en"
@@ -248,77 +248,77 @@
     "options": [
       {
         "id": "A",
-        "text": "having no relevance to any previous discussion or situation"
+        "text": "day and night"
       },
       {
         "id": "B",
-        "text": "in an uncertain situation"
+        "text": "at the very last moment; just before the deadline"
       },
       {
         "id": "C",
-        "text": "emotionless; unrelenting; having no feelings"
+        "text": "having no relevance to any previous discussion or situation"
       },
       {
         "id": "D",
-        "text": "having opposing viewpoints or intentions"
+        "text": "actually; in reality"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "\"Apropos of nothing\" means: having no relevance to any previous discussion or situation. हिंदी: बिना किसी संदर्भ के. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "C",
+    "explanation": "\"Apropos of nothing\" means \"having no relevance to any previous discussion or situation\". हिंदी: बिना किसी संदर्भ के. In the example, \"Apropos of nothing, he suddenly discussed his school days.\" This shows how the idiom is used in context.",
     "example": "Apropos of nothing, he suddenly discussed his school days.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom11",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"Argus-eyed\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The ________ guard noticed the tiny change in the document.",
     "options": [
       {
         "id": "A",
-        "text": "carefully observant or attentive; vigilant"
+        "text": "Apple of discord"
       },
       {
         "id": "B",
-        "text": "a young defenceless person"
+        "text": "As dead as a doornail"
       },
       {
         "id": "C",
-        "text": "not attentive to one's duties"
+        "text": "As the crow flies"
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "Argus-eyed"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "\"Argus-eyed\" means: carefully observant or attentive; vigilant. हिंदी: तेज नजर. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "D",
+    "explanation": "The correct idiom is \"Argus-eyed\" because it means \"carefully observant or attentive; vigilant\". हिंदी: तेज नजर. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The Argus-eyed guard noticed the tiny change in the document.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom12",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"Armed to the teeth\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The soldiers entered the area ________.",
     "options": [
       {
         "id": "A",
-        "text": "resume duty"
+        "text": "Armed to the teeth"
       },
       {
         "id": "B",
-        "text": "heavily armed or fortified"
+        "text": "At each other’s throats"
       },
       {
         "id": "C",
-        "text": "produce an even and balanced result over time"
+        "text": "As clear as a bell"
       },
       {
         "id": "D",
-        "text": "a young defenceless person"
+        "text": "As sly as a fox"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\"Armed to the teeth\" means: heavily armed or fortified. हिंदी: पूरी तरह से सशस्त्र होना. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "The correct idiom is \"Armed to the teeth\" because it means \"heavily armed or fortified\". हिंदी: पूरी तरह से सशस्त्र होना. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The soldiers entered the area armed to the teeth.",
     "difficulty": "medium",
     "language": "en"
@@ -329,77 +329,77 @@
     "options": [
       {
         "id": "A",
-        "text": "day and night"
+        "text": "extremely loudly"
       },
       {
         "id": "B",
-        "text": "resume duty"
+        "text": "unable to decide"
       },
       {
         "id": "C",
-        "text": "produce an even and balanced result over time"
+        "text": "day and night"
       },
       {
         "id": "D",
-        "text": "a young defenceless person"
+        "text": "the shortest route in a straight line"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "\"Around the clock\" means: day and night. हिंदी: दिन रात. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "C",
+    "explanation": "\"Around the clock\" means \"day and night\". हिंदी: दिन रात. In the example, \"The hospital provides emergency services around the clock.\" This shows how the idiom is used in context.",
     "example": "The hospital provides emergency services around the clock.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom14",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"Around the corner\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The examination is just ________.",
     "options": [
       {
         "id": "A",
-        "text": "occurring soon"
+        "text": "Around the corner"
       },
       {
         "id": "B",
-        "text": "resume duty"
+        "text": "Apples and oranges"
       },
       {
         "id": "C",
-        "text": "a young defenceless person"
+        "text": "At each other’s throats"
       },
       {
         "id": "D",
-        "text": "produce an even and balanced result over time"
+        "text": "At cross purposes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Around the corner\" means: occurring soon. हिंदी: जल्द ही होने वाला. The other options describe different expressions and do not match this idiom.",
+    "explanation": "The correct idiom is \"Around the corner\" because it means \"occurring soon\". हिंदी: जल्द ही होने वाला. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The examination is just around the corner.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom15",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"As a matter of fact\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: ________, I had already finished the work.",
     "options": [
       {
         "id": "A",
-        "text": "a young defenceless person"
+        "text": "As a matter of fact"
       },
       {
         "id": "B",
-        "text": "resume duty"
+        "text": "As bald as a cue ball"
       },
       {
         "id": "C",
-        "text": "actually; in reality"
+        "text": "As clear as mud"
       },
       {
         "id": "D",
-        "text": "produce an even and balanced result over time"
+        "text": "As clear as a bell"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "\"As a matter of fact\" means: actually; in reality. हिंदी: असल में. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "The correct idiom is \"As a matter of fact\" because it means \"actually; in reality\". हिंदी: असल में. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "As a matter of fact, I had already finished the work.",
     "difficulty": "medium",
     "language": "en"
@@ -410,11 +410,11 @@
     "options": [
       {
         "id": "A",
-        "text": "completely confused or perplexed"
+        "text": "readily understood"
       },
       {
         "id": "B",
-        "text": "a young defenceless person"
+        "text": "extremely silly"
       },
       {
         "id": "C",
@@ -422,65 +422,65 @@
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "impossible to understand"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "\"As bald as a cue ball\" means: completely bald. हिंदी: पूरी तरह से गंजा. The other options describe different expressions and do not match this idiom.",
+    "explanation": "\"As bald as a cue ball\" means \"completely bald\". हिंदी: पूरी तरह से गंजा. In the example, \"After years of hair loss, his head was as bald as a cue ball.\" This shows how the idiom is used in context.",
     "example": "After years of hair loss, his head was as bald as a cue ball.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom17",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"As clear as a bell\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The teacher's explanation was ________.",
     "options": [
       {
         "id": "A",
-        "text": "a young defenceless person"
+        "text": "As daft as a brush"
       },
       {
         "id": "B",
-        "text": "resume duty"
+        "text": "As clear as mud"
       },
       {
         "id": "C",
-        "text": "readily understood"
+        "text": "As clear as a bell"
       },
       {
         "id": "D",
-        "text": "produce an even and balanced result over time"
+        "text": "As dead as a doornail"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "\"As clear as a bell\" means: readily understood. हिंदी: बहुत ही स्पष्ट. The other options describe different expressions and do not match this idiom.",
+    "explanation": "The correct idiom is \"As clear as a bell\" because it means \"readily understood\". हिंदी: बहुत ही स्पष्ट. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The teacher's explanation was as clear as a bell.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom18",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"As clear as mud\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The instructions were ________.",
     "options": [
       {
         "id": "A",
-        "text": "a young defenceless person"
+        "text": "As dead as a doornail"
       },
       {
         "id": "B",
-        "text": "resume duty"
+        "text": "As clear as mud"
       },
       {
         "id": "C",
-        "text": "impossible to understand"
+        "text": "As fit as a fiddle"
       },
       {
         "id": "D",
-        "text": "produce an even and balanced result over time"
+        "text": "As daft as a brush"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "\"As clear as mud\" means: impossible to understand. हिंदी: समझना असंभव है. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "B",
+    "explanation": "The correct idiom is \"As clear as mud\" because it means \"impossible to understand\". हिंदी: समझना असंभव है. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The instructions were as clear as mud.",
     "difficulty": "medium",
     "language": "en"
@@ -491,34 +491,7 @@
     "options": [
       {
         "id": "A",
-        "text": "extremely loudly"
-      },
-      {
-        "id": "B",
-        "text": "extremely stupid"
-      },
-      {
-        "id": "C",
-        "text": "resume duty"
-      },
-      {
-        "id": "D",
         "text": "extremely silly"
-      }
-    ],
-    "correctAnswer": "D",
-    "explanation": "\"As daft as a brush\" means: extremely silly. हिंदी: बेहद मूर्खतापूर्ण. The other options describe different expressions and do not match this idiom.",
-    "example": "His daft decision was as silly as a brush.",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "idiom20",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"As dead as a doornail\"",
-    "options": [
-      {
-        "id": "A",
-        "text": "produce an even and balanced result over time"
       },
       {
         "id": "B",
@@ -526,42 +499,69 @@
       },
       {
         "id": "C",
-        "text": "resume duty"
+        "text": "obedient and well-behaved"
       },
       {
         "id": "D",
-        "text": "a young defenceless person"
+        "text": "strong and healthy"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\"As dead as a doornail\" means: unquestionably dead or inoperative. हिंदी: मृत या निष्क्रिय. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "\"As daft as a brush\" means \"extremely silly\". हिंदी: बेहद मूर्खतापूर्ण. In the example, \"His daft decision was as silly as a brush.\" This shows how the idiom is used in context.",
+    "example": "His daft decision was as silly as a brush.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "idiom20",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: After the battery failed, the machine was ________.",
+    "options": [
+      {
+        "id": "A",
+        "text": "As fit as a fiddle"
+      },
+      {
+        "id": "B",
+        "text": "As good as gold"
+      },
+      {
+        "id": "C",
+        "text": "As dead as a doornail"
+      },
+      {
+        "id": "D",
+        "text": "As hard as a nail"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "The correct idiom is \"As dead as a doornail\" because it means \"unquestionably dead or inoperative\". हिंदी: मृत या निष्क्रिय. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "After the battery failed, the machine was as dead as a doornail.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom21",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"As fit as a fiddle\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: My grandfather is still ________.",
     "options": [
       {
         "id": "A",
-        "text": "a young defenceless person"
+        "text": "As high as a kite"
       },
       {
         "id": "B",
-        "text": "strong and healthy"
+        "text": "As good as gold"
       },
       {
         "id": "C",
-        "text": "produce an even and balanced result over time"
+        "text": "As fit as a fiddle"
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "As hard as a nail"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\"As fit as a fiddle\" means: strong and healthy. हिंदी: बहुत अच्छे स्वास्थ्य में. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "C",
+    "explanation": "The correct idiom is \"As fit as a fiddle\" because it means \"strong and healthy\". हिंदी: बहुत अच्छे स्वास्थ्य में. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "My grandfather is still as fit as a fiddle.",
     "difficulty": "medium",
     "language": "en"
@@ -572,61 +572,7 @@
     "options": [
       {
         "id": "A",
-        "text": "a young defenceless person"
-      },
-      {
-        "id": "B",
-        "text": "produce an even and balanced result over time"
-      },
-      {
-        "id": "C",
-        "text": "resume duty"
-      },
-      {
-        "id": "D",
         "text": "obedient and well-behaved"
-      }
-    ],
-    "correctAnswer": "D",
-    "explanation": "\"As good as gold\" means: obedient and well-behaved. हिंदी: शिष्ट और आज्ञाकारी. The other options describe different expressions and do not match this idiom.",
-    "example": "The child was as good as gold while his parents were away.",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "idiom23",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"As hard as a nail\"",
-    "options": [
-      {
-        "id": "A",
-        "text": "having no relevance to any previous discussion or situation"
-      },
-      {
-        "id": "B",
-        "text": "resume duty"
-      },
-      {
-        "id": "C",
-        "text": "having opposing viewpoints or intentions"
-      },
-      {
-        "id": "D",
-        "text": "emotionless; unrelenting; having no feelings"
-      }
-    ],
-    "correctAnswer": "D",
-    "explanation": "\"As hard as a nail\" means: emotionless; unrelenting; having no feelings. हिंदी: भावनाहीन. The other options describe different expressions and do not match this idiom.",
-    "example": "Years of hardship made him as hard as a nail.",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "idiom24",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"As high as a kite\"",
-    "options": [
-      {
-        "id": "A",
-        "text": "a young defenceless person"
       },
       {
         "id": "B",
@@ -634,15 +580,69 @@
       },
       {
         "id": "C",
-        "text": "produce an even and balanced result over time"
+        "text": "very enthusiastic and excited"
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "emotionless; unrelenting; having no feelings"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\"As high as a kite\" means: intoxicated with alcohol. हिंदी: नशे में धुत. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "\"As good as gold\" means \"obedient and well-behaved\". हिंदी: शिष्ट और आज्ञाकारी. In the example, \"The child was as good as gold while his parents were away.\" This shows how the idiom is used in context.",
+    "example": "The child was as good as gold while his parents were away.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "idiom23",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: Years of hardship made him ________.",
+    "options": [
+      {
+        "id": "A",
+        "text": "As hard as a nail"
+      },
+      {
+        "id": "B",
+        "text": "As keen as mustard"
+      },
+      {
+        "id": "C",
+        "text": "As phony as a three-dollar bill"
+      },
+      {
+        "id": "D",
+        "text": "As high as a kite"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The correct idiom is \"As hard as a nail\" because it means \"emotionless; unrelenting; having no feelings\". हिंदी: भावनाहीन. The sentence describes this exact situation, so this idiom fits the context.",
+    "example": "Years of hardship made him as hard as a nail.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "idiom24",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: After drinking too much, he was ________.",
+    "options": [
+      {
+        "id": "A",
+        "text": "As sly as a fox"
+      },
+      {
+        "id": "B",
+        "text": "As keen as mustard"
+      },
+      {
+        "id": "C",
+        "text": "As phony as a three-dollar bill"
+      },
+      {
+        "id": "D",
+        "text": "As high as a kite"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The correct idiom is \"As high as a kite\" because it means \"intoxicated with alcohol\". हिंदी: नशे में धुत. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "After drinking too much, he was as high as a kite.",
     "difficulty": "medium",
     "language": "en"
@@ -653,77 +653,77 @@
     "options": [
       {
         "id": "A",
-        "text": "a young defenceless person"
+        "text": "something that is fake"
       },
       {
         "id": "B",
-        "text": "produce an even and balanced result over time"
-      },
-      {
-        "id": "C",
         "text": "very enthusiastic and excited"
       },
       {
+        "id": "C",
+        "text": "the shortest route in a straight line"
+      },
+      {
         "id": "D",
-        "text": "resume duty"
+        "text": "smart and clever"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "\"As keen as mustard\" means: very enthusiastic and excited. हिंदी: बहुत उत्साहित. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "B",
+    "explanation": "\"As keen as mustard\" means \"very enthusiastic and excited\". हिंदी: बहुत उत्साहित. In the example, \"The students were as keen as mustard to learn.\" This shows how the idiom is used in context.",
     "example": "The students were as keen as mustard to learn.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom26",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"As phony as a three-dollar bill\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: His excuse was ________.",
     "options": [
       {
         "id": "A",
-        "text": "something that is fake"
+        "text": "As thick as two short planks"
       },
       {
         "id": "B",
-        "text": "a young defenceless person"
+        "text": "As the crow flies"
       },
       {
         "id": "C",
-        "text": "produce an even and balanced result over time"
+        "text": "As phony as a three-dollar bill"
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "As sly as a fox"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "\"As phony as a three-dollar bill\" means: something that is fake. हिंदी: बिल्कुल नकली या झूठा. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "C",
+    "explanation": "The correct idiom is \"As phony as a three-dollar bill\" because it means \"something that is fake\". हिंदी: बिल्कुल नकली या झूठा. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "His excuse was as phony as a three-dollar bill.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom27",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"As sly as a fox\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The negotiator was ________.",
     "options": [
       {
         "id": "A",
-        "text": "a young defenceless person"
+        "text": "As sly as a fox"
       },
       {
         "id": "B",
-        "text": "smart and clever"
+        "text": "As thick as two short planks"
       },
       {
         "id": "C",
-        "text": "produce an even and balanced result over time"
+        "text": "As a matter of fact"
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "As the crow flies"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\"As sly as a fox\" means: smart and clever. हिंदी: लोमड़ी की तरह चालाक. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "The correct idiom is \"As sly as a fox\" because it means \"smart and clever\". हिंदी: लोमड़ी की तरह चालाक. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The negotiator was as sly as a fox.",
     "difficulty": "medium",
     "language": "en"
@@ -734,77 +734,77 @@
     "options": [
       {
         "id": "A",
-        "text": "produce an even and balanced result over time"
-      },
-      {
-        "id": "B",
-        "text": "resume duty"
-      },
-      {
-        "id": "C",
         "text": "the shortest route in a straight line"
       },
       {
+        "id": "B",
+        "text": "extremely stupid"
+      },
+      {
+        "id": "C",
+        "text": "actually; in reality"
+      },
+      {
         "id": "D",
-        "text": "a young defenceless person"
+        "text": "completely bald"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "\"As the crow flies\" means: the shortest route in a straight line. हिंदी: सीधी रेखा में सबसे छोटा रास्ता. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "\"As the crow flies\" means \"the shortest route in a straight line\". हिंदी: सीधी रेखा में सबसे छोटा रास्ता. In the example, \"The village is five kilometres away as the crow flies.\" This shows how the idiom is used in context.",
     "example": "The village is five kilometres away as the crow flies.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom29",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"As thick as two short planks\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: He was ________ and could not understand the joke.",
     "options": [
       {
         "id": "A",
-        "text": "extremely silly"
+        "text": "As thick as two short planks"
       },
       {
         "id": "B",
-        "text": "resume duty"
+        "text": "As a matter of fact"
       },
       {
         "id": "C",
-        "text": "extremely stupid"
+        "text": "As bald as a cue ball"
       },
       {
         "id": "D",
-        "text": "extremely loudly"
+        "text": "As clear as a bell"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "\"As thick as two short planks\" means: extremely stupid. हिंदी: महामूर्ख. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "The correct idiom is \"As thick as two short planks\" because it means \"extremely stupid\". हिंदी: महामूर्ख. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "He was as thick as two short planks and could not understand the joke.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom30",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"Ask for trouble\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The situation described in the sentence is best expressed by: ________. ",
     "options": [
       {
         "id": "A",
-        "text": "act in a way likely to incur problems or difficulties"
+        "text": "Ask for trouble"
       },
       {
         "id": "B",
-        "text": "produce an even and balanced result over time"
+        "text": "At any cost"
       },
       {
         "id": "C",
-        "text": "a young defenceless person"
+        "text": "At each other’s throats"
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "At loggerheads"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Ask for trouble\" means: act in a way likely to incur problems or difficulties. हिंदी: आ बैल मुझे मार; मुसीबत मोल लेना. The other options describe different expressions and do not match this idiom.",
+    "explanation": "The correct idiom is \"Ask for trouble\" because it means \"act in a way likely to incur problems or difficulties\". हिंदी: आ बैल मुझे मार; मुसीबत मोल लेना. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "Ignoring the warning signs is asking for trouble.",
     "difficulty": "medium",
     "language": "en"
@@ -815,15 +815,15 @@
     "options": [
       {
         "id": "A",
-        "text": "carefully observant or attentive; vigilant"
+        "text": "in an uncertain situation"
       },
       {
         "id": "B",
-        "text": "a young defenceless person"
+        "text": "produce an even and balanced result over time"
       },
       {
         "id": "C",
-        "text": "resume duty"
+        "text": "without hesitation; instantly; without prior planning"
       },
       {
         "id": "D",
@@ -831,61 +831,61 @@
       }
     ],
     "correctAnswer": "D",
-    "explanation": "\"Asleep at the wheel\" means: not attentive to one's duties. हिंदी: काम के प्रति चौकस नहीं रहना. The other options describe different expressions and do not match this idiom.",
+    "explanation": "\"Asleep at the wheel\" means \"not attentive to one's duties\". हिंदी: काम के प्रति चौकस नहीं रहना. In the example, \"The manager was asleep at the wheel and missed the warning signs.\" This shows how the idiom is used in context.",
     "example": "The manager was asleep at the wheel and missed the warning signs.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom32",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"Assume airs\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: He began to ________ after receiving the promotion.",
     "options": [
       {
         "id": "A",
-        "text": "produce an even and balanced result over time"
+        "text": "Assume airs"
       },
       {
         "id": "B",
-        "text": "resume duty"
+        "text": "Appeal to Caesar"
       },
       {
         "id": "C",
-        "text": "a young defenceless person"
+        "text": "At stake"
       },
       {
         "id": "D",
-        "text": "pretend superiority"
+        "text": "Argus-eyed"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "\"Assume airs\" means: pretend superiority. हिंदी: श्रेष्ठता का बखान. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "The correct idiom is \"Assume airs\" because it means \"pretend superiority\". हिंदी: श्रेष्ठता का बखान. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "He began to assume airs after receiving the promotion.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom33",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"At a crossroads\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: After graduation, she was ________ about her career.",
     "options": [
       {
         "id": "A",
-        "text": "resume duty"
+        "text": "At one’s elbow"
       },
       {
         "id": "B",
-        "text": "a young defenceless person"
+        "text": "At loose ends"
       },
       {
         "id": "C",
-        "text": "a point in life where decisions have long-term consequences"
+        "text": "At a crossroads"
       },
       {
         "id": "D",
-        "text": "produce an even and balanced result over time"
+        "text": "At one’s wit’s end"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "\"At a crossroads\" means: a point in life where decisions have long-term consequences. हिंदी: महत्वपूर्ण निर्णय का समय. The other options describe different expressions and do not match this idiom.",
+    "explanation": "The correct idiom is \"At a crossroads\" because it means \"a point in life where decisions have long-term consequences\". हिंदी: महत्वपूर्ण निर्णय का समय. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "After graduation, she was at a crossroads about her career.",
     "difficulty": "medium",
     "language": "en"
@@ -896,77 +896,77 @@
     "options": [
       {
         "id": "A",
-        "text": "unable to decide"
+        "text": "in a random manner"
       },
       {
         "id": "B",
-        "text": "produce an even and balanced result over time"
+        "text": "completely confused or perplexed"
       },
       {
         "id": "C",
-        "text": "a young defenceless person"
+        "text": "unable to decide"
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "next to someone"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "\"At a loss\" means: unable to decide. हिंदी: निर्णय लेने में असमर्थ. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "C",
+    "explanation": "\"At a loss\" means \"unable to decide\". हिंदी: निर्णय लेने में असमर्थ. In the example, \"I was at a loss when the unexpected problem appeared.\" This shows how the idiom is used in context.",
     "example": "I was at a loss when the unexpected problem appeared.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom35",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"At a snail’s pace\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The situation described in the sentence is best expressed by: ________. ",
     "options": [
       {
         "id": "A",
-        "text": "resume duty"
+        "text": "At random"
       },
       {
         "id": "B",
-        "text": "a young defenceless person"
+        "text": "At short notice"
       },
       {
         "id": "C",
-        "text": "do something very slowly"
+        "text": "At a snail’s pace"
       },
       {
         "id": "D",
-        "text": "produce an even and balanced result over time"
+        "text": "At one’s wit’s end"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "\"At a snail’s pace\" means: do something very slowly. हिंदी: बहुत धीरे-धीरे. The other options describe different expressions and do not match this idiom.",
+    "explanation": "The correct idiom is \"At a snail’s pace\" because it means \"do something very slowly\". हिंदी: बहुत धीरे-धीरे. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The old computer runs at a snail's pace.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom36",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"At a stretch\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: He can work for five hours ________.",
     "options": [
       {
         "id": "A",
-        "text": "a young defenceless person"
+        "text": "At random"
       },
       {
         "id": "B",
-        "text": "produce an even and balanced result over time"
+        "text": "At a stretch"
       },
       {
         "id": "C",
-        "text": "do something continuously"
+        "text": "At sixes and sevens"
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "At short notice"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "\"At a stretch\" means: do something continuously. हिंदी: लगातार. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "B",
+    "explanation": "The correct idiom is \"At a stretch\" because it means \"do something continuously\". हिंदी: लगातार. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "He can work for five hours at a stretch.",
     "difficulty": "medium",
     "language": "en"
@@ -977,77 +977,77 @@
     "options": [
       {
         "id": "A",
-        "text": "resume duty"
+        "text": "under any circumstances"
       },
       {
         "id": "B",
-        "text": "a young defenceless person"
+        "text": "in disorder or confusion"
       },
       {
         "id": "C",
-        "text": "produce an even and balanced result over time"
+        "text": "paid for by someone"
       },
       {
         "id": "D",
-        "text": "under any circumstances"
+        "text": "with little warning or time for preparation"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "\"At any cost\" means: under any circumstances. हिंदी: किसी भी कीमत पर. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "\"At any cost\" means \"under any circumstances\". हिंदी: किसी भी कीमत पर. In the example, \"We must finish the project at any cost.\" This shows how the idiom is used in context.",
     "example": "We must finish the project at any cost.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom38",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"At beck and call\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The situation described in the sentence is best expressed by: ________. ",
     "options": [
       {
         "id": "A",
-        "text": "resume duty"
+        "text": "At stake"
       },
       {
         "id": "B",
-        "text": "always ready at someone's service; dominated by someone"
+        "text": "At beck and call"
       },
       {
         "id": "C",
-        "text": "produce an even and balanced result over time"
+        "text": "At sixes and sevens"
       },
       {
         "id": "D",
-        "text": "a young defenceless person"
+        "text": "At somebody’s expense"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "\"At beck and call\" means: always ready at someone's service; dominated by someone. हिंदी: इशारे पर नाचने वाला. The other options describe different expressions and do not match this idiom.",
+    "explanation": "The correct idiom is \"At beck and call\" because it means \"always ready at someone's service; dominated by someone\". हिंदी: इशारे पर नाचने वाला. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The assistant was always at the manager's beck and call.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom39",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"At cross purposes\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The two teams were working ________ because their goals differed.",
     "options": [
       {
         "id": "A",
-        "text": "having opposing viewpoints or intentions"
+        "text": "At somebody’s expense"
       },
       {
         "id": "B",
-        "text": "resume duty"
+        "text": "At the drop of a hat/dime"
       },
       {
         "id": "C",
-        "text": "emotionless; unrelenting; having no feelings"
+        "text": "At stake"
       },
       {
         "id": "D",
-        "text": "having no relevance to any previous discussion or situation"
+        "text": "At cross purposes"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "\"At cross purposes\" means: having opposing viewpoints or intentions. हिंदी: विपरीत दृष्टिकोण या इरादे रखना. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "D",
+    "explanation": "The correct idiom is \"At cross purposes\" because it means \"having opposing viewpoints or intentions\". हिंदी: विपरीत दृष्टिकोण या इरादे रखना. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The two teams were working at cross purposes because their goals differed.",
     "difficulty": "medium",
     "language": "en"
@@ -1058,77 +1058,77 @@
     "options": [
       {
         "id": "A",
-        "text": "bitterly hostile; enemies"
+        "text": "at the very last moment; just before the deadline"
       },
       {
         "id": "B",
-        "text": "produce an even and balanced result over time"
+        "text": "in danger"
       },
       {
         "id": "C",
-        "text": "resume duty"
+        "text": "without hesitation; instantly; without prior planning"
       },
       {
         "id": "D",
-        "text": "a young defenceless person"
+        "text": "bitterly hostile; enemies"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "\"At daggers drawn\" means: bitterly hostile; enemies. हिंदी: शत्रुता या संघर्ष की स्थिति में. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "D",
+    "explanation": "\"At daggers drawn\" means \"bitterly hostile; enemies\". हिंदी: शत्रुता या संघर्ष की स्थिति में. In the example, \"The rival groups were at daggers drawn after the dispute.\" This shows how the idiom is used in context.",
     "example": "The rival groups were at daggers drawn after the dispute.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom41",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"At each other’s throats\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The situation described in the sentence is best expressed by: ________. ",
     "options": [
       {
         "id": "A",
-        "text": "produce an even and balanced result over time"
+        "text": "At the top of your lungs"
       },
       {
         "id": "B",
-        "text": "a young defenceless person"
+        "text": "At the drop of a hat/dime"
       },
       {
         "id": "C",
-        "text": "resume duty"
+        "text": "At each other’s throats"
       },
       {
         "id": "D",
-        "text": "arguing angrily"
+        "text": "At the eleventh hour"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "\"At each other’s throats\" means: arguing angrily. हिंदी: गुस्से में बहस करना. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "C",
+    "explanation": "The correct idiom is \"At each other’s throats\" because it means \"arguing angrily\". हिंदी: गुस्से में बहस करना. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The two politicians were at each other's throats during the debate.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom42",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"At large\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The escaped prisoner is still ________.",
     "options": [
       {
         "id": "A",
-        "text": "a criminal escaped or not yet captured"
+        "text": "At large"
       },
       {
         "id": "B",
-        "text": "produce an even and balanced result over time"
+        "text": "At the top of your lungs"
       },
       {
         "id": "C",
-        "text": "resume duty"
+        "text": "At variance with"
       },
       {
         "id": "D",
-        "text": "a young defenceless person"
+        "text": "At the eleventh hour"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"At large\" means: a criminal escaped or not yet captured. हिंदी: भागा हुआ अपराधी. The other options describe different expressions and do not match this idiom.",
+    "explanation": "The correct idiom is \"At large\" because it means \"a criminal escaped or not yet captured\". हिंदी: भागा हुआ अपराधी. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The escaped prisoner is still at large.",
     "difficulty": "medium",
     "language": "en"
@@ -1139,77 +1139,77 @@
     "options": [
       {
         "id": "A",
-        "text": "a young defenceless person"
-      },
-      {
-        "id": "B",
         "text": "in conflict with someone; disagree strongly"
       },
       {
+        "id": "B",
+        "text": "extremely loudly"
+      },
+      {
         "id": "C",
-        "text": "produce an even and balanced result over time"
+        "text": "in opposition; different from"
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "a point in life where decisions have long-term consequences"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\"At loggerheads\" means: in conflict with someone; disagree strongly. हिंदी: असहमति के कारण विवाद. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "\"At loggerheads\" means \"in conflict with someone; disagree strongly\". हिंदी: असहमति के कारण विवाद. In the example, \"The partners are at loggerheads over the new policy.\" This shows how the idiom is used in context.",
     "example": "The partners are at loggerheads over the new policy.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom44",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"At loose ends\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: After finishing the course, he felt ________.",
     "options": [
       {
         "id": "A",
-        "text": "having no relevance to any previous discussion or situation"
+        "text": "At loose ends"
       },
       {
         "id": "B",
-        "text": "a young defenceless person"
+        "text": "At a crossroads"
       },
       {
         "id": "C",
-        "text": "resume duty"
+        "text": "At variance with"
       },
       {
         "id": "D",
-        "text": "in an uncertain situation"
+        "text": "At a loss"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "\"At loose ends\" means: in an uncertain situation. हिंदी: अनिश्चित स्थिति में. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "The correct idiom is \"At loose ends\" because it means \"in an uncertain situation\". हिंदी: अनिश्चित स्थिति में. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "After finishing the course, he felt at loose ends.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom45",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"At one’s elbow\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The situation described in the sentence is best expressed by: ________. ",
     "options": [
       {
         "id": "A",
-        "text": "a young defenceless person"
+        "text": "At a crossroads"
       },
       {
         "id": "B",
-        "text": "next to someone"
+        "text": "At one’s elbow"
       },
       {
         "id": "C",
-        "text": "produce an even and balanced result over time"
+        "text": "At a loss"
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "At a snail’s pace"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "\"At one’s elbow\" means: next to someone. हिंदी: किसी के समीप. The other options describe different expressions and do not match this idiom.",
+    "explanation": "The correct idiom is \"At one’s elbow\" because it means \"next to someone\". हिंदी: किसी के समीप. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The supervisor was constantly at my elbow.",
     "difficulty": "medium",
     "language": "en"
@@ -1220,77 +1220,77 @@
     "options": [
       {
         "id": "A",
-        "text": "a young defenceless person"
-      },
-      {
-        "id": "B",
-        "text": "resume duty"
-      },
-      {
-        "id": "C",
         "text": "completely confused or perplexed"
       },
       {
+        "id": "B",
+        "text": "unable to decide"
+      },
+      {
+        "id": "C",
+        "text": "do something continuously"
+      },
+      {
         "id": "D",
-        "text": "completely bald"
+        "text": "do something very slowly"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "\"At one’s wit’s end\" means: completely confused or perplexed. हिंदी: पूरी तरह से उलझन में. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "\"At one’s wit’s end\" means \"completely confused or perplexed\". हिंदी: पूरी तरह से उलझन में. In the example, \"I was at my wit's end trying to solve the problem.\" This shows how the idiom is used in context.",
     "example": "I was at my wit's end trying to solve the problem.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom47",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"At random\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The teacher selected a student ________.",
     "options": [
       {
         "id": "A",
-        "text": "resume duty"
+        "text": "At random"
       },
       {
         "id": "B",
-        "text": "a young defenceless person"
+        "text": "At a stretch"
       },
       {
         "id": "C",
-        "text": "produce an even and balanced result over time"
+        "text": "At any cost"
       },
       {
         "id": "D",
-        "text": "in a random manner"
+        "text": "At a snail’s pace"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "\"At random\" means: in a random manner. हिंदी: अनियमित तरीके से. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "The correct idiom is \"At random\" because it means \"in a random manner\". हिंदी: अनियमित तरीके से. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The teacher selected a student at random.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom48",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"At short notice\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: She had to travel ________.",
     "options": [
       {
         "id": "A",
-        "text": "a young defenceless person"
+        "text": "At any cost"
       },
       {
         "id": "B",
-        "text": "with little warning or time for preparation"
+        "text": "At short notice"
       },
       {
         "id": "C",
-        "text": "produce an even and balanced result over time"
+        "text": "At a stretch"
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "At beck and call"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "\"At short notice\" means: with little warning or time for preparation. हिंदी: कम समय में. The other options describe different expressions and do not match this idiom.",
+    "explanation": "The correct idiom is \"At short notice\" because it means \"with little warning or time for preparation\". हिंदी: कम समय में. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "She had to travel at short notice.",
     "difficulty": "medium",
     "language": "en"
@@ -1301,77 +1301,77 @@
     "options": [
       {
         "id": "A",
-        "text": "produce an even and balanced result over time"
+        "text": "having opposing viewpoints or intentions"
       },
       {
         "id": "B",
-        "text": "in disorder or confusion"
+        "text": "under any circumstances"
       },
       {
         "id": "C",
-        "text": "a young defenceless person"
+        "text": "in disorder or confusion"
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "always ready at someone's service; dominated by someone"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\"At sixes and sevens\" means: in disorder or confusion. हिंदी: अव्यवस्था या भ्रम में. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "C",
+    "explanation": "\"At sixes and sevens\" means \"in disorder or confusion\". हिंदी: अव्यवस्था या भ्रम में. In the example, \"After the sudden change, the office was at sixes and sevens.\" This shows how the idiom is used in context.",
     "example": "After the sudden change, the office was at sixes and sevens.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom50",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"At somebody’s expense\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The situation described in the sentence is best expressed by: ________. ",
     "options": [
       {
         "id": "A",
-        "text": "a young defenceless person"
+        "text": "At somebody’s expense"
       },
       {
         "id": "B",
-        "text": "produce an even and balanced result over time"
+        "text": "At beck and call"
       },
       {
         "id": "C",
-        "text": "paid for by someone"
+        "text": "At daggers drawn"
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "At cross purposes"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "\"At somebody’s expense\" means: paid for by someone. हिंदी: किसी और के लिए भुगतान करना. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "The correct idiom is \"At somebody’s expense\" because it means \"paid for by someone\". हिंदी: किसी और के लिए भुगतान करना. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "We had dinner at the director's expense.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom51",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"At stake\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: His entire career was ________.",
     "options": [
       {
         "id": "A",
-        "text": "resume duty"
+        "text": "At stake"
       },
       {
         "id": "B",
-        "text": "in danger"
+        "text": "At daggers drawn"
       },
       {
         "id": "C",
-        "text": "produce an even and balanced result over time"
+        "text": "At cross purposes"
       },
       {
         "id": "D",
-        "text": "a young defenceless person"
+        "text": "At each other’s throats"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\"At stake\" means: in danger. हिंदी: खतरे में, दांव पर. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "The correct idiom is \"At stake\" because it means \"in danger\". हिंदी: खतरे में, दांव पर. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "His entire career was at stake.",
     "difficulty": "medium",
     "language": "en"
@@ -1386,73 +1386,73 @@
       },
       {
         "id": "B",
-        "text": "a young defenceless person"
+        "text": "bitterly hostile; enemies"
       },
       {
         "id": "C",
-        "text": "produce an even and balanced result over time"
+        "text": "arguing angrily"
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "a criminal escaped or not yet captured"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"At the drop of a hat/dime\" means: without hesitation; instantly; without prior planning. हिंदी: बिना हिचकिचाहट तुरंत. The other options describe different expressions and do not match this idiom.",
+    "explanation": "\"At the drop of a hat/dime\" means \"without hesitation; instantly; without prior planning\". हिंदी: बिना हिचकिचाहट तुरंत. In the example, \"He is ready to leave at the drop of a hat.\" This shows how the idiom is used in context.",
     "example": "He is ready to leave at the drop of a hat.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom53",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"At the eleventh hour\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: He submitted the application ________.",
     "options": [
       {
         "id": "A",
-        "text": "a young defenceless person"
+        "text": "At large"
       },
       {
         "id": "B",
-        "text": "produce an even and balanced result over time"
+        "text": "At each other’s throats"
       },
       {
         "id": "C",
-        "text": "resume duty"
+        "text": "At loggerheads"
       },
       {
         "id": "D",
-        "text": "at the very last moment; just before the deadline"
+        "text": "At the eleventh hour"
       }
     ],
     "correctAnswer": "D",
-    "explanation": "\"At the eleventh hour\" means: at the very last moment; just before the deadline. हिंदी: आखिरी मौके पर. The other options describe different expressions and do not match this idiom.",
+    "explanation": "The correct idiom is \"At the eleventh hour\" because it means \"at the very last moment; just before the deadline\". हिंदी: आखिरी मौके पर. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "He submitted the application at the eleventh hour.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom54",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"At the top of your lungs\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The situation described in the sentence is best expressed by: ________. ",
     "options": [
       {
         "id": "A",
-        "text": "extremely stupid"
+        "text": "At loose ends"
       },
       {
         "id": "B",
-        "text": "extremely loudly"
+        "text": "At the top of your lungs"
       },
       {
         "id": "C",
-        "text": "extremely silly"
+        "text": "At large"
       },
       {
         "id": "D",
-        "text": "resume duty"
+        "text": "At loggerheads"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "\"At the top of your lungs\" means: extremely loudly. हिंदी: पूरे जोर से चिल्लाना. The other options describe different expressions and do not match this idiom.",
+    "explanation": "The correct idiom is \"At the top of your lungs\" because it means \"extremely loudly\". हिंदी: पूरे जोर से चिल्लाना. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The crowd shouted at the top of their lungs.",
     "difficulty": "medium",
     "language": "en"
@@ -1463,77 +1463,77 @@
     "options": [
       {
         "id": "A",
-        "text": "produce an even and balanced result over time"
-      },
-      {
-        "id": "B",
-        "text": "resume duty"
-      },
-      {
-        "id": "C",
         "text": "in opposition; different from"
       },
       {
+        "id": "B",
+        "text": "next to someone"
+      },
+      {
+        "id": "C",
+        "text": "in an uncertain situation"
+      },
+      {
         "id": "D",
-        "text": "a young defenceless person"
+        "text": "in conflict with someone; disagree strongly"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "\"At variance with\" means: in opposition; different from. हिंदी: विपक्ष में या अलग होना. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "A",
+    "explanation": "\"At variance with\" means \"in opposition; different from\". हिंदी: विपक्ष में या अलग होना. In the example, \"His actions are at variance with his promises.\" This shows how the idiom is used in context.",
     "example": "His actions are at variance with his promises.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom56",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"Average out\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The expenses ________ over the year.",
     "options": [
       {
         "id": "A",
-        "text": "with little warning or time for preparation"
+        "text": "At one’s elbow"
       },
       {
         "id": "B",
-        "text": "resume duty"
+        "text": "At any cost"
       },
       {
         "id": "C",
-        "text": "a young defenceless person"
+        "text": "Average out"
       },
       {
         "id": "D",
-        "text": "produce an even and balanced result over time"
+        "text": "At a crossroads"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "\"Average out\" means: produce an even and balanced result over time. हिंदी: समय के साथ औसत/संतुलित होना. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "C",
+    "explanation": "The correct idiom is \"Average out\" because it means \"produce an even and balanced result over time\". हिंदी: समय के साथ औसत/संतुलित होना. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The expenses average out over the year.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "idiom57",
-    "question": "Select the most appropriate meaning of the given idiom/phrase: \"Babe in the woods\"",
+    "question": "Select the most appropriate idiom/phrase to complete the sentence: The inexperienced newcomer was like a ________.",
     "options": [
       {
         "id": "A",
-        "text": "a young defenceless person"
+        "text": "At short notice"
       },
       {
         "id": "B",
-        "text": "in opposition; different from"
+        "text": "At the drop of a hat/dime"
       },
       {
         "id": "C",
-        "text": "resume duty"
+        "text": "Babe in the woods"
       },
       {
         "id": "D",
-        "text": "produce an even and balanced result over time"
+        "text": "At one’s wit’s end"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "\"Babe in the woods\" means: a young defenceless person. हिंदी: असहाय युवा व्यक्ति. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "C",
+    "explanation": "The correct idiom is \"Babe in the woods\" because it means \"a young defenceless person\". हिंदी: असहाय युवा व्यक्ति. The sentence describes this exact situation, so this idiom fits the context.",
     "example": "The inexperienced newcomer was like a babe in the woods.",
     "difficulty": "medium",
     "language": "en"
@@ -1544,23 +1544,15 @@
     "options": [
       {
         "id": "A",
-        "text": "resume duty"
+        "text": "full of wisdom"
       },
       {
         "id": "B",
-        "text": "produce an even and balanced result over time"
-      },
-      {
-        "id": "C",
-        "text": "a young defenceless person"
-      },
-      {
-        "id": "D",
-        "text": "in opposition; different from"
+        "text": "resume duty"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "\"Back in saddle\" means: resume duty. हिंदी: काम में वापस लौटना. The other options describe different expressions and do not match this idiom.",
+    "correctAnswer": "B",
+    "explanation": "\"Back in saddle\" means \"resume duty\". हिंदी: काम में वापस लौटना. In the example, \"After recovering from injury, the player was back in the saddle.\" This shows how the idiom is used in context.",
     "example": "After recovering from injury, the player was back in the saddle.",
     "difficulty": "medium",
     "language": "en"
