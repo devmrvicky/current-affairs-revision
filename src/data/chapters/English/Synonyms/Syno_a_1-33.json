@@ -1,0 +1,926 @@
+[
+  {
+    "id": "syn001",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abandon\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Postpone"
+      },
+      {
+        "id": "B",
+        "text": "Avoid"
+      },
+      {
+        "id": "C",
+        "text": "Withdraw"
+      },
+      {
+        "id": "D",
+        "text": "Forsake"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Forsake is the most appropriate synonym of \"Abandon\". Hindi meaning: छोड़ देना / त्याग देना.",
+    "language": "en"
+  },
+  {
+    "id": "syn002",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abate\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diminish"
+      },
+      {
+        "id": "B",
+        "text": "Restrict"
+      },
+      {
+        "id": "C",
+        "text": "Aggravate"
+      },
+      {
+        "id": "D",
+        "text": "Delay"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Diminish is the most appropriate synonym of \"Abate\". Hindi meaning: कम करना / घटाना.",
+    "language": "en"
+  },
+  {
+    "id": "syn003",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abbreviate\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Explain"
+      },
+      {
+        "id": "B",
+        "text": "Summarize"
+      },
+      {
+        "id": "C",
+        "text": "Elaborate"
+      },
+      {
+        "id": "D",
+        "text": "Shorten"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Shorten is the most appropriate synonym of \"Abbreviate\". Hindi meaning: संक्षिप्त करना.",
+    "language": "en"
+  },
+  {
+    "id": "syn004",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abdicate\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Renounce"
+      },
+      {
+        "id": "B",
+        "text": "Assert"
+      },
+      {
+        "id": "C",
+        "text": "Resist"
+      },
+      {
+        "id": "D",
+        "text": "Occupy"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Renounce is the most appropriate synonym of \"Abdicate\". Hindi meaning: पद/अधिकार त्यागना.",
+    "language": "en"
+  },
+  {
+    "id": "syn005",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abduct\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Redeem"
+      },
+      {
+        "id": "B",
+        "text": "Kidnap"
+      },
+      {
+        "id": "C",
+        "text": "Arrest"
+      },
+      {
+        "id": "D",
+        "text": "Rescue"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Kidnap is the most appropriate synonym of \"Abduct\". Hindi meaning: अपहरण करना.",
+    "language": "en"
+  },
+  {
+    "id": "syn006",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Aberration\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conformity"
+      },
+      {
+        "id": "B",
+        "text": "Habit"
+      },
+      {
+        "id": "C",
+        "text": "Variation"
+      },
+      {
+        "id": "D",
+        "text": "Deviation"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Deviation is the most appropriate synonym of \"Aberration\". Hindi meaning: विचलन / सामान्य से हटना.",
+    "language": "en"
+  },
+  {
+    "id": "syn007",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abeyance\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Delay"
+      },
+      {
+        "id": "B",
+        "text": "Revival"
+      },
+      {
+        "id": "C",
+        "text": "Suspension"
+      },
+      {
+        "id": "D",
+        "text": "Continuation"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Suspension is the most appropriate synonym of \"Abeyance\". Hindi meaning: स्थगन / अस्थायी निलंबन.",
+    "language": "en"
+  },
+  {
+    "id": "syn008",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abide\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dwell"
+      },
+      {
+        "id": "B",
+        "text": "Remain"
+      },
+      {
+        "id": "C",
+        "text": "Obey"
+      },
+      {
+        "id": "D",
+        "text": "Resist"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Dwell is the most appropriate synonym of \"Abide\". Hindi meaning: निवास करना / रहना.",
+    "language": "en"
+  },
+  {
+    "id": "syn009",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abjure\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acquire"
+      },
+      {
+        "id": "B",
+        "text": "Withdraw"
+      },
+      {
+        "id": "C",
+        "text": "Renounce"
+      },
+      {
+        "id": "D",
+        "text": "Defend"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Renounce is the most appropriate synonym of \"Abjure\". Hindi meaning: त्याग देना / शपथपूर्वक छोड़ना.",
+    "language": "en"
+  },
+  {
+    "id": "syn010",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abolish\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Modify"
+      },
+      {
+        "id": "B",
+        "text": "Maintain"
+      },
+      {
+        "id": "C",
+        "text": "Restore"
+      },
+      {
+        "id": "D",
+        "text": "Eliminate"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Eliminate is the most appropriate synonym of \"Abolish\". Hindi meaning: समाप्त करना / खत्म करना.",
+    "language": "en"
+  },
+  {
+    "id": "syn011",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abominable\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obnoxious"
+      },
+      {
+        "id": "B",
+        "text": "Admirable"
+      },
+      {
+        "id": "C",
+        "text": "Offensive"
+      },
+      {
+        "id": "D",
+        "text": "Unpleasant"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Obnoxious is the most appropriate synonym of \"Abominable\". Hindi meaning: घृणित / बहुत अप्रिय.",
+    "language": "en"
+  },
+  {
+    "id": "syn012",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abort\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Terminate"
+      },
+      {
+        "id": "B",
+        "text": "Postpone"
+      },
+      {
+        "id": "C",
+        "text": "Complete"
+      },
+      {
+        "id": "D",
+        "text": "Begin"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Terminate is the most appropriate synonym of \"Abort\". Hindi meaning: समाप्त करना / बीच में रोक देना.",
+    "language": "en"
+  },
+  {
+    "id": "syn013",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abortive\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unsuccessful"
+      },
+      {
+        "id": "B",
+        "text": "Incomplete"
+      },
+      {
+        "id": "C",
+        "text": "Successful"
+      },
+      {
+        "id": "D",
+        "text": "Ineffective"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Unsuccessful is the most appropriate synonym of \"Abortive\". Hindi meaning: असफल / अपेक्षित परिणाम न देने वाला.",
+    "language": "en"
+  },
+  {
+    "id": "syn014",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abound\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Flourish"
+      },
+      {
+        "id": "B",
+        "text": "Prosper"
+      },
+      {
+        "id": "C",
+        "text": "Lack"
+      },
+      {
+        "id": "D",
+        "text": "Exist"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Flourish is the most appropriate synonym of \"Abound\". Hindi meaning: बहुतायत में होना / प्रचुर होना.",
+    "language": "en"
+  },
+  {
+    "id": "syn015",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abridge\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Expand"
+      },
+      {
+        "id": "B",
+        "text": "Extend"
+      },
+      {
+        "id": "C",
+        "text": "Summarize"
+      },
+      {
+        "id": "D",
+        "text": "Shorten"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Shorten is the most appropriate synonym of \"Abridge\". Hindi meaning: संक्षिप्त करना.",
+    "language": "en"
+  },
+  {
+    "id": "syn016",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abrogate\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Establish"
+      },
+      {
+        "id": "B",
+        "text": "Modify"
+      },
+      {
+        "id": "C",
+        "text": "Repeal"
+      },
+      {
+        "id": "D",
+        "text": "Delay"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Repeal is the most appropriate synonym of \"Abrogate\". Hindi meaning: रद्द करना / समाप्त करना.",
+    "language": "en"
+  },
+  {
+    "id": "syn017",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abrupt\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gradual"
+      },
+      {
+        "id": "B",
+        "text": "Sudden"
+      },
+      {
+        "id": "C",
+        "text": "Regular"
+      },
+      {
+        "id": "D",
+        "text": "Hasty"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Sudden is the most appropriate synonym of \"Abrupt\". Hindi meaning: अचानक / अप्रत्याशित.",
+    "language": "en"
+  },
+  {
+    "id": "syn018",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Absolute\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Complete"
+      },
+      {
+        "id": "B",
+        "text": "Limited"
+      },
+      {
+        "id": "C",
+        "text": "Definite"
+      },
+      {
+        "id": "D",
+        "text": "Approximate"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Complete is the most appropriate synonym of \"Absolute\". Hindi meaning: पूर्ण / संपूर्ण.",
+    "language": "en"
+  },
+  {
+    "id": "syn019",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Absolve\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Forgive"
+      },
+      {
+        "id": "B",
+        "text": "Accuse"
+      },
+      {
+        "id": "C",
+        "text": "Pardon"
+      },
+      {
+        "id": "D",
+        "text": "Condemn"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Pardon is the most appropriate synonym of \"Absolve\". Hindi meaning: दोष से मुक्त करना / क्षमा करना.",
+    "language": "en"
+  },
+  {
+    "id": "syn020",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Absorb\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reject"
+      },
+      {
+        "id": "B",
+        "text": "Imbibe"
+      },
+      {
+        "id": "C",
+        "text": "Soak"
+      },
+      {
+        "id": "D",
+        "text": "Release"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Soak is the most appropriate synonym of \"Absorb\". Hindi meaning: सोख लेना.",
+    "language": "en"
+  },
+  {
+    "id": "syn021",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abstain\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Avoid"
+      },
+      {
+        "id": "B",
+        "text": "Resist"
+      },
+      {
+        "id": "C",
+        "text": "Indulge"
+      },
+      {
+        "id": "D",
+        "text": "Refrain"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Refrain is the most appropriate synonym of \"Abstain\". Hindi meaning: परहेज़ करना / दूर रहना.",
+    "language": "en"
+  },
+  {
+    "id": "syn022",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Absurd\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ridiculous"
+      },
+      {
+        "id": "B",
+        "text": "Unusual"
+      },
+      {
+        "id": "C",
+        "text": "Rational"
+      },
+      {
+        "id": "D",
+        "text": "Foolish"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Ridiculous is the most appropriate synonym of \"Absurd\". Hindi meaning: बेतुका / हास्यास्पद.",
+    "language": "en"
+  },
+  {
+    "id": "syn023",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abundance\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scarcity"
+      },
+      {
+        "id": "B",
+        "text": "Plenty"
+      },
+      {
+        "id": "C",
+        "text": "Shortage"
+      },
+      {
+        "id": "D",
+        "text": "Plethora"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Plethora is the most appropriate synonym of \"Abundance\". Hindi meaning: प्रचुरता / बहुत अधिक मात्रा.",
+    "language": "en"
+  },
+  {
+    "id": "syn024",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abundant\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ample"
+      },
+      {
+        "id": "B",
+        "text": "Scanty"
+      },
+      {
+        "id": "C",
+        "text": "Sufficient"
+      },
+      {
+        "id": "D",
+        "text": "Plentiful"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Plentiful is the most appropriate synonym of \"Abundant\". Hindi meaning: प्रचुर / बहुत अधिक.",
+    "language": "en"
+  },
+  {
+    "id": "syn025",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Abuse\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Applaud"
+      },
+      {
+        "id": "B",
+        "text": "Harm"
+      },
+      {
+        "id": "C",
+        "text": "Scorn"
+      },
+      {
+        "id": "D",
+        "text": "Insult"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Scorn is the most appropriate synonym of \"Abuse\". Hindi meaning: दुर्व्यवहार करना / तिरस्कार करना.",
+    "language": "en"
+  },
+  {
+    "id": "syn026",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Accede\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Consent"
+      },
+      {
+        "id": "B",
+        "text": "Deny"
+      },
+      {
+        "id": "C",
+        "text": "Comply"
+      },
+      {
+        "id": "D",
+        "text": "Refuse"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Consent is the most appropriate synonym of \"Accede\". Hindi meaning: सहमत होना / मान लेना.",
+    "language": "en"
+  },
+  {
+    "id": "syn027",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Accessory\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Attachment"
+      },
+      {
+        "id": "B",
+        "text": "Supplement"
+      },
+      {
+        "id": "C",
+        "text": "Essential"
+      },
+      {
+        "id": "D",
+        "text": "Necessity"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Attachment is the most appropriate synonym of \"Accessory\". Hindi meaning: सहायक वस्तु / अतिरिक्त वस्तु.",
+    "language": "en"
+  },
+  {
+    "id": "syn028",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Accolade\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Praise"
+      },
+      {
+        "id": "B",
+        "text": "Award"
+      },
+      {
+        "id": "C",
+        "text": "Criticism"
+      },
+      {
+        "id": "D",
+        "text": "Blame"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Praise is the most appropriate synonym of \"Accolade\". Hindi meaning: प्रशंसा / सम्मान.",
+    "language": "en"
+  },
+  {
+    "id": "syn029",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Accomplish\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Achieve"
+      },
+      {
+        "id": "B",
+        "text": "Attain"
+      },
+      {
+        "id": "C",
+        "text": "Attempt"
+      },
+      {
+        "id": "D",
+        "text": "Fail"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Achieve is the most appropriate synonym of \"Accomplish\". Hindi meaning: सफलतापूर्वक पूरा करना / प्राप्त करना.",
+    "language": "en"
+  },
+  {
+    "id": "syn030",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Accord\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Confer"
+      },
+      {
+        "id": "B",
+        "text": "Oppose"
+      },
+      {
+        "id": "C",
+        "text": "Grant"
+      },
+      {
+        "id": "D",
+        "text": "Disagree"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Confer is the most appropriate synonym of \"Accord\". Hindi meaning: प्रदान करना / देना.",
+    "language": "en"
+  },
+  {
+    "id": "syn031",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Accountable\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Answerable"
+      },
+      {
+        "id": "B",
+        "text": "Responsible"
+      },
+      {
+        "id": "C",
+        "text": "Irresponsible"
+      },
+      {
+        "id": "D",
+        "text": "Liable"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Answerable is the most appropriate synonym of \"Accountable\". Hindi meaning: जवाबदेह.",
+    "language": "en"
+  },
+  {
+    "id": "syn032",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Accumulate\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Distribute"
+      },
+      {
+        "id": "B",
+        "text": "Gather"
+      },
+      {
+        "id": "C",
+        "text": "Amass"
+      },
+      {
+        "id": "D",
+        "text": "Scatter"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Amass is the most appropriate synonym of \"Accumulate\". Hindi meaning: इकट्ठा करना / संचित करना.",
+    "language": "en"
+  },
+  {
+    "id": "syn033",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Accurate\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Incorrect"
+      },
+      {
+        "id": "B",
+        "text": "Exact"
+      },
+      {
+        "id": "C",
+        "text": "Precise"
+      },
+      {
+        "id": "D",
+        "text": "Approximate"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Precise is the most appropriate synonym of \"Accurate\". Hindi meaning: सटीक / सही.",
+    "language": "en"
+  }
+]
