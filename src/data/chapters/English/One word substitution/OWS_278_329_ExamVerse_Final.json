@@ -1,0 +1,1354 @@
+[
+  {
+    "id": "ows278",
+    "question": "Animals that eat meat",
+    "options": [
+      {
+        "id": "A",
+        "text": "Carnivorus"
+      },
+      {
+        "id": "B",
+        "text": "Carnivorouss"
+      },
+      {
+        "id": "C",
+        "text": "Carniverous"
+      },
+      {
+        "id": "D",
+        "text": "Carnivorous"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Carnivorous means “मांसभक्षी”. Example: “Lions are carnivorous animals.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows279",
+    "question": "Song which is sung in a church by a group of singers",
+    "options": [
+      {
+        "id": "A",
+        "text": "Carrol"
+      },
+      {
+        "id": "B",
+        "text": "Karol"
+      },
+      {
+        "id": "C",
+        "text": "Carol"
+      },
+      {
+        "id": "D",
+        "text": "Carole"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Carol means “ईसाइयों का भजन”. Example: “The choir sang a Christmas carol.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows280",
+    "question": "A person who draws or makes maps",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cartographar"
+      },
+      {
+        "id": "B",
+        "text": "Cartographer"
+      },
+      {
+        "id": "C",
+        "text": "Cartograher"
+      },
+      {
+        "id": "D",
+        "text": "Cartografer"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cartographer means “मानचित्रकार”. Example: “The cartographer prepared a detailed map.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows281",
+    "question": "The art or process of drawing or making maps",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cartogrophy"
+      },
+      {
+        "id": "B",
+        "text": "Cartography"
+      },
+      {
+        "id": "C",
+        "text": "Cartographyy"
+      },
+      {
+        "id": "D",
+        "text": "Cartografy"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cartography means “मानचित्रकारी”. Example: “He studied cartography at university.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows282",
+    "question": "An amusing drawing about politics/events in the news",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cartton"
+      },
+      {
+        "id": "B",
+        "text": "Cartun"
+      },
+      {
+        "id": "C",
+        "text": "Cartone"
+      },
+      {
+        "id": "D",
+        "text": "Cartoon"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Cartoon means “व्यंग्यचित्र”. Example: “The newspaper published a political cartoon.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows283",
+    "question": "A fall of water from a great height",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cascade"
+      },
+      {
+        "id": "B",
+        "text": "Cascadde"
+      },
+      {
+        "id": "C",
+        "text": "Cascad"
+      },
+      {
+        "id": "D",
+        "text": "Cascate"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cascade means “झरना”. Example: “Water fell over the rocks in a cascade.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows284",
+    "question": "A place where gambling games are played",
+    "options": [
+      {
+        "id": "A",
+        "text": "Caseno"
+      },
+      {
+        "id": "B",
+        "text": "Cassino"
+      },
+      {
+        "id": "C",
+        "text": "Casinno"
+      },
+      {
+        "id": "D",
+        "text": "Casino"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Casino means “जुआखाना”. Example: “They visited a casino during their holiday.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows285",
+    "question": "A large, deep pot used both in the oven and as a serving vessel",
+    "options": [
+      {
+        "id": "A",
+        "text": "Casseroll"
+      },
+      {
+        "id": "B",
+        "text": "Caserole"
+      },
+      {
+        "id": "C",
+        "text": "Casserol"
+      },
+      {
+        "id": "D",
+        "text": "Casserole"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Casserole means “एक प्रकार का बर्तन”. Example: “The vegetables were baked in a casserole.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows286",
+    "question": "A list or collection of books or informative graphics",
+    "options": [
+      {
+        "id": "A",
+        "text": "Catelogue"
+      },
+      {
+        "id": "B",
+        "text": "Catalogue"
+      },
+      {
+        "id": "C",
+        "text": "Cataloge"
+      },
+      {
+        "id": "D",
+        "text": "Catalogoue"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Catalogue means “सूची”. Example: “The library issued a new catalogue.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows287",
+    "question": "A substance that speeds up a chemical reaction without being consumed by the reaction itself",
+    "options": [
+      {
+        "id": "A",
+        "text": "Catalistt"
+      },
+      {
+        "id": "B",
+        "text": "Catalyst"
+      },
+      {
+        "id": "C",
+        "text": "Catalist"
+      },
+      {
+        "id": "D",
+        "text": "Cataylst"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Catalyst means “उत्प्रेरक”. Example: “The enzyme acts as a catalyst.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows288",
+    "question": "An event causing great and sudden damage or suffering",
+    "options": [
+      {
+        "id": "A",
+        "text": "Catastroph"
+      },
+      {
+        "id": "B",
+        "text": "Catastrophy"
+      },
+      {
+        "id": "C",
+        "text": "Catastrophee"
+      },
+      {
+        "id": "D",
+        "text": "Catastrophe"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Catastrophe means “तबाही”. Example: “The earthquake was a major catastrophe.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows289",
+    "question": "Causing great damage or suffering",
+    "options": [
+      {
+        "id": "A",
+        "text": "Catastrophic"
+      },
+      {
+        "id": "B",
+        "text": "Catastrophc"
+      },
+      {
+        "id": "C",
+        "text": "Catastropic"
+      },
+      {
+        "id": "D",
+        "text": "Catastrophik"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Catastrophic means “विनाशकारी”. Example: “The flood had catastrophic consequences.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows290",
+    "question": "A local meeting of party members to select candidates, elect convention delegates, etc.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Caucuss"
+      },
+      {
+        "id": "B",
+        "text": "Caucuus"
+      },
+      {
+        "id": "C",
+        "text": "Caucus"
+      },
+      {
+        "id": "D",
+        "text": "Caucs"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Caucus means “दल के सदस्यों की स्थानीय सभा”. Example: “The party held a caucus to choose its candidate.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows291",
+    "question": "A large, deep, metal pot used for cooking over open fire",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cauldren"
+      },
+      {
+        "id": "B",
+        "text": "Cauldran"
+      },
+      {
+        "id": "C",
+        "text": "Cauldronn"
+      },
+      {
+        "id": "D",
+        "text": "Cauldron"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Cauldron means “हांडा/कड़ाही”. Example: “The cook stirred the mixture in a large cauldron.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows292",
+    "question": "Soldiers who fight on horseback",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cavalrey"
+      },
+      {
+        "id": "B",
+        "text": "Cavalry"
+      },
+      {
+        "id": "C",
+        "text": "Cavallery"
+      },
+      {
+        "id": "D",
+        "text": "Cavarly"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cavalry means “घुड़सवार सेना”. Example: “The cavalry advanced across the field.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows293",
+    "question": "The sound of a crow",
+    "options": [
+      {
+        "id": "A",
+        "text": "Caww"
+      },
+      {
+        "id": "B",
+        "text": "Caw"
+      },
+      {
+        "id": "C",
+        "text": "Kaw"
+      },
+      {
+        "id": "D",
+        "text": "Caw"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Caw means “कौवे की कांय-कांय”. Example: “We heard the caw of a crow.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows294",
+    "question": "A time when enemies agree to stop fighting",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ceasefire"
+      },
+      {
+        "id": "B",
+        "text": "Ceasfire"
+      },
+      {
+        "id": "C",
+        "text": "Cease-fire"
+      },
+      {
+        "id": "D",
+        "text": "Ceasefier"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Ceasefire means “युद्ध विराम”. Example: “Both sides agreed to a ceasefire.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows295",
+    "question": "The state of being unmarried by choice",
+    "options": [
+      {
+        "id": "A",
+        "text": "Celibasy"
+      },
+      {
+        "id": "B",
+        "text": "Celibacy"
+      },
+      {
+        "id": "C",
+        "text": "Celibasy"
+      },
+      {
+        "id": "D",
+        "text": "Celibacyy"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Celibacy means “ब्रह्मचर्य”. Example: “The monk chose a life of celibacy.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows296",
+    "question": "Underground place for storing wine or other provisions",
+    "options": [
+      {
+        "id": "A",
+        "text": "Celler"
+      },
+      {
+        "id": "B",
+        "text": "Cellarr"
+      },
+      {
+        "id": "C",
+        "text": "Cellar"
+      },
+      {
+        "id": "D",
+        "text": "Cellar"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Cellar means “तहखाना”. Example: “The wine was stored in the cellar.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows297",
+    "question": "A large burial ground",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cemetry"
+      },
+      {
+        "id": "B",
+        "text": "Cemetary"
+      },
+      {
+        "id": "C",
+        "text": "Cemetery"
+      },
+      {
+        "id": "D",
+        "text": "Cemeterry"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Cemetery means “कब्रिस्तान”. Example: “The old cemetery lies behind the church.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows298",
+    "question": "A person who is 100 years old or more",
+    "options": [
+      {
+        "id": "A",
+        "text": "Centenarian"
+      },
+      {
+        "id": "B",
+        "text": "Centenarian"
+      },
+      {
+        "id": "C",
+        "text": "Centenerean"
+      },
+      {
+        "id": "D",
+        "text": "Centanarian"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Centenarian means “सौ वर्ष का”. Example: “The village celebrated its oldest centenarian.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows299",
+    "question": "The 100th anniversary of an event",
+    "options": [
+      {
+        "id": "A",
+        "text": "Centenniel"
+      },
+      {
+        "id": "B",
+        "text": "Centenial"
+      },
+      {
+        "id": "C",
+        "text": "Centennial"
+      },
+      {
+        "id": "D",
+        "text": "Centeniall"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Centennial means “शताब्दी”. Example: “The institution celebrated its centennial.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows300",
+    "question": "Anything tending to move away from centre",
+    "options": [
+      {
+        "id": "A",
+        "text": "Centrifugal"
+      },
+      {
+        "id": "B",
+        "text": "Centrifugel"
+      },
+      {
+        "id": "C",
+        "text": "Centrifigal"
+      },
+      {
+        "id": "D",
+        "text": "Centrifugul"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Centrifugal means “अपकेंद्री”. Example: “The centrifugal force pushes objects away from the centre.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows301",
+    "question": "Something that is related to the brain or the intellect",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cerebral"
+      },
+      {
+        "id": "B",
+        "text": "Cerebral"
+      },
+      {
+        "id": "C",
+        "text": "Cerebrul"
+      },
+      {
+        "id": "D",
+        "text": "Cerebrall"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cerebral means “दिमागी”. Example: “The book requires considerable cerebral effort.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows302",
+    "question": "Art of designing or writing on wax",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cerograhy"
+      },
+      {
+        "id": "B",
+        "text": "Cerography"
+      },
+      {
+        "id": "C",
+        "text": "Cerographi"
+      },
+      {
+        "id": "D",
+        "text": "Cerografy"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Cerography means “मोम पर नक्काशी का काम”. Example: “The artist practised cerography on wax.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows303",
+    "question": "Rub a part of the body to restore warmth or sensation",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chaf"
+      },
+      {
+        "id": "B",
+        "text": "Chafff"
+      },
+      {
+        "id": "C",
+        "text": "Chafe"
+      },
+      {
+        "id": "D",
+        "text": "Chafe"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Chafe means “रगड़कर गरमाना”. Example: “The rough cloth began to chafe his skin.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows304",
+    "question": "The husks of corn or other grains separated by winnowing or threshing",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chafff"
+      },
+      {
+        "id": "B",
+        "text": "Chaff"
+      },
+      {
+        "id": "C",
+        "text": "Chaff"
+      },
+      {
+        "id": "D",
+        "text": "Chafe"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Chaff means “भूसा”. Example: “The farmer separated the grain from the chaff.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows305",
+    "question": "Vexation for humiliation or disappointment",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chagrinn"
+      },
+      {
+        "id": "B",
+        "text": "Chagreen"
+      },
+      {
+        "id": "C",
+        "text": "Chagrine"
+      },
+      {
+        "id": "D",
+        "text": "Chagrin"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Chagrin means “निराशा की वजह से शर्मिंदगी”. Example: “To his chagrin, he missed the final train.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows306",
+    "question": "Replacing something with something else",
+    "options": [
+      {
+        "id": "A",
+        "text": "Changge"
+      },
+      {
+        "id": "B",
+        "text": "Change"
+      },
+      {
+        "id": "C",
+        "text": "Chainge"
+      },
+      {
+        "id": "D",
+        "text": "Chnage"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Change means “परिवर्तन”. Example: “They decided to change the old system.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows307",
+    "question": "A child who is believed to have been secretly left in exchange for another",
+    "options": [
+      {
+        "id": "A",
+        "text": "Changelinng"
+      },
+      {
+        "id": "B",
+        "text": "Changeling"
+      },
+      {
+        "id": "C",
+        "text": "Changelingg"
+      },
+      {
+        "id": "D",
+        "text": "Changling"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Changeling means “बदला हुआ बच्चा”. Example: “The folklore story tells of a changeling child.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows308",
+    "question": "A small building/room used for Christian worship in a school, prison, large private house, etc.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chappel"
+      },
+      {
+        "id": "B",
+        "text": "Chaple"
+      },
+      {
+        "id": "C",
+        "text": "Chapel"
+      },
+      {
+        "id": "D",
+        "text": "Chappell"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Chapel means “छोटा गिरजा घर”. Example: “The students gathered in the chapel for prayer.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows309",
+    "question": "Compelling attractiveness or charm that can inspire or influence others",
+    "options": [
+      {
+        "id": "A",
+        "text": "Charismaa"
+      },
+      {
+        "id": "B",
+        "text": "Charizma"
+      },
+      {
+        "id": "C",
+        "text": "Charisma"
+      },
+      {
+        "id": "D",
+        "text": "Charismma"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Charisma means “आकर्षण”. Example: “Her charisma attracted a large following.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows310",
+    "question": "Exercising a compelling charm which inspires devotion in others",
+    "options": [
+      {
+        "id": "A",
+        "text": "Charismatick"
+      },
+      {
+        "id": "B",
+        "text": "Charismattic"
+      },
+      {
+        "id": "C",
+        "text": "Charismatic"
+      },
+      {
+        "id": "D",
+        "text": "Charismetic"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Charismatic means “आकर्षक”. Example: “He is a charismatic leader.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows311",
+    "question": "A person falsely claiming to have a special knowledge or skill",
+    "options": [
+      {
+        "id": "A",
+        "text": "Charlattan"
+      },
+      {
+        "id": "B",
+        "text": "Charlatan"
+      },
+      {
+        "id": "C",
+        "text": "Charletan"
+      },
+      {
+        "id": "D",
+        "text": "Charlatan"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Charlatan means “ढोंगी”. Example: “The self-proclaimed healer was exposed as a charlatan.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows312",
+    "question": "Run after in order to catch or catch up with",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chase"
+      },
+      {
+        "id": "B",
+        "text": "Chace"
+      },
+      {
+        "id": "C",
+        "text": "Chas"
+      },
+      {
+        "id": "D",
+        "text": "Chasse"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Chase means “पीछा करना”. Example: “The police began to chase the suspect.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows313",
+    "question": "A deep fissure in the earth's surface",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chasm"
+      },
+      {
+        "id": "B",
+        "text": "Chasmm"
+      },
+      {
+        "id": "C",
+        "text": "Chassm"
+      },
+      {
+        "id": "D",
+        "text": "Chasum"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Chasm means “गहरी खाई”. Example: “A deep chasm separated the two cliffs.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows314",
+    "question": "The base frame of a car or other wheeled vehicle",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chasis"
+      },
+      {
+        "id": "B",
+        "text": "Chassiss"
+      },
+      {
+        "id": "C",
+        "text": "Chassis"
+      },
+      {
+        "id": "D",
+        "text": "Chassie"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Chassis means “ढांचा”. Example: “The mechanic inspected the vehicle's chassis.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows315",
+    "question": "To criticise someone severely",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chastize"
+      },
+      {
+        "id": "B",
+        "text": "Chastisse"
+      },
+      {
+        "id": "C",
+        "text": "Chastise"
+      },
+      {
+        "id": "D",
+        "text": "Chastise"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Chastise means “फटकारना”. Example: “The teacher chastised the student.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows316",
+    "question": "A person employed to drive a private or hired car",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chauffeur"
+      },
+      {
+        "id": "B",
+        "text": "Chauffer"
+      },
+      {
+        "id": "C",
+        "text": "Chauffeour"
+      },
+      {
+        "id": "D",
+        "text": "Chauffeur"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Chauffeur means “मोटर-चालक”. Example: “The businessman hired a chauffeur.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows317",
+    "question": "Palm reading",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chiromancy"
+      },
+      {
+        "id": "B",
+        "text": "Chyromancy"
+      },
+      {
+        "id": "C",
+        "text": "Chiromansy"
+      },
+      {
+        "id": "D",
+        "text": "Chiromancyy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Chiromancy means “हस्तरेखा विद्या”. Example: “She became interested in chiromancy.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows318",
+    "question": "A group of singers in a church",
+    "options": [
+      {
+        "id": "A",
+        "text": "Choir"
+      },
+      {
+        "id": "B",
+        "text": "Choir"
+      },
+      {
+        "id": "C",
+        "text": "Chior"
+      },
+      {
+        "id": "D",
+        "text": "Choire"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Choir means “गायक-मंडली”. Example: “The church choir practised every evening.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows319",
+    "question": "A routine task, especially a household one",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chore"
+      },
+      {
+        "id": "B",
+        "text": "Chorre"
+      },
+      {
+        "id": "C",
+        "text": "Chor"
+      },
+      {
+        "id": "D",
+        "text": "Choree"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Chore means “दैनिक काम”. Example: “Washing dishes is a daily household chore.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows320",
+    "question": "One who plans the steps and moves in a dance",
+    "options": [
+      {
+        "id": "A",
+        "text": "Choreografer"
+      },
+      {
+        "id": "B",
+        "text": "Choreographar"
+      },
+      {
+        "id": "C",
+        "text": "Choreographer"
+      },
+      {
+        "id": "D",
+        "text": "Choreograhper"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Choreographer means “नृत्य-निर्देशक”. Example: “The choreographer designed the dance routine.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows321",
+    "question": "A disease persisting for a long time or recurring again and again",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chronick"
+      },
+      {
+        "id": "B",
+        "text": "Chronik"
+      },
+      {
+        "id": "C",
+        "text": "Chornic"
+      },
+      {
+        "id": "D",
+        "text": "Chronic"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Chronic means “दीर्घ/स्थायी”. Example: “He suffers from a chronic condition.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows322",
+    "question": "A factual written account of important or historical events in the order of their occurrence",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chronnicle"
+      },
+      {
+        "id": "B",
+        "text": "Chronical"
+      },
+      {
+        "id": "C",
+        "text": "Chronicle"
+      },
+      {
+        "id": "D",
+        "text": "Chronikle"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Chronicle means “कालक्रम से अभिलेखन”. Example: “The book is a chronicle of the king's reign.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows323",
+    "question": "The order of their occurrence",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chronological"
+      },
+      {
+        "id": "B",
+        "text": "Chronoligical"
+      },
+      {
+        "id": "C",
+        "text": "Chronologicall"
+      },
+      {
+        "id": "D",
+        "text": "Chronologial"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Chronological means “तिथिक्रम के अनुसार”. Example: “Arrange the events in chronological order.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows324",
+    "question": "An arrangement of events or dates in the order of their occurrence",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chronology"
+      },
+      {
+        "id": "B",
+        "text": "Chronolgoy"
+      },
+      {
+        "id": "C",
+        "text": "Chronolagy"
+      },
+      {
+        "id": "D",
+        "text": "Chronologyy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Chronology means “कालक्रम”. Example: “The chronology was carefully recorded.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows325",
+    "question": "An instrument for measuring time accurately in spite of motion or variations in temperature, humidity, and air pressure",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chronometre"
+      },
+      {
+        "id": "B",
+        "text": "Chronometor"
+      },
+      {
+        "id": "C",
+        "text": "Chronometer"
+      },
+      {
+        "id": "D",
+        "text": "Chronameter"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Chronometer means “बिल्कुल ठीक समय बताने वाली घड़ी”. Example: “The ship used a precise chronometer.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows326",
+    "question": "Rude in a mean-spirited and surly way",
+    "options": [
+      {
+        "id": "A",
+        "text": "Churlish"
+      },
+      {
+        "id": "B",
+        "text": "Churlishh"
+      },
+      {
+        "id": "C",
+        "text": "Churllish"
+      },
+      {
+        "id": "D",
+        "text": "Churlissh"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Churlish means “असभ्य”. Example: “His churlish response offended everyone.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows327",
+    "question": "Extreme self-confidence or audacity",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chutzpah"
+      },
+      {
+        "id": "B",
+        "text": "Chutzpha"
+      },
+      {
+        "id": "C",
+        "text": "Chutzpahh"
+      },
+      {
+        "id": "D",
+        "text": "Chutzpah"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Chutzpah means “दुस्साहस”. Example: “It took considerable chutzpah to make such a bold demand.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows328",
+    "question": "The use of many words where only a few are necessary",
+    "options": [
+      {
+        "id": "A",
+        "text": "Circumlocutoin"
+      },
+      {
+        "id": "B",
+        "text": "Circumlocuation"
+      },
+      {
+        "id": "C",
+        "text": "Circumloction"
+      },
+      {
+        "id": "D",
+        "text": "Circumlocution"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Circumlocution means “शब्द-बाहुल्य”. Example: “His answer was full of unnecessary circumlocution.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows329",
+    "question": "Clues available at a scene",
+    "options": [
+      {
+        "id": "A",
+        "text": "Circumstantal"
+      },
+      {
+        "id": "B",
+        "text": "Circumstential"
+      },
+      {
+        "id": "C",
+        "text": "Circumstantial"
+      },
+      {
+        "id": "D",
+        "text": "Circumstancial"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Circumstantial means “परिस्थितिक”. Example: “The police examined the circumstantial clues.”",
+    "difficulty": "hard",
+    "language": "en"
+  }
+]
