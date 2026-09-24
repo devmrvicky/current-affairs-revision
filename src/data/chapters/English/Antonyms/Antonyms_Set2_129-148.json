@@ -1,0 +1,562 @@
+[
+  {
+    "id": "anto129",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Arid\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fertile"
+      },
+      {
+        "id": "B",
+        "text": "Dry"
+      },
+      {
+        "id": "C",
+        "text": "Wet"
+      },
+      {
+        "id": "D",
+        "text": "Dusty"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Wet is the intended antonym of \"Arid\". Hindi meaning: सूखा / शुष्क.",
+    "language": "en"
+  },
+  {
+    "id": "anto130",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Aroma\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Odour"
+      },
+      {
+        "id": "B",
+        "text": "Stink"
+      },
+      {
+        "id": "C",
+        "text": "Fragrance"
+      },
+      {
+        "id": "D",
+        "text": "Taste"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Stink is the intended antonym of \"Aroma\". Hindi meaning: सुगंध.",
+    "language": "en"
+  },
+  {
+    "id": "anto131",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Arraign\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Investigate"
+      },
+      {
+        "id": "B",
+        "text": "Acquit"
+      },
+      {
+        "id": "C",
+        "text": "Convict"
+      },
+      {
+        "id": "D",
+        "text": "Accuse"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Acquit is the intended antonym of \"Arraign\". Hindi meaning: दोषमुक्त करना.",
+    "language": "en"
+  },
+  {
+    "id": "anto132",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Arrogance\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Humility"
+      },
+      {
+        "id": "B",
+        "text": "Pride"
+      },
+      {
+        "id": "C",
+        "text": "Dominance"
+      },
+      {
+        "id": "D",
+        "text": "Authority"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Humility is the intended antonym of \"Arrogance\". Hindi meaning: विनम्रता.",
+    "language": "en"
+  },
+  {
+    "id": "anto133",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Arrogant\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Haughty"
+      },
+      {
+        "id": "B",
+        "text": "Bossy"
+      },
+      {
+        "id": "C",
+        "text": "Proud"
+      },
+      {
+        "id": "D",
+        "text": "Humble"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Humble is the intended antonym of \"Arrogant\". Hindi meaning: विनम्र.",
+    "language": "en"
+  },
+  {
+    "id": "anto134",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Articulate\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Forceful"
+      },
+      {
+        "id": "B",
+        "text": "Eloquent"
+      },
+      {
+        "id": "C",
+        "text": "Precise"
+      },
+      {
+        "id": "D",
+        "text": "Unclear"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Unclear is the intended antonym of \"Articulate\". Hindi meaning: अस्पष्ट / स्पष्ट रूप से व्यक्त न किया गया.",
+    "language": "en"
+  },
+  {
+    "id": "anto135",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Ascending\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Approaching"
+      },
+      {
+        "id": "B",
+        "text": "Rising"
+      },
+      {
+        "id": "C",
+        "text": "Descending"
+      },
+      {
+        "id": "D",
+        "text": "Steady"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Descending is the intended antonym of \"Ascending\". Hindi meaning: नीचे उतरना / अवरोही.",
+    "language": "en"
+  },
+  {
+    "id": "anto136",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Ascertain\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Discover"
+      },
+      {
+        "id": "B",
+        "text": "Notice"
+      },
+      {
+        "id": "C",
+        "text": "Verify"
+      },
+      {
+        "id": "D",
+        "text": "Overlook"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Overlook is the intended antonym of \"Ascertain\". Hindi meaning: ध्यान न देना / नज़रअंदाज़ करना.",
+    "language": "en"
+  },
+  {
+    "id": "anto137",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Assault\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Observe"
+      },
+      {
+        "id": "B",
+        "text": "Approach"
+      },
+      {
+        "id": "C",
+        "text": "Defend"
+      },
+      {
+        "id": "D",
+        "text": "Attack"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Defend is the intended antonym of \"Assault\". Hindi meaning: रक्षा करना.",
+    "language": "en"
+  },
+  {
+    "id": "anto138",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Assemble\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Disperse"
+      },
+      {
+        "id": "B",
+        "text": "Combine"
+      },
+      {
+        "id": "C",
+        "text": "Organize"
+      },
+      {
+        "id": "D",
+        "text": "Gather"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Disperse is the intended antonym of \"Assemble\". Hindi meaning: बिखेरना / अलग-अलग करना.",
+    "language": "en"
+  },
+  {
+    "id": "anto139",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Assent\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Consent"
+      },
+      {
+        "id": "B",
+        "text": "Agreement"
+      },
+      {
+        "id": "C",
+        "text": "Dissent"
+      },
+      {
+        "id": "D",
+        "text": "Approval"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Dissent is the intended antonym of \"Assent\". Hindi meaning: असहमति.",
+    "language": "en"
+  },
+  {
+    "id": "anto140",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Assert\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Declare"
+      },
+      {
+        "id": "B",
+        "text": "Emphasize"
+      },
+      {
+        "id": "C",
+        "text": "Abandon"
+      },
+      {
+        "id": "D",
+        "text": "Support"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Abandon is the intended antonym of \"Assert\". Hindi meaning: छोड़ देना / त्याग देना.",
+    "language": "en"
+  },
+  {
+    "id": "anto141",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Assertion\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proof"
+      },
+      {
+        "id": "B",
+        "text": "Declaration"
+      },
+      {
+        "id": "C",
+        "text": "Denial"
+      },
+      {
+        "id": "D",
+        "text": "Confirmation"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Denial is the intended antonym of \"Assertion\". Hindi meaning: इनकार.",
+    "language": "en"
+  },
+  {
+    "id": "anto142",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Assertive\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aggressive"
+      },
+      {
+        "id": "B",
+        "text": "Domineering"
+      },
+      {
+        "id": "C",
+        "text": "Retiring"
+      },
+      {
+        "id": "D",
+        "text": "Forceful"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Retiring is the intended antonym of \"Assertive\". Hindi meaning: संकोची / पीछे रहने वाला.",
+    "language": "en"
+  },
+  {
+    "id": "anto143",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Assiduous\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Busy"
+      },
+      {
+        "id": "B",
+        "text": "Diligent"
+      },
+      {
+        "id": "C",
+        "text": "Energetic"
+      },
+      {
+        "id": "D",
+        "text": "Idle"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Idle is the intended antonym of \"Assiduous\". Hindi meaning: निष्क्रिय / आलसी.",
+    "language": "en"
+  },
+  {
+    "id": "anto144",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Assist\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Support"
+      },
+      {
+        "id": "B",
+        "text": "Help"
+      },
+      {
+        "id": "C",
+        "text": "Join"
+      },
+      {
+        "id": "D",
+        "text": "Obstruct"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Obstruct is the intended antonym of \"Assist\". Hindi meaning: बाधा डालना.",
+    "language": "en"
+  },
+  {
+    "id": "anto145",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Assuage\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Provoke"
+      },
+      {
+        "id": "B",
+        "text": "Relieve"
+      },
+      {
+        "id": "C",
+        "text": "Mollify"
+      },
+      {
+        "id": "D",
+        "text": "Soothe"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Provoke is the intended antonym of \"Assuage\". Hindi meaning: उकसाना / भड़काना.",
+    "language": "en"
+  },
+  {
+    "id": "anto146",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Astonish\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Surprise"
+      },
+      {
+        "id": "B",
+        "text": "Bore"
+      },
+      {
+        "id": "C",
+        "text": "Shock"
+      },
+      {
+        "id": "D",
+        "text": "Calm"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Calm is the intended antonym of \"Astonish\". Hindi meaning: शांत करना.",
+    "language": "en"
+  },
+  {
+    "id": "anto147",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Astound\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stun"
+      },
+      {
+        "id": "B",
+        "text": "Surprise"
+      },
+      {
+        "id": "C",
+        "text": "Clarify"
+      },
+      {
+        "id": "D",
+        "text": "Confuse"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Clarify is the intended antonym of \"Astound\". Hindi meaning: स्पष्ट करना.",
+    "language": "en"
+  },
+  {
+    "id": "anto148",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Astute\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Foolish"
+      },
+      {
+        "id": "B",
+        "text": "Alert"
+      },
+      {
+        "id": "C",
+        "text": "Cautious"
+      },
+      {
+        "id": "D",
+        "text": "Shrewd"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Foolish is the intended antonym of \"Astute\". Hindi meaning: मूर्ख / अविवेकी.",
+    "language": "en"
+  }
+]
