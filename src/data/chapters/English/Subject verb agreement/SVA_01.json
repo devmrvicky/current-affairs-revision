@@ -1,0 +1,1366 @@
+[
+  {
+    "id": "sva01",
+    "question": "Between two evils, I always picks the one I have never tried before.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Between two evils, I always picking the one I have never tried before."
+      },
+      {
+        "id": "B",
+        "text": "Between two evils, I always is picking the one I have never tried before."
+      },
+      {
+        "id": "C",
+        "text": "Between two evils, I always pick the one I have never tried before."
+      },
+      {
+        "id": "D",
+        "text": "Between two evils, I always picked the one I have never tried before."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Pick' is correct because 'I' takes the base form of the verb in the simple present tense.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva02",
+    "question": "The committee’s decision / have been / a topic / of controversy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "have been"
+      },
+      {
+        "id": "B",
+        "text": "a topic"
+      },
+      {
+        "id": "C",
+        "text": "of controversy."
+      },
+      {
+        "id": "D",
+        "text": "The committee’s decision"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'The committee’s decision' is singular, so 'has been' should be used instead of 'have been'.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva03",
+    "question": "Much of the beauty and glory of life have disappeared.",
+    "options": [
+      {
+        "id": "A",
+        "text": "beauty and glory"
+      },
+      {
+        "id": "B",
+        "text": "Much of the"
+      },
+      {
+        "id": "C",
+        "text": "have disappeared"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Much of' takes a singular verb when it refers to an uncountable quantity; therefore, 'has disappeared' is required.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva04",
+    "question": "Most of the committee / are here to / decide the fate of / this ancient building.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Most of the committee"
+      },
+      {
+        "id": "B",
+        "text": "this ancient building."
+      },
+      {
+        "id": "C",
+        "text": "are here to"
+      },
+      {
+        "id": "D",
+        "text": "decide the fate of"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'The committee' is treated as a singular collective noun here, so 'is here to' should be used.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva05",
+    "question": "Specialists say that this method speeds up language learning tremendously.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No error"
+      },
+      {
+        "id": "B",
+        "text": "language learning tremendously."
+      },
+      {
+        "id": "C",
+        "text": "this method speeds up"
+      },
+      {
+        "id": "D",
+        "text": "Specialists say that"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'This method' is a singular subject, so 'speeds up' is correct. There is no error.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "sva06",
+    "question": "The poor undergoes several problems in life that could be solved with money.",
+    "options": [
+      {
+        "id": "A",
+        "text": "solved with money"
+      },
+      {
+        "id": "B",
+        "text": "that could be"
+      },
+      {
+        "id": "C",
+        "text": "several problems in life"
+      },
+      {
+        "id": "D",
+        "text": "The poor undergoes"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'The poor' refers to poor people and is treated as plural, so 'undergo' should be used instead of 'undergoes'.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva07",
+    "question": "The Arabian Nights / have / many interesting stories for readers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Arabian Nights"
+      },
+      {
+        "id": "B",
+        "text": "No error"
+      },
+      {
+        "id": "C",
+        "text": "have"
+      },
+      {
+        "id": "D",
+        "text": "many interesting stories for readers"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'The Arabian Nights' is the title of one book, so it takes a singular verb: 'has'.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva08",
+    "question": "Thirty miles / are / a long way to walk.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No error"
+      },
+      {
+        "id": "B",
+        "text": "Thirty miles"
+      },
+      {
+        "id": "C",
+        "text": "a long way to walk"
+      },
+      {
+        "id": "D",
+        "text": "are"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "A distance expressed as one amount takes a singular verb; therefore, 'is' should be used instead of 'are'.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva09",
+    "question": "Around 30 percent of the Indian population are estimated to have latent TB.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No error"
+      },
+      {
+        "id": "B",
+        "text": "Around 30 percent of the"
+      },
+      {
+        "id": "C",
+        "text": "to have latent TB."
+      },
+      {
+        "id": "D",
+        "text": "Indian population are estimated"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Population' is treated as a singular/uncountable noun here, so 'is estimated' should be used.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva10",
+    "question": "Veena work in the sales department, doesn’t she?",
+    "options": [
+      {
+        "id": "A",
+        "text": "doesn’t she?"
+      },
+      {
+        "id": "B",
+        "text": "Veena work"
+      },
+      {
+        "id": "C",
+        "text": "in the sales department"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Veena' is singular, so the verb should be 'works', not 'work'.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "sva11",
+    "question": "Neither the doctors nor the nurse were present when the patient reached the hospital.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neither the doctors nor"
+      },
+      {
+        "id": "B",
+        "text": "the nurse were present"
+      },
+      {
+        "id": "C",
+        "text": "when the patient"
+      },
+      {
+        "id": "D",
+        "text": "reached the hospital"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "With 'neither...nor', the verb agrees with the nearer subject. 'The nurse' is singular, so 'was present' is correct.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva12",
+    "question": "They all, except Shirin, were very sad during the farewell party given to the teacher retiring, and her indifference were well noticed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "They all, except Shirin, were very sad"
+      },
+      {
+        "id": "B",
+        "text": "during the farewell party given"
+      },
+      {
+        "id": "C",
+        "text": "indifference were well noticed"
+      },
+      {
+        "id": "D",
+        "text": "to the teacher retiring, and her"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Indifference' is a singular noun, so 'was well noticed' should be used.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva13",
+    "question": "The number of students attending their classes are constantly decreasing in our university.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The number of students"
+      },
+      {
+        "id": "B",
+        "text": "attending their classes"
+      },
+      {
+        "id": "C",
+        "text": "in our university"
+      },
+      {
+        "id": "D",
+        "text": "are constantly decreasing"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'The number of + plural noun' takes a singular verb, so 'is constantly decreasing' is correct.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva14",
+    "question": "The most talented of these three boys are my friend’s son.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No error"
+      },
+      {
+        "id": "B",
+        "text": "of these three boys"
+      },
+      {
+        "id": "C",
+        "text": "are my friend’s son"
+      },
+      {
+        "id": "D",
+        "text": "The most talented"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'The most talented' refers to one boy in this sentence, so 'is my friend's son' should be used.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva15",
+    "question": "A significant number of students volunteers each year for environmental projects.",
+    "options": [
+      {
+        "id": "A",
+        "text": "volunteers each year for"
+      },
+      {
+        "id": "B",
+        "text": "No error"
+      },
+      {
+        "id": "C",
+        "text": "A significant number of students"
+      },
+      {
+        "id": "D",
+        "text": "environmental projects"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'A number of + plural noun' takes a plural verb, so 'volunteer' should be used instead of 'volunteers'.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva16",
+    "question": "Hundreds of migrants work in private firms in Erode.",
+    "options": [
+      {
+        "id": "A",
+        "text": "firms in Erode"
+      },
+      {
+        "id": "B",
+        "text": "No error"
+      },
+      {
+        "id": "C",
+        "text": "Hundreds of migrants"
+      },
+      {
+        "id": "D",
+        "text": "work in private"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Hundreds of migrants' is a plural subject, so 'work' is correct. There is no error.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "sva17",
+    "question": "You and I am going to make a great team.",
+    "options": [
+      {
+        "id": "A",
+        "text": "You and I"
+      },
+      {
+        "id": "B",
+        "text": "to make"
+      },
+      {
+        "id": "C",
+        "text": "am going"
+      },
+      {
+        "id": "D",
+        "text": "a great team"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'You and I' is a plural subject, so 'are going' should be used instead of 'am going'.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "sva18",
+    "question": "No one were present when I entered the hall.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No one were"
+      },
+      {
+        "id": "B",
+        "text": "No error"
+      },
+      {
+        "id": "C",
+        "text": "present when I"
+      },
+      {
+        "id": "D",
+        "text": "entered the hall"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'No one' is a singular indefinite pronoun, so 'was present' should be used.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "sva19",
+    "question": "Mr. Das, my friend and Principal of this college, have retired.",
+    "options": [
+      {
+        "id": "A",
+        "text": "of this college"
+      },
+      {
+        "id": "B",
+        "text": "and Principal"
+      },
+      {
+        "id": "C",
+        "text": "Mr. Das, my friend"
+      },
+      {
+        "id": "D",
+        "text": "have retired"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Mr. Das' is the single subject; 'my friend and Principal' identifies the same person. Therefore, 'has retired' is correct.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva20",
+    "question": "Every soldier and every officer was in their place.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every soldier"
+      },
+      {
+        "id": "B",
+        "text": "their place"
+      },
+      {
+        "id": "C",
+        "text": "and every officer"
+      },
+      {
+        "id": "D",
+        "text": "was in"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "With 'every...and every...', the construction is singular; therefore, 'his place' is required according to the source rule.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva21",
+    "question": "A lot of food we serve are wasted.",
+    "options": [
+      {
+        "id": "A",
+        "text": "of food"
+      },
+      {
+        "id": "B",
+        "text": "we serve"
+      },
+      {
+        "id": "C",
+        "text": "are wasted"
+      },
+      {
+        "id": "D",
+        "text": "A lot"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Food' is an uncountable noun, so the singular verb 'is wasted' should be used.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva22",
+    "question": "Participating in the Republic Day Parade are considered an honour by many people.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Participating in"
+      },
+      {
+        "id": "B",
+        "text": "the Republic Day Parade"
+      },
+      {
+        "id": "C",
+        "text": "by many people"
+      },
+      {
+        "id": "D",
+        "text": "are considered an honour"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The gerund phrase 'Participating in the Republic Day Parade' functions as a singular subject, so 'is considered' is required.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva23",
+    "question": "All the ladies of the colony assemble in the temple and prays together on Sunday evenings.",
+    "options": [
+      {
+        "id": "A",
+        "text": "assemble in the temple"
+      },
+      {
+        "id": "B",
+        "text": "and prays together"
+      },
+      {
+        "id": "C",
+        "text": "All the ladies of the colony"
+      },
+      {
+        "id": "D",
+        "text": "on Sunday evenings"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'All the ladies' is plural, so 'pray' should be used instead of 'prays'.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "sva24",
+    "question": "Craze for a thing that are not easily available in our country is a common phenomenon.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is a common phenomenon"
+      },
+      {
+        "id": "B",
+        "text": "available in our country"
+      },
+      {
+        "id": "C",
+        "text": "thing that are not easily"
+      },
+      {
+        "id": "D",
+        "text": "Craze for a"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'A thing' is singular, so the relative clause should use 'that is not easily available'.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva25",
+    "question": "The famous author and actor are being honoured at a function today.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at a function today"
+      },
+      {
+        "id": "B",
+        "text": "The famous author and actor"
+      },
+      {
+        "id": "C",
+        "text": "No error"
+      },
+      {
+        "id": "D",
+        "text": "are being honoured"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'The famous author and actor' refers to one person here, so the singular form 'is being honoured' is required.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva26",
+    "question": "Over the years, the writer Amish has evolved to what millions of youngsters aspires to be today – an intellectual.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Over the years"
+      },
+      {
+        "id": "B",
+        "text": "aspires to be today"
+      },
+      {
+        "id": "C",
+        "text": "Amish has evolved"
+      },
+      {
+        "id": "D",
+        "text": "millions of youngsters"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Millions of youngsters' is plural, so the verb should be 'aspire', not 'aspires'.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva27",
+    "question": "Find the odd sentence:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The plight of daily-wage labourers during the lockdown was highlighted in several national reports."
+      },
+      {
+        "id": "B",
+        "text": "The committee, after much deliberation, have recommended strict action against the culprits."
+      },
+      {
+        "id": "C",
+        "text": "Neither the report nor the related documents has been submitted to the investigating officer."
+      },
+      {
+        "id": "D",
+        "text": "A number of NGOs comes forward to help the flood victims."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "According to the source answer key, option A is the answer.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva28",
+    "question": "Find the odd sentence:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Also awarded by the president was a number of people including some of my friends."
+      },
+      {
+        "id": "B",
+        "text": "A number of wildlife sanctuaries in the country have increased significantly in recent years."
+      },
+      {
+        "id": "C",
+        "text": "The bowler tries to bowl a yorker and out come the trademark M.S. Dhoni Helicopter Shot."
+      },
+      {
+        "id": "D",
+        "text": "A series of lectures on climate change is scheduled for the next semester."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "According to the source answer key, option D is the answer.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva29",
+    "question": "Find the odd sentence:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The details of the new policy, including its objectives and timelines, has been released by the government for public review."
+      },
+      {
+        "id": "B",
+        "text": "Neither the press nor the opposition leaders was allowed to enter the confidential briefing held at the defense headquarters."
+      },
+      {
+        "id": "C",
+        "text": "Fruitless were the talks held last week between India and Pakistan."
+      },
+      {
+        "id": "D",
+        "text": "The list of shortlisted candidates for the scholarship program have been uploaded on the university website."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "According to the source answer key, option C is the answer.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva30",
+    "question": "Find the odd sentence:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The problems faced by small business owners during the lockdown has been ignored in the mainstream media coverage."
+      },
+      {
+        "id": "B",
+        "text": "Not only the player but also his coaches was blamed for the team's poor performance in the championship."
+      },
+      {
+        "id": "C",
+        "text": "The team of scientists, which was working on the vaccine, has finally made a breakthrough in the research."
+      },
+      {
+        "id": "D",
+        "text": "Outside the hospital were lying not only a beggar but also some animals."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "According to the source answer key, option C is the answer.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva31",
+    "question": "Find the odd sentence:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The committee members, who were expected to present their report by evening, has requested an extension due to incomplete data."
+      },
+      {
+        "id": "B",
+        "text": "None of the complaints received from the customers have been resolved by the support team."
+      },
+      {
+        "id": "C",
+        "text": "A number of new policies regarding work-from-home flexibility has been introduced by the HR department."
+      },
+      {
+        "id": "D",
+        "text": "The principal and the vice-principal, despite their busy schedules, have agreed to take part in the awareness drive."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "According to the source answer key, option D is the answer.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva32",
+    "question": "Every speaker and every panelist / were honored / for their contribution / to the conference. / No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Every speaker and every panelist' takes a singular verb in this construction, so 'was honored' is required.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva33",
+    "question": "Find odd one out:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every manager and every employee were required to submit their report on time."
+      },
+      {
+        "id": "B",
+        "text": "Every manager and every employee was required to submit their report on time."
+      },
+      {
+        "id": "C",
+        "text": "Every manager and every employee was required to submit his report on time."
+      },
+      {
+        "id": "D",
+        "text": "Every manager and every employee has submitted their individual feedback forms."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "According to the source answer key, option C is the answer.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva34",
+    "question": "The horse and the carriage / has been restored / for display in the museum dedicated / to royal transport / No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "According to the source answer key, option A is the answer.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva35",
+    "question": "The truth and honesty (1)/was not appreciated (2)/by the corrupt officials (3)/who preferred manipulation. (4)/No error (5)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "The phrase 'truth and honesty' is treated as one combined concept here, so 'was' is correct. There is no error.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva36",
+    "question": "A group of journalists, (1)/ known for their (2)/bold reporting and investigative work, (3)/ was honoured with national awards (4)/No error (5)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "'A group of journalists' has the singular head noun 'group', so 'was honoured' is correct. There is no error.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva37",
+    "question": "The results of the survey conducted by (1)/independent agencies across different states (2)/ indicates a decline in public trust (3)/towards government schemes. (4)/No error (5)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'The results' is plural, so 'indicate' should be used instead of 'indicates'.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva38",
+    "question": "The state of affairs in the neighbouring country, (1)/ which has been experiencing (2)/political unrest for months, (3)/has deteriorated even further (4)/No error (5)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "'The state of affairs' is singular, so 'has deteriorated' is correct. There is no error.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva39",
+    "question": "The equipment used in these factories, (1)/ especially the ones imported from (2)/ Europe, need frequent (3)/maintenance checks. (4)/No error (5)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Equipment' is an uncountable singular noun, so 'needs' should be used instead of 'need'.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva40",
+    "question": "The large number of tourists (1)/visiting the Taj Mahal has increased significantly (2)/over the past few years, especially after (3)/the introduction of online ticketing facilities (4)/No error (5)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'The large number of tourists' has 'number' as its head noun, and 'has increased' agrees with it.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva41",
+    "question": "The Prime Minister, along with his entire cabinet, (1)/ is scheduled to address (2)/the nation tomorrow evening after (3)/their arrival from Italy (4)/No error (5)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "The main subject is 'The Prime Minister'; the phrase 'along with his entire cabinet' does not change the subject. According to the source key, option D is the error.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva42",
+    "question": "Every citizen, whether (1)/educated or not, have (2)/the right to voice their (3)/opinion in a democratic country. (4)/No error (5)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Every citizen' is singular, so 'has the right' should be used instead of 'have the right'.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "sva43",
+    "question": "A bouquet of red roses, (1)/which were carefully wrapped and placed (2)/ on the table, was meant (3)/as a surprise gift. (4)/No error (5)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'A bouquet' is singular, so the relative clause should use 'which was carefully wrapped and placed'.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva44",
+    "question": "The set of ancient manuscripts (1)/found in the cave (2)/ are being preserved (3)/by archaeologists. (4)/No error (5)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'The set' is singular, so 'is being preserved' should be used.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva45",
+    "question": "The principal, (1)/ along with the teachers and staff, have planned (2)/a series of workshops for (3)/the upcoming academic session (4)/No error (5)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'The principal' is singular; 'along with the teachers and staff' does not make the subject plural. Therefore, 'has planned' is correct.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva46",
+    "question": "Each of the students (1)/ who participated in the competition (2)/ has been awarded a certificate of merit. (3)/No error (4)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "'Each of the students' is singular and correctly takes 'has been awarded'. There is no error.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "sva47",
+    "question": "The members of the association, (1)/who were once divided (2)/on ideological grounds, (3)/has now united for a common cause (4)/No error (5)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'The members' is plural, so 'have now united' should be used instead of 'has now united'.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva48",
+    "question": "The captain, (1)/as well as his teammates, (2)/was praised for (3)/their match awareness. (4)/No error (5)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      },
+      {
+        "id": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'The captain' is the main singular subject; 'as well as his teammates' does not make it plural. According to the source key, option D is the error.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva49",
+    "question": "Bread and butter was the only thing served to the workers who returned after a long day in the fields. (1)/No error (4)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Bread and butter' is treated as one combined item/food here, so 'was' is acceptable. According to the source key, there is no error.",
+    "difficulty": "easy",
+    "language": "en"
+  },
+  {
+    "id": "sva50",
+    "question": "A number of NGOs (1)/ comes forward (2)/to help the flood victims (3)/No error (4)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'A number of NGOs' takes a plural verb, so 'come forward' should be used instead of 'comes forward'.",
+    "difficulty": "easy",
+    "language": "en"
+  }
+]

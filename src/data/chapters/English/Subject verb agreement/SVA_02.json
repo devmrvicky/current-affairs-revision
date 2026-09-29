@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "sva01",
+    "question": "The team of researchers from various institutes have published its findings in a reputed journal.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The team of researchers from various"
+      },
+      {
+        "id": "B",
+        "text": "No error"
+      },
+      {
+        "id": "C",
+        "text": "findings in a reputed journal"
+      },
+      {
+        "id": "D",
+        "text": "institutes have published its"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "\"The team\" is singular; use \"has\" instead of \"have\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva02",
+    "question": "More than one student were absent due to the ongoing strike in the city.",
+    "options": [
+      {
+        "id": "A",
+        "text": "More than one student"
+      },
+      {
+        "id": "B",
+        "text": "were absent due to the"
+      },
+      {
+        "id": "C",
+        "text": "ongoing strike in the city"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "\"More than one\" is singular; use \"was\" instead of \"were\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva03",
+    "question": "The committee, after lengthy deliberations, have decided to postpone the implementation of the new rule.",
+    "options": [
+      {
+        "id": "A",
+        "text": "implementation of the new rule"
+      },
+      {
+        "id": "B",
+        "text": "No error"
+      },
+      {
+        "id": "C",
+        "text": "The committee, after lengthy deliberations"
+      },
+      {
+        "id": "D",
+        "text": "have decided to postpone the"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "\"The committee\" is singular here; use \"has\" instead of \"have\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva04",
+    "question": "Fifty percent of the population still live below the poverty line in the country.",
+    "options": [
+      {
+        "id": "A",
+        "text": "line in the country"
+      },
+      {
+        "id": "B",
+        "text": "Fifty percent of the population"
+      },
+      {
+        "id": "C",
+        "text": "still live below the poverty"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "\"Fifty percent of the population\" treats \"population\" as singular; use \"lives\" instead of \"live\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva05",
+    "question": "The world-renowned jazz singer, together with her exceptionally talented band members, are performing at the highly anticipated annual International Music Festival tonight in front of a sold-out audience.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The world-renowned jazz singer, together with her exceptionally talented band members"
+      },
+      {
+        "id": "B",
+        "text": "are performing at the highly anticipated annual"
+      },
+      {
+        "id": "C",
+        "text": "International Music Festival tonight in front of a sold-out audience"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Subject \"singer\" is singular; use \"is\" instead of \"are\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva06",
+    "question": "Neither the senior project manager of the newly formed analytics division nor the various departmental employees under his supervision has submitted their comprehensive quarterly performance and expenditure reports despite repeated reminders from the corporate headquarters, leading to significant procedural delays.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neither the senior project manager of the newly formed analytics division"
+      },
+      {
+        "id": "B",
+        "text": "nor the various departmental employees under his supervision"
+      },
+      {
+        "id": "C",
+        "text": "has submitted their comprehensive quarterly performance and expenditure reports"
+      },
+      {
+        "id": "D",
+        "text": "despite repeated reminders from the corporate headquarters, leading to significant procedural delays"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "With \"neither...nor\", the verb agrees with the nearer subject \"employees\" (plural); use \"have submitted\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva07",
+    "question": "Despite facing several unforeseen logistical challenges, including severe weather delays and supply chain disruptions, approximately two-thirds of the renovation work on the heritage building complex ______ completed ahead of the official deadline set by the municipal authorities.",
+    "options": [
+      {
+        "id": "A",
+        "text": "have been"
+      },
+      {
+        "id": "B",
+        "text": "has been"
+      },
+      {
+        "id": "C",
+        "text": "was"
+      },
+      {
+        "id": "D",
+        "text": "were"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "\"Two-thirds of the renovation work\" treats \"work\" as uncountable/singular; use \"has been\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva08",
+    "question": "One of the boys, who was playing outside in the narrow alley behind the old marketplace with his friends from the neighborhood, have injured his leg quite severely during the impromptu football match.",
+    "options": [
+      {
+        "id": "A",
+        "text": "has injured"
+      },
+      {
+        "id": "B",
+        "text": "were injured"
+      },
+      {
+        "id": "C",
+        "text": "are injured"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Subject \"One of the boys\" is singular; use \"has injured\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva09",
+    "question": "Not only do the data, which have been rigorously compiled from multiple reliable sources, show that the economy is growing at an unprecedented rate, but they also strongly indicates a sustained and broad based recovery across all major sectors.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Not only do the data, which have been rigorously compiled"
+      },
+      {
+        "id": "B",
+        "text": "from multiple reliable sources, show that the economy is growing at an unprecedented rate"
+      },
+      {
+        "id": "C",
+        "text": "but they also strongly indicates a sustained and broad based recovery across all major sectors"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "\"They\" is plural; use \"indicate\" instead of \"indicates\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva10",
+    "question": "Not only ______ a majority of the people, who have been vocal in town hall meetings and online forums, in favor of the new policy, but they are also actively campaigning for its swift implementation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "has been"
+      },
+      {
+        "id": "D",
+        "text": "was"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "\"A majority of the people\" is plural; use \"are\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva11",
+    "question": "The criteria for selection has been changed by the authorities recently.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The criteria for selection"
+      },
+      {
+        "id": "B",
+        "text": "has been changed"
+      },
+      {
+        "id": "C",
+        "text": "by the authorities recently"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "\"Criteria\" is plural; use \"have been changed\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva12",
+    "question": "Given that each of these three boys has been rigorously trained and has achieved notable success in their chosen fields, the most talented of these three is undoubtedly my friend's son, a prodigy who has already published research papers and secured patents at such a young age.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Given that each of these three boys has been rigorously trained"
+      },
+      {
+        "id": "B",
+        "text": "and has achieved notable success in their chosen fields, the most talented"
+      },
+      {
+        "id": "C",
+        "text": "of these three is undoubtedly my friend's son, a prodigy"
+      },
+      {
+        "id": "D",
+        "text": "who has already published research papers and secured patents at such a young age"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "\"Each\" is singular; pronoun should be \"his\" instead of \"their\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva13",
+    "question": "Every one of the employees who ______ attended the mandatory training sessions ______ required to submit a completion certificate by Friday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "have, is"
+      },
+      {
+        "id": "B",
+        "text": "has, are"
+      },
+      {
+        "id": "C",
+        "text": "has, is"
+      },
+      {
+        "id": "D",
+        "text": "have, are"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Relative clause: \"employees who have attended\"; main clause: \"Every one... is required\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva14",
+    "question": "At the heart of the ongoing debate over educational reforms ______ the fundamental question of whether standardized testing truly ______ student capabilities.",
+    "options": [
+      {
+        "id": "A",
+        "text": "lies, measures"
+      },
+      {
+        "id": "B",
+        "text": "lie, measure"
+      },
+      {
+        "id": "C",
+        "text": "lies, measure"
+      },
+      {
+        "id": "D",
+        "text": "lie, measures"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Subject \"question\" is singular → \"lies\"; \"testing\" is singular → \"measures\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva15",
+    "question": "The CEO’s latest strategy, a radical departure from traditional market approaches that ______ many industry veterans, ______ to be implemented next quarter.",
+    "options": [
+      {
+        "id": "A",
+        "text": "surprise, is scheduled"
+      },
+      {
+        "id": "B",
+        "text": "surprises, are scheduled"
+      },
+      {
+        "id": "C",
+        "text": "surprise, are scheduled"
+      },
+      {
+        "id": "D",
+        "text": "surprises, is scheduled"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Relative clause: \"approaches that surprise\"; main clause: \"strategy... is scheduled\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva16",
+    "question": "What she said were not taken seriously by the committee.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was not taken"
+      },
+      {
+        "id": "B",
+        "text": "are not taken"
+      },
+      {
+        "id": "C",
+        "text": "have not been taken"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Subject \"What she said\" is singular; use \"was not taken\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva17",
+    "question": "None of the options presented to the committee seem feasible under the current circumstances.",
+    "options": [
+      {
+        "id": "A",
+        "text": "seems"
+      },
+      {
+        "id": "B",
+        "text": "seeming"
+      },
+      {
+        "id": "C",
+        "text": "have seemed"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"None\" is often singular; use \"seems\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva18",
+    "question": "The variety of colors and patterns available in the new collection, capturing contemporary trends and cultural motifs from across the globe, are truly impressive.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "have been"
+      },
+      {
+        "id": "C",
+        "text": "were"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Subject \"The variety\" is singular; use \"is\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva19",
+    "question": "That the company is facing a period of stagnation and declining market share is widely acknowledged; what the company needs now has been innovative ideas and fresh perspectives.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "have been"
+      },
+      {
+        "id": "C",
+        "text": "were"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Subject \"what the company needs\" is singular; use \"is\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva20",
+    "question": "The brother and sister, having excelled in national academic competitions and innovative research, was awarded the Chancellor's Gold Medal for their outstanding academic excellence at the annual convocation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The brother and sister, having excelled in national academic competitions"
+      },
+      {
+        "id": "B",
+        "text": "and innovative research, was awarded the Chancellor's Gold Medal"
+      },
+      {
+        "id": "C",
+        "text": "for their outstanding academic excellence at the annual convocation"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "\"The brother and sister\" is plural; use \"were awarded\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva21",
+    "question": "The bag and baggage of the traveler that had been flagged by the automated screening system, having been left unattended in the departure lounge for several hours, was inspected at the customs counter.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The bag and baggage of the traveler that had been flagged"
+      },
+      {
+        "id": "B",
+        "text": "by the automated screening system, having been left unattended in the departure lounge"
+      },
+      {
+        "id": "C",
+        "text": "for several hours, was inspected at the customs counter"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "No error. \"The bag and baggage\" is treated as a singular unit.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva22",
+    "question": "One of the most important discoveries in recent years that has changed our understanding of the universe are the detection of gravitational waves by advanced observatories.",
+    "options": [
+      {
+        "id": "A",
+        "text": "One of the most important discoveries in recent years"
+      },
+      {
+        "id": "B",
+        "text": "that has changed our understanding of the universe"
+      },
+      {
+        "id": "C",
+        "text": "are the detection of gravitational waves"
+      },
+      {
+        "id": "D",
+        "text": "by advanced observatories"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Subject \"One\" is singular; use \"is\" instead of \"are\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva23",
+    "question": "A great deal of the research conducted on this topic have been criticized for its methodological flaws and lack of practical application.",
+    "options": [
+      {
+        "id": "A",
+        "text": "A great deal of the research conducted on this topic"
+      },
+      {
+        "id": "B",
+        "text": "have been criticized"
+      },
+      {
+        "id": "C",
+        "text": "for its methodological flaws"
+      },
+      {
+        "id": "D",
+        "text": "and lack of practical application"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "\"A great deal of\" is singular; use \"has been criticized\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva24",
+    "question": "Either you or I ______ going to have to explain the situation to the committee.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "am"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "were"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "With \"either...or\", the verb agrees with nearer subject \"I\"; use \"am\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva25",
+    "question": "______ either the manager or the team members responsible for the discrepancy in the report?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Is"
+      },
+      {
+        "id": "B",
+        "text": "Are"
+      },
+      {
+        "id": "C",
+        "text": "Was"
+      },
+      {
+        "id": "D",
+        "text": "Has been"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "With \"either...or\", the verb agrees with nearer subject \"team members\" (plural); use \"Are\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva26",
+    "question": "A significant amount of money and resources have been allocated to the development of renewable energy projects.",
+    "options": [
+      {
+        "id": "A",
+        "text": "A significant amount of money and resources"
+      },
+      {
+        "id": "B",
+        "text": "have been allocated"
+      },
+      {
+        "id": "C",
+        "text": "to the development of renewable energy projects"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Subject \"amount\" is singular; use \"has been allocated\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva27",
+    "question": "Following the release of the controversial report, more concerned citizens than one writing to their local representatives was demanding an immediate public inquiry.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Following the release of the controversial report"
+      },
+      {
+        "id": "B",
+        "text": "more concerned citizens than one"
+      },
+      {
+        "id": "C",
+        "text": "writing to their local representatives"
+      },
+      {
+        "id": "D",
+        "text": "was demanding an immediate public inquiry"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "\"More concerned citizens than one\" is plural; use \"were demanding\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva28",
+    "question": "Everything except the confidential documents and the signed contracts have been uploaded to the shared drive.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Everything except the confidential documents and"
+      },
+      {
+        "id": "B",
+        "text": "the signed contracts have been"
+      },
+      {
+        "id": "C",
+        "text": "uploaded to the shared drive"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Subject \"Everything\" is singular; use \"has been\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva29",
+    "question": "Anyone but the CEO and the board members are permitted to access these classified files, stored under multi-layer encryption and never before disclosed to the public, without prior authorization.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anyone but the CEO and the board members"
+      },
+      {
+        "id": "B",
+        "text": "are permitted to access these classified files, stored"
+      },
+      {
+        "id": "C",
+        "text": "under multi-layer encryption and never before disclosed to the public"
+      },
+      {
+        "id": "D",
+        "text": "without prior authorization"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Subject \"Anyone\" is singular; use \"is permitted\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva30",
+    "question": "Nothing but false accusations and baseless rumors, spread by malicious individuals with vested interests, have tarnished his reputation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nothing but false accusations and baseless rumors"
+      },
+      {
+        "id": "B",
+        "text": "spread by malicious individuals with"
+      },
+      {
+        "id": "C",
+        "text": "vested interests, have tarnished his reputation"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Subject \"Nothing\" is singular; use \"has tarnished\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva31",
+    "question": "The first two hours of the intense negotiation session was wasted on procedural formalities.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The first two hours of the intense"
+      },
+      {
+        "id": "B",
+        "text": "negotiation session was wasted"
+      },
+      {
+        "id": "C",
+        "text": "on procedural formalities"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Subject \"hours\" is plural; use \"were wasted\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva32",
+    "question": "No sooner had the project commenced than three fourths of the project budget have already been exhausted, leaving little room for contingencies.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No sooner had the project commenced than three fourths of"
+      },
+      {
+        "id": "B",
+        "text": "the project budget have already been exhausted"
+      },
+      {
+        "id": "C",
+        "text": "leaving little room for contingencies"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "\"Three-fourths of the budget\" treats \"budget\" as singular; use \"has been exhausted\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva33",
+    "question": "These ancient manuscripts, a priceless treasure of historical knowledge, ______ carefully preserved in the archive.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "was"
+      },
+      {
+        "id": "D",
+        "text": "has been"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Subject \"manuscripts\" is plural; use \"are\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva34",
+    "question": "His latest novel, a gripping and intricately woven tale of survival and resilience set against the stark backdrop of a post-apocalyptic landscape, ______ won several prestigious literary awards, including the National Book Award and the Pulitzer Prize for Fiction.",
+    "options": [
+      {
+        "id": "A",
+        "text": "have"
+      },
+      {
+        "id": "B",
+        "text": "has"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "were"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Subject \"novel\" is singular; use \"has\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva35",
+    "question": "The collection of poems that _____ published last year _____ won several awards.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was, has"
+      },
+      {
+        "id": "B",
+        "text": "were, have"
+      },
+      {
+        "id": "C",
+        "text": "was, have"
+      },
+      {
+        "id": "D",
+        "text": "were, has"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Relative clause: \"poems that were published\"; main clause: \"collection... has won\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva36",
+    "question": "The rate of unemployment, which are often cited by politicians, does not reflect the underemployed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "which is often cited"
+      },
+      {
+        "id": "B",
+        "text": "that are often cited"
+      },
+      {
+        "id": "C",
+        "text": "who are often cited"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Relative pronoun refers to \"rate\" (singular); use \"is often cited\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva37",
+    "question": "The company, which is one of the largest in the region, having recently diversified its portfolio and entered emerging markets, have announced a new policy for remote work.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The company, which is one of the largest in the region"
+      },
+      {
+        "id": "B",
+        "text": "having recently diversified its portfolio and entered emerging markets"
+      },
+      {
+        "id": "C",
+        "text": "have announced a new policy for remote work"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Subject \"company\" is singular; use \"has announced\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva38",
+    "question": "Reading classic novels and analyzing their themes are a great way to improve your critical thinking skills.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reading classic novels and analyzing their themes"
+      },
+      {
+        "id": "B",
+        "text": "are a great way to improve"
+      },
+      {
+        "id": "C",
+        "text": "your critical thinking skills"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Gerund phrase as singular subject; use \"is\" instead of \"are\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva39",
+    "question": "To err __________ human; to forgive, divine.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "were"
+      },
+      {
+        "id": "D",
+        "text": "have been"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Infinitive subject \"To err\" is singular; use \"is\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva40",
+    "question": "That she has not replied to any of our emails, despite our repeated follow-ups over the past fortnight, are worrying.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is worrying"
+      },
+      {
+        "id": "B",
+        "text": "are worrisome"
+      },
+      {
+        "id": "C",
+        "text": "have been worrying"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Subject clause is singular; use \"is worrying\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva41",
+    "question": "What he lacks in experience, especially in managing large-scale international projects, __________ compensated by his enthusiasm.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "were"
+      },
+      {
+        "id": "D",
+        "text": "have been"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Subject clause is singular; use \"is\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva42",
+    "question": "What causes the most confusion among students, especially when first learning a second language, are the complex rules of syntax.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is the complex rules"
+      },
+      {
+        "id": "B",
+        "text": "are the complex rule"
+      },
+      {
+        "id": "C",
+        "text": "is a complex rules"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Subject clause is singular; use \"is the complex rules\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva43",
+    "question": "In the cabinet, which had remained untouched for nearly half a century, was kept the rare coins and antique jewellery.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were kept"
+      },
+      {
+        "id": "B",
+        "text": "are kept"
+      },
+      {
+        "id": "C",
+        "text": "have been kept"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Subject \"coins and jewellery\" is plural; use \"were kept\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva44",
+    "question": "Find the odd sentence:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Also present at the meeting were a number of senior executives."
+      },
+      {
+        "id": "B",
+        "text": "A number of issues have been resolved in the latest update."
+      },
+      {
+        "id": "C",
+        "text": "Here come the sun after days of rain."
+      },
+      {
+        "id": "D",
+        "text": "A series of tests is required for the certification."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "\"Here come the sun\" should be \"Here comes the sun\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva45",
+    "question": "Find the odd sentence:",
+    "options": [
+      {
+        "id": "A",
+        "text": "A team of researchers are investigating the new species discovered last month."
+      },
+      {
+        "id": "B",
+        "text": "The jury have reached a unanimous decision after hours of deliberation."
+      },
+      {
+        "id": "C",
+        "text": "The committee is expected to announce its findings tomorrow."
+      },
+      {
+        "id": "D",
+        "text": "The staff is unhappy with the new office policies."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"A team\" is usually singular; \"are\" should be \"is\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva46",
+    "question": "Find the odd sentence:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The quality of the products have improved significantly over the years."
+      },
+      {
+        "id": "B",
+        "text": "A number of students have submitted their assignments late."
+      },
+      {
+        "id": "C",
+        "text": "Neither the manager nor his assistants were available for comment."
+      },
+      {
+        "id": "D",
+        "text": "The data collected from the survey are being analyzed by the team."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Subject \"quality\" is singular; \"have\" should be \"has\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva47",
+    "question": "Find the odd sentence:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The number of tourists visiting the city has risen sharply."
+      },
+      {
+        "id": "B",
+        "text": "A number of new restaurants have opened in the downtown area."
+      },
+      {
+        "id": "C",
+        "text": "The number of accidents on this highway are too high."
+      },
+      {
+        "id": "D",
+        "text": "A number of employees are working from home."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "\"The number\" is singular; \"are\" should be \"is\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva48",
+    "question": "The wealthy, having amassed considerable fortunes through entrepreneurial ventures, inheritance, or strategic investments, often invest in real estate and stocks as a means to diversify their portfolios and ensure long-term financial security.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The wealthy, having amassed considerable fortunes through"
+      },
+      {
+        "id": "B",
+        "text": "entrepreneurial ventures, inheritance, or strategic investments"
+      },
+      {
+        "id": "C",
+        "text": "often invests in real estate and stocks as a means to diversify"
+      },
+      {
+        "id": "D",
+        "text": "their portfolios and ensure long-term financial security"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "\"The wealthy\" is plural; \"invests\" should be \"invest\".",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "sva49",
+    "question": "Much of the information in the report ______ outdated and must be revised in ______ entirety.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are, their"
+      },
+      {
+        "id": "B",
+        "text": "is, its"
+      },
+      {
+        "id": "C",
+        "text": "are, its"
+      },
+      {
+        "id": "D",
+        "text": "is, their"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "\"Much of the information\" is singular → \"is\"; possessive pronoun → \"its\".",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "sva50",
+    "question": "Most of the information presented at the conference were inaccurate and misleading.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Most of the information"
+      },
+      {
+        "id": "B",
+        "text": "presented at the conference"
+      },
+      {
+        "id": "C",
+        "text": "were inaccurate and misleading"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "\"Most of the information\" is singular; use \"was\" instead of \"were\".",
+    "difficulty": "medium",
+    "language": "en"
+  }
+]
