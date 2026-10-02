@@ -1,0 +1,3362 @@
+[
+  {
+    "id": "blood-relation-001",
+    "subjectId": "reasoning",
+    "question": "P का पुत्र J है। Q की बहन P है। Q, M का पुत्र है। तो M, P से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पिता"
+      },
+      {
+        "id": "B",
+        "text": "माता"
+      },
+      {
+        "id": "C",
+        "text": "माता या पिता"
+      },
+      {
+        "id": "D",
+        "text": "इनमें से कोई नहीं"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-002",
+    "subjectId": "reasoning",
+    "question": "J, T का पुत्र है। T, F की माता है। T का पुत्र L है। L, J से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ससुर"
+      },
+      {
+        "id": "B",
+        "text": "फूफा"
+      },
+      {
+        "id": "C",
+        "text": "पिता"
+      },
+      {
+        "id": "D",
+        "text": "भाई"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-003",
+    "subjectId": "reasoning",
+    "question": "L का पुत्र F है। L, J का पिता है, जो M का पिता है। J की पत्नी, M से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बहन"
+      },
+      {
+        "id": "B",
+        "text": "सास"
+      },
+      {
+        "id": "C",
+        "text": "ननद"
+      },
+      {
+        "id": "D",
+        "text": "माता"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-004",
+    "subjectId": "reasoning",
+    "question": "X और Y, Z की संतान हैं। यदि Z, X का पिता है लेकिन Y, Z का पुत्र नहीं है, तो Y और Z कैसे संबंधित हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "माता और पुत्री"
+      },
+      {
+        "id": "B",
+        "text": "पुत्री और पिता"
+      },
+      {
+        "id": "C",
+        "text": "बहन और भाई"
+      },
+      {
+        "id": "D",
+        "text": "पत्नी और पति"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-005",
+    "subjectId": "reasoning",
+    "question": "K और J भाई हैं। J का मामा M है। S, K की नानी है। S की इकलौती पुत्री A है। A का M से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "माता"
+      },
+      {
+        "id": "B",
+        "text": "बहन"
+      },
+      {
+        "id": "C",
+        "text": "सास"
+      },
+      {
+        "id": "D",
+        "text": "भाभी"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-006",
+    "subjectId": "reasoning",
+    "question": "X, Y का भाई है। Z, Y का पति है। Z, A का पुत्र है। B, A की पत्नी है। B, Y से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पुत्री"
+      },
+      {
+        "id": "B",
+        "text": "सास"
+      },
+      {
+        "id": "C",
+        "text": "साली"
+      },
+      {
+        "id": "D",
+        "text": "माता"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-007",
+    "subjectId": "reasoning",
+    "question": "Z, Y का भाई है। H, A के दादा/नाना हैं। Y, H की बहू है और X, A का पिता है। Z का A से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाई"
+      },
+      {
+        "id": "B",
+        "text": "मामा"
+      },
+      {
+        "id": "C",
+        "text": "चाचा"
+      },
+      {
+        "id": "D",
+        "text": "भतीजा"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-008",
+    "subjectId": "reasoning",
+    "question": "A, B का पुत्र है। C का पिता B है। C, D की पत्नी है। E और F, D की पुत्रियाँ हैं। F, A से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बहन"
+      },
+      {
+        "id": "B",
+        "text": "भाभी"
+      },
+      {
+        "id": "C",
+        "text": "बहन की पुत्री"
+      },
+      {
+        "id": "D",
+        "text": "माता"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-009",
+    "subjectId": "reasoning",
+    "question": "U, V का पिता है। W तथा X, V के भाई हैं। Y, X की पत्नी है और Z, Y की पुत्री है। Y, U से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "साली"
+      },
+      {
+        "id": "B",
+        "text": "भाभी"
+      },
+      {
+        "id": "C",
+        "text": "पुत्री"
+      },
+      {
+        "id": "D",
+        "text": "पुत्रवधू"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-010",
+    "subjectId": "reasoning",
+    "question": "यदि X, Y की पत्नी है। Z, Y और J का पिता है। J, K का भाई है और K, L की इकलौती बेटी है, तो L, X से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सास"
+      },
+      {
+        "id": "B",
+        "text": "बहन"
+      },
+      {
+        "id": "C",
+        "text": "भाभी"
+      },
+      {
+        "id": "D",
+        "text": "माता"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-011",
+    "subjectId": "reasoning",
+    "question": "A की माँ O है। B, C और E की माँ है। C और D भाई हैं और A के पुत्र हैं। E की पुत्री G है और F की फुफेरी बहन है। F, D का पुत्र है। B का F से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पिता की बहन"
+      },
+      {
+        "id": "B",
+        "text": "पिता की माता"
+      },
+      {
+        "id": "C",
+        "text": "पिता की पुत्री"
+      },
+      {
+        "id": "D",
+        "text": "कोई नहीं"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-012",
+    "subjectId": "reasoning",
+    "question": "P का पति B है। Q, E का इकलौता पोता है, जो D की पत्नी है और P की सास है। B, D से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बेटा"
+      },
+      {
+        "id": "B",
+        "text": "बेटी"
+      },
+      {
+        "id": "C",
+        "text": "भाई"
+      },
+      {
+        "id": "D",
+        "text": "पिता"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-013",
+    "subjectId": "reasoning",
+    "question": "A, C का पिता है और B का बेटा D है। A का भाई E है। यदि D की बहन C है, तो B, E से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बहन"
+      },
+      {
+        "id": "B",
+        "text": "भाभी"
+      },
+      {
+        "id": "C",
+        "text": "साली"
+      },
+      {
+        "id": "D",
+        "text": "माता"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-014",
+    "subjectId": "reasoning",
+    "question": "C का पिता A है लेकिन C उनका पुत्र नहीं है। E, C की पुत्री है। F, A की पत्नी है। C का भाई B है। B का बेटा D है। G, B की पत्नी है। H, G के पिता हैं। तो D की दादी कौन है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "C"
+      },
+      {
+        "id": "B",
+        "text": "G"
+      },
+      {
+        "id": "C",
+        "text": "F"
+      },
+      {
+        "id": "D",
+        "text": "E"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-015",
+    "subjectId": "reasoning",
+    "question": "एक परिवार में 6 सदस्य हैं। A और B एक विवाहित जोड़ा है जिसमें A पुरुष सदस्य है। D, C का इकलौता बेटा है जो A का भाई है। E, D की बहन है। B, F की बहू है, जिसका पति मर गया है। F, A से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चाची"
+      },
+      {
+        "id": "B",
+        "text": "बहन"
+      },
+      {
+        "id": "C",
+        "text": "माता"
+      },
+      {
+        "id": "D",
+        "text": "दादी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-016",
+    "subjectId": "reasoning",
+    "question": "महिपाल और सतपाल दो भाई हैं। सुनीता, महिपाल की भाभी है। रघुबीर, सुनीता के पिता हैं। सुनीता, विनय की इकलौती बहन है। लकी, सुनीता का इकलौता पुत्र है। तो सतपाल का लकी से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पिता"
+      },
+      {
+        "id": "B",
+        "text": "भाई"
+      },
+      {
+        "id": "C",
+        "text": "चाचा"
+      },
+      {
+        "id": "D",
+        "text": "मामा"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-017",
+    "subjectId": "reasoning",
+    "question": "सुरेश, मेघना का इकलौता भाई है। शिवानी, सुरेश की पुत्री है। मेघना और नेहा बहनें हैं। मणि, विवेक का पुत्र है, जो मेघना का पति है। मणि का शिवानी से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चचेरा भाई"
+      },
+      {
+        "id": "B",
+        "text": "फुफेरा भाई"
+      },
+      {
+        "id": "C",
+        "text": "भाई"
+      },
+      {
+        "id": "D",
+        "text": "मामा"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-018",
+    "subjectId": "reasoning",
+    "question": "संजय, कपिल का पिता है। कपिल, छाया का इकलौता पुत्र है। काव्या, छाया की पुत्री है। नेहा, काव्या की इकलौती बेटी है। कपिल का नेहा से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भांजा"
+      },
+      {
+        "id": "B",
+        "text": "मामा"
+      },
+      {
+        "id": "C",
+        "text": "भतीजा"
+      },
+      {
+        "id": "D",
+        "text": "चाचा"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-019",
+    "subjectId": "reasoning",
+    "question": "यदि मेरी बहन की सास का इकलौता पुत्र सोनिका का पिता है, तो सोनिका के दादा का मेरी बहन से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पिता"
+      },
+      {
+        "id": "B",
+        "text": "ससुर"
+      },
+      {
+        "id": "C",
+        "text": "नाना"
+      },
+      {
+        "id": "D",
+        "text": "मामा"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-020",
+    "subjectId": "reasoning",
+    "question": "विकुल, रजत का भतीजा है। रजत की माता निशा है। सुरेश के दो बच्चे रजत व नीलेश हैं। नीलेश का विकुल से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाई"
+      },
+      {
+        "id": "B",
+        "text": "पिता"
+      },
+      {
+        "id": "C",
+        "text": "चाचा"
+      },
+      {
+        "id": "D",
+        "text": "दादा"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-021",
+    "subjectId": "reasoning",
+    "question": "रावी, जो अशोक की भाभी है, वह सरस्वती की बहू है। धीरज, संदीप का पिता है, जो अशोक का इकलौता भाई है। सरस्वती, अशोक से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "माता"
+      },
+      {
+        "id": "B",
+        "text": "बहन"
+      },
+      {
+        "id": "C",
+        "text": "दादी"
+      },
+      {
+        "id": "D",
+        "text": "इनमें से कोई नहीं"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-022",
+    "subjectId": "reasoning",
+    "question": "सुनील, सुमन का पति है जो कि पंकज की पुत्री है। राहुल, सुमन का इकलौता भाई है। सुनील, राहुल से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जीजा"
+      },
+      {
+        "id": "B",
+        "text": "साला"
+      },
+      {
+        "id": "C",
+        "text": "भाई"
+      },
+      {
+        "id": "D",
+        "text": "ससुर"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-023",
+    "subjectId": "reasoning",
+    "question": "यदि अंकित, प्रियंका के पुत्र के पुत्र का भाई है, तो अंकित का प्रियंका से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "परपोता"
+      },
+      {
+        "id": "B",
+        "text": "पोता"
+      },
+      {
+        "id": "C",
+        "text": "धेवता"
+      },
+      {
+        "id": "D",
+        "text": "धेवती"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-024",
+    "subjectId": "reasoning",
+    "question": "एक परिवार में दिव्या और मोनिका दो बहनें हैं। मोनिका अनामिका की माँ है। कुलदीप, अनामिका का पुत्र है। लीलू, दिव्या का पुत्र है। अनामिका, लीलू से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाई"
+      },
+      {
+        "id": "B",
+        "text": "बहन"
+      },
+      {
+        "id": "C",
+        "text": "मौसेरा भाई/बहन"
+      },
+      {
+        "id": "D",
+        "text": "इनमें से कोई नहीं"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-025",
+    "subjectId": "reasoning",
+    "question": "रीता का इकलौता भाई विक्रम, कार्तिक की माँ मेघना का पति है। रीता की माँ चाँदनी, कार्तिक से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "नानी"
+      },
+      {
+        "id": "B",
+        "text": "दादी"
+      },
+      {
+        "id": "C",
+        "text": "नातिन"
+      },
+      {
+        "id": "D",
+        "text": "पोती"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-026",
+    "subjectId": "reasoning",
+    "question": "हर्ष, शिवम का पिता है तथा ध्रुव, प्रेमलता का बेटा है। हर्ष का पिता ईश्वर है। यदि शिवम ध्रुव का भाई है, तो प्रेमलता का ईश्वर से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बहू"
+      },
+      {
+        "id": "B",
+        "text": "पुत्री"
+      },
+      {
+        "id": "C",
+        "text": "माता"
+      },
+      {
+        "id": "D",
+        "text": "बहन"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-027",
+    "subjectId": "reasoning",
+    "question": "सुनीता, बबीता की बहन है और धर्मेन्द्र, सुषमा का भाई है। अगर सुषमा, सुनीता की बहन है, तो बबीता, सुषमा से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पुत्री"
+      },
+      {
+        "id": "B",
+        "text": "पत्नी"
+      },
+      {
+        "id": "C",
+        "text": "बहन"
+      },
+      {
+        "id": "D",
+        "text": "माता"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-028",
+    "subjectId": "reasoning",
+    "question": "रघु, कविता का पति है। शारदा, गोलू की पुत्री है जिसकी पत्नी केतकी है। कविता, शारदा की बहन है। गोलू, रघु से कैसे संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पिता"
+      },
+      {
+        "id": "B",
+        "text": "ससुर"
+      },
+      {
+        "id": "C",
+        "text": "भाई"
+      },
+      {
+        "id": "D",
+        "text": "मामा"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-029",
+    "subjectId": "reasoning",
+    "question": "सरिता, विराट की इकलौती बहन है। मनोज, दिलीप का पुत्र है, जो प्रिया का पति है। विराट, देवांश का पुत्र है। देवांश, मनोज का ससुर है। प्रिया, सरिता से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सास"
+      },
+      {
+        "id": "B",
+        "text": "भाभी"
+      },
+      {
+        "id": "C",
+        "text": "ननद"
+      },
+      {
+        "id": "D",
+        "text": "माता"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-030",
+    "subjectId": "reasoning",
+    "question": "श्री और कवि दंपत्ति हैं। सीरी और सखी बहनें हैं। सखी, कवि की बहन है। सीरी, श्री की क्या लगती है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "माता"
+      },
+      {
+        "id": "B",
+        "text": "बहन"
+      },
+      {
+        "id": "C",
+        "text": "ननद/साली"
+      },
+      {
+        "id": "D",
+        "text": "इनमें से कोई नहीं"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-031",
+    "subjectId": "reasoning",
+    "question": "तरुण का एक भाई आनंद है। तरुण, अर्जुन का पुत्र है। कृष्णन अर्जुन के पिता हैं। आनंद, कृष्णन से कैसे संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पुत्र"
+      },
+      {
+        "id": "B",
+        "text": "पोता"
+      },
+      {
+        "id": "C",
+        "text": "भाई"
+      },
+      {
+        "id": "D",
+        "text": "पिता"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-032",
+    "subjectId": "reasoning",
+    "question": "ज्योति, विशाल और विनिता की बेटी है। अमित, विनिता के भाई का बेटा है। अमित के लिए ज्योति कौन है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "माता"
+      },
+      {
+        "id": "B",
+        "text": "ननद"
+      },
+      {
+        "id": "C",
+        "text": "साली"
+      },
+      {
+        "id": "D",
+        "text": "चचेरी/ममेरी/फुफेरी बहन"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-033",
+    "subjectId": "reasoning",
+    "question": "अमन और सचिन भाई हैं। दीवा की पुत्री रीवा है। दीवा, शना के पति सचिन की बहन है। रीवा का अमन से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बुआ की पुत्री"
+      },
+      {
+        "id": "B",
+        "text": "बहन की पुत्री"
+      },
+      {
+        "id": "C",
+        "text": "मामा की पुत्री"
+      },
+      {
+        "id": "D",
+        "text": "बहन"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-034",
+    "subjectId": "reasoning",
+    "question": "प्रवीण, रमन की बहन का पति है। रमन, कविता का भाई है। अमन, कविता का पिता है और सविता का पति है। सविता के दो बच्चे हैं। सविता, प्रवीण की पत्नी से कैसे संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "माँ"
+      },
+      {
+        "id": "B",
+        "text": "बहन"
+      },
+      {
+        "id": "C",
+        "text": "मामी"
+      },
+      {
+        "id": "D",
+        "text": "बुआ"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-035",
+    "subjectId": "reasoning",
+    "question": "अजीत का पुत्र हर्ष है। विनिता, अजीत की पत्नी है। संजय, हर्ष का भाई है। नेहा, संजय और कविता की इकलौती पुत्री है। विनिता का नेहा से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पिता की बहन"
+      },
+      {
+        "id": "B",
+        "text": "पिता की सास"
+      },
+      {
+        "id": "C",
+        "text": "पिता की माँ"
+      },
+      {
+        "id": "D",
+        "text": "पिता की पुत्री"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-036",
+    "subjectId": "reasoning",
+    "question": "मोनिका और चंदर सगे भाई-बहन हैं। चंदर, विकास का भांजा और ममता का पिता है। कोमल विकास की बहन है। सीता, कोमल की माँ है। मोनिका का सीता से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "दादी"
+      },
+      {
+        "id": "B",
+        "text": "नानी"
+      },
+      {
+        "id": "C",
+        "text": "पुत्री"
+      },
+      {
+        "id": "D",
+        "text": "पोती/नातिन"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-037",
+    "subjectId": "reasoning",
+    "question": "माइक का बेटा डस्टिन है। बॉब का बेटा बिल है। बॉब के पिता का बेटा एलेक्स, माइक का भाई है। बॉब, एलेक्स का भाई है। डस्टिन का बिल से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पिता"
+      },
+      {
+        "id": "B",
+        "text": "भाई"
+      },
+      {
+        "id": "C",
+        "text": "पिता के भाई का बेटा"
+      },
+      {
+        "id": "D",
+        "text": "मामा"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-038",
+    "subjectId": "reasoning",
+    "question": "वर्षा और निशा बहनें हैं। विजय, निशा के पिता की बहन का बेटा है। विजय का वर्षा से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चचेरा भाई"
+      },
+      {
+        "id": "B",
+        "text": "ममेरा भाई"
+      },
+      {
+        "id": "C",
+        "text": "फुफेरा भाई"
+      },
+      {
+        "id": "D",
+        "text": "ममेरी बहन"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-039",
+    "subjectId": "reasoning",
+    "question": "चित्रा का पिता वरुण है तथा दिनेश, श्री का लड़का है। मनीष, वरुण का भाई है। यदि दिनेश की बहन चित्रा है तो श्री का मनीष से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाभी"
+      },
+      {
+        "id": "B",
+        "text": "ननद"
+      },
+      {
+        "id": "C",
+        "text": "बहन"
+      },
+      {
+        "id": "D",
+        "text": "चाची"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-040",
+    "subjectId": "reasoning",
+    "question": "रोहन की माँ, चंद्रा के पिता के इकलौते पुत्र की बहन है। रोहन, चंद्रा के पिता से कैसे संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पोता"
+      },
+      {
+        "id": "B",
+        "text": "दादा"
+      },
+      {
+        "id": "C",
+        "text": "नाती"
+      },
+      {
+        "id": "D",
+        "text": "नाना"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-041",
+    "subjectId": "reasoning",
+    "question": "ज्योति, शिवम की इकलौती बहन है। केशव और सुमेर भाई हैं। शिवम, केशव का इकलौता भतीजा है। सुमेर, अमन का ससुर है। ज्योति का अमन से क्या रिश्ता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बहन"
+      },
+      {
+        "id": "B",
+        "text": "पत्नी"
+      },
+      {
+        "id": "C",
+        "text": "पुत्री"
+      },
+      {
+        "id": "D",
+        "text": "नानी"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-042",
+    "subjectId": "reasoning",
+    "question": "सुधा, आशीष की भतीजी है। आशीष की माँ पारुल है। कमला, पारुल की माँ है। कमला का पति हरेंद्र है। कृष्णा, हरेंद्र की सास है। सुधा, हरेंद्र से कैसे संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "परनातिन"
+      },
+      {
+        "id": "B",
+        "text": "पोती"
+      },
+      {
+        "id": "C",
+        "text": "परपोती"
+      },
+      {
+        "id": "D",
+        "text": "भतीजी"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-043",
+    "subjectId": "reasoning",
+    "question": "रमा, शिवम की पत्नी है। शीला, शिवम की बहन है और अर्जुन की पत्नी है। अमित, शीला का बेटा है। सोनाली, अर्जुन की बेटी है। अमित सोनाली का क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाई"
+      },
+      {
+        "id": "B",
+        "text": "पिता"
+      },
+      {
+        "id": "C",
+        "text": "मामा"
+      },
+      {
+        "id": "D",
+        "text": "चाचा"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-044",
+    "subjectId": "reasoning",
+    "question": "एक महिला की ओर इशारा करते हुए, विजय ने कहा, “वह मेरी माँ के ससुर के भाई की इकलौती बेटी है।” महिला का विजय से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "माता"
+      },
+      {
+        "id": "B",
+        "text": "मामी"
+      },
+      {
+        "id": "C",
+        "text": "बुआ"
+      },
+      {
+        "id": "D",
+        "text": "भाभी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-045",
+    "subjectId": "reasoning",
+    "question": "एक आदमी की ओर इशारा करते हुए एक महिला ने कहा, “उसका भाई मेरी माँ की इकलौती बेटी के पति के बेटे का पिता है।” महिला के पति का आदमी से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पिता"
+      },
+      {
+        "id": "B",
+        "text": "भाई"
+      },
+      {
+        "id": "C",
+        "text": "चाचा"
+      },
+      {
+        "id": "D",
+        "text": "ससुर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-046",
+    "subjectId": "reasoning",
+    "question": "राम की ओर इशारा करते हुए श्याम ने कहा, “उसके पिता मेरे पिता के पिता की पुत्री के पति हैं।” श्याम के पिता का राम की माँ से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पिता"
+      },
+      {
+        "id": "B",
+        "text": "जीजा"
+      },
+      {
+        "id": "C",
+        "text": "भाई"
+      },
+      {
+        "id": "D",
+        "text": "मामा"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-047",
+    "subjectId": "reasoning",
+    "question": "एक महिला की ओर संकेत करते हुए साक्षी ने कहा, “वह मेरे पिता के इकलौते बेटे की दादी की बहू है।” यह महिला साक्षी से कैसे संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "माँ"
+      },
+      {
+        "id": "B",
+        "text": "बहन"
+      },
+      {
+        "id": "C",
+        "text": "भतीजी"
+      },
+      {
+        "id": "D",
+        "text": "बेटी"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-048",
+    "subjectId": "reasoning",
+    "question": "एक फोटो को देखकर, एक लड़के ने कहा, “वह मेरे पिताजी की माताजी के इकलौते पुत्र की पत्नी है।” तो लड़के का उस फोटो वाली महिला से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बहन"
+      },
+      {
+        "id": "B",
+        "text": "पुत्र"
+      },
+      {
+        "id": "C",
+        "text": "बुआ"
+      },
+      {
+        "id": "D",
+        "text": "मामी"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-049",
+    "subjectId": "reasoning",
+    "question": "एक लड़के की ओर संकेत करते हुए प्रिया ने कहा, “वह मेरे दादा के इकलौते पुत्र का पुत्र है।” वह लड़का प्रिया से कैसे संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पिता"
+      },
+      {
+        "id": "B",
+        "text": "मामा"
+      },
+      {
+        "id": "C",
+        "text": "चाचा"
+      },
+      {
+        "id": "D",
+        "text": "भाई"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-050",
+    "subjectId": "reasoning",
+    "question": "स्नेहा ने कहा कि वह अपनी माँ के इकलौते भाई के बेटे की माँ के ससुर से मिली। तो वह किससे मिली?",
+    "options": [
+      {
+        "id": "A",
+        "text": "दादा"
+      },
+      {
+        "id": "B",
+        "text": "पिता"
+      },
+      {
+        "id": "C",
+        "text": "नाना"
+      },
+      {
+        "id": "D",
+        "text": "मामा"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-051",
+    "subjectId": "reasoning",
+    "question": "नेहा ने रोहित का परिचय अपनी माँ की बहन के पुत्र के रूप में कराया। रोहित का नेहा से क्या रिश्ता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ममेरा भाई"
+      },
+      {
+        "id": "B",
+        "text": "मौसेरा भाई"
+      },
+      {
+        "id": "C",
+        "text": "मामा"
+      },
+      {
+        "id": "D",
+        "text": "पिता"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-052",
+    "subjectId": "reasoning",
+    "question": "एक अतिथि से रामपाल का परिचय कराते हुए आकाश ने कहा, “वह मेरे पिता की पुत्रवधू का इकलौता बेटा है।” आकाश, रामपाल से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाई"
+      },
+      {
+        "id": "B",
+        "text": "चाचा"
+      },
+      {
+        "id": "C",
+        "text": "पिता"
+      },
+      {
+        "id": "D",
+        "text": "दादा"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-053",
+    "subjectId": "reasoning",
+    "question": "रीता ने एक महिला से कहा, “मेरे पिता आपके पुत्र पवन के दादा हैं।” पवन, रीता से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भांजा"
+      },
+      {
+        "id": "B",
+        "text": "भतीजा"
+      },
+      {
+        "id": "C",
+        "text": "पुत्र"
+      },
+      {
+        "id": "D",
+        "text": "नातिन"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-054",
+    "subjectId": "reasoning",
+    "question": "एक महिला की तरफ संकेत करते हुए मीणा बोली, “वो मेरे ससुर की इकलौती पुत्री है।” वह महिला मीणा से कैसे संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाभी"
+      },
+      {
+        "id": "B",
+        "text": "ननद"
+      },
+      {
+        "id": "C",
+        "text": "बहन"
+      },
+      {
+        "id": "D",
+        "text": "माता"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-055",
+    "subjectId": "reasoning",
+    "question": "रोबिन की तस्वीर की तरफ इशारा करते हुए नेहा ने कहा, “इसकी बहन के पिता मेरे ससुर के इकलौते पुत्र हैं।” नेहा, रोबिन से कैसे संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बहन"
+      },
+      {
+        "id": "B",
+        "text": "बुआ"
+      },
+      {
+        "id": "C",
+        "text": "मौसी"
+      },
+      {
+        "id": "D",
+        "text": "माता"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-056",
+    "subjectId": "reasoning",
+    "question": "प्रिया ने शिखा की तस्वीर दिखाते हुए कहा, “यह मेरे पिता के इकलौते पुत्र की दादी है।” शिखा का प्रिया से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "दादी"
+      },
+      {
+        "id": "B",
+        "text": "नानी"
+      },
+      {
+        "id": "C",
+        "text": "माता"
+      },
+      {
+        "id": "D",
+        "text": "बहन"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-057",
+    "subjectId": "reasoning",
+    "question": "एक व्यक्ति का परिचय देते हुए सीता ने कहा, “वह मेरे दादा/दादी के इकलौते बच्चे का इकलौता पुत्र है।” व्यक्ति, सीता से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पिता"
+      },
+      {
+        "id": "B",
+        "text": "पति"
+      },
+      {
+        "id": "C",
+        "text": "भाई"
+      },
+      {
+        "id": "D",
+        "text": "मामा"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-058",
+    "subjectId": "reasoning",
+    "question": "एक व्यक्ति से परिचय कराते हुए गीता ने कहा, “यह मेरे पिता के पुत्र का इकलौता पुत्र है।” गीता का उस लड़के से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "माता"
+      },
+      {
+        "id": "B",
+        "text": "बुआ"
+      },
+      {
+        "id": "C",
+        "text": "बहन"
+      },
+      {
+        "id": "D",
+        "text": "मौसी"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-059",
+    "subjectId": "reasoning",
+    "question": "एक फोटो को देखते हुए रिया, सविता से पूछती है, “यह तस्वीर किसकी है?” सविता ने कहा, “इसका बेटा मेरी बेटी का पिता है।” फोटो किसका है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सास"
+      },
+      {
+        "id": "B",
+        "text": "ससुर"
+      },
+      {
+        "id": "C",
+        "text": "सास या ससुर"
+      },
+      {
+        "id": "D",
+        "text": "पिता"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-060",
+    "subjectId": "reasoning",
+    "question": "पूजा का परिचय देते हुए अनुज ने कहा, “इसकी माँ की इकलौती बेटी, मेरे बेटे की पत्नी है।” अनुज, पूजा से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पिता"
+      },
+      {
+        "id": "B",
+        "text": "दादा"
+      },
+      {
+        "id": "C",
+        "text": "ससुर"
+      },
+      {
+        "id": "D",
+        "text": "भाई"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-061",
+    "subjectId": "reasoning",
+    "question": "M $ N का अर्थ है M, N की बहन है। M @ N का अर्थ है M, N का पति है। M * N का अर्थ है M, N का पुत्र है। M + N का अर्थ है M, N की माता है। यदि O $ P * B @ F है, तो O, F से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भांजी"
+      },
+      {
+        "id": "B",
+        "text": "भतीजी"
+      },
+      {
+        "id": "C",
+        "text": "पुत्री"
+      },
+      {
+        "id": "D",
+        "text": "भाभी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-062",
+    "subjectId": "reasoning",
+    "question": "A % B का अर्थ है A, B का भाई है। A – B का अर्थ है A, B की माता है। A + B का अर्थ है A, B का पिता है। A & B का अर्थ है A, B का पुत्र है। यदि P – Q % R & S + T है, तो P का T से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "माता"
+      },
+      {
+        "id": "B",
+        "text": "बहन"
+      },
+      {
+        "id": "C",
+        "text": "नानी"
+      },
+      {
+        "id": "D",
+        "text": "भतीजी"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-063",
+    "subjectId": "reasoning",
+    "question": "K $ L का अर्थ है K, L की पत्नी है। K # L का अर्थ है K, L की बहन है। K @ L का अर्थ है K, L का पति है। K % L का अर्थ है K, L का पिता है। यदि S $ T % R @ P है, तो S, P से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "माता"
+      },
+      {
+        "id": "B",
+        "text": "सास"
+      },
+      {
+        "id": "C",
+        "text": "चचेरी बहन"
+      },
+      {
+        "id": "D",
+        "text": "भाभी"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-064",
+    "subjectId": "reasoning",
+    "question": "A#B का अर्थ है A, B का भाई है। A%B का अर्थ है A, B की माँ है। A$B का अर्थ है A, B की पत्नी है। A@B का अर्थ है A, B का पुत्र है। यदि G % H $ I # J @ K है, तो H, K से कैसे संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पुत्री"
+      },
+      {
+        "id": "B",
+        "text": "पत्नी"
+      },
+      {
+        "id": "C",
+        "text": "बहू"
+      },
+      {
+        "id": "D",
+        "text": "बहन"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-065",
+    "subjectId": "reasoning",
+    "question": "Y–Z का अर्थ है Y, Z की माता है। Y*Z का अर्थ है Y, Z की बहन है। Y%Z का अर्थ है Y, Z का पति है। Y$Z का अर्थ है Y, Z का पुत्र है। यदि A * B $ C – D * E % F है, तो A का F से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाभी"
+      },
+      {
+        "id": "B",
+        "text": "साली"
+      },
+      {
+        "id": "C",
+        "text": "ननद"
+      },
+      {
+        "id": "D",
+        "text": "माता"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-066",
+    "subjectId": "reasoning",
+    "question": "A#B का अर्थ है A, B की पुत्री है। A–B का अर्थ है A, B की माता है। A%B का अर्थ है A, B का भाई है। A+B का अर्थ है A, B का पिता है। यदि P + Q % R % S # T – U है, तो Q का U से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पिता"
+      },
+      {
+        "id": "B",
+        "text": "भाई"
+      },
+      {
+        "id": "C",
+        "text": "चाचा"
+      },
+      {
+        "id": "D",
+        "text": "मामा"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-067",
+    "subjectId": "reasoning",
+    "question": "A÷B का अर्थ है A, B की माता है। A–B का अर्थ है A, B का पिता है। A+B का अर्थ है A, B की बहन है। निम्नलिखित में से कौन-सा समीकरण यह व्यक्त करता है कि P, R की माता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Q + R ÷ P"
+      },
+      {
+        "id": "B",
+        "text": "P ÷ Q + R"
+      },
+      {
+        "id": "C",
+        "text": "R ÷ Q + P"
+      },
+      {
+        "id": "D",
+        "text": "Q ÷ R + P"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-068",
+    "subjectId": "reasoning",
+    "question": "A×B का अर्थ है A, B का पिता है। A÷B का अर्थ है A, B की माता है। A–B का अर्थ है A, B का भाई है। कौन-सा व्यंजक यह निरूपित करता है कि X, Z का पिता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "X – Z × Y"
+      },
+      {
+        "id": "B",
+        "text": "Y × Z – X"
+      },
+      {
+        "id": "C",
+        "text": "X × Y – Z"
+      },
+      {
+        "id": "D",
+        "text": "Z × X – Y"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-069",
+    "subjectId": "reasoning",
+    "question": "Y×Z का अर्थ है Y, Z का भाई है। Y–Z का अर्थ है Y, Z की बहन है। Y+Z का अर्थ है Y, Z का पिता है। कौन-सा समीकरण व्यक्त करता है कि P, R की बुआ/चाची है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "P – Q + R"
+      },
+      {
+        "id": "B",
+        "text": "R + Q – P"
+      },
+      {
+        "id": "C",
+        "text": "R – Q – P"
+      },
+      {
+        "id": "D",
+        "text": "P + Q + R"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-070",
+    "subjectId": "reasoning",
+    "question": "J@K का अर्थ है J, K का पति है। J$K का अर्थ है J, K के माता/पिता है। J#K का अर्थ है J, K का भाई है। J%K का अर्थ है J, K की पत्नी है। यदि G @ H $ N # K % Y है, तो G का Y से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पति"
+      },
+      {
+        "id": "B",
+        "text": "ससुर"
+      },
+      {
+        "id": "C",
+        "text": "साला"
+      },
+      {
+        "id": "D",
+        "text": "मामा"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-071",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कूट भाषा में A + B का अर्थ है A, B की माँ है। A – B का अर्थ है A, B का पिता है। A % B का अर्थ है A, B की बहन है। A / B का अर्थ है A, B की पत्नी है और A * B का अर्थ है A, B का पति है। निम्नलिखित में किसका अर्थ है कि P, T की पुत्रवधू है? (i) T / B – K * P + O (ii) T + K * P + B % O (iii) K * P + B % T + P (iv) P + T * K + B % O",
+    "options": [
+      {
+        "id": "A",
+        "text": "(i) और (ii) दोनों"
+      },
+      {
+        "id": "B",
+        "text": "(iii) और (iv)"
+      },
+      {
+        "id": "C",
+        "text": "केवल (i)"
+      },
+      {
+        "id": "D",
+        "text": "केवल (ii)"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-072",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कूट भाषा में A ! B का अर्थ है A, B का पिता है। A & B का अर्थ है A, B का भाई है। A * B का अर्थ है A, B की पत्नी है और A # B का अर्थ है A, B की पुत्री है। निम्नलिखित में से किसका अर्थ है कि S, M की देवरानी/जेठानी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "S & F * J ! I # M"
+      },
+      {
+        "id": "B",
+        "text": "S & F ! J * I # M"
+      },
+      {
+        "id": "C",
+        "text": "S * F & J ! I # M"
+      },
+      {
+        "id": "D",
+        "text": "S & F # J * I ! M"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-073",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कूट भाषा में A & B का अर्थ है A, B का भाई है। A × B का अर्थ है A, B का पिता है। A ? B का अर्थ है A, B की माता है और A ! B का अर्थ है A, B की पत्नी है। निम्नलिखित में से किसका अर्थ है कि W, P की नानी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "W ? R ! Y & O × P"
+      },
+      {
+        "id": "B",
+        "text": "W ? R × Y ! O & P"
+      },
+      {
+        "id": "C",
+        "text": "W ! R × Y ? O & P"
+      },
+      {
+        "id": "D",
+        "text": "W & R ! Y × O ? P"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-074",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कूट भाषा में A + B का अर्थ है A, B की माँ है। A – B का अर्थ है A, B का पिता है। A $ B का अर्थ है A, B का पुत्र है। A % B का अर्थ है A, B की बहन है। A / B का अर्थ है A, B की पत्नी है और A = B का अर्थ है A, B का भाई है। निम्नलिखित में से किसका अर्थ है कि A, K की पुत्री है? (i) A + K / J – P = D (ii) J % P = K + A = D (iii) K + A / P – D % J (iv) D + K = A / P – J",
+    "options": [
+      {
+        "id": "A",
+        "text": "(iv)"
+      },
+      {
+        "id": "B",
+        "text": "(i)"
+      },
+      {
+        "id": "C",
+        "text": "(iii)"
+      },
+      {
+        "id": "D",
+        "text": "(ii)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-075",
+    "subjectId": "reasoning",
+    "question": "A @ B का अर्थ है A, B का पुत्र है। A & B का अर्थ है A, B की माता है। A # B का अर्थ है A, B की पुत्री है। दिए गए विकल्पों में से किसका अर्थ है कि R, P की बहन है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "R @ S & Q # P"
+      },
+      {
+        "id": "B",
+        "text": "R @ S @ Q # P"
+      },
+      {
+        "id": "C",
+        "text": "P @ Q & R # S"
+      },
+      {
+        "id": "D",
+        "text": "P # Q @ R # S"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-076",
+    "subjectId": "reasoning",
+    "question": "B तथा Q भाई हैं। Q, L का पुत्र है। L, J का भाई है। J, N का पुत्र है। B, N से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पुत्र"
+      },
+      {
+        "id": "B",
+        "text": "भाई"
+      },
+      {
+        "id": "C",
+        "text": "पौत्र"
+      },
+      {
+        "id": "D",
+        "text": "पिता"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-077",
+    "subjectId": "reasoning",
+    "question": "यदि A+B का अर्थ A, B का पिता है, A–B का अर्थ A, B की माता है, A*B का अर्थ A, B का भाई है तथा A%B का अर्थ A, B की बहन है, तो P + Q * R – S में Q, S से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पति"
+      },
+      {
+        "id": "B",
+        "text": "मामा"
+      },
+      {
+        "id": "C",
+        "text": "भाई"
+      },
+      {
+        "id": "D",
+        "text": "पिता"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-078",
+    "subjectId": "reasoning",
+    "question": "अपने से आगे बैठी हुई महिला की ओर देखते हुए अमित ने कहा, “यह मेरी पत्नी के पति की बहन है।” उस महिला का अमित से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पत्नी"
+      },
+      {
+        "id": "B",
+        "text": "भतीजी"
+      },
+      {
+        "id": "C",
+        "text": "पुत्री"
+      },
+      {
+        "id": "D",
+        "text": "बहन"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-079",
+    "subjectId": "reasoning",
+    "question": "एक संयुक्त परिवार में पिता, माता, 3 विवाहित पुत्र और एक अविवाहित पुत्री हैं। पुत्रों में से दो के 2-2 पुत्रियाँ हैं और एक के एक पुत्र है। परिवार में महिला सदस्य कितनी हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-080",
+    "subjectId": "reasoning",
+    "question": "तस्वीर में दिख रहे एक व्यक्ति की ओर इशारा करते हुए प्रीति ने कहा, “वह मेरे पति के ससुर, गोपाल की इकलौती पुत्री का पुत्र है।” तस्वीर में दिख रहा व्यक्ति प्रीति से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पुत्र"
+      },
+      {
+        "id": "B",
+        "text": "पिता"
+      },
+      {
+        "id": "C",
+        "text": "भाई"
+      },
+      {
+        "id": "D",
+        "text": "चाचा"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-081",
+    "subjectId": "reasoning",
+    "question": "अमन, बमन और चमन का भाई है। बमन, एमिली की माँ है। फरहान अमन के पिता हैं तो निम्नलिखित में से कौन-सा निहित रूप से सत्य है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अमन और एमिली भाई-बहन हैं।"
+      },
+      {
+        "id": "B",
+        "text": "चमन पुरुष है।"
+      },
+      {
+        "id": "C",
+        "text": "चमन, अमन का भाई है।"
+      },
+      {
+        "id": "D",
+        "text": "बमन, चमन की बहन है।"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-082",
+    "subjectId": "reasoning",
+    "question": "A, C का भाई है। B, D की इकलौती बहन है जो C का मामा है। यदि E, C का पिता है, तो A, B से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भतीजा"
+      },
+      {
+        "id": "B",
+        "text": "चाचा"
+      },
+      {
+        "id": "C",
+        "text": "चचेरा भाई"
+      },
+      {
+        "id": "D",
+        "text": "पुत्र"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-083",
+    "subjectId": "reasoning",
+    "question": "सुमन ने एक लड़की की फोटो की ओर इशारा करते हुए कहा, “वह मेरे भाई के पिता की बेटी है।” उस लड़की का सुमन से क्या संबंध है? (यह मानते हुए कि फोटो में सुमन नहीं है)",
+    "options": [
+      {
+        "id": "A",
+        "text": "बेटी"
+      },
+      {
+        "id": "B",
+        "text": "भांजी"
+      },
+      {
+        "id": "C",
+        "text": "बहन"
+      },
+      {
+        "id": "D",
+        "text": "भाभी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-084",
+    "subjectId": "reasoning",
+    "question": "यदि H, R की बेटी है। R, S का पिता है। S, T का बेटा है। T, N की बेटी है, तो H का N से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बेटी की बेटी"
+      },
+      {
+        "id": "B",
+        "text": "भांजी/भतीजी"
+      },
+      {
+        "id": "C",
+        "text": "बेटी"
+      },
+      {
+        "id": "D",
+        "text": "बहू"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-085",
+    "subjectId": "reasoning",
+    "question": "जय गीतांजलि का पति है जो कि दीपाली की बहन है। दीपाली विजय की बेटी है। सरिता रोहित की सासू माँ है। हरीशचंद्र जय के पिता हैं और सरिता विजय की पत्नी हैं। विजय और सरिता की केवल दो बेटियाँ हैं। रोहित विजय से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बेटा"
+      },
+      {
+        "id": "B",
+        "text": "पिता"
+      },
+      {
+        "id": "C",
+        "text": "भाई"
+      },
+      {
+        "id": "D",
+        "text": "दामाद"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-086",
+    "subjectId": "reasoning",
+    "question": "A#B का अर्थ है A, B की बहन है। A$B का अर्थ है A, B का पिता है। A@B का अर्थ है A, B की पत्नी है। A%B का अर्थ है A, B का भाई है। निम्नलिखित में से किस विकल्प का अर्थ है J, R का पिता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "C @ J % K $ M # R"
+      },
+      {
+        "id": "B",
+        "text": "C @ R $ K % M # J"
+      },
+      {
+        "id": "C",
+        "text": "C @ J $ K % M # R"
+      },
+      {
+        "id": "D",
+        "text": "J @ C $ K % M # R"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-087",
+    "subjectId": "reasoning",
+    "question": "L, G की बहन है। G, M का बेटा है। M का विवाह D से हुआ है। D, E की बहन है। E, C का बेटा है। C का विवाह S से हुआ है। S, P की बहन है। L का E से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पत्नी की बहन"
+      },
+      {
+        "id": "B",
+        "text": "भाई की बेटी"
+      },
+      {
+        "id": "C",
+        "text": "बहन की बेटी"
+      },
+      {
+        "id": "D",
+        "text": "बेटी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-088",
+    "subjectId": "reasoning",
+    "question": "X, Y का बेटा है। Y, Z की पत्नी है। W, Z का पिता है। तो Y, W की ______ होगी।",
+    "options": [
+      {
+        "id": "A",
+        "text": "साला/बहनोई/नन्दोई"
+      },
+      {
+        "id": "B",
+        "text": "बहू"
+      },
+      {
+        "id": "C",
+        "text": "साली/ननद"
+      },
+      {
+        "id": "D",
+        "text": "ससुर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-089",
+    "subjectId": "reasoning",
+    "question": "VK और NY, MK की बेटियाँ हैं। VK का विवाह MZ से हुआ है। NY के लिए MZ कौन है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "साली/ननद"
+      },
+      {
+        "id": "B",
+        "text": "चचेरी/ममेरी/फुफेरी बहन/भाई"
+      },
+      {
+        "id": "C",
+        "text": "साला/जीजा/देवर"
+      },
+      {
+        "id": "D",
+        "text": "भाई"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-090",
+    "subjectId": "reasoning",
+    "question": "6 व्यक्तियों P, Q, R, S, T व U का एक परिवार है। P व R एक विवाहित जोड़ा है। P की लड़की S है। R का पुत्र Q है, लेकिन Q की माता R नहीं है। R का भाई T है। U, S का भाई है। तो परिवार में कितने सदस्य पुरुष हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-091",
+    "subjectId": "reasoning",
+    "question": "A × B का मतलब A, B की माँ है। A / B का मतलब A, B का भाई है। A @ B का मतलब A, B की बहन है। A % B का मतलब A, B का पिता है। उपर्युक्त जानकारी के आधार पर किसका मतलब P, Q का मामा ऐसा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "P × S @ N / B"
+      },
+      {
+        "id": "B",
+        "text": "Q / N × M @ P"
+      },
+      {
+        "id": "C",
+        "text": "Q / S % P"
+      },
+      {
+        "id": "D",
+        "text": "P / M × N @ Q"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-092",
+    "subjectId": "reasoning",
+    "question": "एक परिवार में एक पुरुष, उसकी पत्नी, उसके तीन बेटे और उनकी पत्नियाँ हैं। हर बेटे के परिवार में 3 बेटे भी हैं। पूरे परिवार में पुरुष सदस्यों और महिला सदस्यों की कुल संख्या ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 पुरुष और 3 महिलाएँ"
+      },
+      {
+        "id": "B",
+        "text": "10 पुरुष और 5 महिलाएँ"
+      },
+      {
+        "id": "C",
+        "text": "13 पुरुष और 4 महिलाएँ"
+      },
+      {
+        "id": "D",
+        "text": "13 पुरुष और 5 महिलाएँ"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-093",
+    "subjectId": "reasoning",
+    "question": "X, Y की बहन है। X, Z की पत्नी है। Y, M की दूसरी बेटी है। Y, Z की ______ है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "बहन"
+      },
+      {
+        "id": "B",
+        "text": "ननद/साली"
+      },
+      {
+        "id": "C",
+        "text": "बहनोई"
+      },
+      {
+        "id": "D",
+        "text": "भाई"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-094",
+    "subjectId": "reasoning",
+    "question": "एक तस्वीर को देखकर पुष्पा ने कहा, “इस आदमी की पत्नी लक्ष्मी, मेरी बेटी की बुआ की माँ है।” पुष्पा लक्ष्मी से कैसे संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सास"
+      },
+      {
+        "id": "B",
+        "text": "दादी"
+      },
+      {
+        "id": "C",
+        "text": "माँ"
+      },
+      {
+        "id": "D",
+        "text": "बहू"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-095",
+    "subjectId": "reasoning",
+    "question": "A + B का अर्थ B, A का भाई है। A × B का अर्थ B, A का पति है। A – B का अर्थ A, B की माँ है। A ÷ B का अर्थ A, B का पिता है। निम्नलिखित में से कौन-सा समीकरण यह बताता है कि P नानी है T की?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Q – P + R ÷ T"
+      },
+      {
+        "id": "B",
+        "text": "P × Q ÷ R – T"
+      },
+      {
+        "id": "C",
+        "text": "P × Q ÷ R + T"
+      },
+      {
+        "id": "D",
+        "text": "P + Q ÷ R – T"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-096",
+    "subjectId": "reasoning",
+    "question": "D, K का भाई है। M, K की बहन है। R, D का पिता है तथा S, M की माँ है। K किस प्रकार R से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पुत्र"
+      },
+      {
+        "id": "B",
+        "text": "पुत्री"
+      },
+      {
+        "id": "C",
+        "text": "पुत्र या पुत्री"
+      },
+      {
+        "id": "D",
+        "text": "आँकड़े अपर्याप्त"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-097",
+    "subjectId": "reasoning",
+    "question": "अपने लड़के की तस्वीर की ओर इंगित करते हुए एक पुरुष ने एक औरत से कहा, “उसकी माँ तुम्हारी माँ की इकलौती पुत्री है।” बताइए कि औरत उस पुरुष से कैसे संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "माँ"
+      },
+      {
+        "id": "B",
+        "text": "बहन"
+      },
+      {
+        "id": "C",
+        "text": "पुत्री"
+      },
+      {
+        "id": "D",
+        "text": "पत्नी"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-098",
+    "subjectId": "reasoning",
+    "question": "A–B का अर्थ है A, B की माता है। A%B का अर्थ है A, B का भाई है। A$B का अर्थ है A, B की बहन है। A@B का अर्थ है A, B का पुत्र है। यदि L @ M – N $ O % P है, तो L का P से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "साला"
+      },
+      {
+        "id": "B",
+        "text": "पिता"
+      },
+      {
+        "id": "C",
+        "text": "पुत्र"
+      },
+      {
+        "id": "D",
+        "text": "भाई"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-099",
+    "subjectId": "reasoning",
+    "question": "अमित सोनिया का भाई है। ज्योति निकिता की बहन है। सोनिया सतीश के पिता की बेटी है। निकिता, रविंदर की बेटी है। ज्योति अमित की माँ है। मुकेश निकिता की एकमात्र बहन का पति है। सतीश, रविंदर से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पोता या नाती"
+      },
+      {
+        "id": "B",
+        "text": "दामाद"
+      },
+      {
+        "id": "C",
+        "text": "बेटा"
+      },
+      {
+        "id": "D",
+        "text": "भाई"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-100",
+    "subjectId": "reasoning",
+    "question": "यदि A + B का अर्थ A, B का पिता है, A ÷ B का अर्थ A, B की माता है, A × B का अर्थ A, B का भाई है, तो कौन-सा व्यंजक यह निरूपित करता है कि Q, P की बहन है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "P × Q + R"
+      },
+      {
+        "id": "B",
+        "text": "P + R × Q"
+      },
+      {
+        "id": "C",
+        "text": "P × Q ÷ R"
+      },
+      {
+        "id": "D",
+        "text": "Q × P ÷ R"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-101",
+    "subjectId": "reasoning",
+    "question": "K का विवाह L से हुआ है। M, L का बेटा है। N, M का भाई है। O, M की बेटी है और P से विवाहित है। Q, M की माँ की माँ है और उसकी केवल एक बेटी L है। R का विवाह Q से हुआ है। R का K से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पिता"
+      },
+      {
+        "id": "B",
+        "text": "पत्नी के पिता"
+      },
+      {
+        "id": "C",
+        "text": "पत्नी की माँ"
+      },
+      {
+        "id": "D",
+        "text": "माँ के भाई"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-102",
+    "subjectId": "reasoning",
+    "question": "आनंद, प्रेमा का पुत्र है। राजीव, प्रेमा का भाई है। नेहा, रश्मि की पुत्री है। नेहा राजीव की बहन है। आनंद का रश्मि से संबंध बताइए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "पुत्र"
+      },
+      {
+        "id": "B",
+        "text": "पौत्र"
+      },
+      {
+        "id": "C",
+        "text": "दादा"
+      },
+      {
+        "id": "D",
+        "text": "पौत्री"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-103",
+    "subjectId": "reasoning",
+    "question": "A और B बच्चे हैं C के। यदि C माता है B की, किंतु A पुत्री नहीं है C की, तो C और A में क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भतीजा और चाची"
+      },
+      {
+        "id": "B",
+        "text": "भाई और बहन"
+      },
+      {
+        "id": "C",
+        "text": "माता और पुत्र"
+      },
+      {
+        "id": "D",
+        "text": "भतीजी और चाची"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-104",
+    "subjectId": "reasoning",
+    "question": "यदि P 3 Q का अर्थ P, Q की पुत्री है, P 5 Q का अर्थ P, Q का पिता है, P 7 Q का अर्थ P, Q की माता है तथा P 9 Q का अर्थ P, Q की बहन है, तो J 3 L 9 N 3 O 5 K में J, K से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "माता"
+      },
+      {
+        "id": "B",
+        "text": "पत्नी"
+      },
+      {
+        "id": "C",
+        "text": "भांजी"
+      },
+      {
+        "id": "D",
+        "text": "पुत्री"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  },
+  {
+    "id": "blood-relation-105",
+    "subjectId": "reasoning",
+    "question": "पूनम, अक्षय से कहती है, “कल उसने अक्षय की इकलौती बहन की पुत्री स्नेहा को विद्यालय स्तर के ताइकवांडो प्रतियोगिता में हराया था।” अक्षय, स्नेहा से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "दादा"
+      },
+      {
+        "id": "B",
+        "text": "पिता"
+      },
+      {
+        "id": "C",
+        "text": "ममेरा भाई"
+      },
+      {
+        "id": "D",
+        "text": "मामा"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood-relation",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "exam": "तर्क-ज्योति — रक्त संबंध",
+      "sourceFile": "तर्क-ज्योति.pdf"
+    }
+  }
+]
