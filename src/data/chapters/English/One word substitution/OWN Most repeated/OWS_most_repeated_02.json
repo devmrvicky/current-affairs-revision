@@ -1,0 +1,2888 @@
+[
+  {
+    "id": "ows001",
+    "question": "A person who loves all mankind / Someone who freely gives money and help to people who need it",
+    "options": [
+      {
+        "id": "A",
+        "text": "Philanthropist"
+      },
+      {
+        "id": "B",
+        "text": "Misanthrope"
+      },
+      {
+        "id": "C",
+        "text": "Misogynist"
+      },
+      {
+        "id": "D",
+        "text": "Altruist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Philanthropist means “मानव प्रेमी, परोपकारी”. Example: The philanthropist donated millions to build schools for poor children.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows002",
+    "question": "An inscription on a tombstone in the memory of the person who has died",
+    "options": [
+      {
+        "id": "A",
+        "text": "Epitaph"
+      },
+      {
+        "id": "B",
+        "text": "Inscription"
+      },
+      {
+        "id": "C",
+        "text": "Obituary"
+      },
+      {
+        "id": "D",
+        "text": "Eulogy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Epitaph means “समाधि-लेख”. Example: The epitaph on the tombstone praised the man's kindness.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows003",
+    "question": "Something no longer in use",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obsolete"
+      },
+      {
+        "id": "B",
+        "text": "Ancient"
+      },
+      {
+        "id": "C",
+        "text": "Antique"
+      },
+      {
+        "id": "D",
+        "text": "Archaic"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Obsolete means “अप्रचलित”. Example: This technology has become obsolete after the introduction of modern devices.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows004",
+    "question": "Handwriting which is difficult or impossible to read",
+    "options": [
+      {
+        "id": "A",
+        "text": "Illegible"
+      },
+      {
+        "id": "B",
+        "text": "Invisible"
+      },
+      {
+        "id": "C",
+        "text": "Indelible"
+      },
+      {
+        "id": "D",
+        "text": "Inaudible"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Illegible means “अपठनीय”. Example: The doctor's handwriting was so illegible that I could not read the prescription.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows005",
+    "question": "Something that cannot be avoided / Certain to happen",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inevitable"
+      },
+      {
+        "id": "B",
+        "text": "Invincible"
+      },
+      {
+        "id": "C",
+        "text": "Infallible"
+      },
+      {
+        "id": "D",
+        "text": "Irreversible"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Inevitable means “अटल / जिसे टाला न जा सके”. Example: Change is inevitable in every growing organisation.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows006",
+    "question": "A place for keeping birds in a confined space",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aviary"
+      },
+      {
+        "id": "B",
+        "text": "Apiary"
+      },
+      {
+        "id": "C",
+        "text": "Aquarium"
+      },
+      {
+        "id": "D",
+        "text": "Kennel"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Aviary means “पक्षीशाला / चिड़ियाघर”. Example: The zoo has a large aviary for exotic birds.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows007",
+    "question": "Belonging to the same time / A person living in the same age with another",
+    "options": [
+      {
+        "id": "A",
+        "text": "Contemporary"
+      },
+      {
+        "id": "B",
+        "text": "Contingent"
+      },
+      {
+        "id": "C",
+        "text": "Temporary"
+      },
+      {
+        "id": "D",
+        "text": "Prehistoric"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Contemporary means “समकालीन”. Example: Shakespeare was a contemporary of Queen Elizabeth I.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows008",
+    "question": "A person who can endure pain or hardship without showing feelings or complaining",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stoic"
+      },
+      {
+        "id": "B",
+        "text": "Ascetic"
+      },
+      {
+        "id": "C",
+        "text": "Cynic"
+      },
+      {
+        "id": "D",
+        "text": "Optimist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Stoic means “सहनशील / भावनाओं को नियंत्रित रखने वाला”. Example: The soldier remained stoic despite his severe injuries.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows009",
+    "question": "One who doesn't believe in the existence of God",
+    "options": [
+      {
+        "id": "A",
+        "text": "Atheist"
+      },
+      {
+        "id": "B",
+        "text": "Agnostic"
+      },
+      {
+        "id": "C",
+        "text": "Theist"
+      },
+      {
+        "id": "D",
+        "text": "Polytheist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Atheist means “नास्तिक”. Example: The atheist did not believe in the existence of any god.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows010",
+    "question": "A person who draws or makes maps",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cartographer"
+      },
+      {
+        "id": "B",
+        "text": "Geographer"
+      },
+      {
+        "id": "C",
+        "text": "Topographer"
+      },
+      {
+        "id": "D",
+        "text": "Choreographer"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cartographer means “मानचित्रकार”. Example: The cartographer prepared a detailed map of the region.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows011",
+    "question": "An extreme fear of being in a small confined place",
+    "options": [
+      {
+        "id": "A",
+        "text": "Claustrophobia"
+      },
+      {
+        "id": "B",
+        "text": "Acrophobia"
+      },
+      {
+        "id": "C",
+        "text": "Hydrophobia"
+      },
+      {
+        "id": "D",
+        "text": "Agoraphobia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Claustrophobia means “छोटी जगह में होने का अत्यधिक डर”. Example: He avoided the lift because he suffered from claustrophobia.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows012",
+    "question": "One who knows everything",
+    "options": [
+      {
+        "id": "A",
+        "text": "Omniscient"
+      },
+      {
+        "id": "B",
+        "text": "Omnipotent"
+      },
+      {
+        "id": "C",
+        "text": "Omnipresent"
+      },
+      {
+        "id": "D",
+        "text": "Omnivorous"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Omniscient means “सर्वज्ञानी”. Example: In the story, the narrator is omniscient and knows every character's thoughts.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows013",
+    "question": "A solution for all difficulties or diseases",
+    "options": [
+      {
+        "id": "A",
+        "text": "Panacea"
+      },
+      {
+        "id": "B",
+        "text": "Antidote"
+      },
+      {
+        "id": "C",
+        "text": "Remedy"
+      },
+      {
+        "id": "D",
+        "text": "Therapy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Panacea means “हर समस्या या रोग का रामबाण इलाज”. Example: There is no single panacea for all social problems.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows014",
+    "question": "A person who knows and is able to use several languages",
+    "options": [
+      {
+        "id": "A",
+        "text": "Polyglot"
+      },
+      {
+        "id": "B",
+        "text": "Linguist"
+      },
+      {
+        "id": "C",
+        "text": "Translator"
+      },
+      {
+        "id": "D",
+        "text": "Interpreter"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Polyglot means “बहुभाषी व्यक्ति”. Example: The polyglot can communicate fluently in several languages.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows015",
+    "question": "An arrangement of events or dates in the order of their occurrence",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chronology"
+      },
+      {
+        "id": "B",
+        "text": "Genealogy"
+      },
+      {
+        "id": "C",
+        "text": "Biography"
+      },
+      {
+        "id": "D",
+        "text": "Chronicle"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Chronology means “कालक्रम”. Example: The textbook presents the historical events in chronological order.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows016",
+    "question": "A speech or a presentation made without previous preparation",
+    "options": [
+      {
+        "id": "A",
+        "text": "Extempore"
+      },
+      {
+        "id": "B",
+        "text": "Oration"
+      },
+      {
+        "id": "C",
+        "text": "Monologue"
+      },
+      {
+        "id": "D",
+        "text": "Dialogue"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Extempore means “बिना तैयारी के”. Example: The candidate gave an impressive extempore speech.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows017",
+    "question": "One who is difficult to please",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fastidious"
+      },
+      {
+        "id": "B",
+        "text": "Fussy"
+      },
+      {
+        "id": "C",
+        "text": "Meticulous"
+      },
+      {
+        "id": "D",
+        "text": "Capricious"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Fastidious means “नखरेबाज / बहुत चुस्त या चयनशील”. Example: He is fastidious about the quality of the food he eats.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows018",
+    "question": "An imagined society where everything is perfect and everyone is happy / A place of ideal perfection especially in laws, government, and social conditions",
+    "options": [
+      {
+        "id": "A",
+        "text": "Utopia"
+      },
+      {
+        "id": "B",
+        "text": "Dystopia"
+      },
+      {
+        "id": "C",
+        "text": "Republic"
+      },
+      {
+        "id": "D",
+        "text": "Kingdom"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Utopia means “आदर्शवादी काल्पनिक समाज/राज्य”. Example: The novel describes a utopia where everyone lives peacefully and equally.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows019",
+    "question": "One who plays for pleasure rather than as a profession / A person who is neither well experienced nor professional",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amateur"
+      },
+      {
+        "id": "B",
+        "text": "Professional"
+      },
+      {
+        "id": "C",
+        "text": "Novice"
+      },
+      {
+        "id": "D",
+        "text": "Expert"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Amateur means “शौकीन / अनुभवहीन गैर-पेशेवर”. Example: He is an amateur photographer who takes pictures as a hobby.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows020",
+    "question": "Able to use the left hand and right hand equally well",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ambidextrous"
+      },
+      {
+        "id": "B",
+        "text": "Amorphous"
+      },
+      {
+        "id": "C",
+        "text": "Ambiguous"
+      },
+      {
+        "id": "D",
+        "text": "Bilingual"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Ambidextrous means “उभयहस्त / दोनों हाथों से समान रूप से काम करने वाला”. Example: The ambidextrous player can throw with either hand.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows021",
+    "question": "A person who attacks or criticizes cherished beliefs or institutions",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iconoclast"
+      },
+      {
+        "id": "B",
+        "text": "Reformer"
+      },
+      {
+        "id": "C",
+        "text": "Revolutionary"
+      },
+      {
+        "id": "D",
+        "text": "Anarchist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Iconoclast means “रिवाज/मान्यताओं को तोड़ने वाला”. Example: The iconoclast openly challenged several traditional beliefs.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows022",
+    "question": "One who cannot make mistake",
+    "options": [
+      {
+        "id": "A",
+        "text": "Infallible"
+      },
+      {
+        "id": "B",
+        "text": "Innocent"
+      },
+      {
+        "id": "C",
+        "text": "Invincible"
+      },
+      {
+        "id": "D",
+        "text": "Impeccable"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Infallible means “अचूक / जिससे गलती न हो”. Example: No human being is completely infallible.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows023",
+    "question": "Someone who makes charitable donations intended to the welfare of other people",
+    "options": [
+      {
+        "id": "A",
+        "text": "Altruist"
+      },
+      {
+        "id": "B",
+        "text": "Philanthropist"
+      },
+      {
+        "id": "C",
+        "text": "Egoist"
+      },
+      {
+        "id": "D",
+        "text": "Misanthrope"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Altruist means “परोपकारी”. Example: The altruist devoted his wealth to helping poor families.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows024",
+    "question": "The place where public, government or historical records are kept",
+    "options": [
+      {
+        "id": "A",
+        "text": "Archive"
+      },
+      {
+        "id": "B",
+        "text": "Library"
+      },
+      {
+        "id": "C",
+        "text": "Museum"
+      },
+      {
+        "id": "D",
+        "text": "Repository"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Archive means “अभिलेखागार”. Example: The researcher visited the national archive to study old government records.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows025",
+    "question": "A person who loves or collects books",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bibliophile"
+      },
+      {
+        "id": "B",
+        "text": "Librarian"
+      },
+      {
+        "id": "C",
+        "text": "Bibliographer"
+      },
+      {
+        "id": "D",
+        "text": "Bookbinder"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Bibliophile means “पुस्तक प्रेमी”. Example: The bibliophile has a large collection of rare books.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows026",
+    "question": "The murder of a whole race or a group of people",
+    "options": [
+      {
+        "id": "A",
+        "text": "Genocide"
+      },
+      {
+        "id": "B",
+        "text": "Homicide"
+      },
+      {
+        "id": "C",
+        "text": "Regicide"
+      },
+      {
+        "id": "D",
+        "text": "Infanticide"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Genocide means “नरसंहार”. Example: The international community condemned the genocide of the ethnic population.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows027",
+    "question": "A sound that cannot be heard",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inaudible"
+      },
+      {
+        "id": "B",
+        "text": "Illegible"
+      },
+      {
+        "id": "C",
+        "text": "Invisible"
+      },
+      {
+        "id": "D",
+        "text": "Intangible"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Inaudible means “अश्रव्य / जिसे सुना न जा सके”. Example: His voice became inaudible because of the loud noise.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows028",
+    "question": "One who cannot be corrected / One who is beyond reform",
+    "options": [
+      {
+        "id": "A",
+        "text": "Incorrigible"
+      },
+      {
+        "id": "B",
+        "text": "Infallible"
+      },
+      {
+        "id": "C",
+        "text": "Irresponsible"
+      },
+      {
+        "id": "D",
+        "text": "Incompetent"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Incorrigible means “असंशोधनीय / जिसे सुधारा न जा सके”. Example: The teacher considered the repeatedly disobedient boy incorrigible.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows029",
+    "question": "A person who writes and edits dictionaries",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lexicographer"
+      },
+      {
+        "id": "B",
+        "text": "Calligrapher"
+      },
+      {
+        "id": "C",
+        "text": "Biographer"
+      },
+      {
+        "id": "D",
+        "text": "Typographer"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Lexicographer means “शब्दकोश का लेखक”. Example: The lexicographer spent years compiling the new dictionary.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows030",
+    "question": "Someone working or acting merely for money or other rewards / A soldier who fights for the sake of money",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mercenary"
+      },
+      {
+        "id": "B",
+        "text": "Volunteer"
+      },
+      {
+        "id": "C",
+        "text": "Patriot"
+      },
+      {
+        "id": "D",
+        "text": "Altruist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mercenary means “किराये का सैनिक / धन के लिए काम करने वाला”. Example: The king hired mercenary soldiers to fight in the war.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows031",
+    "question": "A person who hates and avoids other people",
+    "options": [
+      {
+        "id": "A",
+        "text": "Misanthrope"
+      },
+      {
+        "id": "B",
+        "text": "Philanthropist"
+      },
+      {
+        "id": "C",
+        "text": "Introvert"
+      },
+      {
+        "id": "D",
+        "text": "Misogynist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Misanthrope means “मानवद्वेषी”. Example: The old man was considered a misanthrope because he avoided society.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows032",
+    "question": "Sentimental longing for a period in the past",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nostalgia"
+      },
+      {
+        "id": "B",
+        "text": "Melancholy"
+      },
+      {
+        "id": "C",
+        "text": "Reminiscence"
+      },
+      {
+        "id": "D",
+        "text": "Regret"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Nostalgia means “अतीत की घटनाओं की यादें”. Example: The old photographs filled her with nostalgia for her childhood.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows033",
+    "question": "Animal that can live both on land and in water",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amphibian"
+      },
+      {
+        "id": "B",
+        "text": "Aquatic"
+      },
+      {
+        "id": "C",
+        "text": "Terrestrial"
+      },
+      {
+        "id": "D",
+        "text": "Reptile"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Amphibian means “उभयचर जन्तु”. Example: A frog is an amphibian that can live both on land and in water.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows034",
+    "question": "The life history of a person written by himself",
+    "options": [
+      {
+        "id": "A",
+        "text": "Autobiography"
+      },
+      {
+        "id": "B",
+        "text": "Biography"
+      },
+      {
+        "id": "C",
+        "text": "Memoir"
+      },
+      {
+        "id": "D",
+        "text": "Chronicle"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Autobiography means “आत्मकथा”. Example: The leader wrote an autobiography describing his childhood and political career.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows035",
+    "question": "A person who eats human flesh",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cannibal"
+      },
+      {
+        "id": "B",
+        "text": "Carnivore"
+      },
+      {
+        "id": "C",
+        "text": "Omnivore"
+      },
+      {
+        "id": "D",
+        "text": "Herbivore"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cannibal means “नरभक्षक”. Example: The historical account described the tribe as cannibals.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows036",
+    "question": "A person employed to drive a private or hired car",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chauffeur"
+      },
+      {
+        "id": "B",
+        "text": "Driver"
+      },
+      {
+        "id": "C",
+        "text": "Mechanic"
+      },
+      {
+        "id": "D",
+        "text": "Conductor"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Chauffeur means “मोटर-चालक”. Example: The businessman hired a chauffeur to drive his private car.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows037",
+    "question": "The scientific study of worms and insects",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entomology"
+      },
+      {
+        "id": "B",
+        "text": "Zoology"
+      },
+      {
+        "id": "C",
+        "text": "Ecology"
+      },
+      {
+        "id": "D",
+        "text": "Botany"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Entomology means “कीटविज्ञान”. Example: She studied entomology to understand the behaviour of insects.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows038",
+    "question": "One who is unable to pay debts",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insolvent"
+      },
+      {
+        "id": "B",
+        "text": "Indebted"
+      },
+      {
+        "id": "C",
+        "text": "Bankrupt"
+      },
+      {
+        "id": "D",
+        "text": "Creditor"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Insolvent means “दिवालिया / ऋण चुकाने में असमर्थ”. Example: The company became insolvent after years of financial losses.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows039",
+    "question": "A person with strong desire to steal",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kleptomaniac"
+      },
+      {
+        "id": "B",
+        "text": "Burglar"
+      },
+      {
+        "id": "C",
+        "text": "Thief"
+      },
+      {
+        "id": "D",
+        "text": "Pickpocket"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Kleptomaniac means “चोरी करने की बीमारी से पीड़ित व्यक्ति”. Example: The kleptomaniac had an uncontrollable urge to steal small objects.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows040",
+    "question": "Government or rule by a small group of people",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oligarchy"
+      },
+      {
+        "id": "B",
+        "text": "Aristocracy"
+      },
+      {
+        "id": "C",
+        "text": "Democracy"
+      },
+      {
+        "id": "D",
+        "text": "Autocracy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Oligarchy means “अल्पतंत्र / कुछ लोगों का शासन”. Example: The country was ruled by an oligarchy of powerful families.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows041",
+    "question": "One who is all powerful",
+    "options": [
+      {
+        "id": "A",
+        "text": "Omnipotent"
+      },
+      {
+        "id": "B",
+        "text": "Omniscient"
+      },
+      {
+        "id": "C",
+        "text": "Omnipresent"
+      },
+      {
+        "id": "D",
+        "text": "Omnivorous"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Omnipotent means “सर्वशक्तिमान”. Example: The ancient people believed their god to be omnipotent.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows042",
+    "question": "A person who collects or studies stamps",
+    "options": [
+      {
+        "id": "A",
+        "text": "Philatelist"
+      },
+      {
+        "id": "B",
+        "text": "Numismatist"
+      },
+      {
+        "id": "C",
+        "text": "Bibliophile"
+      },
+      {
+        "id": "D",
+        "text": "Antiquarian"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Philatelist means “डाक के टिकट का संग्रहकर्ता”. Example: The philatelist owns a rare collection of Indian stamps.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows043",
+    "question": "A person who never takes alcoholic drinks",
+    "options": [
+      {
+        "id": "A",
+        "text": "Teetotaller"
+      },
+      {
+        "id": "B",
+        "text": "Abstainer"
+      },
+      {
+        "id": "C",
+        "text": "Vegetarian"
+      },
+      {
+        "id": "D",
+        "text": "Ascetic"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Teetotaller means “पूर्णतः मद्यत्यागी”. Example: He is a teetotaller and never drinks alcohol.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows044",
+    "question": "Someone having many skills",
+    "options": [
+      {
+        "id": "A",
+        "text": "Versatile"
+      },
+      {
+        "id": "B",
+        "text": "Expert"
+      },
+      {
+        "id": "C",
+        "text": "Specialist"
+      },
+      {
+        "id": "D",
+        "text": "Amateur"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Versatile means “सर्वगुण सम्पन्न / अनेक कौशल वाला”. Example: She is a versatile artist who can sing, dance and paint.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows045",
+    "question": "A person who believes that laws and governments are not necessary / A person who believes in or tries to bring about a state of lawlessness",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anarchist"
+      },
+      {
+        "id": "B",
+        "text": "Democrat"
+      },
+      {
+        "id": "C",
+        "text": "Monarchist"
+      },
+      {
+        "id": "D",
+        "text": "Reformer"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Anarchist means “अराजकतावादी”. Example: The anarchist opposed the existence of a central government.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows046",
+    "question": "The art of beautiful handwriting",
+    "options": [
+      {
+        "id": "A",
+        "text": "Calligraphy"
+      },
+      {
+        "id": "B",
+        "text": "Typography"
+      },
+      {
+        "id": "C",
+        "text": "Cartography"
+      },
+      {
+        "id": "D",
+        "text": "Lexicography"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Calligraphy means “सुलेख”. Example: She learned calligraphy to improve her handwriting.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows047",
+    "question": "A group of stars that forms a shape in the sky and has a name",
+    "options": [
+      {
+        "id": "A",
+        "text": "Constellation"
+      },
+      {
+        "id": "B",
+        "text": "Galaxy"
+      },
+      {
+        "id": "C",
+        "text": "Nebula"
+      },
+      {
+        "id": "D",
+        "text": "Asteroid"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Constellation means “नक्षत्र”. Example: Orion is a well-known constellation visible in the night sky.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows048",
+    "question": "An animal that lives in groups / Tending to associate with others of one's kind",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gregarious"
+      },
+      {
+        "id": "B",
+        "text": "Solitary"
+      },
+      {
+        "id": "C",
+        "text": "Nocturnal"
+      },
+      {
+        "id": "D",
+        "text": "Territorial"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Gregarious means “झुंड में रहने वाला / मिलनसार”. Example: Elephants are gregarious animals that live in herds.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows049",
+    "question": "A quiet person who is more interested in his own thoughts and feelings than in spending time with other people",
+    "options": [
+      {
+        "id": "A",
+        "text": "Introvert"
+      },
+      {
+        "id": "B",
+        "text": "Extrovert"
+      },
+      {
+        "id": "C",
+        "text": "Ambivert"
+      },
+      {
+        "id": "D",
+        "text": "Gregarious"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Introvert means “अंतर्मुखी व्यक्ति”. Example: The introvert preferred reading alone rather than attending large social gatherings.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows050",
+    "question": "A piece of land/garden in which fruit trees are grown",
+    "options": [
+      {
+        "id": "A",
+        "text": "Orchard"
+      },
+      {
+        "id": "B",
+        "text": "Plantation"
+      },
+      {
+        "id": "C",
+        "text": "Nursery"
+      },
+      {
+        "id": "D",
+        "text": "Garden"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Orchard means “फलोद्यान”. Example: The farmer owns a large mango orchard.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows051",
+    "question": "Fit to drink (water)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Potable"
+      },
+      {
+        "id": "B",
+        "text": "Edible"
+      },
+      {
+        "id": "C",
+        "text": "Sterile"
+      },
+      {
+        "id": "D",
+        "text": "Purified"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Potable means “पीने योग्य”. Example: The village finally received a supply of clean potable water.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows052",
+    "question": "A person who helps another to commit a crime or to do something morally wrong / A partner in crime",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accomplice"
+      },
+      {
+        "id": "B",
+        "text": "Accessory"
+      },
+      {
+        "id": "C",
+        "text": "Conspirator"
+      },
+      {
+        "id": "D",
+        "text": "Witness"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Accomplice means “सह-अपराधी”. Example: The police arrested the thief and his accomplice.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows053",
+    "question": "One who is not sure about God's existence",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agnostic"
+      },
+      {
+        "id": "B",
+        "text": "Atheist"
+      },
+      {
+        "id": "C",
+        "text": "Theist"
+      },
+      {
+        "id": "D",
+        "text": "Deist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Agnostic means “ईश्वर के बारे में संशयवादी व्यक्ति”. Example: The agnostic said that he was uncertain whether God exists.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows054",
+    "question": "A partial or total loss of memory",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amnesia"
+      },
+      {
+        "id": "B",
+        "text": "Insomnia"
+      },
+      {
+        "id": "C",
+        "text": "Dementia"
+      },
+      {
+        "id": "D",
+        "text": "Anxiety"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Amnesia means “भूलने की बीमारी / स्मृतिलोप”. Example: The accident left the patient suffering from partial amnesia.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows055",
+    "question": "A situation in a country, an organization, etc. in which there is no government, order or control",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anarchy"
+      },
+      {
+        "id": "B",
+        "text": "Democracy"
+      },
+      {
+        "id": "C",
+        "text": "Monarchy"
+      },
+      {
+        "id": "D",
+        "text": "Oligarchy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Anarchy means “अव्यवस्था / अराजकता”. Example: The sudden collapse of the government led to a period of anarchy.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows056",
+    "question": "A person who regards the whole world as his country / One who is a citizen of not a country but of the world",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cosmopolitan"
+      },
+      {
+        "id": "B",
+        "text": "Nationalist"
+      },
+      {
+        "id": "C",
+        "text": "Patriot"
+      },
+      {
+        "id": "D",
+        "text": "Internationalist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cosmopolitan means “समस्त संसार का नागरिक”. Example: A cosmopolitan person is comfortable living among people from different cultures.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows057",
+    "question": "A person who leaves his country to live in another",
+    "options": [
+      {
+        "id": "A",
+        "text": "Emigrant"
+      },
+      {
+        "id": "B",
+        "text": "Immigrant"
+      },
+      {
+        "id": "C",
+        "text": "Refugee"
+      },
+      {
+        "id": "D",
+        "text": "Expatriate"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Emigrant means “अपने देश को छोड़कर दूसरे देश में जाने वाला”. Example: The emigrant left India to settle permanently in Canada.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows058",
+    "question": "Lasting for a very short time",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ephemeral"
+      },
+      {
+        "id": "B",
+        "text": "Eternal"
+      },
+      {
+        "id": "C",
+        "text": "Permanent"
+      },
+      {
+        "id": "D",
+        "text": "Perennial"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Ephemeral means “क्षणिक / बहुत कम समय तक रहने वाला”. Example: Fame on social media can be ephemeral.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows059",
+    "question": "To free somebody from all blame",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exonerate"
+      },
+      {
+        "id": "B",
+        "text": "Acquit"
+      },
+      {
+        "id": "C",
+        "text": "Absolve"
+      },
+      {
+        "id": "D",
+        "text": "Pardon"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Exonerate means “दोषमुक्त करना”. Example: New evidence helped exonerate the accused man.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows060",
+    "question": "One who is easily deceived",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gullible"
+      },
+      {
+        "id": "B",
+        "text": "Credulous"
+      },
+      {
+        "id": "C",
+        "text": "Naive"
+      },
+      {
+        "id": "D",
+        "text": "Innocent"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Gullible means “भोला-भाला / आसानी से धोखा खाने वाला”. Example: The gullible man believed the fake investment offer.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows061",
+    "question": "Holding an office without receiving a pay",
+    "options": [
+      {
+        "id": "A",
+        "text": "Honorary"
+      },
+      {
+        "id": "B",
+        "text": "Voluntary"
+      },
+      {
+        "id": "C",
+        "text": "Unpaid"
+      },
+      {
+        "id": "D",
+        "text": "Ceremonial"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Honorary means “अवैतनिक”. Example: He was appointed honorary chairman without receiving a salary.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows062",
+    "question": "A person who suffers from an imaginary illness / A person who is abnormally anxious about his health",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hypochondriac"
+      },
+      {
+        "id": "B",
+        "text": "Hypocrite"
+      },
+      {
+        "id": "C",
+        "text": "Insomniac"
+      },
+      {
+        "id": "D",
+        "text": "Neurotic"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Hypochondriac means “रोगभ्रमी”. Example: The hypochondriac constantly worried that minor symptoms were signs of serious diseases.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows063",
+    "question": "A person pretending to be somebody he isn't",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hypocrite"
+      },
+      {
+        "id": "B",
+        "text": "Impostor"
+      },
+      {
+        "id": "C",
+        "text": "Pretender"
+      },
+      {
+        "id": "D",
+        "text": "Charlatan"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Hypocrite means “पाखंडी”. Example: A hypocrite often pretends to have moral standards that he does not follow himself.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows064",
+    "question": "That which cannot be conquered",
+    "options": [
+      {
+        "id": "A",
+        "text": "Invincible"
+      },
+      {
+        "id": "B",
+        "text": "Infallible"
+      },
+      {
+        "id": "C",
+        "text": "Indestructible"
+      },
+      {
+        "id": "D",
+        "text": "Invulnerable"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Invincible means “अजेय”. Example: The team appeared invincible after winning every match.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows065",
+    "question": "A place where money is coined by authority of the government",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mint"
+      },
+      {
+        "id": "B",
+        "text": "Treasury"
+      },
+      {
+        "id": "C",
+        "text": "Bank"
+      },
+      {
+        "id": "D",
+        "text": "Vault"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mint means “टकसाल”. Example: The coins were produced at the government mint.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows066",
+    "question": "A person who admires himself/herself too much, especially his appearance",
+    "options": [
+      {
+        "id": "A",
+        "text": "Narcissist"
+      },
+      {
+        "id": "B",
+        "text": "Egoist"
+      },
+      {
+        "id": "C",
+        "text": "Egotist"
+      },
+      {
+        "id": "D",
+        "text": "Exhibitionist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Narcissist means “आत्ममोहित व्यक्ति”. Example: The narcissist spent hours admiring himself in the mirror.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows067",
+    "question": "Well-known for being bad / A person of evil reputation",
+    "options": [
+      {
+        "id": "A",
+        "text": "Notorious"
+      },
+      {
+        "id": "B",
+        "text": "Famous"
+      },
+      {
+        "id": "C",
+        "text": "Infamous"
+      },
+      {
+        "id": "D",
+        "text": "Renowned"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Notorious means “कुख्यात”. Example: The city was once notorious for its high crime rate.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows068",
+    "question": "A person who collects coins",
+    "options": [
+      {
+        "id": "A",
+        "text": "Numismatist"
+      },
+      {
+        "id": "B",
+        "text": "Philatelist"
+      },
+      {
+        "id": "C",
+        "text": "Antiquarian"
+      },
+      {
+        "id": "D",
+        "text": "Archaeologist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Numismatist means “मुद्राशास्त्री / सिक्कों का संग्रहकर्ता”. Example: The numismatist displayed a collection of ancient coins.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows069",
+    "question": "A large number of fish swimming together",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shoal"
+      },
+      {
+        "id": "B",
+        "text": "School"
+      },
+      {
+        "id": "C",
+        "text": "Swarm"
+      },
+      {
+        "id": "D",
+        "text": "Herd"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Shoal means “मछलियों का समुदाय”. Example: A large shoal of fish was visible near the shore.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows070",
+    "question": "A place where bees are kept",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apiary"
+      },
+      {
+        "id": "B",
+        "text": "Aviary"
+      },
+      {
+        "id": "C",
+        "text": "Aquarium"
+      },
+      {
+        "id": "D",
+        "text": "Apiary"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Apiary means “मधुमक्खियों के पालन का स्थान”. Example: The farmer keeps hundreds of bee colonies in his apiary.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows071",
+    "question": "A military structure where arms and ammunition and other military equipment are stored",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arsenal"
+      },
+      {
+        "id": "B",
+        "text": "Barracks"
+      },
+      {
+        "id": "C",
+        "text": "Armoury"
+      },
+      {
+        "id": "D",
+        "text": "Fortress"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Arsenal means “शस्त्रागार”. Example: The army stored its weapons and ammunition in the arsenal.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows072",
+    "question": "The story of a person's life written by somebody else",
+    "options": [
+      {
+        "id": "A",
+        "text": "Biography"
+      },
+      {
+        "id": "B",
+        "text": "Autobiography"
+      },
+      {
+        "id": "C",
+        "text": "Memoir"
+      },
+      {
+        "id": "D",
+        "text": "Chronicle"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Biography means “जीवनी”. Example: She wrote a biography of the famous freedom fighter.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows073",
+    "question": "House or shelter of a gipsy / A group of people, especially traders or pilgrims, travelling together across a desert",
+    "options": [
+      {
+        "id": "A",
+        "text": "Caravan"
+      },
+      {
+        "id": "B",
+        "text": "Convoy"
+      },
+      {
+        "id": "C",
+        "text": "Camp"
+      },
+      {
+        "id": "D",
+        "text": "Colony"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Caravan means “काफिला”. Example: A caravan of traders crossed the desert.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows074",
+    "question": "A man who knows a lot about things like food, music and art",
+    "options": [
+      {
+        "id": "A",
+        "text": "Connoisseur"
+      },
+      {
+        "id": "B",
+        "text": "Critic"
+      },
+      {
+        "id": "C",
+        "text": "Collector"
+      },
+      {
+        "id": "D",
+        "text": "Expert"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Connoisseur means “विशेषज्ञ / पारखी”. Example: He is a connoisseur of classical music and fine art.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows075",
+    "question": "Man behaving more like a woman than as a man",
+    "options": [
+      {
+        "id": "A",
+        "text": "Effeminate"
+      },
+      {
+        "id": "B",
+        "text": "Feminist"
+      },
+      {
+        "id": "C",
+        "text": "Androgynous"
+      },
+      {
+        "id": "D",
+        "text": "Masculine"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Effeminate means “नारी जैसा”. Example: The character was portrayed as effeminate in his mannerisms and dress.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows076",
+    "question": "A poem that expresses lament for the dead",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elegy"
+      },
+      {
+        "id": "B",
+        "text": "Epitaph"
+      },
+      {
+        "id": "C",
+        "text": "Ode"
+      },
+      {
+        "id": "D",
+        "text": "Ballad"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Elegy means “शोकगीत”. Example: The poet wrote an elegy in memory of his departed friend.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows077",
+    "question": "A short speech at the end of a play",
+    "options": [
+      {
+        "id": "A",
+        "text": "Epilogue"
+      },
+      {
+        "id": "B",
+        "text": "Prologue"
+      },
+      {
+        "id": "C",
+        "text": "Monologue"
+      },
+      {
+        "id": "D",
+        "text": "Dialogue"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Epilogue means “उपसंहार”. Example: The narrator delivered an epilogue at the end of the play.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows078",
+    "question": "A person who believes that all events are predetermined or subject to fate",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fatalist"
+      },
+      {
+        "id": "B",
+        "text": "Optimist"
+      },
+      {
+        "id": "C",
+        "text": "Pessimist"
+      },
+      {
+        "id": "D",
+        "text": "Realist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Fatalist means “भाग्यवादी”. Example: The fatalist believed that everything in life was already determined by fate.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows079",
+    "question": "A person who sells and arranges cut flowers",
+    "options": [
+      {
+        "id": "A",
+        "text": "Florist"
+      },
+      {
+        "id": "B",
+        "text": "Gardener"
+      },
+      {
+        "id": "C",
+        "text": "Botanist"
+      },
+      {
+        "id": "D",
+        "text": "Horticulturist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Florist means “फूलवाला”. Example: I bought a bouquet from the local florist.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows080",
+    "question": "Extreme fear of water",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hydrophobia"
+      },
+      {
+        "id": "B",
+        "text": "Claustrophobia"
+      },
+      {
+        "id": "C",
+        "text": "Acrophobia"
+      },
+      {
+        "id": "D",
+        "text": "Aerophobia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Hydrophobia means “पानी का डर”. Example: The patient developed hydrophobia after a traumatic experience in water.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows081",
+    "question": "A plan of a journey, including the route and the places that will be visited",
+    "options": [
+      {
+        "id": "A",
+        "text": "Itinerary"
+      },
+      {
+        "id": "B",
+        "text": "Agenda"
+      },
+      {
+        "id": "C",
+        "text": "Schedule"
+      },
+      {
+        "id": "D",
+        "text": "Directory"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Itinerary means “यात्रा कार्यक्रम”. Example: The travel agent prepared a detailed itinerary for our trip.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows082",
+    "question": "A copy of a book, piece of music, etc. before it has been printed / A paper written by hand",
+    "options": [
+      {
+        "id": "A",
+        "text": "Manuscript"
+      },
+      {
+        "id": "B",
+        "text": "Transcript"
+      },
+      {
+        "id": "C",
+        "text": "Draft"
+      },
+      {
+        "id": "D",
+        "text": "Edition"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Manuscript means “हस्तलिखित”. Example: The author submitted the manuscript of his new novel to the publisher.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows083",
+    "question": "A person who dislikes women",
+    "options": [
+      {
+        "id": "A",
+        "text": "Misogynist"
+      },
+      {
+        "id": "B",
+        "text": "Misanthrope"
+      },
+      {
+        "id": "C",
+        "text": "Feminist"
+      },
+      {
+        "id": "D",
+        "text": "Misandrist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Misogynist means “स्त्रीद्वेषी”. Example: His misogynist remarks were strongly criticised by the audience.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows084",
+    "question": "A person who walks on foot and not travelling in a vehicle",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pedestrian"
+      },
+      {
+        "id": "B",
+        "text": "Passenger"
+      },
+      {
+        "id": "C",
+        "text": "Commuter"
+      },
+      {
+        "id": "D",
+        "text": "Hiker"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pedestrian means “पैदल यात्री”. Example: Pedestrians should use the footpath while walking on busy roads.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows085",
+    "question": "A person who always expects bad things to happen or something not to be successful",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pessimist"
+      },
+      {
+        "id": "B",
+        "text": "Optimist"
+      },
+      {
+        "id": "C",
+        "text": "Fatalist"
+      },
+      {
+        "id": "D",
+        "text": "Realist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pessimist means “निराशावादी”. Example: The pessimist expected the project to fail despite the positive results.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows086",
+    "question": "Occurring or coming into existence after a person's death",
+    "options": [
+      {
+        "id": "A",
+        "text": "Posthumous"
+      },
+      {
+        "id": "B",
+        "text": "Premature"
+      },
+      {
+        "id": "C",
+        "text": "Contemporary"
+      },
+      {
+        "id": "D",
+        "text": "Postnatal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Posthumous means “मरणोपरांत”. Example: The author's posthumous novel was published two years after his death.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows087",
+    "question": "The murder of a king",
+    "options": [
+      {
+        "id": "A",
+        "text": "Regicide"
+      },
+      {
+        "id": "B",
+        "text": "Genocide"
+      },
+      {
+        "id": "C",
+        "text": "Homicide"
+      },
+      {
+        "id": "D",
+        "text": "Infanticide"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Regicide means “राज-हत्या”. Example: The conspirators were accused of regicide after the king was murdered.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows088",
+    "question": "Someone who walks about in sleep",
+    "options": [
+      {
+        "id": "A",
+        "text": "Somnambulist"
+      },
+      {
+        "id": "B",
+        "text": "Insomniac"
+      },
+      {
+        "id": "C",
+        "text": "Hypochondriac"
+      },
+      {
+        "id": "D",
+        "text": "Narcoleptic"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Somnambulist means “नींद में चलने वाला”. Example: The somnambulist sometimes walked around the house while asleep.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows089",
+    "question": "The scientific study of sound",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acoustics"
+      },
+      {
+        "id": "B",
+        "text": "Optics"
+      },
+      {
+        "id": "C",
+        "text": "Sonography"
+      },
+      {
+        "id": "D",
+        "text": "Audiology"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Acoustics means “ध्वनि-विज्ञान”. Example: The engineer studied acoustics to improve the design of the concert hall.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows090",
+    "question": "The money paid to former wife, husband or partner when the marriage is ended",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alimony"
+      },
+      {
+        "id": "B",
+        "text": "Allowance"
+      },
+      {
+        "id": "C",
+        "text": "Compensation"
+      },
+      {
+        "id": "D",
+        "text": "Pension"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Alimony means “गुजारा भत्ता”. Example: The court ordered him to pay alimony to his former wife.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows091",
+    "question": "The study of the human race, especially of its origin, development, customs and beliefs",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anthropology"
+      },
+      {
+        "id": "B",
+        "text": "Archaeology"
+      },
+      {
+        "id": "C",
+        "text": "Sociology"
+      },
+      {
+        "id": "D",
+        "text": "Ethnography"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Anthropology means “मानव विज्ञान”. Example: Anthropology helps us understand the origin and development of human societies.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows092",
+    "question": "A glass tank where fish and water plants are kept",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aquarium"
+      },
+      {
+        "id": "B",
+        "text": "Aviary"
+      },
+      {
+        "id": "C",
+        "text": "Apiary"
+      },
+      {
+        "id": "D",
+        "text": "Terrarium"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Aquarium means “मछलीघर”. Example: The children watched colourful fish swimming in the aquarium.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows093",
+    "question": "A person who is chosen to settle a disagreement / A person appointed by two parties to resolve a dispute",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arbitrator"
+      },
+      {
+        "id": "B",
+        "text": "Mediator"
+      },
+      {
+        "id": "C",
+        "text": "Judge"
+      },
+      {
+        "id": "D",
+        "text": "Negotiator"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Arbitrator means “पंच / मध्यस्थ”. Example: The two companies appointed an arbitrator to settle their dispute.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows094",
+    "question": "The study of human history and prehistory through the excavation of sites",
+    "options": [
+      {
+        "id": "A",
+        "text": "Archaeology"
+      },
+      {
+        "id": "B",
+        "text": "Anthropology"
+      },
+      {
+        "id": "C",
+        "text": "Paleontology"
+      },
+      {
+        "id": "D",
+        "text": "Geology"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Archaeology means “पुरातत्व विज्ञान”. Example: Archaeology helps researchers learn about ancient civilisations through excavated remains.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows095",
+    "question": "A government by the nobles / government by persons of the highest social order",
+    "options": [
+      {
+        "id": "A",
+        "text": "Democracy"
+      },
+      {
+        "id": "B",
+        "text": "Aristocracy"
+      },
+      {
+        "id": "C",
+        "text": "Autocracy"
+      },
+      {
+        "id": "D",
+        "text": "Bureaucracy"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Aristocracy means “कुलीन वर्ग द्वारा शासन”. Example: In an aristocracy, political power is traditionally held by members of the noble class.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows096",
+    "question": "Hard but easily broken / liable to break easily",
+    "options": [
+      {
+        "id": "A",
+        "text": "Brittle"
+      },
+      {
+        "id": "B",
+        "text": "Rigid"
+      },
+      {
+        "id": "C",
+        "text": "Fragile"
+      },
+      {
+        "id": "D",
+        "text": "Elastic"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Brittle means “भंगुर / आसानी से टूटने योग्य”. Example: Glass is hard but brittle and can break easily.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows097",
+    "question": "An assembly of worshippers / A group of people who have come together in a religious building for worship or prayer",
+    "options": [
+      {
+        "id": "A",
+        "text": "Congregation"
+      },
+      {
+        "id": "B",
+        "text": "Audience"
+      },
+      {
+        "id": "C",
+        "text": "Assembly"
+      },
+      {
+        "id": "D",
+        "text": "Community"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Congregation means “धार्मिक सभा”. Example: The congregation gathered in the church for Sunday prayer.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows098",
+    "question": "A keeper or custodian of a museum or other collection",
+    "options": [
+      {
+        "id": "A",
+        "text": "Curator"
+      },
+      {
+        "id": "B",
+        "text": "Archivist"
+      },
+      {
+        "id": "C",
+        "text": "Librarian"
+      },
+      {
+        "id": "D",
+        "text": "Collector"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Curator means “संग्रहालय अध्यक्ष / संग्रह का प्रभारी”. Example: The curator arranged the ancient artefacts in the museum.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows099",
+    "question": "The scientific study of skin diseases",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dermatology"
+      },
+      {
+        "id": "B",
+        "text": "Cardiology"
+      },
+      {
+        "id": "C",
+        "text": "Neurology"
+      },
+      {
+        "id": "D",
+        "text": "Pathology"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Dermatology means “त्वचाविज्ञान”. Example: Dermatology deals with diseases and conditions affecting the skin.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows100",
+    "question": "Causing or ending in death",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fatal"
+      },
+      {
+        "id": "B",
+        "text": "Lethal"
+      },
+      {
+        "id": "C",
+        "text": "Deadly"
+      },
+      {
+        "id": "D",
+        "text": "Mortal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Fatal means “घातक”. Example: The accident caused a fatal injury to the passenger.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows101",
+    "question": "One who eats too much",
+    "options": [
+      {
+        "id": "A",
+        "text": "Glutton"
+      },
+      {
+        "id": "B",
+        "text": "Gourmet"
+      },
+      {
+        "id": "C",
+        "text": "Epicure"
+      },
+      {
+        "id": "D",
+        "text": "Gourmand"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Glutton means “खाऊ / पेटू”. Example: The glutton ate far more food than anyone else at the party.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows102",
+    "question": "A person who cannot read or write",
+    "options": [
+      {
+        "id": "A",
+        "text": "Illiterate"
+      },
+      {
+        "id": "B",
+        "text": "Ignorant"
+      },
+      {
+        "id": "C",
+        "text": "Uneducated"
+      },
+      {
+        "id": "D",
+        "text": "Inexperienced"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Illiterate means “अनपढ़”. Example: The campaign aims to teach every illiterate adult to read and write.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows103",
+    "question": "The condition of being unable to sleep over a period of time",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insomnia"
+      },
+      {
+        "id": "B",
+        "text": "Amnesia"
+      },
+      {
+        "id": "C",
+        "text": "Narcolepsy"
+      },
+      {
+        "id": "D",
+        "text": "Somnambulism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Insomnia means “अनिद्रा”. Example: Stress can cause insomnia and make it difficult to sleep at night.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows104",
+    "question": "A person who supervises during an examination",
+    "options": [
+      {
+        "id": "A",
+        "text": "Invigilator"
+      },
+      {
+        "id": "B",
+        "text": "Examiner"
+      },
+      {
+        "id": "C",
+        "text": "Supervisor"
+      },
+      {
+        "id": "D",
+        "text": "Evaluator"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Invigilator means “निरीक्षक”. Example: The invigilator instructed the candidates to keep their phones outside the examination hall.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows105",
+    "question": "That through which light cannot pass",
+    "options": [
+      {
+        "id": "A",
+        "text": "Opaque"
+      },
+      {
+        "id": "B",
+        "text": "Transparent"
+      },
+      {
+        "id": "C",
+        "text": "Translucent"
+      },
+      {
+        "id": "D",
+        "text": "Reflective"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Opaque means “अपारदर्शी”. Example: Wood is an opaque material through which light cannot pass.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows106",
+    "question": "Violation of something holy or sacred",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sacrilege"
+      },
+      {
+        "id": "B",
+        "text": "Blasphemy"
+      },
+      {
+        "id": "C",
+        "text": "Heresy"
+      },
+      {
+        "id": "D",
+        "text": "Profanity"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sacrilege means “अपवित्रीकरण / पवित्र वस्तु का अनादर”. Example: Damaging the sacred monument was considered an act of sacrilege.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows107",
+    "question": "A speech made to oneself",
+    "options": [
+      {
+        "id": "A",
+        "text": "Soliloquy"
+      },
+      {
+        "id": "B",
+        "text": "Monologue"
+      },
+      {
+        "id": "C",
+        "text": "Dialogue"
+      },
+      {
+        "id": "D",
+        "text": "Epilogue"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Soliloquy means “आत्मभाषण”. Example: The actor delivered a powerful soliloquy while expressing his inner thoughts.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows108",
+    "question": "One who lends money on high rates of interest",
+    "options": [
+      {
+        "id": "A",
+        "text": "Usurer"
+      },
+      {
+        "id": "B",
+        "text": "Creditor"
+      },
+      {
+        "id": "C",
+        "text": "Moneylender"
+      },
+      {
+        "id": "D",
+        "text": "Financier"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Usurer means “सूदखोर”. Example: The poor farmer borrowed money from a usurer at a very high interest rate.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows109",
+    "question": "One who offers one's services without being forced",
+    "options": [
+      {
+        "id": "A",
+        "text": "Volunteer"
+      },
+      {
+        "id": "B",
+        "text": "Employee"
+      },
+      {
+        "id": "C",
+        "text": "Servant"
+      },
+      {
+        "id": "D",
+        "text": "Mercenary"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Volunteer means “स्वयंसेवक”. Example: Many volunteers offered their services during the flood relief operation.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows110",
+    "question": "To give up one's authority or throne",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abdicate"
+      },
+      {
+        "id": "B",
+        "text": "Resign"
+      },
+      {
+        "id": "C",
+        "text": "Renounce"
+      },
+      {
+        "id": "D",
+        "text": "Retire"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Abdicate means “अपना पद या ताज छोड़ देना”. Example: The king decided to abdicate the throne in favour of his son.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows111",
+    "question": "A publication containing astronomical or meteorological annual calendar that contains important dates and time",
+    "options": [
+      {
+        "id": "A",
+        "text": "Almanac"
+      },
+      {
+        "id": "B",
+        "text": "Calendar"
+      },
+      {
+        "id": "C",
+        "text": "Gazette"
+      },
+      {
+        "id": "D",
+        "text": "Directory"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Almanac means “पंचांग / वार्षिक संदर्भ-पुस्तक”. Example: The farmer consulted the almanac for astronomical and weather information.",
+    "difficulty": "medium",
+    "language": "en"
+  }
+]
