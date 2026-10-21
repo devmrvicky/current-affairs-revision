@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "jan001",
+    "question": "विश्व ब्रेल दिवस किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "4 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "10 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "12 जनवरी"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 4 जनवरी",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "jan002",
+    "question": "प्रवासी भारतीय दिवस (Pravasi Bharatiya Divas) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "12 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "10 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "14 जनवरी"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 9 जनवरी",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "jan003",
+    "question": "विश्व हिंदी दिवस किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "12 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "15 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "9 जनवरी"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 10 जनवरी",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "jan004",
+    "question": "भारत में राष्ट्रीय युवा दिवस कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "14 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "15 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "12 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "23 जनवरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 12 जनवरी",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "jan005",
+    "question": "राष्ट्रीय युवा दिवस किसकी जयंती के अवसर पर मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "नेताजी सुभाष चंद्र बोस"
+      },
+      {
+        "id": "B",
+        "text": "महात्मा गांधी"
+      },
+      {
+        "id": "C",
+        "text": "डॉ. भीमराव आंबेडकर"
+      },
+      {
+        "id": "D",
+        "text": "स्वामी विवेकानंद"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) स्वामी विवेकानंद",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "jan006",
+    "question": "सशस्त्र सेना पूर्व सैनिक दिवस (Armed Forces Veterans Day) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "16 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "15 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "12 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "14 जनवरी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 14 जनवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "jan007",
+    "question": "भारतीय सेना दिवस कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "16 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "14 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "23 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "15 जनवरी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 15 जनवरी",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "jan008",
+    "question": "भारत में राष्ट्रीय स्टार्टअप दिवस किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "25 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "16 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "23 जनवरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 16 जनवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "jan009",
+    "question": "पराक्रम दिवस किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "26 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "15 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "23 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "12 जनवरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 23 जनवरी",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "jan010",
+    "question": "पराक्रम दिवस किस स्वतंत्रता सेनानी की जयंती से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "शहीद भगत सिंह"
+      },
+      {
+        "id": "B",
+        "text": "लाला लाजपत राय"
+      },
+      {
+        "id": "C",
+        "text": "सरदार वल्लभभाई पटेल"
+      },
+      {
+        "id": "D",
+        "text": "नेताजी सुभाष चंद्र बोस"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) नेताजी सुभाष चंद्र बोस",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "jan011",
+    "question": "राष्ट्रीय बालिका दिवस भारत में कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "12 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "24 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "25 जनवरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 24 जनवरी",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "jan012",
+    "question": "अंतरराष्ट्रीय शिक्षा दिवस किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "21 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "8 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "24 जनवरी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 24 जनवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "jan013",
+    "question": "राष्ट्रीय मतदाता दिवस भारत में कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "24 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "25 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "30 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "26 जनवरी"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 25 जनवरी",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "jan014",
+    "question": "भारत में राष्ट्रीय पर्यटन दिवस किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "23 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "27 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "25 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "15 जनवरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 25 जनवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "jan015",
+    "question": "भारत का गणतंत्र दिवस कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "23 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "26 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "30 जनवरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 26 जनवरी",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "jan016",
+    "question": "अंतरराष्ट्रीय सीमा शुल्क दिवस (International Customs Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "26 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "28 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "27 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "24 जनवरी"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 26 जनवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "jan017",
+    "question": "अंतरराष्ट्रीय स्वच्छ ऊर्जा दिवस (International Day of Clean Energy) किस तारीख को है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "24 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "22 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "26 जनवरी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 26 जनवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "jan018",
+    "question": "अंतरराष्ट्रीय होलोकॉस्ट स्मरण दिवस कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "27 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "28 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "25 जनवरी"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 27 जनवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "jan019",
+    "question": "डेटा गोपनीयता दिवस (Data Privacy Day) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "28 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "27 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "30 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "26 जनवरी"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 28 जनवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "jan020",
+    "question": "भारत में 30 जनवरी का शहीद दिवस मुख्यतः किसकी पुण्यतिथि से जुड़ा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चंद्रशेखर आजाद"
+      },
+      {
+        "id": "B",
+        "text": "भगत सिंह"
+      },
+      {
+        "id": "C",
+        "text": "लाला लाजपत राय"
+      },
+      {
+        "id": "D",
+        "text": "महात्मा गांधी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) महात्मा गांधी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "jan021",
+    "question": "विश्व उपेक्षित उष्णकटिबंधीय रोग दिवस (World NTD Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "28 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "27 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "24 जनवरी"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 30 जनवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "jan022",
+    "question": "26 जनवरी 1950 को भारतीय संविधान के लागू होने की स्मृति में कौन-सा राष्ट्रीय दिवस मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "राष्ट्रीय मतदाता दिवस"
+      },
+      {
+        "id": "B",
+        "text": "गणतंत्र दिवस"
+      },
+      {
+        "id": "C",
+        "text": "राष्ट्रीय संविधान दिवस"
+      },
+      {
+        "id": "D",
+        "text": "स्वतंत्रता दिवस"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) गणतंत्र दिवस",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "jan023",
+    "question": "राष्ट्रीय मतदाता दिवस और राष्ट्रीय पर्यटन दिवस—दोनों भारत में किस तारीख को मनाए जाते हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "26 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "23 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "24 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "25 जनवरी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 25 जनवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "jan024",
+    "question": "विश्व ब्रेल दिवस किस व्यक्ति के जन्मदिवस की स्मृति में मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "थॉमस अल्वा एडीसन"
+      },
+      {
+        "id": "B",
+        "text": "लुई पाश्चर"
+      },
+      {
+        "id": "C",
+        "text": "लुई ब्रेल"
+      },
+      {
+        "id": "D",
+        "text": "अलेक्जेंडर ग्राहम बेल"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) लुई ब्रेल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "jan025",
+    "question": "निम्नलिखित में से कौन-सा युग्म सही सुमेलित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भारतीय सेना दिवस — 23 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "डेटा गोपनीयता दिवस — 30 जनवरी"
+      },
+      {
+        "id": "C",
+        "text": "पराक्रम दिवस — 15 जनवरी"
+      },
+      {
+        "id": "D",
+        "text": "राष्ट्रीय युवा दिवस — 12 जनवरी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) राष्ट्रीय युवा दिवस — 12 जनवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb001",
+    "question": "भारतीय तटरक्षक दिवस (Indian Coast Guard Day) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "1 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "10 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "4 फरवरी"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 1 फरवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb002",
+    "question": "विश्व आर्द्रभूमि दिवस (World Wetlands Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "4 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "2 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "1 फरवरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 2 फरवरी",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "feb003",
+    "question": "रामसर अभिसमय (Ramsar Convention) को 2 फरवरी 1971 को किस स्थान पर अपनाया गया था?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जिनेवा, स्विट्ज़रलैंड"
+      },
+      {
+        "id": "B",
+        "text": "पेरिस, फ्रांस"
+      },
+      {
+        "id": "C",
+        "text": "रामसर, ईरान"
+      },
+      {
+        "id": "D",
+        "text": "नैरोबी, केन्या"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) रामसर, ईरान",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb004",
+    "question": "विश्व कैंसर दिवस किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "11 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "4 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "2 फरवरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 4 फरवरी",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "feb005",
+    "question": "अंतरराष्ट्रीय मानव बंधुत्व दिवस (International Day of Human Fraternity) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "6 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "4 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "10 फरवरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 4 फरवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb006",
+    "question": "महिला जननांग विकृति के प्रति शून्य सहिष्णुता का अंतरराष्ट्रीय दिवस किस तारीख को है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "11 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "4 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "6 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "21 फरवरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 6 फरवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb007",
+    "question": "विश्व दलहन दिवस (World Pulses Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "4 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "13 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "11 फरवरी"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 10 फरवरी",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "feb008",
+    "question": "विज्ञान में महिलाओं और बालिकाओं का अंतरराष्ट्रीय दिवस किस तारीख को है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "13 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "10 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "21 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "11 फरवरी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 11 फरवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb009",
+    "question": "भारत में राष्ट्रीय महिला दिवस किसकी जयंती पर मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सरोजिनी नायडू"
+      },
+      {
+        "id": "B",
+        "text": "एनी बेसेंट"
+      },
+      {
+        "id": "C",
+        "text": "सावित्रीबाई फुले"
+      },
+      {
+        "id": "D",
+        "text": "कस्तूरबा गांधी"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) सरोजिनी नायडू",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb010",
+    "question": "विश्व रेडियो दिवस किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "13 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "11 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "21 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "10 फरवरी"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 13 फरवरी",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "feb011",
+    "question": "अंतरराष्ट्रीय बाल कैंसर दिवस (International Childhood Cancer Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "28 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "20 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "13 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "15 फरवरी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 15 फरवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb012",
+    "question": "छत्रपति शिवाजी महाराज की जयंती सामान्यतः किस तारीख को मनाई जाती है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "14 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "24 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "19 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "20 फरवरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 19 फरवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb013",
+    "question": "विश्व सामाजिक न्याय दिवस (World Day of Social Justice) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "13 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "27 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "20 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "21 फरवरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 20 फरवरी",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "feb014",
+    "question": "अरुणाचल प्रदेश का राज्य स्थापना दिवस किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "19 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "24 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "21 फरवरी"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 20 फरवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb015",
+    "question": "मिजोरम का राज्य स्थापना दिवस किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "28 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "19 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "20 फरवरी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 20 फरवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb016",
+    "question": "अंतरराष्ट्रीय मातृभाषा दिवस कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "24 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "21 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "13 फरवरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 21 फरवरी",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "feb017",
+    "question": "भारत में केंद्रीय उत्पाद शुल्क दिवस (Central Excise Day) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "28 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "21 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "24 फरवरी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 24 फरवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb018",
+    "question": "विश्व NGO दिवस किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "28 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "27 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "24 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "21 फरवरी"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 27 फरवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb019",
+    "question": "भारत में राष्ट्रीय विज्ञान दिवस कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "27 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "10 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "21 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "28 फरवरी"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 28 फरवरी",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "feb020",
+    "question": "भारत का राष्ट्रीय विज्ञान दिवस किस वैज्ञानिक खोज की स्मृति में मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "रमन प्रभाव"
+      },
+      {
+        "id": "B",
+        "text": "फोटोइलेक्ट्रिक प्रभाव"
+      },
+      {
+        "id": "C",
+        "text": "पेनिसिलिन की खोज"
+      },
+      {
+        "id": "D",
+        "text": "गुरुत्वाकर्षण का नियम"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) रमन प्रभाव",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb021",
+    "question": "सी. वी. रमन को भौतिकी का नोबेल पुरस्कार किस वर्ष मिला था?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1930"
+      },
+      {
+        "id": "B",
+        "text": "1928"
+      },
+      {
+        "id": "C",
+        "text": "1947"
+      },
+      {
+        "id": "D",
+        "text": "1935"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 1930",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb022",
+    "question": "दुर्लभ रोग दिवस (Rare Disease Day) सामान्यतः फरवरी के किस दिन मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "केवल 28 फरवरी को, लीप वर्ष में भी"
+      },
+      {
+        "id": "B",
+        "text": "फरवरी के अंतिम दिन"
+      },
+      {
+        "id": "C",
+        "text": "हमेशा 14 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "हमेशा 21 फरवरी"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) फरवरी के अंतिम दिन",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb023",
+    "question": "कैंसर की रोकथाम, पहचान और उपचार के प्रति जागरूकता से संबंधित दिवस कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "विश्व रेडियो दिवस"
+      },
+      {
+        "id": "B",
+        "text": "विश्व NGO दिवस"
+      },
+      {
+        "id": "C",
+        "text": "विश्व आर्द्रभूमि दिवस"
+      },
+      {
+        "id": "D",
+        "text": "विश्व कैंसर दिवस"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) विश्व कैंसर दिवस",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "feb024",
+    "question": "भारत का राष्ट्रीय महिला दिवस किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "11 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "10 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "13 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "15 फरवरी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 13 फरवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "feb025",
+    "question": "निम्नलिखित में से कौन-सा युग्म सही सुमेलित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "विश्व रेडियो दिवस — 21 फरवरी"
+      },
+      {
+        "id": "B",
+        "text": "विश्व दलहन दिवस — 10 फरवरी"
+      },
+      {
+        "id": "C",
+        "text": "अंतरराष्ट्रीय मातृभाषा दिवस — 28 फरवरी"
+      },
+      {
+        "id": "D",
+        "text": "राष्ट्रीय विज्ञान दिवस — 24 फरवरी"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) विश्व दलहन दिवस — 10 फरवरी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mar001",
+    "question": "शून्य भेदभाव दिवस (Zero Discrimination Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "8 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "3 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "1 मार्च"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 1 मार्च",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "mar002",
+    "question": "विश्व नागरिक सुरक्षा दिवस (World Civil Defence Day) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "10 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "16 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "1 मार्च"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 1 मार्च",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mar003",
+    "question": "विश्व वन्यजीव दिवस (World Wildlife Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "21 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "4 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "3 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "1 मार्च"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 3 मार्च",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "mar004",
+    "question": "विश्व श्रवण दिवस (World Hearing Day) किस तारीख को है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "24 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "3 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "8 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "4 मार्च"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 3 मार्च",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mar005",
+    "question": "भारत में राष्ट्रीय सुरक्षा दिवस कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "1 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "3 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "4 मार्च"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 4 मार्च",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "mar006",
+    "question": "विश्व मोटापा दिवस (World Obesity Day) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "4 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "3 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "15 मार्च"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 4 मार्च",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mar007",
+    "question": "अंतरराष्ट्रीय महिला दिवस कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "4 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "10 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "8 मार्च"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 8 मार्च",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "mar008",
+    "question": "केंद्रीय औद्योगिक सुरक्षा बल (CISF) का स्थापना दिवस कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "12 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "10 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "16 मार्च"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 10 मार्च",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mar009",
+    "question": "पाई दिवस (Pi Day) और अंतरराष्ट्रीय गणित दिवस किस तारीख को मनाए जाते हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "14 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "21 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "15 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "10 मार्च"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 14 मार्च",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mar010",
+    "question": "विश्व उपभोक्ता अधिकार दिवस (World Consumer Rights Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "14 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "15 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "16 मार्च"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 15 मार्च",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "mar011",
+    "question": "भारत में राष्ट्रीय टीकाकरण दिवस (National Vaccination Day) किस तारीख को है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "16 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "10 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "24 मार्च"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 16 मार्च",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mar012",
+    "question": "अंतरराष्ट्रीय प्रसन्नता दिवस (International Day of Happiness) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "16 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "22 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "20 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "21 मार्च"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 20 मार्च",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "mar013",
+    "question": "विश्व गौरैया दिवस (World Sparrow Day) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "21 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "20 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "14 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "23 मार्च"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 20 मार्च",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mar014",
+    "question": "अंतरराष्ट्रीय वन दिवस (International Day of Forests) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "22 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "20 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "21 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "23 मार्च"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 21 मार्च",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "mar015",
+    "question": "विश्व कविता दिवस (World Poetry Day) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "27 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "21 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "20 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "22 मार्च"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 21 मार्च",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mar016",
+    "question": "विश्व डाउन सिंड्रोम दिवस (World Down Syndrome Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "21 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "24 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "20 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "14 मार्च"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 21 मार्च",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mar017",
+    "question": "नस्लीय भेदभाव के उन्मूलन का अंतरराष्ट्रीय दिवस किस तारीख को है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "21 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "1 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "22 मार्च"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 21 मार्च",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mar018",
+    "question": "विश्व जल दिवस (World Water Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "21 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "23 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "20 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "22 मार्च"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 22 मार्च",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "mar019",
+    "question": "विश्व मौसम विज्ञान दिवस (World Meteorological Day) किस तारीख को है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "24 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "23 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "22 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "21 मार्च"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 23 मार्च",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mar020",
+    "question": "भारत में 23 मार्च का शहीद दिवस किन क्रांतिकारियों की शहादत से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भगत सिंह, राजगुरु और सुखदेव"
+      },
+      {
+        "id": "B",
+        "text": "महात्मा गांधी और कस्तूरबा गांधी"
+      },
+      {
+        "id": "C",
+        "text": "रामप्रसाद बिस्मिल और अशफाकउल्ला खान"
+      },
+      {
+        "id": "D",
+        "text": "लाला लाजपत राय और बाल गंगाधर तिलक"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) भगत सिंह, राजगुरु और सुखदेव",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mar021",
+    "question": "विश्व क्षय रोग दिवस (World Tuberculosis Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "21 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "24 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "30 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "23 मार्च"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 24 मार्च",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "mar022",
+    "question": "विश्व रंगमंच दिवस (World Theatre Day) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "27 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "24 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "21 मार्च"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 27 मार्च",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mar023",
+    "question": "शून्य अपशिष्ट का अंतरराष्ट्रीय दिवस (International Day of Zero Waste) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "22 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "21 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "27 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "30 मार्च"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 30 मार्च",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mar024",
+    "question": "अंतरराष्ट्रीय नवरोज दिवस (International Day of Nowruz) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20 मार्च"
+      },
+      {
+        "id": "B",
+        "text": "21 मार्च"
+      },
+      {
+        "id": "C",
+        "text": "22 मार्च"
+      },
+      {
+        "id": "D",
+        "text": "14 मार्च"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 21 मार्च",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mar025",
+    "question": "निम्नलिखित में से कौन-सा दिवस 21 मार्च को नहीं मनाया जाता?",
+    "options": [
+      {
+        "id": "A",
+        "text": "विश्व कविता दिवस"
+      },
+      {
+        "id": "B",
+        "text": "विश्व जल दिवस"
+      },
+      {
+        "id": "C",
+        "text": "अंतरराष्ट्रीय वन दिवस"
+      },
+      {
+        "id": "D",
+        "text": "विश्व डाउन सिंड्रोम दिवस"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) विश्व जल दिवस",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr001",
+    "question": "उत्कल दिवस (Utkal Divas), जिसे ओडिशा स्थापना दिवस भी कहा जाता है, कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "2 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "5 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "14 अप्रैल"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 1 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr002",
+    "question": "विश्व ऑटिज्म जागरूकता दिवस (World Autism Awareness Day) किस तारीख को है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "2 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "7 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "4 अप्रैल"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 2 अप्रैल",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "apr003",
+    "question": "खदानों से संबंधित जागरूकता और खदान कार्रवाई में सहायता का अंतरराष्ट्रीय दिवस कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "4 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "7 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "2 अप्रैल"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 4 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr004",
+    "question": "भारत में राष्ट्रीय समुद्री दिवस (National Maritime Day) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "5 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "4 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "6 अप्रैल"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 5 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr005",
+    "question": "विकास और शांति के लिए अंतरराष्ट्रीय खेल दिवस कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "5 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "6 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "11 अप्रैल"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 6 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr006",
+    "question": "विश्व स्वास्थ्य दिवस (World Health Day) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "5 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "10 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "11 अप्रैल"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 7 अप्रैल",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "apr007",
+    "question": "विश्व स्वास्थ्य दिवस 7 अप्रैल को किस संस्था की स्थापना की वर्षगाँठ के अवसर पर मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "यूनिसेफ"
+      },
+      {
+        "id": "B",
+        "text": "यूनेस्को"
+      },
+      {
+        "id": "C",
+        "text": "विश्व स्वास्थ्य संगठन (WHO)"
+      },
+      {
+        "id": "D",
+        "text": "विश्व व्यापार संगठन (WTO)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) विश्व स्वास्थ्य संगठन (WHO)",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr008",
+    "question": "भारत में राष्ट्रीय सुरक्षित मातृत्व दिवस (National Safe Motherhood Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "14 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "11 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "24 अप्रैल"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 11 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr009",
+    "question": "डॉ. भीमराव आंबेडकर जयंती कब मनाई जाती है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "11 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "21 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "14 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "15 अप्रैल"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 14 अप्रैल",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "apr010",
+    "question": "भारत में राष्ट्रीय अग्निशमन सेवा दिवस (National Fire Service Day) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "14 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "18 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "11 अप्रैल"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 14 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr011",
+    "question": "विश्व चागास रोग दिवस (World Chagas Disease Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "7 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "14 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "17 अप्रैल"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 14 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr012",
+    "question": "विश्व कला दिवस (World Art Day) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "18 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "15 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "14 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "21 अप्रैल"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 15 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr013",
+    "question": "विश्व हीमोफीलिया दिवस (World Hemophilia Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "17 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "18 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "15 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "21 अप्रैल"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 17 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr014",
+    "question": "अंतरराष्ट्रीय स्मारक एवं स्थल दिवस, जिसे विश्व विरासत दिवस भी कहा जाता है, कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "18 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "21 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "22 अप्रैल"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 18 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr015",
+    "question": "भारत में राष्ट्रीय सिविल सेवा दिवस किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "18 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "24 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "21 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "22 अप्रैल"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 21 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr016",
+    "question": "विश्व रचनात्मकता और नवाचार दिवस किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "26 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "21 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "22 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "17 अप्रैल"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 21 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr017",
+    "question": "पृथ्वी दिवस (Earth Day) और अंतरराष्ट्रीय मातृ पृथ्वी दिवस कब मनाए जाते हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "23 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "21 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "22 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "18 अप्रैल"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 22 अप्रैल",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "apr018",
+    "question": "विश्व पुस्तक एवं कॉपीराइट दिवस (World Book and Copyright Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "24 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "22 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "21 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "23 अप्रैल"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 23 अप्रैल",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "apr019",
+    "question": "संयुक्त राष्ट्र का अंग्रेज़ी भाषा दिवस (English Language Day) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "23 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "26 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "20 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "21 अप्रैल"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 23 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr020",
+    "question": "भारत में राष्ट्रीय पंचायती राज दिवस कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "21 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "22 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "24 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "25 अप्रैल"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 24 अप्रैल",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "apr021",
+    "question": "विश्व मलेरिया दिवस (World Malaria Day) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "24 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "26 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "22 अप्रैल"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 25 अप्रैल",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "apr022",
+    "question": "विश्व बौद्धिक संपदा दिवस (World Intellectual Property Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "26 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "25 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "28 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "23 अप्रैल"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 26 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr023",
+    "question": "कार्यस्थल पर सुरक्षा और स्वास्थ्य का विश्व दिवस किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "24 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "26 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "28 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "30 अप्रैल"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 28 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr024",
+    "question": "अंतरराष्ट्रीय नृत्य दिवस (International Dance Day) कब मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "29 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "30 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "21 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "28 अप्रैल"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 29 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "apr025",
+    "question": "अंतरराष्ट्रीय जैज़ दिवस (International Jazz Day) किस तारीख को मनाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30 अप्रैल"
+      },
+      {
+        "id": "B",
+        "text": "29 अप्रैल"
+      },
+      {
+        "id": "C",
+        "text": "28 अप्रैल"
+      },
+      {
+        "id": "D",
+        "text": "23 अप्रैल"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 30 अप्रैल",
+    "difficulty": "medium",
+    "language": "hi"
+  }
+]
