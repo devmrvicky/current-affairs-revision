@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "ob001",
+    "question": "'Wings of Fire' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अरुंधति रॉय"
+      },
+      {
+        "id": "B",
+        "text": "ए. पी. जे. अब्दुल कलाम और अरुण तिवारी"
+      },
+      {
+        "id": "C",
+        "text": "जेन ऑस्टिन"
+      },
+      {
+        "id": "D",
+        "text": "धर्मवीर भारती"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) ए. पी. जे. अब्दुल कलाम और अरुण तिवारी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob002",
+    "question": "'India 2020' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मेगस्थनीज"
+      },
+      {
+        "id": "B",
+        "text": "शिखर धवन"
+      },
+      {
+        "id": "C",
+        "text": "ए. पी. जे. अब्दुल कलाम और वाई. एस. राजन"
+      },
+      {
+        "id": "D",
+        "text": "सलमान रुश्दी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) ए. पी. जे. अब्दुल कलाम और वाई. एस. राजन",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob003",
+    "question": "'Discovery of India' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अरुंधति रॉय"
+      },
+      {
+        "id": "B",
+        "text": "जहाँगीर"
+      },
+      {
+        "id": "C",
+        "text": "जवाहरलाल नेहरू"
+      },
+      {
+        "id": "D",
+        "text": "पी. पी. सथ्यन"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) जवाहरलाल नेहरू",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob004",
+    "question": "'Glimpses of World History' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्लेटो"
+      },
+      {
+        "id": "B",
+        "text": "बाबर"
+      },
+      {
+        "id": "C",
+        "text": "हरिवंश राय बच्चन"
+      },
+      {
+        "id": "D",
+        "text": "जवाहरलाल नेहरू"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) जवाहरलाल नेहरू",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob005",
+    "question": "'India Wins Freedom' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "किरण देसाई"
+      },
+      {
+        "id": "B",
+        "text": "मुल्क राज आनंद"
+      },
+      {
+        "id": "C",
+        "text": "मौलाना अबुल कलाम आज़ाद"
+      },
+      {
+        "id": "D",
+        "text": "श्रीलाल शुक्ल"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) मौलाना अबुल कलाम आज़ाद",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob006",
+    "question": "'My Experiments with Truth' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अबुल फ़ज़ल"
+      },
+      {
+        "id": "B",
+        "text": "महात्मा गांधी"
+      },
+      {
+        "id": "C",
+        "text": "ए. पी. जे. अब्दुल कलाम और अरुण तिवारी"
+      },
+      {
+        "id": "D",
+        "text": "ऐन फ्रैंक"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) महात्मा गांधी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob007",
+    "question": "'Hind Swaraj' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "श्रीलाल शुक्ल"
+      },
+      {
+        "id": "B",
+        "text": "महात्मा गांधी"
+      },
+      {
+        "id": "C",
+        "text": "रामधारी सिंह दिनकर"
+      },
+      {
+        "id": "D",
+        "text": "भीष्म साहनी"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) महात्मा गांधी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob008",
+    "question": "'Arthashastra' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बंकिमचंद्र चट्टोपाध्याय"
+      },
+      {
+        "id": "B",
+        "text": "विजय गोयल"
+      },
+      {
+        "id": "C",
+        "text": "शुभांशु शुक्ला"
+      },
+      {
+        "id": "D",
+        "text": "कौटिल्य"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) कौटिल्य",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob009",
+    "question": "'Indica' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मेगस्थनीज"
+      },
+      {
+        "id": "B",
+        "text": "विजय गोयल"
+      },
+      {
+        "id": "C",
+        "text": "विलियम शेक्सपियर"
+      },
+      {
+        "id": "D",
+        "text": "धर्मवीर भारती"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) मेगस्थनीज",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob010",
+    "question": "'Rajatarangini' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कल्हण"
+      },
+      {
+        "id": "B",
+        "text": "शशि थरूर"
+      },
+      {
+        "id": "C",
+        "text": "सचिन तेंदुलकर"
+      },
+      {
+        "id": "D",
+        "text": "आर. के. नारायण"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) कल्हण",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob011",
+    "question": "'Akbarnama / Ain-i-Akbari' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "रामनाथ कोविंद"
+      },
+      {
+        "id": "B",
+        "text": "विजय गोयल"
+      },
+      {
+        "id": "C",
+        "text": "अबुल फ़ज़ल"
+      },
+      {
+        "id": "D",
+        "text": "प्लेटो"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) अबुल फ़ज़ल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob012",
+    "question": "'Baburnama' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मैरी कॉम"
+      },
+      {
+        "id": "B",
+        "text": "कल्हण"
+      },
+      {
+        "id": "C",
+        "text": "भीष्म साहनी"
+      },
+      {
+        "id": "D",
+        "text": "बाबर"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) बाबर",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob013",
+    "question": "'Humayunama' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "गुलबदन बेगम"
+      },
+      {
+        "id": "B",
+        "text": "कार्ल मार्क्स और फ़्रेडरिक एंगेल्स"
+      },
+      {
+        "id": "C",
+        "text": "विक्रम सेठ"
+      },
+      {
+        "id": "D",
+        "text": "झुम्पा लाहिड़ी"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) गुलबदन बेगम",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob014",
+    "question": "'Tuzuk-i-Jahangiri' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अमर्त्य सेन"
+      },
+      {
+        "id": "B",
+        "text": "भीष्म साहनी"
+      },
+      {
+        "id": "C",
+        "text": "जहाँगीर"
+      },
+      {
+        "id": "D",
+        "text": "पाउलो कोएल्हो"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) जहाँगीर",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob015",
+    "question": "'Kitab-ul-Hind' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मैरी कॉम"
+      },
+      {
+        "id": "B",
+        "text": "जहाँगीर"
+      },
+      {
+        "id": "C",
+        "text": "अल-बिरूनी"
+      },
+      {
+        "id": "D",
+        "text": "झुम्पा लाहिड़ी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) अल-बिरूनी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob016",
+    "question": "'Rihla' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "नेल्सन मंडेला"
+      },
+      {
+        "id": "B",
+        "text": "इब्न बतूता"
+      },
+      {
+        "id": "C",
+        "text": "लियो टॉल्स्टॉय"
+      },
+      {
+        "id": "D",
+        "text": "कृष्णा सोबती"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) इब्न बतूता",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob017",
+    "question": "'Panchatantra' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "आर. के. नारायण"
+      },
+      {
+        "id": "B",
+        "text": "विष्णु शर्मा"
+      },
+      {
+        "id": "C",
+        "text": "लियो टॉल्स्टॉय"
+      },
+      {
+        "id": "D",
+        "text": "मेगस्थनीज"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) विष्णु शर्मा",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob018",
+    "question": "'Abhijnana Shakuntalam' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कालिदास"
+      },
+      {
+        "id": "B",
+        "text": "श्रीलाल शुक्ल"
+      },
+      {
+        "id": "C",
+        "text": "प्लेटो"
+      },
+      {
+        "id": "D",
+        "text": "अरुंधति रॉय"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) कालिदास",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob019",
+    "question": "'Meghaduta' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पी. पी. सथ्यन"
+      },
+      {
+        "id": "B",
+        "text": "कालिदास"
+      },
+      {
+        "id": "C",
+        "text": "ए. पी. जे. अब्दुल कलाम और अरुण तिवारी"
+      },
+      {
+        "id": "D",
+        "text": "फणीश्वरनाथ रेणु"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) कालिदास",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob020",
+    "question": "'Gitanjali' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "हरिवंश राय बच्चन"
+      },
+      {
+        "id": "B",
+        "text": "कालिदास"
+      },
+      {
+        "id": "C",
+        "text": "झुम्पा लाहिड़ी"
+      },
+      {
+        "id": "D",
+        "text": "रवीन्द्रनाथ टैगोर"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) रवीन्द्रनाथ टैगोर",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob021",
+    "question": "'Anandamath' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कौटिल्य"
+      },
+      {
+        "id": "B",
+        "text": "बंकिमचंद्र चट्टोपाध्याय"
+      },
+      {
+        "id": "C",
+        "text": "विजय गोयल"
+      },
+      {
+        "id": "D",
+        "text": "अबुल फ़ज़ल"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) बंकिमचंद्र चट्टोपाध्याय",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob022",
+    "question": "'Godan / Gaban / Nirmala' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मुंशी प्रेमचंद"
+      },
+      {
+        "id": "B",
+        "text": "खुशवंत सिंह"
+      },
+      {
+        "id": "C",
+        "text": "विष्णु शर्मा"
+      },
+      {
+        "id": "D",
+        "text": "इब्न बतूता"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) मुंशी प्रेमचंद",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob023",
+    "question": "'Maila Aanchal' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चार्ल्स डार्विन"
+      },
+      {
+        "id": "B",
+        "text": "फणीश्वरनाथ रेणु"
+      },
+      {
+        "id": "C",
+        "text": "जेन ऑस्टिन"
+      },
+      {
+        "id": "D",
+        "text": "निकोलो मैकियावेली"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) फणीश्वरनाथ रेणु",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob024",
+    "question": "'Tamas' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "फ़्योदोर दोस्तोयेव्स्की"
+      },
+      {
+        "id": "B",
+        "text": "भीष्म साहनी"
+      },
+      {
+        "id": "C",
+        "text": "पी. पी. सथ्यन"
+      },
+      {
+        "id": "D",
+        "text": "अरविंद अडिगा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) भीष्म साहनी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob025",
+    "question": "'Jhutha Sach' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "यशपाल"
+      },
+      {
+        "id": "B",
+        "text": "लियो टॉल्स्टॉय"
+      },
+      {
+        "id": "C",
+        "text": "फ़्योदोर दोस्तोयेव्स्की"
+      },
+      {
+        "id": "D",
+        "text": "विष्णु शर्मा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) यशपाल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob026",
+    "question": "'Zindaginama' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "महात्मा गांधी"
+      },
+      {
+        "id": "B",
+        "text": "कृष्णा सोबती"
+      },
+      {
+        "id": "C",
+        "text": "अरुंधति रॉय"
+      },
+      {
+        "id": "D",
+        "text": "कौटिल्य"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) कृष्णा सोबती",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob027",
+    "question": "'Gunahon Ka Devta' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "धर्मवीर भारती"
+      },
+      {
+        "id": "B",
+        "text": "निकोलो मैकियावेली"
+      },
+      {
+        "id": "C",
+        "text": "जयशंकर प्रसाद"
+      },
+      {
+        "id": "D",
+        "text": "विनोद राय (संपादक)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) धर्मवीर भारती",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob028",
+    "question": "'Rashmirathi / Urvashi' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "रामधारी सिंह दिनकर"
+      },
+      {
+        "id": "B",
+        "text": "किरण देसाई"
+      },
+      {
+        "id": "C",
+        "text": "खुशवंत सिंह"
+      },
+      {
+        "id": "D",
+        "text": "ए. पी. जे. अब्दुल कलाम और वाई. एस. राजन"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) रामधारी सिंह दिनकर",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob029",
+    "question": "'Kamayani' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "फ़्योदोर दोस्तोयेव्स्की"
+      },
+      {
+        "id": "B",
+        "text": "जयशंकर प्रसाद"
+      },
+      {
+        "id": "C",
+        "text": "निकोलो मैकियावेली"
+      },
+      {
+        "id": "D",
+        "text": "अबुल फ़ज़ल"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) जयशंकर प्रसाद",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob030",
+    "question": "'Yama' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बाबर"
+      },
+      {
+        "id": "B",
+        "text": "महादेवी वर्मा"
+      },
+      {
+        "id": "C",
+        "text": "कालिदास"
+      },
+      {
+        "id": "D",
+        "text": "रवीन्द्रनाथ टैगोर"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) महादेवी वर्मा",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob031",
+    "question": "'Madhushala' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कालिदास"
+      },
+      {
+        "id": "B",
+        "text": "ए. पी. जे. अब्दुल कलाम और अरुण तिवारी"
+      },
+      {
+        "id": "C",
+        "text": "फणीश्वरनाथ रेणु"
+      },
+      {
+        "id": "D",
+        "text": "हरिवंश राय बच्चन"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) हरिवंश राय बच्चन",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob032",
+    "question": "'Rag Darbari' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "यशपाल"
+      },
+      {
+        "id": "B",
+        "text": "कालिदास"
+      },
+      {
+        "id": "C",
+        "text": "श्रीलाल शुक्ल"
+      },
+      {
+        "id": "D",
+        "text": "सलमान रुश्दी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) श्रीलाल शुक्ल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob033",
+    "question": "'The Guide / Malgudi Days' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चार्ल्स डार्विन"
+      },
+      {
+        "id": "B",
+        "text": "रामनाथ कोविंद"
+      },
+      {
+        "id": "C",
+        "text": "कृष्णा सोबती"
+      },
+      {
+        "id": "D",
+        "text": "आर. के. नारायण"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) आर. के. नारायण",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob034",
+    "question": "'Untouchable / Coolie' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मुल्क राज आनंद"
+      },
+      {
+        "id": "B",
+        "text": "मेगस्थनीज"
+      },
+      {
+        "id": "C",
+        "text": "झुम्पा लाहिड़ी"
+      },
+      {
+        "id": "D",
+        "text": "स्टीफन हॉकिंग"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) मुल्क राज आनंद",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob035",
+    "question": "'Train to Pakistan' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मुल्क राज आनंद"
+      },
+      {
+        "id": "B",
+        "text": "खुशवंत सिंह"
+      },
+      {
+        "id": "C",
+        "text": "जवाहरलाल नेहरू"
+      },
+      {
+        "id": "D",
+        "text": "यशपाल"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) खुशवंत सिंह",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob036",
+    "question": "'A Suitable Boy' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "नेल्सन मंडेला"
+      },
+      {
+        "id": "B",
+        "text": "सचिन तेंदुलकर"
+      },
+      {
+        "id": "C",
+        "text": "श्रीलाल शुक्ल"
+      },
+      {
+        "id": "D",
+        "text": "विक्रम सेठ"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) विक्रम सेठ",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob037",
+    "question": "'The God of Small Things' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "फणीश्वरनाथ रेणु"
+      },
+      {
+        "id": "B",
+        "text": "अरुंधति रॉय"
+      },
+      {
+        "id": "C",
+        "text": "युवराज सिंह"
+      },
+      {
+        "id": "D",
+        "text": "रामनाथ कोविंद"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) अरुंधति रॉय",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob038",
+    "question": "'The White Tiger' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अरविंद अडिगा"
+      },
+      {
+        "id": "B",
+        "text": "आर. के. नारायण"
+      },
+      {
+        "id": "C",
+        "text": "जॉर्ज ऑरवेल"
+      },
+      {
+        "id": "D",
+        "text": "विष्णु शर्मा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) अरविंद अडिगा",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob039",
+    "question": "'Midnight’s Children' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "फणीश्वरनाथ रेणु"
+      },
+      {
+        "id": "B",
+        "text": "सचिन तेंदुलकर"
+      },
+      {
+        "id": "C",
+        "text": "सलमान रुश्दी"
+      },
+      {
+        "id": "D",
+        "text": "लियो टॉल्स्टॉय"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) सलमान रुश्दी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob040",
+    "question": "'Interpreter of Maladies' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "गुलबदन बेगम"
+      },
+      {
+        "id": "B",
+        "text": "नेल्सन मंडेला"
+      },
+      {
+        "id": "C",
+        "text": "झुम्पा लाहिड़ी"
+      },
+      {
+        "id": "D",
+        "text": "मुल्क राज आनंद"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) झुम्पा लाहिड़ी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob041",
+    "question": "'The Inheritance of Loss' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कार्ल मार्क्स और फ़्रेडरिक एंगेल्स"
+      },
+      {
+        "id": "B",
+        "text": "अर्नेस्ट हेमिंग्वे"
+      },
+      {
+        "id": "C",
+        "text": "सचिन तेंदुलकर"
+      },
+      {
+        "id": "D",
+        "text": "किरण देसाई"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) किरण देसाई",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob042",
+    "question": "'The Argumentative Indian' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बाबर"
+      },
+      {
+        "id": "B",
+        "text": "फणीश्वरनाथ रेणु"
+      },
+      {
+        "id": "C",
+        "text": "अमर्त्य सेन"
+      },
+      {
+        "id": "D",
+        "text": "सलमान रुश्दी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) अमर्त्य सेन",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob043",
+    "question": "'India After Gandhi' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "स्टीफन हॉकिंग"
+      },
+      {
+        "id": "B",
+        "text": "जॉर्ज ऑरवेल"
+      },
+      {
+        "id": "C",
+        "text": "रामचंद्र गुहा"
+      },
+      {
+        "id": "D",
+        "text": "श्रीलाल शुक्ल"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) रामचंद्र गुहा",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob044",
+    "question": "'An Era of Darkness' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "विष्णु शर्मा"
+      },
+      {
+        "id": "B",
+        "text": "किरण देसाई"
+      },
+      {
+        "id": "C",
+        "text": "शशि थरूर"
+      },
+      {
+        "id": "D",
+        "text": "कालिदास"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) शशि थरूर",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob045",
+    "question": "'Pride and Prejudice' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "फणीश्वरनाथ रेणु"
+      },
+      {
+        "id": "B",
+        "text": "कौटिल्य"
+      },
+      {
+        "id": "C",
+        "text": "जेन ऑस्टिन"
+      },
+      {
+        "id": "D",
+        "text": "कार्ल मार्क्स और फ़्रेडरिक एंगेल्स"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) जेन ऑस्टिन",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob046",
+    "question": "'War and Peace' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "लियो टॉल्स्टॉय"
+      },
+      {
+        "id": "B",
+        "text": "अरुंधति रॉय"
+      },
+      {
+        "id": "C",
+        "text": "झुम्पा लाहिड़ी"
+      },
+      {
+        "id": "D",
+        "text": "जहाँगीर"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) लियो टॉल्स्टॉय",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob047",
+    "question": "'Crime and Punishment' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "फ़्योदोर दोस्तोयेव्स्की"
+      },
+      {
+        "id": "B",
+        "text": "हरिवंश राय बच्चन"
+      },
+      {
+        "id": "C",
+        "text": "शिखर धवन"
+      },
+      {
+        "id": "D",
+        "text": "श्रीलाल शुक्ल"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) फ़्योदोर दोस्तोयेव्स्की",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob048",
+    "question": "'Animal Farm / 1984' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जॉर्ज ऑरवेल"
+      },
+      {
+        "id": "B",
+        "text": "शिखर धवन"
+      },
+      {
+        "id": "C",
+        "text": "श्याम जाजू और अनुपम त्रिवेदी"
+      },
+      {
+        "id": "D",
+        "text": "मौलाना अबुल कलाम आज़ाद"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) जॉर्ज ऑरवेल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob049",
+    "question": "'Hamlet / Macbeth' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "विष्णु शर्मा"
+      },
+      {
+        "id": "B",
+        "text": "स्टीफन हॉकिंग"
+      },
+      {
+        "id": "C",
+        "text": "बंकिमचंद्र चट्टोपाध्याय"
+      },
+      {
+        "id": "D",
+        "text": "विलियम शेक्सपियर"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) विलियम शेक्सपियर",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob050",
+    "question": "'The Old Man and the Sea' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अरविंद अडिगा"
+      },
+      {
+        "id": "B",
+        "text": "मौलाना अबुल कलाम आज़ाद"
+      },
+      {
+        "id": "C",
+        "text": "एडम स्मिथ"
+      },
+      {
+        "id": "D",
+        "text": "अर्नेस्ट हेमिंग्वे"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) अर्नेस्ट हेमिंग्वे",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob051",
+    "question": "'The Alchemist' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्लेटो"
+      },
+      {
+        "id": "B",
+        "text": "पाउलो कोएल्हो"
+      },
+      {
+        "id": "C",
+        "text": "कालिदास"
+      },
+      {
+        "id": "D",
+        "text": "नेल्सन मंडेला"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) पाउलो कोएल्हो",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob052",
+    "question": "'The Republic' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्लेटो"
+      },
+      {
+        "id": "B",
+        "text": "सलमान रुश्दी"
+      },
+      {
+        "id": "C",
+        "text": "फ़्योदोर दोस्तोयेव्स्की"
+      },
+      {
+        "id": "D",
+        "text": "विजय गोयल"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) प्लेटो",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob053",
+    "question": "'The Prince' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "निकोलो मैकियावेली"
+      },
+      {
+        "id": "B",
+        "text": "विष्णु शर्मा"
+      },
+      {
+        "id": "C",
+        "text": "श्रीलाल शुक्ल"
+      },
+      {
+        "id": "D",
+        "text": "सचिन तेंदुलकर"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) निकोलो मैकियावेली",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob054",
+    "question": "'Communist Manifesto' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "खुशवंत सिंह"
+      },
+      {
+        "id": "B",
+        "text": "कार्ल मार्क्स और फ़्रेडरिक एंगेल्स"
+      },
+      {
+        "id": "C",
+        "text": "किरण देसाई"
+      },
+      {
+        "id": "D",
+        "text": "अरविंद अडिगा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) कार्ल मार्क्स और फ़्रेडरिक एंगेल्स",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob055",
+    "question": "'Das Kapital' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बाबर"
+      },
+      {
+        "id": "B",
+        "text": "विनोद राय (संपादक)"
+      },
+      {
+        "id": "C",
+        "text": "हरिवंश राय बच्चन"
+      },
+      {
+        "id": "D",
+        "text": "कार्ल मार्क्स"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) कार्ल मार्क्स",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob056",
+    "question": "'Wealth of Nations' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "एडम स्मिथ"
+      },
+      {
+        "id": "B",
+        "text": "जेन ऑस्टिन"
+      },
+      {
+        "id": "C",
+        "text": "मैरी कॉम"
+      },
+      {
+        "id": "D",
+        "text": "अरविंद अडिगा"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) एडम स्मिथ",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob057",
+    "question": "'Origin of Species' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "श्याम जाजू और अनुपम त्रिवेदी"
+      },
+      {
+        "id": "B",
+        "text": "कार्ल मार्क्स"
+      },
+      {
+        "id": "C",
+        "text": "धर्मवीर भारती"
+      },
+      {
+        "id": "D",
+        "text": "चार्ल्स डार्विन"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) चार्ल्स डार्विन",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob058",
+    "question": "'Silent Spring' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सलमान रुश्दी"
+      },
+      {
+        "id": "B",
+        "text": "चार्ल्स डार्विन"
+      },
+      {
+        "id": "C",
+        "text": "बाबर"
+      },
+      {
+        "id": "D",
+        "text": "रेचल कार्सन"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) रेचल कार्सन",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob059",
+    "question": "'A Brief History of Time' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "गुलबदन बेगम"
+      },
+      {
+        "id": "B",
+        "text": "स्टीफन हॉकिंग"
+      },
+      {
+        "id": "C",
+        "text": "सलमान रुश्दी"
+      },
+      {
+        "id": "D",
+        "text": "अल-बिरूनी"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) स्टीफन हॉकिंग",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob060",
+    "question": "'Playing It My Way' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भीष्म साहनी"
+      },
+      {
+        "id": "B",
+        "text": "शशि थरूर"
+      },
+      {
+        "id": "C",
+        "text": "सचिन तेंदुलकर"
+      },
+      {
+        "id": "D",
+        "text": "कल्हण"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) सचिन तेंदुलकर",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob061",
+    "question": "'The Test of My Life' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "विलियम शेक्सपियर"
+      },
+      {
+        "id": "B",
+        "text": "भीष्म साहनी"
+      },
+      {
+        "id": "C",
+        "text": "युवराज सिंह"
+      },
+      {
+        "id": "D",
+        "text": "शशि थरूर"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) युवराज सिंह",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob062",
+    "question": "'Unbreakable' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मैरी कॉम"
+      },
+      {
+        "id": "B",
+        "text": "कार्ल मार्क्स और फ़्रेडरिक एंगेल्स"
+      },
+      {
+        "id": "C",
+        "text": "सचिन तेंदुलकर"
+      },
+      {
+        "id": "D",
+        "text": "जवाहरलाल नेहरू"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) मैरी कॉम",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob063",
+    "question": "'Long Walk to Freedom' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "निकोलो मैकियावेली"
+      },
+      {
+        "id": "B",
+        "text": "लियो टॉल्स्टॉय"
+      },
+      {
+        "id": "C",
+        "text": "अरुंधति रॉय"
+      },
+      {
+        "id": "D",
+        "text": "नेल्सन मंडेला"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) नेल्सन मंडेला",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob064",
+    "question": "'The Diary of a Young Girl' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "एस. शिवकुमार (संपादक)"
+      },
+      {
+        "id": "B",
+        "text": "ऐन फ्रैंक"
+      },
+      {
+        "id": "C",
+        "text": "मुंशी प्रेमचंद"
+      },
+      {
+        "id": "D",
+        "text": "अरुंधति रॉय"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) ऐन फ्रैंक",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob065",
+    "question": "'The Old Man and the Sea' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अर्नेस्ट हेमिंग्वे"
+      },
+      {
+        "id": "B",
+        "text": "जवाहरलाल नेहरू"
+      },
+      {
+        "id": "C",
+        "text": "खुशवंत सिंह"
+      },
+      {
+        "id": "D",
+        "text": "फणीश्वरनाथ रेणु"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) अर्नेस्ट हेमिंग्वे",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob066",
+    "question": "'The God of Small Things' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ए. पी. जे. अब्दुल कलाम और अरुण तिवारी"
+      },
+      {
+        "id": "B",
+        "text": "धर्मवीर भारती"
+      },
+      {
+        "id": "C",
+        "text": "कालिदास"
+      },
+      {
+        "id": "D",
+        "text": "अरुंधति रॉय"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) अरुंधति रॉय",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob067",
+    "question": "'The Second Orbit' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जहाँगीर"
+      },
+      {
+        "id": "B",
+        "text": "कौटिल्य"
+      },
+      {
+        "id": "C",
+        "text": "शशि थरूर"
+      },
+      {
+        "id": "D",
+        "text": "शुभांशु शुक्ला"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) शुभांशु शुक्ला",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob068",
+    "question": "'Triumph of the Indian Republic: My Life, My Struggles' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मैरी कॉम"
+      },
+      {
+        "id": "B",
+        "text": "अमर्त्य सेन"
+      },
+      {
+        "id": "C",
+        "text": "प्लेटो"
+      },
+      {
+        "id": "D",
+        "text": "रामनाथ कोविंद"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) रामनाथ कोविंद",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob069",
+    "question": "'The Voice of Justice: Justice Gavai Speaks' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जॉर्ज ऑरवेल"
+      },
+      {
+        "id": "B",
+        "text": "एस. शिवकुमार (संपादक)"
+      },
+      {
+        "id": "C",
+        "text": "रामनाथ कोविंद"
+      },
+      {
+        "id": "D",
+        "text": "विष्णु शर्मा"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) एस. शिवकुमार (संपादक)",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob070",
+    "question": "'When Audit Matters' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "इब्न बतूता"
+      },
+      {
+        "id": "B",
+        "text": "रवीन्द्रनाथ टैगोर"
+      },
+      {
+        "id": "C",
+        "text": "विनोद राय (संपादक)"
+      },
+      {
+        "id": "D",
+        "text": "फ़्योदोर दोस्तोयेव्स्की"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) विनोद राय (संपादक)",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob071",
+    "question": "'RSS @100' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "लियो टॉल्स्टॉय"
+      },
+      {
+        "id": "B",
+        "text": "धर्मवीर भारती"
+      },
+      {
+        "id": "C",
+        "text": "श्याम जाजू और अनुपम त्रिवेदी"
+      },
+      {
+        "id": "D",
+        "text": "स्टीफन हॉकिंग"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) श्याम जाजू और अनुपम त्रिवेदी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob072",
+    "question": "'Atal Bihari Vajpayee: The Eternal Statesman' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "रामनाथ कोविंद"
+      },
+      {
+        "id": "B",
+        "text": "ऐन फ्रैंक"
+      },
+      {
+        "id": "C",
+        "text": "विजय गोयल"
+      },
+      {
+        "id": "D",
+        "text": "धर्मवीर भारती"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) विजय गोयल",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob073",
+    "question": "'The Library Man of India: The Story of P. N. Panicker' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पी. पी. सथ्यन"
+      },
+      {
+        "id": "B",
+        "text": "हरिवंश राय बच्चन"
+      },
+      {
+        "id": "C",
+        "text": "जॉर्ज ऑरवेल"
+      },
+      {
+        "id": "D",
+        "text": "विक्रम सेठ"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) पी. पी. सथ्यन",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob074",
+    "question": "'The One: Cricket, My Life and More' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कार्ल मार्क्स"
+      },
+      {
+        "id": "B",
+        "text": "मुंशी प्रेमचंद"
+      },
+      {
+        "id": "C",
+        "text": "शिखर धवन"
+      },
+      {
+        "id": "D",
+        "text": "सलमान रुश्दी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) शिखर धवन",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "ob075",
+    "question": "'Mother Mary Comes to Me' के लेखक/लेखक कौन हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ऐन फ्रैंक"
+      },
+      {
+        "id": "B",
+        "text": "हरिवंश राय बच्चन"
+      },
+      {
+        "id": "C",
+        "text": "फणीश्वरनाथ रेणु"
+      },
+      {
+        "id": "D",
+        "text": "अरुंधति रॉय"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) अरुंधति रॉय",
+    "difficulty": "medium",
+    "language": "hi"
+  }
+]
