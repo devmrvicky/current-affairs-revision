@@ -1,6 +1,6 @@
 [
   {
-    "id": "arith001",
+    "id": "simpset1q01",
     "subjectId": "maths",
     "question": "15 + 6 × 4 ÷ 2 − 3 का मान क्या होगा?",
     "options": [
@@ -28,7 +28,7 @@
     "language": "hi"
   },
   {
-    "id": "arith002",
+    "id": "sqrtset1q02",
     "subjectId": "maths",
     "question": "√1764 का मान ज्ञात कीजिए।",
     "options": [
@@ -56,7 +56,7 @@
     "language": "hi"
   },
   {
-    "id": "arith003",
+    "id": "numsysset1q03",
     "subjectId": "maths",
     "question": "यदि संख्या 5432x, 9 से पूर्णतः विभाज्य है, तो अंक x का मान क्या होगा?",
     "options": [
@@ -84,7 +84,7 @@
     "language": "hi"
   },
   {
-    "id": "arith004",
+    "id": "hcflcmset1q04",
     "subjectId": "maths",
     "question": "12, 18 और 24 का ल.स. (LCM) क्या होगा?",
     "options": [
@@ -112,7 +112,7 @@
     "language": "hi"
   },
   {
-    "id": "arith005",
+    "id": "percset1q05",
     "subjectId": "maths",
     "question": "एक संख्या का 35%, 91 है। वह संख्या ज्ञात कीजिए।",
     "options": [
@@ -140,7 +140,7 @@
     "language": "hi"
   },
   {
-    "id": "arith006",
+    "id": "ratioset1q06",
     "subjectId": "maths",
     "question": "दो संख्याओं का अनुपात 3 : 5 है और उनका योग 160 है। छोटी संख्या क्या है?",
     "options": [
@@ -168,7 +168,7 @@
     "language": "hi"
   },
   {
-    "id": "arith007",
+    "id": "avgset1q07",
     "subjectId": "maths",
     "question": "पहली 10 सम प्राकृत संख्याओं का औसत क्या है?",
     "options": [
@@ -196,7 +196,7 @@
     "language": "hi"
   },
   {
-    "id": "arith008",
+    "id": "plset1q08",
     "subjectId": "maths",
     "question": "एक वस्तु ₹400 में खरीदकर ₹460 में बेची गई। लाभ प्रतिशत कितना है?",
     "options": [
@@ -224,7 +224,7 @@
     "language": "hi"
   },
   {
-    "id": "arith009",
+    "id": "discset1q09",
     "subjectId": "maths",
     "question": "किसी वस्तु का अंकित मूल्य ₹800 है। उस पर 15% की छूट दी जाए तो विक्रय मूल्य कितना होगा?",
     "options": [
@@ -252,7 +252,7 @@
     "language": "hi"
   },
   {
-    "id": "arith010",
+    "id": "siset1q10",
     "subjectId": "maths",
     "question": "₹5,000 पर 8% वार्षिक दर से 3 वर्ष का साधारण ब्याज कितना होगा?",
     "options": [
@@ -280,7 +280,7 @@
     "language": "hi"
   },
   {
-    "id": "arith011",
+    "id": "twset1q11",
     "subjectId": "maths",
     "question": "A किसी काम को 12 दिन में और B उसी काम को 24 दिन में कर सकता है। दोनों मिलकर वह काम कितने दिन में पूरा करेंगे?",
     "options": [
@@ -308,7 +308,7 @@
     "language": "hi"
   },
   {
-    "id": "arith012",
+    "id": "tsdset1q12",
     "subjectId": "maths",
     "question": "54 km/h की चाल से चलती हुई कार 20 सेकंड में कितनी दूरी तय करेगी?",
     "options": [
@@ -336,7 +336,7 @@
     "language": "hi"
   },
   {
-    "id": "arith013",
+    "id": "mens2dset1q13",
     "subjectId": "maths",
     "question": "एक आयत की लंबाई 24 cm और चौड़ाई 10 cm है। उसके विकर्ण की लंबाई कितनी है?",
     "options": [
@@ -358,13 +358,13 @@
       }
     ],
     "correctAnswer": "A",
-    "topicId": "mensuration",
+    "topicId": "2d-mensuration",
     "difficulty": "easy",
     "explanation": "विकर्ण = √(24² + 10²) = √(576 + 100) = √676 = 26 cm।",
     "language": "hi"
   },
   {
-    "id": "arith014",
+    "id": "ageset1q14",
     "subjectId": "maths",
     "question": "पिता की आयु पुत्र की आयु की चार गुनी है। यदि दोनों की आयु का अंतर 27 वर्ष है, तो पुत्र की आयु कितनी है?",
     "options": [
@@ -392,7 +392,7 @@
     "language": "hi"
   },
   {
-    "id": "arith015",
+    "id": "numsysset1q15",
     "subjectId": "maths",
     "question": "पहली 20 विषम प्राकृत संख्याओं का योग कितना है?",
     "options": [
@@ -420,7 +420,7 @@
     "language": "hi"
   },
   {
-    "id": "arith016",
+    "id": "numsysset1q16",
     "subjectId": "maths",
     "question": "किसी संख्या को 28 से भाग देने पर शेषफल 15 आता है। उसी संख्या को 7 से भाग देने पर शेषफल क्या आएगा?",
     "options": [
@@ -448,7 +448,7 @@
     "language": "hi"
   },
   {
-    "id": "arith017",
+    "id": "hcflcmset1q17",
     "subjectId": "maths",
     "question": "दो संख्याओं का HCF 12 और LCM 360 है। यदि उनमें से एक संख्या 60 हो, तो दूसरी संख्या क्या होगी?",
     "options": [
@@ -476,7 +476,7 @@
     "language": "hi"
   },
   {
-    "id": "arith018",
+    "id": "percset1q18",
     "subjectId": "maths",
     "question": "किसी नगर की जनसंख्या 50,000 है। पहले वर्ष इसमें 10% की वृद्धि हुई और दूसरे वर्ष 10% की कमी हुई। दो वर्ष बाद जनसंख्या कितनी होगी?",
     "options": [
@@ -504,7 +504,7 @@
     "language": "hi"
   },
   {
-    "id": "arith019",
+    "id": "ratioset1q19",
     "subjectId": "maths",
     "question": "यदि A : B = 2 : 3 और B : C = 4 : 5 हो, तो A : B : C ज्ञात कीजिए।",
     "options": [
@@ -532,7 +532,7 @@
     "language": "hi"
   },
   {
-    "id": "arith020",
+    "id": "avgset1q20",
     "subjectId": "maths",
     "question": "5 संख्याओं का औसत 27 है। यदि उनमें से एक संख्या हटा दी जाए तो शेष संख्याओं का औसत 25 हो जाता है। हटाई गई संख्या क्या है?",
     "options": [
@@ -560,7 +560,7 @@
     "language": "hi"
   },
   {
-    "id": "arith021",
+    "id": "discset1q21",
     "subjectId": "maths",
     "question": "एक दुकानदार किसी वस्तु का मूल्य क्रय मूल्य से 20% अधिक अंकित करता है और अंकित मूल्य पर 10% की छूट देता है। उसका लाभ प्रतिशत कितना है?",
     "options": [
@@ -588,7 +588,7 @@
     "language": "hi"
   },
   {
-    "id": "arith022",
+    "id": "plset1q22",
     "subjectId": "maths",
     "question": "एक वस्तु को ₹540 में बेचने पर 10% की हानि होती है। 20% का लाभ प्राप्त करने के लिए उसे कितने रुपये में बेचना होगा?",
     "options": [
@@ -616,7 +616,7 @@
     "language": "hi"
   },
   {
-    "id": "arith023",
+    "id": "siset1q23",
     "subjectId": "maths",
     "question": "कोई धनराशि साधारण ब्याज की किसी दर पर 5 वर्ष में स्वयं की दोगुनी हो जाती है। वही धनराशि उसी दर पर कितने वर्षों में स्वयं की तिगुनी हो जाएगी?",
     "options": [
@@ -644,7 +644,7 @@
     "language": "hi"
   },
   {
-    "id": "arith024",
+    "id": "ciset1q24",
     "subjectId": "maths",
     "question": "₹8,000 पर 5% वार्षिक दर से 2 वर्ष का चक्रवृद्धि ब्याज (वार्षिक संयोजन) कितना होगा?",
     "options": [
@@ -672,7 +672,7 @@
     "language": "hi"
   },
   {
-    "id": "arith025",
+    "id": "ciset1q25",
     "subjectId": "maths",
     "question": "किसी धनराशि पर 10% वार्षिक दर से 2 वर्ष के चक्रवृद्धि ब्याज और साधारण ब्याज का अंतर ₹25 है। वह धनराशि कितनी है?",
     "options": [
@@ -700,7 +700,7 @@
     "language": "hi"
   },
   {
-    "id": "arith026",
+    "id": "twset1q26",
     "subjectId": "maths",
     "question": "A किसी काम को 12 दिन में और B उसी काम को 18 दिन में कर सकता है। दोनों एक साथ काम शुरू करते हैं, लेकिन 4 दिन बाद A काम छोड़ देता है। शेष काम B अकेले कितने दिनों में पूरा करेगा?",
     "options": [
@@ -728,7 +728,7 @@
     "language": "hi"
   },
   {
-    "id": "arith027",
+    "id": "twset1q27",
     "subjectId": "maths",
     "question": "12 आदमी किसी काम को 15 दिन में पूरा करते हैं। उसी काम को 9 दिन में पूरा करने के लिए कितने आदमियों की आवश्यकता होगी?",
     "options": [
@@ -756,7 +756,7 @@
     "language": "hi"
   },
   {
-    "id": "arith028",
+    "id": "pipeset1q28",
     "subjectId": "maths",
     "question": "एक नल किसी टंकी को 12 घंटे में भर सकता है और दूसरा नल उसे 18 घंटे में खाली कर सकता है। यदि दोनों नल एक साथ खोल दिए जाएँ तो खाली टंकी कितने घंटे में भरेगी?",
     "options": [
@@ -784,7 +784,7 @@
     "language": "hi"
   },
   {
-    "id": "arith029",
+    "id": "tsdset1q29",
     "subjectId": "maths",
     "question": "एक व्यक्ति किसी स्थान तक 40 km/h की चाल से जाता है और उसी रास्ते से 60 km/h की चाल से लौट आता है। पूरी यात्रा की औसत चाल क्या है?",
     "options": [
@@ -812,7 +812,7 @@
     "language": "hi"
   },
   {
-    "id": "arith030",
+    "id": "trainset1q30",
     "subjectId": "maths",
     "question": "120 मीटर लंबी रेलगाड़ी 54 km/h की चाल से चल रही है। वह एक खंभे को कितने समय में पार करेगी?",
     "options": [
@@ -840,7 +840,7 @@
     "language": "hi"
   },
   {
-    "id": "arith031",
+    "id": "boatset1q31",
     "subjectId": "maths",
     "question": "स्थिर जल में नाव की चाल 12 km/h और धारा की चाल 4 km/h है। नाव को धारा की दिशा में 48 km जाने में कितना समय लगेगा?",
     "options": [
@@ -868,7 +868,7 @@
     "language": "hi"
   },
   {
-    "id": "arith032",
+    "id": "mens2dset1q32",
     "subjectId": "maths",
     "question": "एक वृत्त का क्षेत्रफल 616 cm² है। उसकी परिधि कितनी होगी? (π = 22/7 लें)",
     "options": [
@@ -890,13 +890,13 @@
       }
     ],
     "correctAnswer": "B",
-    "topicId": "mensuration",
+    "topicId": "2d-mensuration",
     "difficulty": "medium",
     "explanation": "πr² = 616 ⇒ r² = 616 × 7/22 = 196 ⇒ r = 14 cm। परिधि = 2πr = 2 × 22/7 × 14 = 88 cm।",
     "language": "hi"
   },
   {
-    "id": "arith033",
+    "id": "mens3dset1q33",
     "subjectId": "maths",
     "question": "एक घन का कुल पृष्ठीय क्षेत्रफल 486 cm² है। उसका आयतन कितना होगा?",
     "options": [
@@ -918,13 +918,13 @@
       }
     ],
     "correctAnswer": "C",
-    "topicId": "mensuration",
+    "topicId": "3d-mensuration",
     "difficulty": "medium",
     "explanation": "6a² = 486 ⇒ a² = 81 ⇒ a = 9 cm। आयतन = a³ = 729 cm³।",
     "language": "hi"
   },
   {
-    "id": "arith034",
+    "id": "hcflcmset1q34",
     "subjectId": "maths",
     "question": "वह सबसे बड़ी संख्या ज्ञात कीजिए जिससे 247, 299 और 403 को भाग देने पर प्रत्येक स्थिति में समान शेषफल बचता है।",
     "options": [
@@ -952,7 +952,7 @@
     "language": "hi"
   },
   {
-    "id": "arith035",
+    "id": "percset1q35",
     "subjectId": "maths",
     "question": "किसी परीक्षा में 70% विद्यार्थी गणित में और 60% विद्यार्थी अंग्रेजी में उत्तीर्ण हुए। यदि 10% विद्यार्थी दोनों विषयों में अनुत्तीर्ण हुए, तो कितने प्रतिशत विद्यार्थी दोनों विषयों में उत्तीर्ण हुए?",
     "options": [
@@ -980,7 +980,7 @@
     "language": "hi"
   },
   {
-    "id": "arith036",
+    "id": "percset1q36",
     "subjectId": "maths",
     "question": "चीनी का मूल्य 25% बढ़ जाता है। चीनी पर होने वाला व्यय अपरिवर्तित रखने के लिए खपत में कितने प्रतिशत की कमी करनी होगी?",
     "options": [
@@ -1008,7 +1008,7 @@
     "language": "hi"
   },
   {
-    "id": "arith037",
+    "id": "ratioset1q37",
     "subjectId": "maths",
     "question": "दो संख्याएँ 3 : 4 के अनुपात में हैं। यदि प्रत्येक संख्या में 6 जोड़ दिया जाए तो अनुपात 4 : 5 हो जाता है। बड़ी संख्या कौन-सी है?",
     "options": [
@@ -1036,7 +1036,7 @@
     "language": "hi"
   },
   {
-    "id": "arith038",
+    "id": "mixset1q38",
     "subjectId": "maths",
     "question": "60 लीटर मिश्रण में दूध और पानी का अनुपात 7 : 3 है। उसमें कितना पानी मिलाया जाए कि दूध और पानी का अनुपात 7 : 5 हो जाए?",
     "options": [
@@ -1064,7 +1064,7 @@
     "language": "hi"
   },
   {
-    "id": "arith039",
+    "id": "numsysset1q39",
     "subjectId": "maths",
     "question": "(222)²⁵ × (333)²¹ का इकाई अंक क्या है?",
     "options": [
@@ -1092,7 +1092,7 @@
     "language": "hi"
   },
   {
-    "id": "arith040",
+    "id": "avgset1q40",
     "subjectId": "maths",
     "question": "एक क्रिकेट खिलाड़ी का 10 पारियों का औसत 42 रन है। 11वीं पारी में वह कितने रन बनाए कि उसका औसत 3 रन बढ़ जाए?",
     "options": [
@@ -1120,7 +1120,7 @@
     "language": "hi"
   },
   {
-    "id": "arith041",
+    "id": "plset1q41",
     "subjectId": "maths",
     "question": "एक व्यक्ति दो वस्तुओं को ₹1,200 प्रति वस्तु की दर से बेचता है। एक पर उसे 20% का लाभ होता है और दूसरी पर 20% की हानि। पूरे सौदे में उसे कितना लाभ या हानि हुई?",
     "options": [
@@ -1148,7 +1148,7 @@
     "language": "hi"
   },
   {
-    "id": "arith042",
+    "id": "plset1q42",
     "subjectId": "maths",
     "question": "एक दुकानदार किसी वस्तु को 10% की हानि पर बेचता है। यदि वह उसे ₹90 अधिक में बेचता, तो उसे 5% का लाभ होता। वस्तु का क्रय मूल्य कितना है?",
     "options": [
@@ -1176,7 +1176,7 @@
     "language": "hi"
   },
   {
-    "id": "arith043",
+    "id": "ciset1q43",
     "subjectId": "maths",
     "question": "कोई धनराशि चक्रवृद्धि ब्याज पर 2 वर्ष में ₹4,410 और 3 वर्ष में ₹4,630.50 हो जाती है। वार्षिक ब्याज दर कितनी है?",
     "options": [
@@ -1204,7 +1204,7 @@
     "language": "hi"
   },
   {
-    "id": "arith044",
+    "id": "partset1q44",
     "subjectId": "maths",
     "question": "A ने ₹12,000 से व्यापार शुरू किया। 4 महीने बाद B ₹20,000 लेकर साझेदार बन गया। वर्ष के अंत में ₹3,800 का लाभ हुआ। B का हिस्सा कितना होगा?",
     "options": [
@@ -1232,7 +1232,7 @@
     "language": "hi"
   },
   {
-    "id": "arith045",
+    "id": "mixset1q45",
     "subjectId": "maths",
     "question": "50 लीटर शुद्ध दूध वाले एक बर्तन से 10 लीटर दूध निकालकर उसमें उतना ही पानी मिला दिया गया। यह प्रक्रिया एक बार और दोहराई गई। अब बर्तन में कितना दूध शेष है?",
     "options": [
@@ -1260,7 +1260,7 @@
     "language": "hi"
   },
   {
-    "id": "arith046",
+    "id": "mixset1q46",
     "subjectId": "maths",
     "question": "₹36 प्रति kg और ₹42 प्रति kg वाली दो प्रकार की चीनी को मिलाकर मिश्रण को ₹45 प्रति kg पर बेचने से 12.5% का लाभ होता है। सस्ती और महंगी चीनी का अनुपात क्या है?",
     "options": [
@@ -1288,7 +1288,7 @@
     "language": "hi"
   },
   {
-    "id": "arith047",
+    "id": "pipeset1q47",
     "subjectId": "maths",
     "question": "एक नल किसी टंकी को 10 घंटे में भर सकता है, किंतु टंकी में रिसाव होने के कारण उसे भरने में 12 घंटे लगते हैं। यदि टंकी पूरी भरी हो, तो रिसाव उसे कितने घंटे में खाली कर देगा?",
     "options": [
@@ -1316,7 +1316,7 @@
     "language": "hi"
   },
   {
-    "id": "arith048",
+    "id": "tsdset1q48",
     "subjectId": "maths",
     "question": "एक व्यक्ति 5 km/h की चाल से चलने पर अपने गंतव्य पर 10 मिनट देर से और 6 km/h की चाल से चलने पर 10 मिनट पहले पहुँचता है। गंतव्य की दूरी कितनी है?",
     "options": [
@@ -1344,7 +1344,7 @@
     "language": "hi"
   },
   {
-    "id": "arith049",
+    "id": "trainset1q49",
     "subjectId": "maths",
     "question": "100 मीटर लंबी एक रेलगाड़ी 72 km/h की चाल से उसी दिशा में 36 km/h की चाल से चल रही 150 मीटर लंबी दूसरी रेलगाड़ी को कितने समय में पार कर लेगी?",
     "options": [
@@ -1372,7 +1372,7 @@
     "language": "hi"
   },
   {
-    "id": "arith050",
+    "id": "boatset1q50",
     "subjectId": "maths",
     "question": "स्थिर जल में नाव की चाल 15 km/h और धारा की चाल 5 km/h है। नाव किसी स्थान तक जाकर वापस आने में कुल 12 घंटे का समय लेती है। वह स्थान कितनी दूरी पर है?",
     "options": [
