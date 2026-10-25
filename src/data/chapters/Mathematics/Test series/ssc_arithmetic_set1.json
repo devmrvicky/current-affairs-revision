@@ -1,7 +1,6 @@
 [
   {
-    "id": "simpset1q01",
-    "subjectId": "maths",
+    "id": "arithset1q001",
     "question": "15 + 6 × 4 ÷ 2 − 3 का मान क्या होगा?",
     "options": [
       {
@@ -22,14 +21,12 @@
       }
     ],
     "correctAnswer": "A",
-    "topicId": "simplification",
+    "explanation": "सही उत्तर: A) 24। हल: BODMAS के अनुसार पहले गुणा और भाग: 6 × 4 = 24, 24 ÷ 2 = 12। फिर 15 + 12 − 3 = 24।",
     "difficulty": "easy",
-    "explanation": "BODMAS के अनुसार पहले गुणा और भाग: 6 × 4 = 24, 24 ÷ 2 = 12। फिर 15 + 12 − 3 = 24।",
     "language": "hi"
   },
   {
-    "id": "sqrtset1q02",
-    "subjectId": "maths",
+    "id": "arithset1q002",
     "question": "√1764 का मान ज्ञात कीजिए।",
     "options": [
       {
@@ -50,14 +47,12 @@
       }
     ],
     "correctAnswer": "B",
-    "topicId": "square-root",
+    "explanation": "सही उत्तर: B) 42। हल: 42 × 42 = 1764, इसलिए √1764 = 42।",
     "difficulty": "easy",
-    "explanation": "42 × 42 = 1764, इसलिए √1764 = 42।",
     "language": "hi"
   },
   {
-    "id": "numsysset1q03",
-    "subjectId": "maths",
+    "id": "arithset1q003",
     "question": "यदि संख्या 5432x, 9 से पूर्णतः विभाज्य है, तो अंक x का मान क्या होगा?",
     "options": [
       {
@@ -78,14 +73,12 @@
       }
     ],
     "correctAnswer": "C",
-    "topicId": "number-system",
+    "explanation": "सही उत्तर: C) 4। हल: 9 से विभाज्यता के लिए अंकों का योग 9 का गुणज होना चाहिए। 5 + 4 + 3 + 2 + x = 14 + x। x = 4 लेने पर योग 18 होता है, जो 9 का गुणज है।",
     "difficulty": "easy",
-    "explanation": "9 से विभाज्यता के लिए अंकों का योग 9 का गुणज होना चाहिए। 5 + 4 + 3 + 2 + x = 14 + x। x = 4 लेने पर योग 18 होता है, जो 9 का गुणज है।",
     "language": "hi"
   },
   {
-    "id": "hcflcmset1q04",
-    "subjectId": "maths",
+    "id": "arithset1q004",
     "question": "12, 18 और 24 का ल.स. (LCM) क्या होगा?",
     "options": [
       {
@@ -106,14 +99,12 @@
       }
     ],
     "correctAnswer": "C",
-    "topicId": "hcf-lcm",
+    "explanation": "सही उत्तर: C) 72। हल: 12 = 2² × 3, 18 = 2 × 3², 24 = 2³ × 3। LCM = 2³ × 3² = 72।",
     "difficulty": "easy",
-    "explanation": "12 = 2² × 3, 18 = 2 × 3², 24 = 2³ × 3। LCM = 2³ × 3² = 72।",
     "language": "hi"
   },
   {
-    "id": "percset1q05",
-    "subjectId": "maths",
+    "id": "arithset1q005",
     "question": "एक संख्या का 35%, 91 है। वह संख्या ज्ञात कीजिए।",
     "options": [
       {
@@ -134,14 +125,12 @@
       }
     ],
     "correctAnswer": "A",
-    "topicId": "percentage",
+    "explanation": "सही उत्तर: A) 260। हल: संख्या = 91 × 100 ÷ 35 = 260।",
     "difficulty": "easy",
-    "explanation": "संख्या = 91 × 100 ÷ 35 = 260।",
     "language": "hi"
   },
   {
-    "id": "ratioset1q06",
-    "subjectId": "maths",
+    "id": "arithset1q006",
     "question": "दो संख्याओं का अनुपात 3 : 5 है और उनका योग 160 है। छोटी संख्या क्या है?",
     "options": [
       {
@@ -162,14 +151,12 @@
       }
     ],
     "correctAnswer": "B",
-    "topicId": "ratio-proportion",
+    "explanation": "सही उत्तर: B) 60। हल: छोटी संख्या = 160 × 3/(3 + 5) = 60।",
     "difficulty": "easy",
-    "explanation": "छोटी संख्या = 160 × 3/(3 + 5) = 60।",
     "language": "hi"
   },
   {
-    "id": "avgset1q07",
-    "subjectId": "maths",
+    "id": "arithset1q007",
     "question": "पहली 10 सम प्राकृत संख्याओं का औसत क्या है?",
     "options": [
       {
@@ -190,14 +177,12 @@
       }
     ],
     "correctAnswer": "C",
-    "topicId": "average",
+    "explanation": "सही उत्तर: C) 11। हल: पहली 10 सम संख्याओं (2, 4, ..., 20) का योग = 10 × 11 = 110। औसत = 110 ÷ 10 = 11।",
     "difficulty": "easy",
-    "explanation": "पहली 10 सम संख्याओं (2, 4, ..., 20) का योग = 10 × 11 = 110। औसत = 110 ÷ 10 = 11।",
     "language": "hi"
   },
   {
-    "id": "plset1q08",
-    "subjectId": "maths",
+    "id": "arithset1q008",
     "question": "एक वस्तु ₹400 में खरीदकर ₹460 में बेची गई। लाभ प्रतिशत कितना है?",
     "options": [
       {
@@ -218,14 +203,12 @@
       }
     ],
     "correctAnswer": "B",
-    "topicId": "profit-loss",
+    "explanation": "सही उत्तर: B) 15%। हल: लाभ = 460 − 400 = ₹60। लाभ % = 60/400 × 100 = 15%।",
     "difficulty": "easy",
-    "explanation": "लाभ = 460 − 400 = ₹60। लाभ % = 60/400 × 100 = 15%।",
     "language": "hi"
   },
   {
-    "id": "discset1q09",
-    "subjectId": "maths",
+    "id": "arithset1q009",
     "question": "किसी वस्तु का अंकित मूल्य ₹800 है। उस पर 15% की छूट दी जाए तो विक्रय मूल्य कितना होगा?",
     "options": [
       {
@@ -246,14 +229,12 @@
       }
     ],
     "correctAnswer": "B",
-    "topicId": "discount",
+    "explanation": "सही उत्तर: B) ₹680। हल: विक्रय मूल्य = 800 × (100 − 15)/100 = ₹680।",
     "difficulty": "easy",
-    "explanation": "विक्रय मूल्य = 800 × (100 − 15)/100 = ₹680।",
     "language": "hi"
   },
   {
-    "id": "siset1q10",
-    "subjectId": "maths",
+    "id": "arithset1q010",
     "question": "₹5,000 पर 8% वार्षिक दर से 3 वर्ष का साधारण ब्याज कितना होगा?",
     "options": [
       {
@@ -274,14 +255,12 @@
       }
     ],
     "correctAnswer": "A",
-    "topicId": "simple-interest",
+    "explanation": "सही उत्तर: A) ₹1,200। हल: SI = (P × R × T)/100 = (5000 × 8 × 3)/100 = ₹1,200।",
     "difficulty": "easy",
-    "explanation": "SI = (P × R × T)/100 = (5000 × 8 × 3)/100 = ₹1,200।",
     "language": "hi"
   },
   {
-    "id": "twset1q11",
-    "subjectId": "maths",
+    "id": "arithset1q011",
     "question": "A किसी काम को 12 दिन में और B उसी काम को 24 दिन में कर सकता है। दोनों मिलकर वह काम कितने दिन में पूरा करेंगे?",
     "options": [
       {
@@ -302,14 +281,12 @@
       }
     ],
     "correctAnswer": "D",
-    "topicId": "time-work",
+    "explanation": "सही उत्तर: D) 8 दिन। हल: A का 1 दिन का काम = 1/12, B का = 1/24। साथ में = 3/24 = 1/8। अतः 8 दिन।",
     "difficulty": "easy",
-    "explanation": "A का 1 दिन का काम = 1/12, B का = 1/24। साथ में = 3/24 = 1/8। अतः 8 दिन।",
     "language": "hi"
   },
   {
-    "id": "tsdset1q12",
-    "subjectId": "maths",
+    "id": "arithset1q012",
     "question": "54 km/h की चाल से चलती हुई कार 20 सेकंड में कितनी दूरी तय करेगी?",
     "options": [
       {
@@ -330,14 +307,12 @@
       }
     ],
     "correctAnswer": "D",
-    "topicId": "time-speed-distance",
+    "explanation": "सही उत्तर: D) 300 मीटर। हल: 54 km/h = 54 × 5/18 = 15 m/s। दूरी = 15 × 20 = 300 मीटर।",
     "difficulty": "easy",
-    "explanation": "54 km/h = 54 × 5/18 = 15 m/s। दूरी = 15 × 20 = 300 मीटर।",
     "language": "hi"
   },
   {
-    "id": "mens2dset1q13",
-    "subjectId": "maths",
+    "id": "arithset1q013",
     "question": "एक आयत की लंबाई 24 cm और चौड़ाई 10 cm है। उसके विकर्ण की लंबाई कितनी है?",
     "options": [
       {
@@ -358,14 +333,12 @@
       }
     ],
     "correctAnswer": "A",
-    "topicId": "2d-mensuration",
+    "explanation": "सही उत्तर: A) 26 cm। हल: विकर्ण = √(24² + 10²) = √(576 + 100) = √676 = 26 cm।",
     "difficulty": "easy",
-    "explanation": "विकर्ण = √(24² + 10²) = √(576 + 100) = √676 = 26 cm।",
     "language": "hi"
   },
   {
-    "id": "ageset1q14",
-    "subjectId": "maths",
+    "id": "arithset1q014",
     "question": "पिता की आयु पुत्र की आयु की चार गुनी है। यदि दोनों की आयु का अंतर 27 वर्ष है, तो पुत्र की आयु कितनी है?",
     "options": [
       {
@@ -386,14 +359,12 @@
       }
     ],
     "correctAnswer": "C",
-    "topicId": "ages",
+    "explanation": "सही उत्तर: C) 9 वर्ष। हल: आयु का अंतर = 4x − x = 3x = 27, इसलिए x = 9 वर्ष।",
     "difficulty": "easy",
-    "explanation": "आयु का अंतर = 4x − x = 3x = 27, इसलिए x = 9 वर्ष।",
     "language": "hi"
   },
   {
-    "id": "numsysset1q15",
-    "subjectId": "maths",
+    "id": "arithset1q015",
     "question": "पहली 20 विषम प्राकृत संख्याओं का योग कितना है?",
     "options": [
       {
@@ -414,14 +385,12 @@
       }
     ],
     "correctAnswer": "A",
-    "topicId": "number-system",
+    "explanation": "सही उत्तर: A) 400। हल: पहली n विषम संख्याओं का योग = n²। अतः 20² = 400।",
     "difficulty": "easy",
-    "explanation": "पहली n विषम संख्याओं का योग = n²। अतः 20² = 400।",
     "language": "hi"
   },
   {
-    "id": "numsysset1q16",
-    "subjectId": "maths",
+    "id": "arithset1q016",
     "question": "किसी संख्या को 28 से भाग देने पर शेषफल 15 आता है। उसी संख्या को 7 से भाग देने पर शेषफल क्या आएगा?",
     "options": [
       {
@@ -442,14 +411,12 @@
       }
     ],
     "correctAnswer": "D",
-    "topicId": "number-system",
+    "explanation": "सही उत्तर: D) 1। हल: 28, 7 का गुणज है, इसलिए 7 से भाग देने पर शेषफल वही होगा जो 15 को 7 से भाग देने पर बचता है। 15 = 2 × 7 + 1, अतः शेषफल 1।",
     "difficulty": "medium",
-    "explanation": "28, 7 का गुणज है, इसलिए 7 से भाग देने पर शेषफल वही होगा जो 15 को 7 से भाग देने पर बचता है। 15 = 2 × 7 + 1, अतः शेषफल 1।",
     "language": "hi"
   },
   {
-    "id": "hcflcmset1q17",
-    "subjectId": "maths",
+    "id": "arithset1q017",
     "question": "दो संख्याओं का HCF 12 और LCM 360 है। यदि उनमें से एक संख्या 60 हो, तो दूसरी संख्या क्या होगी?",
     "options": [
       {
@@ -470,14 +437,12 @@
       }
     ],
     "correctAnswer": "A",
-    "topicId": "hcf-lcm",
+    "explanation": "सही उत्तर: A) 72। हल: दो संख्याओं का गुणनफल = HCF × LCM। दूसरी संख्या = (12 × 360)/60 = 72।",
     "difficulty": "medium",
-    "explanation": "दो संख्याओं का गुणनफल = HCF × LCM। दूसरी संख्या = (12 × 360)/60 = 72।",
     "language": "hi"
   },
   {
-    "id": "percset1q18",
-    "subjectId": "maths",
+    "id": "arithset1q018",
     "question": "किसी नगर की जनसंख्या 50,000 है। पहले वर्ष इसमें 10% की वृद्धि हुई और दूसरे वर्ष 10% की कमी हुई। दो वर्ष बाद जनसंख्या कितनी होगी?",
     "options": [
       {
@@ -498,14 +463,12 @@
       }
     ],
     "correctAnswer": "C",
-    "topicId": "percentage",
+    "explanation": "सही उत्तर: C) 49,500। हल: 50,000 × 110/100 × 90/100 = 49,500।",
     "difficulty": "medium",
-    "explanation": "50,000 × 110/100 × 90/100 = 49,500।",
     "language": "hi"
   },
   {
-    "id": "ratioset1q19",
-    "subjectId": "maths",
+    "id": "arithset1q019",
     "question": "यदि A : B = 2 : 3 और B : C = 4 : 5 हो, तो A : B : C ज्ञात कीजिए।",
     "options": [
       {
@@ -526,14 +489,12 @@
       }
     ],
     "correctAnswer": "A",
-    "topicId": "ratio-proportion",
+    "explanation": "सही उत्तर: A) 8 : 12 : 15। हल: A : B = 2 : 3 को 4 से और B : C = 4 : 5 को 3 से गुणा करने पर B बराबर (12) हो जाता है: A : B = 8 : 12 और B : C = 12 : 15। अतः A : B : C = 8 : 12 : 15।",
     "difficulty": "medium",
-    "explanation": "A : B = 2 : 3 को 4 से और B : C = 4 : 5 को 3 से गुणा करने पर B बराबर (12) हो जाता है: A : B = 8 : 12 और B : C = 12 : 15। अतः A : B : C = 8 : 12 : 15।",
     "language": "hi"
   },
   {
-    "id": "avgset1q20",
-    "subjectId": "maths",
+    "id": "arithset1q020",
     "question": "5 संख्याओं का औसत 27 है। यदि उनमें से एक संख्या हटा दी जाए तो शेष संख्याओं का औसत 25 हो जाता है। हटाई गई संख्या क्या है?",
     "options": [
       {
@@ -554,14 +515,12 @@
       }
     ],
     "correctAnswer": "D",
-    "topicId": "average",
+    "explanation": "सही उत्तर: D) 35। हल: 5 संख्याओं का योग = 5 × 27 = 135। शेष 4 संख्याओं का योग = 4 × 25 = 100। हटाई गई संख्या = 135 − 100 = 35।",
     "difficulty": "medium",
-    "explanation": "5 संख्याओं का योग = 5 × 27 = 135। शेष 4 संख्याओं का योग = 4 × 25 = 100। हटाई गई संख्या = 135 − 100 = 35।",
     "language": "hi"
   },
   {
-    "id": "discset1q21",
-    "subjectId": "maths",
+    "id": "arithset1q021",
     "question": "एक दुकानदार किसी वस्तु का मूल्य क्रय मूल्य से 20% अधिक अंकित करता है और अंकित मूल्य पर 10% की छूट देता है। उसका लाभ प्रतिशत कितना है?",
     "options": [
       {
@@ -582,14 +541,12 @@
       }
     ],
     "correctAnswer": "B",
-    "topicId": "discount",
+    "explanation": "सही उत्तर: B) 8%। हल: माना क्रय मूल्य 100 है। अंकित मूल्य = 120। छूट के बाद विक्रय मूल्य = 120 × 90/100 = 108। लाभ = 8%।",
     "difficulty": "medium",
-    "explanation": "माना क्रय मूल्य 100 है। अंकित मूल्य = 120। छूट के बाद विक्रय मूल्य = 120 × 90/100 = 108। लाभ = 8%।",
     "language": "hi"
   },
   {
-    "id": "plset1q22",
-    "subjectId": "maths",
+    "id": "arithset1q022",
     "question": "एक वस्तु को ₹540 में बेचने पर 10% की हानि होती है। 20% का लाभ प्राप्त करने के लिए उसे कितने रुपये में बेचना होगा?",
     "options": [
       {
@@ -610,14 +567,12 @@
       }
     ],
     "correctAnswer": "D",
-    "topicId": "profit-loss",
+    "explanation": "सही उत्तर: D) ₹720। हल: क्रय मूल्य = 540 × 100/90 = ₹600। 20% लाभ पर विक्रय मूल्य = 600 × 120/100 = ₹720।",
     "difficulty": "medium",
-    "explanation": "क्रय मूल्य = 540 × 100/90 = ₹600। 20% लाभ पर विक्रय मूल्य = 600 × 120/100 = ₹720।",
     "language": "hi"
   },
   {
-    "id": "siset1q23",
-    "subjectId": "maths",
+    "id": "arithset1q023",
     "question": "कोई धनराशि साधारण ब्याज की किसी दर पर 5 वर्ष में स्वयं की दोगुनी हो जाती है। वही धनराशि उसी दर पर कितने वर्षों में स्वयं की तिगुनी हो जाएगी?",
     "options": [
       {
@@ -638,14 +593,12 @@
       }
     ],
     "correctAnswer": "C",
-    "topicId": "simple-interest",
+    "explanation": "सही उत्तर: C) 10 वर्ष। हल: 5 वर्ष में ब्याज = मूलधन, यानी दर = 20% प्रति वर्ष। तिगुना होने के लिए ब्याज = 2 × मूलधन चाहिए, अतः समय = 2 × 5 = 10 वर्ष।",
     "difficulty": "medium",
-    "explanation": "5 वर्ष में ब्याज = मूलधन, यानी दर = 20% प्रति वर्ष। तिगुना होने के लिए ब्याज = 2 × मूलधन चाहिए, अतः समय = 2 × 5 = 10 वर्ष।",
     "language": "hi"
   },
   {
-    "id": "ciset1q24",
-    "subjectId": "maths",
+    "id": "arithset1q024",
     "question": "₹8,000 पर 5% वार्षिक दर से 2 वर्ष का चक्रवृद्धि ब्याज (वार्षिक संयोजन) कितना होगा?",
     "options": [
       {
@@ -666,14 +619,12 @@
       }
     ],
     "correctAnswer": "A",
-    "topicId": "compound-interest",
+    "explanation": "सही उत्तर: A) ₹820। हल: मिश्रधन = 8000 × (1.05)² = 8000 × 1.1025 = ₹8,820। चक्रवृद्धि ब्याज = 8,820 − 8,000 = ₹820।",
     "difficulty": "medium",
-    "explanation": "मिश्रधन = 8000 × (1.05)² = 8000 × 1.1025 = ₹8,820। चक्रवृद्धि ब्याज = 8,820 − 8,000 = ₹820।",
     "language": "hi"
   },
   {
-    "id": "ciset1q25",
-    "subjectId": "maths",
+    "id": "arithset1q025",
     "question": "किसी धनराशि पर 10% वार्षिक दर से 2 वर्ष के चक्रवृद्धि ब्याज और साधारण ब्याज का अंतर ₹25 है। वह धनराशि कितनी है?",
     "options": [
       {
@@ -694,14 +645,12 @@
       }
     ],
     "correctAnswer": "B",
-    "topicId": "compound-interest",
+    "explanation": "सही उत्तर: B) ₹2,500। हल: 2 वर्ष में CI − SI = P × (R/100)² = P × (10/100)² = P/100। P/100 = 25 ⇒ P = ₹2,500।",
     "difficulty": "medium",
-    "explanation": "2 वर्ष में CI − SI = P × (R/100)² = P × (10/100)² = P/100। P/100 = 25 ⇒ P = ₹2,500।",
     "language": "hi"
   },
   {
-    "id": "twset1q26",
-    "subjectId": "maths",
+    "id": "arithset1q026",
     "question": "A किसी काम को 12 दिन में और B उसी काम को 18 दिन में कर सकता है। दोनों एक साथ काम शुरू करते हैं, लेकिन 4 दिन बाद A काम छोड़ देता है। शेष काम B अकेले कितने दिनों में पूरा करेगा?",
     "options": [
       {
@@ -722,14 +671,12 @@
       }
     ],
     "correctAnswer": "A",
-    "topicId": "time-work",
+    "explanation": "सही उत्तर: A) 8 दिन। हल: A + B का 1 दिन का काम = 1/12 + 1/18 = 5/36। 4 दिन में काम = 20/36 = 5/9। शेष काम = 4/9। B अकेले लेगा = (4/9) ÷ (1/18) = 8 दिन।",
     "difficulty": "medium",
-    "explanation": "A + B का 1 दिन का काम = 1/12 + 1/18 = 5/36। 4 दिन में काम = 20/36 = 5/9। शेष काम = 4/9। B अकेले लेगा = (4/9) ÷ (1/18) = 8 दिन।",
     "language": "hi"
   },
   {
-    "id": "twset1q27",
-    "subjectId": "maths",
+    "id": "arithset1q027",
     "question": "12 आदमी किसी काम को 15 दिन में पूरा करते हैं। उसी काम को 9 दिन में पूरा करने के लिए कितने आदमियों की आवश्यकता होगी?",
     "options": [
       {
@@ -750,14 +697,12 @@
       }
     ],
     "correctAnswer": "B",
-    "topicId": "time-work",
+    "explanation": "सही उत्तर: B) 20 आदमी। हल: M₁ × D₁ = M₂ × D₂ ⇒ 12 × 15 = M₂ × 9 ⇒ M₂ = 20।",
     "difficulty": "medium",
-    "explanation": "M₁ × D₁ = M₂ × D₂ ⇒ 12 × 15 = M₂ × 9 ⇒ M₂ = 20।",
     "language": "hi"
   },
   {
-    "id": "pipeset1q28",
-    "subjectId": "maths",
+    "id": "arithset1q028",
     "question": "एक नल किसी टंकी को 12 घंटे में भर सकता है और दूसरा नल उसे 18 घंटे में खाली कर सकता है। यदि दोनों नल एक साथ खोल दिए जाएँ तो खाली टंकी कितने घंटे में भरेगी?",
     "options": [
       {
@@ -778,14 +723,12 @@
       }
     ],
     "correctAnswer": "D",
-    "topicId": "pipes-cisterns",
+    "explanation": "सही उत्तर: D) 36 घंटे। हल: भरने की दर − खाली करने की दर = 1/12 − 1/18 = 1/36। अतः टंकी 36 घंटे में भरेगी।",
     "difficulty": "medium",
-    "explanation": "भरने की दर − खाली करने की दर = 1/12 − 1/18 = 1/36। अतः टंकी 36 घंटे में भरेगी।",
     "language": "hi"
   },
   {
-    "id": "tsdset1q29",
-    "subjectId": "maths",
+    "id": "arithset1q029",
     "question": "एक व्यक्ति किसी स्थान तक 40 km/h की चाल से जाता है और उसी रास्ते से 60 km/h की चाल से लौट आता है। पूरी यात्रा की औसत चाल क्या है?",
     "options": [
       {
@@ -806,14 +749,12 @@
       }
     ],
     "correctAnswer": "A",
-    "topicId": "time-speed-distance",
+    "explanation": "सही उत्तर: A) 48 km/h। हल: औसत चाल = 2xy/(x + y) = (2 × 40 × 60)/(40 + 60) = 48 km/h।",
     "difficulty": "medium",
-    "explanation": "औसत चाल = 2xy/(x + y) = (2 × 40 × 60)/(40 + 60) = 48 km/h।",
     "language": "hi"
   },
   {
-    "id": "trainset1q30",
-    "subjectId": "maths",
+    "id": "arithset1q030",
     "question": "120 मीटर लंबी रेलगाड़ी 54 km/h की चाल से चल रही है। वह एक खंभे को कितने समय में पार करेगी?",
     "options": [
       {
@@ -834,14 +775,12 @@
       }
     ],
     "correctAnswer": "B",
-    "topicId": "trains",
+    "explanation": "सही उत्तर: B) 8 सेकंड। हल: 54 km/h = 15 m/s। समय = लंबाई ÷ चाल = 120 ÷ 15 = 8 सेकंड।",
     "difficulty": "medium",
-    "explanation": "54 km/h = 15 m/s। समय = लंबाई ÷ चाल = 120 ÷ 15 = 8 सेकंड।",
     "language": "hi"
   },
   {
-    "id": "boatset1q31",
-    "subjectId": "maths",
+    "id": "arithset1q031",
     "question": "स्थिर जल में नाव की चाल 12 km/h और धारा की चाल 4 km/h है। नाव को धारा की दिशा में 48 km जाने में कितना समय लगेगा?",
     "options": [
       {
@@ -862,14 +801,12 @@
       }
     ],
     "correctAnswer": "C",
-    "topicId": "boats-streams",
+    "explanation": "सही उत्तर: C) 3 घंटे। हल: धारा की दिशा में चाल = 12 + 4 = 16 km/h। समय = 48 ÷ 16 = 3 घंटे।",
     "difficulty": "medium",
-    "explanation": "धारा की दिशा में चाल = 12 + 4 = 16 km/h। समय = 48 ÷ 16 = 3 घंटे।",
     "language": "hi"
   },
   {
-    "id": "mens2dset1q32",
-    "subjectId": "maths",
+    "id": "arithset1q032",
     "question": "एक वृत्त का क्षेत्रफल 616 cm² है। उसकी परिधि कितनी होगी? (π = 22/7 लें)",
     "options": [
       {
@@ -890,14 +827,12 @@
       }
     ],
     "correctAnswer": "B",
-    "topicId": "2d-mensuration",
+    "explanation": "सही उत्तर: B) 88 cm। हल: πr² = 616 ⇒ r² = 616 × 7/22 = 196 ⇒ r = 14 cm। परिधि = 2πr = 2 × 22/7 × 14 = 88 cm।",
     "difficulty": "medium",
-    "explanation": "πr² = 616 ⇒ r² = 616 × 7/22 = 196 ⇒ r = 14 cm। परिधि = 2πr = 2 × 22/7 × 14 = 88 cm।",
     "language": "hi"
   },
   {
-    "id": "mens3dset1q33",
-    "subjectId": "maths",
+    "id": "arithset1q033",
     "question": "एक घन का कुल पृष्ठीय क्षेत्रफल 486 cm² है। उसका आयतन कितना होगा?",
     "options": [
       {
@@ -918,14 +853,12 @@
       }
     ],
     "correctAnswer": "C",
-    "topicId": "3d-mensuration",
+    "explanation": "सही उत्तर: C) 729 cm³। हल: 6a² = 486 ⇒ a² = 81 ⇒ a = 9 cm। आयतन = a³ = 729 cm³।",
     "difficulty": "medium",
-    "explanation": "6a² = 486 ⇒ a² = 81 ⇒ a = 9 cm। आयतन = a³ = 729 cm³।",
     "language": "hi"
   },
   {
-    "id": "hcflcmset1q34",
-    "subjectId": "maths",
+    "id": "arithset1q034",
     "question": "वह सबसे बड़ी संख्या ज्ञात कीजिए जिससे 247, 299 और 403 को भाग देने पर प्रत्येक स्थिति में समान शेषफल बचता है।",
     "options": [
       {
@@ -946,14 +879,12 @@
       }
     ],
     "correctAnswer": "D",
-    "topicId": "hcf-lcm",
+    "explanation": "सही उत्तर: D) 52। हल: समान शेषफल के लिए संख्याओं के अंतर का HCF निकालते हैं: 299 − 247 = 52, 403 − 299 = 104, 403 − 247 = 156। HCF(52, 104, 156) = 52।",
     "difficulty": "medium",
-    "explanation": "समान शेषफल के लिए संख्याओं के अंतर का HCF निकालते हैं: 299 − 247 = 52, 403 − 299 = 104, 403 − 247 = 156। HCF(52, 104, 156) = 52।",
     "language": "hi"
   },
   {
-    "id": "percset1q35",
-    "subjectId": "maths",
+    "id": "arithset1q035",
     "question": "किसी परीक्षा में 70% विद्यार्थी गणित में और 60% विद्यार्थी अंग्रेजी में उत्तीर्ण हुए। यदि 10% विद्यार्थी दोनों विषयों में अनुत्तीर्ण हुए, तो कितने प्रतिशत विद्यार्थी दोनों विषयों में उत्तीर्ण हुए?",
     "options": [
       {
@@ -974,14 +905,12 @@
       }
     ],
     "correctAnswer": "C",
-    "topicId": "percentage",
+    "explanation": "सही उत्तर: C) 40%। हल: कम से कम एक विषय में उत्तीर्ण = 100 − 10 = 90%। दोनों में उत्तीर्ण = 70 + 60 − 90 = 40%।",
     "difficulty": "medium",
-    "explanation": "कम से कम एक विषय में उत्तीर्ण = 100 − 10 = 90%। दोनों में उत्तीर्ण = 70 + 60 − 90 = 40%।",
     "language": "hi"
   },
   {
-    "id": "percset1q36",
-    "subjectId": "maths",
+    "id": "arithset1q036",
     "question": "चीनी का मूल्य 25% बढ़ जाता है। चीनी पर होने वाला व्यय अपरिवर्तित रखने के लिए खपत में कितने प्रतिशत की कमी करनी होगी?",
     "options": [
       {
@@ -1002,14 +931,12 @@
       }
     ],
     "correctAnswer": "A",
-    "topicId": "percentage",
+    "explanation": "सही उत्तर: A) 20%। हल: खपत में कमी = (25/(100 + 25)) × 100 = 20%।",
     "difficulty": "medium",
-    "explanation": "खपत में कमी = (25/(100 + 25)) × 100 = 20%।",
     "language": "hi"
   },
   {
-    "id": "ratioset1q37",
-    "subjectId": "maths",
+    "id": "arithset1q037",
     "question": "दो संख्याएँ 3 : 4 के अनुपात में हैं। यदि प्रत्येक संख्या में 6 जोड़ दिया जाए तो अनुपात 4 : 5 हो जाता है। बड़ी संख्या कौन-सी है?",
     "options": [
       {
@@ -1030,14 +957,12 @@
       }
     ],
     "correctAnswer": "A",
-    "topicId": "ratio-proportion",
+    "explanation": "सही उत्तर: A) 24। हल: माना संख्याएँ 3x और 4x हैं। (3x + 6)/(4x + 6) = 4/5 ⇒ 15x + 30 = 16x + 24 ⇒ x = 6। बड़ी संख्या = 4 × 6 = 24।",
     "difficulty": "medium",
-    "explanation": "माना संख्याएँ 3x और 4x हैं। (3x + 6)/(4x + 6) = 4/5 ⇒ 15x + 30 = 16x + 24 ⇒ x = 6। बड़ी संख्या = 4 × 6 = 24।",
     "language": "hi"
   },
   {
-    "id": "mixset1q38",
-    "subjectId": "maths",
+    "id": "arithset1q038",
     "question": "60 लीटर मिश्रण में दूध और पानी का अनुपात 7 : 3 है। उसमें कितना पानी मिलाया जाए कि दूध और पानी का अनुपात 7 : 5 हो जाए?",
     "options": [
       {
@@ -1058,14 +983,12 @@
       }
     ],
     "correctAnswer": "B",
-    "topicId": "mixture-alligation",
+    "explanation": "सही उत्तर: B) 12 लीटर। हल: दूध = 60 × 7/10 = 42 लीटर, पानी = 18 लीटर। 42/(18 + x) = 7/5 ⇒ 18 + x = 30 ⇒ x = 12 लीटर।",
     "difficulty": "medium",
-    "explanation": "दूध = 60 × 7/10 = 42 लीटर, पानी = 18 लीटर। 42/(18 + x) = 7/5 ⇒ 18 + x = 30 ⇒ x = 12 लीटर।",
     "language": "hi"
   },
   {
-    "id": "numsysset1q39",
-    "subjectId": "maths",
+    "id": "arithset1q039",
     "question": "(222)²⁵ × (333)²¹ का इकाई अंक क्या है?",
     "options": [
       {
@@ -1086,14 +1009,12 @@
       }
     ],
     "correctAnswer": "C",
-    "topicId": "number-system",
+    "explanation": "सही उत्तर: C) 6। हल: 2 का चक्र (2, 4, 8, 6): 25 ÷ 4 का शेष 1 ⇒ इकाई अंक 2। 3 का चक्र (3, 9, 7, 1): 21 ÷ 4 का शेष 1 ⇒ इकाई अंक 3। गुणनफल का इकाई अंक = 2 × 3 = 6।",
     "difficulty": "hard",
-    "explanation": "2 का चक्र (2, 4, 8, 6): 25 ÷ 4 का शेष 1 ⇒ इकाई अंक 2। 3 का चक्र (3, 9, 7, 1): 21 ÷ 4 का शेष 1 ⇒ इकाई अंक 3। गुणनफल का इकाई अंक = 2 × 3 = 6।",
     "language": "hi"
   },
   {
-    "id": "avgset1q40",
-    "subjectId": "maths",
+    "id": "arithset1q040",
     "question": "एक क्रिकेट खिलाड़ी का 10 पारियों का औसत 42 रन है। 11वीं पारी में वह कितने रन बनाए कि उसका औसत 3 रन बढ़ जाए?",
     "options": [
       {
@@ -1114,14 +1035,12 @@
       }
     ],
     "correctAnswer": "C",
-    "topicId": "average",
+    "explanation": "सही उत्तर: C) 75 रन। हल: नया औसत = 45। 11 पारियों का कुल योग = 11 × 45 = 495। 10 पारियों का योग = 10 × 42 = 420। 11वीं पारी में रन = 495 − 420 = 75।",
     "difficulty": "hard",
-    "explanation": "नया औसत = 45। 11 पारियों का कुल योग = 11 × 45 = 495। 10 पारियों का योग = 10 × 42 = 420। 11वीं पारी में रन = 495 − 420 = 75।",
     "language": "hi"
   },
   {
-    "id": "plset1q41",
-    "subjectId": "maths",
+    "id": "arithset1q041",
     "question": "एक व्यक्ति दो वस्तुओं को ₹1,200 प्रति वस्तु की दर से बेचता है। एक पर उसे 20% का लाभ होता है और दूसरी पर 20% की हानि। पूरे सौदे में उसे कितना लाभ या हानि हुई?",
     "options": [
       {
@@ -1142,14 +1061,12 @@
       }
     ],
     "correctAnswer": "D",
-    "topicId": "profit-loss",
+    "explanation": "सही उत्तर: D) ₹100 की हानि। हल: पहली वस्तु का क्रय मूल्य = 1200 × 100/120 = ₹1,000। दूसरी का क्रय मूल्य = 1200 × 100/80 = ₹1,500। कुल क्रय मूल्य ₹2,500 और कुल विक्रय मूल्य ₹2,400। अतः ₹100 की हानि।",
     "difficulty": "hard",
-    "explanation": "पहली वस्तु का क्रय मूल्य = 1200 × 100/120 = ₹1,000। दूसरी का क्रय मूल्य = 1200 × 100/80 = ₹1,500। कुल क्रय मूल्य ₹2,500 और कुल विक्रय मूल्य ₹2,400। अतः ₹100 की हानि।",
     "language": "hi"
   },
   {
-    "id": "plset1q42",
-    "subjectId": "maths",
+    "id": "arithset1q042",
     "question": "एक दुकानदार किसी वस्तु को 10% की हानि पर बेचता है। यदि वह उसे ₹90 अधिक में बेचता, तो उसे 5% का लाभ होता। वस्तु का क्रय मूल्य कितना है?",
     "options": [
       {
@@ -1170,14 +1087,12 @@
       }
     ],
     "correctAnswer": "D",
-    "topicId": "profit-loss",
+    "explanation": "सही उत्तर: D) ₹600। हल: 10% हानि और 5% लाभ के बीच का अंतर = 15% of CP = ₹90। CP = 90 × 100/15 = ₹600।",
     "difficulty": "hard",
-    "explanation": "10% हानि और 5% लाभ के बीच का अंतर = 15% of CP = ₹90। CP = 90 × 100/15 = ₹600।",
     "language": "hi"
   },
   {
-    "id": "ciset1q43",
-    "subjectId": "maths",
+    "id": "arithset1q043",
     "question": "कोई धनराशि चक्रवृद्धि ब्याज पर 2 वर्ष में ₹4,410 और 3 वर्ष में ₹4,630.50 हो जाती है। वार्षिक ब्याज दर कितनी है?",
     "options": [
       {
@@ -1198,14 +1113,12 @@
       }
     ],
     "correctAnswer": "C",
-    "topicId": "compound-interest",
+    "explanation": "सही उत्तर: C) 5%। हल: तीसरे वर्ष का ब्याज = 4,630.50 − 4,410 = ₹220.50। दर = (220.50/4,410) × 100 = 5%।",
     "difficulty": "hard",
-    "explanation": "तीसरे वर्ष का ब्याज = 4,630.50 − 4,410 = ₹220.50। दर = (220.50/4,410) × 100 = 5%।",
     "language": "hi"
   },
   {
-    "id": "partset1q44",
-    "subjectId": "maths",
+    "id": "arithset1q044",
     "question": "A ने ₹12,000 से व्यापार शुरू किया। 4 महीने बाद B ₹20,000 लेकर साझेदार बन गया। वर्ष के अंत में ₹3,800 का लाभ हुआ। B का हिस्सा कितना होगा?",
     "options": [
       {
@@ -1226,14 +1139,12 @@
       }
     ],
     "correctAnswer": "A",
-    "topicId": "partnership",
+    "explanation": "सही उत्तर: A) ₹2,000। हल: A : B = (12000 × 12) : (20000 × 8) = 144 : 160 = 9 : 10। B का हिस्सा = 3800 × 10/19 = ₹2,000।",
     "difficulty": "hard",
-    "explanation": "A : B = (12000 × 12) : (20000 × 8) = 144 : 160 = 9 : 10। B का हिस्सा = 3800 × 10/19 = ₹2,000।",
     "language": "hi"
   },
   {
-    "id": "mixset1q45",
-    "subjectId": "maths",
+    "id": "arithset1q045",
     "question": "50 लीटर शुद्ध दूध वाले एक बर्तन से 10 लीटर दूध निकालकर उसमें उतना ही पानी मिला दिया गया। यह प्रक्रिया एक बार और दोहराई गई। अब बर्तन में कितना दूध शेष है?",
     "options": [
       {
@@ -1254,14 +1165,12 @@
       }
     ],
     "correctAnswer": "B",
-    "topicId": "mixture-alligation",
+    "explanation": "सही उत्तर: B) 32 लीटर। हल: शेष दूध = 50 × (1 − 10/50)² = 50 × (4/5)² = 50 × 16/25 = 32 लीटर।",
     "difficulty": "hard",
-    "explanation": "शेष दूध = 50 × (1 − 10/50)² = 50 × (4/5)² = 50 × 16/25 = 32 लीटर।",
     "language": "hi"
   },
   {
-    "id": "mixset1q46",
-    "subjectId": "maths",
+    "id": "arithset1q046",
     "question": "₹36 प्रति kg और ₹42 प्रति kg वाली दो प्रकार की चीनी को मिलाकर मिश्रण को ₹45 प्रति kg पर बेचने से 12.5% का लाभ होता है। सस्ती और महंगी चीनी का अनुपात क्या है?",
     "options": [
       {
@@ -1282,14 +1191,12 @@
       }
     ],
     "correctAnswer": "D",
-    "topicId": "mixture-alligation",
+    "explanation": "सही उत्तर: D) 1 : 2। हल: क्रय मूल्य = 45 × 100/112.5 = ₹40 प्रति kg। एलिगेशन से सस्ती : महंगी = (42 − 40) : (40 − 36) = 2 : 4 = 1 : 2।",
     "difficulty": "hard",
-    "explanation": "क्रय मूल्य = 45 × 100/112.5 = ₹40 प्रति kg। एलिगेशन से सस्ती : महंगी = (42 − 40) : (40 − 36) = 2 : 4 = 1 : 2।",
     "language": "hi"
   },
   {
-    "id": "pipeset1q47",
-    "subjectId": "maths",
+    "id": "arithset1q047",
     "question": "एक नल किसी टंकी को 10 घंटे में भर सकता है, किंतु टंकी में रिसाव होने के कारण उसे भरने में 12 घंटे लगते हैं। यदि टंकी पूरी भरी हो, तो रिसाव उसे कितने घंटे में खाली कर देगा?",
     "options": [
       {
@@ -1310,14 +1217,12 @@
       }
     ],
     "correctAnswer": "D",
-    "topicId": "pipes-cisterns",
+    "explanation": "सही उत्तर: D) 60 घंटे। हल: रिसाव की दर = 1/10 − 1/12 = 1/60। अतः रिसाव भरी टंकी को 60 घंटे में खाली कर देगा।",
     "difficulty": "hard",
-    "explanation": "रिसाव की दर = 1/10 − 1/12 = 1/60। अतः रिसाव भरी टंकी को 60 घंटे में खाली कर देगा।",
     "language": "hi"
   },
   {
-    "id": "tsdset1q48",
-    "subjectId": "maths",
+    "id": "arithset1q048",
     "question": "एक व्यक्ति 5 km/h की चाल से चलने पर अपने गंतव्य पर 10 मिनट देर से और 6 km/h की चाल से चलने पर 10 मिनट पहले पहुँचता है। गंतव्य की दूरी कितनी है?",
     "options": [
       {
@@ -1338,14 +1243,12 @@
       }
     ],
     "correctAnswer": "C",
-    "topicId": "time-speed-distance",
+    "explanation": "सही उत्तर: C) 10 km। हल: माना दूरी d km है। समय का अंतर = 20 मिनट = 1/3 घंटा। d/5 − d/6 = 1/3 ⇒ d/30 = 1/3 ⇒ d = 10 km।",
     "difficulty": "hard",
-    "explanation": "माना दूरी d km है। समय का अंतर = 20 मिनट = 1/3 घंटा। d/5 − d/6 = 1/3 ⇒ d/30 = 1/3 ⇒ d = 10 km।",
     "language": "hi"
   },
   {
-    "id": "trainset1q49",
-    "subjectId": "maths",
+    "id": "arithset1q049",
     "question": "100 मीटर लंबी एक रेलगाड़ी 72 km/h की चाल से उसी दिशा में 36 km/h की चाल से चल रही 150 मीटर लंबी दूसरी रेलगाड़ी को कितने समय में पार कर लेगी?",
     "options": [
       {
@@ -1366,14 +1269,12 @@
       }
     ],
     "correctAnswer": "B",
-    "topicId": "trains",
+    "explanation": "सही उत्तर: B) 25 सेकंड। हल: समान दिशा में सापेक्ष चाल = 72 − 36 = 36 km/h = 10 m/s। कुल दूरी = 100 + 150 = 250 m। समय = 250/10 = 25 सेकंड।",
     "difficulty": "hard",
-    "explanation": "समान दिशा में सापेक्ष चाल = 72 − 36 = 36 km/h = 10 m/s। कुल दूरी = 100 + 150 = 250 m। समय = 250/10 = 25 सेकंड।",
     "language": "hi"
   },
   {
-    "id": "boatset1q50",
-    "subjectId": "maths",
+    "id": "arithset1q050",
     "question": "स्थिर जल में नाव की चाल 15 km/h और धारा की चाल 5 km/h है। नाव किसी स्थान तक जाकर वापस आने में कुल 12 घंटे का समय लेती है। वह स्थान कितनी दूरी पर है?",
     "options": [
       {
@@ -1394,9 +1295,8 @@
       }
     ],
     "correctAnswer": "D",
-    "topicId": "boats-streams",
+    "explanation": "सही उत्तर: D) 80 km। हल: धारा के अनुकूल चाल = 15 + 5 = 20 km/h, प्रतिकूल चाल = 15 − 5 = 10 km/h। d/20 + d/10 = 12 ⇒ 3d/20 = 12 ⇒ d = 80 km।",
     "difficulty": "hard",
-    "explanation": "धारा के अनुकूल चाल = 15 + 5 = 20 km/h, प्रतिकूल चाल = 15 − 5 = 10 km/h। d/20 + d/10 = 12 ⇒ 3d/20 = 12 ⇒ d = 80 km।",
     "language": "hi"
   }
 ]
