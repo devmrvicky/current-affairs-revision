@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "syn151",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to DISPARAGE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Venerate"
+      },
+      {
+        "id": "B",
+        "text": "Exonerate"
+      },
+      {
+        "id": "C",
+        "text": "Facilitate"
+      },
+      {
+        "id": "D",
+        "text": "Belittle"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn152",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to SANGUINE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Truculent"
+      },
+      {
+        "id": "B",
+        "text": "Optimistic"
+      },
+      {
+        "id": "C",
+        "text": "Meticulous"
+      },
+      {
+        "id": "D",
+        "text": "Pessimistic"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn153",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to EXONERATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reprimand"
+      },
+      {
+        "id": "B",
+        "text": "Ostracise"
+      },
+      {
+        "id": "C",
+        "text": "Absolve"
+      },
+      {
+        "id": "D",
+        "text": "Incriminate"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn154",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to OBFUSCATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fortify"
+      },
+      {
+        "id": "B",
+        "text": "Obscure"
+      },
+      {
+        "id": "C",
+        "text": "Disseminate"
+      },
+      {
+        "id": "D",
+        "text": "Reconcile"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn155",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to PRODIGAL.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meticulous"
+      },
+      {
+        "id": "B",
+        "text": "Stoical"
+      },
+      {
+        "id": "C",
+        "text": "Prudent"
+      },
+      {
+        "id": "D",
+        "text": "Wasteful"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn156",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to ABATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Subside"
+      },
+      {
+        "id": "B",
+        "text": "Escalate"
+      },
+      {
+        "id": "C",
+        "text": "Prohibit"
+      },
+      {
+        "id": "D",
+        "text": "Commence"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn157",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to TACITURN.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jocular"
+      },
+      {
+        "id": "B",
+        "text": "Reticent"
+      },
+      {
+        "id": "C",
+        "text": "Loquacious"
+      },
+      {
+        "id": "D",
+        "text": "Impetuous"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn158",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to SPORADIC.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perpetual"
+      },
+      {
+        "id": "B",
+        "text": "Uniform"
+      },
+      {
+        "id": "C",
+        "text": "Ubiquitous"
+      },
+      {
+        "id": "D",
+        "text": "Intermittent"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn159",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to PERNICIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meticulous"
+      },
+      {
+        "id": "B",
+        "text": "Beneficial"
+      },
+      {
+        "id": "C",
+        "text": "Detrimental"
+      },
+      {
+        "id": "D",
+        "text": "Harmless"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn160",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to VICISSITUDE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fluctuation"
+      },
+      {
+        "id": "B",
+        "text": "Serenity"
+      },
+      {
+        "id": "C",
+        "text": "Permanence"
+      },
+      {
+        "id": "D",
+        "text": "Prosperity"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn161",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to INSIPID.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Piquant"
+      },
+      {
+        "id": "B",
+        "text": "Pristine"
+      },
+      {
+        "id": "C",
+        "text": "Arduous"
+      },
+      {
+        "id": "D",
+        "text": "Bland"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn162",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to EBULLIENT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Morose"
+      },
+      {
+        "id": "B",
+        "text": "Austere"
+      },
+      {
+        "id": "C",
+        "text": "Exuberant"
+      },
+      {
+        "id": "D",
+        "text": "Lethargic"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn163",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to OBSEQUIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sycophantic"
+      },
+      {
+        "id": "B",
+        "text": "Defiant"
+      },
+      {
+        "id": "C",
+        "text": "Placid"
+      },
+      {
+        "id": "D",
+        "text": "Arrogant"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn164",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to SURREPTITIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Languid"
+      },
+      {
+        "id": "B",
+        "text": "Clandestine"
+      },
+      {
+        "id": "C",
+        "text": "Capricious"
+      },
+      {
+        "id": "D",
+        "text": "Overt"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn165",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to GRATUITOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unwarranted"
+      },
+      {
+        "id": "B",
+        "text": "Meticulous"
+      },
+      {
+        "id": "C",
+        "text": "Reluctant"
+      },
+      {
+        "id": "D",
+        "text": "Perceptive"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn166",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to COVERT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Garrulous"
+      },
+      {
+        "id": "B",
+        "text": "Concealed"
+      },
+      {
+        "id": "C",
+        "text": "Conspicuous"
+      },
+      {
+        "id": "D",
+        "text": "Arduous"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn167",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to OBSTREPEROUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Timorous"
+      },
+      {
+        "id": "B",
+        "text": "Morose"
+      },
+      {
+        "id": "C",
+        "text": "Docile"
+      },
+      {
+        "id": "D",
+        "text": "Clamorous"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn168",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to INEVITABLE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Improbable"
+      },
+      {
+        "id": "B",
+        "text": "Arbitrary"
+      },
+      {
+        "id": "C",
+        "text": "Unavoidable"
+      },
+      {
+        "id": "D",
+        "text": "Reversible"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn169",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to MOROSE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jubilant"
+      },
+      {
+        "id": "B",
+        "text": "Sullen"
+      },
+      {
+        "id": "C",
+        "text": "Candid"
+      },
+      {
+        "id": "D",
+        "text": "Benevolent"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn170",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to PARSIMONIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Frugal"
+      },
+      {
+        "id": "B",
+        "text": "Lavish"
+      },
+      {
+        "id": "C",
+        "text": "Credulous"
+      },
+      {
+        "id": "D",
+        "text": "Impulsive"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn171",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to AMELIORATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hamper"
+      },
+      {
+        "id": "B",
+        "text": "Stagnate"
+      },
+      {
+        "id": "C",
+        "text": "Deteriorate"
+      },
+      {
+        "id": "D",
+        "text": "Improve"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn172",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to EPITOME.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obstacle"
+      },
+      {
+        "id": "B",
+        "text": "Anomaly"
+      },
+      {
+        "id": "C",
+        "text": "Embodiment"
+      },
+      {
+        "id": "D",
+        "text": "Paradox"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn173",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to IMPEDIMENT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Incentive"
+      },
+      {
+        "id": "B",
+        "text": "Obstacle"
+      },
+      {
+        "id": "C",
+        "text": "Remedy"
+      },
+      {
+        "id": "D",
+        "text": "Solace"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn174",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to NONCHALANT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unconcerned"
+      },
+      {
+        "id": "B",
+        "text": "Anxious"
+      },
+      {
+        "id": "C",
+        "text": "Vigilant"
+      },
+      {
+        "id": "D",
+        "text": "Zealous"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn175",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to RANCOR.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amity"
+      },
+      {
+        "id": "B",
+        "text": "Languor"
+      },
+      {
+        "id": "C",
+        "text": "Animosity"
+      },
+      {
+        "id": "D",
+        "text": "Candour"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn176",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to PROFOUND.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ostensible"
+      },
+      {
+        "id": "B",
+        "text": "Frivolous"
+      },
+      {
+        "id": "C",
+        "text": "Fleeting"
+      },
+      {
+        "id": "D",
+        "text": "Deep"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn177",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to DESULTORY.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ardent"
+      },
+      {
+        "id": "B",
+        "text": "Methodical"
+      },
+      {
+        "id": "C",
+        "text": "Haphazard"
+      },
+      {
+        "id": "D",
+        "text": "Resolute"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn178",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to OSTENTATIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Showy"
+      },
+      {
+        "id": "B",
+        "text": "Humble"
+      },
+      {
+        "id": "C",
+        "text": "Lethargic"
+      },
+      {
+        "id": "D",
+        "text": "Cryptic"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn179",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to ZEALOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obstinate"
+      },
+      {
+        "id": "B",
+        "text": "Apathetic"
+      },
+      {
+        "id": "C",
+        "text": "Pompous"
+      },
+      {
+        "id": "D",
+        "text": "Fervent"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn180",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to ELUSIVE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conspicuous"
+      },
+      {
+        "id": "B",
+        "text": "Evasive"
+      },
+      {
+        "id": "C",
+        "text": "Garrulous"
+      },
+      {
+        "id": "D",
+        "text": "Obdurate"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn181",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to INIMICAL.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Congenial"
+      },
+      {
+        "id": "B",
+        "text": "Diffident"
+      },
+      {
+        "id": "C",
+        "text": "Salubrious"
+      },
+      {
+        "id": "D",
+        "text": "Hostile"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn182",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to RELINQUISH.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pursue"
+      },
+      {
+        "id": "B",
+        "text": "Surrender"
+      },
+      {
+        "id": "C",
+        "text": "Preserve"
+      },
+      {
+        "id": "D",
+        "text": "Accumulate"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn183",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to FRACTIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unruly"
+      },
+      {
+        "id": "B",
+        "text": "Frugal"
+      },
+      {
+        "id": "C",
+        "text": "Placid"
+      },
+      {
+        "id": "D",
+        "text": "Affable"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn184",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to ERUDITE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Belligerent"
+      },
+      {
+        "id": "B",
+        "text": "Frugal"
+      },
+      {
+        "id": "C",
+        "text": "Scholarly"
+      },
+      {
+        "id": "D",
+        "text": "Naive"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn185",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to PROFLIGATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Frugal"
+      },
+      {
+        "id": "B",
+        "text": "Extravagant"
+      },
+      {
+        "id": "C",
+        "text": "Meticulous"
+      },
+      {
+        "id": "D",
+        "text": "Pious"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn186",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to INEXORABLE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unrelenting"
+      },
+      {
+        "id": "B",
+        "text": "Lenient"
+      },
+      {
+        "id": "C",
+        "text": "Fickle"
+      },
+      {
+        "id": "D",
+        "text": "Gregarious"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn187",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to HAPLESS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fortunate"
+      },
+      {
+        "id": "B",
+        "text": "Jubilant"
+      },
+      {
+        "id": "C",
+        "text": "Reckless"
+      },
+      {
+        "id": "D",
+        "text": "Luckless"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn188",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to MALLEABLE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Infallible"
+      },
+      {
+        "id": "B",
+        "text": "Rancorous"
+      },
+      {
+        "id": "C",
+        "text": "Pliable"
+      },
+      {
+        "id": "D",
+        "text": "Stoical"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn189",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to LUGUBRIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jovial"
+      },
+      {
+        "id": "B",
+        "text": "Pompous"
+      },
+      {
+        "id": "C",
+        "text": "Candid"
+      },
+      {
+        "id": "D",
+        "text": "Mournful"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn190",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to INSATIABLE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Complacent"
+      },
+      {
+        "id": "B",
+        "text": "Unquenchable"
+      },
+      {
+        "id": "C",
+        "text": "Abstemious"
+      },
+      {
+        "id": "D",
+        "text": "Indolent"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn191",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to PROPITIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Auspicious"
+      },
+      {
+        "id": "B",
+        "text": "Pensive"
+      },
+      {
+        "id": "C",
+        "text": "Ominous"
+      },
+      {
+        "id": "D",
+        "text": "Obdurate"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn192",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to TEMERITY.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prudence"
+      },
+      {
+        "id": "B",
+        "text": "Timidity"
+      },
+      {
+        "id": "C",
+        "text": "Audacity"
+      },
+      {
+        "id": "D",
+        "text": "Candour"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn193",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to ARDENT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Morose"
+      },
+      {
+        "id": "B",
+        "text": "Passionate"
+      },
+      {
+        "id": "C",
+        "text": "Apathetic"
+      },
+      {
+        "id": "D",
+        "text": "Obstinate"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn194",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to ZENITH.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nadir"
+      },
+      {
+        "id": "B",
+        "text": "Equilibrium"
+      },
+      {
+        "id": "C",
+        "text": "Threshold"
+      },
+      {
+        "id": "D",
+        "text": "Pinnacle"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn195",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to CIRCUMSPECT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prudent"
+      },
+      {
+        "id": "B",
+        "text": "Impetuous"
+      },
+      {
+        "id": "C",
+        "text": "Candid"
+      },
+      {
+        "id": "D",
+        "text": "Garrulous"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn196",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to OBSOLETE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lucrative"
+      },
+      {
+        "id": "B",
+        "text": "Salient"
+      },
+      {
+        "id": "C",
+        "text": "Outdated"
+      },
+      {
+        "id": "D",
+        "text": "Contemporary"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn197",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to SUPERFLUOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Redundant"
+      },
+      {
+        "id": "B",
+        "text": "Scarce"
+      },
+      {
+        "id": "C",
+        "text": "Essential"
+      },
+      {
+        "id": "D",
+        "text": "Eminent"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn198",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to PERSPICACIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indifferent"
+      },
+      {
+        "id": "B",
+        "text": "Astute"
+      },
+      {
+        "id": "C",
+        "text": "Ignorant"
+      },
+      {
+        "id": "D",
+        "text": "Gullible"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn199",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to ASSIDUOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Impulsive"
+      },
+      {
+        "id": "B",
+        "text": "Arrogant"
+      },
+      {
+        "id": "C",
+        "text": "Timorous"
+      },
+      {
+        "id": "D",
+        "text": "Industrious"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn200",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to QUELL.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exalt"
+      },
+      {
+        "id": "B",
+        "text": "Prolong"
+      },
+      {
+        "id": "C",
+        "text": "Suppress"
+      },
+      {
+        "id": "D",
+        "text": "Incite"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  }
+]
