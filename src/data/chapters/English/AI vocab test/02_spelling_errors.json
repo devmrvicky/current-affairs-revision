@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_spl_031",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acquaintence"
+      },
+      {
+        "id": "B",
+        "text": "Aquaintance"
+      },
+      {
+        "id": "C",
+        "text": "Acquantance"
+      },
+      {
+        "id": "D",
+        "text": "Acquaintance"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Acquaintance (acq + uaint + ance) = परिचित व्यक्ति / जान-पहचान। Example: He is just an acquaintance, not a close friend.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_032",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Calendar"
+      },
+      {
+        "id": "B",
+        "text": "Calendor"
+      },
+      {
+        "id": "C",
+        "text": "Callendar"
+      },
+      {
+        "id": "D",
+        "text": "Calandar"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Calendar (cal + end + ar) = कैलेंडर, पंचांग। Example: Mark the exam date on your calendar.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_033",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Changeble"
+      },
+      {
+        "id": "B",
+        "text": "Changeable"
+      },
+      {
+        "id": "C",
+        "text": "Changable"
+      },
+      {
+        "id": "D",
+        "text": "Chengeable"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Changeable ('e' बना रहता है) = परिवर्तनशील। Example: The weather in the hills is changeable.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_034",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Collegue"
+      },
+      {
+        "id": "B",
+        "text": "Colleage"
+      },
+      {
+        "id": "C",
+        "text": "Colleague"
+      },
+      {
+        "id": "D",
+        "text": "Collegeue"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Colleague (coll + eague) = सहकर्मी। Example: My colleague helped me finish the report.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_035",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conscientious"
+      },
+      {
+        "id": "B",
+        "text": "Consciencious"
+      },
+      {
+        "id": "C",
+        "text": "Conscentious"
+      },
+      {
+        "id": "D",
+        "text": "Conscientous"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Conscientious (scient + ious) = कर्तव्यनिष्ठ, ईमानदार। Example: She is a conscientious student who never skips homework.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_036",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conveniance"
+      },
+      {
+        "id": "B",
+        "text": "Convinience"
+      },
+      {
+        "id": "C",
+        "text": "Convenence"
+      },
+      {
+        "id": "D",
+        "text": "Convenience"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Convenience (veni + ence) = सुविधा। Example: The shop stays open late for the customers' convenience.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_037",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Disapoint"
+      },
+      {
+        "id": "B",
+        "text": "Disappoint"
+      },
+      {
+        "id": "C",
+        "text": "Dissapoint"
+      },
+      {
+        "id": "D",
+        "text": "Dissappoint"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Disappoint (dis + appoint: एक s, दो p) = निराश करना। Example: Don't disappoint your parents.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_038",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Disasterous"
+      },
+      {
+        "id": "B",
+        "text": "Disastrus"
+      },
+      {
+        "id": "C",
+        "text": "Disastrous"
+      },
+      {
+        "id": "D",
+        "text": "Dissastrous"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Disastrous (disaster का 'e' हट जाता है) = विनाशकारी। Example: The war had a disastrous effect on the economy.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_039",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Envirenment"
+      },
+      {
+        "id": "B",
+        "text": "Enviroment"
+      },
+      {
+        "id": "C",
+        "text": "Environment"
+      },
+      {
+        "id": "D",
+        "text": "Environmant"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Environment (environ + ment, 'n' याद रखें) = पर्यावरण। Example: We must protect the environment.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_040",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exagerrate"
+      },
+      {
+        "id": "B",
+        "text": "Exagerate"
+      },
+      {
+        "id": "C",
+        "text": "Exaggarate"
+      },
+      {
+        "id": "D",
+        "text": "Exaggerate"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Exaggerate (दो g) = बढ़ा-चढ़ाकर कहना। Example: Don't exaggerate; the fish was not that big.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_041",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exsistence"
+      },
+      {
+        "id": "B",
+        "text": "Existence"
+      },
+      {
+        "id": "C",
+        "text": "Existance"
+      },
+      {
+        "id": "D",
+        "text": "Existense"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Existence ('ence' पर समाप्त) = अस्तित्व। Example: Scientists are searching for proof of life's existence on other planets.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_042",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fluorescent"
+      },
+      {
+        "id": "B",
+        "text": "Fluoresent"
+      },
+      {
+        "id": "C",
+        "text": "Flourescent"
+      },
+      {
+        "id": "D",
+        "text": "Flouroscent"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Fluorescent (fluor + escent) = प्रतिदीप्त (चमकने वाला)। Example: A fluorescent tube lit up the classroom.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_043",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Guage"
+      },
+      {
+        "id": "B",
+        "text": "Gauge"
+      },
+      {
+        "id": "C",
+        "text": "Gaug"
+      },
+      {
+        "id": "D",
+        "text": "Gauje"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Gauge (g + au + ge) = मापना; मापक यंत्र। Example: The fuel gauge shows the tank is almost empty.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_044",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hierarcy"
+      },
+      {
+        "id": "B",
+        "text": "Hierachy"
+      },
+      {
+        "id": "C",
+        "text": "Heirarchy"
+      },
+      {
+        "id": "D",
+        "text": "Hierarchy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Hierarchy (hier + archy) = पदानुक्रम। Example: In the army, rank follows a strict hierarchy.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_045",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Independent"
+      },
+      {
+        "id": "B",
+        "text": "Indipendent"
+      },
+      {
+        "id": "C",
+        "text": "Independint"
+      },
+      {
+        "id": "D",
+        "text": "Independant"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Independent (dependent की तरह 'ent') = स्वतंत्र। Example: India became independent in 1947.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_046",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indispensabel"
+      },
+      {
+        "id": "B",
+        "text": "Indispensabal"
+      },
+      {
+        "id": "C",
+        "text": "Indispensable"
+      },
+      {
+        "id": "D",
+        "text": "Indispansable"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Indispensable ('able' पर समाप्त) = अनिवार्य। Example: Water is indispensable for life.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_047",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Knowldge"
+      },
+      {
+        "id": "B",
+        "text": "Knoledge"
+      },
+      {
+        "id": "C",
+        "text": "Knowledge"
+      },
+      {
+        "id": "D",
+        "text": "Knowlege"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Knowledge (know + ledge) = ज्ञान। Example: Reading increases your knowledge.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_048",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Libraray"
+      },
+      {
+        "id": "B",
+        "text": "Libary"
+      },
+      {
+        "id": "C",
+        "text": "Librery"
+      },
+      {
+        "id": "D",
+        "text": "Library"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Library (libr + ary) = पुस्तकालय। Example: I study in the college library every evening.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_049",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mischievous"
+      },
+      {
+        "id": "B",
+        "text": "Mischievious"
+      },
+      {
+        "id": "C",
+        "text": "Mischeivous"
+      },
+      {
+        "id": "D",
+        "text": "Mischevous"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Mischievous (mis + chiev + ous: 'ious' नहीं) = शरारती। Example: The mischievous boy hid his sister's shoes.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_050",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Noticeble"
+      },
+      {
+        "id": "B",
+        "text": "Noticeable"
+      },
+      {
+        "id": "C",
+        "text": "Noticable"
+      },
+      {
+        "id": "D",
+        "text": "Notisable"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Noticeable ('e' बना रहता है) = ध्यान देने योग्य। Example: There is a noticeable improvement in his handwriting.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_051",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ocassion"
+      },
+      {
+        "id": "B",
+        "text": "Occassion"
+      },
+      {
+        "id": "C",
+        "text": "Occation"
+      },
+      {
+        "id": "D",
+        "text": "Occasion"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Occasion (दो c, एक s) = अवसर। Example: She wore a new saree for the special occasion.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_052",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parralel"
+      },
+      {
+        "id": "B",
+        "text": "Parallal"
+      },
+      {
+        "id": "C",
+        "text": "Parallel"
+      },
+      {
+        "id": "D",
+        "text": "Paralel"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Parallel (para + ll + el) = समानांतर। Example: The two roads run parallel to each other.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_053",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perseverance"
+      },
+      {
+        "id": "B",
+        "text": "Perseveranse"
+      },
+      {
+        "id": "C",
+        "text": "Perseverence"
+      },
+      {
+        "id": "D",
+        "text": "Persaverance"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Perseverance (sever + ance) = लगन, दृढ़ता। Example: Perseverance is the key to cracking any exam.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_054",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Possesssion"
+      },
+      {
+        "id": "B",
+        "text": "Possession"
+      },
+      {
+        "id": "C",
+        "text": "Posession"
+      },
+      {
+        "id": "D",
+        "text": "Possesion"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Possession (poss + ess + ion: दो s, फिर दो s) = अधिकार, कब्ज़ा। Example: The police found stolen goods in his possession.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_055",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Recommand"
+      },
+      {
+        "id": "B",
+        "text": "Reccommend"
+      },
+      {
+        "id": "C",
+        "text": "Recomend"
+      },
+      {
+        "id": "D",
+        "text": "Recommend"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Recommend (एक c, दो m) = सिफ़ारिश करना। Example: I recommend this book to every aspirant.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_056",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Referrence"
+      },
+      {
+        "id": "B",
+        "text": "Reference"
+      },
+      {
+        "id": "C",
+        "text": "Referance"
+      },
+      {
+        "id": "D",
+        "text": "Refrence"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Reference (refer + ence) = संदर्भ। Example: Please give a reference from your last employer.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_057",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Relevent"
+      },
+      {
+        "id": "B",
+        "text": "Revelant"
+      },
+      {
+        "id": "C",
+        "text": "Relevant"
+      },
+      {
+        "id": "D",
+        "text": "Relavant"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Relevant (rele + vant) = प्रासंगिक। Example: Keep only relevant points in your answer.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_058",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Threshold"
+      },
+      {
+        "id": "B",
+        "text": "Threshhold"
+      },
+      {
+        "id": "C",
+        "text": "Thresold"
+      },
+      {
+        "id": "D",
+        "text": "Threshald"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Threshold (thresh + old) = दहलीज़। Example: He stood at the threshold of a new career.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_059",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wednessday"
+      },
+      {
+        "id": "B",
+        "text": "Wendesday"
+      },
+      {
+        "id": "C",
+        "text": "Wednesday"
+      },
+      {
+        "id": "D",
+        "text": "Wensday"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Wednesday ('d' लिखा जाता है पर बोला नहीं जाता) = बुधवार। Example: The test is on Wednesday.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_060",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sergeant"
+      },
+      {
+        "id": "B",
+        "text": "Seargeant"
+      },
+      {
+        "id": "C",
+        "text": "Sergent"
+      },
+      {
+        "id": "D",
+        "text": "Sargeant"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Sergeant (ser + geant) = सार्जेंट (सेना/पुलिस का पद)। Example: The sergeant ordered the soldiers to line up.",
+    "language": "en"
+  }
+]
