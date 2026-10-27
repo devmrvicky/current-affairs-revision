@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_ows_001",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who knows everything.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Omnivorous"
+      },
+      {
+        "id": "B",
+        "text": "Omnipotent"
+      },
+      {
+        "id": "C",
+        "text": "Omnipresent"
+      },
+      {
+        "id": "D",
+        "text": "Omniscient"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Omniscient = सब कुछ जानने वाला",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_002",
+    "subjectId": "english",
+    "question": "Choose the one word for: One who loves books.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Numismatist"
+      },
+      {
+        "id": "B",
+        "text": "Bibliophile"
+      },
+      {
+        "id": "C",
+        "text": "Philatelist"
+      },
+      {
+        "id": "D",
+        "text": "Philanthropist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Bibliophile = पुस्तकों का प्रेमी",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_003",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who does not believe in God.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Atheist"
+      },
+      {
+        "id": "B",
+        "text": "Theist"
+      },
+      {
+        "id": "C",
+        "text": "Agnostic"
+      },
+      {
+        "id": "D",
+        "text": "Monotheist"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Atheist = नास्तिक",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_004",
+    "subjectId": "english",
+    "question": "Choose the one word for: One who speaks many languages.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bilingual"
+      },
+      {
+        "id": "B",
+        "text": "Linguist"
+      },
+      {
+        "id": "C",
+        "text": "Polyglot"
+      },
+      {
+        "id": "D",
+        "text": "Monoglot"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Polyglot = बहुभाषी",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_005",
+    "subjectId": "english",
+    "question": "Choose the one word for: A place where birds are kept.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apiary"
+      },
+      {
+        "id": "B",
+        "text": "Kennel"
+      },
+      {
+        "id": "C",
+        "text": "Aviary"
+      },
+      {
+        "id": "D",
+        "text": "Aquarium"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Aviary = पक्षियों का बाड़ा",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_006",
+    "subjectId": "english",
+    "question": "Choose the one word for: Fear of heights.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hydrophobia"
+      },
+      {
+        "id": "B",
+        "text": "Claustrophobia"
+      },
+      {
+        "id": "C",
+        "text": "Xenophobia"
+      },
+      {
+        "id": "D",
+        "text": "Acrophobia"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Acrophobia = ऊँचाई से डर",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_007",
+    "subjectId": "english",
+    "question": "Choose the one word for: One who eats human flesh.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Omnivore"
+      },
+      {
+        "id": "B",
+        "text": "Cannibal"
+      },
+      {
+        "id": "C",
+        "text": "Carnivore"
+      },
+      {
+        "id": "D",
+        "text": "Herbivore"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Cannibal = नरभक्षी",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_008",
+    "subjectId": "english",
+    "question": "Choose the one word for: A speech delivered without preparation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Impromptu"
+      },
+      {
+        "id": "B",
+        "text": "Scripted"
+      },
+      {
+        "id": "C",
+        "text": "Prepared"
+      },
+      {
+        "id": "D",
+        "text": "Formal"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Impromptu = बिना तैयारी का भाषण",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_009",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who abstains from alcohol.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Teetotaler"
+      },
+      {
+        "id": "B",
+        "text": "Vegetarian"
+      },
+      {
+        "id": "C",
+        "text": "Miser"
+      },
+      {
+        "id": "D",
+        "text": "Glutton"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Teetotaler = शराब न पीने वाला",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_010",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who walks in sleep.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Narcoleptic"
+      },
+      {
+        "id": "B",
+        "text": "Somnambulist"
+      },
+      {
+        "id": "C",
+        "text": "Insomniac"
+      },
+      {
+        "id": "D",
+        "text": "Hypnotist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Somnambulist = नींद में चलने वाला",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_011",
+    "subjectId": "english",
+    "question": "Choose the one word for: Study of insects.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Etymology"
+      },
+      {
+        "id": "B",
+        "text": "Ornithology"
+      },
+      {
+        "id": "C",
+        "text": "Ecology"
+      },
+      {
+        "id": "D",
+        "text": "Entomology"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Entomology = कीटों का अध्ययन",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_012",
+    "subjectId": "english",
+    "question": "Choose the one word for: Study of birds.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Herpetology"
+      },
+      {
+        "id": "B",
+        "text": "Ichthyology"
+      },
+      {
+        "id": "C",
+        "text": "Ornithology"
+      },
+      {
+        "id": "D",
+        "text": "Apiology"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Ornithology = पक्षियों का अध्ययन",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_013",
+    "subjectId": "english",
+    "question": "Choose the one word for: Study of coins.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cartography"
+      },
+      {
+        "id": "B",
+        "text": "Philately"
+      },
+      {
+        "id": "C",
+        "text": "Numismatics"
+      },
+      {
+        "id": "D",
+        "text": "Speleology"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Numismatics = सिक्कों का अध्ययन",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_014",
+    "subjectId": "english",
+    "question": "Choose the one word for: Rule by a single person with unlimited power.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aristocracy"
+      },
+      {
+        "id": "B",
+        "text": "Oligarchy"
+      },
+      {
+        "id": "C",
+        "text": "Democracy"
+      },
+      {
+        "id": "D",
+        "text": "Autocracy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Autocracy = निरंकुश शासन",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_015",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who is easily angered.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gentle"
+      },
+      {
+        "id": "B",
+        "text": "Irascible"
+      },
+      {
+        "id": "C",
+        "text": "Docile"
+      },
+      {
+        "id": "D",
+        "text": "Placid"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Irascible = चिड़चिड़ा, जल्दी गुस्सा होने वाला",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_016",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person excessively fond of himself.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Egotist"
+      },
+      {
+        "id": "B",
+        "text": "Humanist"
+      },
+      {
+        "id": "C",
+        "text": "Altruist"
+      },
+      {
+        "id": "D",
+        "text": "Philanthropist"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Egotist = स्वार्थी / आत्ममुग्ध",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_017",
+    "subjectId": "english",
+    "question": "Choose the one word for: That which cannot be corrected.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Illegible"
+      },
+      {
+        "id": "B",
+        "text": "Intangible"
+      },
+      {
+        "id": "C",
+        "text": "Incorrigible"
+      },
+      {
+        "id": "D",
+        "text": "Corrigible"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Incorrigible = जिसे सुधारा न जा सके",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_018",
+    "subjectId": "english",
+    "question": "Choose the one word for: A place where the dead are buried.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Monastery"
+      },
+      {
+        "id": "B",
+        "text": "Crematorium"
+      },
+      {
+        "id": "C",
+        "text": "Mortuary"
+      },
+      {
+        "id": "D",
+        "text": "Cemetery"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Cemetery = कब्रिस्तान / समाधि-स्थल",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_019",
+    "subjectId": "english",
+    "question": "Choose the one word for: Killing of a king.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Regicide"
+      },
+      {
+        "id": "B",
+        "text": "Patricide"
+      },
+      {
+        "id": "C",
+        "text": "Infanticide"
+      },
+      {
+        "id": "D",
+        "text": "Matricide"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Regicide = राजा की हत्या",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_020",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who collects stamps.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bibliophile"
+      },
+      {
+        "id": "B",
+        "text": "Philatelist"
+      },
+      {
+        "id": "C",
+        "text": "Cartographer"
+      },
+      {
+        "id": "D",
+        "text": "Numismatist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Philatelist = डाक टिकट संग्रहकर्ता",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_021",
+    "subjectId": "english",
+    "question": "Choose the one word for: A life story written by the person himself.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chronicle"
+      },
+      {
+        "id": "B",
+        "text": "Autobiography"
+      },
+      {
+        "id": "C",
+        "text": "Diary"
+      },
+      {
+        "id": "D",
+        "text": "Biography"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Autobiography = आत्मकथा",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_022",
+    "subjectId": "english",
+    "question": "Choose the one word for: Fear of water.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Claustrophobia"
+      },
+      {
+        "id": "B",
+        "text": "Agoraphobia"
+      },
+      {
+        "id": "C",
+        "text": "Hydrophobia"
+      },
+      {
+        "id": "D",
+        "text": "Acrophobia"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Hydrophobia = पानी से डर",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_023",
+    "subjectId": "english",
+    "question": "Choose the one word for: One who hates mankind.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Misogynist"
+      },
+      {
+        "id": "B",
+        "text": "Misogamist"
+      },
+      {
+        "id": "C",
+        "text": "Philanthropist"
+      },
+      {
+        "id": "D",
+        "text": "Misanthrope"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Misanthrope = मानव-द्वेषी",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_024",
+    "subjectId": "english",
+    "question": "Choose the one word for: Beautiful or artistic handwriting.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Calligraphy"
+      },
+      {
+        "id": "B",
+        "text": "Biography"
+      },
+      {
+        "id": "C",
+        "text": "Stenography"
+      },
+      {
+        "id": "D",
+        "text": "Lithography"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Calligraphy = सुलेख",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_025",
+    "subjectId": "english",
+    "question": "Choose the one word for: A group of singers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Band"
+      },
+      {
+        "id": "B",
+        "text": "Orchestra"
+      },
+      {
+        "id": "C",
+        "text": "Choir"
+      },
+      {
+        "id": "D",
+        "text": "Troupe"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Choir = गायक-मंडली",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_026",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who cannot read or write.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scholar"
+      },
+      {
+        "id": "B",
+        "text": "Illiterate"
+      },
+      {
+        "id": "C",
+        "text": "Ignorant"
+      },
+      {
+        "id": "D",
+        "text": "Literate"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Illiterate = निरक्षर",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_027",
+    "subjectId": "english",
+    "question": "Choose the one word for: A period of one hundred years.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Century"
+      },
+      {
+        "id": "B",
+        "text": "Millennium"
+      },
+      {
+        "id": "C",
+        "text": "Decade"
+      },
+      {
+        "id": "D",
+        "text": "Epoch"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Century = शताब्दी",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_028",
+    "subjectId": "english",
+    "question": "Choose the one word for: A speech delivered in praise of the dead.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Monologue"
+      },
+      {
+        "id": "B",
+        "text": "Prologue"
+      },
+      {
+        "id": "C",
+        "text": "Epilogue"
+      },
+      {
+        "id": "D",
+        "text": "Eulogy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Eulogy = प्रशंसा-भाषण / श्रद्धांजलि",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_029",
+    "subjectId": "english",
+    "question": "Choose the one word for: A place where ships are built or repaired.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Port"
+      },
+      {
+        "id": "B",
+        "text": "Marina"
+      },
+      {
+        "id": "C",
+        "text": "Harbour"
+      },
+      {
+        "id": "D",
+        "text": "Dockyard"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Dockyard = जहाज़ बनाने/मरम्मत का स्थान",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_030",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who studies the structure and functioning of society.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Psychologist"
+      },
+      {
+        "id": "B",
+        "text": "Sociologist"
+      },
+      {
+        "id": "C",
+        "text": "Anthropologist"
+      },
+      {
+        "id": "D",
+        "text": "Theologist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Sociologist = समाजशास्त्री",
+    "language": "en"
+  }
+]
