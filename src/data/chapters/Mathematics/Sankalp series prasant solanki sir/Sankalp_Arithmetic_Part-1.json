@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "sankalp001",
+    "question": "200 का 25% कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "40"
+      },
+      {
+        "id": "B",
+        "text": "45"
+      },
+      {
+        "id": "C",
+        "text": "50"
+      },
+      {
+        "id": "D",
+        "text": "55"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 50",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp002",
+    "question": "20% को भिन्न में बदलें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/5"
+      },
+      {
+        "id": "B",
+        "text": "1/4"
+      },
+      {
+        "id": "C",
+        "text": "1/10"
+      },
+      {
+        "id": "D",
+        "text": "1/2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 1/5",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp003",
+    "question": "35% को भिन्न में बदलें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "3/20"
+      },
+      {
+        "id": "B",
+        "text": "7/20"
+      },
+      {
+        "id": "C",
+        "text": "7/10"
+      },
+      {
+        "id": "D",
+        "text": "1/3"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 7/20",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp004",
+    "question": "75% को भिन्न में बदलें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "2/3"
+      },
+      {
+        "id": "B",
+        "text": "4/5"
+      },
+      {
+        "id": "C",
+        "text": "3/4"
+      },
+      {
+        "id": "D",
+        "text": "5/4"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 3/4",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp005",
+    "question": "0.8 को प्रतिशत में बदलें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "8%"
+      },
+      {
+        "id": "B",
+        "text": "80%"
+      },
+      {
+        "id": "C",
+        "text": "0.8%"
+      },
+      {
+        "id": "D",
+        "text": "800%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 80%",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp006",
+    "question": "0.75 को प्रतिशत में बदलें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "70%"
+      },
+      {
+        "id": "B",
+        "text": "75%"
+      },
+      {
+        "id": "C",
+        "text": "7.5%"
+      },
+      {
+        "id": "D",
+        "text": "0.75%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 75%",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp007",
+    "question": "1 को प्रतिशत में बदलें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "10%"
+      },
+      {
+        "id": "B",
+        "text": "1%"
+      },
+      {
+        "id": "C",
+        "text": "100%"
+      },
+      {
+        "id": "D",
+        "text": "1000%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 100%",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp008",
+    "question": "1/2 को प्रतिशत में बदलें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "25%"
+      },
+      {
+        "id": "B",
+        "text": "50%"
+      },
+      {
+        "id": "C",
+        "text": "75%"
+      },
+      {
+        "id": "D",
+        "text": "12.5%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 50%",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp009",
+    "question": "1/3 को प्रतिशत में बदलें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "30%"
+      },
+      {
+        "id": "B",
+        "text": "33⅓%"
+      },
+      {
+        "id": "C",
+        "text": "3.33%"
+      },
+      {
+        "id": "D",
+        "text": "66⅔%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 33⅓%",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp010",
+    "question": "1/5 को प्रतिशत में बदलें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "5%"
+      },
+      {
+        "id": "B",
+        "text": "10%"
+      },
+      {
+        "id": "C",
+        "text": "20%"
+      },
+      {
+        "id": "D",
+        "text": "25%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 20%",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp011",
+    "question": "1/8 को प्रतिशत में बदलें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "6.25%"
+      },
+      {
+        "id": "B",
+        "text": "8%"
+      },
+      {
+        "id": "C",
+        "text": "12.5%"
+      },
+      {
+        "id": "D",
+        "text": "15%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 12.5%",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp012",
+    "question": "निम्नलिखित में से कौन-सा मान सबसे कम है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "18% of 450"
+      },
+      {
+        "id": "B",
+        "text": "20% of 380"
+      },
+      {
+        "id": "C",
+        "text": "25% of 300"
+      },
+      {
+        "id": "D",
+        "text": "30% of 240"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 30% of 240",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp013",
+    "question": "120 km की दूरी को गलती से 126 km मापा गया। त्रुटि प्रतिशत कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7%"
+      },
+      {
+        "id": "B",
+        "text": "5%"
+      },
+      {
+        "id": "C",
+        "text": "8%"
+      },
+      {
+        "id": "D",
+        "text": "6%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 5%",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp014",
+    "question": "एक गाँव की जनसंख्या एक वर्ष में 20,000 से बढ़कर 23,000 हो गई। प्रतिशत वृद्धि कितनी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "13%"
+      },
+      {
+        "id": "B",
+        "text": "12%"
+      },
+      {
+        "id": "C",
+        "text": "10%"
+      },
+      {
+        "id": "D",
+        "text": "15%"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 15%",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp015",
+    "question": "दो संख्याएँ किसी तीसरी संख्या से क्रमशः 61% और 35% कम हैं। पहली संख्या दूसरी संख्या का कितना प्रतिशत है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "60%"
+      },
+      {
+        "id": "B",
+        "text": "24%"
+      },
+      {
+        "id": "C",
+        "text": "48%"
+      },
+      {
+        "id": "D",
+        "text": "30%"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 60%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp016",
+    "question": "भिन्न 4/5 को बदलकर 5/6 कर दिया गया। भिन्न में प्रतिशत परिवर्तन कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4.73%"
+      },
+      {
+        "id": "B",
+        "text": "4.1%"
+      },
+      {
+        "id": "C",
+        "text": "4.17%"
+      },
+      {
+        "id": "D",
+        "text": "4.37%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 4.17%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp017",
+    "question": "एक संख्या में 49% की कमी की जाती है। मूल संख्या वापस पाने के लिए कम हुई संख्या में लगभग कितने प्रतिशत की वृद्धि करनी होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "96.08%"
+      },
+      {
+        "id": "B",
+        "text": "49%"
+      },
+      {
+        "id": "C",
+        "text": "51%"
+      },
+      {
+        "id": "D",
+        "text": "98%"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 96.08%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp018",
+    "question": "एक संख्या में 67% की कमी की जाती है। मूल संख्या वापस पाने के लिए कम हुई संख्या में कितने प्रतिशत की वृद्धि करनी होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "203.03%"
+      },
+      {
+        "id": "B",
+        "text": "167%"
+      },
+      {
+        "id": "C",
+        "text": "67%"
+      },
+      {
+        "id": "D",
+        "text": "133.33%"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 203.03%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp019",
+    "question": "किसी वस्तु का मूल्य 79% घटा दिया जाता है। मूल मूल्य पाने के लिए घटे हुए मूल्य में कितने प्रतिशत की वृद्धि करनी होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "375%"
+      },
+      {
+        "id": "B",
+        "text": "376.19%"
+      },
+      {
+        "id": "C",
+        "text": "379%"
+      },
+      {
+        "id": "D",
+        "text": "79%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 376.19%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp020",
+    "question": "एक संख्या में 18% की वृद्धि की जाती है। मूल संख्या पाने के लिए बढ़ी हुई संख्या को कितने प्रतिशत कम करना चाहिए?",
+    "options": [
+      {
+        "id": "A",
+        "text": "16.95%"
+      },
+      {
+        "id": "B",
+        "text": "15.25%"
+      },
+      {
+        "id": "C",
+        "text": "17.5%"
+      },
+      {
+        "id": "D",
+        "text": "14.48%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 15.25%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp021",
+    "question": "पहले वर्ष में जनसंख्या 12% घटती है। दूसरे वर्ष में कितने प्रतिशत की वृद्धि होनी चाहिए ताकि जनसंख्या मूल संख्या के बराबर हो जाए?",
+    "options": [
+      {
+        "id": "A",
+        "text": "13.64%"
+      },
+      {
+        "id": "B",
+        "text": "11.6%"
+      },
+      {
+        "id": "C",
+        "text": "14.6%"
+      },
+      {
+        "id": "D",
+        "text": "12.5%"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 13.64%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp022",
+    "question": "CNG की कीमत प्रति लीटर 65% बढ़ जाती है। खर्च को न बढ़ने देने के लिए मनीष को CNG की खपत कितने प्रतिशत कम करनी चाहिए? (दो दशमलव स्थान तक)",
+    "options": [
+      {
+        "id": "A",
+        "text": "39.39%"
+      },
+      {
+        "id": "B",
+        "text": "30.13%"
+      },
+      {
+        "id": "C",
+        "text": "45.13%"
+      },
+      {
+        "id": "D",
+        "text": "25.39%"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 39.39%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp023",
+    "question": "दो क्रमिक परिवर्तन +10% और +25% हैं। कुल प्रतिशत परिवर्तन ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "30%"
+      },
+      {
+        "id": "B",
+        "text": "35%"
+      },
+      {
+        "id": "C",
+        "text": "37.5%"
+      },
+      {
+        "id": "D",
+        "text": "40%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 37.5%",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp024",
+    "question": "किसी वस्तु के मूल्य में 25% और 25% की दो क्रमिक वृद्धियाँ, एकल कितनी प्रतिशत वृद्धि के बराबर हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "52.25%"
+      },
+      {
+        "id": "B",
+        "text": "50.25%"
+      },
+      {
+        "id": "C",
+        "text": "56.25%"
+      },
+      {
+        "id": "D",
+        "text": "48.50%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 56.25%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp025",
+    "question": "एक संख्या पहले 40% बढ़ाई जाती है और फिर 30% घटाई जाती है। शुद्ध प्रतिशत परिवर्तन क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2% वृद्धि"
+      },
+      {
+        "id": "B",
+        "text": "2% कमी"
+      },
+      {
+        "id": "C",
+        "text": "8% वृद्धि"
+      },
+      {
+        "id": "D",
+        "text": "8% कमी"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 2% कमी",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp026",
+    "question": "दो समान क्रमिक वेतन-वृद्धियों के बाद वेतन मूल वेतन का 156.25% हो गया। प्रत्येक वृद्धि का प्रतिशत कितना था?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20%"
+      },
+      {
+        "id": "B",
+        "text": "22%"
+      },
+      {
+        "id": "C",
+        "text": "25%"
+      },
+      {
+        "id": "D",
+        "text": "30%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 25%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp027",
+    "question": "एक संख्या पहले 10% घटाई जाती है, फिर 30% बढ़ाई जाती है और उसके बाद 20% घटाई जाती है। कुल शुद्ध प्रतिशत कमी कितनी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4.2%"
+      },
+      {
+        "id": "B",
+        "text": "6.4%"
+      },
+      {
+        "id": "C",
+        "text": "5.6%"
+      },
+      {
+        "id": "D",
+        "text": "3.8%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 6.4%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp028",
+    "question": "एक बैक्टीरिया कल्चर पहले 3 घंटे तक हर घंटे 20% बढ़ता है, चौथे घंटे में 10% घटता है और पाँचवें घंटे में 25% बढ़ता है। प्रारंभिक संख्या 5,000 हो, तो 5 घंटे बाद अनुमानित संख्या कितनी होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8,900"
+      },
+      {
+        "id": "B",
+        "text": "6,830"
+      },
+      {
+        "id": "C",
+        "text": "9,650"
+      },
+      {
+        "id": "D",
+        "text": "9,720"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 9,720",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp029",
+    "question": "एक गोले की त्रिज्या 20% बढ़ा दी जाती है। उसके आयतन में प्रतिशत वृद्धि कितनी होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "70.6%"
+      },
+      {
+        "id": "B",
+        "text": "75.5%"
+      },
+      {
+        "id": "C",
+        "text": "72.8%"
+      },
+      {
+        "id": "D",
+        "text": "68.5%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 72.8%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp030",
+    "question": "एक वर्गाकार भूखंड का क्षेत्रफल उसके मूल क्षेत्रफल का 225% हो जाता है। प्रत्येक भुजा में कितने प्रतिशत वृद्धि हुई?",
+    "options": [
+      {
+        "id": "A",
+        "text": "50%"
+      },
+      {
+        "id": "B",
+        "text": "100%"
+      },
+      {
+        "id": "C",
+        "text": "25%"
+      },
+      {
+        "id": "D",
+        "text": "50.5%"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 50%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp031",
+    "question": "राजू अपनी आय का 80% खर्च करता है। उसकी आय 20% बढ़ती है और खर्च 10% बढ़ता है। उसकी बचत में कितने प्रतिशत वृद्धि होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30%"
+      },
+      {
+        "id": "B",
+        "text": "48%"
+      },
+      {
+        "id": "C",
+        "text": "40%"
+      },
+      {
+        "id": "D",
+        "text": "60%"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 60%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp032",
+    "question": "एक फूड ट्रक प्रति माह 250 kg आटे का उपयोग करता है। नई विधि से आटे का उपयोग 20% कम हो जाता है। एक महीने में कितना आटा बचेगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "50 kg"
+      },
+      {
+        "id": "B",
+        "text": "10 kg"
+      },
+      {
+        "id": "C",
+        "text": "20 kg"
+      },
+      {
+        "id": "D",
+        "text": "30 kg"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 50 kg",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp033",
+    "question": "मोनिका की मासिक आय और खर्च का अनुपात 8:5 है। आय 20% और खर्च 30% बढ़ता है। उसकी मासिक बचत में कितने प्रतिशत परिवर्तन होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5.67% वृद्धि"
+      },
+      {
+        "id": "B",
+        "text": "5.67% कमी"
+      },
+      {
+        "id": "C",
+        "text": "3.33% वृद्धि"
+      },
+      {
+        "id": "D",
+        "text": "2.83% कमी"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 3.33% वृद्धि",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp034",
+    "question": "A की आय B की आय का 80% है और A का खर्च B के खर्च का 60% है। यदि A की आय, B के खर्च का 120% है, तो A की बचत B की बचत से कितने प्रतिशत अधिक है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15%"
+      },
+      {
+        "id": "B",
+        "text": "18%"
+      },
+      {
+        "id": "C",
+        "text": "20%"
+      },
+      {
+        "id": "D",
+        "text": "22%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 20%",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp035",
+    "question": "एक व्यक्ति अपनी आय का 35% म्यूचुअल फंड, 25% फिक्स्ड डिपॉज़िट और शेष रिकरिंग डिपॉज़िट में लगाता है। दो वर्षों में इन पर क्रमशः 20%, 10% और 15% वृद्धि होती है। कुल आय ₹1,60,000 हो, तो पूरे निवेश पर कुल प्रतिशत रिटर्न कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15.5%"
+      },
+      {
+        "id": "B",
+        "text": "15.25%"
+      },
+      {
+        "id": "C",
+        "text": "14.75%"
+      },
+      {
+        "id": "D",
+        "text": "16%"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 15.5%",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp036",
+    "question": "रवि को 40% अंक मिलते हैं और वह 30 अंकों से अनुत्तीर्ण होता है। सोहन को 50% अंक मिलते हैं और वह उत्तीर्णांक से 20 अंक अधिक पाता है। परीक्षा के अधिकतम अंक कितने हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "400"
+      },
+      {
+        "id": "B",
+        "text": "450"
+      },
+      {
+        "id": "C",
+        "text": "500"
+      },
+      {
+        "id": "D",
+        "text": "550"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 500",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp037",
+    "question": "उत्तीर्ण होने के लिए कम-से-कम 60% अंक चाहिए। एक विद्यार्थी को तीन समान भार वाली परीक्षाओं में क्रमशः 40%, 70% और x% अंक मिले। उत्तीर्ण होने के लिए x का न्यूनतम मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "70%"
+      },
+      {
+        "id": "B",
+        "text": "80%"
+      },
+      {
+        "id": "C",
+        "text": "75%"
+      },
+      {
+        "id": "D",
+        "text": "85%"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 70%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp038",
+    "question": "दो उम्मीदवारों के चुनाव में 20% मतदाताओं ने मतदान नहीं किया और डाले गए मतों में 10% अमान्य थे। विजेता को वैध मतों का 60% मिला और उसने 4,320 मतों से जीत हासिल की। कुल पंजीकृत मतदाता कितने थे?",
+    "options": [
+      {
+        "id": "A",
+        "text": "28,000"
+      },
+      {
+        "id": "B",
+        "text": "30,000"
+      },
+      {
+        "id": "C",
+        "text": "32,000"
+      },
+      {
+        "id": "D",
+        "text": "36,000"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 30,000",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp039",
+    "question": "एक चुनाव में 25% मतदाताओं ने मतदान नहीं किया। डाले गए मतों में 20% अमान्य थे। विजेता को वैध मतों के 60% मिले और उसने 2,400 मतों से जीत हासिल की। कुल मतदाता कितने थे?",
+    "options": [
+      {
+        "id": "A",
+        "text": "22,000"
+      },
+      {
+        "id": "B",
+        "text": "16,000"
+      },
+      {
+        "id": "C",
+        "text": "20,000"
+      },
+      {
+        "id": "D",
+        "text": "30,000"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 20,000",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp040",
+    "question": "दो उम्मीदवारों के चुनाव में 85% पंजीकृत मतदाताओं ने मतदान किया और डाले गए मतों में 4% अमान्य थे। एक उम्मीदवार को वैध मतों का 85%, यानी 6,936 मत मिले। कुल पंजीकृत मतदाता कितने थे?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10,500"
+      },
+      {
+        "id": "B",
+        "text": "10,800"
+      },
+      {
+        "id": "C",
+        "text": "10,000"
+      },
+      {
+        "id": "D",
+        "text": "10,700"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 10,000",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp041",
+    "question": "80% विद्यार्थी अंग्रेज़ी, 85% गणित और 73% दोनों विषयों में उत्तीर्ण हुए। दोनों विषयों में अनुत्तीर्ण विद्यार्थियों का प्रतिशत कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7%"
+      },
+      {
+        "id": "B",
+        "text": "8%"
+      },
+      {
+        "id": "C",
+        "text": "12%"
+      },
+      {
+        "id": "D",
+        "text": "15%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 8%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp042",
+    "question": "एक छात्रवृत्ति परीक्षा में 60% विद्यार्थी अंग्रेज़ी, 70% गणित और 45% दोनों विषयों में उत्तीर्ण हुए। कम-से-कम एक विषय में उत्तीर्ण विद्यार्थियों का प्रतिशत कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "90%"
+      },
+      {
+        "id": "B",
+        "text": "75%"
+      },
+      {
+        "id": "C",
+        "text": "85%"
+      },
+      {
+        "id": "D",
+        "text": "80%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 85%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp043",
+    "question": "एक सेल्समैन को कुल बिक्री पर 7.5% कमीशन और ₹20,000 से अधिक की बिक्री पर अतिरिक्त 0.5% बोनस मिलता है। यदि उसकी कुल कमाई ₹1,920 है, तो कुल बिक्री कितनी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "₹23,000"
+      },
+      {
+        "id": "B",
+        "text": "₹24,450"
+      },
+      {
+        "id": "C",
+        "text": "₹25,250"
+      },
+      {
+        "id": "D",
+        "text": "₹22,500"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) ₹25,250",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp044",
+    "question": "किसी वस्तु पर लाभ और क्रय मूल्य का अनुपात 3:8 है। विक्रय मूल्य और लाभ का अनुपात क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7:2"
+      },
+      {
+        "id": "B",
+        "text": "11:10"
+      },
+      {
+        "id": "C",
+        "text": "5:15"
+      },
+      {
+        "id": "D",
+        "text": "11:3"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 11:3",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp045",
+    "question": "एक दुकानदार ने वस्तु ₹2,500 में खरीदी और 12% लाभ पर बेची। विक्रय मूल्य कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "₹2,700"
+      },
+      {
+        "id": "B",
+        "text": "₹2,805"
+      },
+      {
+        "id": "C",
+        "text": "₹2,800"
+      },
+      {
+        "id": "D",
+        "text": "₹2,850"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) ₹2,800",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp046",
+    "question": "15 वस्तुओं का विक्रय मूल्य 20 वस्तुओं के क्रय मूल्य के बराबर है। लाभ या हानि का प्रतिशत क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "33⅓% लाभ"
+      },
+      {
+        "id": "B",
+        "text": "25% लाभ"
+      },
+      {
+        "id": "C",
+        "text": "20% हानि"
+      },
+      {
+        "id": "D",
+        "text": "25% हानि"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 33⅓% लाभ",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp047",
+    "question": "36 वस्तुओं का क्रय मूल्य, N वस्तुओं के विक्रय मूल्य के बराबर है। यदि लाभ 20% है, तो N का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25"
+      },
+      {
+        "id": "B",
+        "text": "42"
+      },
+      {
+        "id": "C",
+        "text": "40"
+      },
+      {
+        "id": "D",
+        "text": "30"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 30",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp048",
+    "question": "सचिन ने 153 कुर्सियाँ बेचीं और कुल लाभ 85 कुर्सियों के विक्रय मूल्य के बराबर था। लाभ प्रतिशत कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "135%"
+      },
+      {
+        "id": "B",
+        "text": "125%"
+      },
+      {
+        "id": "C",
+        "text": "120%"
+      },
+      {
+        "id": "D",
+        "text": "130%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 125%",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp049",
+    "question": "17 वस्तुएँ बेचने पर एक व्यापारी को 3 वस्तुओं के क्रय मूल्य के बराबर लाभ होता है। लाभ प्रतिशत कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15%"
+      },
+      {
+        "id": "B",
+        "text": "17.65%"
+      },
+      {
+        "id": "C",
+        "text": "20%"
+      },
+      {
+        "id": "D",
+        "text": "21.25%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 17.65%",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "sankalp050",
+    "question": "30 मीटर कपड़ा बेचने पर दुकानदार का लाभ, 10 मीटर कपड़े के विक्रय मूल्य के बराबर है। यदि 1 मीटर का क्रय मूल्य ₹480 है, तो 1 मीटर का विक्रय मूल्य कितना होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "₹520"
+      },
+      {
+        "id": "B",
+        "text": "₹720"
+      },
+      {
+        "id": "C",
+        "text": "₹960"
+      },
+      {
+        "id": "D",
+        "text": "₹820"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) ₹720",
+    "difficulty": "medium",
+    "language": "hi"
+  }
+]

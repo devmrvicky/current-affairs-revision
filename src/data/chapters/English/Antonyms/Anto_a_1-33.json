@@ -1,0 +1,926 @@
+[
+  {
+    "id": "anto001",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abandon\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Support"
+      },
+      {
+        "id": "B",
+        "text": "Continue"
+      },
+      {
+        "id": "C",
+        "text": "Keep"
+      },
+      {
+        "id": "D",
+        "text": "Retain"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Retain is the most appropriate antonym of \"Abandon\". Hindi meaning: बनाए रखना / न छोड़ना.",
+    "language": "en"
+  },
+  {
+    "id": "anto002",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abate\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Increase"
+      },
+      {
+        "id": "B",
+        "text": "Intensify"
+      },
+      {
+        "id": "C",
+        "text": "Aggravate"
+      },
+      {
+        "id": "D",
+        "text": "Extend"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Aggravate is the most appropriate antonym of \"Abate\". Hindi meaning: बढ़ाना / गंभीर करना.",
+    "language": "en"
+  },
+  {
+    "id": "anto003",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abbreviate\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lengthen"
+      },
+      {
+        "id": "B",
+        "text": "Enlarge"
+      },
+      {
+        "id": "C",
+        "text": "Elaborate"
+      },
+      {
+        "id": "D",
+        "text": "Expand"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Expand is the most appropriate antonym of \"Abbreviate\". Hindi meaning: विस्तार करना.",
+    "language": "en"
+  },
+  {
+    "id": "anto004",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abdicate\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Claim"
+      },
+      {
+        "id": "B",
+        "text": "Renounce"
+      },
+      {
+        "id": "C",
+        "text": "Assume"
+      },
+      {
+        "id": "D",
+        "text": "Assert"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Assert is the most appropriate antonym of \"Abdicate\". Hindi meaning: दावा/अधिकार जताना.",
+    "language": "en"
+  },
+  {
+    "id": "anto005",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abduct\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Free"
+      },
+      {
+        "id": "B",
+        "text": "Redeem"
+      },
+      {
+        "id": "C",
+        "text": "Kidnap"
+      },
+      {
+        "id": "D",
+        "text": "Release"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Redeem is the most appropriate antonym of \"Abduct\". Hindi meaning: मुक्त कराना / छुड़ाना.",
+    "language": "en"
+  },
+  {
+    "id": "anto006",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Aberration\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conformity"
+      },
+      {
+        "id": "B",
+        "text": "Deviation"
+      },
+      {
+        "id": "C",
+        "text": "Normality"
+      },
+      {
+        "id": "D",
+        "text": "Regularity"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Normality is the most appropriate antonym of \"Aberration\". Hindi meaning: सामान्यता.",
+    "language": "en"
+  },
+  {
+    "id": "anto007",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abeyance\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Progress"
+      },
+      {
+        "id": "B",
+        "text": "Resumption"
+      },
+      {
+        "id": "C",
+        "text": "Suspension"
+      },
+      {
+        "id": "D",
+        "text": "Continuation"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Continuation is the most appropriate antonym of \"Abeyance\". Hindi meaning: जारी रहना / निरंतरता.",
+    "language": "en"
+  },
+  {
+    "id": "anto008",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abide\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Refuse"
+      },
+      {
+        "id": "B",
+        "text": "Disobey"
+      },
+      {
+        "id": "C",
+        "text": "Reject"
+      },
+      {
+        "id": "D",
+        "text": "Dwell"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Reject is the most appropriate antonym of \"Abide\". Hindi meaning: अस्वीकार करना / न मानना.",
+    "language": "en"
+  },
+  {
+    "id": "anto009",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abjure\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Embrace"
+      },
+      {
+        "id": "B",
+        "text": "Acquire"
+      },
+      {
+        "id": "C",
+        "text": "Renounce"
+      },
+      {
+        "id": "D",
+        "text": "Accept"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Acquire is the most appropriate antonym of \"Abjure\". Hindi meaning: प्राप्त करना / स्वीकार करना.",
+    "language": "en"
+  },
+  {
+    "id": "anto010",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abolish\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maintain"
+      },
+      {
+        "id": "B",
+        "text": "Preserve"
+      },
+      {
+        "id": "C",
+        "text": "Establish"
+      },
+      {
+        "id": "D",
+        "text": "Continue"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Continue is the most appropriate antonym of \"Abolish\". Hindi meaning: जारी रखना / बनाए रखना.",
+    "language": "en"
+  },
+  {
+    "id": "anto011",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abominable\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pleasant"
+      },
+      {
+        "id": "B",
+        "text": "Delightful"
+      },
+      {
+        "id": "C",
+        "text": "Admirable"
+      },
+      {
+        "id": "D",
+        "text": "Repugnant"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Delightful is the most appropriate antonym of \"Abominable\". Hindi meaning: आनंददायक / मनोहर.",
+    "language": "en"
+  },
+  {
+    "id": "anto012",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abort\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Initiate"
+      },
+      {
+        "id": "B",
+        "text": "Commence"
+      },
+      {
+        "id": "C",
+        "text": "Terminate"
+      },
+      {
+        "id": "D",
+        "text": "Begin"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Commence is the most appropriate antonym of \"Abort\". Hindi meaning: आरंभ करना.",
+    "language": "en"
+  },
+  {
+    "id": "anto013",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abortive\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unsuccessful"
+      },
+      {
+        "id": "B",
+        "text": "Fruitful"
+      },
+      {
+        "id": "C",
+        "text": "Successful"
+      },
+      {
+        "id": "D",
+        "text": "Effective"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Successful is the most appropriate antonym of \"Abortive\". Hindi meaning: सफल.",
+    "language": "en"
+  },
+  {
+    "id": "anto014",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abound\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lack"
+      },
+      {
+        "id": "B",
+        "text": "Scarcity"
+      },
+      {
+        "id": "C",
+        "text": "Flourish"
+      },
+      {
+        "id": "D",
+        "text": "Deficiency"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Lack is the most appropriate antonym of \"Abound\". Hindi meaning: कमी / अभाव होना.",
+    "language": "en"
+  },
+  {
+    "id": "anto015",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abridge\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Extend"
+      },
+      {
+        "id": "B",
+        "text": "Expand"
+      },
+      {
+        "id": "C",
+        "text": "Shorten"
+      },
+      {
+        "id": "D",
+        "text": "Enlarge"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Enlarge is the most appropriate antonym of \"Abridge\". Hindi meaning: बढ़ाना / विस्तृत करना.",
+    "language": "en"
+  },
+  {
+    "id": "anto016",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abrogate\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Repeal"
+      },
+      {
+        "id": "B",
+        "text": "Enforce"
+      },
+      {
+        "id": "C",
+        "text": "Establish"
+      },
+      {
+        "id": "D",
+        "text": "Institute"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Establish is the most appropriate antonym of \"Abrogate\". Hindi meaning: स्थापित करना / लागू करना.",
+    "language": "en"
+  },
+  {
+    "id": "anto017",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abrupt\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gradual"
+      },
+      {
+        "id": "B",
+        "text": "Steady"
+      },
+      {
+        "id": "C",
+        "text": "Smooth"
+      },
+      {
+        "id": "D",
+        "text": "Sudden"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Gradual is the most appropriate antonym of \"Abrupt\". Hindi meaning: क्रमिक / धीरे-धीरे.",
+    "language": "en"
+  },
+  {
+    "id": "anto018",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Absolute\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Restricted"
+      },
+      {
+        "id": "B",
+        "text": "Limited"
+      },
+      {
+        "id": "C",
+        "text": "Partial"
+      },
+      {
+        "id": "D",
+        "text": "Complete"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Limited is the most appropriate antonym of \"Absolute\". Hindi meaning: सीमित / प्रतिबंधित.",
+    "language": "en"
+  },
+  {
+    "id": "anto019",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Absolve\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Blame"
+      },
+      {
+        "id": "B",
+        "text": "Condemn"
+      },
+      {
+        "id": "C",
+        "text": "Accuse"
+      },
+      {
+        "id": "D",
+        "text": "Pardon"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Blame is the most appropriate antonym of \"Absolve\". Hindi meaning: दोष देना.",
+    "language": "en"
+  },
+  {
+    "id": "anto020",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Absorb\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Emit"
+      },
+      {
+        "id": "B",
+        "text": "Eject"
+      },
+      {
+        "id": "C",
+        "text": "Soak"
+      },
+      {
+        "id": "D",
+        "text": "Expel"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Eject is the most appropriate antonym of \"Absorb\". Hindi meaning: बाहर निकालना.",
+    "language": "en"
+  },
+  {
+    "id": "anto021",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abstain\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pursue"
+      },
+      {
+        "id": "B",
+        "text": "Enjoy"
+      },
+      {
+        "id": "C",
+        "text": "Refrain"
+      },
+      {
+        "id": "D",
+        "text": "Indulge"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Indulge is the most appropriate antonym of \"Abstain\". Hindi meaning: भोग करना / लिप्त होना.",
+    "language": "en"
+  },
+  {
+    "id": "anto022",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Absurd\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rational"
+      },
+      {
+        "id": "B",
+        "text": "Reasonable"
+      },
+      {
+        "id": "C",
+        "text": "Ridiculous"
+      },
+      {
+        "id": "D",
+        "text": "Sensible"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Sensible is the most appropriate antonym of \"Absurd\". Hindi meaning: समझदारीपूर्ण / तर्कसंगत.",
+    "language": "en"
+  },
+  {
+    "id": "anto023",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abundance\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shortage"
+      },
+      {
+        "id": "B",
+        "text": "Meagreness"
+      },
+      {
+        "id": "C",
+        "text": "Plenty"
+      },
+      {
+        "id": "D",
+        "text": "Scarcity"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Scarcity is the most appropriate antonym of \"Abundance\". Hindi meaning: कमी / दुर्लभता.",
+    "language": "en"
+  },
+  {
+    "id": "anto024",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abundant\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Plentiful"
+      },
+      {
+        "id": "B",
+        "text": "Scarce"
+      },
+      {
+        "id": "C",
+        "text": "Insufficient"
+      },
+      {
+        "id": "D",
+        "text": "Scanty"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Scanty is the most appropriate antonym of \"Abundant\". Hindi meaning: कम / अल्प.",
+    "language": "en"
+  },
+  {
+    "id": "anto025",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Abuse\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Applause"
+      },
+      {
+        "id": "B",
+        "text": "Harm"
+      },
+      {
+        "id": "C",
+        "text": "Laudation"
+      },
+      {
+        "id": "D",
+        "text": "Praise"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Applause is the most appropriate antonym of \"Abuse\". Hindi meaning: प्रशंसा.",
+    "language": "en"
+  },
+  {
+    "id": "anto026",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Accede\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Refuse"
+      },
+      {
+        "id": "B",
+        "text": "Disapprove"
+      },
+      {
+        "id": "C",
+        "text": "Consent"
+      },
+      {
+        "id": "D",
+        "text": "Deny"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Deny is the most appropriate antonym of \"Accede\". Hindi meaning: इनकार करना.",
+    "language": "en"
+  },
+  {
+    "id": "anto027",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Accessory\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Essential"
+      },
+      {
+        "id": "B",
+        "text": "Attachment"
+      },
+      {
+        "id": "C",
+        "text": "Necessary"
+      },
+      {
+        "id": "D",
+        "text": "Indispensable"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Essential is the most appropriate antonym of \"Accessory\". Hindi meaning: आवश्यक / अनिवार्य.",
+    "language": "en"
+  },
+  {
+    "id": "anto028",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Accolade\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Censure"
+      },
+      {
+        "id": "B",
+        "text": "Blame"
+      },
+      {
+        "id": "C",
+        "text": "Praise"
+      },
+      {
+        "id": "D",
+        "text": "Criticism"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Blame is the most appropriate antonym of \"Accolade\". Hindi meaning: दोष / निंदा.",
+    "language": "en"
+  },
+  {
+    "id": "anto029",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Accomplish\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Miscarry"
+      },
+      {
+        "id": "B",
+        "text": "Achieve"
+      },
+      {
+        "id": "C",
+        "text": "Fail"
+      },
+      {
+        "id": "D",
+        "text": "Miss"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Fail is the most appropriate antonym of \"Accomplish\". Hindi meaning: असफल होना.",
+    "language": "en"
+  },
+  {
+    "id": "anto030",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Accord\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Disagreement"
+      },
+      {
+        "id": "B",
+        "text": "Conflict"
+      },
+      {
+        "id": "C",
+        "text": "Discord"
+      },
+      {
+        "id": "D",
+        "text": "Confer"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Disagreement is the most appropriate antonym of \"Accord\". Hindi meaning: असहमति.",
+    "language": "en"
+  },
+  {
+    "id": "anto031",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Accountable\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unanswerable"
+      },
+      {
+        "id": "B",
+        "text": "Responsible"
+      },
+      {
+        "id": "C",
+        "text": "Negligent"
+      },
+      {
+        "id": "D",
+        "text": "Irresponsible"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Irresponsible is the most appropriate antonym of \"Accountable\". Hindi meaning: गैर-जिम्मेदार / जवाबदेही से मुक्त.",
+    "language": "en"
+  },
+  {
+    "id": "anto032",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Accumulate\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dissipate"
+      },
+      {
+        "id": "B",
+        "text": "Amass"
+      },
+      {
+        "id": "C",
+        "text": "Scatter"
+      },
+      {
+        "id": "D",
+        "text": "Disperse"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Disperse is the most appropriate antonym of \"Accumulate\". Hindi meaning: बिखेरना / फैलाना.",
+    "language": "en"
+  },
+  {
+    "id": "anto033",
+    "subjectId": "english",
+    "question": "Select the most appropriate antonym of the given word: \"Accurate\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Precise"
+      },
+      {
+        "id": "B",
+        "text": "Inaccurate"
+      },
+      {
+        "id": "C",
+        "text": "Incorrect"
+      },
+      {
+        "id": "D",
+        "text": "Imprecise"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "antonym",
+    "difficulty": "medium",
+    "explanation": "Inaccurate is the most appropriate antonym of \"Accurate\". Hindi meaning: गलत / असटीक.",
+    "language": "en"
+  }
+]

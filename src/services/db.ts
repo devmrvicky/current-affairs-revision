@@ -46,6 +46,25 @@ export interface UniversalAttemptRecord {
   sourceFileName: string;
   /** Present when the session came from a specific PracticeTestDefinition (a named test/mock card, not free-form Quick Practice) — powers per-test "Attempted N times, Best M/Q" stats generically across every subject (product-refactor §89-90). */
   testDefinitionId?: string;
+
+  // ── Per-attempt detail (practice/test sessions) ────────────────────────────
+  // All optional so every row written before these existed stays valid. They
+  // let a completed attempt be reviewed later and let marks/time be reported
+  // without a second history store. Rows without them still count toward
+  // attempts/best/latest; they just can't be re-opened for review.
+  /** The option id picked, or null when skipped. */
+  selectedAnswer?: string | null;
+  markedForReview?: boolean;
+  /** 0-based position in the session — restores the original question order. */
+  questionIndex?: number;
+  sessionMode?: 'practice' | 'test';
+  sessionLabel?: string;
+  sessionStartedAt?: number;
+  /** When the session was submitted; identical on every row of the session. */
+  sessionCompletedAt?: number;
+  sessionPausedMs?: number;
+  marksPerCorrect?: number;
+  negativeMarks?: number;
 }
 
 // ─── Schema ───────────────────────────────────────────────────────────────────
@@ -971,6 +990,21 @@ export const universalAttemptsDB = {
   async getByTopic(topicId: string): Promise<UniversalAttemptRecord[]> {
     const db = await getDB();
     return db.getAllFromIndex('universalAttempts', 'by-topicId', topicId);
+  },
+
+  /** Every row for one exam, via the existing by-examId index — no schema change. */
+  async getByExam(examId: string): Promise<UniversalAttemptRecord[]> {
+    const db = await getDB();
+    return db.getAllFromIndex('universalAttempts', 'by-examId', examId);
+  },
+
+  /**
+   * All rows of one session. Row ids are `${sessionId}::${questionId}`, so a key
+   * range on the primary key finds them without scanning the store or adding an index.
+   */
+  async getBySession(sessionId: string): Promise<UniversalAttemptRecord[]> {
+    const db = await getDB();
+    return db.getAll('universalAttempts', IDBKeyRange.bound(`${sessionId}::`, `${sessionId}::\uffff`));
   },
 
   async count(): Promise<number> {

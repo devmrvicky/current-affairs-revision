@@ -1,0 +1,1588 @@
+[
+  {
+    "id": "geo001",
+    "question": "एक कोण अपने पूरक कोण के 3 गुने से 5° कम है। कोण ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "66.25°"
+      },
+      {
+        "id": "B",
+        "text": "65°"
+      },
+      {
+        "id": "C",
+        "text": "68°"
+      },
+      {
+        "id": "D",
+        "text": "70°"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 66.25°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo002",
+    "question": "दो संपूरक कोणों का अनुपात 3:7 है। दोनों में से बड़े कोण का माप ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "126°"
+      },
+      {
+        "id": "B",
+        "text": "180°"
+      },
+      {
+        "id": "C",
+        "text": "54°"
+      },
+      {
+        "id": "D",
+        "text": "144°"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 126°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo003",
+    "question": "चित्र में AB ∥ CD, PQ = QR तथा ∠BQS = 82° है। ∠PRQ का मान (डिग्री में) ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "82°"
+      },
+      {
+        "id": "B",
+        "text": "98°"
+      },
+      {
+        "id": "C",
+        "text": "92°"
+      },
+      {
+        "id": "D",
+        "text": "102°"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 82°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo004",
+    "question": "चित्र में AB ∥ CD, ∠PAB = 55° तथा ∠DCP = 115° है। ∠APC का मान (डिग्री में) क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "50°"
+      },
+      {
+        "id": "B",
+        "text": "55°"
+      },
+      {
+        "id": "C",
+        "text": "70°"
+      },
+      {
+        "id": "D",
+        "text": "60°"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 60°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo005",
+    "question": "चित्र में AB ∥ CD हैं। A पर बना कोण 100° तथा C पर बना कोण 140° है। E पर दोनों तिरछी रेखाओं के बीच x का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "120°"
+      },
+      {
+        "id": "B",
+        "text": "110°"
+      },
+      {
+        "id": "C",
+        "text": "100°"
+      },
+      {
+        "id": "D",
+        "text": "130°"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 120°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo006",
+    "question": "AB ∥ CD हैं। तिर्यक रेखा PQ, AB और CD को क्रमशः E तथा F पर काटती है। ∠PEB = 49° है। AB और CD के बीच G ऐसा बिंदु है कि ∠BEG = 29° तथा ∠GFE = 24° है। ∠EGF का माप ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "54°"
+      },
+      {
+        "id": "B",
+        "text": "62°"
+      },
+      {
+        "id": "C",
+        "text": "60°"
+      },
+      {
+        "id": "D",
+        "text": "66°"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 54°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo007",
+    "question": "AB और CD दो समानांतर रेखाएँ हैं। तिर्यक रेखा PQ उन्हें क्रमशः L और N पर काटती है। यदि ∠PLB = 2x°, ∠BLQ = (y + 4x)° तथा ∠DNQ = (x + 2y)° है, तो y का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "15°"
+      },
+      {
+        "id": "B",
+        "text": "60°"
+      },
+      {
+        "id": "C",
+        "text": "20°"
+      },
+      {
+        "id": "D",
+        "text": "30°"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 60°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo008",
+    "question": "निम्नलिखित में से कौन-सा कथन असत्य है? (A) संगत कोण बराबर हों तो रेखाएँ समानांतर होती हैं। (B) एकांतर अंतः कोण बराबर हों तो रेखाएँ समानांतर होती हैं। (C) एक ही ओर के अंतः कोण पूरक हों तो रेखाएँ समानांतर होती हैं। (D) एक ही ओर के अंतः कोण संपूरक हों तो रेखाएँ समानांतर होती हैं।",
+    "options": [
+      {
+        "id": "A",
+        "text": "केवल A असत्य है"
+      },
+      {
+        "id": "B",
+        "text": "केवल B असत्य है"
+      },
+      {
+        "id": "C",
+        "text": "केवल D असत्य है"
+      },
+      {
+        "id": "D",
+        "text": "केवल C असत्य है"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) केवल C असत्य है",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo009",
+    "question": "चित्र में AB ∥ EF तथा ED ∥ CB है। यदि ∠APE = 60° है, तो ∠EQC का मान (डिग्री में) क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "60°"
+      },
+      {
+        "id": "B",
+        "text": "120°"
+      },
+      {
+        "id": "C",
+        "text": "150°"
+      },
+      {
+        "id": "D",
+        "text": "90°"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 60°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo010",
+    "question": "चित्र में AB ∥ CD ∥ EF हैं। यदि AB = 27 cm, EF = 45 cm और AC = (5/4)CE है, तो CD की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "25 cm"
+      },
+      {
+        "id": "B",
+        "text": "32 cm"
+      },
+      {
+        "id": "C",
+        "text": "45 cm"
+      },
+      {
+        "id": "D",
+        "text": "37 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 37 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo011",
+    "question": "दो तिर्यक रेखाएँ S और T समानांतर रेखाओं के समूह को क्रमशः A, B, C, D तथा E, F, G, H पर काटती हैं। यदि AB = 5 cm, CD = 3 cm और EF = 15 cm है, तो GH की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "9 cm"
+      },
+      {
+        "id": "B",
+        "text": "4 cm"
+      },
+      {
+        "id": "C",
+        "text": "8 cm"
+      },
+      {
+        "id": "D",
+        "text": "6 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 9 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo012",
+    "question": "चित्र में ∠ACB + ∠BAC = 80°, ∠BDE = 35° तथा ∠BCE = 45° है। चिह्नित ∠CED का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "135°"
+      },
+      {
+        "id": "B",
+        "text": "120°"
+      },
+      {
+        "id": "C",
+        "text": "160°"
+      },
+      {
+        "id": "D",
+        "text": "150°"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 160°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo013",
+    "question": "चित्र में दोनों क्षैतिज रेखाएँ समानांतर हैं। टूटी हुई रेखा के साथ दिए कोण क्रमशः 30°, 40°, 25°, 50° और 20° हैं। चित्र में x का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "45°"
+      },
+      {
+        "id": "B",
+        "text": "30°"
+      },
+      {
+        "id": "C",
+        "text": "75°"
+      },
+      {
+        "id": "D",
+        "text": "40°"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 75°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo014",
+    "question": "दिए गए पाँच-नोक वाले तारे में ∠1 + ∠2 + ∠3 + ∠4 + ∠5 का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "90°"
+      },
+      {
+        "id": "B",
+        "text": "120°"
+      },
+      {
+        "id": "C",
+        "text": "180°"
+      },
+      {
+        "id": "D",
+        "text": "360°"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 180°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo015",
+    "question": "किसी त्रिभुज के दो कोणों का अनुपात 3:5 है। तीसरा कोण दिए गए दोनों कोणों के योग से 25% अधिक है। त्रिभुज का सबसे बड़ा कोण ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "100°"
+      },
+      {
+        "id": "B",
+        "text": "120°"
+      },
+      {
+        "id": "C",
+        "text": "80°"
+      },
+      {
+        "id": "D",
+        "text": "130°"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 100°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo016",
+    "question": "निम्नलिखित में से कौन-सा समूह कभी भी किसी त्रिभुज की भुजाएँ नहीं बन सकता?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 cm, 3 cm, 4 cm"
+      },
+      {
+        "id": "B",
+        "text": "5 cm, 5 cm, 5 cm"
+      },
+      {
+        "id": "C",
+        "text": "6 cm, 2 cm, 3 cm"
+      },
+      {
+        "id": "D",
+        "text": "7 cm, 8 cm, 12 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 6 cm, 2 cm, 3 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo017",
+    "question": "किसी त्रिभुज के बाह्य कोण 2x, 3x और 4x हैं। त्रिभुज के सबसे छोटे अंतः कोण का माप ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "100°"
+      },
+      {
+        "id": "B",
+        "text": "80°"
+      },
+      {
+        "id": "C",
+        "text": "40°"
+      },
+      {
+        "id": "D",
+        "text": "20°"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 20°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo018",
+    "question": "त्रिभुजों के बारे में दिए गए कथनों में से सही कथन चुनिए। A. 9 cm, 13 cm और 3 cm भुजाओं वाला त्रिभुज बन सकता है। B. △PQR में ∠P = 50°, ∠Q = 30° हो, तो QR सबसे लंबी भुजा है। C. 6 cm भुजा वाले समबाहु त्रिभुज का क्षेत्रफल 18√3 cm² है। D. △DEF और △PQR में ∠D = ∠P, ∠E = ∠Q तथा DF = PR हो, तो दोनों त्रिभुज सर्वांगसम हैं।",
+    "options": [
+      {
+        "id": "A",
+        "text": "केवल A"
+      },
+      {
+        "id": "B",
+        "text": "केवल A, B और C"
+      },
+      {
+        "id": "C",
+        "text": "केवल B और C"
+      },
+      {
+        "id": "D",
+        "text": "केवल D"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) केवल D",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo019",
+    "question": "△ABC में BD ⟂ AC है। ∠DBC = 71° है और E, BC पर ऐसा बिंदु है कि ∠CAE = 57° है। ∠AEB का माप ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "68°"
+      },
+      {
+        "id": "B",
+        "text": "71°"
+      },
+      {
+        "id": "C",
+        "text": "62°"
+      },
+      {
+        "id": "D",
+        "text": "76°"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 76°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo020",
+    "question": "△ABC की भुजाएँ CB और BA को क्रमशः CE और BD तक बढ़ाया गया है। यदि ∠DAC = 110° तथा ∠ABE = 130° है, तो कौन-सा विकल्प सही है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "BC < AB < AC"
+      },
+      {
+        "id": "B",
+        "text": "AC < AB < BC"
+      },
+      {
+        "id": "C",
+        "text": "AB < AC < BC"
+      },
+      {
+        "id": "D",
+        "text": "BC < AC < AB"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) AC < AB < BC",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo021",
+    "question": "निम्नलिखित में से कौन-सा समूह एक अधिक कोण वाले त्रिभुज की भुजाओं की लंबाइयाँ (cm में) दे सकता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15, 62, 64"
+      },
+      {
+        "id": "B",
+        "text": "17, 64, 66"
+      },
+      {
+        "id": "C",
+        "text": "16, 63, 65"
+      },
+      {
+        "id": "D",
+        "text": "18, 65, 67"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 15, 62, 64",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo022",
+    "question": "एक त्रिभुज की भुजाएँ 3 cm, 4 cm और 5 cm हैं। इन भुजाओं के विपरीत शीर्षों पर खींचे गए संगत शीर्षलंबों का अनुपात क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 : 4 : 5"
+      },
+      {
+        "id": "B",
+        "text": "5 : 4 : 3"
+      },
+      {
+        "id": "C",
+        "text": "9 : 8 : 7"
+      },
+      {
+        "id": "D",
+        "text": "20 : 15 : 12"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 20 : 15 : 12",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo023",
+    "question": "एक त्रिभुज की भुजाएँ 109 cm, 171 cm और 100 cm हैं। 171 cm वाली भुजा पर संबंधित शीर्षलंब की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "94 cm"
+      },
+      {
+        "id": "B",
+        "text": "49 cm"
+      },
+      {
+        "id": "C",
+        "text": "60 cm"
+      },
+      {
+        "id": "D",
+        "text": "82 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 60 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo024",
+    "question": "परिमाप 13 वाले पूर्णांक भुजाओं के कितने त्रिभुज संभव हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 5",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo025",
+    "question": "एक त्रिभुज की दो भुजाएँ 23 cm और 17 cm हैं। तीसरी भुजा कितने पूर्णांक मान ले सकती है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "35"
+      },
+      {
+        "id": "B",
+        "text": "33"
+      },
+      {
+        "id": "C",
+        "text": "34"
+      },
+      {
+        "id": "D",
+        "text": "45"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 33",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo026",
+    "question": "16 cm, 27 cm और x cm भुजाओं वाले सभी संभव त्रिभुजों के परिमापों का योग ज्ञात कीजिए, जहाँ x एक पूर्णांक है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "2100"
+      },
+      {
+        "id": "B",
+        "text": "2110"
+      },
+      {
+        "id": "C",
+        "text": "2170"
+      },
+      {
+        "id": "D",
+        "text": "2150"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 2170",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo027",
+    "question": "समद्विबाहु त्रिभुज ABC में AB = AC है। शीर्ष B पर बना बाह्य कोण 130° है। ∠A का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "50°"
+      },
+      {
+        "id": "B",
+        "text": "65°"
+      },
+      {
+        "id": "C",
+        "text": "80°"
+      },
+      {
+        "id": "D",
+        "text": "130°"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 80°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo028",
+    "question": "एक समद्विबाहु त्रिभुज का परिमाप 72 cm है। उसका आधार, प्रत्येक समान भुजा की लंबाई के दुगुने से 4 cm कम है। आधार की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "59 cm"
+      },
+      {
+        "id": "B",
+        "text": "34 cm"
+      },
+      {
+        "id": "C",
+        "text": "42 cm"
+      },
+      {
+        "id": "D",
+        "text": "21 cm"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 34 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo029",
+    "question": "समद्विबाहु △ABC में AB = AC और AD ⟂ BC है। यदि AD = 12 cm तथा △ABC का परिमाप 36 cm है, तो BC ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "5 cm"
+      },
+      {
+        "id": "B",
+        "text": "12 cm"
+      },
+      {
+        "id": "C",
+        "text": "10 cm"
+      },
+      {
+        "id": "D",
+        "text": "13 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 10 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo030",
+    "question": "△PQR में ∠R = 62° है। PQ का लंब समद्विभाजक PQ को S पर और QR को T पर काटता है। यदि ∠TPR = 38° है, तो ∠PQR ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "35°"
+      },
+      {
+        "id": "B",
+        "text": "40°"
+      },
+      {
+        "id": "C",
+        "text": "80°"
+      },
+      {
+        "id": "D",
+        "text": "60°"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 40°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo031",
+    "question": "△HJK में HJ = HK है। G, HJ पर ऐसा बिंदु है कि HG = GK = JK। (∠HGK + ∠GKJ) के दो-तिहाई का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "96°"
+      },
+      {
+        "id": "B",
+        "text": "136°"
+      },
+      {
+        "id": "C",
+        "text": "90°"
+      },
+      {
+        "id": "D",
+        "text": "84°"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 96°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo032",
+    "question": "चित्र में AD = AE है और CD, ∠ACB का आंतरिक कोण समद्विभाजक है। θ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "140°"
+      },
+      {
+        "id": "B",
+        "text": "120°"
+      },
+      {
+        "id": "C",
+        "text": "110°"
+      },
+      {
+        "id": "D",
+        "text": "130°"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 140°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo033",
+    "question": "एक समबाहु त्रिभुज की भुजा 24 cm है। उसके परिवृत्त की त्रिज्या कितनी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "11.68 cm"
+      },
+      {
+        "id": "B",
+        "text": "13.28 cm"
+      },
+      {
+        "id": "C",
+        "text": "13.86 cm"
+      },
+      {
+        "id": "D",
+        "text": "14.22 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 13.86 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo034",
+    "question": "एक समबाहु त्रिभुज की भुजा a है। उसकी परिवृत्त त्रिज्या और अंतःत्रिज्या का अनुपात क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 : 1"
+      },
+      {
+        "id": "B",
+        "text": "3 : 1"
+      },
+      {
+        "id": "C",
+        "text": "4 : 1"
+      },
+      {
+        "id": "D",
+        "text": "1 : 2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 2 : 1",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo035",
+    "question": "समबाहु △PQR में S, QR पर ऐसा बिंदु है कि QR = 3QS। यदि PQ = 9 cm है, तो PS की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "√61 cm"
+      },
+      {
+        "id": "B",
+        "text": "√63 cm"
+      },
+      {
+        "id": "C",
+        "text": "√62 cm"
+      },
+      {
+        "id": "D",
+        "text": "√60 cm"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) √63 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo036",
+    "question": "एक त्रिभुज की भुजाएँ 189 cm, 48 cm और 195 cm हैं। उसका क्षेत्रफल ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "4532 cm²"
+      },
+      {
+        "id": "B",
+        "text": "4509 cm²"
+      },
+      {
+        "id": "C",
+        "text": "4501 cm²"
+      },
+      {
+        "id": "D",
+        "text": "4536 cm²"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 4536 cm²",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo037",
+    "question": "△ABC में ∠B = 90° है, BC = 9 cm और AC = 41 cm है। AB पर D ऐसा बिंदु है कि AD = 28 cm। CD की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "15√3 cm"
+      },
+      {
+        "id": "B",
+        "text": "20 cm"
+      },
+      {
+        "id": "C",
+        "text": "15 cm"
+      },
+      {
+        "id": "D",
+        "text": "20√2 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 15 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo038",
+    "question": "एक समकोण त्रिभुज का कर्ण 29 cm है और अन्य दो भुजाओं का अंतर 1 cm है। उन दोनों भुजाओं का योग ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "22 cm"
+      },
+      {
+        "id": "B",
+        "text": "50 cm"
+      },
+      {
+        "id": "C",
+        "text": "33 cm"
+      },
+      {
+        "id": "D",
+        "text": "41 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 41 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo039",
+    "question": "7 इकाई त्रिज्या वाले वृत्त में AB व्यास है और C वृत्त पर स्थित है। △ABC में C से लगी दोनों भुजाओं का अनुपात 2 : 3 है। △ABC का क्षेत्रफल ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "587/15"
+      },
+      {
+        "id": "B",
+        "text": "599/13"
+      },
+      {
+        "id": "C",
+        "text": "589/15"
+      },
+      {
+        "id": "D",
+        "text": "588/13"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 588/13",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo040",
+    "question": "न्यून कोण △XYZ में XP, YZ पर शीर्षलंब है। O, XP पर ऐसा बिंदु है कि XY = 12 cm, OY = 5 cm और OZ = 9 cm है। XZ ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "12√5 cm"
+      },
+      {
+        "id": "B",
+        "text": "20 cm"
+      },
+      {
+        "id": "C",
+        "text": "10√2 cm"
+      },
+      {
+        "id": "D",
+        "text": "15 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 10√2 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo041",
+    "question": "△LMN में LM = 5√2 cm, LN = 13 cm और ∠LMN = 135° है। MN की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "7√2 cm"
+      },
+      {
+        "id": "B",
+        "text": "8 cm"
+      },
+      {
+        "id": "C",
+        "text": "7 cm"
+      },
+      {
+        "id": "D",
+        "text": "8√2 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 7 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo042",
+    "question": "समकोण △ABC में ∠A = 90° और AD ⟂ BC है। यदि ∠CAD = 60° तथा BC = 6 cm है, तो AB की लंबाई क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 cm"
+      },
+      {
+        "id": "B",
+        "text": "4 cm"
+      },
+      {
+        "id": "C",
+        "text": "5 cm"
+      },
+      {
+        "id": "D",
+        "text": "6 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 3 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo043",
+    "question": "△ABC में D, BC पर ऐसा बिंदु है कि ∠BAD = ∠DAC है। यदि AB = 24 cm, AC = 16 cm और BC = 12.5 cm है, तो BD ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "11 cm"
+      },
+      {
+        "id": "B",
+        "text": "7.5 cm"
+      },
+      {
+        "id": "C",
+        "text": "6.5 cm"
+      },
+      {
+        "id": "D",
+        "text": "9 cm"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 7.5 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo044",
+    "question": "△PQR में PS, ∠QPR का समद्विभाजक है और PT ⟂ QR है। यदि ∠Q > ∠R है, तो ∠TPS किसके बराबर है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(∠Q + ∠R)/2"
+      },
+      {
+        "id": "B",
+        "text": "(∠Q − ∠R)/2"
+      },
+      {
+        "id": "C",
+        "text": "(∠Q × ∠R)/2"
+      },
+      {
+        "id": "D",
+        "text": "(∠Q/2 − ∠R)/2"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) (∠Q − ∠R)/2",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo045",
+    "question": "△ABC में BA को D तक बढ़ाया गया है। ∠CAD का समद्विभाजक BC को बढ़ाने पर E पर मिलता है। यदि AC = 4 cm, BE = 15 cm और CE = 6 cm है, तो AB की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 cm"
+      },
+      {
+        "id": "B",
+        "text": "9 cm"
+      },
+      {
+        "id": "C",
+        "text": "10 cm"
+      },
+      {
+        "id": "D",
+        "text": "12 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 10 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo046",
+    "question": "△PQR में ∠Q का आंतरिक कोण समद्विभाजक और ∠R का बाह्य कोण समद्विभाजक O पर मिलते हैं। यदि ∠QOR = 28° है, तो ∠P ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "28°"
+      },
+      {
+        "id": "B",
+        "text": "56°"
+      },
+      {
+        "id": "C",
+        "text": "62°"
+      },
+      {
+        "id": "D",
+        "text": "124°"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 56°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo047",
+    "question": "समकोण △ABC में ∠C = 90° है। D, CB पर ऐसा बिंदु है कि AD, ∠A का समद्विभाजक है। यदि AC = 5 cm और BC = 12 cm है, तो AD ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "10/3 cm"
+      },
+      {
+        "id": "B",
+        "text": "5√13/6 cm"
+      },
+      {
+        "id": "C",
+        "text": "5√13/3 cm"
+      },
+      {
+        "id": "D",
+        "text": "20/3 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 5√13/3 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo048",
+    "question": "△ABC में AB : AC = 5 : 2 और BC = 9 cm है। BA को D तक बढ़ाया गया है और ∠CAD का समद्विभाजक BC को बढ़ाने पर E से मिलता है। CE की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "9 cm"
+      },
+      {
+        "id": "B",
+        "text": "10 cm"
+      },
+      {
+        "id": "C",
+        "text": "3 cm"
+      },
+      {
+        "id": "D",
+        "text": "6 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 6 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo049",
+    "question": "△ABC में AD और AE, ∠A के क्रमशः आंतरिक और बाह्य समद्विभाजक हैं। यदि AB = 6 cm, BC = 5 cm और AC = 4 cm है, तो DE ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 cm"
+      },
+      {
+        "id": "B",
+        "text": "19.2 cm"
+      },
+      {
+        "id": "C",
+        "text": "15 cm"
+      },
+      {
+        "id": "D",
+        "text": "16.2 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 12 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo050",
+    "question": "△PQR में ∠Q और ∠R के आंतरिक समद्विभाजक S पर मिलते हैं। यदि ∠P = 75° है, तो ∠QSR का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "127.5°"
+      },
+      {
+        "id": "B",
+        "text": "112.5°"
+      },
+      {
+        "id": "C",
+        "text": "102.5°"
+      },
+      {
+        "id": "D",
+        "text": "105.5°"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 127.5°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo051",
+    "question": "△ABC की भुजाएँ AB और AC को क्रमशः D और E तक बढ़ाया गया है। ∠CBD और ∠BCE के समद्विभाजक P पर मिलते हैं। यदि ∠A = 88° है, तो ∠P का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "46°"
+      },
+      {
+        "id": "B",
+        "text": "56°"
+      },
+      {
+        "id": "C",
+        "text": "51°"
+      },
+      {
+        "id": "D",
+        "text": "61°"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 46°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo052",
+    "question": "एक त्रिभुज के परिवृत्त की त्रिज्या r है और त्रिभुज का एक कोण 120° है। 120° के विपरीत भुजा की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "r√3"
+      },
+      {
+        "id": "B",
+        "text": "2r"
+      },
+      {
+        "id": "C",
+        "text": "r"
+      },
+      {
+        "id": "D",
+        "text": "r√2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) r√3",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo053",
+    "question": "△PQR में p = 6 इकाई, r = 4 इकाई और क्षेत्रफल 6√2 वर्ग इकाई है। ∠Q का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "30°"
+      },
+      {
+        "id": "B",
+        "text": "90°"
+      },
+      {
+        "id": "C",
+        "text": "45°"
+      },
+      {
+        "id": "D",
+        "text": "इनमें से कोई नहीं"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 45°",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo054",
+    "question": "△ABC में AD, BC को 2 : 3 के अनुपात में विभाजित करता है। यदि ∠B = 60° और ∠C = 45° है, तो sin∠BAD / sin∠CAD का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "√3/√2"
+      },
+      {
+        "id": "B",
+        "text": "√2/√3"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "2/3"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) √2/√3",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo055",
+    "question": "△ABC में AB = AC = 12 cm है। D, BC पर स्थित है, AD = 8 cm और BD = 5 cm है। CD की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "16 cm"
+      },
+      {
+        "id": "B",
+        "text": "12 cm"
+      },
+      {
+        "id": "C",
+        "text": "8 cm"
+      },
+      {
+        "id": "D",
+        "text": "20 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 16 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo056",
+    "question": "त्रिभुज ABC की भुजा AB = 80 cm है और परिमाप 170 cm है। यदि ∠ABC = 60° है, तो त्रिभुज की सबसे छोटी भुजा कितनी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "17 cm"
+      },
+      {
+        "id": "B",
+        "text": "15 cm"
+      },
+      {
+        "id": "C",
+        "text": "25 cm"
+      },
+      {
+        "id": "D",
+        "text": "21 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 17 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo057",
+    "question": "△PQR, △XYZ के समरूप हैं। उनके परिमापों का अनुपात 3 : 4 है। शीर्ष P से खींची गई माध्यिका और शीर्ष X से खींची गई माध्यिका की लंबाइयों का अनुपात क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 : 4"
+      },
+      {
+        "id": "B",
+        "text": "9 : 16"
+      },
+      {
+        "id": "C",
+        "text": "27 : 64"
+      },
+      {
+        "id": "D",
+        "text": "19 : 17"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 3 : 4",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo058",
+    "question": "दो समरूप त्रिभुज X और Y के परिमाप क्रमशः 24 cm और 36 cm हैं। यदि त्रिभुज X का क्षेत्रफल 40 cm² है, तो त्रिभुज Y का क्षेत्रफल क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "60 cm²"
+      },
+      {
+        "id": "B",
+        "text": "78 cm²"
+      },
+      {
+        "id": "C",
+        "text": "90 cm²"
+      },
+      {
+        "id": "D",
+        "text": "56 cm²"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 90 cm²",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo059",
+    "question": "△ABC की तीनों भुजाओं के मध्यबिंदुओं को मिलाकर △DEF बनाया गया है। △DEF के क्षेत्रफल का △ABC के क्षेत्रफल से अनुपात क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 : 2"
+      },
+      {
+        "id": "B",
+        "text": "1 : 3"
+      },
+      {
+        "id": "C",
+        "text": "1 : 4"
+      },
+      {
+        "id": "D",
+        "text": "1 : 6"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 1 : 4",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo060",
+    "question": "दिया गया है △ABC ~ △EDF, AB = 5 cm, AC = 7.5 cm, DF = 15 cm और ED = 12.5 cm। दोनों त्रिभुजों की शेष भुजाओं का योग ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "20.25 cm"
+      },
+      {
+        "id": "B",
+        "text": "22.25 cm"
+      },
+      {
+        "id": "C",
+        "text": "23.25 cm"
+      },
+      {
+        "id": "D",
+        "text": "24.75 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 24.75 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "geo061",
+    "question": "△ABC और △DEF में ∠A = ∠D = 40° तथा AB = DE है। △ABC और △DEF के समरूप होने के लिए कौन-सी अतिरिक्त शर्त पर्याप्त है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "∠B = ∠F"
+      },
+      {
+        "id": "B",
+        "text": "BC = EF"
+      },
+      {
+        "id": "C",
+        "text": "∠C = ∠F"
+      },
+      {
+        "id": "D",
+        "text": "∠B = ∠D"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) ∠C = ∠F",
+    "difficulty": "medium",
+    "language": "hi"
+  }
+]

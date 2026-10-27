@@ -36,6 +36,9 @@ export default function AppLayout() {
   const location = useLocation();
   const isQuizPage = location.pathname === '/quiz' || location.pathname === '/analysis' || location.pathname === '/session'
     || /^\/mock-tests\/[^/]+\/session$/.test(location.pathname);
+  // The live test screens own the whole viewport (ExamShell): no page gutters,
+  // no max-width, no entry animation wrapper. Everything else keeps the normal frame.
+  const isActiveTest = location.pathname === '/session' || /^\/mock-tests\/[^/]+\/session$/.test(location.pathname);
   const navItems = isAdmin ? [...NAV, ADMIN_NAV_ITEM] : NAV;
   const shouldReduceMotion = useReducedMotion();
 
@@ -84,19 +87,25 @@ export default function AppLayout() {
       )}
 
       {/* Main Content */}
-      <main className="flex-1 max-w-6xl w-full mx-auto px-4 py-6 pb-24 md:pb-8">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={location.pathname}
-            initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: 8 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: -8 }}
-            transition={{ duration: shouldReduceMotion ? 0.01 : 0.15 }}
-          >
-            <Outlet />
-          </motion.div>
-        </AnimatePresence>
-      </main>
+      {isActiveTest ? (
+        <main className="flex-1 w-full">
+          <Outlet />
+        </main>
+      ) : (
+        <main className="flex-1 max-w-6xl w-full mx-auto px-4 py-6 pb-24 md:pb-8">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={location.pathname}
+              initial={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={shouldReduceMotion ? { opacity: 0 } : { opacity: 0, y: -8 }}
+              transition={{ duration: shouldReduceMotion ? 0.01 : 0.15 }}
+            >
+              <Outlet />
+            </motion.div>
+          </AnimatePresence>
+        </main>
+      )}
 
       {/* Nav */}
       {!isQuizPage && (

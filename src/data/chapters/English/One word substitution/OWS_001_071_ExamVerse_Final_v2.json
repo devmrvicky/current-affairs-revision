@@ -1,0 +1,1848 @@
+[
+  {
+    "id": "ows001",
+    "question": "Become less intense or widespread",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abate"
+      },
+      {
+        "id": "B",
+        "text": "Abbate"
+      },
+      {
+        "id": "C",
+        "text": "Incorrect spelling"
+      },
+      {
+        "id": "D",
+        "text": "Ablate"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Abate is the correct one-word substitution. हिंदी: कम होना, घटना. Example: “The storm began to abate by evening.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows002",
+    "question": "A place where animals are slaughtered for consumption as food",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abettor"
+      },
+      {
+        "id": "B",
+        "text": "Abattior"
+      },
+      {
+        "id": "C",
+        "text": "Abattoir"
+      },
+      {
+        "id": "D",
+        "text": "Abattoire"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Abattoir is the correct one-word substitution. हिंदी: कसाईखाना. Example: “The animals were taken to the abattoir.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows003",
+    "question": "The superior of a monastery",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abbotte"
+      },
+      {
+        "id": "B",
+        "text": "Abbott"
+      },
+      {
+        "id": "C",
+        "text": "Abbotry"
+      },
+      {
+        "id": "D",
+        "text": "Abbot"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Abbot is the correct one-word substitution. हिंदी: मठ का प्रमुख. Example: “The abbot supervised the monastery.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows004",
+    "question": "To reduce to a shorter form intended to stand for the whole",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abbreviaton"
+      },
+      {
+        "id": "B",
+        "text": "Abbreviation"
+      },
+      {
+        "id": "C",
+        "text": "Abreviation"
+      },
+      {
+        "id": "D",
+        "text": "Abbrevation"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Abbreviation is the correct one-word substitution. हिंदी: संक्षिप्त रूप. Example: ““Dr.” is an abbreviation of “Doctor.””",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows005",
+    "question": "To give up one's authority or throne",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abdicatte"
+      },
+      {
+        "id": "B",
+        "text": "Abdicate"
+      },
+      {
+        "id": "C",
+        "text": "Abdication"
+      },
+      {
+        "id": "D",
+        "text": "Abdictate"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Abdicate is the correct one-word substitution. हिंदी: अपना पद या दावा छोड़ देना. Example: “The king decided to abdicate the throne.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows006",
+    "question": "Act of giving up (renouncing) the throne",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abdiction"
+      },
+      {
+        "id": "B",
+        "text": "Abdicaton"
+      },
+      {
+        "id": "C",
+        "text": "Abdication"
+      },
+      {
+        "id": "D",
+        "text": "Abdicate"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Abdication is the correct one-word substitution. हिंदी: अपने अधिकार अथवा पद का त्याग करना. Example: “The king's abdication changed the line of succession.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows007",
+    "question": "Deviation from the right course",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aberation"
+      },
+      {
+        "id": "B",
+        "text": "Abrogation"
+      },
+      {
+        "id": "C",
+        "text": "Aberration"
+      },
+      {
+        "id": "D",
+        "text": "Abberation"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Aberration is the correct one-word substitution. हिंदी: असामान्यता, अपवर्तन. Example: “His rude remark was an aberration from his usual behaviour.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows008",
+    "question": "The act of washing oneself",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abluttion"
+      },
+      {
+        "id": "B",
+        "text": "Ablution"
+      },
+      {
+        "id": "C",
+        "text": "Absolution"
+      },
+      {
+        "id": "D",
+        "text": "Ablussion"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ablution is the correct one-word substitution. हिंदी: हाथ या शरीर को धोना/शुद्ध करना. Example: “The ritual requires ablution before prayer.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows009",
+    "question": "To refuse or deny oneself",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abnegate"
+      },
+      {
+        "id": "B",
+        "text": "Abnegat"
+      },
+      {
+        "id": "C",
+        "text": "Abrogate"
+      },
+      {
+        "id": "D",
+        "text": "Abnegated"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Abnegate is the correct one-word substitution. हिंदी: त्यागना. Example: “She chose to abnegate her own interests for the team.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows010",
+    "question": "Formally put an end to a system, practice, or institution",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abolishment"
+      },
+      {
+        "id": "B",
+        "text": "Abolish"
+      },
+      {
+        "id": "C",
+        "text": "Abrogation"
+      },
+      {
+        "id": "D",
+        "text": "Abollish"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Abolish is the correct one-word substitution. हिंदी: किसी रिवाज या स्थापित नियम का अंत करना. Example: “The government decided to abolish the outdated rule.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows011",
+    "question": "Existing in a land from the earliest times or from before the arrival of colonists",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aborignal"
+      },
+      {
+        "id": "B",
+        "text": "Aboriginel"
+      },
+      {
+        "id": "C",
+        "text": "Aboriginal"
+      },
+      {
+        "id": "D",
+        "text": "Aborigines"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Aboriginal is the correct one-word substitution. हिंदी: किसी देश के मूल निवासी. Example: “The museum displays Aboriginal art.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows012",
+    "question": "The original inhabitants/natives of a country",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aboriginal"
+      },
+      {
+        "id": "B",
+        "text": "Aborigines"
+      },
+      {
+        "id": "C",
+        "text": "Aborigenes"
+      },
+      {
+        "id": "D",
+        "text": "Aboriginies"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Aborigines is the correct one-word substitution. हिंदी: किसी देश के मूल निवासी. Example: “The history book discusses the Aborigines of the region.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows013",
+    "question": "To shorten a piece of writing without losing the sense",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abridg"
+      },
+      {
+        "id": "B",
+        "text": "Abridge"
+      },
+      {
+        "id": "C",
+        "text": "Abridgeing"
+      },
+      {
+        "id": "D",
+        "text": "Abrogate"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Abridge is the correct one-word substitution. हिंदी: छोटा कर देना. Example: “The editor had to abridge the report.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows014",
+    "question": "A shortened version of a larger work",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abridgment"
+      },
+      {
+        "id": "B",
+        "text": "Abridge"
+      },
+      {
+        "id": "C",
+        "text": "Abridgement"
+      },
+      {
+        "id": "D",
+        "text": "Abridgemennt"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Abridgement is the correct one-word substitution. हिंदी: संक्षिप्त संस्करण. Example: “This is an abridgement of the original novel.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows015",
+    "question": "Cancel or do away with (a law or agreement)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abolish"
+      },
+      {
+        "id": "B",
+        "text": "Abrogated"
+      },
+      {
+        "id": "C",
+        "text": "Abrogate"
+      },
+      {
+        "id": "D",
+        "text": "Abrogat"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Abrogate is the correct one-word substitution. हिंदी: निरस्त या रद्द कर देना. Example: “The court cannot simply abrogate a valid agreement.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows016",
+    "question": "To go away suddenly and secretly in order to escape from somewhere",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abscond"
+      },
+      {
+        "id": "B",
+        "text": "Abscound"
+      },
+      {
+        "id": "C",
+        "text": "Absconded"
+      },
+      {
+        "id": "D",
+        "text": "Absconnd"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Abscond is the correct one-word substitution. हिंदी: फरार होना. Example: “The suspect tried to abscond before the police arrived.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows017",
+    "question": "Formal forgiveness of a person's sins",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abnegation"
+      },
+      {
+        "id": "B",
+        "text": "Absolusion"
+      },
+      {
+        "id": "C",
+        "text": "Absolution"
+      },
+      {
+        "id": "D",
+        "text": "Absoluttion"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Absolution is the correct one-word substitution. हिंदी: पापमुक्ति, क्षमादान. Example: “The priest offered absolution after the confession.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows018",
+    "question": "Wildly unreasonable, illogical or ridiculous",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abserd"
+      },
+      {
+        "id": "B",
+        "text": "Absurd"
+      },
+      {
+        "id": "C",
+        "text": "Absurdd"
+      },
+      {
+        "id": "D",
+        "text": "Absorb"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Absurd is the correct one-word substitution. हिंदी: बेतुका. Example: “It would be absurd to ignore clear evidence.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows019",
+    "question": "To increase the speed",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accentuate"
+      },
+      {
+        "id": "B",
+        "text": "Accellerate"
+      },
+      {
+        "id": "C",
+        "text": "Acceleratte"
+      },
+      {
+        "id": "D",
+        "text": "Accelerate"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Accelerate is the correct one-word substitution. हिंदी: गति बढ़ाना. Example: “The car began to accelerate after the signal.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows020",
+    "question": "Any award, honour or laudatory notice",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accolades"
+      },
+      {
+        "id": "B",
+        "text": "Accollade"
+      },
+      {
+        "id": "C",
+        "text": "Accoladee"
+      },
+      {
+        "id": "D",
+        "text": "Accolade"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Accolade is the correct one-word substitution. हिंदी: पुरस्कार/सम्मान. Example: “The scientist received an accolade for her research.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows021",
+    "question": "A person who helps another to commit a crime or to do something morally wrong // A partner in crime",
+    "options": [
+      {
+        "id": "A",
+        "text": "Incorrect spelling"
+      },
+      {
+        "id": "B",
+        "text": "Accomplicee"
+      },
+      {
+        "id": "C",
+        "text": "Accomplice"
+      },
+      {
+        "id": "D",
+        "text": "Accomplic"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Accomplice is the correct one-word substitution. हिंदी: सह-अपराधी. Example: “The police arrested the thief and his accomplice.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows022",
+    "question": "Be harmonious or consistent with",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accordance"
+      },
+      {
+        "id": "B",
+        "text": "Accord"
+      },
+      {
+        "id": "C",
+        "text": "Concord"
+      },
+      {
+        "id": "D",
+        "text": "Accorde"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Accord is the correct one-word substitution. हिंदी: अनुरूप होना. Example: “The policy is in accord with the existing rules.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows023",
+    "question": "A person whose profession is to keep accounts",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accountor"
+      },
+      {
+        "id": "B",
+        "text": "Accountant"
+      },
+      {
+        "id": "C",
+        "text": "Acountant"
+      },
+      {
+        "id": "D",
+        "text": "Accountent"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Accountant is the correct one-word substitution. हिंदी: मुनीम/लेखापाल. Example: “The accountant prepared the annual accounts.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows024",
+    "question": "Sharp, bitter, or harsh in temper, language, etc.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acerrbic"
+      },
+      {
+        "id": "B",
+        "text": "Acerbbic"
+      },
+      {
+        "id": "C",
+        "text": "Acerbic"
+      },
+      {
+        "id": "D",
+        "text": "Acidic"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Acerbic is the correct one-word substitution. हिंदी: कड़वा स्वभाव. Example: “His acerbic comments offended the audience.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows025",
+    "question": "The scientific study of sound",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acoustical"
+      },
+      {
+        "id": "B",
+        "text": "Acousticks"
+      },
+      {
+        "id": "C",
+        "text": "Acoustics"
+      },
+      {
+        "id": "D",
+        "text": "Acoustix"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Acoustics is the correct one-word substitution. हिंदी: ध्वनि-विज्ञान. Example: “The hall has excellent acoustics.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows026",
+    "question": "To decide and state officially in court that somebody is not guilty of a crime",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acquitt"
+      },
+      {
+        "id": "B",
+        "text": "Acqit"
+      },
+      {
+        "id": "C",
+        "text": "Acquit"
+      },
+      {
+        "id": "D",
+        "text": "Acquiesce"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Acquit is the correct one-word substitution. हिंदी: बरी/दोषमुक्त कर देना. Example: “The court decided to acquit the accused.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows027",
+    "question": "An entertainer who performs difficult physical feats",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acrobat"
+      },
+      {
+        "id": "B",
+        "text": "Acrostic"
+      },
+      {
+        "id": "C",
+        "text": "Acrobaat"
+      },
+      {
+        "id": "D",
+        "text": "Acrobate"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Acrobat is the correct one-word substitution. हिंदी: हवाई करतब करने वाला. Example: “The acrobat performed a difficult routine.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows028",
+    "question": "An abbreviation formed from the initial letters of other words and pronounced as a word",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acronnym"
+      },
+      {
+        "id": "B",
+        "text": "Acrostic"
+      },
+      {
+        "id": "C",
+        "text": "Acronym"
+      },
+      {
+        "id": "D",
+        "text": "Acronymm"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Acronym is the correct one-word substitution. हिंदी: शब्दों के पहले अक्षरों से बना शब्द. Example: “NASA is an acronym.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows029",
+    "question": "Fear of great heights",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acrophobya"
+      },
+      {
+        "id": "B",
+        "text": "Agoraphobia"
+      },
+      {
+        "id": "C",
+        "text": "Acrophobia"
+      },
+      {
+        "id": "D",
+        "text": "Acrophobiaa"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Acrophobia is the correct one-word substitution. हिंदी: ऊंचाई का डर. Example: “Her acrophobia prevents her from going near tall edges.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows030",
+    "question": "To do something // to behave in a particular way // to perform a part in a play/film/function",
+    "options": [
+      {
+        "id": "A",
+        "text": "Act"
+      },
+      {
+        "id": "B",
+        "text": "Ackt"
+      },
+      {
+        "id": "C",
+        "text": "Axt"
+      },
+      {
+        "id": "D",
+        "text": "Action"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Act is the correct one-word substitution. हिंदी: कार्य करना, अभिनय करना. Example: “He acted confidently during the interview.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows031",
+    "question": "Giving cause for legal action",
+    "options": [
+      {
+        "id": "A",
+        "text": "Actonable"
+      },
+      {
+        "id": "B",
+        "text": "Actionable"
+      },
+      {
+        "id": "C",
+        "text": "Actionble"
+      },
+      {
+        "id": "D",
+        "text": "Actionary"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Actionable is the correct one-word substitution. हिंदी: कानूनी कार्यवाही करने योग्य. Example: “The report contained actionable information.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows032",
+    "question": "Make a machine active or operative",
+    "options": [
+      {
+        "id": "A",
+        "text": "Activate"
+      },
+      {
+        "id": "B",
+        "text": "Acclimate"
+      },
+      {
+        "id": "C",
+        "text": "Activatte"
+      },
+      {
+        "id": "D",
+        "text": "Activete"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Activate is the correct one-word substitution. हिंदी: सक्रिय करना. Example: “Press the button to activate the machine.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows033",
+    "question": "The ability to make good judgments and take quick decisions // Sharpness and accuracy of judgement",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acumenous"
+      },
+      {
+        "id": "B",
+        "text": "Accumen"
+      },
+      {
+        "id": "C",
+        "text": "Acumman"
+      },
+      {
+        "id": "D",
+        "text": "Acumen"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Acumen is the correct one-word substitution. हिंदी: कुशाग्र बुद्धि. Example: “Her business acumen helped the company.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows034",
+    "question": "A person who is physically dependent on a substance/harmful drugs",
+    "options": [
+      {
+        "id": "A",
+        "text": "Addict"
+      },
+      {
+        "id": "B",
+        "text": "Adict"
+      },
+      {
+        "id": "C",
+        "text": "Addikt"
+      },
+      {
+        "id": "D",
+        "text": "Addicted"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Addict is the correct one-word substitution. हिंदी: नशेड़ी. Example: “The rehabilitation centre helped the drug addict.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows035",
+    "question": "Believe in and follow the practices of",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adheree"
+      },
+      {
+        "id": "B",
+        "text": "Abide"
+      },
+      {
+        "id": "C",
+        "text": "Adhear"
+      },
+      {
+        "id": "D",
+        "text": "Adhere"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Adhere is the correct one-word substitution. हिंदी: पालन करना. Example: “Employees must adhere to the safety rules.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows036",
+    "question": "The period between the beginning of puberty and adulthood",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adolesence"
+      },
+      {
+        "id": "B",
+        "text": "Adolescence"
+      },
+      {
+        "id": "C",
+        "text": "Adolescent"
+      },
+      {
+        "id": "D",
+        "text": "Adoloscence"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Adolescence is the correct one-word substitution. हिंदी: किशोरावस्था. Example: “During adolescence, many physical changes occur.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows037",
+    "question": "An extremely beautiful young man",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adoniss"
+      },
+      {
+        "id": "B",
+        "text": "Adonis"
+      },
+      {
+        "id": "C",
+        "text": "Adonis-like"
+      },
+      {
+        "id": "D",
+        "text": "Adonnis"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Adonis is the correct one-word substitution. हिंदी: खूबसूरत नौजवान. Example: “The hero is described as an Adonis.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows038",
+    "question": "Very attractive and easy to feel love for",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adorrable"
+      },
+      {
+        "id": "B",
+        "text": "Adorable"
+      },
+      {
+        "id": "C",
+        "text": "Adorible"
+      },
+      {
+        "id": "D",
+        "text": "Adoring"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Adorable is the correct one-word substitution. हिंदी: प्यारा. Example: “The puppy was adorable.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows039",
+    "question": "Make impure by adding inferior substances",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adulterate"
+      },
+      {
+        "id": "B",
+        "text": "Adulterated"
+      },
+      {
+        "id": "C",
+        "text": "Adulterete"
+      },
+      {
+        "id": "D",
+        "text": "Adultrate"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Adulterate is the correct one-word substitution. हिंदी: मिलावट करना. Example: “Some traders adulterate milk with cheaper substances.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows040",
+    "question": "Willing to take risks and try new ideas",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adventurist"
+      },
+      {
+        "id": "B",
+        "text": "Adventurouse"
+      },
+      {
+        "id": "C",
+        "text": "Adventurus"
+      },
+      {
+        "id": "D",
+        "text": "Adventurous"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Adventurous is the correct one-word substitution. हिंदी: साहसिक. Example: “The adventurous traveller explored remote villages.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows041",
+    "question": "A person who supports or speaks in favour of something",
+    "options": [
+      {
+        "id": "A",
+        "text": "Advocate"
+      },
+      {
+        "id": "B",
+        "text": "Advocat"
+      },
+      {
+        "id": "C",
+        "text": "Advokate"
+      },
+      {
+        "id": "D",
+        "text": "Advocation"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Advocate is the correct one-word substitution. हिंदी: वकील/अधिवक्ता. Example: “She is an advocate of equal education.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows042",
+    "question": "Growing/existing/living in air",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aeriel"
+      },
+      {
+        "id": "B",
+        "text": "Aereal"
+      },
+      {
+        "id": "C",
+        "text": "Aerials"
+      },
+      {
+        "id": "D",
+        "text": "Aerial"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Aerial is the correct one-word substitution. हिंदी: हवाई. Example: “The photographer took an aerial view.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows043",
+    "question": "Concerned with beauty or the appreciation of beauty",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aesthatic"
+      },
+      {
+        "id": "B",
+        "text": "Esthetic"
+      },
+      {
+        "id": "C",
+        "text": "Aestetic"
+      },
+      {
+        "id": "D",
+        "text": "Aesthetic"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Aesthetic is the correct one-word substitution. हिंदी: सौंदर्य सम्बन्धी. Example: “The designer considered the building's aesthetic appeal.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows044",
+    "question": "A list of items to be discussed at a meeting",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agendda"
+      },
+      {
+        "id": "B",
+        "text": "Agendum"
+      },
+      {
+        "id": "C",
+        "text": "Agenda"
+      },
+      {
+        "id": "D",
+        "text": "Aganda"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Agenda is the correct one-word substitution. हिंदी: कार्यसूची. Example: “The first item on the agenda was the budget.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows045",
+    "question": "To increase the importance, position or wealth",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aggrandize"
+      },
+      {
+        "id": "B",
+        "text": "Aggrandizee"
+      },
+      {
+        "id": "C",
+        "text": "Aggrandise"
+      },
+      {
+        "id": "D",
+        "text": "Aggrandise"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Aggrandize is the correct one-word substitution. हिंदी: वृद्धि करना. Example: “He used the award to aggrandize his image.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows046",
+    "question": "Always ready to attack or quarrel // One who is hostile and violent",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agressive"
+      },
+      {
+        "id": "B",
+        "text": "Aggressiv"
+      },
+      {
+        "id": "C",
+        "text": "Aggresive"
+      },
+      {
+        "id": "D",
+        "text": "Aggressive"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Aggressive is the correct one-word substitution. हिंदी: आक्रामक. Example: “The aggressive driver nearly caused an accident.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows047",
+    "question": "One who is not sure about God's existence",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agnostical"
+      },
+      {
+        "id": "B",
+        "text": "Agnostc"
+      },
+      {
+        "id": "C",
+        "text": "Agnostik"
+      },
+      {
+        "id": "D",
+        "text": "Agnostic"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Agnostic is the correct one-word substitution. हिंदी: ईश्वर के बारे में संशयवादी व्यक्ति. Example: “He describes himself as agnostic.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows048",
+    "question": "Extreme mental or physical suffering",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anguish"
+      },
+      {
+        "id": "B",
+        "text": "Agony"
+      },
+      {
+        "id": "C",
+        "text": "Agoni"
+      },
+      {
+        "id": "D",
+        "text": "Agonie"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Agony is the correct one-word substitution. हिंदी: कष्ट. Example: “The injured player was in agony.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows049",
+    "question": "A blank book for keeping a collection of photographs, stamps or pictures",
+    "options": [
+      {
+        "id": "A",
+        "text": "Albm"
+      },
+      {
+        "id": "B",
+        "text": "Alubm"
+      },
+      {
+        "id": "C",
+        "text": "Albumen"
+      },
+      {
+        "id": "D",
+        "text": "Album"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Album is the correct one-word substitution. हिंदी: चित्र संग्रह की किताब. Example: “She keeps old photographs in an album.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows050",
+    "question": "Study of chemistry in a medieval fashion",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alchemy"
+      },
+      {
+        "id": "B",
+        "text": "Alchamy"
+      },
+      {
+        "id": "C",
+        "text": "Chemistry"
+      },
+      {
+        "id": "D",
+        "text": "Alchemi"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Alchemy is the correct one-word substitution. हिंदी: मध्यकालीन रसायन विद्या. Example: “Alchemy was studied in medieval times.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows051",
+    "question": "A substance for killing algae",
+    "options": [
+      {
+        "id": "A",
+        "text": "Algecide"
+      },
+      {
+        "id": "B",
+        "text": "Algaecyde"
+      },
+      {
+        "id": "C",
+        "text": "Algicide"
+      },
+      {
+        "id": "D",
+        "text": "Algaecide"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Algaecide is the correct one-word substitution. हिंदी: शैवालनाशक. Example: “The pond was treated with an algaecide.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows052",
+    "question": "Fear of pain",
+    "options": [
+      {
+        "id": "A",
+        "text": "Algophobe"
+      },
+      {
+        "id": "B",
+        "text": "Algaphobia"
+      },
+      {
+        "id": "C",
+        "text": "Algophobya"
+      },
+      {
+        "id": "D",
+        "text": "Algophobia"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Algophobia is the correct one-word substitution. हिंदी: शरीर में कष्ट होने का डर. Example: “His algophobia makes medical procedures frightening.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows053",
+    "question": "A person belonging to a foreign country // different from what you are used to // A fictional being from another world",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alien"
+      },
+      {
+        "id": "B",
+        "text": "Alienate"
+      },
+      {
+        "id": "C",
+        "text": "Allien"
+      },
+      {
+        "id": "D",
+        "text": "Alian"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Alien is the correct one-word substitution. हिंदी: अजनबी, विदेशी, अन्य ग्रह का प्राणी. Example: “The story features an alien from another world.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows054",
+    "question": "The money paid to former wife, husband or partner when the marriage is ended",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alimoney"
+      },
+      {
+        "id": "B",
+        "text": "Alimony"
+      },
+      {
+        "id": "C",
+        "text": "Alimoni"
+      },
+      {
+        "id": "D",
+        "text": "Almony"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Alimony is the correct one-word substitution. हिंदी: छोड़े हुए साथी के लिए गुजारा भत्ता. Example: “The court ordered monthly alimony.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows055",
+    "question": "A story, play, picture, etc. in which each character/event is a symbol representing an idea/a quality, such as truth, evil, death, etc.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Allegorie"
+      },
+      {
+        "id": "B",
+        "text": "Allegary"
+      },
+      {
+        "id": "C",
+        "text": "Allegorical"
+      },
+      {
+        "id": "D",
+        "text": "Allegory"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Allegory is the correct one-word substitution. हिंदी: नीति कथा. Example: “The story is an allegory about good and evil.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows056",
+    "question": "Words that begin with the same letter, syllable or sound // Repetition of an initial sound in two or more words of a line",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alliteraton"
+      },
+      {
+        "id": "B",
+        "text": "Alliteretion"
+      },
+      {
+        "id": "C",
+        "text": "Alliteration"
+      },
+      {
+        "id": "D",
+        "text": "Aliteration"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Alliteration is the correct one-word substitution. हिंदी: अनुप्रास अलंकार. Example: ““Peter Piper picked” is an example of alliteration.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows057",
+    "question": "Soil deposited by flowing water",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alluveum"
+      },
+      {
+        "id": "B",
+        "text": "Aluvium"
+      },
+      {
+        "id": "C",
+        "text": "Alluvion"
+      },
+      {
+        "id": "D",
+        "text": "Alluvium"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Alluvium is the correct one-word substitution. हिंदी: पानी के बहाव द्वारा बिछाई गई मिट्टी. Example: “The river deposited fertile alluvium.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows058",
+    "question": "The school or college in which one has been educated",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alma Mater"
+      },
+      {
+        "id": "B",
+        "text": "Alma Matera"
+      },
+      {
+        "id": "C",
+        "text": "Alma Matre"
+      },
+      {
+        "id": "D",
+        "text": "Alma Matar"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Alma Mater is the correct one-word substitution. हिंदी: जहाँ शिक्षा पाई वह संस्था. Example: “She returned to her alma mater.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows059",
+    "question": "A publication containing an astronomical or meteorological annual calendar that contains important dates and time",
+    "options": [
+      {
+        "id": "A",
+        "text": "Almanach"
+      },
+      {
+        "id": "B",
+        "text": "Almanacq"
+      },
+      {
+        "id": "C",
+        "text": "Almanack"
+      },
+      {
+        "id": "D",
+        "text": "Almanac"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Almanac is the correct one-word substitution. हिंदी: पंचांग. Example: “The farmer consulted the almanac.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows060",
+    "question": "Mountain climbing",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alpinism"
+      },
+      {
+        "id": "B",
+        "text": "Alpinisim"
+      },
+      {
+        "id": "C",
+        "text": "Alpinismm"
+      },
+      {
+        "id": "D",
+        "text": "Alpinist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Alpinism is the correct one-word substitution. हिंदी: पर्वतारोहण. Example: “Alpinism requires mountain skills.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows061",
+    "question": "A table or flat surface where offerings are made to a deity",
+    "options": [
+      {
+        "id": "A",
+        "text": "Altar"
+      },
+      {
+        "id": "B",
+        "text": "Altere"
+      },
+      {
+        "id": "C",
+        "text": "Alter"
+      },
+      {
+        "id": "D",
+        "text": "Altarist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Altar is the correct one-word substitution. हिंदी: वह स्थान जहाँ भगवान पर चढ़ाने वाली सामग्री रखी जाती है. Example: “Flowers were placed on the altar.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows062",
+    "question": "Instrument that measures the altitude of the land surface",
+    "options": [
+      {
+        "id": "A",
+        "text": "Altimater"
+      },
+      {
+        "id": "B",
+        "text": "Altimetre"
+      },
+      {
+        "id": "C",
+        "text": "Altimeter"
+      },
+      {
+        "id": "D",
+        "text": "Altimiter"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Altimeter is the correct one-word substitution. हिंदी: ऊंचाई नापने का यंत्र. Example: “The pilot checked the altimeter.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows063",
+    "question": "The height above sea level",
+    "options": [
+      {
+        "id": "A",
+        "text": "Attitude"
+      },
+      {
+        "id": "B",
+        "text": "Altitood"
+      },
+      {
+        "id": "C",
+        "text": "Altitute"
+      },
+      {
+        "id": "D",
+        "text": "Altitude"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Altitude is the correct one-word substitution. हिंदी: ऊंचाई. Example: “The city is at a high altitude.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows064",
+    "question": "Someone who makes charitable donations intended to the welfare of other people",
+    "options": [
+      {
+        "id": "A",
+        "text": "Altruist"
+      },
+      {
+        "id": "B",
+        "text": "Altruistt"
+      },
+      {
+        "id": "C",
+        "text": "Altruiste"
+      },
+      {
+        "id": "D",
+        "text": "Altruistic"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Altruist is the correct one-word substitution. हिंदी: परोपकारी. Example: “The altruist donated money to charity.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows065",
+    "question": "A former student of a school, college or university",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alumnius"
+      },
+      {
+        "id": "B",
+        "text": "Alumnus"
+      },
+      {
+        "id": "C",
+        "text": "Alumnas"
+      },
+      {
+        "id": "D",
+        "text": "Alumni"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Alumnus is the correct one-word substitution. हिंदी: भूतपूर्व छात्र. Example: “He is an alumnus of the university.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows066",
+    "question": "One who plays for pleasure rather than as a profession // A person who is neither well experienced nor professional // A non-professional who is inept at a particular activity",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amatuer"
+      },
+      {
+        "id": "B",
+        "text": "Amateur"
+      },
+      {
+        "id": "C",
+        "text": "Amateure"
+      },
+      {
+        "id": "D",
+        "text": "Amature"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Amateur is the correct one-word substitution. हिंदी: शौकीन व्यक्ति/अनुभवहीन. Example: “He is an amateur photographer.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows067",
+    "question": "Fear of riding in a car",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amoxophobia"
+      },
+      {
+        "id": "B",
+        "text": "Amaxophobya"
+      },
+      {
+        "id": "C",
+        "text": "Amaxaphobia"
+      },
+      {
+        "id": "D",
+        "text": "Amaxophobia"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Amaxophobia is the correct one-word substitution. हिंदी: वाहनों का डर. Example: “Her amaxophobia makes car travel frightening.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows068",
+    "question": "A diplomatic representative in another country",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ambassader"
+      },
+      {
+        "id": "B",
+        "text": "Ambassodor"
+      },
+      {
+        "id": "C",
+        "text": "Ambassadress"
+      },
+      {
+        "id": "D",
+        "text": "Ambassador"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Ambassador is the correct one-word substitution. हिंदी: राजदूत. Example: “The ambassador represented his country.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows069",
+    "question": "Able to use the left hand and right hand equally well",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ambidexterous"
+      },
+      {
+        "id": "B",
+        "text": "Ambidextrous"
+      },
+      {
+        "id": "C",
+        "text": "Ambidextros"
+      },
+      {
+        "id": "D",
+        "text": "Ambidextral"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ambidextrous is the correct one-word substitution. हिंदी: उभयहस्त. Example: “The ambidextrous player can use either hand equally well.”",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "ows070",
+    "question": "The character and atmosphere of a place",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ambiensce"
+      },
+      {
+        "id": "B",
+        "text": "Ambience"
+      },
+      {
+        "id": "C",
+        "text": "Ambiance"
+      },
+      {
+        "id": "D",
+        "text": "Ambiency"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Ambience is the correct one-word substitution. हिंदी: वातावरण, माहौल. Example: “The restaurant has a pleasant ambience.”",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows071",
+    "question": "Capable of being understood in either of two or more possible senses, and therefore not definite",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ambigous"
+      },
+      {
+        "id": "B",
+        "text": "Ambiguious"
+      },
+      {
+        "id": "C",
+        "text": "Ambiguity"
+      },
+      {
+        "id": "D",
+        "text": "Ambiguous"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Ambiguous is the correct one-word substitution. हिंदी: संदिग्धार्थी/अस्पष्ट. Example: “The wording was ambiguous and had two possible meanings.”",
+    "difficulty": "hard",
+    "language": "en"
+  }
+]

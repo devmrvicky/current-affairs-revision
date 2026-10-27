@@ -1,0 +1,454 @@
+{
+  "version": "1.0",
+  "content_type": "comprehension_test",
+  "title": "SSC Editorial Comprehension Practice - Set 1",
+  "exam": "SSC",
+  "subject": "English Comprehension",
+  "level": "SSC Level 2",
+  "instructions": [
+    "Read the passage carefully before attempting the questions.",
+    "Attempt all questions without checking the answer key.",
+    "Answers and explanations should be shown only after submission in test mode."
+  ],
+  "tests": [
+    {
+      "id": "ssc_comp_editorial_001",
+      "title": "Space Technology and the Purpose of Public Institutions",
+      "difficulty": "medium",
+      "passage": "India's space programme has entered a new phase. For decades, the country's space agency was primarily associated with launching satellites and developing technologies under considerable financial and technological constraints. Today, however, space technology has become closely connected with communication, weather forecasting, disaster management, agriculture and national security. This expansion of applications has naturally increased expectations from India's space institutions.\n\nYet, greater expectations should not mean that every possible activity must be pursued by the same institution. A public organisation such as ISRO has a distinctive role in building capabilities that may not immediately attract private investment but can produce substantial benefits for society. Its strength lies not merely in launching rockets but also in developing technologies, creating scientific expertise and addressing problems that have wider national importance.\n\nThe growing participation of private companies in the space sector is therefore not necessarily a threat to public institutions. On the contrary, it can allow the government space programme to concentrate on areas requiring long-term research and strategic attention, while private enterprises take up commercially viable activities. Such a division, however, requires a clear policy framework. Without it, competition between institutions may create confusion rather than efficiency.\n\nThe challenge, therefore, is not to choose between the public and private sectors, but to determine what each can do best. India needs an ecosystem in which public institutions provide scientific leadership and technological foundations, while private companies contribute innovation, investment and speed. If this balance is maintained, the expansion of the space sector can serve not only commercial interests but also broader developmental goals.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "main_idea",
+          "question": "What is the central idea of the passage?",
+          "options": [
+            "ISRO should completely withdraw from commercial space activities.",
+            "Private companies are incapable of contributing meaningfully to India's space programme.",
+            "India needs a balanced space ecosystem in which public and private institutions perform complementary roles.",
+            "India's space programme has failed to meet its developmental objectives."
+          ],
+          "correct_option": 2,
+          "explanation": "The passage argues for complementary roles: public institutions should provide scientific leadership and pursue long-term national priorities, while private companies can contribute investment, innovation and speed."
+        },
+        {
+          "id": "q2",
+          "type": "detail",
+          "question": "According to the passage, what is a distinctive role of a public organisation like ISRO?",
+          "options": [
+            "To prevent private companies from entering the space sector",
+            "To undertake long-term and nationally important technological work",
+            "To maximise commercial profits from space technology",
+            "To focus exclusively on launching satellites"
+          ],
+          "correct_option": 1,
+          "explanation": "The passage says public organisations can build capabilities that may not immediately attract private investment and can address problems of wider national importance."
+        },
+        {
+          "id": "q3",
+          "type": "detail",
+          "question": "The author suggests that greater private participation can allow ISRO to:",
+          "options": [
+            "abandon scientific research",
+            "focus more on long-term research and strategic priorities",
+            "transfer all its responsibilities to private companies",
+            "reduce India's dependence on technology"
+          ],
+          "correct_option": 1,
+          "explanation": "Private enterprises can take up commercially viable activities, allowing the government space programme to concentrate on long-term research and strategic attention."
+        },
+        {
+          "id": "q4",
+          "type": "inference",
+          "question": "Which of the following can be inferred from the passage?",
+          "options": [
+            "Public and private institutions must necessarily compete with each other.",
+            "Private investment is always more beneficial than public investment.",
+            "Clear policy is necessary for effective cooperation between public institutions and private enterprises.",
+            "Commercial activities have no relevance to India's space sector."
+          ],
+          "correct_option": 2,
+          "explanation": "The passage states that a division of responsibilities requires a clear policy framework; without it, competition may create confusion rather than efficiency."
+        },
+        {
+          "id": "q5",
+          "type": "vocabulary_in_context",
+          "question": "What does the word “distinctive” as used in the passage most nearly mean?",
+          "options": [
+            "Ordinary",
+            "Special",
+            "Temporary",
+            "Uncertain"
+          ],
+          "correct_option": 1,
+          "explanation": "Here, distinctive means special or characteristic; ISRO has a particular role that distinguishes it from purely commercial organisations."
+        },
+        {
+          "id": "q6",
+          "type": "tone",
+          "question": "Which of the following would BEST describe the tone of the passage?",
+          "options": [
+            "Sarcastic and hostile",
+            "Analytical and balanced",
+            "Emotional and pessimistic",
+            "Humorous and informal"
+          ],
+          "correct_option": 1,
+          "explanation": "The author considers both public and private sectors and argues for a balanced allocation of responsibilities. The tone is therefore analytical and balanced."
+        },
+        {
+          "id": "q7",
+          "type": "inference",
+          "question": "The phrase “division of labour” is closest in meaning to which idea in the passage?",
+          "options": [
+            "Eliminating government participation",
+            "Giving different responsibilities to institutions according to their strengths",
+            "Making private companies responsible for national security",
+            "Preventing institutions from working independently"
+          ],
+          "correct_option": 1,
+          "explanation": "Division of labour means assigning different tasks to different parties according to their respective strengths."
+        }
+      ],
+      "analysis": {
+        "gist": "India's space sector can benefit most when public institutions and private companies perform complementary roles based on their respective strengths.",
+        "tone": "Analytical and balanced",
+        "author_purpose": "To argue for a balanced public-private ecosystem in India's space sector rather than choosing one sector over the other."
+      },
+      "vocabulary": [
+        {
+          "word": "phase",
+          "simple_meaning": "stage",
+          "context_meaning": "एक विकासात्मक चरण"
+        },
+        {
+          "word": "primarily",
+          "simple_meaning": "mainly",
+          "context_meaning": "मुख्य रूप से"
+        },
+        {
+          "word": "constraints",
+          "simple_meaning": "limitations",
+          "context_meaning": "वित्तीय या तकनीकी सीमाएँ"
+        },
+        {
+          "word": "expansion",
+          "simple_meaning": "growth",
+          "context_meaning": "उपयोगों का बढ़ना/विस्तार"
+        },
+        {
+          "word": "distinctive",
+          "simple_meaning": "special",
+          "context_meaning": "विशेष या अलग पहचान वाला"
+        },
+        {
+          "word": "capabilities",
+          "simple_meaning": "abilities",
+          "context_meaning": "किसी काम को करने की क्षमताएँ"
+        },
+        {
+          "word": "substantial",
+          "simple_meaning": "considerable",
+          "context_meaning": "काफी महत्वपूर्ण या पर्याप्त"
+        },
+        {
+          "word": "expertise",
+          "simple_meaning": "special skill/knowledge",
+          "context_meaning": "किसी क्षेत्र का विशेष ज्ञान या कौशल"
+        },
+        {
+          "word": "strategic",
+          "simple_meaning": "related to long-term planning",
+          "context_meaning": "दीर्घकालिक महत्व और योजना से संबंधित"
+        },
+        {
+          "word": "viable",
+          "simple_meaning": "capable of succeeding",
+          "context_meaning": "व्यावसायिक रूप से सफल होने योग्य"
+        },
+        {
+          "word": "framework",
+          "simple_meaning": "basic structure",
+          "context_meaning": "नीति और नियमों का ढाँचा"
+        },
+        {
+          "word": "efficiency",
+          "simple_meaning": "effective working",
+          "context_meaning": "कम संसाधनों में प्रभावी ढंग से काम करने की क्षमता"
+        },
+        {
+          "word": "ecosystem",
+          "simple_meaning": "interconnected system",
+          "context_meaning": "आपस में जुड़े संस्थानों और गतिविधियों की व्यवस्था"
+        },
+        {
+          "word": "foundations",
+          "simple_meaning": "basic support",
+          "context_meaning": "किसी व्यवस्था का बुनियादी तकनीकी आधार"
+        },
+        {
+          "word": "innovation",
+          "simple_meaning": "new idea or method",
+          "context_meaning": "नई सोच या नई तकनीक"
+        },
+        {
+          "word": "broader",
+          "simple_meaning": "wider",
+          "context_meaning": "अधिक व्यापक"
+        },
+        {
+          "word": "developmental",
+          "simple_meaning": "related to development",
+          "context_meaning": "विकास से संबंधित"
+        }
+      ]
+    },
+    {
+      "id": "ssc_comp_editorial_002",
+      "title": "When Cities Become Hotter Than Their Surroundings",
+      "difficulty": "medium_plus",
+      "passage": "A city is not merely a collection of buildings and roads. The materials from which it is constructed can fundamentally alter its local climate. Concrete, asphalt and other dense surfaces absorb and retain heat during the day, releasing it slowly after sunset. At the same time, the replacement of vegetation with buildings reduces the natural cooling that occurs when plants release water into the atmosphere. The result is what scientists describe as the urban heat island effect: cities can remain considerably warmer than nearby rural areas, particularly at night.\n\nThis phenomenon is not simply an environmental curiosity. Persistent nighttime heat can prevent the human body from recovering from daytime exposure, especially during prolonged periods of extreme weather. The burden is not distributed equally either. People living in poorly ventilated homes, working outdoors, or lacking access to reliable cooling may face substantially greater risks than those who can afford air-conditioning and better-insulated housing.\n\nUrban planning, therefore, has consequences that extend beyond aesthetics. Planting trees, creating shaded public spaces and protecting existing vegetation can reduce exposure to heat. Yet such measures should not be treated as universal solutions. Trees require water and maintenance, while poorly planned planting can sometimes obstruct airflow or place additional pressure on scarce resources. Similarly, air-conditioning can protect individuals indoors but, when widely used, increases electricity demand and may contribute to outdoor heat through the release of waste heat.\n\nThe more difficult task is consequently to design cities in which protection from heat does not depend entirely on an individual's ability to purchase it. This requires combining several relatively modest interventions—better building design, reflective surfaces, vegetation, accessible public spaces and early warnings during extreme heat. No single measure is likely to eliminate the problem. The objective should instead be to reduce vulnerability across the urban population.\n\nA heat-resilient city, in this sense, is not necessarily one that never becomes hot. It is one in which high temperatures are less likely to become a serious threat to people's health and livelihoods.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "main_idea",
+          "question": "What is the central argument of the passage?",
+          "options": [
+            "Air-conditioning is the most effective long-term solution to urban heat.",
+            "Urban heat is primarily caused by the disappearance of rural areas.",
+            "Cities need a combination of measures to reduce unequal vulnerability to extreme heat.",
+            "Planting trees should be the central objective of modern urban planning."
+          ],
+          "correct_option": 2,
+          "explanation": "The passage argues that urban heat requires multiple interventions and that protection should not depend entirely on an individual's ability to purchase cooling."
+        },
+        {
+          "id": "q2",
+          "type": "detail",
+          "question": "Why can nighttime heat be particularly problematic, according to the passage?",
+          "options": [
+            "It prevents buildings from absorbing solar radiation during the day.",
+            "It can interfere with the body's recovery after exposure to daytime heat.",
+            "It causes electricity consumption to fall rapidly after sunset.",
+            "It affects only people who work outdoors."
+          ],
+          "correct_option": 1,
+          "explanation": "Persistent nighttime heat can prevent the human body from recovering from daytime exposure."
+        },
+        {
+          "id": "q3",
+          "type": "inference",
+          "question": "Which of the following can be inferred from the passage?",
+          "options": [
+            "A measure that benefits one aspect of urban climate may create difficulties elsewhere.",
+            "Air-conditioning has no useful role in protecting people from extreme heat.",
+            "Trees are unsuitable for cities with limited water resources.",
+            "Urban heat can be eliminated if enough vegetation is planted."
+          ],
+          "correct_option": 0,
+          "explanation": "Trees can reduce heat but require water and maintenance; air-conditioning protects people indoors but can increase electricity demand and outdoor waste heat. Thus, a useful measure can also have limitations or side effects."
+        },
+        {
+          "id": "q4",
+          "type": "purpose",
+          "question": "The author mentions air-conditioning primarily to show that:",
+          "options": [
+            "individual protection and broader environmental consequences can sometimes conflict",
+            "electricity is more important than public health",
+            "poor people should avoid using cooling systems",
+            "indoor temperatures are generally higher than outdoor temperatures"
+          ],
+          "correct_option": 0,
+          "explanation": "Air-conditioning protects individuals but widespread use can increase electricity demand and contribute to outdoor heat."
+        },
+        {
+          "id": "q5",
+          "type": "not_mentioned",
+          "question": "Which of the following is NOT mentioned as a possible component of a heat-resilient city?",
+          "options": [
+            "Reflective surfaces",
+            "Better building design",
+            "Early warnings",
+            "Expansion of underground transport"
+          ],
+          "correct_option": 3,
+          "explanation": "The passage mentions reflective surfaces, better building design and early warnings, but not underground transport."
+        },
+        {
+          "id": "q6",
+          "type": "vocabulary_in_context",
+          "question": "What does the word “vulnerability” in the passage most nearly mean?",
+          "options": [
+            "Ability to adapt quickly",
+            "Susceptibility to harm",
+            "Resistance to change",
+            "Awareness of danger"
+          ],
+          "correct_option": 1,
+          "explanation": "In context, vulnerability means being more likely to suffer harm from extreme heat."
+        },
+        {
+          "id": "q7",
+          "type": "author_view",
+          "question": "Which statement best reflects the author's view of tree planting?",
+          "options": [
+            "It is sufficient by itself to solve the urban heat problem.",
+            "It is ineffective unless combined with air-conditioning.",
+            "It can be useful, but its benefits and limitations must be considered.",
+            "It should be avoided in cities with water shortages."
+          ],
+          "correct_option": 2,
+          "explanation": "The author recognises the benefits of trees while also noting water, maintenance and airflow-related limitations."
+        },
+        {
+          "id": "q8",
+          "type": "title",
+          "question": "Which of the following would be the most appropriate title for the passage?",
+          "options": [
+            "Why Air-Conditioning Is Destroying Cities",
+            "Making Cities Less Vulnerable to Heat",
+            "The Disappearance of Rural Landscapes",
+            "The Economic Benefits of Urban Vegetation"
+          ],
+          "correct_option": 1,
+          "explanation": "This title captures the passage's broader argument about reducing urban vulnerability to heat through multiple measures."
+        }
+      ],
+      "analysis": {
+        "gist": "Urban heat is a complex problem that requires several coordinated measures to reduce health risks and unequal vulnerability.",
+        "tone": "Analytical and balanced",
+        "author_purpose": "To explain the urban heat problem and argue for a multi-measure approach to building heat-resilient cities."
+      },
+      "vocabulary": [
+        {
+          "word": "fundamentally",
+          "simple_meaning": "basically",
+          "context_meaning": "मूल रूप से"
+        },
+        {
+          "word": "alter",
+          "simple_meaning": "change",
+          "context_meaning": "स्थानीय जलवायु को बदल देना"
+        },
+        {
+          "word": "dense",
+          "simple_meaning": "closely packed",
+          "context_meaning": "सघन/घना"
+        },
+        {
+          "word": "retain",
+          "simple_meaning": "keep",
+          "context_meaning": "गर्मी को अपने भीतर बनाए रखना"
+        },
+        {
+          "word": "vegetation",
+          "simple_meaning": "plant cover",
+          "context_meaning": "किसी क्षेत्र की वनस्पति"
+        },
+        {
+          "word": "phenomenon",
+          "simple_meaning": "event or effect",
+          "context_meaning": "एक विशेष प्राकृतिक/पर्यावरणीय प्रभाव"
+        },
+        {
+          "word": "persistent",
+          "simple_meaning": "continuing",
+          "context_meaning": "लंबे समय तक लगातार बना रहने वाला"
+        },
+        {
+          "word": "exposure",
+          "simple_meaning": "contact",
+          "context_meaning": "गर्मी के संपर्क में आना"
+        },
+        {
+          "word": "prolonged",
+          "simple_meaning": "lasting a long time",
+          "context_meaning": "लंबे समय तक चलने वाला"
+        },
+        {
+          "word": "ventilated",
+          "simple_meaning": "having air circulation",
+          "context_meaning": "जहाँ हवा का अच्छा आवागमन हो"
+        },
+        {
+          "word": "substantially",
+          "simple_meaning": "considerably",
+          "context_meaning": "काफी हद तक"
+        },
+        {
+          "word": "insulated",
+          "simple_meaning": "protected from outside temperature",
+          "context_meaning": "बाहरी तापमान से सुरक्षित"
+        },
+        {
+          "word": "aesthetics",
+          "simple_meaning": "beauty/appearance",
+          "context_meaning": "सुंदरता या दिखावट से संबंधित पहलू"
+        },
+        {
+          "word": "scarce",
+          "simple_meaning": "limited",
+          "context_meaning": "कम उपलब्ध/सीमित"
+        },
+        {
+          "word": "intervention",
+          "simple_meaning": "action taken to improve a situation",
+          "context_meaning": "स्थिति सुधारने के लिए किया गया उपाय"
+        },
+        {
+          "word": "reflective",
+          "simple_meaning": "able to reflect",
+          "context_meaning": "ऊष्मा/प्रकाश को परावर्तित करने वाला"
+        },
+        {
+          "word": "accessible",
+          "simple_meaning": "easy to reach/use",
+          "context_meaning": "लोगों के लिए आसानी से उपलब्ध या पहुँच योग्य"
+        },
+        {
+          "word": "vulnerability",
+          "simple_meaning": "susceptibility to harm",
+          "context_meaning": "नुकसान से प्रभावित होने की असुरक्षा"
+        },
+        {
+          "word": "eliminate",
+          "simple_meaning": "remove completely",
+          "context_meaning": "पूरी तरह समाप्त करना"
+        },
+        {
+          "word": "objective",
+          "simple_meaning": "goal",
+          "context_meaning": "मुख्य उद्देश्य"
+        },
+        {
+          "word": "resilient",
+          "simple_meaning": "able to withstand difficulty",
+          "context_meaning": "कठिन परिस्थिति में टिकने/उबरने में सक्षम"
+        },
+        {
+          "word": "livelihoods",
+          "simple_meaning": "ways of earning a living",
+          "context_meaning": "आजीविका के साधन"
+        }
+      ]
+    }
+  ],
+  "test_history": {
+    "attempts": [
+      {
+        "test_id": "ssc_comp_editorial_001",
+        "score": 7,
+        "total": 7,
+        "accuracy": 100
+      },
+      {
+        "test_id": "ssc_comp_editorial_002",
+        "score": 6,
+        "total": 8,
+        "accuracy": 75
+      }
+    ],
+    "combined_score": 13,
+    "combined_total": 15,
+    "combined_accuracy": 86.67
+  }
+}

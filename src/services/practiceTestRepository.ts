@@ -1,115 +1,91 @@
 // ─── Practice Test Repository ────────────────────────────────────────────────
 // Aggregates fixed, nameable "tests" — as opposed to the free-form
 // topic+difficulty+count pool the Quick Practice section builds on the fly —
-// from all three content sources into one normalized shape (product-refactor
-// §54-59). It does this by grouping the ALREADY-loaded universal question
-// pool by each question's `source` field, which questionRepository already
-// sets uniquely per file/chapter-test. No separate loading, no separate
-// engine: every card this returns starts via the exact same
-// practiceSessionStore + /session used everywhere else.
+// from all content sources into one normalized shape (product-refactor §54-59),
+// and arranges them as Subject → Chapter → Topic → Test.
+//
+// It does this by grouping the ALREADY-loaded universal question pool by each
+// question's `source` field, which questionRepository sets uniquely per
+// file/chapter-test. No separate loading, no separate engine: every test this
+// returns starts via the same practiceSessionStore + /session used everywhere
+// else. The grouping rules themselves live in testLibraryBuilder.ts (pure, so
+// they can be checked in isolation); this module only supplies the pool and the
+// chapter/topic display names, and caches the result per pool version so that
+// opening a chapter's "T" panel or revisiting the library never re-derives it.
 
-import { getQuestionsByExam } from './questionRepository';
-import type { UniversalQuestion, Difficulty } from '../types/universalQuestion';
+import { getQuestionsByExam, getQuestionPoolVersion } from './questionRepository';
+import { getChapter } from './universalChapterRepository';
+import { getTopicDisplayName } from '../data/registry/subjectRegistry';
+import {
+  buildLibrary,
+  buildPracticeTests,
+  type LibraryLookups,
+  type PracticeTestDefinition,
+  type TestLibrary,
+} from './testLibraryBuilder';
 
-export type PracticeTestSource = 'exam-mock' | 'chapter' | 'mock-source';
+export type { PracticeTestSource, PracticeTestDefinition, TestScope, TestLibrary, LibraryChapter, LibraryTopicGroup } from './testLibraryBuilder';
 
-export interface PracticeTestDefinition {
-  id: string;
-  examId: string;
-  subjectId: string;
-  topicIds: string[];
-  title: string;
-  questionIds: string[];
-  source: PracticeTestSource;
-  questionCount: number;
-  difficulty: Difficulty | 'mixed';
-  /** Fixed Mock (question set + marking is authoritative, generic Practice Settings can't shrink/reshuffle it) vs Configurable Practice Set — product-refactor §100. */
-  isFixedMock: boolean;
+const lookups: LibraryLookups = {
+  chapter: (chapterSubjectId, chapterId) => {
+    const chapter = getChapter(chapterSubjectId, chapterId);
+    return chapter ? { title: chapter.title, categoryTitle: chapter.categoryTitle } : undefined;
+  },
+  topicTitle: (subjectId, topicId) => getTopicDisplayName(subjectId, topicId),
+};
+
+/** Current Affairs questions belong to the 'current-affairs' exam only, whatever exam the learner has selected. */
+export function libraryExamId(selectedExamId: string, subjectId: string): string {
+  return subjectId === 'current-affairs' ? 'current-affairs' : selectedExamId;
 }
 
-function normalize(s: string): string {
-  return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
-}
+interface CacheEntry { version: number; library: Promise<TestLibrary> }
+const libraryCache = new Map<string, CacheEntry>();
 
-function humanize(id: string): string {
-  const spaced = id.replace(/([a-zA-Z])(\d)/g, '$1 $2'); // "mock01" -> "mock 01"
-  return spaced.split(/[-_\s]+/).map((w) => (w.length > 0 ? w[0].toUpperCase() + w.slice(1) : w)).join(' ');
-}
+/** The full test hierarchy for one exam + subject. Cached until the question pool is cleared. */
+export function getPracticeTestLibrary(examId: string, subjectId: string): Promise<TestLibrary> {
+  const effectiveExamId = libraryExamId(examId, subjectId);
+  const key = `${effectiveExamId}::${subjectId}`;
+  const version = getQuestionPoolVersion();
+  const hit = libraryCache.get(key);
+  if (hit && hit.version === version) return hit.library;
 
-function inferSource(rawSource: string): { kind: PracticeTestSource; title: string } | null {
-  if (rawSource.startsWith('mock:')) {
-    return { kind: 'exam-mock', title: humanize(rawSource.slice(5)) };
-  }
-  // Single-source-of-truth Mock JSON (mockSourceRegistry.ts) — every question
-  // tagged `mock-source:{mockId}` becomes ONE subject-wise practice set per
-  // mock per subject here, e.g. "Ssc Chsl Pyq 2019 07 02 Shift3 — Mathematics
-  // Mock Questions". This is generic grouping-by-source, not a mock-specific
-  // special case — any new source prefix gets the same treatment for free
-  // (product spec §14/§29/§68/§123).
-  if (rawSource.startsWith('mock-source:')) {
-    return { kind: 'mock-source', title: humanize(rawSource.slice(12)) };
-  }
-  // Universal Chapter test file — source is "chapter:{subjectId}/{chapterId}/{fileName}".
-  // The title is the fileName exactly as it came in from questionRepository's
-  // canonical chapter loader — already extension-stripped there, and never
-  // re-generated as "Test 01" (data-architecture migration §15/§35: a test
-  // card must show the real uploaded filename verbatim).
-  if (rawSource.startsWith('chapter:')) {
-    const parts = rawSource.slice(8).split('/');
-    const fileName = parts[parts.length - 1];
-    return { kind: 'chapter', title: fileName || humanize(rawSource) };
-  }
-  if (rawSource.includes('/')) {
-    // Current Affairs' own topic-wise chapters: source is "{chapterName}/{testLabel}",
-    // where testLabel is likewise the real filename (chapterRepository.ts),
-    // never a generated "Test 01".
-    const [chapterName, testLabel] = rawSource.split('/');
-    return { kind: 'chapter', title: `${chapterName} — ${testLabel}` };
-  }
-  return null; // e.g. a bare daily-quiz filename — not a discrete "test" unit worth listing here, it already has its own Daily Quiz entry point
-}
-
-const SOURCE_ORDER: Record<PracticeTestSource, number> = { 'exam-mock': 0, 'mock-source': 1, chapter: 2 };
-
-export async function getPracticeTests(examId: string, subjectId: string): Promise<PracticeTestDefinition[]> {
-  const pool = (await getQuestionsByExam(examId)).filter((q) => q.subjectId === subjectId);
-  const bySource = new Map<string, UniversalQuestion[]>();
-  for (const q of pool) {
-    if (!q.source) continue;
-    const arr = bySource.get(q.source) ?? [];
-    arr.push(q);
-    bySource.set(q.source, arr);
-  }
-
-  const defs: PracticeTestDefinition[] = [];
-  for (const [rawSource, qs] of bySource) {
-    const inferred = inferSource(rawSource);
-    if (!inferred) continue;
-
-    const topicIds = Array.from(new Set(qs.map((q) => q.topicId).filter((t): t is string => Boolean(t))));
-    const difficulties = new Set(qs.map((q) => q.difficulty));
-    defs.push({
-      id: `${examId}-${subjectId}-${normalize(rawSource)}`,
-      examId,
-      subjectId,
-      topicIds,
-      title: inferred.title,
-      questionIds: qs.map((q) => q.id),
-      source: inferred.kind,
-      questionCount: qs.length,
-      difficulty: difficulties.size === 1 ? (Array.from(difficulties)[0] as Difficulty) : 'mixed',
-      isFixedMock: inferred.kind === 'exam-mock',
+  const library = getQuestionsByExam(effectiveExamId)
+    .then((pool) => buildLibrary(effectiveExamId, subjectId, buildPracticeTests(effectiveExamId, subjectId, pool, lookups), lookups))
+    .catch((err) => {
+      libraryCache.delete(key); // never cache a failure
+      throw err;
     });
-  }
-
-  // Featured mocks first, then chapter tests (product-refactor §97)
-  defs.sort((a, b) => SOURCE_ORDER[a.source] - SOURCE_ORDER[b.source] || a.title.localeCompare(b.title));
-  return defs;
+  libraryCache.set(key, { version, library });
+  return library;
 }
 
-export function describeTestSource(source: PracticeTestSource): string {
+/** Flat list of tests — kept for callers that don't need the hierarchy. */
+export async function getPracticeTests(examId: string, subjectId: string): Promise<PracticeTestDefinition[]> {
+  return (await getPracticeTestLibrary(examId, subjectId)).tests;
+}
+
+/** Resolves one test by its stable id — what "Retake" uses so it relaunches the intended test, not a re-rolled pool. */
+export async function getPracticeTestById(examId: string, subjectId: string, testId: string): Promise<PracticeTestDefinition | undefined> {
+  return (await getPracticeTestLibrary(examId, subjectId)).tests.find((t) => t.id === testId);
+}
+
+/** Every test that belongs to one chapter (chapter-level, multi-topic and topic tests), grouped the same way the library groups them. */
+export async function getChapterTestGroup(examId: string, subjectId: string, chapterId: string) {
+  const library = await getPracticeTestLibrary(examId, subjectId);
+  return library.chapters.find((c) => c.kind === 'chapter' && c.chapterId === chapterId);
+}
+
+export function describeTestSource(source: PracticeTestDefinition['source']): string {
   if (source === 'exam-mock') return 'Exam Mock';
   if (source === 'mock-source') return 'Mock Questions';
   if (source === 'chapter') return 'Chapter Test';
   return 'Practice Set';
+}
+
+export function describeTestScope(scope: PracticeTestDefinition['scope']): string {
+  if (scope === 'topic') return 'Topic test';
+  if (scope === 'multi-topic') return 'Multi-topic';
+  if (scope === 'paper') return 'Mock paper';
+  return 'Chapter test';
 }

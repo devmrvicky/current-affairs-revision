@@ -17,6 +17,8 @@ import { getQuestionsByExam } from '../services/questionRepository';
 import { getChapterAttemptStats, type ChapterAttemptStats } from '../services/attemptLedgerService';
 import { buildSessionQuestionIds } from '../services/practiceService';
 import type { PracticeConfiguration } from '../types/practiceSession';
+import { usePracticeTestLibrary } from '../hooks/usePracticeTestLibrary';
+import { ChapterTestsButton, ChapterTestsPanel } from '../components/tests/ChapterTests';
 import type { UniversalQuestion } from '../types/universalQuestion';
 import { MarkdownRenderer } from '../components/reader/MarkdownRenderer';
 import { ReadingModeOverlay } from '../components/reader/ReadingModeOverlay';
@@ -60,6 +62,12 @@ export default function GenericChapterDetailPage() {
   const [attemptStats, setAttemptStats] = useState<ChapterAttemptStats | null>(null);
   const [isStarting, setIsStarting] = useState(false);
   const [mobileTab, setMobileTab] = useState<MobileTab>('notes');
+
+  // Right-hand card: the inline Practice viewer, or — via the compact "T" control — this
+  // chapter's individual tests. Tests are only fetched once "T" has been opened.
+  const [rightPanel, setRightPanel] = useState<'practice' | 'tests'>('practice');
+  const testsData = usePracticeTestLibrary(selectedExamId, subjectId || null, rightPanel === 'tests');
+  const hasTests = (chapter?.testFileCount ?? 0) > 0;
 
   // Inline practice viewer — local, session-less state (Test Mode is what
   // persists; this is a lightweight companion for reading-while-practicing).
@@ -283,14 +291,35 @@ export default function GenericChapterDetailPage() {
         <div className={`${mobileTab === 'mcq' ? 'block' : 'hidden lg:block'} lg:sticky lg:top-4 space-y-3`}>
           <div className="card p-4 sm:p-5">
             <div className="flex items-center justify-between gap-2 mb-3">
-              <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={() => setRightPanel('practice')}
+                aria-pressed={rightPanel === 'practice'}
+                className="flex items-center gap-2 rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
+              >
                 <ListChecks size={15} className="text-purple-500" />
-                <h2 className="font-display font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>Practice</h2>
+                <h2 className="font-display font-semibold text-sm" style={{ color: rightPanel === 'practice' ? 'var(--text-primary)' : 'var(--text-muted)' }}>Practice</h2>
+              </button>
+              <div className="flex items-center gap-2">
+                {rightPanel === 'practice' && questions.length > 0 && (
+                  <span className="text-xs font-medium" style={{ color: 'var(--text-muted)' }}>{qIndex + 1} / {questions.length}</span>
+                )}
+                {hasTests && (
+                  <ChapterTestsButton
+                    chapterTitle={chapter?.title ?? chapterId}
+                    open={rightPanel === 'tests'}
+                    onToggle={() => setRightPanel((p) => (p === 'tests' ? 'practice' : 'tests'))}
+                  />
+                )}
               </div>
-              {questions.length > 0 && (
-                <span className="text-xs font-medium" style={{ color: 'var(--text-muted)' }}>{qIndex + 1} / {questions.length}</span>
-              )}
             </div>
+
+            {rightPanel === 'tests' ? (
+              <div className="-mx-4 sm:-mx-5 -mb-4 sm:-mb-5" style={{ borderTop: '1px solid var(--border)' }}>
+                <ChapterTestsPanel data={testsData} chapterId={chapterId} chapterSubjectId={subjectId} chapterTitle={chapter?.title ?? chapterId} />
+              </div>
+            ) : (
+              <>
 
             {questionsLoading ? (
               <div className="h-56 shimmer rounded-xl" style={{ background: 'var(--border)' }} />
@@ -358,6 +387,8 @@ export default function GenericChapterDetailPage() {
                 </button>
               </div>
             )}
+              </>
+            )}
           </div>
 
           {questions.length > 0 && (
@@ -379,7 +410,7 @@ export default function GenericChapterDetailPage() {
       </div>
 
       {/* Mobile sticky Prev/Mark/Next — MCQ tab only */}
-      {mobileTab === 'mcq' && questions.length > 0 && (
+      {mobileTab === 'mcq' && rightPanel === 'practice' && questions.length > 0 && (
         <div className="lg:hidden fixed bottom-0 inset-x-0 z-30 px-3 py-2.5 flex items-center justify-between gap-2" style={{ background: 'var(--card)', borderTop: '1px solid var(--border)' }}>
           <button onClick={() => setQIndex((i) => Math.max(0, i - 1))} disabled={qIndex === 0} className="btn-secondary flex-1 py-2.5 text-sm disabled:opacity-40 flex items-center justify-center gap-1">
             <ChevronLeft size={16} /> Prev

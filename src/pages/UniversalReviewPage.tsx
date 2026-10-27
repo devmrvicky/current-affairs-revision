@@ -1,27 +1,32 @@
 import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, CheckCircle2, XCircle, Circle, Clock, Flag } from 'lucide-react';
-import { usePracticeSessionStore } from '../store/practiceSessionStore';
+import { useCompletedPracticeSession } from '../hooks/useCompletedPracticeSession';
 import { resolveQuestionsByIds } from '../services/questionRepository';
 import { getOptionLabel } from '../utils';
 import type { UniversalQuestion } from '../types/universalQuestion';
 
 export default function UniversalReviewPage() {
   const navigate = useNavigate();
-  const { session } = usePracticeSessionStore();
+  const { attemptId } = useParams<{ attemptId?: string }>();
+  const completed = useCompletedPracticeSession(attemptId);
   const [questionsById, setQuestionsById] = useState<Map<string, UniversalQuestion>>(new Map());
   const [loaded, setLoaded] = useState(false);
 
+  const session = completed.status === 'ready' ? completed.session : null;
+  const backToResult = attemptId ? `/session/result/${encodeURIComponent(attemptId)}` : '/session/result';
+
   useEffect(() => {
-    if (!session || !session.isCompleted) { navigate('/', { replace: true }); return; }
+    if (completed.status === 'missing') { navigate(attemptId ? backToResult : '/', { replace: true }); return; }
+    if (!session) return;
     resolveQuestionsByIds(session.questionIds).then((qs) => {
       setQuestionsById(new Map(qs.map((q) => [q.id, q])));
       setLoaded(true);
     });
-  }, [session, navigate]);
+  }, [completed.status, session, attemptId, backToResult, navigate]);
 
-  if (!session || !session.isCompleted || !loaded) return null;
+  if (!session || !loaded) return null;
 
   function formatTime(seconds: number): string {
     const m = Math.floor(seconds / 60);
@@ -32,7 +37,7 @@ export default function UniversalReviewPage() {
   return (
     <div className="space-y-4 pb-4">
       <motion.div initial={{ opacity: 0, y: -8 }} animate={{ opacity: 1, y: 0 }} className="pt-2 flex items-center gap-3">
-        <button onClick={() => navigate('/session/result')} className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors" aria-label="Back to result">
+        <button onClick={() => navigate(backToResult)} className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors" aria-label="Back to result">
           <ArrowLeft size={18} style={{ color: 'var(--text-secondary)' }} />
         </button>
         <div>

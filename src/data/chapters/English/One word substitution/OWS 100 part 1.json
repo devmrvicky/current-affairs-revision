@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "ows01",
+    "question": "A person who believes that pleasure is the most important thing in life.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eulogy"
+      },
+      {
+        "id": "B",
+        "text": "Agoraphobia"
+      },
+      {
+        "id": "C",
+        "text": "Hedonist"
+      },
+      {
+        "id": "D",
+        "text": "Verbatim"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Hedonist' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows02",
+    "question": "An extreme or irrational fear of heights.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anarchy"
+      },
+      {
+        "id": "B",
+        "text": "Iconoclast"
+      },
+      {
+        "id": "C",
+        "text": "Consensus"
+      },
+      {
+        "id": "D",
+        "text": "Acrophobia"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Acrophobia' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows03",
+    "question": "A handwriting that cannot be easily read.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scullery"
+      },
+      {
+        "id": "B",
+        "text": "Illegible"
+      },
+      {
+        "id": "C",
+        "text": "Pyromania"
+      },
+      {
+        "id": "D",
+        "text": "Agoraphobia"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Illegible' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows04",
+    "question": "A government by officials.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indelible"
+      },
+      {
+        "id": "B",
+        "text": "Epigraphy"
+      },
+      {
+        "id": "C",
+        "text": "Bureaucracy"
+      },
+      {
+        "id": "D",
+        "text": "Sybarite"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Bureaucracy' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows05",
+    "question": "One who collects stamps.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inaudible"
+      },
+      {
+        "id": "B",
+        "text": "Pedestrian"
+      },
+      {
+        "id": "C",
+        "text": "Fragile"
+      },
+      {
+        "id": "D",
+        "text": "Philatelist"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Philatelist' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows06",
+    "question": "A remedy for all diseases or difficulties.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bilingual"
+      },
+      {
+        "id": "B",
+        "text": "Panacea"
+      },
+      {
+        "id": "C",
+        "text": "Bureaucracy"
+      },
+      {
+        "id": "D",
+        "text": "Scabbard"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Panacea' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows07",
+    "question": "One who hates mankind.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obituary"
+      },
+      {
+        "id": "B",
+        "text": "Garrulous"
+      },
+      {
+        "id": "C",
+        "text": "Misanthrope"
+      },
+      {
+        "id": "D",
+        "text": "Apathetic"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Misanthrope' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows08",
+    "question": "Something that cannot be heard.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hangar"
+      },
+      {
+        "id": "B",
+        "text": "Inaudible"
+      },
+      {
+        "id": "C",
+        "text": "Morgue"
+      },
+      {
+        "id": "D",
+        "text": "Atheist"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Inaudible' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows09",
+    "question": "A life history of a person written by himself.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alimony"
+      },
+      {
+        "id": "B",
+        "text": "Connoisseur"
+      },
+      {
+        "id": "C",
+        "text": "Mint"
+      },
+      {
+        "id": "D",
+        "text": "Autobiography"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Autobiography' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows10",
+    "question": "One who presents a radio or television programme.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pyromania"
+      },
+      {
+        "id": "B",
+        "text": "Anchor"
+      },
+      {
+        "id": "C",
+        "text": "Mariticide"
+      },
+      {
+        "id": "D",
+        "text": "Chauvinism"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Anchor' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows11",
+    "question": "A place where animals are slaughtered for consumption.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hedonist"
+      },
+      {
+        "id": "B",
+        "text": "Abattoir"
+      },
+      {
+        "id": "C",
+        "text": "Aviary"
+      },
+      {
+        "id": "D",
+        "text": "Mint"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Abattoir' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows12",
+    "question": "An official pardon for people who have been convicted of political offenses.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Truant"
+      },
+      {
+        "id": "B",
+        "text": "Alimony"
+      },
+      {
+        "id": "C",
+        "text": "Chauvinism"
+      },
+      {
+        "id": "D",
+        "text": "Amnesty"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Amnesty' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows13",
+    "question": "One who eats human flesh.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cenotaph"
+      },
+      {
+        "id": "B",
+        "text": "Cannibal"
+      },
+      {
+        "id": "C",
+        "text": "Gullible"
+      },
+      {
+        "id": "D",
+        "text": "Scabbard"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Cannibal' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows14",
+    "question": "A person who leaves their own country to settle in another.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Garrulous"
+      },
+      {
+        "id": "B",
+        "text": "Panacea"
+      },
+      {
+        "id": "C",
+        "text": "Cannibal"
+      },
+      {
+        "id": "D",
+        "text": "Emigrant"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Emigrant' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows15",
+    "question": "A poem of serious reflection, typically a lament for the dead.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Masterpiece"
+      },
+      {
+        "id": "B",
+        "text": "Elegy"
+      },
+      {
+        "id": "C",
+        "text": "Evanescent"
+      },
+      {
+        "id": "D",
+        "text": "Bilingual"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Elegy' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows16",
+    "question": "One who speaks many languages.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Omniscient"
+      },
+      {
+        "id": "B",
+        "text": "Verbatim"
+      },
+      {
+        "id": "C",
+        "text": "Polyglot"
+      },
+      {
+        "id": "D",
+        "text": "Pacifist"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Polyglot' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows17",
+    "question": "A system of society or government in which men hold the power.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Patriarchy"
+      },
+      {
+        "id": "B",
+        "text": "Dirge"
+      },
+      {
+        "id": "C",
+        "text": "Antidote"
+      },
+      {
+        "id": "D",
+        "text": "Chauvinism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Patriarchy' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows18",
+    "question": "One who cannot be corrected or reformed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sybarite"
+      },
+      {
+        "id": "B",
+        "text": "Incorrigible"
+      },
+      {
+        "id": "C",
+        "text": "Ascetic"
+      },
+      {
+        "id": "D",
+        "text": "Bilingual"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Incorrigible' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows19",
+    "question": "The scientific study of birds.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bigot"
+      },
+      {
+        "id": "B",
+        "text": "Ornithology"
+      },
+      {
+        "id": "C",
+        "text": "Sybarite"
+      },
+      {
+        "id": "D",
+        "text": "Unanimous"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Ornithology' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows20",
+    "question": "One who looks at the bright side of things.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Polyglot"
+      },
+      {
+        "id": "B",
+        "text": "Zoo"
+      },
+      {
+        "id": "C",
+        "text": "Optimist"
+      },
+      {
+        "id": "D",
+        "text": "Panacea"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Optimist' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows21",
+    "question": "A place where coins, medals, or tokens are made.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mint"
+      },
+      {
+        "id": "B",
+        "text": "Cenotaph"
+      },
+      {
+        "id": "C",
+        "text": "Burglar"
+      },
+      {
+        "id": "D",
+        "text": "Pyromania"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Mint' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows22",
+    "question": "Murder of an infant or newborn child.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scullery"
+      },
+      {
+        "id": "B",
+        "text": "Sinecure"
+      },
+      {
+        "id": "C",
+        "text": "Insatiable"
+      },
+      {
+        "id": "D",
+        "text": "Infanticide"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Infanticide' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows23",
+    "question": "That which can be easily broken.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elegy"
+      },
+      {
+        "id": "B",
+        "text": "Fragile"
+      },
+      {
+        "id": "C",
+        "text": "Oligarchy"
+      },
+      {
+        "id": "D",
+        "text": "Insatiable"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Fragile' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows24",
+    "question": "One who walks in sleep.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Somnambulist"
+      },
+      {
+        "id": "B",
+        "text": "Fragile"
+      },
+      {
+        "id": "C",
+        "text": "Uxorious"
+      },
+      {
+        "id": "D",
+        "text": "Emigrant"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Somnambulist' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows25",
+    "question": "A decision on which all agree.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pacifist"
+      },
+      {
+        "id": "B",
+        "text": "Unanimous"
+      },
+      {
+        "id": "C",
+        "text": "Scabbard"
+      },
+      {
+        "id": "D",
+        "text": "Mint"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Unanimous' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows26",
+    "question": "An animal or plant living on or in another.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Epigraphy"
+      },
+      {
+        "id": "B",
+        "text": "Incorrigible"
+      },
+      {
+        "id": "C",
+        "text": "Parasite"
+      },
+      {
+        "id": "D",
+        "text": "Kleptomania"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Parasite' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows27",
+    "question": "A notice of a person's death, typically in a newspaper.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Claustrophobia"
+      },
+      {
+        "id": "B",
+        "text": "Obituary"
+      },
+      {
+        "id": "C",
+        "text": "Taciturn"
+      },
+      {
+        "id": "D",
+        "text": "Abattoir"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Obituary' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows28",
+    "question": "A person who doubtlessly believes that God does not exist.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anachronism"
+      },
+      {
+        "id": "B",
+        "text": "Morgue"
+      },
+      {
+        "id": "C",
+        "text": "Atheist"
+      },
+      {
+        "id": "D",
+        "text": "Pacifist"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Atheist' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows29",
+    "question": "One who knows everything.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bureaucracy"
+      },
+      {
+        "id": "B",
+        "text": "Anachronism"
+      },
+      {
+        "id": "C",
+        "text": "Dirge"
+      },
+      {
+        "id": "D",
+        "text": "Omniscient"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Omniscient' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows30",
+    "question": "A mark or sound that cannot be erased or removed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indelible"
+      },
+      {
+        "id": "B",
+        "text": "Fragile"
+      },
+      {
+        "id": "C",
+        "text": "Obituary"
+      },
+      {
+        "id": "D",
+        "text": "Masterpiece"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Indelible' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows31",
+    "question": "One who loves books.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fastidious"
+      },
+      {
+        "id": "B",
+        "text": "Agoraphobia"
+      },
+      {
+        "id": "C",
+        "text": "Bibliophile"
+      },
+      {
+        "id": "D",
+        "text": "Misanthrope"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Bibliophile' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows32",
+    "question": "An allowance made to a wife by her husband when they are legally separated.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alimony"
+      },
+      {
+        "id": "B",
+        "text": "Ascetic"
+      },
+      {
+        "id": "C",
+        "text": "Fragile"
+      },
+      {
+        "id": "D",
+        "text": "Apathetic"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Alimony' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows33",
+    "question": "A place where dead bodies are kept for identification.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Morgue"
+      },
+      {
+        "id": "B",
+        "text": "Legible"
+      },
+      {
+        "id": "C",
+        "text": "Cenotaph"
+      },
+      {
+        "id": "D",
+        "text": "Apostate"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Morgue' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows34",
+    "question": "A person fluent in two languages.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Emigrant"
+      },
+      {
+        "id": "B",
+        "text": "Bilingual"
+      },
+      {
+        "id": "C",
+        "text": "Verbatim"
+      },
+      {
+        "id": "D",
+        "text": "Pacifist"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Bilingual' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows35",
+    "question": "Fear of water.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hydrophobia"
+      },
+      {
+        "id": "B",
+        "text": "Scullery"
+      },
+      {
+        "id": "C",
+        "text": "Pedant"
+      },
+      {
+        "id": "D",
+        "text": "Taciturn"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Hydrophobia' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows36",
+    "question": "A handwriting or print that is clear enough to be read.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unanimous"
+      },
+      {
+        "id": "B",
+        "text": "Gullible"
+      },
+      {
+        "id": "C",
+        "text": "Legible"
+      },
+      {
+        "id": "D",
+        "text": "Eulogy"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Legible' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows37",
+    "question": "One who breaks into a house in order to steal.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acrophobia"
+      },
+      {
+        "id": "B",
+        "text": "Scullery"
+      },
+      {
+        "id": "C",
+        "text": "Fastidious"
+      },
+      {
+        "id": "D",
+        "text": "Burglar"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Burglar' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows38",
+    "question": "A general agreement about something.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Emigrant"
+      },
+      {
+        "id": "B",
+        "text": "Misanthrope"
+      },
+      {
+        "id": "C",
+        "text": "Consensus"
+      },
+      {
+        "id": "D",
+        "text": "Antidote"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Consensus' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows39",
+    "question": "A speech made without previous preparation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Extempore"
+      },
+      {
+        "id": "B",
+        "text": "Acrophobia"
+      },
+      {
+        "id": "C",
+        "text": "Atheist"
+      },
+      {
+        "id": "D",
+        "text": "Zoo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Extempore' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows40",
+    "question": "Killing of one's brother.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Incorrigible"
+      },
+      {
+        "id": "B",
+        "text": "Fratricide"
+      },
+      {
+        "id": "C",
+        "text": "Pacifist"
+      },
+      {
+        "id": "D",
+        "text": "Connoisseur"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Fratricide' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows41",
+    "question": "A period of ten years.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insatiable"
+      },
+      {
+        "id": "B",
+        "text": "Decade"
+      },
+      {
+        "id": "C",
+        "text": "Apiary"
+      },
+      {
+        "id": "D",
+        "text": "Pessimist"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Decade' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows42",
+    "question": "One who goes on a foot journey for pleasure or exercise.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chauvinism"
+      },
+      {
+        "id": "B",
+        "text": "Acrophobia"
+      },
+      {
+        "id": "C",
+        "text": "Kleptomania"
+      },
+      {
+        "id": "D",
+        "text": "Pedestrian"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Pedestrian' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows43",
+    "question": "A government run by a single dictator with absolute power.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eulogy"
+      },
+      {
+        "id": "B",
+        "text": "Autocracy"
+      },
+      {
+        "id": "C",
+        "text": "Numismatist"
+      },
+      {
+        "id": "D",
+        "text": "Panacea"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Autocracy' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows44",
+    "question": "That which cannot be satisfied.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insatiable"
+      },
+      {
+        "id": "B",
+        "text": "Emigrant"
+      },
+      {
+        "id": "C",
+        "text": "Cloakroom"
+      },
+      {
+        "id": "D",
+        "text": "Mountebank"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Insatiable' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows45",
+    "question": "A place where wild animals are kept for public display.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Taciturn"
+      },
+      {
+        "id": "B",
+        "text": "Autobiography"
+      },
+      {
+        "id": "C",
+        "text": "Gullible"
+      },
+      {
+        "id": "D",
+        "text": "Zoo"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Zoo' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows46",
+    "question": "A remedy to counteract the effects of poison.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Antidote"
+      },
+      {
+        "id": "B",
+        "text": "Verbatim"
+      },
+      {
+        "id": "C",
+        "text": "Emigrant"
+      },
+      {
+        "id": "D",
+        "text": "Chauvinism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Antidote' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows47",
+    "question": "One who leaves his country to live in another.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pyromania"
+      },
+      {
+        "id": "B",
+        "text": "Taciturn"
+      },
+      {
+        "id": "C",
+        "text": "Pessimist"
+      },
+      {
+        "id": "D",
+        "text": "Emigrant"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Emigrant' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows48",
+    "question": "Detailed plan of a journey.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ascetic"
+      },
+      {
+        "id": "B",
+        "text": "Cannibal"
+      },
+      {
+        "id": "C",
+        "text": "Hedonist"
+      },
+      {
+        "id": "D",
+        "text": "Itinerary"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Itinerary' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows49",
+    "question": "A book or work of art that is the best of its kind.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Masterpiece"
+      },
+      {
+        "id": "B",
+        "text": "Connoisseur"
+      },
+      {
+        "id": "C",
+        "text": "Pyromania"
+      },
+      {
+        "id": "D",
+        "text": "Philatelist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Masterpiece' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows50",
+    "question": "A person who looks at the dark side of things.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bureaucracy"
+      },
+      {
+        "id": "B",
+        "text": "Panacea"
+      },
+      {
+        "id": "C",
+        "text": "Pessimist"
+      },
+      {
+        "id": "D",
+        "text": "Somniloquist"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Pessimist' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows51",
+    "question": "One who renounces or abandons a religious or political principle.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apostate"
+      },
+      {
+        "id": "B",
+        "text": "Taxonomy"
+      },
+      {
+        "id": "C",
+        "text": "Archives"
+      },
+      {
+        "id": "D",
+        "text": "Claustrophobia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Apostate' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows52",
+    "question": "A speech or piece of writing that praises someone highly, especially a deceased person.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arsenal"
+      },
+      {
+        "id": "B",
+        "text": "Eulogy"
+      },
+      {
+        "id": "C",
+        "text": "Agoraphobia"
+      },
+      {
+        "id": "D",
+        "text": "Morgue"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Eulogy' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows53",
+    "question": "A sepulchral monument erected in memory of a person whose body is buried elsewhere.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apathetic"
+      },
+      {
+        "id": "B",
+        "text": "Scabbard"
+      },
+      {
+        "id": "C",
+        "text": "Evanescent"
+      },
+      {
+        "id": "D",
+        "text": "Cenotaph"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Cenotaph' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows54",
+    "question": "One who attacks or breaks cherished belief systems, traditions, or religious images.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ascetic"
+      },
+      {
+        "id": "B",
+        "text": "Iconoclast"
+      },
+      {
+        "id": "C",
+        "text": "Claustrophobia"
+      },
+      {
+        "id": "D",
+        "text": "Alimony"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Iconoclast' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows55",
+    "question": "A charlatan or pretender to medical skill; a deceiver who tricks people for money.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oligarchy"
+      },
+      {
+        "id": "B",
+        "text": "Pessimist"
+      },
+      {
+        "id": "C",
+        "text": "Mountebank"
+      },
+      {
+        "id": "D",
+        "text": "Anarchy"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Mountebank' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows56",
+    "question": "Excessively fond of or submissive towards one's wife.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Legible"
+      },
+      {
+        "id": "B",
+        "text": "Evanescent"
+      },
+      {
+        "id": "C",
+        "text": "Uxorious"
+      },
+      {
+        "id": "D",
+        "text": "Emigrant"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Uxorious' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows57",
+    "question": "The act of killing one's husband.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mariticide"
+      },
+      {
+        "id": "B",
+        "text": "Masterpiece"
+      },
+      {
+        "id": "C",
+        "text": "Uxorious"
+      },
+      {
+        "id": "D",
+        "text": "Obituary"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Mariticide' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows58",
+    "question": "A person excessively concerned with minor details, rules, or display of academic learning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gullible"
+      },
+      {
+        "id": "B",
+        "text": "Fastidious"
+      },
+      {
+        "id": "C",
+        "text": "Burglar"
+      },
+      {
+        "id": "D",
+        "text": "Pedant"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Pedant' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows59",
+    "question": "A mournful song or poem sung at a funeral or in grief for a dead person.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dirge"
+      },
+      {
+        "id": "B",
+        "text": "Extempore"
+      },
+      {
+        "id": "C",
+        "text": "Somniloquist"
+      },
+      {
+        "id": "D",
+        "text": "Mercenary"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Dirge' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows60",
+    "question": "An extreme or irrational fear of confined or enclosed places.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Philistine"
+      },
+      {
+        "id": "B",
+        "text": "Claustrophobia"
+      },
+      {
+        "id": "C",
+        "text": "Scabbard"
+      },
+      {
+        "id": "D",
+        "text": "Valetudinarian"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Claustrophobia' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows61",
+    "question": "An obsessive mental disorder characterized by an uncontrollable urge to set fire to things.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alimony"
+      },
+      {
+        "id": "B",
+        "text": "Sinecure"
+      },
+      {
+        "id": "C",
+        "text": "Pyromania"
+      },
+      {
+        "id": "D",
+        "text": "Bigot"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Pyromania' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows62",
+    "question": "A person who talks while sleeping.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hangar"
+      },
+      {
+        "id": "B",
+        "text": "Somniloquist"
+      },
+      {
+        "id": "C",
+        "text": "Cannibal"
+      },
+      {
+        "id": "D",
+        "text": "Optimist"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Somniloquist' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows63",
+    "question": "Extreme fear of open or crowded public spaces.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Truant"
+      },
+      {
+        "id": "B",
+        "text": "Polyglot"
+      },
+      {
+        "id": "C",
+        "text": "Ornithology"
+      },
+      {
+        "id": "D",
+        "text": "Agoraphobia"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Agoraphobia' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows64",
+    "question": "A state of disorder due to absence or non-recognition of authority or government.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anarchy"
+      },
+      {
+        "id": "B",
+        "text": "Hangar"
+      },
+      {
+        "id": "C",
+        "text": "Morgue"
+      },
+      {
+        "id": "D",
+        "text": "Bureaucracy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Anarchy' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows65",
+    "question": "A form of government in which all power is vested in a small dominant group of wealthy or influential people.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oligarchy"
+      },
+      {
+        "id": "B",
+        "text": "Apathetic"
+      },
+      {
+        "id": "C",
+        "text": "Taxonomy"
+      },
+      {
+        "id": "D",
+        "text": "Cenotaph"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Oligarchy' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows66",
+    "question": "The act of killing one's mother.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Somniloquist"
+      },
+      {
+        "id": "B",
+        "text": "Matricide"
+      },
+      {
+        "id": "C",
+        "text": "Fragile"
+      },
+      {
+        "id": "D",
+        "text": "Obituary"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Matricide' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows67",
+    "question": "A person who collects or studies coins, medals, or paper currency.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bilingual"
+      },
+      {
+        "id": "B",
+        "text": "Mariticide"
+      },
+      {
+        "id": "C",
+        "text": "Fastidious"
+      },
+      {
+        "id": "D",
+        "text": "Numismatist"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Numismatist' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows68",
+    "question": "An expert judge in matters of taste, especially fine arts, food, and drink.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Illegible"
+      },
+      {
+        "id": "B",
+        "text": "Connoisseur"
+      },
+      {
+        "id": "C",
+        "text": "Hangar"
+      },
+      {
+        "id": "D",
+        "text": "Anchor"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Connoisseur' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows69",
+    "question": "A person who cultivates an area of interest, such as the arts, without real commitment or knowledge; an amateur dabbler.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acrophobia"
+      },
+      {
+        "id": "B",
+        "text": "Scullery"
+      },
+      {
+        "id": "C",
+        "text": "Fratricide"
+      },
+      {
+        "id": "D",
+        "text": "Dilettante"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Dilettante' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows70",
+    "question": "Passing out of sight, memory, or existence quickly; fading away.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hedonist"
+      },
+      {
+        "id": "B",
+        "text": "Evanescent"
+      },
+      {
+        "id": "C",
+        "text": "Eulogy"
+      },
+      {
+        "id": "D",
+        "text": "Alimony"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Evanescent' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows71",
+    "question": "Very attentive to and concerned about accuracy, detail, and cleanliness; difficult to please.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Numismatist"
+      },
+      {
+        "id": "B",
+        "text": "Plagiarism"
+      },
+      {
+        "id": "C",
+        "text": "Fastidious"
+      },
+      {
+        "id": "D",
+        "text": "Emigrant"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Fastidious' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows72",
+    "question": "Easily persuaded or deceived because of being too trusting.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Garrulous"
+      },
+      {
+        "id": "B",
+        "text": "Gullible"
+      },
+      {
+        "id": "C",
+        "text": "Legible"
+      },
+      {
+        "id": "D",
+        "text": "Autocracy"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Gullible' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows73",
+    "question": "A professional soldier hired to serve in a foreign army for financial reward.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gullible"
+      },
+      {
+        "id": "B",
+        "text": "Mercenary"
+      },
+      {
+        "id": "C",
+        "text": "Claustrophobia"
+      },
+      {
+        "id": "D",
+        "text": "Bureaucracy"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Mercenary' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows74",
+    "question": "A position or job requiring little or no work but giving the holder financial benefit or prestige.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sinecure"
+      },
+      {
+        "id": "B",
+        "text": "Evanescent"
+      },
+      {
+        "id": "C",
+        "text": "Fratricide"
+      },
+      {
+        "id": "D",
+        "text": "Anarchy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Sinecure' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows75",
+    "question": "A person who is obstinately or intolerantly devoted to his or her own opinions and prejudices.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Morgue"
+      },
+      {
+        "id": "B",
+        "text": "Bigot"
+      },
+      {
+        "id": "C",
+        "text": "Abattoir"
+      },
+      {
+        "id": "D",
+        "text": "Sybarite"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Bigot' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows76",
+    "question": "A person who lacks appreciation for art, culture, and intellect, or is hostile towards them.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gullible"
+      },
+      {
+        "id": "B",
+        "text": "Numismatist"
+      },
+      {
+        "id": "C",
+        "text": "Philistine"
+      },
+      {
+        "id": "D",
+        "text": "Panacea"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Philistine' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows77",
+    "question": "A person who is unduly anxious about their health and believes themselves to be ill without cause.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abattoir"
+      },
+      {
+        "id": "B",
+        "text": "Apiary"
+      },
+      {
+        "id": "C",
+        "text": "Valetudinarian"
+      },
+      {
+        "id": "D",
+        "text": "Apostate"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Valetudinarian' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows78",
+    "question": "Reserved or uncommunicative in speech; saying very little.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Connoisseur"
+      },
+      {
+        "id": "B",
+        "text": "Misanthrope"
+      },
+      {
+        "id": "C",
+        "text": "Taciturn"
+      },
+      {
+        "id": "D",
+        "text": "Numismatist"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Taciturn' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows79",
+    "question": "Excessively talkative, especially on trivial matters.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Garrulous"
+      },
+      {
+        "id": "B",
+        "text": "Panacea"
+      },
+      {
+        "id": "C",
+        "text": "Itinerary"
+      },
+      {
+        "id": "D",
+        "text": "Mercenary"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Garrulous' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows80",
+    "question": "A large cage, building, or enclosure for keeping birds.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kleptomania"
+      },
+      {
+        "id": "B",
+        "text": "Aviary"
+      },
+      {
+        "id": "C",
+        "text": "Abattoir"
+      },
+      {
+        "id": "D",
+        "text": "Zoo"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Aviary' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows81",
+    "question": "A place where bees are kept; a collection of beehives.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indelible"
+      },
+      {
+        "id": "B",
+        "text": "Cloakroom"
+      },
+      {
+        "id": "C",
+        "text": "Omniscient"
+      },
+      {
+        "id": "D",
+        "text": "Apiary"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Apiary' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows82",
+    "question": "A large shed or hangar used for storing aircraft.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Masterpiece"
+      },
+      {
+        "id": "B",
+        "text": "Exonerate"
+      },
+      {
+        "id": "C",
+        "text": "Legible"
+      },
+      {
+        "id": "D",
+        "text": "Hangar"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Hangar' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows83",
+    "question": "A place where military weapons and ammunition are manufactured or stored.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sybarite"
+      },
+      {
+        "id": "B",
+        "text": "Arsenal"
+      },
+      {
+        "id": "C",
+        "text": "Apathetic"
+      },
+      {
+        "id": "D",
+        "text": "Indelible"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Arsenal' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows84",
+    "question": "A small kitchen or room at the back of a house used for washing dishes and dirty household work.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scullery"
+      },
+      {
+        "id": "B",
+        "text": "Gullible"
+      },
+      {
+        "id": "C",
+        "text": "Cannibal"
+      },
+      {
+        "id": "D",
+        "text": "Omniscient"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Scullery' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows85",
+    "question": "A sheath or cover for the blade of a sword, dagger, or bayonet.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gullible"
+      },
+      {
+        "id": "B",
+        "text": "Dilettante"
+      },
+      {
+        "id": "C",
+        "text": "Hedonist"
+      },
+      {
+        "id": "D",
+        "text": "Scabbard"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Scabbard' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows86",
+    "question": "A person devoted to luxury, self-indulgence, and refined sensory pleasure.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mint"
+      },
+      {
+        "id": "B",
+        "text": "Omniscient"
+      },
+      {
+        "id": "C",
+        "text": "Dirge"
+      },
+      {
+        "id": "D",
+        "text": "Sybarite"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Sybarite' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows87",
+    "question": "The practice of taking someone else's literary work or ideas and passing them off as one's own.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amnesty"
+      },
+      {
+        "id": "B",
+        "text": "Zoo"
+      },
+      {
+        "id": "C",
+        "text": "Plagiarism"
+      },
+      {
+        "id": "D",
+        "text": "Fratricide"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Plagiarism' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows88",
+    "question": "A thing belonging or appropriate to a period other than that in which it exists.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unanimous"
+      },
+      {
+        "id": "B",
+        "text": "Amnesty"
+      },
+      {
+        "id": "C",
+        "text": "Inaudible"
+      },
+      {
+        "id": "D",
+        "text": "Anachronism"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Anachronism' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows89",
+    "question": "In exactly the same words as were used originally.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Matricide"
+      },
+      {
+        "id": "B",
+        "text": "Exonerate"
+      },
+      {
+        "id": "C",
+        "text": "Verbatim"
+      },
+      {
+        "id": "D",
+        "text": "Panacea"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Verbatim' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows90",
+    "question": "To officially acquit or declare someone free from blame or guilt.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exonerate"
+      },
+      {
+        "id": "B",
+        "text": "Itinerary"
+      },
+      {
+        "id": "C",
+        "text": "Inaudible"
+      },
+      {
+        "id": "D",
+        "text": "Numismatist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Exonerate' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows91",
+    "question": "A student who stays away from school or classes without permission.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Legible"
+      },
+      {
+        "id": "B",
+        "text": "Anchor"
+      },
+      {
+        "id": "C",
+        "text": "Pacifist"
+      },
+      {
+        "id": "D",
+        "text": "Truant"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "'Truant' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows92",
+    "question": "A person who practices severe self-discipline and abstains from all forms of indulgence, often for religious reasons.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ornithology"
+      },
+      {
+        "id": "B",
+        "text": "Ascetic"
+      },
+      {
+        "id": "C",
+        "text": "Kleptomania"
+      },
+      {
+        "id": "D",
+        "text": "Mariticide"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Ascetic' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows93",
+    "question": "Aggressive or exaggerated patriotism and blind devotion to one's group or cause.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Taxonomy"
+      },
+      {
+        "id": "B",
+        "text": "Chauvinism"
+      },
+      {
+        "id": "C",
+        "text": "Decade"
+      },
+      {
+        "id": "D",
+        "text": "Consensus"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Chauvinism' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows94",
+    "question": "The study and deciphering of ancient inscriptions.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bigot"
+      },
+      {
+        "id": "B",
+        "text": "Patriarchy"
+      },
+      {
+        "id": "C",
+        "text": "Epigraphy"
+      },
+      {
+        "id": "D",
+        "text": "Incorrigible"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Epigraphy' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows95",
+    "question": "The branch of science concerned with classification, especially of organisms.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Taxonomy"
+      },
+      {
+        "id": "B",
+        "text": "Somniloquist"
+      },
+      {
+        "id": "C",
+        "text": "Masterpiece"
+      },
+      {
+        "id": "D",
+        "text": "Alimony"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Taxonomy' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows96",
+    "question": "A collection of historical documents or records providing information about a place, institution, or group.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apathetic"
+      },
+      {
+        "id": "B",
+        "text": "Polyglot"
+      },
+      {
+        "id": "C",
+        "text": "Archives"
+      },
+      {
+        "id": "D",
+        "text": "Acrophobia"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Archives' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows97",
+    "question": "A room in a public building or theater where coats, cloaks, and luggage may be left.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apostate"
+      },
+      {
+        "id": "B",
+        "text": "Cloakroom"
+      },
+      {
+        "id": "C",
+        "text": "Incorrigible"
+      },
+      {
+        "id": "D",
+        "text": "Eulogy"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Cloakroom' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows98",
+    "question": "An irresistible and obsessive urge to steal items, regardless of financial need.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elegy"
+      },
+      {
+        "id": "B",
+        "text": "Mercenary"
+      },
+      {
+        "id": "C",
+        "text": "Kleptomania"
+      },
+      {
+        "id": "D",
+        "text": "Hedonist"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Kleptomania' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows99",
+    "question": "A person who believes that war and violence are unjustifiable.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Truant"
+      },
+      {
+        "id": "B",
+        "text": "Pacifist"
+      },
+      {
+        "id": "C",
+        "text": "Chauvinism"
+      },
+      {
+        "id": "D",
+        "text": "Inaudible"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Pacifist' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows100",
+    "question": "Showing or feeling no interest, enthusiasm, or concern.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mountebank"
+      },
+      {
+        "id": "B",
+        "text": "Plagiarism"
+      },
+      {
+        "id": "C",
+        "text": "Apathetic"
+      },
+      {
+        "id": "D",
+        "text": "Antidote"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "'Apathetic' is the one-word substitution for the given description.",
+    "difficulty": "medium",
+    "language": "en"
+  }
+]

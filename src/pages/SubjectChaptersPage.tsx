@@ -6,6 +6,8 @@ import { useExamStore } from '../store/examStore';
 import { subjectRegistry } from '../data/registry/subjectRegistry';
 import { getChaptersForSubject, type UniversalChapter } from '../services/universalChapterRepository';
 import { getQuestionCountByTopic } from '../services/questionRepository';
+import { usePracticeTestLibrary, type PracticeTestLibraryData } from '../hooks/usePracticeTestLibrary';
+import { ChapterTestsButton, ChapterTestsPanel } from '../components/tests/ChapterTests';
 
 // Level 2 of the generic Chapters flow: every chapter for one subject,
 // straight from the Universal Chapter Repository — content-driven, not a
@@ -24,6 +26,55 @@ import { getQuestionCountByTopic } from '../services/questionRepository';
 interface ChapterRow extends UniversalChapter {
   /** The chapter's OWN subjectId for navigation — distinct from the page's subjectId when this row was merged in from Current Affairs. */
   navSubjectId: string;
+}
+
+/**
+ * One chapter row: the existing "open chapter" area (notes + question count),
+ * plus the compact "T" control that reveals this chapter's individual tests in
+ * place. Defined at module level so toggling T re-renders only this row — an
+ * inline component would remount every row (and replay its entrance animation).
+ */
+function ChapterCard({ chapter, index, questionLabel, testsOpen, onToggleTests, testsData, onOpen }: {
+  chapter: ChapterRow;
+  index: number;
+  questionLabel: string;
+  testsOpen: boolean;
+  onToggleTests: () => void;
+  testsData: PracticeTestLibraryData;
+  onOpen: () => void;
+}) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 6 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: Math.min(index * 0.04, 0.4) }}
+      className="card overflow-hidden"
+    >
+      <div className="flex items-center gap-2 pr-3 hover:shadow-md transition-shadow">
+        <button onClick={onOpen} className="flex-1 min-w-0 p-4 text-left">
+          <p className="font-display font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>{chapter.title}</p>
+          <div className="flex items-center gap-3 mt-1">
+            {chapter.hasNotes && (
+              <span className="text-xs flex items-center gap-1" style={{ color: 'var(--text-muted)' }}><FileText size={11} /> Notes</span>
+            )}
+            <span className="text-xs flex items-center gap-1" style={{ color: 'var(--text-muted)' }}>
+              <ListChecks size={11} />
+              {questionLabel}
+            </span>
+            {chapter.testFileCount > 0 && (
+              <span className="text-xs" style={{ color: 'var(--text-muted)' }}>{chapter.testFileCount} test file{chapter.testFileCount === 1 ? '' : 's'}</span>
+            )}
+          </div>
+        </button>
+        {chapter.testFileCount > 0 && <ChapterTestsButton chapterTitle={chapter.title} open={testsOpen} onToggle={onToggleTests} />}
+      </div>
+      {testsOpen && (
+        <div style={{ borderTop: '1px solid var(--border)' }}>
+          <ChapterTestsPanel data={testsData} chapterId={chapter.id} chapterSubjectId={chapter.navSubjectId} chapterTitle={chapter.title} />
+        </div>
+      )}
+    </motion.div>
+  );
 }
 
 export default function SubjectChaptersPage() {
@@ -46,6 +97,23 @@ export default function SubjectChaptersPage() {
   const [counts, setCounts] = useState<Record<string, number>>({});
   const [loadingCounts, setLoadingCounts] = useState(true);
 
+  // "T" — which chapters have their tests open, and whether each library has been asked for yet.
+  const [openTests, setOpenTests] = useState<Set<string>>(new Set());
+  const [ownTestsRequested, setOwnTestsRequested] = useState(false);
+  const [caTestsRequested, setCaTestsRequested] = useState(false);
+  const ownTests = usePracticeTestLibrary(selectedExamId, subjectId ?? null, ownTestsRequested);
+  const caTests = usePracticeTestLibrary(selectedExamId, isGeneralAwareness ? 'current-affairs' : null, caTestsRequested);
+  function toggleTests(key: string, isCurrentAffairs: boolean) {
+    if (isCurrentAffairs) setCaTestsRequested(true);
+    else setOwnTestsRequested(true);
+    setOpenTests((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
+  }
+
   useEffect(() => {
     if (allChapters.length === 0) { setLoadingCounts(false); return; }
     let cancelled = false;
@@ -63,29 +131,22 @@ export default function SubjectChaptersPage() {
 
   if (!subjectId) return <Navigate to="/chapters" replace />;
 
-  function ChapterCard({ chapter, index }: { chapter: ChapterRow; index: number }) {
-    const questionCount = counts[`${chapter.navSubjectId}::${chapter.id}`];
+  // Tests load only once a chapter's "T" has been opened — the library and ledger aren't touched until then.
+  function renderChapterCard(chapter: ChapterRow, index: number) {
+    const key = `${chapter.navSubjectId}::${chapter.id}`;
+    const questionCount = counts[key];
+    const isCurrentAffairs = chapter.navSubjectId === 'current-affairs';
     return (
-      <motion.button
-        initial={{ opacity: 0, y: 6 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: index * 0.04 }}
-        onClick={() => navigate(`/chapters/${chapter.navSubjectId}/${chapter.id}`)}
-        className="card p-4 w-full text-left flex items-center justify-between hover:shadow-md transition-shadow"
-      >
-        <div>
-          <p className="font-display font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>{chapter.title}</p>
-          <div className="flex items-center gap-3 mt-1">
-            {chapter.hasNotes && (
-              <span className="text-xs flex items-center gap-1" style={{ color: 'var(--text-muted)' }}><FileText size={11} /> Notes</span>
-            )}
-            <span className="text-xs flex items-center gap-1" style={{ color: 'var(--text-muted)' }}>
-              <ListChecks size={11} />
-              {loadingCounts ? '…' : `${questionCount ?? 0} questions`}
-            </span>
-          </div>
-        </div>
-      </motion.button>
+      <ChapterCard
+        key={key}
+        chapter={chapter}
+        index={index}
+        questionLabel={loadingCounts ? '…' : `${questionCount ?? 0} questions`}
+        testsOpen={openTests.has(key)}
+        onToggleTests={() => toggleTests(key, isCurrentAffairs)}
+        testsData={isCurrentAffairs ? caTests : ownTests}
+        onOpen={() => navigate(`/chapters/${chapter.navSubjectId}/${chapter.id}`)}
+      />
     );
   }
 
@@ -130,7 +191,7 @@ export default function SubjectChaptersPage() {
         <>
           {ownChapters.length > 0 && (
             <div className="space-y-2.5">
-              {ownChapters.map((chapter, i) => <ChapterCard key={`${chapter.navSubjectId}-${chapter.id}`} chapter={chapter} index={i} />)}
+              {ownChapters.map((chapter, i) => renderChapterCard(chapter, i))}
             </div>
           )}
 
@@ -140,7 +201,7 @@ export default function SubjectChaptersPage() {
                 Current Affairs — Topic-wise
               </h2>
               <div className="space-y-2.5">
-                {currentAffairsChapters.map((chapter, i) => <ChapterCard key={`${chapter.navSubjectId}-${chapter.id}`} chapter={chapter} index={i} />)}
+                {currentAffairsChapters.map((chapter, i) => renderChapterCard(chapter, i))}
               </div>
             </div>
           )}

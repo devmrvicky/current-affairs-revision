@@ -1,0 +1,758 @@
+[
+  {
+    "id": "mens3d001",
+    "question": "एक दीवार का आयतन 23,958 cm³ है। उसकी ऊँचाई उसकी चौड़ाई की 6 गुनी और उसकी लंबाई उसकी ऊँचाई की आधी है। दीवार की चौड़ाई क्या है?",
+    "options": [
+      { "id": "A", "text": "11 cm" },
+      { "id": "B", "text": "15 cm" },
+      { "id": "C", "text": "21 cm" },
+      { "id": "D", "text": "18 cm" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 11 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d002",
+    "question": "एक बड़े ठोस घन को N छोटे ठोस गोलों में पिघलाया गया, जिनमें प्रत्येक की त्रिज्या 3 cm है, तथा N छोटे ठोस घनाभों में भी बदला गया, जिनमें प्रत्येक के आयाम 4 cm × 4 cm × 6.5 cm हैं। यदि बड़े ठोस घन की प्रत्येक भुजा 12 cm है, तो N का मान क्या है? (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "6" },
+      { "id": "B", "text": "7" },
+      { "id": "C", "text": "8" },
+      { "id": "D", "text": "9" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 7",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d003",
+    "question": "एक बंद धातु के डिब्बे के बाहरी आयाम 15 cm × 18 cm × 8 cm हैं। धातु की मोटाई 1.5 cm है। डिब्बा बनाने के लिए आवश्यक धातु का आयतन कितना होगा?",
+    "options": [
+      { "id": "A", "text": "1440 cm³" },
+      { "id": "B", "text": "1680 cm³" },
+      { "id": "C", "text": "1260 cm³" },
+      { "id": "D", "text": "950 cm³" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 1260 cm³",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d004",
+    "question": "एक कमरे की लंबाई, चौड़ाई और ऊँचाई क्रमशः 6 m, 4 m 80 cm और 3 m 60 cm है। सबसे लंबी ऐसी टेप की लंबाई ज्ञात कीजिए जिससे कमरे के आयामों को ठीक-ठीक मापा जा सके।",
+    "options": [
+      { "id": "A", "text": "1 m 40 cm" },
+      { "id": "B", "text": "1 m 20 cm" },
+      { "id": "C", "text": "1 m 80 cm" },
+      { "id": "D", "text": "1 m 50 cm" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 1 m 20 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d005",
+    "question": "32 cm × 12 cm × 9 cm के एक घनाभ को समान आकार के दो घनों में काटा गया है। घनाभ के कुल पृष्ठीय क्षेत्रफल और दोनों घनों के कुल पृष्ठीय क्षेत्रफलों का अनुपात क्या होगा?",
+    "options": [
+      { "id": "A", "text": "24 : 35" },
+      { "id": "B", "text": "37 : 48" },
+      { "id": "C", "text": "65 : 72" },
+      { "id": "D", "text": "32 : 39" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 65 : 72",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d006",
+    "question": "एक ठोस घन को समान आयतन वाले तीन घनों में काटा गया है। बने हुए घन के पृष्ठीय क्षेत्रफल और किसी दो घनों के पृष्ठीय क्षेत्रफलों के योग का अनुपात क्या होगा?",
+    "options": [
+      { "id": "A", "text": "9 : 10" },
+      { "id": "B", "text": "27 : 16" },
+      { "id": "C", "text": "27 : 10" },
+      { "id": "D", "text": "9 : 8" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 9 : 10",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d007",
+    "question": "12 m लंबाई वाले एक घनाभाकार टैंक में 18 किलोलीटर पानी है। टैंक से 18 किलोलीटर पानी निकालने पर जल-स्तर 30 cm कम हो जाता है। टैंक की चौड़ाई (मीटर में) क्या है?",
+    "options": [
+      { "id": "A", "text": "4" },
+      { "id": "B", "text": "5" },
+      { "id": "C", "text": "5.5" },
+      { "id": "D", "text": "4.5" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 5",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d008",
+    "question": "एक घनाभाकार टैंक के तीन आसन्न फलकों के क्षेत्रफल क्रमशः 3 m², 12 m² और 12 m² हैं। टैंक की क्षमता लीटर में कितनी है?",
+    "options": [
+      { "id": "A", "text": "48000" },
+      { "id": "B", "text": "24000" },
+      { "id": "C", "text": "72000" },
+      { "id": "D", "text": "36000" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 24000",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d009",
+    "question": "18 cm × 36 cm × 72 cm आयाम वाले एक ठोस धातु के घनाभ को पिघलाकर समान आयतन वाले 8 घन बनाए गए हैं। घनाभ के पार्श्व पृष्ठीय क्षेत्रफल और सभी 8 घनों के पार्श्व पृष्ठीय क्षेत्रफलों के योग का अनुपात क्या है?",
+    "options": [
+      { "id": "A", "text": "2 : 3" },
+      { "id": "B", "text": "7 : 8" },
+      { "id": "C", "text": "4 : 7" },
+      { "id": "D", "text": "7 : 12" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 7 : 12",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d010",
+    "question": "किसी घनाभ की लंबाई, चौड़ाई और ऊँचाई का योग 20 cm है। यदि घनाभ का विकर्ण 12 cm है, तो उसका कुल पृष्ठीय क्षेत्रफल ज्ञात कीजिए।",
+    "options": [
+      { "id": "A", "text": "356 cm²" },
+      { "id": "B", "text": "364 cm²" },
+      { "id": "C", "text": "256 cm²" },
+      { "id": "D", "text": "264 cm²" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 264 cm²",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d011",
+    "question": "12 cm × 54 cm × 72 cm आयाम वाले एक ठोस धातु के घनाभ को पिघलाकर समान आकार के 8 घनों में बदला गया है। ऐसे 2 घनों के पार्श्व पृष्ठीय क्षेत्रफलों का योग (cm² में) कितना होगा?",
+    "options": [
+      { "id": "A", "text": "1944" },
+      { "id": "B", "text": "2592" },
+      { "id": "C", "text": "2268" },
+      { "id": "D", "text": "3888" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 2268",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d012",
+    "question": "एक घनाभाकार ठोस की तीन आसन्न फलकों के क्षेत्रफल क्रमशः 216 cm², 96 cm² और 144 cm² हैं। इसे पिघलाकर समान आकार के 8 घन बनाए गए हैं। ऐसे 3 घनों के पार्श्व पृष्ठीय क्षेत्रफलों का योग (cm² में) क्या होगा?",
+    "options": [
+      { "id": "A", "text": "648" },
+      { "id": "B", "text": "432" },
+      { "id": "C", "text": "576" },
+      { "id": "D", "text": "288" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 576",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d013",
+    "question": "एक कमरे की लंबाई, चौड़ाई और ऊँचाई क्रमशः 10 m, 20 m और 15 m है। कमरे की अंदरूनी दीवारों और छत पर ₹10.20 प्रति m² की दर से सफेदी करने की लागत ज्ञात कीजिए।",
+    "options": [
+      { "id": "A", "text": "₹13,394" },
+      { "id": "B", "text": "₹11,220" },
+      { "id": "C", "text": "₹15,320" },
+      { "id": "D", "text": "₹16,542" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) ₹16,542",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d014",
+    "question": "एक शंक्वाकार तंबू की ऊँचाई 10 m और आधार का व्यास 48 m है। तंबू का वक्र पृष्ठीय क्षेत्रफल (m² में) ज्ञात कीजिए।",
+    "options": [
+      { "id": "A", "text": "56π" },
+      { "id": "B", "text": "1248π" },
+      { "id": "C", "text": "1152π" },
+      { "id": "D", "text": "624π" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 624π",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d015",
+    "question": "3 cm, 4 cm और 5 cm भुजाओं वाले एक समकोण त्रिभुज को 3 cm की भुजा के चारों ओर घुमाकर एक शंकु बनाया जाता है। बने हुए शंकु का आयतन क्या होगा?",
+    "options": [
+      { "id": "A", "text": "20π cm³" },
+      { "id": "B", "text": "16π cm³" },
+      { "id": "C", "text": "25π cm³" },
+      { "id": "D", "text": "28π cm³" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 16π cm³",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d016",
+    "question": "एक शंक्वाकार बर्तन ठोस लोहे से बना है। इसके आधार की त्रिज्या 7 cm और ऊँचाई 15 cm है। यदि लोहे का वजन 15 ग्राम प्रति cm³ है, तो बर्तन का वजन कितना होगा?",
+    "options": [
+      { "id": "A", "text": "13.55 kg" },
+      { "id": "B", "text": "12.55 kg" },
+      { "id": "C", "text": "14.55 kg" },
+      { "id": "D", "text": "11.55 kg" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 11.55 kg",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d017",
+    "question": "एक समवृत्तीय शंकु के आधार की त्रिज्या 21 cm और ऊँचाई 28 cm है। शंकु का वक्र पृष्ठीय क्षेत्रफल कितना होगा? (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "787 2/7 m²" },
+      { "id": "B", "text": "2107 2/7 m²" },
+      { "id": "C", "text": "1635 6/7 m²" },
+      { "id": "D", "text": "2800 2/7 m²" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 2107 2/7 m²",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d018",
+    "question": "एक शंक्वाकार तंबू बनाने के लिए 2 m चौड़े कपड़े की कितनी लंबाई आवश्यक होगी, यदि तंबू के आधार का व्यास 14 m और तिर्यक ऊँचाई 9 m है? कपड़े की बर्बादी को नजरअंदाज करें।",
+    "options": [
+      { "id": "A", "text": "66 m" },
+      { "id": "B", "text": "88 m" },
+      { "id": "C", "text": "99 m" },
+      { "id": "D", "text": "77 m" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 88 m",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d019",
+    "question": "एक शंकु के आधार की त्रिज्या 7 cm और ऊँचाई 5 cm है। शंकु के आयतन को निकटतम एक दशमलव तक ज्ञात कीजिए। (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "345.6 cm³" },
+      { "id": "B", "text": "359.3 cm³" },
+      { "id": "C", "text": "337.6 cm³" },
+      { "id": "D", "text": "369.3 cm³" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 359.3 cm³",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d020",
+    "question": "एक शंकु का आयतन 73,920 cm³ है। यदि शंकु की ऊँचाई 160 cm है, तो उसके आधार का व्यास ज्ञात कीजिए।",
+    "options": [
+      { "id": "A", "text": "21 cm" },
+      { "id": "B", "text": "40 cm" },
+      { "id": "C", "text": "22 cm" },
+      { "id": "D", "text": "42 cm" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 40 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d021",
+    "question": "एक शंकु का आयतन 125π/?? cm³ है और उसकी ऊँचाई तथा त्रिज्या का योग 5 cm है। शंकु का आयतन ज्ञात कीजिए।",
+    "options": [
+      { "id": "A", "text": "125π/(12√3) cm³" },
+      { "id": "B", "text": "125π/(6√3) cm³" },
+      { "id": "C", "text": "125π/(12√2) cm³" },
+      { "id": "D", "text": "125π/(6√2) cm³" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 125π/(6√2) cm³",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d022",
+    "question": "एक शंक्वाकार तंबू की ऊँचाई 10 m और आधार का व्यास 48 m है। तंबू का वक्र पृष्ठीय क्षेत्रफल (m² में) ज्ञात कीजिए।",
+    "options": [
+      { "id": "A", "text": "56π" },
+      { "id": "B", "text": "1248π" },
+      { "id": "C", "text": "1152π" },
+      { "id": "D", "text": "624π" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 624π",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d023",
+    "question": "एक शंकु की वक्र पृष्ठीय क्षेत्रफल 594 cm² है और आधार की त्रिज्या 21 cm है। शंकु की तिर्यक ऊँचाई क्या है?",
+    "options": [
+      { "id": "A", "text": "15 cm" },
+      { "id": "B", "text": "11 cm" },
+      { "id": "C", "text": "9 cm" },
+      { "id": "D", "text": "6 cm" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 11 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d024",
+    "question": "एक शंक्वाकार तंबू बनाने के लिए 2 m चौड़े कपड़े की कितनी लंबाई आवश्यक होगी, यदि आधार का व्यास 14 m और तिर्यक ऊँचाई 9 m है? कपड़े की बर्बादी को नजरअंदाज करें।",
+    "options": [
+      { "id": "A", "text": "66 m" },
+      { "id": "B", "text": "88 m" },
+      { "id": "C", "text": "99 m" },
+      { "id": "D", "text": "77 m" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 88 m",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d025",
+    "question": "एक 22.5 m ऊँचा तंबू एक शंकु के छिन्नक के आकार का है, जिसके चारों ओर अर्धगोला लगा हुआ है। छिन्नक के ऊपरी और निचले वृत्ताकार सिरों के व्यास क्रमशः 21 m और 39 m हैं। तंबू बनाने के लिए आवश्यक कपड़े का क्षेत्रफल कितना है? (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "787 2/7 m²" },
+      { "id": "B", "text": "2107 2/7 m²" },
+      { "id": "C", "text": "1635 6/7 m²" },
+      { "id": "D", "text": "2800 2/7 m²" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 787 2/7 m²",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d026",
+    "question": "एक शंकु के छिन्नक के दो वृत्ताकार सिरों की त्रिज्याएँ 5 cm और 4 cm हैं तथा ऊँचाई 10.5 cm है। इसका आयतन क्या होगा? (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "552 cm³" },
+      { "id": "B", "text": "539 cm³" },
+      { "id": "C", "text": "545 cm³" },
+      { "id": "D", "text": "564 cm³" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 545 cm³",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d027",
+    "question": "एक शंकु के छिन्नक के आधार की परिधि 66 m है। यदि तंबू की ऊँचाई 36 m है, तो तंबू बनाने में प्रयुक्त कैनवास का क्षेत्रफल (m² में) कितना होगा? (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "1155" },
+      { "id": "B", "text": "1237.5" },
+      { "id": "C", "text": "1171.5" },
+      { "id": "D", "text": "1254" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 1155",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d028",
+    "question": "एक गेहूँ का ढेर एक शंकु के आकार का है, जिसके आधार का व्यास 8.4 m और ऊँचाई 1.75 m है। ढेर को कैनवास से ढकना है। आवश्यक कैनवास का क्षेत्रफल (m² में) कितना होगा? (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "60.06" },
+      { "id": "B", "text": "115.5" },
+      { "id": "C", "text": "60.6" },
+      { "id": "D", "text": "115.5" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 60.06",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d029",
+    "question": "एक 22.5 m ऊँचा तंबू एक शंकु के छिन्नक के आकार का है, जिसके ऊपरी और निचले वृत्ताकार सिरों के व्यास क्रमशः 21 m और 39 m हैं। तंबू बनाने के लिए आवश्यक कपड़े का क्षेत्रफल कितना है? (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "787 2/7 m²" },
+      { "id": "B", "text": "2107 2/7 m²" },
+      { "id": "C", "text": "1635 6/7 m²" },
+      { "id": "D", "text": "2800 2/7 m²" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 2107 2/7 m²",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d030",
+    "question": "एक शंक्वाकार बर्तन ठोस लोहे से बना है। इसके आधार की त्रिज्या 7 cm और ऊँचाई 15 cm है। यदि लोहे का वजन 15 ग्राम प्रति cm³ है, तो बर्तन का वजन कितना होगा?",
+    "options": [
+      { "id": "A", "text": "13.55 kg" },
+      { "id": "B", "text": "12.55 kg" },
+      { "id": "C", "text": "14.55 kg" },
+      { "id": "D", "text": "11.55 kg" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 11.55 kg",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d031",
+    "question": "एक शंकु की वक्र पृष्ठीय क्षेत्रफल 594 cm² है और आधार की त्रिज्या 21 cm है। शंकु की तिर्यक ऊँचाई क्या है?",
+    "options": [
+      { "id": "A", "text": "15 cm" },
+      { "id": "B", "text": "11 cm" },
+      { "id": "C", "text": "9 cm" },
+      { "id": "D", "text": "6 cm" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 11 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d032",
+    "question": "एक शंक्वाकार तंबू बनाने के लिए 2 m चौड़े कपड़े की कितनी लंबाई आवश्यक होगी, यदि आधार का व्यास 14 m और तिर्यक ऊँचाई 9 m है? कपड़े की बर्बादी को नजरअंदाज करें।",
+    "options": [
+      { "id": "A", "text": "66 m" },
+      { "id": "B", "text": "88 m" },
+      { "id": "C", "text": "99 m" },
+      { "id": "D", "text": "77 m" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 88 m",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d033",
+    "question": "एक शंकु का आयतन 73,920 cm³ है। यदि शंकु की ऊँचाई 160 cm है, तो उसके आधार का व्यास ज्ञात कीजिए।",
+    "options": [
+      { "id": "A", "text": "21 cm" },
+      { "id": "B", "text": "40 cm" },
+      { "id": "C", "text": "22 cm" },
+      { "id": "D", "text": "42 cm" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 40 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d034",
+    "question": "एक शंकु की ऊँचाई 5 cm है और उसकी ऊँचाई त्रिज्या तथा तिर्यक ऊँचाई के बराबर है। शंकु का आयतन क्या है?",
+    "options": [
+      { "id": "A", "text": "125π/(12√3) cm³" },
+      { "id": "B", "text": "125π/(6√3) cm³" },
+      { "id": "C", "text": "125π/(12√2) cm³" },
+      { "id": "D", "text": "125π/(6√2) cm³" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 125π/(6√2) cm³",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d035",
+    "question": "एक शंकु की ऊँचाई 35 cm है और उसके वक्र पृष्ठीय क्षेत्रफल का क्षेत्रफल उसके आधार के क्षेत्रफल का चार गुना है। शंकु का आयतन (10⁻³ m³ में), तीन दशमलव स्थानों तक सही, कितना है?",
+    "options": [
+      { "id": "A", "text": "3.316" },
+      { "id": "B", "text": "3.384" },
+      { "id": "C", "text": "2.994" },
+      { "id": "D", "text": "2.625" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 2.994",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d036",
+    "question": "एक ठोस समवृत्तीय शंकु का आयतन 600π cm³ है और उसके आधार का व्यास 30 cm है। शंकु का कुल पृष्ठीय क्षेत्रफल (cm² में) क्या है?",
+    "options": [
+      { "id": "A", "text": "496π" },
+      { "id": "B", "text": "480π" },
+      { "id": "C", "text": "255π" },
+      { "id": "D", "text": "472π" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 480π",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d037",
+    "question": "एक समवृत्तीय शंकु के छिन्नक की ऊँचाई 18 cm, बड़े आधार की त्रिज्या 25 cm और छोटे आधार की त्रिज्या 20 cm है। इसे 2 cm व्यास वाले छोटे गोलों में पिघलाया जाता है। कितने गोले बनेंगे?",
+    "options": [
+      { "id": "A", "text": "6287" },
+      { "id": "B", "text": "6862" },
+      { "id": "C", "text": "4575" },
+      { "id": "D", "text": "5857" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 6287",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d038",
+    "question": "एक शंकु के आधार का क्षेत्रफल 616 cm² है। यदि उसकी तिर्यक ऊँचाई 20 cm है, तो उसका कुल पृष्ठीय क्षेत्रफल क्या होगा? (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "1352 cm²" },
+      { "id": "B", "text": "1296 cm²" },
+      { "id": "C", "text": "1496 cm²" },
+      { "id": "D", "text": "1524 cm²" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 1496 cm²",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d039",
+    "question": "एक शंकु के आकार के भंडारण टैंक की ऊँचाई और त्रिज्या क्रमशः 9 फुट और 7 फुट हैं। टैंक में कितना तरल समा सकता है? (π = 3.14 लें।)",
+    "options": [
+      { "id": "A", "text": "471 cubic feet" },
+      { "id": "B", "text": "450 cubic feet" },
+      { "id": "C", "text": "435.32 cubic feet" },
+      { "id": "D", "text": "461.58 cubic feet" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 461.58 cubic feet",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d040",
+    "question": "21 m त्रिज्या और 28 m ऊँचाई वाले एक शंक्वाकार तंबू को बनाने के लिए 5 m चौड़े कपड़े की कितनी लंबाई आवश्यक होगी? (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "470 m" },
+      { "id": "B", "text": "462 m" },
+      { "id": "C", "text": "456 m" },
+      { "id": "D", "text": "478 m" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 462 m",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d041",
+    "question": "20 फुट ऊँचे एक समवृत्तीय शंक्वाकार तंबू का आधार 30 फुट परिधि वाला वृत्त है। तंबू बनाने के लिए आवश्यक कैनवास का क्षेत्रफल क्या होगा?",
+    "options": [
+      { "id": "A", "text": "455π sq.ft." },
+      { "id": "B", "text": "375π sq.ft." },
+      { "id": "C", "text": "589π sq.ft." },
+      { "id": "D", "text": "470π sq.ft." }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 375π sq.ft.",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d042",
+    "question": "एक समवृत्तीय शंकु का आयतन एक ऐसे गोले के आयतन के बराबर है जिसकी त्रिज्या शंकु के आधार की त्रिज्या के बराबर है। शंकु की आधार त्रिज्या और ऊँचाई का अनुपात क्या है?",
+    "options": [
+      { "id": "A", "text": "1 : 4" },
+      { "id": "B", "text": "1 : 2" },
+      { "id": "C", "text": "4 : 1" },
+      { "id": "D", "text": "2 : 1" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 2 : 1",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d043",
+    "question": "एक घन से काटकर बनाए जा सकने वाले सबसे बड़े समवृत्तीय शंकु का आयतन क्या होगा, यदि घन की भुजा 10 cm है?",
+    "options": [
+      { "id": "A", "text": "250π/3 cm³" },
+      { "id": "B", "text": "351π/3 cm³" },
+      { "id": "C", "text": "145π/3 cm³" },
+      { "id": "D", "text": "150π/3 cm³" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 250π/3 cm³",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d044",
+    "question": "44 m परिधि वाले एक शंकु के आकार के लकड़ी के ठोस का आयतन ज्ञात कीजिए। (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "616 m³" },
+      { "id": "B", "text": "530 m³" },
+      { "id": "C", "text": "702 m³" },
+      { "id": "D", "text": "456 m³" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 616 m³",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d045",
+    "question": "एक शंकु के आकार की छत की तिर्यक ऊँचाई 10 m और त्रिज्या 11 m है। उसकी वक्र पृष्ठीय क्षेत्रफल को ₹7 प्रति m² की दर से पेंट करने की कुल लागत कितनी होगी? (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "₹2,440" },
+      { "id": "B", "text": "₹2,040" },
+      { "id": "C", "text": "₹2,420" },
+      { "id": "D", "text": "₹2,240" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) ₹2,420",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d046",
+    "question": "एक समवृत्तीय शंकु की आधार त्रिज्या 14 cm और ऊँचाई 48 cm है। आधार के समानांतर और आधार से 24 cm की दूरी पर एक क्रॉस-सेक्शन बनाया गया है। ऊपरी भाग का आयतन क्या होगा? (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "1102 cm³" },
+      { "id": "B", "text": "1232 cm³" },
+      { "id": "C", "text": "1120 cm³" },
+      { "id": "D", "text": "1442 cm³" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 1232 cm³",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d047",
+    "question": "21 cm त्रिज्या वाले एक धातु के गोले को पिघलाकर 7 cm त्रिज्या और 3 cm ऊँचाई वाले छोटे-छोटे शंकुओं में बदला गया। कितने शंकु प्राप्त होंगे?",
+    "options": [
+      { "id": "A", "text": "325" },
+      { "id": "B", "text": "252" },
+      { "id": "C", "text": "225" },
+      { "id": "D", "text": "522" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 252",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d048",
+    "question": "एक बाल्टी शंकु के छिन्नक के आकार की है। इसके ऊपरी और निचले व्यास क्रमशः 20 cm और 10 cm हैं तथा बाल्टी की गहराई 24 cm है। बाल्टी की क्षमता क्या है? (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "8800 cm³" },
+      { "id": "B", "text": "13200 cm³" },
+      { "id": "C", "text": "17000 cm³" },
+      { "id": "D", "text": "17600 cm³" }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 17600 cm³",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d049",
+    "question": "एक पात्र समवृत्तीय शंकु के आकार का है, जिसकी त्रिज्या और गहराई बराबर हैं। इसमें 2 mm व्यास वाली 1,28,000 गोलाकार बूंदों से पूरी तरह भरा पानी है। पात्र की त्रिज्या (cm में) क्या है?",
+    "options": [
+      { "id": "A", "text": "6" },
+      { "id": "B", "text": "4" },
+      { "id": "C", "text": "8" },
+      { "id": "D", "text": "2" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 8",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d050",
+    "question": "एक शंकु और एक अर्धगोले की आधार त्रिज्या प्रत्येक 14 cm है। दोनों ठोसों के आयतन भी बराबर हैं। शंकु का वक्र पृष्ठीय क्षेत्रफल क्या होगा? (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "614√5 cm²" },
+      { "id": "B", "text": "626√5 cm²" },
+      { "id": "C", "text": "616√5 cm²" },
+      { "id": "D", "text": "516√5 cm²" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 616√5 cm²",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d051",
+    "question": "एक घन में अधिकतम स्थान घेरते हुए एक समवृत्तीय शंकु अंकित है। शंकु के आयतन और घन के आयतन का अनुपात क्या है? (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "81 : 22" },
+      { "id": "B", "text": "11 : 42" },
+      { "id": "C", "text": "42 : 11" },
+      { "id": "D", "text": "22 : 81" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 42 : 11",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d052",
+    "question": "एक ठोस समवृत्तीय शंकु को उसके शीर्ष से आधार के समानांतर एक समतल द्वारा काटा जाता है। समतल शीर्ष से लंबवत नीचे की ओर ऐसे बिंदु से गुजरता है कि छोटे शंकु की ऊँचाई पूरे शंकु की ऊँचाई की आधी है। छोटे शंकु और पूरे शंकु के आयतन का अनुपात क्या होगा?",
+    "options": [
+      { "id": "A", "text": "1 : 9" },
+      { "id": "B", "text": "1 : 8" },
+      { "id": "C", "text": "1 : 27" },
+      { "id": "D", "text": "1 : 3" }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 1 : 27",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d053",
+    "question": "एक शंकु की वक्र पृष्ठीय क्षेत्रफल 3432/7 cm² है और उसकी त्रिज्या 12 cm है। उस गोले की त्रिज्या क्या होगी जिसका आयतन शंकु के आयतन का 1.2 गुना है? (π = 22/7 लें।)",
+    "options": [
+      { "id": "A", "text": "8 cm" },
+      { "id": "B", "text": "6 cm" },
+      { "id": "C", "text": "5 cm" },
+      { "id": "D", "text": "4 cm" }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 6 cm",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "mens3d054",
+    "question": "एक शंकु की त्रिज्या और ऊँचाई का अनुपात 3 : 4 है। यदि उसका आयतन 301.44 m³ है, तो उसकी तिर्यक ऊँचाई ज्ञात कीजिए। (π = 3.14 लें।)",
+    "options": [
+      { "id": "A", "text": "15 m" },
+      { "id": "B", "text": "5 m" },
+      { "id": "C", "text": "20 m" },
+      { "id": "D", "text": "10 m" }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 15 m",
+    "difficulty": "medium",
+    "language": "hi"
+  }
+]

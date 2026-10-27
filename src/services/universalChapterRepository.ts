@@ -62,6 +62,8 @@ export interface UniversalChapter {
   /** How many test/question JSON files this chapter folder has. */
   testFileCount: number;
   source: ChapterSource;
+  /** Real folder name of the grouping category this chapter sits under (e.g. "Geometry" for Geometry/Line and traingle) — display/grouping only, never part of the chapter's identity. */
+  categoryTitle?: string;
 }
 
 const CHAPTERS_ROOT_MARKER = '/data/chapters/';
@@ -81,7 +83,7 @@ const canonicalTestModules = import.meta.glob(
 );
 
 /** [Subject, Chapter] or [Subject, Category, Chapter] → identity + display info. Returns null for anything under the reserved "General Awareness/Current Affairs/" subtree, or a reserved segment (assets/questions). */
-function parseCanonicalPath(globKey: string): { subjectId: string; chapterId: string; subjectFolder: string; chapterFolder: string } | null {
+function parseCanonicalPath(globKey: string): { subjectId: string; chapterId: string; subjectFolder: string; chapterFolder: string; categoryFolder?: string } | null {
   const idx = globKey.indexOf(CHAPTERS_ROOT_MARKER);
   if (idx < 0) return null;
   const parts = globKey.slice(idx + CHAPTERS_ROOT_MARKER.length).split('/'); // [Subject, ...rest, file] — 3 or 4 segments total
@@ -98,12 +100,15 @@ function parseCanonicalPath(globKey: string): { subjectId: string; chapterId: st
     chapterId: slugify(chapterFolder),
     subjectFolder,
     chapterFolder,
+    // [Subject, Category, Chapter, file] — the folder between Subject and Chapter.
+    categoryFolder: rest.length === 3 ? rest[0] : undefined,
   };
 }
 
 interface CanonicalEntry {
   subjectFolder: string;
   chapterFolder: string;
+  categoryFolder?: string;
   mdGlobKeys: string[];
   testFileCount: number;
 }
@@ -115,7 +120,7 @@ function scanCanonical(): Map<string, CanonicalEntry> {
     const parsed = parseCanonicalPath(globKey);
     if (!parsed) continue;
     const key = `${parsed.subjectId}::${parsed.chapterId}`;
-    const entry = byKey.get(key) ?? { subjectFolder: parsed.subjectFolder, chapterFolder: parsed.chapterFolder, mdGlobKeys: [], testFileCount: 0 };
+    const entry = byKey.get(key) ?? { subjectFolder: parsed.subjectFolder, chapterFolder: parsed.chapterFolder, categoryFolder: parsed.categoryFolder, mdGlobKeys: [], testFileCount: 0 };
     entry.mdGlobKeys.push(globKey);
     byKey.set(key, entry);
   }
@@ -123,7 +128,7 @@ function scanCanonical(): Map<string, CanonicalEntry> {
     const parsed = parseCanonicalPath(globKey);
     if (!parsed) continue;
     const key = `${parsed.subjectId}::${parsed.chapterId}`;
-    const entry = byKey.get(key) ?? { subjectFolder: parsed.subjectFolder, chapterFolder: parsed.chapterFolder, mdGlobKeys: [], testFileCount: 0 };
+    const entry = byKey.get(key) ?? { subjectFolder: parsed.subjectFolder, chapterFolder: parsed.chapterFolder, categoryFolder: parsed.categoryFolder, mdGlobKeys: [], testFileCount: 0 };
     entry.testFileCount += 1;
     byKey.set(key, entry);
   }
@@ -159,6 +164,7 @@ function buildAll(): UniversalChapter[] {
       hasNotes: entry.mdGlobKeys.length > 0,
       testFileCount: entry.testFileCount,
       source: 'canonical',
+      categoryTitle: entry.categoryFolder,
     });
   }
 

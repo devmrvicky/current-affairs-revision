@@ -84,3 +84,20 @@ export function validateUniversalQuestion(q: UniversalQuestion): QuestionValidat
 
   return errors;
 }
+
+/**
+ * A question the session engine can actually present and score: it has text, at
+ * least two options, and its correctAnswer is one of them. Content that fails
+ * this (an authoring placeholder with `options: []`, an answer key that names a
+ * non-existent option) stays in the pool so `validateAllQuestions` can report it,
+ * but a fixed test never launches with it — a question nobody can answer would
+ * only ever count as wrong.
+ */
+export function isPlayableQuestion(q: Pick<UniversalQuestion, 'question' | 'options' | 'correctAnswer'>): boolean {
+  return (
+    Boolean(q.question?.trim()) &&
+    Array.isArray(q.options) &&
+    q.options.length >= 2 &&
+    q.options.some((o) => o.id === q.correctAnswer)
+  );
+}

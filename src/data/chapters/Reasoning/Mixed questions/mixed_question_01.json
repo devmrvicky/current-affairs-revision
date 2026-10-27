@@ -1,0 +1,652 @@
+[
+  {
+    "id": "rs001",
+    "question": "श्रृंखला में प्रश्नवाचक चिह्न (?) के स्थान पर कौन-सी संख्या आएगी? 7, 15, 46, 189, 946, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5671"
+      },
+      {
+        "id": "B",
+        "text": "5677"
+      },
+      {
+        "id": "C",
+        "text": "5681"
+      },
+      {
+        "id": "D",
+        "text": "5692"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "श्रृंखला में गुणा और जोड़ का क्रम दिया गया है। अंतिम चरण में 946 × 6 + 1 = 5677 होता है। अतः सही उत्तर 5677 है।",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "rs002",
+    "question": "अक्षर श्रृंखला में अगला पद ज्ञात कीजिए: B, E, J, Q, Z, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "H"
+      },
+      {
+        "id": "B",
+        "text": "I"
+      },
+      {
+        "id": "C",
+        "text": "J"
+      },
+      {
+        "id": "D",
+        "text": "K"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "अक्षरों की positions 2, 5, 10, 17, 26 हैं। अंतर +3, +5, +7, +9 है। अगला अंतर +11 होगा। 26 + 11 = 37 और 37 − 26 = 11, अर्थात K।",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "rs003",
+    "question": "निम्नलिखित श्रृंखला में प्रश्नवाचक चिह्न (?) के स्थान पर क्या आएगा? 4, G, 9, L, 16, Q, 25, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "U"
+      },
+      {
+        "id": "B",
+        "text": "V"
+      },
+      {
+        "id": "C",
+        "text": "W"
+      },
+      {
+        "id": "D",
+        "text": "X"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "संख्याएँ 2², 3², 4² और 5² हैं। इनके बीच के अक्षर G, L, Q की positions 7, 12, 17 हैं, जिनमें +5 का अंतर है। अगला अक्षर 22वाँ अर्थात V होगा।",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "rs004",
+    "question": "श्रृंखला को पूरा कीजिए: A, C, F, J, O, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "T"
+      },
+      {
+        "id": "B",
+        "text": "U"
+      },
+      {
+        "id": "C",
+        "text": "V"
+      },
+      {
+        "id": "D",
+        "text": "W"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "अक्षर positions में +2, +3, +4, +5 का अंतर है। अगला अंतर +6 होगा। O के बाद 6 स्थान आगे U आता है।",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "rs005",
+    "question": "निम्नलिखित को निर्माण कार्य के वास्तविक क्रम के अनुसार व्यवस्थित कीजिए: 1. दीवारों का निर्माण 2. भूमि की खुदाई 3. भवन की छत 4. नींव डालना 5. प्लास्टर एवं फिनिशिंग",
+    "options": [
+      {
+        "id": "A",
+        "text": "2, 4, 1, 3, 5"
+      },
+      {
+        "id": "B",
+        "text": "4, 2, 1, 3, 5"
+      },
+      {
+        "id": "C",
+        "text": "2, 1, 4, 3, 5"
+      },
+      {
+        "id": "D",
+        "text": "2, 4, 3, 1, 5"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "निर्माण में पहले भूमि की खुदाई, फिर नींव, उसके बाद दीवारें, छत और अंत में प्लास्टर एवं फिनिशिंग होती है।",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "rs006",
+    "question": "यदि NAGALAND को एक निश्चित pattern के अनुसार NL40753 लिखा जाता है, तो उसी pattern के अनुसार MEGHALAYA के लिए निम्न में से कौन-सा code संभावित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "MN31846"
+      },
+      {
+        "id": "B",
+        "text": "ML31846"
+      },
+      {
+        "id": "C",
+        "text": "MG31846"
+      },
+      {
+        "id": "D",
+        "text": "MH31846"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "दिए गए coded-state pattern के आधार पर MEGHALAYA के लिए ML31846 उपयुक्त code है।",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "rs007",
+    "question": "एक कूट भाषा में 'melt ox' का अर्थ 'red flower' और 'kavix melt' का अर्थ 'blue red' है। तो 'melt' का code किस शब्द के लिए है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "red"
+      },
+      {
+        "id": "B",
+        "text": "blue"
+      },
+      {
+        "id": "C",
+        "text": "green"
+      },
+      {
+        "id": "D",
+        "text": "flower"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'melt' दोनों coded expressions में common है और उनके meanings में common word 'red' है। इसलिए melt = red।",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "rs008",
+    "question": "एक कूट भाषा में 'zovik qunara melt ox' को 'pqr hij tuv mno', 'melt ox kavix qunara' को 'tuv abc hij xyz' तथा 'ravzen jexlon qunara' को 'mno xyz hij def' लिखा जाता है। 'qunara' का code क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "mno"
+      },
+      {
+        "id": "B",
+        "text": "hij"
+      },
+      {
+        "id": "C",
+        "text": "tuv"
+      },
+      {
+        "id": "D",
+        "text": "xyz"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'qunara' तीनों coded sentences में common है। Corresponding codes में common code 'hij' है। इसलिए qunara = hij।",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "rs009",
+    "question": "दिए गए शब्द PHILOSOPHER के अक्षरों का प्रयोग करके निम्न में से कौन-सा शब्द नहीं बनाया जा सकता?",
+    "options": [
+      {
+        "id": "A",
+        "text": "HORSE"
+      },
+      {
+        "id": "B",
+        "text": "POISE"
+      },
+      {
+        "id": "C",
+        "text": "HOPE"
+      },
+      {
+        "id": "D",
+        "text": "SPOONS"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "PHILOSOPHER में N अक्षर उपलब्ध नहीं है और S केवल एक बार है। इसलिए SPOONS नहीं बनाया जा सकता।",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "rs010",
+    "question": "शब्द CONSTITUTION के अक्षरों से निम्न में से कौन-सा शब्द बनाया जा सकता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "STATION"
+      },
+      {
+        "id": "B",
+        "text": "TUTION"
+      },
+      {
+        "id": "C",
+        "text": "CONCISION"
+      },
+      {
+        "id": "D",
+        "text": "INDUCTION"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "CONSTITUTION में T, U, T, I, O और N सभी आवश्यक अक्षर उपलब्ध हैं। इसलिए TUTION बनाया जा सकता है।",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "rs011",
+    "question": "एक व्यक्ति का सही पता है: Aman Verma, C-205, Green Valley Apartments, Phase 2, Lucknow – 226010. निम्नलिखित में से सही रूप से लिखा गया पता चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aman Verma, C-205, Green Valley Apartments, Phase 2, Lucknow, 226010"
+      },
+      {
+        "id": "B",
+        "text": "Aman Verma, C-250, Green Valley Apartments, Phase 2, Lucknow, 226010"
+      },
+      {
+        "id": "C",
+        "text": "Aman Verma, C-205, Green Valley Apartment, Phase 2, Lucknow, 226010"
+      },
+      {
+        "id": "D",
+        "text": "Aman Verma, C-205, Green Valley Apartments, Phase 2, Lucknow, 226100"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "विकल्प A में नाम, flat number, apartment name, phase, city और PIN code सभी मूल पते से समान हैं।",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "rs012",
+    "question": "मूल पता है: Ravi Kumar, Flat B-17, Sunrise Residency, Sector 62, Noida – 201301. निम्न में से कितने विकल्प मूल पते से पूरी तरह समान हैं? 1. Ravi Kumar, Flat B-17, Sunrise Residency, Sector 62, Noida – 201301 2. Ravi Kumar, Flat B-71, Sunrise Residency, Sector 62, Noida – 201301 3. Ravi Kumar, Flat B-17, Sunrise Residency, Sector 26, Noida – 201301 4. Ravi Kumar, Flat B-17, Sunrise Residency, Sector 62, Noida – 201301",
+    "options": [
+      {
+        "id": "A",
+        "text": "केवल 1"
+      },
+      {
+        "id": "B",
+        "text": "केवल 2"
+      },
+      {
+        "id": "C",
+        "text": "केवल 1 और 4"
+      },
+      {
+        "id": "D",
+        "text": "केवल 2 और 3"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "विकल्प 1 और 4 मूल पते से पूरी तरह समान हैं। विकल्प 2 में flat number और विकल्प 3 में sector अलग है।",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "rs013",
+    "question": "कथन: एक कंपनी ने कर्मचारियों के लिए सप्ताह में दो दिन Work From Home की सुविधा शुरू की है। मान्यताएँ: I. कुछ कर्मचारी घर से भी प्रभावी रूप से काम कर सकते हैं। II. प्रत्येक कर्मचारी कार्यालय में उपस्थित हुए बिना ही हर प्रकार का कार्य कर सकता है। III. कंपनी कर्मचारियों को सुविधा प्रदान करके कार्य-संतुष्टि बढ़ाना चाहती है। सही विकल्प चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "केवल I निहित है"
+      },
+      {
+        "id": "B",
+        "text": "केवल II निहित है"
+      },
+      {
+        "id": "C",
+        "text": "केवल I और III निहित हैं"
+      },
+      {
+        "id": "D",
+        "text": "I, II और III निहित हैं"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Work From Home शुरू करने के लिए यह मानना आवश्यक है कि कुछ कार्य घर से प्रभावी रूप से किए जा सकते हैं। II अत्यधिक व्यापक है। III नीति के उद्देश्य से संबंधित उचित assumption है।",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "rs014",
+    "question": "कथन: एक शहर में पिछले कुछ महीनों से सड़क दुर्घटनाओं की संख्या बढ़ रही है। कार्रवाई: I. यातायात नियमों के उल्लंघन पर निगरानी बढ़ाई जानी चाहिए। II. शहर की सभी सड़कों को तुरंत बंद कर देना चाहिए। III. दुर्घटना-प्रवण स्थानों पर सुरक्षा संकेत और प्रकाश व्यवस्था की समीक्षा करनी चाहिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "केवल I"
+      },
+      {
+        "id": "B",
+        "text": "केवल II"
+      },
+      {
+        "id": "C",
+        "text": "केवल I और III"
+      },
+      {
+        "id": "D",
+        "text": "I, II और III"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "निगरानी बढ़ाना और दुर्घटना-प्रवण क्षेत्रों में safety measures की समीक्षा करना उचित कार्रवाई है। सभी सड़कों को बंद करना अत्यधिक और अव्यावहारिक कदम है।",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "rs015",
+    "question": "कथन: विद्यालय ने विद्यार्थियों को परीक्षा से पहले प्रतिदिन एक घंटा अतिरिक्त अध्ययन करने की सलाह दी है। मान्यताएँ: I. अतिरिक्त अध्ययन से विद्यार्थियों की परीक्षा-तैयारी में सहायता मिल सकती है। II. सभी विद्यार्थी प्रतिदिन एक घंटा अतिरिक्त अध्ययन करने के लिए समान रूप से सक्षम हैं। III. परीक्षा की तैयारी के लिए विद्यार्थियों को अतिरिक्त समय की आवश्यकता हो सकती है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "केवल I"
+      },
+      {
+        "id": "B",
+        "text": "केवल II"
+      },
+      {
+        "id": "C",
+        "text": "केवल I और III"
+      },
+      {
+        "id": "D",
+        "text": "I, II और III"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "अतिरिक्त अध्ययन से तैयारी में सहायता और अतिरिक्त समय की संभावित आवश्यकता उचित assumptions हैं। सभी विद्यार्थियों की समान क्षमता मानना आवश्यक नहीं है।",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "rs016",
+    "question": "कथन: एक शहर में प्लास्टिक की थैलियों के कारण नालियाँ बार-बार जाम हो रही हैं। कार्रवाई: I. प्लास्टिक के उपयोग को नियंत्रित करने के लिए जागरूकता अभियान चलाया जाए। II. सभी दुकानों को स्थायी रूप से बंद कर दिया जाए। III. प्रतिबंधित प्लास्टिक के उपयोग पर नियमों का प्रभावी पालन कराया जाए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "केवल I"
+      },
+      {
+        "id": "B",
+        "text": "केवल II"
+      },
+      {
+        "id": "C",
+        "text": "केवल I और III"
+      },
+      {
+        "id": "D",
+        "text": "II और III"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "जागरूकता अभियान और नियमों का प्रभावी पालन समस्या को कम करने के सीधे उपाय हैं। सभी दुकानों को स्थायी रूप से बंद करना उचित कार्रवाई नहीं है।",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "rs017",
+    "question": "श्रृंखला में लुप्त संख्या ज्ञात कीजिए: 5, 11, 35, 143, 719, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4319"
+      },
+      {
+        "id": "B",
+        "text": "4315"
+      },
+      {
+        "id": "C",
+        "text": "4321"
+      },
+      {
+        "id": "D",
+        "text": "4325"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "क्रम है ×2+1, ×3+2, ×4+3, ×5+4। अतः अगला पद = 719 × 6 + 5 = 4319।",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "rs018",
+    "question": "श्रृंखला में प्रश्नवाचक चिह्न (?) के स्थान पर कौन-सी संख्या आएगी? 3, 8, 18, 38, 78, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "156"
+      },
+      {
+        "id": "B",
+        "text": "158"
+      },
+      {
+        "id": "C",
+        "text": "160"
+      },
+      {
+        "id": "D",
+        "text": "162"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "प्रत्येक पद पिछले पद को 2 से गुणा करके 2 जोड़ने से प्राप्त होता है। इसलिए 78 × 2 + 2 = 158।",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "rs019",
+    "question": "निम्न श्रृंखला को देखें: A1, C4, F9, J16, O25, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "T36"
+      },
+      {
+        "id": "B",
+        "text": "U36"
+      },
+      {
+        "id": "C",
+        "text": "V36"
+      },
+      {
+        "id": "D",
+        "text": "U35"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "अक्षर positions 1, 3, 6, 10, 15 हैं और अंतर +2, +3, +4, +5 है। अगला +6 = 21 अर्थात U। संख्याएँ 1², 2², 3², 4², 5² हैं; अगली 6² = 36।",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "rs020",
+    "question": "यदि एक निश्चित कूट में MANGO को NZOHP लिखा जाता है, तो उसी नियम के अनुसार APPLE को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "BQQMF"
+      },
+      {
+        "id": "B",
+        "text": "BQQLF"
+      },
+      {
+        "id": "C",
+        "text": "BPPMF"
+      },
+      {
+        "id": "D",
+        "text": "ZOOKD"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "हर अक्षर को alphabet में एक स्थान आगे किया गया है: M→N, A→B, N→O, G→H, O→P। इसी प्रकार APPLE → BQQMF।",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "rs021",
+    "question": "एक कूट भाषा में PEN = 35, BOOK = 43 और COPY = 59 है। उसी pattern के अनुसार PAGE का code क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "27"
+      },
+      {
+        "id": "B",
+        "text": "29"
+      },
+      {
+        "id": "C",
+        "text": "31"
+      },
+      {
+        "id": "D",
+        "text": "33"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "प्रत्येक अक्षर की alphabetical position का योग लिया गया है। PAGE = P(16) + A(1) + G(7) + E(5) = 29।",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "rs022",
+    "question": "निम्न घटनाओं को तार्किक क्रम में व्यवस्थित कीजिए: 1. साक्षात्कार 2. आवेदन करना 3. नौकरी का विज्ञापन 4. नियुक्ति पत्र 5. लिखित परीक्षा",
+    "options": [
+      {
+        "id": "A",
+        "text": "3, 2, 5, 1, 4"
+      },
+      {
+        "id": "B",
+        "text": "2, 3, 5, 1, 4"
+      },
+      {
+        "id": "C",
+        "text": "3, 5, 2, 1, 4"
+      },
+      {
+        "id": "D",
+        "text": "2, 5, 3, 1, 4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "पहले नौकरी का विज्ञापन आता है, फिर आवेदन, उसके बाद लिखित परीक्षा, साक्षात्कार और अंत में नियुक्ति पत्र।",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "rs023",
+    "question": "शब्द ADMINISTRATION के अक्षरों से निम्न में से कौन-सा शब्द नहीं बनाया जा सकता?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TRAIN"
+      },
+      {
+        "id": "B",
+        "text": "RATION"
+      },
+      {
+        "id": "C",
+        "text": "MINOR"
+      },
+      {
+        "id": "D",
+        "text": "MASTER"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "ADMINISTRATION में E अक्षर उपलब्ध नहीं है, जबकि MASTER बनाने के लिए E आवश्यक है। इसलिए MASTER नहीं बनाया जा सकता।",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "rs024",
+    "question": "कथन: नगर निगम ने नागरिकों से अपील की है कि वे कूड़ा केवल निर्धारित स्थानों पर ही डालें। मान्यताएँ: I. कुछ नागरिक सार्वजनिक स्थानों पर कूड़ा डालते हैं। II. निर्धारित स्थानों पर कूड़ा डालने से सफाई व्यवस्था बेहतर हो सकती है। III. सभी नागरिक नगर निगम की अपील का पालन करेंगे।",
+    "options": [
+      {
+        "id": "A",
+        "text": "केवल I निहित है"
+      },
+      {
+        "id": "B",
+        "text": "केवल II निहित है"
+      },
+      {
+        "id": "C",
+        "text": "केवल I और II निहित हैं"
+      },
+      {
+        "id": "D",
+        "text": "I, II और III निहित हैं"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "अपील से संकेत मिलता है कि समस्या मौजूद है और निर्धारित स्थानों पर कूड़ा डालना सफाई व्यवस्था में सहायता कर सकता है। सभी नागरिक पालन करेंगे, यह आवश्यक assumption नहीं है।",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "rs025",
+    "question": "एक कूट भाषा में: 'red blue green' → 'ka mi zo', 'green yellow white' → 'zo tu pa', 'blue white black' → 'mi pa re'. तो 'red black' का code क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ka re"
+      },
+      {
+        "id": "B",
+        "text": "mi zo"
+      },
+      {
+        "id": "C",
+        "text": "ka pa"
+      },
+      {
+        "id": "D",
+        "text": "tu re"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "पहले वाक्य से red = ka और blue = mi मिलता है। दूसरे से green = zo और white = pa मिलता है। तीसरे में blue = mi और white = pa होने पर black = re होगा। इसलिए red black = ka re।",
+    "difficulty": "hard",
+    "language": "en"
+  }
+]

@@ -30,6 +30,7 @@ import { universalAttemptsDB, type UniversalAttemptRecord } from './db';
 import { parseDateFromFileName } from './quizRepository';
 import { getChapterList } from './chapterRepository';
 import { resolveTopicId } from './questionRepository';
+import { computeAllTestStats, computeTestStats, rebuildSessionFromRows, type TestAttemptStats } from './testAttemptStats';
 
 function normalize(s: string): string {
   return s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
@@ -139,9 +140,11 @@ export async function getAttemptedQuestionIds(examId?: string): Promise<Set<stri
  */
 export async function recordPracticeSessionAttempts(
   session: PracticeSession,
-  questionsById: Map<string, UniversalQuestion>
+  questionsById: Map<string, UniversalQuestion>,
+  completedAt: number = Date.now()
 ): Promise<void> {
-  const records: UniversalAttemptRecord[] = session.states.map((state) => {
+  const marking = session.config.marking;
+  const records: UniversalAttemptRecord[] = session.states.map((state, index) => {
     const q = questionsById.get(state.questionId);
     const wasAnswered = state.selectedAnswer !== null;
     const isCorrect = wasAnswered && !!q && state.selectedAnswer === q.correctAnswer;
@@ -159,10 +162,20 @@ export async function recordPracticeSessionAttempts(
       isCorrect,
       wasAnswered,
       timeTaken: state.timeTaken,
-      attemptedAt: state.answeredAt ?? session.completedAt ?? Date.now(),
+      attemptedAt: state.answeredAt ?? completedAt,
       sessionId: session.id,
       sourceFileName: `universal-session-${session.id}`,
       testDefinitionId: session.config.testDefinitionId,
+      // Per-attempt detail — see UniversalAttemptRecord.
+      selectedAnswer: state.selectedAnswer,
+      markedForReview: state.isMarkedForReview,
+      questionIndex: index,
+      sessionMode: session.config.mode,
+      sessionLabel: session.config.label,
+      sessionStartedAt: session.startedAt,
+      sessionCompletedAt: completedAt,
+      sessionPausedMs: session.totalPausedTime,
+      ...(marking ? { marksPerCorrect: marking.marksPerCorrect, negativeMarks: marking.negativeMarks } : {}),
     };
   });
   await universalAttemptsDB.recordMany(records);
@@ -304,51 +317,27 @@ export async function getRecentAttemptRecords(limit: number): Promise<UniversalA
   return all.sort((a, b) => b.attemptedAt - a.attemptedAt).slice(0, limit);
 }
 
-export interface TestAttemptStats {
-  timesAttempted: number;
-  bestCorrect: number;
-  bestTotal: number;
-  bestAccuracy: number;
-  lastAttemptedAt: number;
-}
+// Per-test statistics. The arithmetic (what counts as an attempt, how best and
+// latest are chosen) lives in testAttemptStats.ts; this file only reads rows.
+export type { TestAttemptStats, TestAttemptSummary } from './testAttemptStats';
 
 /**
- * "Attempted N times, Best M/Q" for one SPECIFIC named test (e.g. "Test 01"
- * within a chapter that has several test files) — finer-grained than
- * getChapterAttemptStats above, which aggregates every attempt across an
- * entire topic regardless of which file. Matches product-refactor §89's
- * literal example ("Percentage → Test 01 → Attempted 3 times → Best 18/25")
- * exactly, generically for exam mocks, chapter tests, and miscellaneous
- * sets alike — not just Current Affairs.
+ * Stats for every test of one exam in a single read — what the Practice library
+ * and the chapter "T" panels use, so N test cards cost one query, not N.
  */
+export async function getAllTestAttemptStats(examId: string): Promise<Map<string, TestAttemptStats>> {
+  return computeAllTestStats(await universalAttemptsDB.getByExam(examId));
+}
+
+/** "Attempted N times, Best M/Q, Latest L/Q" for one SPECIFIC named test. Null when never attempted. */
 export async function getTestAttemptStats(testDefinitionId: string): Promise<TestAttemptStats | null> {
-  const all = await universalAttemptsDB.getAll();
-  const records = all.filter((r) => r.testDefinitionId === testDefinitionId && r.wasAnswered);
-  if (records.length === 0) return null;
+  // Test ids are `${examId}-…`, but exam ids contain hyphens themselves, so
+  // rather than parse the id we read the whole ledger once. Prefer
+  // getAllTestAttemptStats(examId) when showing more than one test.
+  return computeTestStats(await universalAttemptsDB.getAll(), testDefinitionId);
+}
 
-  const bySession = new Map<string, { correct: number; total: number; lastAt: number }>();
-  for (const r of records) {
-    const entry = bySession.get(r.sessionId) ?? { correct: 0, total: 0, lastAt: 0 };
-    entry.total += 1;
-    if (r.isCorrect) entry.correct += 1;
-    entry.lastAt = Math.max(entry.lastAt, r.attemptedAt);
-    bySession.set(r.sessionId, entry);
-  }
-
-  let best = { correct: 0, total: 1, lastAt: 0 };
-  let lastAttemptedAt = 0;
-  for (const session of bySession.values()) {
-    const accuracy = session.correct / session.total;
-    const bestAccuracy = best.correct / best.total;
-    if (accuracy > bestAccuracy || (accuracy === bestAccuracy && session.total > best.total)) best = session;
-    lastAttemptedAt = Math.max(lastAttemptedAt, session.lastAt);
-  }
-
-  return {
-    timesAttempted: bySession.size,
-    bestCorrect: best.correct,
-    bestTotal: best.total,
-    bestAccuracy: Math.round((best.correct / best.total) * 100),
-    lastAttemptedAt,
-  };
+/** Rebuilds a past practice/test attempt for the existing result and review pages. Null if it doesn't exist or predates per-question detail. */
+export async function getPracticeAttemptSession(sessionId: string): Promise<PracticeSession | null> {
+  return rebuildSessionFromRows(await universalAttemptsDB.getBySession(sessionId));
 }

@@ -1,0 +1,3810 @@
+[
+  {
+    "id": "cd001",
+    "subjectId": "reasoning",
+    "question": "किसी सांकेतिक भाषा में MONEY को NPOFZ लिखा जाता है। उसी सांकेतिक भाषा में NUTS को क्या लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "OVUT"
+      },
+      {
+        "id": "B",
+        "text": "OVTU"
+      },
+      {
+        "id": "C",
+        "text": "LOVT"
+      },
+      {
+        "id": "D",
+        "text": "TOVU"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd002",
+    "subjectId": "reasoning",
+    "question": "किसी सांकेतिक भाषा में NAME को MZLD लिखा जाता है। उसी सांकेतिक भाषा में LOTUS को क्या लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "KNSRT"
+      },
+      {
+        "id": "B",
+        "text": "KNSTR"
+      },
+      {
+        "id": "C",
+        "text": "KNTSR"
+      },
+      {
+        "id": "D",
+        "text": "KTNSR"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd003",
+    "subjectId": "reasoning",
+    "question": "यदि SQUALOR को कोड में USWCNQT लिखा जाता है, तो 'WHY' को उसी कोड में क्या लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CZR"
+      },
+      {
+        "id": "B",
+        "text": "SGY"
+      },
+      {
+        "id": "C",
+        "text": "YJA"
+      },
+      {
+        "id": "D",
+        "text": "YPT"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd004",
+    "subjectId": "reasoning",
+    "question": "किसी विशेष कोड भाषा में TEACHER को TFCFLJX लिखा जाता है। उसी कोड भाषा में CATCHER को किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "CBVFLXJ"
+      },
+      {
+        "id": "B",
+        "text": "CBVFLJX"
+      },
+      {
+        "id": "C",
+        "text": "CBVFJLX"
+      },
+      {
+        "id": "D",
+        "text": "BCVFLJY"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd005",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में ALMIRAH को HRRMUCI और COMPANY को JURTDPZ लिखा जाता है। उसी कोड भाषा में JUNGLEE को किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "QUREASR"
+      },
+      {
+        "id": "B",
+        "text": "QBSKHFW"
+      },
+      {
+        "id": "C",
+        "text": "QASKPHF"
+      },
+      {
+        "id": "D",
+        "text": "QASKOGF"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd006",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'MERGE' को 'NHWNN' और 'HEAVY' को 'IHFCH' लिखा जाता है। उसी कोड भाषा में 'MORSE' को किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "LPRCH"
+      },
+      {
+        "id": "B",
+        "text": "NLDIE"
+      },
+      {
+        "id": "C",
+        "text": "LDYTB"
+      },
+      {
+        "id": "D",
+        "text": "NRWZN"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd007",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'SMART' को 'VKDPW' और 'FRAUD' को 'IPDSG' लिखा जाता है। उसी कोड भाषा में 'PURGE' को किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "QTSFF"
+      },
+      {
+        "id": "B",
+        "text": "SSUEH"
+      },
+      {
+        "id": "C",
+        "text": "RSTEG"
+      },
+      {
+        "id": "D",
+        "text": "RWTIG"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd008",
+    "subjectId": "reasoning",
+    "question": "एक विशिष्ट कोड भाषा में NDRWCK को GUGPTZ लिखा जाता है। इस कोड भाषा में MTSFHJ का कोड क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "FOPWWW"
+      },
+      {
+        "id": "B",
+        "text": "FOPXXX"
+      },
+      {
+        "id": "C",
+        "text": "FKHZZZ"
+      },
+      {
+        "id": "D",
+        "text": "FKHYYY"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd009",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित भाषा में 'YOUNGER' को 'AQWNECP' लिखा जाता है। उसी भाषा में 'NUMBERS' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "PYOBGPQ"
+      },
+      {
+        "id": "B",
+        "text": "LWOBCPU"
+      },
+      {
+        "id": "C",
+        "text": "PWNDCPQ"
+      },
+      {
+        "id": "D",
+        "text": "PWOBCPQ"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd010",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'JUPITER' को JVOJSFR के रूप में लिखा जाता है। उसी भाषा में 'NEPTUNE' कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NFOUTOE"
+      },
+      {
+        "id": "B",
+        "text": "NDPSVME"
+      },
+      {
+        "id": "C",
+        "text": "NGOUTOE"
+      },
+      {
+        "id": "D",
+        "text": "NFOSTOE"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd011",
+    "subjectId": "reasoning",
+    "question": "यदि एक कोड भाषा में CARING को EDVGKC और SHARES को UKEPBO लिखा जाता है, तो उसी कोड भाषा में CASKET किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "EDXIBP"
+      },
+      {
+        "id": "B",
+        "text": "EDWIAP"
+      },
+      {
+        "id": "C",
+        "text": "EDWPAI"
+      },
+      {
+        "id": "D",
+        "text": "EDWIBP"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd012",
+    "subjectId": "reasoning",
+    "question": "यदि किसी सांकेतिक भाषा में LOGIC का कोड BHFNK लिखा जाता है, तो CLERK उसी भाषा में कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "JQDBK"
+      },
+      {
+        "id": "B",
+        "text": "JBKQD"
+      },
+      {
+        "id": "C",
+        "text": "JQDKB"
+      },
+      {
+        "id": "D",
+        "text": "JBDKQ"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd013",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'SETTLE' को 'DLSTDS' लिखा गया है। उसी कोड भाषा में 'STRUCK' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "JCTRST"
+      },
+      {
+        "id": "B",
+        "text": "JCTRSS"
+      },
+      {
+        "id": "C",
+        "text": "JCTSRS"
+      },
+      {
+        "id": "D",
+        "text": "JTCRSS"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd014",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'SHOULD' को 'AIRLEP' लिखा गया है। उसी कोड भाषा में 'WIDELY' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "VIBAGT"
+      },
+      {
+        "id": "B",
+        "text": "VICBFT"
+      },
+      {
+        "id": "C",
+        "text": "VIBAFT"
+      },
+      {
+        "id": "D",
+        "text": "FIBAFU"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd015",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'GRSTB' को 'GYXWL' और 'HANDS' को 'XISFM' लिखा जाता है। उसी भाषा में 'MNDET' को किस रूप में लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "YJISR"
+      },
+      {
+        "id": "B",
+        "text": "JIISR"
+      },
+      {
+        "id": "C",
+        "text": "YJITS"
+      },
+      {
+        "id": "D",
+        "text": "YJIR"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd016",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'REFINE' को 'KHOZKL' लिखा जाता है। उसी कोड भाषा में 'SOLVENT' को क्या लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "YHJPIX"
+      },
+      {
+        "id": "B",
+        "text": "ZHKPRIY"
+      },
+      {
+        "id": "C",
+        "text": "ZIKQQJY"
+      },
+      {
+        "id": "D",
+        "text": "YHPJPI"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd017",
+    "subjectId": "reasoning",
+    "question": "किसी कोड भाषा में 'PROJECT' को 'VAIFULX' और 'INDULGE' को 'GEPQJHQ' लिखा जाता है। उसी कोड भाषा में 'GARNISH' को किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "JQXMJUO"
+      },
+      {
+        "id": "B",
+        "text": "JQMJXUO"
+      },
+      {
+        "id": "C",
+        "text": "JPXIMUO"
+      },
+      {
+        "id": "D",
+        "text": "JPMIXUO"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd018",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में LEADER को ELDARE लिखा जाता है। उसी कोड भाषा में FOUNTAIN को किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "FONUATIN"
+      },
+      {
+        "id": "B",
+        "text": "FOUNTANI"
+      },
+      {
+        "id": "C",
+        "text": "OFNUATNI"
+      },
+      {
+        "id": "D",
+        "text": "OFUNATIN"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd019",
+    "subjectId": "reasoning",
+    "question": "किसी कोड भाषा में MANGO को AMNOG लिखा जाता है। उसी कोड भाषा में APPLE को क्या लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "PALEP"
+      },
+      {
+        "id": "B",
+        "text": "PEPAL"
+      },
+      {
+        "id": "C",
+        "text": "PAPEL"
+      },
+      {
+        "id": "D",
+        "text": "LEAPP"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd020",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'RUDE' को 'EDUR48' लिखा गया है। उसी कोड भाषा में 'SOUP' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "PUPS81"
+      },
+      {
+        "id": "B",
+        "text": "PUOS71"
+      },
+      {
+        "id": "C",
+        "text": "PUPS71"
+      },
+      {
+        "id": "D",
+        "text": "PUOS81"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd022",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'CYTOSKELETON' को 'TYCKSOELENOT' तथा 'MALNUTRITION' को 'LAMTUNTIRNOI' लिखा गया है। उसी भाषा में 'ALLITERATION' को किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "LLAETITARNOI"
+      },
+      {
+        "id": "B",
+        "text": "LLAETIATRNOI"
+      },
+      {
+        "id": "C",
+        "text": "LLEATITARNOI"
+      },
+      {
+        "id": "D",
+        "text": "LLAETITRANOI"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd023",
+    "subjectId": "reasoning",
+    "question": "एक खास कोड भाषा में 'FLOORS' को 'QPMNKE' लिखा गया है। इस कोड भाषा में 'GATHER' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "PCFSZE"
+      },
+      {
+        "id": "B",
+        "text": "PCESZE"
+      },
+      {
+        "id": "C",
+        "text": "PCFSAF"
+      },
+      {
+        "id": "D",
+        "text": "PCFSZF"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd024",
+    "subjectId": "reasoning",
+    "question": "किसी निश्चित कोड भाषा में PROCTOR को RUSBURW के रूप में लिखा जाता है। इसी कोड भाषा में HOSTING को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "VRKTJRL"
+      },
+      {
+        "id": "B",
+        "text": "VQKSLSL"
+      },
+      {
+        "id": "C",
+        "text": "VRKSJQL"
+      },
+      {
+        "id": "D",
+        "text": "WXKSJQN"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd025",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में GUIDE को YKMIH के रूप में कोडित किया जाता है। उसी भाषा में RAISE को कैसे कोडित किया जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "VEMWI"
+      },
+      {
+        "id": "B",
+        "text": "EVMIW"
+      },
+      {
+        "id": "C",
+        "text": "KYOGX"
+      },
+      {
+        "id": "D",
+        "text": "IZRHV"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd026",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'MADRAS' को 'OWNHEQ' लिखा जाता है। उसी कोड भाषा में 'SUNDAY' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "UWZYWR"
+      },
+      {
+        "id": "B",
+        "text": "WUZWYR"
+      },
+      {
+        "id": "C",
+        "text": "UWZRYW"
+      },
+      {
+        "id": "D",
+        "text": "WUZRYX"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd027",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में RANDOM को VOQAAI और ORANGE को SGDKRA लिखा जाता है। उसी भाषा में OUTPUT को किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SUMWUP"
+      },
+      {
+        "id": "B",
+        "text": "SUWMUP"
+      },
+      {
+        "id": "C",
+        "text": "PUWMUS"
+      },
+      {
+        "id": "D",
+        "text": "PUMWUS"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd029",
+    "subjectId": "reasoning",
+    "question": "यदि किसी कोड भाषा में 'CHROMATIC' को XSILNZGRX लिखा जाता है, तो GENERATION को उसी कोड भाषा में कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TVMVIZGRLM"
+      },
+      {
+        "id": "B",
+        "text": "TMLRVMVIZG"
+      },
+      {
+        "id": "C",
+        "text": "MLTVMVIZGR"
+      },
+      {
+        "id": "D",
+        "text": "TVMVIZGRML"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd030",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'ELBOW' को 'DLYOV' और 'ANKLE' को 'VOPMZ' लिखा गया है। उसी भाषा में 'WRIST' कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "GHRID"
+      },
+      {
+        "id": "B",
+        "text": "IRWST"
+      },
+      {
+        "id": "C",
+        "text": "TSEIW"
+      },
+      {
+        "id": "D",
+        "text": "GHRJC"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd031",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'GUITAR' को 'UGSHAJ' और 'PIANO' को 'LSANM' लिखा गया है। उसी भाषा में 'DRUMS' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IOGJX"
+      },
+      {
+        "id": "B",
+        "text": "XIOGJ"
+      },
+      {
+        "id": "C",
+        "text": "XGOIJ"
+      },
+      {
+        "id": "D",
+        "text": "XJGOI"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd032",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'FOX' को 'SJA' और 'CRIPPLE' को 'VGPIIMT' लिखा गया है। उसी कोड भाषा में 'MOVEMENT' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "LJCSLTKE"
+      },
+      {
+        "id": "B",
+        "text": "LJCTLTKF"
+      },
+      {
+        "id": "C",
+        "text": "LJCTLTJE"
+      },
+      {
+        "id": "D",
+        "text": "LJCTLTKE"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd033",
+    "subjectId": "reasoning",
+    "question": "किसी विशेष कोड भाषा में ALIGATOR को LAROGITA लिखा जाता है। उसी कोड भाषा में COMPUTER को किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "PMOCRETU"
+      },
+      {
+        "id": "B",
+        "text": "OCREPMTU"
+      },
+      {
+        "id": "C",
+        "text": "OCPMTURE"
+      },
+      {
+        "id": "D",
+        "text": "RETUPMOC"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd034",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'GREAT' को '2015187', 'WORK' को '11181523' और 'GOING' को '7149157' के रूप में कोडित किया गया है। उसी भाषा में 'WELL' को किस प्रकार कोडित किया जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1425431"
+      },
+      {
+        "id": "B",
+        "text": "3231345"
+      },
+      {
+        "id": "C",
+        "text": "1454321"
+      },
+      {
+        "id": "D",
+        "text": "1212523"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd035",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'CROWD' को 23415924 और 'TRHICK' को 162491997 के रूप में लिखा जाता है। 'FRUGAL' को उसी कोड भाषा में कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1226761821"
+      },
+      {
+        "id": "B",
+        "text": "1521012291"
+      },
+      {
+        "id": "C",
+        "text": "1512021921"
+      },
+      {
+        "id": "D",
+        "text": "1221021186"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd036",
+    "subjectId": "reasoning",
+    "question": "यदि C = 24 और EYE = 46, तो FOX = ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "36"
+      },
+      {
+        "id": "B",
+        "text": "35"
+      },
+      {
+        "id": "C",
+        "text": "38"
+      },
+      {
+        "id": "D",
+        "text": "40"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd037",
+    "subjectId": "reasoning",
+    "question": "यदि A = 26 और H = 19 है, तो FASHION = ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2126819181217"
+      },
+      {
+        "id": "B",
+        "text": "2126819181215"
+      },
+      {
+        "id": "C",
+        "text": "2126819181213"
+      },
+      {
+        "id": "D",
+        "text": "2126819181214"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd038",
+    "subjectId": "reasoning",
+    "question": "KIT 20 और PRG 50 के बीच एक निश्चित संबंध है। ENT 16 और VMG 40 के बीच भी वही संबंध है। समान तर्क के आधार पर MFG 18 निम्नलिखित में से किससे संबंधित होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "NUT 40"
+      },
+      {
+        "id": "B",
+        "text": "NVT 45"
+      },
+      {
+        "id": "C",
+        "text": "QUT 45"
+      },
+      {
+        "id": "D",
+        "text": "NUT 45"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd039",
+    "subjectId": "reasoning",
+    "question": "एक कोड भाषा में MISSION को N64O के रूप में और TEASE को U56F के रूप में लिखा जाता है। इसी भाषा में NASTY को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Z41O"
+      },
+      {
+        "id": "B",
+        "text": "O14Z"
+      },
+      {
+        "id": "C",
+        "text": "Z14O"
+      },
+      {
+        "id": "D",
+        "text": "O41Z"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd040",
+    "subjectId": "reasoning",
+    "question": "यदि किसी सांकेतिक भाषा में SUN का कोड RTTVMO है, तो उसी सांकेतिक भाषा में JUG का कोड क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IKTVHF"
+      },
+      {
+        "id": "B",
+        "text": "IKTVFH"
+      },
+      {
+        "id": "C",
+        "text": "IKVTHF"
+      },
+      {
+        "id": "D",
+        "text": "VTKHFI"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd041",
+    "subjectId": "reasoning",
+    "question": "यदि किसी सांकेतिक भाषा में GARDEN का कोड HVS है, तो उसी सांकेतिक भाषा में BRIGHT का कोड क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TJK"
+      },
+      {
+        "id": "B",
+        "text": "JTR"
+      },
+      {
+        "id": "C",
+        "text": "LKT"
+      },
+      {
+        "id": "D",
+        "text": "TPB"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd042",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'BUS' को 'ACTVRT' और 'CAT' को 'BDZBSU' लिखा जाता है। उसी भाषा में 'PUT' को किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "VSTOQU"
+      },
+      {
+        "id": "B",
+        "text": "STVOQ"
+      },
+      {
+        "id": "C",
+        "text": "OQTVSU"
+      },
+      {
+        "id": "D",
+        "text": "TVSUQO"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd043",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'FIT' को 'FGIST' और 'KIN' को 'KLIMN' लिखा जाता है। उसी भाषा में 'JOY' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "KKOXX"
+      },
+      {
+        "id": "B",
+        "text": "JJOYY"
+      },
+      {
+        "id": "C",
+        "text": "KJOYX"
+      },
+      {
+        "id": "D",
+        "text": "JKOXY"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd044",
+    "subjectId": "reasoning",
+    "question": "यदि किसी सांकेतिक भाषा में JAMBIA का कोड URGTWR तथा CANADA का कोड VRYRSR है, तो उसी सांकेतिक भाषा में INDIA का कोड क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "WYSWR"
+      },
+      {
+        "id": "B",
+        "text": "WYSRW"
+      },
+      {
+        "id": "C",
+        "text": "WSYRW"
+      },
+      {
+        "id": "D",
+        "text": "YWSRW"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd045",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में MINER को 56342 और ANIME को 63457 लिखा जाता है। उसी भाषा में R को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "2"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd046",
+    "subjectId": "reasoning",
+    "question": "यदि किसी कोड भाषा में LAST को 1234 और BOOK को 5667 लिखा जाता है, तो उसी भाषा में TOAST को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "45234"
+      },
+      {
+        "id": "B",
+        "text": "46234"
+      },
+      {
+        "id": "C",
+        "text": "46324"
+      },
+      {
+        "id": "D",
+        "text": "47234"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd047",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में PEARL को 24153, EARTH को 41590 और PILE को 2634 कोडित किया जाता है। उसी भाषा में HEAR शब्द का कोड क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1520"
+      },
+      {
+        "id": "B",
+        "text": "2651"
+      },
+      {
+        "id": "C",
+        "text": "0415"
+      },
+      {
+        "id": "D",
+        "text": "9054"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd048",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में ISHTY को 15789, PLEM को 2304 और QPT को 628 लिखा जाता है। उसी कोड भाषा में किस शब्द को 63781 कोडित किया जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "QTLSP"
+      },
+      {
+        "id": "B",
+        "text": "PETYL"
+      },
+      {
+        "id": "C",
+        "text": "QLHTI"
+      },
+      {
+        "id": "D",
+        "text": "THLP"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd049",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में MORAL को 57638, RIAL को 3859 और METRE को 52172 लिखा जाता है। उसी भाषा में 'L' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd050",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में DAILY को 50739, EARLY को 75834 और EVENT को 42641 लिखा जाता है। उसी भाषा में 'D' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd051",
+    "subjectId": "reasoning",
+    "question": "यदि किसी सांकेतिक भाषा में TIGER का कोड BIGEI है, तो उसी सांकेतिक भाषा में MONKEY शब्द का कोड क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DFEBEU"
+      },
+      {
+        "id": "B",
+        "text": "DFEBEG"
+      },
+      {
+        "id": "C",
+        "text": "DEFBEF"
+      },
+      {
+        "id": "D",
+        "text": "FEDGEB"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd052",
+    "subjectId": "reasoning",
+    "question": "एक कोड भाषा में MELT को 2419 के रूप में लिखा जाता है। TIMID के लिए कोड क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "98283"
+      },
+      {
+        "id": "B",
+        "text": "98383"
+      },
+      {
+        "id": "C",
+        "text": "98284"
+      },
+      {
+        "id": "D",
+        "text": "98384"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd053",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'AUSTERE' को '13102595' के रूप में लिखा जाता है। उसी भाषा में 'SETTING' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "11544957"
+      },
+      {
+        "id": "B",
+        "text": "11522867"
+      },
+      {
+        "id": "C",
+        "text": "10522957"
+      },
+      {
+        "id": "D",
+        "text": "10522948"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd054",
+    "subjectId": "reasoning",
+    "question": "यदि किसी कोड भाषा में MONK का कोड 53 है, तो उसी भाषा में TANK का कोड क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "50"
+      },
+      {
+        "id": "B",
+        "text": "56"
+      },
+      {
+        "id": "C",
+        "text": "45"
+      },
+      {
+        "id": "D",
+        "text": "46"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd055",
+    "subjectId": "reasoning",
+    "question": "यदि किसी कोड भाषा में LACK का कोड 396 है, तो उसी भाषा में BACK का कोड क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "60"
+      },
+      {
+        "id": "B",
+        "text": "66"
+      },
+      {
+        "id": "C",
+        "text": "76"
+      },
+      {
+        "id": "D",
+        "text": "65"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd056",
+    "subjectId": "reasoning",
+    "question": "यदि MOHIT के लिए कोड संख्या 13 15 8 9 20 है, तो RAHUL का कोड क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "18182112"
+      },
+      {
+        "id": "B",
+        "text": "18120112"
+      },
+      {
+        "id": "C",
+        "text": "18182111"
+      },
+      {
+        "id": "D",
+        "text": "18120113"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd057",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में ALPINE को 171 और SPRING को 83 लिखा जाता है। उसी भाषा में CAPITAL को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "186"
+      },
+      {
+        "id": "B",
+        "text": "93"
+      },
+      {
+        "id": "C",
+        "text": "62"
+      },
+      {
+        "id": "D",
+        "text": "124"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd058",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में VIRTUE को 201 और TRAGEDY को 218 लिखा जाता है। PROFANE को उसी भाषा में कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "570"
+      },
+      {
+        "id": "B",
+        "text": "342"
+      },
+      {
+        "id": "C",
+        "text": "456"
+      },
+      {
+        "id": "D",
+        "text": "432"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd059",
+    "subjectId": "reasoning",
+    "question": "यदि BROTHER को 86, FATHER को 58 और SISTER को 90 लिखा जाता है, तो उसी प्रकार MOTHER को क्या लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "83"
+      },
+      {
+        "id": "B",
+        "text": "79"
+      },
+      {
+        "id": "C",
+        "text": "52"
+      },
+      {
+        "id": "D",
+        "text": "73"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd060",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में MADRAS को 112 और JAMMU को 82 लिखा जाता है। उसी भाषा में PUNJAB को किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "115"
+      },
+      {
+        "id": "B",
+        "text": "104"
+      },
+      {
+        "id": "C",
+        "text": "109"
+      },
+      {
+        "id": "D",
+        "text": "112"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd061",
+    "subjectId": "reasoning",
+    "question": "यदि A = 2, O = 30 और X = 48 है, तो SAW का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "100"
+      },
+      {
+        "id": "B",
+        "text": "96"
+      },
+      {
+        "id": "C",
+        "text": "85"
+      },
+      {
+        "id": "D",
+        "text": "86"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd062",
+    "subjectId": "reasoning",
+    "question": "यदि किसी सांकेतिक भाषा में E = 5 और HOTEL = 12 है, तो उसी सांकेतिक भाषा में LAMB का कोड क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd063",
+    "subjectId": "reasoning",
+    "question": "किसी सांकेतिक भाषा में TRACE का कोड USADE है, तो उसी सांकेतिक भाषा में TIGER का कोड क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "UIHES"
+      },
+      {
+        "id": "B",
+        "text": "USHISE"
+      },
+      {
+        "id": "C",
+        "text": "LOVT"
+      },
+      {
+        "id": "D",
+        "text": "TOVU"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd064",
+    "subjectId": "reasoning",
+    "question": "किसी सांकेतिक भाषा में FAIR को GHEIOUST लिखा जाता है, तो उसी भाषा में FEAR को क्या लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "GHIOEIST"
+      },
+      {
+        "id": "B",
+        "text": "GHIOEST"
+      },
+      {
+        "id": "C",
+        "text": "GPESTSET"
+      },
+      {
+        "id": "D",
+        "text": "GHTESEA"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd065",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'DISCIPLINE' को 'DKSCKPLKNG' और 'REVOLUTION' को 'RGVQLWTKQN' लिखा गया है। उसी कोड भाषा में 'UNIVERSITY' को किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "WNKGVRSKTY"
+      },
+      {
+        "id": "B",
+        "text": "WNKVGSRKTY"
+      },
+      {
+        "id": "C",
+        "text": "WNKVGRSKTY"
+      },
+      {
+        "id": "D",
+        "text": "WNKVGRKSTY"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd066",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'SERVANT' को 192182211420 लिखा जाता है। उसी भाषा में 'MAGNIFY' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1316143522"
+      },
+      {
+        "id": "B",
+        "text": "1417139625"
+      },
+      {
+        "id": "C",
+        "text": "1317143625"
+      },
+      {
+        "id": "D",
+        "text": "1426693625"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd067",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'FORENSIC' को '61218221419183' और 'DORM' को '4121813' लिखा जाता है। 'CARAMEL' को उसी भाषा में कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3261826132212"
+      },
+      {
+        "id": "B",
+        "text": "3261826142212"
+      },
+      {
+        "id": "C",
+        "text": "3011801132212"
+      },
+      {
+        "id": "D",
+        "text": "3260926130512"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd068",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'AROUND' को '52182412144' और 'FIX' को '63624' लिखा जाता है। 'PLASTIC' को उसी भाषा में कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1612261920183"
+      },
+      {
+        "id": "B",
+        "text": "1612522021363"
+      },
+      {
+        "id": "C",
+        "text": "1812521920383"
+      },
+      {
+        "id": "D",
+        "text": "1612521920363"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd069",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'REASON' को '5410129' और 'HEALTHY' को '716231216' लिखा जाता है। 'DIVULGE' को उसी भाषा में कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10733494"
+      },
+      {
+        "id": "B",
+        "text": "24134383"
+      },
+      {
+        "id": "C",
+        "text": "13704349"
+      },
+      {
+        "id": "D",
+        "text": "21435438"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd070",
+    "subjectId": "reasoning",
+    "question": "यदि 'काले' को 'लाल', 'लाल' को 'सफेद', 'सफेद' को 'भूरा', 'भूरे' को 'पीला', 'पीले' को 'नीला' और 'नीले' को 'हरा' कहा जाता है, तो दूध का रंग क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भूरा"
+      },
+      {
+        "id": "B",
+        "text": "लाल"
+      },
+      {
+        "id": "C",
+        "text": "सफेद"
+      },
+      {
+        "id": "D",
+        "text": "नीला"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd071",
+    "subjectId": "reasoning",
+    "question": "यदि 'रेलगाड़ी' को 'बस', 'बस' को 'ट्रैक्टर', 'ट्रैक्टर' को 'कार' तथा 'कार' को 'मोटर साइकिल' कहा जाए, तो खेत को जोतने के लिए किसका प्रयोग होता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "रेलगाड़ी"
+      },
+      {
+        "id": "B",
+        "text": "बस"
+      },
+      {
+        "id": "C",
+        "text": "ट्रैक्टर"
+      },
+      {
+        "id": "D",
+        "text": "कार"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd072",
+    "subjectId": "reasoning",
+    "question": "यदि 'हवा' को 'हरा', 'हरे' को 'नीला', 'नीले' को 'आकाश', 'आकाश' को 'पीला', 'पीले' को 'पानी' तथा 'पानी' को 'गुलाबी' कहा जाता है, तो आकाश का रंग क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पीला"
+      },
+      {
+        "id": "B",
+        "text": "नीला"
+      },
+      {
+        "id": "C",
+        "text": "आकाश"
+      },
+      {
+        "id": "D",
+        "text": "पानी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd073",
+    "subjectId": "reasoning",
+    "question": "यदि 'clock' को 'table', 'table' को 'paper', 'paper' को 'pen', 'pen' को 'grinder' और 'grinder' को 'iron' कहा जाता है, तो 'time' किसमें देखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Table"
+      },
+      {
+        "id": "B",
+        "text": "Paper"
+      },
+      {
+        "id": "C",
+        "text": "Iron"
+      },
+      {
+        "id": "D",
+        "text": "Grinder"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd074",
+    "subjectId": "reasoning",
+    "question": "यदि 'mud' को 'water', 'water' को 'heat', 'heat' को 'gas', 'gas' को 'air' और 'air' को 'fire' कहा जाए, तो मछलियाँ कहाँ तैरती हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Heat"
+      },
+      {
+        "id": "B",
+        "text": "Mud"
+      },
+      {
+        "id": "C",
+        "text": "Air"
+      },
+      {
+        "id": "D",
+        "text": "Fire"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd075",
+    "subjectId": "reasoning",
+    "question": "एक खास कोड भाषा में निम्नलिखित अक्षर एक विशेष ढंग से कोडित किए गए हैं। निम्नलिखित में से किस शब्द को डिकोड किया जा सकता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "GARAGE"
+      },
+      {
+        "id": "B",
+        "text": "GARDEN"
+      },
+      {
+        "id": "C",
+        "text": "GARGLE"
+      },
+      {
+        "id": "D",
+        "text": "GAMBLE"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd076",
+    "subjectId": "reasoning",
+    "question": "यदि 'S' को 'H', 'R' को '@', 'A' को '∇', 'M' को '#', 'T' को '$' तथा 'E' को '%' लिखा जाए, तो इस कोड में 'MASTER' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "# ∇ H $ % @"
+      },
+      {
+        "id": "B",
+        "text": "# H ∇ $ % @"
+      },
+      {
+        "id": "C",
+        "text": "# ∇ $ H % @"
+      },
+      {
+        "id": "D",
+        "text": "# ∇ H % @ $"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd077",
+    "subjectId": "reasoning",
+    "question": "एक सांकेतिक भाषा में 'si po re' का अर्थ 'book is thick' है, 'ti na re' का अर्थ 'bag is heavy' है, 'ka si' का अर्थ 'interesting book' है और 'de ti' का अर्थ 'that bag' है। उसी सांकेतिक भाषा में 'that is interesting' का अर्थ क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "de re ka"
+      },
+      {
+        "id": "B",
+        "text": "de is ka"
+      },
+      {
+        "id": "C",
+        "text": "de ra is"
+      },
+      {
+        "id": "D",
+        "text": "re de po"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd078",
+    "subjectId": "reasoning",
+    "question": "यदि किसी विशेष कोड भाषा में Seven को 7654321 और Ten को 10987654321 के रूप में लिखा जाता है, तो Thirteen के लिए कोड क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "13121110987654321"
+      },
+      {
+        "id": "B",
+        "text": "13111210987612345"
+      },
+      {
+        "id": "C",
+        "text": "12345679810111213"
+      },
+      {
+        "id": "D",
+        "text": "131121310987654321"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd079",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 24391 को '¹¥×Ó*' तथा 15678 को '*bÏm£' के रूप में कोडित किया जाता है। उसी भाषा में 65432 को किस प्रकार कोडित किया जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "bÏ¹ ¥×"
+      },
+      {
+        "id": "B",
+        "text": "¹¥×bÏ"
+      },
+      {
+        "id": "C",
+        "text": "Ïb¥×¹"
+      },
+      {
+        "id": "D",
+        "text": "×¹Ïb¥"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd080",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित सांकेतिक भाषा में ROPE को '%57$', DOUBT को '35#8*' तथा LIVE को '@24$' लिखा जाता है। उसी भाषा में TROUBLE को कैसे लिखेंगे?",
+    "options": [
+      {
+        "id": "A",
+        "text": "*%5#8@$"
+      },
+      {
+        "id": "B",
+        "text": "9%#58@$"
+      },
+      {
+        "id": "C",
+        "text": "9%5#8@4"
+      },
+      {
+        "id": "D",
+        "text": "9%#58$@"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd081",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'All of the sudden' को R5T, K9O, H5G, B8F के रूप में कोडित किया गया है। 'When the things gone wrong' को R5T, N6G, K7G, F8D, U3H तथा 'All things matter' को K9O, N6G, S3W के रूप में कोडित किया गया है। 'Matter' के लिए कौन-सा कोड है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "S3W"
+      },
+      {
+        "id": "B",
+        "text": "K7G"
+      },
+      {
+        "id": "C",
+        "text": "N6G"
+      },
+      {
+        "id": "D",
+        "text": "K9O"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd082",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 95 का अर्थ 'estimated time', 469 का अर्थ 'space and time' और 65 का अर्थ 'estimated space' है। उसी कोड भाषा में निम्नलिखित में से किस संख्या का अर्थ 'space' है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd083",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'good morning' को 'mu du', 'early morning tea' को 'du tu se' और 'tea is early' को 'se re tu' के रूप में कोडित किया गया है। 'is' शब्द के लिए कोड क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "tu"
+      },
+      {
+        "id": "B",
+        "text": "du"
+      },
+      {
+        "id": "C",
+        "text": "re"
+      },
+      {
+        "id": "D",
+        "text": "mu"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd084",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'people talk about' को 'ki li ni' और 'let them talk' को 'si ki hi' लिखा गया है। उसी भाषा में 'talk' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "li"
+      },
+      {
+        "id": "B",
+        "text": "ki"
+      },
+      {
+        "id": "C",
+        "text": "hi"
+      },
+      {
+        "id": "D",
+        "text": "ni"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd085",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'rocket airplane sky stars' को 'ci pi di ki', 'satellite moon sun sky' को 'ni ci ui li', 'sky sun stars mars' को 'ui gi ki ci' और 'venus airplane moon planet' को 'di qi mi ni' लिखा गया है। उसी भाषा में 'rocket' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ci"
+      },
+      {
+        "id": "B",
+        "text": "ki"
+      },
+      {
+        "id": "C",
+        "text": "pi"
+      },
+      {
+        "id": "D",
+        "text": "di"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd086",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'mother teaches science' को '32 48 6@' और 'father teaches science' को '48 6@ #' लिखा गया है। उसी भाषा में 'father' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6@"
+      },
+      {
+        "id": "B",
+        "text": "48"
+      },
+      {
+        "id": "C",
+        "text": "#"
+      },
+      {
+        "id": "D",
+        "text": "32"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd087",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'complete the drawing' को '837', 'do not leave early' को '2355' और 'we need break' को '245' के रूप में कोडित किया गया है। उसी भाषा में 'kindly stand straight' को किस प्रकार कोडित किया जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "856"
+      },
+      {
+        "id": "B",
+        "text": "658"
+      },
+      {
+        "id": "C",
+        "text": "456"
+      },
+      {
+        "id": "D",
+        "text": "769"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd088",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में '7 8 3' का अर्थ 'Naira likes ice-creams', '1 3 5' का अर्थ 'ice-creams are tasty' और '2 5 4' का अर्थ 'we are friends' है। उसी भाषा में 'tasty' का कोड क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd090",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में अक्षरों को उनके उल्टे वर्णमाला क्रम (जैसे A को 26 और Z को 1) के अनुसार कोडित किया जाता है। हालांकि, यदि किसी व्यंजन के ठीक पहले और ठीक बाद एक स्वर आता है, तो उसे '66' के रूप में कोडित किया जाता है। इस कोड भाषा में LEGAL के लिए कोड क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1522202615"
+      },
+      {
+        "id": "B",
+        "text": "1566222615"
+      },
+      {
+        "id": "C",
+        "text": "1566226615"
+      },
+      {
+        "id": "D",
+        "text": "1522662615"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd095",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में GBTA को 24 के रूप में कोडित किया जाता है और ZWQVI को 30 के रूप में कोडित किया जाता है। उसी कोड भाषा में DLUCPR को किस प्रकार कोडित किया जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "36"
+      },
+      {
+        "id": "B",
+        "text": "30"
+      },
+      {
+        "id": "C",
+        "text": "24"
+      },
+      {
+        "id": "D",
+        "text": "28"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd096",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'OUTGROW' को '56GRPX' और 'THINNER' को '37NNFS' के रूप में लिखा जाता है। उसी भाषा में 'THOUGHT' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "33UGIU"
+      },
+      {
+        "id": "B",
+        "text": "43UGHT"
+      },
+      {
+        "id": "C",
+        "text": "43UGIU"
+      },
+      {
+        "id": "D",
+        "text": "33UGHT"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd097",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'ARITHEMATIC' को 'MATICEHTIRA' लिखा जाता है। उसी कोड भाषा में ALGEBRA को किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ARBEGLA"
+      },
+      {
+        "id": "B",
+        "text": "GLAEBRA"
+      },
+      {
+        "id": "C",
+        "text": "ALGEARB"
+      },
+      {
+        "id": "D",
+        "text": "BRAEGLA"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd098",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में OQIOIQOQQIOQ को OIQOQQIOQOQI के रूप में लिखा जाता है। उसी कोड भाषा में EFKFKEKEFFEK को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "KEKEFFEKEFKF"
+      },
+      {
+        "id": "B",
+        "text": "FKEKEFFEKEFK"
+      },
+      {
+        "id": "C",
+        "text": "KFKEKEFFEKEF"
+      },
+      {
+        "id": "D",
+        "text": "EFKFKEKEFFEK"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd099",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'OIL' को 27 और 'CREAM' को 125 के रूप में कोडित किया जाता है। उसी कोड भाषा में 'POWDER' को किस प्रकार कोडित किया जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "198"
+      },
+      {
+        "id": "B",
+        "text": "169"
+      },
+      {
+        "id": "C",
+        "text": "216"
+      },
+      {
+        "id": "D",
+        "text": "225"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd100",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में CIRCULAR को 24-3-9-24-1-15-5-9 के रूप में लिखा जाता है। उसी भाषा में VERTICAL को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5-4-9-7-3-24-5-15"
+      },
+      {
+        "id": "B",
+        "text": "5-2-9-7-3-24-5-15"
+      },
+      {
+        "id": "C",
+        "text": "22-4-9-7-3-23-1-15"
+      },
+      {
+        "id": "D",
+        "text": "22-4-9-7-9-24-5-15"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_01",
+    "subjectId": "reasoning",
+    "question": "यदि PEARS को 101 के रूप में और CAT को 49 के रूप में कोडित किया गया है, तो MEAL को कैसे कोडित किया जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "73"
+      },
+      {
+        "id": "B",
+        "text": "77"
+      },
+      {
+        "id": "C",
+        "text": "63"
+      },
+      {
+        "id": "D",
+        "text": "31"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_02",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'CHORAL' को 'OHCLAR' और 'FOREGO' को 'ROFOGE' लिखा गया है। उस कोड भाषा में 'GALLEY' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "GYALLE"
+      },
+      {
+        "id": "B",
+        "text": "ELLAGY"
+      },
+      {
+        "id": "C",
+        "text": "LAGYEL"
+      },
+      {
+        "id": "D",
+        "text": "YELLAG"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_03",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'CORRECT' को '3Q1818G320' लिखा गया है। उसी भाषा में 'WRONG' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2318Q147"
+      },
+      {
+        "id": "B",
+        "text": "2138Q741"
+      },
+      {
+        "id": "C",
+        "text": "2314Q147"
+      },
+      {
+        "id": "D",
+        "text": "2218P147"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_04",
+    "subjectId": "reasoning",
+    "question": "किसी एक खास कोड भाषा में 'WOULD + ALL' को '8' लिखा गया है और 'MAJOR + EXAMS' को '10' लिखा गया है। उसी कोड भाषा में 'COMMON + NOW' को क्या लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_05",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'ABROAD' को 'DFORDH' और 'ACCESS' को 'DGECVW' लिखा गया है। उसी भाषा में 'AGENCY' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "DKNEFC"
+      },
+      {
+        "id": "B",
+        "text": "EKNEFC"
+      },
+      {
+        "id": "C",
+        "text": "DJNEFB"
+      },
+      {
+        "id": "D",
+        "text": "DKNEGC"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_06",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'SO' को '34' और 'BED' को '11' लिखा गया है। उसी भाषा में 'MOAN' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "43"
+      },
+      {
+        "id": "B",
+        "text": "99"
+      },
+      {
+        "id": "C",
+        "text": "86"
+      },
+      {
+        "id": "D",
+        "text": "23"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_07",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'AND' को 'C-LP-F' और 'NOR' को 'P-MQ-T' लिखा गया है। उसी भाषा में 'BUT' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "D-SW-V"
+      },
+      {
+        "id": "B",
+        "text": "C-SU-V"
+      },
+      {
+        "id": "C",
+        "text": "D-SW-U"
+      },
+      {
+        "id": "D",
+        "text": "C-TV-W"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_08",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित भाषा में यदि JANUARY = 4, JULY = 3 और SEPTEMBER = 6, तो DECEMBER = ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_09",
+    "subjectId": "reasoning",
+    "question": "किसी कोड भाषा में 'dish is tasty' को 'lam kam dam', 'it is sweet' को 'ram sam kam' और 'it ate dish' को 'ram dam pam' लिखा जाता है। इसी भाषा में 'tasty sweet' को क्या लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "lam sam"
+      },
+      {
+        "id": "B",
+        "text": "lam ram"
+      },
+      {
+        "id": "C",
+        "text": "sam dam"
+      },
+      {
+        "id": "D",
+        "text": "sam kam"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_10",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित प्रकार से 'PRO 5' का संबंध 'OSQ 15' से है। ठीक उसी प्रकार 'OPO 10' का संबंध 'NQQ 30' से है। उसी तर्क का उपयोग करते हुए बताइए कि निम्नलिखित में से किसका संबंध 'MAC 9' से है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "LBE 27"
+      },
+      {
+        "id": "B",
+        "text": "NZA 27"
+      },
+      {
+        "id": "C",
+        "text": "OZA 3"
+      },
+      {
+        "id": "D",
+        "text": "NZB 3"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_11",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'Read the code' को '18 20 3', 'Decode the code' को '4 20 3' और 'code is easy' को '3 9 5' के रूप में कोडित किया गया है। उसी भाषा में 'make one code' को किस प्रकार कोडित किया जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "19 18 5"
+      },
+      {
+        "id": "B",
+        "text": "12 12 15"
+      },
+      {
+        "id": "C",
+        "text": "13 15 3"
+      },
+      {
+        "id": "D",
+        "text": "1 2 5"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_12",
+    "subjectId": "reasoning",
+    "question": "एक खास कोड भाषा में '231' का अर्थ 'Pant is Brown', '307' का अर्थ 'His Brown Shirt' और '781' का अर्थ 'Shirt and Pant' है। 'is' के लिए कौन-सा कोड होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_13",
+    "subjectId": "reasoning",
+    "question": "एक विशिष्ट कोड भाषा में GOLDEN CIRCLE को 715124514 और 39183125 लिखा जाता है। उसी कोड भाषा में ENGLAND को किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5147112114"
+      },
+      {
+        "id": "B",
+        "text": "5174121144"
+      },
+      {
+        "id": "C",
+        "text": "5147121144"
+      },
+      {
+        "id": "D",
+        "text": "5174111114"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_14",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित भाषा में APRIL को '÷×βα@' के रूप में और MARCH को '€÷β©∞' के रूप में लिखा जाता है। उसी भाषा में PARAM कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "×÷β÷€"
+      },
+      {
+        "id": "B",
+        "text": "÷×÷€β"
+      },
+      {
+        "id": "C",
+        "text": "β×÷©€"
+      },
+      {
+        "id": "D",
+        "text": "÷β×÷€"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_15",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में WARDROBE को YXVYXHJV के रूप में लिखा जाता है। उसी भाषा में ACCURATE कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "BZHPXTBV"
+      },
+      {
+        "id": "B",
+        "text": "CZHPYTBV"
+      },
+      {
+        "id": "C",
+        "text": "CZGPXTBV"
+      },
+      {
+        "id": "D",
+        "text": "DZGPXTBV"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_16",
+    "subjectId": "reasoning",
+    "question": "एक खास कोड भाषा में 'colours of the clouds' को 'ja ia ka sa', 'multiple colours' को 're ja', 'clouds high rocket' को 'ia pe rk' और 'the rocket world' को 'pe sa xe' लिखा जाता है। 'colours high world' के लिए निम्नलिखित में से कौन-सा कोड है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "xe ja ia"
+      },
+      {
+        "id": "B",
+        "text": "xe pe rk"
+      },
+      {
+        "id": "C",
+        "text": "ja rk xe"
+      },
+      {
+        "id": "D",
+        "text": "xe sa rk"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_17",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में REFINE को KHOZKL लिखा जाता है। उसी कोड भाषा में SOLVENT को क्या लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "YHJPIX"
+      },
+      {
+        "id": "B",
+        "text": "ZHKPRIY"
+      },
+      {
+        "id": "C",
+        "text": "ZIKQQJY"
+      },
+      {
+        "id": "D",
+        "text": "YHPJPIX"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_18",
+    "subjectId": "reasoning",
+    "question": "यदि एक विशेष कोड में '857' का अर्थ 'gulabjamuns are great', '386' का अर्थ 'eat great products', '254' का अर्थ 'laddus are sweet' और '312' का अर्थ 'eat tasty laddus' है, तो 'sweet' का कोड क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_19",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में FRIEND को 6181810144 और ENEMY को 1014101325 लिखा जाता है। उसी भाषा में HOME को क्या लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "16301310"
+      },
+      {
+        "id": "B",
+        "text": "16151310"
+      },
+      {
+        "id": "C",
+        "text": "815135"
+      },
+      {
+        "id": "D",
+        "text": "8301310"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_20",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में EARNT को 25371 और TUNER को 57142 लिखा जाता है। उसी कोड भाषा में U को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_22",
+    "subjectId": "reasoning",
+    "question": "यदि 'PRATAP' के लिए कोड संख्या '161801200116' है, तो 'NAVIN' का कोड क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "14122914"
+      },
+      {
+        "id": "B",
+        "text": "1401220914"
+      },
+      {
+        "id": "C",
+        "text": "1401229014"
+      },
+      {
+        "id": "D",
+        "text": "1401020914"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_23",
+    "subjectId": "reasoning",
+    "question": "यदि किसी कोड भाषा में 'TWENTY' को '863985' और 'ELEVEN' को '323039' लिखा जाता है, तो 'TWELVE' को उसी भाषा में कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "963230"
+      },
+      {
+        "id": "B",
+        "text": "863303"
+      },
+      {
+        "id": "C",
+        "text": "836203"
+      },
+      {
+        "id": "D",
+        "text": "863203"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_24",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'PARTICLE' को 'USBQFMDJ' तथा 'GENERATE' को 'FOFHFUBS' लिखा जाता है। उसी कोड भाषा में 'DOCUMENT' किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "VDEPUONF"
+      },
+      {
+        "id": "B",
+        "text": "VDPENFUQ"
+      },
+      {
+        "id": "C",
+        "text": "VDPEUOFN"
+      },
+      {
+        "id": "D",
+        "text": "PEUVDNOF"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_25",
+    "subjectId": "reasoning",
+    "question": "यदि किसी सांकेतिक भाषा में 'ALTERNATE' को 'ZOGVIMZGV' तथा 'PERICARDIUM' को 'KVIRXZIWRFN' लिखा जाता है, तो उसी सांकेतिक भाषा में 'CREDENTIAL' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "XIVMWVGRZO"
+      },
+      {
+        "id": "B",
+        "text": "XIUVWMTRZO"
+      },
+      {
+        "id": "C",
+        "text": "XIVWUNGROZ"
+      },
+      {
+        "id": "D",
+        "text": "XIVWVMGRZO"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_26",
+    "subjectId": "reasoning",
+    "question": "शब्द ORANGE को 4 अलग-अलग कोड में कोडित किया गया है: कोड 1: PSBOHF, कोड 2: NQZMFD, कोड 3: QTCPIG, कोड 4: PTDRLK। इनमें से किस कोड में 'FISH' को GKVL लिखा जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कोड 2"
+      },
+      {
+        "id": "B",
+        "text": "कोड 1"
+      },
+      {
+        "id": "C",
+        "text": "कोड 4"
+      },
+      {
+        "id": "D",
+        "text": "कोड 3"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  },
+  {
+    "id": "cd_fy_27",
+    "subjectId": "reasoning",
+    "question": "एक निश्चित कोड भाषा में 'she is beautiful' को 'mat mug bit' और 'beautiful and water' को 'bit cap lan' लिखा जाता है। उसी भाषा में 'beautiful' को किस प्रकार लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "bit"
+      },
+      {
+        "id": "B",
+        "text": "mug"
+      },
+      {
+        "id": "C",
+        "text": "cap"
+      },
+      {
+        "id": "D",
+        "text": "mat"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding-decoding",
+    "difficulty": null,
+    "explanation": "",
+    "source": {
+      "type": "study-material",
+      "pageRange": "1-16",
+      "exam": "Coding-Decoding Practice"
+    }
+  }
+]

@@ -1,0 +1,2602 @@
+[
+  {
+    "id": "ows01",
+    "question": "One who calculates risk and insurance premiums.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Auditor"
+      },
+      {
+        "id": "B",
+        "text": "Actuary"
+      },
+      {
+        "id": "C",
+        "text": "Accountant"
+      },
+      {
+        "id": "D",
+        "text": "Statistician"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "बीमा आंकक (बीमा जोɤखिम का आकलन करने वाला)",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows02",
+    "question": "A place where animals are slaughtered for consumption.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abattoir"
+      },
+      {
+        "id": "B",
+        "text": "Apiary"
+      },
+      {
+        "id": "C",
+        "text": "Aviary"
+      },
+      {
+        "id": "D",
+        "text": "Arena"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "कसाईखिाना",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows03",
+    "question": "Extreme or irrational fear of height.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hydrophobia"
+      },
+      {
+        "id": "B",
+        "text": "Acrophobia"
+      },
+      {
+        "id": "C",
+        "text": "Claustrophobia"
+      },
+      {
+        "id": "D",
+        "text": "Agoraphobia"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "ऊंचाई का डर",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows04",
+    "question": "One who makes an official examination of accounts.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Auditor"
+      },
+      {
+        "id": "B",
+        "text": "Registrar"
+      },
+      {
+        "id": "C",
+        "text": "Creditor"
+      },
+      {
+        "id": "D",
+        "text": "Comptroller"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "लेखिा परीक्षक",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows05",
+    "question": "A story, poem, or picture that can be interpreted to reveal a hidden meaning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parable"
+      },
+      {
+        "id": "B",
+        "text": "Allegory"
+      },
+      {
+        "id": "C",
+        "text": "Fable"
+      },
+      {
+        "id": "D",
+        "text": "Epitaph"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "रूपक कथा",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows06",
+    "question": "A person who believes that nothing can be known about the existence of God.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Atheist"
+      },
+      {
+        "id": "B",
+        "text": "Agnostic"
+      },
+      {
+        "id": "C",
+        "text": "Theist"
+      },
+      {
+        "id": "D",
+        "text": "Fanatic"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "अज्ञेयवादी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows07",
+    "question": "Allowance made to a wife by her husband when they are legally separated.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alimony"
+      },
+      {
+        "id": "B",
+        "text": "Patrimony"
+      },
+      {
+        "id": "C",
+        "text": "Honorarium"
+      },
+      {
+        "id": "D",
+        "text": "Parsimony"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "ɟनवार्वाह-व्यय / गुजारा भत्ता",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows08",
+    "question": "One who plays a sport or game for pleasure rather than for money.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Professional"
+      },
+      {
+        "id": "B",
+        "text": "Novice"
+      },
+      {
+        "id": "C",
+        "text": "Amateur"
+      },
+      {
+        "id": "D",
+        "text": "Veteran"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "शौकीन ɤखिलाड़ी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows09",
+    "question": "Able to use both hands with equal skill.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ambivalent"
+      },
+      {
+        "id": "B",
+        "text": "Ambidextrous"
+      },
+      {
+        "id": "C",
+        "text": "Ambiguous"
+      },
+      {
+        "id": "D",
+        "text": "Dexterous"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "उभयहस्त (दोनों हाथों से कुशल)",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows10",
+    "question": "Partial or total loss of memory.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amnesia"
+      },
+      {
+        "id": "B",
+        "text": "Insomnia"
+      },
+      {
+        "id": "C",
+        "text": "Dementia"
+      },
+      {
+        "id": "D",
+        "text": "Myopia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "भूलने की बीमारी / स्मृɟत लोप",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows11",
+    "question": "A general pardon granted by the government to political offenders.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amnesty"
+      },
+      {
+        "id": "B",
+        "text": "Parole"
+      },
+      {
+        "id": "C",
+        "text": "Absolution"
+      },
+      {
+        "id": "D",
+        "text": "Reprieve"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "राजक्षमा / आम माफ़ी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows12",
+    "question": "A state of disorder due to absence or non-recognition of authority.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Monarchy"
+      },
+      {
+        "id": "B",
+        "text": "Anarchy"
+      },
+      {
+        "id": "C",
+        "text": "Oligarchy"
+      },
+      {
+        "id": "D",
+        "text": "Autocracy"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "अराजकता",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows13",
+    "question": "Deviating from what is standard, normal, or expected.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anonymous"
+      },
+      {
+        "id": "B",
+        "text": "Anomalous"
+      },
+      {
+        "id": "C",
+        "text": "Autonomous"
+      },
+      {
+        "id": "D",
+        "text": "Synchronous"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "असाधारण / ɟनयमɟवरुद्ध",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows14",
+    "question": "A book or work written by an unknown author.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anonymous"
+      },
+      {
+        "id": "B",
+        "text": "Pseudonym"
+      },
+      {
+        "id": "C",
+        "text": "Unanimous"
+      },
+      {
+        "id": "D",
+        "text": "Novel"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "बेनाम / गुमनाम",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows15",
+    "question": "A medicine given to counteract the effects of a poison.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Antibiotic"
+      },
+      {
+        "id": "B",
+        "text": "Antidote"
+      },
+      {
+        "id": "C",
+        "text": "Antiseptic"
+      },
+      {
+        "id": "D",
+        "text": "Antigen"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "ɟवषहर औषɠध",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows16",
+    "question": "A person who dislikes or distrusts other people or mankind.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Philanthropist"
+      },
+      {
+        "id": "B",
+        "text": "Misanthrope"
+      },
+      {
+        "id": "C",
+        "text": "Altruist"
+      },
+      {
+        "id": "D",
+        "text": "Cynic"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "मानव-द्वेषी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows17",
+    "question": "One who devotes their life to the welfare of others.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Altruist"
+      },
+      {
+        "id": "B",
+        "text": "Egoist"
+      },
+      {
+        "id": "C",
+        "text": "Hedonist"
+      },
+      {
+        "id": "D",
+        "text": "Narcissist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "परोपकारी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows18",
+    "question": "A collection of historical documents or records.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Museum"
+      },
+      {
+        "id": "B",
+        "text": "Archives"
+      },
+      {
+        "id": "C",
+        "text": "Library"
+      },
+      {
+        "id": "D",
+        "text": "Arsenal"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "अɢभलेखिागार",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows19",
+    "question": "Government by a single person with unlimited power.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Autocracy"
+      },
+      {
+        "id": "B",
+        "text": "Democracy"
+      },
+      {
+        "id": "C",
+        "text": "Aristocracy"
+      },
+      {
+        "id": "D",
+        "text": "Bureaucracy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "एकतंत्र / ɟनरंकुश शासन",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows20",
+    "question": "Government by officials and non-elected administrators.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meritocracy"
+      },
+      {
+        "id": "B",
+        "text": "Bureaucracy"
+      },
+      {
+        "id": "C",
+        "text": "Plutocracy"
+      },
+      {
+        "id": "D",
+        "text": "Technocracy"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "नौकरशाही",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows21",
+    "question": "Government by the wealthy class.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oligarchy"
+      },
+      {
+        "id": "B",
+        "text": "Plutocracy"
+      },
+      {
+        "id": "C",
+        "text": "Theocracy"
+      },
+      {
+        "id": "D",
+        "text": "Monarchy"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "धɟनकतंत्र",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows22",
+    "question": "Government guided by religious leaders or divine guidance.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Theocracy"
+      },
+      {
+        "id": "B",
+        "text": "Autocracy"
+      },
+      {
+        "id": "C",
+        "text": "Democracy"
+      },
+      {
+        "id": "D",
+        "text": "Aristocracy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "धमर्वातंत्र",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows23",
+    "question": "A person who eats human flesh.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Carnivore"
+      },
+      {
+        "id": "B",
+        "text": "Cannibal"
+      },
+      {
+        "id": "C",
+        "text": "Omnivore"
+      },
+      {
+        "id": "D",
+        "text": "Herbivore"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "नरभक्षी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows24",
+    "question": "Living at the same time; belonging to the same period.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Contemporary"
+      },
+      {
+        "id": "B",
+        "text": "Ancestral"
+      },
+      {
+        "id": "C",
+        "text": "Primitive"
+      },
+      {
+        "id": "D",
+        "text": "Modern"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "समकालीन",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows25",
+    "question": "A person who readily believes anything told to them.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Credible"
+      },
+      {
+        "id": "B",
+        "text": "Credulous"
+      },
+      {
+        "id": "C",
+        "text": "Incredible"
+      },
+      {
+        "id": "D",
+        "text": "Gullible"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "आसानी से ɟवश्वास करने वाला",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows26",
+    "question": "Free from blame or guilt; innocent.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Culpable"
+      },
+      {
+        "id": "B",
+        "text": "Inculpable"
+      },
+      {
+        "id": "C",
+        "text": "Fallible"
+      },
+      {
+        "id": "D",
+        "text": "Negligent"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "ɟनदर्दोष",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows27",
+    "question": "A leader who sways people by emotional speeches and prejudices.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Demagogue"
+      },
+      {
+        "id": "B",
+        "text": "Pedagogue"
+      },
+      {
+        "id": "C",
+        "text": "Dictator"
+      },
+      {
+        "id": "D",
+        "text": "Orator"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "जनसमुदाय को भड़काने वाला नेता",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows28",
+    "question": "A poem written to lament or express grief for the dead.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sonnet"
+      },
+      {
+        "id": "B",
+        "text": "Elegy"
+      },
+      {
+        "id": "C",
+        "text": "Ode"
+      },
+      {
+        "id": "D",
+        "text": "Epic"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "शोकगीत",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows29",
+    "question": "Inscription on a tombstone in memory of the deceased.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Epithet"
+      },
+      {
+        "id": "B",
+        "text": "Epitaph"
+      },
+      {
+        "id": "C",
+        "text": "Epilogue"
+      },
+      {
+        "id": "D",
+        "text": "Epitome"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "समाɠध-लेखि",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows30",
+    "question": "Speech or passage delivered at the end of a play or book.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prologue"
+      },
+      {
+        "id": "B",
+        "text": "Epilogue"
+      },
+      {
+        "id": "C",
+        "text": "Monologue"
+      },
+      {
+        "id": "D",
+        "text": "Dialogue"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "उपसंहार",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows31",
+    "question": "Lasting for a very short time; fleeting.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eternal"
+      },
+      {
+        "id": "B",
+        "text": "Ephemeral"
+      },
+      {
+        "id": "C",
+        "text": "Perpetual"
+      },
+      {
+        "id": "D",
+        "text": "Permanent"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "क्षणभंगुर / अल्पकाɡलक",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows32",
+    "question": "One who is hard to please or very selective.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fastidious"
+      },
+      {
+        "id": "B",
+        "text": "Fatalist"
+      },
+      {
+        "id": "C",
+        "text": "Fanatic"
+      },
+      {
+        "id": "D",
+        "text": "Gullible"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "तुनकɠमज़ाज / दुराराध्य",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows33",
+    "question": "One who believes in fate or destiny.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Optimist"
+      },
+      {
+        "id": "B",
+        "text": "Fatalist"
+      },
+      {
+        "id": "C",
+        "text": "Pessimist"
+      },
+      {
+        "id": "D",
+        "text": "Realist"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "भाग्यवादी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows34",
+    "question": "One who runs away from justice or law.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fugitive"
+      },
+      {
+        "id": "B",
+        "text": "Emigrant"
+      },
+      {
+        "id": "C",
+        "text": "Convict"
+      },
+      {
+        "id": "D",
+        "text": "Rebel"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "भगोड़ा",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows35",
+    "question": "Loving to gather or associate with others in groups.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reclusive"
+      },
+      {
+        "id": "B",
+        "text": "Gregarious"
+      },
+      {
+        "id": "C",
+        "text": "Introvert"
+      },
+      {
+        "id": "D",
+        "text": "Solitary"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "झुंड में रहने वाला / ɠमलनसार",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows36",
+    "question": "One who believes pleasure is the highest good in life.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stoic"
+      },
+      {
+        "id": "B",
+        "text": "Hedonist"
+      },
+      {
+        "id": "C",
+        "text": "Ascetic"
+      },
+      {
+        "id": "D",
+        "text": "Cynic"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सुखिवादी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows37",
+    "question": "An opinion or belief contrary to accepted religious doctrines.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Orthodoxy"
+      },
+      {
+        "id": "B",
+        "text": "Heresy"
+      },
+      {
+        "id": "C",
+        "text": "Dogma"
+      },
+      {
+        "id": "D",
+        "text": "blasphemy"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "ɟवधमर्वा / पाखिंड",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows38",
+    "question": "That which cannot be corrected, reformed, or improved.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Incorrigible"
+      },
+      {
+        "id": "B",
+        "text": "Infallible"
+      },
+      {
+        "id": "C",
+        "text": "Invincible"
+      },
+      {
+        "id": "D",
+        "text": "Indelible"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "असंशोधनीय / ɣजसे सुधारा न जा सके",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows39",
+    "question": "That which cannot be erased or removed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inaudible"
+      },
+      {
+        "id": "B",
+        "text": "Indelible"
+      },
+      {
+        "id": "C",
+        "text": "Illegible"
+      },
+      {
+        "id": "D",
+        "text": "Indispensable"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "अɠमट",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows40",
+    "question": "Incapable of making mistakes or failing.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Infallible"
+      },
+      {
+        "id": "B",
+        "text": "Faulty"
+      },
+      {
+        "id": "C",
+        "text": "Impeccable"
+      },
+      {
+        "id": "D",
+        "text": "Unreliable"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "अचूक / जो कभी गलती न करे",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows41",
+    "question": "That which cannot be satisfied or appeased.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insatiable"
+      },
+      {
+        "id": "B",
+        "text": "Inevitable"
+      },
+      {
+        "id": "C",
+        "text": "Intangible"
+      },
+      {
+        "id": "D",
+        "text": "Incredible"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "अतृप्त / न सन्तुष्ट होने वाला",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows42",
+    "question": "Incapable of being defeated or conquered.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Invulnerable"
+      },
+      {
+        "id": "B",
+        "text": "Invincible"
+      },
+      {
+        "id": "C",
+        "text": "Invisible"
+      },
+      {
+        "id": "D",
+        "text": "Inevitable"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "अजेय",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows43",
+    "question": "Placing two contrasting things side by side for comparison.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Juxtapose"
+      },
+      {
+        "id": "B",
+        "text": "Impose"
+      },
+      {
+        "id": "C",
+        "text": "Superimpose"
+      },
+      {
+        "id": "D",
+        "text": "Transpose"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "पास-पास रखिना (तुलना के ɡलए)",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows44",
+    "question": "An obsession or compulsion to steal items.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pyromania"
+      },
+      {
+        "id": "B",
+        "text": "Kleptomania"
+      },
+      {
+        "id": "C",
+        "text": "Dipsomania"
+      },
+      {
+        "id": "D",
+        "text": "Megalomania"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "चोरी करने की बीमारी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows45",
+    "question": "A person who compiles dictionaries.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cartographer"
+      },
+      {
+        "id": "B",
+        "text": "Lexicographer"
+      },
+      {
+        "id": "C",
+        "text": "Calligrapher"
+      },
+      {
+        "id": "D",
+        "text": "Bibliophile"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "कोशकार (शब्दकोश बनाने वाला)",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows46",
+    "question": "Someone who suffers for a cause or religious belief.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Martyr"
+      },
+      {
+        "id": "B",
+        "text": "Traitor"
+      },
+      {
+        "id": "C",
+        "text": "Patriot"
+      },
+      {
+        "id": "D",
+        "text": "Soldier"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "शहीद",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows47",
+    "question": "Murder of one's own mother.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Patricide"
+      },
+      {
+        "id": "B",
+        "text": "Matricide"
+      },
+      {
+        "id": "C",
+        "text": "Fratricide"
+      },
+      {
+        "id": "D",
+        "text": "Sororicide"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "मातृहत्या",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows48",
+    "question": "A remedy or cure for all diseases and difficulties.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Placebo"
+      },
+      {
+        "id": "B",
+        "text": "Panacea"
+      },
+      {
+        "id": "C",
+        "text": "Elixir"
+      },
+      {
+        "id": "D",
+        "text": "Tonic"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "रामबाण औषɠध",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows49",
+    "question": "Present everywhere at the same time.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Omnipotent"
+      },
+      {
+        "id": "B",
+        "text": "Omnipresent"
+      },
+      {
+        "id": "C",
+        "text": "Omniscient"
+      },
+      {
+        "id": "D",
+        "text": "Omnivorous"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सवर्वाव्यापी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows50",
+    "question": "Knowing everything; having complete awareness.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Omniscient"
+      },
+      {
+        "id": "B",
+        "text": "Intelligent"
+      },
+      {
+        "id": "C",
+        "text": "Wise"
+      },
+      {
+        "id": "D",
+        "text": "Scholar"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सवर्वाज्ञ",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows51",
+    "question": "Extreme or irrational fear of open or public places.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agoraphobia"
+      },
+      {
+        "id": "B",
+        "text": "Claustrophobia"
+      },
+      {
+        "id": "C",
+        "text": "Xenophobia"
+      },
+      {
+        "id": "D",
+        "text": "Zoophobia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "खिुले स्थानों से भय",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows52",
+    "question": "Morbid fear of confined or enclosed spaces.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hydrophobia"
+      },
+      {
+        "id": "B",
+        "text": "Claustrophobia"
+      },
+      {
+        "id": "C",
+        "text": "Pyrophobia"
+      },
+      {
+        "id": "D",
+        "text": "Ochlophobia"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "बंद जगहों से भय",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows53",
+    "question": "Dislike of or prejudice against people from other countries.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Xenophobia"
+      },
+      {
+        "id": "B",
+        "text": "Homophobia"
+      },
+      {
+        "id": "C",
+        "text": "Bibliophobia"
+      },
+      {
+        "id": "D",
+        "text": "Necrophobia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "ɟवदेशी लोगों से डर या नफरत",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows54",
+    "question": "An uncontrollable urge to set fire to things.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pyromania"
+      },
+      {
+        "id": "B",
+        "text": "Kleptomania"
+      },
+      {
+        "id": "C",
+        "text": "Dipsomania"
+      },
+      {
+        "id": "D",
+        "text": "Nymphomania"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "आग लगाने की बीमारी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows55",
+    "question": "An insatiable craving or compulsion for alcoholic drink.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dipsomania"
+      },
+      {
+        "id": "B",
+        "text": "Bibliomania"
+      },
+      {
+        "id": "C",
+        "text": "Monomania"
+      },
+      {
+        "id": "D",
+        "text": "Mythomania"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "शराब की लत",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows56",
+    "question": "Government run by small, privileged group or minority.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oligarchy"
+      },
+      {
+        "id": "B",
+        "text": "Autocracy"
+      },
+      {
+        "id": "C",
+        "text": "Democracy"
+      },
+      {
+        "id": "D",
+        "text": "Monarchy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "अल्पतंत्र",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows57",
+    "question": "Government where power is held by nobility or high class.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aristocracy"
+      },
+      {
+        "id": "B",
+        "text": "Bureaucracy"
+      },
+      {
+        "id": "C",
+        "text": "Democracy"
+      },
+      {
+        "id": "D",
+        "text": "Gerontocracy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "कुलीनतंत्र",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows58",
+    "question": "Government ruled by elderly persons.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gerontocracy"
+      },
+      {
+        "id": "B",
+        "text": "Kakistocracy"
+      },
+      {
+        "id": "C",
+        "text": "Meritocracy"
+      },
+      {
+        "id": "D",
+        "text": "Technocracy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "वृद्धजन-तंत्र",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows59",
+    "question": "Government by the worst or least qualified citizens.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kakistocracy"
+      },
+      {
+        "id": "B",
+        "text": "Monarchy"
+      },
+      {
+        "id": "C",
+        "text": "Oligarchy"
+      },
+      {
+        "id": "D",
+        "text": "Plutocracy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "कुशासकों का शासन",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows60",
+    "question": "State of total lawlessness and absence of government.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anarchy"
+      },
+      {
+        "id": "B",
+        "text": "Autonomy"
+      },
+      {
+        "id": "C",
+        "text": "Hierarchy"
+      },
+      {
+        "id": "D",
+        "text": "Monarchy"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "अराजकता",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows61",
+    "question": "A place where military weapons and ammunition are stored.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arsenal"
+      },
+      {
+        "id": "B",
+        "text": "Armoury"
+      },
+      {
+        "id": "C",
+        "text": "Hangar"
+      },
+      {
+        "id": "D",
+        "text": "Dockyard"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "शस्त्रागार",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows62",
+    "question": "A place where wild animals are kept for public display.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menagerie"
+      },
+      {
+        "id": "B",
+        "text": "Aquarium"
+      },
+      {
+        "id": "C",
+        "text": "Aviary"
+      },
+      {
+        "id": "D",
+        "text": "Apiary"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "पशुआलय",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows63",
+    "question": "Place where birds are kept.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apiary"
+      },
+      {
+        "id": "B",
+        "text": "Aviary"
+      },
+      {
+        "id": "C",
+        "text": "Sanctuary"
+      },
+      {
+        "id": "D",
+        "text": "Kennel"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "पक्षीशाला",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows64",
+    "question": "Place where bees are kept for honey production.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apiary"
+      },
+      {
+        "id": "B",
+        "text": "Aviary"
+      },
+      {
+        "id": "C",
+        "text": "Barn"
+      },
+      {
+        "id": "D",
+        "text": "Hive"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "मधुमक्खिी-शाला",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows65",
+    "question": "Large structure used for housing aircraft.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hangar"
+      },
+      {
+        "id": "B",
+        "text": "Runway"
+      },
+      {
+        "id": "C",
+        "text": "Terminal"
+      },
+      {
+        "id": "D",
+        "text": "Depot"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "ɟवमानघर",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows66",
+    "question": "One who draws or produces maps.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cartographer"
+      },
+      {
+        "id": "B",
+        "text": "Calligrapher"
+      },
+      {
+        "id": "C",
+        "text": "Choreographer"
+      },
+      {
+        "id": "D",
+        "text": "Topographer"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "मानɡचत्रकार",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows67",
+    "question": "One who plans and arranges dance sequences.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Choreographer"
+      },
+      {
+        "id": "B",
+        "text": "Director"
+      },
+      {
+        "id": "C",
+        "text": "Scenographer"
+      },
+      {
+        "id": "D",
+        "text": "Playwright"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "नृत्य-ɟनदर्देशक",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows68",
+    "question": "Specialist in treatment of skin diseases.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dermatologist"
+      },
+      {
+        "id": "B",
+        "text": "Cardiologist"
+      },
+      {
+        "id": "C",
+        "text": "Neurologist"
+      },
+      {
+        "id": "D",
+        "text": "Oncologist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "त्वचा ɟवशेषज्ञ",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows69",
+    "question": "Specialist in female reproductive system.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gynecologist"
+      },
+      {
+        "id": "B",
+        "text": "Obstetrician"
+      },
+      {
+        "id": "C",
+        "text": "Pediatrician"
+      },
+      {
+        "id": "D",
+        "text": "Pathologist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "स्त्री रोग ɟवशेषज्ञ",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows70",
+    "question": "One who sells and arranges cut flowers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Florist"
+      },
+      {
+        "id": "B",
+        "text": "Botanist"
+      },
+      {
+        "id": "C",
+        "text": "Horticulturist"
+      },
+      {
+        "id": "D",
+        "text": "Gardener"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "फूल ɟवक्रेता",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows71",
+    "question": "An expert judge in matters of taste or fine arts.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Connoisseur"
+      },
+      {
+        "id": "B",
+        "text": "Dilettante"
+      },
+      {
+        "id": "C",
+        "text": "Virtuoso"
+      },
+      {
+        "id": "D",
+        "text": "Amateur"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "कला ममर्वाज्ञ / ɟवशेषज्ञ",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows72",
+    "question": "Person guided by passion and enthusiasm rather than reason.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zealot"
+      },
+      {
+        "id": "B",
+        "text": "Pragmatist"
+      },
+      {
+        "id": "C",
+        "text": "Skeptic"
+      },
+      {
+        "id": "D",
+        "text": "Cynic"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "कटरपंथी / उत्साही",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows73",
+    "question": "Person indifferent to pleasure or pain.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stoic"
+      },
+      {
+        "id": "B",
+        "text": "Epicurean"
+      },
+      {
+        "id": "C",
+        "text": "Altruist"
+      },
+      {
+        "id": "D",
+        "text": "Hedonist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "उदासीन / सहनशील",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows74",
+    "question": "Person who hates women.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Misogynist"
+      },
+      {
+        "id": "B",
+        "text": "Misandrist"
+      },
+      {
+        "id": "C",
+        "text": "Misogamist"
+      },
+      {
+        "id": "D",
+        "text": "Philogynist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "मɟहला-द्वेषी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows75",
+    "question": "Person who hates marriage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Misogamist"
+      },
+      {
+        "id": "B",
+        "text": "Misogynist"
+      },
+      {
+        "id": "C",
+        "text": "Celibate"
+      },
+      {
+        "id": "D",
+        "text": "Bigamist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "ɟववाह-द्वेषी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows76",
+    "question": "Short funny story about real incident or person.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anecdote"
+      },
+      {
+        "id": "B",
+        "text": "Antidote"
+      },
+      {
+        "id": "C",
+        "text": "Allegory"
+      },
+      {
+        "id": "D",
+        "text": "Parable"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "ɟकस्सा / लघु कथा",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows77",
+    "question": "Book published under fictitious name.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pseudonym"
+      },
+      {
+        "id": "B",
+        "text": "Anonymous"
+      },
+      {
+        "id": "C",
+        "text": "Homonym"
+      },
+      {
+        "id": "D",
+        "text": "Acronym"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "छद्म नाम",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows78",
+    "question": "Speech made without any prior preparation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Extempore"
+      },
+      {
+        "id": "B",
+        "text": "Maiden speech"
+      },
+      {
+        "id": "C",
+        "text": "Lecture"
+      },
+      {
+        "id": "D",
+        "text": "Oration"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "ɟबना तैयारी के ɞदया भाषण",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows79",
+    "question": "First speech delivered by a person.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maiden speech"
+      },
+      {
+        "id": "B",
+        "text": "Valedictory"
+      },
+      {
+        "id": "C",
+        "text": "Keynote speech"
+      },
+      {
+        "id": "D",
+        "text": "Extempore"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "प्रथम भाषण",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows80",
+    "question": "Detailed plan of a journey.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Itinerary"
+      },
+      {
+        "id": "B",
+        "text": "Schedule"
+      },
+      {
+        "id": "C",
+        "text": "Timetable"
+      },
+      {
+        "id": "D",
+        "text": "Travelogue"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "यात्रा-कायर्वाक्रम",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows81",
+    "question": "Act of killing one's father.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Patricide"
+      },
+      {
+        "id": "B",
+        "text": "Matricide"
+      },
+      {
+        "id": "C",
+        "text": "Regicide"
+      },
+      {
+        "id": "D",
+        "text": "Homicide"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "ɟपतृहत्या",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows82",
+    "question": "Act of killing a king.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Regicide"
+      },
+      {
+        "id": "B",
+        "text": "Genocide"
+      },
+      {
+        "id": "C",
+        "text": "Tyrannicide"
+      },
+      {
+        "id": "D",
+        "text": "Homicide"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "राजहत्या",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows83",
+    "question": "Deliberate killing of large group of people from a nation/ethnic group.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Genocide"
+      },
+      {
+        "id": "B",
+        "text": "Homicide"
+      },
+      {
+        "id": "C",
+        "text": "Massacre"
+      },
+      {
+        "id": "D",
+        "text": "Carnage"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "नरसंहार",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows84",
+    "question": "Killing of an infant.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Infanticide"
+      },
+      {
+        "id": "B",
+        "text": "Foeticide"
+      },
+      {
+        "id": "C",
+        "text": "Filicide"
+      },
+      {
+        "id": "D",
+        "text": "Sororicide"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "ɡशशुहत्या",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows85",
+    "question": "Killing of one's brother.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fratricide"
+      },
+      {
+        "id": "B",
+        "text": "Sororicide"
+      },
+      {
+        "id": "C",
+        "text": "Uxoricide"
+      },
+      {
+        "id": "D",
+        "text": "Parricide"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "भ्रातृहत्या",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows86",
+    "question": "Animals living in water.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aquatic"
+      },
+      {
+        "id": "B",
+        "text": "Amphibian"
+      },
+      {
+        "id": "C",
+        "text": "Terrestrial"
+      },
+      {
+        "id": "D",
+        "text": "Arboreal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "जलीय",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows87",
+    "question": "Animals that can live both on land and in water.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amphibian"
+      },
+      {
+        "id": "B",
+        "text": "Aquatic"
+      },
+      {
+        "id": "C",
+        "text": "Reptile"
+      },
+      {
+        "id": "D",
+        "text": "Mammal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "उभयचर",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows88",
+    "question": "Animals that live in trees.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arboreal"
+      },
+      {
+        "id": "B",
+        "text": "Terrestrial"
+      },
+      {
+        "id": "C",
+        "text": "Aerial"
+      },
+      {
+        "id": "D",
+        "text": "Aquatic"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "वृक्षवासी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows89",
+    "question": "Animal that eats both plants and flesh.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Omnivore"
+      },
+      {
+        "id": "B",
+        "text": "Carnivore"
+      },
+      {
+        "id": "C",
+        "text": "Herbivore"
+      },
+      {
+        "id": "D",
+        "text": "Insectivore"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सवार्वाहारी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows90",
+    "question": "Animals that feed on plants only.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Herbivore"
+      },
+      {
+        "id": "B",
+        "text": "Carnivore"
+      },
+      {
+        "id": "C",
+        "text": "Omnivore"
+      },
+      {
+        "id": "D",
+        "text": "Parasite"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "शाकाहारी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows91",
+    "question": "Person who looks on dark side of things.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pessimist"
+      },
+      {
+        "id": "B",
+        "text": "Optimist"
+      },
+      {
+        "id": "C",
+        "text": "Realist"
+      },
+      {
+        "id": "D",
+        "text": "Cynic"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "ɟनराशावादी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows92",
+    "question": "Person who looks on bright side of things.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Optimist"
+      },
+      {
+        "id": "B",
+        "text": "Pessimist"
+      },
+      {
+        "id": "C",
+        "text": "Altruist"
+      },
+      {
+        "id": "D",
+        "text": "Idealist"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "आशावादी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows93",
+    "question": "Person who talks continuously or excessively.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Garrulous"
+      },
+      {
+        "id": "B",
+        "text": "Taciturn"
+      },
+      {
+        "id": "C",
+        "text": "Reticent"
+      },
+      {
+        "id": "D",
+        "text": "Reserved"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "बातूनी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows94",
+    "question": "Person who talks very little or remains silent.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Taciturn"
+      },
+      {
+        "id": "B",
+        "text": "Loquacious"
+      },
+      {
+        "id": "C",
+        "text": "Eloquent"
+      },
+      {
+        "id": "D",
+        "text": "Voluble"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "अल्पभाषी / शांत",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows95",
+    "question": "Expressed or made clear in fluent, powerful, and persuasive words.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eloquent"
+      },
+      {
+        "id": "B",
+        "text": "Inarticulate"
+      },
+      {
+        "id": "C",
+        "text": "Ambiguous"
+      },
+      {
+        "id": "D",
+        "text": "Grandiloquent"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सुवक्ता / वाक्पटु",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows96",
+    "question": "Something that cannot be heard.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inaudible"
+      },
+      {
+        "id": "B",
+        "text": "Audible"
+      },
+      {
+        "id": "C",
+        "text": "Invisible"
+      },
+      {
+        "id": "D",
+        "text": "Imperceptible"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "अश्रव्य (जो सुनाई न दे)",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows97",
+    "question": "Something that cannot be seen through.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Opaque"
+      },
+      {
+        "id": "B",
+        "text": "Transparent"
+      },
+      {
+        "id": "C",
+        "text": "Translucent"
+      },
+      {
+        "id": "D",
+        "text": "Clear"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "अपारदशर्शी",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows98",
+    "question": "Substance that easily catches fire.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inflammable"
+      },
+      {
+        "id": "B",
+        "text": "Non-flammable"
+      },
+      {
+        "id": "C",
+        "text": "Combustive"
+      },
+      {
+        "id": "D",
+        "text": "Explosive"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "ज्वलनशील",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows99",
+    "question": "Study of birds.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ornithology"
+      },
+      {
+        "id": "B",
+        "text": "Entomology"
+      },
+      {
+        "id": "C",
+        "text": "Anthropology"
+      },
+      {
+        "id": "D",
+        "text": "Zoology"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "पक्षी ɟवज्ञान",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "ows100",
+    "question": "Study of insects.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entomology"
+      },
+      {
+        "id": "B",
+        "text": "Etiology"
+      },
+      {
+        "id": "C",
+        "text": "Etymology"
+      },
+      {
+        "id": "D",
+        "text": "Ecology"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "कीट ɟवज्ञान",
+    "difficulty": "medium",
+    "language": "en"
+  }
+]

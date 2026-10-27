@@ -1,0 +1,562 @@
+[
+  {
+    "id": "syn129",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Arid\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Barren"
+      },
+      {
+        "id": "B",
+        "text": "Warm"
+      },
+      {
+        "id": "C",
+        "text": "Dry"
+      },
+      {
+        "id": "D",
+        "text": "Humid"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Dry is the intended synonym of \"Arid\". Hindi meaning: बहुत शुष्क / सूखा.",
+    "language": "en"
+  },
+  {
+    "id": "syn130",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Aroma\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scent"
+      },
+      {
+        "id": "B",
+        "text": "Flavor"
+      },
+      {
+        "id": "C",
+        "text": "Appearance"
+      },
+      {
+        "id": "D",
+        "text": "Texture"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Scent is the intended synonym of \"Aroma\". Hindi meaning: सुगंध / विशिष्ट महक.",
+    "language": "en"
+  },
+  {
+    "id": "syn131",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Arraign\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Convict"
+      },
+      {
+        "id": "B",
+        "text": "Accuse"
+      },
+      {
+        "id": "C",
+        "text": "Prosecute"
+      },
+      {
+        "id": "D",
+        "text": "Acquit"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Prosecute is the intended synonym of \"Arraign\". Hindi meaning: अदालत में आरोप लगाकर मुकदमा चलाना.",
+    "language": "en"
+  },
+  {
+    "id": "syn132",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Arrogance\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dominance"
+      },
+      {
+        "id": "B",
+        "text": "Authority"
+      },
+      {
+        "id": "C",
+        "text": "Conceit"
+      },
+      {
+        "id": "D",
+        "text": "Humility"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Conceit is the intended synonym of \"Arrogance\". Hindi meaning: अहंकार / घमंड.",
+    "language": "en"
+  },
+  {
+    "id": "syn133",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Arrogant\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Forceful"
+      },
+      {
+        "id": "B",
+        "text": "Haughty"
+      },
+      {
+        "id": "C",
+        "text": "Humble"
+      },
+      {
+        "id": "D",
+        "text": "Proud"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Haughty is the intended synonym of \"Arrogant\". Hindi meaning: अभिमानी / घमंडी.",
+    "language": "en"
+  },
+  {
+    "id": "syn134",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Articulate\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unclear"
+      },
+      {
+        "id": "B",
+        "text": "Coherent"
+      },
+      {
+        "id": "C",
+        "text": "Audible"
+      },
+      {
+        "id": "D",
+        "text": "Eloquent"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Eloquent is the intended synonym of \"Articulate\". Hindi meaning: स्पष्ट और प्रभावी ढंग से व्यक्त करने वाला.",
+    "language": "en"
+  },
+  {
+    "id": "syn135",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Ascending\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Progressing"
+      },
+      {
+        "id": "B",
+        "text": "Advancing"
+      },
+      {
+        "id": "C",
+        "text": "Descending"
+      },
+      {
+        "id": "D",
+        "text": "Climbing"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Climbing is the intended synonym of \"Ascending\". Hindi meaning: ऊपर जाना / चढ़ना.",
+    "language": "en"
+  },
+  {
+    "id": "syn136",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Ascertain\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Assume"
+      },
+      {
+        "id": "B",
+        "text": "Disprove"
+      },
+      {
+        "id": "C",
+        "text": "Notice"
+      },
+      {
+        "id": "D",
+        "text": "Verify"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Verify is the intended synonym of \"Ascertain\". Hindi meaning: निश्चित रूप से पता लगाना / सत्यापित करना.",
+    "language": "en"
+  },
+  {
+    "id": "syn137",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Assault\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Defend"
+      },
+      {
+        "id": "B",
+        "text": "Threaten"
+      },
+      {
+        "id": "C",
+        "text": "Attack"
+      },
+      {
+        "id": "D",
+        "text": "Accuse"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Attack is the intended synonym of \"Assault\". Hindi meaning: हमला.",
+    "language": "en"
+  },
+  {
+    "id": "syn138",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Assemble\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gather"
+      },
+      {
+        "id": "B",
+        "text": "Arrange"
+      },
+      {
+        "id": "C",
+        "text": "Repair"
+      },
+      {
+        "id": "D",
+        "text": "Disperse"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Gather is the intended synonym of \"Assemble\". Hindi meaning: इकट्ठा करना.",
+    "language": "en"
+  },
+  {
+    "id": "syn139",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Assent\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proposal"
+      },
+      {
+        "id": "B",
+        "text": "Debate"
+      },
+      {
+        "id": "C",
+        "text": "Objection"
+      },
+      {
+        "id": "D",
+        "text": "Agreement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Agreement is the intended synonym of \"Assent\". Hindi meaning: सहमति.",
+    "language": "en"
+  },
+  {
+    "id": "syn140",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Assert\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Whisper"
+      },
+      {
+        "id": "B",
+        "text": "Emphasize"
+      },
+      {
+        "id": "C",
+        "text": "Mention"
+      },
+      {
+        "id": "D",
+        "text": "Withdraw"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Emphasize is the intended synonym of \"Assert\". Hindi meaning: ज़ोर देकर कहना / बल देना.",
+    "language": "en"
+  },
+  {
+    "id": "syn141",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Assertion\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Question"
+      },
+      {
+        "id": "B",
+        "text": "Request"
+      },
+      {
+        "id": "C",
+        "text": "Denial"
+      },
+      {
+        "id": "D",
+        "text": "Declaration"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Declaration is the intended synonym of \"Assertion\". Hindi meaning: दावा / कथन.",
+    "language": "en"
+  },
+  {
+    "id": "syn142",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Assertive\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indecisive"
+      },
+      {
+        "id": "B",
+        "text": "Passive"
+      },
+      {
+        "id": "C",
+        "text": "Domineering"
+      },
+      {
+        "id": "D",
+        "text": "Reserved"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Domineering is the intended synonym of \"Assertive\". Hindi meaning: दृढ़तापूर्वक अपनी बात रखने वाला / हावी होने वाला.",
+    "language": "en"
+  },
+  {
+    "id": "syn143",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Assiduous\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deliberate"
+      },
+      {
+        "id": "B",
+        "text": "Diligent"
+      },
+      {
+        "id": "C",
+        "text": "Careless"
+      },
+      {
+        "id": "D",
+        "text": "Idle"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Diligent is the intended synonym of \"Assiduous\". Hindi meaning: परिश्रमी / लगनशील.",
+    "language": "en"
+  },
+  {
+    "id": "syn144",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Assist\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Replace"
+      },
+      {
+        "id": "B",
+        "text": "Obstruct"
+      },
+      {
+        "id": "C",
+        "text": "Supervise"
+      },
+      {
+        "id": "D",
+        "text": "Help"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Help is the intended synonym of \"Assist\". Hindi meaning: सहायता करना.",
+    "language": "en"
+  },
+  {
+    "id": "syn145",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Assuage\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intensify"
+      },
+      {
+        "id": "B",
+        "text": "Provoke"
+      },
+      {
+        "id": "C",
+        "text": "Mollify"
+      },
+      {
+        "id": "D",
+        "text": "Observe"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Mollify is the intended synonym of \"Assuage\". Hindi meaning: शांत करना / अप्रिय भावना कम करना.",
+    "language": "en"
+  },
+  {
+    "id": "syn146",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Astonish\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Confuse"
+      },
+      {
+        "id": "B",
+        "text": "Alarm"
+      },
+      {
+        "id": "C",
+        "text": "Calm"
+      },
+      {
+        "id": "D",
+        "text": "Surprise"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Surprise is the intended synonym of \"Astonish\". Hindi meaning: बहुत आश्चर्यचकित करना.",
+    "language": "en"
+  },
+  {
+    "id": "syn147",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Astound\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Warn"
+      },
+      {
+        "id": "B",
+        "text": "Encourage"
+      },
+      {
+        "id": "C",
+        "text": "Bewilder"
+      },
+      {
+        "id": "D",
+        "text": "Clarify"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Bewilder is the intended synonym of \"Astound\". Hindi meaning: बहुत चकित / हतप्रभ करना.",
+    "language": "en"
+  },
+  {
+    "id": "syn148",
+    "subjectId": "english",
+    "question": "Select the most appropriate synonym of the given word: \"Astute\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shrewd"
+      },
+      {
+        "id": "B",
+        "text": "Practical"
+      },
+      {
+        "id": "C",
+        "text": "Cautious"
+      },
+      {
+        "id": "D",
+        "text": "Foolish"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonym",
+    "difficulty": "medium",
+    "explanation": "Shrewd is the intended synonym of \"Astute\". Hindi meaning: चतुर / सूझबूझ वाला.",
+    "language": "en"
+  }
+]

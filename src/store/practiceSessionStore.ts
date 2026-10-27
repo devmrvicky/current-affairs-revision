@@ -19,6 +19,8 @@ interface PracticeSessionStore {
   startSession: (config: PracticeConfiguration, questionIds: string[]) => void;
   selectAnswer: (optionId: string, timeTaken: number) => void;
   toggleMarkForReview: () => void;
+  /** Adds dwell time to a not-yet-answered question when the user navigates away, so revisits accumulate. Frozen once answered. */
+  addTimeSpent: (index: number, seconds: number) => void;
   goToQuestion: (index: number) => void;
   nextQuestion: () => void;
   pauseSession: () => void;
@@ -71,6 +73,16 @@ export const usePracticeSessionStore = create<PracticeSessionStore>()(
         const states = [...session.states];
         const current = states[session.currentIndex];
         states[session.currentIndex] = { ...current, isMarkedForReview: !current.isMarkedForReview };
+        set({ session: { ...session, states } });
+      },
+
+      addTimeSpent: (index, seconds) => {
+        const session = get().session;
+        if (!session || seconds <= 0) return;
+        const current = session.states[index];
+        if (!current || current.selectedAnswer !== null) return;
+        const states = [...session.states];
+        states[index] = { ...current, timeTaken: current.timeTaken + seconds };
         set({ session: { ...session, states } });
       },
 

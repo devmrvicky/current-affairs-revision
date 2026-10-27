@@ -93,6 +93,9 @@ const router = createBrowserRouter([
       { path: 'session',                      element: <S><UniversalSessionPage /></S> },
       { path: 'session/result',               element: <S><UniversalResultPage /></S> },
       { path: 'session/result/review',        element: <S><UniversalReviewPage /></S> },
+      // A past attempt of a test, rebuilt read-only from the attempt ledger. The literal 'review' route above outranks :attemptId.
+      { path: 'session/result/:attemptId',        element: <S><UniversalResultPage /></S> },
+      { path: 'session/result/:attemptId/review', element: <S><UniversalReviewPage /></S> },
       { path: 'mock-tests',                   element: <S><MockTestListPage /></S> },
       { path: 'mock-tests/:mockId/start',     element: <S><MockInstructionsPage /></S> },
       { path: 'mock-tests/:mockId/instructions', element: <S><MockInstructionsPage /></S> },

@@ -8,6 +8,7 @@ import { QuizTimer } from '../components/quiz/QuizTimer';
 import { QuestionPalette } from '../components/quiz/QuestionPalette';
 import { AnswerBottomSheet } from '../components/quiz/AnswerBottomSheet';
 import { QuestionWebSearchSheet } from '../components/quiz/QuestionWebSearchSheet';
+import { useExamKeyboardNavigation } from '../hooks/useExamKeyboardNavigation';
 import { getOptionLabel } from '../utils';
 
 export default function QuizPage() {
@@ -113,10 +114,9 @@ export default function QuizPage() {
   }, [session, settings.keyboardNavigation]);
 
   // Accessibility: Escape closes whichever overlay is open (palette takes
-  // priority since it's drawn on top); ArrowLeft goes to the previous
-  // question, mirroring the visible Previous button. Always on — unlike the
-  // shortcut effect above, this is baseline navigability, not an opt-in
-  // power-user feature, so it isn't gated behind settings.keyboardNavigation.
+  // priority since it's drawn on top). Always on — unlike the shortcut effect
+  // above, this is baseline navigability, not an opt-in power-user feature,
+  // so it isn't gated behind settings.keyboardNavigation.
   useEffect(() => {
     function handleA11yKey(e: KeyboardEvent) {
       if (e.key === 'Escape') {
@@ -124,17 +124,25 @@ export default function QuizPage() {
         if (searchSheetOpen) { setSearchSheetOpen(false); return; }
         return;
       }
-      if (!session || showSheet || searchSheetOpen || showPalette) return;
-      const current = session.attempts[session.currentIndex];
-      if (!isTestMode && current.status !== 'unanswered') return;
-      if (e.key === 'ArrowLeft' && session.currentIndex > 0) {
-        e.preventDefault();
-        goToQuestion(session.currentIndex - 1);
-      }
     }
     window.addEventListener('keydown', handleA11yKey);
     return () => window.removeEventListener('keydown', handleA11yKey);
-  }, [session, showSheet, searchSheetOpen, showPalette, goToQuestion, isTestMode]);
+  }, [showPalette, searchSheetOpen]);
+
+  // ← / → between questions — the same shared handler the universal and mock
+  // engines use (it replaces this page's former ArrowLeft-only listener rather
+  // than sitting beside it). Active exactly when the visible Previous / Next
+  // buttons are: always in a test; in practice mode only while the current
+  // question is still unanswered (once answered, the answer sheet owns the keys).
+  const kbIndex = session?.currentIndex ?? 0;
+  const kbTotal = session?.totalQuestions ?? 0;
+  useExamKeyboardNavigation({
+    enabled: !!session && !showSheet && !searchSheetOpen && !showPalette && (isTestMode || session.attempts[kbIndex]?.status === 'unanswered'),
+    canGoPrevious: kbIndex > 0,
+    canGoNext: kbIndex < kbTotal - 1,
+    onPrevious: () => goToQuestion(kbIndex - 1),
+    onNext: () => (isTestMode ? goToQuestion(kbIndex + 1) : nextQuestion()),
+  });
 
   // Timed mock tests: auto-submit the instant the countdown reaches zero.
   const handleExpire = useCallback(() => {

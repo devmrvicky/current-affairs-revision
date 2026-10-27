@@ -23,6 +23,7 @@ import { subjectRegistry, getTopicDisplayName, resolveSubjectId } from '../data/
 import { examRegistry } from '../data/registry/examRegistry';
 import { getAllMockSourceUniversalQuestions, clearMockSourceCache } from './mockSourceRegistry';
 import { slugify } from '../utils/slug';
+import { unwrapQuestionFile, normalizeOptions, resolveCorrectAnswer } from './canonicalQuestionNormalizer';
 
 // ─── Topic-name → topic-id resolution ──────────────────────────────────────────
 // Chapter folder names are free-text ("Books and authors"); TOPICS registry ids
@@ -272,7 +273,16 @@ const canonicalQuestionFileModules = import.meta.glob<string>(
   { eager: true, query: '?raw', import: 'default' }
 );
 
-interface CanonicalChapterEntry extends NativeQuestionFileEntry {
+/**
+ * One authored question, before normalization. `options`/`correctAnswer` are
+ * `unknown` on purpose: chapter files exist both in the native universal shape
+ * (`options: {id,text}[]`, `correctAnswer: "B"`) and in the older quiz shape
+ * (`options: string[]`, `correctAnswer: "<option text>"`) — see
+ * canonicalQuestionNormalizer.ts.
+ */
+interface CanonicalChapterEntry extends Omit<NativeQuestionFileEntry, 'options' | 'correctAnswer'> {
+  options: unknown;
+  correctAnswer: unknown;
   subjectId?: string;
   examId?: string;
   sourceMeta?: { exam?: string };
@@ -319,18 +329,40 @@ async function loadCanonicalChapterQuestions(): Promise<UniversalQuestion[]> {
     const { subjectId: folderSubjectId, chapterId, fileName, baseDir } = parsed;
 
     const mod = await loader();
-    const entries = mod.default as CanonicalChapterEntry[];
-    if (!Array.isArray(entries)) continue;
+    const entries = unwrapQuestionFile(mod.default) as CanonicalChapterEntry[] | null;
+    if (!entries) {
+      console.warn(`[QuestionRepository] ${fileName}: not a question file (expected an array or { questions: [] }) — skipped`);
+      continue;
+    }
+    let warnedUnknownSubject = false;
 
     for (const entry of entries) {
+      if (!entry || typeof entry !== 'object') continue;
       // Preserve an explicitly-authored subjectId/topicId; otherwise derive
       // from the folder itself, and topicId defaults to the chapter's own id
       // (master prompt "Chapter Question Derivation").
-      const subjectId = entry.subjectId ?? folderSubjectId;
+      let subjectId = entry.subjectId ?? folderSubjectId;
       const topicId = entry.topicId ?? chapterId;
 
       const restrictedExamId = entry.examId ?? entry.sourceMeta?.exam;
-      const examIds = restrictedExamId ? [restrictedExamId] : examIdsForSubject(subjectId);
+      let examIds = restrictedExamId ? [restrictedExamId] : examIdsForSubject(subjectId);
+
+      // An authored subjectId that isn't a subject on any exam's syllabus (a
+      // shorthand like "maths" for "mathematics") used to make the question
+      // vanish from the pool without a trace — a whole test file lost to one
+      // misspelt field. The folder the file lives in is the next-safest
+      // authority for its subject, so fall back to it (and say so, once per file).
+      if (examIds.length === 0 && entry.subjectId && entry.subjectId !== folderSubjectId) {
+        const fallbackExamIds = restrictedExamId ? [restrictedExamId] : examIdsForSubject(folderSubjectId);
+        if (fallbackExamIds.length > 0) {
+          if (!warnedUnknownSubject) {
+            console.warn(`[QuestionRepository] ${fileName}: subjectId "${entry.subjectId}" is not a known subject — filing under its folder's subject "${folderSubjectId}" instead`);
+            warnedUnknownSubject = true;
+          }
+          subjectId = folderSubjectId;
+          examIds = fallbackExamIds;
+        }
+      }
       if (examIds.length === 0) continue; // not on any exam's syllabus yet — nothing would ever surface it
 
       let question = entry.question;
@@ -341,6 +373,8 @@ async function loadCanonicalChapterQuestions(): Promise<UniversalQuestion[]> {
         else console.warn(`[UniversalChapterRepository] questionFile not found: ${entry.questionFile} (chapter ${folderSubjectId}/${chapterId})`);
       }
 
+      const options = normalizeOptions(entry.options);
+
       all.push({
         id: `chapter-${folderSubjectId}-${chapterId}-${normalize(fileName)}-${entry.id}`,
         examIds,
@@ -349,8 +383,8 @@ async function loadCanonicalChapterQuestions(): Promise<UniversalQuestion[]> {
         subtopicId: entry.subtopicId,
         questionType: entry.questionType ?? 'mcq',
         question,
-        options: entry.options,
-        correctAnswer: entry.correctAnswer,
+        options,
+        correctAnswer: resolveCorrectAnswer(options, entry.correctAnswer),
         explanation: entry.explanation,
         difficulty: entry.difficulty ?? 'medium',
         language: entry.language ?? 'hi',
@@ -372,6 +406,12 @@ async function loadCanonicalChapterQuestions(): Promise<UniversalQuestion[]> {
 let _dailyCache: UniversalQuestion[] | null = null;
 let _chapterCache: UniversalQuestion[] | null = null;
 let _mockSourceCache: UniversalQuestion[] | null = null;
+
+/** Bumped whenever the content cache is cleared, so layers that derive and cache structure from the pool (the practice test library) know when to rebuild. */
+let _poolVersion = 0;
+export function getQuestionPoolVersion(): number {
+  return _poolVersion;
+}
 
 async function loadMockSourceQuestions(): Promise<UniversalQuestion[]> {
   if (_mockSourceCache) return _mockSourceCache;
@@ -453,6 +493,7 @@ async function loadAllQuestions(): Promise<UniversalQuestion[]> {
 
 /** Clears the in-memory content cache. Call after content is re-imported/updated at runtime (rare). */
 export function clearQuestionCache(): void {
+  _poolVersion += 1;
   _dailyCache = null;
   _chapterCache = null;
   _canonicalChapterCache = null;

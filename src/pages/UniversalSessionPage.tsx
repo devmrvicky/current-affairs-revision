@@ -9,6 +9,9 @@ import { resolveQuestionsByIds } from '../services/questionRepository';
 import { recordPracticeSessionAttempts } from '../services/attemptLedgerService';
 import { QuizTimer } from '../components/quiz/QuizTimer';
 import { QuestionPalette } from '../components/quiz/QuestionPalette';
+import { ExamShell } from '../components/exam/ExamShell';
+import { QuestionMarkdownRenderer, QuestionOptionContent } from '../components/mock/QuestionMarkdownRenderer';
+import { useExamKeyboardNavigation } from '../hooks/useExamKeyboardNavigation';
 import { getOptionLabel } from '../utils';
 import type { UniversalQuestion } from '../types/universalQuestion';
 import type { QuestionAttempt } from '../types';
@@ -22,6 +25,11 @@ import type { SessionQuestionState } from '../types/practiceSession';
 // builds a presentation-only view for that one component; it is never
 // written back anywhere and the ledger never sees it (master prompt §2,
 // §14: reuse UI, refactor data dependencies underneath it).
+//
+// Layout: the live test fills the viewport via ExamShell (header / question
+// area / palette / pinned navigation bar). Question, option and explanation
+// text go through QuestionMarkdownRenderer — the same renderer the mock shell
+// uses — so maths (KaTeX), images and Hindi text render correctly here too.
 
 function toDisplayAttempts(questionIds: string[], states: SessionQuestionState[], questionsById: Map<string, UniversalQuestion>): QuestionAttempt[] {
   return questionIds.map((qid, idx) => {
@@ -48,7 +56,7 @@ function toDisplayAttempts(questionIds: string[], states: SessionQuestionState[]
 export default function UniversalSessionPage() {
   const navigate = useNavigate();
   const {
-    session, selectAnswer, toggleMarkForReview, goToQuestion, nextQuestion,
+    session, selectAnswer, toggleMarkForReview, goToQuestion, addTimeSpent,
     pauseSession, resumeSession, completeSession, clearSession,
   } = usePracticeSessionStore();
   const { increment: incrementQuestionsGoal, incrementTests: incrementTestsGoal } = useDailyGoalStore();
@@ -56,10 +64,14 @@ export default function UniversalSessionPage() {
   const [questionsById, setQuestionsById] = useState<Map<string, UniversalQuestion>>(new Map());
   const [loaded, setLoaded] = useState(false);
   const [showPalette, setShowPalette] = useState(false);
-  const [questionStartTime, setQuestionStartTime] = useState(() => Date.now());
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
   const [isFinishing, setIsFinishing] = useState(false);
   const finishingRef = useRef(false);
+
+  // When the learner arrived on the current question (ms). A ref, not state: it
+  // is only ever read inside handlers, and updating it must not re-render.
+  const enteredAtRef = useRef(0); // set when the first question is shown (effect below)
+  const pauseStartedAtRef = useRef<number | null>(null);
 
   const isTestMode = session?.config.mode === 'test';
   // Single source of truth for pause UI — session.pausedAt, not separate
@@ -93,17 +105,41 @@ export default function UniversalSessionPage() {
     if (session.isCompleted) { navigate('/session/result', { replace: true }); }
   }, [session, navigate]);
 
-  // Resets the per-question timer when the question changes — a
-  // legitimate "derived reset" (React docs: "Resetting all state when a
-  // prop changes"), not an accidental cascading update. There's no
-  // alternative that avoids an effect here since the reset must happen in
-  // response to store-driven navigation (Previous/Next/palette jump),
-  // not a local event we could set state from directly. Same established
-  // pattern as the legacy QuizPage.tsx's per-question timer.
+  // A new question starts a new dwell period — and so does the moment the content
+  // finishes loading, so a cold start's loading time isn't billed to question 1.
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setQuestionStartTime(Date.now());
-  }, [session?.currentIndex]);
+    enteredAtRef.current = Date.now();
+  }, [session?.currentIndex, loaded]);
+
+  // Time spent paused doesn't count toward a question.
+  useEffect(() => {
+    if (session?.pausedAt) {
+      pauseStartedAtRef.current = session.pausedAt;
+    } else if (pauseStartedAtRef.current !== null) {
+      enteredAtRef.current += Date.now() - pauseStartedAtRef.current;
+      pauseStartedAtRef.current = null;
+    }
+  }, [session?.pausedAt]);
+
+  /** Seconds on the current question since the learner arrived (or last flushed). */
+  const dwellSeconds = useCallback(() => Math.max(0, Math.floor((Date.now() - enteredAtRef.current) / 1000)), []);
+
+  /** Banks the dwell time on the current question into the session before leaving it. Answered questions are frozen by the store. */
+  const flushDwell = useCallback(() => {
+    const s = usePracticeSessionStore.getState().session;
+    if (!s) return;
+    const seconds = dwellSeconds();
+    if (seconds > 0) addTimeSpent(s.currentIndex, seconds);
+    enteredAtRef.current = Date.now();
+  }, [addTimeSpent, dwellSeconds]);
+
+  /** The one way to change question — buttons, palette and arrow keys all come through here so time tracking can't be skipped. */
+  const navigateTo = useCallback((index: number) => {
+    const s = usePracticeSessionStore.getState().session;
+    if (!s || index < 0 || index >= s.questionIds.length || index === s.currentIndex) return;
+    flushDwell();
+    goToQuestion(index);
+  }, [flushDwell, goToQuestion]);
 
   // §3/§4/§5: record-then-complete, guarded by a synchronous ref (not React
   // state, which updates asynchronously and can't stop a second call that
@@ -118,9 +154,12 @@ export default function UniversalSessionPage() {
     finishingRef.current = true;
     setIsFinishing(true);
     try {
-      await recordPracticeSessionAttempts(session, questionsById);
+      flushDwell();
+      // Re-read after the flush so the last question's time is part of what gets recorded.
+      const latest = usePracticeSessionStore.getState().session ?? session;
+      await recordPracticeSessionAttempts(latest, questionsById);
       completeSession();
-      const answeredCount = session.states.filter((s) => s.selectedAnswer !== null).length;
+      const answeredCount = latest.states.filter((s) => s.selectedAnswer !== null).length;
       incrementQuestionsGoal(answeredCount);
       incrementTestsGoal();
       navigate('/session/result');
@@ -130,15 +169,29 @@ export default function UniversalSessionPage() {
       finishingRef.current = false;
       setIsFinishing(false);
     }
-  }, [session, questionsById, completeSession, navigate, incrementQuestionsGoal, incrementTestsGoal]);
+  }, [session, questionsById, flushDwell, completeSession, navigate, incrementQuestionsGoal, incrementTestsGoal]);
 
   const handleExpire = useCallback(() => { finishAndRecord(); }, [finishAndRecord]);
 
+  // ← / → between questions. Off while any overlay owns the keyboard.
+  const total = session?.questionIds.length ?? 0;
+  const currentIndex = session?.currentIndex ?? 0;
+  useExamKeyboardNavigation({
+    enabled: loaded && !!session && !isPaused && !showPalette && !showSubmitConfirm && !isFinishing,
+    canGoPrevious: currentIndex > 0,
+    canGoNext: currentIndex < total - 1,
+    onPrevious: () => navigateTo(currentIndex - 1),
+    onNext: () => navigateTo(currentIndex + 1),
+  });
+
   if (!session || !loaded) {
     return (
-      <div className="max-w-2xl mx-auto pt-10 space-y-3">
-        <div className="card h-24 shimmer" style={{ background: 'var(--border)' }} />
-        <div className="card h-64 shimmer" style={{ background: 'var(--border)' }} />
+      <div className="exam-shell" aria-busy="true" aria-label="Loading test">
+        <div className="exam-shell__header" style={{ height: 56 }} />
+        <div className="exam-shell__body"><div className="exam-shell__main p-4 space-y-3">
+          <div className="h-8 w-2/3 rounded-xl shimmer" style={{ background: 'var(--border)' }} />
+          <div className="h-48 rounded-xl shimmer" style={{ background: 'var(--border)' }} />
+        </div></div>
       </div>
     );
   }
@@ -155,12 +208,8 @@ export default function UniversalSessionPage() {
 
   function handleSelect(optionId: string) {
     if (isAnswered) return;
-    // Runs inside a click handler, not during render — the "impure
-    // function" rule is flagging closures defined in component scope
-    // generally, not actual render-time calls. Same established pattern as
-    // legacy QuizPage.tsx.
-    // eslint-disable-next-line react-hooks/purity
-    const timeTaken = Math.floor((Date.now() - questionStartTime) / 1000);
+    // Total time on this question = time banked on earlier visits + this visit.
+    const timeTaken = currentState.timeTaken + dwellSeconds();
     selectAnswer(optionId, timeTaken);
   }
 
@@ -169,7 +218,7 @@ export default function UniversalSessionPage() {
       if (isTestMode) setShowSubmitConfirm(true);
       else finishAndRecord();
     } else {
-      nextQuestion();
+      navigateTo(session!.currentIndex + 1);
     }
   }
 
@@ -180,57 +229,90 @@ export default function UniversalSessionPage() {
     }
   }
 
-  return (
-    <div className="min-h-screen" style={{ background: 'var(--bg)' }}>
-      <header className="sticky top-0 z-30 glass border-b border-[var(--border)]">
-        <div className="max-w-5xl mx-auto px-3 sm:px-4 h-auto min-h-14 py-2 flex items-center justify-between gap-2 sm:gap-4">
-          <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
-            <button onClick={handleQuit} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0" aria-label="Quit">
-              <X size={18} style={{ color: 'var(--text-secondary)' }} />
-            </button>
-            <div className="min-w-0">
-              <h1 className="font-display font-bold text-xs sm:text-sm truncate" style={{ color: 'var(--text-primary)' }}>
-                {session.config.label}
-              </h1>
-              <p className="text-[11px] sm:text-xs" style={{ color: 'var(--text-muted)' }}>
-                Q{session.currentIndex + 1} / {session.questionIds.length}
-              </p>
-            </div>
-          </div>
-          <div className="flex items-center gap-1 sm:gap-2 flex-shrink-0">
-            <QuizTimer
-              startTime={session.startedAt}
-              totalPausedTime={session.totalPausedTime}
-              isPaused={!!session.pausedAt}
-              pausedAt={session.pausedAt}
-              durationSeconds={session.config.durationSeconds}
-              onExpire={session.config.durationSeconds ? handleExpire : undefined}
-            />
-            {/* Pause is deliberately unavailable in Test Mode — a timed exam
-                shouldn't be arbitrarily pausable (Phase 8.5 §9). Practice
-                Mode keeps it since there's no clock pressure to protect. */}
-            {!isTestMode && (
-              <button
-                onClick={() => (isPaused ? resumeSession() : pauseSession())}
-                className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
-                aria-label={isPaused ? 'Resume' : 'Pause'}
-              >
-                {isPaused ? <Play size={16} style={{ color: 'var(--text-primary)' }} /> : <Pause size={16} style={{ color: 'var(--text-secondary)' }} />}
-              </button>
-            )}
-            <button onClick={() => setShowPalette(true)} className="md:hidden p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors" aria-label="Question palette">
-              <LayoutGrid size={16} style={{ color: 'var(--text-secondary)' }} />
-            </button>
+  const header = (
+    <>
+      <div className="px-3 sm:px-4 min-h-14 py-2 flex items-center justify-between gap-2 sm:gap-4">
+        <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
+          <button onClick={handleQuit} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0" aria-label="Quit">
+            <X size={18} style={{ color: 'var(--text-secondary)' }} />
+          </button>
+          <div className="min-w-0">
+            <h1 className="font-display font-bold text-xs sm:text-sm truncate" style={{ color: 'var(--text-primary)' }}>
+              {session.config.label}
+            </h1>
+            <p className="text-[11px] sm:text-xs" style={{ color: 'var(--text-muted)' }} data-testid="question-position">
+              Q{session.currentIndex + 1} / {session.questionIds.length}
+              <span className="hidden sm:inline"> · {isTestMode ? 'Test' : 'Practice'}</span>
+            </p>
           </div>
         </div>
-        <div className="h-1" style={{ background: 'var(--border)' }}>
-          <motion.div className="h-full bg-gradient-to-r from-brand-500 to-purple-600" animate={{ width: `${progress}%` }} transition={{ duration: 0.3 }} />
+        <div className="flex items-center gap-1 sm:gap-2 flex-shrink-0">
+          <QuizTimer
+            startTime={session.startedAt}
+            totalPausedTime={session.totalPausedTime}
+            isPaused={!!session.pausedAt}
+            pausedAt={session.pausedAt}
+            durationSeconds={session.config.durationSeconds}
+            onExpire={session.config.durationSeconds ? handleExpire : undefined}
+          />
+          {/* Pause is deliberately unavailable in Test Mode — a timed exam
+              shouldn't be arbitrarily pausable (Phase 8.5 §9). Practice
+              Mode keeps it since there's no clock pressure to protect. */}
+          {!isTestMode && (
+            <button
+              onClick={() => (isPaused ? resumeSession() : pauseSession())}
+              className="p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
+              aria-label={isPaused ? 'Resume' : 'Pause'}
+            >
+              {isPaused ? <Play size={16} style={{ color: 'var(--text-primary)' }} /> : <Pause size={16} style={{ color: 'var(--text-secondary)' }} />}
+            </button>
+          )}
+          <button onClick={() => setShowPalette(true)} className="lg:hidden p-2 rounded-xl hover:bg-gray-100 dark:hover:bg-white/10 transition-colors" aria-label="Question palette">
+            <LayoutGrid size={16} style={{ color: 'var(--text-secondary)' }} />
+          </button>
         </div>
-      </header>
+      </div>
+      <div className="h-1" style={{ background: 'var(--border)' }} role="progressbar" aria-valuemin={1} aria-valuemax={session.questionIds.length} aria-valuenow={session.currentIndex + 1} aria-label="Question progress">
+        <motion.div className="h-full bg-gradient-to-r from-brand-500 to-purple-600" animate={{ width: `${progress}%` }} transition={{ duration: 0.2 }} />
+      </div>
+    </>
+  );
 
+  const footer = (
+    <div className="px-3 sm:px-4 py-2 flex items-center justify-between gap-2">
+      <button
+        className="px-3 sm:px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium flex items-center gap-1 disabled:opacity-40 disabled:cursor-not-allowed"
+        style={{ background: 'var(--card)', color: 'var(--text-secondary)', border: '1px solid var(--border)' }}
+        onClick={() => navigateTo(session.currentIndex - 1)}
+        disabled={session.currentIndex === 0}
+      >
+        <ChevronLeft size={14} /> Previous
+      </button>
+      <button
+        onClick={toggleMarkForReview}
+        aria-pressed={currentState.isMarkedForReview}
+        className="px-3 sm:px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium flex items-center gap-1.5"
+        style={{
+          background: currentState.isMarkedForReview ? 'rgba(245,158,11,0.15)' : 'var(--card)',
+          color: currentState.isMarkedForReview ? '#b45309' : 'var(--text-secondary)',
+          border: '1px solid var(--border)',
+        }}
+      >
+        <Flag size={14} fill={currentState.isMarkedForReview ? 'currentColor' : 'none'} />
+        <span className="hidden xs:inline">Mark for Review</span><span className="xs:hidden">Mark</span>
+      </button>
+      <button className="btn-primary px-4 sm:px-5 py-2.5 text-xs sm:text-sm flex items-center gap-1" onClick={handleNext} disabled={isFinishing}>
+        {isLast ? (isTestMode ? 'Submit Test' : 'Finish') : isTestMode ? 'Next' : isAnswered ? 'Next' : 'Skip'}
+        {!isLast && <ChevronRight size={14} />}
+      </button>
+    </div>
+  );
+
+  const overlays = (
+    <>
       <AnimatePresence>
         {isPaused && (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-50 flex items-center justify-center" style={{ background: 'rgba(0,0,0,0.7)' }}>
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-50 flex items-center justify-center" style={{ background: 'rgba(0,0,0,0.7)' }} role="dialog" aria-modal="true" aria-label="Paused">
             <div className="card p-10 text-center">
               <div className="text-5xl mb-4">⏸️</div>
               <h2 className="text-2xl font-display font-bold mb-2" style={{ color: 'var(--text-primary)' }}>Paused</h2>
@@ -240,122 +322,9 @@ export default function UniversalSessionPage() {
         )}
       </AnimatePresence>
 
-      <div className="max-w-5xl mx-auto px-3 sm:px-4 py-4 sm:py-6">
-        <div className="flex gap-6">
-          <div className="flex-1 min-w-0">
-            <AnimatePresence mode="wait">
-              <motion.div key={session.currentIndex} initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -20 }} transition={{ duration: 0.22 }}>
-                <div className="card p-4 sm:p-6">
-                  {!currentQuestion ? (
-                    // Question resolution failed — show it plainly rather than crash or silently substitute another question (master prompt §22).
-                    <div className="flex items-start gap-3 p-4 rounded-xl" style={{ background: 'rgba(239,68,68,0.08)' }}>
-                      <AlertTriangle size={20} className="text-red-500 flex-shrink-0 mt-0.5" />
-                      <div>
-                        <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>This question couldn't be loaded</p>
-                        <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>Question id: {currentId}</p>
-                      </div>
-                    </div>
-                  ) : (
-                    <>
-                      <div className="flex items-start justify-between gap-3 mb-6">
-                        <div className="flex items-start gap-3">
-                          <span className="inline-flex items-center justify-center w-8 h-8 rounded-xl bg-brand-100 dark:bg-brand-900/40 text-brand-600 dark:text-brand-400 font-bold text-sm flex-shrink-0 mt-0.5">
-                            {session.currentIndex + 1}
-                          </span>
-                          <p className="text-base md:text-lg leading-relaxed font-medium" style={{ color: 'var(--text-primary)' }}>{currentQuestion.question}</p>
-                        </div>
-                        <button
-                          onClick={toggleMarkForReview}
-                          className={`p-2 rounded-xl transition-colors flex-shrink-0 ${currentState.isMarkedForReview ? 'text-amber-500 bg-amber-50 dark:bg-amber-900/20' : 'hover:bg-gray-100 dark:hover:bg-white/10'}`}
-                          style={!currentState.isMarkedForReview ? { color: 'var(--text-muted)' } : undefined}
-                          title="Mark for review"
-                        >
-                          <Flag size={16} fill={currentState.isMarkedForReview ? 'currentColor' : 'none'} />
-                        </button>
-                      </div>
-
-                      <div className="space-y-3">
-                        {currentQuestion.options.map((option, idx) => {
-                          const label = getOptionLabel(idx);
-                          const isSelected = option.id === currentState.selectedAnswer;
-                          const isCorrectOption = option.id === currentQuestion.correctAnswer;
-                          let cls = 'option-btn';
-                          let badgeCls = 'bg-brand-100 dark:bg-brand-900/40 text-brand-600 dark:text-brand-400';
-
-                          if (isTestMode) {
-                            if (isSelected) { cls += ' selected-neutral'; badgeCls = 'bg-brand-500 text-white'; }
-                          } else if (isAnswered) {
-                            if (isCorrectOption) { cls += ' reveal-correct'; badgeCls = 'bg-green-500 text-white'; }
-                            else if (isSelected) { cls += ' selected-wrong'; badgeCls = 'bg-red-500 text-white'; }
-                            else cls += ' neutral-disabled';
-                          }
-
-                          return (
-                            <motion.button
-                              key={option.id}
-                              whileHover={!isAnswered || isTestMode ? { scale: 1.005 } : {}}
-                              whileTap={!isAnswered || isTestMode ? { scale: 0.995 } : {}}
-                              className={cls}
-                              onClick={() => handleSelect(option.id)}
-                              disabled={isAnswered && !isTestMode}
-                            >
-                              <span className="inline-flex items-center gap-3">
-                                <span className={`w-6 h-6 rounded-lg flex items-center justify-center text-xs font-bold flex-shrink-0 ${badgeCls}`}>{label}</span>
-                                {option.text}
-                              </span>
-                            </motion.button>
-                          );
-                        })}
-                      </div>
-
-                      {/* Practice-mode reveal — driven by config.mode, never the legacy global setting (master prompt §11) */}
-                      {!isTestMode && isAnswered && (
-                        <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 rounded-xl" style={{ background: 'var(--border)' }}>
-                          <div className="flex items-center gap-2 mb-2">
-                            {currentState.selectedAnswer === currentQuestion.correctAnswer ? (
-                              <><CheckCircle2 size={16} className="text-green-500" /><span className="text-sm font-semibold text-green-600 dark:text-green-400">Correct</span></>
-                            ) : (
-                              <><XCircle size={16} className="text-red-500" /><span className="text-sm font-semibold text-red-600 dark:text-red-400">Incorrect</span></>
-                            )}
-                          </div>
-                          {currentQuestion.explanation && (
-                            <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{currentQuestion.explanation}</p>
-                          )}
-                          <button onClick={handleNext} className="btn-primary text-sm py-2 px-5 mt-4 flex items-center gap-1">
-                            {isLast ? 'Finish' : 'Next'} {!isLast && <ChevronRight size={14} />}
-                          </button>
-                        </motion.div>
-                      )}
-                    </>
-                  )}
-                </div>
-              </motion.div>
-            </AnimatePresence>
-
-            {(isTestMode || !isAnswered) && (
-              <div className="flex justify-between mt-4">
-                <button className="btn-ghost flex items-center gap-1 text-sm" onClick={() => goToQuestion(Math.max(0, session.currentIndex - 1))} disabled={session.currentIndex === 0}>
-                  <ChevronLeft size={16} /> Previous
-                </button>
-                <button className="btn-primary flex items-center gap-1 text-sm" onClick={handleNext} disabled={isFinishing}>
-                  {isLast ? (isTestMode ? 'Submit Test' : 'Skip') : isTestMode ? 'Next' : 'Skip'}
-                  {!isLast && <ChevronRight size={16} />}
-                </button>
-              </div>
-            )}
-          </div>
-
-          <div className="hidden md:block w-56 flex-shrink-0">
-            <div className="sticky top-20">
-              <QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={goToQuestion} hideCorrectness={isTestMode} />
-            </div>
-          </div>
-        </div>
-      </div>
-
       <AnimatePresence>
         {showSubmitConfirm && (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-[140] flex items-center justify-center p-4 bg-black/60" onClick={() => setShowSubmitConfirm(false)}>
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-[140] flex items-center justify-center p-4 bg-black/60" onClick={() => setShowSubmitConfirm(false)} role="dialog" aria-modal="true" aria-label="Submit test">
             <motion.div initial={{ y: 20, opacity: 0, scale: 0.97 }} animate={{ y: 0, opacity: 1, scale: 1 }} exit={{ y: 20, opacity: 0, scale: 0.97 }} className="card p-6 max-w-sm w-full text-center" onClick={(e) => e.stopPropagation()}>
               <div className="w-14 h-14 rounded-2xl bg-amber-50 dark:bg-amber-900/20 flex items-center justify-center mx-auto mb-4">
                 <AlertTriangle size={26} className="text-amber-500" />
@@ -367,6 +336,7 @@ export default function UniversalSessionPage() {
               <button onClick={finishAndRecord} disabled={isFinishing} className="btn-primary text-sm py-2.5 w-full">
                 {isFinishing ? 'Submitting…' : 'Submit Test'}
               </button>
+              <button onClick={() => setShowSubmitConfirm(false)} disabled={isFinishing} className="btn-ghost text-sm w-full mt-2">Go back</button>
             </motion.div>
           </motion.div>
         )}
@@ -376,16 +346,104 @@ export default function UniversalSessionPage() {
         {showPalette && (
           <>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-40 bg-black/50" onClick={() => setShowPalette(false)} />
-            <motion.div initial={{ x: '100%' }} animate={{ x: 0 }} exit={{ x: '100%' }} transition={{ type: 'spring', damping: 25, stiffness: 200 }} className="fixed right-0 top-0 bottom-0 z-50 w-72 p-4 overflow-y-auto" style={{ background: 'var(--card)', borderLeft: '1px solid var(--border)' }}>
+            <motion.div initial={{ x: '100%' }} animate={{ x: 0 }} exit={{ x: '100%' }} transition={{ type: 'spring', damping: 25, stiffness: 200 }} className="fixed right-0 top-0 bottom-0 z-50 w-72 max-w-[85vw] p-4 overflow-y-auto" style={{ background: 'var(--card)', borderLeft: '1px solid var(--border)', paddingTop: 'max(1rem, env(safe-area-inset-top, 0px))', paddingBottom: 'max(1rem, env(safe-area-inset-bottom, 0px))' }} role="dialog" aria-modal="true" aria-label="Question palette">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="font-display font-bold" style={{ color: 'var(--text-primary)' }}>Question Palette</h2>
-                <button onClick={() => setShowPalette(false)} className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10"><X size={16} style={{ color: 'var(--text-secondary)' }} /></button>
+                <button onClick={() => setShowPalette(false)} className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10" aria-label="Close palette"><X size={16} style={{ color: 'var(--text-secondary)' }} /></button>
               </div>
-              <QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={(idx) => { goToQuestion(idx); setShowPalette(false); }} hideCorrectness={isTestMode} />
+              <QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={(idx) => { navigateTo(idx); setShowPalette(false); }} hideCorrectness={isTestMode} />
             </motion.div>
           </>
         )}
       </AnimatePresence>
-    </div>
+    </>
+  );
+
+  return (
+    <ExamShell
+      header={header}
+      footer={footer}
+      overlays={overlays}
+      palette={<QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={navigateTo} hideCorrectness={isTestMode} />}
+    >
+      <AnimatePresence mode="wait">
+        <motion.div key={session.currentIndex} initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.15 }} className="px-3 sm:px-5 lg:px-8 py-4 sm:py-6">
+          {!currentQuestion ? (
+            // Question resolution failed — show it plainly rather than crash or silently substitute another question (master prompt §22).
+            <div className="flex items-start gap-3 p-4 rounded-xl" style={{ background: 'rgba(239,68,68,0.08)' }}>
+              <AlertTriangle size={20} className="text-red-500 flex-shrink-0 mt-0.5" />
+              <div>
+                <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>This question couldn't be loaded</p>
+                <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>Question id: {currentId}</p>
+              </div>
+            </div>
+          ) : (
+            <>
+              <div className="flex items-start gap-3 mb-5">
+                <span className="inline-flex items-center justify-center w-8 h-8 rounded-xl bg-brand-100 dark:bg-brand-900/40 text-brand-600 dark:text-brand-400 font-bold text-sm flex-shrink-0 mt-0.5">
+                  {session.currentIndex + 1}
+                </span>
+                <div className="min-w-0 flex-1 text-base md:text-lg leading-relaxed font-medium" style={{ color: 'var(--text-primary)' }}>
+                  <QuestionMarkdownRenderer content={currentQuestion.question} baseDir={currentQuestion.sourceMockBaseDir} />
+                </div>
+              </div>
+
+              <div className="space-y-3" role="group" aria-label="Answer options">
+                {currentQuestion.options.map((option, idx) => {
+                  const label = getOptionLabel(idx);
+                  const isSelected = option.id === currentState.selectedAnswer;
+                  const isCorrectOption = option.id === currentQuestion.correctAnswer;
+                  let cls = 'option-btn';
+                  let badgeCls = 'bg-brand-100 dark:bg-brand-900/40 text-brand-600 dark:text-brand-400';
+
+                  if (isTestMode) {
+                    if (isSelected) { cls += ' selected-neutral'; badgeCls = 'bg-brand-500 text-white'; }
+                  } else if (isAnswered) {
+                    if (isCorrectOption) { cls += ' reveal-correct'; badgeCls = 'bg-green-500 text-white'; }
+                    else if (isSelected) { cls += ' selected-wrong'; badgeCls = 'bg-red-500 text-white'; }
+                    else cls += ' neutral-disabled';
+                  }
+
+                  return (
+                    <motion.button
+                      key={option.id}
+                      whileHover={!isAnswered || isTestMode ? { scale: 1.002 } : {}}
+                      whileTap={!isAnswered || isTestMode ? { scale: 0.997 } : {}}
+                      className={cls}
+                      onClick={() => handleSelect(option.id)}
+                      disabled={isAnswered && !isTestMode}
+                      aria-pressed={isSelected}
+                    >
+                      <span className="flex items-start gap-3">
+                        <span className={`w-6 h-6 rounded-lg flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5 ${badgeCls}`}>{label}</span>
+                        <span className="min-w-0 flex-1"><QuestionOptionContent text={option.text} image={option.image} baseDir={currentQuestion.sourceMockBaseDir} /></span>
+                      </span>
+                    </motion.button>
+                  );
+                })}
+              </div>
+
+              {/* Practice-mode reveal — driven by config.mode, never the legacy global setting (master prompt §11) */}
+              {!isTestMode && isAnswered && (
+                <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="mt-5 p-4 rounded-xl" style={{ background: 'var(--border)' }}>
+                  <div className="flex items-center gap-2 mb-2">
+                    {currentState.selectedAnswer === currentQuestion.correctAnswer ? (
+                      <><CheckCircle2 size={16} className="text-green-500" /><span className="text-sm font-semibold text-green-600 dark:text-green-400">Correct</span></>
+                    ) : (
+                      <><XCircle size={16} className="text-red-500" /><span className="text-sm font-semibold text-red-600 dark:text-red-400">Incorrect</span></>
+                    )}
+                  </div>
+                  {currentQuestion.explanation && (
+                    <div className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+                      <QuestionMarkdownRenderer content={currentQuestion.explanation} baseDir={currentQuestion.sourceMockBaseDir} />
+                    </div>
+                  )}
+                </motion.div>
+              )}
+            </>
+          )}
+        </motion.div>
+      </AnimatePresence>
+    </ExamShell>
   );
 }

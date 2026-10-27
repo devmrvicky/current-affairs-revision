@@ -1,0 +1,142 @@
+[
+  {
+    "id": "syn201",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to DETRIMENTAL.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lucrative"
+      },
+      {
+        "id": "B",
+        "text": "Expedient"
+      },
+      {
+        "id": "C",
+        "text": "Plausible"
+      },
+      {
+        "id": "D",
+        "text": "Harmful"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn202",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to INVETERATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Occasional"
+      },
+      {
+        "id": "B",
+        "text": "Lethargic"
+      },
+      {
+        "id": "C",
+        "text": "Habitual"
+      },
+      {
+        "id": "D",
+        "text": "Inexperienced"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn203",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to ADVERSITY.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eloquence"
+      },
+      {
+        "id": "B",
+        "text": "Hardship"
+      },
+      {
+        "id": "C",
+        "text": "Prosperity"
+      },
+      {
+        "id": "D",
+        "text": "Tranquillity"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn204",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to VINDICATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exonerate"
+      },
+      {
+        "id": "B",
+        "text": "Rebuke"
+      },
+      {
+        "id": "C",
+        "text": "Ostracise"
+      },
+      {
+        "id": "D",
+        "text": "Incriminate"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "syn205",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to GARRULOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jocular"
+      },
+      {
+        "id": "B",
+        "text": "Reserved"
+      },
+      {
+        "id": "C",
+        "text": "Loquacious"
+      },
+      {
+        "id": "D",
+        "text": "Sullen"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  }
+]
