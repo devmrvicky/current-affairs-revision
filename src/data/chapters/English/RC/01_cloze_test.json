@@ -1,0 +1,702 @@
+[
+  {
+    "id": "cloze001",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nWhen Meena was appointed principal of the village school, she found the building in a state of complete ____(1)____. Many classrooms had no benches, and the roof leaked badly during the monsoon. Instead of complaining, she decided to ____(2)____ the matter with the villagers directly. She went from house to house and ____(3)____ them to contribute whatever they could. Within a year, the school had improved by leaps and ____(4)____, with new benches and a repaired roof. Today, the villagers are proud ____(5)____ their school and grateful to Meena.\n\nSelect the most appropriate option to fill in blank No. 1.",
+    "options": [
+      {
+        "id": "A",
+        "text": "neglected"
+      },
+      {
+        "id": "B",
+        "text": "neglect"
+      },
+      {
+        "id": "C",
+        "text": "neglecting"
+      },
+      {
+        "id": "D",
+        "text": "negligent"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'in a state of + noun' — 'of' के बाद noun आता है, इसलिए 'neglect' (उपेक्षा/बदहाली) सही है। 'neglected' और 'negligent' विशेषण हैं तथा 'neglecting' क्रिया-रूप है। Example: The garden was in a state of neglect.",
+    "language": "en"
+  },
+  {
+    "id": "cloze002",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nWhen Meena was appointed principal of the village school, she found the building in a state of complete ____(1)____. Many classrooms had no benches, and the roof leaked badly during the monsoon. Instead of complaining, she decided to ____(2)____ the matter with the villagers directly. She went from house to house and ____(3)____ them to contribute whatever they could. Within a year, the school had improved by leaps and ____(4)____, with new benches and a repaired roof. Today, the villagers are proud ____(5)____ their school and grateful to Meena.\n\nSelect the most appropriate option to fill in blank No. 2.",
+    "options": [
+      {
+        "id": "A",
+        "text": "take up"
+      },
+      {
+        "id": "B",
+        "text": "take after"
+      },
+      {
+        "id": "C",
+        "text": "take in"
+      },
+      {
+        "id": "D",
+        "text": "take off"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'take up a matter with someone' = किसी मुद्दे को किसी के सामने उठाना। take after = स्वभाव/शक्ल में मिलना; take in = समझना/धोखा देना; take off = उतारना/उड़ान भरना। Example: He decided to take up the issue with the manager.",
+    "language": "en"
+  },
+  {
+    "id": "cloze003",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nWhen Meena was appointed principal of the village school, she found the building in a state of complete ____(1)____. Many classrooms had no benches, and the roof leaked badly during the monsoon. Instead of complaining, she decided to ____(2)____ the matter with the villagers directly. She went from house to house and ____(3)____ them to contribute whatever they could. Within a year, the school had improved by leaps and ____(4)____, with new benches and a repaired roof. Today, the villagers are proud ____(5)____ their school and grateful to Meena.\n\nSelect the most appropriate option to fill in blank No. 3.",
+    "options": [
+      {
+        "id": "A",
+        "text": "dissuaded"
+      },
+      {
+        "id": "B",
+        "text": "urged"
+      },
+      {
+        "id": "C",
+        "text": "prohibited"
+      },
+      {
+        "id": "D",
+        "text": "ridiculed"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'urge' = ज़ोर देकर आग्रह करना; 'urged them to contribute' संदर्भ में सटीक है। dissuade = रोकना/हतोत्साहित करना; prohibit = मना करना; ridicule = मज़ाक उड़ाना। Example: The teacher urged the students to work harder.",
+    "language": "en"
+  },
+  {
+    "id": "cloze004",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nWhen Meena was appointed principal of the village school, she found the building in a state of complete ____(1)____. Many classrooms had no benches, and the roof leaked badly during the monsoon. Instead of complaining, she decided to ____(2)____ the matter with the villagers directly. She went from house to house and ____(3)____ them to contribute whatever they could. Within a year, the school had improved by leaps and ____(4)____, with new benches and a repaired roof. Today, the villagers are proud ____(5)____ their school and grateful to Meena.\n\nSelect the most appropriate option to fill in blank No. 4.",
+    "options": [
+      {
+        "id": "A",
+        "text": "steps"
+      },
+      {
+        "id": "B",
+        "text": "jumps"
+      },
+      {
+        "id": "C",
+        "text": "bounds"
+      },
+      {
+        "id": "D",
+        "text": "strides"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'by leaps and bounds' (idiom) = बहुत तेज़ी से। Example: Her English has improved by leaps and bounds.",
+    "language": "en"
+  },
+  {
+    "id": "cloze005",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nWhen Meena was appointed principal of the village school, she found the building in a state of complete ____(1)____. Many classrooms had no benches, and the roof leaked badly during the monsoon. Instead of complaining, she decided to ____(2)____ the matter with the villagers directly. She went from house to house and ____(3)____ them to contribute whatever they could. Within a year, the school had improved by leaps and ____(4)____, with new benches and a repaired roof. Today, the villagers are proud ____(5)____ their school and grateful to Meena.\n\nSelect the most appropriate option to fill in blank No. 5.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "for"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'proud of' fixed preposition — किसी पर गर्व होना। Example: Parents are proud of their children.",
+    "language": "en"
+  },
+  {
+    "id": "cloze006",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nRakesh was never fond of exercise. For years, he would ____(1)____ the morning walk that his doctor had advised, and whenever his wife reminded him, he would make an excuse and go back to sleep. Then a minor heart problem last year proved to be a blessing in ____(2)____. Frightened by the doctor's warning, he finally ____(3)____ walking for half an hour every day. By the time his neighbours wake up, he ____(4)____ already completed his walk and returned home. His friends, who had once laughed at him, now congratulate him ____(5)____ his remarkable discipline.\n\nSelect the most appropriate option to fill in blank No. 1.",
+    "options": [
+      {
+        "id": "A",
+        "text": "skip"
+      },
+      {
+        "id": "B",
+        "text": "relish"
+      },
+      {
+        "id": "C",
+        "text": "enjoy"
+      },
+      {
+        "id": "D",
+        "text": "cherish"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'skip' = छोड़ देना/टाल देना। संदर्भ: वह सैर टाल देता था और बहाना बनाकर सो जाता था। relish, enjoy और cherish का अर्थ आनंद लेना/संजोना है, जो संदर्भ के विपरीत है। Example: He skipped breakfast and rushed to the office.",
+    "language": "en"
+  },
+  {
+    "id": "cloze007",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nRakesh was never fond of exercise. For years, he would ____(1)____ the morning walk that his doctor had advised, and whenever his wife reminded him, he would make an excuse and go back to sleep. Then a minor heart problem last year proved to be a blessing in ____(2)____. Frightened by the doctor's warning, he finally ____(3)____ walking for half an hour every day. By the time his neighbours wake up, he ____(4)____ already completed his walk and returned home. His friends, who had once laughed at him, now congratulate him ____(5)____ his remarkable discipline.\n\nSelect the most appropriate option to fill in blank No. 2.",
+    "options": [
+      {
+        "id": "A",
+        "text": "disguise"
+      },
+      {
+        "id": "B",
+        "text": "secret"
+      },
+      {
+        "id": "C",
+        "text": "shadow"
+      },
+      {
+        "id": "D",
+        "text": "hiding"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'a blessing in disguise' (idiom) = ऐसी मुसीबत जो आगे चलकर लाभदायक निकले। Example: Losing that job was a blessing in disguise for him.",
+    "language": "en"
+  },
+  {
+    "id": "cloze008",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nRakesh was never fond of exercise. For years, he would ____(1)____ the morning walk that his doctor had advised, and whenever his wife reminded him, he would make an excuse and go back to sleep. Then a minor heart problem last year proved to be a blessing in ____(2)____. Frightened by the doctor's warning, he finally ____(3)____ walking for half an hour every day. By the time his neighbours wake up, he ____(4)____ already completed his walk and returned home. His friends, who had once laughed at him, now congratulate him ____(5)____ his remarkable discipline.\n\nSelect the most appropriate option to fill in blank No. 3.",
+    "options": [
+      {
+        "id": "A",
+        "text": "took after"
+      },
+      {
+        "id": "B",
+        "text": "took up"
+      },
+      {
+        "id": "C",
+        "text": "took over"
+      },
+      {
+        "id": "D",
+        "text": "took in"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'take up' = कोई आदत/शौक शुरू करना; 'took up walking' = टहलना शुरू किया। take after = स्वभाव में मिलना; take over = कार्यभार लेना; take in = समझना/धोखा देना। Example: She took up painting last year.",
+    "language": "en"
+  },
+  {
+    "id": "cloze009",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nRakesh was never fond of exercise. For years, he would ____(1)____ the morning walk that his doctor had advised, and whenever his wife reminded him, he would make an excuse and go back to sleep. Then a minor heart problem last year proved to be a blessing in ____(2)____. Frightened by the doctor's warning, he finally ____(3)____ walking for half an hour every day. By the time his neighbours wake up, he ____(4)____ already completed his walk and returned home. His friends, who had once laughed at him, now congratulate him ____(5)____ his remarkable discipline.\n\nSelect the most appropriate option to fill in blank No. 4.",
+    "options": [
+      {
+        "id": "A",
+        "text": "have"
+      },
+      {
+        "id": "B",
+        "text": "had been"
+      },
+      {
+        "id": "C",
+        "text": "has"
+      },
+      {
+        "id": "D",
+        "text": "is having"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'he' तीसरा पुरुष एकवचन है और 'already completed' present perfect बनाता है, इसलिए 'has' + V3 (completed) सही है। 'have' singular subject के साथ गलत है। Example: By the time we reach, the show has already started.",
+    "language": "en"
+  },
+  {
+    "id": "cloze010",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nRakesh was never fond of exercise. For years, he would ____(1)____ the morning walk that his doctor had advised, and whenever his wife reminded him, he would make an excuse and go back to sleep. Then a minor heart problem last year proved to be a blessing in ____(2)____. Frightened by the doctor's warning, he finally ____(3)____ walking for half an hour every day. By the time his neighbours wake up, he ____(4)____ already completed his walk and returned home. His friends, who had once laughed at him, now congratulate him ____(5)____ his remarkable discipline.\n\nSelect the most appropriate option to fill in blank No. 5.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "to"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'congratulate someone on something' — fixed preposition 'on'। Example: I congratulated her on her success.",
+    "language": "en"
+  },
+  {
+    "id": "cloze011",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nIn recent years, technology has brought ____(1)____ a remarkable change in classrooms. Students can now ____(2)____ information on any subject within seconds. Teachers, however, warn that excessive dependence ____(3)____ gadgets may weaken a child's ability to think independently. They add that there is no shortcut to success, and that students who wish to excel must still ____(4)____ the midnight oil. Whether we like it or not, the use of digital devices in education ____(5)____ here to stay, so the wise course is to use them sensibly.\n\nSelect the most appropriate option to fill in blank No. 1.",
+    "options": [
+      {
+        "id": "A",
+        "text": "down"
+      },
+      {
+        "id": "B",
+        "text": "off"
+      },
+      {
+        "id": "C",
+        "text": "over"
+      },
+      {
+        "id": "D",
+        "text": "about"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'bring about' = (बदलाव/परिणाम) लाना। 'brought about a remarkable change' = उल्लेखनीय बदलाव लाया। Example: The new law brought about major reforms.",
+    "language": "en"
+  },
+  {
+    "id": "cloze012",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nIn recent years, technology has brought ____(1)____ a remarkable change in classrooms. Students can now ____(2)____ information on any subject within seconds. Teachers, however, warn that excessive dependence ____(3)____ gadgets may weaken a child's ability to think independently. They add that there is no shortcut to success, and that students who wish to excel must still ____(4)____ the midnight oil. Whether we like it or not, the use of digital devices in education ____(5)____ here to stay, so the wise course is to use them sensibly.\n\nSelect the most appropriate option to fill in blank No. 2.",
+    "options": [
+      {
+        "id": "A",
+        "text": "relinquish"
+      },
+      {
+        "id": "B",
+        "text": "retrieve"
+      },
+      {
+        "id": "C",
+        "text": "repel"
+      },
+      {
+        "id": "D",
+        "text": "renounce"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'retrieve' = (जानकारी) प्राप्त करना/निकालना। relinquish = छोड़ देना; repel = दूर भगाना; renounce = त्याग देना। Example: You can retrieve deleted files from the recycle bin.",
+    "language": "en"
+  },
+  {
+    "id": "cloze013",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nIn recent years, technology has brought ____(1)____ a remarkable change in classrooms. Students can now ____(2)____ information on any subject within seconds. Teachers, however, warn that excessive dependence ____(3)____ gadgets may weaken a child's ability to think independently. They add that there is no shortcut to success, and that students who wish to excel must still ____(4)____ the midnight oil. Whether we like it or not, the use of digital devices in education ____(5)____ here to stay, so the wise course is to use them sensibly.\n\nSelect the most appropriate option to fill in blank No. 3.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "in"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'dependence on' — fixed preposition 'on'। Example: Dependence on loans can ruin a business.",
+    "language": "en"
+  },
+  {
+    "id": "cloze014",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nIn recent years, technology has brought ____(1)____ a remarkable change in classrooms. Students can now ____(2)____ information on any subject within seconds. Teachers, however, warn that excessive dependence ____(3)____ gadgets may weaken a child's ability to think independently. They add that there is no shortcut to success, and that students who wish to excel must still ____(4)____ the midnight oil. Whether we like it or not, the use of digital devices in education ____(5)____ here to stay, so the wise course is to use them sensibly.\n\nSelect the most appropriate option to fill in blank No. 4.",
+    "options": [
+      {
+        "id": "A",
+        "text": "light"
+      },
+      {
+        "id": "B",
+        "text": "spend"
+      },
+      {
+        "id": "C",
+        "text": "burn"
+      },
+      {
+        "id": "D",
+        "text": "fire"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'burn the midnight oil' (idiom) = देर रात तक मेहनत से पढ़ना/काम करना। Example: She burnt the midnight oil to prepare for the exam.",
+    "language": "en"
+  },
+  {
+    "id": "cloze015",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nIn recent years, technology has brought ____(1)____ a remarkable change in classrooms. Students can now ____(2)____ information on any subject within seconds. Teachers, however, warn that excessive dependence ____(3)____ gadgets may weaken a child's ability to think independently. They add that there is no shortcut to success, and that students who wish to excel must still ____(4)____ the midnight oil. Whether we like it or not, the use of digital devices in education ____(5)____ here to stay, so the wise course is to use them sensibly.\n\nSelect the most appropriate option to fill in blank No. 5.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "have been"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "Subject 'the use' (एकवचन) है; 'of digital devices' केवल उसका विस्तार है, इसलिए क्रिया 'is' आएगी। Example: The use of mobile phones is increasing.",
+    "language": "en"
+  },
+  {
+    "id": "cloze016",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nThe city administration has decided to ____(1)____ a survey of all the factories located near the river. For years, officials had turned a ____(2)____ eye to the problem, and industrial waste had made the water so ____(3)____ that fish could no longer survive in it. If the factories ____(4)____ their waste properly, the river would have remained clean. The authorities are now insisting ____(5)____ the installation of treatment plants in every unit.\n\nSelect the most appropriate option to fill in blank No. 1.",
+    "options": [
+      {
+        "id": "A",
+        "text": "carry off"
+      },
+      {
+        "id": "B",
+        "text": "carry away"
+      },
+      {
+        "id": "C",
+        "text": "carry forward"
+      },
+      {
+        "id": "D",
+        "text": "carry out"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'carry out' = (सर्वे, योजना, जाँच) करना/पूरा करना। Example: The police will carry out an inquiry.",
+    "language": "en"
+  },
+  {
+    "id": "cloze017",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nThe city administration has decided to ____(1)____ a survey of all the factories located near the river. For years, officials had turned a ____(2)____ eye to the problem, and industrial waste had made the water so ____(3)____ that fish could no longer survive in it. If the factories ____(4)____ their waste properly, the river would have remained clean. The authorities are now insisting ____(5)____ the installation of treatment plants in every unit.\n\nSelect the most appropriate option to fill in blank No. 2.",
+    "options": [
+      {
+        "id": "A",
+        "text": "blind"
+      },
+      {
+        "id": "B",
+        "text": "deaf"
+      },
+      {
+        "id": "C",
+        "text": "dim"
+      },
+      {
+        "id": "D",
+        "text": "shut"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'turn a blind eye to' (idiom) = जानबूझकर अनदेखा करना। Example: The officer turned a blind eye to the violations.",
+    "language": "en"
+  },
+  {
+    "id": "cloze018",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nThe city administration has decided to ____(1)____ a survey of all the factories located near the river. For years, officials had turned a ____(2)____ eye to the problem, and industrial waste had made the water so ____(3)____ that fish could no longer survive in it. If the factories ____(4)____ their waste properly, the river would have remained clean. The authorities are now insisting ____(5)____ the installation of treatment plants in every unit.\n\nSelect the most appropriate option to fill in blank No. 3.",
+    "options": [
+      {
+        "id": "A",
+        "text": "fragrant"
+      },
+      {
+        "id": "B",
+        "text": "refreshing"
+      },
+      {
+        "id": "C",
+        "text": "harmless"
+      },
+      {
+        "id": "D",
+        "text": "toxic"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'toxic' = विषैला; औद्योगिक कचरे से पानी इतना विषैला हो गया कि मछलियाँ जीवित नहीं रह सकतीं। fragrant = सुगंधित; refreshing = ताज़गी देने वाला; harmless = हानिरहित। Example: Toxic gases escaped from the factory.",
+    "language": "en"
+  },
+  {
+    "id": "cloze019",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nThe city administration has decided to ____(1)____ a survey of all the factories located near the river. For years, officials had turned a ____(2)____ eye to the problem, and industrial waste had made the water so ____(3)____ that fish could no longer survive in it. If the factories ____(4)____ their waste properly, the river would have remained clean. The authorities are now insisting ____(5)____ the installation of treatment plants in every unit.\n\nSelect the most appropriate option to fill in blank No. 4.",
+    "options": [
+      {
+        "id": "A",
+        "text": "had treated"
+      },
+      {
+        "id": "B",
+        "text": "treated"
+      },
+      {
+        "id": "C",
+        "text": "have treated"
+      },
+      {
+        "id": "D",
+        "text": "would treat"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "Third conditional: If + had + V3, ... would/might have + V3। मुख्य वाक्य में 'would have remained' है, इसलिए 'had treated' सही है। Example: If she had studied, she would have passed.",
+    "language": "en"
+  },
+  {
+    "id": "cloze020",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nThe city administration has decided to ____(1)____ a survey of all the factories located near the river. For years, officials had turned a ____(2)____ eye to the problem, and industrial waste had made the water so ____(3)____ that fish could no longer survive in it. If the factories ____(4)____ their waste properly, the river would have remained clean. The authorities are now insisting ____(5)____ the installation of treatment plants in every unit.\n\nSelect the most appropriate option to fill in blank No. 5.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "over"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'insist on' — fixed preposition 'on'। Example: The teacher insisted on punctuality.",
+    "language": "en"
+  },
+  {
+    "id": "cloze021",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nThe local cricket team had not won a single match all season, and most people had ____(1)____ hope of seeing them reach the final. Yet, against all ____(2)____, the boys defeated the strongest team in the district. Each of the players ____(3)____ delighted with the victory, and the coach attributed the success ____(4)____ teamwork and discipline. Their ____(5)____ proved that determination can achieve even the impossible.\n\nSelect the most appropriate option to fill in blank No. 1.",
+    "options": [
+      {
+        "id": "A",
+        "text": "given up"
+      },
+      {
+        "id": "B",
+        "text": "given in"
+      },
+      {
+        "id": "C",
+        "text": "given away"
+      },
+      {
+        "id": "D",
+        "text": "given out"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'give up hope' = उम्मीद छोड़ देना। Example: Never give up hope in difficult times.",
+    "language": "en"
+  },
+  {
+    "id": "cloze022",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nThe local cricket team had not won a single match all season, and most people had ____(1)____ hope of seeing them reach the final. Yet, against all ____(2)____, the boys defeated the strongest team in the district. Each of the players ____(3)____ delighted with the victory, and the coach attributed the success ____(4)____ teamwork and discipline. Their ____(5)____ proved that determination can achieve even the impossible.\n\nSelect the most appropriate option to fill in blank No. 2.",
+    "options": [
+      {
+        "id": "A",
+        "text": "bets"
+      },
+      {
+        "id": "B",
+        "text": "stakes"
+      },
+      {
+        "id": "C",
+        "text": "winnings"
+      },
+      {
+        "id": "D",
+        "text": "odds"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'against all odds' (idiom) = सारी मुश्किलों/संभावनाओं के विपरीत। Example: Against all odds, she cleared the exam.",
+    "language": "en"
+  },
+  {
+    "id": "cloze023",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nThe local cricket team had not won a single match all season, and most people had ____(1)____ hope of seeing them reach the final. Yet, against all ____(2)____, the boys defeated the strongest team in the district. Each of the players ____(3)____ delighted with the victory, and the coach attributed the success ____(4)____ teamwork and discipline. Their ____(5)____ proved that determination can achieve even the impossible.\n\nSelect the most appropriate option to fill in blank No. 3.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "was"
+      },
+      {
+        "id": "D",
+        "text": "have been"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'Each of + plural noun' के साथ क्रिया एकवचन होती है; संदर्भ भूतकाल है, इसलिए 'was'। Example: Each of the boys was given a prize.",
+    "language": "en"
+  },
+  {
+    "id": "cloze024",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nThe local cricket team had not won a single match all season, and most people had ____(1)____ hope of seeing them reach the final. Yet, against all ____(2)____, the boys defeated the strongest team in the district. Each of the players ____(3)____ delighted with the victory, and the coach attributed the success ____(4)____ teamwork and discipline. Their ____(5)____ proved that determination can achieve even the impossible.\n\nSelect the most appropriate option to fill in blank No. 4.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "for"
+      },
+      {
+        "id": "D",
+        "text": "to"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'attribute something to' — fixed preposition 'to' (श्रेय/कारण देना)। Example: He attributed his success to hard work.",
+    "language": "en"
+  },
+  {
+    "id": "cloze025",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nThe local cricket team had not won a single match all season, and most people had ____(1)____ hope of seeing them reach the final. Yet, against all ____(2)____, the boys defeated the strongest team in the district. Each of the players ____(3)____ delighted with the victory, and the coach attributed the success ____(4)____ teamwork and discipline. Their ____(5)____ proved that determination can achieve even the impossible.\n\nSelect the most appropriate option to fill in blank No. 5.",
+    "options": [
+      {
+        "id": "A",
+        "text": "defeat"
+      },
+      {
+        "id": "B",
+        "text": "retreat"
+      },
+      {
+        "id": "C",
+        "text": "surrender"
+      },
+      {
+        "id": "D",
+        "text": "triumph"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'triumph' = विजय। संदर्भ में टीम जीती थी, इसलिए 'Their triumph' सही है। defeat = हार; retreat = पीछे हटना; surrender = आत्मसमर्पण। Example: The team's triumph filled the town with joy.",
+    "language": "en"
+  }
+]

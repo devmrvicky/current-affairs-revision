@@ -1,0 +1,702 @@
+[
+  {
+    "id": "rc001",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nWater is often described as the most precious natural resource, yet it is the one we waste most carelessly. India receives a large amount of rainfall every year, but most of it falls within a few months, and a great deal of this water flows into rivers and finally into the sea without being stored. As a result, many regions face acute shortages during the dry season, even though they received plenty of rain a few months earlier. Rainwater harvesting offers a simple and inexpensive solution to this problem. In this method, rainwater is collected from rooftops and open spaces and directed into tanks, ponds, or underground wells, where it can be used later or allowed to seep into the soil to recharge groundwater. Traditional communities in the arid parts of the country practised this art for centuries, building stepwells and small check dams that sustained entire villages. Modern cities, however, have covered the land with concrete, preventing rain from soaking into the ground. If citizens and governments act together to revive old practices and adopt new technology, the country can reduce its dependence on distant sources and protect its groundwater for future generations.\n\nQuestion: According to the passage, why do many regions face acute water shortages in the dry season?",
+    "options": [
+      {
+        "id": "A",
+        "text": "India receives very little rainfall every year"
+      },
+      {
+        "id": "B",
+        "text": "The rivers in the country have completely dried up"
+      },
+      {
+        "id": "C",
+        "text": "People refuse to use water from underground wells"
+      },
+      {
+        "id": "D",
+        "text": "Most of the rainwater is not stored and flows away into the sea"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज के अनुसार अधिकांश वर्षा कुछ ही महीनों में होती है और उसका बहुत सा पानी बिना जमा हुए नदियों से होकर समुद्र में चला जाता है, इसलिए सूखे मौसम में भारी कमी हो जाती है।",
+    "language": "en"
+  },
+  {
+    "id": "rc002",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nWater is often described as the most precious natural resource, yet it is the one we waste most carelessly. India receives a large amount of rainfall every year, but most of it falls within a few months, and a great deal of this water flows into rivers and finally into the sea without being stored. As a result, many regions face acute shortages during the dry season, even though they received plenty of rain a few months earlier. Rainwater harvesting offers a simple and inexpensive solution to this problem. In this method, rainwater is collected from rooftops and open spaces and directed into tanks, ponds, or underground wells, where it can be used later or allowed to seep into the soil to recharge groundwater. Traditional communities in the arid parts of the country practised this art for centuries, building stepwells and small check dams that sustained entire villages. Modern cities, however, have covered the land with concrete, preventing rain from soaking into the ground. If citizens and governments act together to revive old practices and adopt new technology, the country can reduce its dependence on distant sources and protect its groundwater for future generations.\n\nQuestion: Which of the following best describes rainwater harvesting as presented in the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A costly technology that only modern cities can afford"
+      },
+      {
+        "id": "B",
+        "text": "A method of draining excess rainwater quickly into the sea"
+      },
+      {
+        "id": "C",
+        "text": "A simple and inexpensive method of collecting rainwater for later use or for recharging groundwater"
+      },
+      {
+        "id": "D",
+        "text": "A practice abandoned by traditional communities long ago"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज में rainwater harvesting को सरल और सस्ता उपाय बताया गया है, जिसमें छतों और खुली जगहों से वर्षा-जल टैंक, तालाब या कुओं में इकट्ठा किया जाता है ताकि बाद में उपयोग हो सके या भूजल रिचार्ज हो।",
+    "language": "en"
+  },
+  {
+    "id": "rc003",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nWater is often described as the most precious natural resource, yet it is the one we waste most carelessly. India receives a large amount of rainfall every year, but most of it falls within a few months, and a great deal of this water flows into rivers and finally into the sea without being stored. As a result, many regions face acute shortages during the dry season, even though they received plenty of rain a few months earlier. Rainwater harvesting offers a simple and inexpensive solution to this problem. In this method, rainwater is collected from rooftops and open spaces and directed into tanks, ponds, or underground wells, where it can be used later or allowed to seep into the soil to recharge groundwater. Traditional communities in the arid parts of the country practised this art for centuries, building stepwells and small check dams that sustained entire villages. Modern cities, however, have covered the land with concrete, preventing rain from soaking into the ground. If citizens and governments act together to revive old practices and adopt new technology, the country can reduce its dependence on distant sources and protect its groundwater for future generations.\n\nQuestion: Select the most appropriate synonym of the word 'acute' as used in the passage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mild"
+      },
+      {
+        "id": "B",
+        "text": "Occasional"
+      },
+      {
+        "id": "C",
+        "text": "Severe"
+      },
+      {
+        "id": "D",
+        "text": "Temporary"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "'Acute shortages' का अर्थ है गंभीर कमी। Acute = Severe (गंभीर/तीव्र)। Mild = हल्का; Occasional = कभी-कभार; Temporary = अस्थायी।",
+    "language": "en"
+  },
+  {
+    "id": "rc004",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nWater is often described as the most precious natural resource, yet it is the one we waste most carelessly. India receives a large amount of rainfall every year, but most of it falls within a few months, and a great deal of this water flows into rivers and finally into the sea without being stored. As a result, many regions face acute shortages during the dry season, even though they received plenty of rain a few months earlier. Rainwater harvesting offers a simple and inexpensive solution to this problem. In this method, rainwater is collected from rooftops and open spaces and directed into tanks, ponds, or underground wells, where it can be used later or allowed to seep into the soil to recharge groundwater. Traditional communities in the arid parts of the country practised this art for centuries, building stepwells and small check dams that sustained entire villages. Modern cities, however, have covered the land with concrete, preventing rain from soaking into the ground. If citizens and governments act together to revive old practices and adopt new technology, the country can reduce its dependence on distant sources and protect its groundwater for future generations.\n\nQuestion: According to the passage, why have modern cities made it difficult for rain to recharge groundwater?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They have built too many stepwells and check dams"
+      },
+      {
+        "id": "B",
+        "text": "They have covered the land with concrete, so rain cannot soak into the ground"
+      },
+      {
+        "id": "C",
+        "text": "They receive far less rainfall than villages do"
+      },
+      {
+        "id": "D",
+        "text": "They store all their rainwater in tanks and ponds"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज में कहा गया है कि आधुनिक शहरों ने ज़मीन को कंक्रीट से ढक दिया है, जिससे बारिश का पानी ज़मीन में रिस नहीं पाता।",
+    "language": "en"
+  },
+  {
+    "id": "rc005",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nWater is often described as the most precious natural resource, yet it is the one we waste most carelessly. India receives a large amount of rainfall every year, but most of it falls within a few months, and a great deal of this water flows into rivers and finally into the sea without being stored. As a result, many regions face acute shortages during the dry season, even though they received plenty of rain a few months earlier. Rainwater harvesting offers a simple and inexpensive solution to this problem. In this method, rainwater is collected from rooftops and open spaces and directed into tanks, ponds, or underground wells, where it can be used later or allowed to seep into the soil to recharge groundwater. Traditional communities in the arid parts of the country practised this art for centuries, building stepwells and small check dams that sustained entire villages. Modern cities, however, have covered the land with concrete, preventing rain from soaking into the ground. If citizens and governments act together to revive old practices and adopt new technology, the country can reduce its dependence on distant sources and protect its groundwater for future generations.\n\nQuestion: Which of the following is the most suitable title for the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rainwater Harvesting: A Way to Beat Water Scarcity"
+      },
+      {
+        "id": "B",
+        "text": "The Glory of Ancient Stepwells"
+      },
+      {
+        "id": "C",
+        "text": "Concrete Cities and Their Problems"
+      },
+      {
+        "id": "D",
+        "text": "Rivers: The Lifeline of a Nation"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "पूरा पैसेज जल-संकट और उसके समाधान के रूप में वर्षा-जल संचयन पर केंद्रित है, इसलिए सबसे उपयुक्त शीर्षक 'Rainwater Harvesting: A Way to Beat Water Scarcity' है। बाकी विकल्प पैसेज के छोटे हिस्से या असंबंधित विषय पर हैं।",
+    "language": "en"
+  },
+  {
+    "id": "rc006",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nThere was a time when a book was a person's constant companion on a train journey, in a waiting room, or during a quiet evening at home. Today, that place has been taken over by the smartphone, which offers endless entertainment in the form of short videos, messages, and games. Teachers and parents complain that children no longer have the patience to read even a few pages without checking their devices. Researchers believe that this decline in reading is not merely a change in taste but a loss with serious consequences. Reading a book demands sustained attention, and this effort strengthens the mind in the same way that exercise strengthens the body. It also widens vocabulary, sharpens imagination, and develops empathy by allowing readers to see the world through the eyes of others. Nevertheless, technology should not be treated as the enemy. Digital libraries have made thousands of books available to anyone with an internet connection. The real challenge is to use the device as a tool for learning rather than as a means of escape. Schools can help by setting aside a fixed time every day for silent reading, so that the habit of reading is not lost.\n\nQuestion: According to the passage, what has taken the place of the book as a companion on journeys and in waiting rooms?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The television"
+      },
+      {
+        "id": "B",
+        "text": "The newspaper"
+      },
+      {
+        "id": "C",
+        "text": "The smartphone"
+      },
+      {
+        "id": "D",
+        "text": "The radio"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज के अनुसार किताब की जगह अब स्मार्टफोन ने ले ली है (that place has been taken over by the smartphone)।",
+    "language": "en"
+  },
+  {
+    "id": "rc007",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nThere was a time when a book was a person's constant companion on a train journey, in a waiting room, or during a quiet evening at home. Today, that place has been taken over by the smartphone, which offers endless entertainment in the form of short videos, messages, and games. Teachers and parents complain that children no longer have the patience to read even a few pages without checking their devices. Researchers believe that this decline in reading is not merely a change in taste but a loss with serious consequences. Reading a book demands sustained attention, and this effort strengthens the mind in the same way that exercise strengthens the body. It also widens vocabulary, sharpens imagination, and develops empathy by allowing readers to see the world through the eyes of others. Nevertheless, technology should not be treated as the enemy. Digital libraries have made thousands of books available to anyone with an internet connection. The real challenge is to use the device as a tool for learning rather than as a means of escape. Schools can help by setting aside a fixed time every day for silent reading, so that the habit of reading is not lost.\n\nQuestion: Which of the following is NOT mentioned in the passage as a benefit of reading?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It increases a person's income"
+      },
+      {
+        "id": "B",
+        "text": "It widens vocabulary"
+      },
+      {
+        "id": "C",
+        "text": "It sharpens imagination"
+      },
+      {
+        "id": "D",
+        "text": "It develops empathy"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज में पढ़ने के लाभ बताए गए हैं: शब्दावली बढ़ना, कल्पना तेज़ होना और सहानुभूति विकसित होना। आय बढ़ने का उल्लेख कहीं नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "rc008",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nThere was a time when a book was a person's constant companion on a train journey, in a waiting room, or during a quiet evening at home. Today, that place has been taken over by the smartphone, which offers endless entertainment in the form of short videos, messages, and games. Teachers and parents complain that children no longer have the patience to read even a few pages without checking their devices. Researchers believe that this decline in reading is not merely a change in taste but a loss with serious consequences. Reading a book demands sustained attention, and this effort strengthens the mind in the same way that exercise strengthens the body. It also widens vocabulary, sharpens imagination, and develops empathy by allowing readers to see the world through the eyes of others. Nevertheless, technology should not be treated as the enemy. Digital libraries have made thousands of books available to anyone with an internet connection. The real challenge is to use the device as a tool for learning rather than as a means of escape. Schools can help by setting aside a fixed time every day for silent reading, so that the habit of reading is not lost.\n\nQuestion: What is the author's view about technology?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It should be used as a tool for learning rather than as a means of escape"
+      },
+      {
+        "id": "B",
+        "text": "It is the sole cause of the decline in reading and should be banned"
+      },
+      {
+        "id": "C",
+        "text": "It has no effect on the reading habits of children"
+      },
+      {
+        "id": "D",
+        "text": "It is more useful than books in every respect"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "लेखक कहते हैं कि technology को दुश्मन नहीं मानना चाहिए; असली चुनौती उपकरण को सीखने के साधन के रूप में इस्तेमाल करना है, पलायन (escape) के साधन के रूप में नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "rc009",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nThere was a time when a book was a person's constant companion on a train journey, in a waiting room, or during a quiet evening at home. Today, that place has been taken over by the smartphone, which offers endless entertainment in the form of short videos, messages, and games. Teachers and parents complain that children no longer have the patience to read even a few pages without checking their devices. Researchers believe that this decline in reading is not merely a change in taste but a loss with serious consequences. Reading a book demands sustained attention, and this effort strengthens the mind in the same way that exercise strengthens the body. It also widens vocabulary, sharpens imagination, and develops empathy by allowing readers to see the world through the eyes of others. Nevertheless, technology should not be treated as the enemy. Digital libraries have made thousands of books available to anyone with an internet connection. The real challenge is to use the device as a tool for learning rather than as a means of escape. Schools can help by setting aside a fixed time every day for silent reading, so that the habit of reading is not lost.\n\nQuestion: Select the word most opposite in meaning to 'widens' as used in the passage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Expands"
+      },
+      {
+        "id": "B",
+        "text": "Enlarges"
+      },
+      {
+        "id": "C",
+        "text": "Increases"
+      },
+      {
+        "id": "D",
+        "text": "Restricts"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "'Widens' का अर्थ है बढ़ाना/फैलाना; इसका विलोम 'Restricts' (सीमित करना) है। Expands, Enlarges और Increases इसके समानार्थी हैं।",
+    "language": "en"
+  },
+  {
+    "id": "rc010",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nThere was a time when a book was a person's constant companion on a train journey, in a waiting room, or during a quiet evening at home. Today, that place has been taken over by the smartphone, which offers endless entertainment in the form of short videos, messages, and games. Teachers and parents complain that children no longer have the patience to read even a few pages without checking their devices. Researchers believe that this decline in reading is not merely a change in taste but a loss with serious consequences. Reading a book demands sustained attention, and this effort strengthens the mind in the same way that exercise strengthens the body. It also widens vocabulary, sharpens imagination, and develops empathy by allowing readers to see the world through the eyes of others. Nevertheless, technology should not be treated as the enemy. Digital libraries have made thousands of books available to anyone with an internet connection. The real challenge is to use the device as a tool for learning rather than as a means of escape. Schools can help by setting aside a fixed time every day for silent reading, so that the habit of reading is not lost.\n\nQuestion: What step does the author suggest schools take to protect the habit of reading?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Setting aside a fixed time every day for silent reading"
+      },
+      {
+        "id": "B",
+        "text": "Banning smartphones in all schools"
+      },
+      {
+        "id": "C",
+        "text": "Giving students more homework every day"
+      },
+      {
+        "id": "D",
+        "text": "Replacing printed books with digital libraries"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज के अंतिम वाक्य में सुझाव है कि स्कूल हर दिन एक निश्चित समय मौन-पठन (silent reading) के लिए रखें ताकि पढ़ने की आदत बनी रहे।",
+    "language": "en"
+  },
+  {
+    "id": "rc011",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nMany people regard sleep as wasted time, an unfortunate interruption in a busy day that should be kept as short as possible. This belief is a dangerous myth. During sleep, the body repairs tissues, strengthens the immune system, and restores energy, while the brain sorts the information gathered during the day and stores important memories. Students who sleep adequately before an examination generally recall facts better than those who stay awake all night to study. Lack of sleep, on the other hand, affects mood, slows down decision-making, and increases the risk of accidents. Over a long period, it may also contribute to serious health problems such as heart disease and obesity. Doctors usually recommend that adults sleep for seven to eight hours every night, though the exact need varies from person to person. Experts also advise keeping a regular bedtime, avoiding heavy meals late at night, and switching off screens at least an hour before sleeping, since the light from them can disturb the body's natural clock. A good night's sleep is therefore not a luxury; it is a basic necessity for a healthy and productive life.\n\nQuestion: What does the author call a 'dangerous myth'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The belief that adults need seven to eight hours of sleep"
+      },
+      {
+        "id": "B",
+        "text": "The belief that sleep is wasted time"
+      },
+      {
+        "id": "C",
+        "text": "The belief that screens help people sleep better"
+      },
+      {
+        "id": "D",
+        "text": "The belief that students should study all night"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज के शुरू में नींद को समय की बर्बादी मानने वाली धारणा के बाद कहा गया है: 'This belief is a dangerous myth.'",
+    "language": "en"
+  },
+  {
+    "id": "rc012",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nMany people regard sleep as wasted time, an unfortunate interruption in a busy day that should be kept as short as possible. This belief is a dangerous myth. During sleep, the body repairs tissues, strengthens the immune system, and restores energy, while the brain sorts the information gathered during the day and stores important memories. Students who sleep adequately before an examination generally recall facts better than those who stay awake all night to study. Lack of sleep, on the other hand, affects mood, slows down decision-making, and increases the risk of accidents. Over a long period, it may also contribute to serious health problems such as heart disease and obesity. Doctors usually recommend that adults sleep for seven to eight hours every night, though the exact need varies from person to person. Experts also advise keeping a regular bedtime, avoiding heavy meals late at night, and switching off screens at least an hour before sleeping, since the light from them can disturb the body's natural clock. A good night's sleep is therefore not a luxury; it is a basic necessity for a healthy and productive life.\n\nQuestion: According to the passage, what does the brain do during sleep?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It stops working completely in order to save energy"
+      },
+      {
+        "id": "B",
+        "text": "It repairs the tissues of the body"
+      },
+      {
+        "id": "C",
+        "text": "It produces light that disturbs the body's natural clock"
+      },
+      {
+        "id": "D",
+        "text": "It sorts the information gathered during the day and stores important memories"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज के अनुसार नींद में दिमाग दिन भर की जानकारी को छांटता है और महत्वपूर्ण यादें संग्रहित करता है। शरीर के ऊतकों की मरम्मत शरीर (body) करता है।",
+    "language": "en"
+  },
+  {
+    "id": "rc013",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nMany people regard sleep as wasted time, an unfortunate interruption in a busy day that should be kept as short as possible. This belief is a dangerous myth. During sleep, the body repairs tissues, strengthens the immune system, and restores energy, while the brain sorts the information gathered during the day and stores important memories. Students who sleep adequately before an examination generally recall facts better than those who stay awake all night to study. Lack of sleep, on the other hand, affects mood, slows down decision-making, and increases the risk of accidents. Over a long period, it may also contribute to serious health problems such as heart disease and obesity. Doctors usually recommend that adults sleep for seven to eight hours every night, though the exact need varies from person to person. Experts also advise keeping a regular bedtime, avoiding heavy meals late at night, and switching off screens at least an hour before sleeping, since the light from them can disturb the body's natural clock. A good night's sleep is therefore not a luxury; it is a basic necessity for a healthy and productive life.\n\nQuestion: Which of the following is NOT mentioned as a consequence of lack of sleep?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Improvement in eyesight"
+      },
+      {
+        "id": "B",
+        "text": "Changes in mood"
+      },
+      {
+        "id": "C",
+        "text": "Slower decision-making"
+      },
+      {
+        "id": "D",
+        "text": "A greater risk of accidents"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "नींद की कमी से मूड पर असर, निर्णय में सुस्ती और दुर्घटनाओं का खतरा बताया गया है। आँखों की रोशनी में सुधार का कोई उल्लेख नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "rc014",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nMany people regard sleep as wasted time, an unfortunate interruption in a busy day that should be kept as short as possible. This belief is a dangerous myth. During sleep, the body repairs tissues, strengthens the immune system, and restores energy, while the brain sorts the information gathered during the day and stores important memories. Students who sleep adequately before an examination generally recall facts better than those who stay awake all night to study. Lack of sleep, on the other hand, affects mood, slows down decision-making, and increases the risk of accidents. Over a long period, it may also contribute to serious health problems such as heart disease and obesity. Doctors usually recommend that adults sleep for seven to eight hours every night, though the exact need varies from person to person. Experts also advise keeping a regular bedtime, avoiding heavy meals late at night, and switching off screens at least an hour before sleeping, since the light from them can disturb the body's natural clock. A good night's sleep is therefore not a luxury; it is a basic necessity for a healthy and productive life.\n\nQuestion: Why do experts advise switching off screens at least an hour before sleeping?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Screens consume too much electricity at night"
+      },
+      {
+        "id": "B",
+        "text": "The light from screens can disturb the body's natural clock"
+      },
+      {
+        "id": "C",
+        "text": "Watching screens makes the body tired during the day"
+      },
+      {
+        "id": "D",
+        "text": "Screens are harmful only for students"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज के अनुसार स्क्रीन की रोशनी शरीर की प्राकृतिक घड़ी (natural clock) को बिगाड़ सकती है, इसलिए सोने से कम से कम एक घंटा पहले स्क्रीन बंद करने की सलाह दी जाती है।",
+    "language": "en"
+  },
+  {
+    "id": "rc015",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nMany people regard sleep as wasted time, an unfortunate interruption in a busy day that should be kept as short as possible. This belief is a dangerous myth. During sleep, the body repairs tissues, strengthens the immune system, and restores energy, while the brain sorts the information gathered during the day and stores important memories. Students who sleep adequately before an examination generally recall facts better than those who stay awake all night to study. Lack of sleep, on the other hand, affects mood, slows down decision-making, and increases the risk of accidents. Over a long period, it may also contribute to serious health problems such as heart disease and obesity. Doctors usually recommend that adults sleep for seven to eight hours every night, though the exact need varies from person to person. Experts also advise keeping a regular bedtime, avoiding heavy meals late at night, and switching off screens at least an hour before sleeping, since the light from them can disturb the body's natural clock. A good night's sleep is therefore not a luxury; it is a basic necessity for a healthy and productive life.\n\nQuestion: Select the word closest in meaning to 'adequately' as used in the passage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sufficiently"
+      },
+      {
+        "id": "B",
+        "text": "Barely"
+      },
+      {
+        "id": "C",
+        "text": "Occasionally"
+      },
+      {
+        "id": "D",
+        "text": "Carelessly"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "'Adequately' का अर्थ है पर्याप्त रूप से, यानी 'Sufficiently'। Barely = मुश्किल से; Occasionally = कभी-कभी; Carelessly = लापरवाही से।",
+    "language": "en"
+  },
+  {
+    "id": "rc016",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nEvery year, millions of people leave villages and move to cities in search of better jobs, education, and healthcare. This steady flow of people, known as migration, has made cities the engines of economic growth, but it has also placed an enormous strain on them. Housing becomes expensive, forcing the poor to live in crowded settlements with little access to clean water or sanitation. Roads are choked with traffic, and the air is polluted by vehicles and factories. Meanwhile, villages lose their young and skilled workers, and agriculture is left in the hands of the elderly. Planners therefore argue that the solution lies not in stopping migration but in balancing development. If villages are provided with good schools, hospitals, roads, and opportunities for small industries, fewer people will feel compelled to leave their homes. Cities, in turn, can be planned better with public transport, affordable housing, and green spaces. Growth that benefits only a few places while neglecting the rest cannot be called true progress.\n\nQuestion: According to the passage, why do millions of people move from villages to cities?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To escape the heavy traffic of villages"
+      },
+      {
+        "id": "B",
+        "text": "To find better jobs, education and healthcare"
+      },
+      {
+        "id": "C",
+        "text": "To start new farms in the cities"
+      },
+      {
+        "id": "D",
+        "text": "Because the government forces them to migrate"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज की पहली पंक्ति के अनुसार लोग बेहतर नौकरी, शिक्षा और स्वास्थ्य सेवाओं की तलाश में गाँव छोड़कर शहर जाते हैं।",
+    "language": "en"
+  },
+  {
+    "id": "rc017",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nEvery year, millions of people leave villages and move to cities in search of better jobs, education, and healthcare. This steady flow of people, known as migration, has made cities the engines of economic growth, but it has also placed an enormous strain on them. Housing becomes expensive, forcing the poor to live in crowded settlements with little access to clean water or sanitation. Roads are choked with traffic, and the air is polluted by vehicles and factories. Meanwhile, villages lose their young and skilled workers, and agriculture is left in the hands of the elderly. Planners therefore argue that the solution lies not in stopping migration but in balancing development. If villages are provided with good schools, hospitals, roads, and opportunities for small industries, fewer people will feel compelled to leave their homes. Cities, in turn, can be planned better with public transport, affordable housing, and green spaces. Growth that benefits only a few places while neglecting the rest cannot be called true progress.\n\nQuestion: Which of the following problems of cities is NOT mentioned in the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Expensive housing"
+      },
+      {
+        "id": "B",
+        "text": "Traffic congestion"
+      },
+      {
+        "id": "C",
+        "text": "Air pollution"
+      },
+      {
+        "id": "D",
+        "text": "Shortage of schools and colleges"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज में महंगे मकान, ट्रैफिक से भरी सड़कें और वायु प्रदूषण का ज़िक्र है। स्कूल-कॉलेजों की कमी का उल्लेख नहीं है (शहरों को तो बेहतर शिक्षा के केंद्र के रूप में बताया गया है)।",
+    "language": "en"
+  },
+  {
+    "id": "rc018",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nEvery year, millions of people leave villages and move to cities in search of better jobs, education, and healthcare. This steady flow of people, known as migration, has made cities the engines of economic growth, but it has also placed an enormous strain on them. Housing becomes expensive, forcing the poor to live in crowded settlements with little access to clean water or sanitation. Roads are choked with traffic, and the air is polluted by vehicles and factories. Meanwhile, villages lose their young and skilled workers, and agriculture is left in the hands of the elderly. Planners therefore argue that the solution lies not in stopping migration but in balancing development. If villages are provided with good schools, hospitals, roads, and opportunities for small industries, fewer people will feel compelled to leave their homes. Cities, in turn, can be planned better with public transport, affordable housing, and green spaces. Growth that benefits only a few places while neglecting the rest cannot be called true progress.\n\nQuestion: What solution do planners suggest, according to the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stopping migration through strict laws"
+      },
+      {
+        "id": "B",
+        "text": "Closing small industries in villages"
+      },
+      {
+        "id": "C",
+        "text": "Moving all factories into the cities"
+      },
+      {
+        "id": "D",
+        "text": "Balanced development of villages and cities instead of stopping migration"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज के अनुसार योजनाकारों का मत है कि समाधान पलायन रोकने में नहीं, बल्कि विकास को संतुलित करने में है (not in stopping migration but in balancing development)।",
+    "language": "en"
+  },
+  {
+    "id": "rc019",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nEvery year, millions of people leave villages and move to cities in search of better jobs, education, and healthcare. This steady flow of people, known as migration, has made cities the engines of economic growth, but it has also placed an enormous strain on them. Housing becomes expensive, forcing the poor to live in crowded settlements with little access to clean water or sanitation. Roads are choked with traffic, and the air is polluted by vehicles and factories. Meanwhile, villages lose their young and skilled workers, and agriculture is left in the hands of the elderly. Planners therefore argue that the solution lies not in stopping migration but in balancing development. If villages are provided with good schools, hospitals, roads, and opportunities for small industries, fewer people will feel compelled to leave their homes. Cities, in turn, can be planned better with public transport, affordable housing, and green spaces. Growth that benefits only a few places while neglecting the rest cannot be called true progress.\n\nQuestion: Select the word most opposite in meaning to 'neglecting' as used in the passage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Attending to"
+      },
+      {
+        "id": "B",
+        "text": "Ignoring"
+      },
+      {
+        "id": "C",
+        "text": "Overlooking"
+      },
+      {
+        "id": "D",
+        "text": "Abandoning"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "'Neglecting' का अर्थ है उपेक्षा करना; इसका विलोम 'Attending to' (ध्यान देना) है। Ignoring, Overlooking और Abandoning इसके समानार्थी हैं।",
+    "language": "en"
+  },
+  {
+    "id": "rc020",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nEvery year, millions of people leave villages and move to cities in search of better jobs, education, and healthcare. This steady flow of people, known as migration, has made cities the engines of economic growth, but it has also placed an enormous strain on them. Housing becomes expensive, forcing the poor to live in crowded settlements with little access to clean water or sanitation. Roads are choked with traffic, and the air is polluted by vehicles and factories. Meanwhile, villages lose their young and skilled workers, and agriculture is left in the hands of the elderly. Planners therefore argue that the solution lies not in stopping migration but in balancing development. If villages are provided with good schools, hospitals, roads, and opportunities for small industries, fewer people will feel compelled to leave their homes. Cities, in turn, can be planned better with public transport, affordable housing, and green spaces. Growth that benefits only a few places while neglecting the rest cannot be called true progress.\n\nQuestion: Which of the following best reflects the author's view of 'true progress'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rapid economic growth of a few large cities"
+      },
+      {
+        "id": "B",
+        "text": "Development that benefits all regions, not just a few places"
+      },
+      {
+        "id": "C",
+        "text": "The complete stoppage of migration"
+      },
+      {
+        "id": "D",
+        "text": "The shifting of all villagers to urban areas"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "अंतिम वाक्य के अनुसार जो विकास केवल कुछ स्थानों को लाभ दे और बाकी की उपेक्षा करे, उसे सच्ची प्रगति नहीं कहा जा सकता; यानी सभी क्षेत्रों को लाभ पहुँचाने वाला विकास ही सच्ची प्रगति है।",
+    "language": "en"
+  },
+  {
+    "id": "rc021",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nFailure is perhaps the most misunderstood word in the language of success. Most people treat it as a final verdict on their ability, something to be ashamed of and hidden from others. In reality, failure is often the best teacher a person can have. A scientist may repeat an experiment hundreds of times before it succeeds, and each unsuccessful attempt reveals something that books could not teach. Students who fail an examination can, if they examine their mistakes honestly, discover weaknesses in their method of study and correct them before the next attempt. The people who eventually succeed are rarely those who never fell; they are those who refused to remain on the ground. Psychologists call this quality resilience, the capacity to recover quickly from difficulty. It cannot be bought or borrowed, but it can be developed through practice, support from family and friends, and a willingness to see setbacks as temporary. A society that punishes every mistake harshly creates cautious individuals who avoid risk and, therefore, also avoid discovery. One that treats mistakes as a part of learning produces creative and courageous citizens.\n\nQuestion: According to the passage, how do most people view failure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "As the best teacher a person can have"
+      },
+      {
+        "id": "B",
+        "text": "As a temporary and harmless event"
+      },
+      {
+        "id": "C",
+        "text": "As a final judgement on their ability, something to be hidden"
+      },
+      {
+        "id": "D",
+        "text": "As a quality that can be bought or borrowed"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज के अनुसार अधिकांश लोग असफलता को अपनी योग्यता पर अंतिम फैसला मानते हैं, जिस पर शर्म करनी चाहिए और जिसे दूसरों से छिपाना चाहिए।",
+    "language": "en"
+  },
+  {
+    "id": "rc022",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nFailure is perhaps the most misunderstood word in the language of success. Most people treat it as a final verdict on their ability, something to be ashamed of and hidden from others. In reality, failure is often the best teacher a person can have. A scientist may repeat an experiment hundreds of times before it succeeds, and each unsuccessful attempt reveals something that books could not teach. Students who fail an examination can, if they examine their mistakes honestly, discover weaknesses in their method of study and correct them before the next attempt. The people who eventually succeed are rarely those who never fell; they are those who refused to remain on the ground. Psychologists call this quality resilience, the capacity to recover quickly from difficulty. It cannot be bought or borrowed, but it can be developed through practice, support from family and friends, and a willingness to see setbacks as temporary. A society that punishes every mistake harshly creates cautious individuals who avoid risk and, therefore, also avoid discovery. One that treats mistakes as a part of learning produces creative and courageous citizens.\n\nQuestion: What can students do after failing an examination, according to the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stop studying for the examination altogether"
+      },
+      {
+        "id": "B",
+        "text": "Hide their failure from friends and family"
+      },
+      {
+        "id": "C",
+        "text": "Blame the examination system for their result"
+      },
+      {
+        "id": "D",
+        "text": "Examine their mistakes honestly and correct the weaknesses in their method of study"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज के अनुसार असफल छात्र अपनी गलतियों की ईमानदारी से जाँच करके पढ़ाई के तरीके की कमज़ोरियाँ पहचान सकते हैं और अगले प्रयास से पहले उन्हें सुधार सकते हैं।",
+    "language": "en"
+  },
+  {
+    "id": "rc023",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nFailure is perhaps the most misunderstood word in the language of success. Most people treat it as a final verdict on their ability, something to be ashamed of and hidden from others. In reality, failure is often the best teacher a person can have. A scientist may repeat an experiment hundreds of times before it succeeds, and each unsuccessful attempt reveals something that books could not teach. Students who fail an examination can, if they examine their mistakes honestly, discover weaknesses in their method of study and correct them before the next attempt. The people who eventually succeed are rarely those who never fell; they are those who refused to remain on the ground. Psychologists call this quality resilience, the capacity to recover quickly from difficulty. It cannot be bought or borrowed, but it can be developed through practice, support from family and friends, and a willingness to see setbacks as temporary. A society that punishes every mistake harshly creates cautious individuals who avoid risk and, therefore, also avoid discovery. One that treats mistakes as a part of learning produces creative and courageous citizens.\n\nQuestion: How does the passage define resilience?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The ability to avoid failure altogether"
+      },
+      {
+        "id": "B",
+        "text": "The capacity to recover quickly from difficulty"
+      },
+      {
+        "id": "C",
+        "text": "A quality that people are born with and cannot develop"
+      },
+      {
+        "id": "D",
+        "text": "The fear of making mistakes"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज में resilience को 'the capacity to recover quickly from difficulty' यानी कठिनाई से जल्दी उबरने की क्षमता बताया गया है, और यह अभ्यास से विकसित की जा सकती है।",
+    "language": "en"
+  },
+  {
+    "id": "rc024",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nFailure is perhaps the most misunderstood word in the language of success. Most people treat it as a final verdict on their ability, something to be ashamed of and hidden from others. In reality, failure is often the best teacher a person can have. A scientist may repeat an experiment hundreds of times before it succeeds, and each unsuccessful attempt reveals something that books could not teach. Students who fail an examination can, if they examine their mistakes honestly, discover weaknesses in their method of study and correct them before the next attempt. The people who eventually succeed are rarely those who never fell; they are those who refused to remain on the ground. Psychologists call this quality resilience, the capacity to recover quickly from difficulty. It cannot be bought or borrowed, but it can be developed through practice, support from family and friends, and a willingness to see setbacks as temporary. A society that punishes every mistake harshly creates cautious individuals who avoid risk and, therefore, also avoid discovery. One that treats mistakes as a part of learning produces creative and courageous citizens.\n\nQuestion: Select the word closest in meaning to 'cautious' as used in the passage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fearless"
+      },
+      {
+        "id": "B",
+        "text": "Reckless"
+      },
+      {
+        "id": "C",
+        "text": "Wary"
+      },
+      {
+        "id": "D",
+        "text": "Enthusiastic"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "'Cautious' का अर्थ है सतर्क/सावधान, यानी 'Wary'। Fearless = निडर; Reckless = लापरवाह/बेपरवाह; Enthusiastic = उत्साही।",
+    "language": "en"
+  },
+  {
+    "id": "rc025",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nFailure is perhaps the most misunderstood word in the language of success. Most people treat it as a final verdict on their ability, something to be ashamed of and hidden from others. In reality, failure is often the best teacher a person can have. A scientist may repeat an experiment hundreds of times before it succeeds, and each unsuccessful attempt reveals something that books could not teach. Students who fail an examination can, if they examine their mistakes honestly, discover weaknesses in their method of study and correct them before the next attempt. The people who eventually succeed are rarely those who never fell; they are those who refused to remain on the ground. Psychologists call this quality resilience, the capacity to recover quickly from difficulty. It cannot be bought or borrowed, but it can be developed through practice, support from family and friends, and a willingness to see setbacks as temporary. A society that punishes every mistake harshly creates cautious individuals who avoid risk and, therefore, also avoid discovery. One that treats mistakes as a part of learning produces creative and courageous citizens.\n\nQuestion: According to the passage, what is the effect of a society that punishes every mistake harshly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It produces creative and courageous citizens"
+      },
+      {
+        "id": "B",
+        "text": "It encourages resilience in all its members"
+      },
+      {
+        "id": "C",
+        "text": "It produces cautious individuals who avoid risk and discovery"
+      },
+      {
+        "id": "D",
+        "text": "It reduces the number of mistakes people make"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "जो समाज हर गलती को कड़ी सज़ा देता है, वह ऐसे सतर्क लोग बनाता है जो जोखिम से बचते हैं और इसलिए खोज (discovery) से भी दूर रहते हैं।",
+    "language": "en"
+  }
+]
