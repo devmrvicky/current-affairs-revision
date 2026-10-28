@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "grammar001",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nThe list of items are (A) / kept on the table (B) / near the door. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The list of items are"
+      },
+      {
+        "id": "B",
+        "text": "kept on the table"
+      },
+      {
+        "id": "C",
+        "text": "near the door."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "easy",
+    "explanation": "Subject 'list' singular है; 'of items' सिर्फ modifier है। इसलिए 'are' की जगह 'is' आएगा (The list of items is kept...)।",
+    "language": "en"
+  },
+  {
+    "id": "grammar002",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nNeither the manager nor his assistants (A) / was aware of (B) / the changes in the policy. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neither the manager nor his assistants"
+      },
+      {
+        "id": "B",
+        "text": "was aware of"
+      },
+      {
+        "id": "C",
+        "text": "the changes in the policy."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "medium",
+    "explanation": "Neither...nor में verb nearest subject के अनुसार लगती है। Nearest subject 'assistants' plural है, इसलिए 'was' → 'were aware of'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar003",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nEach of the students [have submitted] the assignment before the deadline.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "are submitting"
+      },
+      {
+        "id": "C",
+        "text": "has submitted"
+      },
+      {
+        "id": "D",
+        "text": "have been submitted"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "easy",
+    "explanation": "'Each of' के बाद singular verb आती है। इसलिए 'has submitted' सही है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar004",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nThis year, (A) / the number of applicants for the post (B) / have increased significantly. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "This year,"
+      },
+      {
+        "id": "B",
+        "text": "the number of applicants for the post"
+      },
+      {
+        "id": "C",
+        "text": "have increased significantly."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "medium",
+    "explanation": "'The number of' + plural noun के साथ singular verb आती है (जबकि 'A number of' के साथ plural)। इसलिए 'has increased'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar005",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nMathematics, along with physics and chemistry, (A) / are taught (B) / in the first year. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mathematics, along with physics and chemistry,"
+      },
+      {
+        "id": "B",
+        "text": "are taught"
+      },
+      {
+        "id": "C",
+        "text": "in the first year."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "'Along with' से subject plural नहीं बनता। Subject 'Mathematics' singular है, इसलिए 'is taught' आएगा।",
+    "language": "en"
+  },
+  {
+    "id": "grammar006",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nThe committee [are divided] in its opinion on the new proposal.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "were dividing"
+      },
+      {
+        "id": "C",
+        "text": "have divided"
+      },
+      {
+        "id": "D",
+        "text": "is divided"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "'Its' singular pronoun बता रहा है कि committee को एक unit माना गया है, इसलिए verb singular 'is divided' होगी।",
+    "language": "en"
+  },
+  {
+    "id": "grammar007",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nI have met him last Sunday (A) / at the market (B) / near my house. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "I have met him last Sunday"
+      },
+      {
+        "id": "B",
+        "text": "at the market"
+      },
+      {
+        "id": "C",
+        "text": "near my house."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "Last Sunday जैसे definite past time के साथ Simple Past आता है, Present Perfect नहीं। सही: 'I met him last Sunday'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar008",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nBy the time we reached the station, the train [already left].",
+    "options": [
+      {
+        "id": "A",
+        "text": "had already left"
+      },
+      {
+        "id": "B",
+        "text": "has already left"
+      },
+      {
+        "id": "C",
+        "text": "was already leaving"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "दो past actions में जो पहले हुई उसके लिए Past Perfect (had + V3) आता है। ट्रेन पहले जा चुकी थी, इसलिए 'had already left'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar009",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nShe has been (A) / teaching in this school (B) / since ten years. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "She has been"
+      },
+      {
+        "id": "B",
+        "text": "teaching in this school"
+      },
+      {
+        "id": "C",
+        "text": "since ten years."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "अवधि (period) के साथ 'for' और निश्चित समय-बिंदु के साथ 'since' लगता है। सही: 'for ten years'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar010",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nI [am knowing] the answer to this question.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "have been knowing"
+      },
+      {
+        "id": "C",
+        "text": "was knowing"
+      },
+      {
+        "id": "D",
+        "text": "know"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "'Know' stative verb है, इसका continuous form नहीं बनता। सही: 'I know the answer'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar011",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nThe sun (A) / rose in the east (B) / and sets in the west. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The sun"
+      },
+      {
+        "id": "B",
+        "text": "rose in the east"
+      },
+      {
+        "id": "C",
+        "text": "and sets in the west."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "Universal truth हमेशा Simple Present में होता है। सही: 'rises in the east'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar012",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nHe [has been working] in this company since 2010.",
+    "options": [
+      {
+        "id": "A",
+        "text": "had been working"
+      },
+      {
+        "id": "B",
+        "text": "is working"
+      },
+      {
+        "id": "C",
+        "text": "was working"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "Since + point of time के साथ Present Perfect Continuous सही है, इसलिए sentence पहले से सही है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar013",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nHe is suffering with (A) / a high fever and (B) / needs complete rest. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "He is suffering with"
+      },
+      {
+        "id": "B",
+        "text": "a high fever and"
+      },
+      {
+        "id": "C",
+        "text": "needs complete rest."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions",
+    "difficulty": "easy",
+    "explanation": "Suffer के साथ preposition 'from' आता है। सही: 'suffering from'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar014",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nShe is allergic [of] dust and pollen.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "to"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "from"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions",
+    "difficulty": "easy",
+    "explanation": "'Allergic' के बाद 'to' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar015",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nThe teacher was angry (A) / with the student (B) / for being late. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The teacher was angry"
+      },
+      {
+        "id": "B",
+        "text": "with the student"
+      },
+      {
+        "id": "C",
+        "text": "for being late."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions",
+    "difficulty": "medium",
+    "explanation": "Person पर गुस्से के लिए 'angry with' सही है, इसलिए sentence सही है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar016",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nThe property was divided [between] the five heirs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "within"
+      },
+      {
+        "id": "C",
+        "text": "amid"
+      },
+      {
+        "id": "D",
+        "text": "among"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions",
+    "difficulty": "medium",
+    "explanation": "दो के बीच 'between' और दो से अधिक के लिए 'among' आता है। यहाँ पाँच heirs हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar017",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nMy friend, who is a lawyer, (A) / has recently (B) / got married with a doctor. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "My friend, who is a lawyer,"
+      },
+      {
+        "id": "B",
+        "text": "has recently"
+      },
+      {
+        "id": "C",
+        "text": "got married with a doctor."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions",
+    "difficulty": "medium",
+    "explanation": "'Marry' या 'be married' के बाद 'to' आता है। सही: 'married to a doctor'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar018",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nMy brother is senior [than] me by three years.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "from"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "over than"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions",
+    "difficulty": "hard",
+    "explanation": "Senior, junior, superior, inferior, prefer के साथ 'than' नहीं, 'to' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar019",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nHe is an honest man (A) / and a M.A. (B) / in Economics. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "He is an honest man"
+      },
+      {
+        "id": "B",
+        "text": "and a M.A."
+      },
+      {
+        "id": "C",
+        "text": "in Economics."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "articles",
+    "difficulty": "hard",
+    "explanation": "'M.A.' का उच्चारण 'em-ay' (vowel sound) से शुरू होता है, इसलिए 'an M.A.' आएगा। Article का चुनाव spelling नहीं, sound से होता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar020",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\n[The honesty] is the best policy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Honesty"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "An honesty"
+      },
+      {
+        "id": "D",
+        "text": "A honesty"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "articles",
+    "difficulty": "easy",
+    "explanation": "Abstract noun (honesty) के पहले general sense में article नहीं लगता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar021",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nMoon revolves around the Earth (A) / and the Earth revolves (B) / around the Sun. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Moon revolves around the Earth"
+      },
+      {
+        "id": "B",
+        "text": "and the Earth revolves"
+      },
+      {
+        "id": "C",
+        "text": "around the Sun."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "articles",
+    "difficulty": "easy",
+    "explanation": "Unique चीज़ों (the Moon, the Sun, the Earth) के पहले 'the' लगता है। सही: 'The Moon'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar022",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\n[A Himalayas are] the highest mountain range in the world.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "An Himalayas are"
+      },
+      {
+        "id": "C",
+        "text": "Himalayas is"
+      },
+      {
+        "id": "D",
+        "text": "The Himalayas are"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "articles",
+    "difficulty": "medium",
+    "explanation": "पर्वत-श्रृंखलाओं (mountain ranges) के नाम के पहले 'the' आता है और Himalayas plural है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar023",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nBetween you and I, (A) / this plan is (B) / not going to work. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Between you and I,"
+      },
+      {
+        "id": "B",
+        "text": "this plan is"
+      },
+      {
+        "id": "C",
+        "text": "not going to work."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "pronouns",
+    "difficulty": "medium",
+    "explanation": "Preposition (between) के बाद object case आता है। सही: 'Between you and me'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar024",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nLet you and [I] go to the market together.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "myself"
+      },
+      {
+        "id": "C",
+        "text": "me"
+      },
+      {
+        "id": "D",
+        "text": "mine"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "pronouns",
+    "difficulty": "medium",
+    "explanation": "'Let' के बाद object case आता है, इसलिए 'Let you and me'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar025",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nThe man (A) / whom I thought (B) / was honest cheated me. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The man"
+      },
+      {
+        "id": "B",
+        "text": "whom I thought"
+      },
+      {
+        "id": "C",
+        "text": "was honest cheated me."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "pronouns",
+    "difficulty": "hard",
+    "explanation": "'Was honest' का subject यही pronoun है, इसलिए subject case 'who' आएगा ('I thought' parenthetical है)। सही: 'who I thought was honest'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar026",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nThey blamed [theirselves] for the failure.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "themselves"
+      },
+      {
+        "id": "C",
+        "text": "their selves"
+      },
+      {
+        "id": "D",
+        "text": "them"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "pronouns",
+    "difficulty": "easy",
+    "explanation": "Plural reflexive pronoun 'themselves' होता है; 'theirselves' नहीं होता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar027",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nOf all the students, (A) / Ravi is the (B) / most cleverest. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Of all the students,"
+      },
+      {
+        "id": "B",
+        "text": "Ravi is the"
+      },
+      {
+        "id": "C",
+        "text": "most cleverest."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adjectives-degrees",
+    "difficulty": "easy",
+    "explanation": "Double superlative नहीं लगता। सही: 'the cleverest' (या 'the most clever')।",
+    "language": "en"
+  },
+  {
+    "id": "grammar028",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nHe is the (A) / more intelligent (B) / of the two brothers. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "He is the"
+      },
+      {
+        "id": "B",
+        "text": "more intelligent"
+      },
+      {
+        "id": "C",
+        "text": "of the two brothers."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adjectives-degrees",
+    "difficulty": "medium",
+    "explanation": "दो की तुलना में comparative degree आती है। 'The more intelligent of the two' सही construction है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar029",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nGold is (A) / costlier than (B) / any other metals. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gold is"
+      },
+      {
+        "id": "B",
+        "text": "costlier than"
+      },
+      {
+        "id": "C",
+        "text": "any other metals."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adjectives-degrees",
+    "difficulty": "hard",
+    "explanation": "'Any other' के बाद singular noun आता है। सही: 'any other metal'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar030",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nHe is [a ten-years-old] boy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "a ten years old"
+      },
+      {
+        "id": "C",
+        "text": "an ten-year-old"
+      },
+      {
+        "id": "D",
+        "text": "a ten-year-old"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adjectives-degrees",
+    "difficulty": "medium",
+    "explanation": "Compound adjective में number के बाद noun singular रहता है (hyphen के साथ)। सही: 'a ten-year-old boy'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar031",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nShe sings very good (A) / in the choir (B) / every Sunday. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "She sings very good"
+      },
+      {
+        "id": "B",
+        "text": "in the choir"
+      },
+      {
+        "id": "C",
+        "text": "every Sunday."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adverbs",
+    "difficulty": "easy",
+    "explanation": "Verb को modify करने के लिए adverb चाहिए। 'Good' adjective है, सही: 'very well'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar032",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nHe worked so [hardly] that he fell ill.",
+    "options": [
+      {
+        "id": "A",
+        "text": "hard"
+      },
+      {
+        "id": "B",
+        "text": "hardest"
+      },
+      {
+        "id": "C",
+        "text": "hardness"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "'Hard' adjective और adverb दोनों है ('कड़ी मेहनत से'); 'hardly' का अर्थ 'मुश्किल से / लगभग नहीं' होता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar033",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nUnless you (A) / do not work hard, (B) / you will fail. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unless you"
+      },
+      {
+        "id": "B",
+        "text": "do not work hard,"
+      },
+      {
+        "id": "C",
+        "text": "you will fail."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'Unless' खुद negative अर्थ रखता है, इसलिए उसके साथ 'not' नहीं लगता। सही: 'Unless you work hard'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar034",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\n[Although he was tired, but] he completed the work.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "Although he was tired,"
+      },
+      {
+        "id": "C",
+        "text": "Because he was tired,"
+      },
+      {
+        "id": "D",
+        "text": "Despite he was tired,"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "Although / Though के साथ 'but' का प्रयोग नहीं होता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar035",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nNo sooner had (A) / he seen the police (B) / when he ran away. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "No sooner had"
+      },
+      {
+        "id": "B",
+        "text": "he seen the police"
+      },
+      {
+        "id": "C",
+        "text": "when he ran away."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'No sooner' के साथ 'than' आता है ('Hardly / Scarcely' के साथ 'when')। सही: 'than he ran away'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar036",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nYou ought (A) / not to waste (B) / your precious time on such trivial matters. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "You ought"
+      },
+      {
+        "id": "B",
+        "text": "not to waste"
+      },
+      {
+        "id": "C",
+        "text": "your precious time on such trivial matters."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "modals",
+    "difficulty": "medium",
+    "explanation": "'Ought' के बाद 'to' + V1 आता है और negative 'ought not to' होता है। Sentence सही है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar037",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nI would rather [to stay] at home than go out.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "staying"
+      },
+      {
+        "id": "C",
+        "text": "stay"
+      },
+      {
+        "id": "D",
+        "text": "to have stayed"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "modals",
+    "difficulty": "hard",
+    "explanation": "'Would rather' के बाद bare infinitive (V1) आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar038",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nShe made me to wait (A) / for an hour (B) / outside the office. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "She made me to wait"
+      },
+      {
+        "id": "B",
+        "text": "for an hour"
+      },
+      {
+        "id": "C",
+        "text": "outside the office."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "easy",
+    "explanation": "'Make' के बाद bare infinitive आता है, 'to' नहीं। सही: 'made me wait'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar039",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nHe is accustomed [to get up] early in the morning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "getting up"
+      },
+      {
+        "id": "C",
+        "text": "for getting up"
+      },
+      {
+        "id": "D",
+        "text": "to getting up"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "'Accustomed to' में 'to' preposition है, इसलिए उसके बाद V+ing आती है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar040",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\n[Being a rainy day], we stayed at home.",
+    "options": [
+      {
+        "id": "A",
+        "text": "It being a rainy day"
+      },
+      {
+        "id": "B",
+        "text": "There being a rainy day"
+      },
+      {
+        "id": "C",
+        "text": "Being it a rainy day"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "Participle का अपना अलग subject हो तो absolute construction बनता है: 'It being a rainy day'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar041",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nIf it rains tomorrow, (A) / the match will be (B) / called off. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "If it rains tomorrow,"
+      },
+      {
+        "id": "B",
+        "text": "the match will be"
+      },
+      {
+        "id": "C",
+        "text": "called off."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conditionals",
+    "difficulty": "easy",
+    "explanation": "First conditional: If + Simple Present, will + V1। Sentence सही है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar042",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nIf I [was] you, I would accept the offer.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "am"
+      },
+      {
+        "id": "C",
+        "text": "were"
+      },
+      {
+        "id": "D",
+        "text": "had been"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conditionals",
+    "difficulty": "medium",
+    "explanation": "Imaginary / unreal condition में सभी subjects के साथ 'were' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar043",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nThe new bridge (A) / is been constructed (B) / by the engineers. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The new bridge"
+      },
+      {
+        "id": "B",
+        "text": "is been constructed"
+      },
+      {
+        "id": "C",
+        "text": "by the engineers."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "voice",
+    "difficulty": "medium",
+    "explanation": "Present continuous passive: is/are + being + V3। सही: 'is being constructed'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar044",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nHe said that he [will come] to my house the next day.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "would come"
+      },
+      {
+        "id": "C",
+        "text": "had come"
+      },
+      {
+        "id": "D",
+        "text": "comes"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "Reporting verb past होने पर 'will' → 'would' हो जाता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar045",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nThe teacher (A) / gave us (B) / many informations about the course. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The teacher"
+      },
+      {
+        "id": "B",
+        "text": "gave us"
+      },
+      {
+        "id": "C",
+        "text": "many informations about the course."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "nouns",
+    "difficulty": "easy",
+    "explanation": "'Information' uncountable noun है, इसका plural नहीं बनता। सही: 'much information'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar046",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nShe is [one of the most intelligent girl] in the class.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "one of the more intelligent girl"
+      },
+      {
+        "id": "C",
+        "text": "the most intelligent girls"
+      },
+      {
+        "id": "D",
+        "text": "one of the most intelligent girls"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "nouns",
+    "difficulty": "medium",
+    "explanation": "'One of the' के बाद plural noun आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar047",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nHe has [less] friends than his brother.",
+    "options": [
+      {
+        "id": "A",
+        "text": "fewer"
+      },
+      {
+        "id": "B",
+        "text": "lesser"
+      },
+      {
+        "id": "C",
+        "text": "little"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "determiners-quantifiers",
+    "difficulty": "medium",
+    "explanation": "Countable noun (friends) के साथ 'fewer' आता है; 'less' uncountable के साथ।",
+    "language": "en"
+  },
+  {
+    "id": "grammar048",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nHe has (A) / a few friends (B) / and so he feels lonely. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "He has"
+      },
+      {
+        "id": "B",
+        "text": "a few friends"
+      },
+      {
+        "id": "C",
+        "text": "and so he feels lonely."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "determiners-quantifiers",
+    "difficulty": "hard",
+    "explanation": "'A few' का अर्थ 'कुछ' (positive) और 'few' का अर्थ 'लगभग नहीं' (negative) होता है। अकेलेपन के भाव के लिए 'few friends' सही है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar049",
+    "subjectId": "english",
+    "question": "Select the most appropriate option to improve the segment given in square brackets. If no improvement is needed, select 'No improvement'.\n\nShe enjoys [to sing, dancing, and to paint] in her free time.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "singing, dancing, and painting"
+      },
+      {
+        "id": "C",
+        "text": "to sing, to dance, and painting"
+      },
+      {
+        "id": "D",
+        "text": "sing, dancing, and to paint"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "parallelism",
+    "difficulty": "hard",
+    "explanation": "Parallelism: सभी items का form एक जैसा होना चाहिए। 'Enjoy' के बाद gerund (V+ing) आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar050",
+    "subjectId": "english",
+    "question": "Select the part of the sentence that contains the grammatical error. If there is no error, select 'No error'.\n\nShe asked (A) / me why (B) / was I late for the meeting. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "She asked"
+      },
+      {
+        "id": "B",
+        "text": "me why"
+      },
+      {
+        "id": "C",
+        "text": "was I late for the meeting."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "word-order",
+    "difficulty": "medium",
+    "explanation": "Indirect (reported) question में सीधा order (subject + verb) रहता है। सही: 'why I was late'।",
+    "language": "en"
+  }
+]
