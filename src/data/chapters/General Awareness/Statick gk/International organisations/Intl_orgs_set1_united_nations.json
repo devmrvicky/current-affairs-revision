@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "intorg001",
+    "subjectId": "gk",
+    "question": "Who gave the name 'United Nations'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Woodrow Wilson"
+      },
+      {
+        "id": "B",
+        "text": "Joseph Stalin"
+      },
+      {
+        "id": "C",
+        "text": "Franklin D. Roosevelt"
+      },
+      {
+        "id": "D",
+        "text": "Winston Churchill"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "The name 'United Nations' was suggested by US President Franklin D. Roosevelt. The UN replaced the League of Nations, which was formed after the First World War (1914-1918).",
+    "language": "en"
+  },
+  {
+    "id": "intorg002",
+    "subjectId": "gk",
+    "question": "The League of Nations, formed for global peace after the First World War, came into existence on:",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 January 1920"
+      },
+      {
+        "id": "B",
+        "text": "11 November 1918"
+      },
+      {
+        "id": "C",
+        "text": "28 June 1919"
+      },
+      {
+        "id": "D",
+        "text": "24 October 1945"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "League of Nations: 10 January 1920, HQ Geneva. It failed to prevent the Second World War (1939-1945), after which the UN was created.",
+    "language": "en"
+  },
+  {
+    "id": "intorg003",
+    "subjectId": "gk",
+    "question": "The United Nations Organisation officially came into existence on:",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 January 1946"
+      },
+      {
+        "id": "B",
+        "text": "15 August 1947"
+      },
+      {
+        "id": "C",
+        "text": "26 June 1945"
+      },
+      {
+        "id": "D",
+        "text": "24 October 1945"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "UN Day is observed on 24 October. The Charter was signed on 26 June 1945 (San Francisco) and came into force on 24 October 1945.",
+    "language": "en"
+  },
+  {
+    "id": "intorg004",
+    "subjectId": "gk",
+    "question": "How many founding (original) members did the United Nations have?",
+    "options": [
+      {
+        "id": "A",
+        "text": "50"
+      },
+      {
+        "id": "B",
+        "text": "51"
+      },
+      {
+        "id": "C",
+        "text": "52"
+      },
+      {
+        "id": "D",
+        "text": "55"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "The UN had 51 founding members; Poland was the 51st. The Charter was initially signed by 50 members.",
+    "language": "en"
+  },
+  {
+    "id": "intorg005",
+    "subjectId": "gk",
+    "question": "Which of the following South Asian countries was a founding member of the United Nations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bangladesh"
+      },
+      {
+        "id": "B",
+        "text": "India"
+      },
+      {
+        "id": "C",
+        "text": "Sri Lanka"
+      },
+      {
+        "id": "D",
+        "text": "Pakistan"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "India was among the original signatories of the UN Charter. Pakistan joined in 1947, Sri Lanka in 1955 and Bangladesh in 1974.",
+    "language": "en"
+  },
+  {
+    "id": "intorg006",
+    "subjectId": "gk",
+    "question": "What is the current total membership of the United Nations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "191"
+      },
+      {
+        "id": "B",
+        "text": "192"
+      },
+      {
+        "id": "C",
+        "text": "193"
+      },
+      {
+        "id": "D",
+        "text": "194"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "The UN has 193 members. IMF has 191 members; WHO and UNESCO have 194 members.",
+    "language": "en"
+  },
+  {
+    "id": "intorg007",
+    "subjectId": "gk",
+    "question": "Which country became the 193rd member of the United Nations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "South Sudan"
+      },
+      {
+        "id": "B",
+        "text": "Kosovo"
+      },
+      {
+        "id": "C",
+        "text": "Timor-Leste"
+      },
+      {
+        "id": "D",
+        "text": "Montenegro"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "South Sudan is the 193rd and newest UN member (2011).",
+    "language": "en"
+  },
+  {
+    "id": "intorg008",
+    "subjectId": "gk",
+    "question": "Where is the headquarters of the United Nations located?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Washington D.C."
+      },
+      {
+        "id": "B",
+        "text": "Vienna"
+      },
+      {
+        "id": "C",
+        "text": "Geneva"
+      },
+      {
+        "id": "D",
+        "text": "New York (Manhattan)"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "UN HQ is in New York. Five of the six principal organs are headquartered in New York; the ICJ is at The Hague.",
+    "language": "en"
+  },
+  {
+    "id": "intorg009",
+    "subjectId": "gk",
+    "question": "The land on which the UN headquarters is built was donated by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vanderbilt"
+      },
+      {
+        "id": "B",
+        "text": "Rockefeller"
+      },
+      {
+        "id": "C",
+        "text": "Ford"
+      },
+      {
+        "id": "D",
+        "text": "Carnegie"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "The land in Manhattan was donated by the Rockefeller family.",
+    "language": "en"
+  },
+  {
+    "id": "intorg010",
+    "subjectId": "gk",
+    "question": "In which year was the construction of the UN headquarters completed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1945"
+      },
+      {
+        "id": "B",
+        "text": "1948"
+      },
+      {
+        "id": "C",
+        "text": "1952"
+      },
+      {
+        "id": "D",
+        "text": "1955"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "The UN headquarters building in New York was completed in 1952.",
+    "language": "en"
+  },
+  {
+    "id": "intorg011",
+    "subjectId": "gk",
+    "question": "The flag of the United Nations shows a world map surrounded by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Two palm leaves"
+      },
+      {
+        "id": "B",
+        "text": "Two oak branches"
+      },
+      {
+        "id": "C",
+        "text": "Two wheat stalks"
+      },
+      {
+        "id": "D",
+        "text": "Two olive branches"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "The UN flag has a white emblem (world map with two olive branches) on a light blue background.",
+    "language": "en"
+  },
+  {
+    "id": "intorg012",
+    "subjectId": "gk",
+    "question": "Which are the working languages of the United Nations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "English and French"
+      },
+      {
+        "id": "B",
+        "text": "English and Spanish"
+      },
+      {
+        "id": "C",
+        "text": "English and Chinese"
+      },
+      {
+        "id": "D",
+        "text": "English and Russian"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "English and French are the working languages. The other four official languages are Chinese, Arabic, Russian and Spanish (mnemonic: CARS).",
+    "language": "en"
+  },
+  {
+    "id": "intorg013",
+    "subjectId": "gk",
+    "question": "How many official languages are recognised in the United Nations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "English, French, Chinese, Arabic, Russian and Spanish.",
+    "language": "en"
+  },
+  {
+    "id": "intorg014",
+    "subjectId": "gk",
+    "question": "Which of the following is NOT an official language of the United Nations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hindi"
+      },
+      {
+        "id": "B",
+        "text": "Spanish"
+      },
+      {
+        "id": "C",
+        "text": "Arabic"
+      },
+      {
+        "id": "D",
+        "text": "Russian"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "Hindi is not an official UN language. The six official languages are English, French, Chinese, Arabic, Russian and Spanish.",
+    "language": "en"
+  },
+  {
+    "id": "intorg015",
+    "subjectId": "gk",
+    "question": "How many chapters are there in the United Nations Charter?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15"
+      },
+      {
+        "id": "B",
+        "text": "17"
+      },
+      {
+        "id": "C",
+        "text": "19"
+      },
+      {
+        "id": "D",
+        "text": "21"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "The UN Charter has 19 chapters and 111 articles.",
+    "language": "en"
+  },
+  {
+    "id": "intorg016",
+    "subjectId": "gk",
+    "question": "The United Nations Charter contains a total of how many articles?",
+    "options": [
+      {
+        "id": "A",
+        "text": "101"
+      },
+      {
+        "id": "B",
+        "text": "110"
+      },
+      {
+        "id": "C",
+        "text": "111"
+      },
+      {
+        "id": "D",
+        "text": "120"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "111 articles in 19 chapters.",
+    "language": "en"
+  },
+  {
+    "id": "intorg017",
+    "subjectId": "gk",
+    "question": "How many principal organs does the United Nations have?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "General Assembly, Security Council, ECOSOC, Trusteeship Council, International Court of Justice and Secretariat.",
+    "language": "en"
+  },
+  {
+    "id": "intorg018",
+    "subjectId": "gk",
+    "question": "Which principal organ of the UN has stopped functioning since 1994?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Economic and Social Council"
+      },
+      {
+        "id": "B",
+        "text": "General Assembly"
+      },
+      {
+        "id": "C",
+        "text": "Secretariat"
+      },
+      {
+        "id": "D",
+        "text": "Trusteeship Council"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "The Trusteeship Council suspended operations in 1994.",
+    "language": "en"
+  },
+  {
+    "id": "intorg019",
+    "subjectId": "gk",
+    "question": "Which principal organ of the UN has its headquarters outside New York?",
+    "options": [
+      {
+        "id": "A",
+        "text": "General Assembly"
+      },
+      {
+        "id": "B",
+        "text": "International Court of Justice"
+      },
+      {
+        "id": "C",
+        "text": "Economic and Social Council"
+      },
+      {
+        "id": "D",
+        "text": "Security Council"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "The ICJ is headquartered at The Hague, Netherlands.",
+    "language": "en"
+  },
+  {
+    "id": "intorg020",
+    "subjectId": "gk",
+    "question": "Which of the following is NOT a principal organ of the United Nations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Secretariat"
+      },
+      {
+        "id": "B",
+        "text": "UNICEF"
+      },
+      {
+        "id": "C",
+        "text": "Trusteeship Council"
+      },
+      {
+        "id": "D",
+        "text": "Economic and Social Council"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "UNICEF is a UN programme/fund, not a principal organ.",
+    "language": "en"
+  },
+  {
+    "id": "intorg021",
+    "subjectId": "gk",
+    "question": "Which principal organ of the UN is called the 'Mini Parliament of the World'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Security Council"
+      },
+      {
+        "id": "B",
+        "text": "International Court of Justice"
+      },
+      {
+        "id": "C",
+        "text": "Economic and Social Council"
+      },
+      {
+        "id": "D",
+        "text": "General Assembly"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "All 193 member states are represented in the General Assembly, hence the nickname.",
+    "language": "en"
+  },
+  {
+    "id": "intorg022",
+    "subjectId": "gk",
+    "question": "What is the maximum number of representatives a member state can send to the UN General Assembly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Each state may send up to five representatives, but has only one vote.",
+    "language": "en"
+  },
+  {
+    "id": "intorg023",
+    "subjectId": "gk",
+    "question": "The regular annual session of the UN General Assembly begins on:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The third Tuesday of September"
+      },
+      {
+        "id": "B",
+        "text": "The first Monday of January"
+      },
+      {
+        "id": "C",
+        "text": "The fourth Friday of August"
+      },
+      {
+        "id": "D",
+        "text": "The second Wednesday of October"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "hard",
+    "explanation": "It runs from the third Tuesday of September to mid-December every year.",
+    "language": "en"
+  },
+  {
+    "id": "intorg024",
+    "subjectId": "gk",
+    "question": "The Secretary-General of the UN is appointed by the General Assembly on the recommendation of the:",
+    "options": [
+      {
+        "id": "A",
+        "text": "International Court of Justice"
+      },
+      {
+        "id": "B",
+        "text": "Economic and Social Council"
+      },
+      {
+        "id": "C",
+        "text": "Trusteeship Council"
+      },
+      {
+        "id": "D",
+        "text": "Security Council"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Other functions of the General Assembly include preparing the budget and admitting new members.",
+    "language": "en"
+  },
+  {
+    "id": "intorg025",
+    "subjectId": "gk",
+    "question": "Who was the first woman President of the UN General Assembly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sucheta Kripalani"
+      },
+      {
+        "id": "B",
+        "text": "Vijaya Lakshmi Pandit"
+      },
+      {
+        "id": "C",
+        "text": "Indira Gandhi"
+      },
+      {
+        "id": "D",
+        "text": "Sarojini Naidu"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "Vijaya Lakshmi Pandit of India was the world's first woman to preside over the UNGA.",
+    "language": "en"
+  },
+  {
+    "id": "intorg026",
+    "subjectId": "gk",
+    "question": "Vijaya Lakshmi Pandit presided over which session of the UN General Assembly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6th"
+      },
+      {
+        "id": "B",
+        "text": "7th"
+      },
+      {
+        "id": "C",
+        "text": "8th"
+      },
+      {
+        "id": "D",
+        "text": "9th"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "hard",
+    "explanation": "She presided over the 8th session (1953-54).",
+    "language": "en"
+  },
+  {
+    "id": "intorg027",
+    "subjectId": "gk",
+    "question": "Which principal organ of the UN is known as the 'World's Policeman'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Security Council"
+      },
+      {
+        "id": "B",
+        "text": "Economic and Social Council"
+      },
+      {
+        "id": "C",
+        "text": "General Assembly"
+      },
+      {
+        "id": "D",
+        "text": "International Court of Justice"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "The Security Council is the most important organ for maintaining international peace and security.",
+    "language": "en"
+  },
+  {
+    "id": "intorg028",
+    "subjectId": "gk",
+    "question": "How many members does the UN Security Council have?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "11"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "15 members: 5 permanent and 10 non-permanent.",
+    "language": "en"
+  },
+  {
+    "id": "intorg029",
+    "subjectId": "gk",
+    "question": "The non-permanent members of the Security Council are elected by the General Assembly for a term of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 year"
+      },
+      {
+        "id": "B",
+        "text": "2 years"
+      },
+      {
+        "id": "C",
+        "text": "3 years"
+      },
+      {
+        "id": "D",
+        "text": "5 years"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "They are elected by a two-thirds majority of the General Assembly for two years.",
+    "language": "en"
+  },
+  {
+    "id": "intorg030",
+    "subjectId": "gk",
+    "question": "Which of the following is NOT a permanent member of the UN Security Council?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Germany"
+      },
+      {
+        "id": "B",
+        "text": "France"
+      },
+      {
+        "id": "C",
+        "text": "Russia"
+      },
+      {
+        "id": "D",
+        "text": "China"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "Permanent five: USA, UK, China, France and Russia (mnemonic: A-B-C-F-R). They hold veto power.",
+    "language": "en"
+  },
+  {
+    "id": "intorg031",
+    "subjectId": "gk",
+    "question": "A substantive proposal in the Security Council needs a minimum of how many affirmative votes (without a veto)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Approval of at least 9 of the 15 members is required, and no permanent member should cast a veto.",
+    "language": "en"
+  },
+  {
+    "id": "intorg032",
+    "subjectId": "gk",
+    "question": "How many times has India been elected as a non-permanent member of the UN Security Council?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "India has been elected as a temporary member 8 times.",
+    "language": "en"
+  },
+  {
+    "id": "intorg033",
+    "subjectId": "gk",
+    "question": "Which country has been elected the greatest number of times as a non-permanent member of the Security Council?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Germany"
+      },
+      {
+        "id": "B",
+        "text": "Japan"
+      },
+      {
+        "id": "C",
+        "text": "Brazil"
+      },
+      {
+        "id": "D",
+        "text": "India"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "hard",
+    "explanation": "Japan has been elected 12 times, followed by Brazil with 11 times.",
+    "language": "en"
+  },
+  {
+    "id": "intorg034",
+    "subjectId": "gk",
+    "question": "How many members are there in the UN Economic and Social Council (ECOSOC)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "27"
+      },
+      {
+        "id": "B",
+        "text": "45"
+      },
+      {
+        "id": "C",
+        "text": "54"
+      },
+      {
+        "id": "D",
+        "text": "60"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "ECOSOC has 54 members, and one-third of them retire every year.",
+    "language": "en"
+  },
+  {
+    "id": "intorg035",
+    "subjectId": "gk",
+    "question": "What is the tenure of a member of the UN Economic and Social Council?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 years"
+      },
+      {
+        "id": "B",
+        "text": "3 years"
+      },
+      {
+        "id": "C",
+        "text": "4 years"
+      },
+      {
+        "id": "D",
+        "text": "5 years"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Members serve for 3 years; one-third retire each year.",
+    "language": "en"
+  },
+  {
+    "id": "intorg036",
+    "subjectId": "gk",
+    "question": "ECOSOC meets twice a year at which places?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Paris in April and Vienna in July"
+      },
+      {
+        "id": "B",
+        "text": "Nairobi in April and New York in July"
+      },
+      {
+        "id": "C",
+        "text": "Geneva in April and New York in July"
+      },
+      {
+        "id": "D",
+        "text": "New York in April and Geneva in July"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "hard",
+    "explanation": "ECOSOC holds its sessions in New York (April) and Geneva (July).",
+    "language": "en"
+  },
+  {
+    "id": "intorg037",
+    "subjectId": "gk",
+    "question": "Who is the head of the UN Secretariat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Secretary-General"
+      },
+      {
+        "id": "B",
+        "text": "President of the Security Council"
+      },
+      {
+        "id": "C",
+        "text": "President of the General Assembly"
+      },
+      {
+        "id": "D",
+        "text": "Chairman of ECOSOC"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "The Secretariat carries out the day-to-day work of the United Nations.",
+    "language": "en"
+  },
+  {
+    "id": "intorg038",
+    "subjectId": "gk",
+    "question": "What is the term of office of the UN Secretary-General?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 years"
+      },
+      {
+        "id": "B",
+        "text": "4 years"
+      },
+      {
+        "id": "C",
+        "text": "5 years"
+      },
+      {
+        "id": "D",
+        "text": "6 years"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "The Secretary-General is appointed for a five-year term (renewable).",
+    "language": "en"
+  },
+  {
+    "id": "intorg039",
+    "subjectId": "gk",
+    "question": "Who was the first Secretary-General of the United Nations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trygve Lie"
+      },
+      {
+        "id": "B",
+        "text": "Dag Hammarskjold"
+      },
+      {
+        "id": "C",
+        "text": "U Thant"
+      },
+      {
+        "id": "D",
+        "text": "Kurt Waldheim"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Trygve Lie of Norway was the first Secretary-General. Gladwyn Jebb (UK) was the first acting Secretary-General.",
+    "language": "en"
+  },
+  {
+    "id": "intorg040",
+    "subjectId": "gk",
+    "question": "Which UN Secretary-General died in an air crash and was awarded the Nobel Peace Prize posthumously in 1961?",
+    "options": [
+      {
+        "id": "A",
+        "text": "U Thant"
+      },
+      {
+        "id": "B",
+        "text": "Kofi Annan"
+      },
+      {
+        "id": "C",
+        "text": "Trygve Lie"
+      },
+      {
+        "id": "D",
+        "text": "Dag Hammarskjold"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Dag Hammarskjold of Sweden was the second Secretary-General.",
+    "language": "en"
+  },
+  {
+    "id": "intorg041",
+    "subjectId": "gk",
+    "question": "Who was the first Asian (non-European) Secretary-General of the United Nations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ban Ki-moon"
+      },
+      {
+        "id": "B",
+        "text": "Javier Perez de Cuellar"
+      },
+      {
+        "id": "C",
+        "text": "Boutros Boutros-Ghali"
+      },
+      {
+        "id": "D",
+        "text": "U Thant"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "U Thant belonged to Myanmar (Burma).",
+    "language": "en"
+  },
+  {
+    "id": "intorg042",
+    "subjectId": "gk",
+    "question": "Who was the first African Secretary-General of the United Nations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Boutros Boutros-Ghali"
+      },
+      {
+        "id": "B",
+        "text": "U Thant"
+      },
+      {
+        "id": "C",
+        "text": "Kurt Waldheim"
+      },
+      {
+        "id": "D",
+        "text": "Kofi Annan"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Boutros Boutros-Ghali (Egypt). Kofi Annan of Ghana was the 7th Secretary-General.",
+    "language": "en"
+  },
+  {
+    "id": "intorg043",
+    "subjectId": "gk",
+    "question": "Ban Ki-moon, the 8th Secretary-General of the UN, belongs to which country?",
+    "options": [
+      {
+        "id": "A",
+        "text": "China"
+      },
+      {
+        "id": "B",
+        "text": "South Korea"
+      },
+      {
+        "id": "C",
+        "text": "Japan"
+      },
+      {
+        "id": "D",
+        "text": "Thailand"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "Ban Ki-moon (South Korea) was succeeded by Antonio Guterres.",
+    "language": "en"
+  },
+  {
+    "id": "intorg044",
+    "subjectId": "gk",
+    "question": "Who is the current Secretary-General of the United Nations (9th Secretary-General)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Antonio Guterres"
+      },
+      {
+        "id": "B",
+        "text": "Mark Rutte"
+      },
+      {
+        "id": "C",
+        "text": "Kofi Annan"
+      },
+      {
+        "id": "D",
+        "text": "Ban Ki-moon"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "Antonio Guterres belongs to Portugal.",
+    "language": "en"
+  },
+  {
+    "id": "intorg045",
+    "subjectId": "gk",
+    "question": "How many judges are there in the International Court of Justice?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9"
+      },
+      {
+        "id": "B",
+        "text": "12"
+      },
+      {
+        "id": "C",
+        "text": "15"
+      },
+      {
+        "id": "D",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "15 judges, of whom no two can be from the same country. The President and Vice-President are elected from among them.",
+    "language": "en"
+  },
+  {
+    "id": "intorg046",
+    "subjectId": "gk",
+    "question": "What is the tenure of the judges of the International Court of Justice?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 years"
+      },
+      {
+        "id": "B",
+        "text": "5 years"
+      },
+      {
+        "id": "C",
+        "text": "6 years"
+      },
+      {
+        "id": "D",
+        "text": "9 years"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Judges serve for 9 years; the President's term is 3 years. The quorum of the court is 9 judges.",
+    "language": "en"
+  },
+  {
+    "id": "intorg047",
+    "subjectId": "gk",
+    "question": "The judges of the International Court of Justice are elected by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Security Council only"
+      },
+      {
+        "id": "B",
+        "text": "The General Assembly and Security Council separately"
+      },
+      {
+        "id": "C",
+        "text": "The General Assembly only"
+      },
+      {
+        "id": "D",
+        "text": "ECOSOC and the Secretariat"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "A candidate must get a majority in both bodies, which vote separately.",
+    "language": "en"
+  },
+  {
+    "id": "intorg048",
+    "subjectId": "gk",
+    "question": "Who was the first Indian to become the Chief Justice (President) of the International Court of Justice?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dalveer Bhandari"
+      },
+      {
+        "id": "B",
+        "text": "Dr. Nagendra Singh"
+      },
+      {
+        "id": "C",
+        "text": "Sir Benegal Narsing Rau"
+      },
+      {
+        "id": "D",
+        "text": "M. Hidayatullah"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "hard",
+    "explanation": "Dr. Nagendra Singh was the first Indian President of the ICJ. Sir Benegal Narsing Rau was the first Indian judge at the court. Languages of the ICJ: French and English.",
+    "language": "en"
+  },
+  {
+    "id": "intorg049",
+    "subjectId": "gk",
+    "question": "The International Court of Justice began its work in:",
+    "options": [
+      {
+        "id": "A",
+        "text": "April 1946"
+      },
+      {
+        "id": "B",
+        "text": "June 1945"
+      },
+      {
+        "id": "C",
+        "text": "October 1945"
+      },
+      {
+        "id": "D",
+        "text": "January 1947"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "hard",
+    "explanation": "The ICJ was established in June 1945 but started functioning in April 1946. Its Statute has 5 chapters and 70 articles.",
+    "language": "en"
+  },
+  {
+    "id": "intorg050",
+    "subjectId": "gk",
+    "question": "What is the quorum (minimum number of judges required) of the International Court of Justice?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "11"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "hard",
+    "explanation": "The ICJ has 15 judges; its quorum is 9 judges. The ICJ Statute has 5 chapters and 70 articles.",
+    "language": "en"
+  }
+]
