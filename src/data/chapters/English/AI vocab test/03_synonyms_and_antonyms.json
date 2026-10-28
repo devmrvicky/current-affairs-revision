@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "vocab_syn_051",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as ALLEVIATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ignore"
+      },
+      {
+        "id": "B",
+        "text": "Mitigate"
+      },
+      {
+        "id": "C",
+        "text": "Intensify"
+      },
+      {
+        "id": "D",
+        "text": "Magnify"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Alleviate = कम करना, राहत देना (Mitigate = हल्का करना)। Example: Medicines can alleviate the pain.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_052",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as AUSTERE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Merry"
+      },
+      {
+        "id": "B",
+        "text": "Indulgent"
+      },
+      {
+        "id": "C",
+        "text": "Stern"
+      },
+      {
+        "id": "D",
+        "text": "Plush"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Austere = कठोर, सादा/संयमी (Stern = सख़्त)। Example: He led an austere life without any luxury.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_053",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as BELLIGERENT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Peaceful"
+      },
+      {
+        "id": "B",
+        "text": "Timid"
+      },
+      {
+        "id": "C",
+        "text": "Cordial"
+      },
+      {
+        "id": "D",
+        "text": "Warlike"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Belligerent = युद्धप्रिय, झगड़ालू (Warlike = लड़ाकू)। Example: The belligerent nation rejected every peace offer.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_054",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as CAJOLE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Coax"
+      },
+      {
+        "id": "B",
+        "text": "Scold"
+      },
+      {
+        "id": "C",
+        "text": "Threaten"
+      },
+      {
+        "id": "D",
+        "text": "Insult"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Cajole = फुसलाना, मीठी बातों से मनाना (Coax = मनाना)। Example: She cajoled her father into buying a new bike.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_055",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as DISPARAGE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Flatter"
+      },
+      {
+        "id": "B",
+        "text": "Cherish"
+      },
+      {
+        "id": "C",
+        "text": "Belittle"
+      },
+      {
+        "id": "D",
+        "text": "Applaud"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Disparage = तुच्छ बताना, निंदा करना (Belittle = छोटा दिखाना)। Example: Never disparage someone's honest effort.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_056",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as ENIGMA.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proof"
+      },
+      {
+        "id": "B",
+        "text": "Solution"
+      },
+      {
+        "id": "C",
+        "text": "Fact"
+      },
+      {
+        "id": "D",
+        "text": "Riddle"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Enigma = पहेली, रहस्य (Riddle = बुझौवल)। Example: The disappearance of the ship remains an enigma.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_057",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as EXACERBATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Soothe"
+      },
+      {
+        "id": "B",
+        "text": "Aggravate"
+      },
+      {
+        "id": "C",
+        "text": "Resolve"
+      },
+      {
+        "id": "D",
+        "text": "Heal"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Exacerbate = बदतर करना (Aggravate = और बिगाड़ना)। Example: Delay will exacerbate the problem.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_058",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as FASTIDIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Choosy"
+      },
+      {
+        "id": "B",
+        "text": "Easygoing"
+      },
+      {
+        "id": "C",
+        "text": "Lax"
+      },
+      {
+        "id": "D",
+        "text": "Sloppy"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Fastidious = नुक्ताचीं, हर बात में बारीकी चाहने वाला (Choosy = चुनिंदा)। Example: He is fastidious about food and clothes.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_059",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as GARRULOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rude"
+      },
+      {
+        "id": "B",
+        "text": "Quiet"
+      },
+      {
+        "id": "C",
+        "text": "Talkative"
+      },
+      {
+        "id": "D",
+        "text": "Shy"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "Garrulous = बकबकिया (Talkative = बातूनी)। Example: The garrulous barber never stopped talking.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_060",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as HARBINGER.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Forerunner"
+      },
+      {
+        "id": "B",
+        "text": "Follower"
+      },
+      {
+        "id": "C",
+        "text": "Descendant"
+      },
+      {
+        "id": "D",
+        "text": "Survivor"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Harbinger = अग्रदूत, पूर्वसूचक (Forerunner = पहले आने वाला)। Example: Dark clouds are the harbinger of rain.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_061",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as INCESSANT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Occasional"
+      },
+      {
+        "id": "B",
+        "text": "Unceasing"
+      },
+      {
+        "id": "C",
+        "text": "Brief"
+      },
+      {
+        "id": "D",
+        "text": "Sudden"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Incessant = लगातार, निरंतर (Unceasing = अनवरत)। Example: The incessant noise kept him awake all night.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_062",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as INDIGENT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Affluent"
+      },
+      {
+        "id": "B",
+        "text": "Greedy"
+      },
+      {
+        "id": "C",
+        "text": "Sullen"
+      },
+      {
+        "id": "D",
+        "text": "Needy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Indigent = निर्धन (Needy = ज़रूरतमंद)। Example: The trust gives free meals to indigent families.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_063",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as LACONIC.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vague"
+      },
+      {
+        "id": "B",
+        "text": "Ornate"
+      },
+      {
+        "id": "C",
+        "text": "Concise"
+      },
+      {
+        "id": "D",
+        "text": "Lengthy"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Laconic = कम शब्दों वाला, संक्षिप्त (Concise = सारगर्भित)। Example: His laconic reply was just one word: 'No'.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_064",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as MAGNANIMOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Petty"
+      },
+      {
+        "id": "B",
+        "text": "Selfish"
+      },
+      {
+        "id": "C",
+        "text": "Vindictive"
+      },
+      {
+        "id": "D",
+        "text": "Big-hearted"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Magnanimous = उदारचित्त, क्षमाशील (Big-hearted = बड़े दिल का)। Example: The magnanimous king forgave his enemies.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_065",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as OBSEQUIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Domineering"
+      },
+      {
+        "id": "B",
+        "text": "Servile"
+      },
+      {
+        "id": "C",
+        "text": "Rebellious"
+      },
+      {
+        "id": "D",
+        "text": "Insolent"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Obsequious = चापलूस, अति-आज्ञाकारी (Servile = दासवत)। Example: The obsequious clerk bowed before the officer.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_066",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as PERFIDIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Treacherous"
+      },
+      {
+        "id": "B",
+        "text": "Truthful"
+      },
+      {
+        "id": "C",
+        "text": "Devoted"
+      },
+      {
+        "id": "D",
+        "text": "Faithful"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Perfidious = विश्वासघाती (Treacherous = धोखेबाज़)। Example: The perfidious minister betrayed the king.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_067",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as QUINTESSENCE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Essence"
+      },
+      {
+        "id": "B",
+        "text": "Trace"
+      },
+      {
+        "id": "C",
+        "text": "Ornament"
+      },
+      {
+        "id": "D",
+        "text": "Surplus"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Quintessence = सार-तत्व, निचोड़ (Essence = सार)। Example: The poem is the quintessence of patriotism.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_068",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as RECALCITRANT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tolerant"
+      },
+      {
+        "id": "B",
+        "text": "Defiant"
+      },
+      {
+        "id": "C",
+        "text": "Submissive"
+      },
+      {
+        "id": "D",
+        "text": "Compliant"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Recalcitrant = अड़ियल, आदेश न मानने वाला (Defiant = अवज्ञाकारी)। Example: The recalcitrant students refused to follow the rules.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_069",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as SUPERFLUOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Precious"
+      },
+      {
+        "id": "B",
+        "text": "Scanty"
+      },
+      {
+        "id": "C",
+        "text": "Redundant"
+      },
+      {
+        "id": "D",
+        "text": "Essential"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Superfluous = अनावश्यक, फ़ालतू (Redundant = ज़रूरत से ज़्यादा)। Example: Delete the superfluous words from your answer.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_070",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as TRUCULENT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meek"
+      },
+      {
+        "id": "B",
+        "text": "Amiable"
+      },
+      {
+        "id": "C",
+        "text": "Mellow"
+      },
+      {
+        "id": "D",
+        "text": "Combative"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Truculent = उग्र, लड़ने को तैयार (Combative = झगड़ालू)। Example: The truculent customer shouted at the staff.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_071",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as UNEQUIVOCAL.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ambiguous"
+      },
+      {
+        "id": "B",
+        "text": "Explicit"
+      },
+      {
+        "id": "C",
+        "text": "Hesitant"
+      },
+      {
+        "id": "D",
+        "text": "Implied"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Unequivocal = स्पष्ट, असंदिग्ध (Explicit = साफ़-साफ़ कहा हुआ)। Example: The minister gave an unequivocal denial.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_072",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as VEHEMENT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mild"
+      },
+      {
+        "id": "B",
+        "text": "Languid"
+      },
+      {
+        "id": "C",
+        "text": "Passionate"
+      },
+      {
+        "id": "D",
+        "text": "Indifferent"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Vehement = प्रबल, उग्र (Passionate = जोशीला)। Example: He made a vehement protest against the decision.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_073",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as WANTON.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vigilant"
+      },
+      {
+        "id": "B",
+        "text": "Disciplined"
+      },
+      {
+        "id": "C",
+        "text": "Thoughtful"
+      },
+      {
+        "id": "D",
+        "text": "Reckless"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "Wanton = निरंकुश, बेपरवाह (Reckless = लापरवाह)। Example: The wanton destruction of forests must stop.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_074",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as ABSTRUSE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obscure"
+      },
+      {
+        "id": "B",
+        "text": "Brilliant"
+      },
+      {
+        "id": "C",
+        "text": "Obvious"
+      },
+      {
+        "id": "D",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Abstruse = गूढ़, कठिनाई से समझ आने वाला (Obscure = अस्पष्ट)। Example: The professor's abstruse theory confused the class.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_075",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as INNOCUOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Harmless"
+      },
+      {
+        "id": "B",
+        "text": "Poisonous"
+      },
+      {
+        "id": "C",
+        "text": "Dangerous"
+      },
+      {
+        "id": "D",
+        "text": "Deadly"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "Innocuous = हानिरहित (Harmless = निर्दोष)। Example: The snake was innocuous and did not bite.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_051",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to ABSTEMIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sparing"
+      },
+      {
+        "id": "B",
+        "text": "Moderate"
+      },
+      {
+        "id": "C",
+        "text": "Gluttonous"
+      },
+      {
+        "id": "D",
+        "text": "Temperate"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Abstemious ↔ Gluttonous = संयमी (कम खाने वाला) ↔ पेटू। Example: The abstemious monk ate little, unlike the gluttonous guest.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_052",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to AMELIORATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Refine"
+      },
+      {
+        "id": "B",
+        "text": "Worsen"
+      },
+      {
+        "id": "C",
+        "text": "Enhance"
+      },
+      {
+        "id": "D",
+        "text": "Improve"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Ameliorate ↔ Worsen = सुधारना ↔ बिगाड़ना। Example: Reforms ameliorated the condition of workers, but corruption worsened it again.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_053",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to BENIGN.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tender"
+      },
+      {
+        "id": "B",
+        "text": "Gentle"
+      },
+      {
+        "id": "C",
+        "text": "Soft"
+      },
+      {
+        "id": "D",
+        "text": "Malignant"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Benign ↔ Malignant = हानिरहित / कोमल ↔ घातक, दुष्ट। Example: The doctor said the tumour was benign, not malignant.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_054",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to DEBILITATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Weaken"
+      },
+      {
+        "id": "B",
+        "text": "Exhaust"
+      },
+      {
+        "id": "C",
+        "text": "Drain"
+      },
+      {
+        "id": "D",
+        "text": "Invigorate"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Debilitate ↔ Invigorate = कमज़ोर करना ↔ बल देना। Example: A long illness debilitates the body, while fresh air invigorates it.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_055",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to LAVISH.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meagre"
+      },
+      {
+        "id": "B",
+        "text": "Sumptuous"
+      },
+      {
+        "id": "C",
+        "text": "Ample"
+      },
+      {
+        "id": "D",
+        "text": "Luxurious"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Lavish ↔ Meagre = अत्यधिक / फ़िज़ूल ↔ अल्प, कम। Example: Instead of a lavish feast, they ate a meagre meal.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_056",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to PROLIFIC.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fertile"
+      },
+      {
+        "id": "B",
+        "text": "Creative"
+      },
+      {
+        "id": "C",
+        "text": "Barren"
+      },
+      {
+        "id": "D",
+        "text": "Productive"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Prolific ↔ Barren = अत्यंत उपजाऊ / अधिक रचने वाला ↔ बंजर। Example: The prolific author wrote fifty books, but the land around his house was barren.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_057",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to OPULENT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wealthy"
+      },
+      {
+        "id": "B",
+        "text": "Destitute"
+      },
+      {
+        "id": "C",
+        "text": "Flourishing"
+      },
+      {
+        "id": "D",
+        "text": "Rich"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Opulent ↔ Destitute = ऐश्वर्यशाली ↔ कंगाल। Example: The opulent merchant became destitute after the fire.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_058",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to ACRIMONIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bitter"
+      },
+      {
+        "id": "B",
+        "text": "Spiteful"
+      },
+      {
+        "id": "C",
+        "text": "Amicable"
+      },
+      {
+        "id": "D",
+        "text": "Harsh"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Acrimonious ↔ Amicable = कटु, तीखा ↔ मैत्रीपूर्ण। Example: The acrimonious debate ended in an amicable settlement.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_059",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to DEFERENCE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reverence"
+      },
+      {
+        "id": "B",
+        "text": "Contempt"
+      },
+      {
+        "id": "C",
+        "text": "Submission"
+      },
+      {
+        "id": "D",
+        "text": "Politeness"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Deference ↔ Contempt = आदर, सम्मान ↔ घृणा, तिरस्कार। Example: He spoke with deference to elders but with contempt for liars.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_060",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to DILATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Swell"
+      },
+      {
+        "id": "B",
+        "text": "Widen"
+      },
+      {
+        "id": "C",
+        "text": "Enlarge"
+      },
+      {
+        "id": "D",
+        "text": "Constrict"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Dilate ↔ Constrict = फैलाना ↔ सिकोड़ना। Example: Eye pupils dilate in the dark and constrict in bright light.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_061",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to EXTROVERT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Introvert"
+      },
+      {
+        "id": "B",
+        "text": "Confident"
+      },
+      {
+        "id": "C",
+        "text": "Outgoing"
+      },
+      {
+        "id": "D",
+        "text": "Friendly"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "Extrovert ↔ Introvert = बहिर्मुखी ↔ अंतर्मुखी। Example: The extrovert loves parties, but his brother is an introvert.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_062",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to FORTUITOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chance"
+      },
+      {
+        "id": "B",
+        "text": "Accidental"
+      },
+      {
+        "id": "C",
+        "text": "Intentional"
+      },
+      {
+        "id": "D",
+        "text": "Random"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Fortuitous ↔ Intentional = संयोगवश ↔ जानबूझकर। Example: Their meeting was fortuitous, not intentional.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_063",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to GAUDY.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Flashy"
+      },
+      {
+        "id": "B",
+        "text": "Colourful"
+      },
+      {
+        "id": "C",
+        "text": "Showy"
+      },
+      {
+        "id": "D",
+        "text": "Sober"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Gaudy ↔ Sober = भड़कीला ↔ सादा, गंभीर। Example: She avoided gaudy jewellery and chose a sober dress.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_064",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to HAPHAZARD.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arbitrary"
+      },
+      {
+        "id": "B",
+        "text": "Systematic"
+      },
+      {
+        "id": "C",
+        "text": "Sporadic"
+      },
+      {
+        "id": "D",
+        "text": "Careless"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "Haphazard ↔ Systematic = अव्यवस्थित, बेतरतीब ↔ व्यवस्थित। Example: His haphazard notes were replaced by a systematic study plan.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_065",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to INDIGENOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alien"
+      },
+      {
+        "id": "B",
+        "text": "Local"
+      },
+      {
+        "id": "C",
+        "text": "Native"
+      },
+      {
+        "id": "D",
+        "text": "Original"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Indigenous ↔ Alien = देशज, मूल निवासी ↔ पराया, विदेशी। Example: The tribe's indigenous crops differ from alien varieties.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_066",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to LUCRATIVE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Valuable"
+      },
+      {
+        "id": "B",
+        "text": "Unprofitable"
+      },
+      {
+        "id": "C",
+        "text": "Profitable"
+      },
+      {
+        "id": "D",
+        "text": "Rewarding"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "Lucrative ↔ Unprofitable = लाभदायक ↔ घाटे वाला। Example: A lucrative business can turn unprofitable without good planning.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_067",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to MELANCHOLY.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pensive"
+      },
+      {
+        "id": "B",
+        "text": "Sorrowful"
+      },
+      {
+        "id": "C",
+        "text": "Jovial"
+      },
+      {
+        "id": "D",
+        "text": "Dejected"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Melancholy ↔ Jovial = उदास, विषादग्रस्त ↔ हँसमुख। Example: The melancholy boy became jovial after meeting his friends.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_068",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to OSTENTATIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unpretentious"
+      },
+      {
+        "id": "B",
+        "text": "Grandiose"
+      },
+      {
+        "id": "C",
+        "text": "Pompous"
+      },
+      {
+        "id": "D",
+        "text": "Flamboyant"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Ostentatious ↔ Unpretentious = दिखावटी ↔ सादगीपूर्ण। Example: Instead of an ostentatious wedding, they held an unpretentious ceremony.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_069",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to PRODIGAL.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Improvident"
+      },
+      {
+        "id": "B",
+        "text": "Wasteful"
+      },
+      {
+        "id": "C",
+        "text": "Squandering"
+      },
+      {
+        "id": "D",
+        "text": "Thrifty"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Prodigal ↔ Thrifty = फ़िज़ूलखर्च ↔ किफ़ायती। Example: The prodigal son wasted his wealth; his thrifty sister saved hers.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_070",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to SPURIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Authentic"
+      },
+      {
+        "id": "B",
+        "text": "Counterfeit"
+      },
+      {
+        "id": "C",
+        "text": "Fake"
+      },
+      {
+        "id": "D",
+        "text": "Bogus"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Spurious ↔ Authentic = नकली, जाली ↔ प्रामाणिक। Example: Experts proved that the painting was spurious, not authentic.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_071",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to STAGNANT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Static"
+      },
+      {
+        "id": "B",
+        "text": "Motionless"
+      },
+      {
+        "id": "C",
+        "text": "Still"
+      },
+      {
+        "id": "D",
+        "text": "Dynamic"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Stagnant ↔ Dynamic = ठहरा हुआ, निष्क्रिय ↔ गतिशील। Example: The stagnant economy needs a dynamic leader.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_072",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to VERACITY.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accuracy"
+      },
+      {
+        "id": "B",
+        "text": "Falsehood"
+      },
+      {
+        "id": "C",
+        "text": "Truth"
+      },
+      {
+        "id": "D",
+        "text": "Honesty"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Veracity ↔ Falsehood = सत्यता ↔ झूठ। Example: The court doubted the veracity of his statement and found it full of falsehood.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_073",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to ABOLISH.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Annul"
+      },
+      {
+        "id": "B",
+        "text": "Repeal"
+      },
+      {
+        "id": "C",
+        "text": "Establish"
+      },
+      {
+        "id": "D",
+        "text": "Cancel"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "Abolish ↔ Establish = समाप्त करना ↔ स्थापित करना। Example: The government abolished the old law and established a new one.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_074",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to EXPEDITE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accelerate"
+      },
+      {
+        "id": "B",
+        "text": "Facilitate"
+      },
+      {
+        "id": "C",
+        "text": "Hasten"
+      },
+      {
+        "id": "D",
+        "text": "Delay"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "Expedite ↔ Delay = शीघ्र करना ↔ विलंब करना। Example: The officer expedited the file, while his clerk delayed it.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_075",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to ARDENT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Keen"
+      },
+      {
+        "id": "B",
+        "text": "Fervent"
+      },
+      {
+        "id": "C",
+        "text": "Apathetic"
+      },
+      {
+        "id": "D",
+        "text": "Eager"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Ardent ↔ Apathetic = उत्साही, तीव्र ↔ उदासीन। Example: An ardent reader is never apathetic about books.",
+    "language": "en"
+  }
+]

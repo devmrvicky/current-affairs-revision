@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_ows_061",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person with wide knowledge of many different subjects.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Polymath"
+      },
+      {
+        "id": "B",
+        "text": "Aesthete"
+      },
+      {
+        "id": "C",
+        "text": "Pedagogue"
+      },
+      {
+        "id": "D",
+        "text": "Philistine"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Polymath = बहुज्ञ (अनेक विषयों का जानकार)। Example: Leonardo da Vinci was a polymath: painter, scientist and engineer.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_062",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who attacks cherished beliefs and traditional institutions.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ascetic"
+      },
+      {
+        "id": "B",
+        "text": "Pacifist"
+      },
+      {
+        "id": "C",
+        "text": "Iconoclast"
+      },
+      {
+        "id": "D",
+        "text": "Idolater"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Iconoclast = मूर्तिभंजक / परंपराओं पर प्रहार करने वाला। Example: The young poet was an iconoclast who mocked every old tradition.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_063",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who is new to a subject or activity; a beginner.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maestro"
+      },
+      {
+        "id": "B",
+        "text": "Neophyte"
+      },
+      {
+        "id": "C",
+        "text": "Savant"
+      },
+      {
+        "id": "D",
+        "text": "Pundit"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Neophyte = नौसिखिया / नया दीक्षित। Example: As a neophyte in politics, he made many mistakes.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_064",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who believes that pleasure is the chief aim of life.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fatalist"
+      },
+      {
+        "id": "B",
+        "text": "Realist"
+      },
+      {
+        "id": "C",
+        "text": "Puritan"
+      },
+      {
+        "id": "D",
+        "text": "Hedonist"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Hedonist = सुखवादी (भोग-विलास को जीवन का लक्ष्य मानने वाला)। Example: The hedonist spent his life in parties and luxury.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_065",
+    "subjectId": "english",
+    "question": "Choose the one word for: One who is easily deceived or cheated.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gullible"
+      },
+      {
+        "id": "B",
+        "text": "Fallible"
+      },
+      {
+        "id": "C",
+        "text": "Impudent"
+      },
+      {
+        "id": "D",
+        "text": "Vulnerable"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Gullible = भोला, आसानी से ठगा जाने वाला। Example: Gullible customers believed the false advertisement.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_066",
+    "subjectId": "english",
+    "question": "Choose the one word for: That which cannot be satisfied.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insoluble"
+      },
+      {
+        "id": "B",
+        "text": "Inseparable"
+      },
+      {
+        "id": "C",
+        "text": "Insipid"
+      },
+      {
+        "id": "D",
+        "text": "Insatiable"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Insatiable = अतृप्त (जिसकी भूख/इच्छा कभी न मिटे)। Example: He had an insatiable thirst for knowledge.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_067",
+    "subjectId": "english",
+    "question": "Choose the one word for: That which cannot be understood or interpreted.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inviolable"
+      },
+      {
+        "id": "B",
+        "text": "Inexorable"
+      },
+      {
+        "id": "C",
+        "text": "Inscrutable"
+      },
+      {
+        "id": "D",
+        "text": "Insuperable"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Inscrutable = रहस्यमय, जिसे समझना असंभव हो। Example: The monk's inscrutable smile puzzled everyone.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_068",
+    "subjectId": "english",
+    "question": "Choose the one word for: A medicine that relieves pain.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Antibiotic"
+      },
+      {
+        "id": "B",
+        "text": "Analgesic"
+      },
+      {
+        "id": "C",
+        "text": "Antiseptic"
+      },
+      {
+        "id": "D",
+        "text": "Antipyretic"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Analgesic = दर्द निवारक दवा। Example: The doctor gave him an analgesic for the headache.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_069",
+    "subjectId": "english",
+    "question": "Choose the one word for: A drug that induces sleep.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Antacid"
+      },
+      {
+        "id": "B",
+        "text": "Tonic"
+      },
+      {
+        "id": "C",
+        "text": "Soporific"
+      },
+      {
+        "id": "D",
+        "text": "Stimulant"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Soporific = नींद लाने वाली दवा। Example: The soporific effect of the tablet made him sleep for hours.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_070",
+    "subjectId": "english",
+    "question": "Choose the one word for: The killing of one's wife.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mariticide"
+      },
+      {
+        "id": "B",
+        "text": "Uxoricide"
+      },
+      {
+        "id": "C",
+        "text": "Filicide"
+      },
+      {
+        "id": "D",
+        "text": "Sororicide"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Uxoricide = पत्नी की हत्या। Example: He was convicted of uxoricide after the court examined the evidence.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_071",
+    "subjectId": "english",
+    "question": "Choose the one word for: The murder of a prominent person for political reasons.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Assassination"
+      },
+      {
+        "id": "B",
+        "text": "Massacre"
+      },
+      {
+        "id": "C",
+        "text": "Lynching"
+      },
+      {
+        "id": "D",
+        "text": "Execution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Assassination = (प्रमुख व्यक्ति की) राजनीतिक हत्या। Example: The assassination of the leader shocked the entire nation.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_072",
+    "subjectId": "english",
+    "question": "Choose the one word for: An official order or proclamation issued by a ruler or authority.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eclogue"
+      },
+      {
+        "id": "B",
+        "text": "Epistle"
+      },
+      {
+        "id": "C",
+        "text": "Expletive"
+      },
+      {
+        "id": "D",
+        "text": "Edict"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Edict = राजाज्ञा / फ़रमान। Example: Emperor Ashoka issued edicts that were carved on rocks and pillars.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_073",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who takes refined pleasure in fine food and drink.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Epicure"
+      },
+      {
+        "id": "B",
+        "text": "Vintner"
+      },
+      {
+        "id": "C",
+        "text": "Caterer"
+      },
+      {
+        "id": "D",
+        "text": "Dietician"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Epicure = उत्तम खान-पान का शौकीन। Example: As an epicure, he chose the restaurant carefully.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_074",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who lives outside his native country.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Compatriot"
+      },
+      {
+        "id": "B",
+        "text": "Expatriate"
+      },
+      {
+        "id": "C",
+        "text": "Pilgrim"
+      },
+      {
+        "id": "D",
+        "text": "Aborigine"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Expatriate = प्रवासी (अपने देश से बाहर रहने वाला)। Example: Many Indian expatriates work in the Gulf countries.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_075",
+    "subjectId": "english",
+    "question": "Choose the one word for: A group of islands.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Isthmus"
+      },
+      {
+        "id": "B",
+        "text": "Atoll"
+      },
+      {
+        "id": "C",
+        "text": "Peninsula"
+      },
+      {
+        "id": "D",
+        "text": "Archipelago"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Archipelago = द्वीप-समूह। Example: The Andaman and Nicobar Islands form an archipelago in the Bay of Bengal.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_076",
+    "subjectId": "english",
+    "question": "Choose the one word for: A disease that spreads rapidly among many people in a locality at the same time.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Immunity"
+      },
+      {
+        "id": "B",
+        "text": "Syndrome"
+      },
+      {
+        "id": "C",
+        "text": "Epidemic"
+      },
+      {
+        "id": "D",
+        "text": "Allergy"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Epidemic = महामारी (किसी क्षेत्र में तेज़ी से फैलने वाला रोग)। Example: An epidemic of dengue broke out in the city.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_077",
+    "subjectId": "english",
+    "question": "Choose the one word for: A disease regularly found among a particular people or in a certain region.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pandemic"
+      },
+      {
+        "id": "B",
+        "text": "Endemic"
+      },
+      {
+        "id": "C",
+        "text": "Chronic"
+      },
+      {
+        "id": "D",
+        "text": "Hereditary"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Endemic = स्थानिक (किसी क्षेत्र में सदा पाया जाने वाला रोग)। Example: Malaria is endemic in some tropical regions.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_078",
+    "subjectId": "english",
+    "question": "Choose the one word for: The scientific study of earthquakes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Seismology"
+      },
+      {
+        "id": "B",
+        "text": "Cosmology"
+      },
+      {
+        "id": "C",
+        "text": "Volcanology"
+      },
+      {
+        "id": "D",
+        "text": "Hydrology"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Seismology = भूकंप-विज्ञान। Example: Seismology helps scientists to measure the strength of earthquakes.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_079",
+    "subjectId": "english",
+    "question": "Choose the one word for: The study of fossils.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Philology"
+      },
+      {
+        "id": "B",
+        "text": "Palaeography"
+      },
+      {
+        "id": "C",
+        "text": "Archaeology"
+      },
+      {
+        "id": "D",
+        "text": "Palaeontology"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Palaeontology = जीवाश्म-विज्ञान। Example: Palaeontology tells us how dinosaurs lived millions of years ago.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_080",
+    "subjectId": "english",
+    "question": "Choose the one word for: The study of handwriting.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Typography"
+      },
+      {
+        "id": "B",
+        "text": "Orthography"
+      },
+      {
+        "id": "C",
+        "text": "Graphology"
+      },
+      {
+        "id": "D",
+        "text": "Cryptography"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Graphology = हस्तलेख-विज्ञान। Example: Some experts use graphology to guess a person's character.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_081",
+    "subjectId": "english",
+    "question": "Choose the one word for: A system of society in which women hold the power.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Patriarchy"
+      },
+      {
+        "id": "B",
+        "text": "Tetrarchy"
+      },
+      {
+        "id": "C",
+        "text": "Anarchy"
+      },
+      {
+        "id": "D",
+        "text": "Matriarchy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Matriarchy = मातृसत्ता। Example: In a matriarchy, property passes through the mother's line.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_082",
+    "subjectId": "english",
+    "question": "Choose the one word for: An animal that feeds on insects.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insectivorous"
+      },
+      {
+        "id": "B",
+        "text": "Nocturnal"
+      },
+      {
+        "id": "C",
+        "text": "Piscivorous"
+      },
+      {
+        "id": "D",
+        "text": "Arboreal"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Insectivorous = कीटभक्षी। Example: Bats and frogs are insectivorous animals.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_083",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who takes up an art or science in a superficial way, only for pleasure.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prodigy"
+      },
+      {
+        "id": "B",
+        "text": "Specialist"
+      },
+      {
+        "id": "C",
+        "text": "Dilettante"
+      },
+      {
+        "id": "D",
+        "text": "Virtuoso"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Dilettante = शौकिया, ऊपरी जानकारी रखने वाला कलाप्रेमी। Example: He is a dilettante who dabbles in painting but never finishes a canvas.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_084",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person regarded as a perfect model of a particular quality.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parvenu"
+      },
+      {
+        "id": "B",
+        "text": "Paragon"
+      },
+      {
+        "id": "C",
+        "text": "Patriarch"
+      },
+      {
+        "id": "D",
+        "text": "Pariah"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Paragon = आदर्श नमूना, उत्कृष्टता का प्रतीक। Example: She was a paragon of honesty and discipline.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_085",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who has an aggressive and exaggerated patriotism.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chauvinist"
+      },
+      {
+        "id": "B",
+        "text": "Humanitarian"
+      },
+      {
+        "id": "C",
+        "text": "Internationalist"
+      },
+      {
+        "id": "D",
+        "text": "Nihilist"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Chauvinist = उग्र राष्ट्रवादी / अंध-देशभक्त। Example: The chauvinist refused to appreciate anything foreign.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_086",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who rebels against an established government.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Impostor"
+      },
+      {
+        "id": "B",
+        "text": "Informant"
+      },
+      {
+        "id": "C",
+        "text": "Incumbent"
+      },
+      {
+        "id": "D",
+        "text": "Insurgent"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Insurgent = विद्रोही। Example: The insurgents attacked the army post at night.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_087",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who believes in equal rights and opportunities for all people.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Authoritarian"
+      },
+      {
+        "id": "B",
+        "text": "Elitist"
+      },
+      {
+        "id": "C",
+        "text": "Egalitarian"
+      },
+      {
+        "id": "D",
+        "text": "Libertarian"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Egalitarian = समतावादी। Example: An egalitarian society treats all citizens equally.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_088",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who is between eighty and eighty-nine years old.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Centenarian"
+      },
+      {
+        "id": "B",
+        "text": "Octogenarian"
+      },
+      {
+        "id": "C",
+        "text": "Nonagenarian"
+      },
+      {
+        "id": "D",
+        "text": "Septuagenarian"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Octogenarian = अस्सी से नवासी वर्ष की आयु का व्यक्ति। Example: The octogenarian professor still walks two miles every day.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_089",
+    "subjectId": "english",
+    "question": "Choose the one word for: Something that belongs to a different period of time and looks out of place.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anarchism"
+      },
+      {
+        "id": "B",
+        "text": "Analogy"
+      },
+      {
+        "id": "C",
+        "text": "Anachronism"
+      },
+      {
+        "id": "D",
+        "text": "Anagram"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Anachronism = कालविरुद्ध बात / कालदोष। Example: A mobile phone in a film about ancient Rome would be an anachronism.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_090",
+    "subjectId": "english",
+    "question": "Choose the one word for: A speech made by a character to himself when alone on the stage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Soliloquy"
+      },
+      {
+        "id": "B",
+        "text": "Colloquy"
+      },
+      {
+        "id": "C",
+        "text": "Dialogue"
+      },
+      {
+        "id": "D",
+        "text": "Rhapsody"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Soliloquy = स्वगत-कथन। Example: Hamlet's soliloquy 'To be, or not to be' is world famous.",
+    "language": "en"
+  }
+]

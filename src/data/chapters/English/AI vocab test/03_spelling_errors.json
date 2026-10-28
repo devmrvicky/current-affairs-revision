@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_spl_061",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abberation"
+      },
+      {
+        "id": "B",
+        "text": "Aberation"
+      },
+      {
+        "id": "C",
+        "text": "Aberration"
+      },
+      {
+        "id": "D",
+        "text": "Aberrasion"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Aberration (ab + err + ation: दो r) = विचलन, असामान्य स्थिति। Example: The sudden rise in marks was an aberration, not the rule.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_062",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apparatus"
+      },
+      {
+        "id": "B",
+        "text": "Apparatuss"
+      },
+      {
+        "id": "C",
+        "text": "Aparatus"
+      },
+      {
+        "id": "D",
+        "text": "Apparatas"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Apparatus (दो p, एक r; 'us' पर समाप्त) = उपकरण। Example: The lab was equipped with modern apparatus.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_063",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Camaflouge"
+      },
+      {
+        "id": "B",
+        "text": "Camouflauge"
+      },
+      {
+        "id": "C",
+        "text": "Camoflage"
+      },
+      {
+        "id": "D",
+        "text": "Camouflage"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Camouflage (camou + flage) = छद्मावरण। Example: The soldiers used leaves as camouflage.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_064",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shauffeur"
+      },
+      {
+        "id": "B",
+        "text": "Chauffeur"
+      },
+      {
+        "id": "C",
+        "text": "Chauffeure"
+      },
+      {
+        "id": "D",
+        "text": "Chaufeur"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Chauffeur (ch + au + ff + eur) = वेतनभोगी कार-चालक। Example: The chauffeur opened the door for the minister.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_065",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Commmittee"
+      },
+      {
+        "id": "B",
+        "text": "Committee"
+      },
+      {
+        "id": "C",
+        "text": "Commitee"
+      },
+      {
+        "id": "D",
+        "text": "Comittee"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Committee (दो m, दो t, दो e) = समिति। Example: The committee approved the new budget.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_066",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conoisseur"
+      },
+      {
+        "id": "B",
+        "text": "Connoiseur"
+      },
+      {
+        "id": "C",
+        "text": "Connoisseur"
+      },
+      {
+        "id": "D",
+        "text": "Connoisseure"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Connoisseur (दो n, 'seur') = पारखी, मर्मज्ञ। Example: He is a connoisseur of classical music.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_067",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Consensus"
+      },
+      {
+        "id": "B",
+        "text": "Consencus"
+      },
+      {
+        "id": "C",
+        "text": "Concensus"
+      },
+      {
+        "id": "D",
+        "text": "Consensous"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Consensus (con + sensus, 'sens' याद रखें) = आम सहमति। Example: The members reached a consensus after a long debate.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_068",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Courtious"
+      },
+      {
+        "id": "B",
+        "text": "Curteous"
+      },
+      {
+        "id": "C",
+        "text": "Courtous"
+      },
+      {
+        "id": "D",
+        "text": "Courteous"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Courteous (court + eous) = विनम्र, शिष्ट। Example: The courteous clerk greeted every visitor.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_069",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dilemma"
+      },
+      {
+        "id": "B",
+        "text": "Dillemma"
+      },
+      {
+        "id": "C",
+        "text": "Dilemna"
+      },
+      {
+        "id": "D",
+        "text": "Dilema"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Dilemma (di + lem + ma: दो m) = दुविधा। Example: He was in a dilemma about which offer to accept.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_070",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Excentric"
+      },
+      {
+        "id": "B",
+        "text": "Eccentic"
+      },
+      {
+        "id": "C",
+        "text": "Ecentric"
+      },
+      {
+        "id": "D",
+        "text": "Eccentric"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Eccentric (दो c) = सनकी, अनोखे स्वभाव वाला। Example: The eccentric professor wore two different shoes.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_071",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enterpreneur"
+      },
+      {
+        "id": "B",
+        "text": "Entrepeneur"
+      },
+      {
+        "id": "C",
+        "text": "Entrepreneur"
+      },
+      {
+        "id": "D",
+        "text": "Entreprenuer"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Entrepreneur (entre + pre + neur) = उद्यमी। Example: The young entrepreneur started a tech company.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_072",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exhilirate"
+      },
+      {
+        "id": "B",
+        "text": "Exhilarate"
+      },
+      {
+        "id": "C",
+        "text": "Exhiliarate"
+      },
+      {
+        "id": "D",
+        "text": "Exilarate"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Exhilarate (ex + hil + arate, 'h' के साथ) = उल्लसित करना। Example: The mountain air exhilarated the trekkers.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_073",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Grievence"
+      },
+      {
+        "id": "B",
+        "text": "Grievance"
+      },
+      {
+        "id": "C",
+        "text": "Greivance"
+      },
+      {
+        "id": "D",
+        "text": "Grievanse"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Grievance (grie + vance: 'ie') = शिकायत। Example: The workers presented their grievances to the manager.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_074",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Guerrila"
+      },
+      {
+        "id": "B",
+        "text": "Gureilla"
+      },
+      {
+        "id": "C",
+        "text": "Guerriela"
+      },
+      {
+        "id": "D",
+        "text": "Guerrilla"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Guerrilla (दो r, दो l) = छापामार लड़ाका। Example: Guerrilla fighters attacked the convoy.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_075",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hindrense"
+      },
+      {
+        "id": "B",
+        "text": "Hinderence"
+      },
+      {
+        "id": "C",
+        "text": "Hindrance"
+      },
+      {
+        "id": "D",
+        "text": "Hindrence"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Hindrance (hind + rance: बीच में 'e' नहीं) = बाधा। Example: Poverty should not be a hindrance to education.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_076",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hypocrisy"
+      },
+      {
+        "id": "B",
+        "text": "Hypocricy"
+      },
+      {
+        "id": "C",
+        "text": "Hypocracy"
+      },
+      {
+        "id": "D",
+        "text": "Hipocrisy"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Hypocrisy (hypo + crisy) = पाखंड। Example: Preaching honesty but cheating is hypocrisy.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_077",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Idiosyncracy"
+      },
+      {
+        "id": "B",
+        "text": "Idiosynchrasy"
+      },
+      {
+        "id": "C",
+        "text": "Idiosincrasy"
+      },
+      {
+        "id": "D",
+        "text": "Idiosyncrasy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Idiosyncrasy (idio + syn + crasy) = निजी सनक / विशिष्ट आदत। Example: Eating dessert first is his idiosyncrasy.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_078",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inoculate"
+      },
+      {
+        "id": "B",
+        "text": "Innoculate"
+      },
+      {
+        "id": "C",
+        "text": "Inocculate"
+      },
+      {
+        "id": "D",
+        "text": "Inoculete"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Inoculate (एक n, एक c) = टीका लगाना। Example: Children are inoculated against polio.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_079",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Irrevelant"
+      },
+      {
+        "id": "B",
+        "text": "Irrelevant"
+      },
+      {
+        "id": "C",
+        "text": "Irelevant"
+      },
+      {
+        "id": "D",
+        "text": "Irrelevent"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Irrelevant (दो r) = अप्रासंगिक। Example: Your comment is irrelevant to the topic.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_080",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Leasure"
+      },
+      {
+        "id": "B",
+        "text": "Liesure"
+      },
+      {
+        "id": "C",
+        "text": "Leisure"
+      },
+      {
+        "id": "D",
+        "text": "Leisur"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Leisure (lei + sure) = फ़ुर्सत। Example: He reads novels in his leisure.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_081",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Leutenant"
+      },
+      {
+        "id": "B",
+        "text": "Lieutenent"
+      },
+      {
+        "id": "C",
+        "text": "Lieutanant"
+      },
+      {
+        "id": "D",
+        "text": "Lieutenant"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Lieutenant (lieu + tenant) = लेफ़्टिनेंट (सेना का अधिकारी)। Example: The lieutenant led the patrol.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_082",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Misscellaneous"
+      },
+      {
+        "id": "B",
+        "text": "Miscellaneous"
+      },
+      {
+        "id": "C",
+        "text": "Miscellaneus"
+      },
+      {
+        "id": "D",
+        "text": "Miscellanious"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Miscellaneous (mis + cell + aneous) = विविध। Example: The last page lists miscellaneous items.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_083",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nusance"
+      },
+      {
+        "id": "B",
+        "text": "Nuiscance"
+      },
+      {
+        "id": "C",
+        "text": "Nuisance"
+      },
+      {
+        "id": "D",
+        "text": "Nuisence"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Nuisance (nui + sance) = उपद्रव, परेशानी। Example: Stray dogs are a nuisance in this street.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_084",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pneumonia"
+      },
+      {
+        "id": "B",
+        "text": "Pnuemonia"
+      },
+      {
+        "id": "C",
+        "text": "Pneumonea"
+      },
+      {
+        "id": "D",
+        "text": "Neumonia"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Pneumonia ('p' मौन; pneu + monia) = निमोनिया। Example: The child was admitted to hospital with pneumonia.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_085",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rhetoric"
+      },
+      {
+        "id": "B",
+        "text": "Rhatoric"
+      },
+      {
+        "id": "C",
+        "text": "Rhetorik"
+      },
+      {
+        "id": "D",
+        "text": "Retoric"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Rhetoric (rh + etoric) = वाक्पटुता / प्रभावशाली भाषण-कला। Example: His rhetoric moved the crowd, but his plan lacked substance.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_086",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Silhoutte"
+      },
+      {
+        "id": "B",
+        "text": "Silouette"
+      },
+      {
+        "id": "C",
+        "text": "Sillhouette"
+      },
+      {
+        "id": "D",
+        "text": "Silhouette"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Silhouette (sil + houette) = छायाकृति। Example: We saw the silhouette of a tree against the sunset.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_087",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sovreignty"
+      },
+      {
+        "id": "B",
+        "text": "Sovereinty"
+      },
+      {
+        "id": "C",
+        "text": "Sovereignty"
+      },
+      {
+        "id": "D",
+        "text": "Soverignty"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Sovereignty (sover + eign + ty) = संप्रभुता। Example: A country must protect its sovereignty.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_088",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Supercede"
+      },
+      {
+        "id": "B",
+        "text": "Supersede"
+      },
+      {
+        "id": "C",
+        "text": "Supersead"
+      },
+      {
+        "id": "D",
+        "text": "Supercead"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Supersede ('sede' पर समाप्त) = की जगह लेना। Example: The new rules supersede the old ones.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_089",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tyrrany"
+      },
+      {
+        "id": "B",
+        "text": "Tyranni"
+      },
+      {
+        "id": "C",
+        "text": "Tyrany"
+      },
+      {
+        "id": "D",
+        "text": "Tyranny"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Tyranny (दो n, एक r) = निरंकुश शासन। Example: People rose against the tyranny of the king.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_090",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vengeanse"
+      },
+      {
+        "id": "B",
+        "text": "Vengance"
+      },
+      {
+        "id": "C",
+        "text": "Vengeance"
+      },
+      {
+        "id": "D",
+        "text": "Vengence"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Vengeance (venge + ance: 'e' बना रहता है) = बदला। Example: He swore vengeance on his enemies.",
+    "language": "en"
+  }
+]
