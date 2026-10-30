@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "grammar101",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe clerk said me that he had not seen (A) / the file anywhere in the office (B) / since the previous afternoon. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The clerk said me that he had not seen"
+      },
+      {
+        "id": "B",
+        "text": "the file anywhere in the office"
+      },
+      {
+        "id": "C",
+        "text": "since the previous afternoon."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "narration",
+    "difficulty": "easy",
+    "explanation": "'Say' के बाद सीधे object नहीं आता। Listener (object) हो तो 'tell' लगता है: 'said me that' → 'told me that'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar102",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nOur hostess politely asked me (A) / whether did I want (B) / tea or coffee with the dinner. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Our hostess politely asked me"
+      },
+      {
+        "id": "B",
+        "text": "whether did I want"
+      },
+      {
+        "id": "C",
+        "text": "tea or coffee with the dinner."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "Reported question में statement order (subject + verb) रहता है, auxiliary पहले नहीं आती: 'whether I wanted'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar103",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe teacher asked the boy [what was his name] and where he lived.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "that what his name was"
+      },
+      {
+        "id": "C",
+        "text": "what his name were"
+      },
+      {
+        "id": "D",
+        "text": "what his name was"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "Reported wh-question में सीधा order आता है: 'what his name was' (न कि 'what was his name')।",
+    "language": "en"
+  },
+  {
+    "id": "grammar104",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe geography teacher told the students (A) / that the earth moves round the sun (B) / and rotates on its own axis. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The geography teacher told the students"
+      },
+      {
+        "id": "B",
+        "text": "that the earth moves round the sun"
+      },
+      {
+        "id": "C",
+        "text": "and rotates on its own axis."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "Universal truth / habitual fact reported speech में नहीं बदलता, इसलिए reporting verb past होने पर भी 'moves' (present) सही है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar105",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe captain told the players that [you should not lose heart] even if they lost the first match.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "he should not lose heart"
+      },
+      {
+        "id": "C",
+        "text": "they should not lose heart"
+      },
+      {
+        "id": "D",
+        "text": "you would not lose heart"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "Reported speech में second person pronoun (you) listener के अनुसार बदलता है। Listener 'the players' हैं, इसलिए 'you' → 'they'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar106",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nTwo years ago, the minister told the villagers (A) / that he had visited their village yesterday (B) / and promised to build a road. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Two years ago, the minister told the villagers"
+      },
+      {
+        "id": "B",
+        "text": "that he had visited their village yesterday"
+      },
+      {
+        "id": "C",
+        "text": "and promised to build a road."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "Reported speech में 'yesterday' → 'the previous day / the day before' हो जाता है। Past Perfect (had visited) के साथ 'yesterday' नहीं चलता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar107",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe old woman requested the young man (A) / that lend her a hand (B) / to cross the busy road. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The old woman requested the young man"
+      },
+      {
+        "id": "B",
+        "text": "that lend her a hand"
+      },
+      {
+        "id": "C",
+        "text": "to cross the busy road."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "Request वाले imperative की reporting में 'requested + object + to + V1' आता है: 'requested the young man to lend her a hand'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar108",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe principal strictly forbade the students [not to use] mobile phones inside the examination hall.",
+    "options": [
+      {
+        "id": "A",
+        "text": "not to using"
+      },
+      {
+        "id": "B",
+        "text": "to use"
+      },
+      {
+        "id": "C",
+        "text": "No improvement"
+      },
+      {
+        "id": "D",
+        "text": "for using"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "'Forbid' खुद negative अर्थ रखता है, इसलिए उसके बाद 'not' नहीं लगता: 'forbade the students to use'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar109",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nRahul [suggested to his friends to go] for a picnic on Sunday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "suggested to his friends that they should go"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "suggested his friends to go"
+      },
+      {
+        "id": "D",
+        "text": "suggested to his friends for going"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "'Suggest' के बाद 'to + V1' नहीं आता। 'Let us...' की reporting 'suggested that they should go' से होती है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar110",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nShe exclaimed with joy [that what a beautiful garden it was].",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "that how beautiful the garden was"
+      },
+      {
+        "id": "C",
+        "text": "that what beautiful garden it was"
+      },
+      {
+        "id": "D",
+        "text": "that it was a very beautiful garden"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "Exclamatory sentence की reporting में 'that' के साथ 'what/how' नहीं आते। उसे assertive बनाकर 'very' लगाते हैं: 'that it was a very beautiful garden'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar111",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nRohan told us that he [has been] to Goa the previous month with his family.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "was"
+      },
+      {
+        "id": "C",
+        "text": "had been"
+      },
+      {
+        "id": "D",
+        "text": "would be"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "narration",
+    "difficulty": "easy",
+    "explanation": "Reporting verb past है और 'the previous month' past marker है, इसलिए Present Perfect → Past Perfect: 'had been'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar112",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe receptionist [told that the manager was] in a meeting and could not see anyone before noon.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "said us that the manager was"
+      },
+      {
+        "id": "C",
+        "text": "told that the manager is"
+      },
+      {
+        "id": "D",
+        "text": "told us that the manager was"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "'Tell' हमेशा object के साथ आता है ('told us that'); object न हो तो 'said that' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar113",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nRahul told me that he will go to Delhi the next day (A) / to attend the interview (B) / for the post of a clerk. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rahul told me that he will go to Delhi the next day"
+      },
+      {
+        "id": "B",
+        "text": "to attend the interview"
+      },
+      {
+        "id": "C",
+        "text": "for the post of a clerk."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "Reporting verb past (told) है और 'the next day' reported speech का marker है, इसलिए 'will go' → 'would go'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar114",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe coach advised to the players (A) / to practise regularly (B) / before the final match. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The coach advised to the players"
+      },
+      {
+        "id": "B",
+        "text": "to practise regularly"
+      },
+      {
+        "id": "C",
+        "text": "before the final match."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "'Advise' के बाद सीधे object आता है ('to' नहीं): 'advised the players to practise'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar115",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe old woman cried with sorrow (A) / that alas she had lost (B) / her only son in the war. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The old woman cried with sorrow"
+      },
+      {
+        "id": "B",
+        "text": "that alas she had lost"
+      },
+      {
+        "id": "C",
+        "text": "her only son in the war."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "Alas / Hurrah / Oh जैसे exclamatory words reported speech में हटा दिए जाते हैं और भाव 'with sorrow/joy' से दिखाया जाता है: 'that she had lost'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar116",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nMy friend asked me whether he [can] borrow my notes the next day.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "will"
+      },
+      {
+        "id": "C",
+        "text": "could"
+      },
+      {
+        "id": "D",
+        "text": "must"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "Reporting verb past है और 'the next day' marker है, इसलिए modal 'can' → 'could'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar117",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe manager told the workers that the factory [shall remain] closed the next day for repairs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "will remain"
+      },
+      {
+        "id": "C",
+        "text": "has remained"
+      },
+      {
+        "id": "D",
+        "text": "would remain"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "Reporting verb past होने पर 'shall/will' → 'would' हो जाता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar118",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nWhenever I call him, (A) / he says that he was very busy (B) / these days with his new job. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Whenever I call him,"
+      },
+      {
+        "id": "B",
+        "text": "he says that he was very busy"
+      },
+      {
+        "id": "C",
+        "text": "these days with his new job."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "easy",
+    "explanation": "Reporting verb (says) present में है, इसलिए reported clause की tense नहीं बदलती, और 'these days' भी present का marker है: 'he says that he is very busy'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar119",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nOn seeing me in the park, he wished me (A) / good morning and asked (B) / how I was doing. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "On seeing me in the park, he wished me"
+      },
+      {
+        "id": "B",
+        "text": "good morning and asked"
+      },
+      {
+        "id": "C",
+        "text": "how I was doing."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "'Good morning' जैसी greeting की reporting 'wished me good morning' से होती है और 'how I was doing' में order सही है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar120",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nSeeing me in the lane, he asked me (A) / where I was going (B) / so early in the morning. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Seeing me in the lane, he asked me"
+      },
+      {
+        "id": "B",
+        "text": "where I was going"
+      },
+      {
+        "id": "C",
+        "text": "so early in the morning."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "easy",
+    "explanation": "Reported wh-question में statement order (where I was going) और tense backshift दोनों सही हैं। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar121",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe nurse said that the doctor was busy (A) / and asked me (B) / if could I wait for some time. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The nurse said that the doctor was busy"
+      },
+      {
+        "id": "B",
+        "text": "and asked me"
+      },
+      {
+        "id": "C",
+        "text": "if could I wait for some time."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "Reported question में 'if/whether' के बाद सीधा order आता है: 'if I could wait'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar122",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHe thanked to me (A) / for the help I had given (B) / to his family during the crisis. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "He thanked to me"
+      },
+      {
+        "id": "B",
+        "text": "for the help I had given"
+      },
+      {
+        "id": "C",
+        "text": "to his family during the crisis."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "'Thank' के बाद सीधे object आता है (preposition 'to' नहीं): 'He thanked me'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar123",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe doctor says that (A) / regular exercise keeps a person fit (B) / and prevents many diseases. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The doctor says that"
+      },
+      {
+        "id": "B",
+        "text": "regular exercise keeps a person fit"
+      },
+      {
+        "id": "C",
+        "text": "and prevents many diseases."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "easy",
+    "explanation": "Reporting verb present (says) है और बात general truth भी है, इसलिए tense/pronoun में बदलाव की ज़रूरत नहीं। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar124",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe manager said that the delegation [had arrived] the previous evening and would leave the next morning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "has arrived"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "would arrive"
+      },
+      {
+        "id": "D",
+        "text": "is arriving"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "Reporting verb past है; 'the previous evening' के साथ 'had arrived' और 'the next morning' के साथ 'would leave' दोनों सही हैं। इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar125",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nHe asked me what [do I do] for a living.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "did I do"
+      },
+      {
+        "id": "C",
+        "text": "I am doing"
+      },
+      {
+        "id": "D",
+        "text": "I did"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "Reported wh-question में statement order आता है और reporting verb past होने पर present → past होता है: 'what I did for a living'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar126",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThis beautiful painting (A) / was made during the summer vacation (B) / by she and her friends. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "This beautiful painting"
+      },
+      {
+        "id": "B",
+        "text": "was made during the summer vacation"
+      },
+      {
+        "id": "C",
+        "text": "by she and her friends."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "easy",
+    "explanation": "'By' (preposition) के बाद object case आता है: 'by she' → 'by her'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar127",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe thief who had stolen the jewellery has caught by the police (A) / after a long chase through (B) / the crowded streets of the old city. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The thief who had stolen the jewellery has caught by the police"
+      },
+      {
+        "id": "B",
+        "text": "after a long chase through"
+      },
+      {
+        "id": "C",
+        "text": "the crowded streets of the old city."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "voice",
+    "difficulty": "easy",
+    "explanation": "Present Perfect Passive = has/have + been + V3। 'has caught' → 'has been caught'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar128",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nAll the pending dues [must paid] by the employees before the end of this month.",
+    "options": [
+      {
+        "id": "A",
+        "text": "must be paid"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "must been paid"
+      },
+      {
+        "id": "D",
+        "text": "must to be paid"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "voice",
+    "difficulty": "easy",
+    "explanation": "Modal का passive = modal + be + V3: 'must be paid'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar129",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nWhen we reached the hospital, (A) / the injured passengers were been treated by the doctors (B) / and their families were waiting outside. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "When we reached the hospital,"
+      },
+      {
+        "id": "B",
+        "text": "the injured passengers were been treated by the doctors"
+      },
+      {
+        "id": "C",
+        "text": "and their families were waiting outside."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "voice",
+    "difficulty": "medium",
+    "explanation": "Past Continuous Passive = was/were + being + V3। 'were been treated' → 'were being treated'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar130",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nBy the end of next year, (A) / the entire flyover project (B) / will have completed by the engineers. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "By the end of next year,"
+      },
+      {
+        "id": "B",
+        "text": "the entire flyover project"
+      },
+      {
+        "id": "C",
+        "text": "will have completed by the engineers."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "Future Perfect Passive = will have been + V3। 'will have completed' → 'will have been completed'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar131",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nWhile he was returning home from the market, (A) / the old farmer was beaten badly (B) / by a heavy iron rod. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "While he was returning home from the market,"
+      },
+      {
+        "id": "B",
+        "text": "the old farmer was beaten badly"
+      },
+      {
+        "id": "C",
+        "text": "by a heavy iron rod."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "medium",
+    "explanation": "Instrument (साधन) के साथ 'with' आता है और कर्ता (agent) के साथ 'by'। 'by a heavy iron rod' → 'with a heavy iron rod'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar132",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe old beggar [was laughed by] the children for his funny dress.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "was laughed"
+      },
+      {
+        "id": "C",
+        "text": "was laughed at by"
+      },
+      {
+        "id": "D",
+        "text": "was laughing by"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "medium",
+    "explanation": "Prepositional verb (laugh at) का preposition passive में भी साथ रहता है: 'was laughed at by'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar133",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe proposal to ban plastic bags (A) / has been discussed in detail and (B) / will be looked by a special committee. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The proposal to ban plastic bags"
+      },
+      {
+        "id": "B",
+        "text": "has been discussed in detail and"
+      },
+      {
+        "id": "C",
+        "text": "will be looked by a special committee."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "'Look into' का 'into' passive में भी रहता है: 'will be looked into by a special committee'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar134",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe new teacher [is known with] all the students of the school.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is known for"
+      },
+      {
+        "id": "B",
+        "text": "is known to"
+      },
+      {
+        "id": "C",
+        "text": "No improvement"
+      },
+      {
+        "id": "D",
+        "text": "has known to"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "voice",
+    "difficulty": "easy",
+    "explanation": "'Known' के साथ 'to' आता है: 'is known to all the students'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar135",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[Let the prisoners treated] kindly and given proper food by the jail staff.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "Let the prisoners are treated"
+      },
+      {
+        "id": "C",
+        "text": "Let the prisoners to be treated"
+      },
+      {
+        "id": "D",
+        "text": "Let the prisoners be treated"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "Imperative का passive 'Let + object + be + V3' से बनता है: 'Let the prisoners be treated'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar136",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nBy who was this decision taken (A) / without consulting the members (B) / of the executive committee? (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "By who was this decision taken"
+      },
+      {
+        "id": "B",
+        "text": "without consulting the members"
+      },
+      {
+        "id": "C",
+        "text": "of the executive committee?"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "Preposition (by) के बाद object case आता है, इसलिए 'who' → 'whom': 'By whom was this decision taken'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar137",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[By whom this novel was written] in the early years of the twentieth century?",
+    "options": [
+      {
+        "id": "A",
+        "text": "By whom was this novel written"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "By who was this novel written"
+      },
+      {
+        "id": "D",
+        "text": "By whom written was this novel"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "Interrogative passive में auxiliary subject से पहले आती है: 'By whom was this novel written?'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar138",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nAfter the students failed to understand the first time, (A) / the teacher repeated the lesson and (B) / the new formula was explained them clearly. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "After the students failed to understand the first time,"
+      },
+      {
+        "id": "B",
+        "text": "the teacher repeated the lesson and"
+      },
+      {
+        "id": "C",
+        "text": "the new formula was explained them clearly."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "Explain / describe / announce जैसे verbs में person से पहले 'to' लगता है: 'was explained to them'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar139",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe old man in our locality (A) / is said that he has donated (B) / all his property to charity. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The old man in our locality"
+      },
+      {
+        "id": "B",
+        "text": "is said that he has donated"
+      },
+      {
+        "id": "C",
+        "text": "all his property to charity."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "'Is said' के बाद that-clause नहीं, infinitive आता है: 'is said to have donated' (या 'It is said that he has donated')।",
+    "language": "en"
+  },
+  {
+    "id": "grammar140",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe young man is resembled by his father (A) / in looks as well as (B) / in the style of speaking. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The young man is resembled by his father"
+      },
+      {
+        "id": "B",
+        "text": "in looks as well as"
+      },
+      {
+        "id": "C",
+        "text": "in the style of speaking."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "Resemble जैसी stative verbs (have, lack, resemble, suit) का passive नहीं बनता: 'The young man resembles his father'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar141",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe newly formed committee (A) / is consisted of ten members (B) / from different departments. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The newly formed committee"
+      },
+      {
+        "id": "B",
+        "text": "is consisted of ten members"
+      },
+      {
+        "id": "C",
+        "text": "from different departments."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "'Consist of' intransitive है, इसका passive नहीं बनता: 'consists of ten members'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar142",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe manager wants the report [to submitted] to the head office by Monday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "to submit"
+      },
+      {
+        "id": "C",
+        "text": "to be submitted"
+      },
+      {
+        "id": "D",
+        "text": "to been submitted"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "easy",
+    "explanation": "Passive infinitive = to + be + V3: 'wants the report to be submitted'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar143",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe old machines in the factory (A) / have become obsolete and (B) / need to repair before the new production season. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The old machines in the factory"
+      },
+      {
+        "id": "B",
+        "text": "have become obsolete and"
+      },
+      {
+        "id": "C",
+        "text": "need to repair before the new production season."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "Machines खुद repair नहीं करतीं, इसलिए passive sense चाहिए: 'need to be repaired' (या 'need repairing')।",
+    "language": "en"
+  },
+  {
+    "id": "grammar144",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nShe hates [to being asked] the same question repeatedly by the interviewers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "to asked"
+      },
+      {
+        "id": "C",
+        "text": "to be ask"
+      },
+      {
+        "id": "D",
+        "text": "being asked"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "Passive gerund = being + V3: 'hates being asked'। 'to being' गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar145",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe new bridge over the river [is going to inaugurated] by the Prime Minister next week.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is going to been inaugurated"
+      },
+      {
+        "id": "B",
+        "text": "is going to be inaugurated"
+      },
+      {
+        "id": "C",
+        "text": "No improvement"
+      },
+      {
+        "id": "D",
+        "text": "is going inaugurated"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "voice",
+    "difficulty": "medium",
+    "explanation": "'Be going to' का passive = is/are going to + be + V3: 'is going to be inaugurated'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar146",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe thief was seen enter the house (A) / by the neighbours (B) / around midnight. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The thief was seen enter the house"
+      },
+      {
+        "id": "B",
+        "text": "by the neighbours"
+      },
+      {
+        "id": "C",
+        "text": "around midnight."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "Active में 'saw him enter' (bare infinitive) होता है, पर passive में 'to + V1' आता है: 'was seen to enter'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar147",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nBy the time the police arrived, the thieves [had been caught] by the villagers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "have been caught"
+      },
+      {
+        "id": "C",
+        "text": "were catching"
+      },
+      {
+        "id": "D",
+        "text": "had caught"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "voice",
+    "difficulty": "easy",
+    "explanation": "Past Perfect Passive (had been + V3) पहले हुई action के लिए बिल्कुल सही है, इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar148",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe new highway connecting the two cities (A) / will be inaugurated by the Chief Minister (B) / early next month. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The new highway connecting the two cities"
+      },
+      {
+        "id": "B",
+        "text": "will be inaugurated by the Chief Minister"
+      },
+      {
+        "id": "C",
+        "text": "early next month."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "voice",
+    "difficulty": "medium",
+    "explanation": "Future Simple Passive = will be + V3, इसलिए 'will be inaugurated' सही है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar149",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe students [were being taught] by an experienced teacher when the fire alarm rang.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were been taught"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "had being taught"
+      },
+      {
+        "id": "D",
+        "text": "are being taught"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "voice",
+    "difficulty": "medium",
+    "explanation": "Past Continuous Passive (were being taught) और 'when' वाला clause दोनों सही हैं, इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar150",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe documents [have been sent] to the head office by speed post this morning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "has been sent"
+      },
+      {
+        "id": "B",
+        "text": "have being sent"
+      },
+      {
+        "id": "C",
+        "text": "No improvement"
+      },
+      {
+        "id": "D",
+        "text": "had sent"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "medium",
+    "explanation": "Plural subject (documents) के साथ Present Perfect Passive 'have been sent' सही है, इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  }
+]
