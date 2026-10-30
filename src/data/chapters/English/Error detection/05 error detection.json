@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "grammar201",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe little boy can to swim across the river (A) / without any help from (B) / his elder brother or sister. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The little boy can to swim across the river"
+      },
+      {
+        "id": "B",
+        "text": "without any help from"
+      },
+      {
+        "id": "C",
+        "text": "his elder brother or sister."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "easy",
+    "explanation": "Modal (can) के बाद bare infinitive (V1) आता है, 'to' नहीं: 'can swim'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar202",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe company has decided opening a new branch (A) / in the city next month and (B) / has already hired two managers. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The company has decided opening a new branch"
+      },
+      {
+        "id": "B",
+        "text": "in the city next month and"
+      },
+      {
+        "id": "C",
+        "text": "has already hired two managers."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "easy",
+    "explanation": "'Decide' के बाद to-infinitive आता है: 'decided to open'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar203",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nYou had better to consult a doctor (A) / immediately because the pain (B) / has been increasing since morning. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "You had better to consult a doctor"
+      },
+      {
+        "id": "B",
+        "text": "immediately because the pain"
+      },
+      {
+        "id": "C",
+        "text": "has been increasing since morning."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "'Had better' के बाद bare infinitive आता है: 'had better consult'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar204",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe strict principal never let (A) / the students to leave the hall (B) / before the national anthem was over. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The strict principal never let"
+      },
+      {
+        "id": "B",
+        "text": "the students to leave the hall"
+      },
+      {
+        "id": "C",
+        "text": "before the national anthem was over."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "'Let' के बाद bare infinitive आता है: 'let the students leave'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar205",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe old man is too weak (A) / that he cannot walk (B) / without the help of a stick. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The old man is too weak"
+      },
+      {
+        "id": "B",
+        "text": "that he cannot walk"
+      },
+      {
+        "id": "C",
+        "text": "without the help of a stick."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "'Too + adjective + to + V1' structure आता है: 'too weak to walk'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar206",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nLooking at her struggle, (A) / I cannot but to admire her courage (B) / in such a difficult situation. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Looking at her struggle,"
+      },
+      {
+        "id": "B",
+        "text": "I cannot but to admire her courage"
+      },
+      {
+        "id": "C",
+        "text": "in such a difficult situation."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "'Cannot but' के बाद bare infinitive आता है: 'cannot but admire'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar207",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nEveryone in the audience was spellbound (A) / when they heard (B) / the little girl to sing a patriotic song. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Everyone in the audience was spellbound"
+      },
+      {
+        "id": "B",
+        "text": "when they heard"
+      },
+      {
+        "id": "C",
+        "text": "the little girl to sing a patriotic song."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "Perception verbs (hear, see, watch) के बाद active में bare infinitive आता है: 'heard the little girl sing'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar208",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nEveryone knows that Rohan is a sincere boy, (A) / and he is also (B) / intelligent enough that he can solve such problems. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Everyone knows that Rohan is a sincere boy,"
+      },
+      {
+        "id": "B",
+        "text": "and he is also"
+      },
+      {
+        "id": "C",
+        "text": "intelligent enough that he can solve such problems."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "'Adjective + enough + to + V1' structure आता है: 'intelligent enough to solve'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar209",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nInstead of preparing for the examination, (A) / the lazy student does (B) / nothing but to waste his time in the playground. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Instead of preparing for the examination,"
+      },
+      {
+        "id": "B",
+        "text": "the lazy student does"
+      },
+      {
+        "id": "C",
+        "text": "nothing but to waste his time in the playground."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "'Nothing but / do nothing but' के बाद bare infinitive आता है: 'nothing but waste'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar210",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe doctor advised me [taking] complete rest for two weeks.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "take"
+      },
+      {
+        "id": "C",
+        "text": "for taking"
+      },
+      {
+        "id": "D",
+        "text": "to take"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "easy",
+    "explanation": "'Advise + object + to-infinitive' आता है: 'advised me to take'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar211",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nI want [that you should help me] with the project this weekend.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "you to help me"
+      },
+      {
+        "id": "C",
+        "text": "that you help me"
+      },
+      {
+        "id": "D",
+        "text": "for you helping me"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "'Want' के बाद that-clause नहीं आती; 'want + object + to + V1' आता है: 'want you to help me'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar212",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nIt is very kind [for you] to help the poor villagers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "to you"
+      },
+      {
+        "id": "C",
+        "text": "of you"
+      },
+      {
+        "id": "D",
+        "text": "by you"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "व्यक्ति का गुण बताने वाले adjective (kind, rude, foolish, clever) के बाद 'of + person' आता है: 'kind of you'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar213",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nHe went to the market [for buying] some fruits for his sick mother.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to buy"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "for buy"
+      },
+      {
+        "id": "D",
+        "text": "for to buy"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "उद्देश्य (purpose) बताने के लिए to-infinitive आता है: 'went to the market to buy'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar214",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nI clearly remember [to meet] him at the railway station five years ago.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "to have meet"
+      },
+      {
+        "id": "C",
+        "text": "to meeting"
+      },
+      {
+        "id": "D",
+        "text": "meeting"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "बीती हुई बात याद करने के लिए 'remember + gerund' आता है: 'remember meeting him'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar215",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe farmer was [so tired to walk] any further.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "very tired to walk"
+      },
+      {
+        "id": "C",
+        "text": "too tired to walk"
+      },
+      {
+        "id": "D",
+        "text": "enough tired to walk"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "'Too + adjective + to + V1' structure आता है: 'too tired to walk'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar216",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nIt is better [to be silent than speaking] nonsense in public.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "being silent than to speak"
+      },
+      {
+        "id": "C",
+        "text": "silent than speaking"
+      },
+      {
+        "id": "D",
+        "text": "to be silent than to speak"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "तुलना में दोनों हिस्से समान रूप (parallel) में होने चाहिए: 'to be silent than to speak'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar217",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe teacher made the students [stay] back after school to finish the project.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to stay"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "staying"
+      },
+      {
+        "id": "D",
+        "text": "stayed"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "'Make + object' के बाद active में bare infinitive आता है: 'made the students stay'। इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar218",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nHe was too excited [to sleep] on the night before the final match.",
+    "options": [
+      {
+        "id": "A",
+        "text": "sleeping"
+      },
+      {
+        "id": "B",
+        "text": "for sleeping"
+      },
+      {
+        "id": "C",
+        "text": "that he sleep"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "easy",
+    "explanation": "'Too + adjective + to + V1' सही है, इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar219",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nShe seems to have forgotten (A) / the promise that she made (B) / to her friend last week. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "She seems to have forgotten"
+      },
+      {
+        "id": "B",
+        "text": "the promise that she made"
+      },
+      {
+        "id": "C",
+        "text": "to her friend last week."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "'Seems to have forgotten' (perfect infinitive) और 'the promise that she made' दोनों सही हैं। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar220",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe Prime Minister is to visit Japan next week (A) / and is expected to sign (B) / several important agreements there. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Prime Minister is to visit Japan next week"
+      },
+      {
+        "id": "B",
+        "text": "and is expected to sign"
+      },
+      {
+        "id": "C",
+        "text": "several important agreements there."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "'Is to + V1' (तय कार्यक्रम) और 'is expected to sign' दोनों सही हैं। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar221",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nWe regret to inform you (A) / that your application has been rejected (B) / due to incomplete documents. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "We regret to inform you"
+      },
+      {
+        "id": "B",
+        "text": "that your application has been rejected"
+      },
+      {
+        "id": "C",
+        "text": "due to incomplete documents."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "easy",
+    "explanation": "'Regret to inform' (खेद के साथ सूचित करना) का प्रयोग सही है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar222",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nIt is no use to cry over spilt milk (A) / because whatever has happened (B) / cannot be undone now. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is no use to cry over spilt milk"
+      },
+      {
+        "id": "B",
+        "text": "because whatever has happened"
+      },
+      {
+        "id": "C",
+        "text": "cannot be undone now."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "'It is no use' के बाद gerund (V+ing) आता है: 'It is no use crying'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar223",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe heavy snowfall prevented us to cross (A) / the mountain pass, so (B) / we returned to the base camp. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The heavy snowfall prevented us to cross"
+      },
+      {
+        "id": "B",
+        "text": "the mountain pass, so"
+      },
+      {
+        "id": "C",
+        "text": "we returned to the base camp."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "'Prevent ... from' के बाद gerund आता है: 'prevented us from crossing'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar224",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nWould you mind to open the window (A) / because it is very hot (B) / in this crowded room? (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Would you mind to open the window"
+      },
+      {
+        "id": "B",
+        "text": "because it is very hot"
+      },
+      {
+        "id": "C",
+        "text": "in this crowded room?"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "'Mind' के बाद gerund आता है: 'Would you mind opening the window?'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar225",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe naughty boy was afraid of (A) / his teacher and avoided to meet him (B) / after the incident. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The naughty boy was afraid of"
+      },
+      {
+        "id": "B",
+        "text": "his teacher and avoided to meet him"
+      },
+      {
+        "id": "C",
+        "text": "after the incident."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "easy",
+    "explanation": "'Avoid' के बाद gerund आता है: 'avoided meeting'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar226",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe poor widow (A) / spent the whole night to prepare (B) / sweets for the festival. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The poor widow"
+      },
+      {
+        "id": "B",
+        "text": "spent the whole night to prepare"
+      },
+      {
+        "id": "C",
+        "text": "sweets for the festival."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "'Spend + time + V-ing' structure आता है: 'spent the whole night preparing'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar227",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nAfter many failed attempts, (A) / the young engineer succeeded to repair (B) / the damaged machine. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "After many failed attempts,"
+      },
+      {
+        "id": "B",
+        "text": "the young engineer succeeded to repair"
+      },
+      {
+        "id": "C",
+        "text": "the damaged machine."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "'Succeed in' के बाद gerund आता है: 'succeeded in repairing'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar228",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nOur children are very excited about the trip (A) / to Goa and are (B) / looking forward to see the beaches there. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Our children are very excited about the trip"
+      },
+      {
+        "id": "B",
+        "text": "to Goa and are"
+      },
+      {
+        "id": "C",
+        "text": "looking forward to see the beaches there."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "'Look forward to' में 'to' preposition है, इसलिए उसके बाद gerund आता है: 'looking forward to seeing'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar229",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nSince the project was already behind schedule, (A) / the manager seriously considered (B) / to hire more workers for the site. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Since the project was already behind schedule,"
+      },
+      {
+        "id": "B",
+        "text": "the manager seriously considered"
+      },
+      {
+        "id": "C",
+        "text": "to hire more workers for the site."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "'Consider' के बाद gerund आता है: 'considered hiring'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar230",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe residents strongly objected [to be asked] to vacate the old building.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "to being asked"
+      },
+      {
+        "id": "C",
+        "text": "to ask"
+      },
+      {
+        "id": "D",
+        "text": "to be asking"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "'Object to' में 'to' preposition है, इसलिए passive gerund आता है: 'objected to being asked'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar231",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nHe is devoted [to help] the poor and the needy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "for helping"
+      },
+      {
+        "id": "C",
+        "text": "to helping"
+      },
+      {
+        "id": "D",
+        "text": "to be helped"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "'Devoted to' में 'to' preposition है, इसलिए gerund आता है: 'devoted to helping'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar232",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[After to complete] the project, he took a long vacation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "After complete"
+      },
+      {
+        "id": "C",
+        "text": "After to completing"
+      },
+      {
+        "id": "D",
+        "text": "After completing"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "Preposition (after, before, on, without) के बाद gerund आता है: 'After completing'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar233",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe doctor told him to stop [to smoke] immediately.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "to smoking"
+      },
+      {
+        "id": "C",
+        "text": "smoking"
+      },
+      {
+        "id": "D",
+        "text": "smoke"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "किसी काम को रोकने के अर्थ में 'stop + gerund' आता है: 'stop smoking'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar234",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nShe is not interested [to learn] music at this age.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "for learning"
+      },
+      {
+        "id": "C",
+        "text": "at learning"
+      },
+      {
+        "id": "D",
+        "text": "in learning"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "'Interested in' के बाद gerund आता है: 'interested in learning'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar235",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nWith a view [to get] promoted, he worked day and night.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "to getting"
+      },
+      {
+        "id": "C",
+        "text": "for getting"
+      },
+      {
+        "id": "D",
+        "text": "to be get"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "'With a view to' में 'to' preposition है, इसलिए gerund आता है: 'with a view to getting'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar236",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nI could not resist [to buy] the beautiful dress displayed in the shop window.",
+    "options": [
+      {
+        "id": "A",
+        "text": "buying"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "to buying"
+      },
+      {
+        "id": "D",
+        "text": "for buy"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "'Resist' के बाद gerund आता है: 'could not resist buying'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar237",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nI am looking forward to [meeting] the new director next week.",
+    "options": [
+      {
+        "id": "A",
+        "text": "meet"
+      },
+      {
+        "id": "B",
+        "text": "be meeting"
+      },
+      {
+        "id": "C",
+        "text": "No improvement"
+      },
+      {
+        "id": "D",
+        "text": "met"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "non-finite-verbs",
+    "difficulty": "easy",
+    "explanation": "'Look forward to' में 'to' preposition है, इसलिए gerund (meeting) सही है। कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar238",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe lecture was so bored (A) / that most of the students (B) / started yawning in the middle. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The lecture was so bored"
+      },
+      {
+        "id": "B",
+        "text": "that most of the students"
+      },
+      {
+        "id": "C",
+        "text": "started yawning in the middle."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "जो बोर करे वह 'boring' और जो खुद बोर हो वह 'bored'। Lecture के लिए 'boring' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar239",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nFinished his homework, (A) / he went out (B) / to play in the park. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Finished his homework,"
+      },
+      {
+        "id": "B",
+        "text": "he went out"
+      },
+      {
+        "id": "C",
+        "text": "to play in the park."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "Participle का doer 'he' है और काम पहले पूरा हुआ, इसलिए perfect participle आता है: 'Having finished his homework'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar240",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHaving finished the day's work, (A) / the lights were switched off (B) / by the peon. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Having finished the day's work,"
+      },
+      {
+        "id": "B",
+        "text": "the lights were switched off"
+      },
+      {
+        "id": "C",
+        "text": "by the peon."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "Dangling participle: 'Having finished' का doer 'the peon' होना चाहिए, 'lights' नहीं। सही: 'the peon switched off the lights'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar241",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nStanding on the balcony of the old fort, (A) / the whole city looked beautiful (B) / to the tourists. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Standing on the balcony of the old fort,"
+      },
+      {
+        "id": "B",
+        "text": "the whole city looked beautiful"
+      },
+      {
+        "id": "C",
+        "text": "to the tourists."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "Dangling participle: 'Standing on the balcony' का doer 'the tourists' होना चाहिए। सही: 'the tourists found the whole city beautiful'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar242",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe students were very sad (A) / because the result of the examination (B) / was extremely disappointed. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The students were very sad"
+      },
+      {
+        "id": "B",
+        "text": "because the result of the examination"
+      },
+      {
+        "id": "C",
+        "text": "was extremely disappointed."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "non-finite-verbs",
+    "difficulty": "easy",
+    "explanation": "Result निराश करने वाला है, इसलिए 'disappointing'; व्यक्ति के लिए 'disappointed' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar243",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe tourists were extremely tired (A) / after the long journey and (B) / were very exciting to reach the hotel. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The tourists were extremely tired"
+      },
+      {
+        "id": "B",
+        "text": "after the long journey and"
+      },
+      {
+        "id": "C",
+        "text": "were very exciting to reach the hotel."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "Tourists खुद उत्साहित महसूस कर रहे हैं, इसलिए 'excited' आता है; 'exciting' वह है जो excite करे।",
+    "language": "en"
+  },
+  {
+    "id": "grammar244",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nShe was [disappointing] with the result of the examination.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "disappoint"
+      },
+      {
+        "id": "C",
+        "text": "disappointed"
+      },
+      {
+        "id": "D",
+        "text": "disappointment"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "non-finite-verbs",
+    "difficulty": "easy",
+    "explanation": "व्यक्ति की feeling के लिए past participle (-ed) आता है: 'disappointed'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar245",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nWalking in the park, [a snake was seen by me].",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "a snake was seen"
+      },
+      {
+        "id": "C",
+        "text": "my eyes saw a snake"
+      },
+      {
+        "id": "D",
+        "text": "I saw a snake"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "Dangling participle: 'Walking in the park' का doer 'I' होना चाहिए, इसलिए 'I saw a snake'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar246",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe police recovered the [stealing] jewels from the thief's house.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "stolen"
+      },
+      {
+        "id": "C",
+        "text": "stole"
+      },
+      {
+        "id": "D",
+        "text": "steal"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "easy",
+    "explanation": "Passive अर्थ (चुराए गए) के लिए past participle आता है: 'stolen jewels'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar247",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[Surprising by the sudden question], the candidate remained silent.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Surprised by the sudden question"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "Surprise by the sudden question"
+      },
+      {
+        "id": "D",
+        "text": "Having surprising by the sudden question"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "Candidate खुद surprised हुआ है, इसलिए past participle आता है: 'Surprised by the sudden question'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar248",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[Having completed] the report, she sent it to the manager.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "Completed"
+      },
+      {
+        "id": "C",
+        "text": "Being completed"
+      },
+      {
+        "id": "D",
+        "text": "Having been completing"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "Perfect participle 'Having completed' का doer 'she' है और report पहले पूरा हुआ, इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar249",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nWritten in simple language, (A) / the book has become popular (B) / among the school students. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Written in simple language,"
+      },
+      {
+        "id": "B",
+        "text": "the book has become popular"
+      },
+      {
+        "id": "C",
+        "text": "among the school students."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "Past participle phrase 'Written in simple language' का doer 'the book' ही है, इसलिए structure सही है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar250",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHaving been warned about the danger, (A) / the trekkers decided (B) / to return to the base camp. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Having been warned about the danger,"
+      },
+      {
+        "id": "B",
+        "text": "the trekkers decided"
+      },
+      {
+        "id": "C",
+        "text": "to return to the base camp."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "'Having been warned' का doer 'the trekkers' है, इसलिए sentence सही है। कोई error नहीं।",
+    "language": "en"
+  }
+]
