@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "grammar251",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThough the weather conditions were extremely unfavourable and most of the mountain roads were blocked by landslides, but (A) / the rescue team managed to reach the isolated village (B) / before the supplies of food and medicines ran out. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Though the weather conditions were extremely unfavourable and most of the mountain roads were blocked by landslides, but"
+      },
+      {
+        "id": "B",
+        "text": "the rescue team managed to reach the isolated village"
+      },
+      {
+        "id": "C",
+        "text": "before the supplies of food and medicines ran out."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'Though/Although' वाले clause के साथ main clause में 'but' नहीं लगता (contrast दो बार हो जाता है): 'Though ..., the rescue team managed' ('but' हटाइए)।",
+    "language": "en"
+  },
+  {
+    "id": "grammar252",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThough the firm had suffered heavy losses in the last two financial years, (A) / yet it refused to lay off any of its employees (B) / or to reduce their salaries. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Though the firm had suffered heavy losses in the last two financial years,"
+      },
+      {
+        "id": "B",
+        "text": "yet it refused to lay off any of its employees"
+      },
+      {
+        "id": "C",
+        "text": "or to reduce their salaries."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'Though ... yet' का जोड़ा स्वीकार्य है ('yet' का प्रयोग सही है), जबकि 'though ... but' गलत होता है। इसलिए कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar253",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nEveryone in the village admired the old man's courage, (A) / because he continued to work in the fields (B) / in spite of he was nearly eighty years old. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Everyone in the village admired the old man's courage,"
+      },
+      {
+        "id": "B",
+        "text": "because he continued to work in the fields"
+      },
+      {
+        "id": "C",
+        "text": "in spite of he was nearly eighty years old."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'In spite of' preposition है, इसके बाद clause नहीं आता। Clause के लिए 'although' या 'in spite of the fact that' आता है: 'although he was nearly eighty years old'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar254",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[Despite of the fact that] the company had incurred heavy losses for three consecutive years, its chairman refused to reduce the salaries of the senior executives.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Despite the fact that"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "Despite of that"
+      },
+      {
+        "id": "D",
+        "text": "In spite that"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'Despite' स्वयं preposition है, इसके साथ 'of' नहीं लगता: 'Despite the fact that' (या 'In spite of the fact that')।",
+    "language": "en"
+  },
+  {
+    "id": "grammar255",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nAlthough the committee had thoroughly examined every aspect of the proposal, [it was unable to reach] a unanimous decision.",
+    "options": [
+      {
+        "id": "A",
+        "text": "but it was unable to reach"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "yet it was not able reaching"
+      },
+      {
+        "id": "D",
+        "text": "it was unable reached"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'Although' के साथ main clause में 'but' नहीं आता, इसलिए 'it was unable to reach' सही है। कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar256",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nSince the roads leading to the school were completely flooded after the cyclone, therefore (A) / the district administration declared a holiday (B) / for all educational institutions for three days. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Since the roads leading to the school were completely flooded after the cyclone, therefore"
+      },
+      {
+        "id": "B",
+        "text": "the district administration declared a holiday"
+      },
+      {
+        "id": "C",
+        "text": "for all educational institutions for three days."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'Since/Because/As' (कारण) के साथ 'therefore/so' का दोहराव नहीं होता: 'Since the roads ... were flooded, the district administration declared a holiday'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar257",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe entire evening was ruined at the railway station, (A) / because the express train was delayed by nearly three hours, so (B) / the passengers missed their connecting flight to Delhi. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The entire evening was ruined at the railway station,"
+      },
+      {
+        "id": "B",
+        "text": "because the express train was delayed by nearly three hours, so"
+      },
+      {
+        "id": "C",
+        "text": "the passengers missed their connecting flight to Delhi."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'Because' के साथ 'so' नहीं लगता: 'because the train was delayed ..., the passengers missed'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar258",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHe worked day and night for several months, but however (A) / he could not secure a place in the merit list (B) / of the highly competitive examination. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "He worked day and night for several months, but however"
+      },
+      {
+        "id": "B",
+        "text": "he could not secure a place in the merit list"
+      },
+      {
+        "id": "C",
+        "text": "of the highly competitive examination."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'But' और 'however' दोनों contrast बताते हैं, इसलिए 'but however' का दोहराव गलत है: दोनों में से एक ही लगाइए।",
+    "language": "en"
+  },
+  {
+    "id": "grammar259",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe students had revised the entire syllabus thoroughly before the test, (A) / and failed to answer even the simplest questions (B) / because of nervousness in the examination hall. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The students had revised the entire syllabus thoroughly before the test,"
+      },
+      {
+        "id": "B",
+        "text": "and failed to answer even the simplest questions"
+      },
+      {
+        "id": "C",
+        "text": "because of nervousness in the examination hall."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "विरोध (contrast) दिखाने के लिए 'but' आता है, 'and' नहीं: 'had revised ... but failed to answer'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar260",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[Provided if] the government approves the revised plan, the construction of the flyover will begin next month.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "Provided that"
+      },
+      {
+        "id": "C",
+        "text": "Provided when"
+      },
+      {
+        "id": "D",
+        "text": "Provided as"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'Provided' के बाद 'that' आता है (या सीधे 'If'): 'Provided that the government approves'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar261",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nUnless the district authorities do not take immediate steps to repair the damaged embankment, (A) / the entire locality will be flooded (B) / when the heavy monsoon rains arrive next month. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unless the district authorities do not take immediate steps to repair the damaged embankment,"
+      },
+      {
+        "id": "B",
+        "text": "the entire locality will be flooded"
+      },
+      {
+        "id": "C",
+        "text": "when the heavy monsoon rains arrive next month."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'Unless' का अर्थ 'if not' है, इसलिए उसके साथ दोबारा 'not' नहीं लगता: 'Unless the authorities take immediate steps'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar262",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[Even though] the government increases the subsidy on fertilisers next year, small farmers will still face difficulties.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "Even if"
+      },
+      {
+        "id": "C",
+        "text": "Even as"
+      },
+      {
+        "id": "D",
+        "text": "Even that"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "अनिश्चित/काल्पनिक स्थिति के लिए 'even if' आता है; 'even though' निश्चित तथ्य के लिए होता है। भविष्य की संभावना के लिए 'Even if'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar263",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nYou should carry an umbrella with you today (A) / in case if it rains in the afternoon (B) / as the weather forecast has predicted heavy showers. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "You should carry an umbrella with you today"
+      },
+      {
+        "id": "B",
+        "text": "in case if it rains in the afternoon"
+      },
+      {
+        "id": "C",
+        "text": "as the weather forecast has predicted heavy showers."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'In case' खुद 'if' का अर्थ रखता है, इसलिए 'in case if' का दोहराव गलत है: 'in case it rains'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar264",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nYou must submit the application form before the last date [else] it will not be considered by the selection committee.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "so"
+      },
+      {
+        "id": "C",
+        "text": "then"
+      },
+      {
+        "id": "D",
+        "text": "otherwise"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'Else' अकेले conjunction नहीं है; 'otherwise' या 'or else' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar265",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe bank will sanction the loan [as long as] you submit all the required documents before the end of this month.",
+    "options": [
+      {
+        "id": "A",
+        "text": "as much as"
+      },
+      {
+        "id": "B",
+        "text": "unless"
+      },
+      {
+        "id": "C",
+        "text": "as far as"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'As long as' (जब तक/इस शर्त पर) सही शर्त-बोधक conjunction है, इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar266",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe old man drove very slowly on the slippery hill road lest he [will meet] with an accident.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "would meet"
+      },
+      {
+        "id": "C",
+        "text": "meets"
+      },
+      {
+        "id": "D",
+        "text": "should meet"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'Lest' के बाद 'should' आता है: 'lest he should meet with an accident'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar267",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe students were repeatedly warned to revise the entire syllabus carefully (A) / lest they may fail (B) / in the examination for want of proper preparation. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The students were repeatedly warned to revise the entire syllabus carefully"
+      },
+      {
+        "id": "B",
+        "text": "lest they may fail"
+      },
+      {
+        "id": "C",
+        "text": "in the examination for want of proper preparation."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'Lest' के बाद 'should' (या subjunctive) आता है, 'may' नहीं: 'lest they should fail'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar268",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHe left for the railway station much earlier than usual (A) / and took the shortest possible route (B) / so as that he could catch the morning train to Lucknow. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "He left for the railway station much earlier than usual"
+      },
+      {
+        "id": "B",
+        "text": "and took the shortest possible route"
+      },
+      {
+        "id": "C",
+        "text": "so as that he could catch the morning train to Lucknow."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "उद्देश्य के लिए 'so that' या 'so as to' आता है; 'so as that' गलत है: 'so that he could catch'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar269",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe inaugural match of the tournament had to be cancelled because of the ground staff went on a sudden strike (A) / and the organisers announced (B) / that fresh dates would be notified soon. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The inaugural match of the tournament had to be cancelled because of the ground staff went on a sudden strike"
+      },
+      {
+        "id": "B",
+        "text": "and the organisers announced"
+      },
+      {
+        "id": "C",
+        "text": "that fresh dates would be notified soon."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'Because of' (preposition) के बाद noun आता है, clause नहीं; clause के लिए 'because' आता है: 'because the ground staff went on a strike'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar270",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe final match of the tournament was postponed [due to that] the ground was waterlogged after the unexpected downpour.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "because"
+      },
+      {
+        "id": "C",
+        "text": "because of"
+      },
+      {
+        "id": "D",
+        "text": "owing that"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "Clause से पहले 'because' आता है; 'due to / because of' के बाद noun आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar271",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe speech delivered by the chief guest was [so lengthy as] the audience grew restless and many people started leaving the hall.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "such lengthy that"
+      },
+      {
+        "id": "C",
+        "text": "so lengthy than"
+      },
+      {
+        "id": "D",
+        "text": "so lengthy that"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "परिणाम बताने के लिए 'so ... that' आता है, 'so ... as' नहीं: 'so lengthy that the audience grew restless'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar272",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nHe was [so a kind man] that everyone in the neighbourhood respected him.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "so kind man"
+      },
+      {
+        "id": "C",
+        "text": "such a kind man"
+      },
+      {
+        "id": "D",
+        "text": "too kind a man"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'So' के बाद 'a + noun' नहीं आता। 'such a kind man' या 'so kind a man' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar273",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe flood that devastated the coastal districts last year (A) / was such a terrible disaster (B) / as thousands of families lost their homes and livelihood. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The flood that devastated the coastal districts last year"
+      },
+      {
+        "id": "B",
+        "text": "was such a terrible disaster"
+      },
+      {
+        "id": "C",
+        "text": "as thousands of families lost their homes and livelihood."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "परिणाम के लिए 'such ... that' आता है: 'such a terrible disaster that thousands of families lost'। ('Such ... as' तुलना/उदाहरण के लिए आता है।)",
+    "language": "en"
+  },
+  {
+    "id": "grammar274",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe mathematics problem set by the examiner was so complicated (A) / that nobody in the class could not solve it (B) / within the stipulated time of two hours. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The mathematics problem set by the examiner was so complicated"
+      },
+      {
+        "id": "B",
+        "text": "that nobody in the class could not solve it"
+      },
+      {
+        "id": "C",
+        "text": "within the stipulated time of two hours."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'So ... that nobody could not' में double negative है: 'that nobody in the class could solve it'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar275",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe newly appointed director of the corporation is [not so efficient than] his predecessor was, and the employees are not satisfied with his decisions.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "not as efficient than"
+      },
+      {
+        "id": "C",
+        "text": "not so efficient that"
+      },
+      {
+        "id": "D",
+        "text": "not so efficient as"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'Not so ... as' (या 'not as ... as') की तुलना में 'than' नहीं आता: 'not so efficient as his predecessor'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar276",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe new tax regime is [not so complicated as] the earlier one was, and taxpayers have welcomed it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "not so complicated than"
+      },
+      {
+        "id": "B",
+        "text": "not as complicated than"
+      },
+      {
+        "id": "C",
+        "text": "No improvement"
+      },
+      {
+        "id": "D",
+        "text": "so not complicated as"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'Not so complicated as' सही तुलना है, इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar277",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe new batsman is [as tall or taller than] the captain of the team and is expected to play a major role in the tournament.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "as tall than or taller"
+      },
+      {
+        "id": "C",
+        "text": "as tall as or taller than"
+      },
+      {
+        "id": "D",
+        "text": "so tall or taller than"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'As ... as' का पहला जोड़ा पूरा होना चाहिए: 'as tall as or taller than'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar278",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThis year's wheat production is [as good if not better than] last year's, despite the delayed monsoon.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "as good than, if not better as"
+      },
+      {
+        "id": "C",
+        "text": "as good as, if not better than"
+      },
+      {
+        "id": "D",
+        "text": "so good, if not better than"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "तुलना में दोनों हिस्से पूरे होने चाहिए: 'as good as, if not better than'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar279",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe new smartphone model is far costlier [as] the previous one, but its battery life is not any better.",
+    "options": [
+      {
+        "id": "A",
+        "text": "than"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "then"
+      },
+      {
+        "id": "D",
+        "text": "that"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "easy",
+    "explanation": "Comparative degree (costlier) के बाद 'than' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar280",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nNo sooner had the chief guest taken his seat on the dais when (A) / the cultural programme began with a prayer song (B) / sung by the students of the school choir. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "No sooner had the chief guest taken his seat on the dais when"
+      },
+      {
+        "id": "B",
+        "text": "the cultural programme began with a prayer song"
+      },
+      {
+        "id": "C",
+        "text": "sung by the students of the school choir."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'No sooner' के साथ 'than' आता है, 'when' नहीं: 'No sooner had ... than the programme began'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar281",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHardly had the candidate entered the examination hall than (A) / the lights went off suddenly and (B) / the invigilators asked everyone to wait outside. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hardly had the candidate entered the examination hall than"
+      },
+      {
+        "id": "B",
+        "text": "the lights went off suddenly and"
+      },
+      {
+        "id": "C",
+        "text": "the invigilators asked everyone to wait outside."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'Hardly/Scarcely' के साथ 'when' (या 'before') आता है, 'than' नहीं: 'Hardly had ... when the lights went off'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar282",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nScarcely had the express train left the platform when (A) / the passengers started complaining about (B) / the shortage of drinking water in the coaches. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scarcely had the express train left the platform when"
+      },
+      {
+        "id": "B",
+        "text": "the passengers started complaining about"
+      },
+      {
+        "id": "C",
+        "text": "the shortage of drinking water in the coaches."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'Scarcely had ... when' सही संयोजन है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar283",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nScarcely had the chief guest finished his speech [than] the audience began to leave the hall one by one.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "when"
+      },
+      {
+        "id": "C",
+        "text": "that"
+      },
+      {
+        "id": "D",
+        "text": "then"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'Scarcely/Hardly' के बाद 'when' आता है, 'than' नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar284",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe government has announced that the new agricultural policy (A) / not only will benefit the farmers in the remote villages but also the small traders (B) / who depend on the local markets for their livelihood. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The government has announced that the new agricultural policy"
+      },
+      {
+        "id": "B",
+        "text": "not only will benefit the farmers in the remote villages but also the small traders"
+      },
+      {
+        "id": "C",
+        "text": "who depend on the local markets for their livelihood."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'Not only ... but also' के बाद दोनों हिस्से एक जैसी संरचना में होने चाहिए: 'will benefit not only the farmers ... but also the small traders'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar285",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[Not only he cheated in the examination] but also lied to the principal about it when he was questioned.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Not only did he cheat in the examination"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "Not only he had cheated in the examination"
+      },
+      {
+        "id": "D",
+        "text": "Not only cheated he in the examination"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'Not only' से वाक्य शुरू हो तो inversion आता है: 'Not only did he cheat ... but he also lied'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar286",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[Not only did the minister inaugurate the bridge] but he also announced a special grant for the development of the village.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "Not only the minister inaugurated the bridge"
+      },
+      {
+        "id": "C",
+        "text": "Not only had inaugurated the minister the bridge"
+      },
+      {
+        "id": "D",
+        "text": "Not only inaugurated the minister the bridge"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'Not only did + subject + V1 ... but ... also' सही संरचना है, इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar287",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe inquiry committee has recommended strict action (A) / against both the contractor who supplied the substandard material (B) / as well as the officials who approved the payment. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The inquiry committee has recommended strict action"
+      },
+      {
+        "id": "B",
+        "text": "against both the contractor who supplied the substandard material"
+      },
+      {
+        "id": "C",
+        "text": "as well as the officials who approved the payment."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'Both' के साथ 'and' आता है, 'as well as' नहीं: 'both the contractor ... and the officials'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar288",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nShe is both a talented singer [or] a skilled dancer, and has performed on several national platforms.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "but"
+      },
+      {
+        "id": "C",
+        "text": "as well"
+      },
+      {
+        "id": "D",
+        "text": "and"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "easy",
+    "explanation": "'Both' के साथ 'and' का जोड़ा आता है: 'both a talented singer and a skilled dancer'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar289",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe new recruit has neither the required qualification (A) / nor the necessary experience, (B) / or any interest in learning the job. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The new recruit has neither the required qualification"
+      },
+      {
+        "id": "B",
+        "text": "nor the necessary experience,"
+      },
+      {
+        "id": "C",
+        "text": "or any interest in learning the job."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'Neither ... nor ... nor' की श्रृंखला में हर जगह 'nor' आता है: 'nor any interest' ('or' नहीं)।",
+    "language": "en"
+  },
+  {
+    "id": "grammar290",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe managing director did not attend the annual general meeting of the shareholders (A) / nor he sent any representative (B) / to apologise on his behalf. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The managing director did not attend the annual general meeting of the shareholders"
+      },
+      {
+        "id": "B",
+        "text": "nor he sent any representative"
+      },
+      {
+        "id": "C",
+        "text": "to apologise on his behalf."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'Nor' के बाद inversion (auxiliary + subject) आता है: 'nor did he send any representative'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar291",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe agreement that was finally signed between (A) / the management of the company (B) / or the representatives of the labour union was welcomed by everyone. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The agreement that was finally signed between"
+      },
+      {
+        "id": "B",
+        "text": "the management of the company"
+      },
+      {
+        "id": "C",
+        "text": "or the representatives of the labour union was welcomed by everyone."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'Between' के साथ 'and' आता है, 'or' नहीं: 'between the management ... and the representatives'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar292",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nNeither the principal nor the teachers of the school (A) / were aware of the sudden decision taken (B) / by the board of trustees. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neither the principal nor the teachers of the school"
+      },
+      {
+        "id": "B",
+        "text": "were aware of the sudden decision taken"
+      },
+      {
+        "id": "C",
+        "text": "by the board of trustees."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'Neither ... nor' में verb nearest subject (teachers → plural) के अनुसार लगती है, इसलिए 'were' सही है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar293",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe auditors could not ascertain (A) / whether the funds had been misused if (B) / the accounts had merely been maintained carelessly. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The auditors could not ascertain"
+      },
+      {
+        "id": "B",
+        "text": "whether the funds had been misused if"
+      },
+      {
+        "id": "C",
+        "text": "the accounts had merely been maintained carelessly."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'Whether' के साथ विकल्प के लिए 'or' आता है, 'if' नहीं: 'whether the funds had been misused or the accounts had been maintained carelessly'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar294",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe question of [if the government will reduce] the fuel prices before the elections is being debated by economists across the country.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "that the government will reduce"
+      },
+      {
+        "id": "C",
+        "text": "if will the government reduce"
+      },
+      {
+        "id": "D",
+        "text": "whether the government will reduce"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "Preposition (of) के बाद 'if' नहीं आता, 'whether' आता है: 'the question of whether the government will reduce'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar295",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThere is no doubt [whether] the accused was present at the scene of the crime when the incident occurred.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "if"
+      },
+      {
+        "id": "C",
+        "text": "that"
+      },
+      {
+        "id": "D",
+        "text": "as"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'No doubt' के बाद 'that' आता है (निश्चितता के लिए), 'whether' नहीं: 'no doubt that the accused was present'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar296",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nNobody can play the violin [like his father does], and that is why he is so popular among the music lovers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "like as his father does"
+      },
+      {
+        "id": "C",
+        "text": "as his father does"
+      },
+      {
+        "id": "D",
+        "text": "as like his father does"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "Clause से पहले 'like' conjunction का काम नहीं करता, 'as' आता है: 'as his father does'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar297",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe new manager is hardworking, sincere and has a lot of intelligence, (A) / and he commands respect among the junior employees (B) / because of his polite behaviour. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The new manager is hardworking, sincere and has a lot of intelligence,"
+      },
+      {
+        "id": "B",
+        "text": "and he commands respect among the junior employees"
+      },
+      {
+        "id": "C",
+        "text": "because of his polite behaviour."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "Conjunction से जुड़े शब्द एक ही रूप में होने चाहिए (parallelism): 'hardworking, sincere and intelligent'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar298",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe Chairman, who was deeply hurt by the baseless allegations, (A) / decided to resign from his post (B) / rather than he should accept the humiliating conditions. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Chairman, who was deeply hurt by the baseless allegations,"
+      },
+      {
+        "id": "B",
+        "text": "decided to resign from his post"
+      },
+      {
+        "id": "C",
+        "text": "rather than he should accept the humiliating conditions."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "'Rather than' के बाद भी parallel रूप आता है: 'decided to resign rather than accept the humiliating conditions'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar299",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe manager must have left the office early this evening, (A) / for his car is not (B) / in the parking lot, and his cabin is locked. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The manager must have left the office early this evening,"
+      },
+      {
+        "id": "B",
+        "text": "for his car is not"
+      },
+      {
+        "id": "C",
+        "text": "in the parking lot, and his cabin is locked."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "easy",
+    "explanation": "'For' (क्योंकि) कारण बताने वाला conjunction है और यहाँ बिल्कुल सही प्रयुक्त है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar300",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nShe is not a lawyer but a chartered accountant (A) / who has been working in a multinational firm (B) / in Singapore for the last six years. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "She is not a lawyer but a chartered accountant"
+      },
+      {
+        "id": "B",
+        "text": "who has been working in a multinational firm"
+      },
+      {
+        "id": "C",
+        "text": "in Singapore for the last six years."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "easy",
+    "explanation": "'Not ... but' में दोनों parallel नाम हैं (a lawyer / a chartered accountant), इसलिए sentence सही है। कोई error नहीं।",
+    "language": "en"
+  }
+]
