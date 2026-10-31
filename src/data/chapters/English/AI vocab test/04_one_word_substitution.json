@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_ows_091",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who gets pleasure from hurting others.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fanatic"
+      },
+      {
+        "id": "B",
+        "text": "Masochist"
+      },
+      {
+        "id": "C",
+        "text": "Narcissist"
+      },
+      {
+        "id": "D",
+        "text": "Sadist"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Sadist = दूसरों को कष्ट देकर खुश होने वाला (परपीड़क)। Example: The sadist enjoyed tormenting helpless animals.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_092",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who lives at the expense of others without giving anything in return.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parasite"
+      },
+      {
+        "id": "B",
+        "text": "Predator"
+      },
+      {
+        "id": "C",
+        "text": "Beggar"
+      },
+      {
+        "id": "D",
+        "text": "Tenant"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Parasite = परजीवी / दूसरों के सहारे जीने वाला। Example: He is a parasite who lives off his friends.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_093",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who wilfully destroys or damages public property.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trespasser"
+      },
+      {
+        "id": "B",
+        "text": "Burglar"
+      },
+      {
+        "id": "C",
+        "text": "Vandal"
+      },
+      {
+        "id": "D",
+        "text": "Smuggler"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Vandal = सार्वजनिक संपत्ति को जानबूझकर नष्ट करने वाला। Example: Vandals broke all the benches in the park.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_094",
+    "subjectId": "english",
+    "question": "Choose the one word for: A soldier who runs away from his duty without permission.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Recruit"
+      },
+      {
+        "id": "B",
+        "text": "Deserter"
+      },
+      {
+        "id": "C",
+        "text": "Mutineer"
+      },
+      {
+        "id": "D",
+        "text": "Strategist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Deserter = भगोड़ा (कर्तव्य छोड़कर भागने वाला)। Example: The deserter was arrested at the railway station.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_095",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who works to overthrow a government and bring a complete change in the system.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conformist"
+      },
+      {
+        "id": "B",
+        "text": "Loyalist"
+      },
+      {
+        "id": "C",
+        "text": "Reformer"
+      },
+      {
+        "id": "D",
+        "text": "Revolutionary"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Revolutionary = क्रांतिकारी। Example: Bhagat Singh was a great revolutionary.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_096",
+    "subjectId": "english",
+    "question": "Choose the one word for: That which cannot be defeated.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inimitable"
+      },
+      {
+        "id": "B",
+        "text": "Invisible"
+      },
+      {
+        "id": "C",
+        "text": "Invincible"
+      },
+      {
+        "id": "D",
+        "text": "Invaluable"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Invincible = अजेय। Example: The team looked invincible throughout the season.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_097",
+    "subjectId": "english",
+    "question": "Choose the one word for: That which cannot be avoided.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inedible"
+      },
+      {
+        "id": "B",
+        "text": "Inevitable"
+      },
+      {
+        "id": "C",
+        "text": "Invalid"
+      },
+      {
+        "id": "D",
+        "text": "Irregular"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Inevitable = अपरिहार्य (जिसे टाला न जा सके)। Example: Change is inevitable in every field.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_098",
+    "subjectId": "english",
+    "question": "Choose the one word for: That which cannot be forgiven or excused.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inexcusable"
+      },
+      {
+        "id": "B",
+        "text": "Inflexible"
+      },
+      {
+        "id": "C",
+        "text": "Inaudible"
+      },
+      {
+        "id": "D",
+        "text": "Inaccessible"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Inexcusable = अक्षम्य। Example: Cheating in an examination is inexcusable.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_099",
+    "subjectId": "english",
+    "question": "Choose the one word for: That which is too extraordinary to be believed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Incurable"
+      },
+      {
+        "id": "B",
+        "text": "Incredulous"
+      },
+      {
+        "id": "C",
+        "text": "Credible"
+      },
+      {
+        "id": "D",
+        "text": "Incredible"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Incredible = अविश्वसनीय। Example: The magician performed an incredible trick.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_100",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who leaves his own country to settle in another.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Emigrant"
+      },
+      {
+        "id": "B",
+        "text": "Immigrant"
+      },
+      {
+        "id": "C",
+        "text": "Tourist"
+      },
+      {
+        "id": "D",
+        "text": "Resident"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Emigrant = प्रवासी (देश छोड़कर बाहर बसने वाला)। Example: Many emigrants from India have settled in Canada.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_101",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who flees to another country to escape war or persecution.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Missionary"
+      },
+      {
+        "id": "B",
+        "text": "Diplomat"
+      },
+      {
+        "id": "C",
+        "text": "Refugee"
+      },
+      {
+        "id": "D",
+        "text": "Pioneer"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Refugee = शरणार्थी। Example: Thousands of refugees crossed the border to find safety.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_102",
+    "subjectId": "english",
+    "question": "Choose the one word for: A former student of a school or college.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tutor"
+      },
+      {
+        "id": "B",
+        "text": "Alumnus"
+      },
+      {
+        "id": "C",
+        "text": "Trustee"
+      },
+      {
+        "id": "D",
+        "text": "Apprentice"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Alumnus = पूर्व छात्र। Example: The alumnus donated a library to his old college.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_103",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who gives money or help to a person or a cause.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Landlord"
+      },
+      {
+        "id": "B",
+        "text": "Benefactor"
+      },
+      {
+        "id": "C",
+        "text": "Borrower"
+      },
+      {
+        "id": "D",
+        "text": "Beneficiary"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Benefactor = उपकारी / दानदाता। Example: A kind benefactor paid for the child's education.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_104",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who officially examines the accounts of a company.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Treasurer"
+      },
+      {
+        "id": "B",
+        "text": "Banker"
+      },
+      {
+        "id": "C",
+        "text": "Auditor"
+      },
+      {
+        "id": "D",
+        "text": "Cashier"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Auditor = लेखा-परीक्षक। Example: The auditor found errors in the company's accounts.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_105",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who is skilled in public speaking.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Orator"
+      },
+      {
+        "id": "B",
+        "text": "Announcer"
+      },
+      {
+        "id": "C",
+        "text": "Narrator"
+      },
+      {
+        "id": "D",
+        "text": "Reporter"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Orator = वक्ता (भाषण-कला में निपुण)। Example: Swami Vivekananda was a great orator.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_106",
+    "subjectId": "english",
+    "question": "Choose the one word for: A medical examination of a dead body to find the cause of death.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diagnosis"
+      },
+      {
+        "id": "B",
+        "text": "Biopsy"
+      },
+      {
+        "id": "C",
+        "text": "Surgery"
+      },
+      {
+        "id": "D",
+        "text": "Autopsy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Autopsy = शव-परीक्षा / पोस्टमार्टम। Example: The autopsy revealed that he had been poisoned.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_107",
+    "subjectId": "english",
+    "question": "Choose the one word for: A substance that causes loss of feeling before an operation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anaesthetic"
+      },
+      {
+        "id": "B",
+        "text": "Steroid"
+      },
+      {
+        "id": "C",
+        "text": "Antibody"
+      },
+      {
+        "id": "D",
+        "text": "Hormone"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Anaesthetic = बेहोश/संवेदनहीन करने वाली दवा। Example: The patient was given an anaesthetic before the operation.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_108",
+    "subjectId": "english",
+    "question": "Choose the one word for: A book of synonyms and antonyms.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Atlas"
+      },
+      {
+        "id": "B",
+        "text": "Almanac"
+      },
+      {
+        "id": "C",
+        "text": "Thesaurus"
+      },
+      {
+        "id": "D",
+        "text": "Encyclopaedia"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Thesaurus = पर्यायवाची-विलोम शब्दकोश। Example: Use a thesaurus to find another word for 'happy'.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_109",
+    "subjectId": "english",
+    "question": "Choose the one word for: A poem of lamentation for the dead.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sonnet"
+      },
+      {
+        "id": "B",
+        "text": "Ballad"
+      },
+      {
+        "id": "C",
+        "text": "Ode"
+      },
+      {
+        "id": "D",
+        "text": "Elegy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Elegy = शोक-गीत। Example: The poet wrote an elegy on the death of his friend.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_110",
+    "subjectId": "english",
+    "question": "Choose the one word for: A short interesting story about a real person or incident.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Legend"
+      },
+      {
+        "id": "B",
+        "text": "Anecdote"
+      },
+      {
+        "id": "C",
+        "text": "Parable"
+      },
+      {
+        "id": "D",
+        "text": "Fable"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Anecdote = किस्सा (छोटी रोचक घटना)। Example: The speaker began with an anecdote about Gandhiji.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_111",
+    "subjectId": "english",
+    "question": "Choose the one word for: A long narrative poem about the heroic deeds of a legendary hero.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lyric"
+      },
+      {
+        "id": "B",
+        "text": "Satire"
+      },
+      {
+        "id": "C",
+        "text": "Farce"
+      },
+      {
+        "id": "D",
+        "text": "Epic"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Epic = महाकाव्य। Example: The Ramayana is an epic known to every Indian.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_112",
+    "subjectId": "english",
+    "question": "Choose the one word for: A formal agreement between two or more countries.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tariff"
+      },
+      {
+        "id": "B",
+        "text": "Treaty"
+      },
+      {
+        "id": "C",
+        "text": "Embargo"
+      },
+      {
+        "id": "D",
+        "text": "Manifesto"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Treaty = संधि। Example: The two nations signed a peace treaty.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_113",
+    "subjectId": "english",
+    "question": "Choose the one word for: A written request signed by many people and addressed to an authority.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Petition"
+      },
+      {
+        "id": "B",
+        "text": "Summons"
+      },
+      {
+        "id": "C",
+        "text": "Verdict"
+      },
+      {
+        "id": "D",
+        "text": "Ordinance"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Petition = याचिका। Example: The villagers submitted a petition to the collector.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_114",
+    "subjectId": "english",
+    "question": "Choose the one word for: Fear of darkness.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Photophobia"
+      },
+      {
+        "id": "B",
+        "text": "Technophobia"
+      },
+      {
+        "id": "C",
+        "text": "Nyctophobia"
+      },
+      {
+        "id": "D",
+        "text": "Arachnophobia"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Nyctophobia = अँधेरे का डर। Example: His nyctophobia made him sleep with the lights on.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_115",
+    "subjectId": "english",
+    "question": "Choose the one word for: The statistical study of human populations.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Demography"
+      },
+      {
+        "id": "B",
+        "text": "Topography"
+      },
+      {
+        "id": "C",
+        "text": "Geography"
+      },
+      {
+        "id": "D",
+        "text": "Ethnography"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Demography = जनसांख्यिकी। Example: Demography studies birth rates, death rates and migration.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_116",
+    "subjectId": "english",
+    "question": "Choose the one word for: The study of diseases.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pharmacology"
+      },
+      {
+        "id": "B",
+        "text": "Physiology"
+      },
+      {
+        "id": "C",
+        "text": "Zoology"
+      },
+      {
+        "id": "D",
+        "text": "Pathology"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Pathology = रोग-विज्ञान। Example: Pathology helps doctors understand the cause of a disease.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_117",
+    "subjectId": "english",
+    "question": "Choose the one word for: A doctor who treats skin diseases.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Orthopaedist"
+      },
+      {
+        "id": "B",
+        "text": "Dermatologist"
+      },
+      {
+        "id": "C",
+        "text": "Oncologist"
+      },
+      {
+        "id": "D",
+        "text": "Ophthalmologist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Dermatologist = त्वचा-रोग विशेषज्ञ। Example: She consulted a dermatologist for her skin allergy.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_118",
+    "subjectId": "english",
+    "question": "Choose the one word for: The study of the meanings of words.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Syntax"
+      },
+      {
+        "id": "B",
+        "text": "Phonetics"
+      },
+      {
+        "id": "C",
+        "text": "Semantics"
+      },
+      {
+        "id": "D",
+        "text": "Morphology"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Semantics = शब्दार्थ-विज्ञान। Example: Semantics explains why one word can have many meanings.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_119",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who demands strict obedience to rules.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Volunteer"
+      },
+      {
+        "id": "B",
+        "text": "Martinet"
+      },
+      {
+        "id": "C",
+        "text": "Dissident"
+      },
+      {
+        "id": "D",
+        "text": "Maverick"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Martinet = कठोर अनुशासन थोपने वाला व्यक्ति। Example: The martinet principal punished even small mistakes.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_120",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who doubts accepted opinions and asks for proof.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Believer"
+      },
+      {
+        "id": "B",
+        "text": "Devotee"
+      },
+      {
+        "id": "C",
+        "text": "Sceptic"
+      },
+      {
+        "id": "D",
+        "text": "Disciple"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Sceptic = संशयी (बिना प्रमाण कुछ न मानने वाला)। Example: As a sceptic, he refused to accept the rumour without evidence.",
+    "language": "en"
+  }
+]

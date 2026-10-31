@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_spl_091",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accumlate"
+      },
+      {
+        "id": "B",
+        "text": "Acumulate"
+      },
+      {
+        "id": "C",
+        "text": "Accumulete"
+      },
+      {
+        "id": "D",
+        "text": "Accumulate"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Accumulate (दो c, एक m) = इकट्ठा करना। Example: Dust accumulates on old books.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_092",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acknowledge"
+      },
+      {
+        "id": "B",
+        "text": "Acknowlegde"
+      },
+      {
+        "id": "C",
+        "text": "Acknowlege"
+      },
+      {
+        "id": "D",
+        "text": "Aknowledge"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Acknowledge (ac + know + ledge) = स्वीकार करना। Example: He acknowledged his mistake in public.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_093",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bankruptsy"
+      },
+      {
+        "id": "B",
+        "text": "Bankruptey"
+      },
+      {
+        "id": "C",
+        "text": "Bankruptcy"
+      },
+      {
+        "id": "D",
+        "text": "Bankrupcy"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Bankruptcy (bankrupt + cy: 't' बना रहता है) = दिवालियापन। Example: The firm filed for bankruptcy.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_094",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Buletin"
+      },
+      {
+        "id": "B",
+        "text": "Bulletin"
+      },
+      {
+        "id": "C",
+        "text": "Bullettin"
+      },
+      {
+        "id": "D",
+        "text": "Bulletine"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Bulletin (दो l, एक t) = बुलेटिन, सूचना-पत्र। Example: The news bulletin was broadcast at nine.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_095",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Category"
+      },
+      {
+        "id": "B",
+        "text": "Categorry"
+      },
+      {
+        "id": "C",
+        "text": "Catergory"
+      },
+      {
+        "id": "D",
+        "text": "Catagory"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Category (cat + ego + ry) = श्रेणी। Example: This book belongs to the fiction category.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_096",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cigerette"
+      },
+      {
+        "id": "B",
+        "text": "Cigarete"
+      },
+      {
+        "id": "C",
+        "text": "Cigarrete"
+      },
+      {
+        "id": "D",
+        "text": "Cigarette"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Cigarette (cig + a + rette) = सिगरेट। Example: Smoking a cigarette harms the lungs.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_097",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Critisism"
+      },
+      {
+        "id": "B",
+        "text": "Critcism"
+      },
+      {
+        "id": "C",
+        "text": "Criticism"
+      },
+      {
+        "id": "D",
+        "text": "Criticisim"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Criticism (critic + ism) = आलोचना। Example: He accepted the criticism with a smile.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_098",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deceeve"
+      },
+      {
+        "id": "B",
+        "text": "Deceive"
+      },
+      {
+        "id": "C",
+        "text": "Deceve"
+      },
+      {
+        "id": "D",
+        "text": "Decieve"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Deceive ('c' के बाद ei) = धोखा देना। Example: Don't try to deceive your parents.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_099",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Despirate"
+      },
+      {
+        "id": "B",
+        "text": "Desparate"
+      },
+      {
+        "id": "C",
+        "text": "Desperate"
+      },
+      {
+        "id": "D",
+        "text": "Desperete"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Desperate (desp + er + ate) = बेताब, हताश। Example: The desperate man begged for help.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_100",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Equivalent"
+      },
+      {
+        "id": "B",
+        "text": "Equivelent"
+      },
+      {
+        "id": "C",
+        "text": "Equivalant"
+      },
+      {
+        "id": "D",
+        "text": "Equivilent"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Equivalent (equi + val + ent) = समतुल्य। Example: One kilogram is equivalent to 1000 grams.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_101",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fatigeu"
+      },
+      {
+        "id": "B",
+        "text": "Fatigue"
+      },
+      {
+        "id": "C",
+        "text": "Fattigue"
+      },
+      {
+        "id": "D",
+        "text": "Fatique"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Fatigue (fat + igue: 'gue') = थकान। Example: Long hours of work cause fatigue.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_102",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Febuary"
+      },
+      {
+        "id": "B",
+        "text": "Februery"
+      },
+      {
+        "id": "C",
+        "text": "Feburary"
+      },
+      {
+        "id": "D",
+        "text": "February"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "February (Feb + ru + ary: 'r' दो बार) = फ़रवरी। Example: Republic Day falls in January, not February.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_103",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Handkerchief"
+      },
+      {
+        "id": "B",
+        "text": "Hankerchief"
+      },
+      {
+        "id": "C",
+        "text": "Handkirchief"
+      },
+      {
+        "id": "D",
+        "text": "Handkerchif"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Handkerchief (hand + ker + chief) = रूमाल। Example: She wiped her face with a handkerchief.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_104",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hieght"
+      },
+      {
+        "id": "B",
+        "text": "Height"
+      },
+      {
+        "id": "C",
+        "text": "Hiegth"
+      },
+      {
+        "id": "D",
+        "text": "Heigth"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Height (h + eight, अंत में 'ht') = ऊँचाई। Example: The height of the tower is 100 metres.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_105",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hypothesus"
+      },
+      {
+        "id": "B",
+        "text": "Hipothesis"
+      },
+      {
+        "id": "C",
+        "text": "Hypothesis"
+      },
+      {
+        "id": "D",
+        "text": "Hypothasis"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Hypothesis (hypo + thesis) = परिकल्पना। Example: The scientist tested his hypothesis.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_106",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jelousy"
+      },
+      {
+        "id": "B",
+        "text": "Jealosy"
+      },
+      {
+        "id": "C",
+        "text": "Jealusy"
+      },
+      {
+        "id": "D",
+        "text": "Jealousy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Jealousy (jeal + ous + y) = ईर्ष्या। Example: Jealousy ruined their friendship.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_107",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Laboratory"
+      },
+      {
+        "id": "B",
+        "text": "Laboritory"
+      },
+      {
+        "id": "C",
+        "text": "Laboratary"
+      },
+      {
+        "id": "D",
+        "text": "Labratory"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Laboratory (labor + atory) = प्रयोगशाला। Example: The students worked in the chemistry laboratory.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_108",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Legittimate"
+      },
+      {
+        "id": "B",
+        "text": "Legitimete"
+      },
+      {
+        "id": "C",
+        "text": "Legitamate"
+      },
+      {
+        "id": "D",
+        "text": "Legitimate"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Legitimate (leg + iti + mate) = वैध, जायज़। Example: He has a legitimate claim to the land.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_109",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reciept"
+      },
+      {
+        "id": "B",
+        "text": "Recipt"
+      },
+      {
+        "id": "C",
+        "text": "Receipt"
+      },
+      {
+        "id": "D",
+        "text": "Receit"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Receipt ('p' लिखा जाता है, बोला नहीं जाता) = रसीद। Example: Always keep the receipt of your purchase.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_110",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Magnaficent"
+      },
+      {
+        "id": "B",
+        "text": "Magnificent"
+      },
+      {
+        "id": "C",
+        "text": "Magnifisent"
+      },
+      {
+        "id": "D",
+        "text": "Magnificant"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Magnificent (magni + ficent) = भव्य। Example: The Taj Mahal is a magnificent monument.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_111",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Morgage"
+      },
+      {
+        "id": "B",
+        "text": "Mortgege"
+      },
+      {
+        "id": "C",
+        "text": "Mortage"
+      },
+      {
+        "id": "D",
+        "text": "Mortgage"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Mortgage ('t' लिखा जाता है पर बोला नहीं जाता; mort + gage) = बंधक, गिरवी। Example: He took a mortgage to buy the house.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_112",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obstackle"
+      },
+      {
+        "id": "B",
+        "text": "Obstical"
+      },
+      {
+        "id": "C",
+        "text": "Obstacle"
+      },
+      {
+        "id": "D",
+        "text": "Obstecle"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Obstacle (ob + stacle) = बाधा। Example: Poverty was no obstacle to her success.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_113",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Opportunaty"
+      },
+      {
+        "id": "B",
+        "text": "Opportunity"
+      },
+      {
+        "id": "C",
+        "text": "Opprotunity"
+      },
+      {
+        "id": "D",
+        "text": "Oportunity"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Opportunity (दो p, फिर tunity) = अवसर। Example: Don't miss this opportunity.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_114",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Persuade"
+      },
+      {
+        "id": "B",
+        "text": "Persaude"
+      },
+      {
+        "id": "C",
+        "text": "Perswade"
+      },
+      {
+        "id": "D",
+        "text": "Percuade"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Persuade (per + suade) = राज़ी करना। Example: She persuaded him to join the class.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_115",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Phenominon"
+      },
+      {
+        "id": "B",
+        "text": "Phenomenom"
+      },
+      {
+        "id": "C",
+        "text": "Phenomenon"
+      },
+      {
+        "id": "D",
+        "text": "Phenomonon"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Phenomenon (phen + omen + on) = घटना, परिघटना। Example: A solar eclipse is a rare natural phenomenon.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_116",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Playwrigth"
+      },
+      {
+        "id": "B",
+        "text": "Playwright"
+      },
+      {
+        "id": "C",
+        "text": "Plawright"
+      },
+      {
+        "id": "D",
+        "text": "Playwrite"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Playwright (play + wright) = नाटककार। Example: Shakespeare was a famous playwright.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_117",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prejudise"
+      },
+      {
+        "id": "B",
+        "text": "Prejudize"
+      },
+      {
+        "id": "C",
+        "text": "Predjudice"
+      },
+      {
+        "id": "D",
+        "text": "Prejudice"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Prejudice (pre + judice) = पूर्वाग्रह। Example: Prejudice against the poor must end.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_118",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quarantine"
+      },
+      {
+        "id": "B",
+        "text": "Quaranteen"
+      },
+      {
+        "id": "C",
+        "text": "Quarentine"
+      },
+      {
+        "id": "D",
+        "text": "Quarantene"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Quarantine (quar + an + tine) = संगरोध (अलगाव)। Example: Travellers were kept in quarantine for a week.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_119",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suvenir"
+      },
+      {
+        "id": "B",
+        "text": "Souveneir"
+      },
+      {
+        "id": "C",
+        "text": "Souvenier"
+      },
+      {
+        "id": "D",
+        "text": "Souvenir"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Souvenir (sou + ven + ir) = यादगार स्मृति-चिह्न। Example: He bought a souvenir from Agra.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_120",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scissors"
+      },
+      {
+        "id": "B",
+        "text": "Sissors"
+      },
+      {
+        "id": "C",
+        "text": "Scisors"
+      },
+      {
+        "id": "D",
+        "text": "Scissers"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Scissors (sc + iss + ors) = कैंची। Example: Cut the paper with a pair of scissors.",
+    "language": "en"
+  }
+]
