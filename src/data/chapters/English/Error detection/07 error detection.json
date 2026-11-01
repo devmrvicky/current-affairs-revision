@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "grammar301",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe little girl, who has been learning classical music since the age of five, (A) / sings very sweet (B) / and has won several prizes in inter-school competitions. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The little girl, who has been learning classical music since the age of five,"
+      },
+      {
+        "id": "B",
+        "text": "sings very sweet"
+      },
+      {
+        "id": "C",
+        "text": "and has won several prizes in inter-school competitions."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "easy",
+    "explanation": "Verb (sings) को modify करने के लिए adverb चाहिए: 'sweet' → 'sweetly'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar302",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nAt the annual function of the college, the chief guest looked [gracefully] in her traditional silk saree.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "more gracefully"
+      },
+      {
+        "id": "C",
+        "text": "graceful"
+      },
+      {
+        "id": "D",
+        "text": "gracefulness"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "Linking verb (look, feel, taste, smell, sound, seem) के बाद adjective आता है: 'looked graceful'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar303",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nEveryone who attended the family function appreciated the dinner, (A) / and the curry that my grandmother prepared (B) / tastes deliciously even after two days. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Everyone who attended the family function appreciated the dinner,"
+      },
+      {
+        "id": "B",
+        "text": "and the curry that my grandmother prepared"
+      },
+      {
+        "id": "C",
+        "text": "tastes deliciously even after two days."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "Sense verbs (taste, smell, look, feel) के बाद adjective आता है: 'tastes delicious'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar304",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe roses growing in the old garden of the palace smell [sweetly] early in the morning, when the dew is still fresh.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "more sweetly"
+      },
+      {
+        "id": "C",
+        "text": "sweetness"
+      },
+      {
+        "id": "D",
+        "text": "sweet"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "'Smell' linking verb है, इसके बाद adjective आता है: 'smell sweet'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar305",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nAlthough the question paper was far tougher than expected, (A) / a large number of students in the batch (B) / did very good and scored above eighty per cent marks. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Although the question paper was far tougher than expected,"
+      },
+      {
+        "id": "B",
+        "text": "a large number of students in the batch"
+      },
+      {
+        "id": "C",
+        "text": "did very good and scored above eighty per cent marks."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "easy",
+    "explanation": "Verb (did) को modify करने के लिए adverb 'well' आता है: 'did very well'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar306",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe young farmer works so hardly in his fields (A) / from dawn to dusk that he has (B) / no time left to spend with his family. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The young farmer works so hardly in his fields"
+      },
+      {
+        "id": "B",
+        "text": "from dawn to dusk that he has"
+      },
+      {
+        "id": "C",
+        "text": "no time left to spend with his family."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Hard' adjective और adverb दोनों है ('कड़ी मेहनत से'); 'hardly' का अर्थ 'मुश्किल से/लगभग नहीं' है। सही: 'works so hard'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar307",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nOn the occasion of Makar Sankranti, thousands of colourful kites flew highly (A) / in the clear blue sky above (B) / the narrow lanes of the old city of Ahmedabad. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "On the occasion of Makar Sankranti, thousands of colourful kites flew highly"
+      },
+      {
+        "id": "B",
+        "text": "in the clear blue sky above"
+      },
+      {
+        "id": "C",
+        "text": "the narrow lanes of the old city of Ahmedabad."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "'High' का adverb रूप भी 'high' है ('ऊँचाई पर'); 'highly' का अर्थ 'अत्यधिक/बहुत' होता है: 'flew high'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar308",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nBecause of the heavy traffic jam on the highway, the Chief Minister reached the venue of the rally [lately] by almost two hours.",
+    "options": [
+      {
+        "id": "A",
+        "text": "late"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "latest"
+      },
+      {
+        "id": "D",
+        "text": "later"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adverbs",
+    "difficulty": "easy",
+    "explanation": "'Late' का अर्थ 'देर से' है; 'lately' का अर्थ 'हाल ही में' होता है: 'reached ... late'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar309",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe principal insisted that the students should be allowed to express their opinions [free] without any fear of punishment.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "freely"
+      },
+      {
+        "id": "C",
+        "text": "freedom"
+      },
+      {
+        "id": "D",
+        "text": "freed"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "Verb (express) को modify करने के लिए adverb 'freely' आता है; 'free' adjective है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar310",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe accident occurred [nearly] the railway crossing at about midnight, when most of the villagers were asleep.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "nearer"
+      },
+      {
+        "id": "C",
+        "text": "nearby to"
+      },
+      {
+        "id": "D",
+        "text": "near"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "'Near' (पास) और 'nearly' (लगभग) में अंतर है: 'occurred near the railway crossing'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar311",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe film directed by the young filmmaker was [wide] acclaimed by critics across the world and won several international awards.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "wider"
+      },
+      {
+        "id": "C",
+        "text": "widely"
+      },
+      {
+        "id": "D",
+        "text": "width"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "'Acclaimed' (participle) को modify करने के लिए adverb 'widely' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar312",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe scientists were asked to watch the experiment [close] and to record every change that occurred in the chemical solution.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "closer"
+      },
+      {
+        "id": "C",
+        "text": "closeness"
+      },
+      {
+        "id": "D",
+        "text": "closely"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "Verb (watch) को modify करने के लिए adverb 'closely' आता है; 'close' का अर्थ 'पास' है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar313",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe old man was so [deep] moved by the tragic incident that tears began to roll down his cheeks.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "deeply"
+      },
+      {
+        "id": "C",
+        "text": "depth"
+      },
+      {
+        "id": "D",
+        "text": "deeper"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "'Moved' को modify करने के लिए adverb 'deeply' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar314",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe condition of the patient who had been admitted to the hospital last week (A) / is very better (B) / than it was on the day of admission. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The condition of the patient who had been admitted to the hospital last week"
+      },
+      {
+        "id": "B",
+        "text": "is very better"
+      },
+      {
+        "id": "C",
+        "text": "than it was on the day of admission."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "'Very' comparative degree के साथ नहीं लगता; 'much/far/a lot' लगता है: 'much better'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar315",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe retired professor was too happy (A) / to see his former students after almost thirty years (B) / and he invited all of them to his house. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The retired professor was too happy"
+      },
+      {
+        "id": "B",
+        "text": "to see his former students after almost thirty years"
+      },
+      {
+        "id": "C",
+        "text": "and he invited all of them to his house."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Too' नकारात्मक अर्थ (अत्यधिक, जिससे काम न हो) देता है; सकारात्मक भाव के लिए 'very' आता है: 'very happy to see'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar316",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nIt is too much hot in the desert areas of Rajasthan (A) / during the months of May and June, (B) / so people avoid going out in the afternoon. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is too much hot in the desert areas of Rajasthan"
+      },
+      {
+        "id": "B",
+        "text": "during the months of May and June,"
+      },
+      {
+        "id": "C",
+        "text": "so people avoid going out in the afternoon."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "'Too much' noun/verb के साथ आता है; adjective के साथ 'much too' आता है: 'much too hot'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar317",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe lecture delivered by the visiting professor was a quite interesting one (A) / and the audience applauded warmly (B) / at the end of the session. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The lecture delivered by the visiting professor was a quite interesting one"
+      },
+      {
+        "id": "B",
+        "text": "and the audience applauded warmly"
+      },
+      {
+        "id": "C",
+        "text": "at the end of the session."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Quite' का स्थान 'a/an' से पहले होता है: 'quite an interesting one'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar318",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe candidate who appeared for the interview yesterday morning (A) / is sufficiently intelligent enough (B) / to handle such a responsible position. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The candidate who appeared for the interview yesterday morning"
+      },
+      {
+        "id": "B",
+        "text": "is sufficiently intelligent enough"
+      },
+      {
+        "id": "C",
+        "text": "to handle such a responsible position."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Sufficiently' और 'enough' का एक साथ प्रयोग redundancy है: 'sufficiently intelligent' या 'intelligent enough'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar319",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe selection committee felt that the candidate, (A) / despite his impressive academic record, was not (B) / enough qualified to handle such a complex project. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The selection committee felt that the candidate,"
+      },
+      {
+        "id": "B",
+        "text": "despite his impressive academic record, was not"
+      },
+      {
+        "id": "C",
+        "text": "enough qualified to handle such a complex project."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Enough' adjective के बाद आता है: 'not qualified enough'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar320",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe students like their new English teacher [very] because of his friendly nature and his unique style of teaching.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "much very"
+      },
+      {
+        "id": "C",
+        "text": "too"
+      },
+      {
+        "id": "D",
+        "text": "very much"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Very' verb को modify नहीं करता; verb के साथ 'very much' आता है: 'like ... very much'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar321",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe teacher explained the theorem [so clearly that] even the weakest students in the class could understand it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "so clear that"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "such clearly that"
+      },
+      {
+        "id": "D",
+        "text": "too clearly that"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "'So + adverb + that' (परिणाम) सही है, इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar322",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe new smartphone is [far more] expensive than the previous model, but it has a much better camera.",
+    "options": [
+      {
+        "id": "A",
+        "text": "very more"
+      },
+      {
+        "id": "B",
+        "text": "far most"
+      },
+      {
+        "id": "C",
+        "text": "No improvement"
+      },
+      {
+        "id": "D",
+        "text": "much most"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "'Far/much' comparative को modify कर सकते हैं: 'far more expensive'। इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar323",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe young sprinter can run [as faster as] any other athlete in the national training camp.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "so faster as"
+      },
+      {
+        "id": "C",
+        "text": "as fast as"
+      },
+      {
+        "id": "D",
+        "text": "as fastest as"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "'As ... as' के बीच adverb की मूल (positive) degree आती है: 'as fast as'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar324",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe new generation of electric cars can accelerate more faster (A) / than the conventional vehicles (B) / that are powered by petrol or diesel engines. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The new generation of electric cars can accelerate more faster"
+      },
+      {
+        "id": "B",
+        "text": "than the conventional vehicles"
+      },
+      {
+        "id": "C",
+        "text": "that are powered by petrol or diesel engines."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "'Faster' पहले से comparative है, इसलिए 'more' के साथ double comparative नहीं बनता: 'accelerate faster'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar325",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe young cricketer is old enough to understand the consequences of his actions, (A) / and he has already decided (B) / to take full responsibility for the defeat. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The young cricketer is old enough to understand the consequences of his actions,"
+      },
+      {
+        "id": "B",
+        "text": "and he has already decided"
+      },
+      {
+        "id": "C",
+        "text": "to take full responsibility for the defeat."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "'Old enough' में 'enough' adjective के बाद सही स्थान पर है और 'already' affirmative वाक्य में सही है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar326",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe foreign guest speaks Hindi quite fluently, (A) / but he writes it (B) / rather poorly. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The foreign guest speaks Hindi quite fluently,"
+      },
+      {
+        "id": "B",
+        "text": "but he writes it"
+      },
+      {
+        "id": "C",
+        "text": "rather poorly."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Quite fluently' और 'rather poorly' दोनों adverbs सही स्थान पर हैं। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar327",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nMy uncle, who retired from the railways nearly two years ago, (A) / goes always for a long walk (B) / in the nearby park before sunrise. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "My uncle, who retired from the railways nearly two years ago,"
+      },
+      {
+        "id": "B",
+        "text": "goes always for a long walk"
+      },
+      {
+        "id": "C",
+        "text": "in the nearby park before sunrise."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "Frequency adverb (always, never, often, usually) main verb से पहले आता है: 'always goes'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar328",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe poor labourer never complained to anybody about the hardships he faced (A) / and never did nothing (B) / to harm his employer. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The poor labourer never complained to anybody about the hardships he faced"
+      },
+      {
+        "id": "B",
+        "text": "and never did nothing"
+      },
+      {
+        "id": "C",
+        "text": "to harm his employer."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Never' के साथ 'nothing' से double negative बनता है: 'never did anything'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar329",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nAfter paying the huge hospital bills of his father, (A) / the family of the clerk was left (B) / with scarcely no money to buy food for the week. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "After paying the huge hospital bills of his father,"
+      },
+      {
+        "id": "B",
+        "text": "the family of the clerk was left"
+      },
+      {
+        "id": "C",
+        "text": "with scarcely no money to buy food for the week."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Scarcely' खुद negative अर्थ रखता है, इसलिए 'no' के साथ double negative बनता है: 'scarcely any money'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar330",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe search party looked for the missing trekkers (A) / in the dense forest for three days, (B) / but could not find them nowhere. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The search party looked for the missing trekkers"
+      },
+      {
+        "id": "B",
+        "text": "in the dense forest for three days,"
+      },
+      {
+        "id": "C",
+        "text": "but could not find them nowhere."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "easy",
+    "explanation": "'Could not' के साथ 'nowhere' से double negative बनता है: 'could not find them anywhere'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar331",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nAlmost people living in the coastal villages of the state (A) / depend on fishing and related activities (B) / for their livelihood throughout the year. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Almost people living in the coastal villages of the state"
+      },
+      {
+        "id": "B",
+        "text": "depend on fishing and related activities"
+      },
+      {
+        "id": "C",
+        "text": "for their livelihood throughout the year."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "'Most people' (अधिकांश लोग) सही है; 'almost' का अर्थ 'लगभग' है और वह इस तरह noun से पहले नहीं आता: 'Most people living ...'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar332",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe meeting of the cabinet, which lasted for nearly five hours, (A) / was a highly confidential one and (B) / besides the Prime Minister nobody other was present. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The meeting of the cabinet, which lasted for nearly five hours,"
+      },
+      {
+        "id": "B",
+        "text": "was a highly confidential one and"
+      },
+      {
+        "id": "C",
+        "text": "besides the Prime Minister nobody other was present."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Nobody' के बाद 'else' आता है, 'other' नहीं: 'nobody else was present'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar333",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe old professor does not live in this locality [no longer], and nobody in the neighbourhood knows his present address.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "longer no"
+      },
+      {
+        "id": "C",
+        "text": "never longer"
+      },
+      {
+        "id": "D",
+        "text": "any longer"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'No longer' के साथ 'not' से double negative बनता है; 'not ... any longer' आता है: 'does not live here any longer'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar334",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nDr. Sharma is the most generous person I have [never] met in my entire career as a journalist.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "ever"
+      },
+      {
+        "id": "C",
+        "text": "not"
+      },
+      {
+        "id": "D",
+        "text": "yet"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "Superlative के बाद 'ever' आता है, 'never' नहीं: 'the most generous person I have ever met'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar335",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nHe could [scarcely believe] his eyes when he saw the result of the examination on the notice board.",
+    "options": [
+      {
+        "id": "A",
+        "text": "scarcely not believe"
+      },
+      {
+        "id": "B",
+        "text": "not scarcely believe"
+      },
+      {
+        "id": "C",
+        "text": "scarcely never believe"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Scarcely believe' सही प्रयोग है (scarcely खुद negative है), इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar336",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nShe has been working extremely hard throughout the year, (A) / and she has hardly taken (B) / any leave since the project began. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "She has been working extremely hard throughout the year,"
+      },
+      {
+        "id": "B",
+        "text": "and she has hardly taken"
+      },
+      {
+        "id": "C",
+        "text": "any leave since the project began."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Extremely hard' (कड़ी मेहनत) और 'hardly taken any leave' (लगभग छुट्टी नहीं ली) दोनों का प्रयोग सही है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar337",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nAlthough the deadline is only two days away, (A) / the contractor appointed by the municipal corporation (B) / has not already completed even half of the construction work. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Although the deadline is only two days away,"
+      },
+      {
+        "id": "B",
+        "text": "the contractor appointed by the municipal corporation"
+      },
+      {
+        "id": "C",
+        "text": "has not already completed even half of the construction work."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "Negative वाक्य में 'already' की जगह 'yet' आता है: 'has not yet completed'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar338",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe chief engineer [has yet not submitted] the final report on the collapse of the bridge to the ministry.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "yet has not submitted"
+      },
+      {
+        "id": "C",
+        "text": "has not yet submitted"
+      },
+      {
+        "id": "D",
+        "text": "has submitted not yet"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Yet' negative वाक्य में 'not' के बाद आता है: 'has not yet submitted'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar339",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nI told the manager that I had met his brother at the conference in Singapore three years [ago].",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "before"
+      },
+      {
+        "id": "C",
+        "text": "past"
+      },
+      {
+        "id": "D",
+        "text": "since"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "Past Perfect (had met) के साथ 'ago' नहीं, 'before' आता है: 'three years before'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar340",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe Prime Minister attended the inaugural session of the climate summit (A) / and so the Foreign Minister did (B) / along with several other senior delegates. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Prime Minister attended the inaugural session of the climate summit"
+      },
+      {
+        "id": "B",
+        "text": "and so the Foreign Minister did"
+      },
+      {
+        "id": "C",
+        "text": "along with several other senior delegates."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "पुष्टि के लिए 'so' से वाक्य शुरू हो तो inversion आता है: 'and so did the Foreign Minister'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar341",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nNever before in the history of the institution (A) / the students had shown (B) / such remarkable discipline during an examination. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Never before in the history of the institution"
+      },
+      {
+        "id": "B",
+        "text": "the students had shown"
+      },
+      {
+        "id": "C",
+        "text": "such remarkable discipline during an examination."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Never before' जैसे negative adverbials से वाक्य शुरू हो तो inversion आता है: 'had the students shown'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar342",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nOnly after the final results were declared by the university, (A) / the students realised how seriously (B) / they had underestimated the vast syllabus. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only after the final results were declared by the university,"
+      },
+      {
+        "id": "B",
+        "text": "the students realised how seriously"
+      },
+      {
+        "id": "C",
+        "text": "they had underestimated the vast syllabus."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Only after' से वाक्य शुरू होने पर main clause में inversion आता है: 'did the students realise'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar343",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nMy elder brother does not like travelling by air and I do not like it too (A) / because both of us get dizzy (B) / at great heights. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "My elder brother does not like travelling by air and I do not like it too"
+      },
+      {
+        "id": "B",
+        "text": "because both of us get dizzy"
+      },
+      {
+        "id": "C",
+        "text": "at great heights."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "Negative वाक्य में 'too' की जगह 'either' आता है: 'I do not like it either'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar344",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe first batsman did not score a single run in the entire match, and [neither the second batsman did] despite playing three innings.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "neither the second batsman had"
+      },
+      {
+        "id": "C",
+        "text": "so did the second batsman"
+      },
+      {
+        "id": "D",
+        "text": "neither did the second batsman"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Neither' से वाक्य शुरू हो तो inversion आता है: 'neither did the second batsman'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar345",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[Little he knew] that the stranger whom he had helped on the road was the new director of his company.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Little did he know"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "Little he did know"
+      },
+      {
+        "id": "D",
+        "text": "Little he was knowing"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Little' जैसे negative adverb से वाक्य शुरू हो तो inversion आता है: 'Little did he know'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar346",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[Hardly ever does the old man leave] his house after sunset, as he has a very weak heart.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "Hardly ever the old man leaves"
+      },
+      {
+        "id": "C",
+        "text": "Hardly ever leaves the old man"
+      },
+      {
+        "id": "D",
+        "text": "Hardly ever old man does leave"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Hardly ever' से वाक्य शुरू होने पर inversion (does the old man leave) सही है, इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar347",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe students were told to [return back] to their classrooms immediately after the lunch break was over.",
+    "options": [
+      {
+        "id": "A",
+        "text": "return"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "revert again"
+      },
+      {
+        "id": "D",
+        "text": "return again back"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "'Return' में 'back' का अर्थ पहले से शामिल है, इसलिए 'return back' redundancy है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar348",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe newly appointed secretary is [equally as capable as] his predecessor and has already won the confidence of the staff.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "equally capable as"
+      },
+      {
+        "id": "C",
+        "text": "as capable as"
+      },
+      {
+        "id": "D",
+        "text": "equal as capable as"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "'Equally as' का एक साथ प्रयोग गलत है: 'as capable as' (या 'equally capable')।",
+    "language": "en"
+  },
+  {
+    "id": "grammar349",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nFortunately, the pilot managed to land the aircraft safely (A) / on the narrow runway (B) / despite the stormy weather and poor visibility. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fortunately, the pilot managed to land the aircraft safely"
+      },
+      {
+        "id": "B",
+        "text": "on the narrow runway"
+      },
+      {
+        "id": "C",
+        "text": "despite the stormy weather and poor visibility."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adverbs",
+    "difficulty": "easy",
+    "explanation": "'Fortunately' पूरे वाक्य को modify करने वाला adverb है और 'safely' verb को। दोनों सही हैं। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar350",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nIt was too late to catch the last train to Lucknow, (A) / so we decided to stay overnight (B) / at a friend's house near the station. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "It was too late to catch the last train to Lucknow,"
+      },
+      {
+        "id": "B",
+        "text": "so we decided to stay overnight"
+      },
+      {
+        "id": "C",
+        "text": "at a friend's house near the station."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adverbs",
+    "difficulty": "easy",
+    "explanation": "'Too late to catch' सही structure है। कोई error नहीं।",
+    "language": "en"
+  }
+]

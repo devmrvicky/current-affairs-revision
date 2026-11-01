@@ -2,6 +2,8 @@ import { memo } from 'react';
 import { motion } from 'framer-motion';
 import { Flag } from 'lucide-react';
 import type { MockQuestionState } from '../../types/mockSession';
+import { MarkBadge } from '../exam/MarkBadge';
+import { effectivePurpose, getMarkPurposeInfo } from '../../types/questionMark';
 
 interface MockQuestionPaletteProps {
   questionIds: string[];
@@ -17,7 +19,7 @@ export const MockQuestionPalette = memo(function MockQuestionPalette({ questionI
   const answered = questionIds.filter((id) => states[id]?.selectedAnswer !== null).length;
   const notAnswered = questionIds.filter((id) => states[id]?.visited && states[id]?.selectedAnswer === null).length;
   const notVisited = questionIds.filter((id) => !states[id]?.visited).length;
-  const marked = questionIds.filter((id) => states[id]?.isMarkedForReview).length;
+  const marked = questionIds.filter((id) => states[id] && effectivePurpose(states[id])).length;
 
   return (
     <div className="card p-4 h-fit">
@@ -37,7 +39,8 @@ export const MockQuestionPalette = memo(function MockQuestionPalette({ questionI
           const state = states[qid];
           const isCurrent = idx === currentIndex;
           const answeredQ = state?.selectedAnswer !== null;
-          const markedQ = !!state?.isMarkedForReview;
+          const purpose = state ? effectivePurpose(state) : undefined;
+          const markedQ = !!purpose;
           const visitedQ = !!state?.visited;
 
           let bg = 'var(--bg)';
@@ -46,9 +49,9 @@ export const MockQuestionPalette = memo(function MockQuestionPalette({ questionI
           let label = 'not visited';
 
           if (answeredQ && markedQ) {
-            bg = '#8b5cf6'; color = '#fff'; extraClass = ''; label = 'answered and marked for review';
+            bg = '#8b5cf6'; color = '#fff'; extraClass = ''; label = `answered and marked (${getMarkPurposeInfo(purpose)?.label})`;
           } else if (markedQ) {
-            bg = '#f59e0b'; color = '#fff'; extraClass = ''; label = 'marked for review';
+            bg = '#f59e0b'; color = '#fff'; extraClass = ''; label = `marked (${getMarkPurposeInfo(purpose)?.label})`;
           } else if (answeredQ) {
             bg = '#22c55e'; color = '#fff'; extraClass = ''; label = 'answered';
           } else if (visitedQ) {
@@ -68,7 +71,7 @@ export const MockQuestionPalette = memo(function MockQuestionPalette({ questionI
               aria-current={isCurrent ? 'true' : undefined}
             >
               {idx + 1}
-              {markedQ && <Flag size={9} className="absolute -top-1 -left-1 text-amber-600" fill="currentColor" />}
+              <MarkBadge purpose={purpose} />
             </motion.button>
           );
         })}

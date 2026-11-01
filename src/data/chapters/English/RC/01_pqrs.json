@@ -1,0 +1,562 @@
+[
+  {
+    "id": "pqrs001",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: Yoga is an ancient discipline that originated in India thousands of years ago.\nP: Gradually, it spread beyond the ashrams and reached people from all walks of life.\nQ: This popularity has also led the United Nations to observe an International Day of Yoga every year.\nR: At first, it was practised mainly by sages who saw it as a path to spiritual growth.\nS: Today, it is hugely popular, and millions across the world practise it to reduce stress and improve flexibility.\nS6: Thus, yoga continues to link the traditions of the past with the needs of the present.",
+    "options": [
+      {
+        "id": "A",
+        "text": "RPSQ"
+      },
+      {
+        "id": "B",
+        "text": "PRSQ"
+      },
+      {
+        "id": "C",
+        "text": "RSPQ"
+      },
+      {
+        "id": "D",
+        "text": "RPQS"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम R → P → S → Q। R में योग की शुरुआत (At first, sages), P में उसका फैलाव (Gradually), S में आज की लोकप्रियता (Today) और Q में 'This popularity' S से जुड़कर International Day of Yoga की बात करता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs002",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: Not long ago, a visit to the market meant carrying a wallet full of cash.\nP: Therefore, even small vendors now display a QR code beside their stalls.\nQ: With a few taps on a smartphone, a customer can now transfer money in seconds.\nR: Such wide acceptance has also made transactions more transparent and easier to record.\nS: Then mobile phones and the internet slowly changed the way people paid for goods.\nS6: Consequently, cash is gradually losing its place as the default means of payment.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QSPR"
+      },
+      {
+        "id": "B",
+        "text": "SPQR"
+      },
+      {
+        "id": "C",
+        "text": "SQPR"
+      },
+      {
+        "id": "D",
+        "text": "SQRP"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम S → Q → P → R। S में 'Then' पुराने दौर के बाद बदलाव शुरू करता है, Q में फोन से तुरंत भुगतान, P में 'Therefore' के साथ दुकानदारों का QR कोड और R में 'Such wide acceptance' P से जुड़ता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs003",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: The postman was once the most familiar visitor in every Indian village.\nP: Dressed in khaki, he walked from door to door carrying a leather bag.\nQ: Inside the bag lay letters from soldiers, students, and relatives, each awaited with great eagerness.\nR: Yet, for people living in remote areas, his services remain valuable even today.\nS: The arrival of telephones and later e-mails, however, reduced the number of letters he carried.\nS6: His role may have changed, but his importance has not disappeared entirely.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PQSR"
+      },
+      {
+        "id": "B",
+        "text": "QPSR"
+      },
+      {
+        "id": "C",
+        "text": "PSQR"
+      },
+      {
+        "id": "D",
+        "text": "PQRS"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम P → Q → S → R। P में डाकिए का परिचय (he, bag), Q में 'the bag' से पत्रों की बात, S में 'however' के साथ फोन-ई-मेल से पत्रों में कमी और R में 'Yet' के साथ दूरदराज़ इलाकों में आज भी उसका महत्व।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs004",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: A seed may look lifeless, but it holds the beginnings of a new plant.\nP: These leaves then prepare food for the plant through photosynthesis.\nQ: When it receives enough water and warmth, the seed swells and its outer covering splits.\nR: Gradually, the shoot rises above the ground and opens its first leaves to the sunlight.\nS: Soon, a tiny root emerges and pushes downward into the soil.\nS6: In this way, a tiny seed grows into a living plant that can feed other living beings.",
+    "options": [
+      {
+        "id": "A",
+        "text": "SQRP"
+      },
+      {
+        "id": "B",
+        "text": "QSRP"
+      },
+      {
+        "id": "C",
+        "text": "QRSP"
+      },
+      {
+        "id": "D",
+        "text": "QSPR"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम Q → S → R → P। पहले बीज पानी-गर्मी पाकर फूलता है (Q), फिर जड़ निकलती है (S), फिर अंकुर ऊपर आकर पत्तियाँ खोलता है (R) और 'These leaves' R से जुड़कर भोजन बनाने (photosynthesis) की बात करता है (P)।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs005",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: Forests are often called the lungs of the earth.\nP: The loss of tree cover also loosens the soil, which is then easily washed away by heavy rain.\nQ: When trees are cut down on a large scale, this natural balance is disturbed.\nR: They absorb carbon dioxide and release the oxygen that living beings need.\nS: Worst of all, many animals lose their homes, and some species move closer to extinction.\nS6: It is therefore essential that we protect existing forests and plant more trees.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QRPS"
+      },
+      {
+        "id": "B",
+        "text": "RPQS"
+      },
+      {
+        "id": "C",
+        "text": "RQSP"
+      },
+      {
+        "id": "D",
+        "text": "RQPS"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम R → Q → P → S। R में जंगलों का काम (They absorb...), Q में पेड़ कटने पर 'this natural balance' का बिगड़ना, P में मिट्टी का कटाव ('also') और S में 'Worst of all' के साथ सबसे गंभीर परिणाम।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs006",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: The Indian Railways is often described as the lifeline of the nation.\nP: Since that modest beginning, it has expanded to become one of the largest networks in the world.\nQ: Besides passengers, it also carries a huge quantity of freight, which supports industries and farmers alike.\nR: Today, millions of passengers use this vast network every day to travel to work, school, and distant homes.\nS: The first passenger train in India ran between Bombay and Thane in 1853.\nS6: Hence, the importance of the railways to the nation's economy can hardly be exaggerated.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PSRQ"
+      },
+      {
+        "id": "B",
+        "text": "SRPQ"
+      },
+      {
+        "id": "C",
+        "text": "SPQR"
+      },
+      {
+        "id": "D",
+        "text": "SPRQ"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम S → P → R → Q। S में 1853 की पहली ट्रेन, P में 'Since that modest beginning' से विस्तार, R में 'this vast network' से आज के यात्री और Q में 'Besides passengers' से माल-ढुलाई।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs007",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: A good habit is formed not in a day but through steady repetition.\nP: At first, any new activity requires effort and a conscious decision.\nQ: For example, a student who studies at the same hour every day soon finds that the routine no longer feels like a burden.\nR: Similarly, bad habits can be replaced if one patiently practises a better alternative.\nS: With time, however, it becomes natural and almost automatic.\nS6: Therefore, the secret of lasting change lies in consistency rather than sudden effort.",
+    "options": [
+      {
+        "id": "A",
+        "text": "SPQR"
+      },
+      {
+        "id": "B",
+        "text": "PSQR"
+      },
+      {
+        "id": "C",
+        "text": "PQSR"
+      },
+      {
+        "id": "D",
+        "text": "PSRQ"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम P → S → Q → R। P में 'At first' शुरुआती मेहनत, S में 'however' के साथ आदत का स्वाभाविक बनना, Q में 'For example' से उदाहरण और R में 'Similarly' से बुरी आदतें बदलने की बात।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs008",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: Ravi was walking home late one evening when he heard a faint cry from a nearby field.\nP: Moving closer, he found a puppy trapped in a deep ditch, shivering with cold.\nQ: Without wasting a moment, he lowered himself into the ditch and lifted the animal gently.\nR: He stopped at once and listened carefully to find out where the sound was coming from.\nS: The grateful puppy licked his hand and followed him all the way home.\nS6: From that day, the puppy became a loyal companion to the whole family.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PRQS"
+      },
+      {
+        "id": "B",
+        "text": "RPQS"
+      },
+      {
+        "id": "C",
+        "text": "RQPS"
+      },
+      {
+        "id": "D",
+        "text": "RPSQ"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम R → P → Q → S। घटनाक्रम: रुककर आवाज़ सुनना (R), पास जाकर पिल्ले को देखना (P), गड्ढे में उतरकर उसे उठाना (Q) और आभारी पिल्ले का साथ घर आना (S)।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs009",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: Inflation refers to a sustained rise in the general level of prices.\nP: As a result, the same amount of money buys fewer goods than before.\nQ: Families with fixed incomes are hit the hardest, since their earnings do not rise with prices.\nR: To control it, central banks usually raise interest rates and reduce the supply of money.\nS: When prices keep rising, the purchasing power of money declines.\nS6: Thus, keeping prices stable is one of the main goals of economic policy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PSQR"
+      },
+      {
+        "id": "B",
+        "text": "SQPR"
+      },
+      {
+        "id": "C",
+        "text": "SPRQ"
+      },
+      {
+        "id": "D",
+        "text": "SPQR"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम S → P → Q → R। S कारण बताता है (कीमतें बढ़ने पर क्रय-शक्ति घटती है), P में 'As a result' से परिणाम, Q में सबसे अधिक प्रभावित वर्ग और R में 'To control it' से समाधान।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs010",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: A river begins its journey as a tiny stream high in the mountains.\nP: Fed by melting snow and rain, the tiny stream soon turns into a rushing river that tumbles down the slopes.\nQ: Finally, it merges into the sea, ending its long journey.\nR: Along the way, this river is joined by many smaller streams that increase its volume.\nS: On reaching the plains, the swollen river slows down and spreads out, depositing fertile soil along its banks.\nS6: Thus, every river carries life from the hills to the sea.",
+    "options": [
+      {
+        "id": "A",
+        "text": "RPSQ"
+      },
+      {
+        "id": "B",
+        "text": "PSRQ"
+      },
+      {
+        "id": "C",
+        "text": "PRSQ"
+      },
+      {
+        "id": "D",
+        "text": "PRQS"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम P → R → S → Q। P में धारा का नदी बनना, R में 'this river' से सहायक धाराओं का मिलना, S में मैदानों में पहुँचकर 'swollen river' का धीमा होना और Q में 'Finally' के साथ समुद्र में मिलना।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs011",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: The scientist,\nP: of her colleagues.\nQ: finally announced that the experiment had been successful,\nR: who had spent nearly a decade working on the project,\nS: much to the delight",
+    "options": [
+      {
+        "id": "A",
+        "text": "QRSP"
+      },
+      {
+        "id": "B",
+        "text": "RSQP"
+      },
+      {
+        "id": "C",
+        "text": "RQPS"
+      },
+      {
+        "id": "D",
+        "text": "RQSP"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही वाक्य: 'The scientist, who had spent nearly a decade working on the project, finally announced that the experiment had been successful, much to the delight of her colleagues.' 'who' वाला उपवाक्य कर्ता के तुरंत बाद आता है, फिर मुख्य क्रिया, और 'much to the delight' के बाद 'of' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs012",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: Not only did the company\nP: but it also faced\nQ: lose its biggest client,\nR: that threatened its very survival.\nS: a serious financial crisis",
+    "options": [
+      {
+        "id": "A",
+        "text": "PQSR"
+      },
+      {
+        "id": "B",
+        "text": "QPSR"
+      },
+      {
+        "id": "C",
+        "text": "QSPR"
+      },
+      {
+        "id": "D",
+        "text": "QPRS"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही वाक्य: 'Not only did the company lose its biggest client, but it also faced a serious financial crisis that threatened its very survival.' 'Not only did + subject' के बाद क्रिया की पहली form (lose) आती है, फिर 'but ... also', उसके बाद object और relative clause।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs013",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: Scarcely had the chief guest\nP: forcing the organisers to move the function indoors.\nQ: when dark clouds gathered overhead\nR: and it began to rain heavily,\nS: arrived at the venue",
+    "options": [
+      {
+        "id": "A",
+        "text": "SQRP"
+      },
+      {
+        "id": "B",
+        "text": "QSRP"
+      },
+      {
+        "id": "C",
+        "text": "SRQP"
+      },
+      {
+        "id": "D",
+        "text": "SQPR"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही वाक्य: 'Scarcely had the chief guest arrived at the venue when dark clouds gathered overhead and it began to rain heavily, forcing the organisers to move the function indoors.' संरचना: Scarcely had + V3 ... when ...; अंत में participle phrase 'forcing...'।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs014",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: Having been neglected for decades,\nP: that the archaeologists feared\nQ: the old fort\nR: was in such a poor condition\nS: it might collapse at any moment.",
+    "options": [
+      {
+        "id": "A",
+        "text": "RQPS"
+      },
+      {
+        "id": "B",
+        "text": "QPRS"
+      },
+      {
+        "id": "C",
+        "text": "QRPS"
+      },
+      {
+        "id": "D",
+        "text": "QRSP"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही वाक्य: 'Having been neglected for decades, the old fort was in such a poor condition that the archaeologists feared it might collapse at any moment.' Participle phrase के बाद उसका कर्ता 'the old fort' आता है; 'such ... that' संरचना से परिणाम जुड़ता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs015",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: It is high time\nP: as an inexhaustible resource\nQ: and began to protect it.\nR: we stopped\nS: treating the environment",
+    "options": [
+      {
+        "id": "A",
+        "text": "SRPQ"
+      },
+      {
+        "id": "B",
+        "text": "RPSQ"
+      },
+      {
+        "id": "C",
+        "text": "RSPQ"
+      },
+      {
+        "id": "D",
+        "text": "RSQP"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही वाक्य: 'It is high time we stopped treating the environment as an inexhaustible resource and began to protect it.' 'It is high time' के बाद subject + verb की past form आती है (we stopped)।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs016",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: Unless the farmers receive\nP: to repay their loans.\nQ: they will not be able\nR: from the government,\nS: timely help",
+    "options": [
+      {
+        "id": "A",
+        "text": "SRQP"
+      },
+      {
+        "id": "B",
+        "text": "RSQP"
+      },
+      {
+        "id": "C",
+        "text": "SQRP"
+      },
+      {
+        "id": "D",
+        "text": "SRPQ"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही वाक्य: 'Unless the farmers receive timely help from the government, they will not be able to repay their loans.' 'Unless' वाला उपवाक्य पहले पूरा होता है, फिर मुख्य उपवाक्य आता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs017",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: The film, which was released last Friday,\nP: more than the total amount\nQ: has already earned\nR: that the producers had spent\nS: on making it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PQRS"
+      },
+      {
+        "id": "B",
+        "text": "QRPS"
+      },
+      {
+        "id": "C",
+        "text": "QPRS"
+      },
+      {
+        "id": "D",
+        "text": "QPSR"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही वाक्य: 'The film, which was released last Friday, has already earned more than the total amount that the producers had spent on making it.' 'which' उपवाक्य के बाद मुख्य क्रिया आती है, फिर object, फिर relative clause और अंत में 'on making it'।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs018",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: The more one reads,\nP: the more one realises\nQ: and how little\nR: how vast the world of knowledge is\nS: one has actually learnt.",
+    "options": [
+      {
+        "id": "A",
+        "text": "RPQS"
+      },
+      {
+        "id": "B",
+        "text": "PRQS"
+      },
+      {
+        "id": "C",
+        "text": "PQRS"
+      },
+      {
+        "id": "D",
+        "text": "PRSQ"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही वाक्य: 'The more one reads, the more one realises how vast the world of knowledge is and how little one has actually learnt.' संरचना 'The more ..., the more ...'; 'and how little' से पहले 'how vast ... is' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs019",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: Had the government acted promptly,\nP: to crops and property.\nQ: such widespread damage\nR: the floods\nS: might not have caused",
+    "options": [
+      {
+        "id": "A",
+        "text": "SRQP"
+      },
+      {
+        "id": "B",
+        "text": "RQSP"
+      },
+      {
+        "id": "C",
+        "text": "RSPQ"
+      },
+      {
+        "id": "D",
+        "text": "RSQP"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही वाक्य: 'Had the government acted promptly, the floods might not have caused such widespread damage to crops and property.' 'Had + subject + V3' (third conditional) के बाद main clause में 'might not have caused' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs020",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: Neither the manager\nP: that the files\nQ: nor his assistants\nR: had been deleted by mistake.\nS: were aware",
+    "options": [
+      {
+        "id": "A",
+        "text": "QSPR"
+      },
+      {
+        "id": "B",
+        "text": "SQPR"
+      },
+      {
+        "id": "C",
+        "text": "QPSR"
+      },
+      {
+        "id": "D",
+        "text": "QSRP"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही वाक्य: 'Neither the manager nor his assistants were aware that the files had been deleted by mistake.' 'Neither ... nor' में क्रिया पास वाले कर्ता (assistants, बहुवचन) के अनुसार होती है, इसलिए 'were aware'।",
+    "language": "en"
+  }
+]

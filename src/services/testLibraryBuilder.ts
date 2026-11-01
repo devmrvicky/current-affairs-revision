@@ -373,6 +373,16 @@ export function buildLibrary(examId: string, subjectId: string, tests: PracticeT
   return { examId, subjectId, chapters: list, tests, topicTitles };
 }
 
+/**
+ * A view of the library limited to the groups `keep` accepts. Pure: the underlying library, its tests and
+ * their definitions are untouched — hiding a group only decides what a particular listing shows.
+ */
+export function restrictLibrary(lib: TestLibrary, keep: (groupKey: string) => boolean): TestLibrary {
+  const chapters = lib.chapters.filter((c) => keep(c.key));
+  const ids = new Set(chapters.flatMap((c) => [...c.chapterTests, ...c.topics.flatMap((g) => g.tests)].map((t) => t.id)));
+  return { ...lib, chapters, tests: lib.tests.filter((t) => ids.has(t.id)) };
+}
+
 /** Topic sub-groups are only worth a level of nesting when they tell something apart. */
 export function shouldShowTopicGroups(ch: LibraryChapter): boolean {
   return ch.topics.length >= 2 || (ch.topics.length === 1 && ch.chapterTests.length > 0);

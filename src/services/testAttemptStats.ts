@@ -191,7 +191,8 @@ export function rebuildSessionFromRows(rows: UniversalAttemptRecord[]): Practice
   const states: SessionQuestionState[] = ordered.map((r) => ({
     questionId: r.universalQuestionId as string,
     selectedAnswer: r.selectedAnswer ?? null,
-    isMarkedForReview: r.markedForReview ?? false,
+    isMarkedForReview: (r.markPurpose ?? (r.markedForReview ? 'review' : undefined)) === 'review',
+    markPurpose: r.markPurpose ?? (r.markedForReview ? 'review' : undefined),
     answeredAt: r.wasAnswered ? r.attemptedAt : undefined,
     timeTaken: r.timeTaken || 0,
   }));
@@ -217,6 +218,7 @@ export function rebuildSessionFromRows(rows: UniversalAttemptRecord[]): Practice
     completedAt: summary.completedAt,
     isCompleted: true,
     totalPausedTime: first.sessionPausedMs ?? 0,
-    visitedIndices: [],
+    // Older rows didn't record visits; an empty list means "unknown", and the analysis says so.
+    visitedIndices: ordered.every((r) => r.visited === undefined) ? [] : ordered.map((r, i) => (r.visited ? i : -1)).filter((i) => i >= 0),
   };
 }

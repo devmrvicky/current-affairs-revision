@@ -2,6 +2,8 @@ import { memo } from 'react';
 import { motion } from 'framer-motion';
 import type { QuestionAttempt } from '../../types';
 import { CheckCircle2, XCircle, Circle, Flag } from 'lucide-react';
+import { MarkBadge } from '../exam/MarkBadge';
+import { effectivePurpose, getMarkPurposeInfo } from '../../types/questionMark';
 
 interface QuestionPaletteProps {
   attempts: QuestionAttempt[];
@@ -17,7 +19,8 @@ export const QuestionPalette = memo(function QuestionPalette({ attempts, current
   const wrong = attempts.filter((a) => a.status === 'wrong').length;
   const answered = attempts.filter((a) => a.status !== 'unanswered').length;
   const unanswered = attempts.filter((a) => a.status === 'unanswered').length;
-  const marked = attempts.filter((a) => a.markedForReview).length;
+  const purposeOf = (a: QuestionAttempt) => effectivePurpose({ isMarkedForReview: a.markedForReview, markPurpose: a.markPurpose });
+  const marked = attempts.filter((a) => purposeOf(a)).length;
   const visited = new Set(visitedIndices ?? []);
 
   return (
@@ -60,7 +63,7 @@ export const QuestionPalette = memo(function QuestionPalette({ attempts, current
           {marked > 0 && (
             <div className="flex items-center gap-1.5">
               <Flag size={11} className="text-amber-500" fill="currentColor" />
-              <span style={{ color: 'var(--text-secondary)' }}>Marked ({marked})</span>
+              <span style={{ color: 'var(--text-secondary)' }}>Marked ({marked}) — badge shows why</span>
             </div>
           )}
         </div>
@@ -95,8 +98,9 @@ export const QuestionPalette = memo(function QuestionPalette({ attempts, current
             borderColor = 'var(--text-muted)';
           }
 
-          if (attempt.markedForReview) {
-            borderColor = '#f59e0b';
+          const purpose = purposeOf(attempt);
+          if (purpose) {
+            borderColor = getMarkPurposeInfo(purpose)?.color ?? '#f59e0b';
             extraClass = `${extraClass.includes('border') ? extraClass : 'border-2'}`.replace('border-dashed', 'border-solid');
           }
 
@@ -108,15 +112,13 @@ export const QuestionPalette = memo(function QuestionPalette({ attempts, current
               onClick={() => onJump(idx)}
               className={`quiz-palette-btn relative ${extraClass} ${isCurrent ? 'ring-2 ring-amber-400 ring-offset-1' : ''}`}
               style={{ background: bg, color: textColor, borderColor }}
-              title={`Q${idx + 1}: ${attempt.markedForReview ? 'marked for review, ' : ''}${hideCorrectness ? (isAnswered ? 'answered' : isVisited ? 'visited' : 'not visited') : isAnswered ? attempt.status : isVisited ? 'visited' : 'not visited'}`}
+              title={`Q${idx + 1}: ${purpose ? `marked — ${getMarkPurposeInfo(purpose)?.label}, ` : ''}${hideCorrectness ? (isAnswered ? 'answered' : isVisited ? 'visited' : 'not visited') : isAnswered ? attempt.status : isVisited ? 'visited' : 'not visited'}`}
             >
               {idx + 1}
               {attempt.bookmarked && (
                 <div className="absolute -top-0.5 -right-0.5 w-1.5 h-1.5 bg-purple-500 rounded-full" />
               )}
-              {attempt.markedForReview && (
-                <Flag size={9} className="absolute -top-1 -left-1 text-amber-500" fill="currentColor" />
-              )}
+              <MarkBadge purpose={purpose} />
             </motion.button>
           );
         })}

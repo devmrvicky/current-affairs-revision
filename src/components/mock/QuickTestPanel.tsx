@@ -27,7 +27,7 @@ const CUSTOM_FULL_DURATIONS = [30, 45, 60, 90, 120];
 export function QuickTestPanel() {
   const navigate = useNavigate();
   const { selectedExamId } = useExamStore();
-  const { session, startSession, clearSession } = usePracticeSessionStore();
+  const { startSession } = usePracticeSessionStore();
 
   const exam = getExam(selectedExamId);
   const subjects = useMemo(() => getSubjectsForExam(selectedExamId), [selectedExamId]);
@@ -114,11 +114,6 @@ export function QuickTestPanel() {
       toast.error('No questions available for this selection yet');
       return;
     }
-    if (session && !session.isCompleted) {
-      if (!window.confirm('You have an in-progress session. Starting a new test will discard it. Continue?')) return;
-      clearSession();
-    }
-
     setIsStarting(true);
     try {
       const count = Math.min(questionCount, pool.length);

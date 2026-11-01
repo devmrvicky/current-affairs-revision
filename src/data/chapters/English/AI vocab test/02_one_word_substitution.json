@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_ows_031",
+    "subjectId": "english",
+    "question": "Choose the one word for: A doctor who specialises in the diseases of women.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cardiologist"
+      },
+      {
+        "id": "B",
+        "text": "Gynaecologist"
+      },
+      {
+        "id": "C",
+        "text": "Paediatrician"
+      },
+      {
+        "id": "D",
+        "text": "Neurologist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Gynaecologist = स्त्री-रोग विशेषज्ञ। Example: She consulted a gynaecologist during her pregnancy.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_032",
+    "subjectId": "english",
+    "question": "Choose the one word for: One who travels on foot.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Passenger"
+      },
+      {
+        "id": "B",
+        "text": "Motorist"
+      },
+      {
+        "id": "C",
+        "text": "Cyclist"
+      },
+      {
+        "id": "D",
+        "text": "Pedestrian"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Pedestrian = पैदल चलने वाला व्यक्ति। Example: A pedestrian should always use the zebra crossing.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_033",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who does something for pleasure and not as a profession.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amateur"
+      },
+      {
+        "id": "B",
+        "text": "Instructor"
+      },
+      {
+        "id": "C",
+        "text": "Professional"
+      },
+      {
+        "id": "D",
+        "text": "Specialist"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Amateur = शौकिया (अव्यावसायिक) व्यक्ति। Example: He is an amateur photographer who clicks pictures only for fun.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_034",
+    "subjectId": "english",
+    "question": "Choose the one word for: Passing off another person's writing as one's own.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abridgement"
+      },
+      {
+        "id": "B",
+        "text": "Anthology"
+      },
+      {
+        "id": "C",
+        "text": "Plagiarism"
+      },
+      {
+        "id": "D",
+        "text": "Parody"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Plagiarism = साहित्यिक चोरी। Example: The student was punished for plagiarism in his thesis.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_035",
+    "subjectId": "english",
+    "question": "Choose the one word for: A sentimental longing for the past.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amnesia"
+      },
+      {
+        "id": "B",
+        "text": "Hysteria"
+      },
+      {
+        "id": "C",
+        "text": "Nostalgia"
+      },
+      {
+        "id": "D",
+        "text": "Phobia"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Nostalgia = बीते दिनों की याद / पुरानी यादों की तड़प। Example: Old songs fill him with nostalgia for his school days.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_036",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who flatters rich and powerful people to gain favour.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sycophant"
+      },
+      {
+        "id": "B",
+        "text": "Hermit"
+      },
+      {
+        "id": "C",
+        "text": "Pedant"
+      },
+      {
+        "id": "D",
+        "text": "Despot"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Sycophant = चापलूस। Example: The minister was surrounded by sycophants who praised him all day.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_037",
+    "subjectId": "english",
+    "question": "Choose the one word for: A notice in a newspaper announcing a person's death.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Memoir"
+      },
+      {
+        "id": "B",
+        "text": "Obituary"
+      },
+      {
+        "id": "C",
+        "text": "Editorial"
+      },
+      {
+        "id": "D",
+        "text": "Advertisement"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Obituary = निधन-सूचना / शोक-समाचार। Example: His obituary appeared in the morning newspaper.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_038",
+    "subjectId": "english",
+    "question": "Choose the one word for: Happening or published after a person's death.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Premature"
+      },
+      {
+        "id": "B",
+        "text": "Hereditary"
+      },
+      {
+        "id": "C",
+        "text": "Ancestral"
+      },
+      {
+        "id": "D",
+        "text": "Posthumous"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Posthumous = मरणोपरांत। Example: The soldier received a posthumous gallantry award.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_039",
+    "subjectId": "english",
+    "question": "Choose the one word for: Favouritism shown to one's relatives, especially in giving jobs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nationalism"
+      },
+      {
+        "id": "B",
+        "text": "Heroism"
+      },
+      {
+        "id": "C",
+        "text": "Patriotism"
+      },
+      {
+        "id": "D",
+        "text": "Nepotism"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Nepotism = भाई-भतीजावाद। Example: Nepotism in hiring discouraged many talented candidates.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_040",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who can use both hands equally well.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amphibious"
+      },
+      {
+        "id": "B",
+        "text": "Ambivalent"
+      },
+      {
+        "id": "C",
+        "text": "Ambidextrous"
+      },
+      {
+        "id": "D",
+        "text": "Ambitious"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Ambidextrous = दोनों हाथों से समान रूप से काम करने वाला। Example: The ambidextrous bowler can bowl with either hand.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_041",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who feels at home in all parts of the world.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nomad"
+      },
+      {
+        "id": "B",
+        "text": "Cosmopolitan"
+      },
+      {
+        "id": "C",
+        "text": "Recluse"
+      },
+      {
+        "id": "D",
+        "text": "Parochial"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Cosmopolitan = विश्व-नागरिक (हर जगह घर जैसा महसूस करने वाला)। Example: As a cosmopolitan, he adjusted easily in any country.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_042",
+    "subjectId": "english",
+    "question": "Choose the one word for: The killing of one's brother.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fratricide"
+      },
+      {
+        "id": "B",
+        "text": "Genocide"
+      },
+      {
+        "id": "C",
+        "text": "Homicide"
+      },
+      {
+        "id": "D",
+        "text": "Suicide"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Fratricide = भाई की हत्या। Example: The king was accused of fratricide after his brother's mysterious death.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_043",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who is unable to pay his debts.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prodigal"
+      },
+      {
+        "id": "B",
+        "text": "Affluent"
+      },
+      {
+        "id": "C",
+        "text": "Solvent"
+      },
+      {
+        "id": "D",
+        "text": "Insolvent"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Insolvent = दिवालिया (कर्ज़ चुकाने में असमर्थ)। Example: The company was declared insolvent by the court.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_044",
+    "subjectId": "english",
+    "question": "Choose the one word for: The state of having two wives or husbands at the same time.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Matrimony"
+      },
+      {
+        "id": "B",
+        "text": "Bigamy"
+      },
+      {
+        "id": "C",
+        "text": "Monogamy"
+      },
+      {
+        "id": "D",
+        "text": "Celibacy"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Bigamy = द्विविवाह (एक साथ दो जीवनसाथी रखना)। Example: Bigamy is a punishable offence under Indian law.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_045",
+    "subjectId": "english",
+    "question": "Choose the one word for: A place for the treatment and recovery of people with long-term illnesses.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sanatorium"
+      },
+      {
+        "id": "B",
+        "text": "Seminary"
+      },
+      {
+        "id": "C",
+        "text": "Sanctuary"
+      },
+      {
+        "id": "D",
+        "text": "Observatory"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Sanatorium = स्वास्थ्य-लाभ केंद्र / दीर्घ रोगों का अस्पताल। Example: He spent six months in a sanatorium in the hills.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_046",
+    "subjectId": "english",
+    "question": "Choose the one word for: A place where weapons and ammunition are stored.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Orchard"
+      },
+      {
+        "id": "B",
+        "text": "Foundry"
+      },
+      {
+        "id": "C",
+        "text": "Arsenal"
+      },
+      {
+        "id": "D",
+        "text": "Barracks"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Arsenal = शस्त्रागार। Example: The army seized a huge arsenal from the hideout.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_047",
+    "subjectId": "english",
+    "question": "Choose the one word for: A place where grain is stored.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hangar"
+      },
+      {
+        "id": "B",
+        "text": "Granary"
+      },
+      {
+        "id": "C",
+        "text": "Stable"
+      },
+      {
+        "id": "D",
+        "text": "Dairy"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Granary = अन्न-भंडार / गोदाम। Example: Punjab is called the granary of India.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_048",
+    "subjectId": "english",
+    "question": "Choose the one word for: No longer in use; out of date.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obsolete"
+      },
+      {
+        "id": "B",
+        "text": "Absolute"
+      },
+      {
+        "id": "C",
+        "text": "Obscure"
+      },
+      {
+        "id": "D",
+        "text": "Obese"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Obsolete = अप्रचलित / पुराना पड़ चुका। Example: Floppy disks have become obsolete.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_049",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person whose name is not known.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Notorious"
+      },
+      {
+        "id": "B",
+        "text": "Synonymous"
+      },
+      {
+        "id": "C",
+        "text": "Eponymous"
+      },
+      {
+        "id": "D",
+        "text": "Anonymous"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Anonymous = अनाम / गुमनाम। Example: He received an anonymous letter warning him of the danger.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_050",
+    "subjectId": "english",
+    "question": "Choose the one word for: Agreed upon by everyone present.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unique"
+      },
+      {
+        "id": "B",
+        "text": "Universal"
+      },
+      {
+        "id": "C",
+        "text": "Unanimous"
+      },
+      {
+        "id": "D",
+        "text": "Unilateral"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Unanimous = सर्वसम्मत। Example: The committee reached a unanimous decision.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_051",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who believes that people are motivated only by selfishness.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stoic"
+      },
+      {
+        "id": "B",
+        "text": "Pragmatist"
+      },
+      {
+        "id": "C",
+        "text": "Cynic"
+      },
+      {
+        "id": "D",
+        "text": "Zealot"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Cynic = संशयवादी (हर बात में स्वार्थ देखने वाला)। Example: Being a cynic, he doubted every act of kindness.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_052",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who imagines himself ill without any real cause.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maniac"
+      },
+      {
+        "id": "B",
+        "text": "Amnesiac"
+      },
+      {
+        "id": "C",
+        "text": "Cardiac"
+      },
+      {
+        "id": "D",
+        "text": "Hypochondriac"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Hypochondriac = वहमी रोगी (बीमारी का वहम करने वाला)। Example: A hypochondriac visits the doctor for every small ache.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_053",
+    "subjectId": "english",
+    "question": "Choose the one word for: A short inscription on a tomb in memory of the dead.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Epigram"
+      },
+      {
+        "id": "B",
+        "text": "Epitaph"
+      },
+      {
+        "id": "C",
+        "text": "Episode"
+      },
+      {
+        "id": "D",
+        "text": "Epithet"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Epitaph = समाधि-लेख। Example: The epitaph on his grave praised his honesty.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_054",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who compiles a dictionary.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lexicographer"
+      },
+      {
+        "id": "B",
+        "text": "Archivist"
+      },
+      {
+        "id": "C",
+        "text": "Curator"
+      },
+      {
+        "id": "D",
+        "text": "Biographer"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Lexicographer = शब्दकोश-निर्माता। Example: The lexicographer spent ten years compiling the dictionary.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_055",
+    "subjectId": "english",
+    "question": "Choose the one word for: A soldier who fights only for money in a foreign army.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sentinel"
+      },
+      {
+        "id": "B",
+        "text": "Commando"
+      },
+      {
+        "id": "C",
+        "text": "Veteran"
+      },
+      {
+        "id": "D",
+        "text": "Mercenary"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Mercenary = भाड़े का सैनिक। Example: The king hired mercenaries to fight the war.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_056",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who spends money recklessly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Spendthrift"
+      },
+      {
+        "id": "B",
+        "text": "Hoarder"
+      },
+      {
+        "id": "C",
+        "text": "Pauper"
+      },
+      {
+        "id": "D",
+        "text": "Creditor"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Spendthrift = फ़िज़ूलखर्च। Example: The spendthrift heir wasted his fortune within a year.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_057",
+    "subjectId": "english",
+    "question": "Choose the one word for: A false name adopted by a writer.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acronym"
+      },
+      {
+        "id": "B",
+        "text": "Synonym"
+      },
+      {
+        "id": "C",
+        "text": "Pseudonym"
+      },
+      {
+        "id": "D",
+        "text": "Homonym"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Pseudonym = उपनाम / छद्म नाम। Example: Many writers publish their books under a pseudonym.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_058",
+    "subjectId": "english",
+    "question": "Choose the one word for: A collection of wild animals kept for exhibition.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Garden"
+      },
+      {
+        "id": "B",
+        "text": "Menagerie"
+      },
+      {
+        "id": "C",
+        "text": "Nursery"
+      },
+      {
+        "id": "D",
+        "text": "Museum"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Menagerie = जंगली जानवरों का संग्रह। Example: The circus kept a menagerie of lions and elephants.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_059",
+    "subjectId": "english",
+    "question": "Choose the one word for: Government by the wealthy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Theocracy"
+      },
+      {
+        "id": "B",
+        "text": "Monarchy"
+      },
+      {
+        "id": "C",
+        "text": "Plutocracy"
+      },
+      {
+        "id": "D",
+        "text": "Bureaucracy"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Plutocracy = धनिकतंत्र (धनवानों का शासन)। Example: Critics call a country ruled by the super-rich a plutocracy.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_060",
+    "subjectId": "english",
+    "question": "Choose the one word for: A remedy for all diseases.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vaccine"
+      },
+      {
+        "id": "B",
+        "text": "Placebo"
+      },
+      {
+        "id": "C",
+        "text": "Antidote"
+      },
+      {
+        "id": "D",
+        "text": "Panacea"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Panacea = रामबाण / सर्वरोग निवारक। Example: Exercise is good, but it is not a panacea for every disease.",
+    "language": "en"
+  }
+]

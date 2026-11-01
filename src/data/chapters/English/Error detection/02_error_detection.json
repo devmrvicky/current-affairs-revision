@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "grammar051",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nOne of the most significant reforms [that has transformed] the education sector in recent years was introduced by the previous government.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "which has transformed"
+      },
+      {
+        "id": "C",
+        "text": "that is transforming"
+      },
+      {
+        "id": "D",
+        "text": "that have transformed"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "'One of the + plural noun + that/who' में relative pronoun का antecedent plural noun (reforms) होता है, इसलिए उसकी verb plural आती है: 'that have transformed'। Main verb 'was introduced' 'One' के साथ singular ही रहती है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar052",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nNot only the principal but also the teachers of the junior wing was invited (A) / to the ceremony that the district administration organised (B) / on the occasion of the annual day last week. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Not only the principal but also the teachers of the junior wing was invited"
+      },
+      {
+        "id": "B",
+        "text": "to the ceremony that the district administration organised"
+      },
+      {
+        "id": "C",
+        "text": "on the occasion of the annual day last week."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "'Not only...but also' में verb nearest subject के अनुसार लगती है। Nearest subject 'teachers' plural है, इसलिए 'was invited' → 'were invited'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar053",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nMore than one candidate (A) / who appeared for the interview (B) / has been shortlisted for the final round. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "More than one candidate"
+      },
+      {
+        "id": "B",
+        "text": "who appeared for the interview"
+      },
+      {
+        "id": "C",
+        "text": "has been shortlisted for the final round."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "'More than one + singular noun' के साथ singular verb आती है (अर्थ plural होने पर भी)। इसलिए 'has been shortlisted' सही है, sentence में कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar054",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe Prime Minister, accompanied by several senior ministers and a large delegation of businessmen, [is expected to] arrive in Tokyo tomorrow morning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are expected to"
+      },
+      {
+        "id": "B",
+        "text": "were expected to"
+      },
+      {
+        "id": "C",
+        "text": "have been expected to"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "medium",
+    "explanation": "'Accompanied by / along with / as well as' से subject plural नहीं बनता। Subject 'The Prime Minister' singular है, इसलिए 'is expected to' सही है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar055",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nTwo-thirds of the land in the coastal villages [have been] submerged by the recent floods, leaving thousands of farmers homeless.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "has been"
+      },
+      {
+        "id": "D",
+        "text": "are being"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "Fraction + of + singular/uncountable noun के साथ singular verb आती है (plural noun के साथ plural)। यहाँ 'land' singular है, इसलिए 'has been submerged'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar056",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe committee has submitted its report on time, (A) / but the government has not yet responded, and (B) / several of its members is not satisfied with the recommendations. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The committee has submitted its report on time,"
+      },
+      {
+        "id": "B",
+        "text": "but the government has not yet responded, and"
+      },
+      {
+        "id": "C",
+        "text": "several of its members is not satisfied with the recommendations."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "medium",
+    "explanation": "'Several' plural quantifier है, इसलिए 'several of its members' plural subject है। 'is not satisfied' → 'are not satisfied'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar057",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nIn a press conference held yesterday, (A) / the proprietor and manager of the company have decided (B) / to expand the business into the neighbouring states. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "In a press conference held yesterday,"
+      },
+      {
+        "id": "B",
+        "text": "the proprietor and manager of the company have decided"
+      },
+      {
+        "id": "C",
+        "text": "to expand the business into the neighbouring states."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "एक ही article 'the' के साथ दो nouns (proprietor and manager) एक ही व्यक्ति के लिए होते हैं, इसलिए verb singular आएगी: 'has decided'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar058",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe villagers have already moved to a safer place on higher ground (A) / by the time the rescue team (B) / arrived at the site. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The villagers have already moved to a safer place on higher ground"
+      },
+      {
+        "id": "B",
+        "text": "by the time the rescue team"
+      },
+      {
+        "id": "C",
+        "text": "arrived at the site."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "'By the time + Simple Past' के साथ main clause में Past Perfect आता है। 'have already moved' → 'had already moved'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar059",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nHe [has been working] as a surgeon for twenty years when he decided to leave the profession and start teaching.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "was working"
+      },
+      {
+        "id": "C",
+        "text": "has worked"
+      },
+      {
+        "id": "D",
+        "text": "had been working"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "Past में लिए गए निर्णय से पहले चल रही लंबी action के लिए Past Perfect Continuous (had been working) आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar060",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nCorruption has become a menace in every department, (A) / and it is high time that (B) / the government takes strict action against it. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Corruption has become a menace in every department,"
+      },
+      {
+        "id": "B",
+        "text": "and it is high time that"
+      },
+      {
+        "id": "C",
+        "text": "the government takes strict action against it."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "'It is (high) time' के बाद Simple Past आता है: 'the government took strict action'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar061",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe students [have been waiting] for the results since morning, but the university has not yet announced them.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were waiting"
+      },
+      {
+        "id": "B",
+        "text": "had waited"
+      },
+      {
+        "id": "C",
+        "text": "No improvement"
+      },
+      {
+        "id": "D",
+        "text": "are waiting"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "'Since + point of time' (since morning) के साथ Present Perfect Continuous आता है, इसलिए sentence पहले से सही है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar062",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHe told me yesterday that he is going to attend the conference (A) / in Mumbai the following week (B) / and would stay there for a few days. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "He told me yesterday that he is going to attend the conference"
+      },
+      {
+        "id": "B",
+        "text": "in Mumbai the following week"
+      },
+      {
+        "id": "C",
+        "text": "and would stay there for a few days."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "Reporting verb (told) past में है और 'the following week' reported speech का marker है, इसलिए 'is going' → 'was going'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar063",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe new software will be launched in the market by the end of this month, provided that all the tests [will be completed] successfully.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "would be completed"
+      },
+      {
+        "id": "C",
+        "text": "have been completing"
+      },
+      {
+        "id": "D",
+        "text": "are completed"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "Time/condition clause (if, provided that, when, unless) में future के लिए Simple Present आता है, 'will' नहीं: 'provided that all the tests are completed'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar064",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe residents of the colony (A) / have been complaining to the municipal corporation (B) / about the irregular supply of water since last month. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The residents of the colony"
+      },
+      {
+        "id": "B",
+        "text": "have been complaining to the municipal corporation"
+      },
+      {
+        "id": "C",
+        "text": "about the irregular supply of water since last month."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions",
+    "difficulty": "medium",
+    "explanation": "'Complain to (person) about (matter)' और 'since last month' के साथ Present Perfect Continuous दोनों सही हैं, इसलिए कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar065",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe committee has not yet decided whether to comply to the new guidelines (A) / issued by the regulatory authority (B) / for the telecom sector. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The committee has not yet decided whether to comply to the new guidelines"
+      },
+      {
+        "id": "B",
+        "text": "issued by the regulatory authority"
+      },
+      {
+        "id": "C",
+        "text": "for the telecom sector."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions",
+    "difficulty": "hard",
+    "explanation": "'Comply' के साथ preposition 'with' आता है: 'comply with the new guidelines'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar066",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe Prime Minister held a meeting with the senior officials to [discuss about] the measures to control inflation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "discuss on"
+      },
+      {
+        "id": "B",
+        "text": "discuss"
+      },
+      {
+        "id": "C",
+        "text": "No improvement"
+      },
+      {
+        "id": "D",
+        "text": "discuss over"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions",
+    "difficulty": "medium",
+    "explanation": "'Discuss' transitive verb है, इसके बाद preposition (about/on/over) नहीं लगता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar067",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nAfter a long investigation, (A) / the police have arrested the former director (B) / who was accused for misappropriating funds meant for the employees. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "After a long investigation,"
+      },
+      {
+        "id": "B",
+        "text": "the police have arrested the former director"
+      },
+      {
+        "id": "C",
+        "text": "who was accused for misappropriating funds meant for the employees."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions",
+    "difficulty": "hard",
+    "explanation": "'Accuse' के साथ preposition 'of' आता है: 'accused of misappropriating'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar068",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nMy sister is very fond [with] classical music, and she has been attending concerts since her school days.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "of"
+      },
+      {
+        "id": "D",
+        "text": "about"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions",
+    "difficulty": "easy",
+    "explanation": "'Fond' के बाद 'of' आता है: 'fond of classical music'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar069",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe delegation [reached to] the airport late in the evening after a long and tiring journey.",
+    "options": [
+      {
+        "id": "A",
+        "text": "reached"
+      },
+      {
+        "id": "B",
+        "text": "reached at"
+      },
+      {
+        "id": "C",
+        "text": "No improvement"
+      },
+      {
+        "id": "D",
+        "text": "reached in"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions",
+    "difficulty": "medium",
+    "explanation": "'Reach' transitive verb है, इसके बाद preposition नहीं आता (reach to/at/in गलत)। सही: 'reached the airport'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar070",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nDuring my stay in Switzerland, (A) / I visited many places, but this is the most beautiful one (B) / which I have ever seen in my life. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "During my stay in Switzerland,"
+      },
+      {
+        "id": "B",
+        "text": "I visited many places, but this is the most beautiful one"
+      },
+      {
+        "id": "C",
+        "text": "which I have ever seen in my life."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "pronouns",
+    "difficulty": "medium",
+    "explanation": "Superlative degree के बाद relative pronoun 'that' आता है, 'which' नहीं: 'the most beautiful one that I have ever seen'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar071",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nI was surprised at [him being selected] for the post despite his poor performance in the written test and the interview.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "he being selected"
+      },
+      {
+        "id": "C",
+        "text": "that him being selected"
+      },
+      {
+        "id": "D",
+        "text": "his being selected"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "pronouns",
+    "difficulty": "hard",
+    "explanation": "Gerund (being selected) से पहले possessive case आता है: 'surprised at his being selected'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar072",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe multinational company has announced [it's] annual bonus for all its employees on the eve of the festival.",
+    "options": [
+      {
+        "id": "A",
+        "text": "its'"
+      },
+      {
+        "id": "B",
+        "text": "its"
+      },
+      {
+        "id": "C",
+        "text": "No improvement"
+      },
+      {
+        "id": "D",
+        "text": "their"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "pronouns",
+    "difficulty": "easy",
+    "explanation": "'It's' = it is / it has होता है। Possession दिखाने के लिए 'its' (बिना apostrophe) आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar073",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nNo one in the entire team is as dedicated to the work [as him], and everyone in the department acknowledges this fact.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "as his"
+      },
+      {
+        "id": "C",
+        "text": "as he is"
+      },
+      {
+        "id": "D",
+        "text": "than he is"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "pronouns",
+    "difficulty": "hard",
+    "explanation": "'as / than' के बाद nominative case आता है क्योंकि अधूरा clause होता है ('as he is dedicated')। इसलिए 'as him' → 'as he is'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar074",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHe left for the railway station (A) / after having the breakfast with his family (B) / to catch the morning train to Lucknow. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "He left for the railway station"
+      },
+      {
+        "id": "B",
+        "text": "after having the breakfast with his family"
+      },
+      {
+        "id": "C",
+        "text": "to catch the morning train to Lucknow."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "articles",
+    "difficulty": "medium",
+    "explanation": "Meals (breakfast, lunch, dinner) के नाम से पहले general sense में article नहीं लगता: 'after having breakfast'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar075",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nShe is [a such talented] singer that every leading music director wants to work with her.",
+    "options": [
+      {
+        "id": "A",
+        "text": "such a talented"
+      },
+      {
+        "id": "B",
+        "text": "a so talented"
+      },
+      {
+        "id": "C",
+        "text": "so a talented"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "articles",
+    "difficulty": "medium",
+    "explanation": "'Such' का स्थान 'a/an' से पहले होता है: 'such + a + adjective + noun'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar076",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe Government has launched (A) / a scheme for the poor (B) / and the needy in the rural areas. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Government has launched"
+      },
+      {
+        "id": "B",
+        "text": "a scheme for the poor"
+      },
+      {
+        "id": "C",
+        "text": "and the needy in the rural areas."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "articles",
+    "difficulty": "hard",
+    "explanation": "'The + adjective' plural common noun बनाता है (the poor, the needy), और दोनों के साथ 'the' सही है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar077",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe committee asked the officials to provide farther details (A) / regarding the expenditure incurred (B) / on the project. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The committee asked the officials to provide farther details"
+      },
+      {
+        "id": "B",
+        "text": "regarding the expenditure incurred"
+      },
+      {
+        "id": "C",
+        "text": "on the project."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adjectives-degrees",
+    "difficulty": "medium",
+    "explanation": "'Farther' दूरी के लिए और 'further' अतिरिक्त (additional) के अर्थ में आता है: 'further details'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar078",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe climate of the hill stations in the northern region (A) / is much pleasanter during the summer months (B) / than the plains. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The climate of the hill stations in the northern region"
+      },
+      {
+        "id": "B",
+        "text": "is much pleasanter during the summer months"
+      },
+      {
+        "id": "C",
+        "text": "than the plains."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adjectives-degrees",
+    "difficulty": "hard",
+    "explanation": "तुलना एक जैसी चीज़ों की होनी चाहिए: climate की तुलना climate से। सही: 'than that of the plains'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar079",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe audit report clearly states that (A) / the reason why the project was delayed is because (B) / the funds were not released on time. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The audit report clearly states that"
+      },
+      {
+        "id": "B",
+        "text": "the reason why the project was delayed is because"
+      },
+      {
+        "id": "C",
+        "text": "the funds were not released on time."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "redundancy-tautology",
+    "difficulty": "medium",
+    "explanation": "'The reason ... is that' आता है। 'Reason' के साथ 'because' लगाना redundancy है: 'is that the funds were not released'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar080",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe more you practise, [the more confident] you will become in the examination hall.",
+    "options": [
+      {
+        "id": "A",
+        "text": "more confident"
+      },
+      {
+        "id": "B",
+        "text": "much confident"
+      },
+      {
+        "id": "C",
+        "text": "the most confident"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adjectives-degrees",
+    "difficulty": "medium",
+    "explanation": "'The + comparative ..., the + comparative' structure यहाँ सही है, इसलिए कोई improvement नहीं चाहिए।",
+    "language": "en"
+  },
+  {
+    "id": "grammar081",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe old man walked very slowly (A) / lest he should not (B) / fall down and injure himself. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The old man walked very slowly"
+      },
+      {
+        "id": "B",
+        "text": "lest he should not"
+      },
+      {
+        "id": "C",
+        "text": "fall down and injure himself."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'Lest' में negative अर्थ पहले से है, इसलिए 'not' नहीं लगता: 'lest he should fall'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar082",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe new policy will benefit neither the farmers or the traders, (A) / since it fails to address (B) / the core issues of the agricultural market. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The new policy will benefit neither the farmers or the traders,"
+      },
+      {
+        "id": "B",
+        "text": "since it fails to address"
+      },
+      {
+        "id": "C",
+        "text": "the core issues of the agricultural market."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "'Neither' के साथ 'nor' आता है, 'or' नहीं: 'neither the farmers nor the traders'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar083",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe newly appointed officer behaves [like] he were the owner of the entire department.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "as"
+      },
+      {
+        "id": "C",
+        "text": "as if"
+      },
+      {
+        "id": "D",
+        "text": "likely"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "Clause से पहले 'like' conjunction का काम नहीं करता। 'As if / as though' आता है (साथ में subjunctive 'were')।",
+    "language": "en"
+  },
+  {
+    "id": "grammar084",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThough we were his guests and had repeatedly objected, (A) / our host did not listen to us and (B) / insisted to pay the entire bill himself. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Though we were his guests and had repeatedly objected,"
+      },
+      {
+        "id": "B",
+        "text": "our host did not listen to us and"
+      },
+      {
+        "id": "C",
+        "text": "insisted to pay the entire bill himself."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "'Insist' के बाद 'on + gerund' आता है: 'insisted on paying'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar085",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe officer, when questioned about the missing files, [denied to have] any knowledge of them and refused to sign the statement.",
+    "options": [
+      {
+        "id": "A",
+        "text": "denied to having"
+      },
+      {
+        "id": "B",
+        "text": "denied having"
+      },
+      {
+        "id": "C",
+        "text": "No improvement"
+      },
+      {
+        "id": "D",
+        "text": "denied for having"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "'Deny' के बाद gerund (V+ing) आता है, infinitive नहीं: 'denied having'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar086",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nHe could not help [laughing] when he saw the comical attire worn by the chief guest.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to laugh"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "laugh"
+      },
+      {
+        "id": "D",
+        "text": "to have laughed"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "easy",
+    "explanation": "'Cannot help' के बाद V+ing आती है, इसलिए 'laughing' सही है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar087",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe ancient temple located on the hilltop is certainly [worth to visit] if you ever come to this region.",
+    "options": [
+      {
+        "id": "A",
+        "text": "worth visiting"
+      },
+      {
+        "id": "B",
+        "text": "worthy to visit"
+      },
+      {
+        "id": "C",
+        "text": "No improvement"
+      },
+      {
+        "id": "D",
+        "text": "worth of visit"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "'Worth' के बाद V+ing आती है: 'worth visiting'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar088",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nIf the students would have followed the instructions (A) / given by the teacher, they (B) / would have performed much better in the test. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "If the students would have followed the instructions"
+      },
+      {
+        "id": "B",
+        "text": "given by the teacher, they"
+      },
+      {
+        "id": "C",
+        "text": "would have performed much better in the test."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conditionals",
+    "difficulty": "medium",
+    "explanation": "Third conditional: If + had + V3, would have + V3। 'If' वाले clause में 'would have' नहीं लगता: 'If the students had followed'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar089",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe doctor suggested that the patient (A) / takes complete rest (B) / for at least two weeks. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The doctor suggested that the patient"
+      },
+      {
+        "id": "B",
+        "text": "takes complete rest"
+      },
+      {
+        "id": "C",
+        "text": "for at least two weeks."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "subjunctive-mood",
+    "difficulty": "hard",
+    "explanation": "Suggest, insist, demand, recommend जैसे verbs के बाद 'that' clause में subjunctive (V1) आता है: 'that the patient take complete rest'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar090",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHad it not been for (A) / your timely help, I would have (B) / lost all my money in that deal. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Had it not been for"
+      },
+      {
+        "id": "B",
+        "text": "your timely help, I would have"
+      },
+      {
+        "id": "C",
+        "text": "lost all my money in that deal."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conditionals",
+    "difficulty": "hard",
+    "explanation": "Inverted third conditional 'Had it not been for ..., I would have + V3' बिल्कुल सही है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar091",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nAfter a long deliberation, the council has appointed three (A) / commander-in-chiefs from the different regions (B) / to supervise the military operations along the border. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "After a long deliberation, the council has appointed three"
+      },
+      {
+        "id": "B",
+        "text": "commander-in-chiefs from the different regions"
+      },
+      {
+        "id": "C",
+        "text": "to supervise the military operations along the border."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "nouns",
+    "difficulty": "hard",
+    "explanation": "Compound noun में plural main word में लगता है: 'commanders-in-chief'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar092",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nMany a promising student in the rural areas [have failed] to clear the competitive examinations because of the lack of proper guidance.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "are failing"
+      },
+      {
+        "id": "C",
+        "text": "has failed"
+      },
+      {
+        "id": "D",
+        "text": "were failing"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "determiners-quantifiers",
+    "difficulty": "hard",
+    "explanation": "'Many a + singular noun' के साथ singular verb आती है: 'Many a student has failed'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar093",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe shopkeeper showed me a red shirt, but I did not like it, so I asked him to show [other one].",
+    "options": [
+      {
+        "id": "A",
+        "text": "the another one"
+      },
+      {
+        "id": "B",
+        "text": "others one"
+      },
+      {
+        "id": "C",
+        "text": "No improvement"
+      },
+      {
+        "id": "D",
+        "text": "another one"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "determiners-quantifiers",
+    "difficulty": "medium",
+    "explanation": "'Another' = an + other; singular countable noun के साथ 'another one' आता है, 'other one' नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar094",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe old man was so weak that (A) / he could not hardly walk (B) / without the help of his grandson. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The old man was so weak that"
+      },
+      {
+        "id": "B",
+        "text": "he could not hardly walk"
+      },
+      {
+        "id": "C",
+        "text": "without the help of his grandson."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "'Hardly' खुद negative अर्थ रखता है, इसलिए 'not' के साथ double negative बनता है: 'he could hardly walk'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar095",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe boy is [enough old] to understand the consequences of his actions, so he should be held responsible.",
+    "options": [
+      {
+        "id": "A",
+        "text": "enough older"
+      },
+      {
+        "id": "B",
+        "text": "old enough"
+      },
+      {
+        "id": "C",
+        "text": "No improvement"
+      },
+      {
+        "id": "D",
+        "text": "much old"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "easy",
+    "explanation": "'Enough' adjective/adverb के बाद आता है: 'old enough'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar096",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe examination has been postponed by a week, (A) / so the candidates have enough time (B) / and need not to worry about it now. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The examination has been postponed by a week,"
+      },
+      {
+        "id": "B",
+        "text": "so the candidates have enough time"
+      },
+      {
+        "id": "C",
+        "text": "and need not to worry about it now."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "modals",
+    "difficulty": "hard",
+    "explanation": "'Need' जब modal की तरह प्रयोग हो तो उसके बाद bare infinitive आता है ('to' नहीं): 'need not worry'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar097",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe students who had been found guilty of indiscipline [were made clean] the entire school ground by the headmaster as a punishment.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were made to clean"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "were made cleaning"
+      },
+      {
+        "id": "D",
+        "text": "had made clean"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "'Make' के बाद active में bare infinitive आता है (made them clean), पर passive में 'to + V1' आता है: 'were made to clean'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar098",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe teacher asked the students that why they had not completed (A) / the homework given the previous day (B) / and warned them of strict action. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The teacher asked the students that why they had not completed"
+      },
+      {
+        "id": "B",
+        "text": "the homework given the previous day"
+      },
+      {
+        "id": "C",
+        "text": "and warned them of strict action."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "Wh-question की reported speech में 'that' नहीं लगता: 'asked the students why they had not completed'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar099",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nSeldom does the Chief Minister visit the remote villages of the district (A) / and listen to the problems (B) / faced by the local people. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Seldom does the Chief Minister visit the remote villages of the district"
+      },
+      {
+        "id": "B",
+        "text": "and listen to the problems"
+      },
+      {
+        "id": "C",
+        "text": "faced by the local people."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "word-order",
+    "difficulty": "hard",
+    "explanation": "Seldom / Rarely / Never से वाक्य शुरू होने पर inversion (auxiliary + subject) आता है, इसलिए 'Seldom does the Chief Minister visit' सही है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar100",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nWalking along the beach in the early morning, (A) / a beautiful shell was found (B) / by the little girl. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Walking along the beach in the early morning,"
+      },
+      {
+        "id": "B",
+        "text": "a beautiful shell was found"
+      },
+      {
+        "id": "C",
+        "text": "by the little girl."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "modifiers",
+    "difficulty": "hard",
+    "explanation": "Dangling modifier: 'Walking...' का doer 'the little girl' होना चाहिए, 'shell' नहीं। सही: 'the little girl found a beautiful shell'।",
+    "language": "en"
+  }
+]

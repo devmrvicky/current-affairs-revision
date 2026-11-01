@@ -8,6 +8,10 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { PracticeConfiguration, PracticeSession, SessionQuestionState } from '../types/practiceSession';
+import type { MarkPurpose } from '../types/questionMark';
+import { activatePractice, suspendPractice, touchPractice } from '../services/sessionLifecycle';
+import { sessionRegistry, parkInBackground } from '../services/sessionRegistry';
+import { captureOrigin, type ReturnOrigin } from '../services/returnRoute';
 
 function newSessionId(): string {
   return `session-${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
@@ -16,10 +20,24 @@ function newSessionId(): string {
 interface PracticeSessionStore {
   session: PracticeSession | null;
 
-  startSession: (config: PracticeConfiguration, questionIds: string[]) => void;
+  /** Starts a new session. An unfinished session already in the store is parked in the registry, never discarded. `origin` (default: the screen the learner is on right now) is where Close leads back to. */
+  startSession: (config: PracticeConfiguration, questionIds: string[], origin?: ReturnOrigin) => void;
+  /** Loads a previously saved session as the active one (the caller has already removed it from the registry). */
+  loadSession: (session: PracticeSession) => void;
+  /** Test mode lets the learner change an answer; Practice mode locks it once revealed. */
   selectAnswer: (optionId: string, timeTaken: number) => void;
+  /** Removes the answer on the current question (Test mode only — a revealed Practice answer stays). */
+  clearAnswer: () => void;
   toggleMarkForReview: () => void;
-  /** Adds dwell time to a not-yet-answered question when the user navigates away, so revisits accumulate. Frozen once answered. */
+  /** Sets (or, with null, removes) the mark and its purpose on the current question. */
+  setMarkPurpose: (purpose: MarkPurpose | null, index?: number) => void;
+  /** Leaving the test: stops its clock (see sessionLifecycle.ts). Safe to call repeatedly. */
+  suspend: (at?: number) => void;
+  /** Test is on screen again: folds time away into the clock and stamps activity. */
+  activate: () => void;
+  /** Heartbeat — keeps "last active" fresh while the test is open. */
+  touch: () => void;
+  /** Adds dwell time to the question the learner is leaving, so revisits accumulate. Practice freezes it once revealed; Test keeps counting. */
   addTimeSpent: (index: number, seconds: number) => void;
   goToQuestion: (index: number) => void;
   nextQuestion: () => void;
@@ -34,7 +52,13 @@ export const usePracticeSessionStore = create<PracticeSessionStore>()(
     (set, get) => ({
       session: null,
 
-      startSession: (config, questionIds) => {
+      startSession: (config, questionIds, origin = captureOrigin()) => {
+        // Never discard another unfinished test just because a new one is starting: park it.
+        const previous = get().session;
+        if (previous && !previous.isCompleted) {
+          parkInBackground(sessionRegistry.parkPractice(suspendPractice(previous)), 'the previous test');
+        }
+
         const states: SessionQuestionState[] = questionIds.map((questionId) => ({
           questionId,
           selectedAnswer: null,
@@ -42,6 +66,7 @@ export const usePracticeSessionStore = create<PracticeSessionStore>()(
           timeTaken: 0,
         }));
 
+        const now = Date.now();
         set({
           session: {
             id: newSessionId(),
@@ -49,21 +74,41 @@ export const usePracticeSessionStore = create<PracticeSessionStore>()(
             questionIds,
             states,
             currentIndex: 0,
-            startedAt: Date.now(),
+            startedAt: now,
+            lastActiveAt: now,
             isCompleted: false,
             totalPausedTime: 0,
             visitedIndices: [0],
+            returnRoute: origin.route,
+            returnHistoryIdx: origin.idx,
           },
         });
       },
 
+      loadSession: (session) => set({ session }),
+
       selectAnswer: (optionId, timeTaken) => {
         const session = get().session;
-        if (!session) return;
+        if (!session || session.isCompleted) return;
+        const current = session.states[session.currentIndex];
+        const isTest = session.config.mode === 'test';
+        // Practice reveals the answer the moment it is chosen, so it is final. A Test hides
+        // correctness until submission, so the learner may change their mind — the result is
+        // always computed from whatever is selected at submit time.
+        if (current.selectedAnswer !== null && !isTest) return;
+        if (isTest && current.selectedAnswer === optionId) return;
         const states = [...session.states];
-        const current = states[session.currentIndex];
-        if (current.selectedAnswer !== null) return; // already answered — immutable once set, same as legacy engine
         states[session.currentIndex] = { ...current, selectedAnswer: optionId, answeredAt: Date.now(), timeTaken };
+        set({ session: { ...session, states } });
+      },
+
+      clearAnswer: () => {
+        const session = get().session;
+        if (!session || session.isCompleted || session.config.mode !== 'test') return;
+        const current = session.states[session.currentIndex];
+        if (current.selectedAnswer === null) return;
+        const states = [...session.states];
+        states[session.currentIndex] = { ...current, selectedAnswer: null, answeredAt: undefined };
         set({ session: { ...session, states } });
       },
 
@@ -72,7 +117,20 @@ export const usePracticeSessionStore = create<PracticeSessionStore>()(
         if (!session) return;
         const states = [...session.states];
         const current = states[session.currentIndex];
-        states[session.currentIndex] = { ...current, isMarkedForReview: !current.isMarkedForReview };
+        const on = !(current.markPurpose ?? (current.isMarkedForReview ? 'review' : undefined));
+        states[session.currentIndex] = { ...current, isMarkedForReview: on, markPurpose: on ? 'review' : undefined };
+        set({ session: { ...session, states } });
+      },
+
+      setMarkPurpose: (purpose, index) => {
+        const session = get().session;
+        if (!session) return;
+        const at = index ?? session.currentIndex;
+        const current = session.states[at];
+        if (!current) return;
+        const states = [...session.states];
+        // One mark per question: setting a purpose replaces whatever was there, so repeated marking can't duplicate.
+        states[at] = { ...current, markPurpose: purpose ?? undefined, isMarkedForReview: purpose === 'review' };
         set({ session: { ...session, states } });
       },
 
@@ -80,7 +138,9 @@ export const usePracticeSessionStore = create<PracticeSessionStore>()(
         const session = get().session;
         if (!session || seconds <= 0) return;
         const current = session.states[index];
-        if (!current || current.selectedAnswer !== null) return;
+        // Practice: time stops once the answer is revealed. Test: the learner can still be working on
+        // the question (changing the answer), so time keeps accumulating.
+        if (!current || (current.selectedAnswer !== null && session.config.mode !== 'test')) return;
         const states = [...session.states];
         states[index] = { ...current, timeTaken: current.timeTaken + seconds };
         set({ session: { ...session, states } });
@@ -115,8 +175,27 @@ export const usePracticeSessionStore = create<PracticeSessionStore>()(
 
       completeSession: () => {
         const session = get().session;
+        if (!session || session.isCompleted) return; // idempotent — a second submit (timer expiry racing a click) changes nothing
+        set({ session: { ...session, isCompleted: true, completedAt: Date.now(), pausedAt: undefined, suspendedAt: undefined } });
+      },
+
+      suspend: (at) => {
+        const session = get().session;
         if (!session) return;
-        set({ session: { ...session, isCompleted: true, completedAt: Date.now(), pausedAt: undefined } });
+        const next = suspendPractice(session, at);
+        if (next !== session) set({ session: next });
+      },
+
+      activate: () => {
+        const session = get().session;
+        if (!session || session.isCompleted) return;
+        set({ session: activatePractice(session) });
+      },
+
+      touch: () => {
+        const session = get().session;
+        if (!session || session.isCompleted) return;
+        set({ session: touchPractice(session) });
       },
 
       clearSession: () => set({ session: null }),

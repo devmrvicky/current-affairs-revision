@@ -5,7 +5,27 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import { X, ZoomIn } from 'lucide-react';
 import { resolveMockAsset, isMockAssetRef } from '../../services/mockAssetRepository';
+import { classifyContent, prepareMarkdown } from '../../services/questionContent';
 import 'katex/dist/katex.min.css';
+
+// Authors put one line break between lines of a question ("Arrange the following…\n1. Lustrum\n2. Century")
+// and mean it. Standard Markdown folds a single newline into a space, so every text node's newlines
+// become real <br>s. Only text nodes are touched — code spans and fenced code keep their own newlines.
+interface MdNode { type: string; value?: string; children?: MdNode[] }
+function remarkKeepLineBreaks() {
+  const walk = (node: MdNode) => {
+    if (!node.children) return;
+    node.children = node.children.flatMap((child): MdNode[] => {
+      if (child.type === 'text' && child.value?.includes('\n')) {
+        return child.value.split('\n').flatMap((part, i): MdNode[] => (i === 0 ? [{ type: 'text', value: part }] : [{ type: 'break' }, { type: 'text', value: part }]));
+      }
+      walk(child);
+      return [child];
+    });
+  };
+  return (tree: MdNode) => walk(tree);
+}
+const REMARK_PLUGINS = [remarkGfm, remarkMath, remarkKeepLineBreaks];
 
 interface QuestionOptionContentProps {
   text: string;
@@ -21,11 +41,14 @@ export function QuestionOptionContent({ text, image, baseDir }: QuestionOptionCo
       {resolvedImage && (
         <img src={resolvedImage} alt={text || 'Option'} className="max-w-[160px] max-h-24 rounded-lg border object-contain inline-block mb-1" style={{ borderColor: 'var(--border)' }} />
       )}
-      {text && (
+      {text && (classifyContent(text) === 'plain' ? (
+        // Plain text is shown exactly as written — no Markdown/math parsing that could reinterpret "$", "*" or "#".
+        <span className="question-plain">{text}</span>
+      ) : (
         <span className="question-markdown-inline">
-          <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeKatex]} components={{ p: ({ children }) => <>{children}</> }}>{text}</ReactMarkdown>
+          <ReactMarkdown remarkPlugins={REMARK_PLUGINS} rehypePlugins={[rehypeKatex]} components={{ p: ({ children }) => <>{children}</> }}>{prepareMarkdown(text)}</ReactMarkdown>
         </span>
-      )}
+      ))}
     </span>
   );
 }
@@ -38,7 +61,8 @@ interface QuestionMarkdownRendererProps {
 }
 
 /**
- * The one Markdown renderer for question/option/explanation content —
+ * The one renderer for question/option/explanation content (plain text stays plain; Markdown + math
+ * goes through react-markdown, see services/questionContent.ts for how the two are told apart) —
  * MockTestShellPage and the solutions review both go through this rather
  * than each rolling their own react-markdown setup. Built on the same
  * react-markdown + remark-gfm stack as the existing reader MarkdownRenderer
@@ -48,10 +72,14 @@ interface QuestionMarkdownRendererProps {
 export function QuestionMarkdownRenderer({ content, baseDir, className }: QuestionMarkdownRendererProps) {
   const [fullscreenSrc, setFullscreenSrc] = useState<{ src: string; alt: string } | null>(null);
 
+  if (classifyContent(content) === 'plain') {
+    return <div className={`question-plain ${className ?? ''}`}>{content}</div>;
+  }
+
   return (
     <div className={`question-markdown ${className ?? ''}`}>
       <ReactMarkdown
-        remarkPlugins={[remarkGfm, remarkMath]}
+        remarkPlugins={REMARK_PLUGINS}
         rehypePlugins={[rehypeKatex]}
         components={{
           img: ({ src, alt }) => {
@@ -93,7 +121,7 @@ export function QuestionMarkdownRenderer({ content, baseDir, className }: Questi
           ),
         }}
       >
-        {content}
+        {prepareMarkdown(content)}
       </ReactMarkdown>
 
       {fullscreenSrc && (

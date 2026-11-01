@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_spl_001",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accommodation"
+      },
+      {
+        "id": "B",
+        "text": "Acommodation"
+      },
+      {
+        "id": "C",
+        "text": "Accomodation"
+      },
+      {
+        "id": "D",
+        "text": "Accommodatoin"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Accommodation (दो c, दो m)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_002",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Occurence"
+      },
+      {
+        "id": "B",
+        "text": "Ocurrence"
+      },
+      {
+        "id": "C",
+        "text": "Occurrence"
+      },
+      {
+        "id": "D",
+        "text": "Occurrance"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Occurrence (दो c, दो r)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_003",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neccessary"
+      },
+      {
+        "id": "B",
+        "text": "Necesary"
+      },
+      {
+        "id": "C",
+        "text": "Necessery"
+      },
+      {
+        "id": "D",
+        "text": "Necessary"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Necessary (one c, two s)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_004",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Seperate"
+      },
+      {
+        "id": "B",
+        "text": "Separate"
+      },
+      {
+        "id": "C",
+        "text": "Separaet"
+      },
+      {
+        "id": "D",
+        "text": "Separete"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Separate ('a' बीच में)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_005",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Defenitely"
+      },
+      {
+        "id": "B",
+        "text": "Definately"
+      },
+      {
+        "id": "C",
+        "text": "Definitly"
+      },
+      {
+        "id": "D",
+        "text": "Definitely"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Definitely",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_006",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Embaress"
+      },
+      {
+        "id": "B",
+        "text": "Embarrass"
+      },
+      {
+        "id": "C",
+        "text": "Embarras"
+      },
+      {
+        "id": "D",
+        "text": "Embarass"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Embarrass (दो r, दो s)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_007",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Priviledge"
+      },
+      {
+        "id": "B",
+        "text": "Privilige"
+      },
+      {
+        "id": "C",
+        "text": "Privilege"
+      },
+      {
+        "id": "D",
+        "text": "Privelege"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Privilege",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_008",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rhythm"
+      },
+      {
+        "id": "B",
+        "text": "Rhythim"
+      },
+      {
+        "id": "C",
+        "text": "Rhythem"
+      },
+      {
+        "id": "D",
+        "text": "Rythm"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Rhythm",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_009",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conscence"
+      },
+      {
+        "id": "B",
+        "text": "Conscience"
+      },
+      {
+        "id": "C",
+        "text": "Consciense"
+      },
+      {
+        "id": "D",
+        "text": "Concience"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Conscience (sc)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_010",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Maintenance"
+      },
+      {
+        "id": "B",
+        "text": "Maintainance"
+      },
+      {
+        "id": "C",
+        "text": "Maintenence"
+      },
+      {
+        "id": "D",
+        "text": "Maintanance"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Maintenance",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_011",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Govermant"
+      },
+      {
+        "id": "B",
+        "text": "Governement"
+      },
+      {
+        "id": "C",
+        "text": "Government"
+      },
+      {
+        "id": "D",
+        "text": "Goverment"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Government (n के बाद)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_012",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Foriegn"
+      },
+      {
+        "id": "B",
+        "text": "Foregin"
+      },
+      {
+        "id": "C",
+        "text": "Forein"
+      },
+      {
+        "id": "D",
+        "text": "Foreign"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Foreign (eign)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_013",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Receve"
+      },
+      {
+        "id": "B",
+        "text": "Recieve"
+      },
+      {
+        "id": "C",
+        "text": "Receeve"
+      },
+      {
+        "id": "D",
+        "text": "Receive"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Receive ('i' before 'e' after 'c')",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_014",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Belive"
+      },
+      {
+        "id": "B",
+        "text": "Beleive"
+      },
+      {
+        "id": "C",
+        "text": "Believe"
+      },
+      {
+        "id": "D",
+        "text": "Believ"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Believe ('ie')",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_015",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Achievment"
+      },
+      {
+        "id": "B",
+        "text": "Achievement"
+      },
+      {
+        "id": "C",
+        "text": "Acheivment"
+      },
+      {
+        "id": "D",
+        "text": "Acheivement"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Achievement ('ie')",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_016",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accessible"
+      },
+      {
+        "id": "B",
+        "text": "Accessable"
+      },
+      {
+        "id": "C",
+        "text": "Accesible"
+      },
+      {
+        "id": "D",
+        "text": "Acessible"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Accessible (ss, ible)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_017",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Comittment"
+      },
+      {
+        "id": "B",
+        "text": "Comitment"
+      },
+      {
+        "id": "C",
+        "text": "Commitment"
+      },
+      {
+        "id": "D",
+        "text": "Commitmant"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Commitment (mm, tt)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_018",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Beautifull"
+      },
+      {
+        "id": "B",
+        "text": "Beautiful"
+      },
+      {
+        "id": "C",
+        "text": "Beatiful"
+      },
+      {
+        "id": "D",
+        "text": "Beutiful"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Beautiful (एक l)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_019",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Guarantee"
+      },
+      {
+        "id": "B",
+        "text": "Guarentee"
+      },
+      {
+        "id": "C",
+        "text": "Gurantee"
+      },
+      {
+        "id": "D",
+        "text": "Garantee"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Guarantee",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_020",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Harase"
+      },
+      {
+        "id": "B",
+        "text": "Harrass"
+      },
+      {
+        "id": "C",
+        "text": "Harras"
+      },
+      {
+        "id": "D",
+        "text": "Harass"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Harass (एक r, दो s)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_021",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Immediately"
+      },
+      {
+        "id": "B",
+        "text": "Immidiately"
+      },
+      {
+        "id": "C",
+        "text": "Imediately"
+      },
+      {
+        "id": "D",
+        "text": "Immediatly"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Immediately",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_022",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Liasion"
+      },
+      {
+        "id": "B",
+        "text": "Liaison"
+      },
+      {
+        "id": "C",
+        "text": "Liason"
+      },
+      {
+        "id": "D",
+        "text": "Lisaon"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Liaison ('ai')",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_023",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Millennuim"
+      },
+      {
+        "id": "B",
+        "text": "Millenium"
+      },
+      {
+        "id": "C",
+        "text": "Millenum"
+      },
+      {
+        "id": "D",
+        "text": "Millennium"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Millennium (दो n, दो l)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_024",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pronounciation"
+      },
+      {
+        "id": "B",
+        "text": "Pronounsiation"
+      },
+      {
+        "id": "C",
+        "text": "Pronunciation"
+      },
+      {
+        "id": "D",
+        "text": "Pronunciasion"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Pronunciation",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_025",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Questionaire"
+      },
+      {
+        "id": "B",
+        "text": "Questionare"
+      },
+      {
+        "id": "C",
+        "text": "Questionnare"
+      },
+      {
+        "id": "D",
+        "text": "Questionnaire"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Questionnaire (nn, aire)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_026",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Restarant"
+      },
+      {
+        "id": "B",
+        "text": "Restaurant"
+      },
+      {
+        "id": "C",
+        "text": "Restaurent"
+      },
+      {
+        "id": "D",
+        "text": "Resturant"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Restaurant ('au')",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_027",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sufficent"
+      },
+      {
+        "id": "B",
+        "text": "Sufficiant"
+      },
+      {
+        "id": "C",
+        "text": "Sufficient"
+      },
+      {
+        "id": "D",
+        "text": "Suffitient"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Sufficient ('ci')",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_028",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vacuum"
+      },
+      {
+        "id": "B",
+        "text": "Vaccum"
+      },
+      {
+        "id": "C",
+        "text": "Vaccuum"
+      },
+      {
+        "id": "D",
+        "text": "Vacume"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Vacuum",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_029",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Weird"
+      },
+      {
+        "id": "B",
+        "text": "Weired"
+      },
+      {
+        "id": "C",
+        "text": "Wierd"
+      },
+      {
+        "id": "D",
+        "text": "Werd"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Weird ('e' before 'i')",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_030",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Surprice"
+      },
+      {
+        "id": "B",
+        "text": "Suprise"
+      },
+      {
+        "id": "C",
+        "text": "Surprise"
+      },
+      {
+        "id": "D",
+        "text": "Surpirse"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Surprise",
+    "language": "en"
+  }
+]

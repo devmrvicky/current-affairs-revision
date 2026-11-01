@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { useNavigate, useParams, useBlocker } from 'react-router-dom';
+import { useNavigate, useParams, } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
-import { AlertTriangle, ChevronLeft, ChevronRight, Flag, LayoutGrid, X } from 'lucide-react';
+import { AlertTriangle, ChevronLeft, ChevronRight, Flag, LayoutGrid, X, Send } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { useMockSessionStore } from '../store/mockSessionStore';
 import { resolveQuestionsByIds } from '../services/questionRepository';
@@ -11,6 +11,12 @@ import { QuizTimer } from '../components/quiz/QuizTimer';
 import { MockQuestionPalette } from '../components/mock/MockQuestionPalette';
 import { ExamShell } from '../components/exam/ExamShell';
 import { useExamKeyboardNavigation } from '../hooks/useExamKeyboardNavigation';
+import { useSessionPresence } from '../hooks/useSessionPresence';
+import { useExitTest } from '../hooks/useExitTest';
+import { SubmitTestDialog } from '../components/exam/SubmitTestDialog';
+import { MarkPurposeSheet } from '../components/exam/MarkPurposeSheet';
+import { syncQuestionMark } from '../services/questionMarkService';
+import { effectivePurpose, getMarkPurposeInfo, type MarkPurpose } from '../types/questionMark';
 import { QuestionMarkdownRenderer, QuestionOptionContent } from '../components/mock/QuestionMarkdownRenderer';
 import type { UniversalQuestion } from '../types/universalQuestion';
 
@@ -18,43 +24,27 @@ export default function MockTestShellPage() {
   const { mockId } = useParams<{ mockId: string }>();
   const navigate = useNavigate();
   const {
-    session, visitQuestion, selectAnswer, toggleMarkForReview, recordTimeSpent,
-    goToQuestion, nextQuestion, prevQuestion, advanceSection, completeSession, abandonSession,
+    session, visitQuestion, selectAnswer, setMarkPurpose, recordTimeSpent,
+    goToQuestion, nextQuestion, prevQuestion, advanceSection, completeSession,
   } = useMockSessionStore();
 
   const [questionsById, setQuestionsById] = useState<Map<string, UniversalQuestion>>(new Map());
   const [loaded, setLoaded] = useState(false);
   const [showPalette, setShowPalette] = useState(false);
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
+  const [showFinishSectionConfirm, setShowFinishSectionConfirm] = useState(false);
+  const [showMarkSheet, setShowMarkSheet] = useState(false);
   const [transitionMessage, setTransitionMessage] = useState<string | null>(null);
   const [isFinishing, setIsFinishing] = useState(false);
   const finishingRef = useRef(false);
   const questionEnteredAtRef = useRef(0);
 
-  // Intercepts in-app navigation AWAY from an active session — including the
-  // browser/Android back gesture, not just our own explicit Quit button —
-  // and asks for confirmation rather than silently abandoning the test
-  // ("native app-like routing": back from Mock Session should never just
-  // vanish the test without asking).
-  const blocker = useBlocker(
-    ({ currentLocation, nextLocation }) => {
-      const s = useMockSessionStore.getState().session;
-      // Only block leaving THIS mock's own in-progress session — never an
-      // unrelated stale active session that just happens to exist (that
-      // case is the mismatched-mockId redirect below, which must stay silent).
-      return s?.status === 'active' && s.mockDefinitionId === mockId && currentLocation.pathname !== nextLocation.pathname;
-    }
-  );
-  useEffect(() => {
-    if (blocker.state !== 'blocked') return;
-    if (window.confirm('Your test is in progress. If you leave, your current progress will be saved, but you may not be able to resume depending on the test rules.\n\nLeave the test?')) {
-      abandonSession();
-      blocker.proceed();
-    } else {
-      blocker.reset();
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [blocker.state]);
+  // Leaving this screen no longer loses anything: the session is saved, its section clock stops
+  // (see useSessionPresence), and it can be resumed from Home. The Close button steps back to the
+  // screen the mock was entered from.
+  const ownsSession = !!session && session.mockDefinitionId === mockId;
+  useSessionPresence('mock', ownsSession);
+  const exitTest = useExitTest('mock', session ?? undefined);
 
   // Redirect away if there's no session, or it belongs to a different mock (e.g. stale URL from a previous test).
   useEffect(() => {
@@ -153,15 +143,6 @@ export default function MockTestShellPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [session, advanceSection, finishAndRecord]);
 
-  // Warn on browser back/refresh during an active mock (product spec §8).
-  useEffect(() => {
-    function handler(e: BeforeUnloadEvent) {
-      if (session?.status === 'active') { e.preventDefault(); e.returnValue = ''; }
-    }
-    window.addEventListener('beforeunload', handler);
-    return () => window.removeEventListener('beforeunload', handler);
-  }, [session?.status]);
-
   // ← / → between questions of the CURRENT section. Boundaries are hard stops:
   // ← on a section's first question and → on its last do nothing — arrows never
   // finish a section, submit the paper or cross into another section (that stays
@@ -170,14 +151,15 @@ export default function MockTestShellPage() {
   const kbIndex = session?.currentQuestionIndex ?? 0;
   const kbCount = currentSection?.questionIds.length ?? 0;
   useExamKeyboardNavigation({
-    enabled: loaded && !!session && session.status === 'active' && !showPalette && !showSubmitConfirm && !transitionMessage && !isFinishing,
+    enabled: loaded && !!session && session.status === 'active' && !showPalette && !showSubmitConfirm && !showFinishSectionConfirm && !showMarkSheet && !transitionMessage && !isFinishing,
     canGoPrevious: kbIndex > 0,
     canGoNext: kbIndex < kbCount - 1,
     onPrevious: () => { flushTimeSpent(); prevQuestion(); },
     onNext: () => { flushTimeSpent(); nextQuestion(); },
   });
 
-  if (!session || !loaded || !currentSection || !currentQuestionId) {
+  // A suspended session's section clock hasn't been shifted by the time away yet — wait for the presence hook to do that.
+  if (!session || !loaded || !currentSection || !currentQuestionId || session.suspendedAt) {
     return (
       <div className="exam-shell" aria-busy="true" aria-label="Loading test">
         <div className="exam-shell__header" style={{ height: 56 }} />
@@ -205,10 +187,21 @@ export default function MockTestShellPage() {
     selectAnswer(currentQuestionId, optionId);
   }
 
-  function handleMarkForReview() {
+  async function applyMark(purpose: MarkPurpose | null) {
     if (!currentQuestionId) return;
+    setShowMarkSheet(false);
     flushTimeSpent();
-    toggleMarkForReview(currentQuestionId);
+    setMarkPurpose(currentQuestionId, purpose);
+    if (!currentQuestion) return;
+    try {
+      const saved = await syncQuestionMark(currentQuestion, purpose, session!.title);
+      if (purpose === null) toast('Mark removed', { id: 'mark-toast' });
+      else if (saved) toast.success(`Saved for ${getMarkPurposeInfo(purpose)?.label.toLowerCase()} — find it in Review Center`, { id: 'mark-toast' });
+      else toast.success('Marked for review in this test', { id: 'mark-toast' });
+    } catch (err) {
+      console.error('Could not save question mark', err);
+      toast.error("The mark is on this test, but couldn't be saved to your Review Center.", { id: 'mark-toast' });
+    }
   }
 
   function handleSaveAndNext() {
@@ -239,20 +232,30 @@ export default function MockTestShellPage() {
     goToQuestion(index);
   }
 
-  function handleQuit() {
-    if (window.confirm('Are you sure you want to leave this test? Your progress will be saved, but you may not be able to resume depending on the test rules.')) {
-      abandonSession();
-      navigate('/mock-tests');
-    }
+  function handleClose() {
+    exitTest();
+    toast('Progress saved — resume this test from Home.', { icon: '💾', id: 'test-saved' });
   }
 
-  const unattemptedCount = overallTotal - overallAnsweredCount;
-  const markedCount = session.sections.flatMap((s) => s.questionIds).filter((qid) => session.states[qid]?.isMarkedForReview).length;
+  /** Same action as "Finish Section" on a section's last question: lock this section and start the next. */
+  function finishCurrentSection() {
+    flushTimeSpent();
+    const wasLast = advanceSection();
+    if (wasLast) { setShowSubmitConfirm(true); return; }
+    const finishedTitle = currentSection!.title;
+    const nextTitle = session!.sections[session!.currentSectionIndex + 1]?.title ?? '';
+    setTransitionMessage(`${finishedTitle} section completed. Moving to ${nextTitle}…`);
+    setTimeout(() => setTransitionMessage(null), 1800);
+  }
+
+  const markedCount = session.sections.flatMap((s) => s.questionIds).filter((qid) => (session.states[qid] && effectivePurpose(session.states[qid]))).length;
+
+  const currentPurpose = currentState ? effectivePurpose(currentState) : undefined;
 
   const header = (
     <div className="px-3 sm:px-4 min-h-14 py-2 flex items-center justify-between gap-2 sm:gap-4">
       <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
-        <button onClick={handleQuit} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0" aria-label="Quit test">
+        <button onClick={handleClose} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0" aria-label="Close test (progress is saved)" title="Close — your progress is saved">
           <X size={18} style={{ color: 'var(--text-secondary)' }} />
         </button>
         <div className="min-w-0">
@@ -294,13 +297,18 @@ export default function MockTestShellPage() {
         <ChevronLeft size={14} /> Previous
       </button>
       <button
-        onClick={handleMarkForReview}
-        aria-pressed={!!currentState?.isMarkedForReview}
+        onClick={() => setShowMarkSheet(true)}
+        aria-haspopup="dialog"
+        aria-label={currentPurpose ? `Marked: ${getMarkPurposeInfo(currentPurpose)?.label}. Change or remove mark` : 'Mark this question'}
         className="px-3 sm:px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium flex items-center gap-1.5"
-        style={{ background: currentState?.isMarkedForReview ? 'rgba(245,158,11,0.15)' : 'var(--card)', color: currentState?.isMarkedForReview ? '#b45309' : 'var(--text-secondary)', border: '1px solid var(--border)' }}
+        style={{
+          background: currentPurpose ? `${getMarkPurposeInfo(currentPurpose)?.color}22` : 'var(--card)',
+          color: currentPurpose ? getMarkPurposeInfo(currentPurpose)?.color : 'var(--text-secondary)',
+          border: `1px solid ${currentPurpose ? getMarkPurposeInfo(currentPurpose)?.color : 'var(--border)'}`,
+        }}
       >
-        <Flag size={14} fill={currentState?.isMarkedForReview ? 'currentColor' : 'none'} />
-        <span className="hidden xs:inline">Mark for Review</span><span className="xs:hidden">Mark</span>
+        <Flag size={14} fill={currentPurpose ? 'currentColor' : 'none'} />
+        <span>{currentPurpose ? (currentPurpose === 'review' ? 'Marked' : getMarkPurposeInfo(currentPurpose)?.label.split(' / ')[0]) : 'Mark'}</span>
       </button>
       <button onClick={handleSaveAndNext} className="btn-primary px-4 sm:px-5 py-2.5 text-xs sm:text-sm flex items-center gap-1">
         {isLastQuestionInSection ? (isLastSection ? 'Submit' : 'Finish Section') : 'Save & Next'} <ChevronRight size={14} />
@@ -308,8 +316,30 @@ export default function MockTestShellPage() {
     </div>
   );
 
+  // The sidebar's finish action follows the same rules as the footer's: on the last section (or a sectional mock)
+  // it submits the whole test; on an earlier section it can only finish that section, which locks it.
+  const sidebarFinish = (
+    <button
+      type="button"
+      onClick={() => (isLastSection ? setShowSubmitConfirm(true) : setShowFinishSectionConfirm(true))}
+      disabled={isFinishing}
+      className="btn-primary w-full flex items-center justify-center gap-2 text-sm py-2.5"
+    >
+      <Send size={14} /> {isLastSection ? 'Submit Test' : 'Finish Section'}
+    </button>
+  );
+
   const overlays = (
     <>
+      <MarkPurposeSheet
+        open={showMarkSheet}
+        current={currentPurpose}
+        questionNumber={currentIndexInSection + 1}
+        onSelect={(p) => applyMark(p)}
+        onRemove={() => applyMark(null)}
+        onClose={() => setShowMarkSheet(false)}
+      />
+
       <AnimatePresence>
         {transitionMessage && (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-50 flex items-center justify-center" style={{ background: 'rgba(0,0,0,0.75)' }}>
@@ -320,38 +350,42 @@ export default function MockTestShellPage() {
         )}
       </AnimatePresence>
 
-      <AnimatePresence>
-        {showSubmitConfirm && (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-50 flex items-center justify-center p-4" style={{ background: 'rgba(0,0,0,0.75)' }} role="dialog" aria-modal="true" aria-label="Submit test">
-            <div className="card p-6 max-w-sm w-full text-center space-y-4">
-              <h2 className="font-display font-bold text-lg" style={{ color: 'var(--text-primary)' }}>Submit Test?</h2>
-              <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-                {session.sections.length > 1 ? 'You have completed all sections.' : 'You have completed this section.'}
-              </p>
-              <div className="grid grid-cols-3 gap-2 text-center text-xs">
-                <div><p className="text-base font-bold" style={{ color: 'var(--text-primary)' }}>{overallAnsweredCount}</p><p style={{ color: 'var(--text-muted)' }}>Answered</p></div>
-                <div><p className="text-base font-bold text-amber-500">{markedCount}</p><p style={{ color: 'var(--text-muted)' }}>Marked</p></div>
-                <div><p className="text-base font-bold" style={{ color: 'var(--text-muted)' }}>{unattemptedCount}</p><p style={{ color: 'var(--text-muted)' }}>Unanswered</p></div>
-              </div>
-              <div className="flex gap-2">
-                <button onClick={() => setShowSubmitConfirm(false)} className="flex-1 py-2 rounded-xl text-sm font-medium" style={{ background: 'var(--border)', color: 'var(--text-secondary)' }}>Go Back</button>
-                <button onClick={finishAndRecord} disabled={isFinishing} className="btn-primary flex-1 text-sm disabled:opacity-50">{isFinishing ? 'Submitting…' : 'Submit Test'}</button>
-              </div>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      <SubmitTestDialog
+        open={showSubmitConfirm}
+        total={overallTotal}
+        answered={overallAnsweredCount}
+        marked={markedCount}
+        busy={isFinishing}
+        note={session.sections.length > 1 ? 'Submitting ends the whole test, including any section you have not reached.' : undefined}
+        onConfirm={finishAndRecord}
+        onCancel={() => setShowSubmitConfirm(false)}
+      />
+      <SubmitTestDialog
+        open={showFinishSectionConfirm}
+        title="Finish this section?"
+        confirmLabel="Finish Section"
+        message={`Out of ${currentSection.questionIds.length} questions in this section.`}
+        total={currentSection.questionIds.length}
+        answered={sectionAnsweredCount}
+        marked={currentSection.questionIds.filter((qid) => (session.states[qid] && effectivePurpose(session.states[qid]))).length}
+        note="Finishing locks this section — you won't be able to come back to it — and starts the next one."
+        onConfirm={() => { setShowFinishSectionConfirm(false); finishCurrentSection(); }}
+        onCancel={() => setShowFinishSectionConfirm(false)}
+      />
 
       <AnimatePresence>
         {showPalette && (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="lg:hidden fixed inset-0 z-40 flex items-end" style={{ background: 'rgba(0,0,0,0.5)' }} onClick={() => setShowPalette(false)} role="dialog" aria-modal="true" aria-label="Question palette">
             <motion.div
               initial={{ y: '100%' }} animate={{ y: 0 }} exit={{ y: '100%' }} transition={{ type: 'spring', damping: 30 }}
-              className="w-full max-h-[75dvh] overflow-y-auto rounded-t-2xl" style={{ background: 'var(--bg)', paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}
+              className="w-full max-h-[75dvh] flex flex-col rounded-t-2xl" style={{ background: 'var(--bg)', paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="p-4">
+              <div className="p-4 flex-1 min-h-0 overflow-y-auto">
                 <MockQuestionPalette questionIds={currentSection.questionIds} states={session.states} currentIndex={currentIndexInSection} onJump={(i) => { handleJump(i); setShowPalette(false); }} />
+              </div>
+              <div className="flex-shrink-0 p-4" style={{ borderTop: '1px solid var(--border)', background: 'var(--card)' }} onClick={() => setShowPalette(false)}>
+                {sidebarFinish}
               </div>
             </motion.div>
           </motion.div>
@@ -366,6 +400,7 @@ export default function MockTestShellPage() {
       footer={footer}
       overlays={overlays}
       palette={<MockQuestionPalette questionIds={currentSection.questionIds} states={session.states} currentIndex={currentIndexInSection} onJump={handleJump} />}
+      paletteFooter={sidebarFinish}
     >
       <AnimatePresence mode="wait">
         <motion.div key={currentQuestionId} initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.15 }} className="px-3 sm:px-5 lg:px-8 py-4 sm:py-6">

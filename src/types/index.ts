@@ -34,6 +34,8 @@ export interface QuestionAttempt {
   timeTaken: number; // seconds
   bookmarked?: boolean;
   markedForReview?: boolean;
+  /** Why the question was marked — see MarkPurpose. markedForReview stays true exactly when this is 'review'. */
+  markPurpose?: import('./questionMark').MarkPurpose;
   /** Carried over from Question when present — see Question.universalId. */
   universalId?: string;
   subjectId?: string;
@@ -75,6 +77,14 @@ export interface QuizSession {
   isPaused: boolean;
   visitedIndices: number[]; // indices the user has navigated to (for palette "visited" state)
   testMeta?: TestMeta;
+
+  // ── Resumability (optional; see PracticeSession) ──
+  suspendedAt?: number;
+  lastActiveAt?: number;
+  lastResumedAt?: number;
+  returnRoute?: string;
+  /** History index of the screen it was entered from — see returnRoute.ts. */
+  returnHistoryIdx?: number;
 }
 
 // ─── Saved Test Types ─────────────────────────────────────────────────────────
@@ -219,6 +229,10 @@ export interface MarkedReviewQuestion {
   sourceFileName: string;
   sourceDate: string;
   markedAt: number;
+  /** Why it was saved (Doubtful / Further Practice / Revision / Mark for Review). Absent on older records, which meant "review". */
+  purpose?: import('./questionMark').MarkPurpose;
+  /** Set for questions from the universal pool, whose ids are strings (`questionId` is then 0). The record id is `universal:${universalQuestionId}`, so re-marking the same question updates one record. */
+  universalQuestionId?: string;
 }
 
 // ─── Chapter Types ────────────────────────────────────────────────────────────

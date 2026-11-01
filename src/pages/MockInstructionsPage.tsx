@@ -175,7 +175,7 @@ export default function MockInstructionsPage() {
         {hasConflictingSession && (
           <div className="flex items-start gap-2 p-3 rounded-xl text-xs" style={{ background: 'rgba(245,158,11,0.1)', color: '#b45309' }}>
             <AlertTriangle size={16} className="flex-shrink-0 mt-0.5" />
-            <p>You have another mock in progress ("{session!.title}"). Starting this one will replace it.</p>
+            <p>You have another mock in progress ("{session!.title}"). It stays saved — resume it any time from Home.</p>
           </div>
         )}
 

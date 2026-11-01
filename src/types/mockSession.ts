@@ -8,6 +8,7 @@
 // and scoring primitives underneath.
 
 import type { MockMode } from './examMock';
+import type { MarkPurpose } from './questionMark';
 
 export type SectionRuntimeStatus = 'not-started' | 'active' | 'completed';
 export type MockSessionStatus = 'active' | 'completed' | 'abandoned';
@@ -35,6 +36,8 @@ export interface MockQuestionState {
   sectionId: string;
   selectedAnswer: string | null;
   isMarkedForReview: boolean;
+  /** Why the question was marked; isMarkedForReview is true exactly when this is 'review'. */
+  markPurpose?: MarkPurpose;
   visited: boolean;
   answeredAt?: number;
   /** Accumulated across every visit to this question — an approximation per product spec §42, not perfectly exact wall-clock attribution. */
@@ -56,6 +59,15 @@ export interface MockSession {
   states: Record<string, MockQuestionState>;
   startedAt: number;
   completedAt?: number;
+
+  // ── Resumability (optional; see PracticeSession) ──
+  /** Set when the learner leaves with section clocks running. On return the active section's clock is shifted by the time away, so leaving never burns exam time. */
+  suspendedAt?: number;
+  lastActiveAt?: number;
+  lastResumedAt?: number;
+  returnRoute?: string;
+  /** History index of the screen it was entered from — see returnRoute.ts. */
+  returnHistoryIdx?: number;
 }
 
 /**

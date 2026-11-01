@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_idm_031",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A blessing in disguise",
+    "options": [
+      {
+        "id": "A",
+        "text": "A secret help from a stranger"
+      },
+      {
+        "id": "B",
+        "text": "Something that seems bad but turns out good"
+      },
+      {
+        "id": "C",
+        "text": "A prayer said in public"
+      },
+      {
+        "id": "D",
+        "text": "A gift wrapped nicely"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A blessing in disguise = छिपा हुआ वरदान (बुरी लगने वाली बात जो अंत में अच्छी निकले)। Example: Losing that job was a blessing in disguise; he started his own business.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_032",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A bolt from the blue",
+    "options": [
+      {
+        "id": "A",
+        "text": "A clear sky"
+      },
+      {
+        "id": "B",
+        "text": "A planned surprise"
+      },
+      {
+        "id": "C",
+        "text": "A lightning-proof building"
+      },
+      {
+        "id": "D",
+        "text": "A sudden and unexpected event"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A bolt from the blue = अचानक आई अप्रत्याशित घटना। Example: His resignation came as a bolt from the blue.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_033",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A storm in a teacup",
+    "options": [
+      {
+        "id": "A",
+        "text": "A great fuss over a trivial matter"
+      },
+      {
+        "id": "B",
+        "text": "A serious natural disaster"
+      },
+      {
+        "id": "C",
+        "text": "A quarrel among friends"
+      },
+      {
+        "id": "D",
+        "text": "A hot tea ritual"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A storm in a teacup = छोटी बात पर बड़ा हंगामा। Example: The whole argument was a storm in a teacup.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_034",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Apple of one's eye",
+    "options": [
+      {
+        "id": "A",
+        "text": "A clear vision"
+      },
+      {
+        "id": "B",
+        "text": "Something one hates"
+      },
+      {
+        "id": "C",
+        "text": "A person who is dearly loved"
+      },
+      {
+        "id": "D",
+        "text": "A fruit one likes"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Apple of one's eye = आँखों का तारा। Example: The little girl is the apple of her father's eye.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_035",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: At the eleventh hour",
+    "options": [
+      {
+        "id": "A",
+        "text": "At the last possible moment"
+      },
+      {
+        "id": "B",
+        "text": "After a long delay"
+      },
+      {
+        "id": "C",
+        "text": "Very early in the morning"
+      },
+      {
+        "id": "D",
+        "text": "At exactly eleven o'clock"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "At the eleventh hour = ऐन वक़्त पर / आख़िरी क्षण में। Example: He submitted the form at the eleventh hour.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_036",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Bag and baggage",
+    "options": [
+      {
+        "id": "A",
+        "text": "Without any possessions"
+      },
+      {
+        "id": "B",
+        "text": "Only with a small bag"
+      },
+      {
+        "id": "C",
+        "text": "Along with one's family"
+      },
+      {
+        "id": "D",
+        "text": "With all one's belongings"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Bag and baggage = साजो-सामान सहित। Example: The tenant left the house bag and baggage.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_037",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Barking up the wrong tree",
+    "options": [
+      {
+        "id": "A",
+        "text": "Climbing a tree"
+      },
+      {
+        "id": "B",
+        "text": "Pursuing a mistaken course of action"
+      },
+      {
+        "id": "C",
+        "text": "Scolding someone loudly"
+      },
+      {
+        "id": "D",
+        "text": "Searching for the right path"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Barking up the wrong tree = ग़लत दिशा में प्रयास करना। Example: If you think I took your pen, you are barking up the wrong tree.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_038",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Bed of roses",
+    "options": [
+      {
+        "id": "A",
+        "text": "A painful experience"
+      },
+      {
+        "id": "B",
+        "text": "A garden of flowers"
+      },
+      {
+        "id": "C",
+        "text": "A comfortable and easy situation"
+      },
+      {
+        "id": "D",
+        "text": "A well-decorated room"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Bed of roses = सुख-सुविधा भरा आसान जीवन। Example: Life as a soldier is not a bed of roses.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_039",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Beat a retreat",
+    "options": [
+      {
+        "id": "A",
+        "text": "To rest after work"
+      },
+      {
+        "id": "B",
+        "text": "To withdraw or go back"
+      },
+      {
+        "id": "C",
+        "text": "To attack suddenly"
+      },
+      {
+        "id": "D",
+        "text": "To win a battle"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Beat a retreat = पीछे हट जाना। Example: The enemy beat a retreat when reinforcements arrived.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_040",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Bread and butter",
+    "options": [
+      {
+        "id": "A",
+        "text": "A rich lifestyle"
+      },
+      {
+        "id": "B",
+        "text": "A simple breakfast"
+      },
+      {
+        "id": "C",
+        "text": "A friendly gesture"
+      },
+      {
+        "id": "D",
+        "text": "One's basic livelihood"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Bread and butter = रोज़ी-रोटी का साधन। Example: Teaching is his bread and butter.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_041",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: By leaps and bounds",
+    "options": [
+      {
+        "id": "A",
+        "text": "Very slowly"
+      },
+      {
+        "id": "B",
+        "text": "Step by step"
+      },
+      {
+        "id": "C",
+        "text": "Very rapidly"
+      },
+      {
+        "id": "D",
+        "text": "With great difficulty"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "By leaps and bounds = तेज़ी से / छलाँगें मारते हुए। Example: Her English has improved by leaps and bounds.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_042",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Cry over spilt milk",
+    "options": [
+      {
+        "id": "A",
+        "text": "To regret something that cannot be undone"
+      },
+      {
+        "id": "B",
+        "text": "To protest loudly"
+      },
+      {
+        "id": "C",
+        "text": "To weep for no reason"
+      },
+      {
+        "id": "D",
+        "text": "To waste food"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Cry over spilt milk = बीती बात पर पछताना। Example: There is no use crying over spilt milk now.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_043",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Cock and bull story",
+    "options": [
+      {
+        "id": "A",
+        "text": "A true account"
+      },
+      {
+        "id": "B",
+        "text": "A story about farm animals"
+      },
+      {
+        "id": "C",
+        "text": "An absurd and unbelievable story"
+      },
+      {
+        "id": "D",
+        "text": "A story for children"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Cock and bull story = मनगढ़ंत, अविश्वसनीय कहानी। Example: He gave a cock and bull story to explain his absence.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_044",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Eat humble pie",
+    "options": [
+      {
+        "id": "A",
+        "text": "To live in poverty"
+      },
+      {
+        "id": "B",
+        "text": "To apologise humbly and admit one's mistake"
+      },
+      {
+        "id": "C",
+        "text": "To eat a simple meal"
+      },
+      {
+        "id": "D",
+        "text": "To refuse an offer"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Eat humble pie = अपनी ग़लती मानकर विनम्रता से माफ़ी माँगना। Example: He had to eat humble pie after his prediction failed.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_045",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Fish out of water",
+    "options": [
+      {
+        "id": "A",
+        "text": "A person who is very lucky"
+      },
+      {
+        "id": "B",
+        "text": "A successful businessman"
+      },
+      {
+        "id": "C",
+        "text": "A person who loves swimming"
+      },
+      {
+        "id": "D",
+        "text": "A person in unfamiliar, uncomfortable surroundings"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Fish out of water = अपरिचित माहौल में असहज व्यक्ति। Example: In the big city, the villager felt like a fish out of water.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_046",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Flash in the pan",
+    "options": [
+      {
+        "id": "A",
+        "text": "A brief success that does not last"
+      },
+      {
+        "id": "B",
+        "text": "A quick cooking method"
+      },
+      {
+        "id": "C",
+        "text": "A sudden attack"
+      },
+      {
+        "id": "D",
+        "text": "A lasting achievement"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Flash in the pan = क्षणिक सफलता जो टिके नहीं। Example: His first hit film proved a flash in the pan.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_047",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Fly in the ointment",
+    "options": [
+      {
+        "id": "A",
+        "text": "A medical treatment"
+      },
+      {
+        "id": "B",
+        "text": "A harmless insect"
+      },
+      {
+        "id": "C",
+        "text": "A small thing that spoils everything"
+      },
+      {
+        "id": "D",
+        "text": "A lucky chance"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Fly in the ointment = मज़ा किरकिरा करने वाली छोटी बात। Example: The only fly in the ointment was the bad weather.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_048",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Give the cold shoulder",
+    "options": [
+      {
+        "id": "A",
+        "text": "To welcome warmly"
+      },
+      {
+        "id": "B",
+        "text": "To deliberately ignore someone"
+      },
+      {
+        "id": "C",
+        "text": "To feel very cold"
+      },
+      {
+        "id": "D",
+        "text": "To hurt someone's shoulder"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Give the cold shoulder = जानबूझकर उपेक्षा करना। Example: She gave me the cold shoulder after our quarrel.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_049",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Go to the dogs",
+    "options": [
+      {
+        "id": "A",
+        "text": "To become wealthy"
+      },
+      {
+        "id": "B",
+        "text": "To take a pet for a walk"
+      },
+      {
+        "id": "C",
+        "text": "To improve gradually"
+      },
+      {
+        "id": "D",
+        "text": "To be ruined or deteriorate"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Go to the dogs = बर्बाद हो जाना। Example: The business went to the dogs after the owner's death.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_050",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: In a nutshell",
+    "options": [
+      {
+        "id": "A",
+        "text": "In brief"
+      },
+      {
+        "id": "B",
+        "text": "In a hidden way"
+      },
+      {
+        "id": "C",
+        "text": "In great detail"
+      },
+      {
+        "id": "D",
+        "text": "In a hurry"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "In a nutshell = संक्षेप में। Example: Tell me the story in a nutshell.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_051",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Leave no stone unturned",
+    "options": [
+      {
+        "id": "A",
+        "text": "To avoid doing hard work"
+      },
+      {
+        "id": "B",
+        "text": "To clear a path"
+      },
+      {
+        "id": "C",
+        "text": "To try every possible means"
+      },
+      {
+        "id": "D",
+        "text": "To destroy everything"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Leave no stone unturned = कोई कसर न छोड़ना। Example: The police left no stone unturned to find the missing child.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_052",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Lion's share",
+    "options": [
+      {
+        "id": "A",
+        "text": "A fair equal share"
+      },
+      {
+        "id": "B",
+        "text": "A very small part"
+      },
+      {
+        "id": "C",
+        "text": "A dangerous task"
+      },
+      {
+        "id": "D",
+        "text": "The largest part of something"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Lion's share = सबसे बड़ा हिस्सा। Example: The eldest son got the lion's share of the property.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_053",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Man of straw",
+    "options": [
+      {
+        "id": "A",
+        "text": "A person of no substance or weak character"
+      },
+      {
+        "id": "B",
+        "text": "A wealthy landlord"
+      },
+      {
+        "id": "C",
+        "text": "A strong leader"
+      },
+      {
+        "id": "D",
+        "text": "A farmer"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Man of straw = सारहीन / कमज़ोर व्यक्ति। Example: He is a man of straw and cannot stand against the powerful.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_054",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Move heaven and earth",
+    "options": [
+      {
+        "id": "A",
+        "text": "To pray fervently"
+      },
+      {
+        "id": "B",
+        "text": "To make every possible effort"
+      },
+      {
+        "id": "C",
+        "text": "To travel the world"
+      },
+      {
+        "id": "D",
+        "text": "To cause a natural disaster"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Move heaven and earth = जी-जान लगा देना। Example: She moved heaven and earth to save her brother.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_055",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Neck and neck",
+    "options": [
+      {
+        "id": "A",
+        "text": "In a friendly hug"
+      },
+      {
+        "id": "B",
+        "text": "Extremely tired"
+      },
+      {
+        "id": "C",
+        "text": "Far behind others"
+      },
+      {
+        "id": "D",
+        "text": "Very close in a race or competition"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Neck and neck = कड़ी टक्कर में बराबरी पर। Example: The two runners were neck and neck at the finish.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_056",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Rain cats and dogs",
+    "options": [
+      {
+        "id": "A",
+        "text": "To feel confused"
+      },
+      {
+        "id": "B",
+        "text": "To have a pet shower"
+      },
+      {
+        "id": "C",
+        "text": "To rain very heavily"
+      },
+      {
+        "id": "D",
+        "text": "To rain lightly"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "Rain cats and dogs = मूसलाधार बारिश होना। Example: It rained cats and dogs, so the match was cancelled.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_057",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Rule of thumb",
+    "options": [
+      {
+        "id": "A",
+        "text": "A rough practical method based on experience"
+      },
+      {
+        "id": "B",
+        "text": "A rare exception"
+      },
+      {
+        "id": "C",
+        "text": "A measuring tool"
+      },
+      {
+        "id": "D",
+        "text": "A strict legal rule"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Rule of thumb = अनुभव पर आधारित मोटा नियम। Example: As a rule of thumb, revise a topic three times.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_058",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Turn over a new leaf",
+    "options": [
+      {
+        "id": "A",
+        "text": "To start gardening"
+      },
+      {
+        "id": "B",
+        "text": "To change one's behaviour for the better"
+      },
+      {
+        "id": "C",
+        "text": "To cancel a plan"
+      },
+      {
+        "id": "D",
+        "text": "To read a new book"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Turn over a new leaf = नई शुरुआत करना / सुधर जाना। Example: After the accident, he turned over a new leaf.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_059",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Tooth and nail",
+    "options": [
+      {
+        "id": "A",
+        "text": "In a casual way"
+      },
+      {
+        "id": "B",
+        "text": "Very gently"
+      },
+      {
+        "id": "C",
+        "text": "With medical care"
+      },
+      {
+        "id": "D",
+        "text": "With all one's strength and determination"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Tooth and nail = पूरी ताक़त से। Example: They fought tooth and nail to save the forest.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_060",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Wild goose chase",
+    "options": [
+      {
+        "id": "A",
+        "text": "A fast race"
+      },
+      {
+        "id": "B",
+        "text": "A foolish and useless search"
+      },
+      {
+        "id": "C",
+        "text": "A bird-hunting trip"
+      },
+      {
+        "id": "D",
+        "text": "A planned adventure"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Wild goose chase = व्यर्थ की खोज। Example: Looking for the lost ring in the market was a wild goose chase.",
+    "language": "en"
+  }
+]

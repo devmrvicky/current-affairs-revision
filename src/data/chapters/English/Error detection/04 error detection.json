@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "grammar151",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nWater is boiling at 100 degrees Celsius (A) / under normal atmospheric pressure, (B) / whereas it freezes at zero degrees. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Water is boiling at 100 degrees Celsius"
+      },
+      {
+        "id": "B",
+        "text": "under normal atmospheric pressure,"
+      },
+      {
+        "id": "C",
+        "text": "whereas it freezes at zero degrees."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "Scientific/universal truth हमेशा Simple Present में होता है: 'Water boils at 100 degrees Celsius' (Continuous नहीं)।",
+    "language": "en"
+  },
+  {
+    "id": "grammar152",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nRavi is wanting a new motorbike (A) / for his birthday and (B) / has been saving money for it. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ravi is wanting a new motorbike"
+      },
+      {
+        "id": "B",
+        "text": "for his birthday and"
+      },
+      {
+        "id": "C",
+        "text": "has been saving money for it."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "'Want' stative verb है, इसका continuous form नहीं बनता: 'Ravi wants a new motorbike'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar153",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nAt this moment, the doctors [operate] on the injured soldier in the emergency ward.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are operating"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "have operated"
+      },
+      {
+        "id": "D",
+        "text": "had operated"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "'At this moment' चल रही action बताता है, इसलिए Present Continuous आता है: 'are operating'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar154",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nListen! Someone [knocks] at the front door, so please go and open it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "knocked"
+      },
+      {
+        "id": "C",
+        "text": "is knocking"
+      },
+      {
+        "id": "D",
+        "text": "has knocked"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "'Listen! / Look!' जैसे words चल रही action का संकेत हैं, इसलिए Present Continuous: 'is knocking'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar155",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nMany economists [are believing] that inflation will fall sharply next year.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "believe"
+      },
+      {
+        "id": "C",
+        "text": "have been believing"
+      },
+      {
+        "id": "D",
+        "text": "were believing"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "'Believe' मानसिक अवस्था बताने वाली stative verb है, इसका continuous form नहीं बनता: 'believe'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar156",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nMy sister is leaving for Mumbai tomorrow (A) / by the morning flight (B) / to attend an important meeting. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "My sister is leaving for Mumbai tomorrow"
+      },
+      {
+        "id": "B",
+        "text": "by the morning flight"
+      },
+      {
+        "id": "C",
+        "text": "to attend an important meeting."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "तय (arranged) भविष्य की योजना के लिए Present Continuous (is leaving + tomorrow) सही है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar157",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nI [have just finished] reading the novel you recommended.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "had just finished"
+      },
+      {
+        "id": "C",
+        "text": "was just finishing"
+      },
+      {
+        "id": "D",
+        "text": "will just finish"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "'Just' के साथ Present Perfect (have just finished) आता है, इसलिए sentence सही है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar158",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nMy brother has gone out just now (A) / and he will return (B) / in about an hour. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "My brother has gone out just now"
+      },
+      {
+        "id": "B",
+        "text": "and he will return"
+      },
+      {
+        "id": "C",
+        "text": "in about an hour."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "'Just now' (अभी-अभी बीता समय) के साथ Simple Past आता है, Present Perfect नहीं: 'went out just now'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar159",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe peon is absent since last Monday (A) / and has not informed (B) / anyone in the office. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The peon is absent since last Monday"
+      },
+      {
+        "id": "B",
+        "text": "and has not informed"
+      },
+      {
+        "id": "C",
+        "text": "anyone in the office."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "'Since + point of time' के साथ Present Perfect आता है: 'is absent since' → 'has been absent since'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar160",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nI [know] my neighbour for the last ten years and we have never quarrelled.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "am knowing"
+      },
+      {
+        "id": "C",
+        "text": "have known"
+      },
+      {
+        "id": "D",
+        "text": "knew"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "'For + period' के साथ Present Perfect आता है, इसलिए 'know' → 'have known' (stative verb का continuous भी नहीं बनता)।",
+    "language": "en"
+  },
+  {
+    "id": "grammar161",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nHe [is living] in Pune since he joined the army.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "lives"
+      },
+      {
+        "id": "C",
+        "text": "was living"
+      },
+      {
+        "id": "D",
+        "text": "has been living"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "'Since + Simple Past clause' के साथ main clause में Present Perfect (Continuous) आता है: 'has been living'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar162",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nI do not remember exactly how long (A) / the old man is living (B) / in this village near the river. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "I do not remember exactly how long"
+      },
+      {
+        "id": "B",
+        "text": "the old man is living"
+      },
+      {
+        "id": "C",
+        "text": "in this village near the river."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "'How long' के साथ चल रही अवधि बताने के लिए Present Perfect Continuous आता है: 'how long the old man has been living'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar163",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nEver since my brother left for abroad, I [am missing] him very much.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "was missing"
+      },
+      {
+        "id": "C",
+        "text": "have been missing"
+      },
+      {
+        "id": "D",
+        "text": "had missed"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "'Ever since + past' के साथ main clause में Present Perfect (Continuous) आता है: 'have been missing'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar164",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThis is the most interesting book that I [read] in my entire life.",
+    "options": [
+      {
+        "id": "A",
+        "text": "have read"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "had read"
+      },
+      {
+        "id": "D",
+        "text": "am reading"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "Superlative degree के बाद 'that' clause में Present Perfect आता है: 'the most interesting book that I have read'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar165",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nSo far, we [completed] only half of the syllabus, and the examination is only a month away.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "have completed"
+      },
+      {
+        "id": "C",
+        "text": "had completed"
+      },
+      {
+        "id": "D",
+        "text": "will complete"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "'So far' (अब तक) के साथ Present Perfect आता है: 'we have completed'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar166",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe company [has been losing] money for the last three years.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is losing"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "was losing"
+      },
+      {
+        "id": "D",
+        "text": "had lost"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "'For the last three years' के साथ Present Perfect Continuous (has been losing) सही है, इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar167",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nI have been waiting here since morning, (A) / but nobody has come (B) / to attend to me. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "I have been waiting here since morning,"
+      },
+      {
+        "id": "B",
+        "text": "but nobody has come"
+      },
+      {
+        "id": "C",
+        "text": "to attend to me."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "'Since morning' के साथ Present Perfect Continuous और 'nobody has come' में Present Perfect दोनों सही हैं। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar168",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nIt has been five years (A) / since the company has launched (B) / its first mobile application. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "It has been five years"
+      },
+      {
+        "id": "B",
+        "text": "since the company has launched"
+      },
+      {
+        "id": "C",
+        "text": "its first mobile application."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "'It has been + period + since' के बाद Simple Past आता है: 'since the company launched'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar169",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe little boy is very excited because (A) / this is the first time that he flew (B) / in an aeroplane. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The little boy is very excited because"
+      },
+      {
+        "id": "B",
+        "text": "this is the first time that he flew"
+      },
+      {
+        "id": "C",
+        "text": "in an aeroplane."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "'This is the first time' के बाद Present Perfect आता है: 'that he has flown'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar170",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe manager has not yet signed (A) / the documents that were submitted (B) / to his office last week. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The manager has not yet signed"
+      },
+      {
+        "id": "B",
+        "text": "the documents that were submitted"
+      },
+      {
+        "id": "C",
+        "text": "to his office last week."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "'Not yet' के साथ Present Perfect (has not yet signed) सही है, और 'were submitted ... last week' में Simple Past सही है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar171",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nMahatma Gandhi has been born in Porbandar in 1869 (A) / and led the freedom movement (B) / against the British rule. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mahatma Gandhi has been born in Porbandar in 1869"
+      },
+      {
+        "id": "B",
+        "text": "and led the freedom movement"
+      },
+      {
+        "id": "C",
+        "text": "against the British rule."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "Past के निश्चित समय (1869) और जन्म जैसी पूरी हो चुकी घटना के लिए Simple Past आता है: 'was born'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar172",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe manager wanted to know (A) / why you did not went (B) / to the office yesterday. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The manager wanted to know"
+      },
+      {
+        "id": "B",
+        "text": "why you did not went"
+      },
+      {
+        "id": "C",
+        "text": "to the office yesterday."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "'Did not' के बाद verb की पहली form (V1) आती है: 'did not go'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar173",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe government has recently (A) / announced a new scheme and (B) / has gave relief to the farmers. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The government has recently"
+      },
+      {
+        "id": "B",
+        "text": "announced a new scheme and"
+      },
+      {
+        "id": "C",
+        "text": "has gave relief to the farmers."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "Present Perfect = has/have + V3। 'has gave' → 'has given'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar174",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHe had went to the market (A) / before I reached (B) / his house. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "He had went to the market"
+      },
+      {
+        "id": "B",
+        "text": "before I reached"
+      },
+      {
+        "id": "C",
+        "text": "his house."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "Past Perfect = had + V3। 'had went' → 'had gone'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar175",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nShe [has resigned] from the post of managing director two days ago.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "had resigned"
+      },
+      {
+        "id": "C",
+        "text": "was resigning"
+      },
+      {
+        "id": "D",
+        "text": "resigned"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "'Ago' के साथ Simple Past आता है: 'resigned ... two days ago'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar176",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nMy uncle [has visited] London in 2015 for a conference.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "had visited"
+      },
+      {
+        "id": "C",
+        "text": "has been visiting"
+      },
+      {
+        "id": "D",
+        "text": "visited"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "Past के निश्चित साल (in 2015) के साथ Simple Past आता है: 'visited'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar177",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nShakespeare lived in the sixteenth century (A) / and is famous for his tragedies (B) / but he has written many comedies too. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shakespeare lived in the sixteenth century"
+      },
+      {
+        "id": "B",
+        "text": "and is famous for his tragedies"
+      },
+      {
+        "id": "C",
+        "text": "but he has written many comedies too."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "बीत चुके युग के व्यक्ति की बात Simple Past में कही जाती है: 'but he wrote many comedies too'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar178",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nIndia was under the British rule for nearly two centuries, (A) / and it was not until 1947 (B) / that India has become an independent nation. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "India was under the British rule for nearly two centuries,"
+      },
+      {
+        "id": "B",
+        "text": "and it was not until 1947"
+      },
+      {
+        "id": "C",
+        "text": "that India has become an independent nation."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "'It was not until 1947 that...' के बाद Simple Past आता है: 'that India became'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar179",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nI [took] a bath when the lights suddenly went off.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "have taken"
+      },
+      {
+        "id": "C",
+        "text": "had been taking"
+      },
+      {
+        "id": "D",
+        "text": "was taking"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "चल रही action के लिए Past Continuous और बीच में आने वाली action के लिए Simple Past: 'was taking a bath when the lights went off'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar180",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nWhile I [was walking] in the park, I met an old friend.",
+    "options": [
+      {
+        "id": "A",
+        "text": "am walking"
+      },
+      {
+        "id": "B",
+        "text": "have walked"
+      },
+      {
+        "id": "C",
+        "text": "had walked"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "'While' के साथ चल रही action के लिए Past Continuous (was walking) सही है, इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar181",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nMy mother was cooking dinner in the kitchen (A) / when the unexpected guests (B) / arrived at our house. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "My mother was cooking dinner in the kitchen"
+      },
+      {
+        "id": "B",
+        "text": "when the unexpected guests"
+      },
+      {
+        "id": "C",
+        "text": "arrived at our house."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "चल रही action के लिए Past Continuous (was cooking) और बीच में आई action के लिए Simple Past (arrived) सही है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar182",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nWe were extremely tired because (A) / after the guests have left, we cleaned (B) / the entire house and went to bed. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "We were extremely tired because"
+      },
+      {
+        "id": "B",
+        "text": "after the guests have left, we cleaned"
+      },
+      {
+        "id": "C",
+        "text": "the entire house and went to bed."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "दो past actions में पहले हुई action के लिए Past Perfect आता है: 'after the guests had left'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar183",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nI realised that I have made a mistake (A) / as soon as I saw (B) / the result of the examination. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "I realised that I have made a mistake"
+      },
+      {
+        "id": "B",
+        "text": "as soon as I saw"
+      },
+      {
+        "id": "C",
+        "text": "the result of the examination."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "'Realised' (past) से पहले हुई action के लिए Past Perfect आता है: 'I had made a mistake'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar184",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe train had already left (A) / when we reached (B) / the platform. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The train had already left"
+      },
+      {
+        "id": "B",
+        "text": "when we reached"
+      },
+      {
+        "id": "C",
+        "text": "the platform."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "पहले हुई action (had already left) और बाद की action (reached) का मेल सही है। कोई error नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar185",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHe has worked in a bank for ten years (A) / before he started (B) / his own business. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "He has worked in a bank for ten years"
+      },
+      {
+        "id": "B",
+        "text": "before he started"
+      },
+      {
+        "id": "C",
+        "text": "his own business."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "'Before he started' (past) से पहले की अवधि Past Perfect में आती है: 'had worked'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar186",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nBy the time the bus finally arrived, he [was waiting] there for two hours.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "has been waiting"
+      },
+      {
+        "id": "C",
+        "text": "had been waiting"
+      },
+      {
+        "id": "D",
+        "text": "is waiting"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "'By the time + Simple Past' के साथ पहले से चल रही लंबी action के लिए Past Perfect Continuous आता है: 'had been waiting'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar187",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nI wish I [studied] harder when I was in school.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "have studied"
+      },
+      {
+        "id": "C",
+        "text": "had studied"
+      },
+      {
+        "id": "D",
+        "text": "would study"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "बीते समय के पछतावे के लिए 'wish + Past Perfect' आता है: 'I wish I had studied harder'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar188",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nLooking at his friend's new motorcycle, (A) / Rahul wished that he has (B) / a similar one. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Looking at his friend's new motorcycle,"
+      },
+      {
+        "id": "B",
+        "text": "Rahul wished that he has"
+      },
+      {
+        "id": "C",
+        "text": "a similar one."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "'Wished' (past) के बाद 'that' clause में past form आती है: 'wished that he had'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar189",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHe spoke so confidently (A) / as if he knows (B) / all the answers. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "He spoke so confidently"
+      },
+      {
+        "id": "B",
+        "text": "as if he knows"
+      },
+      {
+        "id": "C",
+        "text": "all the answers."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "'As if' (अवास्तविक स्थिति) के साथ और past के संदर्भ में past tense आता है: 'as if he knew'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar190",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nWhen he was young, he [was used to swim] in the river every evening.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "is used to swim"
+      },
+      {
+        "id": "C",
+        "text": "has used to swim"
+      },
+      {
+        "id": "D",
+        "text": "used to swim"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "बीती आदत के लिए 'used to + V1' आता है ('be used to' का अर्थ 'आदी होना' है): 'used to swim'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar191",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nRahul, you look like a sportsman, (A) / did you used to play cricket (B) / when you were in school? (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rahul, you look like a sportsman,"
+      },
+      {
+        "id": "B",
+        "text": "did you used to play cricket"
+      },
+      {
+        "id": "C",
+        "text": "when you were in school?"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "'Did' के बाद 'use to' (V1 form) आता है: 'Did you use to play cricket'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar192",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nHardly [did he reach] the station when the train started moving.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "he had reached"
+      },
+      {
+        "id": "C",
+        "text": "had he reached"
+      },
+      {
+        "id": "D",
+        "text": "has he reached"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "'Hardly' के बाद Past Perfect में inversion आता है: 'Hardly had he reached ... when + Simple Past'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar193",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe stranger came to my house, (A) / took his seat and (B) / starts talking about his problems. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "The stranger came to my house,"
+      },
+      {
+        "id": "B",
+        "text": "took his seat and"
+      },
+      {
+        "id": "C",
+        "text": "starts talking about his problems."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "एक ही वाक्य में क्रियाओं की tense एक जैसी रहनी चाहिए: came, took, started।",
+    "language": "en"
+  },
+  {
+    "id": "grammar194",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHe saved a portion of his salary every month (A) / and took a loan from the bank (B) / so that he can buy a house. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "He saved a portion of his salary every month"
+      },
+      {
+        "id": "B",
+        "text": "and took a loan from the bank"
+      },
+      {
+        "id": "C",
+        "text": "so that he can buy a house."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "Main verb past (saved, took) है, इसलिए purpose clause में 'could' आता है: 'so that he could buy'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar195",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nYour teacher was waiting for you in the staffroom, (A) / but you did not turn up. (B) / When have you reached the school? (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Your teacher was waiting for you in the staffroom,"
+      },
+      {
+        "id": "B",
+        "text": "but you did not turn up."
+      },
+      {
+        "id": "C",
+        "text": "When have you reached the school?"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "'When' से पूछे गए प्रश्न में Present Perfect नहीं, Simple Past आता है: 'When did you reach the school?'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar196",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nIf it [will rain] heavily tomorrow, the match between the two teams will be cancelled.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "would rain"
+      },
+      {
+        "id": "C",
+        "text": "is raining"
+      },
+      {
+        "id": "D",
+        "text": "rains"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "Condition वाले 'if' clause में future के लिए Simple Present आता है: 'If it rains'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar197",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nI will call you as soon as I [will reach] the airport tomorrow morning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "reach"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "would reach"
+      },
+      {
+        "id": "D",
+        "text": "have been reaching"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "Time clause (as soon as, when, before) में future के लिए Simple Present आता है: 'as soon as I reach'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar198",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nPlease wait here until the manager [will return] from the meeting.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No improvement"
+      },
+      {
+        "id": "B",
+        "text": "returns"
+      },
+      {
+        "id": "C",
+        "text": "would return"
+      },
+      {
+        "id": "D",
+        "text": "has been returning"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "'Until' वाले clause में future के लिए Simple Present आता है: 'until the manager returns'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar199",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nOur principal is a very experienced man, (A) / and by next March (B) / he will be teaching in this school for twenty years. (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "Our principal is a very experienced man,"
+      },
+      {
+        "id": "B",
+        "text": "and by next March"
+      },
+      {
+        "id": "C",
+        "text": "he will be teaching in this school for twenty years."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "'By + future time' और अवधि (for twenty years) के साथ Future Perfect Continuous आता है: 'will have been teaching'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar200",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nBy the end of this year, the engineers [will have completed] the entire bridge.",
+    "options": [
+      {
+        "id": "A",
+        "text": "would have completed"
+      },
+      {
+        "id": "B",
+        "text": "No improvement"
+      },
+      {
+        "id": "C",
+        "text": "have completed"
+      },
+      {
+        "id": "D",
+        "text": "had completed"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "'By the end of this year' के साथ Future Perfect (will have completed) सही है, इसलिए कोई सुधार नहीं।",
+    "language": "en"
+  }
+]

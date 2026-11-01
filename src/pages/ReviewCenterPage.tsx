@@ -9,6 +9,7 @@ import toast from 'react-hot-toast';
 import { useBookmarkStore } from '../store/bookmarkStore';
 import { useWrongQuestionsStore } from '../store/wrongQuestionsStore';
 import { useMarkedReviewStore } from '../store/markedReviewStore';
+import { getMarkPurposeInfo } from '../types/questionMark';
 import { useHistoryStore } from '../store/historyStore';
 import { useChapterStore } from '../store/chapterStore';
 import { useExamStore } from '../store/examStore';
@@ -196,7 +197,8 @@ export default function ReviewCenterPage() {
 
   const markedReviewItems: CommonItem[] = useMemo(() => markedItems.map((m) => ({
     id: m.id, question: m.question, options: m.options, correctAnswer: m.correctAnswer,
-    explanation: m.explanation, sourceLabel: m.sourceDate, timestamp: m.markedAt,
+    explanation: m.explanation, sourceLabel: m.universalQuestionId ? `${m.sourceFileName} · ${m.sourceDate}` : m.sourceDate, timestamp: m.markedAt,
+    meta: getMarkPurposeInfo(m.purpose ?? 'review')?.label,
   })), [markedItems]);
 
   const [recentItems, setRecentItems] = useState<CommonItem[]>([]);

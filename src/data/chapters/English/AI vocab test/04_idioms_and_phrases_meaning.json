@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_idm_091",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Hue and cry",
+    "options": [
+      {
+        "id": "A",
+        "text": "A loud public protest or outcry"
+      },
+      {
+        "id": "B",
+        "text": "A secret plan"
+      },
+      {
+        "id": "C",
+        "text": "A game of hide and seek"
+      },
+      {
+        "id": "D",
+        "text": "A colourful painting"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Hue and cry = शोर-शराबा / ज़ोरदार विरोध। Example: There was a hue and cry over the rise in fuel prices.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_092",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Part and parcel",
+    "options": [
+      {
+        "id": "A",
+        "text": "A minor detail"
+      },
+      {
+        "id": "B",
+        "text": "An essential part of something"
+      },
+      {
+        "id": "C",
+        "text": "A shared property"
+      },
+      {
+        "id": "D",
+        "text": "A package sent by post"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "Part and parcel = अभिन्न अंग। Example: Hard work is part and parcel of success.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_093",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Ins and outs",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ups and downs of life"
+      },
+      {
+        "id": "B",
+        "text": "Entry and exit gates"
+      },
+      {
+        "id": "C",
+        "text": "All the detailed facts about something"
+      },
+      {
+        "id": "D",
+        "text": "A minor mistake"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Ins and outs = सारी बारीकियाँ। Example: She knows all the ins and outs of the business.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_094",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Wear and tear",
+    "options": [
+      {
+        "id": "A",
+        "text": "A tiring journey"
+      },
+      {
+        "id": "B",
+        "text": "A strong friendship"
+      },
+      {
+        "id": "C",
+        "text": "Clothes torn by accident"
+      },
+      {
+        "id": "D",
+        "text": "Damage caused by regular use"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "Wear and tear = इस्तेमाल से होने वाली टूट-फूट। Example: The insurance does not cover normal wear and tear.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_095",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Odds and ends",
+    "options": [
+      {
+        "id": "A",
+        "text": "Small miscellaneous items"
+      },
+      {
+        "id": "B",
+        "text": "Strange and rare events"
+      },
+      {
+        "id": "C",
+        "text": "The beginning and end of a story"
+      },
+      {
+        "id": "D",
+        "text": "Winning chances in a game"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "Odds and ends = इधर-उधर की छोटी-मोटी चीज़ें। Example: The drawer was full of odds and ends.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_096",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Time and again",
+    "options": [
+      {
+        "id": "A",
+        "text": "At the right moment"
+      },
+      {
+        "id": "B",
+        "text": "Rarely"
+      },
+      {
+        "id": "C",
+        "text": "After a long gap"
+      },
+      {
+        "id": "D",
+        "text": "Repeatedly"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "Time and again = बार-बार। Example: I have warned you time and again.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_097",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A white lie",
+    "options": [
+      {
+        "id": "A",
+        "text": "A cruel falsehood"
+      },
+      {
+        "id": "B",
+        "text": "A harmless lie told to avoid hurting someone"
+      },
+      {
+        "id": "C",
+        "text": "A lie told under oath"
+      },
+      {
+        "id": "D",
+        "text": "A hidden truth"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "A white lie = निर्दोष (छोटा) झूठ। Example: He told a white lie to avoid hurting her feelings.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_098",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A blue-eyed boy",
+    "options": [
+      {
+        "id": "A",
+        "text": "A foreign student"
+      },
+      {
+        "id": "B",
+        "text": "A naughty child"
+      },
+      {
+        "id": "C",
+        "text": "A favourite of someone in authority"
+      },
+      {
+        "id": "D",
+        "text": "A very handsome boy"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A blue-eyed boy = चहेता, प्रिय व्यक्ति। Example: He is the blue-eyed boy of the manager.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_099",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A dog in the manger",
+    "options": [
+      {
+        "id": "A",
+        "text": "A person who spoils others' enjoyment of what he cannot use himself"
+      },
+      {
+        "id": "B",
+        "text": "A lazy farm worker"
+      },
+      {
+        "id": "C",
+        "text": "A person who loves animals"
+      },
+      {
+        "id": "D",
+        "text": "A faithful servant"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "A dog in the manger = जो न खुद ले, न दूसरों को लेने दे। Example: Don't be a dog in the manger; let others use the hall.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_100",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A cat's paw",
+    "options": [
+      {
+        "id": "A",
+        "text": "A lucky charm"
+      },
+      {
+        "id": "B",
+        "text": "A gentle touch"
+      },
+      {
+        "id": "C",
+        "text": "A person used by another to do unpleasant work"
+      },
+      {
+        "id": "D",
+        "text": "A clever thief"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "A cat's paw = दूसरों के हाथ की कठपुतली। Example: The clerk was only a cat's paw of the corrupt officer.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_101",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A fair-weather friend",
+    "options": [
+      {
+        "id": "A",
+        "text": "A friend who is always honest"
+      },
+      {
+        "id": "B",
+        "text": "A friend who stays only in good times"
+      },
+      {
+        "id": "C",
+        "text": "A friend who loves travel"
+      },
+      {
+        "id": "D",
+        "text": "A friend who works in a weather office"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A fair-weather friend = मतलबी दोस्त (सिर्फ़ अच्छे समय का साथी)। Example: He proved a fair-weather friend and vanished when I lost my job.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_102",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A rolling stone",
+    "options": [
+      {
+        "id": "A",
+        "text": "A rich traveller"
+      },
+      {
+        "id": "B",
+        "text": "A very hard-working person"
+      },
+      {
+        "id": "C",
+        "text": "A stubborn man"
+      },
+      {
+        "id": "D",
+        "text": "A person who never settles in one place or job"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A rolling stone = अस्थिर स्वभाव का व्यक्ति। Example: He is a rolling stone who has changed ten jobs in five years.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_103",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A wet blanket",
+    "options": [
+      {
+        "id": "A",
+        "text": "A comfortable bed covering"
+      },
+      {
+        "id": "B",
+        "text": "A weak swimmer"
+      },
+      {
+        "id": "C",
+        "text": "A person who spoils others' enjoyment"
+      },
+      {
+        "id": "D",
+        "text": "A very generous host"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A wet blanket = रंग में भंग डालने वाला। Example: Don't be a wet blanket; come and enjoy the party.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_104",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A snake in the grass",
+    "options": [
+      {
+        "id": "A",
+        "text": "A hidden enemy or treacherous friend"
+      },
+      {
+        "id": "B",
+        "text": "A harmless creature"
+      },
+      {
+        "id": "C",
+        "text": "A lucky find"
+      },
+      {
+        "id": "D",
+        "text": "A garden pest"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A snake in the grass = छिपा हुआ शत्रु / विश्वासघाती मित्र। Example: Beware of him; he is a snake in the grass.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_105",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A wolf in sheep's clothing",
+    "options": [
+      {
+        "id": "A",
+        "text": "A farmer dressed in wool"
+      },
+      {
+        "id": "B",
+        "text": "A dangerous person who pretends to be harmless"
+      },
+      {
+        "id": "C",
+        "text": "A shepherd"
+      },
+      {
+        "id": "D",
+        "text": "A weak person among strong ones"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "A wolf in sheep's clothing = भेड़ की खाल में भेड़िया। Example: The kind-looking agent was a wolf in sheep's clothing.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_106",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A damp squib",
+    "options": [
+      {
+        "id": "A",
+        "text": "A powerful explosion"
+      },
+      {
+        "id": "B",
+        "text": "A wet cloth"
+      },
+      {
+        "id": "C",
+        "text": "A sudden success"
+      },
+      {
+        "id": "D",
+        "text": "A disappointing failure"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "A damp squib = निराशाजनक असफलता, फुस्स हो जाने वाली चीज़। Example: The much-hyped film turned out to be a damp squib.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_107",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To cut the Gordian knot",
+    "options": [
+      {
+        "id": "A",
+        "text": "To ruin a plan"
+      },
+      {
+        "id": "B",
+        "text": "To solve a difficult problem in a bold way"
+      },
+      {
+        "id": "C",
+        "text": "To untie a rope slowly"
+      },
+      {
+        "id": "D",
+        "text": "To postpone a decision"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Cut the Gordian knot = उलझी समस्या को साहसिक तरीके से सुलझाना। Example: The CEO cut the Gordian knot by closing the loss-making unit.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_108",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To leave in the lurch",
+    "options": [
+      {
+        "id": "A",
+        "text": "To abandon someone in difficulty"
+      },
+      {
+        "id": "B",
+        "text": "To help someone"
+      },
+      {
+        "id": "C",
+        "text": "To go away quietly"
+      },
+      {
+        "id": "D",
+        "text": "To leave early from a party"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Leave in the lurch = मुसीबत में अकेला छोड़ देना। Example: His partners left him in the lurch.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_109",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To make a clean breast of",
+    "options": [
+      {
+        "id": "A",
+        "text": "To hide the truth"
+      },
+      {
+        "id": "B",
+        "text": "To take credit"
+      },
+      {
+        "id": "C",
+        "text": "To wash oneself"
+      },
+      {
+        "id": "D",
+        "text": "To confess fully"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Make a clean breast of = सब कुछ साफ़-साफ़ कबूल कर लेना। Example: The boy made a clean breast of his mistake.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_110",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To pay lip service",
+    "options": [
+      {
+        "id": "A",
+        "text": "To speak very softly"
+      },
+      {
+        "id": "B",
+        "text": "To praise sincerely"
+      },
+      {
+        "id": "C",
+        "text": "To express support without really acting on it"
+      },
+      {
+        "id": "D",
+        "text": "To pay a fine"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Pay lip service = सिर्फ़ ज़ुबानी समर्थन देना। Example: Many leaders pay lip service to women's rights.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_111",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To play fast and loose",
+    "options": [
+      {
+        "id": "A",
+        "text": "To work very efficiently"
+      },
+      {
+        "id": "B",
+        "text": "To tell the truth"
+      },
+      {
+        "id": "C",
+        "text": "To loosen a knot"
+      },
+      {
+        "id": "D",
+        "text": "To behave in an irresponsible, unreliable way"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Play fast and loose = बेईमानी/लापरवाही से पेश आना। Example: He played fast and loose with other people's money.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_112",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To take to one's heels",
+    "options": [
+      {
+        "id": "A",
+        "text": "To run away"
+      },
+      {
+        "id": "B",
+        "text": "To walk slowly"
+      },
+      {
+        "id": "C",
+        "text": "To stand firm"
+      },
+      {
+        "id": "D",
+        "text": "To follow someone"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Take to one's heels = भाग खड़े होना। Example: The thieves took to their heels on seeing the police.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_113",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To take French leave",
+    "options": [
+      {
+        "id": "A",
+        "text": "To leave France"
+      },
+      {
+        "id": "B",
+        "text": "To be absent without permission"
+      },
+      {
+        "id": "C",
+        "text": "To resign with notice"
+      },
+      {
+        "id": "D",
+        "text": "To take a long holiday"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Take French leave = बिना अनुमति ग़ायब हो जाना। Example: He took French leave from office to watch the match.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_114",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To the bitter end",
+    "options": [
+      {
+        "id": "A",
+        "text": "With great joy"
+      },
+      {
+        "id": "B",
+        "text": "With a sour taste"
+      },
+      {
+        "id": "C",
+        "text": "Until the very end, however difficult"
+      },
+      {
+        "id": "D",
+        "text": "Without finishing"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "To the bitter end = अंत तक, चाहे कितना भी कठिन हो। Example: They fought to the bitter end.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_115",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: At loggerheads",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sitting in a meeting"
+      },
+      {
+        "id": "B",
+        "text": "In strong disagreement"
+      },
+      {
+        "id": "C",
+        "text": "Working on timber"
+      },
+      {
+        "id": "D",
+        "text": "In perfect agreement"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "At loggerheads = गहरे मतभेद में। Example: The two partners are at loggerheads over profits.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_116",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Hobson's choice",
+    "options": [
+      {
+        "id": "A",
+        "text": "A difficult but right decision"
+      },
+      {
+        "id": "B",
+        "text": "A wise choice"
+      },
+      {
+        "id": "C",
+        "text": "No real choice at all"
+      },
+      {
+        "id": "D",
+        "text": "A choice among many options"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Hobson's choice = कोई विकल्प न होना (जो मिले वही लेना)। Example: With only one bus available, it was Hobson's choice.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_117",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To nip in the bud",
+    "options": [
+      {
+        "id": "A",
+        "text": "To plant seeds"
+      },
+      {
+        "id": "B",
+        "text": "To encourage growth"
+      },
+      {
+        "id": "C",
+        "text": "To cut a flower"
+      },
+      {
+        "id": "D",
+        "text": "To stop something at an early stage"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Nip in the bud = शुरू में ही रोक देना। Example: The teacher nipped the trouble in the bud.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_118",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To cry for the moon",
+    "options": [
+      {
+        "id": "A",
+        "text": "To ask for something impossible"
+      },
+      {
+        "id": "B",
+        "text": "To weep at night"
+      },
+      {
+        "id": "C",
+        "text": "To demand a fair share"
+      },
+      {
+        "id": "D",
+        "text": "To admire nature"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Cry for the moon = असंभव चीज़ की माँग करना। Example: Asking for a free flat is crying for the moon.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_119",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To make a clean sweep",
+    "options": [
+      {
+        "id": "A",
+        "text": "To lose everything"
+      },
+      {
+        "id": "B",
+        "text": "To start afresh"
+      },
+      {
+        "id": "C",
+        "text": "To win completely"
+      },
+      {
+        "id": "D",
+        "text": "To clean a room thoroughly"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Make a clean sweep = सब कुछ जीत लेना। Example: The party made a clean sweep in the election.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_120",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To pick holes in",
+    "options": [
+      {
+        "id": "A",
+        "text": "To dig the ground"
+      },
+      {
+        "id": "B",
+        "text": "To repair something"
+      },
+      {
+        "id": "C",
+        "text": "To praise something"
+      },
+      {
+        "id": "D",
+        "text": "To find faults in"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Pick holes in = कमियाँ निकालना। Example: Critics picked holes in the new policy.",
+    "language": "en"
+  }
+]

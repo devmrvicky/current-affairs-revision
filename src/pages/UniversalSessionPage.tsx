@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Pause, Play, Flag, ChevronLeft, ChevronRight, LayoutGrid, X, AlertTriangle, CheckCircle2, XCircle } from 'lucide-react';
+import { Pause, Play, Flag, ChevronLeft, ChevronRight, LayoutGrid, X, AlertTriangle, CheckCircle2, XCircle, Send } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { usePracticeSessionStore } from '../store/practiceSessionStore';
 import { useDailyGoalStore } from '../store/dailyGoalStore';
@@ -12,6 +12,13 @@ import { QuestionPalette } from '../components/quiz/QuestionPalette';
 import { ExamShell } from '../components/exam/ExamShell';
 import { QuestionMarkdownRenderer, QuestionOptionContent } from '../components/mock/QuestionMarkdownRenderer';
 import { useExamKeyboardNavigation } from '../hooks/useExamKeyboardNavigation';
+import { useSessionPresence } from '../hooks/useSessionPresence';
+import { useExitTest } from '../hooks/useExitTest';
+import { SubmitTestDialog } from '../components/exam/SubmitTestDialog';
+import { MarkPurposeSheet } from '../components/exam/MarkPurposeSheet';
+import { FloatingQuestionNav } from '../components/exam/FloatingQuestionNav';
+import { syncQuestionMark } from '../services/questionMarkService';
+import { effectivePurpose, getMarkPurposeInfo, type MarkPurpose } from '../types/questionMark';
 import { getOptionLabel } from '../utils';
 import type { UniversalQuestion } from '../types/universalQuestion';
 import type { QuestionAttempt } from '../types';
@@ -48,7 +55,8 @@ function toDisplayAttempts(questionIds: string[], states: SessionQuestionState[]
       status,
       timeTaken: state.timeTaken,
       bookmarked: false,
-      markedForReview: state.isMarkedForReview,
+      markedForReview: !!effectivePurpose(state),
+      markPurpose: effectivePurpose(state),
     };
   });
 }
@@ -56,8 +64,8 @@ function toDisplayAttempts(questionIds: string[], states: SessionQuestionState[]
 export default function UniversalSessionPage() {
   const navigate = useNavigate();
   const {
-    session, selectAnswer, toggleMarkForReview, goToQuestion, addTimeSpent,
-    pauseSession, resumeSession, completeSession, clearSession,
+    session, selectAnswer, clearAnswer, setMarkPurpose, goToQuestion, addTimeSpent,
+    pauseSession, resumeSession, completeSession,
   } = usePracticeSessionStore();
   const { increment: incrementQuestionsGoal, incrementTests: incrementTestsGoal } = useDailyGoalStore();
 
@@ -65,6 +73,7 @@ export default function UniversalSessionPage() {
   const [loaded, setLoaded] = useState(false);
   const [showPalette, setShowPalette] = useState(false);
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
+  const [showMarkSheet, setShowMarkSheet] = useState(false);
   const [isFinishing, setIsFinishing] = useState(false);
   const finishingRef = useRef(false);
 
@@ -80,6 +89,11 @@ export default function UniversalSessionPage() {
   // session.pausedAt correctly, but a local flag defaulting to `false` on
   // remount would show "not paused" even while the session actually is.
   const isPaused = !!session?.pausedAt;
+
+  // Keeps the clock honest while this page is open and stops it when the learner leaves (the session is
+  // saved, not submitted). The Close button steps back to wherever the test was entered from.
+  useSessionPresence('universal', !!session);
+  const exitTest = useExitTest('universal', session ?? undefined);
 
   // Resolve content once per session (not on every answer) — question
   // identity never changes mid-session, only user state does.
@@ -123,6 +137,9 @@ export default function UniversalSessionPage() {
 
   /** Seconds on the current question since the learner arrived (or last flushed). */
   const dwellSeconds = useCallback(() => Math.max(0, Math.floor((Date.now() - enteredAtRef.current) / 1000)), []);
+
+  /** Starts a fresh dwell stretch (after its seconds have been banked). */
+  const restartDwell = useCallback(() => { enteredAtRef.current = Date.now(); }, []);
 
   /** Banks the dwell time on the current question into the session before leaving it. Answered questions are frozen by the store. */
   const flushDwell = useCallback(() => {
@@ -177,14 +194,16 @@ export default function UniversalSessionPage() {
   const total = session?.questionIds.length ?? 0;
   const currentIndex = session?.currentIndex ?? 0;
   useExamKeyboardNavigation({
-    enabled: loaded && !!session && !isPaused && !showPalette && !showSubmitConfirm && !isFinishing,
+    enabled: loaded && !!session && !isPaused && !showPalette && !showSubmitConfirm && !showMarkSheet && !isFinishing,
     canGoPrevious: currentIndex > 0,
     canGoNext: currentIndex < total - 1,
     onPrevious: () => navigateTo(currentIndex - 1),
     onNext: () => navigateTo(currentIndex + 1),
   });
 
-  if (!session || !loaded) {
+  // `suspendedAt` is cleared by the presence hook within a frame of mounting; until then the clock is not
+  // running, so don't render (or let the timer judge) a session whose away-time hasn't been folded in yet.
+  if (!session || !loaded || session.suspendedAt) {
     return (
       <div className="exam-shell" aria-busy="true" aria-label="Loading test">
         <div className="exam-shell__header" style={{ height: 56 }} />
@@ -203,14 +222,18 @@ export default function UniversalSessionPage() {
   const isLast = session.currentIndex >= session.questionIds.length - 1;
   const progress = ((session.currentIndex + 1) / session.questionIds.length) * 100;
   const unansweredCount = session.states.filter((s) => s.selectedAnswer === null).length;
-  const markedCount = session.states.filter((s) => s.isMarkedForReview).length;
+  const markedCount = session.states.filter((s) => effectivePurpose(s)).length;
+  const currentPurpose = effectivePurpose(currentState);
   const displayAttempts = toDisplayAttempts(session.questionIds, session.states, questionsById);
 
   function handleSelect(optionId: string) {
-    if (isAnswered) return;
-    // Total time on this question = time banked on earlier visits + this visit.
-    const timeTaken = currentState.timeTaken + dwellSeconds();
-    selectAnswer(optionId, timeTaken);
+    // Practice reveals the answer immediately, so it is final. Test lets the learner change it.
+    if (isAnswered && !isTestMode) return;
+    if (isTestMode && currentState.selectedAnswer === optionId) return;
+    // Total time on this question = time banked on earlier visits + this stretch; then restart the stretch
+    // so the same seconds are never counted twice when the learner leaves (Test keeps counting after an answer).
+    selectAnswer(optionId, currentState.timeTaken + dwellSeconds());
+    restartDwell();
   }
 
   function handleNext() {
@@ -222,18 +245,33 @@ export default function UniversalSessionPage() {
     }
   }
 
-  function handleQuit() {
-    if (window.confirm('Quit this session? Your progress will be lost and nothing will be recorded.')) {
-      clearSession();
-      navigate('/');
+  /** Records the chosen purpose on the session, and — for purposes that outlive this test — in the Review Center, telling the learner only once that write has succeeded. */
+  async function applyMark(purpose: MarkPurpose | null) {
+    const index = session!.currentIndex;
+    setShowMarkSheet(false);
+    setMarkPurpose(purpose, index);
+    if (!currentQuestion) return;
+    try {
+      const saved = await syncQuestionMark(currentQuestion, purpose, session!.config.label);
+      if (purpose === null) toast('Mark removed', { id: 'mark-toast' });
+      else if (saved) toast.success(`Saved for ${getMarkPurposeInfo(purpose)?.label.toLowerCase()} — find it in Review Center`, { id: 'mark-toast' });
+      else toast.success('Marked for review in this test', { id: 'mark-toast' });
+    } catch (err) {
+      console.error('Could not save question mark', err);
+      toast.error("The mark is on this test, but couldn't be saved to your Review Center.", { id: 'mark-toast' });
     }
+  }
+
+  function handleClose() {
+    exitTest();
+    toast('Progress saved — resume this test from Home.', { icon: '💾', id: 'test-saved' });
   }
 
   const header = (
     <>
       <div className="px-3 sm:px-4 min-h-14 py-2 flex items-center justify-between gap-2 sm:gap-4">
         <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
-          <button onClick={handleQuit} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0" aria-label="Quit">
+          <button onClick={handleClose} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0" aria-label="Close test (progress is saved)" title="Close — your progress is saved">
             <X size={18} style={{ color: 'var(--text-secondary)' }} />
           </button>
           <div className="min-w-0">
@@ -289,17 +327,18 @@ export default function UniversalSessionPage() {
         <ChevronLeft size={14} /> Previous
       </button>
       <button
-        onClick={toggleMarkForReview}
-        aria-pressed={currentState.isMarkedForReview}
+        onClick={() => setShowMarkSheet(true)}
+        aria-haspopup="dialog"
+        aria-label={currentPurpose ? `Marked: ${getMarkPurposeInfo(currentPurpose)?.label}. Change or remove mark` : 'Mark this question'}
         className="px-3 sm:px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium flex items-center gap-1.5"
         style={{
-          background: currentState.isMarkedForReview ? 'rgba(245,158,11,0.15)' : 'var(--card)',
-          color: currentState.isMarkedForReview ? '#b45309' : 'var(--text-secondary)',
-          border: '1px solid var(--border)',
+          background: currentPurpose ? `${getMarkPurposeInfo(currentPurpose)?.color}22` : 'var(--card)',
+          color: currentPurpose ? getMarkPurposeInfo(currentPurpose)?.color : 'var(--text-secondary)',
+          border: `1px solid ${currentPurpose ? getMarkPurposeInfo(currentPurpose)?.color : 'var(--border)'}`,
         }}
       >
-        <Flag size={14} fill={currentState.isMarkedForReview ? 'currentColor' : 'none'} />
-        <span className="hidden xs:inline">Mark for Review</span><span className="xs:hidden">Mark</span>
+        <Flag size={14} fill={currentPurpose ? 'currentColor' : 'none'} />
+        <span>{currentPurpose ? getMarkPurposeInfo(currentPurpose)?.badge === '⚑' ? 'Marked' : getMarkPurposeInfo(currentPurpose)?.label.split(' / ')[0] : 'Mark'}</span>
       </button>
       <button className="btn-primary px-4 sm:px-5 py-2.5 text-xs sm:text-sm flex items-center gap-1" onClick={handleNext} disabled={isFinishing}>
         {isLast ? (isTestMode ? 'Submit Test' : 'Finish') : isTestMode ? 'Next' : isAnswered ? 'Next' : 'Skip'}
@@ -308,8 +347,23 @@ export default function UniversalSessionPage() {
     </div>
   );
 
+  const submitButton = (
+    <button type="button" onClick={() => setShowSubmitConfirm(true)} disabled={isFinishing} className="btn-primary w-full flex items-center justify-center gap-2 text-sm py-2.5">
+      <Send size={14} /> Submit Test
+    </button>
+  );
+
   const overlays = (
     <>
+      <MarkPurposeSheet
+        open={showMarkSheet}
+        current={currentPurpose}
+        questionNumber={session.currentIndex + 1}
+        onSelect={(p) => applyMark(p)}
+        onRemove={() => applyMark(null)}
+        onClose={() => setShowMarkSheet(false)}
+      />
+
       <AnimatePresence>
         {isPaused && (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-50 flex items-center justify-center" style={{ background: 'rgba(0,0,0,0.7)' }} role="dialog" aria-modal="true" aria-label="Paused">
@@ -322,36 +376,31 @@ export default function UniversalSessionPage() {
         )}
       </AnimatePresence>
 
-      <AnimatePresence>
-        {showSubmitConfirm && (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-[140] flex items-center justify-center p-4 bg-black/60" onClick={() => setShowSubmitConfirm(false)} role="dialog" aria-modal="true" aria-label="Submit test">
-            <motion.div initial={{ y: 20, opacity: 0, scale: 0.97 }} animate={{ y: 0, opacity: 1, scale: 1 }} exit={{ y: 20, opacity: 0, scale: 0.97 }} className="card p-6 max-w-sm w-full text-center" onClick={(e) => e.stopPropagation()}>
-              <div className="w-14 h-14 rounded-2xl bg-amber-50 dark:bg-amber-900/20 flex items-center justify-center mx-auto mb-4">
-                <AlertTriangle size={26} className="text-amber-500" />
-              </div>
-              <h2 className="text-lg font-display font-bold mb-1" style={{ color: 'var(--text-primary)' }}>Submit Test?</h2>
-              <p className="text-sm mb-5" style={{ color: 'var(--text-secondary)' }}>
-                {unansweredCount} unanswered{markedCount > 0 ? `, ${markedCount} marked for review` : ''}.
-              </p>
-              <button onClick={finishAndRecord} disabled={isFinishing} className="btn-primary text-sm py-2.5 w-full">
-                {isFinishing ? 'Submitting…' : 'Submit Test'}
-              </button>
-              <button onClick={() => setShowSubmitConfirm(false)} disabled={isFinishing} className="btn-ghost text-sm w-full mt-2">Go back</button>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      <SubmitTestDialog
+        open={showSubmitConfirm}
+        total={session.questionIds.length}
+        answered={session.questionIds.length - unansweredCount}
+        marked={markedCount}
+        busy={isFinishing}
+        onConfirm={finishAndRecord}
+        onCancel={() => setShowSubmitConfirm(false)}
+      />
 
       <AnimatePresence>
         {showPalette && (
           <>
             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-40 bg-black/50" onClick={() => setShowPalette(false)} />
-            <motion.div initial={{ x: '100%' }} animate={{ x: 0 }} exit={{ x: '100%' }} transition={{ type: 'spring', damping: 25, stiffness: 200 }} className="fixed right-0 top-0 bottom-0 z-50 w-72 max-w-[85vw] p-4 overflow-y-auto" style={{ background: 'var(--card)', borderLeft: '1px solid var(--border)', paddingTop: 'max(1rem, env(safe-area-inset-top, 0px))', paddingBottom: 'max(1rem, env(safe-area-inset-bottom, 0px))' }} role="dialog" aria-modal="true" aria-label="Question palette">
-              <div className="flex items-center justify-between mb-4">
+            <motion.div initial={{ x: '100%' }} animate={{ x: 0 }} exit={{ x: '100%' }} transition={{ type: 'spring', damping: 25, stiffness: 200 }} className="fixed right-0 top-0 bottom-0 z-50 w-72 max-w-[85vw] flex flex-col" style={{ background: 'var(--card)', borderLeft: '1px solid var(--border)', paddingTop: 'env(safe-area-inset-top, 0px)', paddingBottom: 'env(safe-area-inset-bottom, 0px)' }} role="dialog" aria-modal="true" aria-label="Question palette">
+              <div className="flex items-center justify-between px-4 pt-4 pb-2 flex-shrink-0">
                 <h2 className="font-display font-bold" style={{ color: 'var(--text-primary)' }}>Question Palette</h2>
                 <button onClick={() => setShowPalette(false)} className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10" aria-label="Close palette"><X size={16} style={{ color: 'var(--text-secondary)' }} /></button>
               </div>
-              <QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={(idx) => { navigateTo(idx); setShowPalette(false); }} hideCorrectness={isTestMode} />
+              <div className="flex-1 min-h-0 overflow-y-auto px-4 pb-3">
+                <QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={(idx) => { navigateTo(idx); setShowPalette(false); }} hideCorrectness={isTestMode} />
+              </div>
+              <div className="flex-shrink-0 p-4" style={{ borderTop: '1px solid var(--border)' }}>
+                <button type="button" onClick={() => { setShowPalette(false); setShowSubmitConfirm(true); }} className="btn-primary w-full flex items-center justify-center gap-2 text-sm py-2.5"><Send size={14} /> Submit Test</button>
+              </div>
             </motion.div>
           </>
         )}
@@ -365,9 +414,16 @@ export default function UniversalSessionPage() {
       footer={footer}
       overlays={overlays}
       palette={<QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={navigateTo} hideCorrectness={isTestMode} />}
+      paletteFooter={submitButton}
+      floating={
+        // Only when correctness is actually on screen: Practice, after answering. Test mode never reveals it, so no controls there.
+        !isTestMode && isAnswered && currentQuestion ? (
+          <FloatingQuestionNav canPrevious={session.currentIndex > 0} canNext={!isLast} onPrevious={() => navigateTo(session.currentIndex - 1)} onNext={() => navigateTo(session.currentIndex + 1)} />
+        ) : null
+      }
     >
       <AnimatePresence mode="wait">
-        <motion.div key={session.currentIndex} initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.15 }} className="px-3 sm:px-5 lg:px-8 py-4 sm:py-6">
+        <motion.div key={session.currentIndex} initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.15 }} className={`py-4 sm:py-6 ${isTestMode ? 'px-3 sm:px-5 lg:px-8' : 'px-3 sm:px-5 md:px-16 pb-16 md:pb-6'}`}>
           {!currentQuestion ? (
             // Question resolution failed — show it plainly rather than crash or silently substitute another question (master prompt §22).
             <div className="flex items-start gap-3 p-4 rounded-xl" style={{ background: 'rgba(239,68,68,0.08)' }}>
@@ -422,6 +478,13 @@ export default function UniversalSessionPage() {
                   );
                 })}
               </div>
+
+              {/* Test mode: answers aren't final until submitted — they can be changed or cleared. */}
+              {isTestMode && isAnswered && (
+                <button type="button" onClick={clearAnswer} className="mt-3 text-xs font-medium underline-offset-2 hover:underline" style={{ color: 'var(--text-muted)' }}>
+                  Clear response
+                </button>
+              )}
 
               {/* Practice-mode reveal — driven by config.mode, never the legacy global setting (master prompt §11) */}
               {!isTestMode && isAnswered && (

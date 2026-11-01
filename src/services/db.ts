@@ -1,3 +1,4 @@
+import type { SavedSessionRecord } from '../types/savedSession';
 import { openDB, DBSchema, IDBPDatabase } from 'idb';
 import { v4 as uuidv4 } from 'uuid';
 import type { SavedTest, Statistics, Settings, WrongQuestion, BookmarkedQuestion, MarkedReviewQuestion, ChapterStats, DailyGoal, NotificationSettings, NotificationCategorySettings, Highlight, ReadingProgress, ReaderNote, ReadingPrefs, AiSummaryCacheEntry } from '../types';
@@ -55,6 +56,10 @@ export interface UniversalAttemptRecord {
   /** The option id picked, or null when skipped. */
   selectedAnswer?: string | null;
   markedForReview?: boolean;
+  /** Why it was marked — see types/questionMark.ts. Absent on older rows (a markedForReview of true then meant "review"). */
+  markPurpose?: 'doubtful' | 'practice' | 'revision' | 'review';
+  /** Whether the learner ever opened the question — separates "skipped" from "never reached". */
+  visited?: boolean;
   /** 0-based position in the session — restores the original question order. */
   questionIndex?: number;
   sessionMode?: 'practice' | 'test';
@@ -156,10 +161,16 @@ interface AppDB extends DBSchema {
     value: MockAttemptRecord;
     indexes: { 'by-mockDefinitionId': string; 'by-completedAt': number };
   };
+  /** Unfinished sessions parked while another test is on screen — see types/savedSession.ts. */
+  savedSessions: {
+    key: string;
+    value: SavedSessionRecord;
+    indexes: { 'by-lastActiveAt': number };
+  };
 }
 
 const DB_NAME = 'CurrentAffairsDB';
-const DB_VERSION = 10;
+const DB_VERSION = 11;
 
 let dbInstance: IDBPDatabase<AppDB> | null = null;
 
@@ -224,6 +235,11 @@ async function getDB(): Promise<IDBPDatabase<AppDB>> {
         const maStore = db.createObjectStore('mockAttempts', { keyPath: 'id' });
         maStore.createIndex('by-mockDefinitionId', 'mockDefinitionId');
         maStore.createIndex('by-completedAt', 'completedAt');
+      }
+      if (oldVersion < 11) {
+        // Additive: parked unfinished sessions. No existing store or record is touched.
+        const ssStore = db.createObjectStore('savedSessions', { keyPath: 'id' });
+        ssStore.createIndex('by-lastActiveAt', 'lastActiveAt');
       }
     },
   });
@@ -1042,5 +1058,28 @@ export const mockAttemptsDB = {
     const db = await getDB();
     const all = await db.getAll('mockAttempts');
     return all.sort((a, b) => b.completedAt - a.completedAt);
+  },
+};
+
+// ─── Saved (parked) sessions ──────────────────────────────────────────────────
+// Unfinished sessions displaced from their engine's store. Written only by
+// sessionRegistry.ts; each row is the whole session (answers, marks, timers,
+// position), so resuming never depends on anything held in memory.
+export const savedSessionsDB = {
+  async put(record: SavedSessionRecord): Promise<void> {
+    const db = await getDB();
+    await db.put('savedSessions', record);
+  },
+  async get(id: string): Promise<SavedSessionRecord | undefined> {
+    const db = await getDB();
+    return db.get('savedSessions', id);
+  },
+  async getAll(): Promise<SavedSessionRecord[]> {
+    const db = await getDB();
+    return db.getAll('savedSessions');
+  },
+  async delete(id: string): Promise<void> {
+    const db = await getDB();
+    await db.delete('savedSessions', id);
   },
 };

@@ -6,6 +6,8 @@
 // (rank, percentile, cutoff, topper/past-test benchmarks) is optional and
 // is only ever populated from real stored data — never fabricated.
 
+import type { MarkPurpose } from './questionMark';
+
 export interface SummaryStats {
   score: number;
   maxScore: number;
@@ -17,6 +19,8 @@ export interface SummaryStats {
   unattempted: number;
   totalQuestions: number;
   timeTakenSeconds: number;
+  /** False for tests with no marking scheme (plain Practice): score then just equals correct answers and the UI says "Correct" rather than "Marks". Absent means true. */
+  scoringApplicable?: boolean;
 }
 
 export interface RankingInfo {
@@ -123,8 +127,71 @@ export interface HistoricalComparison {
   score: { current: number; previousAverage: number; changePoints: number };
 }
 
+/** A question referred to by the time insights. */
+export interface TimedQuestionRef {
+  questionId: string;
+  /** 1-based position in the test. */
+  index: number;
+  topicName: string;
+  seconds: number;
+  status: 'correct' | 'incorrect' | 'unattempted';
+}
+
+export interface TopicTime {
+  subjectId: string;
+  topicId: string;
+  topicName: string;
+  avgSeconds: number;
+  /** Questions with recorded time that this average is over. */
+  sample: number;
+  accuracy: number | null;
+}
+
+/** Everything here comes from per-question time the session actually recorded — `available` is false (and the rest empty) when it recorded none. */
+export interface TimeInsights {
+  available: boolean;
+  /** Mean over questions with recorded time > 0. */
+  averageSeconds: number | null;
+  averageCorrectSeconds: number | null;
+  averageIncorrectSeconds: number | null;
+  medianSeconds: number | null;
+  /** A question counts as unusually slow above this. */
+  slowThresholdSeconds: number | null;
+  /** Answered within this and wrong counts as fast-but-wrong. */
+  fastThresholdSeconds: number | null;
+  slowQuestions: TimedQuestionRef[];
+  fastIncorrect: TimedQuestionRef[];
+  /** Topics with at least 2 timed questions, slowest first. */
+  byTopic: TopicTime[];
+  /** Too few timed questions to call anything an outlier. */
+  tooFewToJudge: boolean;
+}
+
+export interface Recommendations {
+  /** Attempted but mostly wrong — a knowledge gap. */
+  needsRevision: AreaPerformance[];
+  /** Skipped a lot, or only moderate accuracy — needs more reps. */
+  needsPractice: AreaPerformance[];
+  /** Strong — can be revised less often. */
+  reviseLess: AreaPerformance[];
+  /** Too few questions to say anything (below the minimum sample). */
+  insufficient: { id: string; name: string; questionCount: number }[];
+}
+
+/** What the attempt actually recorded — sections that depend on missing data say so instead of inventing it. */
+export interface DataAvailability {
+  perQuestionTime: boolean;
+  /** Whether "skipped after opening" vs "never opened" is known. */
+  visitedState: boolean;
+}
+
 export interface QuestionAnalysis {
   questionId: string;
+  /** 1-based position in the test. */
+  index?: number;
+  topicName?: string;
+  /** Why it was marked (Doubtful / Further Practice / Revision / Mark for Review). */
+  markPurpose?: MarkPurpose;
   sectionId: string;
   subjectId: string;
   topicId: string;
@@ -162,4 +229,8 @@ export interface MockAnalysis {
   subjectPreference: SubjectPreference[];
   historicalComparison?: HistoricalComparison;
   solutions: QuestionAnalysis[];
+  /** Time-per-question insights (slow / fast-but-wrong / correct-vs-incorrect timing). */
+  timeInsights?: TimeInsights;
+  recommendations?: Recommendations;
+  dataAvailability?: DataAvailability;
 }

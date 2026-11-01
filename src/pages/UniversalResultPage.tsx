@@ -1,12 +1,14 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Trophy, CheckCircle2, XCircle, MinusCircle, ListChecks, RotateCcw, Home } from 'lucide-react';
+import { Trophy, ListChecks, RotateCcw, Home } from 'lucide-react';
 import { usePracticeSessionStore } from '../store/practiceSessionStore';
 import { resolveQuestionsByIds } from '../services/questionRepository';
 import { buildSessionQuestionIds, computeUniversalResult } from '../services/practiceService';
 import { getPracticeTestById } from '../services/practiceTestRepository';
 import { useCompletedPracticeSession } from '../hooks/useCompletedPracticeSession';
+import { analyzePracticeSession } from '../services/practiceAnalysisService';
+import { AnalysisView } from '../components/mock-analysis/AnalysisView';
 import { useStartPracticeTest } from '../hooks/useStartPracticeTest';
 import type { UniversalQuestion } from '../types/universalQuestion';
 
@@ -27,6 +29,9 @@ export default function UniversalResultPage() {
 
   const session = completed.status === 'ready' ? completed.session : null;
   const isPastAttempt = completed.status === 'ready' && completed.isPastAttempt;
+
+  // The same analysis the mock result page shows, built from this session's own recorded data.
+  const analysis = useMemo(() => (session && loaded ? analyzePracticeSession(session, questionsById) : null), [session, loaded, questionsById]);
 
   useEffect(() => {
     if (completed.status === 'missing' && !attemptId) { if (!leavingRef.current) navigate('/', { replace: true }); return; }
@@ -54,12 +59,6 @@ export default function UniversalResultPage() {
   const result = computeUniversalResult(session, questionsById);
   const hasNegativeMarking = (session.config.marking?.negativeMarks ?? 0) > 0;
 
-  function formatTime(seconds: number): string {
-    const m = Math.floor(seconds / 60);
-    const s = seconds % 60;
-    return `${m}:${String(s).padStart(2, '0')}`;
-  }
-
   async function handleRetry() {
     if (!session) return;
     setIsRetrying(true);
@@ -70,7 +69,9 @@ export default function UniversalResultPage() {
         const test = await getPracticeTestById(examId, subjectIds[0], testDefinitionId);
         if (test) {
           leavingRef.current = true;
-          if (!startTest(test, mode)) leavingRef.current = false; // learner declined to discard an in-progress session
+          // Replace the result screen with the new attempt so browser Back doesn't land on a result that no longer exists,
+          // and keep Close pointing at the screen this test was originally opened from.
+          startTest(test, mode, { returnTo: session.returnRoute, replace: !isPastAttempt });
           return;
         }
         // The definition is gone (source file renamed/removed): the exact questions this attempt used are still the safest "same test".
@@ -96,7 +97,7 @@ export default function UniversalResultPage() {
   }
 
   return (
-    <div className="space-y-6 pb-4">
+    <div className="space-y-6 pb-8 max-w-3xl mx-auto">
       <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="pt-4 text-center">
         <div className="w-16 h-16 rounded-2xl bg-brand-50 dark:bg-brand-900/20 flex items-center justify-center mx-auto mb-3">
           <Trophy size={28} className="text-brand-500" />
@@ -123,32 +124,6 @@ export default function UniversalResultPage() {
         )}
       </motion.div>
 
-      <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="grid grid-cols-2 gap-3">
-        <div className="card p-4 text-center">
-          <p className="text-2xl font-display font-bold" style={{ color: 'var(--text-primary)' }}>{result.accuracy}%</p>
-          <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Accuracy</p>
-        </div>
-        <div className="card p-4 text-center">
-          <p className="text-2xl font-display font-bold" style={{ color: 'var(--text-primary)' }}>{formatTime(result.timeTakenSeconds)}</p>
-          <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Time Used</p>
-        </div>
-        <div className="card p-4 text-center flex flex-col items-center">
-          <CheckCircle2 size={16} className="text-green-500 mb-1" />
-          <p className="text-lg font-display font-bold" style={{ color: 'var(--text-primary)' }}>{result.correct}</p>
-          <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Correct</p>
-        </div>
-        <div className="card p-4 text-center flex flex-col items-center">
-          <XCircle size={16} className="text-red-500 mb-1" />
-          <p className="text-lg font-display font-bold" style={{ color: 'var(--text-primary)' }}>{result.incorrect}</p>
-          <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Incorrect</p>
-        </div>
-        <div className="card p-4 text-center flex flex-col items-center col-span-2">
-          <MinusCircle size={16} style={{ color: 'var(--text-muted)' }} className="mb-1" />
-          <p className="text-lg font-display font-bold" style={{ color: 'var(--text-primary)' }}>{result.skipped}</p>
-          <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Skipped</p>
-        </div>
-      </motion.div>
-
       <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="space-y-2.5">
         <button onClick={() => navigate(attemptId ? `/session/result/${encodeURIComponent(attemptId)}/review` : '/session/result/review')} className="btn-secondary w-full flex items-center justify-center gap-2 py-3">
           <ListChecks size={16} /> Review Answers
@@ -160,6 +135,8 @@ export default function UniversalResultPage() {
           <Home size={16} /> {isPastAttempt ? 'Back' : 'Done'}
         </button>
       </motion.div>
+
+      {analysis && <AnalysisView analysis={analysis} variant="practice" />}
     </div>
   );
 }

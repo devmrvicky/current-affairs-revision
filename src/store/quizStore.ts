@@ -3,6 +3,10 @@ import { persist } from 'zustand/middleware';
 import type { QuizSession, QuestionAttempt, DailyQuiz, TestMeta } from '../types';
 import { v4 as uuidv4 } from 'uuid';
 import { shuffleQuestion } from '../utils';
+import type { MarkPurpose } from '../types/questionMark';
+import { activateQuiz, suspendQuiz, touchQuiz } from '../services/sessionLifecycle';
+import { sessionRegistry, parkInBackground } from '../services/sessionRegistry';
+import { captureOrigin, type ReturnOrigin } from '../services/returnRoute';
 
 interface QuizStore {
   session: QuizSession | null;
@@ -10,7 +14,15 @@ interface QuizStore {
   error: string | null;
 
   // Actions
-  startSession: (quiz: DailyQuiz, fileName: string, testMeta?: TestMeta) => void;
+  /** An unfinished session already in the store is parked in the registry, never discarded. `origin` (default: the screen the learner is on now) is where Close leads back to. */
+  startSession: (quiz: DailyQuiz, fileName: string, testMeta?: TestMeta, origin?: ReturnOrigin) => void;
+  /** Loads a previously saved session as the active one (the caller has already removed it from the registry). */
+  loadSession: (session: QuizSession) => void;
+  /** Sets (or, with null, removes) the mark and its purpose on a question. */
+  setMarkPurpose: (questionId: number, purpose: MarkPurpose | null) => void;
+  suspend: (at?: number) => void;
+  activate: () => void;
+  touch: () => void;
   submitAnswer: (selectedAnswer: string, timeTaken: number) => void;
   nextQuestion: () => void;
   goToQuestion: (index: number) => void;
@@ -31,7 +43,12 @@ export const useQuizStore = create<QuizStore>()(
       isLoading: false,
       error: null,
 
-      startSession: (quiz, fileName, testMeta) => {
+      startSession: (quiz, fileName, testMeta, origin = captureOrigin()) => {
+        const previous = get().session;
+        if (previous && !previous.isCompleted) {
+          parkInBackground(sessionRegistry.parkQuiz(suspendQuiz(previous)), 'the previous test');
+        }
+
         // Shuffle once, here, at session creation — the single funnel point
         // for every quiz type (Daily, Chapter, Monthly Magazine, Mixed
         // Revision, Bookmarks practice). The shuffled order then lives
@@ -73,10 +90,15 @@ export const useQuizStore = create<QuizStore>()(
             isPaused: false,
             visitedIndices: [0],
             testMeta,
+            lastActiveAt: Date.now(),
+            returnRoute: origin.route,
+            returnHistoryIdx: origin.idx,
           },
           error: null,
         });
       },
+
+      loadSession: (session) => set({ session, error: null }),
 
       submitAnswer: (selectedAnswer, timeTaken) => {
         const { session } = get();
@@ -167,10 +189,40 @@ export const useQuizStore = create<QuizStore>()(
       toggleMarkForReview: (questionId) => {
         const { session } = get();
         if (!session) return;
+        const updated = session.attempts.map((a) => {
+          if (a.questionId !== questionId) return a;
+          const on = !(a.markPurpose ?? (a.markedForReview ? 'review' : undefined));
+          return { ...a, markedForReview: on, markPurpose: on ? ('review' as const) : undefined };
+        });
+        set({ session: { ...session, attempts: updated } });
+      },
+
+      setMarkPurpose: (questionId, purpose) => {
+        const { session } = get();
+        if (!session) return;
         const updated = session.attempts.map((a) =>
-          a.questionId === questionId ? { ...a, markedForReview: !a.markedForReview } : a
+          a.questionId === questionId ? { ...a, markPurpose: purpose ?? undefined, markedForReview: purpose === 'review' } : a
         );
         set({ session: { ...session, attempts: updated } });
+      },
+
+      suspend: (at) => {
+        const { session } = get();
+        if (!session) return;
+        const next = suspendQuiz(session, at);
+        if (next !== session) set({ session: next });
+      },
+
+      activate: () => {
+        const { session } = get();
+        if (!session || session.isCompleted) return;
+        set({ session: activateQuiz(session) });
+      },
+
+      touch: () => {
+        const { session } = get();
+        if (!session || session.isCompleted) return;
+        set({ session: touchQuiz(session) });
       },
 
       clearSession: () => set({ session: null, error: null }),

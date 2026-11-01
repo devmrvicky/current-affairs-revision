@@ -1,0 +1,1068 @@
+[
+  {
+    "id": "q042",
+    "question": "tan x/sec x को सरल कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "cos x"
+      },
+      {
+        "id": "B",
+        "text": "cosec x"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "sin x"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) sin x",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "q043",
+    "question": "यदि 1 − sin² B = K sin² B है, तो K ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "sec² B"
+      },
+      {
+        "id": "B",
+        "text": "cosec² B"
+      },
+      {
+        "id": "C",
+        "text": "cot² B"
+      },
+      {
+        "id": "D",
+        "text": "tan B"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) cot² B",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "q044",
+    "question": "सरल कीजिए: (cosec A − cot A)² + (cosec A + cot A)² − 4cot² A।",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 2",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "q045",
+    "question": "सरलीकृत कीजिए: (tan² θ − sin² θ)/(2 + tan² θ + cot² θ)।",
+    "options": [
+      {
+        "id": "A",
+        "text": "cos² θ"
+      },
+      {
+        "id": "B",
+        "text": "sec⁶ θ"
+      },
+      {
+        "id": "C",
+        "text": "tan⁶ θ"
+      },
+      {
+        "id": "D",
+        "text": "sin⁶ θ"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) sin⁶ θ",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q046",
+    "question": "सरल कीजिए: [(1 + sin A)(sec A − tan A)]/[cosec A(1 − cos A)(cosec A + cot A)]।",
+    "options": [
+      {
+        "id": "A",
+        "text": "tan A"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "cos A"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) cos A",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q047",
+    "question": "सरल कीजिए: (sin A · tan A)/(1 − cos A) − (cos A · cot A)/(1 − sin A)।",
+    "options": [
+      {
+        "id": "A",
+        "text": "sec A − cosec A"
+      },
+      {
+        "id": "B",
+        "text": "sin A − cos A"
+      },
+      {
+        "id": "C",
+        "text": "cosec A − sec A"
+      },
+      {
+        "id": "D",
+        "text": "cos A − sin A"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) sec A − cosec A",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q048",
+    "question": "यदि x = [(1 + cos θ)(2 − 2cos θ)]/[(2 + 2sin θ)(1 − sin θ)] है, तो x + 1/x + 2 का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "cosec² θ"
+      },
+      {
+        "id": "B",
+        "text": "cos² θ + sec² θ"
+      },
+      {
+        "id": "C",
+        "text": "sec² θ sin² θ"
+      },
+      {
+        "id": "D",
+        "text": "cosec² θ sec² θ"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) cosec² θ sec² θ",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q049",
+    "question": "यदि 1/(cosec θ + 1) + 1/(cosec θ − 1) = 2 sec θ है और 0° < θ < 90° है, तो (cot θ − 2cosec θ)/sec θ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(4 − √2)/2"
+      },
+      {
+        "id": "B",
+        "text": "(4 + √2)/2"
+      },
+      {
+        "id": "C",
+        "text": "(√2 − 4)/2"
+      },
+      {
+        "id": "D",
+        "text": "(−√2 − 4)/2"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) (√2 − 4)/2",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q050",
+    "question": "यदि sin⁴ x − cos⁴ x = 1/5 है, तो 2sin² x − 1 का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/3"
+      },
+      {
+        "id": "B",
+        "text": "1/2"
+      },
+      {
+        "id": "C",
+        "text": "1/5"
+      },
+      {
+        "id": "D",
+        "text": "1/4"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 1/5",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "q051",
+    "question": "सरलीकृत कीजिए: (2sin² A − sin⁴ A + cos⁴ A)/(3sin⁴ A − 2sin⁶ A + 3cos⁴ A − 2cos⁶ A)।",
+    "options": [
+      {
+        "id": "A",
+        "text": "sec A"
+      },
+      {
+        "id": "B",
+        "text": "sin A"
+      },
+      {
+        "id": "C",
+        "text": "cot A"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 1",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q052",
+    "question": "निम्नलिखित का मान ज्ञात कीजिए: tan A/[1 − √(cosec² A − 1)] + cot A/[1 − √(sec² A − 1)]।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 − tan A + cot A"
+      },
+      {
+        "id": "B",
+        "text": "1 + tan A − cot A"
+      },
+      {
+        "id": "C",
+        "text": "1 + tan A + cot A"
+      },
+      {
+        "id": "D",
+        "text": "1 − tan A − cot A"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 1 + tan A + cot A",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q053",
+    "question": "यदि K × (sin A − 2sin³ A)/(2cos³ A − cos A) = 1 है, तो K का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "cot A"
+      },
+      {
+        "id": "B",
+        "text": "cosec A"
+      },
+      {
+        "id": "C",
+        "text": "tan A"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) cot A",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "q054",
+    "question": "यदि sin A + cos A = √2 है, तो tan A + cot A का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/√2"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "1/2"
+      },
+      {
+        "id": "D",
+        "text": "√2"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 2",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "q055",
+    "question": "यदि sin² A − cos² A = 1/2 है, तो cos² A का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/2"
+      },
+      {
+        "id": "B",
+        "text": "1/4"
+      },
+      {
+        "id": "C",
+        "text": "3/4"
+      },
+      {
+        "id": "D",
+        "text": "2/3"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 1/4",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "q056",
+    "question": "यदि x = a cosec θ और y = b cot θ है, तो b²x² − a²y² का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "a² + b²"
+      },
+      {
+        "id": "B",
+        "text": "a² − b²"
+      },
+      {
+        "id": "C",
+        "text": "a²b²"
+      },
+      {
+        "id": "D",
+        "text": "(a² + b²)/(a² − b²)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) a²b²",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "q057",
+    "question": "यदि a sin³ θ + b cos³ θ = sin θ cos θ और a sin θ = b cos θ है, तो a² + b² का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "1/4"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 1",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q058",
+    "question": "यदि 5 sin Y + cos Y = √2 sin Y है, तो tan Y का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(−5 − √2)/23"
+      },
+      {
+        "id": "B",
+        "text": "(−6 − √2)/23"
+      },
+      {
+        "id": "C",
+        "text": "(−5 − √2)/33"
+      },
+      {
+        "id": "D",
+        "text": "(−15 − √2)/28"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) (−5 − √2)/23",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "q059",
+    "question": "यदि tan A + tan² A = 1 है, तो cot² A − cot A का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "−1"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 1",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "q060",
+    "question": "यदि tan² x = 1 − a² है, तो sec x + tan³ x cosec x का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(1 − a²)^(3/2)"
+      },
+      {
+        "id": "B",
+        "text": "(1 + a²)^(3/2)"
+      },
+      {
+        "id": "C",
+        "text": "(2 + a²)^(3/2)"
+      },
+      {
+        "id": "D",
+        "text": "(2 − a²)^(3/2)"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) (2 − a²)^(3/2)",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q061",
+    "question": "यदि sin θ + sin³ θ = cos² θ है, तो cos⁶ θ − 4cos⁴ θ + 8cos² θ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "0"
+      },
+      {
+        "id": "D",
+        "text": "−2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 4",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q062",
+    "question": "यदि 0° ≤ θ < 90° और sec² θ + cos² θ = 2 है, तो 14cos θ/(5cos² θ − 3cos θ + 5) का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "−1"
+      },
+      {
+        "id": "C",
+        "text": "0"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 2",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q063",
+    "question": "यदि θ ∈ (0, π/2) और tan θ + cot θ = 5 है, तो sec θ · cosec θ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "−5"
+      },
+      {
+        "id": "B",
+        "text": "1/5"
+      },
+      {
+        "id": "C",
+        "text": "2/5"
+      },
+      {
+        "id": "D",
+        "text": "इनमें से कोई नहीं"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) इनमें से कोई नहीं",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "q064",
+    "question": "यदि tan A + cot A = 4 और tan A · cot A = 1 है, तो tan² A + sec² A का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "14 + 8√3"
+      },
+      {
+        "id": "B",
+        "text": "15 + 8√3"
+      },
+      {
+        "id": "C",
+        "text": "16 + 6√2"
+      },
+      {
+        "id": "D",
+        "text": "13 + 4√3"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) 15 + 8√3",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q065",
+    "question": "यदि tan² θ + cot² θ = 50 है, तो sec⁴ θ + cosec⁴ θ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "2600"
+      },
+      {
+        "id": "B",
+        "text": "2800"
+      },
+      {
+        "id": "C",
+        "text": "3200"
+      },
+      {
+        "id": "D",
+        "text": "3000"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 2600",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q066",
+    "question": "यदि (sin² θ − 3sin θ + 2)/cos² θ = 1 है, जहाँ 0° < θ < 90° है, तो cot(3θ/2) + sin 3θ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "−1"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 2",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q067",
+    "question": "यदि 2sin² A + 2√2 cos A − 3 = 0 है, तो tan A का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "√2"
+      },
+      {
+        "id": "C",
+        "text": "1/√2"
+      },
+      {
+        "id": "D",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 1",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q068",
+    "question": "यदि A एक न्यून कोण है और tan² A + sec A = 11 है, तो cot A का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/(2√3)"
+      },
+      {
+        "id": "B",
+        "text": "1/(2√5)"
+      },
+      {
+        "id": "C",
+        "text": "1/(2√2)"
+      },
+      {
+        "id": "D",
+        "text": "1/(2√7)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 1/(2√2)",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q069",
+    "question": "यदि cosec θ − cot θ = √2 − 1 है, तो cosec θ + cot θ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "√2"
+      },
+      {
+        "id": "C",
+        "text": "√2 + 2"
+      },
+      {
+        "id": "D",
+        "text": "√2 + 1"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) √2 + 1",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "q070",
+    "question": "यदि sec θ + tan θ = 2 है, तो 3sec θ + 4 का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "31/4"
+      },
+      {
+        "id": "B",
+        "text": "15/4"
+      },
+      {
+        "id": "C",
+        "text": "17/4"
+      },
+      {
+        "id": "D",
+        "text": "33/4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 31/4",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "q071",
+    "question": "यदि (sec θ − tan θ)/(sec θ + tan θ) = 3/5 है, तो 2sin θ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/2"
+      },
+      {
+        "id": "B",
+        "text": "1/4"
+      },
+      {
+        "id": "C",
+        "text": "1/8"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 1/2",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q072",
+    "question": "यदि x = 6cos A + 8sin A और y = 6sin A − 8cos A है, तो x² + y² का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "120"
+      },
+      {
+        "id": "B",
+        "text": "150"
+      },
+      {
+        "id": "C",
+        "text": "170"
+      },
+      {
+        "id": "D",
+        "text": "100"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 100",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "q073",
+    "question": "यदि sin θ − cos θ = 3/5 है, तो sin θ + cos θ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "√31/5"
+      },
+      {
+        "id": "B",
+        "text": "5/√41"
+      },
+      {
+        "id": "C",
+        "text": "√41/5"
+      },
+      {
+        "id": "D",
+        "text": "5/√31"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) √41/5",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "q074",
+    "question": "यदि sin θ + cos θ = √3/2 है, तो sin² θ + cos² θ − 2sin θ cos θ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "3/2"
+      },
+      {
+        "id": "C",
+        "text": "5/4"
+      },
+      {
+        "id": "D",
+        "text": "7/8"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "सही उत्तर: C) 5/4",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "q075",
+    "question": "यदि cos A + sin A = 5/4 है, तो tan A का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(5 + √7)/(5 − √7)"
+      },
+      {
+        "id": "B",
+        "text": "(4 − √7)/(4 + √7)"
+      },
+      {
+        "id": "C",
+        "text": "(5 − √2)/(5 + √2)"
+      },
+      {
+        "id": "D",
+        "text": "(2 − √3)/(2 + √3)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) (5 + √7)/(5 − √7)",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q076",
+    "question": "यदि θ एक न्यून कोण है और 2sin θ + 3cos θ = √13 है, तो tan θ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "2/3"
+      },
+      {
+        "id": "B",
+        "text": "3/2"
+      },
+      {
+        "id": "C",
+        "text": "√13/3"
+      },
+      {
+        "id": "D",
+        "text": "3/√13"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 2/3",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "q077",
+    "question": "यदि A एक न्यून कोण है, तो √[(1 − cos A)/(1 + cos A)] + √[(1 + cos A)/(1 − cos A)] का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "2cosec A"
+      },
+      {
+        "id": "B",
+        "text": "2cos A"
+      },
+      {
+        "id": "C",
+        "text": "2sec A"
+      },
+      {
+        "id": "D",
+        "text": "2sin A"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 2cosec A",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q078",
+    "question": "यदि (1 + cos A)/(1 − cos A) = (m/n)² है, तो cosec A − cot A का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "m + n"
+      },
+      {
+        "id": "B",
+        "text": "n/m"
+      },
+      {
+        "id": "C",
+        "text": "m − n"
+      },
+      {
+        "id": "D",
+        "text": "mn"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "सही उत्तर: B) n/m",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q079",
+    "question": "निम्नलिखित का मान ज्ञात कीजिए: sin θ/(sec θ + tan θ − 1) + cos θ/(cosec θ + cot θ − 1)।",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "−1"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 1",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q080",
+    "question": "यदि 3sin θ − 4cos θ = 0 और θ एक न्यून कोण है, तो tan θ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "4/3"
+      },
+      {
+        "id": "B",
+        "text": "5/3"
+      },
+      {
+        "id": "C",
+        "text": "6/3"
+      },
+      {
+        "id": "D",
+        "text": "7/3"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) 4/3",
+    "difficulty": "easy",
+    "language": "hi"
+  },
+  {
+    "id": "q081",
+    "question": "यदि (sin θ + cos θ)/(sin θ − cos θ) = 12 है, तो (121tan² θ − 3)/(169cot² θ + 1) का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "−83/21"
+      },
+      {
+        "id": "B",
+        "text": "83/21"
+      },
+      {
+        "id": "C",
+        "text": "−83/61"
+      },
+      {
+        "id": "D",
+        "text": "83/61"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "सही उत्तर: D) 83/61",
+    "difficulty": "hard",
+    "language": "hi"
+  },
+  {
+    "id": "q082",
+    "question": "यदि (cos θ + sin θ):(cos θ − sin θ) = (√3 + 1):(√3 − 1) और 0° < θ < 90° है, तो tan(θ + 30°)/sec(θ − 30°) का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "√3"
+      },
+      {
+        "id": "B",
+        "text": "√3/3"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "√3/2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "सही उत्तर: A) √3",
+    "difficulty": "hard",
+    "language": "hi"
+  }
+]

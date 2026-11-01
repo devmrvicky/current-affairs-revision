@@ -42,7 +42,7 @@ export default function GenericChapterDetailPage() {
   const navigate = useNavigate();
   const { subjectId = '', chapterId = '' } = useParams<{ subjectId: string; chapterId: string }>();
   const { selectedExamId } = useExamStore();
-  const { startSession, session, clearSession } = usePracticeSessionStore();
+  const { startSession } = usePracticeSessionStore();
   const {
     progress, loadProgress, toggleFavorite, updateProgress, incrementReadingTime,
     getHighlightsForChapter, getNotesForChapter, addHighlight, addNote,
@@ -127,10 +127,6 @@ export default function GenericChapterDetailPage() {
 
   async function startChapterSession(mode: 'practice' | 'test', mixedAcrossSubject: boolean) {
     if (!chapter) return;
-    if (session && !session.isCompleted) {
-      if (!window.confirm('You have an in-progress session. Starting a new one will discard it. Continue?')) return;
-      clearSession();
-    }
     setIsStarting(true);
     try {
       const config: PracticeConfiguration = {

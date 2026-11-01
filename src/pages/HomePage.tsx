@@ -1,12 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
-  ListChecks, Layers, Sparkles, ArrowRight, Target as TargetIcon, Newspaper, RefreshCcw,
-} from 'lucide-react';
+  ListChecks, Layers, Sparkles, ArrowRight, Target as TargetIcon, Newspaper, } from 'lucide-react';
 import { useExamStore } from '../store/examStore';
 import { getSyllabusWithCounts, getExam } from '../services/examService';
 import { getSubjectPerformance } from '../services/attemptLedgerService';
-import { getActiveResumableSession, type ResumableSession } from '../services/resumeSessionService';
+import { ResumeTestsSection } from '../components/home/ResumeTestsSection';
 import { motion } from 'framer-motion';
 import { useHistoryStore } from '../store/historyStore';
 import { useStatisticsStore } from '../store/statsStore';
@@ -35,7 +34,7 @@ interface SubjectRow {
 export default function HomePage() {
   const navigate = useNavigate();
   const { load: loadHistory, tests } = useHistoryStore();
-  const { stats, load: loadStats } = useStatisticsStore();
+  const { load: loadStats } = useStatisticsStore();
   const { load: loadGoal } = useDailyGoalStore();
   const { loadAll: loadReaderData } = useReaderStore();
 
@@ -44,7 +43,6 @@ export default function HomePage() {
   const isCurrentAffairsExam = selectedExamId === 'current-affairs';
 
   const [syllabus, setSyllabus] = useState<Awaited<ReturnType<typeof getSyllabusWithCounts>>>([]);
-  const [resumable, setResumable] = useState<ResumableSession | null>(null);
   const [subjectRows, setSubjectRows] = useState<SubjectRow[]>([]);
 
   useEffect(() => {
@@ -54,7 +52,6 @@ export default function HomePage() {
       const freshStreak = useStatisticsStore.getState().stats?.currentStreak ?? 0;
       if (freshStreak > 0) notifyStudyStreak(freshStreak);
     })();
-    setResumable(getActiveResumableSession());
   }, []);
 
   // "Your Subjects" — real per-subject progress for whichever exam is
@@ -140,31 +137,14 @@ export default function HomePage() {
         </p>
       </motion.div>
 
+      {/* Resume Tests — every unfinished test from every engine, read from persisted sessions */}
+      <ResumeTestsSection />
+
       {/* Daily Goal — user-configurable, no forced Current-Affairs workflow */}
       <DailyGoalCard />
 
       {/* Continue Learning / Favorite Chapters — generic across every subject */}
       <ContinueReadingWidget />
-
-      {/* Resume Test — most recent incomplete session, from EITHER engine, never assumed to be Current Affairs */}
-      {resumable && (
-        <motion.button
-          initial={{ opacity: 0, y: 8 }}
-          animate={{ opacity: 1, y: 0 }}
-          onClick={() => navigate(resumable.resumeRoute)}
-          className="card p-5 w-full text-left hover:shadow-md transition-shadow flex items-center gap-4"
-        >
-          <div className="w-11 h-11 rounded-2xl bg-brand-100 dark:bg-brand-900/30 flex items-center justify-center flex-shrink-0">
-            <RefreshCcw size={18} className="text-brand-500" />
-          </div>
-          <div className="flex-1 min-w-0">
-            <p className="text-xs font-medium uppercase tracking-wide mb-0.5" style={{ color: 'var(--text-muted)' }}>Resume Test</p>
-            <p className="font-display font-semibold text-sm truncate" style={{ color: 'var(--text-primary)' }}>{resumable.label}</p>
-            <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>{resumable.answered} / {resumable.total} answered</p>
-          </div>
-          <ArrowRight size={16} style={{ color: 'var(--text-muted)' }} className="flex-shrink-0" />
-        </motion.button>
-      )}
 
       {/* Your Subjects — real accuracy per subject, works for any exam including Current Affairs */}
       {subjectRows.length > 0 && (

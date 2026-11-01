@@ -7,6 +7,7 @@
 // this is a parallel, independent path, not a replacement of it.
 
 import type { Difficulty } from './universalQuestion';
+import type { MarkPurpose } from './questionMark';
 
 export type SessionMode = 'practice' | 'test';
 
@@ -36,7 +37,10 @@ export interface PracticeConfiguration {
 export interface SessionQuestionState {
   questionId: string; // stable UniversalQuestion id
   selectedAnswer: string | null; // an options[].id, e.g. "B" — never option text
+  /** True when the question carries a "review before submit" mark. Kept for compatibility with sessions written before purposes existed — see markPurpose. */
   isMarkedForReview: boolean;
+  /** Why the question was marked (shared across the practice, mock and quiz engines). `isMarkedForReview` is true exactly when this is 'review'. */
+  markPurpose?: MarkPurpose;
   answeredAt?: number;
   timeTaken: number; // seconds
 }
@@ -55,6 +59,17 @@ export interface PracticeSession {
   pausedAt?: number;
   totalPausedTime: number;
   visitedIndices: number[];
+
+  // ── Resumability (all optional: sessions saved before multi-session resume lack them) ──
+  /** Set automatically when the learner leaves the test with the clock running; folded into totalPausedTime when they come back. Distinct from pausedAt, which is the learner's own explicit Pause. */
+  suspendedAt?: number;
+  /** Last time the test was on screen — heartbeat while open, drives "Last active" and crash recovery. */
+  lastActiveAt?: number;
+  lastResumedAt?: number;
+  /** Validated internal route the test was entered from; where the close button returns to. */
+  returnRoute?: string;
+  /** History index of the screen it was entered from — see returnRoute.ts. */
+  returnHistoryIdx?: number;
 }
 
 export interface UniversalTestResult {

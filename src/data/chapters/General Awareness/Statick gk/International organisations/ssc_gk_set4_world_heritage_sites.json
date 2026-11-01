@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "whs001",
+    "subjectId": "gk",
+    "question": "Which country has the largest number of UNESCO World Heritage Sites?",
+    "options": [
+      {
+        "id": "A",
+        "text": "France"
+      },
+      {
+        "id": "B",
+        "text": "Spain"
+      },
+      {
+        "id": "C",
+        "text": "China"
+      },
+      {
+        "id": "D",
+        "text": "Italy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "India ranks sixth in the world. India has 37 cultural, 7 natural and 1 mixed site (45 in total as per the class notes) and 16 intangible cultural heritage elements.",
+    "language": "en"
+  },
+  {
+    "id": "whs002",
+    "subjectId": "gk",
+    "question": "Which is the only 'mixed' World Heritage Site of India?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Khangchendzonga (Kanchenjunga) National Park"
+      },
+      {
+        "id": "B",
+        "text": "Nanda Devi National Park"
+      },
+      {
+        "id": "C",
+        "text": "Kaziranga National Park"
+      },
+      {
+        "id": "D",
+        "text": "Great Himalayan National Park"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Kanchenjunga NP (Sikkim) was inscribed in 2016 for both natural beauty (glaciers, lakes, snow leopard) and sacred cultural beliefs of local people.",
+    "language": "en"
+  },
+  {
+    "id": "whs003",
+    "subjectId": "gk",
+    "question": "The architect of the Taj Mahal is believed to be:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mir Abdul Karim"
+      },
+      {
+        "id": "B",
+        "text": "Ustad Isa Khan"
+      },
+      {
+        "id": "C",
+        "text": "Ustad Ahmad Lahauri"
+      },
+      {
+        "id": "D",
+        "text": "Makramat Khan"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "The Taj Mahal (Agra, UP; inscribed 1983) was built by Shah Jahan and is called the jewel of Mughal art in India.",
+    "language": "en"
+  },
+  {
+    "id": "whs004",
+    "subjectId": "gk",
+    "question": "The paintings of the Ajanta Caves (Maharashtra) are based mainly on:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mahabharata"
+      },
+      {
+        "id": "B",
+        "text": "Jataka tales"
+      },
+      {
+        "id": "C",
+        "text": "Ramayana"
+      },
+      {
+        "id": "D",
+        "text": "Puranas"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "world-heritage-sites",
+    "difficulty": "easy",
+    "explanation": "Ajanta was inscribed in 1983 and is related to Buddhism; it was built under the Vakataka dynasty.",
+    "language": "en"
+  },
+  {
+    "id": "whs005",
+    "subjectId": "gk",
+    "question": "The Ajanta Caves consist of a total of how many caves?",
+    "options": [
+      {
+        "id": "A",
+        "text": "24"
+      },
+      {
+        "id": "B",
+        "text": "27"
+      },
+      {
+        "id": "C",
+        "text": "29"
+      },
+      {
+        "id": "D",
+        "text": "34"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "25 viharas (monasteries) and 4 chaityas (prayer halls).",
+    "language": "en"
+  },
+  {
+    "id": "whs006",
+    "subjectId": "gk",
+    "question": "How many caves are there at Ellora (Maharashtra)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "29"
+      },
+      {
+        "id": "B",
+        "text": "32"
+      },
+      {
+        "id": "C",
+        "text": "34"
+      },
+      {
+        "id": "D",
+        "text": "36"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Ellora (inscribed 1983) has 34 caves.",
+    "language": "en"
+  },
+  {
+    "id": "whs007",
+    "subjectId": "gk",
+    "question": "At Ellora, caves 13 to 29 are dedicated to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hinduism"
+      },
+      {
+        "id": "B",
+        "text": "Jainism"
+      },
+      {
+        "id": "C",
+        "text": "Buddhism"
+      },
+      {
+        "id": "D",
+        "text": "Sikhism"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "world-heritage-sites",
+    "difficulty": "hard",
+    "explanation": "Caves 1-12 are Buddhist, 13-29 Hindu and 30-34 Jain.",
+    "language": "en"
+  },
+  {
+    "id": "whs008",
+    "subjectId": "gk",
+    "question": "The famous Kailash Temple at Ellora (Cave 16) was built by the ____ dynasty.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chalukya"
+      },
+      {
+        "id": "B",
+        "text": "Pallava"
+      },
+      {
+        "id": "C",
+        "text": "Chola"
+      },
+      {
+        "id": "D",
+        "text": "Rashtrakuta"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "It was built by the Rashtrakuta king Krishna I.",
+    "language": "en"
+  },
+  {
+    "id": "whs009",
+    "subjectId": "gk",
+    "question": "The Konark Sun Temple (Odisha) was built by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rajaraja Chola"
+      },
+      {
+        "id": "B",
+        "text": "Narasimhadeva I"
+      },
+      {
+        "id": "C",
+        "text": "Krishna I"
+      },
+      {
+        "id": "D",
+        "text": "Anantavarman Chodaganga"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "It is designed as a giant chariot with 12 pairs of wheels pulled by 7 horses, an example of Kalinga architecture, also called the Black Pagoda. Inscribed in 1984.",
+    "language": "en"
+  },
+  {
+    "id": "whs010",
+    "subjectId": "gk",
+    "question": "The Konark Sun Temple (wheel) is depicted on which Indian currency note?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs 10"
+      },
+      {
+        "id": "B",
+        "text": "Rs 20"
+      },
+      {
+        "id": "C",
+        "text": "Rs 50"
+      },
+      {
+        "id": "D",
+        "text": "Rs 100"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Other notes: Rs 50 - Hampi; Rs 100 - Rani ki Vav; Rs 200 - Sanchi Stupa; Rs 500 - Red Fort.",
+    "language": "en"
+  },
+  {
+    "id": "whs011",
+    "subjectId": "gk",
+    "question": "The Monuments at Mahabalipuram (Tamil Nadu) were built by the:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chola kings"
+      },
+      {
+        "id": "B",
+        "text": "Pallava kings"
+      },
+      {
+        "id": "C",
+        "text": "Pandya kings"
+      },
+      {
+        "id": "D",
+        "text": "Chalukya kings"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "world-heritage-sites",
+    "difficulty": "easy",
+    "explanation": "Inscribed in 1984.",
+    "language": "en"
+  },
+  {
+    "id": "whs012",
+    "subjectId": "gk",
+    "question": "Which national park of Assam, inscribed as a World Heritage Site in 1985, is famous for the one-horned rhinoceros?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Orang National Park"
+      },
+      {
+        "id": "B",
+        "text": "Dibru-Saikhowa National Park"
+      },
+      {
+        "id": "C",
+        "text": "Manas National Park"
+      },
+      {
+        "id": "D",
+        "text": "Kaziranga National Park"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "world-heritage-sites",
+    "difficulty": "easy",
+    "explanation": "Manas National Park (Assam, 1985) is named after the Manas river which flows through it.",
+    "language": "en"
+  },
+  {
+    "id": "whs013",
+    "subjectId": "gk",
+    "question": "Hampi, the last capital of the Vijayanagara Empire, is situated on the banks of the river:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Godavari"
+      },
+      {
+        "id": "B",
+        "text": "Krishna"
+      },
+      {
+        "id": "C",
+        "text": "Tungabhadra"
+      },
+      {
+        "id": "D",
+        "text": "Kaveri"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Hampi (Karnataka) was inscribed in 1986 and is in Dravidian (Vijayanagara) style.",
+    "language": "en"
+  },
+  {
+    "id": "whs014",
+    "subjectId": "gk",
+    "question": "Which Vijayanagara ruler is associated with the famous monuments of Hampi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Krishnadevaraya"
+      },
+      {
+        "id": "B",
+        "text": "Deva Raya II"
+      },
+      {
+        "id": "C",
+        "text": "Bukka I"
+      },
+      {
+        "id": "D",
+        "text": "Harihara I"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Hampi is depicted on the Rs 50 note.",
+    "language": "en"
+  },
+  {
+    "id": "whs015",
+    "subjectId": "gk",
+    "question": "The Khajuraho group of monuments (Madhya Pradesh) was built by which dynasty?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pratihara"
+      },
+      {
+        "id": "B",
+        "text": "Parmara"
+      },
+      {
+        "id": "C",
+        "text": "Solanki"
+      },
+      {
+        "id": "D",
+        "text": "Chandela"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Inscribed in 1986; the temples are dedicated to Hindu and Jain religions.",
+    "language": "en"
+  },
+  {
+    "id": "whs016",
+    "subjectId": "gk",
+    "question": "Fatehpur Sikri, known as the 'City of Victory', was built by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Babur"
+      },
+      {
+        "id": "B",
+        "text": "Akbar"
+      },
+      {
+        "id": "C",
+        "text": "Humayun"
+      },
+      {
+        "id": "D",
+        "text": "Shah Jahan"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "world-heritage-sites",
+    "difficulty": "easy",
+    "explanation": "Fatehpur Sikri (Uttar Pradesh) was inscribed in 1986.",
+    "language": "en"
+  },
+  {
+    "id": "whs017",
+    "subjectId": "gk",
+    "question": "The Basilica of Bom Jesus (Churches and Convents of Goa) contains the mortal remains of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "St. Paul"
+      },
+      {
+        "id": "B",
+        "text": "St. Peter"
+      },
+      {
+        "id": "C",
+        "text": "St. Thomas"
+      },
+      {
+        "id": "D",
+        "text": "St. Francis Xavier"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Churches and Convents of Goa were inscribed in 1986.",
+    "language": "en"
+  },
+  {
+    "id": "whs018",
+    "subjectId": "gk",
+    "question": "The local name of the Elephanta Caves (Maharashtra) is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gharapuri"
+      },
+      {
+        "id": "B",
+        "text": "Karla"
+      },
+      {
+        "id": "C",
+        "text": "Bhaja"
+      },
+      {
+        "id": "D",
+        "text": "Kanheri"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "world-heritage-sites",
+    "difficulty": "hard",
+    "explanation": "Elephanta Caves were inscribed in 1987.",
+    "language": "en"
+  },
+  {
+    "id": "whs019",
+    "subjectId": "gk",
+    "question": "The Sundarbans National Park, a World Heritage Site (1987), is located in:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Odisha"
+      },
+      {
+        "id": "B",
+        "text": "Andhra Pradesh"
+      },
+      {
+        "id": "C",
+        "text": "West Bengal"
+      },
+      {
+        "id": "D",
+        "text": "Assam"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "world-heritage-sites",
+    "difficulty": "easy",
+    "explanation": "It shares a border with Bangladesh.",
+    "language": "en"
+  },
+  {
+    "id": "whs020",
+    "subjectId": "gk",
+    "question": "The Pattadakal group of monuments (Karnataka) has nine Hindu temples and one ____ temple.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sikh"
+      },
+      {
+        "id": "B",
+        "text": "Jain"
+      },
+      {
+        "id": "C",
+        "text": "Parsi"
+      },
+      {
+        "id": "D",
+        "text": "Buddhist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "world-heritage-sites",
+    "difficulty": "hard",
+    "explanation": "Pattadakal was inscribed in 1987.",
+    "language": "en"
+  },
+  {
+    "id": "whs021",
+    "subjectId": "gk",
+    "question": "Which of the following is NOT a part of the 'Great Living Chola Temples'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Brihadisvara Temple, Thanjavur"
+      },
+      {
+        "id": "B",
+        "text": "Airavatesvara Temple, Darasuram"
+      },
+      {
+        "id": "C",
+        "text": "Meenakshi Temple, Madurai"
+      },
+      {
+        "id": "D",
+        "text": "Gangaikondacholisvaram Temple"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "world-heritage-sites",
+    "difficulty": "hard",
+    "explanation": "Inscribed in 1987 (11th-12th century). The Airavatesvara temple is named after Lord Indra's white elephant.",
+    "language": "en"
+  },
+  {
+    "id": "whs022",
+    "subjectId": "gk",
+    "question": "In which year was the Valley of Flowers added to the Nanda Devi National Park World Heritage Site?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1998"
+      },
+      {
+        "id": "B",
+        "text": "2003"
+      },
+      {
+        "id": "C",
+        "text": "2005"
+      },
+      {
+        "id": "D",
+        "text": "2008"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "world-heritage-sites",
+    "difficulty": "hard",
+    "explanation": "Nanda Devi (Uttarakhand) was inscribed in 1988; the Valley of Flowers was added in 2005.",
+    "language": "en"
+  },
+  {
+    "id": "whs023",
+    "subjectId": "gk",
+    "question": "The Buddhist Stupa at Sanchi (Madhya Pradesh), built by Ashoka, is depicted on which Indian currency note?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rs 10"
+      },
+      {
+        "id": "B",
+        "text": "Rs 50"
+      },
+      {
+        "id": "C",
+        "text": "Rs 100"
+      },
+      {
+        "id": "D",
+        "text": "Rs 200"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Sanchi was inscribed in 1989. Its gateways depict Jataka tales.",
+    "language": "en"
+  },
+  {
+    "id": "whs024",
+    "subjectId": "gk",
+    "question": "Which was the first World Heritage Site of Delhi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Purana Qila"
+      },
+      {
+        "id": "B",
+        "text": "Humayun's Tomb"
+      },
+      {
+        "id": "C",
+        "text": "Jantar Mantar"
+      },
+      {
+        "id": "D",
+        "text": "Red Fort"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Humayun's Tomb was inscribed in 1993. Qutub Minar was also inscribed in 1993 and the Red Fort in 2007.",
+    "language": "en"
+  },
+  {
+    "id": "whs025",
+    "subjectId": "gk",
+    "question": "The construction of the Qutub Minar was started by Qutb ud-Din Aibak and completed by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iltutmish"
+      },
+      {
+        "id": "B",
+        "text": "Balban"
+      },
+      {
+        "id": "C",
+        "text": "Alauddin Khalji"
+      },
+      {
+        "id": "D",
+        "text": "Firoz Shah Tughlaq"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Alai Darwaza and Quwwat-ul-Islam Mosque are in its premises. It is named after Sufi saint Qutbuddin Bakhtiar Kaki.",
+    "language": "en"
+  },
+  {
+    "id": "whs026",
+    "subjectId": "gk",
+    "question": "Qutub Minar is named after which Sufi saint?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nizamuddin Auliya"
+      },
+      {
+        "id": "B",
+        "text": "Qutbuddin Bakhtiar Kaki"
+      },
+      {
+        "id": "C",
+        "text": "Baba Farid"
+      },
+      {
+        "id": "D",
+        "text": "Moinuddin Chishti"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "world-heritage-sites",
+    "difficulty": "hard",
+    "explanation": "It was constructed in the 13th century.",
+    "language": "en"
+  },
+  {
+    "id": "whs027",
+    "subjectId": "gk",
+    "question": "Which of the following is NOT part of the 'Mountain Railways of India' World Heritage Site?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kalka-Shimla Railway"
+      },
+      {
+        "id": "B",
+        "text": "Nilgiri Mountain Railway"
+      },
+      {
+        "id": "C",
+        "text": "Darjeeling Himalayan Railway"
+      },
+      {
+        "id": "D",
+        "text": "Matheran Hill Railway"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "world-heritage-sites",
+    "difficulty": "hard",
+    "explanation": "Darjeeling (West Bengal) was inscribed in 1999, Nilgiri (Tamil Nadu) and Kalka-Shimla (Himachal Pradesh) were added later.",
+    "language": "en"
+  },
+  {
+    "id": "whs028",
+    "subjectId": "gk",
+    "question": "The Mahabodhi Temple Complex at Bodh Gaya (Bihar, inscribed 2002) marks the place where Gautama Buddha attained:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enlightenment"
+      },
+      {
+        "id": "B",
+        "text": "His first sermon"
+      },
+      {
+        "id": "C",
+        "text": "Mahaparinirvana"
+      },
+      {
+        "id": "D",
+        "text": "Birth"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "world-heritage-sites",
+    "difficulty": "easy",
+    "explanation": "It was originally built by Emperor Ashoka and is one of the oldest Buddhist temples.",
+    "language": "en"
+  },
+  {
+    "id": "whs029",
+    "subjectId": "gk",
+    "question": "The Rock Shelters of Bhimbetka (Madhya Pradesh, 2003) lie at the foothills of which mountain range?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vindhya"
+      },
+      {
+        "id": "B",
+        "text": "Satpura"
+      },
+      {
+        "id": "C",
+        "text": "Western Ghats"
+      },
+      {
+        "id": "D",
+        "text": "Aravalli"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Bhimbetka is famous for prehistoric rock paintings.",
+    "language": "en"
+  },
+  {
+    "id": "whs030",
+    "subjectId": "gk",
+    "question": "Chhatrapati Shivaji Maharaj Terminus (Mumbai, 2004) is an example of which architectural style?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dravidian"
+      },
+      {
+        "id": "B",
+        "text": "Nagara"
+      },
+      {
+        "id": "C",
+        "text": "Indo-Saracenic"
+      },
+      {
+        "id": "D",
+        "text": "Vesara"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "It blends Indian, Islamic and Gothic architecture.",
+    "language": "en"
+  },
+  {
+    "id": "whs031",
+    "subjectId": "gk",
+    "question": "Champaner-Pavagadh Archaeological Park, a World Heritage Site (2004), is located in:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rajasthan"
+      },
+      {
+        "id": "B",
+        "text": "Madhya Pradesh"
+      },
+      {
+        "id": "C",
+        "text": "Maharashtra"
+      },
+      {
+        "id": "D",
+        "text": "Gujarat"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Champaner-Pavagadh was inscribed in 2004.",
+    "language": "en"
+  },
+  {
+    "id": "whs032",
+    "subjectId": "gk",
+    "question": "The Red Fort (Delhi), built by Shah Jahan, was inscribed as a World Heritage Site in:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2004"
+      },
+      {
+        "id": "B",
+        "text": "2007"
+      },
+      {
+        "id": "C",
+        "text": "2010"
+      },
+      {
+        "id": "D",
+        "text": "2014"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "The national flag is hoisted from the Red Fort on 15 August every year. It is depicted on the Rs 500 note.",
+    "language": "en"
+  },
+  {
+    "id": "whs033",
+    "subjectId": "gk",
+    "question": "The Jantar Mantar at Jaipur (inscribed 2010) was built by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Man Singh I"
+      },
+      {
+        "id": "B",
+        "text": "Sawai Jai Singh II"
+      },
+      {
+        "id": "C",
+        "text": "Jai Singh I"
+      },
+      {
+        "id": "D",
+        "text": "Bhim Singh"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Jaipur city itself was founded by him in 1727.",
+    "language": "en"
+  },
+  {
+    "id": "whs034",
+    "subjectId": "gk",
+    "question": "How many Jantar Mantar astronomical observatories exist in India?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "world-heritage-sites",
+    "difficulty": "hard",
+    "explanation": "Delhi, Jaipur, Mathura, Varanasi and Ujjain.",
+    "language": "en"
+  },
+  {
+    "id": "whs035",
+    "subjectId": "gk",
+    "question": "The Western Ghats were inscribed as a World Heritage Site in:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2010"
+      },
+      {
+        "id": "B",
+        "text": "2012"
+      },
+      {
+        "id": "C",
+        "text": "2013"
+      },
+      {
+        "id": "D",
+        "text": "2014"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "They extend across Gujarat, Maharashtra, Goa, Karnataka, Kerala and Tamil Nadu.",
+    "language": "en"
+  },
+  {
+    "id": "whs036",
+    "subjectId": "gk",
+    "question": "Which of the following forts is NOT part of the 'Hill Forts of Rajasthan' World Heritage Site (2013)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amer"
+      },
+      {
+        "id": "B",
+        "text": "Gagron"
+      },
+      {
+        "id": "C",
+        "text": "Kumbhalgarh"
+      },
+      {
+        "id": "D",
+        "text": "Mehrangarh"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "world-heritage-sites",
+    "difficulty": "hard",
+    "explanation": "The six forts: Amer, Chittorgarh, Kumbhalgarh, Gagron, Jaisalmer and Ranthambore.",
+    "language": "en"
+  },
+  {
+    "id": "whs037",
+    "subjectId": "gk",
+    "question": "Rani ki Vav (Gujarat, 2014) was built by which dynasty?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solanki"
+      },
+      {
+        "id": "B",
+        "text": "Maurya"
+      },
+      {
+        "id": "C",
+        "text": "Gupta"
+      },
+      {
+        "id": "D",
+        "text": "Chola"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "It lies on the banks of river Saraswati, is built in the Maru-Gurjara style like an inverted temple and is shown on the Rs 100 note.",
+    "language": "en"
+  },
+  {
+    "id": "whs038",
+    "subjectId": "gk",
+    "question": "Nalanda Mahavihara (Bihar, 2016) is believed to have been founded by:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dharmapala"
+      },
+      {
+        "id": "B",
+        "text": "Harsha"
+      },
+      {
+        "id": "C",
+        "text": "Ashoka"
+      },
+      {
+        "id": "D",
+        "text": "Kumaragupta I"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Kumaragupta I belonged to the Gupta dynasty.",
+    "language": "en"
+  },
+  {
+    "id": "whs039",
+    "subjectId": "gk",
+    "question": "The architectural work of Le Corbusier, inscribed in 2016, is spread over how many sites in 7 countries?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15"
+      },
+      {
+        "id": "B",
+        "text": "17"
+      },
+      {
+        "id": "C",
+        "text": "19"
+      },
+      {
+        "id": "D",
+        "text": "21"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "world-heritage-sites",
+    "difficulty": "hard",
+    "explanation": "In India, it includes the Capitol Complex at Chandigarh (High Court, Legislative Assembly and Secretariat).",
+    "language": "en"
+  },
+  {
+    "id": "whs040",
+    "subjectId": "gk",
+    "question": "The Historic City of Ahmedabad, the first Indian city to get World Heritage status (2017), stands on the banks of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sabarmati"
+      },
+      {
+        "id": "B",
+        "text": "Narmada"
+      },
+      {
+        "id": "C",
+        "text": "Tapi"
+      },
+      {
+        "id": "D",
+        "text": "Mahi"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "It was established by Sultan Ahmed Shah.",
+    "language": "en"
+  },
+  {
+    "id": "whs041",
+    "subjectId": "gk",
+    "question": "Jaipur, the 'Pink City', was founded in which year by Sawai Jai Singh II?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1699"
+      },
+      {
+        "id": "B",
+        "text": "1707"
+      },
+      {
+        "id": "C",
+        "text": "1727"
+      },
+      {
+        "id": "D",
+        "text": "1737"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "world-heritage-sites",
+    "difficulty": "hard",
+    "explanation": "Jaipur was inscribed as a World Heritage Site in 2019.",
+    "language": "en"
+  },
+  {
+    "id": "whs042",
+    "subjectId": "gk",
+    "question": "The Ramappa Temple (Telangana, inscribed 2021), dedicated to Lord Shiva, was built by the ____ dynasty.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pallava"
+      },
+      {
+        "id": "B",
+        "text": "Chola"
+      },
+      {
+        "id": "C",
+        "text": "Kakatiya"
+      },
+      {
+        "id": "D",
+        "text": "Hoysala"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Ramappa Temple was inscribed in 2021.",
+    "language": "en"
+  },
+  {
+    "id": "whs043",
+    "subjectId": "gk",
+    "question": "Which was the first Indus Valley Civilisation site of India to be inscribed as a World Heritage Site (2021)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dholavira"
+      },
+      {
+        "id": "B",
+        "text": "Kalibangan"
+      },
+      {
+        "id": "C",
+        "text": "Rakhigarhi"
+      },
+      {
+        "id": "D",
+        "text": "Lothal"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Dholavira is located in Gujarat.",
+    "language": "en"
+  },
+  {
+    "id": "whs044",
+    "subjectId": "gk",
+    "question": "Santiniketan (West Bengal), inscribed in 2023, is associated with which poet?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bankim Chandra Chatterjee"
+      },
+      {
+        "id": "B",
+        "text": "Kazi Nazrul Islam"
+      },
+      {
+        "id": "C",
+        "text": "Sarat Chandra Chattopadhyay"
+      },
+      {
+        "id": "D",
+        "text": "Rabindranath Tagore"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "world-heritage-sites",
+    "difficulty": "easy",
+    "explanation": "It is located in the Birbhum district of West Bengal.",
+    "language": "en"
+  },
+  {
+    "id": "whs045",
+    "subjectId": "gk",
+    "question": "The Sacred Ensembles of the Hoysalas (2023) include temples at Belur, Halebidu and:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pattadakal"
+      },
+      {
+        "id": "B",
+        "text": "Aihole"
+      },
+      {
+        "id": "C",
+        "text": "Somnathpura"
+      },
+      {
+        "id": "D",
+        "text": "Badami"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Channakeshava Temple (Belur) and Keshava Temple (Somnathpura) are dedicated to Vishnu; Hoysaleshwara Temple (Halebidu) to Shiva. Built by king Vishnuvardhana.",
+    "language": "en"
+  },
+  {
+    "id": "whs046",
+    "subjectId": "gk",
+    "question": "Moidams, inscribed as a World Heritage Site in 2024, are burial mounds of the royal family of which kingdom?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kachari"
+      },
+      {
+        "id": "B",
+        "text": "Chutia"
+      },
+      {
+        "id": "C",
+        "text": "Koch"
+      },
+      {
+        "id": "D",
+        "text": "Ahom"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "Moidams are located in the Charaideo district of Assam.",
+    "language": "en"
+  },
+  {
+    "id": "whs047",
+    "subjectId": "gk",
+    "question": "Out of the 12 forts of the 'Maratha Military Landscapes of India' (inscribed 2025), which one is in Tamil Nadu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gingee Fort"
+      },
+      {
+        "id": "B",
+        "text": "Sindhudurg Fort"
+      },
+      {
+        "id": "C",
+        "text": "Raigad Fort"
+      },
+      {
+        "id": "D",
+        "text": "Panhala Fort"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "world-heritage-sites",
+    "difficulty": "hard",
+    "explanation": "11 forts are in Maharashtra: Salher, Shivneri, Lohgad, Khanderi, Raigad, Rajgad, Pratapgad, Suvarnadurg, Panhala, Vijaydurg and Sindhudurg.",
+    "language": "en"
+  },
+  {
+    "id": "whs048",
+    "subjectId": "gk",
+    "question": "The Agra Fort (Uttar Pradesh), inscribed as a World Heritage Site in 1983, was built by which Mughal emperor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Babur"
+      },
+      {
+        "id": "B",
+        "text": "Akbar"
+      },
+      {
+        "id": "C",
+        "text": "Humayun"
+      },
+      {
+        "id": "D",
+        "text": "Jahangir"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "world-heritage-sites",
+    "difficulty": "easy",
+    "explanation": "It is an example of Indo-Islamic architecture.",
+    "language": "en"
+  },
+  {
+    "id": "whs049",
+    "subjectId": "gk",
+    "question": "Keoladeo National Park (Rajasthan, 1985) was formerly known as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ranthambore Sanctuary"
+      },
+      {
+        "id": "B",
+        "text": "Sultanpur Bird Sanctuary"
+      },
+      {
+        "id": "C",
+        "text": "Sariska Sanctuary"
+      },
+      {
+        "id": "D",
+        "text": "Bharatpur Bird Sanctuary"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "It is a World Heritage Site and a famous bird habitat.",
+    "language": "en"
+  },
+  {
+    "id": "whs050",
+    "subjectId": "gk",
+    "question": "The Great Himalayan National Park, inscribed as a World Heritage Site in 2014, is in:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Himachal Pradesh"
+      },
+      {
+        "id": "B",
+        "text": "Jammu and Kashmir"
+      },
+      {
+        "id": "C",
+        "text": "Sikkim"
+      },
+      {
+        "id": "D",
+        "text": "Uttarakhand"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "world-heritage-sites",
+    "difficulty": "medium",
+    "explanation": "It is one of the natural World Heritage Sites of India.",
+    "language": "en"
+  }
+]

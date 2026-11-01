@@ -15,6 +15,10 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { MockDefinition } from '../types/examMock';
 import type { MockSession, MockSectionRuntime, MockQuestionState } from '../types/mockSession';
+import type { MarkPurpose } from '../types/questionMark';
+import { activateMock, suspendMock, touchMock } from '../services/sessionLifecycle';
+import { sessionRegistry, parkInBackground } from '../services/sessionRegistry';
+import { captureOrigin, type ReturnOrigin } from '../services/returnRoute';
 
 function newSessionId(): string {
   return `mock-session-${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
@@ -61,11 +65,28 @@ function buildStates(sectionId: string, questionIds: string[]): Record<string, M
   return states;
 }
 
+/** An unfinished mock already in the store is parked in the registry, never discarded, when another starts. */
+function parkPrevious(previous: MockSession | null): void {
+  if (previous && previous.status === 'active') {
+    parkInBackground(sessionRegistry.parkMock(suspendMock(previous)), 'the previous mock test');
+  }
+}
+
 interface MockSessionStore {
   session: MockSession | null;
 
-  startFullMock: (definition: Extract<MockDefinition, { mode: 'full-mock' }>, sectionQuestionIds: Record<string, string[]>) => void;
-  startSectionalMock: (definition: Extract<MockDefinition, { mode: 'sectional-mock' }>, questionIds: string[]) => void;
+  /** Starting a mock parks (never discards) any unfinished mock already in the store. `origin` (default: the screen the learner is on now) is where Close leads back to. */
+  startFullMock: (definition: Extract<MockDefinition, { mode: 'full-mock' }>, sectionQuestionIds: Record<string, string[]>, origin?: ReturnOrigin) => void;
+  startSectionalMock: (definition: Extract<MockDefinition, { mode: 'sectional-mock' }>, questionIds: string[], origin?: ReturnOrigin) => void;
+  /** Loads a previously saved session as the active one (the caller has already removed it from the registry). */
+  loadSession: (session: MockSession) => void;
+  /** Sets (or, with null, removes) the mark and its purpose on a question. */
+  setMarkPurpose: (questionId: string, purpose: MarkPurpose | null) => void;
+  /** Leaving the test: stops the running section clock (see sessionLifecycle.ts). */
+  suspend: (at?: number) => void;
+  /** Test is on screen again: the active section's clock is shifted by the time away. */
+  activate: () => void;
+  touch: () => void;
 
   visitQuestion: (questionId: string) => void;
   selectAnswer: (questionId: string, optionId: string) => void;
@@ -88,7 +109,8 @@ export const useMockSessionStore = create<MockSessionStore>()(
     (set, get) => ({
       session: null,
 
-      startFullMock: (definition, sectionQuestionIds) => {
+      startFullMock: (definition, sectionQuestionIds, origin = captureOrigin()) => {
+        parkPrevious(get().session);
         const sections = definition.sections.map((s, idx) =>
           buildSectionRuntime(s.id, s.title, s.subjectId, sectionQuestionIds[s.id] ?? [], s.marksPerQuestion, s.negativeMarks, s.durationSeconds, idx === 0)
         );
@@ -108,11 +130,15 @@ export const useMockSessionStore = create<MockSessionStore>()(
             currentQuestionIndex: 0,
             states,
             startedAt: Date.now(),
+            lastActiveAt: Date.now(),
+            returnRoute: origin.route,
+            returnHistoryIdx: origin.idx,
           },
         });
       },
 
-      startSectionalMock: (definition, questionIds) => {
+      startSectionalMock: (definition, questionIds, origin = captureOrigin()) => {
+        parkPrevious(get().session);
         const section = buildSectionRuntime(
           definition.section.id,
           definition.section.title,
@@ -136,9 +162,14 @@ export const useMockSessionStore = create<MockSessionStore>()(
             currentQuestionIndex: 0,
             states: buildStates(section.sectionId, section.questionIds),
             startedAt: Date.now(),
+            lastActiveAt: Date.now(),
+            returnRoute: origin.route,
+            returnHistoryIdx: origin.idx,
           },
         });
       },
+
+      loadSession: (session) => set({ session }),
 
       visitQuestion: (questionId) => {
         const session = get().session;
@@ -169,10 +200,25 @@ export const useMockSessionStore = create<MockSessionStore>()(
         if (!session) return;
         const state = session.states[questionId];
         if (!state) return;
+        const on = !(state.markPurpose ?? (state.isMarkedForReview ? 'review' : undefined));
         set({
           session: {
             ...session,
-            states: { ...session.states, [questionId]: { ...state, isMarkedForReview: !state.isMarkedForReview, visited: true } },
+            states: { ...session.states, [questionId]: { ...state, isMarkedForReview: on, markPurpose: on ? 'review' : undefined, visited: true } },
+          },
+        });
+      },
+
+      setMarkPurpose: (questionId, purpose) => {
+        const session = get().session;
+        if (!session) return;
+        const state = session.states[questionId];
+        if (!state) return;
+        // One mark per question — a new purpose replaces the old one, so re-marking can't duplicate.
+        set({
+          session: {
+            ...session,
+            states: { ...session.states, [questionId]: { ...state, markPurpose: purpose ?? undefined, isMarkedForReview: purpose === 'review', visited: true } },
           },
         });
       },
@@ -257,6 +303,25 @@ export const useMockSessionStore = create<MockSessionStore>()(
         const now = Date.now();
         const sections = session.sections.map((s) => (s.locked ? s : { ...s, status: 'completed' as const, locked: true, completedAt: now }));
         set({ session: { ...session, sections, status: 'completed', completedAt: now } });
+      },
+
+      suspend: (at) => {
+        const session = get().session;
+        if (!session) return;
+        const next = suspendMock(session, at);
+        if (next !== session) set({ session: next });
+      },
+
+      activate: () => {
+        const session = get().session;
+        if (!session || session.status !== 'active') return;
+        set({ session: activateMock(session) });
+      },
+
+      touch: () => {
+        const session = get().session;
+        if (!session || session.status !== 'active') return;
+        set({ session: touchMock(session) });
       },
 
       abandonSession: () => {

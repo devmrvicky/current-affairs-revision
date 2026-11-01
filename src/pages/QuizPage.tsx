@@ -1,21 +1,28 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Pause, Play, Bookmark, Flag, ChevronLeft, ChevronRight, LayoutGrid, X, AlertTriangle, Search } from 'lucide-react';
+import { Pause, Play, Bookmark, Flag, ChevronLeft, ChevronRight, LayoutGrid, X, AlertTriangle, Search, Send } from 'lucide-react';
+import toast from 'react-hot-toast';
 import { useQuizStore } from '../store/quizStore';
 import { useSettingsStore } from '../store/statsStore';
 import { QuizTimer } from '../components/quiz/QuizTimer';
 import { QuestionPalette } from '../components/quiz/QuestionPalette';
-import { AnswerBottomSheet } from '../components/quiz/AnswerBottomSheet';
+import { AnswerBottomSheet, EXPLANATION_DRAWER_WIDTH } from '../components/quiz/AnswerBottomSheet';
+import { useIsDesktop } from '../hooks/useMediaQuery';
 import { QuestionWebSearchSheet } from '../components/quiz/QuestionWebSearchSheet';
 import { useExamKeyboardNavigation } from '../hooks/useExamKeyboardNavigation';
+import { useSessionPresence } from '../hooks/useSessionPresence';
+import { MarkPurposeSheet } from '../components/exam/MarkPurposeSheet';
+import { useMarkedReviewStore } from '../store/markedReviewStore';
+import { effectivePurpose, getMarkPurposeInfo, type MarkPurpose } from '../types/questionMark';
+import { useExitTest } from '../hooks/useExitTest';
 import { getOptionLabel } from '../utils';
 
 export default function QuizPage() {
   const navigate = useNavigate();
   const {
     session, submitAnswer, nextQuestion, goToQuestion, pauseSession, resumeSession,
-    clearSession, toggleBookmark, toggleMarkForReview, completeSession,
+    toggleBookmark, setMarkPurpose, completeSession,
   } = useQuizStore();
   const { settings } = useSettingsStore();
 
@@ -33,6 +40,13 @@ export default function QuizPage() {
   const [showSheet, setShowSheet] = useState(false);
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
   const [searchSheetOpen, setSearchSheetOpen] = useState(false);
+  const [showMarkSheet, setShowMarkSheet] = useState(false);
+  const isDesktop = useIsDesktop();
+  const saveAttemptMark = useMarkedReviewStore((s) => s.saveAttemptMark);
+
+  // Leaving saves the session and stops its clock (never discards or submits it); Close steps back to the screen it was entered from.
+  useSessionPresence('legacy', !!session);
+  const exitTest = useExitTest('legacy', session ?? undefined);
 
   // Reading the explanation, or searching the web, auto-pauses the timer;
   // combine with manual pause and tab-hidden so any of the four keeps the
@@ -137,7 +151,7 @@ export default function QuizPage() {
   const kbIndex = session?.currentIndex ?? 0;
   const kbTotal = session?.totalQuestions ?? 0;
   useExamKeyboardNavigation({
-    enabled: !!session && !showSheet && !searchSheetOpen && !showPalette && (isTestMode || session.attempts[kbIndex]?.status === 'unanswered'),
+    enabled: !!session && !showSheet && !searchSheetOpen && !showPalette && !showMarkSheet && (isTestMode || session.attempts[kbIndex]?.status === 'unanswered'),
     canGoPrevious: kbIndex > 0,
     canGoNext: kbIndex < kbTotal - 1,
     onPrevious: () => goToQuestion(kbIndex - 1),
@@ -151,9 +165,11 @@ export default function QuizPage() {
     navigate('/tests/result');
   }, [session, completeSession, navigate]);
 
-  if (!session) return null;
+  // A suspended session's clock hasn't absorbed the time away yet — wait for the presence hook (one frame).
+  if (!session || session.suspendedAt) return null;
 
   const currentAttempt = session.attempts[session.currentIndex];
+  const currentPurpose = effectivePurpose({ isMarkedForReview: currentAttempt.markedForReview, markPurpose: currentAttempt.markPurpose });
   const isAnswered = currentAttempt.status !== 'unanswered';
   const isLast = session.currentIndex >= session.totalQuestions - 1;
   const progress = ((session.currentIndex + 1) / session.totalQuestions) * 100;
@@ -205,23 +221,46 @@ export default function QuizPage() {
     setManualPause((p) => !p);
   }
 
-  function handleQuit() {
-    if (window.confirm(isTestMode ? 'Quit the test? Your progress will be lost and it will not be scored.' : 'Quit the test? Your progress will be lost.')) {
-      clearSession();
-      navigate('/');
+  async function applyMark(purpose: MarkPurpose | null) {
+    setShowMarkSheet(false);
+    setMarkPurpose(currentAttempt.questionId, purpose);
+    try {
+      const saved = await saveAttemptMark(currentAttempt, session!.fileName, session!.date, purpose);
+      if (purpose === null) toast('Mark removed', { id: 'mark-toast' });
+      else if (saved) toast.success(`Saved for ${getMarkPurposeInfo(purpose)?.label.toLowerCase()} — find it in Review Center`, { id: 'mark-toast' });
+      else toast.success('Marked for review in this test', { id: 'mark-toast' });
+    } catch (err) {
+      console.error('Could not save question mark', err);
+      toast.error("The mark is on this test, but couldn't be saved to your Review Center.", { id: 'mark-toast' });
     }
   }
 
+  function handleClose() {
+    exitTest();
+    toast('Progress saved — resume this test from Home.', { icon: '💾', id: 'test-saved' });
+  }
+
+  /** Sidebar "Submit Test": the same confirmation the last question shows, available at any time. Practice only needs it when something is marked. */
+  function openSubmit() {
+    setShowPalette(false);
+    setShowSubmitConfirm(true);
+  }
+
   return (
-    <div className="min-h-screen" style={{ background: 'var(--bg)' }}>
+    <div
+      className="min-h-screen transition-[padding] duration-200"
+      // While the desktop explanation drawer is open, reserve its width so the question and options stay visible beside it.
+      style={{ background: 'var(--bg)', paddingRight: showSheet && isDesktop && !isTestMode ? EXPLANATION_DRAWER_WIDTH : undefined }}
+    >
       {/* Header */}
       <header className="sticky top-0 z-30 glass border-b border-[var(--border)]">
         <div className="max-w-5xl mx-auto px-3 sm:px-4 h-auto min-h-14 py-2 flex items-center justify-between gap-2 sm:gap-4">
           <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
             <button
-              onClick={handleQuit}
+              onClick={handleClose}
               className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0"
-              aria-label="Quit test"
+              aria-label="Close test (progress is saved)"
+              title="Close — your progress is saved"
             >
               <X size={18} style={{ color: 'var(--text-secondary)' }} />
             </button>
@@ -329,18 +368,18 @@ export default function QuizPage() {
                     </div>
                     <div className="flex items-center gap-1 flex-shrink-0">
                       <button
-                        onClick={() => toggleMarkForReview(currentAttempt.questionId)}
+                        onClick={() => setShowMarkSheet(true)}
                         className={`p-2 rounded-xl transition-colors ${
-                          currentAttempt.markedForReview
+                          currentPurpose
                             ? 'text-amber-500 bg-amber-50 dark:bg-amber-900/20'
                             : 'hover:bg-gray-100 dark:hover:bg-white/10'
                         }`}
-                        style={!currentAttempt.markedForReview ? { color: 'var(--text-muted)' } : undefined}
-                        title="Mark for review"
-                        aria-label="Mark for review"
-                        aria-pressed={!!currentAttempt.markedForReview}
+                        style={!currentPurpose ? { color: 'var(--text-muted)' } : { color: getMarkPurposeInfo(currentPurpose)?.color }}
+                        title="Mark this question"
+                        aria-label={currentPurpose ? `Marked: ${getMarkPurposeInfo(currentPurpose)?.label}. Change or remove mark` : 'Mark this question'}
+                        aria-haspopup="dialog"
                       >
-                        <Flag size={16} fill={currentAttempt.markedForReview ? 'currentColor' : 'none'} />
+                        <Flag size={16} fill={currentPurpose ? 'currentColor' : 'none'} />
                       </button>
                       {!isTestMode && (
                         <button
@@ -460,18 +499,30 @@ export default function QuizPage() {
 
           {/* Desktop Palette */}
           <div className="hidden md:block w-56 flex-shrink-0">
-            <div className="sticky top-20">
-              <QuestionPalette
-                attempts={session.attempts}
-                currentIndex={session.currentIndex}
-                visitedIndices={session.visitedIndices ?? []}
-                onJump={goToQuestion}
-                hideCorrectness={isTestMode}
-              />
+            <div className="sticky top-20 flex flex-col gap-3 max-h-[calc(100dvh-6rem)]">
+              <div className="min-h-0 overflow-y-auto">
+                <QuestionPalette
+                  attempts={session.attempts}
+                  currentIndex={session.currentIndex}
+                  visitedIndices={session.visitedIndices ?? []}
+                  onJump={goToQuestion}
+                  hideCorrectness={isTestMode}
+                />
+              </div>
+              <button type="button" onClick={openSubmit} className="btn-primary w-full flex items-center justify-center gap-2 text-sm py-2.5 flex-shrink-0"><Send size={14} /> Submit Test</button>
             </div>
           </div>
         </div>
       </div>
+
+      <MarkPurposeSheet
+        open={showMarkSheet}
+        current={currentPurpose}
+        questionNumber={session.currentIndex + 1}
+        onSelect={(p) => applyMark(p)}
+        onRemove={() => applyMark(null)}
+        onClose={() => setShowMarkSheet(false)}
+      />
 
       {/* Answer Bottom Sheet — practice mode only; test mode never reveals per-question */}
       {!isTestMode && (
@@ -480,7 +531,7 @@ export default function QuizPage() {
           isLastQuestion={isLast}
           onNext={handleNext}
           onBookmark={() => toggleBookmark(currentAttempt.questionId)}
-          onMarkForReview={() => toggleMarkForReview(currentAttempt.questionId)}
+          onMarkForReview={() => setShowMarkSheet(true)}
           onClose={() => setShowSheet(false)}
           showExplanation={settings.showExplanation}
           autoNextSeconds={settings.autoNextSeconds}
@@ -518,11 +569,11 @@ export default function QuizPage() {
                 <AlertTriangle size={26} className="text-amber-500" />
               </div>
               <h2 className="text-lg font-display font-bold mb-1" style={{ color: 'var(--text-primary)' }}>
-                {isTestMode ? 'Submit Test?' : `Marked For Review: ${markedIndices.length} Question${markedIndices.length !== 1 ? 's' : ''}`}
+                {isTestMode || markedIndices.length === 0 ? 'Submit Test?' : `Marked For Review: ${markedIndices.length} Question${markedIndices.length !== 1 ? 's' : ''}`}
               </h2>
               <p className="text-sm mb-5" style={{ color: 'var(--text-secondary)' }}>
-                {isTestMode
-                  ? `${unansweredCount} unanswered${markedIndices.length > 0 ? `, ${markedIndices.length} marked for review` : ''}. You can still go back and review before submitting.`
+                {isTestMode || markedIndices.length === 0
+                  ? `${session.totalQuestions - unansweredCount} answered, ${unansweredCount} unanswered${markedIndices.length > 0 ? `, ${markedIndices.length} marked for review` : ''}. You can still go back before submitting.`
                   : 'You can revisit them before submitting, or submit the test as-is.'}
               </p>
               <div className="flex flex-col gap-2">
@@ -532,7 +583,10 @@ export default function QuizPage() {
                   </button>
                 )}
                 <button onClick={handleConfirmSubmit} className="btn-primary text-sm py-2.5">
-                  Submit Test {!isTestMode && 'Anyway'}
+                  Submit Test {!isTestMode && markedIndices.length > 0 && 'Anyway'}
+                </button>
+                <button onClick={() => setShowSubmitConfirm(false)} className="btn-ghost text-sm">
+                  Go back
                 </button>
               </div>
             </motion.div>
@@ -556,9 +610,10 @@ export default function QuizPage() {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-              className="fixed right-0 top-0 bottom-0 z-50 w-72 p-4 overflow-y-auto"
-              style={{ background: 'var(--card)', borderLeft: '1px solid var(--border)' }}
+              className="fixed right-0 top-0 bottom-0 z-50 w-72 max-w-[85vw] flex flex-col"
+              style={{ background: 'var(--card)', borderLeft: '1px solid var(--border)', paddingTop: 'env(safe-area-inset-top, 0px)', paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}
             >
+              <div className="p-4 flex-1 min-h-0 overflow-y-auto">
               <div className="flex items-center justify-between mb-4">
                 <h2 className="font-display font-bold" style={{ color: 'var(--text-primary)' }}>
                   Question Palette
@@ -581,6 +636,10 @@ export default function QuizPage() {
                 }}
                 hideCorrectness={isTestMode}
               />
+              </div>
+              <div className="flex-shrink-0 p-4" style={{ borderTop: '1px solid var(--border)' }}>
+                <button type="button" onClick={openSubmit} className="btn-primary w-full flex items-center justify-center gap-2 text-sm py-2.5"><Send size={14} /> Submit Test</button>
+              </div>
             </motion.div>
           </>
         )}

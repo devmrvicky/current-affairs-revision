@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "vocab_idf_001",
+    "subjectId": "english",
+    "question": "He decided to ___ the bullet and accept the consequences.",
+    "options": [
+      {
+        "id": "A",
+        "text": "hit"
+      },
+      {
+        "id": "B",
+        "text": "bite"
+      },
+      {
+        "id": "C",
+        "text": "kick"
+      },
+      {
+        "id": "D",
+        "text": "break"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Bite the bullet = कठिन स्थिति का सामना करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_002",
+    "subjectId": "english",
+    "question": "Don't ___ your chickens before they hatch.",
+    "options": [
+      {
+        "id": "A",
+        "text": "count"
+      },
+      {
+        "id": "B",
+        "text": "put"
+      },
+      {
+        "id": "C",
+        "text": "make"
+      },
+      {
+        "id": "D",
+        "text": "keep"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Count your chickens before they hatch = पहले से हिसाब न लगाना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_003",
+    "subjectId": "english",
+    "question": "She is always ___ the fence and never takes a firm stand.",
+    "options": [
+      {
+        "id": "A",
+        "text": "jumping over"
+      },
+      {
+        "id": "B",
+        "text": "walking on"
+      },
+      {
+        "id": "C",
+        "text": "sitting on"
+      },
+      {
+        "id": "D",
+        "text": "standing by"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Sit on the fence = दुविधा में रहना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_004",
+    "subjectId": "english",
+    "question": "The new manager ___ the ball rolling on the project.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put"
+      },
+      {
+        "id": "B",
+        "text": "took"
+      },
+      {
+        "id": "C",
+        "text": "made"
+      },
+      {
+        "id": "D",
+        "text": "set"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Set the ball rolling = काम शुरू करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_005",
+    "subjectId": "english",
+    "question": "After many attempts, he finally ___ the nail on the head.",
+    "options": [
+      {
+        "id": "A",
+        "text": "struck"
+      },
+      {
+        "id": "B",
+        "text": "beat"
+      },
+      {
+        "id": "C",
+        "text": "hit"
+      },
+      {
+        "id": "D",
+        "text": "drove"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Hit the nail on the head = बिल्कुल सही बात कहना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_006",
+    "subjectId": "english",
+    "question": "I am ___ the doghouse for forgetting her birthday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "in"
+      },
+      {
+        "id": "C",
+        "text": "under"
+      },
+      {
+        "id": "D",
+        "text": "at"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "In the doghouse = नाराज़गी झेलना (in)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_007",
+    "subjectId": "english",
+    "question": "Her bold remarks ___ the cat among the pigeons.",
+    "options": [
+      {
+        "id": "A",
+        "text": "let"
+      },
+      {
+        "id": "B",
+        "text": "kept"
+      },
+      {
+        "id": "C",
+        "text": "threw"
+      },
+      {
+        "id": "D",
+        "text": "put"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Put the cat among the pigeons = हलचल मचा देना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_008",
+    "subjectId": "english",
+    "question": "We must ___ our belts because money is tight.",
+    "options": [
+      {
+        "id": "A",
+        "text": "tighten"
+      },
+      {
+        "id": "B",
+        "text": "pull"
+      },
+      {
+        "id": "C",
+        "text": "loosen"
+      },
+      {
+        "id": "D",
+        "text": "cut"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Tighten one's belt = खर्च कम करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_009",
+    "subjectId": "english",
+    "question": "The teacher ___ the students over the coals for cheating.",
+    "options": [
+      {
+        "id": "A",
+        "text": "dragged"
+      },
+      {
+        "id": "B",
+        "text": "pulled"
+      },
+      {
+        "id": "C",
+        "text": "hauled"
+      },
+      {
+        "id": "D",
+        "text": "carried"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Haul over the coals = कड़ी फटकार लगाना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_010",
+    "subjectId": "english",
+    "question": "Let's ___ the matter to rest for now.",
+    "options": [
+      {
+        "id": "A",
+        "text": "lay"
+      },
+      {
+        "id": "B",
+        "text": "keep"
+      },
+      {
+        "id": "C",
+        "text": "set"
+      },
+      {
+        "id": "D",
+        "text": "take"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Lay to rest = मामला बंद करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_011",
+    "subjectId": "english",
+    "question": "She is ___ cloud nine after getting the job.",
+    "options": [
+      {
+        "id": "A",
+        "text": "over"
+      },
+      {
+        "id": "B",
+        "text": "in"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "On cloud nine = बेहद खुश",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_012",
+    "subjectId": "english",
+    "question": "Don't ___ your nose into other people's business.",
+    "options": [
+      {
+        "id": "A",
+        "text": "pull"
+      },
+      {
+        "id": "B",
+        "text": "stick"
+      },
+      {
+        "id": "C",
+        "text": "drive"
+      },
+      {
+        "id": "D",
+        "text": "push"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Stick one's nose into = दूसरों के मामले में दखल देना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_013",
+    "subjectId": "english",
+    "question": "The company is ___ hot water due to the scandal.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "into"
+      },
+      {
+        "id": "D",
+        "text": "in"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "In hot water = मुसीबत में होना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_014",
+    "subjectId": "english",
+    "question": "The manager ___ a blind eye to the small mistakes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "cast"
+      },
+      {
+        "id": "B",
+        "text": "closed"
+      },
+      {
+        "id": "C",
+        "text": "turned"
+      },
+      {
+        "id": "D",
+        "text": "set"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Turn a blind eye = अनदेखा करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_015",
+    "subjectId": "english",
+    "question": "I am feeling ___ the weather today.",
+    "options": [
+      {
+        "id": "A",
+        "text": "through"
+      },
+      {
+        "id": "B",
+        "text": "under"
+      },
+      {
+        "id": "C",
+        "text": "off"
+      },
+      {
+        "id": "D",
+        "text": "over"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Under the weather = तबीयत ठीक न होना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_016",
+    "subjectId": "english",
+    "question": "The discovery ___ the way for new research.",
+    "options": [
+      {
+        "id": "A",
+        "text": "paved"
+      },
+      {
+        "id": "B",
+        "text": "made"
+      },
+      {
+        "id": "C",
+        "text": "cut"
+      },
+      {
+        "id": "D",
+        "text": "broke"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Pave the way = रास्ता तैयार करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_017",
+    "subjectId": "english",
+    "question": "We should ___ the iron while it is hot.",
+    "options": [
+      {
+        "id": "A",
+        "text": "beat"
+      },
+      {
+        "id": "B",
+        "text": "strike"
+      },
+      {
+        "id": "C",
+        "text": "hit"
+      },
+      {
+        "id": "D",
+        "text": "break"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Strike while the iron is hot = अवसर का तुरंत लाभ उठाना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_018",
+    "subjectId": "english",
+    "question": "We are all ___ the same boat now.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "in"
+      },
+      {
+        "id": "D",
+        "text": "over"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "In the same boat = एक जैसी स्थिति में होना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_019",
+    "subjectId": "english",
+    "question": "He has ___ his cards close to his chest.",
+    "options": [
+      {
+        "id": "A",
+        "text": "kept"
+      },
+      {
+        "id": "B",
+        "text": "set"
+      },
+      {
+        "id": "C",
+        "text": "made"
+      },
+      {
+        "id": "D",
+        "text": "put"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Keep one's cards close to the chest = अपनी योजना गुप्त रखना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_020",
+    "subjectId": "english",
+    "question": "They ___ a shot in the dark while guessing the answer.",
+    "options": [
+      {
+        "id": "A",
+        "text": "did"
+      },
+      {
+        "id": "B",
+        "text": "gave"
+      },
+      {
+        "id": "C",
+        "text": "made"
+      },
+      {
+        "id": "D",
+        "text": "took"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Take a shot in the dark = अंदाज़े से कोशिश करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_021",
+    "subjectId": "english",
+    "question": "The thief was ___ red-handed by the police.",
+    "options": [
+      {
+        "id": "A",
+        "text": "held"
+      },
+      {
+        "id": "B",
+        "text": "grabbed"
+      },
+      {
+        "id": "C",
+        "text": "seized"
+      },
+      {
+        "id": "D",
+        "text": "caught"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Caught red-handed = रंगे हाथों पकड़ा जाना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_022",
+    "subjectId": "english",
+    "question": "She ___ her hands full with three small children these days.",
+    "options": [
+      {
+        "id": "A",
+        "text": "puts"
+      },
+      {
+        "id": "B",
+        "text": "has"
+      },
+      {
+        "id": "C",
+        "text": "gets"
+      },
+      {
+        "id": "D",
+        "text": "makes"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Have one's hands full = बहुत व्यस्त होना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_023",
+    "subjectId": "english",
+    "question": "The team ___ the upper hand after half-time.",
+    "options": [
+      {
+        "id": "A",
+        "text": "got"
+      },
+      {
+        "id": "B",
+        "text": "made"
+      },
+      {
+        "id": "C",
+        "text": "gave"
+      },
+      {
+        "id": "D",
+        "text": "did"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Get the upper hand = बढ़त हासिल करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_024",
+    "subjectId": "english",
+    "question": "He has ___ his nose to the grindstone all year.",
+    "options": [
+      {
+        "id": "A",
+        "text": "took"
+      },
+      {
+        "id": "B",
+        "text": "gave"
+      },
+      {
+        "id": "C",
+        "text": "kept"
+      },
+      {
+        "id": "D",
+        "text": "made"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Keep one's nose to the grindstone = लगातार मेहनत करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_025",
+    "subjectId": "english",
+    "question": "The decision is now ___ your court.",
+    "options": [
+      {
+        "id": "A",
+        "text": "over"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "in"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "The ball is in your court = फैसला अब तुम्हारे हाथ में है",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_026",
+    "subjectId": "english",
+    "question": "The students ___ the midnight oil before the exam.",
+    "options": [
+      {
+        "id": "A",
+        "text": "lit"
+      },
+      {
+        "id": "B",
+        "text": "burned"
+      },
+      {
+        "id": "C",
+        "text": "made"
+      },
+      {
+        "id": "D",
+        "text": "used"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Burn the midnight oil = रात भर पढ़ाई करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_027",
+    "subjectId": "english",
+    "question": "The politician ___ his foot in his mouth again.",
+    "options": [
+      {
+        "id": "A",
+        "text": "set"
+      },
+      {
+        "id": "B",
+        "text": "placed"
+      },
+      {
+        "id": "C",
+        "text": "kept"
+      },
+      {
+        "id": "D",
+        "text": "put"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Put one's foot in one's mouth = गलत या अनुचित बात कह देना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_028",
+    "subjectId": "english",
+    "question": "I finally ___ my hands on the rare book.",
+    "options": [
+      {
+        "id": "A",
+        "text": "got"
+      },
+      {
+        "id": "B",
+        "text": "made"
+      },
+      {
+        "id": "C",
+        "text": "did"
+      },
+      {
+        "id": "D",
+        "text": "held"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Get one's hands on = कोई चीज़ हासिल करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_029",
+    "subjectId": "english",
+    "question": "Don't ___ the cart before the horse.",
+    "options": [
+      {
+        "id": "A",
+        "text": "take"
+      },
+      {
+        "id": "B",
+        "text": "lead"
+      },
+      {
+        "id": "C",
+        "text": "pull"
+      },
+      {
+        "id": "D",
+        "text": "put"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Put the cart before the horse = उल्टा क्रम अपनाना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_030",
+    "subjectId": "english",
+    "question": "He ___ his head in shame after losing the match.",
+    "options": [
+      {
+        "id": "A",
+        "text": "hung"
+      },
+      {
+        "id": "B",
+        "text": "put"
+      },
+      {
+        "id": "C",
+        "text": "raised"
+      },
+      {
+        "id": "D",
+        "text": "held"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Hang one's head = शर्मिंदगी से सिर झुकाना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_001",
+    "subjectId": "english",
+    "question": "He gave ___ smoking last year.",
+    "options": [
+      {
+        "id": "A",
+        "text": "off"
+      },
+      {
+        "id": "B",
+        "text": "in"
+      },
+      {
+        "id": "C",
+        "text": "up"
+      },
+      {
+        "id": "D",
+        "text": "out"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "easy",
+    "explanation": "Give up = छोड़ देना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_002",
+    "subjectId": "english",
+    "question": "Please turn ___ the lights before leaving.",
+    "options": [
+      {
+        "id": "A",
+        "text": "over"
+      },
+      {
+        "id": "B",
+        "text": "off"
+      },
+      {
+        "id": "C",
+        "text": "in"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "easy",
+    "explanation": "Turn off = बंद करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_003",
+    "subjectId": "english",
+    "question": "She takes ___ her mother in appearance.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "after"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Take after = किसी से मिलना-जुलना होना (रूप-रंग में)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_004",
+    "subjectId": "english",
+    "question": "The match was called ___ due to rain.",
+    "options": [
+      {
+        "id": "A",
+        "text": "out"
+      },
+      {
+        "id": "B",
+        "text": "up"
+      },
+      {
+        "id": "C",
+        "text": "off"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Call off = रद्द करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_005",
+    "subjectId": "english",
+    "question": "I can't put ___ with this noise any longer.",
+    "options": [
+      {
+        "id": "A",
+        "text": "out"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "off"
+      },
+      {
+        "id": "D",
+        "text": "up"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Put up with = सहन करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_006",
+    "subjectId": "english",
+    "question": "I ran ___ an old friend at the market.",
+    "options": [
+      {
+        "id": "A",
+        "text": "into"
+      },
+      {
+        "id": "B",
+        "text": "over"
+      },
+      {
+        "id": "C",
+        "text": "off"
+      },
+      {
+        "id": "D",
+        "text": "after"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Run into = अचानक मिल जाना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_007",
+    "subjectId": "english",
+    "question": "The plane took ___ on time.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "up"
+      },
+      {
+        "id": "C",
+        "text": "off"
+      },
+      {
+        "id": "D",
+        "text": "out"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Take off = उड़ान भरना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_008",
+    "subjectId": "english",
+    "question": "Please fill ___ this form carefully.",
+    "options": [
+      {
+        "id": "A",
+        "text": "off"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "in"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Fill in = फॉर्म भरना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_009",
+    "subjectId": "english",
+    "question": "The company brought ___ a new product last month.",
+    "options": [
+      {
+        "id": "A",
+        "text": "up"
+      },
+      {
+        "id": "B",
+        "text": "out"
+      },
+      {
+        "id": "C",
+        "text": "down"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Bring out = बाज़ार में लाना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_010",
+    "subjectId": "english",
+    "question": "She is in charge ___ the department.",
+    "options": [
+      {
+        "id": "A",
+        "text": "of"
+      },
+      {
+        "id": "B",
+        "text": "for"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "at"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "easy",
+    "explanation": "In charge of = प्रभारी होना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_011",
+    "subjectId": "english",
+    "question": "We are running short ___ money.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "of"
+      },
+      {
+        "id": "D",
+        "text": "by"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Short of = कमी होना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_012",
+    "subjectId": "english",
+    "question": "He is good ___ mathematics.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "in"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "easy",
+    "explanation": "Good at = किसी विषय में निपुण",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_013",
+    "subjectId": "english",
+    "question": "She is afraid ___ dogs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "from"
+      },
+      {
+        "id": "C",
+        "text": "by"
+      },
+      {
+        "id": "D",
+        "text": "of"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "easy",
+    "explanation": "Afraid of = किसी चीज़ से डरना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_014",
+    "subjectId": "english",
+    "question": "He insisted ___ paying the bill.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "for"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "to"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Insist on = ज़िद करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_015",
+    "subjectId": "english",
+    "question": "I came ___ an interesting idea yesterday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "up with"
+      },
+      {
+        "id": "B",
+        "text": "across for"
+      },
+      {
+        "id": "C",
+        "text": "over to"
+      },
+      {
+        "id": "D",
+        "text": "up to"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "hard",
+    "explanation": "Come up with = विचार सामने लाना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_016",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: She is [interested on] painting.",
+    "options": [
+      {
+        "id": "A",
+        "text": "interested at"
+      },
+      {
+        "id": "B",
+        "text": "interested in"
+      },
+      {
+        "id": "C",
+        "text": "interested for"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Interested in = में रुचि होना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_017",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: He [is lying] in bed since morning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "lies"
+      },
+      {
+        "id": "B",
+        "text": "was lying"
+      },
+      {
+        "id": "C",
+        "text": "has been lying"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Since के साथ Present Perfect Continuous (has been lying) आता है",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_018",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: I [am waiting] for you since 6 o'clock.",
+    "options": [
+      {
+        "id": "A",
+        "text": "have been waiting"
+      },
+      {
+        "id": "B",
+        "text": "was waiting"
+      },
+      {
+        "id": "C",
+        "text": "wait"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Since के साथ Present Perfect Continuous आता है",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_019",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: The book is [different than] the film.",
+    "options": [
+      {
+        "id": "A",
+        "text": "different by"
+      },
+      {
+        "id": "B",
+        "text": "different with"
+      },
+      {
+        "id": "C",
+        "text": "different from"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "hard",
+    "explanation": "Different from = से अलग",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_020",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: He [succeeded in] getting the visa.",
+    "options": [
+      {
+        "id": "A",
+        "text": "succeeded for"
+      },
+      {
+        "id": "B",
+        "text": "succeeded to"
+      },
+      {
+        "id": "C",
+        "text": "succeeded at"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Succeed in + V-ing = में सफल होना। वाक्य सही है",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_021",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: [Congratulations for] your success!",
+    "options": [
+      {
+        "id": "A",
+        "text": "Congratulations to"
+      },
+      {
+        "id": "B",
+        "text": "Congratulations on"
+      },
+      {
+        "id": "C",
+        "text": "Congratulations at"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Congratulations on = के लिए बधाई",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_022",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: She is [married with] a doctor.",
+    "options": [
+      {
+        "id": "A",
+        "text": "married to"
+      },
+      {
+        "id": "B",
+        "text": "married for"
+      },
+      {
+        "id": "C",
+        "text": "married by"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Married to = से विवाहित",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_023",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: I am looking forward to [meet] you.",
+    "options": [
+      {
+        "id": "A",
+        "text": "met"
+      },
+      {
+        "id": "B",
+        "text": "meeting"
+      },
+      {
+        "id": "C",
+        "text": "have met"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Look forward to के बाद V-ing आता है",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_024",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: He is [prone for] accidents.",
+    "options": [
+      {
+        "id": "A",
+        "text": "prone at"
+      },
+      {
+        "id": "B",
+        "text": "prone with"
+      },
+      {
+        "id": "C",
+        "text": "prone to"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Prone to = प्रवण होना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_025",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: The results are [in accordance with] the rules.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in accordance at"
+      },
+      {
+        "id": "B",
+        "text": "in accordance to"
+      },
+      {
+        "id": "C",
+        "text": "in accordance from"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "hard",
+    "explanation": "In accordance with = के अनुसार। वाक्य सही है",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_026",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: The teacher was [angry on] the student for being late.",
+    "options": [
+      {
+        "id": "A",
+        "text": "angry for"
+      },
+      {
+        "id": "B",
+        "text": "angry with"
+      },
+      {
+        "id": "C",
+        "text": "angry to"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Angry with + व्यक्ति",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_027",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: He is [capable to do] this job.",
+    "options": [
+      {
+        "id": "A",
+        "text": "capable for doing"
+      },
+      {
+        "id": "B",
+        "text": "capable with doing"
+      },
+      {
+        "id": "C",
+        "text": "capable of doing"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Capable of + V-ing",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_028",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: She is [senior than] me by two years.",
+    "options": [
+      {
+        "id": "A",
+        "text": "senior to"
+      },
+      {
+        "id": "B",
+        "text": "senior from"
+      },
+      {
+        "id": "C",
+        "text": "senior over"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "hard",
+    "explanation": "Senior to = से वरिष्ठ",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_029",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: I am not [willing for accept] this offer.",
+    "options": [
+      {
+        "id": "A",
+        "text": "willing at accepting"
+      },
+      {
+        "id": "B",
+        "text": "willing for accepting"
+      },
+      {
+        "id": "C",
+        "text": "willing to accept"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Willing to + V1",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_030",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: Please [look after] the children.",
+    "options": [
+      {
+        "id": "A",
+        "text": "look into"
+      },
+      {
+        "id": "B",
+        "text": "look at"
+      },
+      {
+        "id": "C",
+        "text": "look over"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Look after = देखभाल करना। वाक्य सही है",
+    "language": "en"
+  }
+]

@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "intorg051",
+    "subjectId": "gk",
+    "question": "Where is the headquarters of the World Bank located?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Washington D.C."
+      },
+      {
+        "id": "B",
+        "text": "Paris"
+      },
+      {
+        "id": "C",
+        "text": "Geneva"
+      },
+      {
+        "id": "D",
+        "text": "New York"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "Both the World Bank and the IMF are headquartered in Washington D.C.",
+    "language": "en"
+  },
+  {
+    "id": "intorg052",
+    "subjectId": "gk",
+    "question": "The World Bank and the IMF were conceived at the 1944 conference held at:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Potsdam"
+      },
+      {
+        "id": "B",
+        "text": "Dumbarton Oaks"
+      },
+      {
+        "id": "C",
+        "text": "Yalta"
+      },
+      {
+        "id": "D",
+        "text": "Bretton Woods (New Hampshire, USA)"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "They are called the 'Bretton Woods twins'.",
+    "language": "en"
+  },
+  {
+    "id": "intorg053",
+    "subjectId": "gk",
+    "question": "How many member countries does the World Bank have?",
+    "options": [
+      {
+        "id": "A",
+        "text": "185"
+      },
+      {
+        "id": "B",
+        "text": "189"
+      },
+      {
+        "id": "C",
+        "text": "191"
+      },
+      {
+        "id": "D",
+        "text": "193"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "World Bank: 189 members, IMF: 191 members, UN: 193 members.",
+    "language": "en"
+  },
+  {
+    "id": "intorg054",
+    "subjectId": "gk",
+    "question": "Who is the current President (14th) of the World Bank?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Robert Zoellick"
+      },
+      {
+        "id": "B",
+        "text": "David Malpass"
+      },
+      {
+        "id": "C",
+        "text": "Ajay Banga"
+      },
+      {
+        "id": "D",
+        "text": "Jim Yong Kim"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "Ajay Banga is an American citizen of Indian origin.",
+    "language": "en"
+  },
+  {
+    "id": "intorg055",
+    "subjectId": "gk",
+    "question": "Which of the following is NOT a part of the World Bank Group?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Multilateral Investment Guarantee Agency"
+      },
+      {
+        "id": "B",
+        "text": "International Finance Corporation"
+      },
+      {
+        "id": "C",
+        "text": "International Monetary Fund"
+      },
+      {
+        "id": "D",
+        "text": "International Development Association"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "World Bank Group: IBRD, IFC, IDA, ICSID and MIGA. India is not a member of ICSID.",
+    "language": "en"
+  },
+  {
+    "id": "intorg056",
+    "subjectId": "gk",
+    "question": "Another name of the World Bank is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "IBRD"
+      },
+      {
+        "id": "B",
+        "text": "IFC"
+      },
+      {
+        "id": "C",
+        "text": "MIGA"
+      },
+      {
+        "id": "D",
+        "text": "IDA"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "IBRD stands for International Bank for Reconstruction and Development.",
+    "language": "en"
+  },
+  {
+    "id": "intorg057",
+    "subjectId": "gk",
+    "question": "Membership of the IBRD (World Bank) is available only after becoming a member of:",
+    "options": [
+      {
+        "id": "A",
+        "text": "International Finance Corporation"
+      },
+      {
+        "id": "B",
+        "text": "Asian Development Bank"
+      },
+      {
+        "id": "C",
+        "text": "World Trade Organization"
+      },
+      {
+        "id": "D",
+        "text": "International Monetary Fund"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "hard",
+    "explanation": "A country must first join the IMF to become a member of the IBRD.",
+    "language": "en"
+  },
+  {
+    "id": "intorg058",
+    "subjectId": "gk",
+    "question": "The International Centre for Settlement of Investment Disputes (ICSID) is part of which organisation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "WTO"
+      },
+      {
+        "id": "B",
+        "text": "World Bank Group"
+      },
+      {
+        "id": "C",
+        "text": "IMF"
+      },
+      {
+        "id": "D",
+        "text": "UNCTAD"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "hard",
+    "explanation": "India is not a member of ICSID.",
+    "language": "en"
+  },
+  {
+    "id": "intorg059",
+    "subjectId": "gk",
+    "question": "Which institution mainly provides long-term loans to developing countries?",
+    "options": [
+      {
+        "id": "A",
+        "text": "World Trade Organization"
+      },
+      {
+        "id": "B",
+        "text": "UNCTAD"
+      },
+      {
+        "id": "C",
+        "text": "International Monetary Fund"
+      },
+      {
+        "id": "D",
+        "text": "World Bank"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "The IMF provides short-term loans to both developed and developing countries.",
+    "language": "en"
+  },
+  {
+    "id": "intorg060",
+    "subjectId": "gk",
+    "question": "The currency of the IMF is known as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bancor"
+      },
+      {
+        "id": "B",
+        "text": "Paper Rupee"
+      },
+      {
+        "id": "C",
+        "text": "Special Drawing Rights (SDR)"
+      },
+      {
+        "id": "D",
+        "text": "Eurodollar"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "SDR is also called 'Paper Gold'.",
+    "language": "en"
+  },
+  {
+    "id": "intorg061",
+    "subjectId": "gk",
+    "question": "Which of the following currencies is NOT included in the IMF's SDR basket?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indian Rupee"
+      },
+      {
+        "id": "B",
+        "text": "Japanese Yen"
+      },
+      {
+        "id": "C",
+        "text": "British Pound"
+      },
+      {
+        "id": "D",
+        "text": "Chinese Renminbi"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "SDR basket: US Dollar, Euro, Pound, Yen and Renminbi.",
+    "language": "en"
+  },
+  {
+    "id": "intorg062",
+    "subjectId": "gk",
+    "question": "The International Monetary Fund was established in the year:",
+    "options": [
+      {
+        "id": "A",
+        "text": "1944"
+      },
+      {
+        "id": "B",
+        "text": "1945"
+      },
+      {
+        "id": "C",
+        "text": "1946"
+      },
+      {
+        "id": "D",
+        "text": "1947"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "IMF: 1945. World Bank: 1944. UN: 1945. GATT: 1948.",
+    "language": "en"
+  },
+  {
+    "id": "intorg063",
+    "subjectId": "gk",
+    "question": "How many member countries does the IMF have?",
+    "options": [
+      {
+        "id": "A",
+        "text": "185"
+      },
+      {
+        "id": "B",
+        "text": "189"
+      },
+      {
+        "id": "C",
+        "text": "191"
+      },
+      {
+        "id": "D",
+        "text": "193"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "IMF: 191 members (190th Andorra, 191st Liechtenstein).",
+    "language": "en"
+  },
+  {
+    "id": "intorg064",
+    "subjectId": "gk",
+    "question": "Which country became the 191st member of the IMF?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Andorra"
+      },
+      {
+        "id": "B",
+        "text": "South Sudan"
+      },
+      {
+        "id": "C",
+        "text": "Monaco"
+      },
+      {
+        "id": "D",
+        "text": "Liechtenstein"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "hard",
+    "explanation": "Andorra was the 190th member and Liechtenstein the 191st.",
+    "language": "en"
+  },
+  {
+    "id": "intorg065",
+    "subjectId": "gk",
+    "question": "Who is the Managing Director of the IMF?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kristalina Georgieva"
+      },
+      {
+        "id": "B",
+        "text": "Christine Lagarde"
+      },
+      {
+        "id": "C",
+        "text": "Gita Gopinath"
+      },
+      {
+        "id": "D",
+        "text": "Ajay Banga"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "Kristalina Georgieva belongs to Bulgaria.",
+    "language": "en"
+  },
+  {
+    "id": "intorg066",
+    "subjectId": "gk",
+    "question": "Who was the first woman Managing Director of the IMF?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kristalina Georgieva"
+      },
+      {
+        "id": "B",
+        "text": "Christine Lagarde"
+      },
+      {
+        "id": "C",
+        "text": "Janet Yellen"
+      },
+      {
+        "id": "D",
+        "text": "Gita Gopinath"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Christine Lagarde belongs to France.",
+    "language": "en"
+  },
+  {
+    "id": "intorg067",
+    "subjectId": "gk",
+    "question": "Who became the first woman Chief Economist of the IMF in 2019?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Christine Lagarde"
+      },
+      {
+        "id": "B",
+        "text": "Raghuram Rajan"
+      },
+      {
+        "id": "C",
+        "text": "Kristalina Georgieva"
+      },
+      {
+        "id": "D",
+        "text": "Gita Gopinath"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Gita Gopinath later became the First Deputy Managing Director of the IMF.",
+    "language": "en"
+  },
+  {
+    "id": "intorg068",
+    "subjectId": "gk",
+    "question": "Which international organisation was the predecessor of the World Trade Organization (WTO)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "UNCTAD"
+      },
+      {
+        "id": "B",
+        "text": "GATT"
+      },
+      {
+        "id": "C",
+        "text": "OPEC"
+      },
+      {
+        "id": "D",
+        "text": "IBRD"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "General Agreement on Tariffs and Trade (GATT).",
+    "language": "en"
+  },
+  {
+    "id": "intorg069",
+    "subjectId": "gk",
+    "question": "The General Agreement on Tariffs and Trade (GATT) came into effect on:",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 January 1948"
+      },
+      {
+        "id": "B",
+        "text": "1 January 1950"
+      },
+      {
+        "id": "C",
+        "text": "1 January 1995"
+      },
+      {
+        "id": "D",
+        "text": "1 January 1945"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "hard",
+    "explanation": "The ITO (International Trade Organization) idea was of 1947; the GATT began on 1 January 1948.",
+    "language": "en"
+  },
+  {
+    "id": "intorg070",
+    "subjectId": "gk",
+    "question": "The World Trade Organization was established on:",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 January 1948"
+      },
+      {
+        "id": "B",
+        "text": "1 January 2000"
+      },
+      {
+        "id": "C",
+        "text": "1 January 1995"
+      },
+      {
+        "id": "D",
+        "text": "1 January 1990"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "WTO replaced GATT on 1 January 1995.",
+    "language": "en"
+  },
+  {
+    "id": "intorg071",
+    "subjectId": "gk",
+    "question": "The WTO was established after the end of which round of trade negotiations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tokyo Round"
+      },
+      {
+        "id": "B",
+        "text": "Kennedy Round"
+      },
+      {
+        "id": "C",
+        "text": "Doha Round"
+      },
+      {
+        "id": "D",
+        "text": "Uruguay Round"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "The Uruguay Round ran from 1986 to 1994.",
+    "language": "en"
+  },
+  {
+    "id": "intorg072",
+    "subjectId": "gk",
+    "question": "The WTO was established under which agreement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Treaty of Rome"
+      },
+      {
+        "id": "B",
+        "text": "Havana Charter"
+      },
+      {
+        "id": "C",
+        "text": "Marrakesh Agreement"
+      },
+      {
+        "id": "D",
+        "text": "Maastricht Treaty"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Marrakesh (Morocco) Agreement, signed in 1994.",
+    "language": "en"
+  },
+  {
+    "id": "intorg073",
+    "subjectId": "gk",
+    "question": "Where is the headquarters of the WTO located?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Geneva"
+      },
+      {
+        "id": "B",
+        "text": "Brussels"
+      },
+      {
+        "id": "C",
+        "text": "Washington D.C."
+      },
+      {
+        "id": "D",
+        "text": "New York"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "WTO HQ is in Geneva, Switzerland.",
+    "language": "en"
+  },
+  {
+    "id": "intorg074",
+    "subjectId": "gk",
+    "question": "Who is the Director-General of the WTO, the first woman and first African to hold the post?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rebeca Grynspan"
+      },
+      {
+        "id": "B",
+        "text": "Ngozi Okonjo-Iweala"
+      },
+      {
+        "id": "C",
+        "text": "Roberto Azevedo"
+      },
+      {
+        "id": "D",
+        "text": "Pascal Lamy"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Ngozi Okonjo-Iweala belongs to Nigeria.",
+    "language": "en"
+  },
+  {
+    "id": "intorg075",
+    "subjectId": "gk",
+    "question": "Which country became the 166th member of the WTO?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Afghanistan"
+      },
+      {
+        "id": "B",
+        "text": "Comoros"
+      },
+      {
+        "id": "C",
+        "text": "Liberia"
+      },
+      {
+        "id": "D",
+        "text": "Timor-Leste"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "hard",
+    "explanation": "WTO has 166 members. Afghanistan was the 164th member.",
+    "language": "en"
+  },
+  {
+    "id": "intorg076",
+    "subjectId": "gk",
+    "question": "The European Union was formally established on 1 November 1993 under which treaty?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Treaty of Lisbon"
+      },
+      {
+        "id": "B",
+        "text": "Maastricht Treaty"
+      },
+      {
+        "id": "C",
+        "text": "Treaty of Rome"
+      },
+      {
+        "id": "D",
+        "text": "Treaty of Paris"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "The Maastricht Treaty was signed in 1992.",
+    "language": "en"
+  },
+  {
+    "id": "intorg077",
+    "subjectId": "gk",
+    "question": "Where is the headquarters of the European Union located?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Brussels (Belgium)"
+      },
+      {
+        "id": "B",
+        "text": "Strasbourg"
+      },
+      {
+        "id": "C",
+        "text": "Berlin"
+      },
+      {
+        "id": "D",
+        "text": "Paris"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "NATO's headquarters is also in Brussels.",
+    "language": "en"
+  },
+  {
+    "id": "intorg078",
+    "subjectId": "gk",
+    "question": "How many member countries does the European Union have at present?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25"
+      },
+      {
+        "id": "B",
+        "text": "27"
+      },
+      {
+        "id": "C",
+        "text": "28"
+      },
+      {
+        "id": "D",
+        "text": "30"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "After Brexit, the EU has 27 members.",
+    "language": "en"
+  },
+  {
+    "id": "intorg079",
+    "subjectId": "gk",
+    "question": "The Euro currency was introduced in circulation from:",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 January 2004"
+      },
+      {
+        "id": "B",
+        "text": "1 January 1999"
+      },
+      {
+        "id": "C",
+        "text": "1 January 2002"
+      },
+      {
+        "id": "D",
+        "text": "1 January 1993"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Euro notes and coins began circulation on 1 January 2002.",
+    "language": "en"
+  },
+  {
+    "id": "intorg080",
+    "subjectId": "gk",
+    "question": "Which country became the 21st country to adopt the Euro from 1 January 2026?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Romania"
+      },
+      {
+        "id": "B",
+        "text": "Hungary"
+      },
+      {
+        "id": "C",
+        "text": "Bulgaria"
+      },
+      {
+        "id": "D",
+        "text": "Poland"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Croatia was the 20th country to adopt the Euro. The capital of Bulgaria is Sofia.",
+    "language": "en"
+  },
+  {
+    "id": "intorg081",
+    "subjectId": "gk",
+    "question": "The exit of Britain from the European Union is popularly known as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Brexit"
+      },
+      {
+        "id": "B",
+        "text": "Eurexit"
+      },
+      {
+        "id": "C",
+        "text": "Grexit"
+      },
+      {
+        "id": "D",
+        "text": "Frexit"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "Britain left the European Union in 2020.",
+    "language": "en"
+  },
+  {
+    "id": "intorg082",
+    "subjectId": "gk",
+    "question": "In which year did the European Union receive the Nobel Peace Prize?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2007"
+      },
+      {
+        "id": "B",
+        "text": "2010"
+      },
+      {
+        "id": "C",
+        "text": "2012"
+      },
+      {
+        "id": "D",
+        "text": "2015"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "The European Union was awarded the Nobel Peace Prize in 2012.",
+    "language": "en"
+  },
+  {
+    "id": "intorg083",
+    "subjectId": "gk",
+    "question": "The North Atlantic Treaty Organization (NATO) was established on:",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 August 1967"
+      },
+      {
+        "id": "B",
+        "text": "24 October 1945"
+      },
+      {
+        "id": "C",
+        "text": "1 January 1948"
+      },
+      {
+        "id": "D",
+        "text": "4 April 1949"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "NATO was formed in 1949 with 12 founding members.",
+    "language": "en"
+  },
+  {
+    "id": "intorg084",
+    "subjectId": "gk",
+    "question": "How many founding members did NATO have at the time of its establishment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "12"
+      },
+      {
+        "id": "C",
+        "text": "15"
+      },
+      {
+        "id": "D",
+        "text": "16"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "NATO started with 12 members and now has 32.",
+    "language": "en"
+  },
+  {
+    "id": "intorg085",
+    "subjectId": "gk",
+    "question": "Which country became the 32nd member of NATO?",
+    "options": [
+      {
+        "id": "A",
+        "text": "North Macedonia"
+      },
+      {
+        "id": "B",
+        "text": "Finland"
+      },
+      {
+        "id": "C",
+        "text": "Ukraine"
+      },
+      {
+        "id": "D",
+        "text": "Sweden"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "North Macedonia was the 30th and Finland the 31st member.",
+    "language": "en"
+  },
+  {
+    "id": "intorg086",
+    "subjectId": "gk",
+    "question": "Who is the current Secretary-General of NATO?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mark Rutte"
+      },
+      {
+        "id": "B",
+        "text": "Antonio Guterres"
+      },
+      {
+        "id": "C",
+        "text": "Jens Stoltenberg"
+      },
+      {
+        "id": "D",
+        "text": "Ursula von der Leyen"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Mark Rutte is a former Prime Minister of the Netherlands. NATO HQ is in Brussels.",
+    "language": "en"
+  },
+  {
+    "id": "intorg087",
+    "subjectId": "gk",
+    "question": "SAARC was established on 8 December 1985 at:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Colombo"
+      },
+      {
+        "id": "B",
+        "text": "New Delhi"
+      },
+      {
+        "id": "C",
+        "text": "Dhaka"
+      },
+      {
+        "id": "D",
+        "text": "Kathmandu"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "The first SAARC summit was also held in Dhaka.",
+    "language": "en"
+  },
+  {
+    "id": "intorg088",
+    "subjectId": "gk",
+    "question": "Where is the headquarters (Secretariat) of SAARC located?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Colombo"
+      },
+      {
+        "id": "B",
+        "text": "Kathmandu (Nepal)"
+      },
+      {
+        "id": "C",
+        "text": "Dhaka"
+      },
+      {
+        "id": "D",
+        "text": "Thimphu"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "The SAARC Secretariat is in Kathmandu.",
+    "language": "en"
+  },
+  {
+    "id": "intorg089",
+    "subjectId": "gk",
+    "question": "Which of the following is NOT a member of SAARC?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Myanmar"
+      },
+      {
+        "id": "B",
+        "text": "Bhutan"
+      },
+      {
+        "id": "C",
+        "text": "Maldives"
+      },
+      {
+        "id": "D",
+        "text": "Afghanistan"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "easy",
+    "explanation": "SAARC has 8 members: Maldives, Bhutan, Bangladesh, Sri Lanka, Pakistan, Afghanistan, Nepal and India (mnemonic: MBBSPANI).",
+    "language": "en"
+  },
+  {
+    "id": "intorg090",
+    "subjectId": "gk",
+    "question": "Who was the first Secretary-General of SAARC?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ranjan Mathai"
+      },
+      {
+        "id": "B",
+        "text": "Sheel Kant Sharma"
+      },
+      {
+        "id": "C",
+        "text": "Kant Kishore Bhargava"
+      },
+      {
+        "id": "D",
+        "text": "Abul Ahsan (Bangladesh)"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "hard",
+    "explanation": "Kant Kishore Bhargava (1989-91) was the first Indian Secretary-General; Sheel Kant Sharma (2008-11) was the second Indian.",
+    "language": "en"
+  },
+  {
+    "id": "intorg091",
+    "subjectId": "gk",
+    "question": "The SAARC Development Fund has its secretariat in:",
+    "options": [
+      {
+        "id": "A",
+        "text": "New Delhi"
+      },
+      {
+        "id": "B",
+        "text": "Kathmandu"
+      },
+      {
+        "id": "C",
+        "text": "Thimphu (Bhutan)"
+      },
+      {
+        "id": "D",
+        "text": "Dhaka"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "hard",
+    "explanation": "The South Asian University (SAARC University) is in New Delhi.",
+    "language": "en"
+  },
+  {
+    "id": "intorg092",
+    "subjectId": "gk",
+    "question": "India launched the South Asia Satellite for the use of SAARC countries in the year:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2014"
+      },
+      {
+        "id": "B",
+        "text": "2015"
+      },
+      {
+        "id": "C",
+        "text": "2017"
+      },
+      {
+        "id": "D",
+        "text": "2019"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "It was launched from Sriharikota.",
+    "language": "en"
+  },
+  {
+    "id": "intorg093",
+    "subjectId": "gk",
+    "question": "ASEAN was established on 8 August 1967 with how many founding members?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Founders: Indonesia, Malaysia, Philippines, Singapore and Thailand. ASEAN Day: 8 August. HQ: Jakarta.",
+    "language": "en"
+  },
+  {
+    "id": "intorg094",
+    "subjectId": "gk",
+    "question": "Which of the following was NOT a founding member of ASEAN?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Malaysia"
+      },
+      {
+        "id": "B",
+        "text": "Thailand"
+      },
+      {
+        "id": "C",
+        "text": "Indonesia"
+      },
+      {
+        "id": "D",
+        "text": "Vietnam"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "ASEAN's motto is 'One Vision, One Identity, One Community'. India is not an ASEAN member.",
+    "language": "en"
+  },
+  {
+    "id": "intorg095",
+    "subjectId": "gk",
+    "question": "Which country became the 11th member of ASEAN?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Timor-Leste"
+      },
+      {
+        "id": "B",
+        "text": "Brunei"
+      },
+      {
+        "id": "C",
+        "text": "Myanmar"
+      },
+      {
+        "id": "D",
+        "text": "Laos"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "hard",
+    "explanation": "ASEAN now has 11 members. Its headquarters is in Jakarta (Indonesia).",
+    "language": "en"
+  },
+  {
+    "id": "intorg096",
+    "subjectId": "gk",
+    "question": "BIMSTEC was established on 6 June 1997 under which declaration?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bangkok Declaration"
+      },
+      {
+        "id": "B",
+        "text": "Dhaka Declaration"
+      },
+      {
+        "id": "C",
+        "text": "Bandung Declaration"
+      },
+      {
+        "id": "D",
+        "text": "Colombo Declaration"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "hard",
+    "explanation": "BIMSTEC: Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Co-operation. It has 7 members, including Thailand and Myanmar.",
+    "language": "en"
+  },
+  {
+    "id": "intorg097",
+    "subjectId": "gk",
+    "question": "Where is the headquarters of BIMSTEC located?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bangkok"
+      },
+      {
+        "id": "B",
+        "text": "Dhaka"
+      },
+      {
+        "id": "C",
+        "text": "Kathmandu"
+      },
+      {
+        "id": "D",
+        "text": "Colombo"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "The BIMSTEC Energy Centre is in Bengaluru. Current Secretary-General Indramani Pandey is the first Indian to hold the post.",
+    "language": "en"
+  },
+  {
+    "id": "intorg098",
+    "subjectId": "gk",
+    "question": "Which country became the 20th country to adopt the Euro, in January 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lithuania"
+      },
+      {
+        "id": "B",
+        "text": "Bulgaria"
+      },
+      {
+        "id": "C",
+        "text": "Romania"
+      },
+      {
+        "id": "D",
+        "text": "Croatia"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "Bulgaria became the 21st Eurozone member on 1 January 2026.",
+    "language": "en"
+  },
+  {
+    "id": "intorg099",
+    "subjectId": "gk",
+    "question": "Which country became the 31st member of NATO in 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Finland"
+      },
+      {
+        "id": "B",
+        "text": "North Macedonia"
+      },
+      {
+        "id": "C",
+        "text": "Montenegro"
+      },
+      {
+        "id": "D",
+        "text": "Sweden"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "North Macedonia was the 30th and Sweden the 32nd member. NATO has 4 parts/organs in total.",
+    "language": "en"
+  },
+  {
+    "id": "intorg100",
+    "subjectId": "gk",
+    "question": "The South Asian University (SAARC University) is located in:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kathmandu"
+      },
+      {
+        "id": "B",
+        "text": "New Delhi (Chanakyapuri)"
+      },
+      {
+        "id": "C",
+        "text": "Dhaka"
+      },
+      {
+        "id": "D",
+        "text": "Islamabad"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "international-organizations",
+    "difficulty": "medium",
+    "explanation": "The SAARC Development Fund is in Thimphu (Bhutan) and the SAARC Secretariat in Kathmandu.",
+    "language": "en"
+  }
+]

@@ -4,6 +4,10 @@ interface ExamShellProps {
   header: ReactNode;
   /** Question palette shown beside the question on large screens (mobile uses a drawer the page owns). */
   palette?: ReactNode;
+  /** Pinned under the palette column (e.g. the Submit Test button) — never scrolls away with a long question list. */
+  paletteFooter?: ReactNode;
+  /** Overlay anchored to the question area (not the palette) — e.g. the floating previous/next controls. Must set its own pointer-events. */
+  floating?: ReactNode;
   /** Pinned navigation bar under the question area. */
   footer?: ReactNode;
   /** Overlays (pause screen, drawers, dialogs) rendered inside the shell's stacking context. */
@@ -19,13 +23,21 @@ interface ExamShellProps {
  * header, timer or navigation buttons off screen. Safe-area insets keep it clear
  * of notches and home indicators. All sizing lives in `.exam-shell*` (index.css).
  */
-export function ExamShell({ header, palette, footer, overlays, children }: ExamShellProps) {
+export function ExamShell({ header, palette, paletteFooter, floating, footer, overlays, children }: ExamShellProps) {
   return (
     <div className="exam-shell" data-testid="exam-shell">
       <div className="exam-shell__header">{header}</div>
       <div className="exam-shell__body">
-        <main className="exam-shell__main" tabIndex={-1} data-testid="exam-question-area">{children}</main>
-        {palette && <aside className="exam-shell__palette" aria-label="Question palette">{palette}</aside>}
+        <div className="exam-shell__main-wrap">
+          <main className="exam-shell__main" tabIndex={-1} data-testid="exam-question-area">{children}</main>
+          {floating && <div className="exam-shell__floating">{floating}</div>}
+        </div>
+        {palette && (
+          <aside className="exam-shell__palette" aria-label="Question palette">
+            <div className="exam-shell__palette-scroll">{palette}</div>
+            {paletteFooter && <div className="exam-shell__palette-footer">{paletteFooter}</div>}
+          </aside>
+        )}
       </div>
       {footer && <div className="exam-shell__footer">{footer}</div>}
       {overlays}

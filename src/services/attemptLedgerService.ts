@@ -169,6 +169,8 @@ export async function recordPracticeSessionAttempts(
       // Per-attempt detail — see UniversalAttemptRecord.
       selectedAnswer: state.selectedAnswer,
       markedForReview: state.isMarkedForReview,
+      markPurpose: state.markPurpose ?? (state.isMarkedForReview ? 'review' : undefined),
+      visited: session.visitedIndices.includes(index) || state.selectedAnswer !== null || state.timeTaken > 0,
       questionIndex: index,
       sessionMode: session.config.mode,
       sessionLabel: session.config.label,

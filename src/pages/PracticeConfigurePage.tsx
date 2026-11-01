@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Check, Settings2, X, ListChecks, Zap, ClipboardList, Newspaper, Search, SlidersHorizontal,
-  ChevronRight, ChevronsDownUp, ChevronsUpDown, FilterX,
+  ChevronRight, ChevronsDownUp, ChevronsUpDown, FilterX, EyeOff, LayoutGrid,
 } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { useExamStore } from '../store/examStore';
@@ -12,12 +12,15 @@ import { getSubjectsForExam, getExam } from '../services/examService';
 import { getAvailableTopics, getAvailableSubjects, getRandomQuestions, type AvailableTopic } from '../services/questionRepository';
 import { createQuestionPool } from '../services/practiceService';
 import {
-  applyLibraryFilters, activeFilterCount, countDistinctTopics, DEFAULT_FILTERS,
+  applyLibraryFilters, activeFilterCount, countDistinctTopics, restrictLibrary, DEFAULT_FILTERS,
   type LibraryFilters, type SortKey, type StatusFilter, type TypeFilter,
 } from '../services/testLibraryBuilder';
 import { usePracticeTestLibrary } from '../hooks/usePracticeTestLibrary';
 import { useStartPracticeTest } from '../hooks/useStartPracticeTest';
 import { ChapterTestGroup } from '../components/tests/ChapterTestGroup';
+import { TopicPickerModal } from '../components/tests/TopicPickerModal';
+import { ManageVisibilityModal } from '../components/tests/ManageVisibilityModal';
+import { isGroupVisible, useLibraryVisibilityStore, visibilityScope } from '../store/libraryVisibilityStore';
 import { ModeSwitch } from '../components/tests/ModeSwitch';
 import { ErrorState } from '../components/common/EmptyState';
 import type { Difficulty } from '../types/universalQuestion';
@@ -41,7 +44,7 @@ export default function PracticeConfigurePage() {
   const navigate = useNavigate();
   const { selectedExamId } = useExamStore();
   const exam = getExam(selectedExamId);
-  const { session, startSession, clearSession } = usePracticeSessionStore();
+  const { startSession } = usePracticeSessionStore();
 
   const subjects = getSubjectsForExam(selectedExamId);
   const [contentSubjectIds, setContentSubjectIds] = useState<Set<string>>(new Set());
@@ -78,7 +81,23 @@ export default function PracticeConfigurePage() {
   // The Subject → Chapter → Topic → Test library for the selected subject, plus
   // the learner's attempt stats for it (one cached build, one ledger read).
   const libraryData = usePracticeTestLibrary(selectedExamId, selectedSubjectId && selectedSubjectId !== 'current-affairs' ? selectedSubjectId : null);
-  const { library } = libraryData;
+  const fullLibrary = libraryData.library;
+
+  // Which groups the learner has chosen to show on the main list (hidden ones stay reachable via Manage visibility).
+  const visibilityState = useLibraryVisibilityStore();
+  const visScope = visibilityScope(selectedExamId, selectedSubjectId);
+  const library = useMemo(
+    () => (fullLibrary ? restrictLibrary(fullLibrary, (key) => isGroupVisible(visibilityState, visScope, key)) : null),
+    [fullLibrary, visibilityState, visScope]
+  );
+  const hiddenGroupCount = fullLibrary && library ? fullLibrary.chapters.length - library.chapters.length : 0;
+  const [showTopicPicker, setShowTopicPicker] = useState(false);
+  const [manage, setManage] = useState<{ open: boolean; query: string }>({ open: false, query: '' });
+  const topicTestCounts = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const t of fullLibrary?.tests ?? []) for (const id of t.topicIds) counts.set(id, (counts.get(id) ?? 0) + 1);
+    return counts;
+  }, [fullLibrary]);
   const { start: startTest, startingId } = useStartPracticeTest();
 
   const [filters, setFilters] = useState<LibraryFilters>(DEFAULT_FILTERS);
@@ -115,16 +134,7 @@ export default function PracticeConfigurePage() {
     setSelectedTopicIds((prev) => (prev.includes(topicId) ? prev.filter((t) => t !== topicId) : [...prev, topicId]));
   }
 
-  async function guardActiveSession(): Promise<boolean> {
-    if (session && !session.isCompleted) {
-      if (!window.confirm('You have an in-progress session. Starting a new one will discard it. Continue?')) return false;
-      clearSession();
-    }
-    return true;
-  }
-
   async function handleStartQuickPractice() {
-    if (!(await guardActiveSession())) return;
     if (quickPool === 0) { toast.error('No questions available for this selection yet'); return; }
     setIsStarting(true);
     try {
@@ -150,6 +160,12 @@ export default function PracticeConfigurePage() {
     () => (library ? applyLibraryFilters(library, filters, libraryData.activity) : null),
     [library, filters, libraryData.activity]
   );
+  // While searching/filtering, tell the learner when matching tests also exist in hidden groups, so hiding never makes a test unfindable.
+  const hiddenMatches = useMemo(() => {
+    if (!fullLibrary || !filtered?.isNarrowed || hiddenGroupCount === 0) return 0;
+    const hiddenOnly = restrictLibrary(fullLibrary, (key) => !isGroupVisible(visibilityState, visScope, key));
+    return applyLibraryFilters(hiddenOnly, filters, libraryData.activity).testCount;
+  }, [fullLibrary, filtered, hiddenGroupCount, visibilityState, visScope, filters, libraryData.activity]);
   const libraryTotals = useMemo(() => {
     if (!library) return null;
     const realChapters = library.chapters.filter((c) => c.kind === 'chapter');
@@ -200,6 +216,21 @@ export default function PracticeConfigurePage() {
   function patchFilters(patch: Partial<LibraryFilters>) {
     setFilters((f) => ({ ...f, ...patch }));
   }
+  /** From the topic picker: show that topic's tests. If every group holding them is hidden, open Manage visibility so they can still be found and started. */
+  function viewTopicTests(topicId: string) {
+    setShowTopicPicker(false);
+    if (!fullLibrary) return;
+    const holders = fullLibrary.chapters.filter((c) => [...c.chapterTests, ...c.topics.flatMap((g) => g.tests)].some((t) => t.topicIds.includes(topicId)));
+    const anyVisible = holders.some((c) => isGroupVisible(visibilityState, visScope, c.key));
+    if (anyVisible) {
+      setFilters({ ...DEFAULT_FILTERS, topicId });
+      setShowFilters(true);
+      window.setTimeout(() => document.getElementById('test-library-heading')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
+    } else {
+      setManage({ open: true, query: fullLibrary.topicTitles.get(topicId) ?? '' });
+    }
+  }
+
   function selectSubject(id: string) {
     setSelectedSubjectId(id);
     setFilters(DEFAULT_FILTERS);
@@ -273,23 +304,28 @@ export default function PracticeConfigurePage() {
               <Zap size={14} className="text-teal-500" /> Quick Practice
             </h2>
             {topics.length > 0 && (
-              <div className="flex gap-2 mb-3 overflow-x-auto no-scrollbar pb-1" role="group" aria-label="Quick Practice topics">
-                {topics.map((topic) => {
-                  const active = selectedTopicIds.includes(topic.topicId);
-                  return (
-                    <button
-                      key={topic.topicId}
-                      onClick={() => toggleTopic(topic.topicId)}
-                      className={`flex-shrink-0 px-3 py-1.5 rounded-full text-xs font-medium transition-colors flex items-center gap-1 ${
-                        active ? 'bg-brand-500 text-white' : ''
-                      }`}
-                      style={!active ? { border: '1px solid var(--border)', color: 'var(--text-secondary)' } : undefined}
-                    >
-                      {active && <Check size={10} />}
-                      {topic.topicName} ({topic.questionCount})
-                    </button>
-                  );
-                })}
+              <div className="mb-3">
+                <div className="flex flex-wrap items-center gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setShowTopicPicker(true)}
+                    aria-haspopup="dialog"
+                    className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500"
+                    style={{ border: '1px solid var(--border)', color: 'var(--text-secondary)', background: 'var(--card)' }}
+                  >
+                    <LayoutGrid size={12} /> Browse Topics ({topics.length})
+                  </button>
+                  {selectedTopicIds.slice(0, 4).map((id) => {
+                    const t = topics.find((x) => x.topicId === id);
+                    return t ? (
+                      <button key={id} type="button" onClick={() => toggleTopic(id)} aria-label={`Remove ${t.topicName}`} className="px-3 py-1.5 rounded-full text-xs font-medium bg-brand-500 text-white flex items-center gap-1">
+                        <Check size={10} /> {t.topicName} <X size={10} />
+                      </button>
+                    ) : null;
+                  })}
+                  {selectedTopicIds.length > 4 && <span className="text-xs" style={{ color: 'var(--text-muted)' }}>+{selectedTopicIds.length - 4} more</span>}
+                  {selectedTopicIds.length === 0 && <span className="text-xs" style={{ color: 'var(--text-muted)' }}>All topics · pick some to narrow it down</span>}
+                </div>
               </div>
             )}
             <div className="flex items-center justify-between">
@@ -317,6 +353,17 @@ export default function PracticeConfigurePage() {
                 )}
               </div>
               <div className="flex items-center gap-2">
+                {fullLibrary && fullLibrary.chapters.length > 0 && (
+                  <button
+                    type="button"
+                    onClick={() => setManage({ open: true, query: '' })}
+                    aria-haspopup="dialog"
+                    className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-medium focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
+                    style={{ border: '1px solid var(--border)', color: 'var(--text-secondary)', background: 'var(--card)' }}
+                  >
+                    <EyeOff size={12} /> Manage visibility{hiddenGroupCount > 0 && <span className="px-1.5 rounded-full bg-amber-500 text-white text-[10px] font-bold">{hiddenGroupCount} hidden</span>}
+                  </button>
+                )}
                 <span className="text-xs hidden sm:inline" style={{ color: 'var(--text-muted)' }}>Start as</span>
                 <ModeSwitch mode={mode} onChange={setMode} />
               </div>
@@ -437,9 +484,16 @@ export default function PracticeConfigurePage() {
               </div>
             ) : libraryData.error ? (
               <div className="card mt-2"><ErrorState message="The test library couldn't be loaded." onRetry={libraryData.reload} /></div>
-            ) : !library || library.tests.length === 0 ? (
+            ) : !fullLibrary || fullLibrary.tests.length === 0 ? (
               <div className="card p-5 text-center mt-2">
                 <p className="text-sm" style={{ color: 'var(--text-muted)' }}>No named tests for this subject yet — try Quick Practice above.</p>
+              </div>
+            ) : !library || library.tests.length === 0 ? (
+              <div className="card p-6 text-center mt-2" role="status">
+                <EyeOff size={22} className="mx-auto mb-2" style={{ color: 'var(--text-muted)' }} />
+                <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>All {fullLibrary.chapters.length} topic groups are hidden</p>
+                <p className="text-xs mt-1 mb-3" style={{ color: 'var(--text-muted)' }}>Nothing was deleted — pick which groups to show again.</p>
+                <button type="button" onClick={() => setManage({ open: true, query: '' })} className="btn-secondary text-xs py-1.5 px-4">Manage visibility</button>
               </div>
             ) : filtered && filtered.chapters.length === 0 ? (
               <div className="card p-6 text-center mt-2" role="status">
@@ -450,6 +504,18 @@ export default function PracticeConfigurePage() {
               </div>
             ) : filtered && (
               <>
+                {hiddenMatches > 0 && (
+                  <button
+                    type="button"
+                    onClick={() => setManage({ open: true, query: filters.query.trim() || (filters.topicId ? fullLibrary?.topicTitles.get(filters.topicId) ?? '' : '') })}
+                    className="w-full mb-2 flex items-center justify-between gap-2 text-left text-xs rounded-xl px-3 py-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
+                    style={{ background: 'var(--card)', border: '1px dashed var(--border)', color: 'var(--text-secondary)' }}
+                    data-testid="hidden-matches"
+                  >
+                    <span><EyeOff size={12} className="inline mr-1.5 -mt-0.5" />{hiddenMatches} more matching test{hiddenMatches === 1 ? ' is' : 's are'} in hidden groups</span>
+                    <span className="font-medium text-brand-600 dark:text-brand-400 flex-shrink-0">Open in Manage visibility</span>
+                  </button>
+                )}
                 <div className="flex items-center justify-between mt-1 mb-1.5">
                   <p className="text-xs" style={{ color: 'var(--text-muted)' }} aria-live="polite">
                     {filtered.isNarrowed
@@ -505,6 +571,31 @@ export default function PracticeConfigurePage() {
             )}
           </section>
         </>
+      )}
+
+      <TopicPickerModal
+        open={showTopicPicker}
+        onClose={() => setShowTopicPicker(false)}
+        topics={topics}
+        testCounts={topicTestCounts}
+        selectedIds={selectedTopicIds}
+        onToggle={toggleTopic}
+        onClear={() => setSelectedTopicIds([])}
+        onViewTests={viewTopicTests}
+      />
+      {fullLibrary && (
+        <ManageVisibilityModal
+          key={manage.query}
+          open={manage.open}
+          onClose={() => setManage((m) => ({ ...m, open: false }))}
+          library={fullLibrary}
+          scope={visScope}
+          stats={libraryData.stats}
+          mode={mode}
+          startingId={startingId}
+          onStart={startTest}
+          initialQuery={manage.query}
+        />
       )}
 
       {/* Settings bottom sheet (§48-51) */}

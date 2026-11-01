@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_idm_001",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Bite the dust",
+    "options": [
+      {
+        "id": "A",
+        "text": "To eat dusty food"
+      },
+      {
+        "id": "B",
+        "text": "To rest peacefully"
+      },
+      {
+        "id": "C",
+        "text": "To clean thoroughly"
+      },
+      {
+        "id": "D",
+        "text": "To die or be defeated"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Bite the dust = मरना या हार जाना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_002",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Once in a blue moon",
+    "options": [
+      {
+        "id": "A",
+        "text": "Very rarely"
+      },
+      {
+        "id": "B",
+        "text": "At night only"
+      },
+      {
+        "id": "C",
+        "text": "Very frequently"
+      },
+      {
+        "id": "D",
+        "text": "Every single day"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "Once in a blue moon = बहुत कम, कभी-कभार",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_003",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Break the ice",
+    "options": [
+      {
+        "id": "A",
+        "text": "Break something hard"
+      },
+      {
+        "id": "B",
+        "text": "Win an argument"
+      },
+      {
+        "id": "C",
+        "text": "Start a conversation in a social setting"
+      },
+      {
+        "id": "D",
+        "text": "Cool a drink"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Break the ice = झिझक तोड़ना, बातचीत शुरू करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_004",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Hit the nail on the head",
+    "options": [
+      {
+        "id": "A",
+        "text": "To work hard"
+      },
+      {
+        "id": "B",
+        "text": "To be exactly right"
+      },
+      {
+        "id": "C",
+        "text": "To make a mistake"
+      },
+      {
+        "id": "D",
+        "text": "To hurt someone"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Hit the nail on the head = बिल्कुल सही बात कहना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_005",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Spill the beans",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reveal a secret"
+      },
+      {
+        "id": "B",
+        "text": "Cook food"
+      },
+      {
+        "id": "C",
+        "text": "Make a mess"
+      },
+      {
+        "id": "D",
+        "text": "Waste money"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Spill the beans = राज़ खोल देना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_006",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Cut no ice",
+    "options": [
+      {
+        "id": "A",
+        "text": "To feel cold"
+      },
+      {
+        "id": "B",
+        "text": "To cut ice cubes"
+      },
+      {
+        "id": "C",
+        "text": "To have no effect or importance"
+      },
+      {
+        "id": "D",
+        "text": "To win a prize"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Cut no ice = कोई असर न होना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_007",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Under the weather",
+    "options": [
+      {
+        "id": "A",
+        "text": "Travelling by road"
+      },
+      {
+        "id": "B",
+        "text": "Working outdoors"
+      },
+      {
+        "id": "C",
+        "text": "Happy in sunshine"
+      },
+      {
+        "id": "D",
+        "text": "Feeling unwell"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "Under the weather = तबीयत ठीक न होना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_008",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Bury the hatchet",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hide a weapon"
+      },
+      {
+        "id": "B",
+        "text": "Make peace after a quarrel"
+      },
+      {
+        "id": "C",
+        "text": "Start a war"
+      },
+      {
+        "id": "D",
+        "text": "Dig a hole"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Bury the hatchet = झगड़ा खत्म करके सुलह करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_009",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A piece of cake",
+    "options": [
+      {
+        "id": "A",
+        "text": "Something expensive"
+      },
+      {
+        "id": "B",
+        "text": "A large portion"
+      },
+      {
+        "id": "C",
+        "text": "A dessert"
+      },
+      {
+        "id": "D",
+        "text": "Something very easy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "A piece of cake = बहुत आसान काम",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_010",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Beat about the bush",
+    "options": [
+      {
+        "id": "A",
+        "text": "Avoid coming to the main point"
+      },
+      {
+        "id": "B",
+        "text": "Search thoroughly"
+      },
+      {
+        "id": "C",
+        "text": "Hit a plant"
+      },
+      {
+        "id": "D",
+        "text": "Play a game"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Beat about the bush = असली बात से बचना, घुमा-फिराकर बोलना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_011",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Burn the midnight oil",
+    "options": [
+      {
+        "id": "A",
+        "text": "Waste fuel"
+      },
+      {
+        "id": "B",
+        "text": "Work late into the night"
+      },
+      {
+        "id": "C",
+        "text": "Sleep early"
+      },
+      {
+        "id": "D",
+        "text": "Light a lamp"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Burn the midnight oil = रात देर तक पढ़ाई/काम करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_012",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Call it a day",
+    "options": [
+      {
+        "id": "A",
+        "text": "Schedule a meeting"
+      },
+      {
+        "id": "B",
+        "text": "Celebrate a holiday"
+      },
+      {
+        "id": "C",
+        "text": "Stop working for the day"
+      },
+      {
+        "id": "D",
+        "text": "Make a decision"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Call it a day = काम बंद करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_013",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Cold feet",
+    "options": [
+      {
+        "id": "A",
+        "text": "Feeling very cold"
+      },
+      {
+        "id": "B",
+        "text": "Loss of courage before an action"
+      },
+      {
+        "id": "C",
+        "text": "Foot injury"
+      },
+      {
+        "id": "D",
+        "text": "Lack of sleep"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Cold feet = किसी काम से पहले हिम्मत जवाब दे जाना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_014",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Get out of hand",
+    "options": [
+      {
+        "id": "A",
+        "text": "Win easily"
+      },
+      {
+        "id": "B",
+        "text": "Leave a place"
+      },
+      {
+        "id": "C",
+        "text": "Remove a stain"
+      },
+      {
+        "id": "D",
+        "text": "Become uncontrollable"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Get out of hand = काबू से बाहर होना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_015",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Hit the sack",
+    "options": [
+      {
+        "id": "A",
+        "text": "Go to bed"
+      },
+      {
+        "id": "B",
+        "text": "Get a job"
+      },
+      {
+        "id": "C",
+        "text": "Attack someone"
+      },
+      {
+        "id": "D",
+        "text": "Pack a bag"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "Hit the sack = सोने जाना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_016",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Jump the gun",
+    "options": [
+      {
+        "id": "A",
+        "text": "Run fast"
+      },
+      {
+        "id": "B",
+        "text": "Fire a weapon"
+      },
+      {
+        "id": "C",
+        "text": "Act too early"
+      },
+      {
+        "id": "D",
+        "text": "Start a race"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Jump the gun = समय से पहले काम शुरू कर देना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_017",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Kick the bucket",
+    "options": [
+      {
+        "id": "A",
+        "text": "Play football"
+      },
+      {
+        "id": "B",
+        "text": "Start a journey"
+      },
+      {
+        "id": "C",
+        "text": "Clean the house"
+      },
+      {
+        "id": "D",
+        "text": "Die"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Kick the bucket = मरना (अनौपचारिक)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_018",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Pull someone's leg",
+    "options": [
+      {
+        "id": "A",
+        "text": "Help someone walk"
+      },
+      {
+        "id": "B",
+        "text": "Pull a cart"
+      },
+      {
+        "id": "C",
+        "text": "Tease or joke with someone"
+      },
+      {
+        "id": "D",
+        "text": "Hurt someone"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Pull someone's leg = मज़ाक करना / छेड़ना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_019",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Speak of the devil",
+    "options": [
+      {
+        "id": "A",
+        "text": "The person we mention appears just now"
+      },
+      {
+        "id": "B",
+        "text": "Talk about evil"
+      },
+      {
+        "id": "C",
+        "text": "Pray for someone"
+      },
+      {
+        "id": "D",
+        "text": "Insult someone"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Speak of the devil = जिसकी बात हो रही थी वही आ जाना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_020",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Take with a grain of salt",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eat carefully"
+      },
+      {
+        "id": "B",
+        "text": "Believe something only partly"
+      },
+      {
+        "id": "C",
+        "text": "Be very angry"
+      },
+      {
+        "id": "D",
+        "text": "Add extra flavour"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Take with a grain of salt = पूरी तरह विश्वास न करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_021",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Make ends meet",
+    "options": [
+      {
+        "id": "A",
+        "text": "Complete a circle"
+      },
+      {
+        "id": "B",
+        "text": "Meet at a place"
+      },
+      {
+        "id": "C",
+        "text": "Manage to live within one's income"
+      },
+      {
+        "id": "D",
+        "text": "Finish a task"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Make ends meet = आय में गुज़ारा करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_022",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Keep abreast of",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stay informed about"
+      },
+      {
+        "id": "B",
+        "text": "Stay away from"
+      },
+      {
+        "id": "C",
+        "text": "Hold onto"
+      },
+      {
+        "id": "D",
+        "text": "Keep a secret from"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Keep abreast of = अद्यतन जानकारी रखना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_023",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Throw in the towel",
+    "options": [
+      {
+        "id": "A",
+        "text": "Win a match"
+      },
+      {
+        "id": "B",
+        "text": "Clean up"
+      },
+      {
+        "id": "C",
+        "text": "Dry yourself"
+      },
+      {
+        "id": "D",
+        "text": "Give up"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Throw in the towel = हार मान लेना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_024",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Crocodile tears",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tears of joy"
+      },
+      {
+        "id": "B",
+        "text": "False show of sorrow"
+      },
+      {
+        "id": "C",
+        "text": "Tears of anger"
+      },
+      {
+        "id": "D",
+        "text": "Tears from onions"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Crocodile tears = दिखावटी आँसू",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_025",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Dark horse",
+    "options": [
+      {
+        "id": "A",
+        "text": "An unexpected or unknown competitor"
+      },
+      {
+        "id": "B",
+        "text": "A black horse"
+      },
+      {
+        "id": "C",
+        "text": "A dangerous animal"
+      },
+      {
+        "id": "D",
+        "text": "A sad person"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Dark horse = अप्रत्याशित, कम चर्चित प्रतियोगी",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_026",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Level playing field",
+    "options": [
+      {
+        "id": "A",
+        "text": "Flat ground"
+      },
+      {
+        "id": "B",
+        "text": "Equal conditions for all"
+      },
+      {
+        "id": "C",
+        "text": "A sports match"
+      },
+      {
+        "id": "D",
+        "text": "A school project"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Level playing field = सबके लिए बराबर अवसर",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_027",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: White elephant",
+    "options": [
+      {
+        "id": "A",
+        "text": "A famous building"
+      },
+      {
+        "id": "B",
+        "text": "A rare animal"
+      },
+      {
+        "id": "C",
+        "text": "A costly but useless possession"
+      },
+      {
+        "id": "D",
+        "text": "A royal gift"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "White elephant = महंगी पर बेकार चीज़",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_028",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Red-handed",
+    "options": [
+      {
+        "id": "A",
+        "text": "Angry at someone"
+      },
+      {
+        "id": "B",
+        "text": "Having red hands"
+      },
+      {
+        "id": "C",
+        "text": "Bleeding badly"
+      },
+      {
+        "id": "D",
+        "text": "Caught in the act of doing wrong"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Red-handed = अपराध करते हुए रंगे हाथों पकड़ा जाना",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_029",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Hand in glove",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shaking hands"
+      },
+      {
+        "id": "B",
+        "text": "In close, secret cooperation"
+      },
+      {
+        "id": "C",
+        "text": "Helping someone cook"
+      },
+      {
+        "id": "D",
+        "text": "Wearing gloves"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Hand in glove = गहरी मिलीभगत / घनिष्ठ सहयोग",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_030",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Cut and dried",
+    "options": [
+      {
+        "id": "A",
+        "text": "Clear and settled, not open to change"
+      },
+      {
+        "id": "B",
+        "text": "Dried grass"
+      },
+      {
+        "id": "C",
+        "text": "Finished work"
+      },
+      {
+        "id": "D",
+        "text": "Cut vegetables"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Cut and dried = तय, स्पष्ट और बदला न जा सकने वाला",
+    "language": "en"
+  }
+]

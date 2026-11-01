@@ -1,11 +1,20 @@
 import { useMemo, useRef, useState } from 'react';
 import { Flag } from 'lucide-react';
 import type { QuestionAnalysis } from '../../types/mockAnalysis';
+import { getMarkPurposeInfo } from '../../types/questionMark';
 import { QuestionMarkdownRenderer, QuestionOptionContent } from '../mock/QuestionMarkdownRenderer';
 
-type SolutionFilter = 'all' | 'correct' | 'incorrect' | 'unattempted' | 'marked';
+type SolutionFilter = 'all' | 'correct' | 'incorrect' | 'unattempted' | 'slow' | 'marked';
 
-export function SolutionsReview({ solutions }: { solutions: QuestionAnalysis[] }) {
+interface SolutionsReviewProps {
+  solutions: QuestionAnalysis[];
+  /** Questions that took longer than this many seconds count as "slow"; null hides that filter (no timing recorded, or too few timed questions). */
+  slowThresholdSeconds?: number | null;
+  /** False when the attempt recorded no per-question time — the per-question "Time spent" line then says so. */
+  timingAvailable?: boolean;
+}
+
+export function SolutionsReview({ solutions, slowThresholdSeconds = null, timingAvailable = true }: SolutionsReviewProps) {
   const [filter, setFilter] = useState<SolutionFilter>('all');
   const [subjectFilter, setSubjectFilter] = useState<string>('all');
   const itemRefs = useRef<Record<string, HTMLDivElement | null>>({});
@@ -18,7 +27,8 @@ export function SolutionsReview({ solutions }: { solutions: QuestionAnalysis[] }
       case 'correct': return s.status === 'correct';
       case 'incorrect': return s.status === 'incorrect';
       case 'unattempted': return s.status === 'unattempted';
-      case 'marked': return s.isMarkedForReview;
+      case 'slow': return slowThresholdSeconds !== null && s.timeSpentSeconds > slowThresholdSeconds;
+      case 'marked': return s.isMarkedForReview || !!s.markPurpose;
       default: return true;
     }
   });
@@ -30,10 +40,11 @@ export function SolutionsReview({ solutions }: { solutions: QuestionAnalysis[] }
   return (
     <div className="space-y-4">
       <div className="flex flex-wrap gap-2">
-        {(['all', 'correct', 'incorrect', 'unattempted', 'marked'] as SolutionFilter[]).map((f) => (
+        {(['all', 'correct', 'incorrect', 'unattempted', 'slow', 'marked'] as SolutionFilter[]).filter((f) => f !== 'slow' || slowThresholdSeconds !== null).map((f) => (
           <button
             key={f}
             onClick={() => setFilter(f)}
+            aria-pressed={filter === f}
             className="px-3 py-1.5 rounded-lg text-xs font-medium capitalize"
             style={filter === f ? { background: 'var(--brand-500, #6366f1)', color: '#fff' } : { background: 'var(--border)', color: 'var(--text-secondary)' }}
           >
@@ -64,10 +75,10 @@ export function SolutionsReview({ solutions }: { solutions: QuestionAnalysis[] }
               onClick={() => jumpTo(s.questionId)}
               className="relative w-8 h-8 rounded-lg text-xs font-semibold flex items-center justify-center"
               style={{ background: bg, color }}
-              aria-label={`Jump to question ${i + 1}, ${s.status}`}
+              aria-label={`Jump to question ${s.index ?? i + 1}, ${s.status}`}
             >
               {i + 1}
-              {s.isMarkedForReview && <Flag size={8} className="absolute -top-1 -right-1 text-amber-500" fill="currentColor" />}
+              {(s.isMarkedForReview || s.markPurpose) && <Flag size={8} className="absolute -top-1 -right-1" style={{ color: getMarkPurposeInfo(s.markPurpose)?.color ?? '#f59e0b' }} fill="currentColor" />}
             </button>
           );
         })}
@@ -88,7 +99,7 @@ export function SolutionsReview({ solutions }: { solutions: QuestionAnalysis[] }
                 style={{ borderColor: 'var(--border)' }}
               >
                 <div className="flex items-center justify-between mb-2">
-                  <p className="text-[11px] font-medium" style={{ color: 'var(--text-muted)' }}>Question {i + 1}</p>
+                  <p className="text-[11px] font-medium" style={{ color: 'var(--text-muted)' }}>Question {s.index ?? i + 1}{s.topicName ? ` · ${s.topicName}` : ''}</p>
                   <span
                     className="text-[10px] font-semibold uppercase px-2 py-0.5 rounded-full"
                     style={{
@@ -126,7 +137,15 @@ export function SolutionsReview({ solutions }: { solutions: QuestionAnalysis[] }
                     <QuestionMarkdownRenderer content={s.explanation} baseDir={s.baseDir} />
                   </div>
                 )}
-                <p className="text-[11px] mt-2" style={{ color: 'var(--text-muted)' }}>Time spent: {s.timeSpentSeconds}s{s.isMarkedForReview ? ' · Marked for review' : ''}</p>
+                <p className="text-[11px] mt-2 flex flex-wrap items-center gap-x-2 gap-y-1" style={{ color: 'var(--text-muted)' }}>
+                  <span>{timingAvailable ? `Time spent: ${s.timeSpentSeconds}s` : 'Time spent: not recorded'}</span>
+                  {slowThresholdSeconds !== null && s.timeSpentSeconds > slowThresholdSeconds && <span className="px-1.5 py-px rounded-full" style={{ background: 'rgba(245,158,11,0.15)', color: '#b45309' }}>slow</span>}
+                  {(s.markPurpose || s.isMarkedForReview) && (() => {
+                    const info = getMarkPurposeInfo(s.markPurpose ?? 'review');
+                    return info ? <span className="px-1.5 py-px rounded-full font-medium" style={{ background: `${info.color}22`, color: info.color }}>{info.label}</span> : null;
+                  })()}
+                  <span className="opacity-60">id: {s.questionId}</span>
+                </p>
               </div>
             );
           })}
