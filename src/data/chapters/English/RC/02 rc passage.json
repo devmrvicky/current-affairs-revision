@@ -1,0 +1,702 @@
+[
+  {
+    "id": "rc001",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nIn many districts, public health campaigns once relied mainly on posters and occasional announcements. Such methods could spread a message, but they rarely revealed whether people had understood it or whether local obstacles prevented them from acting on it. Health workers now increasingly use community meetings, school networks and local volunteers to make communication two-way. A mother may know that vaccination is important yet be unable to visit a clinic because it is far away or open only during working hours. Listening to such concerns allows administrators to arrange outreach sessions at more convenient places and times. The lesson is that awareness cannot be measured merely by counting leaflets distributed or messages sent. A campaign succeeds when information is accessible, doubts are addressed and practical services are available. This approach requires patience, but it can build trust that remains useful long after a particular campaign has ended.\n\nQuestion: What is the central idea of the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Effective health communication must include listening and practical access to services."
+      },
+      {
+        "id": "B",
+        "text": "Public health campaigns should avoid using printed material."
+      },
+      {
+        "id": "C",
+        "text": "Vaccination is successful only when clinics remain open all night."
+      },
+      {
+        "id": "D",
+        "text": "Community volunteers can replace all trained health workers."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज का मुख्य विचार one-way publicity के बजाय संवाद, स्थानीय बाधाओं की समझ और सेवा की उपलब्धता है।",
+    "language": "en"
+  },
+  {
+    "id": "rc002",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nIn many districts, public health campaigns once relied mainly on posters and occasional announcements. Such methods could spread a message, but they rarely revealed whether people had understood it or whether local obstacles prevented them from acting on it. Health workers now increasingly use community meetings, school networks and local volunteers to make communication two-way. A mother may know that vaccination is important yet be unable to visit a clinic because it is far away or open only during working hours. Listening to such concerns allows administrators to arrange outreach sessions at more convenient places and times. The lesson is that awareness cannot be measured merely by counting leaflets distributed or messages sent. A campaign succeeds when information is accessible, doubts are addressed and practical services are available. This approach requires patience, but it can build trust that remains useful long after a particular campaign has ended.\n\nQuestion: Why does the author mention a mother who cannot visit a clinic?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To illustrate how practical obstacles can prevent people from acting on information."
+      },
+      {
+        "id": "B",
+        "text": "To argue that clinics should be shifted away from villages."
+      },
+      {
+        "id": "C",
+        "text": "To show that lack of awareness is the only barrier to vaccination."
+      },
+      {
+        "id": "D",
+        "text": "To suggest that working mothers should avoid health services."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "माँ का उदाहरण बताता है कि जानकारी होने के बावजूद दूरी और समय जैसी व्यावहारिक बाधाएँ सेवा लेने से रोक सकती हैं।",
+    "language": "en"
+  },
+  {
+    "id": "rc003",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nIn many districts, public health campaigns once relied mainly on posters and occasional announcements. Such methods could spread a message, but they rarely revealed whether people had understood it or whether local obstacles prevented them from acting on it. Health workers now increasingly use community meetings, school networks and local volunteers to make communication two-way. A mother may know that vaccination is important yet be unable to visit a clinic because it is far away or open only during working hours. Listening to such concerns allows administrators to arrange outreach sessions at more convenient places and times. The lesson is that awareness cannot be measured merely by counting leaflets distributed or messages sent. A campaign succeeds when information is accessible, doubts are addressed and practical services are available. This approach requires patience, but it can build trust that remains useful long after a particular campaign has ended.\n\nQuestion: The word 'outreach' most nearly means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "a formal punishment imposed by an authority"
+      },
+      {
+        "id": "B",
+        "text": "the removal of existing public facilities"
+      },
+      {
+        "id": "C",
+        "text": "a private meeting held by senior officials"
+      },
+      {
+        "id": "D",
+        "text": "services extended to people who may not easily reach a facility"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "'Outreach sessions' का अर्थ लोगों तक पहुँचकर उपलब्ध कराई गई सेवाएँ है।",
+    "language": "en"
+  },
+  {
+    "id": "rc004",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nIn many districts, public health campaigns once relied mainly on posters and occasional announcements. Such methods could spread a message, but they rarely revealed whether people had understood it or whether local obstacles prevented them from acting on it. Health workers now increasingly use community meetings, school networks and local volunteers to make communication two-way. A mother may know that vaccination is important yet be unable to visit a clinic because it is far away or open only during working hours. Listening to such concerns allows administrators to arrange outreach sessions at more convenient places and times. The lesson is that awareness cannot be measured merely by counting leaflets distributed or messages sent. A campaign succeeds when information is accessible, doubts are addressed and practical services are available. This approach requires patience, but it can build trust that remains useful long after a particular campaign has ended.\n\nQuestion: Which of the following can be inferred from the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "People’s doubts should be ignored to save time."
+      },
+      {
+        "id": "B",
+        "text": "All communities face identical barriers to healthcare."
+      },
+      {
+        "id": "C",
+        "text": "Campaigns are more useful when they adapt to local circumstances."
+      },
+      {
+        "id": "D",
+        "text": "The number of posters is a complete measure of campaign success."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "स्थानीय समस्याओं के अनुसार समय और स्थान बदलने की बात से यह inference निकलता है कि स्थानीय परिस्थितियों के अनुसार अभियान अधिक उपयोगी होते हैं।",
+    "language": "en"
+  },
+  {
+    "id": "rc005",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nIn many districts, public health campaigns once relied mainly on posters and occasional announcements. Such methods could spread a message, but they rarely revealed whether people had understood it or whether local obstacles prevented them from acting on it. Health workers now increasingly use community meetings, school networks and local volunteers to make communication two-way. A mother may know that vaccination is important yet be unable to visit a clinic because it is far away or open only during working hours. Listening to such concerns allows administrators to arrange outreach sessions at more convenient places and times. The lesson is that awareness cannot be measured merely by counting leaflets distributed or messages sent. A campaign succeeds when information is accessible, doubts are addressed and practical services are available. This approach requires patience, but it can build trust that remains useful long after a particular campaign has ended.\n\nQuestion: Which title best captures the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Decline of Printed Health Posters"
+      },
+      {
+        "id": "B",
+        "text": "Why Clinics Should Be Closed"
+      },
+      {
+        "id": "C",
+        "text": "The History of Vaccination in India"
+      },
+      {
+        "id": "D",
+        "text": "Beyond Awareness: Making Public Health Communication Work"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "Passage awareness से आगे बढ़कर संवाद और उपलब्ध सेवाओं पर केंद्रित है।",
+    "language": "en"
+  },
+  {
+    "id": "rc006",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nThe growth of online education has widened access to courses that were once available only in large cities. A learner in a small town can now attend lectures, consult digital libraries and submit assignments without travelling long distances. Yet access to a screen does not automatically create an effective learning environment. Students need a quiet place to study, a dependable connection and guidance on how to organise their work. They also need opportunities to ask questions and receive feedback; otherwise, recorded lessons may become a passive activity. Teachers, in turn, must learn to design tasks that encourage discussion and independent thought rather than merely reproduce textbook material on a screen. Online learning is therefore best understood as an additional mode of education, not a universal substitute for classroom interaction. Its success depends on thoughtful design and support for learners with different needs.\n\nQuestion: What is the author’s main argument?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Recorded lessons are always more effective than live teaching."
+      },
+      {
+        "id": "B",
+        "text": "Online education should completely replace classroom teaching."
+      },
+      {
+        "id": "C",
+        "text": "Digital libraries are useful only to students in large cities."
+      },
+      {
+        "id": "D",
+        "text": "Online education expands access but requires planning, interaction and learner support."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "लेखक online education के लाभ स्वीकार करता है, लेकिन प्रभावी सीखने के लिए मार्गदर्शन, feedback और thoughtful design आवश्यक बताता है।",
+    "language": "en"
+  },
+  {
+    "id": "rc007",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nThe growth of online education has widened access to courses that were once available only in large cities. A learner in a small town can now attend lectures, consult digital libraries and submit assignments without travelling long distances. Yet access to a screen does not automatically create an effective learning environment. Students need a quiet place to study, a dependable connection and guidance on how to organise their work. They also need opportunities to ask questions and receive feedback; otherwise, recorded lessons may become a passive activity. Teachers, in turn, must learn to design tasks that encourage discussion and independent thought rather than merely reproduce textbook material on a screen. Online learning is therefore best understood as an additional mode of education, not a universal substitute for classroom interaction. Its success depends on thoughtful design and support for learners with different needs.\n\nQuestion: According to the passage, why may recorded lessons become a passive activity?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They do not contain any textbook information."
+      },
+      {
+        "id": "B",
+        "text": "Teachers are unable to use digital libraries."
+      },
+      {
+        "id": "C",
+        "text": "Students may watch them without asking questions or receiving feedback."
+      },
+      {
+        "id": "D",
+        "text": "They are too expensive for most learners."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "बिना प्रश्न पूछने और feedback पाने के recorded lessons निष्क्रिय गतिविधि बन सकते हैं।",
+    "language": "en"
+  },
+  {
+    "id": "rc008",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nThe growth of online education has widened access to courses that were once available only in large cities. A learner in a small town can now attend lectures, consult digital libraries and submit assignments without travelling long distances. Yet access to a screen does not automatically create an effective learning environment. Students need a quiet place to study, a dependable connection and guidance on how to organise their work. They also need opportunities to ask questions and receive feedback; otherwise, recorded lessons may become a passive activity. Teachers, in turn, must learn to design tasks that encourage discussion and independent thought rather than merely reproduce textbook material on a screen. Online learning is therefore best understood as an additional mode of education, not a universal substitute for classroom interaction. Its success depends on thoughtful design and support for learners with different needs.\n\nQuestion: The word 'substitute' as used in the passage means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "supplement"
+      },
+      {
+        "id": "B",
+        "text": "replacement"
+      },
+      {
+        "id": "C",
+        "text": "measurement"
+      },
+      {
+        "id": "D",
+        "text": "obstacle"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "Substitute का अर्थ replacement यानी किसी चीज़ के स्थान पर उपयोग होने वाली वस्तु है।",
+    "language": "en"
+  },
+  {
+    "id": "rc009",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nThe growth of online education has widened access to courses that were once available only in large cities. A learner in a small town can now attend lectures, consult digital libraries and submit assignments without travelling long distances. Yet access to a screen does not automatically create an effective learning environment. Students need a quiet place to study, a dependable connection and guidance on how to organise their work. They also need opportunities to ask questions and receive feedback; otherwise, recorded lessons may become a passive activity. Teachers, in turn, must learn to design tasks that encourage discussion and independent thought rather than merely reproduce textbook material on a screen. Online learning is therefore best understood as an additional mode of education, not a universal substitute for classroom interaction. Its success depends on thoughtful design and support for learners with different needs.\n\nQuestion: Which of the following is NOT identified as a need of online learners?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A quiet place to study"
+      },
+      {
+        "id": "B",
+        "text": "A personal vehicle for travelling to school"
+      },
+      {
+        "id": "C",
+        "text": "Guidance to organise study"
+      },
+      {
+        "id": "D",
+        "text": "A dependable internet connection"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "Passage में शांत स्थान, internet connection और guidance का उल्लेख है; personal vehicle का नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "rc010",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nThe growth of online education has widened access to courses that were once available only in large cities. A learner in a small town can now attend lectures, consult digital libraries and submit assignments without travelling long distances. Yet access to a screen does not automatically create an effective learning environment. Students need a quiet place to study, a dependable connection and guidance on how to organise their work. They also need opportunities to ask questions and receive feedback; otherwise, recorded lessons may become a passive activity. Teachers, in turn, must learn to design tasks that encourage discussion and independent thought rather than merely reproduce textbook material on a screen. Online learning is therefore best understood as an additional mode of education, not a universal substitute for classroom interaction. Its success depends on thoughtful design and support for learners with different needs.\n\nQuestion: What can be inferred about the author’s attitude towards online education?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uncritically enthusiastic"
+      },
+      {
+        "id": "B",
+        "text": "Indifferent to educational quality"
+      },
+      {
+        "id": "C",
+        "text": "Entirely hostile"
+      },
+      {
+        "id": "D",
+        "text": "Balanced and cautiously supportive"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "लेखक लाभ और सीमाएँ दोनों बताता है, इसलिए दृष्टिकोण संतुलित और सावधानीपूर्वक समर्थक है।",
+    "language": "en"
+  },
+  {
+    "id": "rc011",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nA city’s old markets are often treated as obstacles to modern development because their streets are narrow and their buildings are crowded. However, these markets perform functions that are not easily measured by the rent collected from shops. They provide small traders with affordable spaces, connect producers with local customers and preserve skills that may disappear in large commercial centres. Their informal networks also help shopkeepers share information about suppliers, prices and seasonal demand. This does not mean that every old market should remain unchanged. Unsafe wiring, poor drainage and the absence of accessible public facilities require urgent attention. The challenge for planners is to improve basic infrastructure without displacing the people whose livelihoods depend on the area. Renewal should strengthen the market's economic and social role rather than erase its character in the name of uniformity.\n\nQuestion: What is the primary purpose of the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To discourage people from shopping in crowded streets."
+      },
+      {
+        "id": "B",
+        "text": "To argue that all old markets should be demolished."
+      },
+      {
+        "id": "C",
+        "text": "To compare rental prices in old and new commercial centres."
+      },
+      {
+        "id": "D",
+        "text": "To explain the value of old markets and advocate sensitive improvement."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज पुराने बाजारों के आर्थिक-सामाजिक महत्व और बिना विस्थापन के सुधार की आवश्यकता समझाता है।",
+    "language": "en"
+  },
+  {
+    "id": "rc012",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nA city’s old markets are often treated as obstacles to modern development because their streets are narrow and their buildings are crowded. However, these markets perform functions that are not easily measured by the rent collected from shops. They provide small traders with affordable spaces, connect producers with local customers and preserve skills that may disappear in large commercial centres. Their informal networks also help shopkeepers share information about suppliers, prices and seasonal demand. This does not mean that every old market should remain unchanged. Unsafe wiring, poor drainage and the absence of accessible public facilities require urgent attention. The challenge for planners is to improve basic infrastructure without displacing the people whose livelihoods depend on the area. Renewal should strengthen the market's economic and social role rather than erase its character in the name of uniformity.\n\nQuestion: Why does the author say market functions are not easily measured by rent?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because rent is the only source of income for traders."
+      },
+      {
+        "id": "B",
+        "text": "Because modern shopping centres have no economic value."
+      },
+      {
+        "id": "C",
+        "text": "Because their value also includes livelihoods, local networks and traditional skills."
+      },
+      {
+        "id": "D",
+        "text": "Because shops in old markets never pay rent."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "बाजार का महत्व केवल किराये में नहीं, बल्कि छोटे व्यापारियों, स्थानीय नेटवर्क और कौशल को बनाए रखने में भी है।",
+    "language": "en"
+  },
+  {
+    "id": "rc013",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nA city’s old markets are often treated as obstacles to modern development because their streets are narrow and their buildings are crowded. However, these markets perform functions that are not easily measured by the rent collected from shops. They provide small traders with affordable spaces, connect producers with local customers and preserve skills that may disappear in large commercial centres. Their informal networks also help shopkeepers share information about suppliers, prices and seasonal demand. This does not mean that every old market should remain unchanged. Unsafe wiring, poor drainage and the absence of accessible public facilities require urgent attention. The challenge for planners is to improve basic infrastructure without displacing the people whose livelihoods depend on the area. Renewal should strengthen the market's economic and social role rather than erase its character in the name of uniformity.\n\nQuestion: The word 'displacing' most nearly means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "relocating or forcing out"
+      },
+      {
+        "id": "B",
+        "text": "supporting"
+      },
+      {
+        "id": "C",
+        "text": "repairing"
+      },
+      {
+        "id": "D",
+        "text": "employing"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "Displacing का अर्थ लोगों को उनके स्थान/जीविका से हटाना है।",
+    "language": "en"
+  },
+  {
+    "id": "rc014",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nA city’s old markets are often treated as obstacles to modern development because their streets are narrow and their buildings are crowded. However, these markets perform functions that are not easily measured by the rent collected from shops. They provide small traders with affordable spaces, connect producers with local customers and preserve skills that may disappear in large commercial centres. Their informal networks also help shopkeepers share information about suppliers, prices and seasonal demand. This does not mean that every old market should remain unchanged. Unsafe wiring, poor drainage and the absence of accessible public facilities require urgent attention. The challenge for planners is to improve basic infrastructure without displacing the people whose livelihoods depend on the area. Renewal should strengthen the market's economic and social role rather than erase its character in the name of uniformity.\n\nQuestion: Which problem is specifically mentioned as needing urgent attention?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unsafe wiring and poor drainage"
+      },
+      {
+        "id": "B",
+        "text": "The absence of seasonal demand"
+      },
+      {
+        "id": "C",
+        "text": "The lack of large commercial centres"
+      },
+      {
+        "id": "D",
+        "text": "The loss of all local customers"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "पैसेज में unsafe wiring और poor drainage को urgent attention की आवश्यकता वाला बताया गया है।",
+    "language": "en"
+  },
+  {
+    "id": "rc015",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nA city’s old markets are often treated as obstacles to modern development because their streets are narrow and their buildings are crowded. However, these markets perform functions that are not easily measured by the rent collected from shops. They provide small traders with affordable spaces, connect producers with local customers and preserve skills that may disappear in large commercial centres. Their informal networks also help shopkeepers share information about suppliers, prices and seasonal demand. This does not mean that every old market should remain unchanged. Unsafe wiring, poor drainage and the absence of accessible public facilities require urgent attention. The challenge for planners is to improve basic infrastructure without displacing the people whose livelihoods depend on the area. Renewal should strengthen the market's economic and social role rather than erase its character in the name of uniformity.\n\nQuestion: Which statement is most consistent with the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Uniform modern buildings are always better than traditional markets."
+      },
+      {
+        "id": "B",
+        "text": "The social role of markets is unrelated to local livelihoods."
+      },
+      {
+        "id": "C",
+        "text": "Urban renewal should preserve useful local networks while improving safety."
+      },
+      {
+        "id": "D",
+        "text": "Infrastructure improvements inevitably require the removal of all traders."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "लेखक infrastructure सुधारने के साथ बाजार की सामाजिक-आर्थिक भूमिका और वहाँ के लोगों को बचाए रखने का पक्ष लेता है।",
+    "language": "en"
+  },
+  {
+    "id": "rc016",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nScientific progress often depends on instruments that extend the limits of human observation. A telescope gathers light from distant objects, while a microscope reveals structures too small for the unaided eye. Such instruments do not simply provide a clearer picture; they can change the questions scientists are able to ask. However, every instrument has limits. Measurements may be affected by calibration errors, environmental conditions or the assumptions built into the method. For this reason, scientists compare results, repeat observations and make their procedures available for scrutiny. An unexpected result is not automatically evidence of a major discovery; it must be checked against alternative explanations. The strength of science lies not in claiming that instruments are infallible, but in developing methods through which errors can be detected and corrected.\n\nQuestion: What is the central idea of the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scientific instruments always provide perfect measurements."
+      },
+      {
+        "id": "B",
+        "text": "Scientific observation advances knowledge, but results must be checked for possible errors."
+      },
+      {
+        "id": "C",
+        "text": "Microscopes are more important than telescopes."
+      },
+      {
+        "id": "D",
+        "text": "Unexpected results should immediately be accepted as discoveries."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "Passage उपकरणों से ज्ञान बढ़ने और measurement की सीमाओं को जाँचने की वैज्ञानिक प्रक्रिया पर केंद्रित है।",
+    "language": "en"
+  },
+  {
+    "id": "rc017",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nScientific progress often depends on instruments that extend the limits of human observation. A telescope gathers light from distant objects, while a microscope reveals structures too small for the unaided eye. Such instruments do not simply provide a clearer picture; they can change the questions scientists are able to ask. However, every instrument has limits. Measurements may be affected by calibration errors, environmental conditions or the assumptions built into the method. For this reason, scientists compare results, repeat observations and make their procedures available for scrutiny. An unexpected result is not automatically evidence of a major discovery; it must be checked against alternative explanations. The strength of science lies not in claiming that instruments are infallible, but in developing methods through which errors can be detected and corrected.\n\nQuestion: How can instruments change the questions scientists ask?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They make previously unobservable details available for investigation."
+      },
+      {
+        "id": "B",
+        "text": "They ensure that every hypothesis is correct."
+      },
+      {
+        "id": "C",
+        "text": "They prevent scientists from repeating experiments."
+      },
+      {
+        "id": "D",
+        "text": "They eliminate the need for theories."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "उपकरण नई चीजें देखने योग्य बनाते हैं, जिससे पहले संभव न रहे प्रश्न पूछे जा सकते हैं।",
+    "language": "en"
+  },
+  {
+    "id": "rc018",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nScientific progress often depends on instruments that extend the limits of human observation. A telescope gathers light from distant objects, while a microscope reveals structures too small for the unaided eye. Such instruments do not simply provide a clearer picture; they can change the questions scientists are able to ask. However, every instrument has limits. Measurements may be affected by calibration errors, environmental conditions or the assumptions built into the method. For this reason, scientists compare results, repeat observations and make their procedures available for scrutiny. An unexpected result is not automatically evidence of a major discovery; it must be checked against alternative explanations. The strength of science lies not in claiming that instruments are infallible, but in developing methods through which errors can be detected and corrected.\n\nQuestion: The word 'scrutiny' most nearly means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "quick dismissal"
+      },
+      {
+        "id": "B",
+        "text": "careful examination"
+      },
+      {
+        "id": "C",
+        "text": "personal preference"
+      },
+      {
+        "id": "D",
+        "text": "public celebration"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "Scrutiny का अर्थ सावधानीपूर्वक जाँच या परीक्षण है।",
+    "language": "en"
+  },
+  {
+    "id": "rc019",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nScientific progress often depends on instruments that extend the limits of human observation. A telescope gathers light from distant objects, while a microscope reveals structures too small for the unaided eye. Such instruments do not simply provide a clearer picture; they can change the questions scientists are able to ask. However, every instrument has limits. Measurements may be affected by calibration errors, environmental conditions or the assumptions built into the method. For this reason, scientists compare results, repeat observations and make their procedures available for scrutiny. An unexpected result is not automatically evidence of a major discovery; it must be checked against alternative explanations. The strength of science lies not in claiming that instruments are infallible, but in developing methods through which errors can be detected and corrected.\n\nQuestion: Which of the following is mentioned as a possible source of measurement error?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The colour of a laboratory wall"
+      },
+      {
+        "id": "B",
+        "text": "The number of published books"
+      },
+      {
+        "id": "C",
+        "text": "Calibration errors"
+      },
+      {
+        "id": "D",
+        "text": "The scientist’s age"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "Passage में calibration errors को स्पष्ट रूप से measurement की संभावित त्रुटि बताया गया है।",
+    "language": "en"
+  },
+  {
+    "id": "rc020",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nScientific progress often depends on instruments that extend the limits of human observation. A telescope gathers light from distant objects, while a microscope reveals structures too small for the unaided eye. Such instruments do not simply provide a clearer picture; they can change the questions scientists are able to ask. However, every instrument has limits. Measurements may be affected by calibration errors, environmental conditions or the assumptions built into the method. For this reason, scientists compare results, repeat observations and make their procedures available for scrutiny. An unexpected result is not automatically evidence of a major discovery; it must be checked against alternative explanations. The strength of science lies not in claiming that instruments are infallible, but in developing methods through which errors can be detected and corrected.\n\nQuestion: What does the author imply about an unexpected result?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It requires verification and comparison with other explanations."
+      },
+      {
+        "id": "B",
+        "text": "It should be announced before repeating observations."
+      },
+      {
+        "id": "C",
+        "text": "It proves that the instrument is faulty."
+      },
+      {
+        "id": "D",
+        "text": "It should be rejected without examination."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "लेखक कहता है कि unexpected result को alternative explanations के विरुद्ध जाँचना चाहिए।",
+    "language": "en"
+  },
+  {
+    "id": "rc021",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nA written constitution sets out the basic principles by which a country is governed. It distributes powers among institutions, defines the limits of public authority and protects certain rights of individuals. Yet a constitution cannot settle every question that may arise in a changing society. Courts interpret its provisions, legislatures make laws within its framework and citizens influence public life through debate and participation. These institutions may disagree, but their disagreements are expected to take place within established procedures. Constitutional government therefore depends not only on the text of a document but also on the willingness of public institutions to respect limits and of citizens to defend democratic practices. When rules are followed only when convenient, constitutional guarantees become fragile. Their real strength is tested when a decision is unpopular or when those in power face restraint.\n\nQuestion: What is the main point of the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Citizens have no role in a constitutional system."
+      },
+      {
+        "id": "B",
+        "text": "Constitutional government requires both written rules and respect for democratic institutions and limits."
+      },
+      {
+        "id": "C",
+        "text": "A constitution alone can solve every political problem."
+      },
+      {
+        "id": "D",
+        "text": "Courts should make all laws without legislative involvement."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "लेखक के अनुसार लिखित संविधान के साथ संस्थाओं द्वारा मर्यादा का पालन और नागरिकों की भागीदारी भी आवश्यक है।",
+    "language": "en"
+  },
+  {
+    "id": "rc022",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nA written constitution sets out the basic principles by which a country is governed. It distributes powers among institutions, defines the limits of public authority and protects certain rights of individuals. Yet a constitution cannot settle every question that may arise in a changing society. Courts interpret its provisions, legislatures make laws within its framework and citizens influence public life through debate and participation. These institutions may disagree, but their disagreements are expected to take place within established procedures. Constitutional government therefore depends not only on the text of a document but also on the willingness of public institutions to respect limits and of citizens to defend democratic practices. When rules are followed only when convenient, constitutional guarantees become fragile. Their real strength is tested when a decision is unpopular or when those in power face restraint.\n\nQuestion: Why are established procedures important when institutions disagree?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They give one institution unlimited power."
+      },
+      {
+        "id": "B",
+        "text": "They remove the need for constitutional interpretation."
+      },
+      {
+        "id": "C",
+        "text": "They prevent all disagreement from occurring."
+      },
+      {
+        "id": "D",
+        "text": "They allow disagreements to be handled within an accepted framework."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "Procedures असहमति को स्वीकृत संवैधानिक ढाँचे के भीतर निपटाने में मदद करती हैं।",
+    "language": "en"
+  },
+  {
+    "id": "rc023",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nA written constitution sets out the basic principles by which a country is governed. It distributes powers among institutions, defines the limits of public authority and protects certain rights of individuals. Yet a constitution cannot settle every question that may arise in a changing society. Courts interpret its provisions, legislatures make laws within its framework and citizens influence public life through debate and participation. These institutions may disagree, but their disagreements are expected to take place within established procedures. Constitutional government therefore depends not only on the text of a document but also on the willingness of public institutions to respect limits and of citizens to defend democratic practices. When rules are followed only when convenient, constitutional guarantees become fragile. Their real strength is tested when a decision is unpopular or when those in power face restraint.\n\nQuestion: The word 'fragile' most nearly means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "easily damaged"
+      },
+      {
+        "id": "B",
+        "text": "strong"
+      },
+      {
+        "id": "C",
+        "text": "permanent"
+      },
+      {
+        "id": "D",
+        "text": "unnecessary"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "Fragile का अर्थ नाजुक या आसानी से क्षतिग्रस्त होने वाला है।",
+    "language": "en"
+  },
+  {
+    "id": "rc024",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nA written constitution sets out the basic principles by which a country is governed. It distributes powers among institutions, defines the limits of public authority and protects certain rights of individuals. Yet a constitution cannot settle every question that may arise in a changing society. Courts interpret its provisions, legislatures make laws within its framework and citizens influence public life through debate and participation. These institutions may disagree, but their disagreements are expected to take place within established procedures. Constitutional government therefore depends not only on the text of a document but also on the willingness of public institutions to respect limits and of citizens to defend democratic practices. When rules are followed only when convenient, constitutional guarantees become fragile. Their real strength is tested when a decision is unpopular or when those in power face restraint.\n\nQuestion: According to the passage, when are constitutional guarantees truly tested?",
+    "options": [
+      {
+        "id": "A",
+        "text": "When every decision is popular"
+      },
+      {
+        "id": "B",
+        "text": "When those in power must accept limits or an unpopular decision is made"
+      },
+      {
+        "id": "C",
+        "text": "When a constitution is first printed"
+      },
+      {
+        "id": "D",
+        "text": "When rules are ignored by citizens"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "reading-comprehension",
+    "difficulty": "medium",
+    "explanation": "अंतिम वाक्य कहता है कि शक्ति की असली परीक्षा तब होती है जब निर्णय अलोकप्रिय हो या सत्ता में बैठे लोगों पर रोक लगे।",
+    "language": "en"
+  },
+  {
+    "id": "rc025",
+    "subjectId": "english",
+    "question": "Read the following passage carefully and answer the question that follows.\n\nPassage:\nA written constitution sets out the basic principles by which a country is governed. It distributes powers among institutions, defines the limits of public authority and protects certain rights of individuals. Yet a constitution cannot settle every question that may arise in a changing society. Courts interpret its provisions, legislatures make laws within its framework and citizens influence public life through debate and participation. These institutions may disagree, but their disagreements are expected to take place within established procedures. Constitutional government therefore depends not only on the text of a document but also on the willingness of public institutions to respect limits and of citizens to defend democratic practices. When rules are followed only when convenient, constitutional guarantees become fragile. Their real strength is tested when a decision is unpopular or when those in power face restraint.\n\nQuestion: Which title is most appropriate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The End of Legislative Government"
+      },
+      {
+        "id": "B",
+        "text": "Why Courts Should Control Every Institution"
+      },
+      {
+        "id": "C",
+        "text": "The Constitution: Rules, Institutions and Democratic Restraint"
+      },
+      {
+        "id": "D",
+        "text": "Citizens and the Decline of Public Debate"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "reading-comprehension",
+    "difficulty": "hard",
+    "explanation": "पूरा passage संविधान, संस्थागत प्रक्रिया, लोकतांत्रिक व्यवहार और सत्ता पर नियंत्रण को जोड़ता है।",
+    "language": "en"
+  }
+]
