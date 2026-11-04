@@ -1,0 +1,515 @@
+[
+  {
+    "id": "series101",
+    "subjectId": "reasoning",
+    "question": "21, 55, 19, 50, 17, 45, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12"
+      },
+      {
+        "id": "B",
+        "text": "14"
+      },
+      {
+        "id": "C",
+        "text": "13"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series102",
+    "subjectId": "reasoning",
+    "question": "AW, EU, IS, MQ, .....",
+    "options": [
+      {
+        "id": "A",
+        "text": "TV"
+      },
+      {
+        "id": "B",
+        "text": "QZ"
+      },
+      {
+        "id": "C",
+        "text": "QO"
+      },
+      {
+        "id": "D",
+        "text": "OS"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series103",
+    "subjectId": "reasoning",
+    "question": "A B B D E E E H I I I _ _",
+    "options": [
+      {
+        "id": "A",
+        "text": "I I"
+      },
+      {
+        "id": "B",
+        "text": "J J"
+      },
+      {
+        "id": "C",
+        "text": "I J"
+      },
+      {
+        "id": "D",
+        "text": "I M"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series104",
+    "subjectId": "reasoning",
+    "question": "JD, LI, ?, SP, XR",
+    "options": [
+      {
+        "id": "A",
+        "text": "DP"
+      },
+      {
+        "id": "B",
+        "text": "OM"
+      },
+      {
+        "id": "C",
+        "text": "WC"
+      },
+      {
+        "id": "D",
+        "text": "GT"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series105",
+    "subjectId": "reasoning",
+    "question": "AMB3, DPE5, GSH7, ?, MYN11",
+    "options": [
+      {
+        "id": "A",
+        "text": "KVL9"
+      },
+      {
+        "id": "B",
+        "text": "JVK12"
+      },
+      {
+        "id": "C",
+        "text": "KYL12"
+      },
+      {
+        "id": "D",
+        "text": "JVK9"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series106",
+    "subjectId": "reasoning",
+    "question": "A9B, B125C, C49D, D729E, .....",
+    "options": [
+      {
+        "id": "A",
+        "text": "E121F"
+      },
+      {
+        "id": "B",
+        "text": "E122G"
+      },
+      {
+        "id": "C",
+        "text": "E36F"
+      },
+      {
+        "id": "D",
+        "text": "G221H"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series107",
+    "subjectId": "reasoning",
+    "question": "7, 11, 23, 59, 167, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "346"
+      },
+      {
+        "id": "B",
+        "text": "491"
+      },
+      {
+        "id": "C",
+        "text": "324"
+      },
+      {
+        "id": "D",
+        "text": "678"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series108",
+    "subjectId": "reasoning",
+    "question": "5, 10, 26, ?, 122, 170",
+    "options": [
+      {
+        "id": "A",
+        "text": "50"
+      },
+      {
+        "id": "B",
+        "text": "65"
+      },
+      {
+        "id": "C",
+        "text": "77"
+      },
+      {
+        "id": "D",
+        "text": "82"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series109",
+    "subjectId": "reasoning",
+    "question": "WUW, TSV, QQU, NOT, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "MNS"
+      },
+      {
+        "id": "B",
+        "text": "KMS"
+      },
+      {
+        "id": "C",
+        "text": "LNT"
+      },
+      {
+        "id": "D",
+        "text": "JNT"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series110",
+    "subjectId": "reasoning",
+    "question": "TVU, QSS, NPQ, KMO, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "IKM"
+      },
+      {
+        "id": "B",
+        "text": "HKM"
+      },
+      {
+        "id": "C",
+        "text": "HKL"
+      },
+      {
+        "id": "D",
+        "text": "HJM"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series111",
+    "subjectId": "reasoning",
+    "question": "_ B _ TFHBN _ FI _ NTF _ BNTF",
+    "options": [
+      {
+        "id": "A",
+        "text": "G T N J B"
+      },
+      {
+        "id": "B",
+        "text": "G B J N T"
+      },
+      {
+        "id": "C",
+        "text": "G N T B J"
+      },
+      {
+        "id": "D",
+        "text": "G J N T B"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series112",
+    "subjectId": "reasoning",
+    "question": "R _ _ ODRMN _ _ _ MN _ DR _ NO _",
+    "options": [
+      {
+        "id": "A",
+        "text": "MNODRODM"
+      },
+      {
+        "id": "B",
+        "text": "MNDOROMD"
+      },
+      {
+        "id": "C",
+        "text": "MNODROMD"
+      },
+      {
+        "id": "D",
+        "text": "NMODROMD"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series113",
+    "subjectId": "reasoning",
+    "question": "1, 3, 26, 649, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "31790"
+      },
+      {
+        "id": "B",
+        "text": "31800"
+      },
+      {
+        "id": "C",
+        "text": "31801"
+      },
+      {
+        "id": "D",
+        "text": "38812"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series114",
+    "subjectId": "reasoning",
+    "question": "J5F, L7I, N10L, P14O, ?, T25U",
+    "options": [
+      {
+        "id": "A",
+        "text": "Q20R"
+      },
+      {
+        "id": "B",
+        "text": "R19R"
+      },
+      {
+        "id": "C",
+        "text": "Q19R"
+      },
+      {
+        "id": "D",
+        "text": "R20R"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series115",
+    "subjectId": "reasoning",
+    "question": "0, 6, 24, 60, 120, 210, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "336"
+      },
+      {
+        "id": "B",
+        "text": "504s"
+      },
+      {
+        "id": "C",
+        "text": "338"
+      },
+      {
+        "id": "D",
+        "text": "420"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series116",
+    "subjectId": "reasoning",
+    "question": "APZ, CQY, ERX, GSW, ITV, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "KUU"
+      },
+      {
+        "id": "B",
+        "text": "KVU"
+      },
+      {
+        "id": "C",
+        "text": "JVK"
+      },
+      {
+        "id": "D",
+        "text": "JUV"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series117",
+    "subjectId": "reasoning",
+    "question": "l _ b _ u b _ u b t _ b l u _ t u b",
+    "options": [
+      {
+        "id": "A",
+        "text": "u b t l u"
+      },
+      {
+        "id": "B",
+        "text": "u t l u b"
+      },
+      {
+        "id": "C",
+        "text": "t u l b u"
+      },
+      {
+        "id": "D",
+        "text": "b u t l u"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "series118",
+    "subjectId": "reasoning",
+    "question": "उस संख्या का चयन कीजिए, जो श्रेणी से संबंधित नहीं है। 225, 206, 188, 176, 165, 158, 153",
+    "options": [
+      {
+        "id": "A",
+        "text": "225"
+      },
+      {
+        "id": "B",
+        "text": "188"
+      },
+      {
+        "id": "C",
+        "text": "176"
+      },
+      {
+        "id": "D",
+        "text": "153"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "series119",
+    "subjectId": "reasoning",
+    "question": "उस संख्या का चयन कीजिए, जो श्रेणी से संबंधित नहीं है। 3, 7, 22, 89, 446, 2677, 18739",
+    "options": [
+      {
+        "id": "A",
+        "text": "446"
+      },
+      {
+        "id": "B",
+        "text": "2677"
+      },
+      {
+        "id": "C",
+        "text": "89"
+      },
+      {
+        "id": "D",
+        "text": "18739"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "series",
+    "difficulty": "medium",
+    "language": "hi"
+  }
+]
