@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "classification101",
+    "subjectId": "reasoning",
+    "question": "उस अक्षर समूह का चयन करें जो भिन्न है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "HJN"
+      },
+      {
+        "id": "B",
+        "text": "LOQ"
+      },
+      {
+        "id": "C",
+        "text": "PSU"
+      },
+      {
+        "id": "D",
+        "text": "MPR"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification102",
+    "subjectId": "reasoning",
+    "question": "उस अक्षर-समूह का चयन करें जो भिन्न है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "LQW"
+      },
+      {
+        "id": "B",
+        "text": "TYE"
+      },
+      {
+        "id": "C",
+        "text": "NSY"
+      },
+      {
+        "id": "D",
+        "text": "PUB"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification103",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "पारिस्थितिकी"
+      },
+      {
+        "id": "B",
+        "text": "त्वचा विज्ञान"
+      },
+      {
+        "id": "C",
+        "text": "नेत्र विज्ञान"
+      },
+      {
+        "id": "D",
+        "text": "मायोलॉजी"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification104",
+    "subjectId": "reasoning",
+    "question": "उस अक्षर-समूह का चयन करें जो भिन्न है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "YWTP"
+      },
+      {
+        "id": "B",
+        "text": "PMJG"
+      },
+      {
+        "id": "C",
+        "text": "MKHD"
+      },
+      {
+        "id": "D",
+        "text": "USPL"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification105",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "गुलामी"
+      },
+      {
+        "id": "B",
+        "text": "सुविधा"
+      },
+      {
+        "id": "C",
+        "text": "विकल्प"
+      },
+      {
+        "id": "D",
+        "text": "स्वायत्तता"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification106",
+    "subjectId": "reasoning",
+    "question": "भिन्न का चयन करें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "17 : 291"
+      },
+      {
+        "id": "B",
+        "text": "15 : 227"
+      },
+      {
+        "id": "C",
+        "text": "13 : 169"
+      },
+      {
+        "id": "D",
+        "text": "11 : 123"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification107",
+    "subjectId": "reasoning",
+    "question": "असंगत विकल्प को छाँटें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "लद्दाख"
+      },
+      {
+        "id": "B",
+        "text": "शिमला"
+      },
+      {
+        "id": "C",
+        "text": "देहरादून"
+      },
+      {
+        "id": "D",
+        "text": "गंगटोक"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification108",
+    "subjectId": "reasoning",
+    "question": "अलग युग्म का चयन करें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "798 : 897 : 798"
+      },
+      {
+        "id": "B",
+        "text": "432 : 324 : 231"
+      },
+      {
+        "id": "C",
+        "text": "321 : 213 : 123"
+      },
+      {
+        "id": "D",
+        "text": "564 : 645 : 456"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification109",
+    "subjectId": "reasoning",
+    "question": "विषम का चयन करें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "AEW – ZVD"
+      },
+      {
+        "id": "B",
+        "text": "QJR – JQH"
+      },
+      {
+        "id": "C",
+        "text": "SUL – HFO"
+      },
+      {
+        "id": "D",
+        "text": "PHK – KSP"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification110",
+    "subjectId": "reasoning",
+    "question": "असंगत संख्या को छाँटें। 132, 17523, 3164, 2685",
+    "options": [
+      {
+        "id": "A",
+        "text": "17523"
+      },
+      {
+        "id": "B",
+        "text": "3164"
+      },
+      {
+        "id": "C",
+        "text": "132"
+      },
+      {
+        "id": "D",
+        "text": "2685"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification111",
+    "subjectId": "reasoning",
+    "question": "असंगत विकल्प को छाँटें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "एक्सेल"
+      },
+      {
+        "id": "B",
+        "text": "कोनाइट"
+      },
+      {
+        "id": "C",
+        "text": "वर्ड"
+      },
+      {
+        "id": "D",
+        "text": "पावर पॉइंट"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification112",
+    "subjectId": "reasoning",
+    "question": "विषम का चयन करें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "फ्लोरीन"
+      },
+      {
+        "id": "B",
+        "text": "आयोडीन"
+      },
+      {
+        "id": "C",
+        "text": "ब्रोमीन"
+      },
+      {
+        "id": "D",
+        "text": "आयरन"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification113",
+    "subjectId": "reasoning",
+    "question": "उस संख्या युग्म का चयन करें जो भिन्न है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(36, 353)"
+      },
+      {
+        "id": "B",
+        "text": "(49, 512)"
+      },
+      {
+        "id": "C",
+        "text": "(64, 729)"
+      },
+      {
+        "id": "D",
+        "text": "(25, 216)"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification114",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित में से क्या इस समूह से संबंधित नहीं है? A. चींटी  B. कैटरपिलर  C. हैम्स्टर  D. लोकस्ट",
+    "options": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "C"
+      },
+      {
+        "id": "C",
+        "text": "B"
+      },
+      {
+        "id": "D",
+        "text": "D"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification115",
+    "subjectId": "reasoning",
+    "question": "उस शब्द को चुनें जो समूह से संबंधित नहीं है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "हाइड्रोजन"
+      },
+      {
+        "id": "B",
+        "text": "एल्युमीनियम"
+      },
+      {
+        "id": "C",
+        "text": "गोल्ड"
+      },
+      {
+        "id": "D",
+        "text": "सिल्वर"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification116",
+    "subjectId": "reasoning",
+    "question": "निम्न की पहचान कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "एक्सिस बैंक"
+      },
+      {
+        "id": "B",
+        "text": "एस.बी.आई. बैंक"
+      },
+      {
+        "id": "C",
+        "text": "एच.डी.एफ.सी. बैंक"
+      },
+      {
+        "id": "D",
+        "text": "आई.सी.आई.सी.आई. बैंक"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification117",
+    "subjectId": "reasoning",
+    "question": "निम्न में से भिन्न चित्र का चयन करें। चित्र विकल्प: (a) ऊपर TAN, नीचे उल्टा अक्षर-समूह; (b) ऊपर SAT, नीचे SVL; (c) ऊपर MAN, नीचे उल्टा अक्षर-समूह; (d) ऊपर VAN, नीचे उल्टा अक्षर-समूह।",
+    "options": [
+      {
+        "id": "A",
+        "text": "विकल्प (a): ऊपर TAN, नीचे 180° घुमाया हुआ उल्टा अक्षर-समूह"
+      },
+      {
+        "id": "B",
+        "text": "विकल्प (b): ऊपर SAT, नीचे सीधा SVL"
+      },
+      {
+        "id": "C",
+        "text": "विकल्प (c): ऊपर MAN, नीचे 180° घुमाया हुआ उल्टा अक्षर-समूह"
+      },
+      {
+        "id": "D",
+        "text": "विकल्प (d): ऊपर VAN, नीचे 180° घुमाया हुआ उल्टा अक्षर-समूह"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification118",
+    "subjectId": "reasoning",
+    "question": "दिए गए विकल्पों में से असंगत को चुनें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "4283 : 8432"
+      },
+      {
+        "id": "B",
+        "text": "7319 : 1793"
+      },
+      {
+        "id": "C",
+        "text": "1975 : 1579"
+      },
+      {
+        "id": "D",
+        "text": "3152 : 5321"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification119",
+    "subjectId": "reasoning",
+    "question": "भिन्न का चयन करें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 : 21 : 147"
+      },
+      {
+        "id": "B",
+        "text": "8 : 56 : 3100"
+      },
+      {
+        "id": "C",
+        "text": "1 : 7 : 49"
+      },
+      {
+        "id": "D",
+        "text": "10 : 70 : 490"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification120",
+    "subjectId": "reasoning",
+    "question": "नीचे दिए गए चार अक्षर समूहों में से तीन किसी प्रकार से आपस में संबंधित हैं और कोई एक उनसे असंगत है। असंगत अक्षर समूह का चयन कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "TMHE"
+      },
+      {
+        "id": "B",
+        "text": "VOJG"
+      },
+      {
+        "id": "C",
+        "text": "WNDD"
+      },
+      {
+        "id": "D",
+        "text": "ZSNK"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification121",
+    "subjectId": "reasoning",
+    "question": "भिन्न का चयन कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "MKN"
+      },
+      {
+        "id": "B",
+        "text": "QOR"
+      },
+      {
+        "id": "C",
+        "text": "GEH"
+      },
+      {
+        "id": "D",
+        "text": "TRV"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification122",
+    "subjectId": "reasoning",
+    "question": "दिए गए विकल्पों में से विषम को चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "7–24"
+      },
+      {
+        "id": "B",
+        "text": "13–42"
+      },
+      {
+        "id": "C",
+        "text": "11–37"
+      },
+      {
+        "id": "D",
+        "text": "5–18"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification123",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "ओस्लो"
+      },
+      {
+        "id": "B",
+        "text": "बहुत"
+      },
+      {
+        "id": "C",
+        "text": "पैसों"
+      },
+      {
+        "id": "D",
+        "text": "रियाल"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification124",
+    "subjectId": "reasoning",
+    "question": "भिन्न का चयन कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 : 126, 27 : 234, 31 : 270, 17 : 162"
+      },
+      {
+        "id": "B",
+        "text": "17 : 162"
+      },
+      {
+        "id": "C",
+        "text": "15 : 126"
+      },
+      {
+        "id": "D",
+        "text": "27 : 234"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification125",
+    "subjectId": "reasoning",
+    "question": "दिए गए विकल्पों में से अलग अक्षर/अक्षरों को चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "VWYB"
+      },
+      {
+        "id": "B",
+        "text": "LMOR"
+      },
+      {
+        "id": "C",
+        "text": "QSVY"
+      },
+      {
+        "id": "D",
+        "text": "ABDG"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification126",
+    "subjectId": "reasoning",
+    "question": "असंगत अक्षर समूह का चयन करें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "S X T W"
+      },
+      {
+        "id": "B",
+        "text": "L O K P"
+      },
+      {
+        "id": "C",
+        "text": "K P L O"
+      },
+      {
+        "id": "D",
+        "text": "H M I L"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification127",
+    "subjectId": "reasoning",
+    "question": "विषम शब्द युग्म को चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "फैन – ब्लेड"
+      },
+      {
+        "id": "B",
+        "text": "पेडल – साइकिल"
+      },
+      {
+        "id": "C",
+        "text": "कमरा – घर"
+      },
+      {
+        "id": "D",
+        "text": "अध्याय – पुस्तक"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification128",
+    "subjectId": "reasoning",
+    "question": "नीचे चार संख्या युग्म दिए गए हैं, जिनमें से तीन किसी प्रकार समान हैं और एक भिन्न है। उस संख्या युग्म को चुनिए जो भिन्न है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "11 : 92"
+      },
+      {
+        "id": "B",
+        "text": "17 : 146"
+      },
+      {
+        "id": "C",
+        "text": "31 : 284"
+      },
+      {
+        "id": "D",
+        "text": "21 : 182"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification129",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "केला"
+      },
+      {
+        "id": "B",
+        "text": "सेब"
+      },
+      {
+        "id": "C",
+        "text": "अंगूर"
+      },
+      {
+        "id": "D",
+        "text": "फूलगोभी"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification130",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "बालक – आदमी"
+      },
+      {
+        "id": "B",
+        "text": "मेमना – मेंढक"
+      },
+      {
+        "id": "C",
+        "text": "बिल्ली का बच्चा – बिल्ली"
+      },
+      {
+        "id": "D",
+        "text": "शावक – शेर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification131",
+    "subjectId": "reasoning",
+    "question": "विषम संख्या युग्म ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "2834 : 18"
+      },
+      {
+        "id": "B",
+        "text": "8671 : 22"
+      },
+      {
+        "id": "C",
+        "text": "9876 : 30"
+      },
+      {
+        "id": "D",
+        "text": "3427 : 16"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification132",
+    "subjectId": "reasoning",
+    "question": "विषम संख्या युग्म ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "99 : 296"
+      },
+      {
+        "id": "B",
+        "text": "115 : 344"
+      },
+      {
+        "id": "C",
+        "text": "86 : 252"
+      },
+      {
+        "id": "D",
+        "text": "72 : 215"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification133",
+    "subjectId": "reasoning",
+    "question": "उस अक्षर-समूह का चयन करें जो भिन्न हो।",
+    "options": [
+      {
+        "id": "A",
+        "text": "XZYA"
+      },
+      {
+        "id": "B",
+        "text": "PKQJ"
+      },
+      {
+        "id": "C",
+        "text": "QSRT"
+      },
+      {
+        "id": "D",
+        "text": "NPOQ"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification134",
+    "subjectId": "reasoning",
+    "question": "उस अक्षर-समूह का चयन करें जो भिन्न हो।",
+    "options": [
+      {
+        "id": "A",
+        "text": "DGEF"
+      },
+      {
+        "id": "B",
+        "text": "HNLJ"
+      },
+      {
+        "id": "C",
+        "text": "TWUV"
+      },
+      {
+        "id": "D",
+        "text": "MSOQ"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification135",
+    "subjectId": "reasoning",
+    "question": "विषम संख्या युग्म ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 – 50"
+      },
+      {
+        "id": "B",
+        "text": "8 – 36"
+      },
+      {
+        "id": "C",
+        "text": "10 – 44"
+      },
+      {
+        "id": "D",
+        "text": "18 – 76"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification136",
+    "subjectId": "reasoning",
+    "question": "उस अक्षर-समूह का चयन करें जो भिन्न हो।",
+    "options": [
+      {
+        "id": "A",
+        "text": "EVHN"
+      },
+      {
+        "id": "B",
+        "text": "AZDJ"
+      },
+      {
+        "id": "C",
+        "text": "JPMS"
+      },
+      {
+        "id": "D",
+        "text": "CXFL"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification137",
+    "subjectId": "reasoning",
+    "question": "उस अक्षर-समूह का चयन करें जो भिन्न हो।",
+    "options": [
+      {
+        "id": "A",
+        "text": "LOSXD"
+      },
+      {
+        "id": "B",
+        "text": "JMQVB"
+      },
+      {
+        "id": "C",
+        "text": "DGKPV"
+      },
+      {
+        "id": "D",
+        "text": "TWAFK"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification138",
+    "subjectId": "reasoning",
+    "question": "उस अक्षर-समूह का चयन करें जो भिन्न हो।",
+    "options": [
+      {
+        "id": "A",
+        "text": "LRPV"
+      },
+      {
+        "id": "B",
+        "text": "SYGM"
+      },
+      {
+        "id": "C",
+        "text": "DBJH"
+      },
+      {
+        "id": "D",
+        "text": "CNDV"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification139",
+    "subjectId": "reasoning",
+    "question": "विषम संख्या युग्म ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 : 2"
+      },
+      {
+        "id": "B",
+        "text": "3 : 5"
+      },
+      {
+        "id": "C",
+        "text": "7 : 25"
+      },
+      {
+        "id": "D",
+        "text": "5 : 13"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification140",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "मार्गदर्शक"
+      },
+      {
+        "id": "B",
+        "text": "प्रशिक्षक"
+      },
+      {
+        "id": "C",
+        "text": "मालकिन"
+      },
+      {
+        "id": "D",
+        "text": "सलाहकार"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  }
+]

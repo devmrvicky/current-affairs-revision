@@ -1,0 +1,1356 @@
+[
+  {
+    "id": "classification001",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "वकील"
+      },
+      {
+        "id": "B",
+        "text": "विधायक"
+      },
+      {
+        "id": "C",
+        "text": "मेयर"
+      },
+      {
+        "id": "D",
+        "text": "राज्यपाल"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification002",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "टिटनेस"
+      },
+      {
+        "id": "B",
+        "text": "मलेरिया"
+      },
+      {
+        "id": "C",
+        "text": "प्लेग"
+      },
+      {
+        "id": "D",
+        "text": "डेंगू"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification003",
+    "subjectId": "reasoning",
+    "question": "उस ज्यामितीय आकृति/शब्द का चयन करें जो भिन्न है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "वर्ग"
+      },
+      {
+        "id": "B",
+        "text": "वृत्त"
+      },
+      {
+        "id": "C",
+        "text": "कम्पास"
+      },
+      {
+        "id": "D",
+        "text": "आयत"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification004",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "बुध"
+      },
+      {
+        "id": "B",
+        "text": "चंद्रमा"
+      },
+      {
+        "id": "C",
+        "text": "बृहस्पति"
+      },
+      {
+        "id": "D",
+        "text": "शनि"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification005",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "ब्रिगेडियर"
+      },
+      {
+        "id": "B",
+        "text": "कमोडोर"
+      },
+      {
+        "id": "C",
+        "text": "कमांडर"
+      },
+      {
+        "id": "D",
+        "text": "एडमिरल"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification006",
+    "subjectId": "reasoning",
+    "question": "उस महीने का चयन करें जो भिन्न है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "मार्च"
+      },
+      {
+        "id": "B",
+        "text": "अगस्त"
+      },
+      {
+        "id": "C",
+        "text": "दिसंबर"
+      },
+      {
+        "id": "D",
+        "text": "अप्रैल"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification007",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "लीटर"
+      },
+      {
+        "id": "B",
+        "text": "सेंटीमीटर"
+      },
+      {
+        "id": "C",
+        "text": "मील"
+      },
+      {
+        "id": "D",
+        "text": "गज"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification008",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "लोहा"
+      },
+      {
+        "id": "B",
+        "text": "चाँदी"
+      },
+      {
+        "id": "C",
+        "text": "पारा"
+      },
+      {
+        "id": "D",
+        "text": "सोना"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification009",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "चलना"
+      },
+      {
+        "id": "B",
+        "text": "योग करना"
+      },
+      {
+        "id": "C",
+        "text": "कूदना"
+      },
+      {
+        "id": "D",
+        "text": "सोना"
+      },
+      {
+        "id": "E",
+        "text": "दौड़ना"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification010",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "लाल किला"
+      },
+      {
+        "id": "B",
+        "text": "एफिल टॉवर"
+      },
+      {
+        "id": "C",
+        "text": "ताजमहल"
+      },
+      {
+        "id": "D",
+        "text": "हावड़ा ब्रिज"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification011",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "फेफड़े"
+      },
+      {
+        "id": "B",
+        "text": "पैर"
+      },
+      {
+        "id": "C",
+        "text": "आँत"
+      },
+      {
+        "id": "D",
+        "text": "जिगर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification012",
+    "subjectId": "reasoning",
+    "question": "उस दिनांक का चयन करें जो भिन्न है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "26 जनवरी"
+      },
+      {
+        "id": "B",
+        "text": "15 अगस्त"
+      },
+      {
+        "id": "C",
+        "text": "2 अक्टूबर"
+      },
+      {
+        "id": "D",
+        "text": "14 नवंबर"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification013",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "घोंसला"
+      },
+      {
+        "id": "B",
+        "text": "बिल"
+      },
+      {
+        "id": "C",
+        "text": "छत"
+      },
+      {
+        "id": "D",
+        "text": "गुफा"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification014",
+    "subjectId": "reasoning",
+    "question": "उस खेल का चयन करें जो भिन्न है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "मुक्केबाजी"
+      },
+      {
+        "id": "B",
+        "text": "लंबी कूद"
+      },
+      {
+        "id": "C",
+        "text": "कुश्ती"
+      },
+      {
+        "id": "D",
+        "text": "कराटे"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification015",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "लहर"
+      },
+      {
+        "id": "B",
+        "text": "प्रवाह"
+      },
+      {
+        "id": "C",
+        "text": "ज्वारभाटा"
+      },
+      {
+        "id": "D",
+        "text": "तूफान"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification016",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "मुद्रणालय"
+      },
+      {
+        "id": "B",
+        "text": "संस्करण"
+      },
+      {
+        "id": "C",
+        "text": "समाचार पत्र"
+      },
+      {
+        "id": "D",
+        "text": "ध्वनि परीक्षण"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification017",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "शोक"
+      },
+      {
+        "id": "B",
+        "text": "कल्पना"
+      },
+      {
+        "id": "C",
+        "text": "घृणा"
+      },
+      {
+        "id": "D",
+        "text": "विपत्तिजनक स्थिति"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification018",
+    "subjectId": "reasoning",
+    "question": "उस देश का चयन करें जो भिन्न है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "पोलैंड"
+      },
+      {
+        "id": "B",
+        "text": "स्पेन"
+      },
+      {
+        "id": "C",
+        "text": "कोरिया"
+      },
+      {
+        "id": "D",
+        "text": "ग्रीस"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification019",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्लेटिनम"
+      },
+      {
+        "id": "B",
+        "text": "सिलिकॉन"
+      },
+      {
+        "id": "C",
+        "text": "एंटिमनी"
+      },
+      {
+        "id": "D",
+        "text": "आर्सेनिक"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification020",
+    "subjectId": "reasoning",
+    "question": "उस देश–राजधानी युग्म का चयन करें जो भिन्न है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "ओटावा–कनाडा"
+      },
+      {
+        "id": "B",
+        "text": "कैनबरा–ऑस्ट्रेलिया"
+      },
+      {
+        "id": "C",
+        "text": "रोम–इटली"
+      },
+      {
+        "id": "D",
+        "text": "कराची–पाकिस्तान"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification021",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "समांतर चतुर्भुज"
+      },
+      {
+        "id": "B",
+        "text": "पिरामिड"
+      },
+      {
+        "id": "C",
+        "text": "घन"
+      },
+      {
+        "id": "D",
+        "text": "घनाभ"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification022",
+    "subjectId": "reasoning",
+    "question": "उस युग्म का चयन करें जो भिन्न है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "ओडोमीटर : गति"
+      },
+      {
+        "id": "B",
+        "text": "सिस्मोग्राफ : भूकंप"
+      },
+      {
+        "id": "C",
+        "text": "एमीटर : विद्युत धारा"
+      },
+      {
+        "id": "D",
+        "text": "हाइड्रोमीटर : दबाव"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification023",
+    "subjectId": "reasoning",
+    "question": "उस युग्म का चयन करें जो भिन्न है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्रोटीन : क्वाशियोरकर"
+      },
+      {
+        "id": "B",
+        "text": "सोडियम : सूखा रोग"
+      },
+      {
+        "id": "C",
+        "text": "आयोडीन : घेंघा रोग"
+      },
+      {
+        "id": "D",
+        "text": "आयरन : खून की कमी"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification024",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "सितार"
+      },
+      {
+        "id": "B",
+        "text": "सारंगी"
+      },
+      {
+        "id": "C",
+        "text": "वीणा"
+      },
+      {
+        "id": "D",
+        "text": "बाँसुरी"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification025",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "कोयला"
+      },
+      {
+        "id": "B",
+        "text": "हीरा"
+      },
+      {
+        "id": "C",
+        "text": "ग्रेफाइट"
+      },
+      {
+        "id": "D",
+        "text": "मोती"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification026",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "अकाल"
+      },
+      {
+        "id": "B",
+        "text": "बाढ़"
+      },
+      {
+        "id": "C",
+        "text": "युद्ध"
+      },
+      {
+        "id": "D",
+        "text": "भूकंप"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification027",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "महासागर"
+      },
+      {
+        "id": "B",
+        "text": "नदी"
+      },
+      {
+        "id": "C",
+        "text": "जलप्रपात"
+      },
+      {
+        "id": "D",
+        "text": "तालाब"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification028",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "सुख"
+      },
+      {
+        "id": "B",
+        "text": "प्रसन्नता"
+      },
+      {
+        "id": "C",
+        "text": "क्रोध"
+      },
+      {
+        "id": "D",
+        "text": "हँसी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification029",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "क्रिकेट"
+      },
+      {
+        "id": "B",
+        "text": "गोल्फ"
+      },
+      {
+        "id": "C",
+        "text": "हॉकी"
+      },
+      {
+        "id": "D",
+        "text": "कैरम"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification030",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "विशाखापत्तनम"
+      },
+      {
+        "id": "B",
+        "text": "चेन्नई"
+      },
+      {
+        "id": "C",
+        "text": "दिल्ली"
+      },
+      {
+        "id": "D",
+        "text": "मुंबई"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification031",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "लक्षद्वीप"
+      },
+      {
+        "id": "B",
+        "text": "उत्तर प्रदेश"
+      },
+      {
+        "id": "C",
+        "text": "गुजरात"
+      },
+      {
+        "id": "D",
+        "text": "आंध्र प्रदेश"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification032",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "स्पाइसजेट"
+      },
+      {
+        "id": "B",
+        "text": "किंगफिशर"
+      },
+      {
+        "id": "C",
+        "text": "एयर इंडिया"
+      },
+      {
+        "id": "D",
+        "text": "इंडिगो"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification033",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "असमिया"
+      },
+      {
+        "id": "B",
+        "text": "कोंकणी"
+      },
+      {
+        "id": "C",
+        "text": "अंग्रेजी"
+      },
+      {
+        "id": "D",
+        "text": "संस्कृत"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification034",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "कृष्णा"
+      },
+      {
+        "id": "B",
+        "text": "महानदी"
+      },
+      {
+        "id": "C",
+        "text": "कावेरी"
+      },
+      {
+        "id": "D",
+        "text": "नर्मदा"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification035",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "परागकोश"
+      },
+      {
+        "id": "B",
+        "text": "रेटिना"
+      },
+      {
+        "id": "C",
+        "text": "अंडाशय"
+      },
+      {
+        "id": "D",
+        "text": "पंखुड़ी"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification036",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "धान"
+      },
+      {
+        "id": "B",
+        "text": "गेहूँ"
+      },
+      {
+        "id": "C",
+        "text": "ज्वार"
+      },
+      {
+        "id": "D",
+        "text": "सरसों"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification037",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्रतिष्ठा"
+      },
+      {
+        "id": "B",
+        "text": "बुद्धिमानी"
+      },
+      {
+        "id": "C",
+        "text": "ईमानदारी"
+      },
+      {
+        "id": "D",
+        "text": "समझदारी"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification038",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "लाइटवेट"
+      },
+      {
+        "id": "B",
+        "text": "हेवीवेट"
+      },
+      {
+        "id": "C",
+        "text": "पेपरवेट"
+      },
+      {
+        "id": "D",
+        "text": "फीदरवेट"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification039",
+    "subjectId": "reasoning",
+    "question": "उस विकल्प का चयन करें जो भिन्न है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(बैंकॉक, ढाका, ओटावा)"
+      },
+      {
+        "id": "B",
+        "text": "(टोक्यो, मिस्र, ओस्लो)"
+      },
+      {
+        "id": "C",
+        "text": "(थिम्पू, जकार्ता, नैरोबी)"
+      },
+      {
+        "id": "D",
+        "text": "(कैनबरा, बीजिंग, रोम)"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification040",
+    "subjectId": "reasoning",
+    "question": "उस शब्द का चयन करें जो भिन्न है। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "सितार"
+      },
+      {
+        "id": "B",
+        "text": "वायलिन"
+      },
+      {
+        "id": "C",
+        "text": "वीणा"
+      },
+      {
+        "id": "D",
+        "text": "तानपुरा"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification041",
+    "subjectId": "reasoning",
+    "question": "दिए गए विकल्पों में से विषम अक्षर/अक्षरों के समूह को चुनिए। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "F"
+      },
+      {
+        "id": "B",
+        "text": "W"
+      },
+      {
+        "id": "C",
+        "text": "B"
+      },
+      {
+        "id": "D",
+        "text": "A"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification042",
+    "subjectId": "reasoning",
+    "question": "दिए गए विकल्पों में से विषम अक्षर/अक्षरों के समूह को चुनिए। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "TS"
+      },
+      {
+        "id": "B",
+        "text": "PO"
+      },
+      {
+        "id": "C",
+        "text": "XW"
+      },
+      {
+        "id": "D",
+        "text": "FG"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification043",
+    "subjectId": "reasoning",
+    "question": "दिए गए विकल्पों में से विषम अक्षर/अक्षरों के समूह को चुनिए। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "LNOQ"
+      },
+      {
+        "id": "B",
+        "text": "EHIK"
+      },
+      {
+        "id": "C",
+        "text": "ADEG"
+      },
+      {
+        "id": "D",
+        "text": "TWXZ"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification044",
+    "subjectId": "reasoning",
+    "question": "दिए गए विकल्पों में से विषम अक्षर/अक्षरों के समूह को चुनिए। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "ABJNM"
+      },
+      {
+        "id": "B",
+        "text": "QRTUZ"
+      },
+      {
+        "id": "C",
+        "text": "WFGOP"
+      },
+      {
+        "id": "D",
+        "text": "IXYOQ"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification045",
+    "subjectId": "reasoning",
+    "question": "दिए गए विकल्पों में से विषम अक्षर/अक्षरों के समूह को चुनिए। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "MPON"
+      },
+      {
+        "id": "B",
+        "text": "GIJH"
+      },
+      {
+        "id": "C",
+        "text": "BCDC"
+      },
+      {
+        "id": "D",
+        "text": "UXWV"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification046",
+    "subjectId": "reasoning",
+    "question": "दिए गए विकल्पों में से विषम अक्षर/अक्षरों के समूह को चुनिए। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "JIGQ"
+      },
+      {
+        "id": "B",
+        "text": "WVTD"
+      },
+      {
+        "id": "C",
+        "text": "SRPH"
+      },
+      {
+        "id": "D",
+        "text": "KLNP"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification047",
+    "subjectId": "reasoning",
+    "question": "दिए गए विकल्पों में से विषम अक्षर/अक्षरों के समूह को चुनिए। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "TMHE"
+      },
+      {
+        "id": "B",
+        "text": "WNDO"
+      },
+      {
+        "id": "C",
+        "text": "VOJG"
+      },
+      {
+        "id": "D",
+        "text": "ZSNK"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification048",
+    "subjectId": "reasoning",
+    "question": "दिए गए विकल्पों में से विषम अक्षर/अक्षरों के समूह को चुनिए। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "ZBFL"
+      },
+      {
+        "id": "B",
+        "text": "BDHN"
+      },
+      {
+        "id": "C",
+        "text": "MOSY"
+      },
+      {
+        "id": "D",
+        "text": "OQUB"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification049",
+    "subjectId": "reasoning",
+    "question": "दिए गए विकल्पों में से विषम अक्षर/अक्षरों के समूह को चुनिए। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "EAOU"
+      },
+      {
+        "id": "B",
+        "text": "OAIU"
+      },
+      {
+        "id": "C",
+        "text": "EUAI"
+      },
+      {
+        "id": "D",
+        "text": "BCDF"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "classification050",
+    "subjectId": "reasoning",
+    "question": "दिए गए विकल्पों में से विषम अक्षर/अक्षरों के समूह को चुनिए। ",
+    "options": [
+      {
+        "id": "A",
+        "text": "BYI"
+      },
+      {
+        "id": "B",
+        "text": "KPR"
+      },
+      {
+        "id": "C",
+        "text": "QLA"
+      },
+      {
+        "id": "D",
+        "text": "DWK"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification",
+    "difficulty": "medium",
+    "language": "hi"
+  }
+]
