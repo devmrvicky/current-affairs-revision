@@ -1,0 +1,1458 @@
+[
+  {
+    "id": "geometry001",
+    "subjectId": "math",
+    "question": "The number of chords that can be drawn through a point on a circle is:\nएक वृत्त पर एक बिंदु से होकर खींची जा सकने वाली जीवाओं की संख्या ज्ञात करें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "Infinite / अनंत"
+      },
+      {
+        "id": "D",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "circle-geometry",
+    "difficulty": "easy",
+    "explanation": "वृत्त की परिधि पर स्थित एक बिंदु से होकर अलग-अलग दिशाओं में अनंत जीवाएँ खींची जा सकती हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry002",
+    "subjectId": "math",
+    "question": "The number of circles that can pass through two fixed points is:\nदो स्थिर बिंदुओं से होकर गुजरने वाले वृत्तों की संख्या कितनी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "0"
+      },
+      {
+        "id": "D",
+        "text": "Infinity"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "दो निश्चित बिंदुओं को मिलाने वाला रेखाखंड किसी भी वृत्त की जीवा हो सकता है। उसके लंब समद्विभाजक पर केंद्र के अनंत विकल्प होते हैं, इसलिए ऐसे वृत्त अनंत हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry003",
+    "subjectId": "math",
+    "question": "Which of the following is NOT true regarding a circle?\nनिम्नलिखित में से कौन-सा कथन वृत्त के संबंध में सही नहीं है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The largest chord in a circle has a length twice its radius / वृत्त की सबसे बड़ी जीवा की लंबाई उसकी त्रिज्या की दुगुनी होती है"
+      },
+      {
+        "id": "B",
+        "text": "Given any three points in a plane, there is always a circle passing through these points / किसी तल पर दिए गए किन्हीं भी तीन बिंदुओं से होकर हमेशा एक वृत्त गुजरता है"
+      },
+      {
+        "id": "C",
+        "text": "The ratio of the perimeter and radius of a circle is always constant / वृत्त की परिधि और त्रिज्या का अनुपात हमेशा स्थिर होता है"
+      },
+      {
+        "id": "D",
+        "text": "A triangle with vertices on a circle and one side as its diameter is a right-angled triangle / वह त्रिभुज जिसके शीर्ष वृत्त पर हों और जिसकी एक भुजा व्यास हो, एक समकोण त्रिभुज होता है"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "कथन (B) सही नहीं है। यदि तीनों बिंदु एक ही सीधी रेखा पर हों, तो उनसे होकर कोई सामान्य वृत्त नहीं गुजरता।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry004",
+    "subjectId": "math",
+    "question": "Points C and D lie on the same segment of a circle having chord AB. If ∠ACB = 55°, then what is ∠ADB ?\nबिंदु C और D, जीवा AB वाले वृत्त के एक ही वृत्तखंड पर स्थित हैं। यदि ∠ACB = 55°, तो ∠ADB क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "45°"
+      },
+      {
+        "id": "B",
+        "text": "55°"
+      },
+      {
+        "id": "C",
+        "text": "65°"
+      },
+      {
+        "id": "D",
+        "text": "110°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "circle-geometry",
+    "difficulty": "easy",
+    "explanation": "एक ही वृत्तखंड में एक ही जीवा द्वारा बनाए गए कोण बराबर होते हैं। इसलिए ∠ADB = ∠ACB = 55°।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry005",
+    "subjectId": "math",
+    "question": "If PQR is an equilateral triangle inscribed in a circle and S and T are two points on the circle such that T lies on the major arc QR and S lies on the minor arc QR, find ∠QTR and ∠QSR.\nयदि PQR एक वृत्त के अंदर बना एक समबाहु त्रिभुज है और S और T वृत्त पर दो बिंदु इस प्रकार हैं कि T दीर्घ चाप QR पर तथा S लघु चाप QR पर स्थित हैं, तो ∠QTR और ∠QSR ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "50°, 130°"
+      },
+      {
+        "id": "B",
+        "text": "40°, 140°"
+      },
+      {
+        "id": "C",
+        "text": "60°, 120°"
+      },
+      {
+        "id": "D",
+        "text": "30°, 150°"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "समबाहु त्रिभुज के प्रत्येक कोण का मान 60° है। एक ही जीवा QR द्वारा वृत्त के विपरीत वृत्तखंडों में बने कोण पूरक होते हैं, इसलिए कोण 60° और 120° हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry006",
+    "subjectId": "math",
+    "question": "In a circle, the angle subtended by chord AB at a point on the circumference is 35°. What is the angle subtended by the same chord at the center of the circle?\nएक वृत्त में, जीवा AB द्वारा परिधि पर स्थित एक बिंदु पर बनाया गया कोण 35° है। उसी जीवा द्वारा वृत्त के केंद्र पर बनाया गया कोण कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "35°"
+      },
+      {
+        "id": "B",
+        "text": "70°"
+      },
+      {
+        "id": "C",
+        "text": "90°"
+      },
+      {
+        "id": "D",
+        "text": "105°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "circle-geometry",
+    "difficulty": "easy",
+    "explanation": "केंद्र पर जीवा द्वारा बनाया गया कोण, उसी जीवा द्वारा परिधि पर बनाए गए कोण का दोगुना होता है। 2 × 35° = 70°।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry007",
+    "subjectId": "math",
+    "question": "In the given figure, O is the centre of the circle. Find ∠BAC.\nदी गई आकृति में, O वृत्त का केंद्र है। ∠BAC ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "72°"
+      },
+      {
+        "id": "B",
+        "text": "80°"
+      },
+      {
+        "id": "C",
+        "text": "65°"
+      },
+      {
+        "id": "D",
+        "text": "84°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "चित्र में दिए गए केंद्रीय कोणों और त्रिज्याओं के आधार पर त्रिभुजों के कोणों का योग 180° लेकर ∠BAC = 80° प्राप्त होता है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry008",
+    "subjectId": "math",
+    "question": "The length of a chord of a circle is 6 cm. The angle subtended by the chord at a point on the circumference of the circle is 30°. What is the distance of the chord from the centre of the circle?\nएक वृत्त की जीवा की लंबाई 6 cm है। जीवा द्वारा वृत्त की परिधि पर बने बिंदु पर अंतरित कोण 30° है। वृत्त के केंद्र से जीवा की दूरी क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 cm"
+      },
+      {
+        "id": "B",
+        "text": "2√3 cm"
+      },
+      {
+        "id": "C",
+        "text": "3 cm"
+      },
+      {
+        "id": "D",
+        "text": "3√3 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "केंद्र पर बना कोण 60° होगा। केंद्र से जीवा पर लंब डालने पर आधी जीवा 3 cm और कोण 30° वाला समकोण त्रिभुज मिलता है; दूरी 3√3 cm है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry009",
+    "subjectId": "math",
+    "question": "Two chords AB and CD of a circle subtend angles of 40° and 70° respectively at the centre. Find the difference between the angles subtended by these chords at points lying on their minor arcs.\nएक वृत्त की दो जीवाएँ AB और CD केंद्र पर क्रमशः 40° और 70° का कोण अंतरित करती हैं। इन जीवाओं द्वारा उनके लघु चापों पर स्थित बिंदुओं पर अंतरित कोणों के बीच का अंतर ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "10°"
+      },
+      {
+        "id": "B",
+        "text": "15°"
+      },
+      {
+        "id": "C",
+        "text": "20°"
+      },
+      {
+        "id": "D",
+        "text": "30°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "लघु चाप पर स्थित बिंदु पर बना कोण संबंधित केंद्र कोण के आधे का संपूरक होता है। अतः अंतर = (70° − 40°)/2 = 15°।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry010",
+    "subjectId": "math",
+    "question": "A circle is circumscribed about a triangle. If one of the angles of the triangle is 120°, and the radius of the circumscribed circle is r, what is the length of the side opposite the 120° angle?\nएक वृत्त एक त्रिभुज के चारों ओर परिगत है। यदि त्रिभुज का एक कोण 120° है और परिगत वृत्त की त्रिज्या r है, तो 120° कोण के सम्मुख भुजा की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "r√3"
+      },
+      {
+        "id": "B",
+        "text": "2r"
+      },
+      {
+        "id": "C",
+        "text": "r"
+      },
+      {
+        "id": "D",
+        "text": "r√2"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "विस्तारित साइन नियम से सम्मुख भुजा = 2R sin 120° = 2r × √3/2 = r√3।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry011",
+    "subjectId": "math",
+    "question": "A circle has a diameter AB. A point C is on the circumference. If ∠CAB = 40°, what is the measure of ∠ABC ?\nएक वृत्त का व्यास AB है। परिधि पर एक बिंदु C है। यदि ∠CAB = 40°, तो ∠ABC का माप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "40°"
+      },
+      {
+        "id": "B",
+        "text": "50°"
+      },
+      {
+        "id": "C",
+        "text": "65°"
+      },
+      {
+        "id": "D",
+        "text": "75°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "circle-geometry",
+    "difficulty": "easy",
+    "explanation": "अर्धवृत्त में बना कोण 90° होता है। इसलिए ∠ABC = 180° − 90° − 40° = 50°।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry012",
+    "subjectId": "math",
+    "question": "Four points A, B, C and D lie consecutively on a circle such that C is diametrically opposite to A and D is diametrically opposite to B. Which of the following is NOT true?\nकिसी वृत्त पर क्रमागत रूप से चार बिंदु A, B, C और D इस प्रकार हैं कि C, A के ठीक सम्मुख है तथा D, B के ठीक सम्मुख है। निम्नलिखित में से कौन-सा सत्य नहीं है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "AB = CD"
+      },
+      {
+        "id": "B",
+        "text": "AD = BC"
+      },
+      {
+        "id": "C",
+        "text": "AC ≠ BD"
+      },
+      {
+        "id": "D",
+        "text": "AC = BD"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "AC और BD दोनों वृत्त के व्यास हैं, इसलिए उनकी लंबाइयाँ बराबर हैं। अतः AC ≠ BD गलत कथन है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry013",
+    "subjectId": "math",
+    "question": "In a cyclic quadrilateral ABCD, AB is the diameter of the circle. If angle ACD is 40°, what is the measure of angle BAD ?\nएक चक्रीय चतुर्भुज ABCD में, AB वृत्त का व्यास है। यदि कोण ACD, 40° है, तो कोण BAD का माप कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "40°"
+      },
+      {
+        "id": "B",
+        "text": "50°"
+      },
+      {
+        "id": "C",
+        "text": "80°"
+      },
+      {
+        "id": "D",
+        "text": "90°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "एक ही जीवा AD द्वारा एक ही वृत्तखंड में बने कोण बराबर होते हैं। चित्र में ∠BAD = 50°।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry014",
+    "subjectId": "math",
+    "question": "In a circle with center O, PQ and RS are two chords. PQ and RS, when produced, meet at point K. If PR is a diameter and ∠PKS = 66°, what is the value of ∠QOS ?\nएक वृत्त का केंद्र O है। PQ और RS दो जीवाएँ हैं। PQ और RS को बढ़ाने पर वे बिंदु K पर मिलती हैं। यदि PR एक व्यास है और ∠PKS = 66° है, तो ∠QOS का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "60°"
+      },
+      {
+        "id": "B",
+        "text": "48°"
+      },
+      {
+        "id": "C",
+        "text": "40°"
+      },
+      {
+        "id": "D",
+        "text": "55°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "circle-geometry",
+    "difficulty": "hard",
+    "explanation": "बाह्य बिंदु से बनी दो छेदक रेखाओं के बीच का कोण संबंधित चापों के अंतर का आधा होता है। PR व्यास होने से अर्धवृत्त 180° है; इसलिए चाप QS = 180° − 2×66° = 48°।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry015",
+    "subjectId": "math",
+    "question": "In a circle with centre O, ABCD is a cyclic quadrilateral and AC is the diameter. Chords AB and DC are produced to meet at E. If ∠CAE = 34° and ∠E = 30°, then ∠CBD is equal to:\nकेंद्र O वाले एक वृत्त में, ABCD एक चक्रीय चतुर्भुज है और AC व्यास है। जीवाओं AB और DC को E पर मिलने के लिए बढ़ाया जाता है। यदि ∠CAE = 34° और ∠E = 30° है, तो ∠CBD बराबर है:",
+    "options": [
+      {
+        "id": "A",
+        "text": "36°"
+      },
+      {
+        "id": "B",
+        "text": "24°"
+      },
+      {
+        "id": "C",
+        "text": "26°"
+      },
+      {
+        "id": "D",
+        "text": "34°"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "circle-geometry",
+    "difficulty": "hard",
+    "explanation": "त्रिभुज ACE में ∠ACE = 116° होगा। रेखाओं की स्थिति से ∠ACD = 64° और AC व्यास होने से ∠ADC = 90°; अतः ∠CAD = 26°। एक ही जीवा CD पर बने कोण बराबर हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry016",
+    "subjectId": "math",
+    "question": "In a circle, chords AB and AC are equal in length. If chord AB subtends an angle of 50° at the center, what is the angle subtended by chord AC at the center?\nएक वृत्त में, जीवाएँ AB और AC की लंबाई बराबर है। यदि जीवा AB केंद्र पर 50° का कोण अंतरित करती है, तो जीवा AC द्वारा केंद्र पर अंतरित कोण कितना होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "50°"
+      },
+      {
+        "id": "B",
+        "text": "100°"
+      },
+      {
+        "id": "C",
+        "text": "25°"
+      },
+      {
+        "id": "D",
+        "text": "130°"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "circle-geometry",
+    "difficulty": "easy",
+    "explanation": "एक ही वृत्त में बराबर जीवाएँ केंद्र पर बराबर कोण अंतरित करती हैं। इसलिए कोण 50° है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry017",
+    "subjectId": "math",
+    "question": "In a circle with centre O and radius 13 cm, two chords AB and CD subtend equal angles at the centre, i.e., ∠AOB = ∠COD. If AB = (3x + 9)cm and CD = (5x − 1)cm, then what is the distance of chord CD from the centre O?\nकेंद्र O और 13 cm त्रिज्या वाले एक वृत्त में, दो जीवाएँ AB और CD केंद्र पर बराबर कोण अंतरित करती हैं, अर्थात ∠AOB = ∠COD। यदि AB = (3x + 9)cm और CD = (5x − 1)cm है, तो केंद्र O से जीवा CD की दूरी कितनी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 cm"
+      },
+      {
+        "id": "B",
+        "text": "5 cm"
+      },
+      {
+        "id": "C",
+        "text": "8 cm"
+      },
+      {
+        "id": "D",
+        "text": "10 cm"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "बराबर केंद्रीय कोण बराबर जीवाएँ बनाते हैं। 3x+9 = 5x−1 से x=5 और जीवा की लंबाई 24 cm मिलती है। आधी जीवा 12 cm है; 13²−12²=25, इसलिए दूरी 5 cm है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry018",
+    "subjectId": "math",
+    "question": "In a circle, the length of a chord is 12 cm and the perpendicular distance from the centre of the circle to the chord is 5 cm. What is the radius of the circle? (Rounded off to two decimal places.)\nकिसी वृत्त में, एक जीवा की लंबाई 12 cm है तथा वृत्त के केंद्र से जीवा तक की लंबवत दूरी 5 cm है। वृत्त की त्रिज्या (दशमलव के दो स्थानों तक पूर्णांकित) ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "7.81 cm"
+      },
+      {
+        "id": "B",
+        "text": "6.97 cm"
+      },
+      {
+        "id": "C",
+        "text": "9.87 cm"
+      },
+      {
+        "id": "D",
+        "text": "10.25 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "केंद्र से जीवा पर खींचा गया लंब जीवा को समद्विभाजित करता है। त्रिज्या = √(6²+5²) = √61 ≈ 7.81 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry019",
+    "subjectId": "math",
+    "question": "A line from the center of a circle bisects a chord. What is the angle between this line and the chord?\nएक वृत्त के केंद्र से खींची गई एक रेखा एक जीवा को समद्विभाजित करती है। इस रेखा और जीवा के बीच का कोण क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30°"
+      },
+      {
+        "id": "B",
+        "text": "45°"
+      },
+      {
+        "id": "C",
+        "text": "90°"
+      },
+      {
+        "id": "D",
+        "text": "60°"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "circle-geometry",
+    "difficulty": "easy",
+    "explanation": "वृत्त के केंद्र से जीवा के मध्य-बिंदु तक खींची गई रेखा जीवा पर लंब होती है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry020",
+    "subjectId": "math",
+    "question": "The chords AB and CD of a circle are equidistant from the center of the circle. If the length of the chord AB is 12 cm, what is the length of the chord CD ?\nएक वृत्त की जीवाएँ AB और CD, वृत्त के केंद्र से समान दूरी पर हैं। यदि जीवा AB की लंबाई 12 सेमी है, तो जीवा CD की लंबाई क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 cm"
+      },
+      {
+        "id": "B",
+        "text": "6 cm"
+      },
+      {
+        "id": "C",
+        "text": "8 cm"
+      },
+      {
+        "id": "D",
+        "text": "12 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "circle-geometry",
+    "difficulty": "easy",
+    "explanation": "केंद्र से समान दूरी पर स्थित जीवाएँ बराबर होती हैं। इसलिए CD = AB = 12 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry021",
+    "subjectId": "math",
+    "question": "Which of the following is NOT correct regarding the properties of a circle?\nनिम्नलिखित में से कौन-सा, वृत्त के गुणों के संबंध में सही नहीं है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The ratio of the circumference to the diameter of a circle is constant / वृत्त की परिधि और व्यास का अनुपात स्थिर होता है"
+      },
+      {
+        "id": "B",
+        "text": "The longest chord of a circle of radius 7 units is 14 units long / 7 यूनिट त्रिज्या वाले वृत्त की सबसे बड़ी जीवा की लंबाई 14 यूनिट होती है"
+      },
+      {
+        "id": "C",
+        "text": "When a chord is drawn closer to the centre, the length of the chord decreases / जब जीवा को केंद्र के समीप खींचा जाता है, तो जीवा की लंबाई कम हो जाती है"
+      },
+      {
+        "id": "D",
+        "text": "The longest chord divides the circle into two equal parts / सबसे बड़ी जीवा वृत्त को दो बराबर भागों में विभाजित करती है"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "केंद्र के जितनी नजदीक जीवा होती है, उसकी लंबाई उतनी ही अधिक होती है। इसलिए कथन (C) गलत है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry022",
+    "subjectId": "math",
+    "question": "The cross-section of a bridge arch is a segment of a circle with chord length 20 m and height 6 m. Find the radius of the circle forming the arch.\nएक पुल की मेहराब की चार-काट (cross-section) वृत्त का एक खंड है, जिसकी जीवा की लंबाई 20 मीटर तथा ऊँचाई 6 मीटर है। उस वृत्त की त्रिज्या ज्ञात कीजिए, जिससे यह मेहराब निर्मित हुई है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "14 m"
+      },
+      {
+        "id": "B",
+        "text": "12 m"
+      },
+      {
+        "id": "C",
+        "text": "10.23 m"
+      },
+      {
+        "id": "D",
+        "text": "11.33 m"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "आधी जीवा 10 m और sagitta 6 m है। त्रिज्या = (10²+6²)/(2×6) = 136/12 = 11.33 m।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry023",
+    "subjectId": "math",
+    "question": "The distance between two parallel chords of lengths 16 cm and 12 cm in a circle of radius 10 cm is:\n10 सेमी त्रिज्या वाले एक वृत्त में 16 सेमी और 12 सेमी लंबाई वाली दो समानांतर जीवाओं के बीच की दूरी कितनी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 cm or 14 cm"
+      },
+      {
+        "id": "B",
+        "text": "4 cm or 16 cm"
+      },
+      {
+        "id": "C",
+        "text": "6 cm or 18 cm"
+      },
+      {
+        "id": "D",
+        "text": "4 cm or 12 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "केंद्र से दोनों जीवाओं की दूरियाँ क्रमशः √(10²−8²)=6 cm और √(10²−6²)=8 cm हैं। दोनों एक ओर हों तो अंतर 2 cm और विपरीत ओर हों तो योग 14 cm है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry024",
+    "subjectId": "math",
+    "question": "In a circle, there are two parallel chords of lengths 10 cm and 24 cm. Both chords are situated on the same side of the center. If the distance between them is 7 cm, find the area of the circle.\nएक वृत्त में 10 सेमी और 24 सेमी लंबाई वाली दो समानांतर जीवाएँ हैं। दोनों जीवाएँ केंद्र के एक ही ओर स्थित हैं। यदि उनके बीच की दूरी 7 सेमी है, तो वृत्त का क्षेत्रफल ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "169π cm²"
+      },
+      {
+        "id": "B",
+        "text": "196π cm²"
+      },
+      {
+        "id": "C",
+        "text": "179π cm²"
+      },
+      {
+        "id": "D",
+        "text": "187π cm²"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "circle-geometry",
+    "difficulty": "hard",
+    "explanation": "10 cm और 24 cm की आधी जीवाएँ 5 cm और 12 cm हैं। केंद्र से उनकी दूरियाँ 12 cm और 5 cm हैं, जिनका अंतर 7 cm है। अतः r=13 cm और क्षेत्रफल 169π cm² है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry025",
+    "subjectId": "math",
+    "question": "In a circle with centre O, two parallel chords AB and CD are on opposite sides of the centre. If the length of chord AB is 16 cm and chord CD is 12 cm, and the distance between them is 14 cm, find the radius of the circle.\nकेंद्र O वाले एक वृत्त में, दो समानांतर जीवाएँ AB और CD केंद्र के विपरीत ओर हैं। यदि जीवा AB की लंबाई 16 सेमी और जीवा CD की लंबाई 12 सेमी है, और उनके बीच की दूरी 14 सेमी है, तो वृत्त की त्रिज्या ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 cm"
+      },
+      {
+        "id": "B",
+        "text": "10 cm"
+      },
+      {
+        "id": "C",
+        "text": "12 cm"
+      },
+      {
+        "id": "D",
+        "text": "8 cm"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "आधी जीवाएँ 8 cm और 6 cm हैं। r=10 cm पर केंद्र से उनकी दूरियाँ 6 cm और 8 cm होंगी, जिनका योग 14 cm है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry026",
+    "subjectId": "math",
+    "question": "In a circle, two chords AB and CD cross each other at point E, which is located inside the circle. Given that AE is 3 cm, EB is 2 cm, and CE is 6 cm, determine the length of ED.\nएक वृत्त में, दो जीवाएँ AB और CD, बिंदु E पर एक-दूसरे को काटती हैं, जो वृत्त के अंदर स्थित है। दिया गया है कि AE = 3 सेमी, EB = 2 सेमी और CE = 6 सेमी है, तो ED की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 cm"
+      },
+      {
+        "id": "B",
+        "text": "2 cm"
+      },
+      {
+        "id": "C",
+        "text": "3 cm"
+      },
+      {
+        "id": "D",
+        "text": "4 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "प्रतिच्छेदी जीवाओं के प्रमेय से AE × EB = CE × ED। 3×2 = 6×ED, इसलिए ED = 1 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry027",
+    "subjectId": "math",
+    "question": "In a circle, chord AB and chord CD intersect at E such that AE: EB = 2:3 and CE: ED = 5:2. If AB = x and CD = y, which of the following is true?\nएक वृत्त में, जीवा AB और जीवा CD बिंदु E पर इस प्रकार प्रतिच्छेद करती हैं कि AE: EB = 2:3 और CE: ED = 5:2 है। यदि AB = x और CD = y है, तो निम्नलिखित में से कौन सा सत्य है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "x²/y² = 15/16"
+      },
+      {
+        "id": "B",
+        "text": "x/y = 6/15"
+      },
+      {
+        "id": "C",
+        "text": "x/y = 10/9"
+      },
+      {
+        "id": "D",
+        "text": "x²/y² = 125/147"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "circle-geometry",
+    "difficulty": "hard",
+    "explanation": "मान लें AE=2k, EB=3k, CE=5m और ED=2m। तब 6k²=10m²। साथ ही x=5k और y=7m, इसलिए x²/y²=125/147।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry028",
+    "subjectId": "math",
+    "question": "Two chords AB and CD of a circle are produced to intersect each other outside the circle at a point P. If AB = 7 cm, BP = 4.2 cm and PD = 2.8 cm, find the length of CD.\nएक वृत्त की दो जीवाएँ AB और CD, एक-दूसरे को वृत्त के बाहर बिंदु P पर प्रतिच्छेद करने के लिए बढ़ाई जाती हैं। यदि AB = 7 सेमी, BP = 4.2 सेमी और PD = 2.8 सेमी है, तो CD की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "11 cm"
+      },
+      {
+        "id": "B",
+        "text": "18 cm"
+      },
+      {
+        "id": "C",
+        "text": "16 cm"
+      },
+      {
+        "id": "D",
+        "text": "14 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "बाह्य बिंदु से खींची गई दो छेदक रेखाओं के लिए PB×PA = PD×PC। 4.2×11.2 = 2.8×PC से PC=16.8 cm, अतः CD=PC−PD=14 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry029",
+    "subjectId": "math",
+    "question": "A tangent to a circle has length 8 cm, and the shortest distance from the external point to the circle is 4 cm. What is the radius of the circle?\nएक वृत्त पर स्पर्श रेखा की लंबाई 8 cm है, और बाह्य बिंदु से वृत्त की न्यूनतम दूरी 4 cm है। वृत्त की त्रिज्या क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 cm"
+      },
+      {
+        "id": "B",
+        "text": "8 cm"
+      },
+      {
+        "id": "C",
+        "text": "10 cm"
+      },
+      {
+        "id": "D",
+        "text": "12 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "बाह्य बिंदु से केंद्र की दूरी r+4 होगी। स्पर्श रेखा के लिए 8²=(r+4)²−r², जिससे r=6 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry030",
+    "subjectId": "math",
+    "question": "A circle has a chord AB of length 16 cm. The tangent drawn at point A is parallel to the tangent drawn at point B. Find the diameter of the circle.\nएक वृत्त की जीवा AB की लंबाई 16 सेमी है। बिंदु A पर खींची गई स्पर्श रेखा बिंदु B पर खींची गई स्पर्श रेखा के समांतर है। वृत्त का व्यास ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 cm"
+      },
+      {
+        "id": "B",
+        "text": "16 cm"
+      },
+      {
+        "id": "C",
+        "text": "14 cm"
+      },
+      {
+        "id": "D",
+        "text": "18 cm"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "circle-geometry",
+    "difficulty": "easy",
+    "explanation": "दो समानांतर स्पर्श रेखाओं के स्पर्श बिंदुओं को मिलाने वाली जीवा व्यास होती है। इसलिए व्यास 16 cm है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry031",
+    "subjectId": "math",
+    "question": "From an external point P, two tangent segments PA and PB are drawn to a circle with center O and a radius of 5 units. The distance from P to O is 13 units. Calculate the area of quadrilateral PAOB.\nएक बाह्य बिंदु P से, केंद्र O और 5 इकाई त्रिज्या वाले एक वृत्त पर दो स्पर्श रेखाएँ PA और PB खींची गई हैं। P से O की दूरी 13 इकाई है। चतुर्भुज PAOB का क्षेत्रफल ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "65 square units"
+      },
+      {
+        "id": "B",
+        "text": "60 square units"
+      },
+      {
+        "id": "C",
+        "text": "156 square units"
+      },
+      {
+        "id": "D",
+        "text": "30 square units"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "समकोण त्रिभुज OAP में PA=√(13²−5²)=12। चतुर्भुज का क्षेत्रफल दो समान समकोण त्रिभुजों का योग है: 2×(1/2×5×12)=60 वर्ग इकाई।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry032",
+    "subjectId": "math",
+    "question": "Two concentric circles have centre P. The radius of the larger circle is PQ = 10 cm and the radius of the smaller circle is PR = 8 cm. From an external point T, TQ is a tangent to the larger circle (touching it at Q), and from the same point T, TR is a tangent to the smaller circle (touching it at R). If TQ = 24 cm, find the value of (TR − PR)/PQ.\nदो संकेंद्री वृत्तों का केंद्र P है। बड़े वृत्त की त्रिज्या PQ = 10 cm और छोटे वृत्त की त्रिज्या PR = 8 cm है। एक बाह्य बिंदु T से बड़े वृत्त पर TQ एक स्पर्श रेखा है (जो इसे Q पर स्पर्श करती है), और उसी बिंदु T से छोटे वृत्त पर TR एक स्पर्श रेखा है (जो इसे R पर स्पर्श करती है)। यदि TQ = 24 cm है, तो (TR − PR)/PQ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(3√17 + 18)/10"
+      },
+      {
+        "id": "B",
+        "text": "(√17 − 4)/5"
+      },
+      {
+        "id": "C",
+        "text": "(2√17 − 3)/5"
+      },
+      {
+        "id": "D",
+        "text": "(3√17 − 4)/5"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "circle-geometry",
+    "difficulty": "hard",
+    "explanation": "PT=√(24²+10²)=26 cm। छोटे वृत्त के लिए TR=√(26²−8²)=6√17 cm। अतः (TR−PR)/PQ=(6√17−8)/10=(3√17−4)/5।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry033",
+    "subjectId": "math",
+    "question": "In the given figure, PAB is a secant and PT is a tangent to the circle from P. If PT = 6 cm, PA = 4 cm and AB = xcm, then x is equal to:\nदी गई आकृति में, PAB एक छेदक रेखा है और PT बिंदु P से वृत्त पर खींची गई स्पर्श रेखा है। यदि PT = 6 cm, PA = 4 cm और AB = xcm है, तो x का मान है:",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "स्पर्शरेखा-छेदक प्रमेय से PT²=PA×PB। 36=4(4+x), इसलिए x=5 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry034",
+    "subjectId": "math",
+    "question": "P is a point outside a circle and is 17 cm away from its centre. A secant drawn from the point P intersects the circle at points A and B in such a way that PA = 8 cm and AB = 7 cm, where PB > PA. The radius of the circle is:\nएक वृत्त के बाहर स्थित एक बिंदु P है और वह इसके केंद्र से 17 cm दूर है। P बिंदु से खींची गई एक छेदक रेखा वृत्त को A और B बिंदुओं पर इस प्रकार काटती है कि PA = 8 cm और AB = 7 cm है, जहाँ PB > PA है। वृत्त की त्रिज्या है:",
+    "options": [
+      {
+        "id": "A",
+        "text": "13 cm"
+      },
+      {
+        "id": "B",
+        "text": "12 cm"
+      },
+      {
+        "id": "C",
+        "text": "15 cm"
+      },
+      {
+        "id": "D",
+        "text": "14 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "PB=PA+AB=15 cm। बाह्य बिंदु की घात से 8×15=17²−r², इसलिए r²=169 और r=13 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry035",
+    "subjectId": "math",
+    "question": "Two tangents PA and PB are drawn from an external point P to a circle with centre O. A secant passing through point P intersects the circle at points C and D such that PC = 4 cm and PD = 8 cm. If the radius of the circle is 6 cm, then find the length of the tangent PA.\nकेंद्र O वाले एक वृत्त के बाहर बिंदु P से दो स्पर्श रेखाएँ PA और PB खींची गई हैं। P से होकर जाने वाली एक छेदक रेखा वृत्त को बिंदुओं C और D पर इस प्रकार काटती है कि PC = 4 cm और PD = 8 cm है। यदि वृत्त की त्रिज्या 6 cm है, तो स्पर्श रेखा PA की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "4√3 cm"
+      },
+      {
+        "id": "B",
+        "text": "√2 cm"
+      },
+      {
+        "id": "C",
+        "text": "2√2 cm"
+      },
+      {
+        "id": "D",
+        "text": "4√2 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "स्पर्शरेखा-छेदक प्रमेय से PA²=PC×PD=4×8=32। अतः PA=4√2 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry036",
+    "subjectId": "math",
+    "question": "A point P is outside a circle with radius 8 units. A secant line passing through P and the circle's center O intersects the circle at points A and B, where B is the point on the secant closer to P. A tangent from P touches the circle at T, and PT = 15 units. Find the length of the segment PB.\nएक बिंदु P, 8 इकाई त्रिज्या वाले एक वृत्त के बाहर है। P और वृत्त के केंद्र O से होकर गुजरने वाली एक छेदक रेखा वृत्त को बिंदु A और B पर काटती है, जहाँ B, P के निकट छेदक रेखा पर स्थित बिंदु है। P से एक स्पर्श रेखा वृत्त को T पर स्पर्श करती है, और PT = 15 इकाई है। PB रेखाखंड की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "17 units"
+      },
+      {
+        "id": "B",
+        "text": "30 units"
+      },
+      {
+        "id": "C",
+        "text": "9 units"
+      },
+      {
+        "id": "D",
+        "text": "18 units"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "OP=√(PT²+r²)=√(15²+8²)=17। निकटतम प्रतिच्छेद बिंदु B तक दूरी PB=OP−r=17−8=9 इकाई।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry037",
+    "subjectId": "math",
+    "question": "PQ is a chord of a circle. The tangent XR at point X on the circle intersects the extension of PQ at point R. Given that XR = 12 cm, PQ = xcm and QR = (x − 2)cm, find the value of x.\nPQ एक वृत्त की जीवा है। वृत्त के बिंदु X पर खींची गई स्पर्श रेखा XR, PQ के बढ़ाए गए भाग को बिंदु R पर प्रतिच्छेद करती है। यदि XR = 12 सेमी, PQ = xcm और QR = (x − 2)cm है, तो x का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "11 cm"
+      },
+      {
+        "id": "B",
+        "text": "9 cm"
+      },
+      {
+        "id": "C",
+        "text": "8 cm"
+      },
+      {
+        "id": "D",
+        "text": "10 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "circle-geometry",
+    "difficulty": "hard",
+    "explanation": "स्पर्शरेखा-छेदक प्रमेय से 12²=(x−2)(2x−2)। इससे x²−3x−70=0 और धनात्मक हल x=10 है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry038",
+    "subjectId": "math",
+    "question": "Two circles, having their centres at A and at B, touch externally at a point M. From a point P on a tangent at M, tangents PQ and PR are drawn to the circles with points of contact Q and R, respectively. If AP = 13 cm and AM = 5 cm, find the value of PQ + PR − PM.\nदो वृत्त, जिनके केंद्र क्रमशः A और B हैं, एक बिंदु M पर बाह्य रूप से स्पर्श करते हैं। M पर खींची गई एक स्पर्श रेखा पर एक बिंदु P से, वृत्तों पर स्पर्श रेखाएँ PQ और PR खींची जाती हैं, जिनके स्पर्श बिंदु क्रमशः Q और R हैं। यदि AP = 13 cm और AM = 5 cm है, तो (PQ + PR − PM) का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 cm"
+      },
+      {
+        "id": "B",
+        "text": "10 cm"
+      },
+      {
+        "id": "C",
+        "text": "13 cm"
+      },
+      {
+        "id": "D",
+        "text": "14 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "circle-geometry",
+    "difficulty": "hard",
+    "explanation": "समकोण त्रिभुज APM में PM=√(13²−5²)=12 cm। एक ही बाह्य बिंदु से किसी वृत्त पर खींची गई स्पर्श रेखाएँ बराबर होती हैं, इसलिए PQ=PM और PR=PM; फलतः PQ+PR−PM=12 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry039",
+    "subjectId": "math",
+    "question": "From a point P, two tangents PA and PB are drawn to a circle. If the length of the chord AB is equal to the radius of the circle, what is the angle ∠APB ?\nएक बिंदु P से एक वृत्त पर दो स्पर्श रेखाएँ PA और PB खींची गई हैं। यदि जीवा AB की लंबाई वृत्त की त्रिज्या के बराबर है, तो ∠APB क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "90°"
+      },
+      {
+        "id": "B",
+        "text": "60°"
+      },
+      {
+        "id": "C",
+        "text": "45°"
+      },
+      {
+        "id": "D",
+        "text": "120°"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "जीवा AB=त्रिज्या होने पर केंद्र पर बना कोण ∠AOB=60° होता है। दो स्पर्श रेखाओं के बीच का कोण 180°−60°=120° है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry040",
+    "subjectId": "math",
+    "question": "From an outside point P, two tangents, PA and PB, are drawn to a circle. A third tangent to the circle at a point Q intersects PA and PB at R and S respectively. If PA = 10 cm, what is the perimeter of ΔPRS?\nएक बाह्य बिंदु P से, एक वृत्त पर दो स्पर्श रेखाएँ PA और PB खींची गई हैं। वृत्त पर बिंदु Q पर एक तीसरी स्पर्श रेखा PA और PB को क्रमशः R और S पर प्रतिच्छेद करती है। यदि PA = 10 cm है, तो ΔPRS का परिमाप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 cm"
+      },
+      {
+        "id": "B",
+        "text": "15 cm"
+      },
+      {
+        "id": "C",
+        "text": "20 cm"
+      },
+      {
+        "id": "D",
+        "text": "30 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "एक ही बाह्य बिंदु से खींची गई स्पर्श रेखाएँ बराबर हैं: RA=RQ और SB=SQ। अतः PR+RS+SP = PA+PB = 10+10 = 20 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry041",
+    "subjectId": "math",
+    "question": "PA and PB are tangents drawn from an external point P to a circle with centre O, and M is a point on the minor arc AB. The tangent at point M meets PA at X and PB at Y. If ∠APB = θ, then find ∠XOY.\nयदि PA और PB केंद्र O वाले वृत्त की, एक बाह्य बिंदु P से खींची गई स्पर्शरेखाएँ हैं तथा M छोटे चाप AB पर स्थित एक बिंदु है, बिंदु M की स्पर्श रेखा PA को X पर और PB को Y पर मिलती है। यदि ∠APB = θ है, तो ∠XOY ज्ञात कीजिये।",
+    "options": [
+      {
+        "id": "A",
+        "text": "90° − θ/2"
+      },
+      {
+        "id": "B",
+        "text": "θ/2"
+      },
+      {
+        "id": "C",
+        "text": "θ"
+      },
+      {
+        "id": "D",
+        "text": "Variable / परिवर्ती"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "circle-geometry",
+    "difficulty": "hard",
+    "explanation": "स्पर्श रेखाओं की सममिति से ∠XOY, लघु चाप AB के केंद्रीय कोण का आधा होता है। केंद्रीय कोण 180°−θ है, इसलिए ∠XOY=(180°−θ)/2=90°−θ/2।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry042",
+    "subjectId": "math",
+    "question": "LMNO is a cyclic quadrilateral such that ∠M = 102°. The tangents at L and N meet at a point P. What is the measure of ∠LPN ?\nLMNO एक चक्रीय चतुर्भुज है, जिसमें ∠M = 102° है। L और N पर स्पर्श रेखाएँ बिंदु P पर मिलती हैं। ∠LPN का माप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "26°"
+      },
+      {
+        "id": "B",
+        "text": "20°"
+      },
+      {
+        "id": "C",
+        "text": "24°"
+      },
+      {
+        "id": "D",
+        "text": "22°"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "∠LMN=102° से उससे संबंधित बड़ा चाप LN=204° और छोटा चाप LN=156° होगा। दो स्पर्श रेखाओं के बीच का कोण 180°−156°=24° है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry043",
+    "subjectId": "math",
+    "question": "Two tangents AB and BC are drawn to a circle with centre O such that ∠ABC = 60°. If AB = 8.7 cm, find the length of OB.\nकेंद्र O वाले वृत्त पर दो स्पर्शरेखाएँ AB और BC इस प्रकार खींची जाती हैं कि ∠ABC = 60° है। यदि AB = 8.7 cm है, तो OB की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "5√3 cm"
+      },
+      {
+        "id": "B",
+        "text": "8.5√3 cm"
+      },
+      {
+        "id": "C",
+        "text": "8√3 cm"
+      },
+      {
+        "id": "D",
+        "text": "5.8√3 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "OB, स्पर्श रेखाओं के बीच के कोण को समद्विभाजित करता है। समकोण त्रिभुज OAB में cos30°=AB/OB, इसलिए OB=8.7×2/√3=5.8√3 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry044",
+    "subjectId": "math",
+    "question": "A circle of radius 4 cm is drawn inscribed in a right-angled triangle ABC, right-angled at C. If AC = 12 cm, then the value of CB is:\nत्रिज्या का एक वृत्त एक समकोण त्रिभुज ABC में अंकित है, जिसका कोण C समकोण है। यदि AC = 12 cm है, तो CB का मान है:",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 cm"
+      },
+      {
+        "id": "B",
+        "text": "12 cm"
+      },
+      {
+        "id": "C",
+        "text": "20 cm"
+      },
+      {
+        "id": "D",
+        "text": "16 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "समकोण त्रिभुज में अंतःत्रिज्या r=(a+b−c)/2। 4=(12+x−√(144+x²))/2 से x=16 cm मिलता है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry045",
+    "subjectId": "math",
+    "question": "A circle is inscribed in Δ ABC, touching AB, BC and AC at the points P, Q and R, respectively. If AB − BC = 4 cm, AB − AC = 2 cm and the perimeter of Δ ABC is 36 cm, then PB + AR (in cm) is:\n△ABC में एक वृत्त अंकित है, जो AB, BC और AC को क्रमशः P, Q और R बिंदुओं पर स्पर्श करता है। यदि AB − BC = 4 सेमी, AB − AC = 2 सेमी तथा △ABC का परिमाप 36 सेमी है, तो PB + AR (सेमी में) का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "14"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "एक ही बाह्य बिंदु से खींची गई स्पर्श रेखाएँ बराबर हैं। मान लें AP=AR=x, BP=BQ=y और CQ=CR=z। दिए गए अंतर से x−z=4, y−z=2 और x+y+z=18; इससे x+y=14।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry046",
+    "subjectId": "math",
+    "question": "A circle is inscribed in the triangle ABC whose sides are given as AB = 10, BC = 8 and CA = 12 units, as shown in the figure. The value of AD × BF is:\nएक वृत्त त्रिभुज ABC में अंकित है, जिसकी भुजाएँ AB = 10, BC = 8 और CA = 12 इकाई हैं, जैसा कि आकृति में दिया गया है। AD × BF का मान है:",
+    "options": [
+      {
+        "id": "A",
+        "text": "18 units"
+      },
+      {
+        "id": "B",
+        "text": "21 units"
+      },
+      {
+        "id": "C",
+        "text": "16 units"
+      },
+      {
+        "id": "D",
+        "text": "15 units"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "अर्धपरिमाप 15 है। स्पर्श रेखा के गुण से AD=15−BC=7 और BF=15−CA=3; इसलिए AD×BF=21।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry047",
+    "subjectId": "math",
+    "question": "A circle touches the side BC of Δ ABC at D, and AB and AC produced at E and F, respectively. If AB = 10 cm, AC = 8.6 cm and BC = 6.4 cm, then BD = ?\nएक वृत्त, △ABC की भुजा BC को D पर तथा बढ़ाई गई AB और AC को क्रमशः E और F पर स्पर्श करता है। यदि AB = 10 cm, AC = 8.6 cm और BC = 6.4 cm है, तो BD = ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3.2 cm"
+      },
+      {
+        "id": "B",
+        "text": "3.5 cm"
+      },
+      {
+        "id": "C",
+        "text": "2.2 cm"
+      },
+      {
+        "id": "D",
+        "text": "2.5 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "स्पर्श रेखाओं की बराबरी से BD−DC=AC−AB=−1.4 और BD+DC=6.4। इनसे BD=2.5 cm मिलता है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry048",
+    "subjectId": "math",
+    "question": "A quadrilateral ABCD is circumscribed about a circle (all its sides touch the circle). If AB = 10 cm, BC = 12 cm and the perimeter of the quadrilateral is 40 cm, what is the length of side CD?\nएक चतुर्भुज ABCD एक वृत्त के परितः बना है (इसकी सभी भुजाएँ वृत्त को स्पर्श करती हैं)। यदि AB = 10 cm, BC = 12 cm और चतुर्भुज का परिमाप 40 cm है, तो भुजा CD की लंबाई क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 cm"
+      },
+      {
+        "id": "B",
+        "text": "10 cm"
+      },
+      {
+        "id": "C",
+        "text": "12 cm"
+      },
+      {
+        "id": "D",
+        "text": "18 cm"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "वृत्त के परितः बने चतुर्भुज में सम्मुख भुजाओं के योग बराबर होते हैं: AB+CD=BC+DA। साथ ही कुल परिमाप 40 cm है; इससे CD=10 cm मिलता है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry049",
+    "subjectId": "math",
+    "question": "A circle is inscribed in a quadrilateral ABCD , touching AB, BC, CD and AD at the points P, Q, R and S respectively, and ∠B = 90°. If AD = 24 cm, AB = 27 cm and DR = 6 cm, then what is the circumference of the circle?\nचतुर्भुज ABCD का अंतःवृत्त भुजाओं AB, BC, CD और AD को क्रमशः बिंदुओं P, Q, R और S पर स्पर्श करता है तथा ∠B = 90° है। यदि AD = 24 cm, AB = 27 cm और DR = 6 cm है, तो वृत्त की परिधि क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9π"
+      },
+      {
+        "id": "B",
+        "text": "18π"
+      },
+      {
+        "id": "C",
+        "text": "81π"
+      },
+      {
+        "id": "D",
+        "text": "12π"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "circle-geometry",
+    "difficulty": "hard",
+    "explanation": "DR=DS=6 cm, इसलिए AS=24−6=18 cm। स्पर्श रेखाओं की बराबरी से AP=AS=18 और BP=27−18=9 cm। ∠B=90° होने से त्रिज्या 9 cm है; परिधि 18π cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry050",
+    "subjectId": "math",
+    "question": "In a circle with center O, a chord AB is drawn such that a tangent at A makes an angle of 30° with chord AB. Find ∠AOB.\nकेंद्र O वाले एक वृत्त में, एक जीवा AB इस प्रकार खींची गई है कि A पर एक स्पर्श रेखा जीवा AB के साथ 30° का कोण बनाती है। ∠AOB ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "60°"
+      },
+      {
+        "id": "B",
+        "text": "90°"
+      },
+      {
+        "id": "C",
+        "text": "120°"
+      },
+      {
+        "id": "D",
+        "text": "30°"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "circle-geometry",
+    "difficulty": "easy",
+    "explanation": "त्रिज्या OA स्पर्श रेखा पर लंब होती है। इसलिए त्रिभुज OAB में ∠OAB=90°−30°=60° और OA=OB, अतः ∠AOB=60°।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry051",
+    "subjectId": "math",
+    "question": "P, Q&R are three points on a circle. The tangent at R meets QP produced at S. Given that ∠PSR = 40°&∠PRS = 44°, the angle subtended by PQ at the center of the circle is:\nP, Q और R वृत्त पर स्थित तीन बिंदु हैं। R पर खींची गई स्पर्श रेखा, QP को बढ़ाने पर S बिंदु पर मिलती है। दिया गया है कि ∠PSR = 40° तथा ∠PRS = 44°, वृत्त के केंद्र पर PQ द्वारा अंतरित कोण ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "100°"
+      },
+      {
+        "id": "B",
+        "text": "102°"
+      },
+      {
+        "id": "C",
+        "text": "104°"
+      },
+      {
+        "id": "D",
+        "text": "106°"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "त्रिभुज PRS में ∠RPS=96°। Q, P, S एक सीध में हैं, इसलिए ∠QPR=84°। स्पर्श-जीवा प्रमेय से ∠PQR=44°, अतः ∠PRQ=52° और केंद्र पर PQ का कोण 104° है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry052",
+    "subjectId": "math",
+    "question": "PT is a tangent at point C on a circle with centre O and AB is a diameter. When BA is produced, it meets PT at point P. If ∠BPC = 34°, then what is the measure of ∠ACP ?\nकेंद्र O वाले एक वृत्त के बिंदु C पर PT एक स्पर्श रेखा है और AB एक व्यास है। जब BA को बढ़ाया जाता है, तो यह बिंदु P पर PT से मिलती है। यदि ∠BPC = 34° है, तो ∠ACP का माप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "26°"
+      },
+      {
+        "id": "B",
+        "text": "28°"
+      },
+      {
+        "id": "C",
+        "text": "32°"
+      },
+      {
+        "id": "D",
+        "text": "29°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "circle-geometry",
+    "difficulty": "medium",
+    "explanation": "AB व्यास होने से ∠ACB=90°। स्पर्श-जीवा प्रमेय और त्रिभुज BCP के कोणों के योग से ∠ABC=28° मिलता है; अतः ∠ACP=28°।",
+    "language": "hi"
+  }
+]

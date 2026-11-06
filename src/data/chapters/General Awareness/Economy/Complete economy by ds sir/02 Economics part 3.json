@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "eco002_093",
+    "subjectId": "economy",
+    "question": "मुक्त वस्तुओं (Free Goods) का उदाहरण कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कार"
+      },
+      {
+        "id": "B",
+        "text": "सूर्य का प्रकाश"
+      },
+      {
+        "id": "C",
+        "text": "कपड़ा"
+      },
+      {
+        "id": "D",
+        "text": "मोबाइल"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification-of-goods",
+    "difficulty": "easy",
+    "explanation": "PDF में हवा और सूर्य का प्रकाश मुक्त वस्तुओं के उदाहरण हैं। ये प्रकृति से प्रचुर मात्रा में उपलब्ध मानी जाती हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_094",
+    "subjectId": "economy",
+    "question": "मध्यवर्ती वस्तुएँ (Intermediate Goods) क्या हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अंतिम उपभोग की वस्तुएँ"
+      },
+      {
+        "id": "B",
+        "text": "उत्पादन में इनपुट के रूप में प्रयुक्त वस्तुएँ"
+      },
+      {
+        "id": "C",
+        "text": "मुफ्त वस्तुएँ"
+      },
+      {
+        "id": "D",
+        "text": "टिकाऊ उपभोक्ता वस्तुएँ"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification-of-goods",
+    "difficulty": "easy",
+    "explanation": "Intermediate Goods उत्पादन प्रक्रिया में इनपुट होती हैं और आगे अन्य वस्तु बनाने में लगती हैं। PDF इन्हें Producer/Semi-finished Goods भी कहता है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_095",
+    "subjectId": "economy",
+    "question": "उत्पादक वस्तुओं (Producer Goods) का मुख्य उपयोग क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सीधा अंतिम उपभोग"
+      },
+      {
+        "id": "B",
+        "text": "अन्य वस्तुओं/सेवाओं के उत्पादन में"
+      },
+      {
+        "id": "C",
+        "text": "केवल मनोरंजन"
+      },
+      {
+        "id": "D",
+        "text": "केवल निर्यात"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification-of-goods",
+    "difficulty": "easy",
+    "explanation": "Producer Goods उत्पादन में प्रयुक्त होती हैं। PDF में मशीन, औजार और पूंजीगत वस्तुओं का उल्लेख है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_096",
+    "subjectId": "economy",
+    "question": "टिकाऊ उपभोक्ता वस्तु का उदाहरण कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "दूध"
+      },
+      {
+        "id": "B",
+        "text": "सब्जी"
+      },
+      {
+        "id": "C",
+        "text": "टीवी"
+      },
+      {
+        "id": "D",
+        "text": "रोटी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification-of-goods",
+    "difficulty": "easy",
+    "explanation": "PDF में TV को Durable Consumer Good का उदाहरण दिया गया है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_097",
+    "subjectId": "economy",
+    "question": "सामान्य वस्तुओं (Normal Goods) के लिए सही कथन क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "आय बढ़े तो मांग घटे"
+      },
+      {
+        "id": "B",
+        "text": "आय बढ़े तो मांग बढ़े"
+      },
+      {
+        "id": "C",
+        "text": "आय का प्रभाव नहीं"
+      },
+      {
+        "id": "D",
+        "text": "कीमत बढ़े तो मांग बढ़े"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification-of-goods",
+    "difficulty": "easy",
+    "explanation": "Normal Goods की मांग उपभोक्ता की आय बढ़ने पर सामान्यतः बढ़ती है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_098",
+    "subjectId": "economy",
+    "question": "विलासिता वस्तुओं की आय लोच सामान्यतः कैसी होती है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "शून्य से कम"
+      },
+      {
+        "id": "B",
+        "text": "शून्य"
+      },
+      {
+        "id": "C",
+        "text": "एक से अधिक"
+      },
+      {
+        "id": "D",
+        "text": "हमेशा एक"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification-of-goods",
+    "difficulty": "medium",
+    "explanation": "PDF में Luxury Goods के लिए Income Elasticity > 1 दी गई है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_099",
+    "subjectId": "economy",
+    "question": "पूरक वस्तुओं (Complementary Goods) का उदाहरण कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चाय-कॉफी"
+      },
+      {
+        "id": "B",
+        "text": "पेप्सी-कोका कोला"
+      },
+      {
+        "id": "C",
+        "text": "कार-पेट्रोल"
+      },
+      {
+        "id": "D",
+        "text": "दो साबुन ब्रांड"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification-of-goods",
+    "difficulty": "easy",
+    "explanation": "कार और पेट्रोल साथ उपयोग होते हैं, इसलिए पूरक वस्तुएँ हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_100",
+    "subjectId": "economy",
+    "question": "प्रतिस्थापक वस्तुएँ (Substitute Goods) का उदाहरण कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कार-पेट्रोल"
+      },
+      {
+        "id": "B",
+        "text": "टीवी-रिमोट"
+      },
+      {
+        "id": "C",
+        "text": "चाय-कॉफी"
+      },
+      {
+        "id": "D",
+        "text": "जूता-मोजा"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification-of-goods",
+    "difficulty": "easy",
+    "explanation": "चाय और कॉफी एक-दूसरे के स्थान पर उपयोग की जा सकती हैं। PDF में Pepsi-Coca-Cola भी उदाहरण है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_101",
+    "subjectId": "economy",
+    "question": "गिफेन वस्तुओं की विशेषता क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कीमत बढ़ने पर मांग बढ़ सकती है"
+      },
+      {
+        "id": "B",
+        "text": "आय बढ़ने पर मांग हमेशा बढ़ती है"
+      },
+      {
+        "id": "C",
+        "text": "ये केवल विलासिता हैं"
+      },
+      {
+        "id": "D",
+        "text": "ये सार्वजनिक वस्तुएँ हैं"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification-of-goods",
+    "difficulty": "hard",
+    "explanation": "Giffen Goods में विशेष परिस्थितियों में कीमत बढ़ने पर भी मांग बढ़ सकती है; यह सामान्य मांग नियम का अपवाद है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_102",
+    "subjectId": "economy",
+    "question": "वेब्लेन/स्नॉब वस्तुओं की मांग ऊँची कीमत पर क्यों बढ़ सकती है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "वे मुफ्त होती हैं"
+      },
+      {
+        "id": "B",
+        "text": "ऊँची कीमत प्रतिष्ठा/स्टेटस का संकेत बनती है"
+      },
+      {
+        "id": "C",
+        "text": "उपयोगिता शून्य होती है"
+      },
+      {
+        "id": "D",
+        "text": "सरकार कीमत तय करती है"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification-of-goods",
+    "difficulty": "medium",
+    "explanation": "PDF में Veblen/Snob Goods को प्रतिष्ठा और दिखावे से जोड़ा गया है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_103",
+    "subjectId": "economy",
+    "question": "सार्वजनिक वस्तुओं की दो मुख्य विशेषताएँ क्या हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्रतिस्पर्धी और बहिष्करणीय"
+      },
+      {
+        "id": "B",
+        "text": "गैर-प्रतिस्पर्धी और गैर-बहिष्करणीय"
+      },
+      {
+        "id": "C",
+        "text": "केवल निजी स्वामित्व"
+      },
+      {
+        "id": "D",
+        "text": "केवल विलासिता"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "classification-of-goods",
+    "difficulty": "medium",
+    "explanation": "Public Goods Non-rival और Non-excludable होती हैं। PDF में सड़क/स्ट्रीट लाइट उदाहरण हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_104",
+    "subjectId": "economy",
+    "question": "योग्यकारी वस्तुएँ (Merit Goods) कैसी होती हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सकारात्मक सामाजिक लाभ देती हैं"
+      },
+      {
+        "id": "B",
+        "text": "नकारात्मक बाह्य प्रभाव देती हैं"
+      },
+      {
+        "id": "C",
+        "text": "केवल अमीर खरीदते हैं"
+      },
+      {
+        "id": "D",
+        "text": "केवल मुफ्त होती हैं"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "classification-of-goods",
+    "difficulty": "easy",
+    "explanation": "Merit Goods से समाज को सकारात्मक लाभ मिलता है; PDF में शिक्षा और स्वास्थ्य सेवाएँ उदाहरण हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_105",
+    "subjectId": "economy",
+    "question": "अयोग्यकारी वस्तुओं (Demerit Goods) का उदाहरण कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "शिक्षा"
+      },
+      {
+        "id": "B",
+        "text": "स्वास्थ्य सेवा"
+      },
+      {
+        "id": "C",
+        "text": "तंबाकू"
+      },
+      {
+        "id": "D",
+        "text": "टीकाकरण"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "classification-of-goods",
+    "difficulty": "easy",
+    "explanation": "PDF में धूम्रपान, शराब और तंबाकू को Demerit Goods के उदाहरण के रूप में दिया गया है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_106",
+    "subjectId": "economy",
+    "question": "पूर्ण प्रतियोगिता में फर्म किस प्रकार की होती है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Price Maker"
+      },
+      {
+        "id": "B",
+        "text": "Price Taker"
+      },
+      {
+        "id": "C",
+        "text": "एकमात्र खरीदार"
+      },
+      {
+        "id": "D",
+        "text": "एकमात्र विक्रेता"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "market-structures",
+    "difficulty": "easy",
+    "explanation": "पूर्ण प्रतियोगिता में अनेक खरीदार-विक्रेता और समान उत्पाद होते हैं; व्यक्तिगत फर्म बाजार मूल्य तय नहीं कर सकती।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_107",
+    "subjectId": "economy",
+    "question": "एकाधिकार (Monopoly) में विक्रेताओं की संख्या कितनी होती है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बहुत अधिक"
+      },
+      {
+        "id": "B",
+        "text": "दो"
+      },
+      {
+        "id": "C",
+        "text": "कुछ"
+      },
+      {
+        "id": "D",
+        "text": "एक"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "market-structures",
+    "difficulty": "easy",
+    "explanation": "Monopoly में एक विक्रेता का बाजार पर प्रभुत्व होता है। PDF में Microsoft Windows OS उदाहरण दिया गया है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_108",
+    "subjectId": "economy",
+    "question": "अल्पाधिकार (Oligopoly) की पहचान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "एक खरीदार"
+      },
+      {
+        "id": "B",
+        "text": "कुछ बड़ी कंपनियों का बाजार पर प्रभुत्व"
+      },
+      {
+        "id": "C",
+        "text": "एक ही विक्रेता"
+      },
+      {
+        "id": "D",
+        "text": "असंख्य छोटे विक्रेता"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "market-structures",
+    "difficulty": "easy",
+    "explanation": "Oligopoly में कुछ बड़ी कंपनियाँ बाजार का बड़ा हिस्सा नियंत्रित करती हैं। PDF में Apple और Samsung उदाहरण हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_109",
+    "subjectId": "economy",
+    "question": "द्वयाधिकार (Duopoly) किसे कहते हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "एक खरीदार"
+      },
+      {
+        "id": "B",
+        "text": "दो प्रमुख विक्रेता"
+      },
+      {
+        "id": "C",
+        "text": "तीन विक्रेता"
+      },
+      {
+        "id": "D",
+        "text": "असंख्य विक्रेता"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "market-structures",
+    "difficulty": "easy",
+    "explanation": "Duopoly में दो प्रमुख विक्रेता होते हैं। PDF में Airbus और Boeing उदाहरण हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_110",
+    "subjectId": "economy",
+    "question": "एकाधिकारी प्रतियोगिता (Monopolistic Competition) की विशेषता क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "एक विक्रेता"
+      },
+      {
+        "id": "B",
+        "text": "अनेक विक्रेता और उत्पाद भिन्नता/ब्रांडिंग"
+      },
+      {
+        "id": "C",
+        "text": "केवल दो विक्रेता"
+      },
+      {
+        "id": "D",
+        "text": "एक खरीदार"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "market-structures",
+    "difficulty": "medium",
+    "explanation": "Monopolistic Competition में अनेक फर्में और ब्रांड/गुणवत्ता के आधार पर भिन्न उत्पाद होते हैं। PDF में McDonald's और Burger King उदाहरण हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_111",
+    "subjectId": "economy",
+    "question": "Monopsony बाजार में किसका प्रभुत्व होता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "एक विक्रेता"
+      },
+      {
+        "id": "B",
+        "text": "एक खरीदार"
+      },
+      {
+        "id": "C",
+        "text": "दो विक्रेता"
+      },
+      {
+        "id": "D",
+        "text": "असंख्य खरीदार"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "market-structures",
+    "difficulty": "easy",
+    "explanation": "Monopsony में एक प्रमुख खरीदार और अनेक विक्रेता हो सकते हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_112",
+    "subjectId": "economy",
+    "question": "₹10 के नोट के पीछे कौन-सा स्मारक दिखाया गया है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सांची स्तूप"
+      },
+      {
+        "id": "B",
+        "text": "कोणार्क सूर्य मंदिर"
+      },
+      {
+        "id": "C",
+        "text": "लाल किला"
+      },
+      {
+        "id": "D",
+        "text": "हम्पी"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "currency-notes-monuments",
+    "difficulty": "easy",
+    "explanation": "PDF के चार्ट में ₹10 के नोट के साथ कोणार्क सूर्य मंदिर दिया गया है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_113",
+    "subjectId": "economy",
+    "question": "₹20 के नोट के पीछे कौन-सा स्मारक है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "एलोरा गुफाएँ"
+      },
+      {
+        "id": "B",
+        "text": "रानी की वाव"
+      },
+      {
+        "id": "C",
+        "text": "सांची स्तूप"
+      },
+      {
+        "id": "D",
+        "text": "बृहदेश्वर मंदिर"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "currency-notes-monuments",
+    "difficulty": "easy",
+    "explanation": "PDF के अनुसार ₹20 के नोट पर एलोरा गुफाएँ दर्शाई गई हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_114",
+    "subjectId": "economy",
+    "question": "₹50 के नोट के पीछे कौन-सा स्मारक है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "लाल किला"
+      },
+      {
+        "id": "B",
+        "text": "हम्पी स्मारक"
+      },
+      {
+        "id": "C",
+        "text": "कोणार्क मंदिर"
+      },
+      {
+        "id": "D",
+        "text": "रानी की वाव"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "currency-notes-monuments",
+    "difficulty": "easy",
+    "explanation": "₹50 के नोट पर हम्पी स्मारक (कर्नाटक) दिया गया है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_115",
+    "subjectId": "economy",
+    "question": "₹100 के नोट के पीछे किस स्मारक का चित्र है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सांची स्तूप"
+      },
+      {
+        "id": "B",
+        "text": "रानी की वाव"
+      },
+      {
+        "id": "C",
+        "text": "एलोरा गुफाएँ"
+      },
+      {
+        "id": "D",
+        "text": "बृहदेश्वर मंदिर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "currency-notes-monuments",
+    "difficulty": "easy",
+    "explanation": "PDF में ₹100 के नोट के साथ रानी की वाव का उल्लेख है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_116",
+    "subjectId": "economy",
+    "question": "₹200 के नोट के पीछे कौन-सा स्मारक है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सांची स्तूप"
+      },
+      {
+        "id": "B",
+        "text": "लाल किला"
+      },
+      {
+        "id": "C",
+        "text": "हम्पी"
+      },
+      {
+        "id": "D",
+        "text": "कोणार्क मंदिर"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "currency-notes-monuments",
+    "difficulty": "easy",
+    "explanation": "₹200 के नोट पर सांची स्तूप दर्शाया गया है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_117",
+    "subjectId": "economy",
+    "question": "₹500 के नोट के पीछे कौन-सा स्मारक है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "रानी की वाव"
+      },
+      {
+        "id": "B",
+        "text": "लाल किला"
+      },
+      {
+        "id": "C",
+        "text": "एलोरा गुफाएँ"
+      },
+      {
+        "id": "D",
+        "text": "बृहदेश्वर मंदिर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "currency-notes-monuments",
+    "difficulty": "easy",
+    "explanation": "PDF के अनुसार ₹500 के नोट पर लाल किला है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_118",
+    "subjectId": "economy",
+    "question": "प्रत्यक्ष कर किस पर लगाया जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "वस्तुओं के उपभोग पर"
+      },
+      {
+        "id": "B",
+        "text": "व्यक्ति/संस्था की आय या संपत्ति पर"
+      },
+      {
+        "id": "C",
+        "text": "केवल आयात पर"
+      },
+      {
+        "id": "D",
+        "text": "केवल बिक्री पर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "taxation",
+    "difficulty": "easy",
+    "explanation": "प्रत्यक्ष कर सीधे व्यक्ति या संस्था की आय/संपत्ति पर लगाया जाता है। उदाहरण: Income Tax, Corporate Tax और Wealth Tax।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_119",
+    "subjectId": "economy",
+    "question": "निम्न में से कौन अप्रत्यक्ष कर है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "आयकर"
+      },
+      {
+        "id": "B",
+        "text": "कॉर्पोरेट कर"
+      },
+      {
+        "id": "C",
+        "text": "संपत्ति कर"
+      },
+      {
+        "id": "D",
+        "text": "GST"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "taxation",
+    "difficulty": "easy",
+    "explanation": "GST अप्रत्यक्ष कर है। PDF में Customs, Excise और Service Tax भी उदाहरण हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_120",
+    "subjectId": "economy",
+    "question": "Income Tax Act किस वर्ष का है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1956"
+      },
+      {
+        "id": "B",
+        "text": "1961"
+      },
+      {
+        "id": "C",
+        "text": "1975"
+      },
+      {
+        "id": "D",
+        "text": "2003"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "taxation",
+    "difficulty": "medium",
+    "explanation": "PDF में Income Tax के साथ Income Tax Act, 1961 का उल्लेख है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_121",
+    "subjectId": "economy",
+    "question": "Progressive Tax में आय बढ़ने पर कर दर सामान्यतः कैसी होती है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "घटती"
+      },
+      {
+        "id": "B",
+        "text": "बढ़ती"
+      },
+      {
+        "id": "C",
+        "text": "स्थिर"
+      },
+      {
+        "id": "D",
+        "text": "शून्य"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "methods-of-taxation",
+    "difficulty": "easy",
+    "explanation": "प्रगतिशील कराधान में आय बढ़ने पर कर दर/औसत कर भार बढ़ता है; PDF इसे Ability to Pay से जोड़ता है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_122",
+    "subjectId": "economy",
+    "question": "Regressive Tax की विशेषता क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अधिक आय पर अनुपात में अधिक भार"
+      },
+      {
+        "id": "B",
+        "text": "कम आय वालों पर आय के अनुपात में अधिक भार"
+      },
+      {
+        "id": "C",
+        "text": "सभी आय पर समान दर"
+      },
+      {
+        "id": "D",
+        "text": "केवल कंपनियों पर कर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "methods-of-taxation",
+    "difficulty": "medium",
+    "explanation": "प्रतिगामी कर में कम आय वालों पर आय के अनुपात में अपेक्षाकृत अधिक भार पड़ सकता है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_123",
+    "subjectId": "economy",
+    "question": "Proportional Tax को किस नाम से भी जाना जाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Progressive Tax"
+      },
+      {
+        "id": "B",
+        "text": "Regressive Tax"
+      },
+      {
+        "id": "C",
+        "text": "Flat Tax System"
+      },
+      {
+        "id": "D",
+        "text": "Indirect Tax"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "methods-of-taxation",
+    "difficulty": "easy",
+    "explanation": "आनुपातिक कर को Flat Tax System कहते हैं क्योंकि सभी आय स्तरों पर समान कर दर रहती है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_124",
+    "subjectId": "economy",
+    "question": "GST का पूरा नाम क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "General Sales Tax"
+      },
+      {
+        "id": "B",
+        "text": "Goods and Services Tax"
+      },
+      {
+        "id": "C",
+        "text": "Government Service Tariff"
+      },
+      {
+        "id": "D",
+        "text": "Goods Supply Tariff"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "gst",
+    "difficulty": "easy",
+    "explanation": "GST का पूरा नाम Goods and Services Tax है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_125",
+    "subjectId": "economy",
+    "question": "भारत में GST कब लागू हुआ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "29 मार्च 2017"
+      },
+      {
+        "id": "B",
+        "text": "1 जुलाई 2017"
+      },
+      {
+        "id": "C",
+        "text": "1 अप्रैल 2016"
+      },
+      {
+        "id": "D",
+        "text": "1 जनवरी 2015"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "gst",
+    "difficulty": "easy",
+    "explanation": "GST भारत में 1 जुलाई 2017 को लागू हुआ।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_126",
+    "subjectId": "economy",
+    "question": "GST से संबंधित संवैधानिक संशोधन कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "100वाँ"
+      },
+      {
+        "id": "B",
+        "text": "101वाँ"
+      },
+      {
+        "id": "C",
+        "text": "102वाँ"
+      },
+      {
+        "id": "D",
+        "text": "103वाँ"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "gst",
+    "difficulty": "medium",
+    "explanation": "GST लागू करने के लिए संविधान का 101वाँ संशोधन किया गया।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_127",
+    "subjectId": "economy",
+    "question": "GST सुधार के संदर्भ में PDF में किस समिति का उल्लेख है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "गाडगिल"
+      },
+      {
+        "id": "B",
+        "text": "केलकर"
+      },
+      {
+        "id": "C",
+        "text": "करवे"
+      },
+      {
+        "id": "D",
+        "text": "शिवरामन"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "gst",
+    "difficulty": "medium",
+    "explanation": "PDF में GST के संदर्भ में Kelkar Committee (2004) का उल्लेख है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_128",
+    "subjectId": "economy",
+    "question": "GST का आदर्श वाक्य क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सबका साथ सबका विकास"
+      },
+      {
+        "id": "B",
+        "text": "One Nation, One Market, One Tax"
+      },
+      {
+        "id": "C",
+        "text": "Make in India"
+      },
+      {
+        "id": "D",
+        "text": "Digital India"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "gst",
+    "difficulty": "easy",
+    "explanation": "PDF में GST का Motto One Nation, One Market, One Tax दिया गया है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_129",
+    "subjectId": "economy",
+    "question": "GST के संबंध में सही कथन चुनिए: 1. यह अप्रत्यक्ष कर है। 2. 1 जुलाई 2017 को लागू हुआ। 3. 101वें संशोधन से जुड़ा है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "केवल 1 और 2"
+      },
+      {
+        "id": "B",
+        "text": "केवल 2 और 3"
+      },
+      {
+        "id": "C",
+        "text": "केवल 1 और 3"
+      },
+      {
+        "id": "D",
+        "text": "सभी सही"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "gst",
+    "difficulty": "hard",
+    "explanation": "तीनों कथन सही हैं। GST अप्रत्यक्ष कर है, 1 जुलाई 2017 को लागू हुआ और 101वें संविधान संशोधन से जुड़ा है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_130",
+    "subjectId": "economy",
+    "question": "किस बाजार संरचना में एक खरीदार और अनेक विक्रेता होते हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Monopoly"
+      },
+      {
+        "id": "B",
+        "text": "Monopsony"
+      },
+      {
+        "id": "C",
+        "text": "Duopoly"
+      },
+      {
+        "id": "D",
+        "text": "Oligopoly"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "market-structures",
+    "difficulty": "medium",
+    "explanation": "Monopsony में एक प्रमुख खरीदार बाजार पर प्रभुत्व रखता है; Monopoly में एक विक्रेता होता है।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_131",
+    "subjectId": "economy",
+    "question": "कौन-सा कर और वर्गीकरण सही है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Income Tax–अप्रत्यक्ष"
+      },
+      {
+        "id": "B",
+        "text": "GST–प्रत्यक्ष"
+      },
+      {
+        "id": "C",
+        "text": "Corporate Tax–प्रत्यक्ष"
+      },
+      {
+        "id": "D",
+        "text": "Customs Duty–प्रत्यक्ष"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "taxation",
+    "difficulty": "medium",
+    "explanation": "Corporate Tax कंपनी की आय/लाभ पर लगाया जाता है, इसलिए प्रत्यक्ष कर है। GST और Customs Duty अप्रत्यक्ष कर हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "eco002_132",
+    "subjectId": "economy",
+    "question": "निम्नलिखित में कौन-सा क्रांति और क्षेत्र का गलत मिलान है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "White–Milk"
+      },
+      {
+        "id": "B",
+        "text": "Blue–Fisheries"
+      },
+      {
+        "id": "C",
+        "text": "Yellow–Oilseeds"
+      },
+      {
+        "id": "D",
+        "text": "Pink–Wheat"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "revolutions-in-india",
+    "difficulty": "medium",
+    "explanation": "PDF में Pink Revolution को Prawn/Meat से जोड़ा गया है, गेहूँ से नहीं।",
+    "language": "hi"
+  }
+]

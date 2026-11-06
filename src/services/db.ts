@@ -1,4 +1,5 @@
-import type { SavedSessionRecord } from '../types/savedSession';
+import type { SavedSessionRecord, ArchivedSessionRecord } from '../types/savedSession';
+import type { AuthorFolder, AuthorFile, AuthorFileContent, AuthorImportRecord, AuthorMetaRecord } from '../types/authorStudio';
 import { openDB, DBSchema, IDBPDatabase } from 'idb';
 import { v4 as uuidv4 } from 'uuid';
 import type { SavedTest, Statistics, Settings, WrongQuestion, BookmarkedQuestion, MarkedReviewQuestion, ChapterStats, DailyGoal, NotificationSettings, NotificationCategorySettings, Highlight, ReadingProgress, ReaderNote, ReadingPrefs, AiSummaryCacheEntry } from '../types';
@@ -167,14 +168,45 @@ interface AppDB extends DBSchema {
     value: SavedSessionRecord;
     indexes: { 'by-lastActiveAt': number };
   };
+  /** Sessions closed with ✕: kept for history, never resumable. */
+  archivedSessions: {
+    key: string;
+    value: ArchivedSessionRecord;
+    indexes: { 'by-archivedAt': number };
+  };
+  // ── Author Studio (private, local-only; never read by the public question pipeline) ──
+  authorFolders: {
+    key: string;
+    value: AuthorFolder;
+    indexes: { 'by-parentId': string; 'by-deletedAt': number };
+  };
+  authorFiles: {
+    key: string;
+    value: AuthorFile;
+    indexes: { 'by-folderId': string; 'by-deletedAt': number };
+  };
+  authorContent: {
+    key: string;
+    value: AuthorFileContent;
+  };
+  authorImports: {
+    key: string;
+    value: AuthorImportRecord;
+    indexes: { 'by-at': number };
+  };
+  authorMeta: {
+    key: string;
+    value: AuthorMetaRecord;
+  };
 }
 
 const DB_NAME = 'CurrentAffairsDB';
-const DB_VERSION = 11;
+const DB_VERSION = 12;
 
 let dbInstance: IDBPDatabase<AppDB> | null = null;
 
-async function getDB(): Promise<IDBPDatabase<AppDB>> {
+export type { AppDB };
+export async function getDB(): Promise<IDBPDatabase<AppDB>> {
   if (dbInstance) return dbInstance;
   dbInstance = await openDB<AppDB>(DB_NAME, DB_VERSION, {
     upgrade(db, oldVersion) {
@@ -240,6 +272,35 @@ async function getDB(): Promise<IDBPDatabase<AppDB>> {
         // Additive: parked unfinished sessions. No existing store or record is touched.
         const ssStore = db.createObjectStore('savedSessions', { keyPath: 'id' });
         ssStore.createIndex('by-lastActiveAt', 'lastActiveAt');
+      }
+      if (oldVersion < 12) {
+        // Additive: archived (✕-closed) sessions + the private Author Studio stores.
+        // Guarded with contains() so re-running the upgrade is harmless (idempotent).
+        if (!db.objectStoreNames.contains('archivedSessions')) {
+          const arch = db.createObjectStore('archivedSessions', { keyPath: 'id' });
+          arch.createIndex('by-archivedAt', 'archivedAt');
+        }
+        if (!db.objectStoreNames.contains('authorFolders')) {
+          const f = db.createObjectStore('authorFolders', { keyPath: 'id' });
+          // IndexedDB cannot index null, so the index runs on parentKey (= parentId ?? ''), maintained by authorDb.
+          f.createIndex('by-parentId', 'parentKey');
+          f.createIndex('by-deletedAt', 'deletedAt');
+        }
+        if (!db.objectStoreNames.contains('authorFiles')) {
+          const f = db.createObjectStore('authorFiles', { keyPath: 'id' });
+          f.createIndex('by-folderId', 'folderKey');
+          f.createIndex('by-deletedAt', 'deletedAt');
+        }
+        if (!db.objectStoreNames.contains('authorContent')) {
+          db.createObjectStore('authorContent', { keyPath: 'id' });
+        }
+        if (!db.objectStoreNames.contains('authorImports')) {
+          const i = db.createObjectStore('authorImports', { keyPath: 'id' });
+          i.createIndex('by-at', 'at');
+        }
+        if (!db.objectStoreNames.contains('authorMeta')) {
+          db.createObjectStore('authorMeta', { keyPath: 'key' });
+        }
       }
     },
   });
@@ -1081,5 +1142,21 @@ export const savedSessionsDB = {
   async delete(id: string): Promise<void> {
     const db = await getDB();
     await db.delete('savedSessions', id);
+  },
+};
+
+export const archivedSessionsDB = {
+  async put(record: ArchivedSessionRecord): Promise<void> {
+    const db = await getDB();
+    await db.put('archivedSessions', record);
+  },
+  async get(id: string): Promise<ArchivedSessionRecord | undefined> {
+    const db = await getDB();
+    return db.get('archivedSessions', id);
+  },
+  async getAll(): Promise<ArchivedSessionRecord[]> {
+    const db = await getDB();
+    const all = await db.getAll('archivedSessions');
+    return all.sort((a, b) => b.archivedAt - a.archivedAt);
   },
 };

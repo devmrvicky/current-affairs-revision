@@ -1,0 +1,814 @@
+[
+  {
+    "id": "ows001",
+    "subjectId": "english",
+    "question": "The art or process of writing or engraving on wax, or preparing a printing surface on a waxed plate, is ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cerography"
+      },
+      {
+        "id": "B",
+        "text": "Lithography"
+      },
+      {
+        "id": "C",
+        "text": "Stenography"
+      },
+      {
+        "id": "D",
+        "text": "Calligraphy"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Cerography — मोम पर लिखने या नक्काशी करने की कला. हिंदी अर्थ: मोम पर लिखने या नक्काशी करने की कला। Word Tone: Neutral. Example: The museum displayed an old tablet made using cerography. हिंदी अनुवाद: संग्रहालय में मोम पर लेखन की विधि से बनी एक पुरानी पट्टिका प्रदर्शित की गई। अन्य विकल्प: B. Lithography — पत्थर पर छपाई की कला; C. Stenography — आशुलिपि; D. Calligraphy — सुंदर लिखावट की कला.",
+    "language": "en"
+  },
+  {
+    "id": "ows002",
+    "subjectId": "english",
+    "question": "The place where two or more rivers or streams meet and flow together is their ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Estuary"
+      },
+      {
+        "id": "B",
+        "text": "Confluence"
+      },
+      {
+        "id": "C",
+        "text": "Delta"
+      },
+      {
+        "id": "D",
+        "text": "Tributary"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Confluence — संगम; दो या अधिक नदियों का मिलने का स्थान. हिंदी अर्थ: संगम; दो या अधिक नदियों का मिलने का स्थान। Word Tone: Neutral. Example: The town developed near the confluence of two rivers. हिंदी अनुवाद: दो नदियों के संगम के पास नगर का विकास हुआ। अन्य विकल्प: A. Estuary — नदी का ज्वार-प्रभावित मुहाना; C. Delta — नदी के मुहाने पर बना त्रिभुजाकार क्षेत्र; D. Tributary — सहायक नदी.",
+    "language": "en"
+  },
+  {
+    "id": "ows003",
+    "subjectId": "english",
+    "question": "A private meeting of members or supporters of a political party to discuss policy or choose candidates is a ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Referendum"
+      },
+      {
+        "id": "B",
+        "text": "Caucus"
+      },
+      {
+        "id": "C",
+        "text": "Parliament"
+      },
+      {
+        "id": "D",
+        "text": "Plebiscite"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Caucus — राजनीतिक दल के सदस्यों की बंद बैठक. हिंदी अर्थ: राजनीतिक दल के सदस्यों की बंद बैठक। Word Tone: Neutral. Example: The party held a caucus to select its candidate. हिंदी अनुवाद: दल ने अपना उम्मीदवार चुनने के लिए एक बंद बैठक की। अन्य विकल्प: A. Referendum — जनमत-संग्रह; C. Parliament — संसद; D. Plebiscite — लोकमत-संग्रह.",
+    "language": "en"
+  },
+  {
+    "id": "ows004",
+    "subjectId": "english",
+    "question": "A large, tightly bound package of goods such as cotton, hay, or wool is a ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bale"
+      },
+      {
+        "id": "B",
+        "text": "Crate"
+      },
+      {
+        "id": "C",
+        "text": "Sack"
+      },
+      {
+        "id": "D",
+        "text": "Bundle"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Bale — गठरी या गट्ठर; कसकर बाँधा गया बड़ा बंडल. हिंदी अर्थ: गठरी या गट्ठर; कसकर बाँधा गया बड़ा बंडल। Word Tone: Neutral. Example: The workers loaded each bale of cotton onto the truck. हिंदी अनुवाद: मज़दूरों ने कपास की प्रत्येक गठरी ट्रक पर लाद दी। अन्य विकल्प: B. Crate — लकड़ी का बक्सा; C. Sack — बोरी; D. Bundle — छोटा बंडल या पुलिंदा.",
+    "language": "en"
+  },
+  {
+    "id": "ows005",
+    "subjectId": "english",
+    "question": "A large outdoor fire made for celebration, warmth, or the burning of waste is a ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bonfire"
+      },
+      {
+        "id": "B",
+        "text": "Candle"
+      },
+      {
+        "id": "C",
+        "text": "Furnace"
+      },
+      {
+        "id": "D",
+        "text": "Ember"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Bonfire — अलाव; खुले स्थान पर जलाई गई बड़ी आग. हिंदी अर्थ: अलाव; खुले स्थान पर जलाई गई बड़ी आग। Word Tone: Neutral. Example: The villagers gathered around the bonfire on the cold night. हिंदी अनुवाद: ठंडी रात में गाँव वाले अलाव के चारों ओर इकट्ठा हुए। अन्य विकल्प: B. Candle — मोमबत्ती; C. Furnace — भट्ठी; D. Ember — अंगारा.",
+    "language": "en"
+  },
+  {
+    "id": "ows006",
+    "subjectId": "english",
+    "question": "To accept, overlook, or allow behaviour that is considered wrong is to ______ it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rectify"
+      },
+      {
+        "id": "B",
+        "text": "Condemn"
+      },
+      {
+        "id": "C",
+        "text": "Prohibit"
+      },
+      {
+        "id": "D",
+        "text": "Condone"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Condone — अनदेखा करके स्वीकार करना; गलत व्यवहार को सहन करना. हिंदी अर्थ: अनदेखा करके स्वीकार करना; गलत व्यवहार को सहन करना। Word Tone: Negative. Example: The school will not condone bullying under any circumstances. हिंदी अनुवाद: विद्यालय किसी भी परिस्थिति में धमकाने या उत्पीड़न को बर्दाश्त नहीं करेगा। अन्य विकल्प: A. Rectify — सुधारना; B. Condemn — निंदा करना; C. Prohibit — प्रतिबंधित करना.",
+    "language": "en"
+  },
+  {
+    "id": "ows007",
+    "subjectId": "english",
+    "question": "To officially seize someone's property, usually as a penalty or by legal authority, is to ______ it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Confiscate"
+      },
+      {
+        "id": "B",
+        "text": "Reimburse"
+      },
+      {
+        "id": "C",
+        "text": "Bequeath"
+      },
+      {
+        "id": "D",
+        "text": "Exempt"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Confiscate — ज़ब्त करना; कानूनी अधिकार से संपत्ति अपने कब्ज़े में लेना. हिंदी अर्थ: ज़ब्त करना; कानूनी अधिकार से संपत्ति अपने कब्ज़े में लेना। Word Tone: Negative. Example: The customs officers confiscated the undeclared goods. हिंदी अनुवाद: सीमा-शुल्क अधिकारियों ने अघोषित सामान ज़ब्त कर लिया। अन्य विकल्प: B. Reimburse — क्षतिपूर्ति करना; C. Bequeath — वसीयत में देना; D. Exempt — छूट देना.",
+    "language": "en"
+  },
+  {
+    "id": "ows008",
+    "subjectId": "english",
+    "question": "A room in a public building where visitors can temporarily leave their coats, bags, or other belongings is a ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pantry"
+      },
+      {
+        "id": "B",
+        "text": "Cellar"
+      },
+      {
+        "id": "C",
+        "text": "Cloakroom"
+      },
+      {
+        "id": "D",
+        "text": "Cloister"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Cloakroom — सामान या कोट रखने का कमरा; वस्त्र-भंडार. हिंदी अर्थ: सामान या कोट रखने का कमरा; वस्त्र-भंडार। Word Tone: Neutral. Example: We left our coats in the cloakroom before entering the theatre. हिंदी अनुवाद: थिएटर में जाने से पहले हमने अपने कोट सामान रखने वाले कमरे में जमा कर दिए। अन्य विकल्प: A. Pantry — भोजन-सामग्री रखने का कमरा; B. Cellar — तहखाना; D. Cloister — मठ का ढका हुआ गलियारा.",
+    "language": "en"
+  },
+  {
+    "id": "ows009",
+    "subjectId": "english",
+    "question": "A strong fondness for or love of dogs is known as ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cynophobia"
+      },
+      {
+        "id": "B",
+        "text": "Ailurophilia"
+      },
+      {
+        "id": "C",
+        "text": "Zoophobia"
+      },
+      {
+        "id": "D",
+        "text": "Canophilia"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Canophilia — कुत्तों के प्रति प्रेम या लगाव. हिंदी अर्थ: कुत्तों के प्रति प्रेम या लगाव। Word Tone: Positive. Example: Her canophilia was clear from the care she gave every rescued dog. हिंदी अनुवाद: बचाए गए प्रत्येक कुत्ते की देखभाल से कुत्तों के प्रति उसका प्रेम स्पष्ट था। अन्य विकल्प: A. Cynophobia — कुत्तों का डर; B. Ailurophilia — बिल्लियों के प्रति प्रेम; C. Zoophobia — जानवरों का डर.",
+    "language": "en"
+  },
+  {
+    "id": "ows010",
+    "subjectId": "english",
+    "question": "Using language that sounds grand and impressive but is actually pompous or excessively inflated is ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lucid"
+      },
+      {
+        "id": "B",
+        "text": "Bombastic"
+      },
+      {
+        "id": "C",
+        "text": "Concise"
+      },
+      {
+        "id": "D",
+        "text": "Taciturn"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Bombastic — आडंबरपूर्ण; बढ़ा-चढ़ाकर और भारी-भरकम भाषा का प्रयोग. हिंदी अर्थ: आडंबरपूर्ण; बढ़ा-चढ़ाकर और भारी-भरकम भाषा का प्रयोग। Word Tone: Negative. Example: His bombastic speech contained very little practical advice. हिंदी अनुवाद: उसके आडंबरपूर्ण भाषण में व्यावहारिक सलाह बहुत कम थी। अन्य विकल्प: A. Lucid — स्पष्ट और सुबोध; C. Concise — संक्षिप्त; D. Taciturn — कम बोलने वाला.",
+    "language": "en"
+  },
+  {
+    "id": "ows011",
+    "subjectId": "english",
+    "question": "An intense or irrational fear of dogs is known as ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cynophobia"
+      },
+      {
+        "id": "B",
+        "text": "Acrophobia"
+      },
+      {
+        "id": "C",
+        "text": "Canophilia"
+      },
+      {
+        "id": "D",
+        "text": "Arachnophobia"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Cynophobia — कुत्तों का असामान्य या तीव्र भय. हिंदी अर्थ: कुत्तों का असामान्य या तीव्र भय। Word Tone: Negative. Example: Because of her cynophobia, she avoids streets where stray dogs gather. हिंदी अनुवाद: कुत्तों के तीव्र भय के कारण वह उन गलियों से बचती है जहाँ आवारा कुत्ते इकट्ठा होते हैं। अन्य विकल्प: B. Acrophobia — ऊँचाई का भय; C. Canophilia — कुत्तों के प्रति प्रेम; D. Arachnophobia — मकड़ियों का भय.",
+    "language": "en"
+  },
+  {
+    "id": "ows012",
+    "subjectId": "english",
+    "question": "A pleasant shady place, usually made by trees or climbing plants, is a ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arbour"
+      },
+      {
+        "id": "B",
+        "text": "Bower"
+      },
+      {
+        "id": "C",
+        "text": "Citadel"
+      },
+      {
+        "id": "D",
+        "text": "Cellar"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Bower — लताओं या पेड़ों से बना छायादार कुंज. हिंदी अर्थ: लताओं या पेड़ों से बना छायादार कुंज। Word Tone: Positive. Example: They rested in a leafy bower beside the garden path. हिंदी अनुवाद: वे बगीचे के रास्ते के पास पत्तों से बने छायादार कुंज में आराम करने लगे। अन्य विकल्प: A. Arbour — लताओं से बना छायादार मंडप; C. Citadel — दुर्ग; D. Cellar — तहखाना.",
+    "language": "en"
+  },
+  {
+    "id": "ows013",
+    "subjectId": "english",
+    "question": "A person who studies, collects, or deals in rare and valuable old objects is an ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Antiquarian"
+      },
+      {
+        "id": "B",
+        "text": "Numismatist"
+      },
+      {
+        "id": "C",
+        "text": "Librarian"
+      },
+      {
+        "id": "D",
+        "text": "Archaeologist"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Antiquarian — प्राचीन वस्तुओं का अध्येता या संग्रहकर्ता. हिंदी अर्थ: प्राचीन वस्तुओं का अध्येता या संग्रहकर्ता। Word Tone: Neutral. Example: The antiquarian examined the rare coins with great care. हिंदी अनुवाद: प्राचीन वस्तुओं के संग्रहकर्ता ने दुर्लभ सिक्कों की बहुत सावधानी से जाँच की। अन्य विकल्प: B. Numismatist — सिक्कों का विशेषज्ञ; C. Librarian — पुस्तकालयाध्यक्ष; D. Archaeologist — पुरातत्त्ववेत्ता.",
+    "language": "en"
+  },
+  {
+    "id": "ows014",
+    "subjectId": "english",
+    "question": "A person who introduces performers and keeps a programme or show moving is a ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Compere"
+      },
+      {
+        "id": "B",
+        "text": "Spectator"
+      },
+      {
+        "id": "C",
+        "text": "Prompter"
+      },
+      {
+        "id": "D",
+        "text": "Critic"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Compere — कार्यक्रम-संचालक; मंच से कलाकारों का परिचय कराने वाला. हिंदी अर्थ: कार्यक्रम-संचालक; मंच से कलाकारों का परिचय कराने वाला। Word Tone: Neutral. Example: The compere welcomed the guests and introduced the performers. हिंदी अनुवाद: कार्यक्रम-संचालक ने अतिथियों का स्वागत किया और कलाकारों का परिचय कराया। अन्य विकल्प: B. Spectator — दर्शक; C. Prompter — संकेत देने वाला व्यक्ति; D. Critic — आलोचक.",
+    "language": "en"
+  },
+  {
+    "id": "ows015",
+    "subjectId": "english",
+    "question": "A deep-seated feeling of strong dislike or aversion towards someone or something is ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Empathy"
+      },
+      {
+        "id": "B",
+        "text": "Affinity"
+      },
+      {
+        "id": "C",
+        "text": "Apathy"
+      },
+      {
+        "id": "D",
+        "text": "Antipathy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Antipathy — तीव्र अरुचि; गहरी नापसंदगी या विरोध. हिंदी अर्थ: तीव्र अरुचि; गहरी नापसंदगी या विरोध। Word Tone: Negative. Example: She felt an immediate antipathy towards his arrogant manner. हिंदी अनुवाद: उसे उसके घमंडी व्यवहार के प्रति तुरंत गहरी नापसंदगी महसूस हुई। अन्य विकल्प: A. Empathy — सहानुभूति; B. Affinity — लगाव या स्वाभाविक आकर्षण; C. Apathy — उदासीनता.",
+    "language": "en"
+  },
+  {
+    "id": "ows016",
+    "subjectId": "english",
+    "question": "A person who is extremely skilled or a performance that is perfectly executed may be described as ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Consummate"
+      },
+      {
+        "id": "B",
+        "text": "Mediocre"
+      },
+      {
+        "id": "C",
+        "text": "Amateurish"
+      },
+      {
+        "id": "D",
+        "text": "Incompetent"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Consummate — निपुण; पूर्ण दक्षता वाला या उत्कृष्ट. हिंदी अर्थ: निपुण; पूर्ण दक्षता वाला या उत्कृष्ट। Word Tone: Positive. Example: She handled the difficult negotiation with consummate skill. हिंदी अनुवाद: उसने कठिन बातचीत को असाधारण निपुणता से संभाला। अन्य विकल्प: B. Mediocre — औसत दर्जे का; C. Amateurish — अनाड़ीपन भरा; D. Incompetent — अयोग्य.",
+    "language": "en"
+  },
+  {
+    "id": "ows017",
+    "subjectId": "english",
+    "question": "The group of customers or clients who regularly use a business or professional service is its ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Suppliers"
+      },
+      {
+        "id": "B",
+        "text": "Competitors"
+      },
+      {
+        "id": "C",
+        "text": "Clientele"
+      },
+      {
+        "id": "D",
+        "text": "Staff"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Clientele — ग्राहक-वर्ग; किसी व्यवसाय के नियमित ग्राहक. हिंदी अर्थ: ग्राहक-वर्ग; किसी व्यवसाय के नियमित ग्राहक। Word Tone: Neutral. Example: The boutique has a loyal clientele. हिंदी अनुवाद: उस बुटीक के नियमित और वफादार ग्राहक हैं। अन्य विकल्प: A. Suppliers — आपूर्तिकर्ता; B. Competitors — प्रतिस्पर्धी; D. Staff — कर्मचारी-वर्ग.",
+    "language": "en"
+  },
+  {
+    "id": "ows018",
+    "subjectId": "english",
+    "question": "A feeling of distress, embarrassment, or annoyance caused by failure or disappointment is ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Serenity"
+      },
+      {
+        "id": "B",
+        "text": "Chagrin"
+      },
+      {
+        "id": "C",
+        "text": "Elation"
+      },
+      {
+        "id": "D",
+        "text": "Euphoria"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Chagrin — खिन्नता; असफलता या अपमान से हुई निराशा. हिंदी अर्थ: खिन्नता; असफलता या अपमान से हुई निराशा। Word Tone: Negative. Example: Much to his chagrin, he was left out of the final team. हिंदी अनुवाद: उसकी बहुत खिन्नता हुई जब उसे अंतिम टीम में शामिल नहीं किया गया। अन्य विकल्प: A. Serenity — शांति; C. Elation — अत्यधिक खुशी; D. Euphoria — उल्लास.",
+    "language": "en"
+  },
+  {
+    "id": "ows019",
+    "subjectId": "english",
+    "question": "A person who is habitually poor at spelling or handwriting is a ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Biographer"
+      },
+      {
+        "id": "B",
+        "text": "Cartographer"
+      },
+      {
+        "id": "C",
+        "text": "Cacographer"
+      },
+      {
+        "id": "D",
+        "text": "Calligrapher"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Cacographer — अशुद्ध वर्तनी लिखने या खराब लिखावट वाला व्यक्ति. हिंदी अर्थ: अशुद्ध वर्तनी लिखने या खराब लिखावट वाला व्यक्ति। Word Tone: Negative. Example: The teacher helped the cacographer improve his spelling. हिंदी अनुवाद: शिक्षक ने खराब वर्तनी लिखने वाले विद्यार्थी की spelling सुधारने में मदद की। अन्य विकल्प: A. Biographer — जीवनी-लेखक; B. Cartographer — मानचित्रकार; D. Calligrapher — सुंदर लिखावट लिखने वाला.",
+    "language": "en"
+  },
+  {
+    "id": "ows020",
+    "subjectId": "english",
+    "question": "The overall atmosphere or mood of a place, created by its surroundings, lighting, and sound, is its ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Clientele"
+      },
+      {
+        "id": "B",
+        "text": "Ambience"
+      },
+      {
+        "id": "C",
+        "text": "Boulevard"
+      },
+      {
+        "id": "D",
+        "text": "Cuisine"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Ambience — वातावरण; किसी स्थान का समग्र माहौल. हिंदी अर्थ: वातावरण; किसी स्थान का समग्र माहौल। Word Tone: Neutral. Example: Soft music and warm lighting gave the restaurant a pleasant ambience. हिंदी अनुवाद: हल्के संगीत और गर्म रोशनी ने रेस्तराँ का वातावरण सुखद बना दिया। अन्य विकल्प: A. Clientele — ग्राहक-वर्ग; C. Boulevard — चौड़ी मुख्य सड़क; D. Cuisine — खाना पकाने की शैली.",
+    "language": "en"
+  },
+  {
+    "id": "ows021",
+    "subjectId": "english",
+    "question": "A person, traditionally often a woman, who has dark brown hair is described as a ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Blonde"
+      },
+      {
+        "id": "B",
+        "text": "Brunette"
+      },
+      {
+        "id": "C",
+        "text": "Albino"
+      },
+      {
+        "id": "D",
+        "text": "Redhead"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Brunette — भूरे या गहरे भूरे बालों वाला व्यक्ति/महिला. हिंदी अर्थ: भूरे या गहरे भूरे बालों वाला व्यक्ति/महिला। Word Tone: Neutral. Example: The brunette actress wore a blue dress at the event. हिंदी अनुवाद: भूरे बालों वाली अभिनेत्री ने कार्यक्रम में नीली पोशाक पहनी। अन्य विकल्प: A. Blonde — सुनहरे बालों वाला व्यक्ति; C. Albino — अल्पवर्णकता वाला व्यक्ति; D. Redhead — लाल या तांबे जैसे बालों वाला व्यक्ति.",
+    "language": "en"
+  },
+  {
+    "id": "ows022",
+    "subjectId": "english",
+    "question": "In folklore, a child believed to have been secretly left by fairies or spirits in place of a human child is a ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Heir"
+      },
+      {
+        "id": "B",
+        "text": "Changeling"
+      },
+      {
+        "id": "C",
+        "text": "Orphan"
+      },
+      {
+        "id": "D",
+        "text": "Foundling"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Changeling — लोककथा में परी या आत्मा द्वारा बदले में छोड़ा गया बच्चा. हिंदी अर्थ: लोककथा में परी या आत्मा द्वारा बदले में छोड़ा गया बच्चा। Word Tone: Neutral. Example: The old tale described the baby as a changeling. हिंदी अनुवाद: पुरानी लोककथा में उस शिशु को बदले में छोड़ा गया बच्चा बताया गया। अन्य विकल्प: A. Heir — उत्तराधिकारी; C. Orphan — अनाथ बच्चा; D. Foundling — लावारिस मिला बच्चा.",
+    "language": "en"
+  },
+  {
+    "id": "ows023",
+    "subjectId": "english",
+    "question": "A fortress or strong defensive building, usually protecting a city, is a ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Citadel"
+      },
+      {
+        "id": "B",
+        "text": "Boulevard"
+      },
+      {
+        "id": "C",
+        "text": "Hamlet"
+      },
+      {
+        "id": "D",
+        "text": "Manor"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Citadel — दुर्ग; नगर की रक्षा करने वाला मजबूत किला. हिंदी अर्थ: दुर्ग; नगर की रक्षा करने वाला मजबूत किला। Word Tone: Neutral. Example: The soldiers retreated to the citadel during the invasion. हिंदी अनुवाद: आक्रमण के दौरान सैनिक दुर्ग में पीछे हट गए। अन्य विकल्प: B. Boulevard — चौड़ी सड़क; C. Hamlet — छोटा गाँव; D. Manor — बड़ी जागीर या हवेली.",
+    "language": "en"
+  },
+  {
+    "id": "ows024",
+    "subjectId": "english",
+    "question": "A scene or event involving the large-scale killing of many people is described as ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Collision"
+      },
+      {
+        "id": "B",
+        "text": "Carnage"
+      },
+      {
+        "id": "C",
+        "text": "Truce"
+      },
+      {
+        "id": "D",
+        "text": "Skirmish"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Carnage — भीषण नरसंहार; बड़े पैमाने पर हत्या. हिंदी अर्थ: भीषण नरसंहार; बड़े पैमाने पर हत्या। Word Tone: Negative. Example: The battle left a scene of terrible carnage. हिंदी अनुवाद: युद्ध के बाद वहाँ भयानक नरसंहार का दृश्य था। अन्य विकल्प: A. Collision — टक्कर; C. Truce — युद्धविराम; D. Skirmish — छोटी झड़प.",
+    "language": "en"
+  },
+  {
+    "id": "ows025",
+    "subjectId": "english",
+    "question": "The dead body of an animal, especially one used for food or left after death, is a ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Skeleton"
+      },
+      {
+        "id": "B",
+        "text": "Caricature"
+      },
+      {
+        "id": "C",
+        "text": "Cadaver"
+      },
+      {
+        "id": "D",
+        "text": "Carcass"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Carcass — पशु का मृत शरीर या शव. हिंदी अर्थ: पशु का मृत शरीर या शव। Word Tone: Negative. Example: The vultures circled above the carcass in the field. हिंदी अनुवाद: खेत में पड़े पशु के शव के ऊपर गिद्ध मंडरा रहे थे। अन्य विकल्प: A. Skeleton — कंकाल; B. Caricature — व्यंग्यात्मक चित्र; C. Cadaver — मानव शव.",
+    "language": "en"
+  },
+  {
+    "id": "ows026",
+    "subjectId": "english",
+    "question": "A person who is rude, surly, or deliberately ill-mannered is described as ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Courteous"
+      },
+      {
+        "id": "B",
+        "text": "Genial"
+      },
+      {
+        "id": "C",
+        "text": "Churlish"
+      },
+      {
+        "id": "D",
+        "text": "Affable"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Churlish — असभ्य; रूखा और बदतमीज़. हिंदी अर्थ: असभ्य; रूखा और बदतमीज़। Word Tone: Negative. Example: His churlish reply offended the guests. हिंदी अनुवाद: उसके रूखे जवाब से मेहमानों को बुरा लगा। अन्य विकल्प: A. Courteous — विनम्र; B. Genial — मिलनसार; D. Affable — सौम्य और मिलनसार.",
+    "language": "en"
+  },
+  {
+    "id": "ows027",
+    "subjectId": "english",
+    "question": "To lie or relax in pleasant warmth, or to enjoy a favourable situation, is to ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scorch"
+      },
+      {
+        "id": "B",
+        "text": "Freeze"
+      },
+      {
+        "id": "C",
+        "text": "Bask"
+      },
+      {
+        "id": "D",
+        "text": "Shiver"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Bask — धूप या गर्माहट सेंकना; आनंद या प्रशंसा का सुख लेना. हिंदी अर्थ: धूप या गर्माहट सेंकना; आनंद या प्रशंसा का सुख लेना। Word Tone: Positive. Example: The cat basked in the morning sunshine. हिंदी अनुवाद: बिल्ली सुबह की धूप में आराम से बैठी रही। अन्य विकल्प: A. Scorch — झुलसाना; B. Freeze — जम जाना; D. Shiver — ठंड से काँपना.",
+    "language": "en"
+  },
+  {
+    "id": "ows028",
+    "subjectId": "english",
+    "question": "A violent impact in which two or more moving objects strike against each other is a ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Confluence"
+      },
+      {
+        "id": "B",
+        "text": "Convergence"
+      },
+      {
+        "id": "C",
+        "text": "Cooperation"
+      },
+      {
+        "id": "D",
+        "text": "Collision"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Collision — टक्कर; दो गतिशील वस्तुओं का आपस में भिड़ना. हिंदी अर्थ: टक्कर; दो गतिशील वस्तुओं का आपस में भिड़ना। Word Tone: Negative. Example: The collision between two buses blocked the highway. हिंदी अनुवाद: दो बसों की टक्कर से राजमार्ग अवरुद्ध हो गया। अन्य विकल्प: A. Confluence — नदियों का संगम; B. Convergence — एक बिंदु पर मिलना; C. Cooperation — सहयोग.",
+    "language": "en"
+  },
+  {
+    "id": "ows029",
+    "subjectId": "english",
+    "question": "A joyful religious song, especially one traditionally sung at Christmas, is a ______.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ballad"
+      },
+      {
+        "id": "B",
+        "text": "Dirge"
+      },
+      {
+        "id": "C",
+        "text": "Carol"
+      },
+      {
+        "id": "D",
+        "text": "Lament"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Correct answer: Carol — भजन या उत्सवी गीत; विशेषकर क्रिसमस का गीत. हिंदी अर्थ: भजन या उत्सवी गीत; विशेषकर क्रिसमस का गीत। Word Tone: Positive. Example: The children sang a Christmas carol outside the church. हिंदी अनुवाद: बच्चों ने चर्च के बाहर क्रिसमस का गीत गाया। अन्य विकल्प: A. Ballad — कथा-गीत; B. Dirge — शोकगीत; D. Lament — विलाप-गीत.",
+    "language": "en"
+  }
+]

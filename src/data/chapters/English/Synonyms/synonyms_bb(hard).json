@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "vocab001",
+    "subjectId": "english",
+    "question": "Hysterical",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lethargic"
+      },
+      {
+        "id": "B",
+        "text": "Placid"
+      },
+      {
+        "id": "C",
+        "text": "Stoical"
+      },
+      {
+        "id": "D",
+        "text": "Frenzied"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: overcome by uncontrolled, extreme emotion or excitement. Hindi meaning: अत्यधिक उत्तेजित; भावनाओं पर नियंत्रण खो बैठा हुआ. Word tone: Negative (नकारात्मक — अत्यधिक और अनियंत्रित भावनात्मक प्रतिक्रिया का भाव; संदर्भ के अनुसार ‘बहुत हास्यास्पद’ भी हो सकता है।)\nOption meanings:\nA. Lethargic — सुस्त; ऊर्जा-विहीन\nB. Placid — शांत; स्थिरचित्त\nC. Stoical — दर्द या कठिनाई को बिना शिकायत सहने वाला\nD. Frenzied — उन्मत्त; बेकाबू रूप से उत्तेजित (सही पर्यायवाची)",
+    "language": "en"
+  },
+  {
+    "id": "vocab002",
+    "subjectId": "english",
+    "question": "Flawed",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pristine"
+      },
+      {
+        "id": "B",
+        "text": "Defective"
+      },
+      {
+        "id": "C",
+        "text": "Coherent"
+      },
+      {
+        "id": "D",
+        "text": "Robust"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: having a defect, weakness, or imperfection. Hindi meaning: दोषपूर्ण; त्रुटिपूर्ण; जिसमें कमी हो. Word tone: Negative (नकारात्मक — किसी वस्तु, विचार या योजना में कमी या दोष दर्शाता है।)\nOption meanings:\nA. Pristine — बिल्कुल साफ़-सुथरा; मूल और दोषरहित अवस्था में\nB. Defective — दोषयुक्त; खराबी वाला (सही पर्यायवाची)\nC. Coherent — सुसंगत; तार्किक रूप से जुड़ा हुआ\nD. Robust — मज़बूत; सुदृढ़",
+    "language": "en"
+  },
+  {
+    "id": "vocab003",
+    "subjectId": "english",
+    "question": "Ignoble",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dishonourable"
+      },
+      {
+        "id": "B",
+        "text": "Eminent"
+      },
+      {
+        "id": "C",
+        "text": "Magnanimous"
+      },
+      {
+        "id": "D",
+        "text": "Scrupulous"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: not honorable in character or purpose; morally bad. Hindi meaning: नीच; अनैतिक; सम्मान या मर्यादा के विपरीत. Word tone: Negative (नकारात्मक — चरित्र या उद्देश्य की नैतिक हीनता बताता है।)\nOption meanings:\nA. Dishonourable — अपमानजनक; बेईमान या अनैतिक (सही पर्यायवाची)\nB. Eminent — प्रतिष्ठित; प्रसिद्ध\nC. Magnanimous — उदारहृदय; क्षमाशील\nD. Scrupulous — नैतिकता और नियमों का कड़ाई से पालन करने वाला",
+    "language": "en"
+  },
+  {
+    "id": "vocab004",
+    "subjectId": "english",
+    "question": "Ignominious",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decorous"
+      },
+      {
+        "id": "B",
+        "text": "Disgraceful"
+      },
+      {
+        "id": "C",
+        "text": "Illustrious"
+      },
+      {
+        "id": "D",
+        "text": "Commendable"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: deserving or causing public disgrace or shame. Hindi meaning: अपमानजनक; लज्जाजनक; कलंकित करने वाला. Word tone: Negative (नकारात्मक — सार्वजनिक अपमान या बदनामी का भाव।)\nOption meanings:\nA. Decorous — शिष्ट; मर्यादित\nB. Disgraceful — शर्मनाक; अपमानजनक (सही पर्यायवाची)\nC. Illustrious — विख्यात; यशस्वी\nD. Commendable — प्रशंसनीय",
+    "language": "en"
+  },
+  {
+    "id": "vocab005",
+    "subjectId": "english",
+    "question": "Ignominy",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prestige"
+      },
+      {
+        "id": "B",
+        "text": "Eulogy"
+      },
+      {
+        "id": "C",
+        "text": "Accolade"
+      },
+      {
+        "id": "D",
+        "text": "Disgrace"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: public shame, disgrace, or dishonour. Hindi meaning: अपमान; बदनामी; कलंक. Word tone: Negative (नकारात्मक — किसी व्यक्ति की सार्वजनिक बेइज्जती या बदनामी।)\nOption meanings:\nA. Prestige — प्रतिष्ठा; मान-सम्मान\nB. Eulogy — प्रशंसात्मक भाषण; गुणगान\nC. Accolade — सम्मान; पुरस्कार\nD. Disgrace — अपमान; बदनामी (सही पर्यायवाची)",
+    "language": "en"
+  },
+  {
+    "id": "vocab006",
+    "subjectId": "english",
+    "question": "Illicit",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sanctioned"
+      },
+      {
+        "id": "B",
+        "text": "Legitimate"
+      },
+      {
+        "id": "C",
+        "text": "Unlawful"
+      },
+      {
+        "id": "D",
+        "text": "Permissible"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: not permitted by law, rules, or accepted standards. Hindi meaning: अवैध; गैरकानूनी; निषिद्ध. Word tone: Negative (नकारात्मक — कानून या नियमों के विरुद्ध होने का भाव।)\nOption meanings:\nA. Sanctioned — आधिकारिक रूप से स्वीकृत\nB. Legitimate — वैध; उचित\nC. Unlawful — गैरकानूनी; अवैध (सही पर्यायवाची)\nD. Permissible — अनुमत; जिसकी इजाज़त हो",
+    "language": "en"
+  },
+  {
+    "id": "vocab007",
+    "subjectId": "english",
+    "question": "Imbecile",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prodigy"
+      },
+      {
+        "id": "B",
+        "text": "Sage"
+      },
+      {
+        "id": "C",
+        "text": "Mentor"
+      },
+      {
+        "id": "D",
+        "text": "Dolt"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: a very foolish or stupid person; an insulting term. Hindi meaning: मूर्ख; मंदबुद्धि व्यक्ति (अपमानजनक शब्द). Word tone: Negative (नकारात्मक — किसी को मूर्ख कहने वाला अपमानजनक और असभ्य शब्द।)\nOption meanings:\nA. Prodigy — असाधारण प्रतिभाशाली व्यक्ति\nB. Sage — बुद्धिमान व्यक्ति; ज्ञानी\nC. Mentor — मार्गदर्शक\nD. Dolt — मूर्ख; बुद्धिहीन व्यक्ति (सही पर्यायवाची)",
+    "language": "en"
+  },
+  {
+    "id": "vocab008",
+    "subjectId": "english",
+    "question": "Imminent",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bygone"
+      },
+      {
+        "id": "B",
+        "text": "Intermittent"
+      },
+      {
+        "id": "C",
+        "text": "Remote"
+      },
+      {
+        "id": "D",
+        "text": "Impending"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: about to happen very soon. Hindi meaning: आसन्न; शीघ्र घटित होने वाला; निकट भविष्य में होने वाला. Word tone: Neutral (तटस्थ — केवल किसी घटना के बहुत जल्द होने का समय बताता है; घटना अच्छी या बुरी हो सकती है।)\nOption meanings:\nA. Bygone — बीता हुआ\nB. Intermittent — रुक-रुककर होने वाला\nC. Remote — दूरस्थ; बहुत बाद में होने की संभावना वाला\nD. Impending — आसन्न; शीघ्र आने या घटित होने वाला (सही पर्यायवाची)",
+    "language": "en"
+  },
+  {
+    "id": "vocab009",
+    "subjectId": "english",
+    "question": "Susceptible",
+    "options": [
+      {
+        "id": "A",
+        "text": "Immune"
+      },
+      {
+        "id": "B",
+        "text": "Vulnerable"
+      },
+      {
+        "id": "C",
+        "text": "Invulnerable"
+      },
+      {
+        "id": "D",
+        "text": "Resilient"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: easily affected, influenced, or harmed by something. Hindi meaning: संवेदनशील; आसानी से प्रभावित होने वाला; असुरक्षित. Word tone: Neutral (तटस्थ — किसी प्रभाव के प्रति ग्रहणशील होने का भाव; प्रभाव अच्छा या बुरा हो सकता है।)\nOption meanings:\nA. Immune — प्रतिरक्षित; अप्रभावित\nB. Vulnerable — असुरक्षित; आसानी से प्रभावित या आहत होने वाला (सही पर्यायवाची)\nC. Invulnerable — जिसे चोट या हानि न पहुँचाई जा सके\nD. Resilient — कठिनाई से जल्दी उबरने वाला; लचीला",
+    "language": "en"
+  },
+  {
+    "id": "vocab010",
+    "subjectId": "english",
+    "question": "Impeccable",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mediocre"
+      },
+      {
+        "id": "B",
+        "text": "Shoddy"
+      },
+      {
+        "id": "C",
+        "text": "Flawless"
+      },
+      {
+        "id": "D",
+        "text": "Blemished"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: without any fault, error, or flaw. Hindi meaning: त्रुटिहीन; निर्दोष; बेदाग. Word tone: Positive (सकारात्मक — पूर्णता और उत्कृष्ट गुणवत्ता का प्रशंसात्मक भाव।)\nOption meanings:\nA. Mediocre — औसत दर्जे का\nB. Shoddy — घटिया; खराब गुणवत्ता वाला\nC. Flawless — बिल्कुल निर्दोष; त्रुटिहीन (सही पर्यायवाची)\nD. Blemished — दागदार; दोषयुक्त",
+    "language": "en"
+  },
+  {
+    "id": "vocab011",
+    "subjectId": "english",
+    "question": "Thwart",
+    "options": [
+      {
+        "id": "A",
+        "text": "Endorse"
+      },
+      {
+        "id": "B",
+        "text": "Foil"
+      },
+      {
+        "id": "C",
+        "text": "Abet"
+      },
+      {
+        "id": "D",
+        "text": "Facilitate"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: to prevent someone from achieving a plan or purpose. Hindi meaning: विफल करना; बाधा डालकर रोकना; नाकाम करना. Word tone: Negative (नकारात्मक — किसी की योजना या प्रयास को बाधित करके असफल करने का भाव।)\nOption meanings:\nA. Endorse — समर्थन या अनुमोदन करना\nB. Foil — योजना को विफल करना; नाकाम करना (सही पर्यायवाची)\nC. Abet — गलत काम में उकसाना या सहायता देना\nD. Facilitate — आसान बनाना; सहायता करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab012",
+    "subjectId": "english",
+    "question": "Expedite",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accelerate"
+      },
+      {
+        "id": "B",
+        "text": "Retard"
+      },
+      {
+        "id": "C",
+        "text": "Impede"
+      },
+      {
+        "id": "D",
+        "text": "Postpone"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: to make a process or action happen more quickly. Hindi meaning: शीघ्र करना; गति देना; प्रक्रिया तेज़ करना. Word tone: Neutral (तटस्थ — किसी काम को तेज़ करने का भाव; इसका नैतिक या भावनात्मक मूल्य संदर्भ पर निर्भर करता है।)\nOption meanings:\nA. Accelerate — तेज़ करना; गति बढ़ाना (सही पर्यायवाची)\nB. Retard — धीमा करना; विकास रोकना\nC. Impede — बाधा डालना; रुकावट पैदा करना\nD. Postpone — स्थगित करना; आगे के लिए टालना",
+    "language": "en"
+  },
+  {
+    "id": "vocab013",
+    "subjectId": "english",
+    "question": "Impertinent",
+    "options": [
+      {
+        "id": "A",
+        "text": "Decorous"
+      },
+      {
+        "id": "B",
+        "text": "Tactful"
+      },
+      {
+        "id": "C",
+        "text": "Insolent"
+      },
+      {
+        "id": "D",
+        "text": "Deferential"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: rude or disrespectful, especially by not showing proper respect. Hindi meaning: अशिष्ट; ढीठ; अनुचित रूप से बेअदब. Word tone: Negative (नकारात्मक — असम्मानजनक और बदतमीज़ व्यवहार का भाव।)\nOption meanings:\nA. Decorous — शिष्ट; मर्यादित\nB. Tactful — समझदारी और शिष्टता से बोलने वाला\nC. Insolent — उद्धत; गुस्ताख़; अपमानजनक ढंग से बेअदब (सही पर्यायवाची)\nD. Deferential — आदरपूर्ण; विनम्र",
+    "language": "en"
+  },
+  {
+    "id": "vocab014",
+    "subjectId": "english",
+    "question": "Impervious",
+    "options": [
+      {
+        "id": "A",
+        "text": "Receptive"
+      },
+      {
+        "id": "B",
+        "text": "Susceptible"
+      },
+      {
+        "id": "C",
+        "text": "Resistant"
+      },
+      {
+        "id": "D",
+        "text": "Permeable"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: not allowing something to pass through or not affected by it. Hindi meaning: अभेद्य; अप्रभावित; जिसके आर-पार कुछ न जा सके. Word tone: Neutral (तटस्थ — किसी चीज़ के प्रवेश या प्रभाव को रोकने का भाव; संदर्भ के अनुसार गुण या कमी हो सकती है।)\nOption meanings:\nA. Receptive — ग्रहणशील; विचारों को स्वीकार करने वाला\nB. Susceptible — आसानी से प्रभावित होने वाला\nC. Resistant — प्रतिरोधी; प्रभाव का सामना करने वाला (सही पर्यायवाची)\nD. Permeable — जिसमें से तरल या गैस गुजर सके",
+    "language": "en"
+  },
+  {
+    "id": "vocab015",
+    "subjectId": "english",
+    "question": "Impenetrable",
+    "options": [
+      {
+        "id": "A",
+        "text": "Incomprehensible"
+      },
+      {
+        "id": "B",
+        "text": "Transparent"
+      },
+      {
+        "id": "C",
+        "text": "Accessible"
+      },
+      {
+        "id": "D",
+        "text": "Fragile"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: impossible to pass through, enter, or understand. Hindi meaning: अभेद्य; दुर्गम; जिसे भेदना या समझना कठिन हो. Word tone: Neutral (तटस्थ — किसी भौतिक बाधा या कठिन विचार के भेदने/समझने में असमर्थता दर्शाता है।)\nOption meanings:\nA. Incomprehensible — समझ से परे; जिसे समझना कठिन हो (सही पर्यायवाची)\nB. Transparent — पारदर्शी; स्पष्ट\nC. Accessible — सुलभ; जहाँ पहुँचना आसान हो\nD. Fragile — नाज़ुक; आसानी से टूटने वाला",
+    "language": "en"
+  },
+  {
+    "id": "vocab016",
+    "subjectId": "english",
+    "question": "Impermeable",
+    "options": [
+      {
+        "id": "A",
+        "text": "Permeable"
+      },
+      {
+        "id": "B",
+        "text": "Porous"
+      },
+      {
+        "id": "C",
+        "text": "Absorbent"
+      },
+      {
+        "id": "D",
+        "text": "Nonporous"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: not allowing a liquid or gas to pass through. Hindi meaning: अपारगम्य; जल या गैस को आर-पार न जाने देने वाला. Word tone: Neutral (तटस्थ — किसी पदार्थ के आर-पार तरल या गैस के न जा पाने का भौतिक गुण।)\nOption meanings:\nA. Permeable — पारगम्य; आर-पार जाने देने वाला\nB. Porous — छिद्रयुक्त; जिसमें से तरल या गैस गुजर सके\nC. Absorbent — सोखने वाला\nD. Nonporous — बिना छिद्र वाला; अपारगम्य (सही पर्यायवाची)",
+    "language": "en"
+  },
+  {
+    "id": "vocab017",
+    "subjectId": "english",
+    "question": "Impetuous",
+    "options": [
+      {
+        "id": "A",
+        "text": "Circumspect"
+      },
+      {
+        "id": "B",
+        "text": "Measured"
+      },
+      {
+        "id": "C",
+        "text": "Rash"
+      },
+      {
+        "id": "D",
+        "text": "Deliberate"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: acting suddenly without careful thought or consideration. Hindi meaning: आवेगी; उतावला; बिना सोचे-समझे काम करने वाला. Word tone: Negative (नकारात्मक — जल्दबाज़ी और विचारहीन निर्णय लेने का भाव।)\nOption meanings:\nA. Circumspect — सावधान; सोच-समझकर काम करने वाला\nB. Measured — संतुलित; नपा-तुला\nC. Rash — उतावला; बिना सोचे-समझे किया गया (सही पर्यायवाची)\nD. Deliberate — सोच-समझकर किया गया; जानबूझकर",
+    "language": "en"
+  },
+  {
+    "id": "vocab018",
+    "subjectId": "english",
+    "question": "Poise",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agitation"
+      },
+      {
+        "id": "B",
+        "text": "Disarray"
+      },
+      {
+        "id": "C",
+        "text": "Composure"
+      },
+      {
+        "id": "D",
+        "text": "Trepidation"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: calm confidence and self-control, especially in a difficult situation. Hindi meaning: संयम; आत्मविश्वासपूर्ण संतुलन; धैर्यपूर्ण स्थिरता. Word tone: Positive (सकारात्मक — कठिन परिस्थिति में आत्मनियंत्रण और संतुलित व्यवहार का भाव।)\nOption meanings:\nA. Agitation — व्याकुलता; बेचैनी\nB. Disarray — अव्यवस्था; बिखराव\nC. Composure — मानसिक संतुलन; आत्मसंयम (सही पर्यायवाची)\nD. Trepidation — आशंका; घबराहट",
+    "language": "en"
+  },
+  {
+    "id": "vocab019",
+    "subjectId": "english",
+    "question": "Implore",
+    "options": [
+      {
+        "id": "A",
+        "text": "Beseech"
+      },
+      {
+        "id": "B",
+        "text": "Command"
+      },
+      {
+        "id": "C",
+        "text": "Dismiss"
+      },
+      {
+        "id": "D",
+        "text": "Rebuke"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: to beg or ask someone earnestly and urgently. Hindi meaning: गिड़गिड़ाकर विनती करना; अत्यंत आग्रहपूर्वक प्रार्थना करना. Word tone: Neutral (तटस्थ — अत्यंत विनम्र या भावुक आग्रह का भाव; अनुरोध का उद्देश्य अच्छा या बुरा हो सकता है।)\nOption meanings:\nA. Beseech — विनती करना; अत्यंत आग्रहपूर्वक निवेदन करना (सही पर्यायवाची)\nB. Command — आदेश देना\nC. Dismiss — खारिज करना; जाने के लिए कह देना\nD. Rebuke — फटकारना; कड़ी आलोचना करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab020",
+    "subjectId": "english",
+    "question": "Plead",
+    "options": [
+      {
+        "id": "A",
+        "text": "Entreat"
+      },
+      {
+        "id": "B",
+        "text": "Renounce"
+      },
+      {
+        "id": "C",
+        "text": "Condemn"
+      },
+      {
+        "id": "D",
+        "text": "Acquiesce"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: to make an emotional or earnest appeal; to beg. Hindi meaning: विनती करना; गुहार लगाना; भावुक होकर अनुरोध करना. Word tone: Neutral (तटस्थ — किसी बात के लिए गंभीर या भावुक अनुरोध करना; भाव संदर्भ पर निर्भर करता है।)\nOption meanings:\nA. Entreat — विनती करना; अनुनय करना (सही पर्यायवाची)\nB. Renounce — त्याग देना; दावा छोड़ना\nC. Condemn — निंदा करना; दोषी ठहराना\nD. Acquiesce — बिना विरोध के मान लेना",
+    "language": "en"
+  },
+  {
+    "id": "vocab021",
+    "subjectId": "english",
+    "question": "Trivial",
+    "options": [
+      {
+        "id": "A",
+        "text": "Momentous"
+      },
+      {
+        "id": "B",
+        "text": "Insignificant"
+      },
+      {
+        "id": "C",
+        "text": "Pivotal"
+      },
+      {
+        "id": "D",
+        "text": "Consequential"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: of very little importance, value, or seriousness. Hindi meaning: तुच्छ; मामूली; महत्वहीन. Word tone: Negative (नकारात्मक — किसी बात को कम महत्व का या नगण्य बताने वाला भाव।)\nOption meanings:\nA. Momentous — अत्यंत महत्वपूर्ण; निर्णायक\nB. Insignificant — महत्वहीन; नगण्य (सही पर्यायवाची)\nC. Pivotal — निर्णायक; केंद्रीय महत्व का\nD. Consequential — महत्वपूर्ण परिणाम वाला",
+    "language": "en"
+  },
+  {
+    "id": "vocab022",
+    "subjectId": "english",
+    "question": "Penniless",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solvent"
+      },
+      {
+        "id": "B",
+        "text": "Opulent"
+      },
+      {
+        "id": "C",
+        "text": "Destitute"
+      },
+      {
+        "id": "D",
+        "text": "Affluent"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: having no money at all. Hindi meaning: निःधन; कंगाल; बिल्कुल पैसे-विहीन. Word tone: Negative (नकारात्मक — धन के पूर्ण अभाव और आर्थिक कठिनाई का भाव।)\nOption meanings:\nA. Solvent — ऋण चुकाने में सक्षम; आर्थिक रूप से सक्षम\nB. Opulent — अत्यधिक धनी; वैभवशाली\nC. Destitute — अत्यंत गरीब; बेसहारा और धनहीन (सही पर्यायवाची)\nD. Affluent — धनवान; समृद्ध",
+    "language": "en"
+  },
+  {
+    "id": "vocab023",
+    "subjectId": "english",
+    "question": "Impromptu",
+    "options": [
+      {
+        "id": "A",
+        "text": "Extemporaneous"
+      },
+      {
+        "id": "B",
+        "text": "Scheduled"
+      },
+      {
+        "id": "C",
+        "text": "Calculated"
+      },
+      {
+        "id": "D",
+        "text": "Rehearsed"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: done or spoken without preparation or planning. Hindi meaning: बिना तैयारी के; तत्काल; अनायास किया गया. Word tone: Neutral (तटस्थ — पूर्व-योजना के बिना किया गया कार्य; यह अच्छा या बुरा दोनों हो सकता है।)\nOption meanings:\nA. Extemporaneous — बिना पूर्व तैयारी के किया या कहा गया (सही पर्यायवाची)\nB. Scheduled — निर्धारित समय-सारणी के अनुसार तय\nC. Calculated — सोच-समझकर हिसाब लगाया हुआ\nD. Rehearsed — अभ्यास किया हुआ",
+    "language": "en"
+  },
+  {
+    "id": "vocab024",
+    "subjectId": "english",
+    "question": "Premeditated",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accidental"
+      },
+      {
+        "id": "B",
+        "text": "Spontaneous"
+      },
+      {
+        "id": "C",
+        "text": "Inadvertent"
+      },
+      {
+        "id": "D",
+        "text": "Deliberate"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: planned or considered beforehand, especially deliberately. Hindi meaning: पूर्वनियोजित; पहले से सोच-समझकर तय किया हुआ. Word tone: Neutral (तटस्थ — पहले से बनाई गई योजना दर्शाता है; अपराध के संदर्भ में इसका भाव नकारात्मक हो जाता है।)\nOption meanings:\nA. Accidental — आकस्मिक; दुर्घटनावश हुआ\nB. Spontaneous — स्वतःस्फूर्त; बिना योजना के हुआ\nC. Inadvertent — अनजाने में हुआ; अनिच्छित\nD. Deliberate — जानबूझकर और सोच-समझकर किया गया (सही पर्यायवाची)",
+    "language": "en"
+  },
+  {
+    "id": "vocab025",
+    "subjectId": "english",
+    "question": "Improvident",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shortsighted"
+      },
+      {
+        "id": "B",
+        "text": "Provident"
+      },
+      {
+        "id": "C",
+        "text": "Prudent"
+      },
+      {
+        "id": "D",
+        "text": "Farsighted"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: not planning carefully for the future; lacking foresight. Hindi meaning: दूरदर्शिताहीन; भविष्य की योजना न बनाने वाला; अपव्ययी. Word tone: Negative (नकारात्मक — भविष्य के परिणामों की परवाह किए बिना संसाधन खर्च करने या निर्णय लेने का भाव।)\nOption meanings:\nA. Shortsighted — दूरदर्शिताहीन; भविष्य के परिणाम न सोचने वाला (सही पर्यायवाची)\nB. Provident — भविष्य के लिए बचत या व्यवस्था करने वाला\nC. Prudent — समझदार; सावधानीपूर्वक निर्णय लेने वाला\nD. Farsighted — दूरदर्शी; भविष्य का अनुमान लगाने वाला",
+    "language": "en"
+  },
+  {
+    "id": "vocab026",
+    "subjectId": "english",
+    "question": "Spendthrift",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prodigal"
+      },
+      {
+        "id": "B",
+        "text": "Miserly"
+      },
+      {
+        "id": "C",
+        "text": "Parsimonious"
+      },
+      {
+        "id": "D",
+        "text": "Frugal"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: a person who spends money wastefully or extravagantly. Hindi meaning: फ़िज़ूलखर्च व्यक्ति; अपव्ययी. Word tone: Negative (नकारात्मक — बिना संयम के धन खर्च करने वाले व्यक्ति का भाव।)\nOption meanings:\nA. Prodigal — फ़िज़ूलखर्च; धन को उदारता या लापरवाही से उड़ाने वाला (सही पर्यायवाची)\nB. Miserly — कंजूस; धन खर्च करने में अत्यधिक अनिच्छुक\nC. Parsimonious — कंजूस; अत्यधिक कम खर्च करने वाला\nD. Frugal — मितव्ययी; कम खर्च करने वाला",
+    "language": "en"
+  },
+  {
+    "id": "vocab027",
+    "subjectId": "english",
+    "question": "Impudent",
+    "options": [
+      {
+        "id": "A",
+        "text": "Abashed"
+      },
+      {
+        "id": "B",
+        "text": "Brazen"
+      },
+      {
+        "id": "C",
+        "text": "Respectful"
+      },
+      {
+        "id": "D",
+        "text": "Diffident"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: not showing due respect; boldly rude or disrespectful. Hindi meaning: बेशर्म; ढीठ; गुस्ताख़. Word tone: Negative (नकारात्मक — मर्यादा और सम्मान की कमी वाला दुस्साहसी व्यवहार।)\nOption meanings:\nA. Abashed — लज्जित; संकोच से झेंपा हुआ\nB. Brazen — निर्लज्ज; बेशर्मी से साहस दिखाने वाला (सही पर्यायवाची)\nC. Respectful — सम्मानपूर्ण; आदर करने वाला\nD. Diffident — संकोची; आत्मविश्वास की कमी वाला",
+    "language": "en"
+  },
+  {
+    "id": "vocab028",
+    "subjectId": "english",
+    "question": "Inadvertent",
+    "options": [
+      {
+        "id": "A",
+        "text": "Premeditated"
+      },
+      {
+        "id": "B",
+        "text": "Calculated"
+      },
+      {
+        "id": "C",
+        "text": "Deliberate"
+      },
+      {
+        "id": "D",
+        "text": "Unintentional"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: not intentional; happening by accident or oversight. Hindi meaning: अनजाने में हुआ; अनिच्छित; असावधानीवश. Word tone: Neutral (तटस्थ — किसी काम का जानबूझकर न किया जाना बताता है; परिणाम अच्छा या बुरा हो सकता है।)\nOption meanings:\nA. Premeditated — पहले से योजनाबद्ध\nB. Calculated — सोच-समझकर किया गया\nC. Deliberate — जानबूझकर किया गया\nD. Unintentional — अनजाने में हुआ; जानबूझकर न किया गया (सही पर्यायवाची)",
+    "language": "en"
+  },
+  {
+    "id": "vocab029",
+    "subjectId": "english",
+    "question": "Incapacitate",
+    "options": [
+      {
+        "id": "A",
+        "text": "Empower"
+      },
+      {
+        "id": "B",
+        "text": "Disable"
+      },
+      {
+        "id": "C",
+        "text": "Rehabilitate"
+      },
+      {
+        "id": "D",
+        "text": "Invigorate"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: to make someone unable to act, function, or do something. Hindi meaning: अक्षम कर देना; काम करने योग्य न रहने देना; निष्क्रिय कर देना. Word tone: Negative (नकारात्मक — किसी की कार्य करने या सामान्य रूप से काम करने की क्षमता छीनने का भाव।)\nOption meanings:\nA. Empower — सशक्त बनाना; अधिकार या क्षमता देना\nB. Disable — अक्षम या निष्क्रिय कर देना (सही पर्यायवाची)\nC. Rehabilitate — पुनर्वास करना; फिर से सक्षम बनाना\nD. Invigorate — ऊर्जावान बनाना; शक्ति देना",
+    "language": "en"
+  },
+  {
+    "id": "vocab030",
+    "subjectId": "english",
+    "question": "Incentive",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deterrent"
+      },
+      {
+        "id": "B",
+        "text": "Penalty"
+      },
+      {
+        "id": "C",
+        "text": "Inducement"
+      },
+      {
+        "id": "D",
+        "text": "Obstacle"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: something that encourages or motivates someone to act. Hindi meaning: प्रोत्साहन; प्रेरक कारण; प्रलोभन या लाभ. Word tone: Positive (सकारात्मक — किसी को बेहतर प्रयास या कार्य करने के लिए प्रेरित करने वाला लाभ या कारण।)\nOption meanings:\nA. Deterrent — निवारक; रोकने वाला कारण\nB. Penalty — दंड; जुर्माना\nC. Inducement — प्रलोभन; प्रेरित करने वाला लाभ या कारण (सही पर्यायवाची)\nD. Obstacle — बाधा; रुकावट",
+    "language": "en"
+  },
+  {
+    "id": "vocab031",
+    "subjectId": "english",
+    "question": "Inception",
+    "options": [
+      {
+        "id": "A",
+        "text": "Commencement"
+      },
+      {
+        "id": "B",
+        "text": "Aftermath"
+      },
+      {
+        "id": "C",
+        "text": "Cessation"
+      },
+      {
+        "id": "D",
+        "text": "Culmination"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: the beginning or starting point of something. Hindi meaning: आरंभ; शुरुआत; स्थापना. Word tone: Neutral (तटस्थ — किसी कार्य, विचार या संस्था के शुरू होने का समय बताता है।)\nOption meanings:\nA. Commencement — आरंभ; शुरुआत (सही पर्यायवाची)\nB. Aftermath — घटना के बाद का परिणाम\nC. Cessation — समाप्ति; रुक जाना\nD. Culmination — चरम बिंदु; अंतिम परिणति",
+    "language": "en"
+  },
+  {
+    "id": "vocab032",
+    "subjectId": "english",
+    "question": "Incessant",
+    "options": [
+      {
+        "id": "A",
+        "text": "Occasional"
+      },
+      {
+        "id": "B",
+        "text": "Ceaseless"
+      },
+      {
+        "id": "C",
+        "text": "Intermittent"
+      },
+      {
+        "id": "D",
+        "text": "Sporadic"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: continuing without stopping or interruption. Hindi meaning: निरंतर; लगातार; अविराम. Word tone: Negative (नकारात्मक — प्रायः ऐसी लगातार चलने वाली चीज़ का भाव जो परेशान या थका दे।)\nOption meanings:\nA. Occasional — कभी-कभी होने वाला\nB. Ceaseless — अविराम; बिना रुके लगातार (सही पर्यायवाची)\nC. Intermittent — रुक-रुककर होने वाला\nD. Sporadic — कभी-कभार; अनियमित अंतराल पर होने वाला",
+    "language": "en"
+  },
+  {
+    "id": "vocab033",
+    "subjectId": "english",
+    "question": "Sporadic",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perpetual"
+      },
+      {
+        "id": "B",
+        "text": "Unremitting"
+      },
+      {
+        "id": "C",
+        "text": "Intermittent"
+      },
+      {
+        "id": "D",
+        "text": "Constant"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: occurring irregularly, infrequently, or at scattered intervals. Hindi meaning: छिटपुट; अनियमित; कभी-कभार होने वाला. Word tone: Neutral (तटस्थ — किसी घटना के नियमित न होने और बीच-बीच में होने का भाव।)\nOption meanings:\nA. Perpetual — शाश्वत; हमेशा जारी रहने वाला\nB. Unremitting — बिना रुके लगातार\nC. Intermittent — रुक-रुककर या बीच-बीच में होने वाला (सही पर्यायवाची)\nD. Constant — लगातार; स्थिर",
+    "language": "en"
+  },
+  {
+    "id": "vocab034",
+    "subjectId": "english",
+    "question": "Incite",
+    "options": [
+      {
+        "id": "A",
+        "text": "Soothe"
+      },
+      {
+        "id": "B",
+        "text": "Quell"
+      },
+      {
+        "id": "C",
+        "text": "Pacify"
+      },
+      {
+        "id": "D",
+        "text": "Instigate"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: to encourage, provoke, or urge someone to do something, often something harmful. Hindi meaning: उकसाना; भड़काना; किसी कार्य के लिए उत्तेजित करना. Word tone: Negative (नकारात्मक — विशेषकर हिंसा, विद्रोह या गलत कार्य के लिए भड़काने का भाव।)\nOption meanings:\nA. Soothe — सांत्वना देना; शांत करना\nB. Quell — दबाना; विद्रोह या भावना को शांत करना\nC. Pacify — शांत करना; क्रोध कम करना\nD. Instigate — उकसाना; किसी कार्य के लिए भड़काना (सही पर्यायवाची)",
+    "language": "en"
+  },
+  {
+    "id": "vocab035",
+    "subjectId": "english",
+    "question": "Inflame",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mollify"
+      },
+      {
+        "id": "B",
+        "text": "Assuage"
+      },
+      {
+        "id": "C",
+        "text": "Exacerbate"
+      },
+      {
+        "id": "D",
+        "text": "Placate"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: to intensify a feeling or situation, or to make someone angry. Hindi meaning: भड़काना; तीव्र करना; क्रोधित करना. Word tone: Negative (नकारात्मक — क्रोध, तनाव या विवाद को और बढ़ाने का भाव।)\nOption meanings:\nA. Mollify — नरम करना; किसी का क्रोध शांत करना\nB. Assuage — कम करना; पीड़ा या चिंता शांत करना\nC. Exacerbate — और बिगाड़ना; स्थिति या समस्या को अधिक गंभीर करना (सही पर्यायवाची)\nD. Placate — शांत करना; क्रोध कम करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab036",
+    "subjectId": "english",
+    "question": "Inclement",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balmy"
+      },
+      {
+        "id": "B",
+        "text": "Temperate"
+      },
+      {
+        "id": "C",
+        "text": "Clement"
+      },
+      {
+        "id": "D",
+        "text": "Stormy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: (of weather) unpleasant, severe, or stormy. Hindi meaning: (मौसम) खराब; कठोर; तूफानी या प्रतिकूल. Word tone: Negative (नकारात्मक — खराब, कठोर या प्रतिकूल मौसम का भाव।)\nOption meanings:\nA. Balmy — सुहावना; हल्का गर्म और सुखद\nB. Temperate — समशीतोष्ण; न अधिक गर्म न अधिक ठंडा\nC. Clement — अनुकूल और सुहावना (विशेषकर मौसम)\nD. Stormy — तूफानी; खराब मौसम वाला (सही पर्यायवाची)",
+    "language": "en"
+  },
+  {
+    "id": "vocab037",
+    "subjectId": "english",
+    "question": "Incorporate",
+    "options": [
+      {
+        "id": "A",
+        "text": "Integrate"
+      },
+      {
+        "id": "B",
+        "text": "Segregate"
+      },
+      {
+        "id": "C",
+        "text": "Detach"
+      },
+      {
+        "id": "D",
+        "text": "Exclude"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: to include something as part of a whole. Hindi meaning: शामिल करना; सम्मिलित करना; एकीकृत करना. Word tone: Neutral (तटस्थ — किसी हिस्से या विचार को बड़े समूह या संपूर्ण में जोड़ने का भाव।)\nOption meanings:\nA. Integrate — एकीकृत करना; किसी संपूर्ण में शामिल करना (सही पर्यायवाची)\nB. Segregate — अलग करना; पृथक रखना\nC. Detach — अलग करना; जोड़ हटाना\nD. Exclude — बाहर रखना; शामिल न करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab038",
+    "subjectId": "english",
+    "question": "Unalterable",
+    "options": [
+      {
+        "id": "A",
+        "text": "Provisional"
+      },
+      {
+        "id": "B",
+        "text": "Transient"
+      },
+      {
+        "id": "C",
+        "text": "Mutable"
+      },
+      {
+        "id": "D",
+        "text": "Immutable"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: not able to be changed or modified. Hindi meaning: अपरिवर्तनीय; जिसे बदला न जा सके. Word tone: Neutral (तटस्थ — किसी चीज़ के न बदले जा सकने का गुण; यह संदर्भ के अनुसार अच्छा या बुरा हो सकता है।)\nOption meanings:\nA. Provisional — अस्थायी; अंतिम रूप से तय न हुआ\nB. Transient — क्षणिक; थोड़े समय तक रहने वाला\nC. Mutable — परिवर्तनशील; जिसे बदला जा सके\nD. Immutable — अपरिवर्तनीय; जिसे बदला न जा सके (सही पर्यायवाची)",
+    "language": "en"
+  },
+  {
+    "id": "vocab039",
+    "subjectId": "english",
+    "question": "Indelible",
+    "options": [
+      {
+        "id": "A",
+        "text": "Erasable"
+      },
+      {
+        "id": "B",
+        "text": "Ineffaceable"
+      },
+      {
+        "id": "C",
+        "text": "Ephemeral"
+      },
+      {
+        "id": "D",
+        "text": "Fleeting"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: impossible to remove, erase, or forget. Hindi meaning: अमिट; जिसे मिटाया या भुलाया न जा सके. Word tone: Neutral (तटस्थ — स्थायी छाप या निशान का भाव; यह स्मृति अच्छी या बुरी दोनों हो सकती है।)\nOption meanings:\nA. Erasable — मिटाया जा सकने वाला\nB. Ineffaceable — अमिट; जिसे मिटाया न जा सके (सही पर्यायवाची)\nC. Ephemeral — क्षणभंगुर; अल्पकालिक\nD. Fleeting — पलभर रहने वाला; क्षणिक",
+    "language": "en"
+  },
+  {
+    "id": "vocab040",
+    "subjectId": "english",
+    "question": "Indict",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pardon"
+      },
+      {
+        "id": "B",
+        "text": "Charge"
+      },
+      {
+        "id": "C",
+        "text": "Exonerate"
+      },
+      {
+        "id": "D",
+        "text": "Acquit"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Word meaning: to formally accuse someone of a serious crime. Hindi meaning: अभियोग लगाना; औपचारिक रूप से अपराध का आरोप लगाना. Word tone: Negative (नकारात्मक — किसी व्यक्ति पर गंभीर अपराध का औपचारिक कानूनी आरोप लगाने का भाव; आरोप सिद्ध होना अलग बात है।)\nOption meanings:\nA. Pardon — क्षमा करना; दंड माफ़ करना\nB. Charge — औपचारिक रूप से आरोप लगाना; अभियोग लगाना (सही पर्यायवाची)\nC. Exonerate — निर्दोष साबित करना; आरोप से मुक्त करना\nD. Acquit — बरी करना; दोषमुक्त घोषित करना",
+    "language": "en"
+  }
+]

@@ -1,3 +1,4 @@
+import { SpeakExplanationButton } from '../components/common/SpeakExplanationButton';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, CheckCircle2, XCircle, Circle, Clock, Flag, Bookmark } from 'lucide-react';
@@ -75,9 +76,10 @@ export default function TestReviewPage() {
             </div>
 
             {attempt.explanation && (
-              <p className="text-xs p-3 rounded-lg mb-2" style={{ background: 'var(--border)', color: 'var(--text-secondary)' }}>
-                {attempt.explanation}
-              </p>
+              <div className="text-xs p-3 rounded-lg mb-2" style={{ background: 'var(--border)', color: 'var(--text-secondary)' }}>
+                <p>{attempt.explanation}</p>
+                <SpeakExplanationButton text={attempt.explanation} className="mt-2" />
+              </div>
             )}
 
             <div className="flex items-center gap-3 text-xs" style={{ color: 'var(--text-muted)' }}>

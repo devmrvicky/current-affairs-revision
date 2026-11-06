@@ -9,6 +9,9 @@ import toast from 'react-hot-toast';
 import { useBookmarkStore } from '../store/bookmarkStore';
 import { useWrongQuestionsStore } from '../store/wrongQuestionsStore';
 import { useMarkedReviewStore } from '../store/markedReviewStore';
+import { ReviewInsightsPanel } from '../components/review/ReviewInsightsPanel';
+import { universalAttemptsDB } from '../services/db';
+import { weakTopics as computeWeakTopics, WEAK_MIN_ATTEMPTS, SOURCE_LABELS } from '../services/reviewAnalytics';
 import { getMarkPurposeInfo } from '../types/questionMark';
 import { useHistoryStore } from '../store/historyStore';
 import { useChapterStore } from '../store/chapterStore';
@@ -16,14 +19,14 @@ import { useExamStore } from '../store/examStore';
 import { useQuizStore } from '../store/quizStore';
 import { getExam } from '../services/examService';
 import { resolveTopicId, getUnattemptedQuestions, getRandomQuestions, resolveQuestionsByIds } from '../services/questionRepository';
-import { getTopicPerformance, getRecentAttemptRecords } from '../services/attemptLedgerService';
+import { getRecentAttemptRecords } from '../services/attemptLedgerService';
 import { toLegacyQuestion } from '../services/legacyQuestionAdapter';
 import { subjectRegistry, getTopicDisplayName } from '../data/registry/subjectRegistry';
 import { EmptyState } from '../components/common/EmptyState';
 import { formatRelativeDate } from '../utils';
 import type { DailyQuiz } from '../types';
 
-type ReviewTab = 'bookmarked' | 'wrong' | 'marked' | 'recent' | 'weak' | 'unattempted';
+type ReviewTab = 'bookmarked' | 'wrong' | 'marked' | 'recent' | 'weak' | 'insights' | 'unattempted';
 
 interface CommonItem {
   id: string;
@@ -127,19 +130,27 @@ const STRONG_THRESHOLD = 80;
 interface TopicDisplayRow {
   topicId: string;
   topicName: string;
-  accuracy: number;
-  status: 'Weak' | 'Average' | 'Strong';
+  accuracy: number | null;
+  /** 'Insufficient data' until a topic has WEAK_MIN_ATTEMPTS answered attempts — it is never rated on a handful of answers. */
+  status: 'Weak' | 'Average' | 'Strong' | 'Insufficient data';
   attempted: number;
+  /** Per-source split, e.g. "Mock tests 62% (8) · Practice 40% (12)". */
+  sources?: string;
+  note?: string;
+  repeated?: number;
+  avgTimeSec?: number | null;
 }
 
-function statusFor(accuracy: number): TopicDisplayRow['status'] {
+function statusFor(accuracy: number, attempted: number): TopicDisplayRow['status'] {
+  if (attempted < WEAK_MIN_ATTEMPTS) return 'Insufficient data';
   return accuracy < WEAK_THRESHOLD ? 'Weak' : accuracy < STRONG_THRESHOLD ? 'Average' : 'Strong';
 }
 
 const TopicRow = memo(function TopicRow({ topic, delay }: { topic: TopicDisplayRow; delay: number }) {
-  const statusColor = topic.status === 'Weak' ? '#ef4444' : topic.status === 'Average' ? '#f59e0b' : '#22c55e';
+  const rated = topic.status !== 'Insufficient data';
+  const statusColor = topic.status === 'Weak' ? '#ef4444' : topic.status === 'Average' ? '#f59e0b' : topic.status === 'Strong' ? '#22c55e' : '#94a3b8';
   return (
-    <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay }} className="card p-4">
+    <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay }} className="card p-4" data-testid="weak-topic-row" data-status={topic.status}>
       <div className="flex items-center justify-between mb-2">
         <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>{topic.topicName}</p>
         <span className="text-xs font-semibold px-2 py-0.5 rounded-full" style={{ background: `${statusColor}20`, color: statusColor }}>
@@ -147,9 +158,15 @@ const TopicRow = memo(function TopicRow({ topic, delay }: { topic: TopicDisplayR
         </span>
       </div>
       <div className="h-1.5 rounded-full overflow-hidden mb-2" style={{ background: 'var(--border)' }}>
-        <div className="h-full rounded-full" style={{ width: `${topic.accuracy}%`, background: statusColor }} />
+        <div className="h-full rounded-full" style={{ width: `${topic.accuracy ?? 0}%`, background: statusColor, opacity: rated ? 1 : 0.5 }} />
       </div>
-      <p className="text-xs" style={{ color: 'var(--text-muted)' }}>{topic.accuracy}% accuracy · {topic.attempted} attempted</p>
+      <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
+        {topic.accuracy ?? '–'}% accuracy · {topic.attempted} attempted
+        {topic.repeated ? ` · ${topic.repeated} question${topic.repeated === 1 ? '' : 's'} missed repeatedly` : ''}
+        {topic.avgTimeSec ? ` · ${topic.avgTimeSec}s avg` : ''}
+      </p>
+      {topic.sources && <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>{topic.sources}</p>}
+      {topic.note && <p className="text-xs mt-1" style={{ color: '#d97706' }}>{topic.note}</p>}
     </motion.div>
   );
 });
@@ -277,15 +294,22 @@ export default function ReviewCenterPage() {
     let cancelled = false;
     setLoadingWeak(true);
     (async () => {
-      const ledgerTopics = await getTopicPerformance();
-      const rows: TopicDisplayRow[] = ledgerTopics
-        .filter((t) => t.attempted > 0)
-        .map((t) => {
-          const topicName = getTopicDisplayName(t.subjectId, t.topicId);
-          const accuracy = Math.round((t.correct / t.attempted) * 100);
-          return { topicId: t.topicId, topicName, accuracy, attempted: t.attempted, status: statusFor(accuracy) };
-        });
+      // One unified analysis over every ledger source (practice, topic/chapter tests, mocks, daily files),
+      // de-duplicated, with a minimum-sample rule — see services/reviewAnalytics.ts.
+      const ledger = computeWeakTopics(await universalAttemptsDB.getAll());
+      const rows: TopicDisplayRow[] = ledger.map((t) => ({
+        topicId: t.topicId,
+        topicName: getTopicDisplayName(t.subjectId, t.topicId),
+        accuracy: t.accuracy === null ? null : Math.round(t.accuracy),
+        attempted: t.attempted,
+        status: t.status,
+        repeated: t.repeatedMistakeQuestions,
+        avgTimeSec: t.avgTimeSec,
+        note: t.note,
+        sources: t.bySource.length > 1 ? t.bySource.map((s) => `${SOURCE_LABELS[s.source]} ${s.accuracy === null ? '–' : Math.round(s.accuracy)}% (${s.attempted})`).join(' · ') : undefined,
+      }));
 
+      // Older chapter history that predates the ledger has no per-attempt rows; it fills gaps only, under the same sample rule.
       const ledgerTopicIds = new Set(rows.map((r) => r.topicId));
       const byChapter = new Map<string, { correct: number; total: number; attempts: number }>();
       for (const row of chapterStats) {
@@ -301,11 +325,12 @@ export default function ReviewCenterPage() {
         if (topicId && ledgerTopicIds.has(topicId)) continue; // ledger already has this topic — don't double-count
         const topicName = topicId ? getTopicDisplayName('current-affairs', topicId) : chapterName;
         const accuracy = Math.round((agg.correct / agg.total) * 100);
-        rows.push({ topicId: topicId ?? chapterName, topicName, accuracy, attempted: agg.attempts, status: statusFor(accuracy) });
+        rows.push({ topicId: topicId ?? chapterName, topicName, accuracy, attempted: agg.total, status: statusFor(accuracy, agg.total), note: agg.total < WEAK_MIN_ATTEMPTS ? `Only ${agg.total} answered — ${WEAK_MIN_ATTEMPTS} are needed before this topic is rated.` : undefined });
       }
 
-      // Weakest first — matches master prompt §33/§86 (surface what needs attention).
-      rows.sort((a, b) => a.accuracy - b.accuracy);
+      // Weak first, then by how weak; topics without enough data go last.
+      const rank = { Weak: 0, Average: 1, Strong: 2, 'Insufficient data': 3 } as const;
+      rows.sort((a, b) => rank[a.status] - rank[b.status] || (a.accuracy ?? 101) - (b.accuracy ?? 101));
       if (!cancelled) setWeakTopics(rows);
     })().finally(() => { if (!cancelled) setLoadingWeak(false); });
     return () => { cancelled = true; };
@@ -348,6 +373,7 @@ export default function ReviewCenterPage() {
     { key: 'marked', label: 'Marked For Review', icon: <Flag size={14} />, count: markedReviewItems.length, accent: 'border-l-amber-500' },
     { key: 'recent', label: 'Recently Attempted', icon: <HistoryIcon size={14} />, count: recentItems.length, accent: 'border-l-blue-500' },
     { key: 'weak', label: 'Weak Topics', icon: <TrendingDown size={14} />, count: weakTopics.filter((t) => t.status === 'Weak').length, accent: 'border-l-orange-500' },
+    { key: 'insights', label: 'Insights', icon: <TrendingDown size={14} />, count: 0, accent: 'border-l-indigo-500' },
     { key: 'unattempted', label: 'Unattempted', icon: <Layers size={14} />, count: unattemptedCount ?? 0, accent: 'border-l-teal-500' },
   ];
 
@@ -437,6 +463,8 @@ export default function ReviewCenterPage() {
             </button>
           </motion.div>
         )
+      ) : tab === 'insights' ? (
+        <ReviewInsightsPanel />
       ) : tab === 'weak' ? (
         loadingWeak ? (
           <div className="space-y-3">

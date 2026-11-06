@@ -1,0 +1,1318 @@
+[
+  {
+    "id": "geometry001",
+    "subjectId": "math",
+    "question": "एक चतुर्भुज ABCD में, रेखाखंड BD एक विकर्ण है। यदि AB = CD और ∠ABD = ∠CDB है, तो क्या त्रिभुज ABD और CDB सर्वांगसम हैं? यदि हाँ, तो किस नियम से?",
+    "options": [
+      {
+        "id": "A",
+        "text": "हाँ, SSS द्वारा"
+      },
+      {
+        "id": "B",
+        "text": "हाँ, SAS द्वारा"
+      },
+      {
+        "id": "C",
+        "text": "हाँ, ASA द्वारा"
+      },
+      {
+        "id": "D",
+        "text": "नहीं, वे सर्वांगसम नहीं हैं"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "AB = CD दिया है, BD दोनों त्रिभुजों की उभयनिष्ठ भुजा है और इनके बीच के कोण ∠ABD तथा ∠CDB बराबर हैं। इसलिए दोनों त्रिभुज SAS नियम से सर्वांगसम हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry002",
+    "subjectId": "math",
+    "question": "यदि ΔLMN और ΔOPQ में ∠L = ∠O, LM = OP और ∠M = ∠P है, तो ΔLMN ≅ ΔOPQ किस नियम से सिद्ध होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SSS"
+      },
+      {
+        "id": "B",
+        "text": "SAS"
+      },
+      {
+        "id": "C",
+        "text": "ASA"
+      },
+      {
+        "id": "D",
+        "text": "AAS"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "triangle-geometry",
+    "difficulty": "easy",
+    "explanation": "दो संगत कोण और उनके बीच की भुजा बराबर दी गई है। इसलिए सर्वांगसमता का नियम ASA होगा।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry003",
+    "subjectId": "math",
+    "question": "यदि दो समकोण त्रिभुजों के कर्ण और एक संगत भुजा बराबर हों, तो वे किस नियम से सर्वांगसम होंगे?",
+    "options": [
+      {
+        "id": "A",
+        "text": "वे हमेशा सर्वांगसम नहीं होंगे"
+      },
+      {
+        "id": "B",
+        "text": "RHS नियम से सर्वांगसम"
+      },
+      {
+        "id": "C",
+        "text": "ASA नियम से सर्वांगसम"
+      },
+      {
+        "id": "D",
+        "text": "समान होंगे, लेकिन सर्वांगसम नहीं"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "triangle-geometry",
+    "difficulty": "easy",
+    "explanation": "दोनों त्रिभुज समकोण हैं तथा उनके कर्ण और एक संगत भुजा बराबर हैं। अतः RHS सर्वांगसमता नियम लागू होगा।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry004",
+    "subjectId": "math",
+    "question": "एक सर्वेक्षक को नदियों से बने दो त्रिभुज मिलते हैं। त्रिभुज A के कोण 40°, 60°, 80° हैं और त्रिभुज B के कोण भी 40°, 60°, 80° हैं, लेकिन उनकी भुजाओं की लंबाइयाँ अलग-अलग हैं। क्या दोनों त्रिभुज सर्वांगसम हो सकते हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RHS नियम से सर्वांगसम"
+      },
+      {
+        "id": "B",
+        "text": "सर्वांगसम नहीं"
+      },
+      {
+        "id": "C",
+        "text": "ASA नियम से सर्वांगसम"
+      },
+      {
+        "id": "D",
+        "text": "SSS नियम से सर्वांगसम"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "triangle-geometry",
+    "difficulty": "easy",
+    "explanation": "सभी संगत कोण बराबर होने से त्रिभुज समरूप होते हैं, पर भुजाओं की लंबाइयाँ अलग होने पर वे सर्वांगसम नहीं होते।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry005",
+    "subjectId": "math",
+    "question": "एक ΔABC में BC पर बिंदु D और E इस प्रकार हैं कि AD = AE तथा ΔBAD ≅ ΔCAE है। यदि AB = (2p + 3) इकाई, BD = 2p इकाई, AC = (3q − 1) इकाई और CE = q इकाई है, तो (p + q) का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "सर्वांगसमता से AB = AC और BD = CE। इसलिए 2p + 3 = 3q − 1 तथा 2p = q। हल करने पर p = 1 और q = 2 मिलता है। अतः p + q = 3।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry006",
+    "subjectId": "math",
+    "question": "त्रिभुज XYZ में YZ के समानांतर एक रेखा XZ को A पर तथा XY को B पर प्रतिच्छेद करती है। यदि XA = 2 cm, AZ = 6 cm और XB = 3 cm है, तो BY ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "7 cm"
+      },
+      {
+        "id": "B",
+        "text": "19 cm"
+      },
+      {
+        "id": "C",
+        "text": "9 cm"
+      },
+      {
+        "id": "D",
+        "text": "6 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "AB ∥ YZ होने से थेल्स प्रमेय के अनुसार XA/AZ = XB/BY। अतः 2/6 = 3/BY, जिससे BY = 9 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry007",
+    "subjectId": "math",
+    "question": "त्रिभुज ABC में DE, BC के समानांतर है तथा D और E क्रमशः AB और AC पर स्थित हैं। यदि AD : DB = 2 : 3 और BC = 35 cm है, तो DE ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 cm"
+      },
+      {
+        "id": "B",
+        "text": "14 cm"
+      },
+      {
+        "id": "C",
+        "text": "16 cm"
+      },
+      {
+        "id": "D",
+        "text": "21 cm"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "triangle-geometry",
+    "difficulty": "easy",
+    "explanation": "AD/AB = 2/(2+3) = 2/5। समान त्रिभुजों से DE/BC = 2/5। अतः DE = 35 × 2/5 = 14 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry008",
+    "subjectId": "math",
+    "question": "ΔABC में DE ∥ AB है, जहाँ D और E क्रमशः AC और BC पर स्थित हैं। C और D के बीच बिंदु F इस प्रकार है कि EF ∥ BD। यदि AD = 15 cm और DC = 10 cm है, तो CF की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "3 cm"
+      },
+      {
+        "id": "B",
+        "text": "7.5 cm"
+      },
+      {
+        "id": "C",
+        "text": "5 cm"
+      },
+      {
+        "id": "D",
+        "text": "4 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "AC = AD + DC = 25 cm। DE ∥ AB से CE/CB = CD/CA = 10/25 = 2/5। EF ∥ BD से CF/CD = CE/CB = 2/5। इसलिए CF = 10 × 2/5 = 4 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry009",
+    "subjectId": "math",
+    "question": "त्रिभुज ABC का क्षेत्रफल 63 वर्ग इकाई है। दो समानांतर रेखाएँ DE और FG, AB तथा AC को तीन बराबर भागों में विभाजित करती हैं। चतुर्भुज DEFG का क्षेत्रफल कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "28 वर्ग इकाई"
+      },
+      {
+        "id": "B",
+        "text": "35 वर्ग इकाई"
+      },
+      {
+        "id": "C",
+        "text": "21 वर्ग इकाई"
+      },
+      {
+        "id": "D",
+        "text": "48 वर्ग इकाई"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "शीर्ष A से DE और FG तक बने छोटे त्रिभुजों की भुजाएँ क्रमशः मूल त्रिभुज की 1/3 और 2/3 हैं। उनके क्षेत्रफल 63/9 = 7 तथा 63 × 4/9 = 28 हैं। अतः DEFG का क्षेत्रफल 28 − 7 = 21 वर्ग इकाई है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry010",
+    "subjectId": "math",
+    "question": "ΔXYZ में L और M क्रमशः भुजाओं XY और XZ के मध्य-बिंदु हैं। N, रेखाखंड LM पर ऐसा बिंदु है कि LN : NM = 1 : 2 है। यदि LN = 5 cm है, तो YZ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "30 cm"
+      },
+      {
+        "id": "B",
+        "text": "24 cm"
+      },
+      {
+        "id": "C",
+        "text": "28 cm"
+      },
+      {
+        "id": "D",
+        "text": "26 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "triangle-geometry",
+    "difficulty": "easy",
+    "explanation": "LN : NM = 1 : 2 और LN = 5 cm, इसलिए NM = 10 cm तथा LM = 15 cm। मध्यबिंदु प्रमेय से LM = YZ/2। अतः YZ = 30 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry011",
+    "subjectId": "math",
+    "question": "त्रिभुज ABC में G केंद्रक है। CF, AD और BE क्रमशः भुजाओं AB, BC और CA पर माध्यिकाएँ हैं। यदि त्रिभुज BGF का क्षेत्रफल 24 cm² है, तो त्रिभुज ABC का क्षेत्रफल ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "24 cm²"
+      },
+      {
+        "id": "B",
+        "text": "48 cm²"
+      },
+      {
+        "id": "C",
+        "text": "144 cm²"
+      },
+      {
+        "id": "D",
+        "text": "72 cm²"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "तीनों माध्यिकाएँ त्रिभुज को छह बराबर क्षेत्रफल वाले छोटे त्रिभुजों में बाँटती हैं। ΔBGF उनमें से एक है और उसका क्षेत्रफल कुल क्षेत्रफल का 1/6 है। अतः ABC का क्षेत्रफल = 24 × 6 = 144 cm²।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry012",
+    "subjectId": "math",
+    "question": "ABC एक त्रिभुज है जिसमें AB = 12 cm और AC = 18 cm है। BC पर D ऐसा बिंदु है कि BD = CD। यदि त्रिभुज का परिमाप 48 cm है, तो AD की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "2√11 cm"
+      },
+      {
+        "id": "B",
+        "text": "√15 cm"
+      },
+      {
+        "id": "C",
+        "text": "√22 cm"
+      },
+      {
+        "id": "D",
+        "text": "3√17 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "BC = 48 − 12 − 18 = 18 cm और D, BC का मध्यबिंदु है। माध्यिका सूत्र से AD = 1/2 √(2×12² + 2×18² − 18²) = 3√17 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry013",
+    "subjectId": "math",
+    "question": "त्रिभुज PQR में दो माध्यिकाएँ PS और QT, बिंदु X पर एक-दूसरे को समकोण पर प्रतिच्छेद करती हैं। यदि PS = 18 cm और QT = 7.5 cm है, तो PQ की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "11 cm"
+      },
+      {
+        "id": "B",
+        "text": "17 cm"
+      },
+      {
+        "id": "C",
+        "text": "13 cm"
+      },
+      {
+        "id": "D",
+        "text": "10 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "केंद्रक X प्रत्येक माध्यिका को शीर्ष से 2:1 में बाँटता है। इसलिए PX = 12 cm और QX = 5 cm। ∠PXQ = 90° होने से PQ = √(12² + 5²) = 13 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry014",
+    "subjectId": "math",
+    "question": "एक समकोण त्रिभुज XYZ में ∠Y = 90° है। W, भुजा YZ का मध्य-बिंदु है। यदि XY = 8√3 cm और XZ = 16 cm है, तो XW की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "√5 cm"
+      },
+      {
+        "id": "B",
+        "text": "2√3 cm"
+      },
+      {
+        "id": "C",
+        "text": "4√13 cm"
+      },
+      {
+        "id": "D",
+        "text": "√9 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "पाइथागोरस प्रमेय से YZ = √(16² − (8√3)²) = 8 cm। W मध्य-बिंदु है, इसलिए YW = 4 cm। अतः XW = √((8√3)² + 4²) = 4√13 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry015",
+    "subjectId": "math",
+    "question": "सुश्री अय्यर एक त्रिभुजाकार उद्यान बना रही हैं जिसकी भुजाएँ AB = 10 m और AC = 8 m हैं। शीर्ष A से विपरीत भुजा BC पर खींची गई माध्यिका 7 m लंबी है। उद्यान के केंद्रक तक शीर्ष A की दूरी ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "2.5 m"
+      },
+      {
+        "id": "B",
+        "text": "4.67 m"
+      },
+      {
+        "id": "C",
+        "text": "6.8 m"
+      },
+      {
+        "id": "D",
+        "text": "5.2 m"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "triangle-geometry",
+    "difficulty": "easy",
+    "explanation": "केंद्रक माध्यिका को शीर्ष की ओर से 2:1 के अनुपात में बाँटता है। अतः A से केंद्रक की दूरी = (2/3) × 7 = 14/3 ≈ 4.67 m।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry016",
+    "subjectId": "math",
+    "question": "ΔABC में माध्यिकाओं AD, BE और CF की लंबाइयाँ क्रमशः 9 cm, 12 cm और 15 cm हैं। ΔABC का क्षेत्रफल ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "64 cm²"
+      },
+      {
+        "id": "B",
+        "text": "52 cm²"
+      },
+      {
+        "id": "C",
+        "text": "72 cm²"
+      },
+      {
+        "id": "D",
+        "text": "85 cm²"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "triangle-geometry",
+    "difficulty": "hard",
+    "explanation": "माध्यिकाओं से बना त्रिभुज 9, 12, 15 भुजाओं वाला समकोण त्रिभुज है, जिसका क्षेत्रफल 1/2 × 9 × 12 = 54 cm² है। मूल त्रिभुज का क्षेत्रफल इसका 4/3 गुना होता है। अतः क्षेत्रफल = 72 cm²।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry017",
+    "subjectId": "math",
+    "question": "ABC एक त्रिभुज है जिसका केंद्रक O है। CF, AE और BD क्रमशः AB, BC और CA की माध्यिकाएँ हैं। यदि ∠COE = 45°, CF = 18 cm और AE = 24 cm है, तो त्रिभुज ABC का क्षेत्रफल ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "70√3 cm²"
+      },
+      {
+        "id": "B",
+        "text": "144√2 cm²"
+      },
+      {
+        "id": "C",
+        "text": "90√3 cm²"
+      },
+      {
+        "id": "D",
+        "text": "102√2 cm²"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "triangle-geometry",
+    "difficulty": "hard",
+    "explanation": "केंद्रक माध्यिका को 2:1 में बाँटता है, इसलिए CO = 12 cm और OE = 8 cm। ΔCOE का क्षेत्रफल = 1/2 × 12 × 8 × sin45° = 24√2 cm²। यह ABC के क्षेत्रफल का 1/6 है। अतः ABC का क्षेत्रफल = 144√2 cm²।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry018",
+    "subjectId": "math",
+    "question": "13 m, 14 m और 15 m भुजाओं वाले त्रिभुजाकार बगीचे के अंदर एक वृत्ताकार स्प्रिंकलर इस प्रकार रखा गया है कि वह तीनों भुजाओं को स्पर्श करता है। स्प्रिंकलर की त्रिज्या कितनी होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 m"
+      },
+      {
+        "id": "B",
+        "text": "3.5 m"
+      },
+      {
+        "id": "C",
+        "text": "4.5 m"
+      },
+      {
+        "id": "D",
+        "text": "5 m"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "अर्धपरिमाप s = 21 m। हीरोन सूत्र से क्षेत्रफल = √(21×8×7×6) = 84 m²। अंतःत्रिज्या r = क्षेत्रफल/s = 84/21 = 4 m।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry019",
+    "subjectId": "math",
+    "question": "त्रिभुज ABC में ∠B और ∠C के आंतरिक समद्विभाजक O पर मिलते हैं। यदि भुजा BA को बढ़ाने पर शीर्ष A पर बना बाह्य कोण 130° है, तो ∠BOC का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "115°"
+      },
+      {
+        "id": "B",
+        "text": "120°"
+      },
+      {
+        "id": "C",
+        "text": "110°"
+      },
+      {
+        "id": "D",
+        "text": "125°"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "A पर बाह्य कोण 130° है, इसलिए आंतरिक ∠A = 50°। अंतःकेंद्र पर ∠BOC = 90° + A/2 = 90° + 25° = 115°।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry020",
+    "subjectId": "math",
+    "question": "ΔABC में एक वृत्त AB, BC और AC को क्रमशः P, Q और R बिंदुओं पर स्पर्श करता है। यदि AB − BC = 4 cm, AB − AC = 2 cm और त्रिभुज ABC का परिमाप 36 cm है, तो PB + AR का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 cm"
+      },
+      {
+        "id": "B",
+        "text": "10 cm"
+      },
+      {
+        "id": "C",
+        "text": "14 cm"
+      },
+      {
+        "id": "D",
+        "text": "15 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "triangle-geometry",
+    "difficulty": "hard",
+    "explanation": "एक ही बाहरी बिंदु से खींची गई स्पर्श रेखाएँ बराबर होती हैं। मान लें AP = AR = x, BP = BQ = y और CQ = CR = z। तब x−z=4, y−z=2 तथा x+y+z=18। हल से x=8 और y=6, इसलिए PB+AR = 14 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry021",
+    "subjectId": "math",
+    "question": "5 और 12 लंबाई वाली लम्ब भुजाओं के एक समकोण त्रिभुज में एक वृत्त अंतःस्थित है। दोनों लम्ब भुजाओं तथा उन पर स्पर्श बिंदुओं तक खींची गई दो त्रिज्याओं से बने चतुर्भुज का क्षेत्रफल कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4 वर्ग इकाई"
+      },
+      {
+        "id": "B",
+        "text": "14 वर्ग इकाई"
+      },
+      {
+        "id": "C",
+        "text": "23 वर्ग इकाई"
+      },
+      {
+        "id": "D",
+        "text": "24 वर्ग इकाई"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "त्रिभुज की कर्ण 13 है। अंतःत्रिज्या r = (5+12−13)/2 = 2। समकोण शीर्ष, दोनों स्पर्श बिंदुओं और केंद्र से बना चतुर्भुज 2 भुजा वाला वर्ग है। इसका क्षेत्रफल = 2² = 4 वर्ग इकाई।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry022",
+    "subjectId": "math",
+    "question": "मान लीजिए त्रिभुज ABC, 4 cm त्रिज्या वाले एक वृत्त को परिगत करता है। रेखाखंड BD और DC की लंबाइयाँ क्रमशः 8 cm और 6 cm हैं, जहाँ D, BC पर स्पर्श बिंदु है। भुजाओं AB और AC की लंबाइयाँ ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 cm, 13 cm"
+      },
+      {
+        "id": "B",
+        "text": "18 cm, 12 cm"
+      },
+      {
+        "id": "C",
+        "text": "19 cm, 12 cm"
+      },
+      {
+        "id": "D",
+        "text": "22 cm, 18 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "triangle-geometry",
+    "difficulty": "hard",
+    "explanation": "स्पर्श रेखाओं के गुण से B और C से खींची गई स्पर्श लंबाइयाँ 8 और 6 हैं। A से दोनों स्पर्श लंबाइयों को x मानें। तब AB=x+8, AC=x+6 और BC=14। r=4 तथा Heron सूत्र से क्षेत्रफल² = s(s−AB)(s−AC)(s−BC), जबकि क्षेत्रफल=4s। हल करने पर x=7 मिलता है। अतः AB=15 cm और AC=13 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry023",
+    "subjectId": "math",
+    "question": "यदि किसी त्रिभुज में एक अधिक कोण है, तो उसका परिकेंद्र कहाँ स्थित होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "त्रिभुज की सबसे लंबी भुजा पर"
+      },
+      {
+        "id": "B",
+        "text": "अधिक कोण के शीर्ष पर"
+      },
+      {
+        "id": "C",
+        "text": "त्रिभुज के अंदर"
+      },
+      {
+        "id": "D",
+        "text": "त्रिभुज के बाहर"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "triangle-geometry",
+    "difficulty": "easy",
+    "explanation": "अधिक कोण वाले त्रिभुज का परिकेंद्र त्रिभुज के बाहर स्थित होता है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry024",
+    "subjectId": "math",
+    "question": "6 cm, 8 cm और 10 cm भुजाओं वाले त्रिभुज के शीर्षों से गुजरने वाले वृत्त की त्रिज्या कितनी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5 cm"
+      },
+      {
+        "id": "B",
+        "text": "6 cm"
+      },
+      {
+        "id": "C",
+        "text": "7 cm"
+      },
+      {
+        "id": "D",
+        "text": "8 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "triangle-geometry",
+    "difficulty": "easy",
+    "explanation": "6² + 8² = 10², इसलिए त्रिभुज समकोण है। समकोण त्रिभुज के परिकेंद्र की त्रिज्या कर्ण की आधी होती है। अतः R = 10/2 = 5 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry025",
+    "subjectId": "math",
+    "question": "ΔABC में परिकेंद्र O पर स्थित है और भुजाओं की लंबाइयाँ a, b, c हैं। O से दूरियों के बारे में निम्नलिखित में से कौन-सा कथन सत्य है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "O से भुजा a की दूरी, O से शीर्ष A की दूरी के बराबर है"
+      },
+      {
+        "id": "B",
+        "text": "O से भुजा a और भुजा b की दूरियाँ बराबर हैं"
+      },
+      {
+        "id": "C",
+        "text": "O से शीर्ष A की दूरी, O से शीर्ष B की दूरी की दोगुनी है"
+      },
+      {
+        "id": "D",
+        "text": "O से शीर्ष B और शीर्ष C की दूरियाँ बराबर हैं"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "triangle-geometry",
+    "difficulty": "easy",
+    "explanation": "परिकेंद्र वृत्त के केंद्र पर स्थित होता है और तीनों शीर्षों से इसकी दूरी समान होती है। इसलिए OB = OC (और OA भी इनके बराबर है)।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry026",
+    "subjectId": "math",
+    "question": "एक न्यूनकोण त्रिभुज PQR में O और C क्रमशः लंबकेंद्र और परिकेंद्र हैं। यदि ∠QCR = 138° है तथा P से QR पर लंब PM डाला गया है, और ∠PQR = 52° है, तो ∠RPM का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "38°"
+      },
+      {
+        "id": "B",
+        "text": "42°"
+      },
+      {
+        "id": "C",
+        "text": "69°"
+      },
+      {
+        "id": "D",
+        "text": "31°"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "परिकेंद्र पर केंद्रीय कोण ∠QCR = 138° है, इसलिए उसी चाप पर बना ∠QPR = 69°। अतः ∠PRQ = 180°−69°−52° = 59°। PM ⟂ QR होने से ∠RPM = 90°−59° = 31°।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry027",
+    "subjectId": "math",
+    "question": "यदि किसी त्रिभुज का लंबकेंद्र और केंद्रक संपाती हों, तो वह त्रिभुज कैसा होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "विषमबाहु"
+      },
+      {
+        "id": "B",
+        "text": "समकोण"
+      },
+      {
+        "id": "C",
+        "text": "समबाहु"
+      },
+      {
+        "id": "D",
+        "text": "समद्विबाहु"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "triangle-geometry",
+    "difficulty": "easy",
+    "explanation": "किसी त्रिभुज में लंबकेंद्र और केंद्रक का एक ही बिंदु पर होना तभी संभव है जब त्रिभुज समबाहु हो।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry028",
+    "subjectId": "math",
+    "question": "एक समकोण त्रिभुज में लंबकेंद्र कहाँ स्थित होता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "त्रिभुज के बाहर"
+      },
+      {
+        "id": "B",
+        "text": "कर्ण के मध्य-बिंदु पर"
+      },
+      {
+        "id": "C",
+        "text": "केंद्रक पर"
+      },
+      {
+        "id": "D",
+        "text": "समकोण वाले शीर्ष पर"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "triangle-geometry",
+    "difficulty": "easy",
+    "explanation": "समकोण त्रिभुज की दोनों लम्ब भुजाएँ ही एक-दूसरे की ऊँचाइयाँ होती हैं और वे समकोण वाले शीर्ष पर मिलती हैं। इसलिए लंबकेंद्र वहीं होता है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry029",
+    "subjectId": "math",
+    "question": "ΔPMN में ∠P = 76° है। M और N पर बाह्य कोणों के समद्विभाजक एक-दूसरे को O पर प्रतिच्छेद करते हैं। ∠MON का मान कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "104°"
+      },
+      {
+        "id": "B",
+        "text": "52°"
+      },
+      {
+        "id": "C",
+        "text": "38°"
+      },
+      {
+        "id": "D",
+        "text": "128°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "M और N के बाह्य कोणों के समद्विभाजकों के प्रतिच्छेद से बने कोण का मान 90° − ∠P/2 होता है। अतः ∠MON = 90° − 38° = 52°।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry030",
+    "subjectId": "math",
+    "question": "एक समकोण त्रिभुज ABC में ∠B = 90° है। यदि AB = 6 cm और BC = 8 cm है, तो केंद्रक G और लंबकेंद्र H के बीच की दूरी कितनी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10/3 cm"
+      },
+      {
+        "id": "B",
+        "text": "8 cm"
+      },
+      {
+        "id": "C",
+        "text": "20/3 cm"
+      },
+      {
+        "id": "D",
+        "text": "5 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "triangle-geometry",
+    "difficulty": "easy",
+    "explanation": "कर्ण AC = √(6²+8²) = 10 cm। समकोण त्रिभुज में लंबकेंद्र H, B पर होता है और कर्ण पर माध्यिका की लंबाई 5 cm है। केंद्रक माध्यिका को 2:1 में बाँटता है, इसलिए BG = (2/3)×5 = 10/3 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry031",
+    "subjectId": "math",
+    "question": "समकोण त्रिभुज PQR में ∠Q = 90° है। यदि PQ = 4 cm और QR = 6 cm है, तो त्रिभुज के लंबकेंद्र से शीर्ष P से खींची गई माध्यिका की लंबवत दूरी ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "2.4 cm"
+      },
+      {
+        "id": "B",
+        "text": "3.2 cm"
+      },
+      {
+        "id": "C",
+        "text": "4.8 cm"
+      },
+      {
+        "id": "D",
+        "text": "5.0 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "समकोण शीर्ष Q ही लंबकेंद्र है। QR का मध्य-बिंदु S लेने पर PS = √(4²+3²) = 5 cm। ΔPQS का क्षेत्रफल = 1/2×4×3 = 6 cm²। Q से PS की दूरी = 2×6/5 = 2.4 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry032",
+    "subjectId": "math",
+    "question": "12 cm, 35 cm और 37 cm भुजाओं वाले त्रिभुज के लंबकेंद्र और परिकेंद्र के बीच की दूरी कितनी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "17.5 cm"
+      },
+      {
+        "id": "B",
+        "text": "15 cm"
+      },
+      {
+        "id": "C",
+        "text": "18.5 cm"
+      },
+      {
+        "id": "D",
+        "text": "8√5 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "triangle-geometry",
+    "difficulty": "easy",
+    "explanation": "12² + 35² = 37², इसलिए यह समकोण त्रिभुज है। लंबकेंद्र समकोण शीर्ष पर और परिकेंद्र कर्ण के मध्य-बिंदु पर होता है। दोनों के बीच की दूरी कर्ण की आधी = 37/2 = 18.5 cm है।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry033",
+    "subjectId": "math",
+    "question": "त्रिभुज ABC में लंबकेंद्र O और अंतःकेंद्र I है। यदि ∠BIC − ∠BOC = 90° है, तो ∠A का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "100°"
+      },
+      {
+        "id": "B",
+        "text": "90°"
+      },
+      {
+        "id": "C",
+        "text": "110°"
+      },
+      {
+        "id": "D",
+        "text": "120°"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "triangle-geometry",
+    "difficulty": "hard",
+    "explanation": "अंतःकेंद्र के लिए ∠BIC = 90° + A/2 तथा लंबकेंद्र के लिए ∠BOC = 180° − A। दिए गए अंतर से (90°+A/2)−(180°−A)=90°। हल करने पर A=120°।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry034",
+    "subjectId": "math",
+    "question": "त्रिभुज PQR में QE ⟂ PR और RD ⟂ PQ हैं। RD और QE, O पर प्रतिच्छेद करते हैं। ∠OQR और ∠ORQ के समद्विभाजक M पर मिलते हैं। यदि ∠QMR = 138° है, तो निम्नलिखित में से कौन-सा कथन सत्य है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "∠ROQ = 116°"
+      },
+      {
+        "id": "B",
+        "text": "∠DPE = 84°"
+      },
+      {
+        "id": "C",
+        "text": "∠PQR + ∠PRQ = 120°"
+      },
+      {
+        "id": "D",
+        "text": "∠EOD एक समकोण है"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "triangle-geometry",
+    "difficulty": "hard",
+    "explanation": "M, त्रिभुज QOR का अंतःकेंद्र है। इसलिए ∠QOR = 2×138°−180° = 96°। O लंबकेंद्र है, अतः ∠QOR = 180°−∠QPR। इसलिए ∠QPR = 84°। D और E क्रमशः PQ और PR पर हैं, इसलिए ∠DPE = ∠QPR = 84°।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry035",
+    "subjectId": "math",
+    "question": "त्रिभुज PQR में PX, QY और RZ ऊँचाइयाँ O पर प्रतिच्छेद करती हैं। यदि PO = 6 cm, PX = 8 cm और QO = 4 cm है, तो QY का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6.3 cm"
+      },
+      {
+        "id": "B",
+        "text": "5.8 cm"
+      },
+      {
+        "id": "C",
+        "text": "6 cm"
+      },
+      {
+        "id": "D",
+        "text": "7 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "PX पर OX = PX−PO = 2 cm। लंबकेंद्र के लिए PO×OX = QO×OY, इसलिए 6×2 = 4×OY और OY = 3 cm। अतः QY = QO+OY = 4+3 = 7 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry036",
+    "subjectId": "math",
+    "question": "दी गई आकृति में ABC एक त्रिभुज है। आंतरिक ∠B तथा बाह्य ∠C के समद्विभाजक D पर प्रतिच्छेद करते हैं। यदि ∠BDC = 48° है, तो ∠A का मान (डिग्री में) क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "48°"
+      },
+      {
+        "id": "B",
+        "text": "96°"
+      },
+      {
+        "id": "C",
+        "text": "100°"
+      },
+      {
+        "id": "D",
+        "text": "114°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "आंतरिक ∠B और बाह्य ∠C के समद्विभाजकों के प्रतिच्छेद पर ∠BDC = A/2 होता है। अतः A = 2×48° = 96°।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry037",
+    "subjectId": "math",
+    "question": "ΔABC में ∠A = 90° है और AD, BC पर शीर्षलंब है। यदि AB = 15 cm और AC = 20 cm है, तो AD की लंबाई क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9 cm"
+      },
+      {
+        "id": "B",
+        "text": "12 cm"
+      },
+      {
+        "id": "C",
+        "text": "15 cm"
+      },
+      {
+        "id": "D",
+        "text": "25 cm"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "triangle-geometry",
+    "difficulty": "easy",
+    "explanation": "BC = √(15²+20²) = 25 cm। समकोण त्रिभुज का क्षेत्रफल बराबर रखने पर 1/2×15×20 = 1/2×25×AD। अतः AD = 12 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry038",
+    "subjectId": "math",
+    "question": "ΔABC में ∠BAC = 90° और AD ⟂ BC है। यदि BD = 4 cm और CD = 5 cm है, तो AD की लंबाई क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5√2 cm"
+      },
+      {
+        "id": "B",
+        "text": "2√5 cm"
+      },
+      {
+        "id": "C",
+        "text": "6 cm"
+      },
+      {
+        "id": "D",
+        "text": "4.5 cm"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "triangle-geometry",
+    "difficulty": "easy",
+    "explanation": "समकोण त्रिभुज में कर्ण पर डाले गए शीर्षलंब के लिए AD² = BD×DC। इसलिए AD = √(4×5) = 2√5 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry039",
+    "subjectId": "math",
+    "question": "एक समकोण त्रिभुज ABC, 10 cm व्यास वाले वृत्त के अंदर अंकित है। शीर्ष B से कर्ण AC तक शीर्षलंब BD खींचा गया है। यदि AB = 6 cm है, तो AD की लंबाई क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3.6 cm"
+      },
+      {
+        "id": "B",
+        "text": "4 cm"
+      },
+      {
+        "id": "C",
+        "text": "4.8 cm"
+      },
+      {
+        "id": "D",
+        "text": "6 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "वृत्त का व्यास कर्ण AC है, इसलिए AC = 10 cm। प्रक्षेप प्रमेय से AB² = AD×AC। अतः AD = 6²/10 = 3.6 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry040",
+    "subjectId": "math",
+    "question": "समकोण त्रिभुज ABC में B पर समकोण है और AB = 18 cm है। BD, AC पर लंब है तथा AC = 2BD है। यदि ∠BAC = ∠BCA है, तो (AC² − BD²) का संख्यात्मक मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "509"
+      },
+      {
+        "id": "B",
+        "text": "412"
+      },
+      {
+        "id": "C",
+        "text": "356"
+      },
+      {
+        "id": "D",
+        "text": "486"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "∠A = ∠C होने से AB = BC = 18 cm और AC = 18√2 cm। दिया है AC = 2BD, इसलिए BD = 9√2 cm। अतः AC²−BD² = 648−162 = 486।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry041",
+    "subjectId": "math",
+    "question": "समकोण त्रिभुज ABC में ∠BAC = 90° है और AD, BC पर लंब है। यदि ΔABC और ΔACD के क्षेत्रफलों का अनुपात 63 : 7 है तथा AC = 5 cm है, तो BC की लंबाई कितनी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 cm"
+      },
+      {
+        "id": "B",
+        "text": "15 cm"
+      },
+      {
+        "id": "C",
+        "text": "18 cm"
+      },
+      {
+        "id": "D",
+        "text": "12 cm"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "ΔABC और ΔACD समरूप हैं। इनके क्षेत्रफलों का अनुपात 63:7 = 9:1 है, इसलिए संगत भुजाओं का अनुपात BC:AC = 3:1 होगा। AC = 5 cm, अतः BC = 15 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry042",
+    "subjectId": "math",
+    "question": "त्रिभुज ABC में AB = 13 cm, AC = 15 cm और आधार BC = 14 cm है। यदि AD एक cevian है जो BC को BD = 5 cm और DC = 9 cm में विभाजित करती है, तो AD की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 cm"
+      },
+      {
+        "id": "B",
+        "text": "11 cm"
+      },
+      {
+        "id": "C",
+        "text": "12 cm"
+      },
+      {
+        "id": "D",
+        "text": "13 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "Stewart प्रमेय से AC²×BD + AB²×DC = BC(AD² + BD×DC)। मान रखने पर 15²×5 + 13²×9 = 14(AD²+45)। हल करने पर AD²=144, इसलिए AD=12 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry043",
+    "subjectId": "math",
+    "question": "त्रिभुज PQR में PQ = 7, PR = 9 और आधार QR = 8 है। यदि S, QR पर ऐसा बिंदु है कि QS = 3 है, तो PS की लंबाई कितनी होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "√41 cm"
+      },
+      {
+        "id": "B",
+        "text": "7 cm"
+      },
+      {
+        "id": "C",
+        "text": "6 cm"
+      },
+      {
+        "id": "D",
+        "text": "√46 cm"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "QS = 3 और SR = 8−3 = 5। Stewart प्रमेय से 9²×3 + 7²×5 = 8(PS² + 3×5)। हल करने पर PS² = 46, इसलिए PS = √46 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry044",
+    "subjectId": "math",
+    "question": "एक समबाहु त्रिभुज ΔPQR में भुजा QR पर S ऐसा बिंदु है कि QR = 3QS। यदि PQ = 9 cm है, तो PS की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "√60 cm"
+      },
+      {
+        "id": "B",
+        "text": "√63 cm"
+      },
+      {
+        "id": "C",
+        "text": "√62 cm"
+      },
+      {
+        "id": "D",
+        "text": "√61 cm"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "समबाहु त्रिभुज में QR = PQ = 9 cm। QR = 3QS से QS = 3 cm और SR = 6 cm। Stewart प्रमेय से PS² = 63, इसलिए PS = √63 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry045",
+    "subjectId": "math",
+    "question": "त्रिभुज ABC में AB = 8 cm और AC = 12 cm है। कोण A का आंतरिक समद्विभाजक AD, आधार BC को D पर काटता है। यदि BD = 4 cm है, तो AD की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 cm"
+      },
+      {
+        "id": "B",
+        "text": "6√2 cm"
+      },
+      {
+        "id": "C",
+        "text": "√96 cm"
+      },
+      {
+        "id": "D",
+        "text": "2√6 cm"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "कोण समद्विभाजक प्रमेय से BD/DC = 8/12 = 2/3। BD = 4 होने पर DC = 6 cm। समद्विभाजक सूत्र से AD² = AB×AC − BD×DC = 96−24 = 72। अतः AD = 6√2 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry046",
+    "subjectId": "math",
+    "question": "त्रिभुज PQR में PQ = 10 cm, PR = 15 cm और आधार QR = 20 cm है। यदि PS, कोण P का समद्विभाजक है, तो PS की लंबाई कितनी होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 cm"
+      },
+      {
+        "id": "B",
+        "text": "√150 cm"
+      },
+      {
+        "id": "C",
+        "text": "3√6 cm"
+      },
+      {
+        "id": "D",
+        "text": "2√6 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "कोण समद्विभाजक प्रमेय से QS:SR = 10:15 = 2:3। QR = 20 होने से QS = 8 और SR = 12। PS² = PQ×PR − QS×SR = 150−96 = 54। इसलिए PS = 3√6 cm।",
+    "language": "hi"
+  },
+  {
+    "id": "geometry047",
+    "subjectId": "math",
+    "question": "त्रिभुज ABC में AB = 6 cm, AC = 8 cm और BC = 7 cm है। यदि AD, कोण A का समद्विभाजक है, तो AD की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "√48 cm"
+      },
+      {
+        "id": "B",
+        "text": "5 cm"
+      },
+      {
+        "id": "C",
+        "text": "6 cm"
+      },
+      {
+        "id": "D",
+        "text": "6.5 cm"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "triangle-geometry",
+    "difficulty": "medium",
+    "explanation": "कोण समद्विभाजक की लंबाई का सूत्र है AD² = AB×AC[1 − BC²/(AB+AC)²]। मान रखने पर AD² = 48[1−49/196] = 36। अतः AD = 6 cm।",
+    "language": "hi"
+  }
+]

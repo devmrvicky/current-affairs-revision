@@ -1,3 +1,4 @@
+import { SpeakExplanationButton } from '../../components/common/SpeakExplanationButton';
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, BarChart, Bar, XAxis, YAxis, CartesianGrid } from 'recharts';
 import { motion } from 'framer-motion';
 import type { AnalysisResult, QuestionAttempt } from '../../types';
@@ -211,6 +212,7 @@ export function QuestionReview({ attempts, filter }: QuestionReviewProps) {
               <p className="text-xs leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
                 {attempt.explanation}
               </p>
+              <SpeakExplanationButton text={attempt.explanation} className="mt-2" />
             </div>
           )}
         </motion.div>

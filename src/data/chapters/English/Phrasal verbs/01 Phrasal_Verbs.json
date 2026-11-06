@@ -1,7 +1,7 @@
 [
   {
     "id": "q001",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nThe organisers decided to ______ the match because of heavy rain.",
+    "question": "Select the option that corrects the underlined expression.\nThe librarian told the students to p̲u̲t̲ ̲o̲n̲ the books on the correct shelves.",
     "options": [
       {
         "id": "A",
@@ -9,25 +9,25 @@
       },
       {
         "id": "B",
-        "text": "put on"
+        "text": "put forward"
       },
       {
         "id": "C",
-        "text": "put out"
+        "text": "put away"
       },
       {
         "id": "D",
-        "text": "put away"
+        "text": "put on"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) put off",
-    "difficulty": "easy",
+    "correctAnswer": "C",
+    "explanation": "Correct answer: C) put away. “put away” means store in the proper place. The underlined expression “put on” is unsuitable because it means wear; also stage or present; the sentence requires the sense “store in the proper place”. Therefore, replace it with “put away”. “put off” means postpone or delay; “put forward” means propose or suggest; “put on” means wear; also stage or present. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "q002",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nPlease [put off] your safety helmet before entering the construction site.",
+    "question": "Choose the most appropriate phrasal verb to complete the sentence.\nThe manager refused to ________ the review despite the team’s request.",
     "options": [
       {
         "id": "A",
@@ -39,21 +39,21 @@
       },
       {
         "id": "C",
-        "text": "put out"
+        "text": "put away"
       },
       {
         "id": "D",
-        "text": "put away"
+        "text": "put out"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) put on",
-    "difficulty": "easy",
+    "correctAnswer": "B",
+    "explanation": "Correct answer: B) put off. “put off” means postpone or delay. The sentence describes an action that means “postpone or delay”, so “put off” fits the context. “put on” means wear; also stage or present; “put away” means store in the proper place; “put out” means extinguish. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "q003",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nThe firefighters managed to ______ the fire before it reached the nearby houses.",
+    "question": "Choose the phrasal verb that makes the sentence meaningful.\nThe firefighters worked together to ________ the flames before they reached the next building.",
     "options": [
       {
         "id": "A",
@@ -61,51 +61,51 @@
       },
       {
         "id": "B",
-        "text": "put on"
+        "text": "put away"
       },
       {
         "id": "C",
-        "text": "put out"
+        "text": "put on"
       },
       {
         "id": "D",
-        "text": "put away"
+        "text": "put out"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) put out",
-    "difficulty": "easy",
+    "correctAnswer": "D",
+    "explanation": "Correct answer: D) put out. “put out” means extinguish. The sentence describes an action that means “extinguish”, so “put out” fits the context. “put off” means postpone or delay; “put away” means store in the proper place; “put on” means wear; also stage or present. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "q004",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nAfter the meeting, please [put off] all the files in their proper folders.",
+    "question": "Choose the expression that makes the sentence correct.\nI cannot p̲u̲t̲ ̲u̲p̲ such careless behaviour in the laboratory.",
     "options": [
       {
         "id": "A",
-        "text": "put off"
+        "text": "put out"
       },
       {
         "id": "B",
-        "text": "put on"
+        "text": "put up"
       },
       {
         "id": "C",
-        "text": "put away"
+        "text": "put off"
       },
       {
         "id": "D",
-        "text": "put out"
+        "text": "put up with"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) put away",
-    "difficulty": "easy",
+    "correctAnswer": "D",
+    "explanation": "Correct answer: D) put up with. “put up with” means tolerate. The underlined expression “put up” is unsuitable because it means accommodate or provide lodging; the sentence requires the sense “tolerate”. Therefore, replace it with “put up with”. “put out” means extinguish; “put up” means accommodate or provide lodging; “put off” means postpone or delay. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "hard",
     "language": "en"
   },
   {
     "id": "q005",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nThe residents had to ______ the noise until the road repairs were completed.",
+    "question": "Replace the underlined phrasal verb with the best alternative.\nA short example helped her p̲u̲t̲ ̲d̲o̲w̲n̲ the main argument clearly.",
     "options": [
       {
         "id": "A",
@@ -124,66 +124,118 @@
         "text": "put down"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) put up with",
+    "correctAnswer": "C",
+    "explanation": "Correct answer: C) put across. “put across” means communicate clearly. The underlined expression “put down” is unsuitable because it means write/record; also criticise; the sentence requires the sense “communicate clearly”. Therefore, replace it with “put across”. “put up with” means tolerate; “put forward” means propose or suggest; “put down” means write/record; also criticise. These alternatives express different meanings and do not fit this context.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "q006",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nThe organisers decided to [put on] the match because of heavy rain.",
+    "question": "Replace the underlined phrasal verb with the best alternative.\nThe mechanic p̲u̲t̲ ̲o̲n̲ his tools once the repair was complete.",
     "options": [
       {
         "id": "A",
-        "text": "put off"
+        "text": "put away"
       },
       {
         "id": "B",
-        "text": "put on"
+        "text": "put off"
       },
       {
         "id": "C",
-        "text": "put out"
+        "text": "put forward"
       },
       {
         "id": "D",
-        "text": "put away"
+        "text": "put on"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Correct answer: A) put off",
-    "difficulty": "easy",
+    "explanation": "Correct answer: A) put away. “put away” means store in the proper place. The underlined expression “put on” is unsuitable because it means wear; also stage or present; the sentence requires the sense “store in the proper place”. Therefore, replace it with “put away”. “put off” means postpone or delay; “put forward” means propose or suggest; “put on” means wear; also stage or present. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "q007",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nPlease ______ your safety helmet before entering the construction site.",
+    "question": "Choose the most suitable replacement for the underlined words.\nThe panel invited each participant to p̲u̲t̲ ̲a̲w̲a̲y̲ one solution.",
     "options": [
       {
         "id": "A",
-        "text": "put off"
+        "text": "put away"
       },
       {
         "id": "B",
-        "text": "put out"
+        "text": "put off"
       },
       {
         "id": "C",
-        "text": "put on"
+        "text": "put forward"
       },
       {
         "id": "D",
-        "text": "put away"
+        "text": "put across"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer: C) put on",
-    "difficulty": "easy",
+    "explanation": "Correct answer: C) put forward. “put forward” means propose or suggest. The underlined expression “put away” is unsuitable because it means store in the proper place; the sentence requires the sense “propose or suggest”. Therefore, replace it with “put forward”. “put away” means store in the proper place; “put off” means postpone or delay; “put across” means communicate clearly. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "q008",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nThe firefighters managed to [put off] the fire before it reached the nearby houses.",
+    "question": "Select the option that best completes the sentence.\nA good team should not have to ________ repeated insults.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put out"
+      },
+      {
+        "id": "B",
+        "text": "put off"
+      },
+      {
+        "id": "C",
+        "text": "put up"
+      },
+      {
+        "id": "D",
+        "text": "put up with"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer: D) put up with. “put up with” means tolerate. The sentence describes an action that means “tolerate”, so “put up with” fits the context. “put out” means extinguish; “put off” means postpone or delay; “put up” means accommodate or provide lodging. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "q009",
+    "question": "Choose the phrasal verb that makes the sentence meaningful.\nThe manager must ________ the new safety rules to every employee.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put down"
+      },
+      {
+        "id": "B",
+        "text": "put forward"
+      },
+      {
+        "id": "C",
+        "text": "put across"
+      },
+      {
+        "id": "D",
+        "text": "put up with"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer: C) put across. “put across” means communicate clearly. The sentence describes an action that means “communicate clearly”, so “put across” fits the context. “put down” means write/record; also criticise; “put forward” means propose or suggest; “put up with” means tolerate. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q010",
+    "question": "Select the option that corrects the underlined expression.\nPlease p̲u̲t̲ ̲o̲f̲f̲ your safety helmet before entering the construction site.",
     "options": [
       {
         "id": "A",
@@ -191,7 +243,7 @@
       },
       {
         "id": "B",
-        "text": "put on"
+        "text": "put away"
       },
       {
         "id": "C",
@@ -199,17 +251,563 @@
       },
       {
         "id": "D",
+        "text": "put on"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer: D) put on. “put on” means wear; also stage or present. The underlined expression “put off” is unsuitable because it means postpone or delay; the sentence requires the sense “wear; also stage or present”. Therefore, replace it with “put on”. “put off” means postpone or delay; “put away” means store in the proper place; “put out” means extinguish. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q011",
+    "question": "Select the option that best completes the sentence.\nA sudden shower helped ________ the small fire in the field.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put off"
+      },
+      {
+        "id": "B",
+        "text": "put out"
+      },
+      {
+        "id": "C",
+        "text": "put away"
+      },
+      {
+        "id": "D",
+        "text": "put on"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer: B) put out. “put out” means extinguish. The sentence describes an action that means “extinguish”, so “put out” fits the context. “put off” means postpone or delay; “put away” means store in the proper place; “put on” means wear; also stage or present. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q012",
+    "question": "Choose the phrasal verb that makes the sentence meaningful.\nAfter the picnic, we ________ the blankets and folding chairs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put forward"
+      },
+      {
+        "id": "B",
+        "text": "put on"
+      },
+      {
+        "id": "C",
+        "text": "put off"
+      },
+      {
+        "id": "D",
+        "text": "put away"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer: D) put away. “put away” means store in the proper place. The sentence describes an action that means “store in the proper place”, so “put away” fits the context. “put forward” means propose or suggest; “put on” means wear; also stage or present; “put off” means postpone or delay. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q013",
+    "question": "Replace the underlined phrasal verb with the best alternative.\nThe caretaker used a fire extinguisher to p̲u̲t̲ ̲o̲n̲ the bin that had caught fire.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put on"
+      },
+      {
+        "id": "B",
+        "text": "put out"
+      },
+      {
+        "id": "C",
+        "text": "put away"
+      },
+      {
+        "id": "D",
+        "text": "put off"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer: B) put out. “put out” means extinguish. The underlined expression “put on” is unsuitable because it means wear; also stage or present; the sentence requires the sense “extinguish”. Therefore, replace it with “put out”. “put on” means wear; also stage or present; “put away” means store in the proper place; “put off” means postpone or delay. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q014",
+    "question": "Choose the phrasal verb that makes the sentence meaningful.\nThe nurse told the visitor to ________ a mask before entering the ward.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put off"
+      },
+      {
+        "id": "B",
+        "text": "put away"
+      },
+      {
+        "id": "C",
+        "text": "put out"
+      },
+      {
+        "id": "D",
+        "text": "put on"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer: D) put on. “put on” means wear; also stage or present. The sentence describes an action that means “wear; also stage or present”, so “put on” fits the context. “put off” means postpone or delay; “put away” means store in the proper place; “put out” means extinguish. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q015",
+    "question": "Replace the underlined phrasal verb with the best alternative.\nSeveral members p̲u̲t̲ ̲a̲w̲a̲y̲ suggestions during the committee meeting.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put off"
+      },
+      {
+        "id": "B",
+        "text": "put away"
+      },
+      {
+        "id": "C",
+        "text": "put across"
+      },
+      {
+        "id": "D",
+        "text": "put forward"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer: D) put forward. “put forward” means propose or suggest. The underlined expression “put away” is unsuitable because it means store in the proper place; the sentence requires the sense “propose or suggest”. Therefore, replace it with “put forward”. “put off” means postpone or delay; “put away” means store in the proper place; “put across” means communicate clearly. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q016",
+    "question": "Choose the phrasal verb that makes the sentence meaningful.\nThe speaker struggled to ________ his point to the audience.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put forward"
+      },
+      {
+        "id": "B",
+        "text": "put down"
+      },
+      {
+        "id": "C",
+        "text": "put across"
+      },
+      {
+        "id": "D",
+        "text": "put up with"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer: C) put across. “put across” means communicate clearly. The sentence describes an action that means “communicate clearly”, so “put across” fits the context. “put forward” means propose or suggest; “put down” means write/record; also criticise; “put up with” means tolerate. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q017",
+    "question": "Choose the phrasal verb that makes the sentence meaningful.\nThe school will ________ its annual function until the repairs are complete.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put on"
+      },
+      {
+        "id": "B",
+        "text": "put out"
+      },
+      {
+        "id": "C",
+        "text": "put away"
+      },
+      {
+        "id": "D",
+        "text": "put off"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer: D) put off. “put off” means postpone or delay. The sentence describes an action that means “postpone or delay”, so “put off” fits the context. “put on” means wear; also stage or present; “put out” means extinguish; “put away” means store in the proper place. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q018",
+    "question": "Choose the most suitable replacement for the underlined words.\nYou should p̲u̲t̲ ̲o̲f̲f̲ warm clothes before travelling to the hills.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put out"
+      },
+      {
+        "id": "B",
+        "text": "put on"
+      },
+      {
+        "id": "C",
+        "text": "put away"
+      },
+      {
+        "id": "D",
+        "text": "put off"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer: B) put on. “put on” means wear; also stage or present. The underlined expression “put off” is unsuitable because it means postpone or delay; the sentence requires the sense “wear; also stage or present”. Therefore, replace it with “put on”. “put out” means extinguish; “put away” means store in the proper place; “put off” means postpone or delay. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q019",
+    "question": "Choose the most suitable replacement for the underlined words.\nPlease p̲u̲t̲ ̲o̲n̲ the files after you have finished checking them.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put off"
+      },
+      {
+        "id": "B",
+        "text": "put away"
+      },
+      {
+        "id": "C",
+        "text": "put on"
+      },
+      {
+        "id": "D",
+        "text": "put forward"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer: B) put away. “put away” means store in the proper place. The underlined expression “put on” is unsuitable because it means wear; also stage or present; the sentence requires the sense “store in the proper place”. Therefore, replace it with “put away”. “put off” means postpone or delay; “put on” means wear; also stage or present; “put forward” means propose or suggest. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "q020",
+    "question": "Choose the most appropriate phrasal verb to complete the sentence.\nThe guests were asked to ________ their coats before going outside.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put off"
+      },
+      {
+        "id": "B",
+        "text": "put out"
+      },
+      {
+        "id": "C",
+        "text": "put on"
+      },
+      {
+        "id": "D",
         "text": "put away"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer: C) put out",
-    "difficulty": "easy",
+    "explanation": "Correct answer: C) put on. “put on” means wear; also stage or present. The sentence describes an action that means “wear; also stage or present”, so “put on” fits the context. “put off” means postpone or delay; “put out” means extinguish; “put away” means store in the proper place. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
     "language": "en"
   },
   {
-    "id": "q009",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nAfter the meeting, please ______ all the files in their proper folders.",
+    "id": "q021",
+    "question": "Choose the most appropriate phrasal verb to complete the sentence.\nThe minister ________ an amendment for the House to consider.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put off"
+      },
+      {
+        "id": "B",
+        "text": "put across"
+      },
+      {
+        "id": "C",
+        "text": "put forward"
+      },
+      {
+        "id": "D",
+        "text": "put away"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer: C) put forward. “put forward” means propose or suggest. The sentence describes an action that means “propose or suggest”, so “put forward” fits the context. “put off” means postpone or delay; “put across” means communicate clearly; “put away” means store in the proper place. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q022",
+    "question": "Select the option that corrects the underlined expression.\nThe applicant could not p̲u̲t̲ ̲d̲o̲w̲n̲ her experience confidently during the interview.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put across"
+      },
+      {
+        "id": "B",
+        "text": "put down"
+      },
+      {
+        "id": "C",
+        "text": "put up with"
+      },
+      {
+        "id": "D",
+        "text": "put forward"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct answer: A) put across. “put across” means communicate clearly. The underlined expression “put down” is unsuitable because it means write/record; also criticise; the sentence requires the sense “communicate clearly”. Therefore, replace it with “put across”. “put down” means write/record; also criticise; “put up with” means tolerate; “put forward” means propose or suggest. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "q023",
+    "question": "Choose the most appropriate phrasal verb to complete the sentence.\nThe candidate ________ two reasons for changing the policy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put forward"
+      },
+      {
+        "id": "B",
+        "text": "put off"
+      },
+      {
+        "id": "C",
+        "text": "put across"
+      },
+      {
+        "id": "D",
+        "text": "put away"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct answer: A) put forward. “put forward” means propose or suggest. The sentence describes an action that means “propose or suggest”, so “put forward” fits the context. “put off” means postpone or delay; “put across” means communicate clearly; “put away” means store in the proper place. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "q024",
+    "question": "Choose the most suitable replacement for the underlined words.\nApplicants must h̲a̲n̲d̲ ̲o̲u̲t̲ their completed forms before the closing date.",
+    "options": [
+      {
+        "id": "A",
+        "text": "hand over"
+      },
+      {
+        "id": "B",
+        "text": "hand in"
+      },
+      {
+        "id": "C",
+        "text": "hand out"
+      },
+      {
+        "id": "D",
+        "text": "turn in"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer: B) hand in. “hand in” means submit a document or completed work. The underlined expression “hand out” is unsuitable because it means distribute; the sentence requires the sense “submit a document or completed work”. Therefore, replace it with “hand in”. “hand over” means transfer control or possession; “hand out” means distribute; “turn in” means submit or hand over. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q025",
+    "question": "Choose the expression that makes the sentence correct.\nShe p̲u̲t̲ ̲o̲f̲f̲ her spectacles to read the small print.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put out"
+      },
+      {
+        "id": "B",
+        "text": "put away"
+      },
+      {
+        "id": "C",
+        "text": "put off"
+      },
+      {
+        "id": "D",
+        "text": "put on"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer: D) put on. “put on” means wear; also stage or present. The underlined expression “put off” is unsuitable because it means postpone or delay; the sentence requires the sense “wear; also stage or present”. Therefore, replace it with “put on”. “put out” means extinguish; “put away” means store in the proper place; “put off” means postpone or delay. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q026",
+    "question": "Choose the phrasal verb that makes the sentence meaningful.\nThe blaze was difficult to ________ because strong winds kept spreading it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put on"
+      },
+      {
+        "id": "B",
+        "text": "put away"
+      },
+      {
+        "id": "C",
+        "text": "put out"
+      },
+      {
+        "id": "D",
+        "text": "put off"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer: C) put out. “put out” means extinguish. The sentence describes an action that means “extinguish”, so “put out” fits the context. “put on” means wear; also stage or present; “put away” means store in the proper place; “put off” means postpone or delay. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "q027",
+    "question": "Select the option that best completes the sentence.\nThe crew managed to ________ the fire in the kitchen within minutes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put out"
+      },
+      {
+        "id": "B",
+        "text": "put off"
+      },
+      {
+        "id": "C",
+        "text": "put on"
+      },
+      {
+        "id": "D",
+        "text": "put away"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct answer: A) put out. “put out” means extinguish. The sentence describes an action that means “extinguish”, so “put out” fits the context. “put off” means postpone or delay; “put on” means wear; also stage or present; “put away” means store in the proper place. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q028",
+    "question": "Choose the expression that makes the sentence correct.\nThe judge agreed to p̲u̲t̲ ̲o̲n̲ the hearing for another week.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put off"
+      },
+      {
+        "id": "B",
+        "text": "put out"
+      },
+      {
+        "id": "C",
+        "text": "put away"
+      },
+      {
+        "id": "D",
+        "text": "put on"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correct answer: A) put off. “put off” means postpone or delay. The underlined expression “put on” is unsuitable because it means wear; also stage or present; the sentence requires the sense “postpone or delay”. Therefore, replace it with “put off”. “put out” means extinguish; “put away” means store in the proper place; “put on” means wear; also stage or present. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q029",
+    "question": "Choose the expression that makes the sentence correct.\nResidents used buckets of water to p̲u̲t̲ ̲o̲n̲ the burning rubbish.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put on"
+      },
+      {
+        "id": "B",
+        "text": "put away"
+      },
+      {
+        "id": "C",
+        "text": "put off"
+      },
+      {
+        "id": "D",
+        "text": "put out"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer: D) put out. “put out” means extinguish. The underlined expression “put on” is unsuitable because it means wear; also stage or present; the sentence requires the sense “extinguish”. Therefore, replace it with “put out”. “put on” means wear; also stage or present; “put away” means store in the proper place; “put off” means postpone or delay. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q030",
+    "question": "Choose the most appropriate phrasal verb to complete the sentence.\nRiya ________ a practical plan to reduce traffic near the school.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put away"
+      },
+      {
+        "id": "B",
+        "text": "put across"
+      },
+      {
+        "id": "C",
+        "text": "put forward"
+      },
+      {
+        "id": "D",
+        "text": "put off"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer: C) put forward. “put forward” means propose or suggest. The sentence describes an action that means “propose or suggest”, so “put forward” fits the context. “put away” means store in the proper place; “put across” means communicate clearly; “put off” means postpone or delay. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q031",
+    "question": "Select the option that corrects the underlined expression.\nHe p̲u̲t̲ ̲o̲f̲f̲ a clean shirt for the formal interview.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put off"
+      },
+      {
+        "id": "B",
+        "text": "put away"
+      },
+      {
+        "id": "C",
+        "text": "put on"
+      },
+      {
+        "id": "D",
+        "text": "put out"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer: C) put on. “put on” means wear; also stage or present. The underlined expression “put off” is unsuitable because it means postpone or delay; the sentence requires the sense “wear; also stage or present”. Therefore, replace it with “put on”. “put off” means postpone or delay; “put away” means store in the proper place; “put out” means extinguish. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q032",
+    "question": "Choose the expression that makes the sentence correct.\nThe scientist p̲u̲t̲ ̲a̲w̲a̲y̲ a new explanation for the unusual result.",
     "options": [
       {
         "id": "A",
@@ -218,6 +816,214 @@
       {
         "id": "B",
         "text": "put off"
+      },
+      {
+        "id": "C",
+        "text": "put across"
+      },
+      {
+        "id": "D",
+        "text": "put forward"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Correct answer: D) put forward. “put forward” means propose or suggest. The underlined expression “put away” is unsuitable because it means store in the proper place; the sentence requires the sense “propose or suggest”. Therefore, replace it with “put forward”. “put away” means store in the proper place; “put off” means postpone or delay; “put across” means communicate clearly. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "q033",
+    "question": "Select the option that best completes the sentence.\nFor months, the staff had to ________ irregular working hours.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put off"
+      },
+      {
+        "id": "B",
+        "text": "put up"
+      },
+      {
+        "id": "C",
+        "text": "put up with"
+      },
+      {
+        "id": "D",
+        "text": "put out"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer: C) put up with. “put up with” means tolerate. The sentence describes an action that means “tolerate”, so “put up with” fits the context. “put off” means postpone or delay; “put up” means accommodate or provide lodging; “put out” means extinguish. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q034",
+    "question": "Replace the underlined phrasal verb with the best alternative.\nThe cashier p̲u̲t̲ ̲o̲n̲ the unused stationery at the end of the day.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put forward"
+      },
+      {
+        "id": "B",
+        "text": "put away"
+      },
+      {
+        "id": "C",
+        "text": "put on"
+      },
+      {
+        "id": "D",
+        "text": "put off"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Correct answer: B) put away. “put away” means store in the proper place. The underlined expression “put on” is unsuitable because it means wear; also stage or present; the sentence requires the sense “store in the proper place”. Therefore, replace it with “put away”. “put forward” means propose or suggest; “put on” means wear; also stage or present; “put off” means postpone or delay. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q035",
+    "question": "Choose the expression that makes the sentence correct.\nThe neighbours agreed to p̲u̲t̲ ̲u̲p̲ the temporary disturbance.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put off"
+      },
+      {
+        "id": "B",
+        "text": "put out"
+      },
+      {
+        "id": "C",
+        "text": "put up with"
+      },
+      {
+        "id": "D",
+        "text": "put up"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer: C) put up with. “put up with” means tolerate. The underlined expression “put up” is unsuitable because it means accommodate or provide lodging; the sentence requires the sense “tolerate”. Therefore, replace it with “put up with”. “put off” means postpone or delay; “put out” means extinguish; “put up” means accommodate or provide lodging. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q036",
+    "question": "Fill the blank with the most suitable expression.\nThe children were asked to ________ their toys before dinner.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put forward"
+      },
+      {
+        "id": "B",
+        "text": "put off"
+      },
+      {
+        "id": "C",
+        "text": "put away"
+      },
+      {
+        "id": "D",
+        "text": "put on"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer: C) put away. “put away” means store in the proper place. The sentence describes an action that means “store in the proper place”, so “put away” fits the context. “put forward” means propose or suggest; “put off” means postpone or delay; “put on” means wear; also stage or present. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q037",
+    "question": "Select the option that best completes the sentence.\nThe board decided to ________ the meeting until Monday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put on"
+      },
+      {
+        "id": "B",
+        "text": "put out"
+      },
+      {
+        "id": "C",
+        "text": "put off"
+      },
+      {
+        "id": "D",
+        "text": "put away"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer: C) put off. “put off” means postpone or delay. The sentence describes an action that means “postpone or delay”, so “put off” fits the context. “put on” means wear; also stage or present; “put out” means extinguish; “put away” means store in the proper place. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
+    "language": "en"
+  },
+  {
+    "id": "q038",
+    "question": "Fill the blank with the most suitable expression.\nThe company had to ________ the product launch after a safety concern was reported.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put away"
+      },
+      {
+        "id": "B",
+        "text": "put out"
+      },
+      {
+        "id": "C",
+        "text": "put off"
+      },
+      {
+        "id": "D",
+        "text": "put on"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer: C) put off. “put off” means postpone or delay. The sentence describes an action that means “postpone or delay”, so “put off” fits the context. “put away” means store in the proper place; “put out” means extinguish; “put on” means wear; also stage or present. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "q039",
+    "question": "Choose the most appropriate phrasal verb to complete the sentence.\nThe residents had to ________ traffic noise during the road repairs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put off"
+      },
+      {
+        "id": "B",
+        "text": "put out"
+      },
+      {
+        "id": "C",
+        "text": "put up with"
+      },
+      {
+        "id": "D",
+        "text": "put up"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer: C) put up with. “put up with” means tolerate. The sentence describes an action that means “tolerate”, so “put up with” fits the context. “put off” means postpone or delay; “put out” means extinguish; “put up” means accommodate or provide lodging. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "q040",
+    "question": "Select the option that corrects the underlined expression.\nWe cannot p̲u̲t̲ ̲o̲n̲ the inspection again without a valid reason.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put off"
+      },
+      {
+        "id": "B",
+        "text": "put away"
       },
       {
         "id": "C",
@@ -229,13 +1035,13 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Correct answer: A) put away",
-    "difficulty": "easy",
+    "explanation": "Correct answer: A) put off. “put off” means postpone or delay. The underlined expression “put on” is unsuitable because it means wear; also stage or present; the sentence requires the sense “postpone or delay”. Therefore, replace it with “put off”. “put away” means store in the proper place; “put on” means wear; also stage or present; “put out” means extinguish. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
     "language": "en"
   },
   {
-    "id": "q010",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nThe residents had to [put forward] the noise until the road repairs were completed.",
+    "id": "q041",
+    "question": "Replace the underlined phrasal verb with the best alternative.\nHe used plain language to p̲u̲t̲ ̲d̲o̲w̲n̲ the importance of regular revision.",
     "options": [
       {
         "id": "A",
@@ -243,7 +1049,7 @@
       },
       {
         "id": "B",
-        "text": "put forward"
+        "text": "put down"
       },
       {
         "id": "C",
@@ -251,1051 +1057,245 @@
       },
       {
         "id": "D",
-        "text": "put down"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) put up with",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q011",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nPlease ______ the address before you forget it.",
-    "options": [
-      {
-        "id": "A",
-        "text": "put away"
-      },
-      {
-        "id": "B",
         "text": "put forward"
-      },
-      {
-        "id": "C",
-        "text": "put down"
-      },
-      {
-        "id": "D",
-        "text": "put off"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer: C) put down",
-    "difficulty": "easy",
-    "language": "en"
-  },
-  {
-    "id": "q012",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nThe committee will [put off] a new proposal at tomorrow's meeting.",
-    "options": [
-      {
-        "id": "A",
-        "text": "put off"
-      },
-      {
-        "id": "B",
-        "text": "put out"
-      },
-      {
-        "id": "C",
-        "text": "put forward"
-      },
-      {
-        "id": "D",
-        "text": "put away"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) put forward",
+    "explanation": "Correct answer: C) put across. “put across” means communicate clearly. The underlined expression “put down” is unsuitable because it means write/record; also criticise; the sentence requires the sense “communicate clearly”. Therefore, replace it with “put across”. “put up with” means tolerate; “put down” means write/record; also criticise; “put forward” means propose or suggest. These alternatives express different meanings and do not fit this context.",
     "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q013",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nApplicants must ______ their forms before the last date.",
-    "options": [
-      {
-        "id": "A",
-        "text": "put in"
-      },
-      {
-        "id": "B",
-        "text": "put out"
-      },
-      {
-        "id": "C",
-        "text": "put on"
-      },
-      {
-        "id": "D",
-        "text": "put away"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) put in",
-    "difficulty": "easy",
-    "language": "en"
-  },
-  {
-    "id": "q014",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nThe speaker used a simple example to [put off] his point clearly.",
-    "options": [
-      {
-        "id": "A",
-        "text": "put across"
-      },
-      {
-        "id": "B",
-        "text": "put off"
-      },
-      {
-        "id": "C",
-        "text": "put away"
-      },
-      {
-        "id": "D",
-        "text": "put down"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) put across",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q015",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nThe principal had to ______ when students repeatedly ignored the rules.",
-    "options": [
-      {
-        "id": "A",
-        "text": "put his foot up"
-      },
-      {
-        "id": "B",
-        "text": "put his foot away"
-      },
-      {
-        "id": "C",
-        "text": "put his foot down"
-      },
-      {
-        "id": "D",
-        "text": "put his foot off"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) put his foot down",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q016",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nPlease [put away] the address before you forget it.",
-    "options": [
-      {
-        "id": "A",
-        "text": "put away"
-      },
-      {
-        "id": "B",
-        "text": "put forward"
-      },
-      {
-        "id": "C",
-        "text": "put down"
-      },
-      {
-        "id": "D",
-        "text": "put off"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) put down",
-    "difficulty": "easy",
-    "language": "en"
-  },
-  {
-    "id": "q017",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nThe committee will ______ a new proposal at tomorrow's meeting.",
-    "options": [
-      {
-        "id": "A",
-        "text": "put forward"
-      },
-      {
-        "id": "B",
-        "text": "put off"
-      },
-      {
-        "id": "C",
-        "text": "put out"
-      },
-      {
-        "id": "D",
-        "text": "put away"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) put forward",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q018",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nApplicants must [put out] their forms before the last date.",
-    "options": [
-      {
-        "id": "A",
-        "text": "put in"
-      },
-      {
-        "id": "B",
-        "text": "put out"
-      },
-      {
-        "id": "C",
-        "text": "put on"
-      },
-      {
-        "id": "D",
-        "text": "put away"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) put in",
-    "difficulty": "easy",
-    "language": "en"
-  },
-  {
-    "id": "q019",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nThe speaker used a simple example to ______ his point clearly.",
-    "options": [
-      {
-        "id": "A",
-        "text": "put off"
-      },
-      {
-        "id": "B",
-        "text": "put away"
-      },
-      {
-        "id": "C",
-        "text": "put across"
-      },
-      {
-        "id": "D",
-        "text": "put down"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) put across",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q020",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nThe principal had to [put his foot up] when students repeatedly ignored the rules.",
-    "options": [
-      {
-        "id": "A",
-        "text": "put his foot up"
-      },
-      {
-        "id": "B",
-        "text": "put his foot away"
-      },
-      {
-        "id": "C",
-        "text": "put his foot down"
-      },
-      {
-        "id": "D",
-        "text": "put his foot off"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) put his foot down",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q021",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nI usually ______ at five in the morning to study.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get up"
-      },
-      {
-        "id": "B",
-        "text": "get over"
-      },
-      {
-        "id": "C",
-        "text": "get by"
-      },
-      {
-        "id": "D",
-        "text": "get out"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) get up",
-    "difficulty": "easy",
-    "language": "en"
-  },
-  {
-    "id": "q022",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nIt took her several weeks to [get into] the illness completely.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get over"
-      },
-      {
-        "id": "B",
-        "text": "get into"
-      },
-      {
-        "id": "C",
-        "text": "get along"
-      },
-      {
-        "id": "D",
-        "text": "get away"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) get over",
-    "difficulty": "easy",
-    "language": "en"
-  },
-  {
-    "id": "q023",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nWe hope to ______ from Patna by Sunday evening.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get over"
-      },
-      {
-        "id": "B",
-        "text": "get up"
-      },
-      {
-        "id": "C",
-        "text": "get back"
-      },
-      {
-        "id": "D",
-        "text": "get by"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) get back",
-    "difficulty": "easy",
-    "language": "en"
-  },
-  {
-    "id": "q024",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nHe wants to [get over] classical music and attend concerts regularly.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get over"
-      },
-      {
-        "id": "B",
-        "text": "get out of"
-      },
-      {
-        "id": "C",
-        "text": "get into"
-      },
-      {
-        "id": "D",
-        "text": "get away with"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) get into",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q025",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nDespite his age, he still likes to ______ the city on foot.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get about"
-      },
-      {
-        "id": "B",
-        "text": "get over"
-      },
-      {
-        "id": "C",
-        "text": "get into"
-      },
-      {
-        "id": "D",
-        "text": "get back"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) get about",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q026",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nI usually [get over] at five in the morning to study.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get up"
-      },
-      {
-        "id": "B",
-        "text": "get over"
-      },
-      {
-        "id": "C",
-        "text": "get by"
-      },
-      {
-        "id": "D",
-        "text": "get out"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) get up",
-    "difficulty": "easy",
-    "language": "en"
-  },
-  {
-    "id": "q027",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nIt took her several weeks to ______ the illness completely.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get into"
-      },
-      {
-        "id": "B",
-        "text": "get along"
-      },
-      {
-        "id": "C",
-        "text": "get over"
-      },
-      {
-        "id": "D",
-        "text": "get away"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) get over",
-    "difficulty": "easy",
-    "language": "en"
-  },
-  {
-    "id": "q028",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nWe hope to [get over] from Patna by Sunday evening.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get over"
-      },
-      {
-        "id": "B",
-        "text": "get up"
-      },
-      {
-        "id": "C",
-        "text": "get back"
-      },
-      {
-        "id": "D",
-        "text": "get by"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) get back",
-    "difficulty": "easy",
-    "language": "en"
-  },
-  {
-    "id": "q029",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nHe wants to ______ classical music and attend concerts regularly.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get into"
-      },
-      {
-        "id": "B",
-        "text": "get over"
-      },
-      {
-        "id": "C",
-        "text": "get out of"
-      },
-      {
-        "id": "D",
-        "text": "get away with"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) get into",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q030",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nDespite his age, he still likes to [get over] the city on foot.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get about"
-      },
-      {
-        "id": "B",
-        "text": "get over"
-      },
-      {
-        "id": "C",
-        "text": "get into"
-      },
-      {
-        "id": "D",
-        "text": "get back"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) get about",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q031",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nShe is working hard to ______ in her career.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get off"
-      },
-      {
-        "id": "B",
-        "text": "get out"
-      },
-      {
-        "id": "C",
-        "text": "get on"
-      },
-      {
-        "id": "D",
-        "text": "get away"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) get on",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q032",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nThe dishonest clerk thought he could [get out of] the fraud without being caught.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get out of"
-      },
-      {
-        "id": "B",
-        "text": "get over"
-      },
-      {
-        "id": "C",
-        "text": "get away with"
-      },
-      {
-        "id": "D",
-        "text": "get by"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) get away with",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q033",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nHe tried to ______ doing the difficult assignment.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get out of"
-      },
-      {
-        "id": "B",
-        "text": "get into"
-      },
-      {
-        "id": "C",
-        "text": "get over"
-      },
-      {
-        "id": "D",
-        "text": "get along with"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) get out of",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q034",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nThe villagers ran towards higher ground to [get back] the rising floodwater.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get away from"
-      },
-      {
-        "id": "B",
-        "text": "get back"
-      },
-      {
-        "id": "C",
-        "text": "get on"
-      },
-      {
-        "id": "D",
-        "text": "get over"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) get away from",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q035",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nA good team leader must ______ every member of the team.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get away with"
-      },
-      {
-        "id": "B",
-        "text": "get out of"
-      },
-      {
-        "id": "C",
-        "text": "get along with"
-      },
-      {
-        "id": "D",
-        "text": "get over"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) get along with",
-    "difficulty": "easy",
-    "language": "en"
-  },
-  {
-    "id": "q036",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nShe is working hard to [get off] in her career.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get off"
-      },
-      {
-        "id": "B",
-        "text": "get out"
-      },
-      {
-        "id": "C",
-        "text": "get on"
-      },
-      {
-        "id": "D",
-        "text": "get away"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) get on",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q037",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nThe dishonest clerk thought he could ______ the fraud without being caught.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get away with"
-      },
-      {
-        "id": "B",
-        "text": "get out of"
-      },
-      {
-        "id": "C",
-        "text": "get over"
-      },
-      {
-        "id": "D",
-        "text": "get by"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) get away with",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q038",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nHe tried to [get into] doing the difficult assignment.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get out of"
-      },
-      {
-        "id": "B",
-        "text": "get into"
-      },
-      {
-        "id": "C",
-        "text": "get over"
-      },
-      {
-        "id": "D",
-        "text": "get along with"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) get out of",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q039",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nThe villagers ran towards higher ground to ______ the rising floodwater.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get back"
-      },
-      {
-        "id": "B",
-        "text": "get on"
-      },
-      {
-        "id": "C",
-        "text": "get away from"
-      },
-      {
-        "id": "D",
-        "text": "get over"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) get away from",
-    "difficulty": "medium",
-    "language": "en"
-  },
-  {
-    "id": "q040",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nA good team leader must [get away with] every member of the team.",
-    "options": [
-      {
-        "id": "A",
-        "text": "get away with"
-      },
-      {
-        "id": "B",
-        "text": "get out of"
-      },
-      {
-        "id": "C",
-        "text": "get along with"
-      },
-      {
-        "id": "D",
-        "text": "get over"
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) get along with",
-    "difficulty": "easy",
-    "language": "en"
-  },
-  {
-    "id": "q041",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nThe alarm is set to ______ at six every morning.",
-    "options": [
-      {
-        "id": "A",
-        "text": "go off"
-      },
-      {
-        "id": "B",
-        "text": "go over"
-      },
-      {
-        "id": "C",
-        "text": "go through"
-      },
-      {
-        "id": "D",
-        "text": "go ahead"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) go off",
-    "difficulty": "easy",
     "language": "en"
   },
   {
     "id": "q042",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nThe auditor must [go off] every transaction line by line before approving the accounts.",
+    "question": "Select the option that corrects the underlined expression.\nThe organisers may p̲u̲t̲ ̲o̲n̲ the match because of the weather warning.",
     "options": [
       {
         "id": "A",
-        "text": "go through"
+        "text": "put out"
       },
       {
         "id": "B",
-        "text": "go off"
+        "text": "put off"
       },
       {
         "id": "C",
-        "text": "go ahead"
+        "text": "put on"
       },
       {
         "id": "D",
-        "text": "go in for"
+        "text": "put away"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) go through",
+    "correctAnswer": "B",
+    "explanation": "Correct answer: B) put off. “put off” means postpone or delay. The underlined expression “put on” is unsuitable because it means wear; also stage or present; the sentence requires the sense “postpone or delay”. Therefore, replace it with “put off”. “put out” means extinguish; “put on” means wear; also stage or present; “put away” means store in the proper place. These alternatives express different meanings and do not fit this context.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "q043",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nLet us ______ the instructions once again before starting the test.",
+    "question": "Select the option that best completes the sentence.\nAt the meeting, the union ________ a proposal for safer working hours.",
     "options": [
       {
         "id": "A",
-        "text": "go off"
+        "text": "put across"
       },
       {
         "id": "B",
-        "text": "go in for"
+        "text": "put off"
       },
       {
         "id": "C",
-        "text": "go over"
+        "text": "put forward"
       },
       {
         "id": "D",
-        "text": "go ahead"
+        "text": "put away"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Correct answer: C) go over",
-    "difficulty": "easy",
+    "explanation": "Correct answer: C) put forward. “put forward” means propose or suggest. The sentence describes an action that means “propose or suggest”, so “put forward” fits the context. “put across” means communicate clearly; “put off” means postpone or delay; “put away” means store in the proper place. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "hard",
     "language": "en"
   },
   {
     "id": "q044",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nThe manager gave us permission to [go over] with the project.",
+    "question": "Replace the underlined phrasal verb with the best alternative.\nPlease p̲u̲t̲ ̲o̲n̲ the candle before leaving the room.",
     "options": [
       {
         "id": "A",
-        "text": "go over"
+        "text": "put off"
       },
       {
         "id": "B",
-        "text": "go through"
+        "text": "put out"
       },
       {
         "id": "C",
-        "text": "go ahead"
+        "text": "put on"
       },
       {
         "id": "D",
-        "text": "go off"
+        "text": "put away"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) go ahead",
-    "difficulty": "easy",
-    "language": "en"
-  },
-  {
-    "id": "q045",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nShe has decided to ______ the civil services examination next year.",
-    "options": [
-      {
-        "id": "A",
-        "text": "go in for"
-      },
-      {
-        "id": "B",
-        "text": "go over"
-      },
-      {
-        "id": "C",
-        "text": "go off"
-      },
-      {
-        "id": "D",
-        "text": "go through"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) go in for",
+    "correctAnswer": "B",
+    "explanation": "Correct answer: B) put out. “put out” means extinguish. The underlined expression “put on” is unsuitable because it means wear; also stage or present; the sentence requires the sense “extinguish”. Therefore, replace it with “put out”. “put off” means postpone or delay; “put on” means wear; also stage or present; “put away” means store in the proper place. These alternatives express different meanings and do not fit this context.",
     "difficulty": "medium",
     "language": "en"
   },
   {
-    "id": "q046",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nThe alarm is set to [go over] at six every morning.",
+    "id": "q045",
+    "question": "Select the option that best completes the sentence.\nThe players ________ their uniforms before the opening ceremony.",
     "options": [
       {
         "id": "A",
-        "text": "go off"
+        "text": "put on"
       },
       {
         "id": "B",
-        "text": "go over"
+        "text": "put away"
       },
       {
         "id": "C",
-        "text": "go through"
+        "text": "put out"
       },
       {
         "id": "D",
-        "text": "go ahead"
+        "text": "put off"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Correct answer: A) go off",
-    "difficulty": "easy",
+    "explanation": "Correct answer: A) put on. “put on” means wear; also stage or present. The sentence describes an action that means “wear; also stage or present”, so “put on” fits the context. “put away” means store in the proper place; “put out” means extinguish; “put off” means postpone or delay. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "hard",
+    "language": "en"
+  },
+  {
+    "id": "q046",
+    "question": "Select the option that best completes the sentence.\nThe campaign aims to ________ a message about road safety.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put down"
+      },
+      {
+        "id": "B",
+        "text": "put up with"
+      },
+      {
+        "id": "C",
+        "text": "put across"
+      },
+      {
+        "id": "D",
+        "text": "put forward"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Correct answer: C) put across. “put across” means communicate clearly. The sentence describes an action that means “communicate clearly”, so “put across” fits the context. “put down” means write/record; also criticise; “put up with” means tolerate; “put forward” means propose or suggest. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "q047",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nThe auditor must ______ every transaction line by line before approving the accounts.",
+    "question": "Choose the most appropriate phrasal verb to complete the sentence.\nPassengers were forced to ________ delays during the strike.",
     "options": [
       {
         "id": "A",
-        "text": "go off"
+        "text": "put out"
       },
       {
         "id": "B",
-        "text": "go ahead"
+        "text": "put up"
       },
       {
         "id": "C",
-        "text": "go through"
+        "text": "put off"
       },
       {
         "id": "D",
-        "text": "go in for"
+        "text": "put up with"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) go through",
+    "correctAnswer": "D",
+    "explanation": "Correct answer: D) put up with. “put up with” means tolerate. The sentence describes an action that means “tolerate”, so “put up with” fits the context. “put out” means extinguish; “put up” means accommodate or provide lodging; “put off” means postpone or delay. These alternatives express different meanings and do not fit this context.",
     "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "q048",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nLet us [go off] the instructions once again before starting the test.",
+    "question": "Choose the expression that makes the sentence correct.\nThe teacher used a simple diagram to p̲u̲t̲ ̲d̲o̲w̲n̲ the difficult concept.",
     "options": [
       {
         "id": "A",
-        "text": "go off"
+        "text": "put forward"
       },
       {
         "id": "B",
-        "text": "go in for"
+        "text": "put down"
       },
       {
         "id": "C",
-        "text": "go over"
+        "text": "put up with"
       },
       {
         "id": "D",
-        "text": "go ahead"
+        "text": "put across"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Correct answer: C) go over",
-    "difficulty": "easy",
+    "correctAnswer": "D",
+    "explanation": "Correct answer: D) put across. “put across” means communicate clearly. The underlined expression “put down” is unsuitable because it means write/record; also criticise; the sentence requires the sense “communicate clearly”. Therefore, replace it with “put across”. “put forward” means propose or suggest; “put down” means write/record; also criticise; “put up with” means tolerate. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "medium",
     "language": "en"
   },
   {
     "id": "q049",
-    "question": "Select the most appropriate phrasal verb to fill in the blank.\nThe manager gave us permission to ______ with the project.",
+    "question": "Choose the most suitable replacement for the underlined words.\nShe refused to p̲u̲t̲ ̲u̲p̲ unfair treatment at work.",
     "options": [
       {
         "id": "A",
-        "text": "go ahead"
+        "text": "put up"
       },
       {
         "id": "B",
-        "text": "go over"
+        "text": "put out"
       },
       {
         "id": "C",
-        "text": "go through"
+        "text": "put off"
       },
       {
         "id": "D",
-        "text": "go off"
+        "text": "put up with"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) go ahead",
-    "difficulty": "easy",
+    "correctAnswer": "D",
+    "explanation": "Correct answer: D) put up with. “put up with” means tolerate. The underlined expression “put up” is unsuitable because it means accommodate or provide lodging; the sentence requires the sense “tolerate”. Therefore, replace it with “put up with”. “put up” means accommodate or provide lodging; “put out” means extinguish; “put off” means postpone or delay. These alternatives express different meanings and do not fit this context.",
+    "difficulty": "hard",
     "language": "en"
   },
   {
     "id": "q050",
-    "question": "Select the most appropriate option to substitute the bracketed segment in the given sentence.\nShe has decided to [go over] the civil services examination next year.",
+    "question": "Choose the most appropriate phrasal verb to complete the sentence.\nRemember to ________ the medicines in the locked cabinet.",
     "options": [
       {
         "id": "A",
-        "text": "go in for"
+        "text": "put on"
       },
       {
         "id": "B",
-        "text": "go over"
+        "text": "put off"
       },
       {
         "id": "C",
-        "text": "go off"
+        "text": "put away"
       },
       {
         "id": "D",
-        "text": "go through"
+        "text": "put forward"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Correct answer: A) go in for",
+    "correctAnswer": "C",
+    "explanation": "Correct answer: C) put away. “put away” means store in the proper place. The sentence describes an action that means “store in the proper place”, so “put away” fits the context. “put on” means wear; also stage or present; “put off” means postpone or delay; “put forward” means propose or suggest. These alternatives express different meanings and do not fit this context.",
     "difficulty": "medium",
     "language": "en"
   }

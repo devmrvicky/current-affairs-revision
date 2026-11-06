@@ -1,3 +1,4 @@
+import { SpeakExplanationButton } from '../components/common/SpeakExplanationButton';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -360,6 +361,7 @@ export default function GenericChapterDetailPage() {
                   {answers[currentQuestion.id] && currentQuestion.explanation && (
                     <div className="mt-3 p-3 rounded-xl text-xs" style={{ background: 'var(--bg)', color: 'var(--text-secondary)' }}>
                       <QuestionMarkdownRenderer content={currentQuestion.explanation} baseDir={currentQuestion.sourceMockBaseDir} />
+                      <SpeakExplanationButton text={currentQuestion.explanation} className="mt-2" />
                     </div>
                   )}
                 </motion.div>

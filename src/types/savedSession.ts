@@ -34,6 +34,8 @@ export interface ResumableSessionSummary {
   title: string;
   /** Subject / chapter / topic line, built only from metadata the session actually carries. */
   subtitle?: string;
+  /** Heading the Resume list groups this card under — the subject (or "Mock tests" / "Mixed subjects"). Derived, never stored. */
+  group: string;
   mode?: 'practice' | 'test' | 'mock';
   answered: number;
   total: number;
@@ -49,4 +51,25 @@ export interface ResumableSessionSummary {
   resumeRoute: string;
   /** Where the session currently lives. */
   location: 'active' | 'saved';
+}
+
+// ─── Archived sessions ───────────────────────────────────────────────────────
+// Closing a test with the ✕ never deletes it. The session is taken off the
+// Resume list and stored here, untouched, so its history and answers survive.
+// An archived session is NOT resumable and never appears under Resume Tests.
+
+export interface ArchivedSessionRecord {
+  /** The session's own id — the same id it had while active. */
+  id: string;
+  kind: SessionKind;
+  /** The full session exactly as it was when the learner closed it. */
+  payload: PracticeSession | QuizSession | MockSession;
+  archivedAt: number;
+  archivedReason: 'user-closed';
+  /** Denormalised for listing without opening the payload. */
+  title: string;
+  subtitle?: string;
+  answered: number;
+  total: number;
+  lastActiveAt: number;
 }

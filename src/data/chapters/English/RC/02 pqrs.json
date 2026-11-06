@@ -1,0 +1,702 @@
+[
+  {
+    "id": "pqrs001",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: The idea of a watershed is central to understanding how a landscape manages rainwater.\nP: When vegetation is removed, the soil loses its ability to absorb and hold water.\nQ: A watershed is an area from which all rainwater drains towards a common river, lake or other outlet.\nR: This can increase surface runoff and make both floods and dry-season shortages more severe.\nS: Its condition is therefore closely linked to the health of nearby communities and ecosystems.\nS6: Thus, protecting a watershed is essential for managing water resources and reducing environmental risks.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QSPR"
+      },
+      {
+        "id": "B",
+        "text": "QRPS"
+      },
+      {
+        "id": "C",
+        "text": "PQRS"
+      },
+      {
+        "id": "D",
+        "text": "SQPR"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "Q पहले watershed की परिभाषा देता है; S का 'Its condition' उसी से जुड़ता है; P में vegetation हटने का कारण और R में 'This' से उसका परिणाम आता है। क्रम Q-S-P-R है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs002",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: A scientific theory is not simply an educated guess, as the phrase is sometimes used in everyday speech.\nP: It must also survive repeated attempts to test or disprove it.\nQ: Instead, it is an explanation supported by a substantial body of evidence.\nR: New observations may lead scientists to revise parts of the explanation.\nS: This does not make science weak; it shows that scientific knowledge remains open to correction.\nS6: Thus, scientific theories gain strength through evidence, testing and the readiness to be revised.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PQSR"
+      },
+      {
+        "id": "B",
+        "text": "QPRS"
+      },
+      {
+        "id": "C",
+        "text": "RQPS"
+      },
+      {
+        "id": "D",
+        "text": "QPSR"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "Q, 'Instead' से theory की सही परिभाषा देता है; P में 'It' theory/explanation को संदर्भित करता है; R में नए observations से संशोधन और S में 'This' से उसका अर्थ स्पष्ट होता है। क्रम Q-P-R-S है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs003",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: A public monument is more than a structure made of stone, brick or metal.\nP: Its preservation therefore requires both technical skill and public understanding.\nQ: It carries memories of the people, events and ideas associated with a particular period.\nR: Weather, pollution and careless handling can gradually damage its surface and foundations.\nS: Once important details are lost, restoring them exactly may be impossible.\nS6: Thus, preserving monuments protects both material heritage and the memories attached to them.",
+    "options": [
+      {
+        "id": "A",
+        "text": "RQSP"
+      },
+      {
+        "id": "B",
+        "text": "QSRP"
+      },
+      {
+        "id": "C",
+        "text": "QPRS"
+      },
+      {
+        "id": "D",
+        "text": "QRSP"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "Q monument के ऐतिहासिक महत्व को बताता है; R में नुकसान के कारण, S में 'Once' से नुकसान का परिणाम और P में 'therefore' से संरक्षण की आवश्यकता आती है। क्रम Q-R-S-P है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs004",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: The success of a cooperative depends on the trust shared by its members.\nP: Decisions are usually taken collectively, and the benefits are distributed according to agreed rules.\nQ: Each member contributes to an enterprise that would be difficult to manage alone.\nR: Such an arrangement gives small producers greater bargaining power in the market.\nS: For this reason, transparency in accounts and regular participation are essential.\nS6: Thus, trust and shared responsibility are the foundations of a successful cooperative.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PQRS"
+      },
+      {
+        "id": "B",
+        "text": "RQPS"
+      },
+      {
+        "id": "C",
+        "text": "QPRS"
+      },
+      {
+        "id": "D",
+        "text": "QSPR"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "Q बताता है कि सदस्य क्या योगदान देते हैं; P में 'collectively' निर्णय और लाभ-वितरण, R में 'Such an arrangement' का लाभ और S में 'For this reason' से आवश्यक शर्तें आती हैं। क्रम Q-P-R-S है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs005",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: A language survives when it remains useful in the everyday lives of its speakers.\nP: Schools, local media and cultural institutions can all support this process.\nQ: It is passed from one generation to another through conversation, stories and shared practices.\nR: If children stop using it, even a language with a rich literary history may gradually weaken.\nS: Teaching young people to read and write in their mother tongue can strengthen that connection.\nS6: Thus, the continued use of a mother tongue is vital to keeping it alive.",
+    "options": [
+      {
+        "id": "A",
+        "text": "RQSP"
+      },
+      {
+        "id": "B",
+        "text": "QSRP"
+      },
+      {
+        "id": "C",
+        "text": "QRSP"
+      },
+      {
+        "id": "D",
+        "text": "QPSR"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "Q में 'It' भाषा को संदर्भित करता है; R में बच्चों द्वारा उपयोग रुकने का खतरा; S में 'that connection' को मजबूत करने का उपाय; P में संस्थागत सहयोग का विस्तार। क्रम Q-R-S-P है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs006",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: A fair examination is designed to measure what candidates know and can apply.\nP: Clear instructions and a well-tested question paper reduce such uncertainty.\nQ: If the wording is ambiguous, a candidate may lose marks despite understanding the subject.\nR: Fairness, therefore, depends not only on the marking scheme but also on the quality of the questions.\nS: The same standard should be applied to every candidate, regardless of background.\nS6: A fair examination must be carefully designed so that every candidate is assessed on equal terms.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PQSR"
+      },
+      {
+        "id": "B",
+        "text": "SQPR"
+      },
+      {
+        "id": "C",
+        "text": "QSPR"
+      },
+      {
+        "id": "D",
+        "text": "QPSR"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "Q में ambiguity की समस्या, P में 'such uncertainty' का समाधान, S में समान मानक और R में 'therefore' से समापन निष्कर्ष आता है। क्रम Q-P-S-R है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs007",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: A seed bank acts as an insurance policy against the loss of crop diversity.\nP: The stored samples are periodically tested to ensure that they remain viable.\nQ: It preserves seeds of different varieties under carefully controlled conditions.\nR: If a local variety disappears from farmers' fields, its stored seed may help restore it.\nS: This work is especially important as climate change and uniform farming place pressure on traditional crops.\nS6: Thus, seed banks help safeguard options for future agriculture.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QPRS"
+      },
+      {
+        "id": "B",
+        "text": "PQRS"
+      },
+      {
+        "id": "C",
+        "text": "QRPS"
+      },
+      {
+        "id": "D",
+        "text": "RQSP"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "Q seed bank का कार्य बताता है; P में 'stored samples' की जाँच; R में बीज के पुनर्स्थापन का उपयोग; S में 'This work' से इस संरक्षण का महत्व। क्रम Q-P-R-S है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs008",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: The spread of misinformation is not always caused by deliberate lies.\nP: A misleading headline may be shared widely even by readers who have not opened the article.\nQ: Sometimes people pass on a claim because it confirms what they already believe.\nR: Checking the source, date and evidence before sharing can interrupt this process.\nS: Digital literacy must therefore include the habit of questioning information, not merely the ability to operate devices.\nS6: Responsible sharing and critical evaluation are essential to limiting misinformation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PQRS"
+      },
+      {
+        "id": "B",
+        "text": "RQPS"
+      },
+      {
+        "id": "C",
+        "text": "QPRS"
+      },
+      {
+        "id": "D",
+        "text": "QPSR"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "Q misinformation साझा करने का मनोवैज्ञानिक कारण देता है; P में उसका उदाहरण; R में रोकने का उपाय; S में 'therefore' से डिजिटल साक्षरता का निष्कर्ष। क्रम Q-P-R-S है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs009",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: A wetland may appear to be wasteland to someone who sees only the unused surface.\nP: They also provide feeding and breeding grounds for many species of birds and fish.\nQ: In reality, wetlands store excess rainwater and help reduce the impact of floods.\nR: Filling them for construction can therefore remove services that are difficult and costly to replace.\nS: Their plants and soils can also trap pollutants before water reaches larger rivers.\nS6: For these reasons, wetlands must be protected as valuable natural infrastructure.",
+    "options": [
+      {
+        "id": "A",
+        "text": "SQPR"
+      },
+      {
+        "id": "B",
+        "text": "QPSR"
+      },
+      {
+        "id": "C",
+        "text": "QSPR"
+      },
+      {
+        "id": "D",
+        "text": "PQSR"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "Q में wetland का पहला लाभ; S में 'also' से दूसरा पर्यावरणीय लाभ; P में 'also' से जैव-विविधता; R में 'therefore' से निष्कर्ष। क्रम Q-S-P-R है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs010",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: A reliable census is essential for planning public services.\nP: If the count is inaccurate, some areas may receive too few schools, clinics or transport facilities.\nQ: It provides an estimate of the population and records important social characteristics.\nR: Reaching remote households and recording people who move frequently can be difficult.\nS: Careful training of enumerators and clear procedures help reduce these errors.\nS6: Accurate population data is indispensable for distributing public resources fairly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QRSP"
+      },
+      {
+        "id": "B",
+        "text": "QSPR"
+      },
+      {
+        "id": "C",
+        "text": "PQRS"
+      },
+      {
+        "id": "D",
+        "text": "RQPS"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "Q census का उद्देश्य; R में गणना की कठिनाइयाँ; S में 'these errors' का समाधान; P में गलत गणना का परिणाम। क्रम Q-R-S-P है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs011",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: The committee,\nP: after reviewing the objections raised by residents,\nQ: recommended that the road plan be revised,\nR: because several crossings were unsafe,\nS: especially for schoolchildren and elderly pedestrians.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QPRS"
+      },
+      {
+        "id": "B",
+        "text": "RPQS"
+      },
+      {
+        "id": "C",
+        "text": "PQRS"
+      },
+      {
+        "id": "D",
+        "text": "PSQR"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "P में introductory phrase है; Q मुख्य निर्णय बताता है; R बदलाव का कारण और S उन लोगों का उल्लेख करता है जिनकी सुरक्षा प्रभावित थी।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs012",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: No sooner had the rescue team reached the flooded village,\nP: than it began distributing food packets,\nQ: which had been collected by volunteers,\nR: to families stranded on the rooftops,\nS: while another group searched for missing residents.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PSRQ"
+      },
+      {
+        "id": "B",
+        "text": "RPSQ"
+      },
+      {
+        "id": "C",
+        "text": "PRQS"
+      },
+      {
+        "id": "D",
+        "text": "PQRS"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "'No sooner ... than' निश्चित युग्म है; P मुख्य क्रिया, Q तुरंत food packets को modify करता है, R लाभार्थियों को बताता है और S समानांतर बचाव कार्य बताता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs013",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: The report concluded that\nP: unless local authorities improve waste collection,\nQ: the river will continue to receive untreated sewage,\nR: and public awareness campaigns are conducted,\nS: despite the recent restrictions on industrial discharge.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QPSR"
+      },
+      {
+        "id": "B",
+        "text": "SQPR"
+      },
+      {
+        "id": "C",
+        "text": "PQSR"
+      },
+      {
+        "id": "D",
+        "text": "QSPR"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "Q मुख्य निष्कर्ष है; S बताता है कि restrictions के बावजूद समस्या जारी है; P-R में 'unless' के साथ दो आवश्यक शर्तें हैं।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs014",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: Having reviewed the evidence submitted by both sides,\nP: the judge reserved the case for final orders,\nQ: noting that several documents required verification,\nR: before a decision could be announced,\nS: by the court registry.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PSQR"
+      },
+      {
+        "id": "B",
+        "text": "PQRS"
+      },
+      {
+        "id": "C",
+        "text": "QPSR"
+      },
+      {
+        "id": "D",
+        "text": "PQSR"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "P मुख्य clause है; Q judge की टिप्पणी; S में documents के verification का स्रोत और R में निर्णय से पहले की समय-सीमा है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs015",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: The success of the pilot project\nP: depended not only on the funds provided,\nQ: but also on the willingness of residents,\nR: to maintain the new facilities,\nS: after the implementing agency withdrew.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PQRS"
+      },
+      {
+        "id": "B",
+        "text": "PRQS"
+      },
+      {
+        "id": "C",
+        "text": "PQSR"
+      },
+      {
+        "id": "D",
+        "text": "QPRS"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "'not only ... but also' P-Q में आता है; R residents की willingness स्पष्ट करता है और S समय बताता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs016",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: The officer was commended\nP: for remaining calm during the emergency,\nQ: and coordinating the evacuation,\nR: even when communication lines failed,\nS: which prevented further confusion.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PRQS"
+      },
+      {
+        "id": "B",
+        "text": "RPSQ"
+      },
+      {
+        "id": "C",
+        "text": "PRSQ"
+      },
+      {
+        "id": "D",
+        "text": "PQRS"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "P प्रशंसा का पहला कारण; R कठिन परिस्थिति; Q दूसरा कार्य और S उस समन्वय का परिणाम बताता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs017",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: It is essential that every applicant\nP: before submitting the online form,\nQ: read the instructions carefully\nR: because even a minor error,\nS: may delay the verification process.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QRPS"
+      },
+      {
+        "id": "B",
+        "text": "QPSR"
+      },
+      {
+        "id": "C",
+        "text": "PQRS"
+      },
+      {
+        "id": "D",
+        "text": "QPRS"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "'It is essential that' के बाद base verb 'read' आता है; P समय-सीमा और R-S कारण-परिणाम बताते हैं।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs018",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: The old bridge was closed to traffic\nP: after engineers detected cracks\nQ: that had widened during the heavy monsoon,\nR: in two of its supporting pillars,\nS: raising concerns about its structural safety.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PQRS"
+      },
+      {
+        "id": "B",
+        "text": "PRQS"
+      },
+      {
+        "id": "C",
+        "text": "RPQS"
+      },
+      {
+        "id": "D",
+        "text": "PRSQ"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "P में कारण; R में cracks का स्थान; Q relative clause से cracks का विवरण और S परिणाम बताता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs019",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: Not until the audit was completed\nP: did the department release\nQ: the final figures for expenditure,\nR: which had been withheld,\nS: pending verification of several invoices.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QPRS"
+      },
+      {
+        "id": "B",
+        "text": "PSQR"
+      },
+      {
+        "id": "C",
+        "text": "PQRS"
+      },
+      {
+        "id": "D",
+        "text": "PRQS"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "'Not until' के बाद inversion 'did the department release' आता है; फिर object, relative clause और withholding का कारण आता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs020",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: The principal asked the students\nP: to avoid spreading rumours\nQ: until the school issued an official statement,\nR: because incomplete information\nS: could cause unnecessary anxiety among parents.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PQRS"
+      },
+      {
+        "id": "B",
+        "text": "PSRQ"
+      },
+      {
+        "id": "C",
+        "text": "PRSQ"
+      },
+      {
+        "id": "D",
+        "text": "RPSQ"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "P में 'asked ... to avoid'; Q में उस निर्देश की समय-सीमा; R-S में rumours न फैलाने का कारण आता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs021",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: Despite the apparent simplicity of the machine,\nP: its maintenance requires specialised knowledge,\nQ: particularly when internal components need replacement,\nR: and regular inspection is necessary\nS: to prevent small faults from becoming costly failures.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PRQS"
+      },
+      {
+        "id": "B",
+        "text": "RPQS"
+      },
+      {
+        "id": "C",
+        "text": "PQSR"
+      },
+      {
+        "id": "D",
+        "text": "PQRS"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "P मुख्य कथन; Q विशेष परिस्थिति; R अतिरिक्त आवश्यकता और S inspection का उद्देश्य बताता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs022",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: The documentary traces the journey of a river\nP: from its source in the hills,\nQ: through densely populated plains,\nR: where agriculture and industry depend on its water,\nS: to the delta where it meets the sea.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PSQR"
+      },
+      {
+        "id": "B",
+        "text": "PRQS"
+      },
+      {
+        "id": "C",
+        "text": "QPRS"
+      },
+      {
+        "id": "D",
+        "text": "PQRS"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "'from ... through ... to ...' स्थान-क्रम बनाता है; R plains का विवरण देता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs023",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: The examiner identified\nP: a discrepancy in the data,\nQ: which had been submitted with the application,\nR: and asked the candidate to explain,\nS: why the two tables contained different figures.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PRQS"
+      },
+      {
+        "id": "B",
+        "text": "PQSR"
+      },
+      {
+        "id": "C",
+        "text": "QPRS"
+      },
+      {
+        "id": "D",
+        "text": "PQRS"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "P में examiner द्वारा पहचानी गई समस्या; Q में data का विवरण; R में candidate से explanation माँगना और S में explanation का विषय आता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs024",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: Only after the lights had been restored\nP: could the technicians identify\nQ: the cause of the sudden failure,\nR: which had interrupted the entire production line,\nS: for nearly two hours.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PQRS"
+      },
+      {
+        "id": "B",
+        "text": "PRQS"
+      },
+      {
+        "id": "C",
+        "text": "QPRS"
+      },
+      {
+        "id": "D",
+        "text": "PSRQ"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "'Only after' से inversion 'could the technicians identify' आता है; फिर cause, relative clause और अवधि दी जाती है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs025",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: The policy is intended to ensure\nP: that access to public services\nQ: does not depend on a person’s income\nR: or place of residence,\nS: especially in remote districts.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QPRS"
+      },
+      {
+        "id": "B",
+        "text": "PRQS"
+      },
+      {
+        "id": "C",
+        "text": "PSRQ"
+      },
+      {
+        "id": "D",
+        "text": "PQRS"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "'ensure that' के बाद clause आता है; P subject phrase, Q predicate, R दूसरा exclusion criterion और S विशेष संदर्भ देता है।",
+    "language": "en"
+  }
+]

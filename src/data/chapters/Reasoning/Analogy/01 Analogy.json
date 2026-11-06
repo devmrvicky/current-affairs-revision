@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "analogy001",
+    "subjectId": "reasoning",
+    "question": "मौखिक : कहना :: श्रव्य : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "लिखना"
+      },
+      {
+        "id": "B",
+        "text": "गाना"
+      },
+      {
+        "id": "C",
+        "text": "सुनना"
+      },
+      {
+        "id": "D",
+        "text": "पढ़ना"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy002",
+    "subjectId": "reasoning",
+    "question": "मछली : शल्क :: भालू : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पर"
+      },
+      {
+        "id": "B",
+        "text": "खाल"
+      },
+      {
+        "id": "C",
+        "text": "पत्तियाँ"
+      },
+      {
+        "id": "D",
+        "text": "रोएँ"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy003",
+    "subjectId": "reasoning",
+    "question": "जासूस : मुखबिर :: रिपोर्टर : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "स्रोत"
+      },
+      {
+        "id": "B",
+        "text": "संपादकीय"
+      },
+      {
+        "id": "C",
+        "text": "समाचार"
+      },
+      {
+        "id": "D",
+        "text": "निबंध"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy004",
+    "subjectId": "reasoning",
+    "question": "पुस्तकालय : पुस्तकें :: विद्यालय : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "समाचार-पत्र"
+      },
+      {
+        "id": "B",
+        "text": "इमारतें"
+      },
+      {
+        "id": "C",
+        "text": "प्रयोगशाला"
+      },
+      {
+        "id": "D",
+        "text": "छात्र"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy005",
+    "subjectId": "reasoning",
+    "question": "कुत्ता : भौंकना :: बकरी : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "गुर्राना"
+      },
+      {
+        "id": "B",
+        "text": "मिमियाना"
+      },
+      {
+        "id": "C",
+        "text": "गरजना"
+      },
+      {
+        "id": "D",
+        "text": "रेंकना"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy006",
+    "subjectId": "reasoning",
+    "question": "नींद : अनिद्रा :: स्मृति : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अल्जाइमर्स"
+      },
+      {
+        "id": "B",
+        "text": "हीमोफीलिया"
+      },
+      {
+        "id": "C",
+        "text": "इस्कीमिया"
+      },
+      {
+        "id": "D",
+        "text": "मधुमेह"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy007",
+    "subjectId": "reasoning",
+    "question": "मेन्यू : भोजन :: कैटलॉग : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पुस्तकें"
+      },
+      {
+        "id": "B",
+        "text": "अखबार"
+      },
+      {
+        "id": "C",
+        "text": "टांड"
+      },
+      {
+        "id": "D",
+        "text": "पुस्तकालय"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy008",
+    "subjectId": "reasoning",
+    "question": "वृत्त : परिधि :: अष्टभुज : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "क्षेत्रफल"
+      },
+      {
+        "id": "B",
+        "text": "विकर्ण"
+      },
+      {
+        "id": "C",
+        "text": "परिमाप"
+      },
+      {
+        "id": "D",
+        "text": "आयाम"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy009",
+    "subjectId": "reasoning",
+    "question": "बॉक्सिंग : रिंग :: घुड़दौड़ : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कोर्ट"
+      },
+      {
+        "id": "B",
+        "text": "पूल"
+      },
+      {
+        "id": "C",
+        "text": "मैदान"
+      },
+      {
+        "id": "D",
+        "text": "एरीना"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy010",
+    "subjectId": "reasoning",
+    "question": "निमोनिया : फेफड़े :: मोतियाबिंद : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मस्तिष्क"
+      },
+      {
+        "id": "B",
+        "text": "आँख"
+      },
+      {
+        "id": "C",
+        "text": "नाक"
+      },
+      {
+        "id": "D",
+        "text": "तंत्रिका तंत्र"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy011",
+    "subjectId": "reasoning",
+    "question": "दबाव : पास्कल :: विद्युत : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "वाट"
+      },
+      {
+        "id": "B",
+        "text": "ओम"
+      },
+      {
+        "id": "C",
+        "text": "जूल"
+      },
+      {
+        "id": "D",
+        "text": "बार"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy012",
+    "subjectId": "reasoning",
+    "question": "हकलाना : बातचीत :: ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "शोर मचाना : सुनना"
+      },
+      {
+        "id": "B",
+        "text": "नोवोकेन : स्पर्श"
+      },
+      {
+        "id": "C",
+        "text": "सुगंध : महक"
+      },
+      {
+        "id": "D",
+        "text": "दृष्टिवैषम्य : दृष्टि"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy013",
+    "subjectId": "reasoning",
+    "question": "शुरुआत : आरंभ :: ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "हरा : पत्ता"
+      },
+      {
+        "id": "B",
+        "text": "कड़वा : मीठा"
+      },
+      {
+        "id": "C",
+        "text": "प्रतिबंध : निषेध"
+      },
+      {
+        "id": "D",
+        "text": "बाद : पहला"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy014",
+    "subjectId": "reasoning",
+    "question": "बढ़ई : हथौड़ा :: ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मछुआरा : जाल"
+      },
+      {
+        "id": "B",
+        "text": "कसाई : मांस"
+      },
+      {
+        "id": "C",
+        "text": "मिस्त्री : कार"
+      },
+      {
+        "id": "D",
+        "text": "नर्स : रोगी"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy015",
+    "subjectId": "reasoning",
+    "question": "घोड़ा : अस्तबल :: मुर्गी : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "खेत"
+      },
+      {
+        "id": "B",
+        "text": "दड़बा"
+      },
+      {
+        "id": "C",
+        "text": "मवेशी बाड़ा"
+      },
+      {
+        "id": "D",
+        "text": "ओसारा"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy016",
+    "subjectId": "reasoning",
+    "question": "कोमल : रूखा :: सुस्ती : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कष्टप्रद"
+      },
+      {
+        "id": "B",
+        "text": "दयालु"
+      },
+      {
+        "id": "C",
+        "text": "सतर्कता"
+      },
+      {
+        "id": "D",
+        "text": "नष्ट"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy017",
+    "subjectId": "reasoning",
+    "question": "डायरेक्टर : फिल्म :: कंडक्टर : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "आर्केस्ट्रा"
+      },
+      {
+        "id": "B",
+        "text": "नृत्य"
+      },
+      {
+        "id": "C",
+        "text": "कोरियोग्राफी"
+      },
+      {
+        "id": "D",
+        "text": "श्रोता/दर्शक"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy018",
+    "subjectId": "reasoning",
+    "question": "गुफा : शेर :: जाल : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चूहा"
+      },
+      {
+        "id": "B",
+        "text": "एस्किमो"
+      },
+      {
+        "id": "C",
+        "text": "पक्षी"
+      },
+      {
+        "id": "D",
+        "text": "मकड़ी"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy019",
+    "subjectId": "reasoning",
+    "question": "तीन : त्रिभुज :: छः : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पंचभुज"
+      },
+      {
+        "id": "B",
+        "text": "आयत"
+      },
+      {
+        "id": "C",
+        "text": "षट्भुज"
+      },
+      {
+        "id": "D",
+        "text": "वर्ग"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy020",
+    "subjectId": "reasoning",
+    "question": "रुपया : भारत :: युआन : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "नेपाल"
+      },
+      {
+        "id": "B",
+        "text": "चीन"
+      },
+      {
+        "id": "C",
+        "text": "म्यांमार"
+      },
+      {
+        "id": "D",
+        "text": "पाकिस्तान"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy021",
+    "subjectId": "reasoning",
+    "question": "सिस्मोग्राफ : भूकंप :: हाइग्रोमीटर : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ताप"
+      },
+      {
+        "id": "B",
+        "text": "लंबाई"
+      },
+      {
+        "id": "C",
+        "text": "आर्द्रता"
+      },
+      {
+        "id": "D",
+        "text": "दाब"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy022",
+    "subjectId": "reasoning",
+    "question": "राजस्थान : जयपुर :: मेघालय : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कोहिमा"
+      },
+      {
+        "id": "B",
+        "text": "दिसपुर"
+      },
+      {
+        "id": "C",
+        "text": "लखनऊ"
+      },
+      {
+        "id": "D",
+        "text": "शिलांग"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy023",
+    "subjectId": "reasoning",
+    "question": "स्तनधारी : मनुष्य :: सरीसृप : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "छिपकली"
+      },
+      {
+        "id": "B",
+        "text": "चूहा"
+      },
+      {
+        "id": "C",
+        "text": "व्हेल"
+      },
+      {
+        "id": "D",
+        "text": "तितली"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy024",
+    "subjectId": "reasoning",
+    "question": "सापेक्षता का सिद्धांत : आइंस्टीन :: गति का नियम : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जॉन डाल्टन"
+      },
+      {
+        "id": "B",
+        "text": "जेम्स चैडविक"
+      },
+      {
+        "id": "C",
+        "text": "आइजैक न्यूटन"
+      },
+      {
+        "id": "D",
+        "text": "थॉमसन"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy025",
+    "subjectId": "reasoning",
+    "question": "संपादक : अखबार :: ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कविता : कवि"
+      },
+      {
+        "id": "B",
+        "text": "किसान : फसल"
+      },
+      {
+        "id": "C",
+        "text": "भोजन : रसोइया"
+      },
+      {
+        "id": "D",
+        "text": "नक्शा : वास्तुकार"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy026",
+    "subjectId": "reasoning",
+    "question": "नफरत करना : प्रेम करना :: स्वीकारना : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "आलोचना करना"
+      },
+      {
+        "id": "B",
+        "text": "नकारना"
+      },
+      {
+        "id": "C",
+        "text": "घृणा करना"
+      },
+      {
+        "id": "D",
+        "text": "उपेक्षा करना"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy027",
+    "subjectId": "reasoning",
+    "question": "क्रिकेट : पिच :: गोल्फ : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अखाड़ा"
+      },
+      {
+        "id": "B",
+        "text": "कोर्ट"
+      },
+      {
+        "id": "C",
+        "text": "कोर्स"
+      },
+      {
+        "id": "D",
+        "text": "ट्रैक"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy028",
+    "subjectId": "reasoning",
+    "question": "शेर : दहाड़ना :: हाथी : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चिंघाड़ना"
+      },
+      {
+        "id": "B",
+        "text": "गुर्राना"
+      },
+      {
+        "id": "C",
+        "text": "रेंकना"
+      },
+      {
+        "id": "D",
+        "text": "फुफकारना"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy029",
+    "subjectId": "reasoning",
+    "question": "किटेन : बिल्ली :: टैडपोल : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "हिरण"
+      },
+      {
+        "id": "B",
+        "text": "मेंढक"
+      },
+      {
+        "id": "C",
+        "text": "कुत्ता"
+      },
+      {
+        "id": "D",
+        "text": "कीट"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy030",
+    "subjectId": "reasoning",
+    "question": "मदर टेरेसा : शांति :: रविंद्रनाथ टैगोर : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भौतिकी"
+      },
+      {
+        "id": "B",
+        "text": "रसायन विज्ञान"
+      },
+      {
+        "id": "C",
+        "text": "साहित्य"
+      },
+      {
+        "id": "D",
+        "text": "गणित"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy031",
+    "subjectId": "reasoning",
+    "question": "संगीतकार : बैंड :: दीमक : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भीड़"
+      },
+      {
+        "id": "B",
+        "text": "सेना"
+      },
+      {
+        "id": "C",
+        "text": "समूह"
+      },
+      {
+        "id": "D",
+        "text": "कॉलोनी"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy032",
+    "subjectId": "reasoning",
+    "question": "आदर करना : प्रार्थना :: प्रशंसा करना : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "श्रद्धांजलि देना"
+      },
+      {
+        "id": "B",
+        "text": "सिफारिश करना"
+      },
+      {
+        "id": "C",
+        "text": "अनादर करना"
+      },
+      {
+        "id": "D",
+        "text": "गुणगान करना"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy033",
+    "subjectId": "reasoning",
+    "question": "सफेद झंडा : आत्मसमर्पण :: कबूतर : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मित्रता"
+      },
+      {
+        "id": "B",
+        "text": "शांति"
+      },
+      {
+        "id": "C",
+        "text": "विजयी"
+      },
+      {
+        "id": "D",
+        "text": "युद्ध"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy034",
+    "subjectId": "reasoning",
+    "question": "कार्बन डाइऑक्साइड : बुझाना :: ऑक्सीजन : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जलाना"
+      },
+      {
+        "id": "B",
+        "text": "अलग करना"
+      },
+      {
+        "id": "C",
+        "text": "झाग"
+      },
+      {
+        "id": "D",
+        "text": "फटना"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy035",
+    "subjectId": "reasoning",
+    "question": "राजमिस्त्री : साहुल सूत्र :: ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "शल्य चिकित्सक : छुरिका"
+      },
+      {
+        "id": "B",
+        "text": "मूर्तिकार : कुदाल"
+      },
+      {
+        "id": "C",
+        "text": "लोहार : चिमटा"
+      },
+      {
+        "id": "D",
+        "text": "बागवान : आरा"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy036",
+    "subjectId": "reasoning",
+    "question": "थकावट : शक्ति :: सूखा : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पहिया : गोल"
+      },
+      {
+        "id": "B",
+        "text": "गाड़ी : हरा"
+      },
+      {
+        "id": "C",
+        "text": "ईंधन : पेट्रोल"
+      },
+      {
+        "id": "D",
+        "text": "सूखा : बाढ़"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy037",
+    "subjectId": "reasoning",
+    "question": "विमान : पायलट :: जहाज : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कप्तान"
+      },
+      {
+        "id": "B",
+        "text": "फौजी"
+      },
+      {
+        "id": "C",
+        "text": "नौसेना"
+      },
+      {
+        "id": "D",
+        "text": "मेजर"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy038",
+    "subjectId": "reasoning",
+    "question": "उद्देशिका : संविधान :: ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "शब्द : शब्दकोश"
+      },
+      {
+        "id": "B",
+        "text": "विषय-वस्तु : पत्रिका"
+      },
+      {
+        "id": "C",
+        "text": "स्पष्टीकरण : कविता"
+      },
+      {
+        "id": "D",
+        "text": "प्रस्तावना : पुस्तक"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy039",
+    "subjectId": "reasoning",
+    "question": "लोकसभा : अध्यक्ष :: राज्यसभा : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्रधानमंत्री"
+      },
+      {
+        "id": "B",
+        "text": "उपाध्यक्ष"
+      },
+      {
+        "id": "C",
+        "text": "उपराष्ट्रपति"
+      },
+      {
+        "id": "D",
+        "text": "राष्ट्रपति"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy040",
+    "subjectId": "reasoning",
+    "question": "फ्रेंच : फ्रांस :: डच : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "हॉलैंड"
+      },
+      {
+        "id": "B",
+        "text": "नॉर्वे"
+      },
+      {
+        "id": "C",
+        "text": "फिजी"
+      },
+      {
+        "id": "D",
+        "text": "स्वीडन"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy041",
+    "subjectId": "reasoning",
+    "question": "AFKP : ZUPK :: BGLQ : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "YTOJ"
+      },
+      {
+        "id": "B",
+        "text": "YUQM"
+      },
+      {
+        "id": "C",
+        "text": "XURO"
+      },
+      {
+        "id": "D",
+        "text": "YXWV"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy042",
+    "subjectId": "reasoning",
+    "question": "RED : GHU :: BLUE : HXOE :: PINK : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "JHGF"
+      },
+      {
+        "id": "B",
+        "text": "MNHO"
+      },
+      {
+        "id": "C",
+        "text": "PLOK"
+      },
+      {
+        "id": "D",
+        "text": "NQLS"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy043",
+    "subjectId": "reasoning",
+    "question": "SAME : WDOF :: JKLM : NNNN :: GOAI : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "KRJC"
+      },
+      {
+        "id": "B",
+        "text": "KRCJ"
+      },
+      {
+        "id": "C",
+        "text": "JRCK"
+      },
+      {
+        "id": "D",
+        "text": "CKRJ"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy044",
+    "subjectId": "reasoning",
+    "question": "OTG : UPK :: MLU : SHY :: RMO : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "XWI"
+      },
+      {
+        "id": "B",
+        "text": "XSI"
+      },
+      {
+        "id": "C",
+        "text": "XIR"
+      },
+      {
+        "id": "D",
+        "text": "XIS"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy045",
+    "subjectId": "reasoning",
+    "question": "BOYS : YSBO :: RXMK : MKRX :: WBGH : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "GHBW"
+      },
+      {
+        "id": "B",
+        "text": "GHWB"
+      },
+      {
+        "id": "C",
+        "text": "WBHG"
+      },
+      {
+        "id": "D",
+        "text": "GBWH"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy046",
+    "subjectId": "reasoning",
+    "question": "DM8 : GP13 :: JH9 : MK14 :: OP15 : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "RP19"
+      },
+      {
+        "id": "B",
+        "text": "RS21"
+      },
+      {
+        "id": "C",
+        "text": "RS20"
+      },
+      {
+        "id": "D",
+        "text": "SR20"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy047",
+    "subjectId": "reasoning",
+    "question": "ALDI : FQIN :: FJUR : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "KOZW"
+      },
+      {
+        "id": "B",
+        "text": "KOWZ"
+      },
+      {
+        "id": "C",
+        "text": "KOWY"
+      },
+      {
+        "id": "D",
+        "text": "OKWZ"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy048",
+    "subjectId": "reasoning",
+    "question": "ALNC : KMOM :: LKQD : VLRN :: HNTF : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ROUP"
+      },
+      {
+        "id": "B",
+        "text": "ROUQ"
+      },
+      {
+        "id": "C",
+        "text": "ROPU"
+      },
+      {
+        "id": "D",
+        "text": "ROQU"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy049",
+    "subjectId": "reasoning",
+    "question": "ACF : BFK :: JMN : KPS :: ERO : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "FUR"
+      },
+      {
+        "id": "B",
+        "text": "FUT"
+      },
+      {
+        "id": "C",
+        "text": "UTF"
+      },
+      {
+        "id": "D",
+        "text": "TFU"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "analogy050",
+    "subjectId": "reasoning",
+    "question": "GB13 : HD17 :: DK18 : EM22 :: RE16 : ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SG19"
+      },
+      {
+        "id": "B",
+        "text": "GS20"
+      },
+      {
+        "id": "C",
+        "text": "SG20"
+      },
+      {
+        "id": "D",
+        "text": "RG20"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "analogy",
+    "difficulty": "medium",
+    "language": "hi"
+  }
+]

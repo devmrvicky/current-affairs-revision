@@ -1,3 +1,4 @@
+import { SpeakExplanationButton } from '../../components/common/SpeakExplanationButton';
 import { useMemo, useRef, useState } from 'react';
 import { Flag } from 'lucide-react';
 import type { QuestionAnalysis } from '../../types/mockAnalysis';
@@ -135,6 +136,7 @@ export function SolutionsReview({ solutions, slowThresholdSeconds = null, timing
                 {s.explanation && (
                   <div className="text-xs mt-2 p-2.5 rounded-lg" style={{ background: 'var(--border)', color: 'var(--text-secondary)' }}>
                     <QuestionMarkdownRenderer content={s.explanation} baseDir={s.baseDir} />
+                    <SpeakExplanationButton text={s.explanation} className="mt-2" />
                   </div>
                 )}
                 <p className="text-[11px] mt-2 flex flex-wrap items-center gap-x-2 gap-y-1" style={{ color: 'var(--text-muted)' }}>

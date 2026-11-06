@@ -9,6 +9,7 @@ import { usePracticeSessionStore } from '../store/practiceSessionStore';
 import { useQuizStore } from '../store/quizStore';
 import { useMockSessionStore } from '../store/mockSessionStore';
 import { sessionRegistry } from './sessionRegistry';
+import { archiveSession } from './sessionArchive';
 import {
   isMockUnfinished, isPracticeUnfinished, isQuizUnfinished,
   suspendMock, suspendPractice, suspendQuiz,
@@ -41,8 +42,13 @@ export async function listResumableSessions(): Promise<ResumableSessionSummary[]
 
   for (const record of await sessionRegistry.list()) {
     if (byId.has(record.id)) continue;
-    const summary = summarizeRecord(record, now);
-    if (summary) byId.set(summary.id, summary);
+    // One unreadable record must never hide the learner's other sessions.
+    try {
+      const summary = summarizeRecord(record, now);
+      if (summary) byId.set(summary.id, summary);
+    } catch (err) {
+      console.warn('Skipping an unreadable saved session', record.id, err);
+    }
   }
   return Array.from(byId.values()).sort((a, b) => b.lastActiveAt - a.lastActiveAt);
 }
@@ -83,15 +89,34 @@ export async function resumeSavedSession(summary: ResumableSessionSummary): Prom
   return summary.resumeRoute;
 }
 
-/** Permanently removes a session's saved progress. The caller is responsible for asking the learner first. */
-export async function abandonSavedSession(summary: ResumableSessionSummary): Promise<void> {
-  if (summary.location === 'saved') {
-    await sessionRegistry.remove(summary.id);
-    return;
+/**
+ * Closing a test (✕) archives it — it leaves Resume Tests but its record is kept.
+ * Nothing here deletes session data. See services/sessionArchive.ts.
+ */
+export async function abandonSavedSession(summary: ResumableSessionSummary): Promise<boolean> {
+  return archiveSession(summary);
+}
+
+export interface ResumableGroup {
+  label: string;
+  sessions: ResumableSessionSummary[];
+  lastActiveAt: number;
+}
+
+/** Groups Resume cards under their subject/test-type heading. Newest activity first, both between and within groups. Pure. */
+export function groupResumableSessions(sessions: ResumableSessionSummary[]): ResumableGroup[] {
+  const byLabel = new Map<string, ResumableSessionSummary[]>();
+  for (const s of sessions) {
+    const list = byLabel.get(s.group) ?? [];
+    list.push(s);
+    byLabel.set(s.group, list);
   }
-  if (summary.kind === 'universal') usePracticeSessionStore.getState().clearSession();
-  else if (summary.kind === 'legacy') useQuizStore.getState().clearSession();
-  else useMockSessionStore.getState().clearSession();
+  return Array.from(byLabel.entries())
+    .map(([label, list]) => {
+      const sorted = [...list].sort((a, b) => b.lastActiveAt - a.lastActiveAt);
+      return { label, sessions: sorted, lastActiveAt: sorted[0].lastActiveAt };
+    })
+    .sort((a, b) => b.lastActiveAt - a.lastActiveAt);
 }
 
 /**

@@ -1,3 +1,4 @@
+import { SpeakExplanationButton } from '../components/common/SpeakExplanationButton';
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -499,6 +500,7 @@ export default function UniversalSessionPage() {
                   {currentQuestion.explanation && (
                     <div className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
                       <QuestionMarkdownRenderer content={currentQuestion.explanation} baseDir={currentQuestion.sourceMockBaseDir} />
+                      <SpeakExplanationButton text={currentQuestion.explanation} className="mt-3" />
                     </div>
                   )}
                 </motion.div>

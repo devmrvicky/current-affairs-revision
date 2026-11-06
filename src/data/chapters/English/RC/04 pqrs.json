@@ -1,0 +1,562 @@
+[
+  {
+    "id": "pqrs041",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: Electric vehicles are increasingly seen as a remedy for urban air pollution.\nP: Greater reliance on solar and wind energy would therefore make the benefit of such vehicles real and lasting.\nQ: Their cleanliness, however, depends on how the electricity that charges them is generated.\nR: If that power comes from coal, the pollution is merely shifted from the city streets to the distant power plant.\nS: Unlike petrol or diesel engines, they produce no exhaust fumes while running on the road.\nS6: The future of clean transport thus rests as much on the grid as on the car.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QSRP"
+      },
+      {
+        "id": "B",
+        "text": "SRQP"
+      },
+      {
+        "id": "C",
+        "text": "SQPR"
+      },
+      {
+        "id": "D",
+        "text": "SQRP"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम S → Q → R → P। बिना धुएँ के चलना → 'however' के साथ बिजली के स्रोत पर निर्भरता → 'that power' कोयले से बने तो प्रदूषण स्थानांतरित → 'therefore' सौर-पवन ऊर्जा से स्थायी लाभ।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs042",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: A good teacher does not merely supply answers; she teaches students to ask questions.\nP: Filling these gaps, with the help of books and discussion, produces knowledge that is truly her own.\nQ: Such knowledge, unlike mere memory, can be applied to situations that no textbook has described.\nR: In doing so, the student begins to notice gaps in her own understanding.\nS: A question forces the mind to leave the comfort of memorised facts and search for reasons.\nS6: Curiosity, rather than information, is therefore the real beginning of education.",
+    "options": [
+      {
+        "id": "A",
+        "text": "RSPQ"
+      },
+      {
+        "id": "B",
+        "text": "SPRQ"
+      },
+      {
+        "id": "C",
+        "text": "SRPQ"
+      },
+      {
+        "id": "D",
+        "text": "SRQP"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम S → R → P → Q। प्रश्न दिमाग को तर्क खोजने पर मजबूर करता है → 'In doing so' अपनी समझ की कमियाँ दिखती हैं → 'these gaps' भरने से अपना ज्ञान → 'Such knowledge' का उपयोग नई परिस्थितियों में।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs043",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: A farmer in a drought-stricken village decided that he would no longer wait for the rains.\nP: Neighbours laughed at him and said that nothing but dust would ever come out of that ground.\nQ: Weeks later, however, a thin stream of water began to seep into the pit, and the laughter stopped.\nR: Every morning, before sunrise, he walked to the dry riverbed and began digging a pit.\nS: Soon the whole village was queuing up to learn how he had found the water.\nS6: His patience had done what a hundred complaints could not.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PRQS"
+      },
+      {
+        "id": "B",
+        "text": "RQPS"
+      },
+      {
+        "id": "C",
+        "text": "RPSQ"
+      },
+      {
+        "id": "D",
+        "text": "RPQS"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम R → P → Q → S। रोज़ गड्ढा खोदना → पड़ोसियों का मज़ाक उड़ाना ('that ground') → 'Weeks later, however' पानी रिसना → 'Soon' पूरे गाँव का सीखने आना।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs044",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: Online fraud has become one of the fastest-growing crimes of our time.\nP: Typically, the criminal poses as a bank official and calls the victim with an urgent warning.\nQ: Alarmed, the victim is persuaded to share a password or a one-time code to 'save' the account.\nR: Banks therefore repeatedly remind customers that no genuine employee will ever ask for such details.\nS: Within minutes, the money has vanished, and the caller's number is switched off.\nS6: Alertness, not technology, remains the best defence against this kind of crime.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QPSR"
+      },
+      {
+        "id": "B",
+        "text": "PSQR"
+      },
+      {
+        "id": "C",
+        "text": "PQSR"
+      },
+      {
+        "id": "D",
+        "text": "PQRS"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम P → Q → S → R। बैंक अधिकारी बनकर फोन → 'Alarmed, the victim' से पासवर्ड/कोड साझा करना → 'Within minutes' पैसा गायब → 'therefore' बैंकों की चेतावनी ('such details' यानी पासवर्ड/कोड)।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs045",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: A constitution is the supreme law of a country.\nP: In this manner, the constitution protects the individual from the arbitrary use of power by the state.\nQ: It lays down how the government is to be formed and what powers each of its organs may exercise.\nR: Equally important, it guarantees certain rights to citizens which no government can take away at will.\nS: Should any authority overstep these limits or violate such rights, the courts are empowered to declare its action invalid.\nS6: It is thus both the source and the restraint of governmental authority.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QRSP"
+      },
+      {
+        "id": "B",
+        "text": "RQSP"
+      },
+      {
+        "id": "C",
+        "text": "QSRP"
+      },
+      {
+        "id": "D",
+        "text": "QRPS"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम Q → R → S → P। सरकार के अंगों की शक्तियाँ → 'Equally important' नागरिकों के अधिकार → 'these limits or such rights' का उल्लंघन होने पर अदालत → 'In this manner' व्यक्ति की सुरक्षा।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs046",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: Every household produces waste, but not every household thinks about where it goes.\nP: Wet waste can then be composted, while dry waste such as paper and metal can be sent for recycling.\nQ: Segregating waste at home into wet and dry categories can greatly reduce this burden.\nR: Most of it ends up in large open dumps on the outskirts of cities.\nS: There it decomposes slowly, releasing harmful gases and seeping poisonous liquids into the soil.\nS6: A small habit in the kitchen can thus protect the health of an entire city.",
+    "options": [
+      {
+        "id": "A",
+        "text": "SRQP"
+      },
+      {
+        "id": "B",
+        "text": "RSQP"
+      },
+      {
+        "id": "C",
+        "text": "RQSP"
+      },
+      {
+        "id": "D",
+        "text": "RSPQ"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम R → S → Q → P। कचरा खुले डंप में → 'There' धीमा सड़ना और हानिकारक गैसें → 'this burden' घटाने के लिए घर पर कचरा अलग करना → 'then' गीले कचरे से खाद, सूखे का रीसायकल।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs047",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: A volcano is, in essence, an opening in the earth's crust through which molten rock escapes.\nP: As it climbs, the pressure of trapped gases builds up, like that in a shaken bottle of soda.\nQ: Being lighter than the surrounding rock, the magma gradually rises towards the surface.\nR: Deep below the surface, intense heat melts rock into a thick fluid called magma.\nS: When the pressure finally exceeds what the rock above can bear, the magma bursts out in an eruption.\nS6: Thus, every eruption is the earth's way of releasing the pressure that has built up within it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QRPS"
+      },
+      {
+        "id": "B",
+        "text": "RPQS"
+      },
+      {
+        "id": "C",
+        "text": "RQSP"
+      },
+      {
+        "id": "D",
+        "text": "RQPS"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम R → Q → P → S। गर्मी से चट्टान का पिघलकर मैग्मा बनना → हल्का होने से ऊपर उठना → 'As it climbs' गैसों का दबाव बढ़ना → 'finally' दबाव सहन-सीमा पार करने पर विस्फोट।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs048",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: Weather forecasts once depended largely on the experience of elders who read the sky and the behaviour of animals.\nP: Such forecasts have saved countless lives by giving coastal communities time to evacuate before cyclones strike.\nQ: The invention of instruments such as the barometer introduced a more scientific approach.\nR: Today, powerful computers combine this satellite data with mathematical models to predict the weather days in advance.\nS: Later, satellites began to photograph clouds from space, revealing storms while they were still far out at sea.\nS6: Science has thus turned an old guess into a reliable warning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QSRP"
+      },
+      {
+        "id": "B",
+        "text": "SQRP"
+      },
+      {
+        "id": "C",
+        "text": "QRSP"
+      },
+      {
+        "id": "D",
+        "text": "QSPR"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम Q → S → R → P। क्रम कालक्रम का है: यंत्रों का आविष्कार → 'Later' उपग्रह → 'Today' कंप्यूटर व गणितीय मॉडल ('this satellite data') → 'Such forecasts' से जीवन-रक्षा।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs049",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: Saving is a habit that is easier to praise than to practise.\nP: Most people intend to save whatever remains at the end of the month.\nQ: What is left can then be spent without guilt, since the future has already been provided for.\nR: Unfortunately, very little remains, because expenses have a way of expanding to fill the income available.\nS: Financial planners therefore advise setting aside a fixed amount as soon as the salary arrives.\nS6: Saving first and spending later is thus the surest way to build security.",
+    "options": [
+      {
+        "id": "A",
+        "text": "RPSQ"
+      },
+      {
+        "id": "B",
+        "text": "PRSQ"
+      },
+      {
+        "id": "C",
+        "text": "PSRQ"
+      },
+      {
+        "id": "D",
+        "text": "PRQS"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम P → R → S → Q। लोग बचे हुए पैसे को बचाने का इरादा रखते हैं → 'Unfortunately' बहुत कम बचता है → 'therefore' वेतन मिलते ही तय राशि अलग रखने की सलाह → 'then' बाकी बिना अपराध-बोध खर्च।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs050",
+    "subjectId": "english",
+    "question": "Given below are six sentences. The first (S1) and the last (S6) are fixed in their positions, and the four sentences in between (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to form a meaningful paragraph.\n\nS1: Meera found a wallet lying on the footpath as she was returning from school.\nP: Although the cash was tempting, she realised that the owner must be anxiously searching for it.\nQ: The grateful owner, a retired teacher, was so moved by her honesty that he blessed her with tears in his eyes.\nR: She therefore searched for an address among the cards and walked to the house herself.\nS: Inside it were some money, a few cards, and a photograph of a smiling family.\nS6: Meera returned home that evening with an empty hand but a full heart.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PSRQ"
+      },
+      {
+        "id": "B",
+        "text": "SRPQ"
+      },
+      {
+        "id": "C",
+        "text": "SPRQ"
+      },
+      {
+        "id": "D",
+        "text": "SPQR"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "सही क्रम S → P → R → Q। घटनाक्रम: पर्स के अंदर की चीज़ें → पैसे का लालच पर मालिक की चिंता का एहसास → 'therefore' पते की खोज और घर जाना → आभारी मालिक की प्रतिक्रिया।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs051",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: Were it not for the timely help of the villagers,\nP: would have faced\nQ: the stranded travellers\nR: from which they could scarcely have recovered.\nS: a night of terrible hardship",
+    "options": [
+      {
+        "id": "A",
+        "text": "PQSR"
+      },
+      {
+        "id": "B",
+        "text": "QPSR"
+      },
+      {
+        "id": "C",
+        "text": "QSPR"
+      },
+      {
+        "id": "D",
+        "text": "QPRS"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही क्रम Q → P → S → R। सही वाक्य: 'Were it not for the timely help of the villagers, the stranded travellers would have faced a night of terrible hardship from which they could scarcely have recovered.' 'Were it not for ...' (inverted conditional) के बाद 'would have + V3' आता है; 'from which' उपवाक्य 'hardship' के बाद आता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs052",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: The principal, together with the teachers,\nP: had topped the district.\nQ: to announce\nR: was delighted\nS: that the school",
+    "options": [
+      {
+        "id": "A",
+        "text": "RQSP"
+      },
+      {
+        "id": "B",
+        "text": "QRSP"
+      },
+      {
+        "id": "C",
+        "text": "RSQP"
+      },
+      {
+        "id": "D",
+        "text": "RQPS"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही क्रम R → Q → S → P। सही वाक्य: 'The principal, together with the teachers, was delighted to announce that the school had topped the district.' 'together with' से जुड़ा शब्द क्रिया को प्रभावित नहीं करता; कर्ता 'principal' एकवचन है, इसलिए 'was delighted'।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs053",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: She is one of those teachers\nP: who believe\nQ: has some talent\nR: that every child\nS: waiting to be discovered.",
+    "options": [
+      {
+        "id": "A",
+        "text": "RPQS"
+      },
+      {
+        "id": "B",
+        "text": "PQRS"
+      },
+      {
+        "id": "C",
+        "text": "PRSQ"
+      },
+      {
+        "id": "D",
+        "text": "PRQS"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही क्रम P → R → Q → S। सही वाक्य: 'She is one of those teachers who believe that every child has some talent waiting to be discovered.' 'one of those ... who' के बाद बहुवचन क्रिया (believe) आती है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs054",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: Much as I admire his courage,\nP: I cannot approve\nQ: handled the situation.\nR: in which he\nS: of the reckless manner",
+    "options": [
+      {
+        "id": "A",
+        "text": "PSRQ"
+      },
+      {
+        "id": "B",
+        "text": "SPRQ"
+      },
+      {
+        "id": "C",
+        "text": "PRSQ"
+      },
+      {
+        "id": "D",
+        "text": "PSQR"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही क्रम P → S → R → Q। सही वाक्य: 'Much as I admire his courage, I cannot approve of the reckless manner in which he handled the situation.' 'Much as I admire ..., I cannot approve of ...' संरचना; 'in which he handled' relative clause है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs055",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: The committee, having examined all the complaints,\nP: should be penalised\nQ: for the delay in construction.\nR: decided that\nS: the contractor",
+    "options": [
+      {
+        "id": "A",
+        "text": "SRPQ"
+      },
+      {
+        "id": "B",
+        "text": "RPSQ"
+      },
+      {
+        "id": "C",
+        "text": "RSPQ"
+      },
+      {
+        "id": "D",
+        "text": "RSQP"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही क्रम R → S → P → Q। सही वाक्य: 'The committee, having examined all the complaints, decided that the contractor should be penalised for the delay in construction.' 'decided that + subject + should be + V3' संरचना है; कारण 'for the delay' अंत में आता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs056",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: It was only after the doctor had assured her\nP: out of danger\nQ: that the child was\nR: that the mother\nS: could finally relax.",
+    "options": [
+      {
+        "id": "A",
+        "text": "PQRS"
+      },
+      {
+        "id": "B",
+        "text": "QPRS"
+      },
+      {
+        "id": "C",
+        "text": "QRPS"
+      },
+      {
+        "id": "D",
+        "text": "QPSR"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही क्रम Q → P → R → S। सही वाक्य: 'It was only after the doctor had assured her that the child was out of danger that the mother could finally relax.' 'It was only after ... that ...' (cleft sentence): पहला 'that' assured की बात पूरी करता है, दूसरा 'that' मुख्य उपवाक्य जोड़ता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs057",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: Unlike his elder brother, who\nP: to spend his time reading.\nQ: Rohan preferred\nR: fond of sports,\nS: had always been",
+    "options": [
+      {
+        "id": "A",
+        "text": "SRQP"
+      },
+      {
+        "id": "B",
+        "text": "RSQP"
+      },
+      {
+        "id": "C",
+        "text": "SQRP"
+      },
+      {
+        "id": "D",
+        "text": "SRPQ"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही क्रम S → R → Q → P। सही वाक्य: 'Unlike his elder brother, who had always been fond of sports, Rohan preferred to spend his time reading.' 'who' वाला उपवाक्य 'elder brother' के तुरंत बाद पूरा होता है; फिर मुख्य उपवाक्य 'Rohan preferred to ...'।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs058",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: The more the government delayed the reforms,\nP: frustrated\nQ: became.\nR: the more\nS: the people",
+    "options": [
+      {
+        "id": "A",
+        "text": "PRSQ"
+      },
+      {
+        "id": "B",
+        "text": "RSPQ"
+      },
+      {
+        "id": "C",
+        "text": "RPQS"
+      },
+      {
+        "id": "D",
+        "text": "RPSQ"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही क्रम R → P → S → Q। सही वाक्य: 'The more the government delayed the reforms, the more frustrated the people became.' 'The more ..., the more ...' संरचना; 'the more frustrated the people became' क्रम सही है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs059",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: In spite of the heavy rain,\nP: because the groundstaff\nQ: was not abandoned\nR: had covered the pitch in time.\nS: the match",
+    "options": [
+      {
+        "id": "A",
+        "text": "QSPR"
+      },
+      {
+        "id": "B",
+        "text": "SPQR"
+      },
+      {
+        "id": "C",
+        "text": "SQPR"
+      },
+      {
+        "id": "D",
+        "text": "SQRP"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही क्रम S → Q → P → R। सही वाक्य: 'In spite of the heavy rain, the match was not abandoned because the groundstaff had covered the pitch in time.' 'In spite of + noun' के बाद main clause आता है; 'because' कारण बताता है।",
+    "language": "en"
+  },
+  {
+    "id": "pqrs060",
+    "subjectId": "english",
+    "question": "Parts of a sentence are given below. The opening part is fixed, and the remaining four parts (P, Q, R, S) are jumbled. Select the option that gives the correct order of P, Q, R and S to complete the sentence in a meaningful and grammatically correct way.\n\nOpening: Seldom has a debut film\nP: from critics\nQ: received such\nR: and audiences alike.\nS: unanimous praise",
+    "options": [
+      {
+        "id": "A",
+        "text": "SQPR"
+      },
+      {
+        "id": "B",
+        "text": "QSPR"
+      },
+      {
+        "id": "C",
+        "text": "QPSR"
+      },
+      {
+        "id": "D",
+        "text": "QSRP"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "sentence-parts-arrangement",
+    "difficulty": "hard",
+    "explanation": "सही क्रम Q → S → P → R। सही वाक्य: 'Seldom has a debut film received such unanimous praise from critics and audiences alike.' 'Seldom has + subject + V3' (inversion); 'such unanimous praise from critics and audiences alike' क्रम से आता है।",
+    "language": "en"
+  }
+]

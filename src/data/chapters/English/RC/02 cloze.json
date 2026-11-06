@@ -1,0 +1,702 @@
+[
+  {
+    "id": "cloze001",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nAsha returned to her village after completing her training in agriculture. She noticed that farmers were using more water than their crops actually ____(1)____. She organised a meeting and explained how drip irrigation could ____(2)____ wastage. Some farmers were doubtful at first, but they agreed to try the method on a small plot. The results were so ____(3)____ that several others followed their example. Within two seasons, the village had not only saved water but had also improved its crop ____(4)____. Asha's effort showed that practical knowledge, when shared patiently, can bring ____(5)____ change.\n\nSelect the most appropriate option to fill in blank No. 1.",
+    "options": [
+      {
+        "id": "A",
+        "text": "requirement"
+      },
+      {
+        "id": "B",
+        "text": "requiredly"
+      },
+      {
+        "id": "C",
+        "text": "requiring"
+      },
+      {
+        "id": "D",
+        "text": "required"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'Crops require water' के अर्थ में यहाँ 'crops actually required' चाहिए। Blank के बाद कोई noun नहीं, इसलिए past-tense verb 'required' उपयुक्त है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze002",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nAsha returned to her village after completing her training in agriculture. She noticed that farmers were using more water than their crops actually ____(1)____. She organised a meeting and explained how drip irrigation could ____(2)____ wastage. Some farmers were doubtful at first, but they agreed to try the method on a small plot. The results were so ____(3)____ that several others followed their example. Within two seasons, the village had not only saved water but had also improved its crop ____(4)____. Asha's effort showed that practical knowledge, when shared patiently, can bring ____(5)____ change.\n\nSelect the most appropriate option to fill in blank No. 2.",
+    "options": [
+      {
+        "id": "A",
+        "text": "reduction"
+      },
+      {
+        "id": "B",
+        "text": "reduced"
+      },
+      {
+        "id": "C",
+        "text": "reducing"
+      },
+      {
+        "id": "D",
+        "text": "reduce"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'Could' के बाद verb की base form आती है। 'Reduce wastage' स्वाभाविक collocation है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze003",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nAsha returned to her village after completing her training in agriculture. She noticed that farmers were using more water than their crops actually ____(1)____. She organised a meeting and explained how drip irrigation could ____(2)____ wastage. Some farmers were doubtful at first, but they agreed to try the method on a small plot. The results were so ____(3)____ that several others followed their example. Within two seasons, the village had not only saved water but had also improved its crop ____(4)____. Asha's effort showed that practical knowledge, when shared patiently, can bring ____(5)____ change.\n\nSelect the most appropriate option to fill in blank No. 3.",
+    "options": [
+      {
+        "id": "A",
+        "text": "encouragement"
+      },
+      {
+        "id": "B",
+        "text": "encourage"
+      },
+      {
+        "id": "C",
+        "text": "encouraging"
+      },
+      {
+        "id": "D",
+        "text": "encouraged"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "परिणाम किसानों को प्रयास अपनाने के लिए प्रेरित करने वाले थे, इसलिए adjective 'encouraging' सही है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze004",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nAsha returned to her village after completing her training in agriculture. She noticed that farmers were using more water than their crops actually ____(1)____. She organised a meeting and explained how drip irrigation could ____(2)____ wastage. Some farmers were doubtful at first, but they agreed to try the method on a small plot. The results were so ____(3)____ that several others followed their example. Within two seasons, the village had not only saved water but had also improved its crop ____(4)____. Asha's effort showed that practical knowledge, when shared patiently, can bring ____(5)____ change.\n\nSelect the most appropriate option to fill in blank No. 4.",
+    "options": [
+      {
+        "id": "A",
+        "text": "quantity"
+      },
+      {
+        "id": "B",
+        "text": "yield"
+      },
+      {
+        "id": "C",
+        "text": "quality"
+      },
+      {
+        "id": "D",
+        "text": "profit"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "फसल के उत्पादन के लिए 'crop yield' मानक collocation है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze005",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nAsha returned to her village after completing her training in agriculture. She noticed that farmers were using more water than their crops actually ____(1)____. She organised a meeting and explained how drip irrigation could ____(2)____ wastage. Some farmers were doubtful at first, but they agreed to try the method on a small plot. The results were so ____(3)____ that several others followed their example. Within two seasons, the village had not only saved water but had also improved its crop ____(4)____. Asha's effort showed that practical knowledge, when shared patiently, can bring ____(5)____ change.\n\nSelect the most appropriate option to fill in blank No. 5.",
+    "options": [
+      {
+        "id": "A",
+        "text": "lastingly"
+      },
+      {
+        "id": "B",
+        "text": "lasting"
+      },
+      {
+        "id": "C",
+        "text": "last"
+      },
+      {
+        "id": "D",
+        "text": "lasted"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'Lasting change' का अर्थ टिकाऊ बदलाव है; यहाँ adjective की आवश्यकता है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze006",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nThe village library had remained almost empty for years because its books were old and its reading room was poorly lit. A retired teacher decided to ____(1)____ the situation. She requested residents to donate books and persuaded the local council to repair the building. Within months, the library had been ____(2)____ with new shelves, newspapers and comfortable desks. Children began visiting it after school, while adults used it to prepare for competitive examinations. The librarian made sure that every book was properly ____(3)____ so that readers could find it easily. The library soon became a centre of discussion and learning, proving that a public institution can flourish when the community takes ____(4)____ of it. Its revival was not the result of a large grant but of steady ____(5)____ by local residents.\n\nSelect the most appropriate option to fill in blank No. 1.",
+    "options": [
+      {
+        "id": "A",
+        "text": "postpone"
+      },
+      {
+        "id": "B",
+        "text": "conceal"
+      },
+      {
+        "id": "C",
+        "text": "address"
+      },
+      {
+        "id": "D",
+        "text": "avoid"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'Address a situation' का अर्थ समस्या/स्थिति का समाधान करने के लिए उस पर ध्यान देना है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze007",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nThe village library had remained almost empty for years because its books were old and its reading room was poorly lit. A retired teacher decided to ____(1)____ the situation. She requested residents to donate books and persuaded the local council to repair the building. Within months, the library had been ____(2)____ with new shelves, newspapers and comfortable desks. Children began visiting it after school, while adults used it to prepare for competitive examinations. The librarian made sure that every book was properly ____(3)____ so that readers could find it easily. The library soon became a centre of discussion and learning, proving that a public institution can flourish when the community takes ____(4)____ of it. Its revival was not the result of a large grant but of steady ____(5)____ by local residents.\n\nSelect the most appropriate option to fill in blank No. 2.",
+    "options": [
+      {
+        "id": "A",
+        "text": "equipped"
+      },
+      {
+        "id": "B",
+        "text": "equipping"
+      },
+      {
+        "id": "C",
+        "text": "equip"
+      },
+      {
+        "id": "D",
+        "text": "equipment"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "Past perfect passive 'had been equipped' में V3 'equipped' आएगा। 'Equipped with' भी सही प्रयोग है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze008",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nThe village library had remained almost empty for years because its books were old and its reading room was poorly lit. A retired teacher decided to ____(1)____ the situation. She requested residents to donate books and persuaded the local council to repair the building. Within months, the library had been ____(2)____ with new shelves, newspapers and comfortable desks. Children began visiting it after school, while adults used it to prepare for competitive examinations. The librarian made sure that every book was properly ____(3)____ so that readers could find it easily. The library soon became a centre of discussion and learning, proving that a public institution can flourish when the community takes ____(4)____ of it. Its revival was not the result of a large grant but of steady ____(5)____ by local residents.\n\nSelect the most appropriate option to fill in blank No. 3.",
+    "options": [
+      {
+        "id": "A",
+        "text": "catalogued"
+      },
+      {
+        "id": "B",
+        "text": "cataloguing"
+      },
+      {
+        "id": "C",
+        "text": "cataloguer"
+      },
+      {
+        "id": "D",
+        "text": "catalogue"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "पुस्तकों को व्यवस्थित सूची में दर्ज करने के लिए 'catalogued' सही verb है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze009",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nThe village library had remained almost empty for years because its books were old and its reading room was poorly lit. A retired teacher decided to ____(1)____ the situation. She requested residents to donate books and persuaded the local council to repair the building. Within months, the library had been ____(2)____ with new shelves, newspapers and comfortable desks. Children began visiting it after school, while adults used it to prepare for competitive examinations. The librarian made sure that every book was properly ____(3)____ so that readers could find it easily. The library soon became a centre of discussion and learning, proving that a public institution can flourish when the community takes ____(4)____ of it. Its revival was not the result of a large grant but of steady ____(5)____ by local residents.\n\nSelect the most appropriate option to fill in blank No. 4.",
+    "options": [
+      {
+        "id": "A",
+        "text": "ownership"
+      },
+      {
+        "id": "B",
+        "text": "owner"
+      },
+      {
+        "id": "C",
+        "text": "owning"
+      },
+      {
+        "id": "D",
+        "text": "own"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'Take ownership of' का अर्थ जिम्मेदारी अपने हाथ में लेना है। 'Take charge' संभव है, लेकिन वाक्य में 'takes ownership of it' सामुदायिक जिम्मेदारी को बेहतर व्यक्त करता है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze010",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nThe village library had remained almost empty for years because its books were old and its reading room was poorly lit. A retired teacher decided to ____(1)____ the situation. She requested residents to donate books and persuaded the local council to repair the building. Within months, the library had been ____(2)____ with new shelves, newspapers and comfortable desks. Children began visiting it after school, while adults used it to prepare for competitive examinations. The librarian made sure that every book was properly ____(3)____ so that readers could find it easily. The library soon became a centre of discussion and learning, proving that a public institution can flourish when the community takes ____(4)____ of it. Its revival was not the result of a large grant but of steady ____(5)____ by local residents.\n\nSelect the most appropriate option to fill in blank No. 5.",
+    "options": [
+      {
+        "id": "A",
+        "text": "cooperate"
+      },
+      {
+        "id": "B",
+        "text": "cooperating"
+      },
+      {
+        "id": "C",
+        "text": "cooperation"
+      },
+      {
+        "id": "D",
+        "text": "cooperative"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'Steady cooperation by local residents' में adjective के बाद noun चाहिए; cooperation (सहयोग) सही noun है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze011",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nMany towns experience traffic congestion because private vehicles occupy a large share of road space. A reliable bus service can ____(1)____ this pressure by carrying more passengers in fewer vehicles. However, people will not leave their cars unless buses are punctual, safe and reasonably priced. Transport planners must therefore ____(2)____ routes with the needs of commuters in mind. Dedicated bus lanes can prevent public transport from being held ____(3)____ in the same traffic as private cars. Real improvement also depends on pavements and cycle tracks, which make short journeys easier without a vehicle. A city that invests in all these measures is likely to become cleaner and more ____(4)____ for pedestrians. The aim should not be to punish motorists but to provide alternatives that people can ____(5)____ rely on.\n\nSelect the most appropriate option to fill in blank No. 1.",
+    "options": [
+      {
+        "id": "A",
+        "text": "multiply"
+      },
+      {
+        "id": "B",
+        "text": "raise"
+      },
+      {
+        "id": "C",
+        "text": "ease"
+      },
+      {
+        "id": "D",
+        "text": "intensify"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'Ease pressure' का अर्थ दबाव कम करना है; passage में बस सेवा congestion घटाती है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze012",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nMany towns experience traffic congestion because private vehicles occupy a large share of road space. A reliable bus service can ____(1)____ this pressure by carrying more passengers in fewer vehicles. However, people will not leave their cars unless buses are punctual, safe and reasonably priced. Transport planners must therefore ____(2)____ routes with the needs of commuters in mind. Dedicated bus lanes can prevent public transport from being held ____(3)____ in the same traffic as private cars. Real improvement also depends on pavements and cycle tracks, which make short journeys easier without a vehicle. A city that invests in all these measures is likely to become cleaner and more ____(4)____ for pedestrians. The aim should not be to punish motorists but to provide alternatives that people can ____(5)____ rely on.\n\nSelect the most appropriate option to fill in blank No. 2.",
+    "options": [
+      {
+        "id": "A",
+        "text": "designing"
+      },
+      {
+        "id": "B",
+        "text": "design"
+      },
+      {
+        "id": "C",
+        "text": "designed"
+      },
+      {
+        "id": "D",
+        "text": "designs"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'Must' के बाद base verb 'design' आता है। 'Design routes with ... in mind' उपयुक्त phrase है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze013",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nMany towns experience traffic congestion because private vehicles occupy a large share of road space. A reliable bus service can ____(1)____ this pressure by carrying more passengers in fewer vehicles. However, people will not leave their cars unless buses are punctual, safe and reasonably priced. Transport planners must therefore ____(2)____ routes with the needs of commuters in mind. Dedicated bus lanes can prevent public transport from being held ____(3)____ in the same traffic as private cars. Real improvement also depends on pavements and cycle tracks, which make short journeys easier without a vehicle. A city that invests in all these measures is likely to become cleaner and more ____(4)____ for pedestrians. The aim should not be to punish motorists but to provide alternatives that people can ____(5)____ rely on.\n\nSelect the most appropriate option to fill in blank No. 3.",
+    "options": [
+      {
+        "id": "A",
+        "text": "through"
+      },
+      {
+        "id": "B",
+        "text": "over"
+      },
+      {
+        "id": "C",
+        "text": "up"
+      },
+      {
+        "id": "D",
+        "text": "away"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "Phrasal expression 'held up' का अर्थ विलंबित होना/फँसना है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze014",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nMany towns experience traffic congestion because private vehicles occupy a large share of road space. A reliable bus service can ____(1)____ this pressure by carrying more passengers in fewer vehicles. However, people will not leave their cars unless buses are punctual, safe and reasonably priced. Transport planners must therefore ____(2)____ routes with the needs of commuters in mind. Dedicated bus lanes can prevent public transport from being held ____(3)____ in the same traffic as private cars. Real improvement also depends on pavements and cycle tracks, which make short journeys easier without a vehicle. A city that invests in all these measures is likely to become cleaner and more ____(4)____ for pedestrians. The aim should not be to punish motorists but to provide alternatives that people can ____(5)____ rely on.\n\nSelect the most appropriate option to fill in blank No. 4.",
+    "options": [
+      {
+        "id": "A",
+        "text": "accessible"
+      },
+      {
+        "id": "B",
+        "text": "accessibility"
+      },
+      {
+        "id": "C",
+        "text": "accessibly"
+      },
+      {
+        "id": "D",
+        "text": "access"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'More accessible for pedestrians' में adjective चाहिए; accessible का अर्थ आसानी से पहुँच योग्य है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze015",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nMany towns experience traffic congestion because private vehicles occupy a large share of road space. A reliable bus service can ____(1)____ this pressure by carrying more passengers in fewer vehicles. However, people will not leave their cars unless buses are punctual, safe and reasonably priced. Transport planners must therefore ____(2)____ routes with the needs of commuters in mind. Dedicated bus lanes can prevent public transport from being held ____(3)____ in the same traffic as private cars. Real improvement also depends on pavements and cycle tracks, which make short journeys easier without a vehicle. A city that invests in all these measures is likely to become cleaner and more ____(4)____ for pedestrians. The aim should not be to punish motorists but to provide alternatives that people can ____(5)____ rely on.\n\nSelect the most appropriate option to fill in blank No. 5.",
+    "options": [
+      {
+        "id": "A",
+        "text": "confidence"
+      },
+      {
+        "id": "B",
+        "text": "confident"
+      },
+      {
+        "id": "C",
+        "text": "confidently"
+      },
+      {
+        "id": "D",
+        "text": "confide"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "Modal 'can' के बाद 'rely' और उसे modify करने के लिए adverb 'confidently' उपयुक्त है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze016",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nWhen a cyclone approaches a coastal district, timely information can save lives. Yet warnings are useful only when they reach people in a form they understand. Authorities must ____(1)____ messages through radio, mobile alerts and local volunteers rather than depend on a single channel. The instructions should be clear and should not ____(2)____ unnecessary panic. Residents must know in advance where shelters are located and what essential items to carry. After the storm, relief teams should give priority to drinking water, sanitation and medical care, since overcrowded shelters can quickly become ____(3)____ for disease. Local leaders can help identify elderly people and persons with disabilities who may need special assistance. Preparedness, therefore, is not merely an official responsibility; it is a shared duty that requires planning, trust and public ____(4)____. Communities that practise evacuation drills are generally better ____(5)____ to respond when danger actually arises.\n\nSelect the most appropriate option to fill in blank No. 1.",
+    "options": [
+      {
+        "id": "A",
+        "text": "dismiss"
+      },
+      {
+        "id": "B",
+        "text": "disguise"
+      },
+      {
+        "id": "C",
+        "text": "disseminate"
+      },
+      {
+        "id": "D",
+        "text": "disturb"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "सूचना को अलग-अलग माध्यमों से फैलाने के अर्थ में 'disseminate messages' सही collocation है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze017",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nWhen a cyclone approaches a coastal district, timely information can save lives. Yet warnings are useful only when they reach people in a form they understand. Authorities must ____(1)____ messages through radio, mobile alerts and local volunteers rather than depend on a single channel. The instructions should be clear and should not ____(2)____ unnecessary panic. Residents must know in advance where shelters are located and what essential items to carry. After the storm, relief teams should give priority to drinking water, sanitation and medical care, since overcrowded shelters can quickly become ____(3)____ for disease. Local leaders can help identify elderly people and persons with disabilities who may need special assistance. Preparedness, therefore, is not merely an official responsibility; it is a shared duty that requires planning, trust and public ____(4)____. Communities that practise evacuation drills are generally better ____(5)____ to respond when danger actually arises.\n\nSelect the most appropriate option to fill in blank No. 2.",
+    "options": [
+      {
+        "id": "A",
+        "text": "bring"
+      },
+      {
+        "id": "B",
+        "text": "make"
+      },
+      {
+        "id": "C",
+        "text": "lead"
+      },
+      {
+        "id": "D",
+        "text": "cause"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'Cause panic' मानक phrase है। यहाँ चेतावनी का उद्देश्य घबराहट पैदा करना नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze018",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nWhen a cyclone approaches a coastal district, timely information can save lives. Yet warnings are useful only when they reach people in a form they understand. Authorities must ____(1)____ messages through radio, mobile alerts and local volunteers rather than depend on a single channel. The instructions should be clear and should not ____(2)____ unnecessary panic. Residents must know in advance where shelters are located and what essential items to carry. After the storm, relief teams should give priority to drinking water, sanitation and medical care, since overcrowded shelters can quickly become ____(3)____ for disease. Local leaders can help identify elderly people and persons with disabilities who may need special assistance. Preparedness, therefore, is not merely an official responsibility; it is a shared duty that requires planning, trust and public ____(4)____. Communities that practise evacuation drills are generally better ____(5)____ to respond when danger actually arises.\n\nSelect the most appropriate option to fill in blank No. 3.",
+    "options": [
+      {
+        "id": "A",
+        "text": "breed grounds"
+      },
+      {
+        "id": "B",
+        "text": "breeding grounds"
+      },
+      {
+        "id": "C",
+        "text": "breeding ground"
+      },
+      {
+        "id": "D",
+        "text": "bred grounds"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'Breeding grounds for disease' का अर्थ बीमारी फैलने के अनुकूल स्थान है। Plural subject 'shelters' के संदर्भ में plural phrase सही है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze019",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nWhen a cyclone approaches a coastal district, timely information can save lives. Yet warnings are useful only when they reach people in a form they understand. Authorities must ____(1)____ messages through radio, mobile alerts and local volunteers rather than depend on a single channel. The instructions should be clear and should not ____(2)____ unnecessary panic. Residents must know in advance where shelters are located and what essential items to carry. After the storm, relief teams should give priority to drinking water, sanitation and medical care, since overcrowded shelters can quickly become ____(3)____ for disease. Local leaders can help identify elderly people and persons with disabilities who may need special assistance. Preparedness, therefore, is not merely an official responsibility; it is a shared duty that requires planning, trust and public ____(4)____. Communities that practise evacuation drills are generally better ____(5)____ to respond when danger actually arises.\n\nSelect the most appropriate option to fill in blank No. 4.",
+    "options": [
+      {
+        "id": "A",
+        "text": "cooperate"
+      },
+      {
+        "id": "B",
+        "text": "cooperating"
+      },
+      {
+        "id": "C",
+        "text": "cooperative"
+      },
+      {
+        "id": "D",
+        "text": "cooperation"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'Public cooperation' में noun चाहिए; cooperation का अर्थ सहयोग है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze020",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nWhen a cyclone approaches a coastal district, timely information can save lives. Yet warnings are useful only when they reach people in a form they understand. Authorities must ____(1)____ messages through radio, mobile alerts and local volunteers rather than depend on a single channel. The instructions should be clear and should not ____(2)____ unnecessary panic. Residents must know in advance where shelters are located and what essential items to carry. After the storm, relief teams should give priority to drinking water, sanitation and medical care, since overcrowded shelters can quickly become ____(3)____ for disease. Local leaders can help identify elderly people and persons with disabilities who may need special assistance. Preparedness, therefore, is not merely an official responsibility; it is a shared duty that requires planning, trust and public ____(4)____. Communities that practise evacuation drills are generally better ____(5)____ to respond when danger actually arises.\n\nSelect the most appropriate option to fill in blank No. 5.",
+    "options": [
+      {
+        "id": "A",
+        "text": "prepare"
+      },
+      {
+        "id": "B",
+        "text": "preparing"
+      },
+      {
+        "id": "C",
+        "text": "prepared"
+      },
+      {
+        "id": "D",
+        "text": "preparation"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'Are better prepared to' एक मानक संरचना है, जिसका अर्थ बेहतर ढंग से तैयार होना है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze021",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nDigital payment systems have made everyday transactions faster, but convenience alone cannot guarantee financial inclusion. Many people in remote areas still lack dependable internet access or the confidence to use unfamiliar applications. Banks and public agencies must ____(1)____ these barriers through local support centres and simple instructions in regional languages. Users should also be taught never to share their passwords or one-time codes with strangers. A message that creates urgency and asks for confidential details is often a warning sign of ____(2)____. People must verify the sender before clicking on a link, even when the message appears to come from a familiar institution. At the same time, service providers have a duty to make their systems secure and easy to use. Only when access, awareness and safety are addressed together can digital finance become truly ____(3)____. Technology should widen opportunity, not ____(4)____ those who are least equipped to use it. Financial literacy is therefore an essential part of the digital ____(5)____.\n\nSelect the most appropriate option to fill in blank No. 1.",
+    "options": [
+      {
+        "id": "A",
+        "text": "undergo"
+      },
+      {
+        "id": "B",
+        "text": "overtake"
+      },
+      {
+        "id": "C",
+        "text": "overcome"
+      },
+      {
+        "id": "D",
+        "text": "overlook"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'Overcome barriers' का अर्थ बाधाओं पर काबू पाना है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze022",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nDigital payment systems have made everyday transactions faster, but convenience alone cannot guarantee financial inclusion. Many people in remote areas still lack dependable internet access or the confidence to use unfamiliar applications. Banks and public agencies must ____(1)____ these barriers through local support centres and simple instructions in regional languages. Users should also be taught never to share their passwords or one-time codes with strangers. A message that creates urgency and asks for confidential details is often a warning sign of ____(2)____. People must verify the sender before clicking on a link, even when the message appears to come from a familiar institution. At the same time, service providers have a duty to make their systems secure and easy to use. Only when access, awareness and safety are addressed together can digital finance become truly ____(3)____. Technology should widen opportunity, not ____(4)____ those who are least equipped to use it. Financial literacy is therefore an essential part of the digital ____(5)____.\n\nSelect the most appropriate option to fill in blank No. 2.",
+    "options": [
+      {
+        "id": "A",
+        "text": "fraudulent"
+      },
+      {
+        "id": "B",
+        "text": "defraud"
+      },
+      {
+        "id": "C",
+        "text": "fraudulently"
+      },
+      {
+        "id": "D",
+        "text": "fraud"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "'A warning sign of fraud' में noun चाहिए। बाकी विकल्प adjective, adverb और verb हैं।",
+    "language": "en"
+  },
+  {
+    "id": "cloze023",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nDigital payment systems have made everyday transactions faster, but convenience alone cannot guarantee financial inclusion. Many people in remote areas still lack dependable internet access or the confidence to use unfamiliar applications. Banks and public agencies must ____(1)____ these barriers through local support centres and simple instructions in regional languages. Users should also be taught never to share their passwords or one-time codes with strangers. A message that creates urgency and asks for confidential details is often a warning sign of ____(2)____. People must verify the sender before clicking on a link, even when the message appears to come from a familiar institution. At the same time, service providers have a duty to make their systems secure and easy to use. Only when access, awareness and safety are addressed together can digital finance become truly ____(3)____. Technology should widen opportunity, not ____(4)____ those who are least equipped to use it. Financial literacy is therefore an essential part of the digital ____(5)____.\n\nSelect the most appropriate option to fill in blank No. 3.",
+    "options": [
+      {
+        "id": "A",
+        "text": "inclusion"
+      },
+      {
+        "id": "B",
+        "text": "include"
+      },
+      {
+        "id": "C",
+        "text": "inclusively"
+      },
+      {
+        "id": "D",
+        "text": "inclusive"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'Truly' के बाद adjective 'inclusive' आएगा, जिसका अर्थ सबको शामिल करने वाला है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze024",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nDigital payment systems have made everyday transactions faster, but convenience alone cannot guarantee financial inclusion. Many people in remote areas still lack dependable internet access or the confidence to use unfamiliar applications. Banks and public agencies must ____(1)____ these barriers through local support centres and simple instructions in regional languages. Users should also be taught never to share their passwords or one-time codes with strangers. A message that creates urgency and asks for confidential details is often a warning sign of ____(2)____. People must verify the sender before clicking on a link, even when the message appears to come from a familiar institution. At the same time, service providers have a duty to make their systems secure and easy to use. Only when access, awareness and safety are addressed together can digital finance become truly ____(3)____. Technology should widen opportunity, not ____(4)____ those who are least equipped to use it. Financial literacy is therefore an essential part of the digital ____(5)____.\n\nSelect the most appropriate option to fill in blank No. 4.",
+    "options": [
+      {
+        "id": "A",
+        "text": "include"
+      },
+      {
+        "id": "B",
+        "text": "enable"
+      },
+      {
+        "id": "C",
+        "text": "exclude"
+      },
+      {
+        "id": "D",
+        "text": "assist"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "वाक्य में technology का उद्देश्य अवसर बढ़ाना है, इसलिए विपरीत अर्थ वाला 'exclude' सही है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze025",
+    "subjectId": "english",
+    "question": "Read the following passage and answer the question that follows. Some words have been replaced by blanks numbered (1) to (5).\n\nPassage:\nDigital payment systems have made everyday transactions faster, but convenience alone cannot guarantee financial inclusion. Many people in remote areas still lack dependable internet access or the confidence to use unfamiliar applications. Banks and public agencies must ____(1)____ these barriers through local support centres and simple instructions in regional languages. Users should also be taught never to share their passwords or one-time codes with strangers. A message that creates urgency and asks for confidential details is often a warning sign of ____(2)____. People must verify the sender before clicking on a link, even when the message appears to come from a familiar institution. At the same time, service providers have a duty to make their systems secure and easy to use. Only when access, awareness and safety are addressed together can digital finance become truly ____(3)____. Technology should widen opportunity, not ____(4)____ those who are least equipped to use it. Financial literacy is therefore an essential part of the digital ____(5)____.\n\nSelect the most appropriate option to fill in blank No. 5.",
+    "options": [
+      {
+        "id": "A",
+        "text": "transition"
+      },
+      {
+        "id": "B",
+        "text": "transitional"
+      },
+      {
+        "id": "C",
+        "text": "transit"
+      },
+      {
+        "id": "D",
+        "text": "transitory"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "'Digital transition' डिजिटल व्यवस्था की ओर बदलाव को दर्शाता है; यहाँ noun चाहिए।",
+    "language": "en"
+  }
+]

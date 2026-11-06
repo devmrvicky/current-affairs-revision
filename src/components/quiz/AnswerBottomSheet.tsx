@@ -1,3 +1,4 @@
+import { SpeakExplanationButton } from '../../components/common/SpeakExplanationButton';
 import { useEffect, useCallback, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle2, XCircle, ArrowRight, Bookmark, Flag, X } from 'lucide-react';
@@ -195,6 +196,7 @@ export function AnswerBottomSheet({
                   <p className="text-sm leading-relaxed" style={{ color: 'var(--text-primary)' }}>
                     {attempt.explanation}
                   </p>
+                  <SpeakExplanationButton text={attempt.explanation} className="mt-2" />
                 </motion.div>
               )}
     </>

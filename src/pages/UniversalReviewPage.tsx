@@ -1,3 +1,4 @@
+import { SpeakExplanationButton } from '../components/common/SpeakExplanationButton';
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -94,7 +95,10 @@ export default function UniversalReviewPage() {
             </div>
 
             {q.explanation && (
-              <p className="text-xs p-3 rounded-lg mb-2" style={{ background: 'var(--border)', color: 'var(--text-secondary)' }}>{q.explanation}</p>
+              <div className="text-xs p-3 rounded-lg mb-2" style={{ background: 'var(--border)', color: 'var(--text-secondary)' }}>
+                <p>{q.explanation}</p>
+                <SpeakExplanationButton text={q.explanation} className="mt-2" />
+              </div>
             )}
 
             <div className="flex items-center gap-3 text-xs" style={{ color: 'var(--text-muted)' }}>

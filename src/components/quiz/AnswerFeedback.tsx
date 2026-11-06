@@ -1,3 +1,4 @@
+import { SpeakExplanationButton } from '../../components/common/SpeakExplanationButton';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle2, XCircle, ArrowRight, Bookmark } from 'lucide-react';
 import type { QuestionAttempt } from '../../types';
@@ -64,6 +65,7 @@ export function AnswerFeedback({ attempt, isLastQuestion, onNext, onBookmark, sh
             <p className="text-sm leading-relaxed" style={{ color: 'var(--text-primary)' }}>
               {attempt.explanation}
             </p>
+            {attempt.explanation && <SpeakExplanationButton text={attempt.explanation} className="mt-2" />}
           </div>
         )}
 
