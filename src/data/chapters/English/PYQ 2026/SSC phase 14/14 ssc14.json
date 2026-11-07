@@ -1,0 +1,562 @@
+[
+  {
+    "id": "ssc14-c12-q036",
+    "subjectId": "english",
+    "question": "Rearrange the sentences into a coherent paragraph.\n\nP. Finally, they burst crackers joyfully in the street and exchanged gifts with all their neighbours.\nQ. Amita and Aman spent the afternoon carefully arranging sweets in decorative boxes for distribution.\nR. As dusk fell on Diwali evening, they lit rows of earthen diyas along the courtyard and doorstep.\nS. A week before Diwali, the entire family joined hands to clean and whitewash every room in the house.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QRSP"
+      },
+      {
+        "id": "B",
+        "text": "RSPQ"
+      },
+      {
+        "id": "C",
+        "text": "SQRP"
+      },
+      {
+        "id": "D",
+        "text": "PQSR"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "para-jumbles",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c08-q005",
+    "subjectId": "english",
+    "question": "Select the antonym of the given word.\n\nDauntless",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bold"
+      },
+      {
+        "id": "B",
+        "text": "Timid"
+      },
+      {
+        "id": "C",
+        "text": "Fearless"
+      },
+      {
+        "id": "D",
+        "text": "Resolute"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c03-q017",
+    "subjectId": "english",
+    "question": "Select the passive voice of the sentence.\n\nThe accused could not have stolen the confidential files from the minister’s office without inside assistance.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The confidential files from the minister’s office could not have been stolen by the accused without inside assistance."
+      },
+      {
+        "id": "B",
+        "text": "The confidential files from the minister’s office could not have been stolen by the accused from the minister’s office without inside assistance."
+      },
+      {
+        "id": "C",
+        "text": "The confidential files from the minister’s office should not have been stolen by the accused without inside assistance."
+      },
+      {
+        "id": "D",
+        "text": "The confidential files from the minister’s office could not be stolen by the accused without inside assistance."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c09-q007",
+    "subjectId": "english",
+    "question": "Select the one word for the given expression.\n\nA mobile, destructive vortex of rotating winds.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Torpedo"
+      },
+      {
+        "id": "B",
+        "text": "Tornado"
+      },
+      {
+        "id": "C",
+        "text": "Peduncle"
+      },
+      {
+        "id": "D",
+        "text": "Truncate"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c11-q067",
+    "subjectId": "english",
+    "question": "Select the wrongly spelt word, or the option with a spelling error.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Belongings"
+      },
+      {
+        "id": "B",
+        "text": "Dismay"
+      },
+      {
+        "id": "C",
+        "text": "Intrikate"
+      },
+      {
+        "id": "D",
+        "text": "Gracefully"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c10-q027",
+    "subjectId": "english",
+    "question": "Select the meaning of the bracketed idiom.\n\nThe novel was so exciting that I read it [at one sitting].",
+    "options": [
+      {
+        "id": "A",
+        "text": "To read while sitting in a specific chair"
+      },
+      {
+        "id": "B",
+        "text": "To read a book very slowly over several weeks"
+      },
+      {
+        "id": "C",
+        "text": "To do something continuously without stopping"
+      },
+      {
+        "id": "D",
+        "text": "To read only the first and last chapters"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c01-q047",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(P) Advised by her digital marketing agent not to clap back the toxic comments / (Q) on her streaming channel, the popular gaming influencer / (R) chose instead to ignore the online trolls / (S) and focus entirely on her upcoming charity livestream event.",
+    "options": [
+      {
+        "id": "A",
+        "text": "P"
+      },
+      {
+        "id": "B",
+        "text": "Q"
+      },
+      {
+        "id": "C",
+        "text": "R"
+      },
+      {
+        "id": "D",
+        "text": "S"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "error-spotting",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q011",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe recent breakthroughs in CRISPR-Cas9 technology have moved the prospect of human genetic enhancement from the realm of science fiction into the laboratory. As researchers refine the precision of these “molecular scissors,” the medical community finds itself at a (A)____ While the primary goal of such technology is to eradicate hereditary diseases, the potential for non-therapeutic modifications, such as altering physical traits or cognitive abilities, has (B)____ a global debate. If these tools are to be used ethically, international regulatory bodies must first establish a consensus on where “healing” ends and “enhancement” (C)____\n\nNotwithstanding the immense therapeutic potential, many bioethicists remain wary of the long-term consequences. The human genome is a delicately balanced system, and there is a significant risk of “off-target” effects, where unintended parts of the DNA are altered. Such errors could result in new, unforeseen health complications that (D)____ not manifest until years later. Consequently, clinical trials are being conducted under rigorous oversight, ensuring that every procedure is subjected (E)____ the highest safety standards before it can be approved for widespread use.\n\nChoose the correct word to fill in the blank (A) and complete the idiom.",
+    "options": [
+      {
+        "id": "A",
+        "text": "bridge"
+      },
+      {
+        "id": "B",
+        "text": "highway"
+      },
+      {
+        "id": "C",
+        "text": "fence"
+      },
+      {
+        "id": "D",
+        "text": "crossroads"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q012",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe recent breakthroughs in CRISPR-Cas9 technology have moved the prospect of human genetic enhancement from the realm of science fiction into the laboratory. As researchers refine the precision of these “molecular scissors,” the medical community finds itself at a (A)____ While the primary goal of such technology is to eradicate hereditary diseases, the potential for non-therapeutic modifications, such as altering physical traits or cognitive abilities, has (B)____ a global debate. If these tools are to be used ethically, international regulatory bodies must first establish a consensus on where “healing” ends and “enhancement” (C)____\n\nNotwithstanding the immense therapeutic potential, many bioethicists remain wary of the long-term consequences. The human genome is a delicately balanced system, and there is a significant risk of “off-target” effects, where unintended parts of the DNA are altered. Such errors could result in new, unforeseen health complications that (D)____ not manifest until years later. Consequently, clinical trials are being conducted under rigorous oversight, ensuring that every procedure is subjected (E)____ the highest safety standards before it can be approved for widespread use.\n\nFill in the blank (B) with the contextually correct word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "sparked"
+      },
+      {
+        "id": "B",
+        "text": "lighted"
+      },
+      {
+        "id": "C",
+        "text": "flashed"
+      },
+      {
+        "id": "D",
+        "text": "glinted"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q013",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe recent breakthroughs in CRISPR-Cas9 technology have moved the prospect of human genetic enhancement from the realm of science fiction into the laboratory. As researchers refine the precision of these “molecular scissors,” the medical community finds itself at a (A)____ While the primary goal of such technology is to eradicate hereditary diseases, the potential for non-therapeutic modifications, such as altering physical traits or cognitive abilities, has (B)____ a global debate. If these tools are to be used ethically, international regulatory bodies must first establish a consensus on where “healing” ends and “enhancement” (C)____\n\nNotwithstanding the immense therapeutic potential, many bioethicists remain wary of the long-term consequences. The human genome is a delicately balanced system, and there is a significant risk of “off-target” effects, where unintended parts of the DNA are altered. Such errors could result in new, unforeseen health complications that (D)____ not manifest until years later. Consequently, clinical trials are being conducted under rigorous oversight, ensuring that every procedure is subjected (E)____ the highest safety standards before it can be approved for widespread use.\n\nFill in the blank (C) with the correct verb form to maintain the parallel structure.",
+    "options": [
+      {
+        "id": "A",
+        "text": "begins"
+      },
+      {
+        "id": "B",
+        "text": "began"
+      },
+      {
+        "id": "C",
+        "text": "begin"
+      },
+      {
+        "id": "D",
+        "text": "begun"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q014",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe recent breakthroughs in CRISPR-Cas9 technology have moved the prospect of human genetic enhancement from the realm of science fiction into the laboratory. As researchers refine the precision of these “molecular scissors,” the medical community finds itself at a (A)____ While the primary goal of such technology is to eradicate hereditary diseases, the potential for non-therapeutic modifications, such as altering physical traits or cognitive abilities, has (B)____ a global debate. If these tools are to be used ethically, international regulatory bodies must first establish a consensus on where “healing” ends and “enhancement” (C)____\n\nNotwithstanding the immense therapeutic potential, many bioethicists remain wary of the long-term consequences. The human genome is a delicately balanced system, and there is a significant risk of “off-target” effects, where unintended parts of the DNA are altered. Such errors could result in new, unforeseen health complications that (D)____ not manifest until years later. Consequently, clinical trials are being conducted under rigorous oversight, ensuring that every procedure is subjected (E)____ the highest safety standards before it can be approved for widespread use.\n\nFill in the blank (D) with the correct modal verb to fit the context.",
+    "options": [
+      {
+        "id": "A",
+        "text": "should"
+      },
+      {
+        "id": "B",
+        "text": "must"
+      },
+      {
+        "id": "C",
+        "text": "might"
+      },
+      {
+        "id": "D",
+        "text": "could"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q015",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe recent breakthroughs in CRISPR-Cas9 technology have moved the prospect of human genetic enhancement from the realm of science fiction into the laboratory. As researchers refine the precision of these “molecular scissors,” the medical community finds itself at a (A)____ While the primary goal of such technology is to eradicate hereditary diseases, the potential for non-therapeutic modifications, such as altering physical traits or cognitive abilities, has (B)____ a global debate. If these tools are to be used ethically, international regulatory bodies must first establish a consensus on where “healing” ends and “enhancement” (C)____\n\nNotwithstanding the immense therapeutic potential, many bioethicists remain wary of the long-term consequences. The human genome is a delicately balanced system, and there is a significant risk of “off-target” effects, where unintended parts of the DNA are altered. Such errors could result in new, unforeseen health complications that (D)____ not manifest until years later. Consequently, clinical trials are being conducted under rigorous oversight, ensuring that every procedure is subjected (E)____ the highest safety standards before it can be approved for widespread use.\n\nChoose the correct preposition to follow the word “subjected” and fill in the blank (E).",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "to"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "from"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c05-q031",
+    "subjectId": "english",
+    "question": "Fill in the blank with the correct preposition.\n\nThe manager is responsible ____ the safety of all workers in the factory.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "to"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "at"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c02-q022",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe cybersecurity task force stood completely helpless against the data breach once the rogue AI [had overrun the primary firewall and lock down the central mainframe].",
+    "options": [
+      {
+        "id": "A",
+        "text": "overrun the primary firewall and lock down the central mainframe"
+      },
+      {
+        "id": "B",
+        "text": "had overran the primary firewall and had locked down the central mainframe"
+      },
+      {
+        "id": "C",
+        "text": "overran the primary firewall and locked down the central mainframe"
+      },
+      {
+        "id": "D",
+        "text": "No improvement required"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "sentence-improvement",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c11-q003",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Measurble"
+      },
+      {
+        "id": "B",
+        "text": "Measerable"
+      },
+      {
+        "id": "C",
+        "text": "Mesurable"
+      },
+      {
+        "id": "D",
+        "text": "Measurable"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c12-q041",
+    "subjectId": "english",
+    "question": "Rearrange the sentences into a coherent paragraph.\n\nP. He gently watered the newly planted sapling every morning until its roots were firmly established.\nQ. He lowered the sapling carefully into the hole and packed the loose earth firmly around its base.\nR. Tom chose a strong, healthy sapling from the nursery the evening before planting day.\nS. The following morning, he dug a small but deep hole near the garden boundary using a spade.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QRSP"
+      },
+      {
+        "id": "B",
+        "text": "SQRP"
+      },
+      {
+        "id": "C",
+        "text": "PRQS"
+      },
+      {
+        "id": "D",
+        "text": "RSQP"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "para-jumbles",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c04-q019",
+    "subjectId": "english",
+    "question": "Select the direct speech of the sentence.\n\nThe laborers said that they wouldn’t have enough time to complete the assigned work.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The laborers said, “They won’t have enough time to complete the assigned work.”"
+      },
+      {
+        "id": "B",
+        "text": "The laborers said, “We wouldn’t have enough time to complete the assigned work.”"
+      },
+      {
+        "id": "C",
+        "text": "The laborers said, “We don’t have enough time to complete the assigned work.”"
+      },
+      {
+        "id": "D",
+        "text": "The laborers said, “We won’t have enough time to complete the assigned work.”"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c09-q015",
+    "subjectId": "english",
+    "question": "Select the one word for the given expression.\n\nThe quality of having experience and knowledge.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Heinus"
+      },
+      {
+        "id": "B",
+        "text": "Pedigree"
+      },
+      {
+        "id": "C",
+        "text": "Dukedom"
+      },
+      {
+        "id": "D",
+        "text": "Wisdom"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c07-q050",
+    "subjectId": "english",
+    "question": "Select the synonym of the bracketed word.\n\nThe boss [insinuated] that there might be layoffs, but he didn’t say it directly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "To deny"
+      },
+      {
+        "id": "B",
+        "text": "To accuse"
+      },
+      {
+        "id": "C",
+        "text": "To hint"
+      },
+      {
+        "id": "D",
+        "text": "To prove"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c01-q048",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nWe are hopeful for a rapid recover.",
+    "options": [
+      {
+        "id": "A",
+        "text": "recover"
+      },
+      {
+        "id": "B",
+        "text": "hopeful"
+      },
+      {
+        "id": "C",
+        "text": "rapid"
+      },
+      {
+        "id": "D",
+        "text": "are"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "error-spotting",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  }
+]

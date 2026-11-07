@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "ssc14-c04-q025",
+    "subjectId": "english",
+    "question": "Select the direct speech of the sentence.\n\nHe said that no sooner had he arrived than the meeting began.",
+    "options": [
+      {
+        "id": "A",
+        "text": "“No sooner I arrived than the meeting began,” he said."
+      },
+      {
+        "id": "B",
+        "text": "“No sooner did I arrive than the meeting began,” he said."
+      },
+      {
+        "id": "C",
+        "text": "“No sooner had I arrived than the meeting began,” he said."
+      },
+      {
+        "id": "D",
+        "text": "“No sooner have I arrived than the meeting began,” he said."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c03-q018",
+    "subjectId": "english",
+    "question": "Select the passive voice of the sentence.\n\nSomeone must have changed the settings.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The settings must have changed."
+      },
+      {
+        "id": "B",
+        "text": "The settings must have been changed."
+      },
+      {
+        "id": "C",
+        "text": "The settings have to be changed."
+      },
+      {
+        "id": "D",
+        "text": "The settings must be being changed."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c01-q022",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nNeither of the two proposals / were / acceptable / to the committee.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neither of the two proposals"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "acceptable"
+      },
+      {
+        "id": "D",
+        "text": "to the committee"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "error-spotting",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c12-q013",
+    "subjectId": "english",
+    "question": "Rearrange the sentences into a coherent paragraph.\n\nA. Then a net was used at a seven feet height.\nB. At first Volleyball was played without a net, throwing the ball from one group to the other.\nC. Volleyball was invented by William G. Morgan in the year 1895.\nD. This game was invented as a recreational game.",
+    "options": [
+      {
+        "id": "A",
+        "text": "BDAC"
+      },
+      {
+        "id": "B",
+        "text": "CDBA"
+      },
+      {
+        "id": "C",
+        "text": "ADCB"
+      },
+      {
+        "id": "D",
+        "text": "DACB"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "para-jumbles",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c12-q038",
+    "subjectId": "english",
+    "question": "Rearrange the sentences into a coherent paragraph.\n\nP. This duality suggests that every refined gentleman hides a primitive, darker side.\nQ. He eventually transforms into the monstrous Mr Hyde to indulge his forbidden desires.\nR. Dr Jekyll is a respected scientist who struggles with his own internal conflicts.\nS. To separate his good side from his evil impulses, he creates a powerful chemical potion.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QPSR"
+      },
+      {
+        "id": "B",
+        "text": "SQRP"
+      },
+      {
+        "id": "C",
+        "text": "RPQS"
+      },
+      {
+        "id": "D",
+        "text": "RSQP"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "para-jumbles",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c12-q066",
+    "subjectId": "english",
+    "question": "Rearrange the parts into a meaningful sentence.\n\nAntarctica to (A) / scientists study (B) / past and future (C) / understand Earth’s (D)",
+    "options": [
+      {
+        "id": "A",
+        "text": "BADC"
+      },
+      {
+        "id": "B",
+        "text": "ABDC"
+      },
+      {
+        "id": "C",
+        "text": "BDAC"
+      },
+      {
+        "id": "D",
+        "text": "BCAD"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "para-jumbles",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c10-q007",
+    "subjectId": "english",
+    "question": "Select the meaning of the given idiom or phrase.\n\n‘move heaven and earth’",
+    "options": [
+      {
+        "id": "A",
+        "text": "To make every possible effort"
+      },
+      {
+        "id": "B",
+        "text": "To create unnecessary confusion"
+      },
+      {
+        "id": "C",
+        "text": "To exaggerate a small issue"
+      },
+      {
+        "id": "D",
+        "text": "To oppose a lawful order"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c07-q019",
+    "subjectId": "english",
+    "question": "Select the synonym of the given word.\n\nOBEDIENT",
+    "options": [
+      {
+        "id": "A",
+        "text": "Defiant"
+      },
+      {
+        "id": "B",
+        "text": "Rebellious"
+      },
+      {
+        "id": "C",
+        "text": "Unruly"
+      },
+      {
+        "id": "D",
+        "text": "Compliant"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c02-q012",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nAlthough the library was very quiet, the student [could not able to concentrate] on his philosophy essay due to exhaustion.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was not able to concentrate"
+      },
+      {
+        "id": "B",
+        "text": "could not concentrated"
+      },
+      {
+        "id": "C",
+        "text": "cannot able to concentrate"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "sentence-improvement",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q046",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nOceanic literature has long been obscured by Western perspectives that view the sea as a vast, empty void between “significant” landmasses. In the imperial imagination, the ocean was (A)____ a highway for trade or a barrier to be conquered. This “terra-centric” view effectively erased the complex histories and cultures of the peoples who lived upon and with the water.\n\nModern Pacific writers, however, are reclaiming this space, asserting that the ocean is a connector (B)____ than a divider. They describe the sea not as a desert of salt, but as a “sea of islands” interconnected by ancient voyaging routes. This shift in perspective transforms the ocean from a site of transit into a site of profound cultural belonging and identity.\n\nHad the early colonial cartographers respected the indigenous seafaring traditions and navigational charts, the maps of today might look very different. Instead of vast blue expanses labelled as “unexplored”, we would see a web of ancestral pathways. The refusal to acknowledge these traditions was a deliberate act of (C)____ silencing that facilitated colonial expansion.\n\nThough these narratives are often marginalised in global literary curricula, they provide a vital counter-history antithetical (D)____ the standard tales of discovery. They challenge the idea that history only happens on land. By centring the ocean, these authors force us to reconsider the fluidity of borders and the permanence of cultural ties. Their prose is often (E)____ with metaphors of fluidity and currents, challenging the rigid, static borders imposed by imperial powers. This literature does not just tell a story; it performs an act of decolonisation. It reminds us that for those who call the ocean home, the water is the most solid ground they know.\n\nFill in the blank (A) with an adverb that indicates a diminished viewpoint in this context.",
+    "options": [
+      {
+        "id": "A",
+        "text": "scarcely"
+      },
+      {
+        "id": "B",
+        "text": "negligibly"
+      },
+      {
+        "id": "C",
+        "text": "merely"
+      },
+      {
+        "id": "D",
+        "text": "minimally"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q047",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nOceanic literature has long been obscured by Western perspectives that view the sea as a vast, empty void between “significant” landmasses. In the imperial imagination, the ocean was (A)____ a highway for trade or a barrier to be conquered. This “terra-centric” view effectively erased the complex histories and cultures of the peoples who lived upon and with the water.\n\nModern Pacific writers, however, are reclaiming this space, asserting that the ocean is a connector (B)____ than a divider. They describe the sea not as a desert of salt, but as a “sea of islands” interconnected by ancient voyaging routes. This shift in perspective transforms the ocean from a site of transit into a site of profound cultural belonging and identity.\n\nHad the early colonial cartographers respected the indigenous seafaring traditions and navigational charts, the maps of today might look very different. Instead of vast blue expanses labelled as “unexplored”, we would see a web of ancestral pathways. The refusal to acknowledge these traditions was a deliberate act of (C)____ silencing that facilitated colonial expansion.\n\nThough these narratives are often marginalised in global literary curricula, they provide a vital counter-history antithetical (D)____ the standard tales of discovery. They challenge the idea that history only happens on land. By centring the ocean, these authors force us to reconsider the fluidity of borders and the permanence of cultural ties. Their prose is often (E)____ with metaphors of fluidity and currents, challenging the rigid, static borders imposed by imperial powers. This literature does not just tell a story; it performs an act of decolonisation. It reminds us that for those who call the ocean home, the water is the most solid ground they know.\n\nFill in the blank (B) with a word that naturally pairs with “than” to show the preference for one idea over another.",
+    "options": [
+      {
+        "id": "A",
+        "text": "rather"
+      },
+      {
+        "id": "B",
+        "text": "more"
+      },
+      {
+        "id": "C",
+        "text": "other"
+      },
+      {
+        "id": "D",
+        "text": "better"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q048",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nOceanic literature has long been obscured by Western perspectives that view the sea as a vast, empty void between “significant” landmasses. In the imperial imagination, the ocean was (A)____ a highway for trade or a barrier to be conquered. This “terra-centric” view effectively erased the complex histories and cultures of the peoples who lived upon and with the water.\n\nModern Pacific writers, however, are reclaiming this space, asserting that the ocean is a connector (B)____ than a divider. They describe the sea not as a desert of salt, but as a “sea of islands” interconnected by ancient voyaging routes. This shift in perspective transforms the ocean from a site of transit into a site of profound cultural belonging and identity.\n\nHad the early colonial cartographers respected the indigenous seafaring traditions and navigational charts, the maps of today might look very different. Instead of vast blue expanses labelled as “unexplored”, we would see a web of ancestral pathways. The refusal to acknowledge these traditions was a deliberate act of (C)____ silencing that facilitated colonial expansion.\n\nThough these narratives are often marginalised in global literary curricula, they provide a vital counter-history antithetical (D)____ the standard tales of discovery. They challenge the idea that history only happens on land. By centring the ocean, these authors force us to reconsider the fluidity of borders and the permanence of cultural ties. Their prose is often (E)____ with metaphors of fluidity and currents, challenging the rigid, static borders imposed by imperial powers. This literature does not just tell a story; it performs an act of decolonisation. It reminds us that for those who call the ocean home, the water is the most solid ground they know.\n\nFill in the blank (C) with a word relating to the science of drawing maps.",
+    "options": [
+      {
+        "id": "A",
+        "text": "orographic"
+      },
+      {
+        "id": "B",
+        "text": "epigraphic"
+      },
+      {
+        "id": "C",
+        "text": "stratigraphic"
+      },
+      {
+        "id": "D",
+        "text": "cartographic"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q049",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nOceanic literature has long been obscured by Western perspectives that view the sea as a vast, empty void between “significant” landmasses. In the imperial imagination, the ocean was (A)____ a highway for trade or a barrier to be conquered. This “terra-centric” view effectively erased the complex histories and cultures of the peoples who lived upon and with the water.\n\nModern Pacific writers, however, are reclaiming this space, asserting that the ocean is a connector (B)____ than a divider. They describe the sea not as a desert of salt, but as a “sea of islands” interconnected by ancient voyaging routes. This shift in perspective transforms the ocean from a site of transit into a site of profound cultural belonging and identity.\n\nHad the early colonial cartographers respected the indigenous seafaring traditions and navigational charts, the maps of today might look very different. Instead of vast blue expanses labelled as “unexplored”, we would see a web of ancestral pathways. The refusal to acknowledge these traditions was a deliberate act of (C)____ silencing that facilitated colonial expansion.\n\nThough these narratives are often marginalised in global literary curricula, they provide a vital counter-history antithetical (D)____ the standard tales of discovery. They challenge the idea that history only happens on land. By centring the ocean, these authors force us to reconsider the fluidity of borders and the permanence of cultural ties. Their prose is often (E)____ with metaphors of fluidity and currents, challenging the rigid, static borders imposed by imperial powers. This literature does not just tell a story; it performs an act of decolonisation. It reminds us that for those who call the ocean home, the water is the most solid ground they know.\n\nChoose the correct preposition to collocate with the adjective “antithetical” and fill in the blank (D).",
+    "options": [
+      {
+        "id": "A",
+        "text": "to"
+      },
+      {
+        "id": "B",
+        "text": "for"
+      },
+      {
+        "id": "C",
+        "text": "against"
+      },
+      {
+        "id": "D",
+        "text": "from"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q050",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nOceanic literature has long been obscured by Western perspectives that view the sea as a vast, empty void between “significant” landmasses. In the imperial imagination, the ocean was (A)____ a highway for trade or a barrier to be conquered. This “terra-centric” view effectively erased the complex histories and cultures of the peoples who lived upon and with the water.\n\nModern Pacific writers, however, are reclaiming this space, asserting that the ocean is a connector (B)____ than a divider. They describe the sea not as a desert of salt, but as a “sea of islands” interconnected by ancient voyaging routes. This shift in perspective transforms the ocean from a site of transit into a site of profound cultural belonging and identity.\n\nHad the early colonial cartographers respected the indigenous seafaring traditions and navigational charts, the maps of today might look very different. Instead of vast blue expanses labelled as “unexplored”, we would see a web of ancestral pathways. The refusal to acknowledge these traditions was a deliberate act of (C)____ silencing that facilitated colonial expansion.\n\nThough these narratives are often marginalised in global literary curricula, they provide a vital counter-history antithetical (D)____ the standard tales of discovery. They challenge the idea that history only happens on land. By centring the ocean, these authors force us to reconsider the fluidity of borders and the permanence of cultural ties. Their prose is often (E)____ with metaphors of fluidity and currents, challenging the rigid, static borders imposed by imperial powers. This literature does not just tell a story; it performs an act of decolonisation. It reminds us that for those who call the ocean home, the water is the most solid ground they know.\n\nFill in the blank (E) with a word that means that metaphors are spread through every part of the writing.",
+    "options": [
+      {
+        "id": "A",
+        "text": "interspersed"
+      },
+      {
+        "id": "B",
+        "text": "conflated"
+      },
+      {
+        "id": "C",
+        "text": "attenuated"
+      },
+      {
+        "id": "D",
+        "text": "suffused"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c09-q040",
+    "subjectId": "english",
+    "question": "Select the one word for the given expression.\n\nThe scientific study of stars and planets:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gastronomy"
+      },
+      {
+        "id": "B",
+        "text": "Astronomy"
+      },
+      {
+        "id": "C",
+        "text": "Biology"
+      },
+      {
+        "id": "D",
+        "text": "Anthropology"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c10-q015",
+    "subjectId": "english",
+    "question": "Select the meaning of the given idiom or phrase.\n\n‘carry coals to Newcastle’",
+    "options": [
+      {
+        "id": "A",
+        "text": "To supply something where it is already plentiful"
+      },
+      {
+        "id": "B",
+        "text": "To travel without preparation"
+      },
+      {
+        "id": "C",
+        "text": "To complete a difficult duty"
+      },
+      {
+        "id": "D",
+        "text": "To gain profit unexpectedly"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c11-q023",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indefatigable"
+      },
+      {
+        "id": "B",
+        "text": "Indefatiguable"
+      },
+      {
+        "id": "C",
+        "text": "Indeffatigable"
+      },
+      {
+        "id": "D",
+        "text": "Indefatigible"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c11-q064",
+    "subjectId": "english",
+    "question": "Select the wrongly spelt word, or the option with a spelling error.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Committee"
+      },
+      {
+        "id": "B",
+        "text": "Occurrence"
+      },
+      {
+        "id": "C",
+        "text": "Embarrassment"
+      },
+      {
+        "id": "D",
+        "text": "Dissapearance"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c05-q012",
+    "subjectId": "english",
+    "question": "Fill in the blank with the most appropriate word or phrasal verb.\n\nShe had to ____ her pride and apologize to her friend.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Give up"
+      },
+      {
+        "id": "B",
+        "text": "Put off"
+      },
+      {
+        "id": "C",
+        "text": "Put aside"
+      },
+      {
+        "id": "D",
+        "text": "Hold onto"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fill-in-the-blanks",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c10-q038",
+    "subjectId": "english",
+    "question": "Select the meaning of the given idiom or phrase.\n\nKeep one’s powder dry",
+    "options": [
+      {
+        "id": "A",
+        "text": "Avoid culinary mistakes"
+      },
+      {
+        "id": "B",
+        "text": "Stay completely silent"
+      },
+      {
+        "id": "C",
+        "text": "Rest after strenuous work"
+      },
+      {
+        "id": "D",
+        "text": "Remain prepared for action while avoiding premature moves"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c11-q066",
+    "subjectId": "english",
+    "question": "Select the wrongly spelt word, or the option with a spelling error.\n\nThe make-up room was filled with incaendescent lights causing intense discomfort.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Incaendescent"
+      },
+      {
+        "id": "B",
+        "text": "Lights"
+      },
+      {
+        "id": "C",
+        "text": "Intense"
+      },
+      {
+        "id": "D",
+        "text": "Misery"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c06-q006",
+    "subjectId": "english",
+    "question": "Select the option in which the bracketed word has a different meaning.\n\nThe scientist explained that the [scale] of the recent volcanic eruption was larger than anything recorded in the last century.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The global scale of the plastic pollution crisis requires immediate international cooperation."
+      },
+      {
+        "id": "B",
+        "text": "When drawing the floor plan, the architect used a scale of one inch to four feet."
+      },
+      {
+        "id": "C",
+        "text": "On a local scale, the new community garden has significantly improved the neighbourhood’s air quality."
+      },
+      {
+        "id": "D",
+        "text": "The project was so massive in scale that it required thousands of workers and ten years to complete."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-homophones",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c11-q053",
+    "subjectId": "english",
+    "question": "Select the wrongly spelt word, or the option with a spelling error.\n\nWhich sentence contains a word that is spelled incorrectly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The garden was abundant with fresh vegetables and blooming flowers."
+      },
+      {
+        "id": "B",
+        "text": "The king was known for his bounteous gifts to the poor."
+      },
+      {
+        "id": "C",
+        "text": "The rainforest appeared luxurient with thick green foliage."
+      },
+      {
+        "id": "D",
+        "text": "The chef prepared a lavish meal for the guests."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c07-q046",
+    "subjectId": "english",
+    "question": "Select the synonym of the bracketed word.\n\nThe [querulous] customer argued about everything.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cheerful"
+      },
+      {
+        "id": "B",
+        "text": "Calm"
+      },
+      {
+        "id": "C",
+        "text": "Complaining"
+      },
+      {
+        "id": "D",
+        "text": "Polite"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c05-q032",
+    "subjectId": "english",
+    "question": "Fill in the blank with the correct preposition.\n\nShe has been waiting ____ the bus for more than twenty minutes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to"
+      },
+      {
+        "id": "B",
+        "text": "for"
+      },
+      {
+        "id": "C",
+        "text": "from"
+      },
+      {
+        "id": "D",
+        "text": "by"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c12-q050",
+    "subjectId": "english",
+    "question": "Rearrange the sentences into a coherent paragraph.\n\n1. Anthropologists use cultural relativism to avoid biases when studying different societies.\n2. Cultural relativism is the idea that a person’s beliefs and practices should be understood based on their own culture.\n3. This contrasts with ethnocentrism, where one’s own culture is seen as superior to others.\n4. However, debates arise when cultural relativism is applied to ethical issues such as human rights.",
+    "options": [
+      {
+        "id": "A",
+        "text": "3-2-1-4"
+      },
+      {
+        "id": "B",
+        "text": "2-3-1-4"
+      },
+      {
+        "id": "C",
+        "text": "4-1-2-3"
+      },
+      {
+        "id": "D",
+        "text": "1-3-2-4"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c10-q012",
+    "subjectId": "english",
+    "question": "Select the meaning of the given idiom or phrase.\n\n‘Run out of steam’",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lose energy or enthusiasm"
+      },
+      {
+        "id": "B",
+        "text": "Speak without pause"
+      },
+      {
+        "id": "C",
+        "text": "Face a transport strike"
+      },
+      {
+        "id": "D",
+        "text": "Finish before time"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c04-q024",
+    "subjectId": "english",
+    "question": "Select the direct speech of the sentence.\n\nThe manager said that nothing would have gone wrong if the process had been followed correctly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The manager said, “Nothing would go wrong if the process is followed correctly.”"
+      },
+      {
+        "id": "B",
+        "text": "The manager said, “Nothing would have gone wrong if the process had been followed correctly.”"
+      },
+      {
+        "id": "C",
+        "text": "The manager said, “Nothing went wrong because the process was followed.”"
+      },
+      {
+        "id": "D",
+        "text": "The manager said, “The process must be followed to prevent issues.”"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c01-q015",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nYour advice / are / always helpful / to me.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Your advice"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "always helpful"
+      },
+      {
+        "id": "D",
+        "text": "to me"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "error-spotting",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c05-q010",
+    "subjectId": "english",
+    "question": "Fill in the blank with the most appropriate word or phrasal verb.\n\nI was just about to leave when I ____ my old school friend in the crowded mall.",
+    "options": [
+      {
+        "id": "A",
+        "text": "crossed into"
+      },
+      {
+        "id": "B",
+        "text": "ran across"
+      },
+      {
+        "id": "C",
+        "text": "came on"
+      },
+      {
+        "id": "D",
+        "text": "lucked out"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fill-in-the-blanks",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c01-q011",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHe did not / wrote / the answer / correctly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "He did not"
+      },
+      {
+        "id": "B",
+        "text": "wrote"
+      },
+      {
+        "id": "C",
+        "text": "the answer"
+      },
+      {
+        "id": "D",
+        "text": "correctly"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "error-spotting",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c07-q034",
+    "subjectId": "english",
+    "question": "Select the synonym of the given word.\n\nEnormous",
+    "options": [
+      {
+        "id": "A",
+        "text": "Colossal"
+      },
+      {
+        "id": "B",
+        "text": "Famous"
+      },
+      {
+        "id": "C",
+        "text": "Energetic"
+      },
+      {
+        "id": "D",
+        "text": "Vigorous"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c08-q020",
+    "subjectId": "english",
+    "question": "Select the antonym of the given word.\n\nVINDICTIVE",
+    "options": [
+      {
+        "id": "A",
+        "text": "Revengeful"
+      },
+      {
+        "id": "B",
+        "text": "Forgiving"
+      },
+      {
+        "id": "C",
+        "text": "Spiteful"
+      },
+      {
+        "id": "D",
+        "text": "Malicious"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c03-q014",
+    "subjectId": "english",
+    "question": "Select the passive voice of the sentence.\n\nHad the investigation team examined all the suspicious documents before the court hearing began?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Were all the suspicious documents examined by the investigation team before the court hearing began?"
+      },
+      {
+        "id": "B",
+        "text": "Have all the suspicious documents been examined by the investigation team before the court hearing began?"
+      },
+      {
+        "id": "C",
+        "text": "Were all the suspicious documents being examined by the investigation team before the court hearing began?"
+      },
+      {
+        "id": "D",
+        "text": "Had all the suspicious documents been examined by the investigation team before the court hearing began?"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c05-q006",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nShe completed the task ____ efficiently than her colleagues, surprising everyone.",
+    "options": [
+      {
+        "id": "A",
+        "text": "most"
+      },
+      {
+        "id": "B",
+        "text": "much"
+      },
+      {
+        "id": "C",
+        "text": "many"
+      },
+      {
+        "id": "D",
+        "text": "more"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "fill-in-the-blanks",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c09-q021",
+    "subjectId": "english",
+    "question": "Select the one word for the given expression.\n\nA person or animal that lives in a specific place.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Beast"
+      },
+      {
+        "id": "B",
+        "text": "Vigil"
+      },
+      {
+        "id": "C",
+        "text": "Inhabitant"
+      },
+      {
+        "id": "D",
+        "text": "Drape"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q096",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nIn contemporary cognitive science, human judgment is increasingly understood as a product of layered neural and psychological mechanisms rather than a purely rational calculus. Decisions that appear deliberate are often (A)___ by unconscious biases that subtly recalibrate perception before conscious deliberation even begins. This recognition has significantly undermined earlier models of rational agency, suggesting instead that cognition is dynamically constructed in real time.\n\nWithin this framework, behavioural economists argue that heuristics, while computationally efficient, can (B)____ systematic errors in probabilistic reasoning, particularly under conditions of uncertainty and informational overload. Such errors are not incidental but structurally embedded within the architecture of human cognition.\n\nClinical psychology has similarly evolved, with therapeutic paradigms increasingly encouraging individuals to (C)___ entrenched cognitive schemas rather than merely suppressing symptomatic expressions of distress. This shift reflects an understanding that maladaptive thought patterns are self-reinforcing and resistant to superficial correction. Neuroscientific evidence further indicates that the brain (D)__ capable of extensive functional reorganization, even in adulthood, thereby challenging earlier assumptions about fixed neural circuitry. This adaptability underpins many modern rehabilitative and psychotherapeutic interventions.\n\nNevertheless, scholars caution that public discourse often (E)___ complex psychological constructs into overly simplistic explanatory frames, thereby obscuring the nuanced interplay between cognition, emotion, and environment.\n\nBlank (A)",
+    "options": [
+      {
+        "id": "A",
+        "text": "mediated"
+      },
+      {
+        "id": "B",
+        "text": "aggravated"
+      },
+      {
+        "id": "C",
+        "text": "intensified"
+      },
+      {
+        "id": "D",
+        "text": "obstructed"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q097",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nIn contemporary cognitive science, human judgment is increasingly understood as a product of layered neural and psychological mechanisms rather than a purely rational calculus. Decisions that appear deliberate are often (A)___ by unconscious biases that subtly recalibrate perception before conscious deliberation even begins. This recognition has significantly undermined earlier models of rational agency, suggesting instead that cognition is dynamically constructed in real time.\n\nWithin this framework, behavioural economists argue that heuristics, while computationally efficient, can (B)____ systematic errors in probabilistic reasoning, particularly under conditions of uncertainty and informational overload. Such errors are not incidental but structurally embedded within the architecture of human cognition.\n\nClinical psychology has similarly evolved, with therapeutic paradigms increasingly encouraging individuals to (C)___ entrenched cognitive schemas rather than merely suppressing symptomatic expressions of distress. This shift reflects an understanding that maladaptive thought patterns are self-reinforcing and resistant to superficial correction. Neuroscientific evidence further indicates that the brain (D)__ capable of extensive functional reorganization, even in adulthood, thereby challenging earlier assumptions about fixed neural circuitry. This adaptability underpins many modern rehabilitative and psychotherapeutic interventions.\n\nNevertheless, scholars caution that public discourse often (E)___ complex psychological constructs into overly simplistic explanatory frames, thereby obscuring the nuanced interplay between cognition, emotion, and environment.\n\nBlank (B)",
+    "options": [
+      {
+        "id": "A",
+        "text": "obviate"
+      },
+      {
+        "id": "B",
+        "text": "engender"
+      },
+      {
+        "id": "C",
+        "text": "mitigate"
+      },
+      {
+        "id": "D",
+        "text": "circumscribe"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q098",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nIn contemporary cognitive science, human judgment is increasingly understood as a product of layered neural and psychological mechanisms rather than a purely rational calculus. Decisions that appear deliberate are often (A)___ by unconscious biases that subtly recalibrate perception before conscious deliberation even begins. This recognition has significantly undermined earlier models of rational agency, suggesting instead that cognition is dynamically constructed in real time.\n\nWithin this framework, behavioural economists argue that heuristics, while computationally efficient, can (B)____ systematic errors in probabilistic reasoning, particularly under conditions of uncertainty and informational overload. Such errors are not incidental but structurally embedded within the architecture of human cognition.\n\nClinical psychology has similarly evolved, with therapeutic paradigms increasingly encouraging individuals to (C)___ entrenched cognitive schemas rather than merely suppressing symptomatic expressions of distress. This shift reflects an understanding that maladaptive thought patterns are self-reinforcing and resistant to superficial correction. Neuroscientific evidence further indicates that the brain (D)__ capable of extensive functional reorganization, even in adulthood, thereby challenging earlier assumptions about fixed neural circuitry. This adaptability underpins many modern rehabilitative and psychotherapeutic interventions.\n\nNevertheless, scholars caution that public discourse often (E)___ complex psychological constructs into overly simplistic explanatory frames, thereby obscuring the nuanced interplay between cognition, emotion, and environment.\n\nBlank (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "entrench"
+      },
+      {
+        "id": "B",
+        "text": "deconstruct"
+      },
+      {
+        "id": "C",
+        "text": "acquiesce"
+      },
+      {
+        "id": "D",
+        "text": "perpetuate"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q099",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nIn contemporary cognitive science, human judgment is increasingly understood as a product of layered neural and psychological mechanisms rather than a purely rational calculus. Decisions that appear deliberate are often (A)___ by unconscious biases that subtly recalibrate perception before conscious deliberation even begins. This recognition has significantly undermined earlier models of rational agency, suggesting instead that cognition is dynamically constructed in real time.\n\nWithin this framework, behavioural economists argue that heuristics, while computationally efficient, can (B)____ systematic errors in probabilistic reasoning, particularly under conditions of uncertainty and informational overload. Such errors are not incidental but structurally embedded within the architecture of human cognition.\n\nClinical psychology has similarly evolved, with therapeutic paradigms increasingly encouraging individuals to (C)___ entrenched cognitive schemas rather than merely suppressing symptomatic expressions of distress. This shift reflects an understanding that maladaptive thought patterns are self-reinforcing and resistant to superficial correction. Neuroscientific evidence further indicates that the brain (D)__ capable of extensive functional reorganization, even in adulthood, thereby challenging earlier assumptions about fixed neural circuitry. This adaptability underpins many modern rehabilitative and psychotherapeutic interventions.\n\nNevertheless, scholars caution that public discourse often (E)___ complex psychological constructs into overly simplistic explanatory frames, thereby obscuring the nuanced interplay between cognition, emotion, and environment.\n\nBlank (D)",
+    "options": [
+      {
+        "id": "A",
+        "text": "becomes"
+      },
+      {
+        "id": "B",
+        "text": "stands"
+      },
+      {
+        "id": "C",
+        "text": "proves"
+      },
+      {
+        "id": "D",
+        "text": "remains"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q100",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nIn contemporary cognitive science, human judgment is increasingly understood as a product of layered neural and psychological mechanisms rather than a purely rational calculus. Decisions that appear deliberate are often (A)___ by unconscious biases that subtly recalibrate perception before conscious deliberation even begins. This recognition has significantly undermined earlier models of rational agency, suggesting instead that cognition is dynamically constructed in real time.\n\nWithin this framework, behavioural economists argue that heuristics, while computationally efficient, can (B)____ systematic errors in probabilistic reasoning, particularly under conditions of uncertainty and informational overload. Such errors are not incidental but structurally embedded within the architecture of human cognition.\n\nClinical psychology has similarly evolved, with therapeutic paradigms increasingly encouraging individuals to (C)___ entrenched cognitive schemas rather than merely suppressing symptomatic expressions of distress. This shift reflects an understanding that maladaptive thought patterns are self-reinforcing and resistant to superficial correction. Neuroscientific evidence further indicates that the brain (D)__ capable of extensive functional reorganization, even in adulthood, thereby challenging earlier assumptions about fixed neural circuitry. This adaptability underpins many modern rehabilitative and psychotherapeutic interventions.\n\nNevertheless, scholars caution that public discourse often (E)___ complex psychological constructs into overly simplistic explanatory frames, thereby obscuring the nuanced interplay between cognition, emotion, and environment.\n\nBlank (E)",
+    "options": [
+      {
+        "id": "A",
+        "text": "flatten"
+      },
+      {
+        "id": "B",
+        "text": "magnify"
+      },
+      {
+        "id": "C",
+        "text": "diversify"
+      },
+      {
+        "id": "D",
+        "text": "authenticate"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c08-q042",
+    "subjectId": "english",
+    "question": "Select the antonym of the bracketed word.\n\nThe critic’s review was [scathing], leaving the director upset.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Devastating"
+      },
+      {
+        "id": "B",
+        "text": "Harsh"
+      },
+      {
+        "id": "C",
+        "text": "Caustic"
+      },
+      {
+        "id": "D",
+        "text": "Complimentary"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c12-q039",
+    "subjectId": "english",
+    "question": "Rearrange the sentences into a coherent paragraph.\n\nS1. The delay in the “Antichrist” getting into type was due to the influence of Nietzsche’s sister, Elisabeth, an ardent but by no means uniformly judicious propagandist of his ideas.\nP. On the contrary, it must be manifest that Nietzsche, in this book, intended to attack Christianity headlong and with all arms, and that he wanted it to be printed exactly as it stands.\nQ. He had, she says, great admiration for “the elevating effect of Christianity ... upon the weak and ailing,” and “a real liking for sincere, pious Christians.”\nR. And those bounds were marked by crosses, as one notes, in her biography of him, an evident desire to purge him of the accusation of mocking at sacred things.\nS. During his dark days of neglect and misunderstanding, she went with him farther than any other, but there were bounds beyond which she, also, hesitated to go.",
+    "options": [
+      {
+        "id": "A",
+        "text": "RPSQ"
+      },
+      {
+        "id": "B",
+        "text": "QSPR"
+      },
+      {
+        "id": "C",
+        "text": "PRQS"
+      },
+      {
+        "id": "D",
+        "text": "SRQP"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "para-jumbles",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c09-q001",
+    "subjectId": "english",
+    "question": "Select the one word for the given expression.\n\nA person who lives alone.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mandatory"
+      },
+      {
+        "id": "B",
+        "text": "Solitary"
+      },
+      {
+        "id": "C",
+        "text": "Truant"
+      },
+      {
+        "id": "D",
+        "text": "Secretive"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c07-q003",
+    "subjectId": "english",
+    "question": "Select the synonym of the given word.\n\nCASUAL",
+    "options": [
+      {
+        "id": "A",
+        "text": "Serious"
+      },
+      {
+        "id": "B",
+        "text": "Planned"
+      },
+      {
+        "id": "C",
+        "text": "Informal"
+      },
+      {
+        "id": "D",
+        "text": "Heavy"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c01-q052",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nWe had a high time during the holidays.",
+    "options": [
+      {
+        "id": "A",
+        "text": "during"
+      },
+      {
+        "id": "B",
+        "text": "high"
+      },
+      {
+        "id": "C",
+        "text": "had"
+      },
+      {
+        "id": "D",
+        "text": "time"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "error-spotting",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c08-q015",
+    "subjectId": "english",
+    "question": "Select the antonym of the given word.\n\nHostile",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aggressive"
+      },
+      {
+        "id": "B",
+        "text": "Friendly"
+      },
+      {
+        "id": "C",
+        "text": "Violent"
+      },
+      {
+        "id": "D",
+        "text": "Harsh"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c09-q006",
+    "subjectId": "english",
+    "question": "Select the one word for the given expression.\n\nA companion who shares in one’s activities.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menagerie"
+      },
+      {
+        "id": "B",
+        "text": "Comrade"
+      },
+      {
+        "id": "C",
+        "text": "Didactic"
+      },
+      {
+        "id": "D",
+        "text": "Pallisade"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c02-q005",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[Although Tara worked hard but] the final draft still needed correction.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Although Tara worked hard however"
+      },
+      {
+        "id": "B",
+        "text": "Although Tara worked hard,"
+      },
+      {
+        "id": "C",
+        "text": "Despite Tara worked hard"
+      },
+      {
+        "id": "D",
+        "text": "Though Tara worked hard but"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "sentence-improvement",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c11-q007",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Brainstormming"
+      },
+      {
+        "id": "B",
+        "text": "Brainstorming"
+      },
+      {
+        "id": "C",
+        "text": "Brainstroming"
+      },
+      {
+        "id": "D",
+        "text": "Branstorming"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  }
+]
