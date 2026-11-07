@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "grammar351",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\n____ the geologists had repeatedly warned the district administration about the instability of the hill slope, no evacuation was ordered until the first boulders crashed onto the highway.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Despite"
+      },
+      {
+        "id": "B",
+        "text": "Although"
+      },
+      {
+        "id": "C",
+        "text": "Owing to"
+      },
+      {
+        "id": "D",
+        "text": "In spite of"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: Although / Though / Even though (भले ही) के बाद हमेशा पूरा clause (Subject + Verb) आता है। इसके विपरीत Despite / In spite of के बाद केवल Noun, Pronoun या V-ing (gerund) आता है — clause नहीं। 'Despite of' गलत है (despite के बाद 'of' कभी नहीं लगता), जबकि 'in spite' बिना 'of' के अधूरा है। Clause जोड़ना हो तो 'Despite / In spite of + the fact that + clause' बनता है। Although के साथ 'but' या 'yet' नहीं लगाते।\n\nयहाँ: 'the geologists had ... warned' में Subject (geologists) + Verb (had warned) है, यानी पूरा clause है, और दोनों हिस्सों में विरोध है (चेतावनी मिली, फिर भी कार्रवाई नहीं हुई)। Clause के साथ Although ही आता है। Despite / In spite of के बाद clause नहीं आ सकता; Owing to कारण बताता है, विरोध नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar352",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\n____ their meagre financial resources and the complete absence of government support, the villagers succeeded in building a school for nearly two hundred children.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Even though"
+      },
+      {
+        "id": "B",
+        "text": "Despite"
+      },
+      {
+        "id": "C",
+        "text": "Though"
+      },
+      {
+        "id": "D",
+        "text": "Although"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: Although / Though / Even though (भले ही) के बाद हमेशा पूरा clause (Subject + Verb) आता है। इसके विपरीत Despite / In spite of के बाद केवल Noun, Pronoun या V-ing (gerund) आता है — clause नहीं। 'Despite of' गलत है (despite के बाद 'of' कभी नहीं लगता), जबकि 'in spite' बिना 'of' के अधूरा है। Clause जोड़ना हो तो 'Despite / In spite of + the fact that + clause' बनता है। Although के साथ 'but' या 'yet' नहीं लगाते।\n\nयहाँ: 'their meagre financial resources and the complete absence of government support' केवल noun phrase है (कोई verb नहीं)। Noun phrase से पहले Despite आता है। Although / Though / Even though के बाद पूरा clause चाहिए, इसलिए वे यहाँ नहीं बैठते।",
+    "language": "en"
+  },
+  {
+    "id": "grammar353",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe tenants will be evicted before the end of the month ____ they clear the outstanding rent along with the penalty.",
+    "options": [
+      {
+        "id": "A",
+        "text": "unless"
+      },
+      {
+        "id": "B",
+        "text": "lest"
+      },
+      {
+        "id": "C",
+        "text": "if"
+      },
+      {
+        "id": "D",
+        "text": "until"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: Unless = If ... not (जब तक ... न / यदि ... नहीं)। Unless स्वयं negative अर्थ रखता है, इसलिए उसके बाद वाले clause में not / never जैसा negative नहीं आता (Unless you do not work ✗ → Unless you work ✓)। Unless वाला हिस्सा शर्त (condition) होता है, इसलिए उसमें Simple Present आता है, will / would नहीं। मुख्य clause में will / shall / can आ सकता है।\n\nयहाँ: अर्थ है 'यदि वे किराया न चुकाएँ तो बेदखल होंगे' = unless (if ... not)। If लगाने पर अर्थ उलट जाता (किराया चुकाने पर बेदखली!); until यहाँ समय-सीमा देता है, शर्त नहीं; lest के बाद should आता है और उद्देश्य का भाव चाहिए।",
+    "language": "en"
+  },
+  {
+    "id": "grammar354",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nUnless the students ____ the minimum percentage of attendance, the university will not allow them to appear in the final examination.",
+    "options": [
+      {
+        "id": "A",
+        "text": "maintain"
+      },
+      {
+        "id": "B",
+        "text": "do not maintain"
+      },
+      {
+        "id": "C",
+        "text": "will maintain"
+      },
+      {
+        "id": "D",
+        "text": "are not maintaining"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: Unless = If ... not (जब तक ... न / यदि ... नहीं)। Unless स्वयं negative अर्थ रखता है, इसलिए उसके बाद वाले clause में not / never जैसा negative नहीं आता (Unless you do not work ✗ → Unless you work ✓)। Unless वाला हिस्सा शर्त (condition) होता है, इसलिए उसमें Simple Present आता है, will / would नहीं। मुख्य clause में will / shall / can आ सकता है।\n\nयहाँ: Unless स्वयं negative है, इसलिए 'do not maintain / are not maintaining' (double negative) नहीं आएगा। Unless वाले condition clause में future (will maintain) भी नहीं आता, Simple Present 'maintain' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar355",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe sentry doubled his vigilance throughout the night lest the insurgents ____ the camp under cover of darkness.",
+    "options": [
+      {
+        "id": "A",
+        "text": "attacked"
+      },
+      {
+        "id": "B",
+        "text": "would attack"
+      },
+      {
+        "id": "C",
+        "text": "should attack"
+      },
+      {
+        "id": "D",
+        "text": "will attack"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: Lest = 'कहीं ऐसा न हो कि / ताकि ... न हो' (negative purpose)। Lest स्वयं negative है, इसलिए इसके साथ not / never नहीं लगता। Lest के बाद Subject + should + V1 आता है (subjunctive में सीधा V1 भी चलता है)। Lest के बाद will / would / can / could या Simple Past का प्रयोग नहीं होता। उदाहरण: Run fast lest you should miss the train.\n\nयहाँ: Lest = 'कहीं ऐसा न हो कि' — इसके बाद Subject + should + V1 आता है। will / would या Simple Past (attacked) lest के साथ नहीं आते; और 'not' भी नहीं लगता क्योंकि lest स्वयं negative है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar356",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe students were advised to revise every chapter regularly ____ they should forget the concepts on the day of the examination.",
+    "options": [
+      {
+        "id": "A",
+        "text": "lest"
+      },
+      {
+        "id": "B",
+        "text": "so that"
+      },
+      {
+        "id": "C",
+        "text": "unless"
+      },
+      {
+        "id": "D",
+        "text": "until"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "नियम: Lest = 'कहीं ऐसा न हो कि / ताकि ... न हो' (negative purpose)। Lest स्वयं negative है, इसलिए इसके साथ not / never नहीं लगता। Lest के बाद Subject + should + V1 आता है (subjunctive में सीधा V1 भी चलता है)। Lest के बाद will / would / can / could या Simple Past का प्रयोग नहीं होता। उदाहरण: Run fast lest you should miss the train.\n\nयहाँ: 'should forget' के साथ नकारात्मक उद्देश्य (कहीं भूल न जाएँ) बन रहा है — यह lest का काम है। Unless = if not, so that = सकारात्मक उद्देश्य और until = समय-सीमा; ये यहाँ अर्थ में नहीं बैठते।",
+    "language": "en"
+  },
+  {
+    "id": "grammar357",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nNo sooner had the chief guest finished his address ____ the audience burst into thunderous applause.",
+    "options": [
+      {
+        "id": "A",
+        "text": "than"
+      },
+      {
+        "id": "B",
+        "text": "then"
+      },
+      {
+        "id": "C",
+        "text": "before"
+      },
+      {
+        "id": "D",
+        "text": "when"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: No sooner ... than तथा Hardly / Scarcely / Barely ... when / before — सबका अर्थ 'जैसे ही ... वैसे ही' है। No sooner के साथ हमेशा 'than' आता है; Hardly / Scarcely / Barely के साथ 'when' (या before) आता है, 'than' नहीं। पहला clause Past Perfect (had + V3) में और दूसरा Simple Past में होता है। वाक्य इन शब्दों से शुरू हो तो inversion होता है: No sooner HAD + Subject + V3 ... than + Subject + V2.\n\nयहाँ: No sooner के साथ हमेशा 'than' आता है। 'No sooner had + S + V3 ... than + S + V2' पैटर्न यहाँ पूरा मिल रहा है। 'when / before' Hardly / Scarcely के साथ लगते हैं, No sooner के साथ नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar358",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nScarcely had the express train left the platform ____ the ticket examiner began checking the passengers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "than"
+      },
+      {
+        "id": "B",
+        "text": "while"
+      },
+      {
+        "id": "C",
+        "text": "then"
+      },
+      {
+        "id": "D",
+        "text": "when"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: No sooner ... than तथा Hardly / Scarcely / Barely ... when / before — सबका अर्थ 'जैसे ही ... वैसे ही' है। No sooner के साथ हमेशा 'than' आता है; Hardly / Scarcely / Barely के साथ 'when' (या before) आता है, 'than' नहीं। पहला clause Past Perfect (had + V3) में और दूसरा Simple Past में होता है। वाक्य इन शब्दों से शुरू हो तो inversion होता है: No sooner HAD + Subject + V3 ... than + Subject + V2.\n\nयहाँ: Scarcely / Hardly / Barely के साथ 'when' (या before) आता है, 'than' नहीं — 'than' केवल No sooner का साथी है। पैटर्न: Scarcely had + S + V3 ... when + S + V2.",
+    "language": "en"
+  },
+  {
+    "id": "grammar359",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe new taxation policy was criticised not only by the opposition parties ____ by several influential members of the ruling coalition.",
+    "options": [
+      {
+        "id": "A",
+        "text": "but also"
+      },
+      {
+        "id": "B",
+        "text": "but moreover"
+      },
+      {
+        "id": "C",
+        "text": "and also"
+      },
+      {
+        "id": "D",
+        "text": "as well as"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: Correlative conjunctions जोड़े में आते हैं और बदले नहीं जा सकते: either ... or, neither ... nor, both ... and, not only ... but also। नियम: (i) Neither के साथ nor, Either के साथ or, Both के साथ and, Not only के साथ but also। (ii) Either–or / Neither–nor / Not only–but also में verb पास वाले (nearer) subject के अनुसार लगती है। (iii) Both ... and के साथ plural verb आती है। (iv) जोड़े के दोनों हिस्सों के बाद एक जैसी grammatical category आनी चाहिए (parallelism)। (v) 'Not only' वाक्य की शुरुआत में हो तो inversion होता है: Not only did he ... but he also ...\n\nयहाँ: 'Not only' का जोड़ीदार हमेशा 'but also' है। 'and also', 'as well as' या 'but moreover' से correlative जोड़ा नहीं बनता। दोनों हिस्से by + noun phrase के रूप में parallel भी हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar360",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nNeither the principal nor the teachers ____ aware of the circular that the board had issued the previous evening.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "has been"
+      },
+      {
+        "id": "C",
+        "text": "were"
+      },
+      {
+        "id": "D",
+        "text": "is"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: Correlative conjunctions जोड़े में आते हैं और बदले नहीं जा सकते: either ... or, neither ... nor, both ... and, not only ... but also। नियम: (i) Neither के साथ nor, Either के साथ or, Both के साथ and, Not only के साथ but also। (ii) Either–or / Neither–nor / Not only–but also में verb पास वाले (nearer) subject के अनुसार लगती है। (iii) Both ... and के साथ plural verb आती है। (iv) जोड़े के दोनों हिस्सों के बाद एक जैसी grammatical category आनी चाहिए (parallelism)। (v) 'Not only' वाक्य की शुरुआत में हो तो inversion होता है: Not only did he ... but he also ...\n\nयहाँ: Neither ... nor में verb पास वाले (nearer) subject के अनुसार आती है। पास का subject 'teachers' plural है, इसलिए plural verb चाहिए, और 'had issued ... previous evening' से past tense तय है — 'were' ही सही है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar361",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe selection committee has not yet decided ____ to extend the deadline for submitting applications.",
+    "options": [
+      {
+        "id": "A",
+        "text": "if"
+      },
+      {
+        "id": "B",
+        "text": "that"
+      },
+      {
+        "id": "C",
+        "text": "unless"
+      },
+      {
+        "id": "D",
+        "text": "whether"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: Whether vs If: (i) to-infinitive से पहले हमेशा whether आता है (whether to go ✓, if to go ✗)। (ii) Preposition के बाद whether आता है (the debate over whether ...)। (iii) 'whether ... or not' में 'if' नहीं लगता। (iv) Subject के रूप में आने वाले clause में whether आता है (Whether he comes is doubtful)। (v) 'If' शर्त (condition) बताने के लिए आता है — जैसे 'I would be grateful if you could ...'। Indirect Yes/No question में दोनों चलते हैं, पर ऊपर की स्थितियों में केवल whether ही आता है।\n\nयहाँ: to-infinitive (to extend) से पहले हमेशा whether आता है; 'if to extend' गलत है। 'that' और 'unless' भी इस जगह अर्थ और structure दोनों में गलत हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar362",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nShe spends money as though she ____ a millionaire, although she barely earns enough to make both ends meet.",
+    "options": [
+      {
+        "id": "A",
+        "text": "will be"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "has been"
+      },
+      {
+        "id": "D",
+        "text": "is"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: As if / As though (मानो कि) एक conjunction है जिसके बाद पूरा clause (S + V) आता है। Like एक preposition है — उसके बाद noun / pronoun आता है, clause नहीं (He behaves like a king ✓; He behaves like he owned the place ✗ → as if he owned ✓)। काल्पनिक (unreal) तुलना में as if / as though के बाद Past Subjunctive आता है — सभी subjects के साथ 'were' (as if she were ...); और बीते हुए समय के बारे में कल्पना हो तो Past Perfect (had + V3) आता है।\n\nयहाँ: As though के बाद काल्पनिक (unreal) तुलना है — 'although she barely earns ...' से स्पष्ट है कि वह millionaire नहीं है। ऐसी काल्पनिक स्थिति में Past Subjunctive 'were' आता है; is / has been / will be वास्तविकता बताते हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar363",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nIt was ____ a gruelling journey that none of the passengers could manage even a few minutes of sleep.",
+    "options": [
+      {
+        "id": "A",
+        "text": "so"
+      },
+      {
+        "id": "B",
+        "text": "too"
+      },
+      {
+        "id": "C",
+        "text": "very"
+      },
+      {
+        "id": "D",
+        "text": "such"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: So ... that तथा Such ... that (इतना ... कि) परिणाम बताते हैं। नियम: So + Adjective / Adverb + that (so tall that; so carefully that); Such + (a / an) + Adjective + Noun + that (such a tall boy that)। वैकल्पिक रूप: So + Adjective + a / an + Noun (so tall a boy). यानी adjective के बाद noun न हो तो 'so', और 'a + adjective + noun' पूरा हो तो 'such' (या 'so + adj + a + noun')। 'Very / too' के साथ 'that' clause नहीं जुड़ता।\n\nयहाँ: 'a gruelling journey' = a + adjective + noun, यानी noun मौजूद है, इसलिए Such + a + adjective + noun + that का पैटर्न बनता है। 'So' बिना noun के adjective / adverb के साथ आता है; too / very के बाद that-clause नहीं लगती।",
+    "language": "en"
+  },
+  {
+    "id": "grammar364",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe shopkeeper will not hand over the goods until the customer ____ the full amount in cash.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is paying"
+      },
+      {
+        "id": "B",
+        "text": "would pay"
+      },
+      {
+        "id": "C",
+        "text": "pays"
+      },
+      {
+        "id": "D",
+        "text": "will pay"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: Time clauses (when, before, after, until / till, as soon as, by the time) में भविष्य की बात होने पर भी will / shall नहीं लगते — उनकी जगह Simple Present (या Present Perfect) आता है; will केवल मुख्य clause में आ सकता है। Until / Till का अर्थ 'तब तक' है जिसमें क्रिया लगातार चलती है — वह स्वयं सीमा-बोधक है, इसलिए उसके clause में negative नहीं लगता (Wait until he comes ✓; until he does not come ✗)। Unless शर्त (if not) है, समय-सीमा नहीं।\n\nयहाँ: 'until' समय-संबंधी clause है और मुख्य clause में will है, इसलिए until वाले clause में future नहीं आता — Simple Present 'pays' आता है। will pay / would pay गलत हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar365",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nRahul is extremely methodical in his approach to every assignment, ____ his younger brother tends to rely almost entirely on intuition.",
+    "options": [
+      {
+        "id": "A",
+        "text": "because"
+      },
+      {
+        "id": "B",
+        "text": "until"
+      },
+      {
+        "id": "C",
+        "text": "unless"
+      },
+      {
+        "id": "D",
+        "text": "whereas"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "नियम: While / Whereas दो विपरीत या भिन्न बातों की तुलना (contrast) बताते हैं — 'जबकि'। Whereas = जबकि (इसके विपरीत / उसके उलट)। While वाक्य की शुरुआत में हो तो concession (यद्यपि / हालाँकि) का भाव भी देता है: While I admire his courage, I cannot endorse his methods. दोनों के बाद पूरा clause आता है। कारण के लिए because / since, समय-सीमा के लिए until / when और शर्त के लिए unless / if आते हैं — इसलिए अर्थ देखकर ही चुनें।\n\nयहाँ: दोनों भाइयों की आदतों में विरोध (contrast) दिखाया गया है — 'जबकि'। यह काम Whereas करता है। Because कारण, unless शर्त और until समय-सीमा बताते हैं; इनमें से कोई यहाँ नहीं बैठता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar366",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe cricket match was postponed ____ the incessant rain that had flooded the entire ground.",
+    "options": [
+      {
+        "id": "A",
+        "text": "although"
+      },
+      {
+        "id": "B",
+        "text": "because"
+      },
+      {
+        "id": "C",
+        "text": "so that"
+      },
+      {
+        "id": "D",
+        "text": "because of"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "नियम: Because / Since / As (क्योंकि) के बाद पूरा clause (Subject + Verb) आता है, जबकि Because of / Due to / Owing to / On account of के बाद Noun / Noun phrase / Gerund आता है। ट्रिक: आगे verb वाला पूरा वाक्य हो → because; केवल noun phrase हो (चाहे उसमें relative clause 'that ...' जुड़ा हो) → because of।\n\nयहाँ: 'the incessant rain that had flooded the entire ground' एक noun phrase है (मुख्य noun 'rain' + relative clause)। Noun phrase से पहले because of आता है। 'because' के बाद Subject + Verb वाला स्वतंत्र clause चाहिए होता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar367",
+    "subjectId": "english",
+    "question": "Fill in the blanks.\n\n____ (1) the shareholders were growing increasingly restless, the chairman convened an emergency meeting ____ (2) the whole matter could be discussed threadbare.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unless; so that"
+      },
+      {
+        "id": "B",
+        "text": "Since; lest"
+      },
+      {
+        "id": "C",
+        "text": "Since; so that"
+      },
+      {
+        "id": "D",
+        "text": "Although; so that"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: शर्त और उद्देश्य (condition / purpose) के conjunctions: (i) Provided (that) / Providing (that) / As long as / So long as = 'इस शर्त पर कि' (condition)। (ii) In case = 'कहीं ऐसा हुआ तो' — पहले से सावधानी / तैयारी (precaution); इसके बाद present tense आता है। (iii) So that / In order that = 'ताकि' (positive purpose), जिसके बाद can / could / may / might / will / would आता है। (iv) Since / As = क्योंकि (reason)। (v) Lest = ताकि ... न हो (negative purpose)। अर्थ और tense-pattern देखकर सही conjunction चुनें; शर्त वाले clause में future नहीं आता।\n\nयहाँ: (1) शेयरधारकों की बेचैनी बैठक बुलाने का कारण है — Since (क्योंकि)। (2) 'could be discussed' के साथ सकारात्मक उद्देश्य (ताकि) — so that। Although विरोध बताता है, lest के बाद should और नकारात्मक उद्देश्य आता है, और Unless = if not है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar368",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nMost senior citizens prefer to live independently ____ depend on their children for every small need.",
+    "options": [
+      {
+        "id": "A",
+        "text": "than"
+      },
+      {
+        "id": "B",
+        "text": "to"
+      },
+      {
+        "id": "C",
+        "text": "rather than"
+      },
+      {
+        "id": "D",
+        "text": "instead"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: Prefer तथा Would rather: (i) Prefer + Noun / Gerund + to + Noun / Gerund (prefer tea to coffee; prefer walking to driving) — यहाँ 'than' नहीं आता। (ii) Prefer to + V1 + rather than + V1 (prefer to walk rather than take a bus)। (iii) Would rather + V1 (बिना to) + than + V1 (I would rather stay than go)। (iv) Would rather के साथ अलग subject हो तो past tense आता है (I would rather you stayed)। 'Instead' के बाद of (instead of + V-ing) चाहिए।\n\nयहाँ: 'prefer to + V1' के बाद 'rather than + V1' आता है (prefer to live ... rather than depend)। केवल 'than' या 'to' नहीं चलते; 'instead' के बाद of + V-ing चाहिए (instead of depending)।",
+    "language": "en"
+  },
+  {
+    "id": "grammar369",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nI have no doubt ____ he will emerge victorious in the final round of the tournament.",
+    "options": [
+      {
+        "id": "A",
+        "text": "that"
+      },
+      {
+        "id": "B",
+        "text": "if"
+      },
+      {
+        "id": "C",
+        "text": "whether"
+      },
+      {
+        "id": "D",
+        "text": "as"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "नियम: (i) Now that = 'अब जबकि / क्योंकि अब' (reason, present situation) — Now that the exams are over, ... ; 'Since that / So that' इस अर्थ में नहीं बनते। (ii) No doubt / Not doubt के बाद that आता है (I have no doubt that ...), जबकि सकारात्मक doubt के बाद whether / if आता है (I doubt whether he will come)। (iii) So long as = 'जब तक / इस शर्त पर'।\n\nयहाँ: 'No doubt' जैसे negative / निश्चयवाची भाव के बाद that आता है। Whether / if सकारात्मक doubt (I doubt whether ...) के साथ लगते हैं, 'no doubt' के साथ नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar370",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe main reason for the delay in the construction of the bridge is ____ the funds were not released on time by the state government.",
+    "options": [
+      {
+        "id": "A",
+        "text": "because"
+      },
+      {
+        "id": "B",
+        "text": "as"
+      },
+      {
+        "id": "C",
+        "text": "since"
+      },
+      {
+        "id": "D",
+        "text": "that"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: 'That' noun clause की conjunction है: (i) 'The reason ... is that ...' — यहाँ 'because' नहीं आता (The reason is because ✗)। (ii) Fact / news / idea / belief / report / rumour जैसे nouns के बाद appositive clause 'that' से शुरू होता है (the news that the factory was shut); यहाँ 'which' नहीं आता क्योंकि clause noun की पहचान (content) बताता है, उसे modify नहीं करता। (iii) 'what / whom' भी ऐसे noun के बाद नहीं लगते।\n\nयहाँ: 'The reason ... is' के बाद noun clause की conjunction 'that' आती है; 'The reason is because' गलत माना जाता है, क्योंकि reason और because दोनों कारण बताते हैं (पुनरावृत्ति)। Since / as भी यहाँ नहीं लगते।",
+    "language": "en"
+  },
+  {
+    "id": "grammar371",
+    "subjectId": "english",
+    "question": "Fill in the blanks.\n\nThe ceremony is scheduled to begin ____ (1) 9.30 a.m. sharp ____ (2) the morning of Republic Day.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on; in"
+      },
+      {
+        "id": "B",
+        "text": "at; in"
+      },
+      {
+        "id": "C",
+        "text": "at; on"
+      },
+      {
+        "id": "D",
+        "text": "in; on"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions",
+    "difficulty": "hard",
+    "explanation": "नियम: Time के Prepositions: AT = घड़ी का सटीक समय / छोटा बिंदु (at 9.30 a.m., at noon, at night); ON = तारीख़, दिन और विशेष दिन (on Monday, on 15 August, on a stormy night, on the morning of Republic Day); IN = महीना, वर्ष, ऋतु, सदी और दिन के सामान्य भाग (in July, in 1947, in the winter of 1892, in the morning)। नियम का सार: 'on the morning / evening / night of + निश्चित दिन' में ON आता है क्योंकि उसके साथ विशेष दिन जुड़ा है; सिर्फ 'in the morning' सामान्य भाग है।\n\nयहाँ: (1) घड़ी के सटीक समय (9.30 a.m.) से पहले at आता है। (2) 'the morning of Republic Day' में किसी विशेष दिन (Republic Day) की सुबह की बात है, इसलिए on the morning of ... आता है; सामान्य 'in the morning' से तुलना न करें।",
+    "language": "en"
+  },
+  {
+    "id": "grammar372",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe Constitution of India was adopted by the Constituent Assembly ____ 26 November 1949 and came into force two months later.",
+    "options": [
+      {
+        "id": "A",
+        "text": "by"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "in"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions",
+    "difficulty": "medium",
+    "explanation": "नियम: Time के Prepositions: AT = घड़ी का सटीक समय / छोटा बिंदु (at 9.30 a.m., at noon, at night); ON = तारीख़, दिन और विशेष दिन (on Monday, on 15 August, on a stormy night, on the morning of Republic Day); IN = महीना, वर्ष, ऋतु, सदी और दिन के सामान्य भाग (in July, in 1947, in the winter of 1892, in the morning)। नियम का सार: 'on the morning / evening / night of + निश्चित दिन' में ON आता है क्योंकि उसके साथ विशेष दिन जुड़ा है; सिर्फ 'in the morning' सामान्य भाग है।\n\nयहाँ: पूरी तारीख़ (date) से पहले on आता है (on 26 November 1949)। केवल महीना / वर्ष हो तो in (in November / in 1949) आता, और at घड़ी के समय के लिए है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar373",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe Himalayan glaciers have been receding at an alarming rate ____ the early 1990s, according to the latest satellite data.",
+    "options": [
+      {
+        "id": "A",
+        "text": "since"
+      },
+      {
+        "id": "B",
+        "text": "from"
+      },
+      {
+        "id": "C",
+        "text": "for"
+      },
+      {
+        "id": "D",
+        "text": "during"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions",
+    "difficulty": "hard",
+    "explanation": "नियम: For / Since: SINCE = क्रिया के शुरू होने का निश्चित बिंदु (since 1990, since Monday, since the tax slab was announced); FOR = अवधि / कितने समय से (for five years, for nearly eleven months)। दोनों Present Perfect / Present Perfect Continuous / Past Perfect के साथ आते हैं, 'from' या 'during' इस अर्थ में नहीं आते। 'Ever since' के बाद हमेशा शुरुआत का बिंदु (point of time या clause) आता है।\n\nयहाँ: 'the early 1990s' समय का निश्चित बिंदु है और वाक्य Present Perfect Continuous (have been receding) में है — इसलिए since आता है। For केवल अवधि (for three decades) के साथ आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar374",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe negotiations between the two companies have been going on ____ nearly eleven months without any visible breakthrough.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "by"
+      },
+      {
+        "id": "C",
+        "text": "from"
+      },
+      {
+        "id": "D",
+        "text": "since"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions",
+    "difficulty": "hard",
+    "explanation": "नियम: For / Since: SINCE = क्रिया के शुरू होने का निश्चित बिंदु (since 1990, since Monday, since the tax slab was announced); FOR = अवधि / कितने समय से (for five years, for nearly eleven months)। दोनों Present Perfect / Present Perfect Continuous / Past Perfect के साथ आते हैं, 'from' या 'during' इस अर्थ में नहीं आते। 'Ever since' के बाद हमेशा शुरुआत का बिंदु (point of time या clause) आता है।\n\nयहाँ: 'nearly eleven months' अवधि (period) है, बिंदु नहीं। Present Perfect Continuous के साथ अवधि से पहले for आता है; since के बाद शुरुआती बिंदु (2025, last March) आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar375",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nAll the applicants must submit their forms ____ 30 September at the latest, failing which their candidature will be rejected.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "since"
+      },
+      {
+        "id": "C",
+        "text": "by"
+      },
+      {
+        "id": "D",
+        "text": "until"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions",
+    "difficulty": "medium",
+    "explanation": "नियम: By / Until (Till): BY = deadline — 'तक' यानी अंतिम सीमा से पहले-पहले काम एक बार पूरा हो जाए (submit by 30 September); UNTIL / TILL = 'तब तक' जब तक कोई स्थिति या क्रिया लगातार चलती रहे (wait until Monday; remain closed until Monday)। पहचान: क्रिया एक बार पूरी होनी है (submit, finish, reach) → by; क्रिया लगातार चलती रहनी है (wait, stay, continue, remain) → until।\n\nयहाँ: 'at the latest' और 'failing which' deadline बता रहे हैं — काम (form जमा करना) एक बार उस तारीख़ से पहले पूरा होना है, इसलिए by आता है। Until किसी लगातार चलती क्रिया की सीमा बताता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar376",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe vast ancestral property was equally divided ____ the numerous heirs after the death of the patriarch.",
+    "options": [
+      {
+        "id": "A",
+        "text": "among"
+      },
+      {
+        "id": "B",
+        "text": "amid"
+      },
+      {
+        "id": "C",
+        "text": "between"
+      },
+      {
+        "id": "D",
+        "text": "within"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions",
+    "difficulty": "medium",
+    "explanation": "नियम: Between / Among: BETWEEN = दो व्यक्तियों / वस्तुओं के बीच (या कुछ निश्चित, अलग-अलग पहचाने जाने वाले पक्षों के आपसी संबंध में) — between A and B; AMONG = दो से अधिक अनिश्चित, समूह के रूप में गिने जाने वाले लोगों / चीज़ों के बीच (divided among the heirs; popular among students)। Between के बाद 'and' आता है, among के बाद नहीं।\n\nयहाँ: 'numerous heirs' दो से अधिक अनिश्चित समूह है, इसलिए among आता है। Between केवल दो (या निश्चित, अलग-अलग पहचाने जाने वाले पक्षों) के लिए होता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar377",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe newly appointed director is thoroughly indifferent ____ the genuine grievances of his subordinates.",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "to"
+      },
+      {
+        "id": "C",
+        "text": "for"
+      },
+      {
+        "id": "D",
+        "text": "of"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions",
+    "difficulty": "hard",
+    "explanation": "नियम: Adjective + Preposition का निश्चित (fixed) मेल: indifferent to, conscious / aware / capable / fond / proud / jealous / envious / afraid of, eager / keen on / about, different from, similar to, married to, angry with (person) / at (thing), satisfied / pleased with, good at, weak in, accustomed to। विशेष नियम: superior, inferior, senior, junior, prior, preferable के साथ 'than' नहीं, केवल 'to' आता है। Preposition शब्द-विशेष से तय होता है, अनुमान से नहीं।\n\nयहाँ: Indifferent का पक्का साथी preposition 'to' है (indifferent to something)। यह adjective + preposition का fixed collocation है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar378",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe witness was fully conscious ____ the grave risks involved in deposing against the dreaded gangster.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "of"
+      },
+      {
+        "id": "D",
+        "text": "to"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions",
+    "difficulty": "hard",
+    "explanation": "नियम: Adjective + Preposition का निश्चित (fixed) मेल: indifferent to, conscious / aware / capable / fond / proud / jealous / envious / afraid of, eager / keen on / about, different from, similar to, married to, angry with (person) / at (thing), satisfied / pleased with, good at, weak in, accustomed to। विशेष नियम: superior, inferior, senior, junior, prior, preferable के साथ 'than' नहीं, केवल 'to' आता है। Preposition शब्द-विशेष से तय होता है, अनुमान से नहीं।\n\nयहाँ: Conscious का पक्का साथी 'of' है (conscious of something), जैसे aware of, capable of, fond of, proud of.",
+    "language": "en"
+  },
+  {
+    "id": "grammar379",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe management has decided to dispense ____ the services of the employees found guilty of gross misconduct.",
+    "options": [
+      {
+        "id": "A",
+        "text": "off"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "from"
+      },
+      {
+        "id": "D",
+        "text": "of"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions",
+    "difficulty": "hard",
+    "explanation": "नियम: Verb + Preposition का निश्चित मेल: accuse ... of, congratulate ... on, prevent ... from, insist on, comply with, adhere to, dispense with, deal with, sympathise with, rely / depend on, consist of, suffer from, result in / from, beg for, apologise to (person) for (act)। Preposition verb के अनुसार तय है; गलत preposition लगाने से वाक्य अशुद्ध हो जाता है।\n\nयहाँ: 'Dispense with' = के बिना काम चलाना / हटा देना। यह verb + preposition का fixed मेल है; of / from / off इस अर्थ में नहीं आते।",
+    "language": "en"
+  },
+  {
+    "id": "grammar380",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe vigilance inspector accused the shopkeeper ____ selling adulterated edible oil to unsuspecting customers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "for"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions",
+    "difficulty": "hard",
+    "explanation": "नियम: Verb + Preposition का निश्चित मेल: accuse ... of, congratulate ... on, prevent ... from, insist on, comply with, adhere to, dispense with, deal with, sympathise with, rely / depend on, consist of, suffer from, result in / from, beg for, apologise to (person) for (act)। Preposition verb के अनुसार तय है; गलत preposition लगाने से वाक्य अशुद्ध हो जाता है।\n\nयहाँ: Accuse के बाद आरोप के लिए 'of' आता है (accuse someone of something)। 'accused for / with / on' गलत हैं; for आम तौर पर 'blame / punish ... for' के साथ लगता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar381",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe ancient temple stands ____ a gigantic banyan tree whose branches have spread across the entire courtyard.",
+    "options": [
+      {
+        "id": "A",
+        "text": "beside"
+      },
+      {
+        "id": "B",
+        "text": "between"
+      },
+      {
+        "id": "C",
+        "text": "beyond"
+      },
+      {
+        "id": "D",
+        "text": "besides"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions",
+    "difficulty": "medium",
+    "explanation": "नियम: Beside = 'के पास / बगल में' (next to — स्थान बताता है); Besides = 'के अलावा / इसके अतिरिक्त' (in addition to — जोड़ बताता है); Except = 'को छोड़कर' (exclusion — बाहर रखना)। अर्थ देखकर चुनें: स्थान → beside; अतिरिक्त → besides; अपवाद → except।\n\nयहाँ: यहाँ स्थान बताया जा रहा है — मंदिर बरगद के पेड़ के बगल में है, इसलिए beside (next to) आता है। Besides = के अलावा (अतिरिक्त), जो यहाँ अर्थ में नहीं बैठता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar382",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nAs all the roads were submerged in water, the relief workers had to reach the marooned village ____ boat.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "by"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions",
+    "difficulty": "medium",
+    "explanation": "नियम: वाहन / साधन के Prepositions: BY + साधन (बिना article / possessive के): by bus, by train, by air, by road, by boat। जैसे ही a / the / my जैसा शब्द जुड़ता है, IN / ON आता है (in a car, on a bus, on my bicycle)। Idioms: on foot, on horseback। बंद निजी वाहन (car, taxi) → in; सार्वजनिक या खुले / दो-पहिया साधन (bus, train, plane, bicycle, motorcycle, horse) → on।\n\nयहाँ: साधन (means of transport) के साथ, बिना article / possessive के, by आता है — by boat। 'in a boat / on the boat' तभी बनते जब article लगा होता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar383",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe government's recent decision to demonetise high-value notes had a profound impact ____ the rural economy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "over"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "for"
+      },
+      {
+        "id": "D",
+        "text": "to"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions",
+    "difficulty": "hard",
+    "explanation": "नियम: Noun + Preposition का निश्चित मेल: impact / effect / influence on; need / demand for; reason for; cause of; access to; solution to; respect for; attitude to / towards; interest in; faith / belief in। ये fixed collocations हैं, अर्थ के आधार पर बदले नहीं जा सकते — हर noun का अपना तय preposition होता है।\n\nयहाँ: Impact का पक्का साथी 'on' है (impact on something), effect on, influence on की तरह। 'impact to / over / for' मान्य नहीं हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar384",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nHaving lived in the serene hills for nearly four decades, he found it extremely hard to get used to ____ in a congested metropolis.",
+    "options": [
+      {
+        "id": "A",
+        "text": "live"
+      },
+      {
+        "id": "B",
+        "text": "be lived"
+      },
+      {
+        "id": "C",
+        "text": "living"
+      },
+      {
+        "id": "D",
+        "text": "have lived"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions",
+    "difficulty": "hard",
+    "explanation": "नियम: 'To' दो तरह का होता है: (i) Infinitive 'to' (to + V1) और (ii) Preposition 'to' (to + Noun / V-ing)। Preposition 'to' वाले पक्के phrases के बाद Gerund (V-ing) आता है: look forward to, be / get used to, be accustomed to, object to, devote ... to, be committed / dedicated / addicted to, with a view to, in addition to, prefer ... to। पहचान: 'to' के बाद noun / pronoun लग सके तो वह preposition है — इसलिए V1 नहीं, V-ing आएगा।\n\nयहाँ: 'Get used to' में 'to' preposition है, इसलिए उसके बाद Gerund (V-ing) आता है — get used to living। 'used to + V1' (आदत थी) अलग पैटर्न है, जबकि यहाँ 'अभ्यस्त होना' का अर्थ है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar385",
+    "subjectId": "english",
+    "question": "Fill in the blanks.\n\nThe visiting dignitaries will arrive ____ (1) the airport at 6 a.m. and proceed directly ____ (2) the venue by road.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on; at"
+      },
+      {
+        "id": "B",
+        "text": "in; to"
+      },
+      {
+        "id": "C",
+        "text": "at; in"
+      },
+      {
+        "id": "D",
+        "text": "at; to"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions",
+    "difficulty": "hard",
+    "explanation": "नियम: स्थान / दिशा के Prepositions: AT = बिंदु-रूप स्थान (at the airport, at the crossing; arrive at + छोटा स्थान); IN = बंद / बड़ा क्षेत्र (in a room, in a city; arrive in + शहर / देश); ON = सतह / मंज़िल (on the wall, on the second floor); TO = गंतव्य की ओर (proceed to the venue); INTO = बाहर से भीतर की गति (broke into, walked into, fell into)। स्थिति बतानी हो तो in / at / on, गति बतानी हो तो to / into।\n\nयहाँ: (1) Arrive के बाद छोटे बिंदु-रूप स्थान (airport) से पहले at आता है; शहर / देश से पहले in आता है। (2) 'proceed ... the venue' में गंतव्य की ओर गति है, इसलिए to आता है, in नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar386",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe Cabinet is scheduled to meet on Friday ____ the proposed amendments to the education policy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to discuss about"
+      },
+      {
+        "id": "B",
+        "text": "to discuss"
+      },
+      {
+        "id": "C",
+        "text": "to discuss on"
+      },
+      {
+        "id": "D",
+        "text": "for discussing about"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions",
+    "difficulty": "hard",
+    "explanation": "नियम: कुछ transitive verbs सीधे object लेते हैं, इसलिए उनके बाद preposition नहीं लगता: discuss (discuss about ✗), marry (marry with / to ✗), resemble, reach (reach to / at ✗), enter, attend, approach, contact, order, request, mention, oppose, obey, answer, accompany, await। ध्यान दें: 'married to' तभी आता है जब वह adjective / passive रूप में हो (She is married to him), active में नहीं (He married her ✓)।\n\nयहाँ: Discuss सकर्मक (transitive) verb है जो सीधे object लेता है, इसलिए about / on नहीं लगते। 'to discuss the amendments' सही है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar387",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe authorities have tightened security around the stadium ____ the possible terror threat during the inaugural match.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on behalf of"
+      },
+      {
+        "id": "B",
+        "text": "in lieu of"
+      },
+      {
+        "id": "C",
+        "text": "in front of"
+      },
+      {
+        "id": "D",
+        "text": "in view of"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions",
+    "difficulty": "medium",
+    "explanation": "नियम: Compound (phrase) Prepositions पूरे के पूरे एक preposition का काम करते हैं: in view of (को देखते हुए), in lieu of (के बदले), on behalf of (की ओर से / के प्रतिनिधि के रूप में), by dint of (के बल पर), with regard to (के विषय में), in accordance with (के अनुसार), owing to / due to / on account of (के कारण), in the wake of (के बाद / परिणामस्वरूप), in front of (के सामने)। अर्थ के अनुसार सही phrase चुनें।\n\nयहाँ: 'in view of' = को देखते हुए / के मद्देनज़र — संभावित ख़तरे को ध्यान में रखकर सुरक्षा बढ़ाई गई। In lieu of = के बदले, in front of = के सामने और on behalf of = की ओर से; ये अर्थ यहाँ नहीं बैठते।",
+    "language": "en"
+  },
+  {
+    "id": "grammar388",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe newly renovated auditorium looks ____ from outside, but its acoustics are still extremely poor.",
+    "options": [
+      {
+        "id": "A",
+        "text": "magnificent"
+      },
+      {
+        "id": "B",
+        "text": "magnificently"
+      },
+      {
+        "id": "C",
+        "text": "magnify"
+      },
+      {
+        "id": "D",
+        "text": "magnificence"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "नियम: Linking (stative) verbs — be, seem, look, appear, feel, sound, taste, smell, grow, turn, become, remain, stay — के बाद Adjective आता है (क्योंकि वह subject की अवस्था बताता है), जबकि action verbs के बाद Adverb आता है (क्योंकि वह क्रिया करने का ढंग बताता है)। पहचान: 'looks / remains' की जगह 'is' लगाया जा सके तो adjective (looks magnificent = is magnificent); क्रिया का तरीका बताना हो तो adverb (looked suspiciously = देखने का ढंग)।\n\nयहाँ: 'Looks' यहाँ linking verb है (= appears to be), इसलिए subject की अवस्था बताने के लिए adjective आता है — looks magnificent। Adverb 'magnificently' क्रिया का ढंग बताता, अवस्था नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar389",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe examiner looked ____ at the signature on the cheque before clearing it for payment.",
+    "options": [
+      {
+        "id": "A",
+        "text": "suspect"
+      },
+      {
+        "id": "B",
+        "text": "suspiciously"
+      },
+      {
+        "id": "C",
+        "text": "suspicion"
+      },
+      {
+        "id": "D",
+        "text": "suspicious"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "नियम: Linking (stative) verbs — be, seem, look, appear, feel, sound, taste, smell, grow, turn, become, remain, stay — के बाद Adjective आता है (क्योंकि वह subject की अवस्था बताता है), जबकि action verbs के बाद Adverb आता है (क्योंकि वह क्रिया करने का ढंग बताता है)। पहचान: 'looks / remains' की जगह 'is' लगाया जा सके तो adjective (looks magnificent = is magnificent); क्रिया का तरीका बताना हो तो adverb (looked suspiciously = देखने का ढंग)।\n\nयहाँ: यहाँ 'looked at' का अर्थ 'देखना' (action) है, यानी क्रिया का ढंग बताना है — इसलिए adverb 'suspiciously' आता है। Linking अर्थ (looked suspicious = संदिग्ध लग रहा था) तभी बनता जब 'at ...' न होता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar390",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe young candidate was not ____ to answer the panel's tricky question on constitutional amendments.",
+    "options": [
+      {
+        "id": "A",
+        "text": "too smart"
+      },
+      {
+        "id": "B",
+        "text": "smart enough"
+      },
+      {
+        "id": "C",
+        "text": "enough smart"
+      },
+      {
+        "id": "D",
+        "text": "smartly enough"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "नियम: Enough / Too / So: (i) Enough, adjective / adverb के बाद आता है (smart enough, early enough), पर noun से पहले (enough money)। (ii) Too + Adjective / Adverb + to + V1 (too hot to drink) — 'too' का अर्थ नकारात्मक है ('इतना ... कि नहीं हो सकता'), 'very' के साथ to-infinitive नहीं जुड़ता। (iii) Much too + adjective / adverb ('अत्यधिक', much too high) और Too much + uncountable noun / verb के बाद (too much noise; spends too much)। (iv) 'So' के साथ 'to V' नहीं, 'that' clause आती है।\n\nयहाँ: Enough adjective / adverb के बाद आता है — smart enough to answer। 'enough smart' क्रम गलत है; 'too smart' का अर्थ उलट जाता है; was के बाद adverb 'smartly' नहीं आ सकता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar391",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe soup was ____ hot to be swallowed without burning one's tongue.",
+    "options": [
+      {
+        "id": "A",
+        "text": "too"
+      },
+      {
+        "id": "B",
+        "text": "so"
+      },
+      {
+        "id": "C",
+        "text": "much"
+      },
+      {
+        "id": "D",
+        "text": "very"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "नियम: Enough / Too / So: (i) Enough, adjective / adverb के बाद आता है (smart enough, early enough), पर noun से पहले (enough money)। (ii) Too + Adjective / Adverb + to + V1 (too hot to drink) — 'too' का अर्थ नकारात्मक है ('इतना ... कि नहीं हो सकता'), 'very' के साथ to-infinitive नहीं जुड़ता। (iii) Much too + adjective / adverb ('अत्यधिक', much too high) और Too much + uncountable noun / verb के बाद (too much noise; spends too much)। (iv) 'So' के साथ 'to V' नहीं, 'that' clause आती है।\n\nयहाँ: 'too + adjective + to + V' (इतना गरम कि निगला नहीं जा सकता) — यही पैटर्न है। Very के साथ to-infinitive नहीं जुड़ता, और so के साथ 'that' clause आती है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar392",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nAfter the prolonged drought, there was ____ any vegetation left in the entire region.",
+    "options": [
+      {
+        "id": "A",
+        "text": "hard"
+      },
+      {
+        "id": "B",
+        "text": "not hardly"
+      },
+      {
+        "id": "C",
+        "text": "hardly no"
+      },
+      {
+        "id": "D",
+        "text": "hardly"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "नियम: Hardly / Scarcely / Barely = 'मुश्किल से / शायद ही / लगभग नहीं' — ये स्वयं negative हैं, इसलिए इनके साथ not / never / no / nothing जैसे दूसरे negative शब्द नहीं आते (double negative ✗; can't hardly ✗ → can hardly ✓)। Hard (adverb) = कठिन परिश्रम से / ज़ोर से (work hard, hit hard); जबकि Hardly = मुश्किल से (hardly any, can hardly believe)। दोनों के अर्थ बिल्कुल अलग हैं।\n\nयहाँ: 'hardly any' = लगभग कुछ भी नहीं। Hardly स्वयं negative है, इसलिए 'hardly no' या 'not hardly' जैसे double negative गलत हैं। 'Hard' का अर्थ 'कठिनता से / परिश्रम से' है, जो यहाँ नहीं बैठता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar393",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe meeting had ____ begun when the chief guest arrived, so the organisers rushed to receive him.",
+    "options": [
+      {
+        "id": "A",
+        "text": "never"
+      },
+      {
+        "id": "B",
+        "text": "already"
+      },
+      {
+        "id": "C",
+        "text": "yet"
+      },
+      {
+        "id": "D",
+        "text": "ever"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "नियम: Already / Yet / Still: ALREADY = पहले ही (सकारात्मक वाक्य में, verb से पहले या वाक्य के अंत में); YET = अभी तक (negative और question वाक्य में, प्रायः अंत में — has not come yet; Has he come yet?); STILL = अब भी (verb से पहले, चल रही स्थिति)। इसलिए negative वाक्य के अंत में already नहीं, yet आता है।\n\nयहाँ: सकारात्मक वाक्य में 'पहले ही' के अर्थ में already आता है (had already begun)। Yet negative / question में लगता है; ever / never यहाँ अर्थ नहीं देते।",
+    "language": "en"
+  },
+  {
+    "id": "grammar394",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nSeldom ____ such a spectacular performance in the long history of this tournament.",
+    "options": [
+      {
+        "id": "A",
+        "text": "we witnessed"
+      },
+      {
+        "id": "B",
+        "text": "we have witnessed"
+      },
+      {
+        "id": "C",
+        "text": "did we witnessed"
+      },
+      {
+        "id": "D",
+        "text": "have we witnessed"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "नियम: Negative / restrictive adverbs वाक्य की शुरुआत में आएँ तो Subject–Verb का inversion होता है (Auxiliary + Subject + Main verb): Never, Seldom, Rarely, Hardly, Scarcely, Little, Nowhere, No sooner, Not only, Not until, Only after / Only when / Only then / Only by। केवल auxiliary आगे आता है और main verb V1 में लौट जाती है (Seldom have we witnessed ✓; Seldom we have witnessed ✗); Past की बात हो तो do का रूप did आता है (Little did he know ✓)। 'Only after + clause' के बाद वाले main clause में भी inversion होता है।\n\nयहाँ: Seldom जैसे negative adverb से वाक्य शुरू हो तो inversion होता है: Auxiliary + Subject + V3 → 'have we witnessed'। 'we have witnessed' (बिना inversion) गलत है, और 'did we witnessed' में did के साथ V3 लग गई है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar395",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe second edition of the book is ____ better than the first because several chapters have been rewritten.",
+    "options": [
+      {
+        "id": "A",
+        "text": "too"
+      },
+      {
+        "id": "B",
+        "text": "most"
+      },
+      {
+        "id": "C",
+        "text": "much"
+      },
+      {
+        "id": "D",
+        "text": "very"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "नियम: Degree के adverbs: Much / Far / Still / Even / A lot + Comparative (much better, far more useful); By far / Much / Far + Superlative (by far the best, much the best); Very + Positive degree (very good) तथा very + own / same / first / last / best (the very best)। 'Very' comparative के साथ नहीं आता (very better ✗) और 'much' अकेला positive adjective के साथ नहीं आता (much good ✗)।\n\nयहाँ: Comparative degree (better) से पहले much / far / a lot आता है — much better। Very केवल positive degree के साथ (very good) आता है, और most superlative बनाता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar396",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nMeera has never travelled outside the country, and ____ her younger sister.",
+    "options": [
+      {
+        "id": "A",
+        "text": "so has"
+      },
+      {
+        "id": "B",
+        "text": "neither has"
+      },
+      {
+        "id": "C",
+        "text": "so does"
+      },
+      {
+        "id": "D",
+        "text": "neither have"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "नियम: Agreement (short responses): सकारात्मक बात के बाद 'so + auxiliary + subject' (So do I), नकारात्मक बात के बाद 'neither / nor + auxiliary + subject' (Neither do I)। Neither / Nor स्वयं negative हैं, इसलिए auxiliary positive रहता है। Auxiliary वही दोहराया जाता है जो पहले clause में है (can → so can; has → neither has); बिना auxiliary वाली simple tense में do / does / did आता है। Auxiliary subject के number से मेल खाता है।\n\nयहाँ: पहला वाक्य negative (never) है और auxiliary 'has' है, इसलिए 'neither + has + subject' आएगा। 'So has' सकारात्मक बात के बाद आता; 'neither have' में subject (sister) के अनुसार singular 'has' चाहिए; 'so does' भी सकारात्मक और auxiliary से मेल नहीं खाता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar397",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe village ____ the ancient inscription was discovered has now become a major tourist attraction.",
+    "options": [
+      {
+        "id": "A",
+        "text": "which"
+      },
+      {
+        "id": "B",
+        "text": "when"
+      },
+      {
+        "id": "C",
+        "text": "where"
+      },
+      {
+        "id": "D",
+        "text": "whose"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "नियम: Relative adverbs (where, when, why) ऐसे clause लाते हैं जो स्थान / समय / कारण वाले noun को modify करते हैं: the place / village / city + WHERE (= in which); the time / day / year + WHEN (= on which); the reason + WHY (= for which)। यहाँ अकेला 'which / whom / what' नहीं लगता, क्योंकि वह पहले से मौजूद noun की जगह लेता है, जबकि हमें जगह / समय / कारण बताने वाला adverb चाहिए।\n\nयहाँ: Antecedent 'village' स्थान है, और clause में 'inscription was discovered (in that village)' स्थान की जानकारी जोड़ता है — इसलिए relative adverb 'where' (= in which) आता है। 'Which' के बाद clause में object / subject की कमी होनी चाहिए, जो यहाँ नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar398",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\n____ all the candidates who appeared for the interview were graduates from reputed institutions.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Most"
+      },
+      {
+        "id": "B",
+        "text": "Mostly"
+      },
+      {
+        "id": "C",
+        "text": "Almost"
+      },
+      {
+        "id": "D",
+        "text": "Mostly of"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "नियम: Almost / Nearly = लगभग (all, every, always, never, nobody से पहले); Most = अधिकांश (Most + noun; Most of the + noun); Mostly = प्रायः / मुख्य रूप से (frequency या मुख्यता)। 'Almost all the' ✓, 'Most of the' ✓। 'Almost of / Nearly of / Mostly of' नहीं बनते क्योंकि almost, nearly, mostly adverbs हैं, determiner / pronoun नहीं जिसके बाद 'of the' आ सके।\n\nयहाँ: 'all the candidates' से पहले 'लगभग' के अर्थ में almost आता है (almost all the ...)। 'Most' के बाद सीधे all the नहीं लगता (Most of the candidates ✓)। 'Mostly' का अर्थ प्रायः / मुख्य रूप से है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar399",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe report was submitted well before the deadline; ____, the committee insisted on seeking an extension for further verification.",
+    "options": [
+      {
+        "id": "A",
+        "text": "moreover"
+      },
+      {
+        "id": "B",
+        "text": "however"
+      },
+      {
+        "id": "C",
+        "text": "hence"
+      },
+      {
+        "id": "D",
+        "text": "therefore"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "नियम: Linking (conjunctive) adverbs वाक्यों को जोड़ते हैं और अर्थ-संबंध बताते हैं: However / Nevertheless / Yet / Still = विरोध (contrast); Therefore / Hence / Consequently / Thus = परिणाम (result); Moreover / Furthermore / Besides / In addition = जोड़ (addition); Otherwise = वरना (condition)। ये प्रायः semicolon (;) के बाद और comma के साथ आते हैं। चुनाव हमेशा दोनों वाक्यों के आपसी अर्थ-संबंध से होता है।\n\nयहाँ: पहले वाक्य (समय से पहले report जमा हुई) और दूसरे वाक्य (फिर भी extension माँगी गई) में विरोध है — इसलिए However। Therefore / hence परिणाम और moreover जोड़ बताते हैं, जो यहाँ अर्थ में नहीं बैठते।",
+    "language": "en"
+  },
+  {
+    "id": "grammar400",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe snow-capped peaks rose ____ above the clouds, glittering in the morning sun.",
+    "options": [
+      {
+        "id": "A",
+        "text": "higher"
+      },
+      {
+        "id": "B",
+        "text": "highly"
+      },
+      {
+        "id": "C",
+        "text": "high"
+      },
+      {
+        "id": "D",
+        "text": "height"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "नियम: कुछ adverbs के दो रूप होते हैं और दोनों के अर्थ अलग हैं: high (ऊँचाई पर) / highly (अत्यंत); hard (परिश्रम से) / hardly (मुश्किल से); late (देर से) / lately (हाल ही में); near (पास) / nearly (लगभग); close (निकट) / closely (ध्यान से); deep (गहराई में) / deeply (गहरे भाव से); wide (पूरा खुला) / widely (व्यापक रूप से)। भौतिक (physical) अर्थ में बिना -ly वाला रूप आता है; अमूर्त / figurative अर्थ में -ly वाला रूप।\n\nयहाँ: भौतिक ऊँचाई बतानी है (rose high above), इसलिए बिना -ly वाला रूप 'high' आता है। 'Highly' अमूर्त अर्थ (highly respected, highly recommended) में आता है।",
+    "language": "en"
+  }
+]
