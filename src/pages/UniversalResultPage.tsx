@@ -9,6 +9,7 @@ import { getPracticeTestById } from '../services/practiceTestRepository';
 import { useCompletedPracticeSession } from '../hooks/useCompletedPracticeSession';
 import { analyzePracticeSession } from '../services/practiceAnalysisService';
 import { AnalysisView } from '../components/mock-analysis/AnalysisView';
+import { PracticeAnalysisExtras } from '../components/mock-analysis/PracticeAnalysisExtras';
 import { useStartPracticeTest } from '../hooks/useStartPracticeTest';
 import type { UniversalQuestion } from '../types/universalQuestion';
 
@@ -137,6 +138,7 @@ export default function UniversalResultPage() {
       </motion.div>
 
       {analysis && <AnalysisView analysis={analysis} variant="practice" />}
+      <PracticeAnalysisExtras session={session} questionsById={questionsById} />
     </div>
   );
 }

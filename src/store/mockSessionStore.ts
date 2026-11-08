@@ -11,6 +11,7 @@
 // completeSession() is guarded so double-submit / timer-expiry-plus-click
 // can never create two results (product spec §24/§172).
 
+import { sessionPurpose } from '../types/questionMark';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { MockDefinition } from '../types/examMock';
@@ -82,6 +83,7 @@ interface MockSessionStore {
   loadSession: (session: MockSession) => void;
   /** Sets (or, with null, removes) the mark and its purpose on a question. */
   setMarkPurpose: (questionId: string, purpose: MarkPurpose | null) => void;
+  setMarks: (questionId: string, purposes: MarkPurpose[]) => void;
   /** Leaving the test: stops the running section clock (see sessionLifecycle.ts). */
   suspend: (at?: number) => void;
   /** Test is on screen again: the active section's clock is shifted by the time away. */
@@ -219,6 +221,19 @@ export const useMockSessionStore = create<MockSessionStore>()(
           session: {
             ...session,
             states: { ...session.states, [questionId]: { ...state, markPurpose: purpose ?? undefined, isMarkedForReview: purpose === 'review', visited: true } },
+          },
+        });
+      },
+
+      setMarks: (questionId, purposes) => {
+        const session = get().session;
+        if (!session) return;
+        const state = session.states[questionId];
+        if (!state) return;
+        set({
+          session: {
+            ...session,
+            states: { ...session.states, [questionId]: { ...state, markPurpose: sessionPurpose(purposes), isMarkedForReview: purposes.includes('review'), visited: true } },
           },
         });
       },

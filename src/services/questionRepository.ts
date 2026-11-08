@@ -14,6 +14,7 @@
 // Practice/Test/Search/Analytics code above this layer never needs to know
 // which of the two a question came from (master prompt §13, §14, §70).
 
+import { parseChapterFolderPath } from './chapterPath';
 import type { UniversalQuestion, Difficulty } from '../types/universalQuestion';
 import { validateUniversalQuestion } from '../types/universalQuestion';
 import { getQuizRepository, parseDateFromFileName } from './quizRepository';
@@ -296,23 +297,22 @@ function parseCanonicalChapterPath(globKey: string): { subjectId: string; chapte
   const marker = '/data/chapters/';
   const idx = globKey.indexOf(marker);
   if (idx < 0) return null;
-  const parts = globKey.slice(idx + marker.length).split('/'); // [Subject, Chapter, file] or [Subject, Category, Chapter, file]
-  if (parts.length !== 3 && parts.length !== 4) return null;
+  const parts = globKey.slice(idx + marker.length).split('/'); // [Subject, (Category,) Chapter, (groups…,) file] — see services/chapterPath.ts
   if (parts.some((p) => RESERVED_CANONICAL_SEGMENTS.has(p))) return null;
 
-  const [subjectFolder, ...rest] = parts;
-  const fileName = rest[rest.length - 1];
-  const chapterFolder = rest[rest.length - 2];
-  if (!subjectFolder || !chapterFolder || !fileName) return null;
+  const path = parseChapterFolderPath(parts);
+  if (!path) return null;
 
   // "General Awareness/Current Affairs/**" stays with the legacy-compatible
   // Current Affairs loaders (see block comment above) — never double-loaded here.
-  if (rest[0] === 'Current Affairs') return null;
+  if (parts[1] === 'Current Affairs') return null;
 
   return {
-    subjectId: resolveSubjectId(subjectFolder),
-    chapterId: slugify(chapterFolder),
-    fileName: fileName.replace(/\.json$/i, ''),
+    subjectId: resolveSubjectId(path.subjectFolder),
+    chapterId: slugify(path.chapterFolder),
+    // Nested group folders stay in the name ("Congruence/T01"), so the source string — and with it the test's
+    // identity and the hierarchy — records where the file sits. For existing 3/4-segment paths this is just the file name.
+    fileName: path.fileName.replace(/\.json$/i, ''),
     baseDir: `../data/chapters/${parts.slice(0, -1).join('/')}/`,
   };
 }

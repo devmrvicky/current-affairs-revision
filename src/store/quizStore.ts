@@ -1,3 +1,4 @@
+import { sessionPurpose } from '../types/questionMark';
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { QuizSession, QuestionAttempt, DailyQuiz, TestMeta } from '../types';
@@ -20,6 +21,7 @@ interface QuizStore {
   loadSession: (session: QuizSession) => void;
   /** Sets (or, with null, removes) the mark and its purpose on a question. */
   setMarkPurpose: (questionId: number, purpose: MarkPurpose | null) => void;
+  setMarks: (questionId: number, purposes: MarkPurpose[]) => void;
   suspend: (at?: number) => void;
   activate: () => void;
   touch: () => void;
@@ -194,6 +196,15 @@ export const useQuizStore = create<QuizStore>()(
           const on = !(a.markPurpose ?? (a.markedForReview ? 'review' : undefined));
           return { ...a, markedForReview: on, markPurpose: on ? ('review' as const) : undefined };
         });
+        set({ session: { ...session, attempts: updated } });
+      },
+
+      setMarks: (questionId, purposes) => {
+        const { session } = get();
+        if (!session) return;
+        const updated = session.attempts.map((a) =>
+          a.questionId === questionId ? { ...a, markPurpose: sessionPurpose(purposes), markedForReview: purposes.includes('review') } : a
+        );
         set({ session: { ...session, attempts: updated } });
       },
 

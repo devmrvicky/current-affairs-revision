@@ -1,0 +1,142 @@
+[
+  {
+    "id": "ssc14-c02-q006",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nLook at the philosopher in the park; he [is constantly ponder about] the nature of reality while watching the falling leaves.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is constantly pondering about"
+      },
+      {
+        "id": "B",
+        "text": "constantly ponders about"
+      },
+      {
+        "id": "C",
+        "text": "is constantly pondering over"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "sentence-improvement",
+    "difficulty": "medium",
+    "explanation": "REVIEW BEFORE USE: two correct options (book note). correctAnswer is the SSC official key.",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c05-q005",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe bunch of keys ____ lying on the table since morning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "were"
+      },
+      {
+        "id": "D",
+        "text": "had"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fill-in-the-blanks",
+    "difficulty": "medium",
+    "explanation": "REVIEW BEFORE USE: defective question (book note). correctAnswer is the SSC official key.",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c05-q025",
+    "subjectId": "english",
+    "question": "Fill in the blank with the most appropriate word or phrasal verb.\n\nThe team had to ____ the heavy layers of dust to see the inscriptions on the tomb wall.",
+    "options": [
+      {
+        "id": "A",
+        "text": "brush aside"
+      },
+      {
+        "id": "B",
+        "text": "brush up"
+      },
+      {
+        "id": "C",
+        "text": "brush off"
+      },
+      {
+        "id": "D",
+        "text": "brush in"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fill-in-the-blanks",
+    "difficulty": "hard",
+    "explanation": "REVIEW BEFORE USE: official key (a) vs book's answer (c) disputed. correctAnswer is the SSC official key.",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c05-q037",
+    "subjectId": "english",
+    "question": "Fill in the blank with the correct preposition.\n\nThe players were confident ____ their chances of winning the match.",
+    "options": [
+      {
+        "id": "A",
+        "text": "of"
+      },
+      {
+        "id": "B",
+        "text": "about"
+      },
+      {
+        "id": "C",
+        "text": "in"
+      },
+      {
+        "id": "D",
+        "text": "for"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions",
+    "difficulty": "easy",
+    "explanation": "REVIEW BEFORE USE: two correct options (book note). correctAnswer is the SSC official key.",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c11-q022",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Saccharine"
+      },
+      {
+        "id": "B",
+        "text": "Sacharine"
+      },
+      {
+        "id": "C",
+        "text": "Saccharin"
+      },
+      {
+        "id": "D",
+        "text": "Saccarine"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling",
+    "difficulty": "hard",
+    "explanation": "REVIEW BEFORE USE: two correct options (book note). correctAnswer is the SSC official key.",
+    "language": "en"
+  }
+]

@@ -114,3 +114,21 @@ class InMemorySubjectRegistry implements SubjectRegistry {
 }
 
 export const subjectRegistry: SubjectRegistry = new InMemorySubjectRegistry();
+
+/**
+ * The chain of parent topics above a topic, outermost first (itself excluded). Follows the optional `parentId`
+ * links, stays within the subject, ignores links to topics that don't exist, and stops if the data ever loops.
+ */
+export function getTopicAncestors(subjectId: string, topicId: string): Topic[] {
+  const chain: Topic[] = [];
+  const seen = new Set<string>([topicId]);
+  let cursor = TOPICS.find((t) => t.subjectId === subjectId && t.id === topicId)?.parentId;
+  while (cursor && !seen.has(cursor)) {
+    seen.add(cursor);
+    const parent = TOPICS.find((t) => t.subjectId === subjectId && t.id === cursor);
+    if (!parent) break;
+    chain.unshift(parent);
+    cursor = parent.parentId;
+  }
+  return chain;
+}

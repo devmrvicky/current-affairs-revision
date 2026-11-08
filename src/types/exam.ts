@@ -57,6 +57,11 @@ export interface Topic {
   subjectId: string;
   name: string;
   nameHi?: string;
+  /**
+   * Optional: the topic this one sits under, so topics can form a tree of any depth (Topic → Subtopic → …).
+   * Purely additive — `id` is never changed and a topic without a parentId is a top-level topic, exactly as before.
+   */
+  parentId?: string;
 }
 
 // ─── Registry contracts ────────────────────────────────────────────────────────

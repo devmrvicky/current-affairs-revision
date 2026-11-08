@@ -44,6 +44,7 @@
 // .json file — never behind a registry entry (master prompt "Content should
 // drive discovery").
 
+import { parseChapterFolderPath } from './chapterPath';
 import { getChapterList, loadChapterParts as loadCurrentAffairsChapterParts } from './chapterRepository';
 import { resolveTopicId } from './questionRepository';
 import { getRawMarkdownGlobKeys, loadMarkdownByGlobKey } from './markdownRepository';
@@ -86,22 +87,19 @@ const canonicalTestModules = import.meta.glob(
 function parseCanonicalPath(globKey: string): { subjectId: string; chapterId: string; subjectFolder: string; chapterFolder: string; categoryFolder?: string } | null {
   const idx = globKey.indexOf(CHAPTERS_ROOT_MARKER);
   if (idx < 0) return null;
-  const parts = globKey.slice(idx + CHAPTERS_ROOT_MARKER.length).split('/'); // [Subject, ...rest, file] — 3 or 4 segments total
-  if (parts.length !== 3 && parts.length !== 4) return null;
+  const parts = globKey.slice(idx + CHAPTERS_ROOT_MARKER.length).split('/'); // [Subject, (Category,) Chapter, (groups…,) file] — see services/chapterPath.ts
   if (parts.some((p) => RESERVED_SEGMENTS.has(p))) return null;
 
-  const [subjectFolder, ...rest] = parts;
-  if (rest[0] === 'Current Affairs') return null; // owned by the current-affairs branch below
-  const chapterFolder = rest[rest.length - 2];
-  if (!subjectFolder || !chapterFolder) return null;
+  if (parts[1] === 'Current Affairs') return null; // owned by the current-affairs branch below
+  const path = parseChapterFolderPath(parts);
+  if (!path) return null;
 
   return {
-    subjectId: resolveSubjectId(subjectFolder),
-    chapterId: slugify(chapterFolder),
-    subjectFolder,
-    chapterFolder,
-    // [Subject, Category, Chapter, file] — the folder between Subject and Chapter.
-    categoryFolder: rest.length === 3 ? rest[0] : undefined,
+    subjectId: resolveSubjectId(path.subjectFolder),
+    chapterId: slugify(path.chapterFolder),
+    subjectFolder: path.subjectFolder,
+    chapterFolder: path.chapterFolder,
+    categoryFolder: path.categoryFolder,
   };
 }
 

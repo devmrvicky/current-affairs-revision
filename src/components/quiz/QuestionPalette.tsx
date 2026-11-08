@@ -12,9 +12,13 @@ interface QuestionPaletteProps {
   onJump: (index: number) => void;
   /** Test mode: don't reveal correct/wrong — just show answered/unanswered. */
   hideCorrectness?: boolean;
+  /** Sectional tests: questions that can't be opened right now (their section has ended or not begun). */
+  lockedIndices?: ReadonlySet<number>;
+  /** Why they are locked, for the tooltip. */
+  lockedReason?: (index: number) => string;
 }
 
-export const QuestionPalette = memo(function QuestionPalette({ attempts, currentIndex, visitedIndices, onJump, hideCorrectness }: QuestionPaletteProps) {
+export const QuestionPalette = memo(function QuestionPalette({ attempts, currentIndex, visitedIndices, onJump, hideCorrectness, lockedIndices, lockedReason }: QuestionPaletteProps) {
   const correct = attempts.filter((a) => a.status === 'correct').length;
   const wrong = attempts.filter((a) => a.status === 'wrong').length;
   const answered = attempts.filter((a) => a.status !== 'unanswered').length;
@@ -109,10 +113,11 @@ export const QuestionPalette = memo(function QuestionPalette({ attempts, current
               key={idx}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
-              onClick={() => onJump(idx)}
-              className={`quiz-palette-btn relative ${extraClass} ${isCurrent ? 'ring-2 ring-amber-400 ring-offset-1' : ''}`}
+              onClick={() => { if (!lockedIndices?.has(idx)) onJump(idx); }}
+              aria-disabled={lockedIndices?.has(idx) || undefined}
+              className={`quiz-palette-btn relative ${extraClass} ${isCurrent ? 'ring-2 ring-amber-400 ring-offset-1' : ''} ${lockedIndices?.has(idx) ? 'opacity-35 cursor-not-allowed' : ''}`}
               style={{ background: bg, color: textColor, borderColor }}
-              title={`Q${idx + 1}: ${purpose ? `marked — ${getMarkPurposeInfo(purpose)?.label}, ` : ''}${hideCorrectness ? (isAnswered ? 'answered' : isVisited ? 'visited' : 'not visited') : isAnswered ? attempt.status : isVisited ? 'visited' : 'not visited'}`}
+              title={lockedIndices?.has(idx) ? `Q${idx + 1}: ${lockedReason?.(idx) ?? 'not available right now'}` : `Q${idx + 1}: ${purpose ? `marked — ${getMarkPurposeInfo(purpose)?.label}, ` : ''}${hideCorrectness ? (isAnswered ? 'answered' : isVisited ? 'visited' : 'not visited') : isAnswered ? attempt.status : isVisited ? 'visited' : 'not visited'}`}
             >
               {idx + 1}
               {attempt.bookmarked && (

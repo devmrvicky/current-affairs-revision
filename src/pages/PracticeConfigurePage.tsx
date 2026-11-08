@@ -1,10 +1,12 @@
+import { HierarchyBrowser } from '../components/tests/HierarchyBrowser';
+import { buildSubjectTree, collectKeys, containsChapter, type HierarchyNode } from '../services/hierarchyTree';
+import { getTopicAncestors, getTopicDisplayName } from '../data/registry/subjectRegistry';
+import { TimerSettings } from '../components/tests/TimerSettings';
+import { resolveTiming, validateTimingSpec, type TimingSpec } from '../services/sessionTiming';
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import {
-  Check, Settings2, X, ListChecks, Zap, ClipboardList, Newspaper, Search, SlidersHorizontal,
-  ChevronRight, ChevronsDownUp, ChevronsUpDown, FilterX, EyeOff, LayoutGrid,
-} from 'lucide-react';
+import { Check, Settings2, X, ListChecks, Zap, ClipboardList, Newspaper, Search, SlidersHorizontal, ChevronsDownUp, ChevronsUpDown, FilterX, EyeOff, LayoutGrid } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { useExamStore } from '../store/examStore';
 import { usePracticeSessionStore } from '../store/practiceSessionStore';
@@ -17,7 +19,6 @@ import {
 } from '../services/testLibraryBuilder';
 import { usePracticeTestLibrary } from '../hooks/usePracticeTestLibrary';
 import { useStartPracticeTest } from '../hooks/useStartPracticeTest';
-import { ChapterTestGroup } from '../components/tests/ChapterTestGroup';
 import { TopicPickerModal } from '../components/tests/TopicPickerModal';
 import { ManageVisibilityModal } from '../components/tests/ManageVisibilityModal';
 import { isGroupVisible, useLibraryVisibilityStore, visibilityScope } from '../store/libraryVisibilityStore';
@@ -70,6 +71,7 @@ export default function PracticeConfigurePage() {
   const [showSettings, setShowSettings] = useState(false);
   const [difficulty, setDifficulty] = useState<Difficulty | 'mixed'>('mixed');
   const [questionCount, setQuestionCount] = useState(20);
+  const [timingSpec, setTimingSpec] = useState<TimingSpec>({ kind: 'default' });
   const [mode, setMode] = useState<SessionMode>('practice');
 
   const [topics, setTopics] = useState<AvailableTopic[]>([]);
@@ -145,6 +147,14 @@ export default function PracticeConfigurePage() {
         difficulty, questionCount: Math.min(questionCount, quickPool), mode,
         label: subject?.name ?? 'Practice',
       };
+      // Learner-set timing applies to Test mode; Quick Practice has no countdown unless they choose one.
+      if (mode === 'test') {
+        const problem = validateTimingSpec(timingSpec, config.questionCount);
+        if (problem) { toast.error(`Timer: ${problem}`); return; }
+        const resolved = resolveTiming(timingSpec, config.questionCount, undefined);
+        if (resolved.durationSeconds !== undefined) config.durationSeconds = resolved.durationSeconds;
+        if (resolved.timing) config.timing = resolved.timing;
+      }
       let pool = await createQuestionPool(config);
       if (selectedTopicIds.length > 1) pool = pool.filter((q) => q.topicId && selectedTopicIds.includes(q.topicId));
       const picked = await getRandomQuestions(config.questionCount, pool);
@@ -202,15 +212,25 @@ export default function PracticeConfigurePage() {
     return bestKey;
   }, [library, libraryData.stats]);
   const choices = openChoices.subjectId === selectedSubjectId ? openChoices.byKey : {};
-  const isChapterOpen = (key: string) => choices[key] ?? (!!filtered?.isNarrowed || key === defaultOpenKey);
+  const isNodeOpen = (node: HierarchyNode) => choices[node.key] ?? (!!filtered?.isNarrowed || (node.depth === 0 && containsChapter(node, defaultOpenKey)));
   const narrowedCount = activeFilterCount(filters) + (filters.query.trim() ? 1 : 0);
+  // Subject → Category → Chapter → Topic → Subtopic → … → tests. Built from the already-filtered library, so search,
+  // filters, sort and hidden groups all keep working; the tree only decides how what's left is nested.
+  const tree = useMemo(
+    () => (filtered && fullLibrary
+      ? buildSubjectTree(filtered, {
+        topicAncestors: (id) => getTopicAncestors(fullLibrary.subjectId, id).map((t) => ({ id: t.id, title: getTopicDisplayName(fullLibrary.subjectId, t.id) })),
+      })
+      : []),
+    [filtered, fullLibrary],
+  );
 
-  function setChapterOpen(key: string, open: boolean) {
-    setOpenChoices({ subjectId: selectedSubjectId, byKey: { ...choices, [key]: open } });
+  function setNodeOpen(node: HierarchyNode, open: boolean) {
+    setOpenChoices({ subjectId: selectedSubjectId, byKey: { ...choices, [node.key]: open } });
   }
-  function setAllChaptersOpen(open: boolean) {
+  function setAllNodesOpen(open: boolean) {
     const byKey: Record<string, boolean> = {};
-    for (const c of filtered?.chapters ?? []) byKey[c.key] = open;
+    for (const key of collectKeys(tree)) byKey[key] = open;
     setOpenChoices({ subjectId: selectedSubjectId, byKey });
   }
   function patchFilters(patch: Partial<LibraryFilters>) {
@@ -523,50 +543,15 @@ export default function PracticeConfigurePage() {
                       : `${filtered.chapters.length} group${filtered.chapters.length === 1 ? '' : 's'}`}
                   </p>
                   <div className="flex items-center gap-1">
-                    <button type="button" onClick={() => setAllChaptersOpen(true)} className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10" aria-label="Expand all chapters" title="Expand all">
+                    <button type="button" onClick={() => setAllNodesOpen(true)} className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10" aria-label="Expand all levels" title="Expand all">
                       <ChevronsUpDown size={14} style={{ color: 'var(--text-muted)' }} />
                     </button>
-                    <button type="button" onClick={() => setAllChaptersOpen(false)} className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10" aria-label="Collapse all chapters" title="Collapse all">
+                    <button type="button" onClick={() => setAllNodesOpen(false)} className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10" aria-label="Collapse all levels" title="Collapse all">
                       <ChevronsDownUp size={14} style={{ color: 'var(--text-muted)' }} />
                     </button>
                   </div>
                 </div>
-                <div className="space-y-2">
-                  {filtered.chapters.map((chapter) => {
-                    const open = isChapterOpen(chapter.key);
-                    const all = [...chapter.chapterTests, ...chapter.topics.flatMap((g) => g.tests)];
-                    const attempted = all.filter((t) => libraryData.stats.has(t.id)).length;
-                    const panelId = `chapter-panel-${chapter.key.replace(/[^a-z0-9]+/gi, '-')}`;
-                    return (
-                      <div key={chapter.key} className="card overflow-hidden">
-                        <button
-                          type="button"
-                          onClick={() => setChapterOpen(chapter.key, !open)}
-                          aria-expanded={open}
-                          aria-controls={panelId}
-                          className="w-full flex items-center gap-2 px-3 py-2.5 text-left hover:bg-gray-50 dark:hover:bg-white/5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-500"
-                        >
-                          <ChevronRight size={16} className={`flex-shrink-0 transition-transform ${open ? 'rotate-90' : ''}`} style={{ color: 'var(--text-muted)' }} />
-                          <div className="min-w-0 flex-1">
-                            <p className="font-display font-semibold text-sm truncate" style={{ color: 'var(--text-primary)' }}>
-                              {chapter.categoryTitle && <span className="font-normal" style={{ color: 'var(--text-muted)' }}>{chapter.categoryTitle} › </span>}
-                              {chapter.title}
-                            </p>
-                          </div>
-                          <span className="text-xs flex-shrink-0 text-right" style={{ color: 'var(--text-muted)' }}>
-                            {chapter.testCount} test{chapter.testCount === 1 ? '' : 's'} · {chapter.questionCount} Qs
-                            {attempted > 0 && <span className="block text-brand-500">{attempted}/{chapter.testCount} attempted</span>}
-                          </span>
-                        </button>
-                        {open && (
-                          <div id={panelId} style={{ borderTop: '1px solid var(--border)' }}>
-                            <ChapterTestGroup chapter={chapter} stats={libraryData.stats} mode={mode} startingId={startingId} onStart={startTest} forceOpen={filtered.isNarrowed} />
-                          </div>
-                        )}
-                      </div>
-                    );
-                  })}
-                </div>
+                <HierarchyBrowser nodes={tree} stats={libraryData.stats} mode={mode} startingId={startingId} onStart={startTest} isOpen={isNodeOpen} onToggle={setNodeOpen} />
               </>
             )}
           </section>
@@ -676,7 +661,13 @@ export default function PracticeConfigurePage() {
                 </button>
               </div>
 
-              <button onClick={() => setShowSettings(false)} className="btn-primary w-full py-2.5">Apply</button>
+              {mode === 'test' && (
+                <div className="mb-5">
+                  <TimerSettings value={timingSpec} onChange={setTimingSpec} questionCount={Math.min(questionCount, quickPool || questionCount)} defaultLabel="No countdown (stopwatch)" />
+                </div>
+              )}
+
+              <button onClick={() => setShowSettings(false)} disabled={mode === 'test' && validateTimingSpec(timingSpec, Math.min(questionCount, quickPool || questionCount)) !== null} className="btn-primary w-full py-2.5 disabled:opacity-50">Apply</button>
             </motion.div>
           </motion.div>
         )}

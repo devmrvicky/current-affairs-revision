@@ -4,6 +4,9 @@ import { usePracticeSessionStore } from '../store/practiceSessionStore';
 import { useExamStore } from '../store/examStore';
 import { getExam } from '../services/examService';
 import { buildTestConfig } from '../services/practiceTestLauncher';
+import { useTimingPrefStore } from '../store/timingPrefStore';
+import { validateTimingSpec } from '../services/sessionTiming';
+import toast from 'react-hot-toast';
 import { captureOrigin, isSafeReturnRoute } from '../services/returnRoute';
 import type { PracticeTestDefinition } from '../services/testLibraryBuilder';
 import type { SessionMode } from '../types/practiceSession';
@@ -26,6 +29,7 @@ export function useStartPracticeTest() {
   const startSession = usePracticeSessionStore((s) => s.startSession);
   const { selectedExamId } = useExamStore();
   const [startingId, setStartingId] = useState<string | null>(null);
+  const timingSpec = useTimingPrefStore((s) => s.spec);
 
   const start = useCallback(
     (test: PracticeTestDefinition, mode: SessionMode, options: StartOptions = {}): boolean => {
@@ -35,11 +39,13 @@ export function useStartPracticeTest() {
       // An explicit origin (a retake started from a result page) isn't the history entry behind the test —
       // that is the finished session — so it carries no history index and Close navigates to the route directly.
       const origin = options.returnTo && isSafeReturnRoute(options.returnTo) ? { route: options.returnTo, idx: -1 } : here;
-      startSession(buildTestConfig(test, mode, exam?.mockConfig.marking), test.questionIds, origin);
+      const problem = validateTimingSpec(timingSpec, test.questionCount);
+      if (problem && mode === 'test') toast(`Your timer setting wasn't used for this test — ${problem}`, { id: 'timing-fallback' });
+      startSession(buildTestConfig(test, mode, exam?.mockConfig.marking, timingSpec), test.questionIds, origin);
       navigate('/session', { replace: options.replace });
       return true;
     },
-    [startSession, navigate, selectedExamId]
+    [startSession, navigate, selectedExamId, timingSpec]
   );
 
   return { start, startingId };

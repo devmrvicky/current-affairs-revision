@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "ssc14-c11-q016",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Clasik"
+      },
+      {
+        "id": "B",
+        "text": "Classic"
+      },
+      {
+        "id": "C",
+        "text": "Classik"
+      },
+      {
+        "id": "D",
+        "text": "Clasic"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c12-q037",
+    "subjectId": "english",
+    "question": "Rearrange the sentences into a coherent paragraph.\n\nP. Shivam opened every cabinet and shelf and noted down which essential items had completely run out.\nQ. Back home, he unpacked all the shopping bags and stored each item neatly in its correct place.\nR. He walked through the supermarket aisle by aisle and collected every item from his written list.\nS. He then sat at the kitchen table and wrote out a clear and complete shopping list.",
+    "options": [
+      {
+        "id": "A",
+        "text": "RSPQ"
+      },
+      {
+        "id": "B",
+        "text": "PSRQ"
+      },
+      {
+        "id": "C",
+        "text": "QPSR"
+      },
+      {
+        "id": "D",
+        "text": "PRQS"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "para-jumbles",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c11-q041",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word for the blank or the bracketed word.\n\nHe lived a life of [quiesence] in a small cottage deep within the English countryside.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quiesence"
+      },
+      {
+        "id": "B",
+        "text": "Queiscence"
+      },
+      {
+        "id": "C",
+        "text": "Quiessence"
+      },
+      {
+        "id": "D",
+        "text": "Quiescence"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c10-q017",
+    "subjectId": "english",
+    "question": "Select the meaning of the bracketed idiom.\n\nWinning the lawsuit was a [pyrrhic victory], as the legal fees exceeded the settlement amount.",
+    "options": [
+      {
+        "id": "A",
+        "text": "A victory gained at too great a cost"
+      },
+      {
+        "id": "B",
+        "text": "An easy and effortless win"
+      },
+      {
+        "id": "C",
+        "text": "A victory achieved through cheating"
+      },
+      {
+        "id": "D",
+        "text": "A celebration after a long war"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c09-q039",
+    "subjectId": "english",
+    "question": "Select the one word for the given expression.\n\nA labourer involved in loading and unloading the ships.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stevedore"
+      },
+      {
+        "id": "B",
+        "text": "Plagiarist"
+      },
+      {
+        "id": "C",
+        "text": "Polyglot"
+      },
+      {
+        "id": "D",
+        "text": "Nonagenarian"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c01-q032",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nNot only did the CEO’s controversial statement / led to a sharp decline in the company’s stock price, / but it also permanently damaged the brand’s reputation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Not only did the CEO’s controversial statement"
+      },
+      {
+        "id": "B",
+        "text": "led to a sharp decline in the company’s stock price"
+      },
+      {
+        "id": "C",
+        "text": "but it also permanently damaged the brand’s reputation"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "error-spotting",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c07-q007",
+    "subjectId": "english",
+    "question": "Select the synonym of the given word.\n\nTIRADE",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diatribe"
+      },
+      {
+        "id": "B",
+        "text": "Approval"
+      },
+      {
+        "id": "C",
+        "text": "Praise"
+      },
+      {
+        "id": "D",
+        "text": "Eulogy"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c03-q007",
+    "subjectId": "english",
+    "question": "Select the passive voice of the sentence.\n\nPlease help the injured man at once.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The injured man is requested to be helped at once."
+      },
+      {
+        "id": "B",
+        "text": "The injured man should be helped at once."
+      },
+      {
+        "id": "C",
+        "text": "Let the injury man be helped at once."
+      },
+      {
+        "id": "D",
+        "text": "You are requested to help the injured man at once."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c09-q033",
+    "subjectId": "english",
+    "question": "Select the one word for the given expression.\n\nA place where coins are made.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Granary"
+      },
+      {
+        "id": "B",
+        "text": "Mint"
+      },
+      {
+        "id": "C",
+        "text": "Arsenal"
+      },
+      {
+        "id": "D",
+        "text": "Tannery"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c11-q058",
+    "subjectId": "english",
+    "question": "Select the wrongly spelt word, or the option with a spelling error.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conscientious"
+      },
+      {
+        "id": "B",
+        "text": "Corrigendum"
+      },
+      {
+        "id": "C",
+        "text": "Chauffueer"
+      },
+      {
+        "id": "D",
+        "text": "Chameleon"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q031",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nMany cities respond to flooding only after roads are submerged and homes are damaged. Such a ____(1)____ approach may bring temporary relief, but it does not reduce future risk. Experts argue that drains must be cleaned regularly, wetlands must be protected and building rules must be enforced with __(2)__. When planners ignore natural water channels, even moderate rain can __(3)__ normal life. A resilient city is built not on last-minute announcements but on steady investment, civic discipline and __(4)__ coordination among departments. Without these measures, each monsoon becomes a fresh __(5)__ rather than a manageable season.\n\nBlank (1)",
+    "options": [
+      {
+        "id": "A",
+        "text": "reactive"
+      },
+      {
+        "id": "B",
+        "text": "visionary"
+      },
+      {
+        "id": "C",
+        "text": "systematic"
+      },
+      {
+        "id": "D",
+        "text": "durable"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q032",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nMany cities respond to flooding only after roads are submerged and homes are damaged. Such a ____(1)____ approach may bring temporary relief, but it does not reduce future risk. Experts argue that drains must be cleaned regularly, wetlands must be protected and building rules must be enforced with __(2)__. When planners ignore natural water channels, even moderate rain can __(3)__ normal life. A resilient city is built not on last-minute announcements but on steady investment, civic discipline and __(4)__ coordination among departments. Without these measures, each monsoon becomes a fresh __(5)__ rather than a manageable season.\n\nBlank (2)",
+    "options": [
+      {
+        "id": "A",
+        "text": "leniency"
+      },
+      {
+        "id": "B",
+        "text": "rigour"
+      },
+      {
+        "id": "C",
+        "text": "fatigue"
+      },
+      {
+        "id": "D",
+        "text": "haste"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q033",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nMany cities respond to flooding only after roads are submerged and homes are damaged. Such a ____(1)____ approach may bring temporary relief, but it does not reduce future risk. Experts argue that drains must be cleaned regularly, wetlands must be protected and building rules must be enforced with __(2)__. When planners ignore natural water channels, even moderate rain can __(3)__ normal life. A resilient city is built not on last-minute announcements but on steady investment, civic discipline and __(4)__ coordination among departments. Without these measures, each monsoon becomes a fresh __(5)__ rather than a manageable season.\n\nBlank (3)",
+    "options": [
+      {
+        "id": "A",
+        "text": "restore"
+      },
+      {
+        "id": "B",
+        "text": "disrupt"
+      },
+      {
+        "id": "C",
+        "text": "clarify"
+      },
+      {
+        "id": "D",
+        "text": "accelerate"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q034",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nMany cities respond to flooding only after roads are submerged and homes are damaged. Such a ____(1)____ approach may bring temporary relief, but it does not reduce future risk. Experts argue that drains must be cleaned regularly, wetlands must be protected and building rules must be enforced with __(2)__. When planners ignore natural water channels, even moderate rain can __(3)__ normal life. A resilient city is built not on last-minute announcements but on steady investment, civic discipline and __(4)__ coordination among departments. Without these measures, each monsoon becomes a fresh __(5)__ rather than a manageable season.\n\nBlank (4)",
+    "options": [
+      {
+        "id": "A",
+        "text": "fragmented"
+      },
+      {
+        "id": "B",
+        "text": "seamless"
+      },
+      {
+        "id": "C",
+        "text": "casual"
+      },
+      {
+        "id": "D",
+        "text": "delayed"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q035",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nMany cities respond to flooding only after roads are submerged and homes are damaged. Such a ____(1)____ approach may bring temporary relief, but it does not reduce future risk. Experts argue that drains must be cleaned regularly, wetlands must be protected and building rules must be enforced with __(2)__. When planners ignore natural water channels, even moderate rain can __(3)__ normal life. A resilient city is built not on last-minute announcements but on steady investment, civic discipline and __(4)__ coordination among departments. Without these measures, each monsoon becomes a fresh __(5)__ rather than a manageable season.\n\nBlank (5)",
+    "options": [
+      {
+        "id": "A",
+        "text": "routine"
+      },
+      {
+        "id": "B",
+        "text": "spectacle"
+      },
+      {
+        "id": "C",
+        "text": "ordeal"
+      },
+      {
+        "id": "D",
+        "text": "advantage"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c11-q029",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word for the blank or the bracketed word.\n\nThe play was filled with [soliloquis] that revealed the hero’s inner thoughts.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solliloquys"
+      },
+      {
+        "id": "B",
+        "text": "Soliloquies"
+      },
+      {
+        "id": "C",
+        "text": "Soliloqueis"
+      },
+      {
+        "id": "D",
+        "text": "Saliloquies"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c01-q058",
+    "subjectId": "english",
+    "question": "Select the correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Although the system engineers anticipated minor digital interference during the solar flare, little the security network administrators expected that the quantum encryption protocols would fail completely against a rudimentary brute-force cyber-attack."
+      },
+      {
+        "id": "B",
+        "text": "Backtesting the historical volatility parameters of the high-frequency trading algorithm across a decade of market anomalies, the quantitative analysts recalibrated the predictive neural network model to minimise capital drawdown during periods of systemic liquidity stress."
+      },
+      {
+        "id": "C",
+        "text": "Following months of intense litigation regarding patent infringement, the rival software corporations agreed to cooperate together on a joint venture to develop a secure, decentralised cloud architecture infrastructure for the international banking consortium."
+      },
+      {
+        "id": "D",
+        "text": "Since the deep-sea core samples revealed a sudden, unprecedented shift in the historic marine micro-fossil distribution levels along the continental shelf, the climatological research institution therefore concluded that a rapid thermal transformation had occurred during the late Eocene epoch."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "error-spotting",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c12-q047",
+    "subjectId": "english",
+    "question": "Rearrange the sentences into a coherent paragraph.\n\nS1. The intuitive school affirms as strongly as the inductive school that there is a science of morals.\nP. They both agree that the morality of an individual action is not a question of individual perception, but of the application of a common law to an individual case.\nQ. Yet to support their pretensions, there ought to be one fundamental principle or law at the root of all morality.\nR. They either assume the ordinary precepts of morals as of a priori authority, or they lay down some general maxims which have never succeeded in gaining popular acceptance.\nS. Although both equally hold that morality must be deduced from principles, they seldom attempt to make out a list of such principles.",
+    "options": [
+      {
+        "id": "A",
+        "text": "QRPS"
+      },
+      {
+        "id": "B",
+        "text": "PSRQ"
+      },
+      {
+        "id": "C",
+        "text": "SPRQ"
+      },
+      {
+        "id": "D",
+        "text": "RSQP"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "para-jumbles",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c04-q002",
+    "subjectId": "english",
+    "question": "Select the indirect speech of the sentence.\n\nThe girl said, “I can sketch a beautiful landscape.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "The girl said that she can sketch a beautiful landscape."
+      },
+      {
+        "id": "B",
+        "text": "The girl said that she could sketch a beautiful landscape."
+      },
+      {
+        "id": "C",
+        "text": "The girl said that I could sketch a beautiful landscape."
+      },
+      {
+        "id": "D",
+        "text": "The girl said that she could sketched a beautiful landscape."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c05-q052",
+    "subjectId": "english",
+    "question": "Fill in the blank with the correct preposition.\n\nThe committee agreed ____ the proposal after a long discussion.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "for"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c01-q012",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe principal / as well as the teachers / have agreed / to the proposal.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The principal"
+      },
+      {
+        "id": "B",
+        "text": "as well as the teachers"
+      },
+      {
+        "id": "C",
+        "text": "have agreed"
+      },
+      {
+        "id": "D",
+        "text": "to the proposal"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "error-spotting",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c08-q014",
+    "subjectId": "english",
+    "question": "Select the antonym of the given word.\n\nLucid",
+    "options": [
+      {
+        "id": "A",
+        "text": "Clear"
+      },
+      {
+        "id": "B",
+        "text": "Transparent"
+      },
+      {
+        "id": "C",
+        "text": "Confusing"
+      },
+      {
+        "id": "D",
+        "text": "Obvious"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c08-q045",
+    "subjectId": "english",
+    "question": "Select the antonym of the bracketed word.\n\nThe manager took every opportunity to [extol] the virtues of his hardworking staff.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Praise"
+      },
+      {
+        "id": "B",
+        "text": "Applaud"
+      },
+      {
+        "id": "C",
+        "text": "Celebrate"
+      },
+      {
+        "id": "D",
+        "text": "Condemn"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c09-q020",
+    "subjectId": "english",
+    "question": "Select the one word for the given expression.\n\nA person who talks a great deal.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tuck"
+      },
+      {
+        "id": "B",
+        "text": "Array"
+      },
+      {
+        "id": "C",
+        "text": "Skim"
+      },
+      {
+        "id": "D",
+        "text": "Chatterbox"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c05-q004",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe student solved the complex math problem ____.",
+    "options": [
+      {
+        "id": "A",
+        "text": "easily"
+      },
+      {
+        "id": "B",
+        "text": "easy"
+      },
+      {
+        "id": "C",
+        "text": "easier"
+      },
+      {
+        "id": "D",
+        "text": "easiest"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fill-in-the-blanks",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c03-q006",
+    "subjectId": "english",
+    "question": "Select the passive voice of the sentence.\n\nThe committee approved the proposal after extensive discussion.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The proposal are approved by the committee after extensive discussion."
+      },
+      {
+        "id": "B",
+        "text": "The proposal was approved by the committee after extensive discussion."
+      },
+      {
+        "id": "C",
+        "text": "The proposal was been approved by the committee after extensive discussion."
+      },
+      {
+        "id": "D",
+        "text": "The proposal has being approved by the committee after extensive discussion."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "voice",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c08-q004",
+    "subjectId": "english",
+    "question": "Select the antonym of the given word.\n\nMeticulous",
+    "options": [
+      {
+        "id": "A",
+        "text": "Careful"
+      },
+      {
+        "id": "B",
+        "text": "Precise"
+      },
+      {
+        "id": "C",
+        "text": "Negligent"
+      },
+      {
+        "id": "D",
+        "text": "Thorough"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c10-q009",
+    "subjectId": "english",
+    "question": "Select the meaning of the given idiom or phrase.\n\n‘at sixes and sevens’",
+    "options": [
+      {
+        "id": "A",
+        "text": "In a state of confusion or disorder"
+      },
+      {
+        "id": "B",
+        "text": "Working with complete discipline"
+      },
+      {
+        "id": "C",
+        "text": "In agreement on all points"
+      },
+      {
+        "id": "D",
+        "text": "Experiencing rapid success"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c11-q035",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word for the blank or the bracketed word.\n\nThe poet wrote a moving [elregy] for the fallen soldiers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Elegy"
+      },
+      {
+        "id": "B",
+        "text": "Elegie"
+      },
+      {
+        "id": "C",
+        "text": "Ellergy"
+      },
+      {
+        "id": "D",
+        "text": "Elregy"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c05-q019",
+    "subjectId": "english",
+    "question": "Fill in the blank with the most appropriate word or phrasal verb.\n\nMost young poets ____ the works of the Great Romantics for guidance.",
+    "options": [
+      {
+        "id": "A",
+        "text": "look up to"
+      },
+      {
+        "id": "B",
+        "text": "look in on"
+      },
+      {
+        "id": "C",
+        "text": "look out for"
+      },
+      {
+        "id": "D",
+        "text": "look away from"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fill-in-the-blanks",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c10-q034",
+    "subjectId": "english",
+    "question": "Select the meaning of the given idiom or phrase.\n\nWhat does the idiom “bark up the wrong tree” mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "To pursue the wrong course of action"
+      },
+      {
+        "id": "B",
+        "text": "To take responsibility for a mistake"
+      },
+      {
+        "id": "C",
+        "text": "To succeed unexpectedly"
+      },
+      {
+        "id": "D",
+        "text": "To celebrate a minor achievement"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c07-q009",
+    "subjectId": "english",
+    "question": "Select the synonym of the given word.\n\nADJUSTED",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adapted"
+      },
+      {
+        "id": "B",
+        "text": "Broke"
+      },
+      {
+        "id": "C",
+        "text": "Lost"
+      },
+      {
+        "id": "D",
+        "text": "Unaccustomed"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c01-q008",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nOnly after the guests had left / we realized / that the keys / were missing.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only after the guests had left"
+      },
+      {
+        "id": "B",
+        "text": "we realized"
+      },
+      {
+        "id": "C",
+        "text": "that the keys"
+      },
+      {
+        "id": "D",
+        "text": "were missing"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "error-spotting",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c06-q007",
+    "subjectId": "english",
+    "question": "Select the option in which the bracketed word has a different meaning.\n\nThe doctor instructed the patient to swallow the vitamin [capsule] with a full glass of water every morning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The pharmaceutical company developed a new capsule to treat chronic pain effectively."
+      },
+      {
+        "id": "B",
+        "text": "Because the medicine was bitter, it was encased in a gelatine capsule to make it easier for children to take."
+      },
+      {
+        "id": "C",
+        "text": "During the final stage of the mission, the crew entered the space capsule to begin their descent back to Earth."
+      },
+      {
+        "id": "D",
+        "text": "The herbal supplement is available in both liquid and a concentrated capsule form."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "homonyms-homophones",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c08-q006",
+    "subjectId": "english",
+    "question": "Select the antonym of the given word.\n\nRelevance",
+    "options": [
+      {
+        "id": "A",
+        "text": "Significance"
+      },
+      {
+        "id": "B",
+        "text": "Applicability"
+      },
+      {
+        "id": "C",
+        "text": "Irrelevance"
+      },
+      {
+        "id": "D",
+        "text": "Pertinence"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c10-q011",
+    "subjectId": "english",
+    "question": "Select the meaning of the given idiom or phrase.\n\n‘bell the cat’",
+    "options": [
+      {
+        "id": "A",
+        "text": "To undertake a risky task"
+      },
+      {
+        "id": "B",
+        "text": "To reveal a harmless secret"
+      },
+      {
+        "id": "C",
+        "text": "To flatter someone for gain"
+      },
+      {
+        "id": "D",
+        "text": "To punish a guilty person"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c07-q037",
+    "subjectId": "english",
+    "question": "Select the synonym of the given word.\n\nWEEPY",
+    "options": [
+      {
+        "id": "A",
+        "text": "Amused"
+      },
+      {
+        "id": "B",
+        "text": "Tearful"
+      },
+      {
+        "id": "C",
+        "text": "Joyful"
+      },
+      {
+        "id": "D",
+        "text": "Cheerful"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c04-q009",
+    "subjectId": "english",
+    "question": "Select the direct speech of the sentence.\n\nThe interviewer asked the candidate why he had chosen that particular career path.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The interviewer said to the candidate, “Why have you chosen this particular career path?”"
+      },
+      {
+        "id": "B",
+        "text": "The interviewer said to the candidate, “Why did you chosen that particular career path?”"
+      },
+      {
+        "id": "C",
+        "text": "The interviewer said to the candidate, “Why had you choose this particular career path?”"
+      },
+      {
+        "id": "D",
+        "text": "The interviewer said to the candidate, “Why do you choose this particular career path?”"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c12-q049",
+    "subjectId": "english",
+    "question": "Rearrange the sentences into a coherent paragraph.\n\n1. On November 9, 1989, a botched announcement by a government spokesperson led to widespread confusion.\n2. Tensions between the East and West began to ease, partly due to the policies of Mikhail Gorbachev, the General Secretary of the Soviet Union.\n3. His reforms, glasnost (openness) and perestroika (restructuring), encouraged political liberalization across Eastern Europe.\n4. The Berlin wall was constructed in 1961 to stop the mass exodus of East Germans (Under Soviet rule) fleeing to the more prosperous West.\n5. East Berliners, believing the border was open, surged toward the Berlin Wall and the overwhelmed guards opened the gates.",
+    "options": [
+      {
+        "id": "A",
+        "text": "2-4-3-5-1"
+      },
+      {
+        "id": "B",
+        "text": "3-2-4-5-1"
+      },
+      {
+        "id": "C",
+        "text": "3-2-1-4-5"
+      },
+      {
+        "id": "D",
+        "text": "4-2-3-1-5"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c07-q001",
+    "subjectId": "english",
+    "question": "Select the synonym of the given word.\n\nSUBSIDIARY",
+    "options": [
+      {
+        "id": "A",
+        "text": "Secondary"
+      },
+      {
+        "id": "B",
+        "text": "Primary"
+      },
+      {
+        "id": "C",
+        "text": "Main"
+      },
+      {
+        "id": "D",
+        "text": "Integral"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c12-q046",
+    "subjectId": "english",
+    "question": "Rearrange the sentences into a coherent paragraph.\n\nP. The caterpillar then stops feeding, attaches itself to a branch, and forms a protective chrysalis.\nQ. The egg hatches into a small caterpillar that feeds voraciously on leaves and grows rapidly in size.\nR. A butterfly starts its life as a tiny egg that is laid on the surface of a leaf.\nS. A fully developed butterfly eventually pushes out of the chrysalis and spreads its wings for the first time.",
+    "options": [
+      {
+        "id": "A",
+        "text": "RQPS"
+      },
+      {
+        "id": "B",
+        "text": "SQRP"
+      },
+      {
+        "id": "C",
+        "text": "PRQS"
+      },
+      {
+        "id": "D",
+        "text": "QRSP"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "para-jumbles",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c02-q016",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe economist noted that fifty sails [were charting new routes across the Atlantic, each carrying a cargo that was] insulated against sudden market fluctuations.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were charting new routes across the Atlantic, all carrying cargo that were"
+      },
+      {
+        "id": "B",
+        "text": "was charting new routes across the Atlantic, each carrying cargoes that was"
+      },
+      {
+        "id": "C",
+        "text": "are charting new routes across the Atlantic, each carrying cargo that was"
+      },
+      {
+        "id": "D",
+        "text": "No improvement required"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "sentence-improvement",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q106",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nElectric vehicles (EVs) promise lower emissions, quieter cities, and reduced dependence on fossil fuels. However, the transition to electric mobility requires substantial investment in charging infrastructure, reliable electricity grids, and sustainable battery production. (A)____, policymakers must recognize that technological innovation alone cannot guarantee widespread adoption. Consumer confidence depends on affordability, charging availability, battery longevity, and transparent regulatory standards. Although EVs reduce tailpipe emissions, irresponsible mining practices may (B)____ ecological degradation in resource-rich regions if environmental safeguards remain inadequate. Governments, industries, and research institutions must therefore develop cleaner extraction techniques and promote battery recycling and alternative materials. If governments (C)____ clear and consistent policy incentives, consumers would feel more confident about investing in electric vehicles despite their higher initial costs. Such confidence may encourage manufacturers to expand production and reduce prices. Equally important is the creation of an (D)____ that rewards innovation without discouraging fair competition. Long-term industrial growth also depends on institutional credibility and predictable governance. Ultimately, the success of electric mobility will be determined by society’s willingness to invest (E)____ a comprehensive transition that balances environmental responsibility, economic practicality, and social equity.\n\nIdentify the correct discourse marker for blank (A).",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nevertheless"
+      },
+      {
+        "id": "B",
+        "text": "Therefore"
+      },
+      {
+        "id": "C",
+        "text": "Likewise"
+      },
+      {
+        "id": "D",
+        "text": "Meanwhile"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q107",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nElectric vehicles (EVs) promise lower emissions, quieter cities, and reduced dependence on fossil fuels. However, the transition to electric mobility requires substantial investment in charging infrastructure, reliable electricity grids, and sustainable battery production. (A)____, policymakers must recognize that technological innovation alone cannot guarantee widespread adoption. Consumer confidence depends on affordability, charging availability, battery longevity, and transparent regulatory standards. Although EVs reduce tailpipe emissions, irresponsible mining practices may (B)____ ecological degradation in resource-rich regions if environmental safeguards remain inadequate. Governments, industries, and research institutions must therefore develop cleaner extraction techniques and promote battery recycling and alternative materials. If governments (C)____ clear and consistent policy incentives, consumers would feel more confident about investing in electric vehicles despite their higher initial costs. Such confidence may encourage manufacturers to expand production and reduce prices. Equally important is the creation of an (D)____ that rewards innovation without discouraging fair competition. Long-term industrial growth also depends on institutional credibility and predictable governance. Ultimately, the success of electric mobility will be determined by society’s willingness to invest (E)____ a comprehensive transition that balances environmental responsibility, economic practicality, and social equity.\n\nBlank (B)",
+    "options": [
+      {
+        "id": "A",
+        "text": "exacerbate"
+      },
+      {
+        "id": "B",
+        "text": "alleviate"
+      },
+      {
+        "id": "C",
+        "text": "conceal"
+      },
+      {
+        "id": "D",
+        "text": "postpone"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q108",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nElectric vehicles (EVs) promise lower emissions, quieter cities, and reduced dependence on fossil fuels. However, the transition to electric mobility requires substantial investment in charging infrastructure, reliable electricity grids, and sustainable battery production. (A)____, policymakers must recognize that technological innovation alone cannot guarantee widespread adoption. Consumer confidence depends on affordability, charging availability, battery longevity, and transparent regulatory standards. Although EVs reduce tailpipe emissions, irresponsible mining practices may (B)____ ecological degradation in resource-rich regions if environmental safeguards remain inadequate. Governments, industries, and research institutions must therefore develop cleaner extraction techniques and promote battery recycling and alternative materials. If governments (C)____ clear and consistent policy incentives, consumers would feel more confident about investing in electric vehicles despite their higher initial costs. Such confidence may encourage manufacturers to expand production and reduce prices. Equally important is the creation of an (D)____ that rewards innovation without discouraging fair competition. Long-term industrial growth also depends on institutional credibility and predictable governance. Ultimately, the success of electric mobility will be determined by society’s willingness to invest (E)____ a comprehensive transition that balances environmental responsibility, economic practicality, and social equity.\n\nBlank (C)",
+    "options": [
+      {
+        "id": "A",
+        "text": "provide"
+      },
+      {
+        "id": "B",
+        "text": "provided"
+      },
+      {
+        "id": "C",
+        "text": "had provided"
+      },
+      {
+        "id": "D",
+        "text": "will provide"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q109",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nElectric vehicles (EVs) promise lower emissions, quieter cities, and reduced dependence on fossil fuels. However, the transition to electric mobility requires substantial investment in charging infrastructure, reliable electricity grids, and sustainable battery production. (A)____, policymakers must recognize that technological innovation alone cannot guarantee widespread adoption. Consumer confidence depends on affordability, charging availability, battery longevity, and transparent regulatory standards. Although EVs reduce tailpipe emissions, irresponsible mining practices may (B)____ ecological degradation in resource-rich regions if environmental safeguards remain inadequate. Governments, industries, and research institutions must therefore develop cleaner extraction techniques and promote battery recycling and alternative materials. If governments (C)____ clear and consistent policy incentives, consumers would feel more confident about investing in electric vehicles despite their higher initial costs. Such confidence may encourage manufacturers to expand production and reduce prices. Equally important is the creation of an (D)____ that rewards innovation without discouraging fair competition. Long-term industrial growth also depends on institutional credibility and predictable governance. Ultimately, the success of electric mobility will be determined by society’s willingness to invest (E)____ a comprehensive transition that balances environmental responsibility, economic practicality, and social equity.\n\nBlank (D)",
+    "options": [
+      {
+        "id": "A",
+        "text": "economic encouragement"
+      },
+      {
+        "id": "B",
+        "text": "economic motivation"
+      },
+      {
+        "id": "C",
+        "text": "economic persuasion"
+      },
+      {
+        "id": "D",
+        "text": "economic ecosystem"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c13-q110",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nElectric vehicles (EVs) promise lower emissions, quieter cities, and reduced dependence on fossil fuels. However, the transition to electric mobility requires substantial investment in charging infrastructure, reliable electricity grids, and sustainable battery production. (A)____, policymakers must recognize that technological innovation alone cannot guarantee widespread adoption. Consumer confidence depends on affordability, charging availability, battery longevity, and transparent regulatory standards. Although EVs reduce tailpipe emissions, irresponsible mining practices may (B)____ ecological degradation in resource-rich regions if environmental safeguards remain inadequate. Governments, industries, and research institutions must therefore develop cleaner extraction techniques and promote battery recycling and alternative materials. If governments (C)____ clear and consistent policy incentives, consumers would feel more confident about investing in electric vehicles despite their higher initial costs. Such confidence may encourage manufacturers to expand production and reduce prices. Equally important is the creation of an (D)____ that rewards innovation without discouraging fair competition. Long-term industrial growth also depends on institutional credibility and predictable governance. Ultimately, the success of electric mobility will be determined by society’s willingness to invest (E)____ a comprehensive transition that balances environmental responsibility, economic practicality, and social equity.\n\nIdentify the correct preposition for blank (E).",
+    "options": [
+      {
+        "id": "A",
+        "text": "by"
+      },
+      {
+        "id": "B",
+        "text": "over"
+      },
+      {
+        "id": "C",
+        "text": "in"
+      },
+      {
+        "id": "D",
+        "text": "upon"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "cloze-test",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c09-q010",
+    "subjectId": "english",
+    "question": "Select the one word for the given expression.\n\n“A person who is unable to read and write” is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "Illiterate"
+      },
+      {
+        "id": "B",
+        "text": "Innocent"
+      },
+      {
+        "id": "C",
+        "text": "Ignorant"
+      },
+      {
+        "id": "D",
+        "text": "Idle"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c12-q054",
+    "subjectId": "english",
+    "question": "Rearrange the sentences into a coherent paragraph.\n\n1. This process, a crucial part of the plant’s life cycle, is vital for the continued existence of many plant species.\n2. Pollination is the transfer of pollen from the male part of a flower to the female part.\n3. The transfer can be carried out by various agents, including insects, birds, and wind.\n4. Successful pollination leads to fertilization and the subsequent production of seeds and fruits.",
+    "options": [
+      {
+        "id": "A",
+        "text": "2, 3, 4, 1"
+      },
+      {
+        "id": "B",
+        "text": "3, 4, 1, 2"
+      },
+      {
+        "id": "C",
+        "text": "1, 2, 3, 4"
+      },
+      {
+        "id": "D",
+        "text": "4, 1, 2, 3"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "para-jumbles",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "ssc14-c05-q049",
+    "subjectId": "english",
+    "question": "Fill in the blank with the correct preposition.\n\nThe child was frightened ____ the loud noise outside.",
+    "options": [
+      {
+        "id": "A",
+        "text": "from"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "by"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "en"
+  }
+]

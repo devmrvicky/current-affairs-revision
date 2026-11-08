@@ -118,8 +118,11 @@
 }
 
 /* ─── Active test shell ───────────────────────────────────────────────────────
-   Used only by the live test screens (/session, mock session). Full viewport,
-   no outer margin or max-width; the question area is the one scroll region.
+   Used only by the live test screens (/session, mock session). Full height; on
+   phones and tablets full width. On laptops/desktops the whole interface is
+   centred with a maximum width (and the question text in a readable column
+   inside it) instead of stretching across a wide monitor. The question area is
+   the one scroll region.
    `dvh` tracks mobile browser chrome; the 100vh line is the fallback. */
 .exam-shell {
   display: flex;
@@ -131,6 +134,17 @@
   background: var(--bg);
   padding-left: env(safe-area-inset-left, 0px);
   padding-right: env(safe-area-inset-right, 0px);
+  max-width: 90rem;
+  margin-inline: auto;
+}
+@media (min-width: 1500px) {
+  .exam-shell { border-inline: 1px solid var(--border); }
+}
+/* The question itself reads best in a bounded column, centred in the question area. */
+.exam-shell__content {
+  width: 100%;
+  max-width: 56rem;
+  margin-inline: auto;
 }
 .exam-shell__header {
   flex: 0 0 auto;

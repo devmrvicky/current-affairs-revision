@@ -29,7 +29,7 @@ export function ExamShell({ header, palette, paletteFooter, floating, footer, ov
       <div className="exam-shell__header">{header}</div>
       <div className="exam-shell__body">
         <div className="exam-shell__main-wrap">
-          <main className="exam-shell__main" tabIndex={-1} data-testid="exam-question-area">{children}</main>
+          <main className="exam-shell__main" tabIndex={-1} data-testid="exam-question-area"><div className="exam-shell__content">{children}</div></main>
           {floating && <div className="exam-shell__floating">{floating}</div>}
         </div>
         {palette && (

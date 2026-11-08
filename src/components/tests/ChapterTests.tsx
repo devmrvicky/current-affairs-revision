@@ -1,3 +1,4 @@
+import { TimerChip } from './TimerSettings';
 import { useState } from 'react';
 import { AlertTriangle, ListChecks } from 'lucide-react';
 import { ChapterTestGroup } from './ChapterTestGroup';
@@ -79,7 +80,10 @@ export function ChapterTestsPanel({ data, chapterId, chapterSubjectId, chapterTi
         <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
           {chapter.testCount} test{chapter.testCount === 1 ? '' : 's'} · {chapter.questionCount} questions
         </p>
-        <ModeSwitch mode={mode} onChange={setMode} />
+        <div className="flex items-center gap-2">
+          {mode === 'test' && <TimerChip defaultLabel="About 90 seconds per question" />}
+          <ModeSwitch mode={mode} onChange={setMode} />
+        </div>
       </div>
       <ChapterTestGroup chapter={chapter} stats={data.stats} mode={mode} startingId={startingId} onStart={start} />
     </div>

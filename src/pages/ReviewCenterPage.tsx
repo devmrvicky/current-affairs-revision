@@ -10,6 +10,7 @@ import { useBookmarkStore } from '../store/bookmarkStore';
 import { useWrongQuestionsStore } from '../store/wrongQuestionsStore';
 import { useMarkedReviewStore } from '../store/markedReviewStore';
 import { ReviewInsightsPanel } from '../components/review/ReviewInsightsPanel';
+import { ReviewHub } from '../components/review/ReviewHub';
 import { universalAttemptsDB } from '../services/db';
 import { weakTopics as computeWeakTopics, WEAK_MIN_ATTEMPTS, SOURCE_LABELS } from '../services/reviewAnalytics';
 import { getMarkPurposeInfo } from '../types/questionMark';
@@ -26,7 +27,7 @@ import { EmptyState } from '../components/common/EmptyState';
 import { formatRelativeDate } from '../utils';
 import type { DailyQuiz } from '../types';
 
-type ReviewTab = 'bookmarked' | 'wrong' | 'marked' | 'recent' | 'weak' | 'insights' | 'unattempted';
+type ReviewTab = 'hub' | 'bookmarked' | 'wrong' | 'marked' | 'recent' | 'weak' | 'insights' | 'unattempted';
 
 interface CommonItem {
   id: string;
@@ -188,7 +189,7 @@ export default function ReviewCenterPage() {
   const [loadingUnattempted, setLoadingUnattempted] = useState(false);
   const [isStartingUnattempted, setIsStartingUnattempted] = useState(false);
 
-  const [tab, setTab] = useState<ReviewTab>('bookmarked');
+  const [tab, setTab] = useState<ReviewTab>('hub');
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   useEffect(() => {
@@ -368,6 +369,7 @@ export default function ReviewCenterPage() {
   }
 
   const tabs: { key: ReviewTab; label: string; icon: React.ReactNode; count: number; accent: string }[] = [
+    { key: 'hub', label: 'Review', icon: <TrendingDown size={14} />, count: 0, accent: 'border-l-brand-500' },
     { key: 'bookmarked', label: 'Bookmarked', icon: <Bookmark size={14} />, count: bookmarkedItems.length, accent: 'border-l-purple-500' },
     { key: 'wrong', label: 'Wrong Questions', icon: <XCircle size={14} />, count: wrongItems.length, accent: 'border-l-red-500' },
     { key: 'marked', label: 'Marked For Review', icon: <Flag size={14} />, count: markedReviewItems.length, accent: 'border-l-amber-500' },
@@ -463,6 +465,8 @@ export default function ReviewCenterPage() {
             </button>
           </motion.div>
         )
+      ) : tab === 'hub' ? (
+        <ReviewHub />
       ) : tab === 'insights' ? (
         <ReviewInsightsPanel />
       ) : tab === 'weak' ? (

@@ -14,7 +14,7 @@ import { useExamKeyboardNavigation } from '../hooks/useExamKeyboardNavigation';
 import { useSessionPresence } from '../hooks/useSessionPresence';
 import { MarkPurposeSheet } from '../components/exam/MarkPurposeSheet';
 import { useMarkedReviewStore } from '../store/markedReviewStore';
-import { effectivePurpose, getMarkPurposeInfo, type MarkPurpose } from '../types/questionMark';
+import { effectivePurpose, getMarkPurposeInfo, normalizePurposes, savedPurposes, toggleMarkPurpose, type MarkPurpose } from '../types/questionMark';
 import { useExitTest } from '../hooks/useExitTest';
 import { getOptionLabel } from '../utils';
 
@@ -22,8 +22,10 @@ export default function QuizPage() {
   const navigate = useNavigate();
   const {
     session, submitAnswer, nextQuestion, goToQuestion, pauseSession, resumeSession,
-    toggleBookmark, setMarkPurpose, completeSession,
+    toggleBookmark, setMarks, completeSession,
   } = useQuizStore();
+  // Saved Review Center marks: the purposes a question carries beyond this test. (A hook — keep it above every early return.)
+  const savedMarks = useMarkedReviewStore((st) => st.items);
   const { settings } = useSettingsStore();
 
   // Mock Test Engine: sessions started via the Practice/Test configurator with
@@ -170,6 +172,10 @@ export default function QuizPage() {
 
   const currentAttempt = session.attempts[session.currentIndex];
   const currentPurpose = effectivePurpose({ isMarkedForReview: currentAttempt.markedForReview, markPurpose: currentAttempt.markPurpose });
+  const currentMarkSet = normalizePurposes([
+    ...savedPurposes(savedMarks.find((m) => m.id === `${session.fileName}_${currentAttempt.questionId}`) ?? {}),
+    currentAttempt.markedForReview ? 'review' : undefined,
+  ]);
   const isAnswered = currentAttempt.status !== 'unanswered';
   const isLast = session.currentIndex >= session.totalQuestions - 1;
   const progress = ((session.currentIndex + 1) / session.totalQuestions) * 100;
@@ -221,13 +227,13 @@ export default function QuizPage() {
     setManualPause((p) => !p);
   }
 
-  async function applyMark(purpose: MarkPurpose | null) {
-    setShowMarkSheet(false);
-    setMarkPurpose(currentAttempt.questionId, purpose);
+  async function applyMarks(next: MarkPurpose[]) {
+    setMarks(currentAttempt.questionId, next);
     try {
-      const saved = await saveAttemptMark(currentAttempt, session!.fileName, session!.date, purpose);
-      if (purpose === null) toast('Mark removed', { id: 'mark-toast' });
-      else if (saved) toast.success(`Saved for ${getMarkPurposeInfo(purpose)?.label.toLowerCase()} — find it in Review Center`, { id: 'mark-toast' });
+      const saved = await saveAttemptMark(currentAttempt, session!.fileName, session!.date, next);
+      const labels = savedPurposes({ purposes: next }).map((p) => getMarkPurposeInfo(p)?.label.split(' / ')[0].toLowerCase());
+      if (next.length === 0) toast('Mark removed', { id: 'mark-toast' });
+      else if (saved) toast.success(`Saved for ${labels.join(' + ')} — find it in Review Center`, { id: 'mark-toast' });
       else toast.success('Marked for review in this test', { id: 'mark-toast' });
     } catch (err) {
       console.error('Could not save question mark', err);
@@ -517,10 +523,10 @@ export default function QuizPage() {
 
       <MarkPurposeSheet
         open={showMarkSheet}
-        current={currentPurpose}
+        selected={currentMarkSet}
         questionNumber={session.currentIndex + 1}
-        onSelect={(p) => applyMark(p)}
-        onRemove={() => applyMark(null)}
+        onToggle={(p) => applyMarks(toggleMarkPurpose(currentMarkSet, p))}
+        onRemove={() => applyMarks([])}
         onClose={() => setShowMarkSheet(false)}
       />
 

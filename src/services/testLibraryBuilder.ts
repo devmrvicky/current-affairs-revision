@@ -51,6 +51,11 @@ export interface PracticeTestDefinition {
   chapterSubjectId?: string;
   chapterTitle?: string;
   categoryTitle?: string;
+  /**
+   * Folders between the chapter and the test file, outermost first (e.g. ['Congruence', 'SSS and SAS']). Absent for every
+   * test that sits directly in its chapter — which is all of them today. Drives nested levels in Practice by Topic.
+   */
+  groupPath?: string[];
   /** Set only for scope === 'topic'. */
   topicId?: string;
   topicTitle?: string;
@@ -216,7 +221,8 @@ export function buildPracticeTests(
   }
   for (const [, siblings] of groups) {
     if (siblings[0].parsed.kind === 'chapter') {
-      const cleaned = cleanSiblingTitles(siblings.map((d) => d.parsed.fileName));
+      // Titles are cleaned among files in the same folder; a nested file's group folders are not part of its title.
+      const cleaned = cleanSiblingTitles(siblings.map((d) => d.parsed.fileName.split('/').pop() ?? d.parsed.fileName));
       siblings.forEach((d, i) => titleByRawSource.set(d.rawSource, cleaned[i]));
     } else if (siblings[0].parsed.kind === 'mock-source') {
       siblings.forEach((d) => {
@@ -258,6 +264,8 @@ export function buildPracticeTests(
       const chapterId = parsed.chapterId ?? topicIds[0] ?? slug(parsed.chapterName ?? '');
       const chapterSubjectId = parsed.chapterSubjectId ?? subjectId;
       const ref = parsed.chapterId && parsed.chapterSubjectId ? lookups.chapter(parsed.chapterSubjectId, parsed.chapterId) : undefined;
+      const nested = parsed.fileName.split('/').slice(0, -1);
+      if (nested.length > 0) def.groupPath = nested;
       def.chapterId = chapterId;
       def.chapterSubjectId = chapterSubjectId;
       def.chapterTitle = ref?.title ?? parsed.chapterName ?? humanize(chapterId);

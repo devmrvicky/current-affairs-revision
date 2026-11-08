@@ -8,7 +8,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { PracticeConfiguration, PracticeSession, SessionQuestionState } from '../types/practiceSession';
-import type { MarkPurpose } from '../types/questionMark';
+import { sessionPurpose, type MarkPurpose } from '../types/questionMark';
 import { activatePractice, suspendPractice, touchPractice } from '../services/sessionLifecycle';
 import { sessionRegistry, parkInBackground } from '../services/sessionRegistry';
 import { captureOrigin, type ReturnOrigin } from '../services/returnRoute';
@@ -31,6 +31,8 @@ interface PracticeSessionStore {
   toggleMarkForReview: () => void;
   /** Sets (or, with null, removes) the mark and its purpose on the current question. */
   setMarkPurpose: (purpose: MarkPurpose | null, index?: number) => void;
+  /** The whole set of purposes on a question (a question can carry several). Keeps the review flag and the palette purpose consistent. */
+  setMarks: (purposes: MarkPurpose[], index?: number) => void;
   /** Leaving the test: stops its clock (see sessionLifecycle.ts). Safe to call repeatedly. */
   suspend: (at?: number) => void;
   /** Test is on screen again: folds time away into the clock and stamps activity. */
@@ -39,6 +41,8 @@ interface PracticeSessionStore {
   touch: () => void;
   /** Adds dwell time to the question the learner is leaving, so revisits accumulate. Practice freezes it once revealed; Test keeps counting. */
   addTimeSpent: (index: number, seconds: number) => void;
+  /** Sectional tests: records which sections have begun (see services/sessionTiming.ts). Only ever grows. */
+  setSectionStarts: (starts: number[]) => void;
   goToQuestion: (index: number) => void;
   nextQuestion: () => void;
   pauseSession: () => void;
@@ -79,6 +83,7 @@ export const usePracticeSessionStore = create<PracticeSessionStore>()(
             isCompleted: false,
             totalPausedTime: 0,
             visitedIndices: [0],
+            ...(config.timing?.mode === 'sectional' ? { sectionStarts: [0] } : {}),
             returnRoute: origin.route,
             returnHistoryIdx: origin.idx,
           },
@@ -86,6 +91,14 @@ export const usePracticeSessionStore = create<PracticeSessionStore>()(
       },
 
       loadSession: (session) => set({ session }),
+
+      setSectionStarts: (starts) => {
+        const session = get().session;
+        if (!session || session.isCompleted || session.config.timing?.mode !== 'sectional') return;
+        const current = session.sectionStarts ?? [0];
+        if (starts.length <= current.length) return; // sections only ever move forward — a stale write can't reopen one
+        set({ session: { ...session, sectionStarts: starts } });
+      },
 
       selectAnswer: (optionId, timeTaken) => {
         const session = get().session;
@@ -131,6 +144,17 @@ export const usePracticeSessionStore = create<PracticeSessionStore>()(
         const states = [...session.states];
         // One mark per question: setting a purpose replaces whatever was there, so repeated marking can't duplicate.
         states[at] = { ...current, markPurpose: purpose ?? undefined, isMarkedForReview: purpose === 'review' };
+        set({ session: { ...session, states } });
+      },
+
+      setMarks: (purposes, index) => {
+        const session = get().session;
+        if (!session) return;
+        const at = index ?? session.currentIndex;
+        const current = session.states[at];
+        if (!current) return;
+        const states = [...session.states];
+        states[at] = { ...current, markPurpose: sessionPurpose(purposes), isMarkedForReview: purposes.includes('review') };
         set({ session: { ...session, states } });
       },
 

@@ -231,6 +231,8 @@ export interface MarkedReviewQuestion {
   markedAt: number;
   /** Why it was saved (Doubtful / Further Practice / Revision / Mark for Review). Absent on older records, which meant "review". */
   purpose?: import('./questionMark').MarkPurpose;
+  /** Every purpose the question carries (a question can be Doubtful AND Further Practice AND Revision at once). `purpose` stays as the first of them, so older code and older records keep working. */
+  purposes?: import('./questionMark').MarkPurpose[];
   /** Set for questions from the universal pool, whose ids are strings (`questionId` is then 0). The record id is `universal:${universalQuestionId}`, so re-marking the same question updates one record. */
   universalQuestionId?: string;
 }

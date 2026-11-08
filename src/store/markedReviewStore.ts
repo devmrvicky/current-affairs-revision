@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import type { MarkedReviewQuestion, QuestionAttempt } from '../types';
 import { markedForReviewDB } from '../services/db';
+import { normalizePurposes, savedPurposes } from '../types/questionMark';
 
 interface MarkedReviewStore {
   items: MarkedReviewQuestion[];
@@ -16,7 +17,7 @@ interface MarkedReviewStore {
   ) => Promise<void>;
 
   /** Saves (purpose set) or removes (null) one legacy-engine question's Review Center record right away, using the same id the end-of-test sync uses, so the two never duplicate. Resolves to true when a record now exists. */
-  saveAttemptMark: (attempt: QuestionAttempt, sourceFileName: string, sourceDate: string, purpose: import('../types/questionMark').MarkPurpose | null) => Promise<boolean>;
+  saveAttemptMark: (attempt: QuestionAttempt, sourceFileName: string, sourceDate: string, purposes: import('../types/questionMark').MarkPurpose | import('../types/questionMark').MarkPurpose[] | null) => Promise<boolean>;
 
   remove: (id: string) => Promise<void>;
   clearAll: () => Promise<void>;
@@ -25,7 +26,9 @@ interface MarkedReviewStore {
   getCount: () => number;
 }
 
-export const useMarkedReviewStore = create<MarkedReviewStore>((set, get) => ({
+export const useMarkedReviewStore = create<MarkedReviewStore>((set, get) => {
+  const set_ = set;
+  return {
   items: [],
   isLoading: false,
 
@@ -80,14 +83,16 @@ export const useMarkedReviewStore = create<MarkedReviewStore>((set, get) => ({
     set({ items: updated });
   },
 
-  saveAttemptMark: async (attempt, sourceFileName, sourceDate, purpose) => {
+  saveAttemptMark: async (attempt, sourceFileName, sourceDate, purposes) => {
     const id = `${sourceFileName}_${attempt.questionId}`;
-    // 'review' means "revisit before submitting this test" — it is saved at test completion like before, not now.
-    if (purpose === null || purpose === 'review') {
+    // Only the purposes that outlive the test are saved now; 'review' ("revisit before submitting") is saved at test completion like before.
+    const set = savedPurposes({ purposes: normalizePurposes(Array.isArray(purposes) ? purposes : purposes ? [purposes] : []) });
+    if (set.length === 0) {
       if (await markedForReviewDB.getById(id)) await markedForReviewDB.delete(id);
-      set({ items: await markedForReviewDB.getAll() });
+      set_({ items: await markedForReviewDB.getAll() });
       return false;
     }
+    const existing = await markedForReviewDB.getById(id);
     await markedForReviewDB.upsert({
       id,
       questionId: attempt.questionId,
@@ -97,10 +102,11 @@ export const useMarkedReviewStore = create<MarkedReviewStore>((set, get) => ({
       explanation: attempt.explanation,
       sourceFileName,
       sourceDate,
-      markedAt: Date.now(),
-      purpose,
+      markedAt: existing?.markedAt ?? Date.now(),
+      purpose: set[0],
+      purposes: set,
     });
-    set({ items: await markedForReviewDB.getAll() });
+    set_({ items: await markedForReviewDB.getAll() });
     return true;
   },
 
@@ -117,4 +123,5 @@ export const useMarkedReviewStore = create<MarkedReviewStore>((set, get) => ({
   isMarked: (id) => get().items.some((m) => m.id === id),
 
   getCount: () => get().items.length,
-}));
+};
+});

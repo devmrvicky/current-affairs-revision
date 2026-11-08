@@ -1,5 +1,5 @@
 import { SpeakExplanationButton } from '../components/common/SpeakExplanationButton';
-import { useEffect, useRef, useState, useCallback } from 'react';
+import { useEffect, useMemo, useRef, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Pause, Play, Flag, ChevronLeft, ChevronRight, LayoutGrid, X, AlertTriangle, CheckCircle2, XCircle, Send } from 'lucide-react';
@@ -9,6 +9,9 @@ import { useDailyGoalStore } from '../store/dailyGoalStore';
 import { resolveQuestionsByIds } from '../services/questionRepository';
 import { recordPracticeSessionAttempts } from '../services/attemptLedgerService';
 import { QuizTimer } from '../components/quiz/QuizTimer';
+import { SectionTimerBadge } from '../components/exam/SectionTimerBadge';
+import { ConfirmDialog } from '../components/common/ConfirmDialog';
+import { canVisitQuestion, deriveSectionState, finishActiveSection, sessionElapsedSeconds } from '../services/sessionTiming';
 import { QuestionPalette } from '../components/quiz/QuestionPalette';
 import { ExamShell } from '../components/exam/ExamShell';
 import { QuestionMarkdownRenderer, QuestionOptionContent } from '../components/mock/QuestionMarkdownRenderer';
@@ -18,8 +21,9 @@ import { useExitTest } from '../hooks/useExitTest';
 import { SubmitTestDialog } from '../components/exam/SubmitTestDialog';
 import { MarkPurposeSheet } from '../components/exam/MarkPurposeSheet';
 import { FloatingQuestionNav } from '../components/exam/FloatingQuestionNav';
-import { syncQuestionMark } from '../services/questionMarkService';
-import { effectivePurpose, getMarkPurposeInfo, type MarkPurpose } from '../types/questionMark';
+import { savedMarkId, syncQuestionMark } from '../services/questionMarkService';
+import { useMarkedReviewStore } from '../store/markedReviewStore';
+import { effectivePurpose, getMarkPurposeInfo, normalizePurposes, savedPurposes, toggleMarkPurpose, type MarkPurpose } from '../types/questionMark';
 import { getOptionLabel } from '../utils';
 import type { UniversalQuestion } from '../types/universalQuestion';
 import type { QuestionAttempt } from '../types';
@@ -65,9 +69,11 @@ function toDisplayAttempts(questionIds: string[], states: SessionQuestionState[]
 export default function UniversalSessionPage() {
   const navigate = useNavigate();
   const {
-    session, selectAnswer, clearAnswer, setMarkPurpose, goToQuestion, addTimeSpent,
-    pauseSession, resumeSession, completeSession,
+    session, selectAnswer, clearAnswer, goToQuestion, addTimeSpent,
+    pauseSession, resumeSession, completeSession, setSectionStarts, setMarks,
   } = usePracticeSessionStore();
+  // Saved Review Center marks: the purposes a question carries beyond this test. (A hook — keep it above every early return.)
+  const savedMarks = useMarkedReviewStore((st) => st.items);
   const { increment: incrementQuestionsGoal, incrementTests: incrementTestsGoal } = useDailyGoalStore();
 
   const [questionsById, setQuestionsById] = useState<Map<string, UniversalQuestion>>(new Map());
@@ -76,6 +82,8 @@ export default function UniversalSessionPage() {
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
   const [showMarkSheet, setShowMarkSheet] = useState(false);
   const [isFinishing, setIsFinishing] = useState(false);
+  const [showFinishSection, setShowFinishSection] = useState(false);
+  const [tick, setTick] = useState(() => Date.now()); // drives the sectional clock; the time itself is always derived from the session, never counted here
   const finishingRef = useRef(false);
 
   // When the learner arrived on the current question (ms). A ref, not state: it
@@ -155,6 +163,9 @@ export default function UniversalSessionPage() {
   const navigateTo = useCallback((index: number) => {
     const s = usePracticeSessionStore.getState().session;
     if (!s || index < 0 || index >= s.questionIds.length || index === s.currentIndex) return;
+    // Sectional test: only the active section is open. Re-derived from the clock on every call, so it can never be stale.
+    const timing = s.config.timing;
+    if (timing?.mode === 'sectional' && !canVisitQuestion(timing, deriveSectionState(timing, s.sectionStarts, sessionElapsedSeconds(s, Date.now())).activeIndex, index)) return;
     flushDwell();
     goToQuestion(index);
   }, [flushDwell, goToQuestion]);
@@ -191,13 +202,60 @@ export default function UniversalSessionPage() {
 
   const handleExpire = useCallback(() => { finishAndRecord(); }, [finishAndRecord]);
 
+  // ── Sectional timing: everything below is derived from the session clock + sectionStarts ──
+  const timing = session?.config.timing;
+  const sectional = timing?.mode === 'sectional' && !!timing.sections?.length;
+  const sectionState = session && sectional && timing ? deriveSectionState(timing, session.sectionStarts, sessionElapsedSeconds(session, tick)) : null;
+  const activeSection = sectionState && timing?.sections ? timing.sections[sectionState.activeIndex] : null;
+
+  useEffect(() => {
+    if (!sectional || !session || session.isCompleted) return;
+    const id = setInterval(() => setTick(Date.now()), 500);
+    return () => clearInterval(id);
+  }, [sectional, session?.id, session?.isCompleted]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // A section that ended (or ended while the learner was away) is recorded, and the learner lands in the section that is now open.
+  useEffect(() => {
+    if (!sectionState || !session || !activeSection || !loaded || session.suspendedAt) return;
+    if (sectionState.starts.length > (session.sectionStarts?.length ?? 1)) setSectionStarts(sectionState.starts);
+    if (session.currentIndex < activeSection.startIndex || session.currentIndex >= activeSection.endIndex) {
+      flushDwell();
+      goToQuestion(activeSection.startIndex);
+    }
+  }, [sectionState?.activeIndex, sectionState?.starts.length, loaded, session?.suspendedAt]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // The last section's time is up: submit, exactly as if the single timer had expired.
+  useEffect(() => {
+    if (!sectionState?.finished || !loaded || session?.suspendedAt) return;
+    const id = setTimeout(handleExpire, 0); // deferred a tick: finishing updates state, which an effect shouldn't do synchronously
+    return () => clearTimeout(id);
+  }, [sectionState?.finished, loaded, session?.suspendedAt, handleExpire]);
+
+  const rangeStart = activeSection?.startIndex ?? 0;
+  const rangeEnd = activeSection?.endIndex ?? (session?.questionIds.length ?? 0);
+  const lockedIndices = useMemo(() => {
+    if (!sectional) return undefined;
+    const set = new Set<number>();
+    for (let i = 0; i < (session?.questionIds.length ?? 0); i++) if (i < rangeStart || i >= rangeEnd) set.add(i);
+    return set;
+  }, [sectional, session?.questionIds.length, rangeStart, rangeEnd]);
+  const lockedReason = useCallback((i: number) => (i < rangeStart ? 'this section has ended' : 'opens when its section begins'), [rangeStart]);
+
+  function confirmFinishSection() {
+    const s = usePracticeSessionStore.getState().session;
+    if (!s?.config.timing || s.config.timing.mode !== 'sectional') return;
+    const starts = finishActiveSection(s.config.timing, s.sectionStarts, sessionElapsedSeconds(s, Date.now()));
+    setShowFinishSection(false);
+    setSectionStarts(starts); // the effect above then moves the learner into the new section
+    setTick(Date.now());
+  }
+
   // ← / → between questions. Off while any overlay owns the keyboard.
-  const total = session?.questionIds.length ?? 0;
   const currentIndex = session?.currentIndex ?? 0;
   useExamKeyboardNavigation({
-    enabled: loaded && !!session && !isPaused && !showPalette && !showSubmitConfirm && !showMarkSheet && !isFinishing,
-    canGoPrevious: currentIndex > 0,
-    canGoNext: currentIndex < total - 1,
+    enabled: loaded && !!session && !isPaused && !showPalette && !showSubmitConfirm && !showMarkSheet && !showFinishSection && !isFinishing,
+    canGoPrevious: currentIndex > rangeStart,
+    canGoNext: currentIndex < rangeEnd - 1,
     onPrevious: () => navigateTo(currentIndex - 1),
     onNext: () => navigateTo(currentIndex + 1),
   });
@@ -221,10 +279,18 @@ export default function UniversalSessionPage() {
   const currentState = session.states[session.currentIndex];
   const isAnswered = currentState.selectedAnswer !== null;
   const isLast = session.currentIndex >= session.questionIds.length - 1;
+  /** Last question of the section that is open (the same as isLast when the test isn't sectional). */
+  const isLastOfSection = session.currentIndex >= rangeEnd - 1;
+  const endsASection = sectional && isLastOfSection && !isLast;
   const progress = ((session.currentIndex + 1) / session.questionIds.length) * 100;
   const unansweredCount = session.states.filter((s) => s.selectedAnswer === null).length;
   const markedCount = session.states.filter((s) => effectivePurpose(s)).length;
   const currentPurpose = effectivePurpose(currentState);
+  // Everything this question carries: the purposes saved to Review Center plus the in-test "mark for review" flag.
+  const currentMarkSet = normalizePurposes([
+    ...(currentQuestion ? savedPurposes(savedMarks.find((m) => m.id === savedMarkId(currentQuestion.id)) ?? {}) : []),
+    currentState?.isMarkedForReview ? 'review' : undefined,
+  ]);
   const displayAttempts = toDisplayAttempts(session.questionIds, session.states, questionsById);
 
   function handleSelect(optionId: string) {
@@ -238,6 +304,7 @@ export default function UniversalSessionPage() {
   }
 
   function handleNext() {
+    if (endsASection) { setShowFinishSection(true); return; }
     if (isLast) {
       if (isTestMode) setShowSubmitConfirm(true);
       else finishAndRecord();
@@ -247,15 +314,14 @@ export default function UniversalSessionPage() {
   }
 
   /** Records the chosen purpose on the session, and — for purposes that outlive this test — in the Review Center, telling the learner only once that write has succeeded. */
-  async function applyMark(purpose: MarkPurpose | null) {
-    const index = session!.currentIndex;
-    setShowMarkSheet(false);
-    setMarkPurpose(purpose, index);
+  async function applyMarks(next: MarkPurpose[]) {
+    setMarks(next, session!.currentIndex);
     if (!currentQuestion) return;
     try {
-      const saved = await syncQuestionMark(currentQuestion, purpose, session!.config.label);
-      if (purpose === null) toast('Mark removed', { id: 'mark-toast' });
-      else if (saved) toast.success(`Saved for ${getMarkPurposeInfo(purpose)?.label.toLowerCase()} — find it in Review Center`, { id: 'mark-toast' });
+      const saved = await syncQuestionMark(currentQuestion, next, session!.config.label);
+      const labels = savedPurposes({ purposes: next }).map((p) => getMarkPurposeInfo(p)?.label.split(' / ')[0].toLowerCase());
+      if (next.length === 0) toast('Mark removed', { id: 'mark-toast' });
+      else if (saved) toast.success(`Saved for ${labels.join(' + ')} — find it in Review Center`, { id: 'mark-toast' });
       else toast.success('Marked for review in this test', { id: 'mark-toast' });
     } catch (err) {
       console.error('Could not save question mark', err);
@@ -286,14 +352,19 @@ export default function UniversalSessionPage() {
           </div>
         </div>
         <div className="flex items-center gap-1 sm:gap-2 flex-shrink-0">
-          <QuizTimer
-            startTime={session.startedAt}
-            totalPausedTime={session.totalPausedTime}
-            isPaused={!!session.pausedAt}
-            pausedAt={session.pausedAt}
-            durationSeconds={session.config.durationSeconds}
-            onExpire={session.config.durationSeconds ? handleExpire : undefined}
-          />
+          {sectionState && activeSection && timing?.sections ? (
+            <SectionTimerBadge sectionLabel={activeSection.label} sectionNumber={sectionState.activeIndex + 1} sectionCount={timing.sections.length}
+              sectionRemainingSeconds={sectionState.sectionRemainingSeconds} totalRemainingSeconds={sectionState.totalRemainingSeconds} />
+          ) : (
+            <QuizTimer
+              startTime={session.startedAt}
+              totalPausedTime={session.totalPausedTime}
+              isPaused={!!session.pausedAt}
+              pausedAt={session.pausedAt}
+              durationSeconds={session.config.durationSeconds}
+              onExpire={session.config.durationSeconds ? handleExpire : undefined}
+            />
+          )}
           {/* Pause is deliberately unavailable in Test Mode — a timed exam
               shouldn't be arbitrarily pausable (Phase 8.5 §9). Practice
               Mode keeps it since there's no clock pressure to protect. */}
@@ -323,7 +394,7 @@ export default function UniversalSessionPage() {
         className="px-3 sm:px-4 py-2.5 rounded-xl text-xs sm:text-sm font-medium flex items-center gap-1 disabled:opacity-40 disabled:cursor-not-allowed"
         style={{ background: 'var(--card)', color: 'var(--text-secondary)', border: '1px solid var(--border)' }}
         onClick={() => navigateTo(session.currentIndex - 1)}
-        disabled={session.currentIndex === 0}
+        disabled={session.currentIndex <= rangeStart}
       >
         <ChevronLeft size={14} /> Previous
       </button>
@@ -339,11 +410,11 @@ export default function UniversalSessionPage() {
         }}
       >
         <Flag size={14} fill={currentPurpose ? 'currentColor' : 'none'} />
-        <span>{currentPurpose ? getMarkPurposeInfo(currentPurpose)?.badge === '⚑' ? 'Marked' : getMarkPurposeInfo(currentPurpose)?.label.split(' / ')[0] : 'Mark'}</span>
+        <span>{currentPurpose ? getMarkPurposeInfo(currentPurpose)?.badge === '⚑' ? 'Marked' : getMarkPurposeInfo(currentPurpose)?.label.split(' / ')[0] : 'Mark'}{currentMarkSet.length > 1 ? ` +${currentMarkSet.length - 1}` : ''}</span>
       </button>
       <button className="btn-primary px-4 sm:px-5 py-2.5 text-xs sm:text-sm flex items-center gap-1" onClick={handleNext} disabled={isFinishing}>
-        {isLast ? (isTestMode ? 'Submit Test' : 'Finish') : isTestMode ? 'Next' : isAnswered ? 'Next' : 'Skip'}
-        {!isLast && <ChevronRight size={14} />}
+        {endsASection ? 'Finish Section' : isLast ? (isTestMode ? 'Submit Test' : 'Finish') : isTestMode ? 'Next' : isAnswered ? 'Next' : 'Skip'}
+        {!isLast && !endsASection && <ChevronRight size={14} />}
       </button>
     </div>
   );
@@ -358,10 +429,10 @@ export default function UniversalSessionPage() {
     <>
       <MarkPurposeSheet
         open={showMarkSheet}
-        current={currentPurpose}
+        selected={currentMarkSet}
         questionNumber={session.currentIndex + 1}
-        onSelect={(p) => applyMark(p)}
-        onRemove={() => applyMark(null)}
+        onToggle={(p) => applyMarks(toggleMarkPurpose(currentMarkSet, p))}
+        onRemove={() => applyMarks([])}
         onClose={() => setShowMarkSheet(false)}
       />
 
@@ -376,6 +447,17 @@ export default function UniversalSessionPage() {
           </motion.div>
         )}
       </AnimatePresence>
+
+      <ConfirmDialog
+        open={showFinishSection}
+        title={`Finish ${activeSection?.label ?? 'this section'}?`}
+        confirmLabel="Finish section"
+        onConfirm={confirmFinishSection}
+        onCancel={() => setShowFinishSection(false)}
+      >
+        <p>You won't be able to come back to <strong>{activeSection?.label}</strong> once you move on, and its unused time is lost.</p>
+        <p>{activeSection ? session.states.slice(activeSection.startIndex, activeSection.endIndex).filter((q) => q.selectedAnswer === null).length : 0} question(s) in this section are unanswered.</p>
+      </ConfirmDialog>
 
       <SubmitTestDialog
         open={showSubmitConfirm}
@@ -397,7 +479,7 @@ export default function UniversalSessionPage() {
                 <button onClick={() => setShowPalette(false)} className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10" aria-label="Close palette"><X size={16} style={{ color: 'var(--text-secondary)' }} /></button>
               </div>
               <div className="flex-1 min-h-0 overflow-y-auto px-4 pb-3">
-                <QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={(idx) => { navigateTo(idx); setShowPalette(false); }} hideCorrectness={isTestMode} />
+                <QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={(idx) => { navigateTo(idx); setShowPalette(false); }} hideCorrectness={isTestMode} lockedIndices={lockedIndices} lockedReason={lockedReason} />
               </div>
               <div className="flex-shrink-0 p-4" style={{ borderTop: '1px solid var(--border)' }}>
                 <button type="button" onClick={() => { setShowPalette(false); setShowSubmitConfirm(true); }} className="btn-primary w-full flex items-center justify-center gap-2 text-sm py-2.5"><Send size={14} /> Submit Test</button>
@@ -414,17 +496,17 @@ export default function UniversalSessionPage() {
       header={header}
       footer={footer}
       overlays={overlays}
-      palette={<QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={navigateTo} hideCorrectness={isTestMode} />}
+      palette={<QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={navigateTo} hideCorrectness={isTestMode} lockedIndices={lockedIndices} lockedReason={lockedReason} />}
       paletteFooter={submitButton}
       floating={
-        // Only when correctness is actually on screen: Practice, after answering. Test mode never reveals it, so no controls there.
-        !isTestMode && isAnswered && currentQuestion ? (
-          <FloatingQuestionNav canPrevious={session.currentIndex > 0} canNext={!isLast} onPrevious={() => navigateTo(session.currentIndex - 1)} onNext={() => navigateTo(session.currentIndex + 1)} />
+        // Test mode: always (moving between questions reveals nothing). Practice: once the answer's feedback is on screen, as before.
+        (isTestMode || isAnswered) && currentQuestion ? (
+          <FloatingQuestionNav canPrevious={session.currentIndex > rangeStart} canNext={session.currentIndex < rangeEnd - 1} onPrevious={() => navigateTo(session.currentIndex - 1)} onNext={() => navigateTo(session.currentIndex + 1)} />
         ) : null
       }
     >
       <AnimatePresence mode="wait">
-        <motion.div key={session.currentIndex} initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.15 }} className={`py-4 sm:py-6 ${isTestMode ? 'px-3 sm:px-5 lg:px-8' : 'px-3 sm:px-5 md:px-16 pb-16 md:pb-6'}`}>
+        <motion.div key={session.currentIndex} initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.15 }} className="py-4 sm:py-6 px-10 sm:px-14 md:px-16 pb-6">
           {!currentQuestion ? (
             // Question resolution failed — show it plainly rather than crash or silently substitute another question (master prompt §22).
             <div className="flex items-start gap-3 p-4 rounded-xl" style={{ background: 'rgba(239,68,68,0.08)' }}>

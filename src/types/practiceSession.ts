@@ -16,6 +16,27 @@ export interface SessionNegativeMarking {
   negativeMarks: number;
 }
 
+/** One timed block of a sectional test. Questions [startIndex, endIndex) belong to it. */
+export interface SessionSection {
+  id: string;
+  label: string;
+  startIndex: number;
+  /** Exclusive. */
+  endIndex: number;
+  durationSeconds: number;
+}
+
+/**
+ * How a test is timed when the learner chose their own timing (absent = the app's default / older sessions).
+ * `overall`: one countdown. `sectional`: one countdown per section, in order; a section can't be revisited after it ends.
+ * config.durationSeconds always equals overallSeconds, so everything that already reads it keeps working.
+ */
+export interface SessionTiming {
+  mode: 'overall' | 'sectional';
+  overallSeconds: number;
+  sections?: SessionSection[];
+}
+
 export interface PracticeConfiguration {
   examId: string;
   subjectIds: string[];
@@ -26,6 +47,8 @@ export interface PracticeConfiguration {
   mode: SessionMode;
   /** Test-mode only. */
   durationSeconds?: number;
+  /** Learner-configured timing (overall or sectional). See SessionTiming. */
+  timing?: SessionTiming;
   marking?: SessionNegativeMarking;
   testType?: 'sectional' | 'full';
   /** Present when started from a specific PracticeTestDefinition card (an exam mock, chapter test, or miscellaneous set) rather than free-form Quick Practice — enables per-test attempt statistics (product-refactor §89-90). */
@@ -59,6 +82,11 @@ export interface PracticeSession {
   pausedAt?: number;
   totalPausedTime: number;
   visitedIndices: number[];
+  /**
+   * Sectional tests only: for each section entered so far, the session-elapsed seconds (pause/away time excluded) at which it
+   * began. The active section is derived from this plus the elapsed clock, so a refresh or a long absence restores it exactly.
+   */
+  sectionStarts?: number[];
 
   // ── Resumability (all optional: sessions saved before multi-session resume lack them) ──
   /** Set automatically when the learner leaves the test with the clock running; folded into totalPausedTime when they come back. Distinct from pausedAt, which is the learner's own explicit Pause. */

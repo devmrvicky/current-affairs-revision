@@ -7,45 +7,31 @@ interface FloatingQuestionNavProps {
   onNext: () => void;
 }
 
+// Large, edge-hugging tabs at the vertical centre of the question area: 40×80 px on phones, 48×96 px from tablets up —
+// well past the 44 px touch-target minimum and reachable with a thumb on either side. They are translucent so a long line
+// is never fully hidden, and the page keeps side padding so they never cover text or options.
 const BUTTON =
-  'pointer-events-auto absolute w-9 h-9 md:w-10 md:h-10 rounded-full flex items-center justify-center shadow-md transition-all ' +
-  'hover:scale-105 hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500 ' +
-  'disabled:opacity-30 disabled:cursor-not-allowed disabled:hover:scale-100 disabled:hover:shadow-md';
+  'pointer-events-auto absolute top-1/2 -translate-y-1/2 w-10 h-20 md:w-12 md:h-24 flex items-center justify-center shadow-lg transition-opacity backdrop-blur-sm ' +
+  'focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand-500 ' +
+  'enabled:hover:opacity-100 enabled:active:scale-95 disabled:opacity-25 disabled:cursor-not-allowed';
 
 /**
- * Subtle previous/next question buttons floating at the edges of the question area. They are only rendered
- * once the answer's correctness is on screen (Practice, after answering) — never to reveal it — and they call
- * the same navigation as the footer buttons, the palette and the arrow keys, so there is one way to change
- * question. Beside the question on wider screens; in the bottom corners on phones (the page reserves room so
- * they never sit on text or options).
+ * Previous / Next question controls on the left and right sides of the question area.
+ * They only move between questions — they never show whether an answer is right — and they call the same navigation as the
+ * footer buttons, the palette and the arrow keys, so there is one way to change question (and time is always banked).
+ * The page decides when they appear: always in Test mode; in Practice once the answer's feedback is on screen.
  */
 export function FloatingQuestionNav({ canPrevious, canNext, onPrevious, onNext }: FloatingQuestionNavProps) {
-  const style = { background: 'var(--card)', border: '1px solid var(--border)', color: 'var(--text-secondary)' };
+  const style = { background: 'color-mix(in srgb, var(--card) 88%, transparent)', border: '1px solid var(--border)', color: 'var(--text-primary)', opacity: 0.92 };
   return (
     <>
-      <button
-        type="button"
-        onClick={onPrevious}
-        disabled={!canPrevious}
-        aria-label="Previous question"
-        title="Previous question"
-        data-testid="floating-prev"
-        className={`${BUTTON} left-1.5 bottom-3 md:left-3 md:bottom-auto md:top-1/2 md:-translate-y-1/2`}
-        style={style}
-      >
-        <ChevronLeft size={18} />
+      <button type="button" onClick={onPrevious} disabled={!canPrevious} aria-label="Previous question" title="Previous question" data-testid="floating-prev"
+        className={`${BUTTON} left-0 rounded-r-2xl border-l-0`} style={style}>
+        <ChevronLeft size={28} aria-hidden />
       </button>
-      <button
-        type="button"
-        onClick={onNext}
-        disabled={!canNext}
-        aria-label="Next question"
-        title="Next question"
-        data-testid="floating-next"
-        className={`${BUTTON} right-1.5 bottom-3 md:right-3 md:bottom-auto md:top-1/2 md:-translate-y-1/2`}
-        style={style}
-      >
-        <ChevronRight size={18} />
+      <button type="button" onClick={onNext} disabled={!canNext} aria-label="Next question" title="Next question" data-testid="floating-next"
+        className={`${BUTTON} right-0 rounded-l-2xl border-r-0`} style={style}>
+        <ChevronRight size={28} aria-hidden />
       </button>
     </>
   );

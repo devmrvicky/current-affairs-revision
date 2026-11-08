@@ -15,8 +15,9 @@ import { useSessionPresence } from '../hooks/useSessionPresence';
 import { useExitTest } from '../hooks/useExitTest';
 import { SubmitTestDialog } from '../components/exam/SubmitTestDialog';
 import { MarkPurposeSheet } from '../components/exam/MarkPurposeSheet';
-import { syncQuestionMark } from '../services/questionMarkService';
-import { effectivePurpose, getMarkPurposeInfo, type MarkPurpose } from '../types/questionMark';
+import { savedMarkId, syncQuestionMark } from '../services/questionMarkService';
+import { useMarkedReviewStore } from '../store/markedReviewStore';
+import { effectivePurpose, getMarkPurposeInfo, normalizePurposes, savedPurposes, toggleMarkPurpose, type MarkPurpose } from '../types/questionMark';
 import { QuestionMarkdownRenderer, QuestionOptionContent } from '../components/mock/QuestionMarkdownRenderer';
 import type { UniversalQuestion } from '../types/universalQuestion';
 
@@ -24,9 +25,11 @@ export default function MockTestShellPage() {
   const { mockId } = useParams<{ mockId: string }>();
   const navigate = useNavigate();
   const {
-    session, visitQuestion, selectAnswer, setMarkPurpose, recordTimeSpent,
+    session, visitQuestion, selectAnswer, setMarks, recordTimeSpent,
     goToQuestion, nextQuestion, prevQuestion, advanceSection, completeSession,
   } = useMockSessionStore();
+  // Saved Review Center marks: the purposes a question carries beyond this test. (A hook — keep it above every early return.)
+  const savedMarks = useMarkedReviewStore((st) => st.items);
 
   const [questionsById, setQuestionsById] = useState<Map<string, UniversalQuestion>>(new Map());
   const [loaded, setLoaded] = useState(false);
@@ -187,16 +190,16 @@ export default function MockTestShellPage() {
     selectAnswer(currentQuestionId, optionId);
   }
 
-  async function applyMark(purpose: MarkPurpose | null) {
+  async function applyMarks(next: MarkPurpose[]) {
     if (!currentQuestionId) return;
-    setShowMarkSheet(false);
     flushTimeSpent();
-    setMarkPurpose(currentQuestionId, purpose);
+    setMarks(currentQuestionId, next);
     if (!currentQuestion) return;
     try {
-      const saved = await syncQuestionMark(currentQuestion, purpose, session!.title);
-      if (purpose === null) toast('Mark removed', { id: 'mark-toast' });
-      else if (saved) toast.success(`Saved for ${getMarkPurposeInfo(purpose)?.label.toLowerCase()} — find it in Review Center`, { id: 'mark-toast' });
+      const saved = await syncQuestionMark(currentQuestion, next, session!.title);
+      const labels = savedPurposes({ purposes: next }).map((p) => getMarkPurposeInfo(p)?.label.split(' / ')[0].toLowerCase());
+      if (next.length === 0) toast('Mark removed', { id: 'mark-toast' });
+      else if (saved) toast.success(`Saved for ${labels.join(' + ')} — find it in Review Center`, { id: 'mark-toast' });
       else toast.success('Marked for review in this test', { id: 'mark-toast' });
     } catch (err) {
       console.error('Could not save question mark', err);
@@ -251,6 +254,10 @@ export default function MockTestShellPage() {
   const markedCount = session.sections.flatMap((s) => s.questionIds).filter((qid) => (session.states[qid] && effectivePurpose(session.states[qid]))).length;
 
   const currentPurpose = currentState ? effectivePurpose(currentState) : undefined;
+  const currentMarkSet = normalizePurposes([
+    ...(currentQuestion ? savedPurposes(savedMarks.find((m) => m.id === savedMarkId(currentQuestion.id)) ?? {}) : []),
+    currentState?.isMarkedForReview ? 'review' : undefined,
+  ]);
 
   const header = (
     <div className="px-3 sm:px-4 min-h-14 py-2 flex items-center justify-between gap-2 sm:gap-4">
@@ -333,10 +340,10 @@ export default function MockTestShellPage() {
     <>
       <MarkPurposeSheet
         open={showMarkSheet}
-        current={currentPurpose}
+        selected={currentMarkSet}
         questionNumber={currentIndexInSection + 1}
-        onSelect={(p) => applyMark(p)}
-        onRemove={() => applyMark(null)}
+        onToggle={(p) => applyMarks(toggleMarkPurpose(currentMarkSet, p))}
+        onRemove={() => applyMarks([])}
         onClose={() => setShowMarkSheet(false)}
       />
 

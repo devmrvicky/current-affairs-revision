@@ -6,6 +6,7 @@
 
 import type { PracticeConfiguration, SessionMode, SessionNegativeMarking } from '../types/practiceSession';
 import type { PracticeTestDefinition } from './testLibraryBuilder';
+import { resolveTiming, validateTimingSpec, type TimingSpec } from './sessionTiming';
 
 const DEFAULT_MARKING: SessionNegativeMarking = { marksPerCorrect: 1, negativeMarks: 0 };
 
@@ -19,8 +20,11 @@ export function testSessionLabel(test: PracticeTestDefinition): string {
  * mode. Question order is the file's own order (no reshuffle) — a fixed test is
  * the same paper every time.
  */
-export function buildTestConfig(test: PracticeTestDefinition, mode: SessionMode, marking?: SessionNegativeMarking): PracticeConfiguration {
+export function buildTestConfig(test: PracticeTestDefinition, mode: SessionMode, marking?: SessionNegativeMarking, timingSpec?: TimingSpec): PracticeConfiguration {
   const useTestMode = test.isFixedMock || mode === 'test';
+  const defaultSeconds = Math.max(300, test.questionCount * 90);
+  // The learner's own timing, when they set one and it fits this test; otherwise the long-standing default, unchanged.
+  const chosen = timingSpec && validateTimingSpec(timingSpec, test.questionCount) === null ? resolveTiming(timingSpec, test.questionCount, defaultSeconds) : { durationSeconds: defaultSeconds };
   return {
     examId: test.examId,
     subjectIds: [test.subjectId],
@@ -34,7 +38,8 @@ export function buildTestConfig(test: PracticeTestDefinition, mode: SessionMode,
           // No per-file duration metadata for chapter tests/mocks yet — a
           // reasonable 90s/question default rather than the exam's full mock
           // duration, which would be misleadingly generous for a short set.
-          durationSeconds: Math.max(300, test.questionCount * 90),
+          ...(chosen.durationSeconds !== undefined ? { durationSeconds: chosen.durationSeconds } : {}),
+          ...(chosen.timing ? { timing: chosen.timing } : {}),
           testType: test.isFixedMock ? ('sectional' as const) : undefined,
         }
       : {}),
