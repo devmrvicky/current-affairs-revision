@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "vocab051",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The doctor advised him to abstain ___ smoking for a month.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to"
+      },
+      {
+        "id": "B",
+        "text": "from"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "of"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab052",
+    "subjectId": "english",
+    "question": "Choose the option that improves the underlined part: The teacher advised him to abstain for bad company.",
+    "options": [
+      {
+        "id": "A",
+        "text": "abstain to bad company"
+      },
+      {
+        "id": "B",
+        "text": "abstain with bad company"
+      },
+      {
+        "id": "C",
+        "text": "abstain from bad company"
+      },
+      {
+        "id": "D",
+        "text": "No improvement required"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab053",
+    "subjectId": "english",
+    "question": "Choose the grammatically correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "He abstained to consume alcohol."
+      },
+      {
+        "id": "B",
+        "text": "He abstained from consuming alcohol."
+      },
+      {
+        "id": "C",
+        "text": "He abstained with consuming alcohol."
+      },
+      {
+        "id": "D",
+        "text": "He abstained of consuming alcohol."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab054",
+    "subjectId": "english",
+    "question": "Choose the correct preposition: The authorities ordered the factory to desist ___ dumping untreated waste.",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "from"
+      },
+      {
+        "id": "D",
+        "text": "of"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab055",
+    "subjectId": "english",
+    "question": "Choose the option that improves the sentence: The officer warned the traders to desist to overcharging customers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "desist with overcharging"
+      },
+      {
+        "id": "B",
+        "text": "desist from overcharging"
+      },
+      {
+        "id": "C",
+        "text": "desist of overcharging"
+      },
+      {
+        "id": "D",
+        "text": "No improvement required"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab056",
+    "subjectId": "english",
+    "question": "Select the grammatically correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The court directed the accused to desist from threatening the witness."
+      },
+      {
+        "id": "B",
+        "text": "The court directed the accused to desist of threatening the witness."
+      },
+      {
+        "id": "C",
+        "text": "The court directed the accused to desist at threatening the witness."
+      },
+      {
+        "id": "D",
+        "text": "The court directed the accused to desist with threatening the witness."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab057",
+    "subjectId": "english",
+    "question": "Fill in the blank: The committee is fully aware ___ the financial risks involved.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "at"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab058",
+    "subjectId": "english",
+    "question": "Choose the correct replacement: The manager is aware about the consequences of the decision.",
+    "options": [
+      {
+        "id": "A",
+        "text": "aware for the consequences"
+      },
+      {
+        "id": "B",
+        "text": "aware with the consequences"
+      },
+      {
+        "id": "C",
+        "text": "aware of the consequences"
+      },
+      {
+        "id": "D",
+        "text": "No improvement required"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab059",
+    "subjectId": "english",
+    "question": "Choose the grammatically correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Are you aware from the new rules?"
+      },
+      {
+        "id": "B",
+        "text": "Are you aware to the new rules?"
+      },
+      {
+        "id": "C",
+        "text": "Are you aware of the new rules?"
+      },
+      {
+        "id": "D",
+        "text": "Are you aware with the new rules?"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab060",
+    "subjectId": "english",
+    "question": "Choose the correct preposition: The coach was proud ___ his team's discipline and determination.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "for"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab061",
+    "subjectId": "english",
+    "question": "Choose the option that improves the sentence: She is proud for having completed the difficult assignment.",
+    "options": [
+      {
+        "id": "A",
+        "text": "proud at having completed"
+      },
+      {
+        "id": "B",
+        "text": "proud with having completed"
+      },
+      {
+        "id": "C",
+        "text": "proud of having completed"
+      },
+      {
+        "id": "D",
+        "text": "No improvement required"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab062",
+    "subjectId": "english",
+    "question": "Select the grammatically correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "His parents are proud of his achievements."
+      },
+      {
+        "id": "B",
+        "text": "His parents are proud for his achievements."
+      },
+      {
+        "id": "C",
+        "text": "His parents are proud with his achievements."
+      },
+      {
+        "id": "D",
+        "text": "His parents are proud at his achievements."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab063",
+    "subjectId": "english",
+    "question": "Fill in the blank: New employees must adjust ___ the revised work schedule.",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "by"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "for"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab064",
+    "subjectId": "english",
+    "question": "Choose the option that improves the underlined part: The village has adjusted with the changing weather conditions.",
+    "options": [
+      {
+        "id": "A",
+        "text": "adjusted for the changing weather conditions"
+      },
+      {
+        "id": "B",
+        "text": "adjusted to the changing weather conditions"
+      },
+      {
+        "id": "C",
+        "text": "adjusted by the changing weather conditions"
+      },
+      {
+        "id": "D",
+        "text": "No improvement required"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab065",
+    "subjectId": "english",
+    "question": "Choose the grammatically correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is not easy to adjust with living in a crowded city."
+      },
+      {
+        "id": "B",
+        "text": "It is not easy to adjust to living in a crowded city."
+      },
+      {
+        "id": "C",
+        "text": "It is not easy to adjust of living in a crowded city."
+      },
+      {
+        "id": "D",
+        "text": "It is not easy to adjust at living in a crowded city."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab066",
+    "subjectId": "english",
+    "question": "Fill in the blank: It took the child a few weeks to become accustomed ___ the school routine.",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "for"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "at"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab067",
+    "subjectId": "english",
+    "question": "Choose the option that improves the sentence: Parents should accustom their children with regular reading.",
+    "options": [
+      {
+        "id": "A",
+        "text": "accustom their children to regular reading"
+      },
+      {
+        "id": "B",
+        "text": "accustom their children at regular reading"
+      },
+      {
+        "id": "C",
+        "text": "accustom their children for regular reading"
+      },
+      {
+        "id": "D",
+        "text": "No improvement required"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab068",
+    "subjectId": "english",
+    "question": "Select the grammatically correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "She is accustomed with waking up before sunrise."
+      },
+      {
+        "id": "B",
+        "text": "She is accustomed to waking up before sunrise."
+      },
+      {
+        "id": "C",
+        "text": "She is accustomed at waking up before sunrise."
+      },
+      {
+        "id": "D",
+        "text": "She is accustomed for waking up before sunrise."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab069",
+    "subjectId": "english",
+    "question": "Choose the correct preposition: This parcel belongs ___ my neighbour.",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "to"
+      },
+      {
+        "id": "C",
+        "text": "for"
+      },
+      {
+        "id": "D",
+        "text": "at"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab070",
+    "subjectId": "english",
+    "question": "Choose the option that improves the sentence: These historical manuscripts belong for the university library.",
+    "options": [
+      {
+        "id": "A",
+        "text": "belong at the university library"
+      },
+      {
+        "id": "B",
+        "text": "belong with the university library"
+      },
+      {
+        "id": "C",
+        "text": "belong to the university library"
+      },
+      {
+        "id": "D",
+        "text": "No improvement required"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab071",
+    "subjectId": "english",
+    "question": "Select the grammatically correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "This responsibility belongs to every citizen."
+      },
+      {
+        "id": "B",
+        "text": "This responsibility belongs for every citizen."
+      },
+      {
+        "id": "C",
+        "text": "This responsibility belongs with every citizen."
+      },
+      {
+        "id": "D",
+        "text": "This responsibility belongs at every citizen."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab072",
+    "subjectId": "english",
+    "question": "Fill in the blank: You can rely ___ her judgement in difficult situations.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "of"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab073",
+    "subjectId": "english",
+    "question": "Choose the option that improves the sentence: The rescue team relied in local volunteers during the flood.",
+    "options": [
+      {
+        "id": "A",
+        "text": "relied at local volunteers"
+      },
+      {
+        "id": "B",
+        "text": "relied of local volunteers"
+      },
+      {
+        "id": "C",
+        "text": "relied on local volunteers"
+      },
+      {
+        "id": "D",
+        "text": "No improvement required"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab074",
+    "subjectId": "english",
+    "question": "Choose the grammatically correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "A good team relies on mutual trust."
+      },
+      {
+        "id": "B",
+        "text": "A good team relies at mutual trust."
+      },
+      {
+        "id": "C",
+        "text": "A good team relies with mutual trust."
+      },
+      {
+        "id": "D",
+        "text": "A good team relies to mutual trust."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab075",
+    "subjectId": "english",
+    "question": "Fill in the blank: The union insisted ___ a written agreement before resuming work.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "for"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab076",
+    "subjectId": "english",
+    "question": "Choose the option that improves the sentence: He insisted to pay the entire bill himself.",
+    "options": [
+      {
+        "id": "A",
+        "text": "insisted for paying the entire bill himself"
+      },
+      {
+        "id": "B",
+        "text": "insisted on paying the entire bill himself"
+      },
+      {
+        "id": "C",
+        "text": "insisted at paying the entire bill himself"
+      },
+      {
+        "id": "D",
+        "text": "No improvement required"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab077",
+    "subjectId": "english",
+    "question": "Select the grammatically correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The students insisted in being heard."
+      },
+      {
+        "id": "B",
+        "text": "The students insisted at being heard."
+      },
+      {
+        "id": "C",
+        "text": "The students insisted on being heard."
+      },
+      {
+        "id": "D",
+        "text": "The students insisted with being heard."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab078",
+    "subjectId": "english",
+    "question": "Fill in the blank: She has not fully recovered ___ the illness yet.",
+    "options": [
+      {
+        "id": "A",
+        "text": "of"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "from"
+      },
+      {
+        "id": "D",
+        "text": "at"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab079",
+    "subjectId": "english",
+    "question": "Choose the option that improves the sentence: The local economy is slowly recovering of the recent setback.",
+    "options": [
+      {
+        "id": "A",
+        "text": "recovering with the recent setback"
+      },
+      {
+        "id": "B",
+        "text": "recovering from the recent setback"
+      },
+      {
+        "id": "C",
+        "text": "recovering at the recent setback"
+      },
+      {
+        "id": "D",
+        "text": "No improvement required"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab080",
+    "subjectId": "english",
+    "question": "Choose the grammatically correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "He recovered from the injury after months of treatment."
+      },
+      {
+        "id": "B",
+        "text": "He recovered of the injury after months of treatment."
+      },
+      {
+        "id": "C",
+        "text": "He recovered with the injury after months of treatment."
+      },
+      {
+        "id": "D",
+        "text": "He recovered at the injury after months of treatment."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab081",
+    "subjectId": "english",
+    "question": "Fill in the blank: Many road accidents result ___ reckless driving.",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "from"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "to"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab082",
+    "subjectId": "english",
+    "question": "Choose the option that improves the sentence: The delay resulted of poor planning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "resulted at poor planning"
+      },
+      {
+        "id": "B",
+        "text": "resulted with poor planning"
+      },
+      {
+        "id": "C",
+        "text": "resulted from poor planning"
+      },
+      {
+        "id": "D",
+        "text": "No improvement required"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab083",
+    "subjectId": "english",
+    "question": "Select the grammatically correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The misunderstanding resulted from a lack of communication."
+      },
+      {
+        "id": "B",
+        "text": "The misunderstanding resulted with a lack of communication."
+      },
+      {
+        "id": "C",
+        "text": "The misunderstanding resulted at a lack of communication."
+      },
+      {
+        "id": "D",
+        "text": "The misunderstanding resulted for a lack of communication."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab084",
+    "subjectId": "english",
+    "question": "Fill in the blank: The audience was surprised ___ the sudden announcement.",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "by to"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "for"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab085",
+    "subjectId": "english",
+    "question": "Choose the option that improves the sentence: I was surprised with his unexpected decision.",
+    "options": [
+      {
+        "id": "A",
+        "text": "surprised at his unexpected decision"
+      },
+      {
+        "id": "B",
+        "text": "surprised for his unexpected decision"
+      },
+      {
+        "id": "C",
+        "text": "surprised of his unexpected decision"
+      },
+      {
+        "id": "D",
+        "text": "No improvement required"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab086",
+    "subjectId": "english",
+    "question": "Choose the grammatically correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Everyone was surprised at the speed of her recovery."
+      },
+      {
+        "id": "B",
+        "text": "Everyone was surprised to the speed of her recovery."
+      },
+      {
+        "id": "C",
+        "text": "Everyone was surprised with the speed of her recovery."
+      },
+      {
+        "id": "D",
+        "text": "Everyone was surprised for the speed of her recovery."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab087",
+    "subjectId": "english",
+    "question": "Fill in both blanks: After repeated warnings, the factory agreed to desist ___ polluting the river and abstain ___ using harmful chemicals.",
+    "options": [
+      {
+        "id": "A",
+        "text": "of / to"
+      },
+      {
+        "id": "B",
+        "text": "from / from"
+      },
+      {
+        "id": "C",
+        "text": "at / with"
+      },
+      {
+        "id": "D",
+        "text": "with / of"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab088",
+    "subjectId": "english",
+    "question": "Choose the correct pair of prepositions: The villagers were aware ___ the danger and relied ___ the rescue team.",
+    "options": [
+      {
+        "id": "A",
+        "text": "about / with"
+      },
+      {
+        "id": "B",
+        "text": "of / on"
+      },
+      {
+        "id": "C",
+        "text": "for / at"
+      },
+      {
+        "id": "D",
+        "text": "to / from"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab089",
+    "subjectId": "english",
+    "question": "Choose the grammatically correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The recruits adjusted to the climate and soon became accustomed to the routine."
+      },
+      {
+        "id": "B",
+        "text": "The recruits adjusted with the climate and soon became accustomed with the routine."
+      },
+      {
+        "id": "C",
+        "text": "The recruits adjusted for the climate and soon became accustomed at the routine."
+      },
+      {
+        "id": "D",
+        "text": "The recruits adjusted at the climate and soon became accustomed for the routine."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "vocab090",
+    "subjectId": "english",
+    "question": "Choose the correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The residents were surprised at the announcement, which resulted from a clerical error."
+      },
+      {
+        "id": "B",
+        "text": "The residents were surprised with the announcement, which resulted at a clerical error."
+      },
+      {
+        "id": "C",
+        "text": "The residents were surprised for the announcement, which resulted of a clerical error."
+      },
+      {
+        "id": "D",
+        "text": "The residents were surprised to the announcement, which resulted with a clerical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  }
+]
