@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "grammar451",
+    "subjectId": "english",
+    "question": "Select the correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Seldom the House witnessed such a unanimous endorsement of a controversial bill."
+      },
+      {
+        "id": "B",
+        "text": "Seldom has the House witnessed such a unanimous endorsement of a controversial bill."
+      },
+      {
+        "id": "C",
+        "text": "Seldom the House has witnessed such a unanimous endorsement of a controversial bill."
+      },
+      {
+        "id": "D",
+        "text": "Seldom did the House witnessed such a unanimous endorsement of a controversial bill."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "inversion",
+    "difficulty": "hard",
+    "explanation": "नियम: Negative / restrictive adverbs (Never, Seldom, Rarely, Scarcely ever, Hardly ever, Barely, Nowhere, Never before, Never in the history of ...) वाक्य की शुरुआत में आएँ तो Subject–Verb का inversion होता है: Adverb + Auxiliary + Subject + Main verb। Auxiliary tense के अनुसार लगता है — Simple Present: do / does; Simple Past: did; Perfect: has / have / had; Modal: can / could / will / should आदि। Main verb अपने मूल रूप में लौट जाती है (Seldom does he visit ✓; Seldom he visits ✗; Never did I see ✓, 'did I saw' ✗)। जब ऐसा adverb वाक्य के बीच में आता है तो inversion नहीं होता (He seldom visits ✓)।\n\nयहाँ: Seldom से शुरू वाक्य में Auxiliary + Subject + V3 आता है: 'Seldom has the House witnessed ...'। बाकी विकल्पों में या तो inversion नहीं है, या 'did' के साथ V2 (witnessed) लगा दी गई है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar452",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nSupposing you ____ the lottery tomorrow, what would you do with the money?",
+    "options": [
+      {
+        "id": "A",
+        "text": "have won"
+      },
+      {
+        "id": "B",
+        "text": "will win"
+      },
+      {
+        "id": "C",
+        "text": "would win"
+      },
+      {
+        "id": "D",
+        "text": "won"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "mood",
+    "difficulty": "medium",
+    "explanation": "नियम: Suppose / Supposing / What if / Imagine (काल्पनिक स्थिति): वर्तमान / भविष्य की अवास्तविक कल्पना के लिए Past Simple आता है (Supposing you won the lottery tomorrow, what would you do?); अतीत की कल्पना के लिए Past Perfect (Suppose he had failed, what would you have done?)। इनके बाद will / would / would have नहीं आता, और main clause का would / could (have) बताता है कि स्थिति काल्पनिक है। Subjunctive में काल का मेल दोनों clauses में ज़रूरी है।\n\nयहाँ: Supposing से काल्पनिक स्थिति के लिए Past Simple आता है, और main clause में would (what would you do) उसका जोड़ीदार है। will / would / have won इस पैटर्न में नहीं आते।",
+    "language": "en"
+  },
+  {
+    "id": "grammar453",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHad the government / would have acted promptly, / the epidemic could have been contained.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Had the government"
+      },
+      {
+        "id": "B",
+        "text": "would have acted promptly"
+      },
+      {
+        "id": "C",
+        "text": "the epidemic could have been contained"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "inversion",
+    "difficulty": "medium",
+    "explanation": "नियम: Conditional inversion: 'If' हटाकर auxiliary को subject से पहले लाया जा सकता है — Had + S + V3 (Type-3: Had I known, I would have helped); Were + S (+ to V1) (Type-2: Were he here, he would help; Were he to resign, ...); Should + S + V1 (Type-1 / औपचारिक: Should you need help, call me)। इस रूप में 'if' और inversion एक साथ नहीं आते (If had I known ✗)। 'Had' के बाद would have नहीं आता (Had I would have known ✗), और main clause का tense condition के type से मेल खाए।\n\nयहाँ: Conditional inversion में 'Had + Subject + V3' आता है, इसलिए 'Had the government acted promptly' सही है। 'Had' के बाद 'would have' नहीं लगता; would have केवल main clause (the epidemic could have been contained) में आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar454",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe first phase of the project was completed well ahead of schedule, and so ____ the second phase.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "did"
+      },
+      {
+        "id": "C",
+        "text": "was"
+      },
+      {
+        "id": "D",
+        "text": "has"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "inversion",
+    "difficulty": "medium",
+    "explanation": "नियम: So / Neither / Nor + Auxiliary + Subject (agreement): सकारात्मक बात के बाद So + auxiliary + subject (So do I); नकारात्मक बात के बाद Neither / Nor + auxiliary + subject (Neither does she; ..., nor has he)। Auxiliary वही दोहराया जाता है जो पहले clause में है (is → so is; has → neither has); बिना auxiliary वाली simple tense में do / does / did आता है। Neither / Nor स्वयं negative हैं, इसलिए auxiliary के साथ not नहीं लगता, और 'Nor / Neither the accountant had' जैसा सीधा क्रम गलत है — auxiliary subject से पहले आएगा।\n\nयहाँ: सकारात्मक बात के बाद 'so + auxiliary + subject' आता है और auxiliary वही दोहराया जाता है जो पहले clause में है। पहला clause 'was completed' है, इसलिए 'so was the second phase'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar455",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHardly had the speaker / began his address / when the microphone / stopped working.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hardly had the speaker"
+      },
+      {
+        "id": "B",
+        "text": "began his address"
+      },
+      {
+        "id": "C",
+        "text": "when the microphone"
+      },
+      {
+        "id": "D",
+        "text": "stopped working"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "inversion",
+    "difficulty": "easy",
+    "explanation": "नियम: No sooner ... than तथा Hardly / Scarcely / Barely ... when / before का अर्थ है 'जैसे ही ... वैसे ही'। वाक्य इन्हीं से शुरू हो तो पहले clause में inversion होता है (Had + Subject + V3) और दूसरे clause में सामान्य क्रम (Subject + V2)। No sooner के साथ केवल 'than' आता है; Hardly / Scarcely / Barely के साथ 'when' (या before), 'than' नहीं। पहला clause Past Perfect (had + V3) में होता है — 'Hardly did he finish' या 'No sooner he had come' जैसे रूप गलत हैं।\n\nयहाँ: Hardly had + Subject + V3 ... when ... पैटर्न में पहला clause Past Perfect (had + V3) में होता है। 'had the speaker began' गलत है — सही: 'Hardly had the speaker begun his address when the microphone stopped working.'",
+    "language": "en"
+  },
+  {
+    "id": "grammar456",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nNo sooner had the chief guest, a renowned economist and former central banker, / taken his seat on the dais / than the audience rose to applaud him.",
+    "options": [
+      {
+        "id": "A",
+        "text": "No sooner had the chief guest, a renowned economist and former central banker"
+      },
+      {
+        "id": "B",
+        "text": "taken his seat on the dais"
+      },
+      {
+        "id": "C",
+        "text": "than the audience rose to applaud him"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "inversion",
+    "difficulty": "hard",
+    "explanation": "नियम: No sooner ... than तथा Hardly / Scarcely / Barely ... when / before का अर्थ है 'जैसे ही ... वैसे ही'। वाक्य इन्हीं से शुरू हो तो पहले clause में inversion होता है (Had + Subject + V3) और दूसरे clause में सामान्य क्रम (Subject + V2)। No sooner के साथ केवल 'than' आता है; Hardly / Scarcely / Barely के साथ 'when' (या before), 'than' नहीं। पहला clause Past Perfect (had + V3) में होता है — 'Hardly did he finish' या 'No sooner he had come' जैसे रूप गलत हैं।\n\nयहाँ: वाक्य पूरी तरह सही है: No sooner + had + Subject + V3 ... than + Subject + V2 — inversion, Past Perfect और 'than' तीनों नियम के अनुसार हैं। इसलिए 'No error'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar457",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nIf I had known the truth earlier, / I would not have / trust him with the entire project.",
+    "options": [
+      {
+        "id": "A",
+        "text": "If I had known the truth earlier"
+      },
+      {
+        "id": "B",
+        "text": "I would not have"
+      },
+      {
+        "id": "C",
+        "text": "trust him with the entire project"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "mood",
+    "difficulty": "medium",
+    "explanation": "नियम: Unreal conditionals (Subjunctive): Type-2 (वर्तमान / भविष्य की काल्पनिक स्थिति) = If + Subject + V2 / were (सभी subjects के साथ) ..., main clause में would / could / might + V1 (If I were you, I would accept it)। Type-3 (अतीत की अवास्तविक स्थिति) = If + had + V3 ..., would have + V3। 'If' वाले clause में would / would have / will नहीं आता (If he would have worked ✗ → If he had worked ✓)। दोनों clauses के tense का मेल ज़रूरी है (If he had worked, he would have passed; If I were you, I would not ...)।\n\nयहाँ: Type-3 (अतीत की अवास्तविक स्थिति) में 'If + had + V3 ..., would have + V3' आता है। 'would not have' के बाद V3 'trusted' चाहिए, 'trust' नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar458",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nNot only [she topped the university examination] but she also bagged three gold medals for research.",
+    "options": [
+      {
+        "id": "A",
+        "text": "she has topped the university examination"
+      },
+      {
+        "id": "B",
+        "text": "did she top the university examination"
+      },
+      {
+        "id": "C",
+        "text": "was she topping the university examination"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "inversion",
+    "difficulty": "medium",
+    "explanation": "नियम: Not only ... but also: 'Not only' से वाक्य शुरू हो तो पहले clause में inversion होता है — Not only + Auxiliary (do / does / did / has / had / was आदि) + Subject + V1 / V3। 'did' के बाद main verb V1 आती है (Not only did he lead ✓; Not only did he led ✗)। 'but (also)' वाले दूसरे clause में सामान्य क्रम रहता है (but he also secured ...)। दोनों हिस्सों में tense और structure की parallelism ज़रूरी है। (Not only X but also Y वाक्य के बीच में हो तो inversion नहीं होता।)\n\nयहाँ: 'Not only' से वाक्य शुरू हो रहा है, इसलिए पहले clause में inversion चाहिए: Not only + did + she + V1। दूसरा clause (but she also bagged) सामान्य क्रम में ही सही है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar459",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nOnly after the committee had submitted its final report / the government realised / the actual magnitude / of the irrigation scam.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only after the committee had submitted its final report"
+      },
+      {
+        "id": "B",
+        "text": "the government realised"
+      },
+      {
+        "id": "C",
+        "text": "the actual magnitude"
+      },
+      {
+        "id": "D",
+        "text": "of the irrigation scam"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "inversion",
+    "difficulty": "hard",
+    "explanation": "नियम: Only + adverbial (Only after / Only when / Only if / Only by / Only then / Only in this way / Only once) से वाक्य शुरू हो तो मुख्य clause में inversion होता है (Only after the guests left did we realise ...)। 'Only' वाले clause (after / when / if + S + V) के अंदर inversion नहीं होता। यदि 'Only' स्वयं subject को modify करे (Only he knew the truth) तो inversion नहीं होता।\n\nयहाँ: 'Only after ...' से वाक्य शुरू होने पर मुख्य clause में inversion होता है — 'Only after the committee had submitted its final report did the government realise the actual magnitude of the irrigation scam.' 'Only after' वाले clause (had submitted) में inversion नहीं होता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar460",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[If it had not been for] the timely help of the local fishermen, the passengers of the capsized boat would have drowned.",
+    "options": [
+      {
+        "id": "A",
+        "text": "If it is not for"
+      },
+      {
+        "id": "B",
+        "text": "If it were not for"
+      },
+      {
+        "id": "C",
+        "text": "Unless it had been for"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "mood",
+    "difficulty": "medium",
+    "explanation": "नियम: (i) If + Subject + were to + V1 — भविष्य की अत्यंत काल्पनिक स्थिति; सभी subjects के साथ 'were to' आता है, 'was to' नहीं (If the Governor were to resign, ...)। (ii) If it were not for + noun (वर्तमान) / If it had not been for + noun (अतीत) = But for + noun — 'were' और 'had been' ही आते हैं, is / was नहीं। उदाहरण: If it were not for his help, I would fail; But for the lifeguards, the swimmer would have drowned। Main clause में would / would have, condition के type के अनुसार।\n\nयहाँ: अतीत की स्थिति के लिए 'If it had not been for + noun' (= But for) और main clause में 'would have drowned' — दोनों का मेल सही है। इसलिए किसी सुधार की ज़रूरत नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar461",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nNever before [the trekkers had seen] such a magnificent sunrise as the one that greeted them at the summit of Kanchenjunga.",
+    "options": [
+      {
+        "id": "A",
+        "text": "the trekkers saw"
+      },
+      {
+        "id": "B",
+        "text": "had the trekkers seen"
+      },
+      {
+        "id": "C",
+        "text": "did the trekkers saw"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "inversion",
+    "difficulty": "medium",
+    "explanation": "नियम: Negative / restrictive adverbs (Never, Seldom, Rarely, Scarcely ever, Hardly ever, Barely, Nowhere, Never before, Never in the history of ...) वाक्य की शुरुआत में आएँ तो Subject–Verb का inversion होता है: Adverb + Auxiliary + Subject + Main verb। Auxiliary tense के अनुसार लगता है — Simple Present: do / does; Simple Past: did; Perfect: has / have / had; Modal: can / could / will / should आदि। Main verb अपने मूल रूप में लौट जाती है (Seldom does he visit ✓; Seldom he visits ✗; Never did I see ✓, 'did I saw' ✗)। जब ऐसा adverb वाक्य के बीच में आता है तो inversion नहीं होता (He seldom visits ✓)।\n\nयहाँ: 'Never before' से वाक्य शुरू होने पर Auxiliary + Subject + V3 का क्रम आता है — 'Never before had the trekkers seen ...'। बिना inversion वाले रूप ('the trekkers had seen / saw') गलत हैं, और 'did ... saw' में did के साथ V2 लग गई है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar462",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nIt is high time we start / preparing for the final examination / seriously.",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is high time we start"
+      },
+      {
+        "id": "B",
+        "text": "preparing for the final examination"
+      },
+      {
+        "id": "C",
+        "text": "seriously"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "mood",
+    "difficulty": "easy",
+    "explanation": "नियम: It is (high) time / It is about time + Subject + Past Simple (V2): 'समय आ गया है कि ...' — काम अभी हुआ नहीं है, इसलिए वर्तमान की बात के लिए V2 (Past Subjunctive) आता है, present नहीं: It is high time we started ✓; It is time we start ✗। विकल्प के रूप में 'It is time + to + V1' (कर्ता वही हो तो) भी सही है, पर अलग subject के साथ V2 ही आता है।\n\nयहाँ: 'It is high time + Subject' के बाद Past Simple (V2) आती है — 'It is high time we started'। 'start' (present) गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar463",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nNot only ____ the minister apologise for the delay, but he also promised to expedite the pending work.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "did"
+      },
+      {
+        "id": "C",
+        "text": "has"
+      },
+      {
+        "id": "D",
+        "text": "does"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "inversion",
+    "difficulty": "medium",
+    "explanation": "नियम: Not only ... but also: 'Not only' से वाक्य शुरू हो तो पहले clause में inversion होता है — Not only + Auxiliary (do / does / did / has / had / was आदि) + Subject + V1 / V3। 'did' के बाद main verb V1 आती है (Not only did he lead ✓; Not only did he led ✗)। 'but (also)' वाले दूसरे clause में सामान्य क्रम रहता है (but he also secured ...)। दोनों हिस्सों में tense और structure की parallelism ज़रूरी है। (Not only X but also Y वाक्य के बीच में हो तो inversion नहीं होता।)\n\nयहाँ: 'Not only' से वाक्य शुरू होने पर पहले clause में inversion होता है। दूसरे clause में 'promised' (past) है, इसलिए पहले clause में भी past का auxiliary 'did' आएगा — 'Not only did the minister apologise ...'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar464",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe tribunal ordered that the company [pays] compensation to every affected family within a month.",
+    "options": [
+      {
+        "id": "A",
+        "text": "pay"
+      },
+      {
+        "id": "B",
+        "text": "will pay"
+      },
+      {
+        "id": "C",
+        "text": "paid"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "mood",
+    "difficulty": "medium",
+    "explanation": "नियम: Mandative subjunctive: demand, insist, suggest, recommend, propose, request, require, urge, order, command, direct, advise, ask जैसे verbs के बाद that-clause में Subject + (should) + V1 (base form) आता है — तीसरे पुरुष एकवचन में भी 's' नहीं और past / future का बदलाव नहीं: The committee recommended that he resign (should resign)। 'resigns / resigned / will resign' गलत हैं। Passive में 'be + V3': ... that the report be submitted। (केवल सूचना देने वाले verbs — say, report, tell — के बाद सामान्य tense आता है।)\n\nयहाँ: Order जैसे आदेश-सूचक verb के बाद that-clause में base form (should) pay आती है, 's' या tense नहीं — 'that the company pay compensation'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar465",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nIf I ____ you, I would never lend money to a person with such a poor track record.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "had been"
+      },
+      {
+        "id": "D",
+        "text": "am"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "mood",
+    "difficulty": "easy",
+    "explanation": "नियम: Unreal conditionals (Subjunctive): Type-2 (वर्तमान / भविष्य की काल्पनिक स्थिति) = If + Subject + V2 / were (सभी subjects के साथ) ..., main clause में would / could / might + V1 (If I were you, I would accept it)। Type-3 (अतीत की अवास्तविक स्थिति) = If + had + V3 ..., would have + V3। 'If' वाले clause में would / would have / will नहीं आता (If he would have worked ✗ → If he had worked ✓)। दोनों clauses के tense का मेल ज़रूरी है (If he had worked, he would have passed; If I were you, I would not ...)।\n\nयहाँ: 'If I were you' काल्पनिक स्थिति का पक्का subjunctive रूप है — सभी subjects के साथ 'were'। Main clause 'would never lend' (Type-2) है, इसलिए 'had been' भी मेल नहीं खाता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar466",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nI would rather you ____ the matter confidential until the official announcement is made.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to keep"
+      },
+      {
+        "id": "B",
+        "text": "keeps"
+      },
+      {
+        "id": "C",
+        "text": "kept"
+      },
+      {
+        "id": "D",
+        "text": "will keep"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "mood",
+    "difficulty": "hard",
+    "explanation": "नियम: Would rather / Had better: (i) Would rather + V1 (बिना to) + than + V1 — subject एक ही हो (I would rather walk than ride; She would rather starve than beg)। (ii) Would rather + दूसरा subject + Past Simple (V2): I would rather you stayed। (iii) Had better + V1 (बिना to): You had better consult a doctor ('had better to consult' ✗)। (iv) 'Rather' / 'better' के बाद to या V-ing नहीं आता।\n\nयहाँ: 'would rather + दूसरा subject' के बाद Past Simple (V2) आती है — 'I would rather you kept ...'। to keep / keeps / will keep इस पैटर्न में नहीं आते।",
+    "language": "en"
+  },
+  {
+    "id": "grammar467",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe newly elected councillor behaved at the meeting [like he were] the chairman of the entire corporation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "like he was"
+      },
+      {
+        "id": "B",
+        "text": "as if he is"
+      },
+      {
+        "id": "C",
+        "text": "as if he were"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "mood",
+    "difficulty": "medium",
+    "explanation": "नियम: If only / As if / As though / Would that: काल्पनिक (अवास्तविक) स्थिति में Past Subjunctive आता है — वर्तमान के लिए V2 / were (If only I were rich; as if he were the boss); अतीत के लिए Past Perfect (If only I had listened; as though he had seen a ghost)। भविष्य की असंभव इच्छा में If only + would। 'As if / as though' के बाद पूरा clause आता है, 'like' के बाद नहीं; और यहाँ is / has जैसा वास्तविक (indicative) रूप गलत है।\n\nयहाँ: 'he were the chairman' पूरा clause है, इसलिए 'like' (preposition) की जगह conjunction 'as if / as though' आएगा, और काल्पनिक तुलना में 'were'। 'as if he is' वास्तविकता दर्शाता है, जो यहाँ गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar468",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nIf the committee [would have reviewed] the proposal more carefully, the loopholes would have been spotted.",
+    "options": [
+      {
+        "id": "A",
+        "text": "reviewed"
+      },
+      {
+        "id": "B",
+        "text": "would review"
+      },
+      {
+        "id": "C",
+        "text": "had reviewed"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "mood",
+    "difficulty": "hard",
+    "explanation": "नियम: Unreal conditionals (Subjunctive): Type-2 (वर्तमान / भविष्य की काल्पनिक स्थिति) = If + Subject + V2 / were (सभी subjects के साथ) ..., main clause में would / could / might + V1 (If I were you, I would accept it)। Type-3 (अतीत की अवास्तविक स्थिति) = If + had + V3 ..., would have + V3। 'If' वाले clause में would / would have / will नहीं आता (If he would have worked ✗ → If he had worked ✓)। दोनों clauses के tense का मेल ज़रूरी है (If he had worked, he would have passed; If I were you, I would not ...)।\n\nयहाँ: 'If' वाले clause में would / would have नहीं आता। Main clause 'would have been spotted' (Type-3) है, इसलिए if-clause में Past Perfect 'had reviewed' चाहिए।",
+    "language": "en"
+  },
+  {
+    "id": "grammar469",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nSo intense the heat was / that several marathon runners / collapsed before / reaching the finishing line.",
+    "options": [
+      {
+        "id": "A",
+        "text": "So intense the heat was"
+      },
+      {
+        "id": "B",
+        "text": "that several marathon runners"
+      },
+      {
+        "id": "C",
+        "text": "collapsed before"
+      },
+      {
+        "id": "D",
+        "text": "reaching the finishing line"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "inversion",
+    "difficulty": "medium",
+    "explanation": "नियम: So + Adjective / Adverb ... that तथा Such ... that वाक्य के शुरू में आएँ तो inversion होता है: So + adjective + verb (be / auxiliary) + Subject + that ... (So intense was the heat that ...); Such + be + Subject + that ... (Such was his anger that ...)। Such के बाद 'be' verb आगे आती है और उसका number बाद वाले subject के अनुसार तय होता है (Such was the ferocity ✓, Such were the ferocity ✗; Such were the consequences ✓)।\n\nयहाँ: 'So + adjective' से वाक्य शुरू हो तो inversion होता है — 'So intense was the heat that ...'। पहले segment में 'was' को subject (the heat) से पहले आना चाहिए।",
+    "language": "en"
+  },
+  {
+    "id": "grammar470",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nLittle ____ that the apparently routine inspection would unearth a decade-long fraud.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were the auditors suspecting"
+      },
+      {
+        "id": "B",
+        "text": "the auditors suspected"
+      },
+      {
+        "id": "C",
+        "text": "the auditors did suspect"
+      },
+      {
+        "id": "D",
+        "text": "did the auditors suspect"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "inversion",
+    "difficulty": "hard",
+    "explanation": "नियम: Not until / Not till (जब तक नहीं ... तब तक नहीं), Little (= बिल्कुल नहीं), Not once, Not a single ... से वाक्य शुरू हो तो मुख्य clause में inversion होता है: Not until the bell rang did he stop; Little did he realise ...; Not once did she complain। Not until वाले समय-clause में inversion नहीं होता। Main verb V1 में लौटती है और tense की जानकारी auxiliary (did / does / has / had) देता है।\n\nयहाँ: Little (= बिल्कुल नहीं) से वाक्य शुरू होने पर inversion होता है — Little + did + Subject + V1। 'the auditors suspected / did suspect' में inversion नहीं है और 'were ... suspecting' का प्रयोग इस पैटर्न में नहीं होता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar471",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nMay God bless you / with a long and healthy life, / success and prosperity.",
+    "options": [
+      {
+        "id": "A",
+        "text": "May God bless you"
+      },
+      {
+        "id": "B",
+        "text": "with a long and healthy life"
+      },
+      {
+        "id": "C",
+        "text": "success and prosperity"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "mood",
+    "difficulty": "medium",
+    "explanation": "नियम: Optative mood (प्रार्थना / आशीर्वाद / शुभकामना): May + Subject + V1 (May God bless you; May you live long; May the departed soul rest in peace) — वाक्य 'May' से शुरू होता है और उसके बाद subject आता है। इसके बाद verb में 's' नहीं लगता और will / would / should जैसे modals नहीं आते (May God blesses you ✗)। 'Long live ...' / 'God save ...' भी इसी श्रेणी के प्रयोग हैं। यह 'may' की संभावना (possibility) वाले अर्थ से अलग है।\n\nयहाँ: Optative वाक्य 'May + Subject + V1' पैटर्न में है — 'May God bless you ...' बिल्कुल सही है। इसलिए 'No error'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar472",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nIt is imperative that the Parliament ____ the bill before the end of the current session.",
+    "options": [
+      {
+        "id": "A",
+        "text": "passes"
+      },
+      {
+        "id": "B",
+        "text": "will pass"
+      },
+      {
+        "id": "C",
+        "text": "passed"
+      },
+      {
+        "id": "D",
+        "text": "pass"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "mood",
+    "difficulty": "medium",
+    "explanation": "नियम: Impersonal expressions: It is (important / essential / vital / necessary / imperative / desirable / advisable / crucial / mandatory / urgent) that + Subject + (should) + V1 — आवश्यकता / माँग बताने वाले adjective के बाद that-clause में base form V1 आता है, जिसमें 's' या 'ed' नहीं लगता: It is essential that every candidate carry an identity card। Passive में: ... that the fees be paid। 'carries / carried / will carry' गलत हैं; और समानांतर (parallel) verbs भी base form में रहते हैं (carry ... and show)।\n\nयहाँ: 'It is imperative that + Subject + V1' — आवश्यकता बताने वाले adjective (imperative) के बाद that-clause में base form आती है। 'passes / passed / will pass' गलत हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar473",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nOnly when the invigilator announced the end of the examination ____ their pens.",
+    "options": [
+      {
+        "id": "A",
+        "text": "did the students put down"
+      },
+      {
+        "id": "B",
+        "text": "do the students put down"
+      },
+      {
+        "id": "C",
+        "text": "the students put down"
+      },
+      {
+        "id": "D",
+        "text": "the students did put down"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "inversion",
+    "difficulty": "medium",
+    "explanation": "नियम: Only + adverbial (Only after / Only when / Only if / Only by / Only then / Only in this way / Only once) से वाक्य शुरू हो तो मुख्य clause में inversion होता है (Only after the guests left did we realise ...)। 'Only' वाले clause (after / when / if + S + V) के अंदर inversion नहीं होता। यदि 'Only' स्वयं subject को modify करे (Only he knew the truth) तो inversion नहीं होता।\n\nयहाँ: 'Only when ...' से वाक्य शुरू होने पर मुख्य clause में inversion होता है: did + Subject + V1 → 'did the students put down'। बिना inversion वाले दोनों रूप गलत हैं, और 'do' का tense past (announced) से मेल नहीं खाता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar474",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\n____ you require any further clarification, please do not hesitate to contact the helpdesk.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Were"
+      },
+      {
+        "id": "B",
+        "text": "Would"
+      },
+      {
+        "id": "C",
+        "text": "Had"
+      },
+      {
+        "id": "D",
+        "text": "Should"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "inversion",
+    "difficulty": "medium",
+    "explanation": "नियम: Conditional inversion: 'If' हटाकर auxiliary को subject से पहले लाया जा सकता है — Had + S + V3 (Type-3: Had I known, I would have helped); Were + S (+ to V1) (Type-2: Were he here, he would help; Were he to resign, ...); Should + S + V1 (Type-1 / औपचारिक: Should you need help, call me)। इस रूप में 'if' और inversion एक साथ नहीं आते (If had I known ✗)। 'Had' के बाद would have नहीं आता (Had I would have known ✗), और main clause का tense condition के type से मेल खाए।\n\nयहाँ: औपचारिक Type-1 condition में 'If you require' की जगह 'Should you require' (Should + S + V1) बनता है। 'Were / Had' के बाद क्रमशः to-infinitive / V3 आती, V1 नहीं; 'Would' से conditional inversion नहीं बनता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar475",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nIf the Reserve Bank was to / raise the repo rate again, / the cost of home loans would climb further.",
+    "options": [
+      {
+        "id": "A",
+        "text": "If the Reserve Bank was to"
+      },
+      {
+        "id": "B",
+        "text": "raise the repo rate again"
+      },
+      {
+        "id": "C",
+        "text": "the cost of home loans would climb further"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "mood",
+    "difficulty": "medium",
+    "explanation": "नियम: (i) If + Subject + were to + V1 — भविष्य की अत्यंत काल्पनिक स्थिति; सभी subjects के साथ 'were to' आता है, 'was to' नहीं (If the Governor were to resign, ...)। (ii) If it were not for + noun (वर्तमान) / If it had not been for + noun (अतीत) = But for + noun — 'were' और 'had been' ही आते हैं, is / was नहीं। उदाहरण: If it were not for his help, I would fail; But for the lifeguards, the swimmer would have drowned। Main clause में would / would have, condition के type के अनुसार।\n\nयहाँ: भविष्य की काल्पनिक स्थिति में 'If + Subject + were to + V1' आता है, सभी subjects के साथ 'were to' — 'If the Reserve Bank were to raise ...'। 'was to' गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar476",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nIt is essential that every passenger travelling on the international sector carry / a valid identity proof and a valid visa / and shows both documents to the immigration staff on demand.",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is essential that every passenger travelling on the international sector carry"
+      },
+      {
+        "id": "B",
+        "text": "a valid identity proof and a valid visa"
+      },
+      {
+        "id": "C",
+        "text": "and shows both documents to the immigration staff on demand"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "mood",
+    "difficulty": "hard",
+    "explanation": "नियम: Impersonal expressions: It is (important / essential / vital / necessary / imperative / desirable / advisable / crucial / mandatory / urgent) that + Subject + (should) + V1 — आवश्यकता / माँग बताने वाले adjective के बाद that-clause में base form V1 आता है, जिसमें 's' या 'ed' नहीं लगता: It is essential that every candidate carry an identity card। Passive में: ... that the fees be paid। 'carries / carried / will carry' गलत हैं; और समानांतर (parallel) verbs भी base form में रहते हैं (carry ... and show)।\n\nयहाँ: 'It is essential that' के बाद that-clause की सभी क्रियाएँ base form में आती हैं — carry ... and show। तीसरे segment में 'shows' गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar477",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nUnder no circumstances / the candidates appearing for the competitive examination are allowed to / carry mobile phones, smart watches or any other electronic gadget inside the examination hall.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Under no circumstances"
+      },
+      {
+        "id": "B",
+        "text": "the candidates appearing for the competitive examination are allowed to"
+      },
+      {
+        "id": "C",
+        "text": "carry mobile phones, smart watches or any other electronic gadget inside the examination hall"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "inversion",
+    "difficulty": "hard",
+    "explanation": "नियम: Negative adverbials — Under no circumstances, On no account, At no time, In no way, By no means, On no occasion, In no case, Not for a moment — वाक्य की शुरुआत में आएँ तो inversion होता है: Under no circumstances should you reveal ...; At no time had they informed ...। अर्थात् Auxiliary / Modal + Subject + V1 / V3। यही phrase वाक्य के बीच में आए तो inversion नहीं होता (You should under no circumstances reveal ... ✓)।\n\nयहाँ: 'Under no circumstances' से वाक्य शुरू होने पर inversion होता है — 'Under no circumstances are the candidates allowed to carry mobile phones ...'। इसलिए दूसरे segment में 'are' को subject से पहले आना चाहिए।",
+    "language": "en"
+  },
+  {
+    "id": "grammar478",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nHere ____ the bus that you have been waiting for.",
+    "options": [
+      {
+        "id": "A",
+        "text": "come"
+      },
+      {
+        "id": "B",
+        "text": "coming"
+      },
+      {
+        "id": "C",
+        "text": "comes"
+      },
+      {
+        "id": "D",
+        "text": "is come"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "inversion",
+    "difficulty": "easy",
+    "explanation": "नियम: Here / There / Adverb of place or direction (Down, Away, Out, Up, Into the room) से वाक्य शुरू हो और subject noun हो तो inversion होता है (Here comes the bus; Down came the rain; There were many reasons)। पर subject pronoun हो तो inversion नहीं होता (Here he comes ✓, Here comes he ✗; Away they went ✓)। ऐसे वाक्यों में verb बाद में आने वाले subject के number और वाक्य के tense के अनुसार होती है (There were many reasons ✓; There was many reasons ✗)।\n\nयहाँ: Here से वाक्य शुरू हो और subject noun (the bus) हो तो inversion होता है: Here + verb + Subject। Subject singular है, इसलिए 'comes'। 'come' number से मेल नहीं खाती और बाकी रूप बन ही नहीं सकते।",
+    "language": "en"
+  },
+  {
+    "id": "grammar479",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nI wish I [would have studied] harder for the examination last year, as I narrowly missed the cut-off.",
+    "options": [
+      {
+        "id": "A",
+        "text": "would study"
+      },
+      {
+        "id": "B",
+        "text": "had studied"
+      },
+      {
+        "id": "C",
+        "text": "studied"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "mood",
+    "difficulty": "medium",
+    "explanation": "नियम: Wish: (i) वर्तमान की अवास्तविक इच्छा के लिए wish के बाद Past Subjunctive आता है — V2 या 'were' (सभी persons के साथ): I wish I were a bird; He wishes he were taller ('was' गलत)। (ii) बीते समय के पछतावे के लिए Past Perfect: I wish I had studied harder। (iii) भविष्य की शिकायत / अपेक्षा के लिए wish + would / could: I wish it would stop raining। 'Wish' के बाद will / would have / is नहीं आता।\n\nयहाँ: बीते हुए समय (last year) के पछतावे के लिए wish के बाद Past Perfect आता है — 'I wish I had studied'। 'would have studied' wish के बाद नहीं लगता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar480",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nNot until the flood waters of the Brahmaputra had completely receded / could the rescue teams of the National Disaster Response Force / reached the marooned villagers in the low-lying hamlets.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Not until the flood waters of the Brahmaputra had completely receded"
+      },
+      {
+        "id": "B",
+        "text": "could the rescue teams of the National Disaster Response Force"
+      },
+      {
+        "id": "C",
+        "text": "reached the marooned villagers in the low-lying hamlets"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "inversion",
+    "difficulty": "hard",
+    "explanation": "नियम: Not until / Not till (जब तक नहीं ... तब तक नहीं), Little (= बिल्कुल नहीं), Not once, Not a single ... से वाक्य शुरू हो तो मुख्य clause में inversion होता है: Not until the bell rang did he stop; Little did he realise ...; Not once did she complain। Not until वाले समय-clause में inversion नहीं होता। Main verb V1 में लौटती है और tense की जानकारी auxiliary (did / does / has / had) देता है।\n\nयहाँ: 'Not until ...' के बाद मुख्य clause में inversion होता है (could + the rescue teams), और modal 'could' के बाद main verb V1 आती है — 'reach'। 'reached' गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar481",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe disciplinary committee recommended / that the officer be suspended / pending a thorough inquiry.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The disciplinary committee recommended"
+      },
+      {
+        "id": "B",
+        "text": "that the officer be suspended"
+      },
+      {
+        "id": "C",
+        "text": "pending a thorough inquiry"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "mood",
+    "difficulty": "medium",
+    "explanation": "नियम: Mandative subjunctive: demand, insist, suggest, recommend, propose, request, require, urge, order, command, direct, advise, ask जैसे verbs के बाद that-clause में Subject + (should) + V1 (base form) आता है — तीसरे पुरुष एकवचन में भी 's' नहीं और past / future का बदलाव नहीं: The committee recommended that he resign (should resign)। 'resigns / resigned / will resign' गलत हैं। Passive में 'be + V3': ... that the report be submitted। (केवल सूचना देने वाले verbs — say, report, tell — के बाद सामान्य tense आता है।)\n\nयहाँ: Recommend के बाद that-clause में (should) + V1 / passive में 'be + V3' आता है — 'that the officer be suspended' पूरी तरह सही है। इसलिए 'No error'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar482",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nSuch ____ the magnitude of the cyclone that the entire coastal administration was put on high alert.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "has been"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "inversion",
+    "difficulty": "medium",
+    "explanation": "नियम: So + Adjective / Adverb ... that तथा Such ... that वाक्य के शुरू में आएँ तो inversion होता है: So + adjective + verb (be / auxiliary) + Subject + that ... (So intense was the heat that ...); Such + be + Subject + that ... (Such was his anger that ...)। Such के बाद 'be' verb आगे आती है और उसका number बाद वाले subject के अनुसार तय होता है (Such was the ferocity ✓, Such were the ferocity ✗; Such were the consequences ✓)।\n\nयहाँ: 'Such + be + Subject + that ...' में be-verb subject के number के अनुसार आती है। Subject 'the magnitude' singular है और वाक्य past (was put) में है, इसलिए 'was'। 'were' number से और 'is / has been' tense से मेल नहीं खाते।",
+    "language": "en"
+  },
+  {
+    "id": "grammar483",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nIt is about time the government ____ stringent measures to curb the rising air pollution in the capital.",
+    "options": [
+      {
+        "id": "A",
+        "text": "takes"
+      },
+      {
+        "id": "B",
+        "text": "took"
+      },
+      {
+        "id": "C",
+        "text": "has taken"
+      },
+      {
+        "id": "D",
+        "text": "will take"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "mood",
+    "difficulty": "medium",
+    "explanation": "नियम: It is (high) time / It is about time + Subject + Past Simple (V2): 'समय आ गया है कि ...' — काम अभी हुआ नहीं है, इसलिए वर्तमान की बात के लिए V2 (Past Subjunctive) आता है, present नहीं: It is high time we started ✓; It is time we start ✗। विकल्प के रूप में 'It is time + to + V1' (कर्ता वही हो तो) भी सही है, पर अलग subject के साथ V2 ही आता है।\n\nयहाँ: 'It is about time + Subject' के बाद Past Simple आता है क्योंकि काम अब तक हुआ नहीं है — 'It is about time the government took ...'। takes / will take / has taken गलत हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar484",
+    "subjectId": "english",
+    "question": "Select the correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "If only the doctors would diagnose the disease at an early stage, the patient would have survived."
+      },
+      {
+        "id": "B",
+        "text": "If only the doctors have diagnosed the disease at an early stage, the patient would have survived."
+      },
+      {
+        "id": "C",
+        "text": "If only the doctors had diagnosed the disease at an early stage, the patient would have survived."
+      },
+      {
+        "id": "D",
+        "text": "If only the doctors diagnosed the disease at an early stage, the patient would have survived."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "mood",
+    "difficulty": "hard",
+    "explanation": "नियम: If only / As if / As though / Would that: काल्पनिक (अवास्तविक) स्थिति में Past Subjunctive आता है — वर्तमान के लिए V2 / were (If only I were rich; as if he were the boss); अतीत के लिए Past Perfect (If only I had listened; as though he had seen a ghost)। भविष्य की असंभव इच्छा में If only + would। 'As if / as though' के बाद पूरा clause आता है, 'like' के बाद नहीं; और यहाँ is / has जैसा वास्तविक (indicative) रूप गलत है।\n\nयहाँ: अतीत की अवास्तविक इच्छा / पछतावे में 'If only + had + V3' आता है, और main clause में 'would have + V3' — 'If only the doctors had diagnosed ..., the patient would have survived'। बाकी विकल्पों में tense का मेल नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar485",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nMy neighbour wishes he was a pilot in the Indian Air Force.",
+    "options": [
+      {
+        "id": "A",
+        "text": "pilot"
+      },
+      {
+        "id": "B",
+        "text": "Force"
+      },
+      {
+        "id": "C",
+        "text": "wishes"
+      },
+      {
+        "id": "D",
+        "text": "was"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "mood",
+    "difficulty": "easy",
+    "explanation": "नियम: Wish: (i) वर्तमान की अवास्तविक इच्छा के लिए wish के बाद Past Subjunctive आता है — V2 या 'were' (सभी persons के साथ): I wish I were a bird; He wishes he were taller ('was' गलत)। (ii) बीते समय के पछतावे के लिए Past Perfect: I wish I had studied harder। (iii) भविष्य की शिकायत / अपेक्षा के लिए wish + would / could: I wish it would stop raining। 'Wish' के बाद will / would have / is नहीं आता।\n\nयहाँ: Wish के बाद वर्तमान की अवास्तविक इच्छा में Past Subjunctive 'were' आता है, सभी subjects के साथ — 'wishes he were a pilot'। 'was' गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar486",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\n____ the departed soul rest in eternal peace.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shall"
+      },
+      {
+        "id": "B",
+        "text": "May"
+      },
+      {
+        "id": "C",
+        "text": "Can"
+      },
+      {
+        "id": "D",
+        "text": "Would"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "mood",
+    "difficulty": "easy",
+    "explanation": "नियम: Optative mood (प्रार्थना / आशीर्वाद / शुभकामना): May + Subject + V1 (May God bless you; May you live long; May the departed soul rest in peace) — वाक्य 'May' से शुरू होता है और उसके बाद subject आता है। इसके बाद verb में 's' नहीं लगता और will / would / should जैसे modals नहीं आते (May God blesses you ✗)। 'Long live ...' / 'God save ...' भी इसी श्रेणी के प्रयोग हैं। यह 'may' की संभावना (possibility) वाले अर्थ से अलग है।\n\nयहाँ: प्रार्थना / शुभकामना (optative) वाक्य 'May' से शुरू होते हैं: May + Subject + V1। Would / Shall / Can से ऐसा वाक्य नहीं बनता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar487",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHere comes he, / the man who has been / sending anonymous letters to the editor.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Here comes he"
+      },
+      {
+        "id": "B",
+        "text": "the man who has been"
+      },
+      {
+        "id": "C",
+        "text": "sending anonymous letters to the editor"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "inversion",
+    "difficulty": "medium",
+    "explanation": "नियम: Here / There / Adverb of place or direction (Down, Away, Out, Up, Into the room) से वाक्य शुरू हो और subject noun हो तो inversion होता है (Here comes the bus; Down came the rain; There were many reasons)। पर subject pronoun हो तो inversion नहीं होता (Here he comes ✓, Here comes he ✗; Away they went ✓)। ऐसे वाक्यों में verb बाद में आने वाले subject के number और वाक्य के tense के अनुसार होती है (There were many reasons ✓; There was many reasons ✗)।\n\nयहाँ: Here वाले वाक्य में subject pronoun (he) हो तो inversion नहीं होता — सही: 'Here he comes'। Inversion (Here comes the man) केवल noun subject के साथ होता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar488",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nLet he go to the market and buy the vegetables.",
+    "options": [
+      {
+        "id": "A",
+        "text": "buy"
+      },
+      {
+        "id": "B",
+        "text": "Let"
+      },
+      {
+        "id": "C",
+        "text": "go"
+      },
+      {
+        "id": "D",
+        "text": "he"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "mood",
+    "difficulty": "easy",
+    "explanation": "नियम: Imperative mood (आदेश / निवेदन): (i) Let + Objective case (me, him, her, us, them) + V1: Let him go ✓ (Let he go ✗), Let me see ✓ (Let I see ✗), Let us / Let's + V1। (ii) Imperative वाक्य में verb हमेशा base form V1 में रहती है, subject 'you' छिपा होता है (Be careful; Do be careful)। (iii) Negative: Do not / Don't + V1; Let us not + V1। (iv) Tags: Let us ... का question tag 'shall we?' और सामान्य imperative का 'will you?'। (v) 'Let' के बाद 'to' या V-ing नहीं आता (Let him to go ✗)।\n\nयहाँ: Let के बाद Objective case आता है — 'Let him go'। 'he' (Nominative) गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar489",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nNot only did the newly announced agricultural policy / reduced the financial burden on small and marginal farmers / but it also boosted rural exports considerably.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Not only did the newly announced agricultural policy"
+      },
+      {
+        "id": "B",
+        "text": "reduced the financial burden on small and marginal farmers"
+      },
+      {
+        "id": "C",
+        "text": "but it also boosted rural exports considerably"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "inversion",
+    "difficulty": "hard",
+    "explanation": "नियम: Not only ... but also: 'Not only' से वाक्य शुरू हो तो पहले clause में inversion होता है — Not only + Auxiliary (do / does / did / has / had / was आदि) + Subject + V1 / V3। 'did' के बाद main verb V1 आती है (Not only did he lead ✓; Not only did he led ✗)। 'but (also)' वाले दूसरे clause में सामान्य क्रम रहता है (but he also secured ...)। दोनों हिस्सों में tense और structure की parallelism ज़रूरी है। (Not only X but also Y वाक्य के बीच में हो तो inversion नहीं होता।)\n\nयहाँ: 'Not only did ...' में inversion के बाद did आ चुका है, इसलिए main verb मूल रूप (V1) में रहेगी — 'reduce'। 'reduced' में did + V2 की गलती है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar490",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nYou had better to consult / a doctor / before the infection spreads.",
+    "options": [
+      {
+        "id": "A",
+        "text": "You had better to consult"
+      },
+      {
+        "id": "B",
+        "text": "a doctor"
+      },
+      {
+        "id": "C",
+        "text": "before the infection spreads"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "mood",
+    "difficulty": "easy",
+    "explanation": "नियम: Would rather / Had better: (i) Would rather + V1 (बिना to) + than + V1 — subject एक ही हो (I would rather walk than ride; She would rather starve than beg)। (ii) Would rather + दूसरा subject + Past Simple (V2): I would rather you stayed। (iii) Had better + V1 (बिना to): You had better consult a doctor ('had better to consult' ✗)। (iv) 'Rather' / 'better' के बाद to या V-ing नहीं आता।\n\nयहाँ: Had better के बाद 'to' नहीं लगता, सीधे base form V1 आती है — 'You had better consult a doctor'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar491",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nScarcely had the exhausted trekkers / pitched their tents near the glacier / than a violent snowstorm / swept across the entire valley.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scarcely had the exhausted trekkers"
+      },
+      {
+        "id": "B",
+        "text": "pitched their tents near the glacier"
+      },
+      {
+        "id": "C",
+        "text": "than a violent snowstorm"
+      },
+      {
+        "id": "D",
+        "text": "swept across the entire valley"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "inversion",
+    "difficulty": "hard",
+    "explanation": "नियम: No sooner ... than तथा Hardly / Scarcely / Barely ... when / before का अर्थ है 'जैसे ही ... वैसे ही'। वाक्य इन्हीं से शुरू हो तो पहले clause में inversion होता है (Had + Subject + V3) और दूसरे clause में सामान्य क्रम (Subject + V2)। No sooner के साथ केवल 'than' आता है; Hardly / Scarcely / Barely के साथ 'when' (या before), 'than' नहीं। पहला clause Past Perfect (had + V3) में होता है — 'Hardly did he finish' या 'No sooner he had come' जैसे रूप गलत हैं।\n\nयहाँ: Scarcely के साथ 'when' (या before) आता है, 'than' नहीं — 'than' केवल No sooner का साथी है। सही: 'Scarcely had the exhausted trekkers pitched their tents near the glacier when a violent snowstorm swept across the entire valley.'",
+    "language": "en"
+  },
+  {
+    "id": "grammar492",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe commuters wish the metro authorities ____ the frequency of trains during the peak hours.",
+    "options": [
+      {
+        "id": "A",
+        "text": "will increase"
+      },
+      {
+        "id": "B",
+        "text": "have increased"
+      },
+      {
+        "id": "C",
+        "text": "increases"
+      },
+      {
+        "id": "D",
+        "text": "would increase"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "mood",
+    "difficulty": "hard",
+    "explanation": "नियम: Wish: (i) वर्तमान की अवास्तविक इच्छा के लिए wish के बाद Past Subjunctive आता है — V2 या 'were' (सभी persons के साथ): I wish I were a bird; He wishes he were taller ('was' गलत)। (ii) बीते समय के पछतावे के लिए Past Perfect: I wish I had studied harder। (iii) भविष्य की शिकायत / अपेक्षा के लिए wish + would / could: I wish it would stop raining। 'Wish' के बाद will / would have / is नहीं आता।\n\nयहाँ: भविष्य में किसी बदलाव की इच्छा / शिकायत के लिए wish + would + V1 आता है — 'wish the authorities would increase'। Wish के बाद will, simple present (increases) या present perfect (have increased) नहीं लगते।",
+    "language": "en"
+  },
+  {
+    "id": "grammar493",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[Let we attend] the seminar on cyber security because it will certainly enhance our knowledge.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lets us attend"
+      },
+      {
+        "id": "B",
+        "text": "Let us to attend"
+      },
+      {
+        "id": "C",
+        "text": "Let us attending"
+      },
+      {
+        "id": "D",
+        "text": "Let us attend"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "mood",
+    "difficulty": "easy",
+    "explanation": "नियम: Imperative mood (आदेश / निवेदन): (i) Let + Objective case (me, him, her, us, them) + V1: Let him go ✓ (Let he go ✗), Let me see ✓ (Let I see ✗), Let us / Let's + V1। (ii) Imperative वाक्य में verb हमेशा base form V1 में रहती है, subject 'you' छिपा होता है (Be careful; Do be careful)। (iii) Negative: Do not / Don't + V1; Let us not + V1। (iv) Tags: Let us ... का question tag 'shall we?' और सामान्य imperative का 'will you?'। (v) 'Let' के बाद 'to' या V-ing नहीं आता (Let him to go ✗)।\n\nयहाँ: Let के बाद Objective case (us) और फिर base form V1 आती है — 'Let us attend'। 'we' (Nominative), 'to attend', 'attending' और 'Lets' सब गलत हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar494",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nRarely the Chief Minister of the drought-hit state visits / the remote tribal hamlets along the eastern border / without an elaborate security cover and a large entourage of officials.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rarely the Chief Minister of the drought-hit state visits"
+      },
+      {
+        "id": "B",
+        "text": "the remote tribal hamlets along the eastern border"
+      },
+      {
+        "id": "C",
+        "text": "without an elaborate security cover and a large entourage of officials"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "inversion",
+    "difficulty": "hard",
+    "explanation": "नियम: Negative / restrictive adverbs (Never, Seldom, Rarely, Scarcely ever, Hardly ever, Barely, Nowhere, Never before, Never in the history of ...) वाक्य की शुरुआत में आएँ तो Subject–Verb का inversion होता है: Adverb + Auxiliary + Subject + Main verb। Auxiliary tense के अनुसार लगता है — Simple Present: do / does; Simple Past: did; Perfect: has / have / had; Modal: can / could / will / should आदि। Main verb अपने मूल रूप में लौट जाती है (Seldom does he visit ✓; Seldom he visits ✗; Never did I see ✓, 'did I saw' ✗)। जब ऐसा adverb वाक्य के बीच में आता है तो inversion नहीं होता (He seldom visits ✓)।\n\nयहाँ: वाक्य Rarely (negative adverb) से शुरू हो रहा है, इसलिए inversion ज़रूरी है — सही रूप: 'Rarely does the Chief Minister of the drought-hit state visit the remote tribal hamlets ...'। पहले segment में auxiliary 'does' subject से पहले नहीं है और main verb भी 'visits' रह गई है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar495",
+    "subjectId": "english",
+    "question": "Select the correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The union leader demanded that the management reinstate the dismissed workers without any delay."
+      },
+      {
+        "id": "B",
+        "text": "The union leader demanded that the management reinstated the dismissed workers without any delay."
+      },
+      {
+        "id": "C",
+        "text": "The union leader demanded that the management will reinstate the dismissed workers without any delay."
+      },
+      {
+        "id": "D",
+        "text": "The union leader demanded that the management reinstates the dismissed workers without any delay."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "mood",
+    "difficulty": "hard",
+    "explanation": "नियम: Mandative subjunctive: demand, insist, suggest, recommend, propose, request, require, urge, order, command, direct, advise, ask जैसे verbs के बाद that-clause में Subject + (should) + V1 (base form) आता है — तीसरे पुरुष एकवचन में भी 's' नहीं और past / future का बदलाव नहीं: The committee recommended that he resign (should resign)। 'resigns / resigned / will resign' गलत हैं। Passive में 'be + V3': ... that the report be submitted। (केवल सूचना देने वाले verbs — say, report, tell — के बाद सामान्य tense आता है।)\n\nयहाँ: Demand के बाद that-clause में Subject + (should) + V1 आता है, चाहे subject तीसरे पुरुष एकवचन ही क्यों न हो — 'that the management reinstate'। 'reinstates / reinstated / will reinstate' गलत हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar496",
+    "subjectId": "english",
+    "question": "Identify the sentence(s) with an error.\n\n(P) The auditor enquired where were the missing files kept.\n(Q) The auditor enquired where the missing files were kept.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only P"
+      },
+      {
+        "id": "B",
+        "text": "Only Q"
+      },
+      {
+        "id": "C",
+        "text": "Both P and Q"
+      },
+      {
+        "id": "D",
+        "text": "Neither P nor Q"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "inversion",
+    "difficulty": "medium",
+    "explanation": "नियम: Indirect (embedded) question या reported speech में inversion नहीं होता — अधीन clause में सामान्य क्रम Subject + Verb रहता है: He asked where I was going ✓ (where was I going ✗); The teacher asked whether I had completed ✓ (whether had I ✗); I wonder how much it cost ✓। Inversion केवल सीधे प्रश्न (Where are you going?) में होता है। 'Tell me / Do you know / I wonder / He asked' के बाद भी wh-word या if / whether के बाद सामान्य क्रम आता है; ऐसे embedded question में did / does जैसा auxiliary भी नहीं लगता।\n\nयहाँ: Indirect (embedded) question में inversion नहीं होता। (P) में 'where were the missing files kept' में inversion कर दिया गया है, जो गलत है। (Q) में 'where the missing files were kept' सही क्रम है। इसलिए गलती केवल P में है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar497",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[If had he known] the dangers of the expedition, he would never have agreed to lead it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Has he known"
+      },
+      {
+        "id": "B",
+        "text": "Did he know"
+      },
+      {
+        "id": "C",
+        "text": "Had he known"
+      },
+      {
+        "id": "D",
+        "text": "If he would have known"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "inversion",
+    "difficulty": "hard",
+    "explanation": "नियम: Conditional inversion: 'If' हटाकर auxiliary को subject से पहले लाया जा सकता है — Had + S + V3 (Type-3: Had I known, I would have helped); Were + S (+ to V1) (Type-2: Were he here, he would help; Were he to resign, ...); Should + S + V1 (Type-1 / औपचारिक: Should you need help, call me)। इस रूप में 'if' और inversion एक साथ नहीं आते (If had I known ✗)। 'Had' के बाद would have नहीं आता (Had I would have known ✗), और main clause का tense condition के type से मेल खाए।\n\nयहाँ: 'If' हटाकर inversion करने पर 'Had he known' बनता है; 'If' और inversion साथ नहीं आते (If had he ✗)। Main clause 'would never have agreed' (Type-3) है, इसलिए condition में 'If he had known / Had he known' ही चलेगा। 'If he would have known' में if के बाद would have गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar498",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nOn no account [you should reveal] your password to anyone, not even to the bank officials.",
+    "options": [
+      {
+        "id": "A",
+        "text": "you should not reveal"
+      },
+      {
+        "id": "B",
+        "text": "should you reveal"
+      },
+      {
+        "id": "C",
+        "text": "you must reveal"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "inversion",
+    "difficulty": "medium",
+    "explanation": "नियम: Negative adverbials — Under no circumstances, On no account, At no time, In no way, By no means, On no occasion, In no case, Not for a moment — वाक्य की शुरुआत में आएँ तो inversion होता है: Under no circumstances should you reveal ...; At no time had they informed ...। अर्थात् Auxiliary / Modal + Subject + V1 / V3। यही phrase वाक्य के बीच में आए तो inversion नहीं होता (You should under no circumstances reveal ... ✓)।\n\nयहाँ: 'On no account' स्वयं negative है और वाक्य की शुरुआत में है, इसलिए Modal + Subject + V1 का inversion चाहिए: 'On no account should you reveal ...'। 'you should not reveal' में inversion भी नहीं है और double negative भी बन जाता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar499",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHe spends money lavishly on foreign holidays and designer clothes, / though his income as a junior clerk is rather modest, / as if he is a millionaire.",
+    "options": [
+      {
+        "id": "A",
+        "text": "He spends money lavishly on foreign holidays and designer clothes"
+      },
+      {
+        "id": "B",
+        "text": "though his income as a junior clerk is rather modest"
+      },
+      {
+        "id": "C",
+        "text": "as if he is a millionaire"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "mood",
+    "difficulty": "hard",
+    "explanation": "नियम: If only / As if / As though / Would that: काल्पनिक (अवास्तविक) स्थिति में Past Subjunctive आता है — वर्तमान के लिए V2 / were (If only I were rich; as if he were the boss); अतीत के लिए Past Perfect (If only I had listened; as though he had seen a ghost)। भविष्य की असंभव इच्छा में If only + would। 'As if / as though' के बाद पूरा clause आता है, 'like' के बाद नहीं; और यहाँ is / has जैसा वास्तविक (indicative) रूप गलत है।\n\nयहाँ: 'as if' के बाद काल्पनिक (अवास्तविक) तुलना है — आय साधारण है, वह millionaire नहीं है। इसलिए 'as if he were a millionaire'। 'is' वास्तविकता बताता है, जो गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar500",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe CEO did not attend the annual shareholders' meeting held in Mumbai, / citing an unavoidable clash with the board retreat, / and neither the other directors did.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The CEO did not attend the annual shareholders' meeting held in Mumbai"
+      },
+      {
+        "id": "B",
+        "text": "citing an unavoidable clash with the board retreat"
+      },
+      {
+        "id": "C",
+        "text": "and neither the other directors did"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "inversion",
+    "difficulty": "hard",
+    "explanation": "नियम: So / Neither / Nor + Auxiliary + Subject (agreement): सकारात्मक बात के बाद So + auxiliary + subject (So do I); नकारात्मक बात के बाद Neither / Nor + auxiliary + subject (Neither does she; ..., nor has he)। Auxiliary वही दोहराया जाता है जो पहले clause में है (is → so is; has → neither has); बिना auxiliary वाली simple tense में do / does / did आता है। Neither / Nor स्वयं negative हैं, इसलिए auxiliary के साथ not नहीं लगता, और 'Nor / Neither the accountant had' जैसा सीधा क्रम गलत है — auxiliary subject से पहले आएगा।\n\nयहाँ: Neither / Nor के बाद auxiliary subject से पहले आता है — 'and neither did the directors'। 'neither the directors did' में सामान्य क्रम रखना गलत है।",
+    "language": "en"
+  }
+]
