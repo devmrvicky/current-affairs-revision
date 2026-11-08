@@ -1,0 +1,1374 @@
+[
+  {
+    "id": "algebra001",
+    "subjectId": "maths",
+    "question": "यदि a + b + c = 15, ab + bc + ca = 48 और abc = 16 है, तो a³ + b³ + c³ का मान ज्ञात कीजिए।\n\n(SSC CPO 11/12/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1212"
+      },
+      {
+        "id": "B",
+        "text": "1263"
+      },
+      {
+        "id": "C",
+        "text": "1321"
+      },
+      {
+        "id": "D",
+        "text": "1441"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra002",
+    "subjectId": "maths",
+    "question": "तीन संख्याओं का योग 80 है और इन तीनों संख्याओं के वर्गों का योग 2,650 है। अगर तीनों संख्याओं का गुणनफल 13,500 है, तो दी गई तीनों संख्याओं के घनों का योग ज्ञात कीजिए।\n\n(SSC CHSL 26/11/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1,46,500"
+      },
+      {
+        "id": "B",
+        "text": "87,860"
+      },
+      {
+        "id": "C",
+        "text": "1,90,750"
+      },
+      {
+        "id": "D",
+        "text": "1,02,500"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra003",
+    "subjectId": "maths",
+    "question": "यदि m + n + o = 15 और mn + no + om = 75 है, तो m³ + n³ + o³ − 3mno का मान ज्ञात कीजिए।\n\n(RRB JE CBT 1 2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "0"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra004",
+    "subjectId": "maths",
+    "question": "यदि x + y + z = 1, xy + yz + zx = −1 और xyz = −1 है, तो (x³ + y³ + z³) का मान ज्ञात कीजिए।\n\n(SSC CPO 27/06/2024)",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra005",
+    "subjectId": "maths",
+    "question": "यदि (a³ + b³ + c³ − 3abc) = 405 और (a + b + c) = 15 है, तो (a − b)² + (b − c)² + (c − a)² का मान ज्ञात कीजिए।\n\n(SSC CGL Pre 20/07/2023)",
+    "options": [
+      {
+        "id": "A",
+        "text": "27"
+      },
+      {
+        "id": "B",
+        "text": "18"
+      },
+      {
+        "id": "C",
+        "text": "45"
+      },
+      {
+        "id": "D",
+        "text": "54"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra006",
+    "subjectId": "maths",
+    "question": "यदि x + y + z = 18, xyz = 81 और xy + yz + zx = 90 है, तब ⁴√(x³ + y³ + z³ + xyz) का मान ज्ञात कीजिए।\n\n(SSC CGL Pre 13/04/2022)",
+    "options": [
+      {
+        "id": "A",
+        "text": "10"
+      },
+      {
+        "id": "B",
+        "text": "12"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra007",
+    "subjectId": "maths",
+    "question": "हल करें: [(a² − b²)³ + (b² − c²)³ + (c² − a²)³] ÷ [(a − b)³ + (b − c)³ + (c − a)³]\n\n(SSC CHSL 14/11/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a + b)(b + c)(c + a)"
+      },
+      {
+        "id": "B",
+        "text": "(2a + b)(b + c)(3c + a)"
+      },
+      {
+        "id": "C",
+        "text": "(2a + b)(2b + c)(2c + a)"
+      },
+      {
+        "id": "D",
+        "text": "(a + 3b)(b + 3c)(c + 3a)"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra008",
+    "subjectId": "maths",
+    "question": "सरल करें: [(x + y)³ + (y + z)³ + (z + x)³ − 3(x + y)(y + z)(z + x)] ÷ [x³ + y³ + z³ − 3xyz]\n\n(SSC CHSL 12/11/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra009",
+    "subjectId": "maths",
+    "question": "दिया गया है, x + y + z = 0 और x³ + y³ + z³ = 3xyz, मूल्यांकन करें: (x − y)³ + (y − z)³ + (z − x)³।\n\n(SSC CGL 17/09/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "9(x − y)(y − z)(z − x)"
+      },
+      {
+        "id": "C",
+        "text": "27xyz"
+      },
+      {
+        "id": "D",
+        "text": "3(x − y)(y − z)(z − x)"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra010",
+    "subjectId": "maths",
+    "question": "यदि x + y + z = 6 है, तो (x − 1)³ + (y − 2)³ + (z − 3)³ का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3xyz"
+      },
+      {
+        "id": "B",
+        "text": "3(x − 1)(y − 2)(z − 3)"
+      },
+      {
+        "id": "C",
+        "text": "(x − 1)(y − 2)(z − 3)"
+      },
+      {
+        "id": "D",
+        "text": "2(x − 1)(y − 2)(z − 3)"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra011",
+    "subjectId": "maths",
+    "question": "यदि a + b + c = 0 और a = 0.1, b = 0.2, c = −0.3, तो (a³ + b³ + c³) ÷ (3abc) क्या है?\n\n(SSC CGL 19/09/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "−3"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "−2"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra012",
+    "subjectId": "maths",
+    "question": "यदि a² + b² + c² + 189 = 6(a + 4b + 2c) है, तो √(ab + bc + ca) किसके बराबर है?\n\n(ALP CBT-1 17/02/2026)",
+    "options": [
+      {
+        "id": "A",
+        "text": "2√14"
+      },
+      {
+        "id": "B",
+        "text": "2√11"
+      },
+      {
+        "id": "C",
+        "text": "3√14"
+      },
+      {
+        "id": "D",
+        "text": "3√11"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra013",
+    "subjectId": "maths",
+    "question": "23³ + (−11)³ + (−12)³ का मान ज्ञात कीजिए।\n\n(RRB NTPC (UG), 18/06/2026)",
+    "options": [
+      {
+        "id": "A",
+        "text": "9108"
+      },
+      {
+        "id": "B",
+        "text": "9070"
+      },
+      {
+        "id": "C",
+        "text": "8863"
+      },
+      {
+        "id": "D",
+        "text": "9144"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra014",
+    "subjectId": "maths",
+    "question": "यदि (a − 1)³ + (a − 4)³ + (a − 7)³ = 3(a − 1)(a − 4)(a − 7), तो a का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "−4"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "−1"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra015",
+    "subjectId": "maths",
+    "question": "यदि (5x + 1)³ + (x + 3)³ + 8(3x − 4)³ = 6(5x + 1)(x + 3)(3x − 4) है, तो x का मान है:\n\n(RRB JE CBT 1 20/02/2026)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/2"
+      },
+      {
+        "id": "B",
+        "text": "1/4"
+      },
+      {
+        "id": "C",
+        "text": "1/3"
+      },
+      {
+        "id": "D",
+        "text": "2/3"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra016",
+    "subjectId": "maths",
+    "question": "यदि a + b + c = 13 और ab + bc + ca = 4 हैं, तो ab(a + b) + bc(b + c) + ca(c + a) + 3abc का मान क्या है?\n\n(RRB Technician G-III 10/03/2026)",
+    "options": [
+      {
+        "id": "A",
+        "text": "38"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "17"
+      },
+      {
+        "id": "D",
+        "text": "52"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra017",
+    "subjectId": "maths",
+    "question": "यदि a + 1/a = 2 है, तो (a¹¹⁸ + 1/a¹¹⁷) का मान है:\n\n(SSC CHSL 2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "117"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "118"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra018",
+    "subjectId": "maths",
+    "question": "यदि (x² + 1)/x = 2 है, तो (x²⁰²⁶ + x¹⁰¹³ + x⁴⁷) ÷ (x¹⁰⁰ + x⁵⁰) का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "3/2"
+      },
+      {
+        "id": "C",
+        "text": "2/3"
+      },
+      {
+        "id": "D",
+        "text": "2"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra019",
+    "subjectId": "maths",
+    "question": "दिया गया है: x + 1/x = 2, तो x⁶ + 1/x⁶ − 3(x³ + 1/x³) + 5(x² + 1/x²) का मान ज्ञात करें।\n\n(SSC CPO 09/12/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra020",
+    "subjectId": "maths",
+    "question": "यदि k + 1/k = 2 है, तो 8k × k × k का मान ज्ञात कीजिए।\n\n(SSC CHSL Pre 09/06/2022)",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "2"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra021",
+    "subjectId": "maths",
+    "question": "यदि x + 1/x = 1 है, तो x¹² + x⁹ + x⁶ + x³ + 1 का मान क्या है?\n\n(SSC CGL Pre 06/12/2022)",
+    "options": [
+      {
+        "id": "A",
+        "text": "−2"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "1"
+      },
+      {
+        "id": "D",
+        "text": "−1"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra022",
+    "subjectId": "maths",
+    "question": "यदि x + 1/x = 1 है, तो (x²⁰²⁶ + 1/x²⁰²⁶) + (x⁵¹ + 1/x⁵¹) का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "−3"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "−1"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra023",
+    "subjectId": "maths",
+    "question": "यदि x + 1/x = −1 है, तो x¹⁵ + 1/x¹⁵ का मान होगा:\n\n(SSC CHSL Pre 07/08/2023)",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "−1"
+      },
+      {
+        "id": "C",
+        "text": "0"
+      },
+      {
+        "id": "D",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra024",
+    "subjectId": "maths",
+    "question": "यदि x + 1/x = −1 है, तो (x²⁰²⁶ + 1/x²⁰²⁶) × (x⁹⁹ + 1/x⁹⁹) का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "−2"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "−1"
+      },
+      {
+        "id": "D",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra025",
+    "subjectId": "maths",
+    "question": "यदि x² + 2x + 1 = 0 है, तो (x²⁰²⁵ + 1/x²⁰²⁵) ÷ (x²⁰²⁶ + 1/x²⁰²⁶) + x²⁰²⁷ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "−2"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "−1"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra026",
+    "subjectId": "maths",
+    "question": "दिया गया है: x + 1/x = −2, तो x⁶ + 1/x⁶ − 3(x⁴ + 1/x⁴) + 4(x² + 1/x²) का मान ज्ञात करें।\n\n(SSC CGL 19/09/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra027",
+    "subjectId": "maths",
+    "question": "यदि x + 1/x = √3 है, तो x²⁰²⁶ + 1/x²⁰²⁶ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "−1"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "−2"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra028",
+    "subjectId": "maths",
+    "question": "दिया गया है, x + 1/x = 5, तो x² + 1/x² का मान क्या है?\n\n(SSC CGL 13/09/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "25"
+      },
+      {
+        "id": "B",
+        "text": "24"
+      },
+      {
+        "id": "C",
+        "text": "26"
+      },
+      {
+        "id": "D",
+        "text": "23"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra029",
+    "subjectId": "maths",
+    "question": "यदि 2x + 2/x = 3 है, तो x² + 1/x² का मान क्या है?\n\n(SSC CHSL 28/11/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/4"
+      },
+      {
+        "id": "B",
+        "text": "2/5"
+      },
+      {
+        "id": "C",
+        "text": "5/7"
+      },
+      {
+        "id": "D",
+        "text": "8/7"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra030",
+    "subjectId": "maths",
+    "question": "यदि 2x − 1/(2x) = 10/3 और x > 1 है, तो (x² + 1/(16x²)) का मान ज्ञात कीजिए।\n\n(SSC MTS 12/02/2026)",
+    "options": [
+      {
+        "id": "A",
+        "text": "125/18"
+      },
+      {
+        "id": "B",
+        "text": "59/18"
+      },
+      {
+        "id": "C",
+        "text": "10/9"
+      },
+      {
+        "id": "D",
+        "text": "35/9"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra031",
+    "subjectId": "maths",
+    "question": "दिया गया है, x + 1/x = 4, x³ + 1/x³ का मान ज्ञात कीजिए।\n\n(SSC CGL 14/09/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "55"
+      },
+      {
+        "id": "B",
+        "text": "57"
+      },
+      {
+        "id": "C",
+        "text": "52"
+      },
+      {
+        "id": "D",
+        "text": "50"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra032",
+    "subjectId": "maths",
+    "question": "यदि x − 1/x = 10 है, तो x³ − 1/x³ का मान ज्ञात कीजिए।\n\n(NTPC CBT-I (GL) 05/06/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1386"
+      },
+      {
+        "id": "B",
+        "text": "986"
+      },
+      {
+        "id": "C",
+        "text": "992"
+      },
+      {
+        "id": "D",
+        "text": "1030"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra033",
+    "subjectId": "maths",
+    "question": "यदि x + 1/(x + 2) = 6 है, तो (x + 2)³ + 1/(x + 2)³ का मान निर्धारित करें।\n\n(SSC PHASE XIII 25/07/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "488"
+      },
+      {
+        "id": "B",
+        "text": "386"
+      },
+      {
+        "id": "C",
+        "text": "250"
+      },
+      {
+        "id": "D",
+        "text": "405"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra034",
+    "subjectId": "maths",
+    "question": "यदि गैर-शून्य x के लिए, 7x² + 5x + 7 = 0 है, तो (x³ + 1/x³) का मान ज्ञात कीजिए।\n\n(SSC Selection Post Phase XII 24/06/2024)",
+    "options": [
+      {
+        "id": "A",
+        "text": "343/610"
+      },
+      {
+        "id": "B",
+        "text": "610/420"
+      },
+      {
+        "id": "C",
+        "text": "420/343"
+      },
+      {
+        "id": "D",
+        "text": "610/343"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra035",
+    "subjectId": "maths",
+    "question": "यदि a² + 1/a² = 14, तो a⁴ + 1/a⁴ का मान ज्ञात कीजिए?\n\n(SSC PHASE XIII 29/07/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "190"
+      },
+      {
+        "id": "B",
+        "text": "194"
+      },
+      {
+        "id": "C",
+        "text": "186"
+      },
+      {
+        "id": "D",
+        "text": "188"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra036",
+    "subjectId": "maths",
+    "question": "दिया गया है कि x − 1/x = 3, x⁴ + 1/x⁴ का मान ज्ञात कीजिए।\n\n(SSC CGL 15/09/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "119"
+      },
+      {
+        "id": "B",
+        "text": "125"
+      },
+      {
+        "id": "C",
+        "text": "130"
+      },
+      {
+        "id": "D",
+        "text": "145"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra037",
+    "subjectId": "maths",
+    "question": "यदि (x + 1/x) = 5 है, तो (x⁵ + 1/x⁵) का मान है:\n\n(SSC CHSL 07/08/2023)",
+    "options": [
+      {
+        "id": "A",
+        "text": "2535"
+      },
+      {
+        "id": "B",
+        "text": "2540"
+      },
+      {
+        "id": "C",
+        "text": "2515"
+      },
+      {
+        "id": "D",
+        "text": "2525"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra038",
+    "subjectId": "maths",
+    "question": "यदि x + 1/x = −2√3 है, तो x⁵ + 1/x⁵ का मान ज्ञात करें।\n\n(SSC CHSL 24/05/2022)",
+    "options": [
+      {
+        "id": "A",
+        "text": "−178√3"
+      },
+      {
+        "id": "B",
+        "text": "−182√3"
+      },
+      {
+        "id": "C",
+        "text": "182√3"
+      },
+      {
+        "id": "D",
+        "text": "−180√3"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra039",
+    "subjectId": "maths",
+    "question": "यदि a + 1/a = 3, तो a⁶ + 1/a⁶ का मान ज्ञात कीजिए?\n\n(SSC PHASE XIII 30/07/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "322"
+      },
+      {
+        "id": "B",
+        "text": "324"
+      },
+      {
+        "id": "C",
+        "text": "326"
+      },
+      {
+        "id": "D",
+        "text": "256"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra040",
+    "subjectId": "maths",
+    "question": "यदि b − 1/b = 3, तो b⁶ + 1/b⁶ का मान ज्ञात कीजिए?\n\n(SSC CHSL 14/11/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "1298"
+      },
+      {
+        "id": "B",
+        "text": "1345"
+      },
+      {
+        "id": "C",
+        "text": "1987"
+      },
+      {
+        "id": "D",
+        "text": "1678"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra041",
+    "subjectId": "maths",
+    "question": "दिया गया है, x + 1/x = 4, तो x⁶ + 1/x⁶ − 3(x⁴ + 1/x⁴) + 4(x² + 1/x²) का मान ज्ञात कीजिए।\n\n(SSC CGL 18/09/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "2176"
+      },
+      {
+        "id": "B",
+        "text": "2087"
+      },
+      {
+        "id": "C",
+        "text": "2562"
+      },
+      {
+        "id": "D",
+        "text": "2476"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra042",
+    "subjectId": "maths",
+    "question": "यदि x + 1/x = 3, x ≠ 0 है, तो x⁷ + 1/x⁷ का मान क्या है?\n\n(SSC CGL Mains 03/02/2022)",
+    "options": [
+      {
+        "id": "A",
+        "text": "849"
+      },
+      {
+        "id": "B",
+        "text": "746"
+      },
+      {
+        "id": "C",
+        "text": "749"
+      },
+      {
+        "id": "D",
+        "text": "843"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra043",
+    "subjectId": "maths",
+    "question": "यदि x − 1/x = 1 है, तो x⁸ + 1/x⁸ का मान ज्ञात कीजिए।\n\n(SSC CGL 13/08/2021)",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "119"
+      },
+      {
+        "id": "C",
+        "text": "47"
+      },
+      {
+        "id": "D",
+        "text": "−1"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra044",
+    "subjectId": "maths",
+    "question": "यदि x² + 1/x² = 79 है, तो (x + 1/x) का संभावित मान ज्ञात कीजिए।\n\n(RRB Group D 10/12/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra045",
+    "subjectId": "maths",
+    "question": "यदि (x² + 1/(49x²)) = 15 5/7 है, तो (x + 1/(7x)) का मान ज्ञात करो।\n\n(SSC CHSL Pre 06/08/2021)",
+    "options": [
+      {
+        "id": "A",
+        "text": "±7"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "±4"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra046",
+    "subjectId": "maths",
+    "question": "यदि x/(x² − 4x + 1) = 1/9 है, तो x³ + 1/x³ का मान ज्ञात कीजिए।\n\n(RRB JE 20/02/2026)",
+    "options": [
+      {
+        "id": "A",
+        "text": "729"
+      },
+      {
+        "id": "B",
+        "text": "1256"
+      },
+      {
+        "id": "C",
+        "text": "1839"
+      },
+      {
+        "id": "D",
+        "text": "2158"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra047",
+    "subjectId": "maths",
+    "question": "यदि x² + 1/x² = 83 और x > 0 है, तो x³ − 1/x³ का मान है:\n\n(SSC CHSL Pre 12/08/2021; NTPC CBT-I (GL) 21/06/2025)",
+    "options": [
+      {
+        "id": "A",
+        "text": "746"
+      },
+      {
+        "id": "B",
+        "text": "756"
+      },
+      {
+        "id": "C",
+        "text": "576"
+      },
+      {
+        "id": "D",
+        "text": "675"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra048",
+    "subjectId": "maths",
+    "question": "यदि x⁴ + 1/x⁴ = 1154 (x > 0) है, तो (x + 1/x) का मान ज्ञात करें।\n\n(SSC CHSL Pre 09/08/2021)",
+    "options": [
+      {
+        "id": "A",
+        "text": "√32"
+      },
+      {
+        "id": "B",
+        "text": "√34"
+      },
+      {
+        "id": "C",
+        "text": "18"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "algebra049",
+    "subjectId": "maths",
+    "question": "(x + 1/x)(x − 1/x)(x² + 1/x²)(x⁴ + 1/x⁴) निम्नलिखित में से किसके बराबर है?\n\n(RRB Tech. - (III) 30/12/2024)",
+    "options": [
+      {
+        "id": "A",
+        "text": "x⁴ − 1/x⁴"
+      },
+      {
+        "id": "B",
+        "text": "x⁸ − 1/x⁸"
+      },
+      {
+        "id": "C",
+        "text": "x⁶ − 1/x⁶"
+      },
+      {
+        "id": "D",
+        "text": "x¹⁰ − 1/x¹⁰"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  }
+]
