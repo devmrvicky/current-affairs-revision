@@ -1,0 +1,2354 @@
+[
+  {
+    "id": "algebra050",
+    "subjectId": "maths",
+    "question": "यदि x = 3 है, तो (x + 5)² का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "81"
+      },
+      {
+        "id": "B",
+        "text": "64"
+      },
+      {
+        "id": "C",
+        "text": "49"
+      },
+      {
+        "id": "D",
+        "text": "56"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "सूत्र: (a+b)² = a²+2ab+b²। अतः (3+5)² = 8² = 64।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra051",
+    "subjectId": "maths",
+    "question": "(3a − 2b)² का सही विस्तारित रूप कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9a² − 12ab + 4b²"
+      },
+      {
+        "id": "B",
+        "text": "9a² + 12ab + 4b²"
+      },
+      {
+        "id": "C",
+        "text": "3a² − 12ab + 2b²"
+      },
+      {
+        "id": "D",
+        "text": "9a² − 6ab + 4b²"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "सूत्र: (p−q)² = p²−2pq+q²। यहाँ p=3a और q=2b रखने पर 9a²−12ab+4b² मिलता है।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra052",
+    "subjectId": "maths",
+    "question": "(x + 7)(x − 7) का सरल रूप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "x² − 14x + 49"
+      },
+      {
+        "id": "B",
+        "text": "x² + 14x − 49"
+      },
+      {
+        "id": "C",
+        "text": "x² − 49"
+      },
+      {
+        "id": "D",
+        "text": "x² + 49"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "यह वर्गों के अंतर का सूत्र है: (a+b)(a−b)=a²−b²। इसलिए x²−7² = x²−49।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra053",
+    "subjectId": "maths",
+    "question": "(2x + 3)² − (2x − 3)² का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "24x"
+      },
+      {
+        "id": "B",
+        "text": "12x"
+      },
+      {
+        "id": "C",
+        "text": "24x²"
+      },
+      {
+        "id": "D",
+        "text": "16x"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "सूत्र: (A+B)²−(A−B)² = 4AB। यहाँ A=2x और B=3, इसलिए 4×2x×3 = 24x।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra054",
+    "subjectId": "maths",
+    "question": "यदि a + b = 12 और ab = 20 है, तो a² + b² का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "144"
+      },
+      {
+        "id": "B",
+        "text": "124"
+      },
+      {
+        "id": "C",
+        "text": "104"
+      },
+      {
+        "id": "D",
+        "text": "64"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "a²+b² = (a+b)²−2ab = 12²−2×20 = 144−40 = 104।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra055",
+    "subjectId": "maths",
+    "question": "यदि a = 2 और b = 1 है, तो (a+b)³ + (a−b)³ का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "28"
+      },
+      {
+        "id": "B",
+        "text": "32"
+      },
+      {
+        "id": "C",
+        "text": "24"
+      },
+      {
+        "id": "D",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "सीधे मान रखने पर (2+1)³+(2−1)³ = 3³+1³ = 27+1 = 28।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra056",
+    "subjectId": "maths",
+    "question": "(x + 2)(x² − 2x + 4) का गुणनफल क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "x³ − 8"
+      },
+      {
+        "id": "B",
+        "text": "x³ + 4x + 8"
+      },
+      {
+        "id": "C",
+        "text": "x³ + 2x² + 4"
+      },
+      {
+        "id": "D",
+        "text": "x³ + 8"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "सूत्र: (a+b)(a²−ab+b²)=a³+b³। यहाँ a=x, b=2, इसलिए x³+2³ = x³+8।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra057",
+    "subjectId": "maths",
+    "question": "यदि a = 2 और b = 3 है, तो (a−b)² + (a+b)² का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "26"
+      },
+      {
+        "id": "B",
+        "text": "30"
+      },
+      {
+        "id": "C",
+        "text": "20"
+      },
+      {
+        "id": "D",
+        "text": "24"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "(a−b)²+(a+b)² = 2a²+2b²। अतः 2×4+2×9 = 8+18 = 26।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra058",
+    "subjectId": "maths",
+    "question": "(x − 4)² का विस्तारित रूप कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "x² − 4x + 16"
+      },
+      {
+        "id": "B",
+        "text": "x² − 16"
+      },
+      {
+        "id": "C",
+        "text": "x² − 8x + 16"
+      },
+      {
+        "id": "D",
+        "text": "x² + 8x + 16"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "सूत्र: (a−b)²=a²−2ab+b²। इसलिए (x−4)² = x²−8x+16।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra059",
+    "subjectId": "maths",
+    "question": "(2x − 1)(2x + 1) का सरल रूप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4x² − 1"
+      },
+      {
+        "id": "B",
+        "text": "4x² + 1"
+      },
+      {
+        "id": "C",
+        "text": "2x² − 1"
+      },
+      {
+        "id": "D",
+        "text": "4x² − 4x + 1"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "वर्गों का अंतर: (A−B)(A+B)=A²−B²। इसलिए (2x)²−1² = 4x²−1।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra060",
+    "subjectId": "maths",
+    "question": "6x² + 11x + 3 का सही गुणनखंड कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(3x − 1)(2x − 3)"
+      },
+      {
+        "id": "B",
+        "text": "(3x + 1)(2x + 3)"
+      },
+      {
+        "id": "C",
+        "text": "(6x + 1)(x + 3)"
+      },
+      {
+        "id": "D",
+        "text": "(2x + 1)(3x + 3)"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "मध्य पद को 9x+2x लिखें: 6x²+9x+2x+3 = 3x(2x+3)+1(2x+3) = (3x+1)(2x+3)।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra061",
+    "subjectId": "maths",
+    "question": "x² − 9x + 20 का गुणनखंड कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(x − 2)(x − 10)"
+      },
+      {
+        "id": "B",
+        "text": "(x + 4)(x − 5)"
+      },
+      {
+        "id": "C",
+        "text": "(x − 4)(x − 5)"
+      },
+      {
+        "id": "D",
+        "text": "(x + 4)(x + 5)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "ऐसी दो संख्याएँ चाहिए जिनका गुणनफल 20 और योग −9 हो: −4 और −5। अतः (x−4)(x−5)।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra062",
+    "subjectId": "maths",
+    "question": "4a² − 25b² का गुणनखंड क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(4a − 5b)(a + 5b)"
+      },
+      {
+        "id": "B",
+        "text": "(2a − 5b)(2a + 5b)"
+      },
+      {
+        "id": "C",
+        "text": "(2a + 5b)²"
+      },
+      {
+        "id": "D",
+        "text": "(2a − 5b)²"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "यह वर्गों का अंतर है: (2a)²−(5b)² = (2a−5b)(2a+5b)।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra063",
+    "subjectId": "maths",
+    "question": "x² − 5x − 24 का गुणनखंड क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(x − 8)(x − 3)"
+      },
+      {
+        "id": "B",
+        "text": "(x + 8)(x − 3)"
+      },
+      {
+        "id": "C",
+        "text": "(x − 8)(x + 3)"
+      },
+      {
+        "id": "D",
+        "text": "(x − 6)(x + 4)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "ऐसी संख्याएँ −8 और +3 हैं जिनका गुणनफल −24 तथा योग −5 है। इसलिए (x−8)(x+3)।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra064",
+    "subjectId": "maths",
+    "question": "3x² − 12x का पूर्ण गुणनखंड रूप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3(x − 4)"
+      },
+      {
+        "id": "B",
+        "text": "3x(x − 4)"
+      },
+      {
+        "id": "C",
+        "text": "3x(x + 4)"
+      },
+      {
+        "id": "D",
+        "text": "x(3x − 4)"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "दोनों पदों में 3x उभयनिष्ठ है। 3x²−12x = 3x(x−4)।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra065",
+    "subjectId": "maths",
+    "question": "x³ − 8 का गुणनखंड रूप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(x + 2)(x² − 2x + 4)"
+      },
+      {
+        "id": "B",
+        "text": "(x − 2)(x² − 2x + 4)"
+      },
+      {
+        "id": "C",
+        "text": "(x − 4)(x² + 2x + 2)"
+      },
+      {
+        "id": "D",
+        "text": "(x − 2)(x² + 2x + 4)"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "घनों का अंतर: a³−b³=(a−b)(a²+ab+b²)। x³−2³ = (x−2)(x²+2x+4)।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra066",
+    "subjectId": "maths",
+    "question": "x² + 7x + 12 का गुणनखंड क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(x − 3)(x − 4)"
+      },
+      {
+        "id": "B",
+        "text": "(x − 3)(x + 4)"
+      },
+      {
+        "id": "C",
+        "text": "(x + 3)(x + 4)"
+      },
+      {
+        "id": "D",
+        "text": "(x + 2)(x + 6)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "3 और 4 का गुणनफल 12 तथा योग 7 है। अतः x²+7x+12=(x+3)(x+4)।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra067",
+    "subjectId": "maths",
+    "question": "2x² + x − 6 का गुणनखंड कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(2x + 3)(x − 2)"
+      },
+      {
+        "id": "B",
+        "text": "(2x − 3)(x + 2)"
+      },
+      {
+        "id": "C",
+        "text": "(x − 3)(2x + 2)"
+      },
+      {
+        "id": "D",
+        "text": "(2x − 2)(x + 3)"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "गुणा करने पर 2x²+4x−3x−6 = 2x²+x−6 मिलता है। इसलिए सही गुणनखंड (2x−3)(x+2) है।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra068",
+    "subjectId": "maths",
+    "question": "x³ + 27 का गुणनखंड रूप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(x + 3)(x² + 3x + 9)"
+      },
+      {
+        "id": "B",
+        "text": "(x − 3)(x² + 3x + 9)"
+      },
+      {
+        "id": "C",
+        "text": "(x + 3)(x² − 3x + 9)"
+      },
+      {
+        "id": "D",
+        "text": "(x − 3)(x² − 3x + 9)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "घनों का योग: a³+b³=(a+b)(a²−ab+b²)। x³+3³=(x+3)(x²−3x+9)।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra069",
+    "subjectId": "maths",
+    "question": "9x² − 24xy + 16y² का पूर्ण वर्ग रूप कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(3x + 4y)²"
+      },
+      {
+        "id": "B",
+        "text": "(9x − 4y)²"
+      },
+      {
+        "id": "C",
+        "text": "(3x − 8y)²"
+      },
+      {
+        "id": "D",
+        "text": "(3x − 4y)²"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "9x²−24xy+16y² = (3x)²−2(3x)(4y)+(4y)² = (3x−4y)²।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra070",
+    "subjectId": "maths",
+    "question": "जहाँ x ≠ 3, वहाँ (x² − 9)/(x − 3) का सरल रूप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "x + 9"
+      },
+      {
+        "id": "B",
+        "text": "x − 3"
+      },
+      {
+        "id": "C",
+        "text": "x + 3"
+      },
+      {
+        "id": "D",
+        "text": "x² + 3"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "अंश x²−9=(x−3)(x+3) है। x−3 से काटने पर x+3 बचता है; x=3 मान्य नहीं है।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra071",
+    "subjectId": "maths",
+    "question": "1/x + 1/y का समान हर वाला रूप क्या होगा? (x और y शून्य नहीं हैं)",
+    "options": [
+      {
+        "id": "A",
+        "text": "(x + y)/xy"
+      },
+      {
+        "id": "B",
+        "text": "(x − y)/xy"
+      },
+      {
+        "id": "C",
+        "text": "1/(x + y)"
+      },
+      {
+        "id": "D",
+        "text": "xy/(x + y)"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "समान हर xy लेने पर 1/x+1/y = y/xy+x/xy = (x+y)/xy।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra072",
+    "subjectId": "maths",
+    "question": "जहाँ x ≠ −2 है, वहाँ (x² − 4)/(x² + 4x + 4) का सरल रूप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(x + 2)²/(x − 2)"
+      },
+      {
+        "id": "B",
+        "text": "(x + 2)/(x − 2)"
+      },
+      {
+        "id": "C",
+        "text": "(x − 2)/(x + 2)"
+      },
+      {
+        "id": "D",
+        "text": "(x − 2)²/(x + 2)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "अंश=(x−2)(x+2) और हर=(x+2)²। एक (x+2) काटने पर (x−2)/(x+2) मिलता है।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra073",
+    "subjectId": "maths",
+    "question": "2/(x−1) + 3/(x+1) का सरल रूप क्या है? (x ≠ ±1)",
+    "options": [
+      {
+        "id": "A",
+        "text": "(5x − 1)/(x² + 1)"
+      },
+      {
+        "id": "B",
+        "text": "(x + 5)/(x² + 1)"
+      },
+      {
+        "id": "C",
+        "text": "(5x + 1)/(x² − 1)"
+      },
+      {
+        "id": "D",
+        "text": "(5x − 1)/(x² − 1)"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "समान हर (x−1)(x+1)=x²−1 लेने पर अंश 2(x+1)+3(x−1)=2x+2+3x−3=5x−1 है।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra074",
+    "subjectId": "maths",
+    "question": "x/(x+2) − 2/(x+2) का सरल रूप क्या है? (x ≠ −2)",
+    "options": [
+      {
+        "id": "A",
+        "text": "(x − 2)/(x + 2)"
+      },
+      {
+        "id": "B",
+        "text": "(x + 2)/(x − 2)"
+      },
+      {
+        "id": "C",
+        "text": "(x + 2)/(x + 2)"
+      },
+      {
+        "id": "D",
+        "text": "(x − 2)/(x − 2)"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "हर समान है, इसलिए अंश घटाएँ: (x−2)/(x+2)।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra075",
+    "subjectId": "maths",
+    "question": "(3/x) ÷ (6/x²) का सरल रूप क्या है? (x ≠ 0)",
+    "options": [
+      {
+        "id": "A",
+        "text": "x/3"
+      },
+      {
+        "id": "B",
+        "text": "x/2"
+      },
+      {
+        "id": "C",
+        "text": "2x"
+      },
+      {
+        "id": "D",
+        "text": "3x/2"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "भाग को व्युत्क्रम से गुणा करें: (3/x)×(x²/6)=3x/6=x/2।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra076",
+    "subjectId": "maths",
+    "question": "(a² − b²)/(a − b) का सरल रूप क्या है? (a ≠ b)",
+    "options": [
+      {
+        "id": "A",
+        "text": "a² + b²"
+      },
+      {
+        "id": "B",
+        "text": "a − b"
+      },
+      {
+        "id": "C",
+        "text": "ab"
+      },
+      {
+        "id": "D",
+        "text": "a + b"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "a²−b²=(a−b)(a+b)। a−b से भाग देने पर a+b मिलता है।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra077",
+    "subjectId": "maths",
+    "question": "1/(x+1) + 1/(x−1) का सरल रूप क्या है? (x ≠ ±1)",
+    "options": [
+      {
+        "id": "A",
+        "text": "2/(x² − 1)"
+      },
+      {
+        "id": "B",
+        "text": "(x²+1)/(x²−1)"
+      },
+      {
+        "id": "C",
+        "text": "2x/(x² − 1)"
+      },
+      {
+        "id": "D",
+        "text": "(x+1)/(x−1)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "समान हर x²−1 लेने पर अंश (x−1)+(x+1)=2x होगा।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra078",
+    "subjectId": "maths",
+    "question": "3x + 7 = 25 होने पर x का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "3x=25−7=18, इसलिए x=18/3=6।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra079",
+    "subjectId": "maths",
+    "question": "5(2x − 3) = 3x + 13 को हल कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "10x−15=3x+13 ⇒ 7x=28 ⇒ x=4।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra080",
+    "subjectId": "maths",
+    "question": "x/3 + x/2 = 10 होने पर x का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "ल.स.प. 6 लेने पर 2x+3x=60 ⇒ 5x=60 ⇒ x=12।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra081",
+    "subjectId": "maths",
+    "question": "2x − 5 = 3x + 1 को हल कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "−4"
+      },
+      {
+        "id": "B",
+        "text": "−6"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "2x−5=3x+1 ⇒ −6=x। अतः x=−6।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra082",
+    "subjectId": "maths",
+    "question": "4(x − 2) − 3(x + 1) = 7 होने पर x का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "16"
+      },
+      {
+        "id": "B",
+        "text": "20"
+      },
+      {
+        "id": "C",
+        "text": "18"
+      },
+      {
+        "id": "D",
+        "text": "15"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "4x−8−3x−3=7 ⇒ x−11=7 ⇒ x=18।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra083",
+    "subjectId": "maths",
+    "question": "(x−2)/5 = (x+1)/3 को हल कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "11/2"
+      },
+      {
+        "id": "B",
+        "text": "−11/2"
+      },
+      {
+        "id": "C",
+        "text": "−7/2"
+      },
+      {
+        "id": "D",
+        "text": "7/2"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "क्रॉस गुणा: 3x−6=5x+5 ⇒ −11=2x ⇒ x=−11/2।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra084",
+    "subjectId": "maths",
+    "question": "यदि 2x + 3y = 13 और x + y = 5 है, तो x का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "दूसरे समीकरण को 2 से गुणा करें: 2x+2y=10। पहले से घटाने पर y=3; इसलिए x=5−3=2।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra085",
+    "subjectId": "maths",
+    "question": "यदि 3x + 2y = 16 और x + y = 6 है, तो y का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "दूसरे समीकरण से x=6−y। रखने पर 3(6−y)+2y=16 ⇒ 18−y=16 ⇒ y=2।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra086",
+    "subjectId": "maths",
+    "question": "4x + 3 = 2x + 15 को हल कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "−6"
+      },
+      {
+        "id": "B",
+        "text": "12"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "4x−2x=15−3 ⇒ 2x=12 ⇒ x=6।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra087",
+    "subjectId": "maths",
+    "question": "(x−1)/2 + (x+1)/3 = 5 होने पर x का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25/5"
+      },
+      {
+        "id": "B",
+        "text": "31/5"
+      },
+      {
+        "id": "C",
+        "text": "29/5"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "6 से गुणा करने पर 3(x−1)+2(x+1)=30 ⇒ 3x−3+2x+2=30 ⇒ 5x=31 ⇒ x=31/5।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra088",
+    "subjectId": "maths",
+    "question": "रेखा y = 3x − 4 की ढाल क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "−3"
+      },
+      {
+        "id": "C",
+        "text": "−4"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "y=mx+c के रूप में ढाल x का गुणांक m होता है। यहाँ m=3 है।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra089",
+    "subjectId": "maths",
+    "question": "रेखा 2x + 3y = 12 का y-अवरोध क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "y-अवरोध के लिए x=0 रखें: 3y=12 ⇒ y=4।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra090",
+    "subjectId": "maths",
+    "question": "रेखा 2x + 3y = 12 का x-अवरोध क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "x-अवरोध के लिए y=0 रखें: 2x=12 ⇒ x=6।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra091",
+    "subjectId": "maths",
+    "question": "निम्न में से कौन-सा बिंदु y = 2x + 1 रेखा पर स्थित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(3, 5)"
+      },
+      {
+        "id": "B",
+        "text": "(2, 4)"
+      },
+      {
+        "id": "C",
+        "text": "(2, 5)"
+      },
+      {
+        "id": "D",
+        "text": "(1, 1)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "बिंदु (2,5) रखने पर दायाँ पक्ष 2×2+1=5 है, जो y के बराबर है। इसलिए बिंदु रेखा पर है।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra092",
+    "subjectId": "maths",
+    "question": "रेखाएँ y = 2x + 1 तथा y = 2x − 3 कैसी हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "एक-दूसरे को दो बिंदुओं पर काटती हैं"
+      },
+      {
+        "id": "B",
+        "text": "एक ही रेखा"
+      },
+      {
+        "id": "C",
+        "text": "लंबवत"
+      },
+      {
+        "id": "D",
+        "text": "समानांतर"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "दोनों रेखाओं की ढाल 2 है, लेकिन y-अवरोध अलग हैं। इसलिए वे अलग-अलग समानांतर रेखाएँ हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra093",
+    "subjectId": "maths",
+    "question": "रेखाओं y = 2x + 1 और y = 7 − x का प्रतिच्छेद बिंदु किसका है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(2, 3)"
+      },
+      {
+        "id": "B",
+        "text": "(3, 4)"
+      },
+      {
+        "id": "C",
+        "text": "(2, 5)"
+      },
+      {
+        "id": "D",
+        "text": "(1, 3)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "प्रतिच्छेद पर 2x+1=7−x ⇒ 3x=6 ⇒ x=2। तब y=2×2+1=5।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra094",
+    "subjectId": "maths",
+    "question": "रेखा y = −3 की ढाल कितनी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "अपरिभाषित"
+      },
+      {
+        "id": "C",
+        "text": "−3"
+      },
+      {
+        "id": "D",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "y=−3 एक क्षैतिज रेखा है। हर क्षैतिज रेखा की ढाल 0 होती है।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra095",
+    "subjectId": "maths",
+    "question": "रेखा y = 2x − 6, x-अक्ष को किस x-निर्देशांक पर काटती है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "−3"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "2"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "x-अक्ष पर y=0 होता है। 0=2x−6 ⇒ x=3।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra096",
+    "subjectId": "maths",
+    "question": "√50 का सरलतम रूप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25√2"
+      },
+      {
+        "id": "B",
+        "text": "10√2"
+      },
+      {
+        "id": "C",
+        "text": "2√5"
+      },
+      {
+        "id": "D",
+        "text": "5√2"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "50=25×2, इसलिए √50=√25×√2=5√2।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra097",
+    "subjectId": "maths",
+    "question": "√72 का सरलतम रूप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8√2"
+      },
+      {
+        "id": "B",
+        "text": "2√6"
+      },
+      {
+        "id": "C",
+        "text": "6√2"
+      },
+      {
+        "id": "D",
+        "text": "3√8"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "72=36×2, इसलिए √72=6√2।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra098",
+    "subjectId": "maths",
+    "question": "3√8 − √18 का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5√2"
+      },
+      {
+        "id": "B",
+        "text": "√2"
+      },
+      {
+        "id": "C",
+        "text": "9√2"
+      },
+      {
+        "id": "D",
+        "text": "3√2"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "√8=2√2 और √18=3√2। इसलिए 3×2√2−3√2=3√2।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra099",
+    "subjectId": "maths",
+    "question": "√12 × √3 का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6"
+      },
+      {
+        "id": "B",
+        "text": "12"
+      },
+      {
+        "id": "C",
+        "text": "3√2"
+      },
+      {
+        "id": "D",
+        "text": "6√2"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "√12×√3=√36=6।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra100",
+    "subjectId": "maths",
+    "question": "1/√5 का परिमेय हर वाला रूप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/5"
+      },
+      {
+        "id": "B",
+        "text": "√5/5"
+      },
+      {
+        "id": "C",
+        "text": "√5"
+      },
+      {
+        "id": "D",
+        "text": "5√5"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "अंश और हर दोनों को √5 से गुणा करें: 1/√5 = √5/5।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra101",
+    "subjectId": "maths",
+    "question": "4/√2 का सरलतम परिमेय रूप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4√2"
+      },
+      {
+        "id": "B",
+        "text": "2/√2"
+      },
+      {
+        "id": "C",
+        "text": "√2/2"
+      },
+      {
+        "id": "D",
+        "text": "2√2"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "4/√2 को √2/√2 से गुणा करने पर 4√2/2=2√2 मिलता है।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra102",
+    "subjectId": "maths",
+    "question": "√75/√3 का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "√25/3"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "√75/√3=√(75/3)=√25=5।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra103",
+    "subjectId": "maths",
+    "question": "2√3 + 3√3 का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5√3"
+      },
+      {
+        "id": "B",
+        "text": "√15"
+      },
+      {
+        "id": "C",
+        "text": "6√3"
+      },
+      {
+        "id": "D",
+        "text": "5√6"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "समान करणी पदों के गुणांक जोड़ें: 2√3+3√3=5√3।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra104",
+    "subjectId": "maths",
+    "question": "√(5 + 2√6) का सरल रूप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 + √6"
+      },
+      {
+        "id": "B",
+        "text": "√2 − √3"
+      },
+      {
+        "id": "C",
+        "text": "√5 + √6"
+      },
+      {
+        "id": "D",
+        "text": "√2 + √3"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "क्योंकि (√2+√3)²=2+3+2√6=5+2√6। इसलिए मूल रूप √2+√3 है।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra105",
+    "subjectId": "maths",
+    "question": "(√5 + √2)(√5 − √2) का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "7"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "√3"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "वर्गों का अंतर: (√5)²−(√2)²=5−2=3।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra106",
+    "subjectId": "maths",
+    "question": "2³ × 2⁴ का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "64"
+      },
+      {
+        "id": "B",
+        "text": "128"
+      },
+      {
+        "id": "C",
+        "text": "32"
+      },
+      {
+        "id": "D",
+        "text": "256"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "समान आधार के गुणन में घातें जुड़ती हैं: 2³×2⁴=2⁷=128।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra107",
+    "subjectId": "maths",
+    "question": "(3²)³ का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "729"
+      },
+      {
+        "id": "B",
+        "text": "81"
+      },
+      {
+        "id": "C",
+        "text": "243"
+      },
+      {
+        "id": "D",
+        "text": "27"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "घात की घात में घातें गुणा होती हैं: (3²)³=3⁶=729।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra108",
+    "subjectId": "maths",
+    "question": "5⁰ + 2⁻¹ का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "3/2"
+      },
+      {
+        "id": "C",
+        "text": "1/2"
+      },
+      {
+        "id": "D",
+        "text": "5/2"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "5⁰=1 और 2⁻¹=1/2। योग 1+1/2=3/2।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra109",
+    "subjectId": "maths",
+    "question": "a⁵/a² का सरल रूप क्या है? (a ≠ 0)",
+    "options": [
+      {
+        "id": "A",
+        "text": "a³"
+      },
+      {
+        "id": "B",
+        "text": "a²"
+      },
+      {
+        "id": "C",
+        "text": "a¹⁰"
+      },
+      {
+        "id": "D",
+        "text": "a⁷"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "समान आधार के भाग में घातें घटती हैं: a⁵/a²=a⁵⁻²=a³।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra110",
+    "subjectId": "maths",
+    "question": "27^(2/3) का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "6"
+      },
+      {
+        "id": "D",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "27^(2/3)=(∛27)²=3²=9।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra111",
+    "subjectId": "maths",
+    "question": "16^(3/4) का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8"
+      },
+      {
+        "id": "B",
+        "text": "16"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "16^(3/4)=(⁴√16)³=2³=8।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra112",
+    "subjectId": "maths",
+    "question": "2⁻³ का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "−8"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "−1/8"
+      },
+      {
+        "id": "D",
+        "text": "1/8"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "ऋणात्मक घात का अर्थ व्युत्क्रम है: 2⁻³=1/2³=1/8।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra113",
+    "subjectId": "maths",
+    "question": "(x²y³)² का सरल रूप क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "x⁴y⁵"
+      },
+      {
+        "id": "B",
+        "text": "x²y⁶"
+      },
+      {
+        "id": "C",
+        "text": "x⁴y⁶"
+      },
+      {
+        "id": "D",
+        "text": "x⁶y⁴"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "गुणनफल की घात: (ab)ⁿ=aⁿbⁿ। इसलिए (x²y³)²=x⁴y⁶।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra114",
+    "subjectId": "maths",
+    "question": "यदि P(x)=x²−3x+5 है, तो P(2) का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "P(2)=2²−3×2+5=4−6+5=3।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra115",
+    "subjectId": "maths",
+    "question": "P(x)=x³−4x+1 को (x−2) से भाग देने पर शेषफल क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "0"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "शेषफल प्रमेय के अनुसार शेषफल P(2) होगा। P(2)=8−8+1=1।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra116",
+    "subjectId": "maths",
+    "question": "यदि (x−1), x²+kx−6 का एक गुणनखंड है, तो k का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "−5"
+      },
+      {
+        "id": "C",
+        "text": "−6"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "गुणनखंड प्रमेय से P(1)=0। 1+k−6=0 ⇒ k=5।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra117",
+    "subjectId": "maths",
+    "question": "यदि (x+2), x²+ax+6 का एक गुणनखंड है, तो a का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "−3"
+      },
+      {
+        "id": "B",
+        "text": "−5"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "P(−2)=0 ⇒ 4−2a+6=0 ⇒ 10−2a=0 ⇒ a=5।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra118",
+    "subjectId": "maths",
+    "question": "(3x² + 1)(x³ − 2x) के गुणनफल की घात कितनी होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "पहले बहुपद की घात 2 और दूसरे की 3 है। अशून्य बहुपदों के गुणनफल की घात 2+3=5 होती है।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra119",
+    "subjectId": "maths",
+    "question": "बहुपद 2x − 6 का शून्यक क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "−3"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "−6"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "शून्यक के लिए 2x−6=0 ⇒ 2x=6 ⇒ x=3।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra120",
+    "subjectId": "maths",
+    "question": "x² − 5x + 6 = 0 के मूल कौन-से हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "−1 और −6"
+      },
+      {
+        "id": "B",
+        "text": "2 और 3"
+      },
+      {
+        "id": "C",
+        "text": "1 और 6"
+      },
+      {
+        "id": "D",
+        "text": "−2 और −3"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "x²−5x+6=(x−2)(x−3)=0। इसलिए मूल x=2 और x=3 हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra121",
+    "subjectId": "maths",
+    "question": "x² − 9 = 0 के मूल क्या हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "−3 और −3"
+      },
+      {
+        "id": "B",
+        "text": "3 और 3"
+      },
+      {
+        "id": "C",
+        "text": "9 और −9"
+      },
+      {
+        "id": "D",
+        "text": "3 और −3"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "x²−9=(x−3)(x+3)=0। अतः x=3 या x=−3।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra122",
+    "subjectId": "maths",
+    "question": "x² + 4x + 4 = 0 का मूल क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2 (दोहरा मूल)"
+      },
+      {
+        "id": "B",
+        "text": "−2 (दोहरा मूल)"
+      },
+      {
+        "id": "C",
+        "text": "4 और −1"
+      },
+      {
+        "id": "D",
+        "text": "−4 और 0"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "x²+4x+4=(x+2)²=0। अतः x=−2 दोहरा मूल है।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra123",
+    "subjectId": "maths",
+    "question": "2x² − 7x + 3 = 0 के मूल कौन-से हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "−3 और 1/2"
+      },
+      {
+        "id": "B",
+        "text": "−3 और −1/2"
+      },
+      {
+        "id": "C",
+        "text": "2 और 3/2"
+      },
+      {
+        "id": "D",
+        "text": "3 और 1/2"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "2x²−7x+3=(2x−1)(x−3)=0। इसलिए x=1/2 या x=3।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra124",
+    "subjectId": "maths",
+    "question": "x² − 6x + 5 = 0 का विविक्तकर कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "36"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "16"
+      },
+      {
+        "id": "D",
+        "text": "−16"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "D=b²−4ac=(−6)²−4×1×5=36−20=16।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra125",
+    "subjectId": "maths",
+    "question": "x² − 7x + 10 = 0 के मूलों का योग कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "−7"
+      },
+      {
+        "id": "D",
+        "text": "−10"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "ax²+bx+c=0 में मूलों का योग −b/a होता है। यहाँ −(−7)/1=7।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra126",
+    "subjectId": "maths",
+    "question": "3x² − 5x − 2 = 0 के मूलों का गुणनफल कितना है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5/3"
+      },
+      {
+        "id": "B",
+        "text": "−5/3"
+      },
+      {
+        "id": "C",
+        "text": "2/3"
+      },
+      {
+        "id": "D",
+        "text": "−2/3"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "द्विघात समीकरण में मूलों का गुणनफल c/a होता है। यहाँ −2/3।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra127",
+    "subjectId": "maths",
+    "question": "यदि x=2 और y=−1 है, तो 2x² − 3xy + y² का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9"
+      },
+      {
+        "id": "B",
+        "text": "15"
+      },
+      {
+        "id": "C",
+        "text": "13"
+      },
+      {
+        "id": "D",
+        "text": "11"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "मान रखने पर 2×4−3×(−2)+1 = 8+6+1 = 15।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra128",
+    "subjectId": "maths",
+    "question": "यदि a−b=4 और a+b=10 है, तो ab का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "24"
+      },
+      {
+        "id": "B",
+        "text": "14"
+      },
+      {
+        "id": "C",
+        "text": "21"
+      },
+      {
+        "id": "D",
+        "text": "40"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "(a+b)²−(a−b)²=4ab। इसलिए 100−16=4ab ⇒ ab=84/4=21।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra129",
+    "subjectId": "maths",
+    "question": "दो क्रमागत पूर्णांकों का योग 41 है। उनमें से बड़ी संख्या कौन-सी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "21"
+      },
+      {
+        "id": "B",
+        "text": "19"
+      },
+      {
+        "id": "C",
+        "text": "20"
+      },
+      {
+        "id": "D",
+        "text": "22"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "छोटी संख्या n मानें। n+(n+1)=41 ⇒ 2n=40 ⇒ n=20। बड़ी संख्या 21 है।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra130",
+    "subjectId": "maths",
+    "question": "यदि a+b+c=9 और ab+bc+ca=20 है, तो a²+b²+c² का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "49"
+      },
+      {
+        "id": "B",
+        "text": "61"
+      },
+      {
+        "id": "C",
+        "text": "29"
+      },
+      {
+        "id": "D",
+        "text": "41"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "सर्वसमिका: a²+b²+c²=(a+b+c)²−2(ab+bc+ca)। अतः 9²−2×20=81−40=41।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra131",
+    "subjectId": "maths",
+    "question": "यदि x=1, y=2 और z=3 है, तो (x+y+z)² का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25"
+      },
+      {
+        "id": "B",
+        "text": "49"
+      },
+      {
+        "id": "C",
+        "text": "36"
+      },
+      {
+        "id": "D",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "easy",
+    "explanation": "x+y+z=1+2+3=6। इसलिए (x+y+z)²=6²=36।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra132",
+    "subjectId": "maths",
+    "question": "x³−y³ का सही गुणनखंड रूप कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(x−y)(x²+xy+y²)"
+      },
+      {
+        "id": "B",
+        "text": "(x+y)(x²+xy+y²)"
+      },
+      {
+        "id": "C",
+        "text": "(x+y)(x²−xy+y²)"
+      },
+      {
+        "id": "D",
+        "text": "(x−y)(x²−xy+y²)"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "घनों का अंतर: a³−b³=(a−b)(a²+ab+b²)। यहाँ a=x और b=y है।",
+    "language": "hi"
+  },
+  {
+    "id": "algebra133",
+    "subjectId": "maths",
+    "question": "x³+y³ का सही गुणनखंड रूप कौन-सा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(x−y)(x²−xy+y²)"
+      },
+      {
+        "id": "B",
+        "text": "(x+y)(x²+xy+y²)"
+      },
+      {
+        "id": "C",
+        "text": "(x−y)(x²+xy+y²)"
+      },
+      {
+        "id": "D",
+        "text": "(x+y)(x²−xy+y²)"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "घनों का योग: a³+b³=(a+b)(a²−ab+b²)। यहाँ a=x और b=y है।",
+    "language": "hi"
+  }
+]
