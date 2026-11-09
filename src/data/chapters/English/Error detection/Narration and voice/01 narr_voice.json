@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "grammar551",
+    "subjectId": "english",
+    "question": "Select the direct speech of the sentence.\n\nThe teacher told the class that the Earth revolves around the Sun and takes three hundred and sixty-five days to complete one revolution.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The teacher said to the class, “The Earth revolves around the Sun and took three hundred and sixty-five days to complete one revolution.”"
+      },
+      {
+        "id": "B",
+        "text": "The teacher said to the class, “The Earth revolves around the Sun and takes three hundred and sixty-five days to complete one revolution.”"
+      },
+      {
+        "id": "C",
+        "text": "The teacher said to the class, “The Earth had revolved around the Sun and had taken three hundred and sixty-five days to complete one revolution.”"
+      },
+      {
+        "id": "D",
+        "text": "The teacher said to the class, “The Earth revolved around the Sun and took three hundred and sixty-five days to complete one revolution.”"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "नियम: जब Tense नहीं बदलता: (i) Reporting verb present / future हो (He says that ..., He will say that ...)। (ii) Direct Speech में सार्वभौमिक सत्य, आदतन तथ्य या ऐतिहासिक तथ्य हो (The Earth revolves ...; Water boils at 100°C) — भले ही reporting verb past हो। (iii) Direct में पहले से Past Perfect हो, या would / could / should / might / ought to / used to जैसे modals हों, तो वे वैसे ही रहते हैं। (iv) Direct में दो past क्रियाओं को जोड़ने वाला 'when / while / as' clause हो तो उसका tense प्रायः वही रहता है। Time-expressions (next week, tomorrow) भी तब नहीं बदलते जब reporting verb present हो।\n\nयहाँ: सार्वभौमिक सत्य (universal truth) में tense नहीं बदलता, इसलिए Indirect में भी Simple Present (revolves, takes) है और Direct में भी वही रहेगा। बाकी विकल्पों में इसे Past / Past Perfect में बदल दिया गया है, जो गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar552",
+    "subjectId": "english",
+    "question": "Select the active voice of the sentence.\n\nIt is believed that the ancient manuscript was written by a Buddhist monk in the fourth century.",
+    "options": [
+      {
+        "id": "A",
+        "text": "People believe that a Buddhist monk wrote the ancient manuscript in the fourth century."
+      },
+      {
+        "id": "B",
+        "text": "People believe that a Buddhist monk has written the ancient manuscript in the fourth century."
+      },
+      {
+        "id": "C",
+        "text": "They believe that the ancient manuscript wrote a Buddhist monk in the fourth century."
+      },
+      {
+        "id": "D",
+        "text": "People believed that a Buddhist monk wrote the ancient manuscript in the fourth century."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Impersonal / Reporting verbs का Passive: (i) 'People say / believe / think / know / expect / report that + clause' → 'It is said / believed / thought / known / expected / reported that + clause' अथवा 'Subject + is said / believed to + V1'। (ii) अगर clause की क्रिया उसी समय की है तो 'to + V1' (He is believed to be honest), और अगर पहले की घटना है तो 'to have + V3' (He is said to have been killed)। (iii) 'It is said that' में 'it' dummy subject है, इसलिए Active में 'People / They / Everyone' जैसा सामान्य कर्ता जोड़ा जाता है। (iv) clause की क्रिया passive हो तो 'to have been + V3'।\n\nयहाँ: 'It is believed that ...' का Active 'People believe that ...' है (dummy 'it' की जगह सामान्य कर्ता)। आगे का clause (was written by ... monk) भी Active बनता है — 'a Buddhist monk wrote the manuscript'। Tense बदलना (believed, has written) या कर्ता-कर्म उलटना गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar553",
+    "subjectId": "english",
+    "question": "Select the direct speech of the sentence.\n\nThe detective asked the witness where he had been when the shot was fired.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The detective said to the witness, “Where were you when the shot had been fired?”"
+      },
+      {
+        "id": "B",
+        "text": "The detective said to the witness, “Where are you when the shot was fired?”"
+      },
+      {
+        "id": "C",
+        "text": "The detective said to the witness, “Where was he when the shot was fired?”"
+      },
+      {
+        "id": "D",
+        "text": "The detective said to the witness, “Where were you when the shot was fired?”"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Interrogative (प्रश्नवाचक) वाक्य का narration: Reporting verb said / said to → asked / enquired / inquired of / wanted to know। (i) Yes/No प्रश्न (Do / Is / Are / Has / Can ... से शुरू) में 'if' या 'whether' लगता है। (ii) Wh-प्रश्न (what, where, why, who, how) में वही wh-word रहता है, 'that' नहीं लगता। (iii) वाक्य का क्रम सामान्य (Subject + Verb) हो जाता है, do / does / did हट जाते हैं और प्रश्नचिह्न (?) नहीं लगता (asked what was the matter ✗ → asked what the matter was)। (iv) Tense और pronoun के नियम पहले की तरह लगते हैं। उलटा करने पर: asked if / whether → Yes/No प्रश्न (Do / Is / Will / Has ... ?); asked + wh-word → उसी wh-word से प्रश्न, उलटा क्रम (Where were you?) और '?' लगता है।\n\nयहाँ: Wh-प्रश्न में Direct का क्रम लौटता है: 'where he had been' → 'Where were you?'। 'he' (Object witness) → you। 'when the shot was fired' (साथ-साथ की भूतकालीन क्रिया) वैसी ही रहती है, इसलिए उसे 'had been fired' या 'are' बनाना गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar554",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe proposal [should have been consider] more carefully by the board before it was approved.",
+    "options": [
+      {
+        "id": "A",
+        "text": "should had been considered"
+      },
+      {
+        "id": "B",
+        "text": "should be considered"
+      },
+      {
+        "id": "C",
+        "text": "should have been considered"
+      },
+      {
+        "id": "D",
+        "text": "should have considered"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Modals का Passive: Modal + V1 → Modal + be + V3 (can be done, may be done, must be done, should be done, would be done, ought to be done, need to be done); Modal perfect (should / could / would / might / must have + V3) → Modal + have been + V3 (should have been done); have to / has to / had to → have / has / had to be + V3; is / are / am to + V1 → is / are / am to be + V3; used to + V1 → used to be + V3। Modal वही रहता है, केवल 'be + V3' जुड़ता है। 'Can be able to' जैसे रूप गलत हैं।\n\nयहाँ: Modal perfect passive = modal + have been + V3 — 'should have been considered'। V3 (considered) ज़रूरी है; 'should be' अतीत का भाव खो देता है; 'should have considered' Active है; 'should had been' अशुद्ध है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar555",
+    "subjectId": "english",
+    "question": "Select the direct speech of the sentence.\n\nThe manager says that the company will announce the results next week.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The manager says, “The company will announce the results next week.”"
+      },
+      {
+        "id": "B",
+        "text": "The manager says, “The company would announce the results next week.”"
+      },
+      {
+        "id": "C",
+        "text": "The manager says, “The company announced the results next week.”"
+      },
+      {
+        "id": "D",
+        "text": "The manager says, “The company will announce the results the following week.”"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: जब Tense नहीं बदलता: (i) Reporting verb present / future हो (He says that ..., He will say that ...)। (ii) Direct Speech में सार्वभौमिक सत्य, आदतन तथ्य या ऐतिहासिक तथ्य हो (The Earth revolves ...; Water boils at 100°C) — भले ही reporting verb past हो। (iii) Direct में पहले से Past Perfect हो, या would / could / should / might / ought to / used to जैसे modals हों, तो वे वैसे ही रहते हैं। (iv) Direct में दो past क्रियाओं को जोड़ने वाला 'when / while / as' clause हो तो उसका tense प्रायः वही रहता है। Time-expressions (next week, tomorrow) भी तब नहीं बदलते जब reporting verb present हो।\n\nयहाँ: Reporting verb present (says) है, इसलिए tense और time-expression (next week) में कोई बदलाव नहीं होता — Direct में भी 'will announce' और 'next week' ही रहेंगे। 'would' और 'the following week' तभी आते जब reporting verb past होता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar556",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe chairman ____ to the members that they should not waste any more time in fruitless arguments.",
+    "options": [
+      {
+        "id": "A",
+        "text": "enquired"
+      },
+      {
+        "id": "B",
+        "text": "requested"
+      },
+      {
+        "id": "C",
+        "text": "suggested"
+      },
+      {
+        "id": "D",
+        "text": "ordered"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "नियम: Let वाले वाक्य (सुझाव / प्रस्ताव): Direct में 'Let us / Let's / Shall we' हो तो Reporting verb suggested / proposed / urged बनता है और 'that + subject + should + V1' लगता है (He said, 'Let us go' → He suggested that they should go)। Negative: 'Let us not ...' → suggested that they should not ...। उलटा करने पर 'suggested / proposed that we / they should ...' → Direct में 'Let us ...'। ध्यान रहे: 'Let him / Let them' (तीसरे पुरुष के प्रति आदेश) में reporting verb ordered / said that they might be allowed ... हो सकता है — इसे 'Let us' वाले suggestion से अलग समझें।\n\nयहाँ: 'Let us not waste time' जैसे प्रस्ताव का narration 'suggested / proposed (to ...) that ... should not ...' होता है। 'Ordered / requested' के बाद सीधा object आता है (ordered the members), इसलिए 'ordered to the members that ...' या 'requested to the members that ...' नहीं बनते; 'enquired' प्रश्न के लिए है और उसके बाद 'to ... that' नहीं लगता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar557",
+    "subjectId": "english",
+    "question": "Select the direct speech of the sentence.\n\nThe interviewer asked the candidate whether she would be willing to relocate to another city if the company so required.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The interviewer said to the candidate, “Will you be willing to relocate to another city if the company so requires?”"
+      },
+      {
+        "id": "B",
+        "text": "The interviewer said to the candidate, “Will she be willing to relocate to another city if the company so requires?”"
+      },
+      {
+        "id": "C",
+        "text": "The interviewer said to the candidate, “Are you willing to relocate to another city if the company so will require?”"
+      },
+      {
+        "id": "D",
+        "text": "The interviewer said to the candidate, “Will you be willing to relocate to another city if the company so required?”"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Interrogative (प्रश्नवाचक) वाक्य का narration: Reporting verb said / said to → asked / enquired / inquired of / wanted to know। (i) Yes/No प्रश्न (Do / Is / Are / Has / Can ... से शुरू) में 'if' या 'whether' लगता है। (ii) Wh-प्रश्न (what, where, why, who, how) में वही wh-word रहता है, 'that' नहीं लगता। (iii) वाक्य का क्रम सामान्य (Subject + Verb) हो जाता है, do / does / did हट जाते हैं और प्रश्नचिह्न (?) नहीं लगता (asked what was the matter ✗ → asked what the matter was)। (iv) Tense और pronoun के नियम पहले की तरह लगते हैं। उलटा करने पर: asked if / whether → Yes/No प्रश्न (Do / Is / Will / Has ... ?); asked + wh-word → उसी wh-word से प्रश्न, उलटा क्रम (Where were you?) और '?' लगता है।\n\nयहाँ: Indirect → Direct में whether / if हटकर प्रश्न का क्रम लौटता है (Will you ...?), 'she' (Object candidate) → you, would → will और 'required' → 'requires'। पहले विकल्प में pronoun गलत है; दूसरे में condition का क्रम बिगड़ा है; चौथे में if-clause का tense backshift के बाद भी वैसा ही रह गया है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar558",
+    "subjectId": "english",
+    "question": "Select the indirect speech of the sentence.\n\nThe spectators said, “Alas! Our team has lost the final by a single point.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "The spectators exclaimed with sorrow that their team had lost the final by a single point."
+      },
+      {
+        "id": "B",
+        "text": "The spectators exclaimed with joy that their team had lost the final by a single point."
+      },
+      {
+        "id": "C",
+        "text": "The spectators said alas that their team lost the final by a single point."
+      },
+      {
+        "id": "D",
+        "text": "The spectators exclaimed with sorrow that our team had lost the final by a single point."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Exclamatory (विस्मयादिबोधक) वाक्य का narration: Reporting verb exclaimed / cried out / said with joy / sorrow / surprise / regret / contempt / applause बनता है, और 'that' लगता है। Interjection के अनुसार: Hurrah → exclaimed with joy; Alas → exclaimed with sorrow; Wow / Oh / Ah → exclaimed with surprise / wonder; Bravo → applauded; Ugh / Fie → exclaimed with disgust / contempt। 'What a / How' वाक्य में 'what / how' हटकर 'very' जुड़ जाता है (What a beautiful sight! → exclaimed that it was a very beautiful sight)। उलटा करने पर interjection तय करने के लिए exclaimed के बाद का भाव (with joy / sorrow ...) देखें, और वाक्य 'What a / How' से बनता है।\n\nयहाँ: 'Alas!' शोक का सूचक है, इसलिए reporting verb 'exclaimed with sorrow' बनता है और 'that' लगता है। 'Our' (पहला पुरुष) → their, has lost → had lost। 'with joy' भाव उलट देता है, और 'said alas' में interjection को सीधे रख देना गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar559",
+    "subjectId": "english",
+    "question": "Select the indirect speech of the sentence.\n\nThe architect said to the client, “I have been revising the blueprint since last week, but it has not been approved yet.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "The architect said to the client that he had been revising the blueprint since the previous week, but it has not been approved yet."
+      },
+      {
+        "id": "B",
+        "text": "The architect told the client that he has been revising the blueprint since last week, but it had not been approved yet."
+      },
+      {
+        "id": "C",
+        "text": "The architect told the client that he had been revising the blueprint since the previous week, but it had not been approved yet."
+      },
+      {
+        "id": "D",
+        "text": "The architect told the client that he had revised the blueprint since the previous week, but it had not been approved yet."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Tense का बदलाव (Backshift): Reporting verb (said, told, asked ...) past tense में हो तो Direct Speech की क्रिया का tense एक कदम पीछे जाता है — Simple Present → Simple Past (is → was; works → worked); Present Continuous → Past Continuous; Present Perfect → Past Perfect; Present Perfect Continuous → Past Perfect Continuous; Simple Past → Past Perfect (किन्तु साफ़ भूतकाल-सूचक शब्द के साथ); will / shall → would; can → could; may → might; must → had to (कर्तव्य) / must (अनुमान)। उलटा करने पर (Indirect → Direct) tense आगे लौटता है — was → is / was, had + V3 → V2 / has + V3, would → will, could → can, might → may। भूतकाल-सूचक शब्द (yesterday, ago) हो तो Past Perfect का Direct रूप Simple Past होता है।\n\nयहाँ: Reporting verb past (said) है, इसलिए Present Perfect Continuous (have been revising) → Past Perfect Continuous (had been revising) और Present Perfect passive (has not been approved) → had not been approved। 'said to' + object → 'told'; 'last week' → 'the previous week'; 'I' → he (Subject)। बाकी विकल्पों में tense का बदलाव अधूरा है या 'had revised' जैसी गलत continuous-perfect रूपांतरण है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar560",
+    "subjectId": "english",
+    "question": "Select the correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The doctor told the patient that he oughted to give up smoking at once."
+      },
+      {
+        "id": "B",
+        "text": "The doctor told to the patient that he ought to give up smoking at once."
+      },
+      {
+        "id": "C",
+        "text": "The doctor said the patient that he ought to give up smoking at once."
+      },
+      {
+        "id": "D",
+        "text": "The doctor told the patient that he ought to give up smoking at once."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "नियम: Modals का narration: can → could; may → might; will / shall → would; must → had to (obligation) जबकि must अनुमान (inference) या निषेध (mustn't) में वैसा ही रहता है; should, ought to, would, could, might, used to, had better, would rather — ये पहले से past रूप हैं, इसलिए नहीं बदलते। Questions में 'Shall I / Shall we' → should I / we; 'Will you ...?' (request) → would। उलटा करने पर could → can / could, would → will / would, had to → must / have to (संदर्भ से), और not-changed modals जस के तस।\n\nयहाँ: 'Ought to' पहले से past-सूचक modal है, इसलिए reporting verb past होने पर भी वैसा ही रहता है। बाकी विकल्पों में 'oughted', 'told to the patient' और 'said the patient' जैसी गलतियाँ हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar561",
+    "subjectId": "english",
+    "question": "Select the active voice of the sentence.\n\nThe delegates were not satisfied with the arrangements made by the organisers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The organisers made arrangements that satisfied the delegates."
+      },
+      {
+        "id": "B",
+        "text": "The delegates did not satisfy the arrangements made by the organisers."
+      },
+      {
+        "id": "C",
+        "text": "The arrangements made by the organisers did not satisfy the delegates."
+      },
+      {
+        "id": "D",
+        "text": "The arrangements made by the organisers were not satisfying the delegates."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Passive में 'by' की जगह दूसरे prepositions: कुछ past participles (adjective की तरह) अपने निश्चित preposition के साथ आते हैं — surprised / shocked / astonished at; interested in; pleased / satisfied / delighted / disappointed with; known to (व्यक्ति) / known for (गुण) / known as (पद); covered / filled / crowded with; tired of; worried about; married to; annoyed with (व्यक्ति) / at (बात); frightened of / at; surprised by (क्रिया-कर्ता पर बल)। Active वाक्य (The news surprised me) में यह नहीं दिखता, इसलिए Passive बनाते समय 'by' की जगह सही preposition चुनें। Active: The visitor was pleased with the receptionist → The receptionist pleased the visitor।\n\nयहाँ: 'were satisfied with' में 'by' नहीं, 'with' आता है; Active में कर्ता वह है जो संतुष्ट करता है (the arrangements) और कर्म वह जो संतुष्ट होता है (the delegates)। Tense Simple Past है, इसलिए 'did not satisfy'। पहले विकल्प में कर्ता-कर्म उलट गए, दूसरे में tense बदल गया और चौथे में अर्थ उलट गया।",
+    "language": "en"
+  },
+  {
+    "id": "grammar562",
+    "subjectId": "english",
+    "question": "Select the active voice of the sentence.\n\nThe final report had not been submitted by the committee before the minister left for the summit.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The committee had not submitted the final report before the minister left for the summit."
+      },
+      {
+        "id": "B",
+        "text": "The committee had not been submitting the final report before the minister left for the summit."
+      },
+      {
+        "id": "C",
+        "text": "The committee has not submitted the final report before the minister left for the summit."
+      },
+      {
+        "id": "D",
+        "text": "The committee did not submit the final report before the minister left for the summit."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Perfect tenses का Passive: Present Perfect → has / have + been + V3; Past Perfect → had + been + V3; Future Perfect → will / shall have + been + V3। Perfect Continuous tenses (has been doing; had been doing; will have been doing) का passive प्रायः नहीं बनता। 'Been' तभी आता है जब Active में perfect था; Simple Past के लिए 'been' नहीं आता।\n\nयहाँ: Past Perfect passive (had not been submitted) का Active 'had not submitted' होता है; tense वही रहता है। 'did not submit' (Simple Past), 'has not submitted' (Present Perfect) और 'had not been submitting' (continuous) इस tense से मेल नहीं खाते।",
+    "language": "en"
+  },
+  {
+    "id": "grammar563",
+    "subjectId": "english",
+    "question": "Select the direct speech of the sentence.\n\nThe inspector said that the burglars had broken into the shop two nights before and that they would be arrested soon.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The inspector said, “The burglars broke into the shop two nights ago and they will be arrested soon.”"
+      },
+      {
+        "id": "B",
+        "text": "The inspector said, “The burglars broke into the shop two nights before and they will be arrested soon.”"
+      },
+      {
+        "id": "C",
+        "text": "The inspector said, “The burglars had broken into the shop two nights ago and they would be arrested soon.”"
+      },
+      {
+        "id": "D",
+        "text": "The inspector said, “The burglars have broken into the shop two nights ago and they will be arrested soon.”"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Tense का बदलाव (Backshift): Reporting verb (said, told, asked ...) past tense में हो तो Direct Speech की क्रिया का tense एक कदम पीछे जाता है — Simple Present → Simple Past (is → was; works → worked); Present Continuous → Past Continuous; Present Perfect → Past Perfect; Present Perfect Continuous → Past Perfect Continuous; Simple Past → Past Perfect (किन्तु साफ़ भूतकाल-सूचक शब्द के साथ); will / shall → would; can → could; may → might; must → had to (कर्तव्य) / must (अनुमान)। उलटा करने पर (Indirect → Direct) tense आगे लौटता है — was → is / was, had + V3 → V2 / has + V3, would → will, could → can, might → may। भूतकाल-सूचक शब्द (yesterday, ago) हो तो Past Perfect का Direct रूप Simple Past होता है।\n\nयहाँ: Indirect → Direct में tense आगे लौटता है: had broken (साफ़ भूतकाल-सूचक 'two nights before' के साथ) → Simple Past 'broke', would be → will be, और 'before' → 'ago'। 'have broken ... ago' में Present Perfect के साथ ago गलत है; और had broken / would be Direct में नहीं लौटाए गए।",
+    "language": "en"
+  },
+  {
+    "id": "grammar564",
+    "subjectId": "english",
+    "question": "Select the passive voice of the sentence.\n\nThe principal awarded the topper a gold medal and a scholarship.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The topper awarded a gold medal and a scholarship by the principal."
+      },
+      {
+        "id": "B",
+        "text": "A gold medal and a scholarship were awarded the topper to the principal."
+      },
+      {
+        "id": "C",
+        "text": "A gold medal and a scholarship was awarded to the topper by the principal."
+      },
+      {
+        "id": "D",
+        "text": "The topper was awarded a gold medal and a scholarship by the principal."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: दो Objects वाले verbs (give, tell, send, show, offer, lend, teach, promise, award, grant, ask, pay): Active में Indirect Object (व्यक्ति) और Direct Object (वस्तु) दोनों होते हैं, इसलिए Passive के दो रूप बनते हैं — (a) व्यक्ति को Subject बनाकर: He gave me a book → I was given a book (by him); (b) वस्तु को Subject बनाकर: A book was given to me (by him) — यहाँ 'to / for' ज़रूरी है। रूप (a) में 'to' नहीं लगता; रूप (b) में Indirect Object से पहले 'to / for' लगता है। एक ही वाक्य में दोनों रूप मिलाना गलत है।\n\nयहाँ: दो objects वाले verb (award) का Passive दो तरह से बनता है; व्यक्ति को Subject बनाएँ तो 'The topper was awarded a gold medal and a scholarship by the principal'। दूसरे रूप में वस्तुओं को Subject बनाएँ तो plural verb (were awarded to the topper) चाहिए। विकल्पों में एक में agent गलत जगह है, एक में be-verb (was ✗) number से मेल नहीं खाती और एक में 'was' ही छूट गया है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar565",
+    "subjectId": "english",
+    "question": "Select the correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The villagers were shocked from the news of the sudden death of their popular sarpanch."
+      },
+      {
+        "id": "B",
+        "text": "The villagers were shocked at the news of the sudden death of their popular sarpanch."
+      },
+      {
+        "id": "C",
+        "text": "The villagers were shocked with the news of the sudden death of their popular sarpanch."
+      },
+      {
+        "id": "D",
+        "text": "The villagers were shocking at the news of the sudden death of their popular sarpanch."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "voice",
+    "difficulty": "medium",
+    "explanation": "नियम: Passive में 'by' की जगह दूसरे prepositions: कुछ past participles (adjective की तरह) अपने निश्चित preposition के साथ आते हैं — surprised / shocked / astonished at; interested in; pleased / satisfied / delighted / disappointed with; known to (व्यक्ति) / known for (गुण) / known as (पद); covered / filled / crowded with; tired of; worried about; married to; annoyed with (व्यक्ति) / at (बात); frightened of / at; surprised by (क्रिया-कर्ता पर बल)। Active वाक्य (The news surprised me) में यह नहीं दिखता, इसलिए Passive बनाते समय 'by' की जगह सही preposition चुनें। Active: The visitor was pleased with the receptionist → The receptionist pleased the visitor।\n\nयहाँ: 'Shocked' के साथ preposition 'at' (या कभी-कभी 'by') आता है; with / from नहीं। 'Shocking' present participle (adjective) है, जिसका अर्थ 'चौंकाने वाला' होता है, इसलिए यहाँ गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar566",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nShe had her old sofa to repair by a local carpenter.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to repair"
+      },
+      {
+        "id": "B",
+        "text": "old"
+      },
+      {
+        "id": "C",
+        "text": "had"
+      },
+      {
+        "id": "D",
+        "text": "local"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "voice",
+    "difficulty": "medium",
+    "explanation": "नियम: Causative (have / get + Object + V3): 'किसी से काम करवाना' — I got my car repaired; She had her hair cut; He had his house painted। नियम: (i) Object के बाद V3 आती है, 'to + V1' नहीं (had his hair to cut ✗)। (ii) Active causative: have + person + V1 (I had the mechanic repair the car) / get + person + to V1 (I got the mechanic to repair the car)। (iii) 'Get' के बाद person हो तो 'to' लगता है, 'have' के बाद नहीं। (iv) agent दिया जाए तो 'by' से आता है: I had my hair cut by a barber।\n\nयहाँ: Causative 'have + Object + V3' में Object के बाद V3 आती है, 'to + V1' नहीं — 'She had her old sofa repaired by a local carpenter.'",
+    "language": "en"
+  },
+  {
+    "id": "grammar567",
+    "subjectId": "english",
+    "question": "Select the active voice of the sentence.\n\nBy whom was this ancient scripture deciphered?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Whom did this ancient scripture decipher?"
+      },
+      {
+        "id": "B",
+        "text": "Who was deciphering this ancient scripture?"
+      },
+      {
+        "id": "C",
+        "text": "Who has deciphered this ancient scripture?"
+      },
+      {
+        "id": "D",
+        "text": "Who deciphered this ancient scripture?"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Wh-प्रश्नों का Passive: (i) Who + V + O? → By whom + was / is + O + V3? (Who wrote this book? → By whom was this book written?); (ii) Whom + aux + S + V1? → Who + be + V3 + by S? (Whom did you call? → Who was called by you?); (iii) What / Why / How / When / Where + aux + S + V1 + O? → What / Why ... + be + O + V3 + by S? (Why did he beat her? → Why was she beaten by him?)। Subject के रूप में 'Who' passive में 'By whom' बन जाता है, और 'Whom' → 'Who' (क्योंकि वह नया subject है)।\n\nयहाँ: 'By whom was ... deciphered?' का Active 'Who deciphered ...?' होता है, क्योंकि 'By whom' ↔ 'Who' (subject)। Simple Past का tense वही रहता है। 'was deciphering' और 'has deciphered' के tense अलग हैं, और 'Whom did the scripture decipher' में कर्ता-कर्म उलट गए हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar568",
+    "subjectId": "english",
+    "question": "Select the direct speech of the sentence.\n\nRamesh told Seema that he was finishing his work, that she could use his laptop if she liked, but that his brother would need it the next day.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ramesh said to Seema, “I am finishing my work; she can use my laptop if she likes, but my brother will need it the next day.”"
+      },
+      {
+        "id": "B",
+        "text": "Ramesh said to Seema, “I am finishing my work; you can use my laptop if you like, but my brother will need it tomorrow.”"
+      },
+      {
+        "id": "C",
+        "text": "Ramesh said to Seema, “I was finishing my work; you can use my laptop if you like, but my brother will need it tomorrow.”"
+      },
+      {
+        "id": "D",
+        "text": "Ramesh said to Seema, “He is finishing his work; you can use his laptop if you like, but his brother will need it tomorrow.”"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Pronoun का बदलाव (नियम 'SON'): (i) Direct का पहला पुरुष (I, we, my, our, me, us) → Reporting verb के Subject के अनुसार बदलता है (S = Subject)। (ii) दूसरा पुरुष (you, your) → Reporting verb के Object के अनुसार बदलता है (O = Object)। (iii) तीसरा पुरुष (he, she, they, it, his ...) → नहीं बदलता (N = No change)। Object न हो (said, said that) तब 'you' का pronoun संदर्भ के अनुसार तय होता है। उलटा करने पर Indirect से Direct में pronoun वापस उसी के अनुसार लौटते हैं: told him that he → said to him, 'you'; said that he → 'I'।\n\nयहाँ: Indirect → Direct में pronoun वापस लौटते हैं: he / his (Subject Ramesh) → I / my; she / her (Object Seema) → you / your; 'his brother' तीसरा पुरुष है इसलिए नहीं बदलता। 'the next day' → 'tomorrow', would → will, could → can, was finishing → am finishing। बाकी विकल्पों में pronoun, time-word या tense गलत लौटे हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar569",
+    "subjectId": "english",
+    "question": "Select the direct speech of the sentence.\n\nThe clerk said that the file had been sent to the head office the day before and that it would be returned the following day.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The clerk said, “The file was sent to the head office yesterday and it will be returned tomorrow.”"
+      },
+      {
+        "id": "B",
+        "text": "The clerk said, “The file was sent to the head office yesterday and it would be returned tomorrow.”"
+      },
+      {
+        "id": "C",
+        "text": "The clerk said, “The file had been sent to the head office the day before and it would be returned the following day.”"
+      },
+      {
+        "id": "D",
+        "text": "The clerk said, “The file has been sent to the head office yesterday and it will be returned the following day.”"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: समय और स्थान सूचक शब्दों का बदलाव (reporting verb past होने पर): now → then; today → that day; tonight → that night; tomorrow → the next day / the following day; yesterday → the previous day / the day before; last night / week / year → the previous night / week / year; next week → the following week; ago → before; this → that; these → those; here → there; hence → thence; thus → so; come → go (बोलने वाले से दूर की ओर), bring → take। उलटा करने पर इन शब्दों का Direct रूप लौटता है (the next day → tomorrow; the previous day → yesterday; before → ago; that → this; there → here)।\n\nयहाँ: Indirect → Direct: the day before → yesterday; the following day → tomorrow; had been sent (साफ़ भूतकाल-सूचक शब्द के साथ) → was sent; would be returned → will be returned। 'has been sent yesterday' में Present Perfect के साथ yesterday नहीं लगता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar570",
+    "subjectId": "english",
+    "question": "Select the direct speech of the sentence.\n\nHe proposed that they should go for a walk after dinner.",
+    "options": [
+      {
+        "id": "A",
+        "text": "He said, “Let they go for a walk after dinner.”"
+      },
+      {
+        "id": "B",
+        "text": "He said, “You go for a walk after dinner.”"
+      },
+      {
+        "id": "C",
+        "text": "He said, “Let us to go for a walk after dinner.”"
+      },
+      {
+        "id": "D",
+        "text": "He said, “Let us go for a walk after dinner.”"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Let वाले वाक्य (सुझाव / प्रस्ताव): Direct में 'Let us / Let's / Shall we' हो तो Reporting verb suggested / proposed / urged बनता है और 'that + subject + should + V1' लगता है (He said, 'Let us go' → He suggested that they should go)। Negative: 'Let us not ...' → suggested that they should not ...। उलटा करने पर 'suggested / proposed that we / they should ...' → Direct में 'Let us ...'। ध्यान रहे: 'Let him / Let them' (तीसरे पुरुष के प्रति आदेश) में reporting verb ordered / said that they might be allowed ... हो सकता है — इसे 'Let us' वाले suggestion से अलग समझें।\n\nयहाँ: 'proposed / suggested that we (they) should ...' का Direct रूप 'Let us + V1' होता है। 'Let they' में Let के बाद Objective case चाहिए; 'Let us to go' में Let के बाद 'to' नहीं आता; 'You go' से प्रस्ताव का भाव (साथ चलना) चला जाता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar571",
+    "subjectId": "english",
+    "question": "Select the direct speech of the sentence.\n\nThe priest wished that the newly married couple might live happily ever after.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The priest said, “May the newly married couple lives happily ever after!”"
+      },
+      {
+        "id": "B",
+        "text": "The priest said, “May the newly married couple live happily ever after!”"
+      },
+      {
+        "id": "C",
+        "text": "The priest said, “Might the newly married couple live happily ever after!”"
+      },
+      {
+        "id": "D",
+        "text": "The priest said, “The newly married couple might live happily ever after!”"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Optative (प्रार्थना / शुभकामना / आशीर्वाद) वाक्य का narration: Reporting verb wished / prayed / blessed / cursed बनता है और 'that' लगता है; 'May + subject + V1' में may → might (He prayed that God might bless you)। 'Long live ...' → wished that ... might live long। उलटा करने पर Indirect का 'might + V1' → Direct में 'May + subject + V1' (वाक्य 'May' से शुरू) होता है। 'God bless you' जैसे वाक्य भी इसी श्रेणी में हैं (prayed that God might bless ...)।\n\nयहाँ: 'wished that ... might + V1' का Direct रूप optative वाक्य 'May + Subject + V1' है (may → might का उलटा)। 'lives' (V1 की जगह) और 'Might' से शुरू वाक्य गलत हैं; पहले विकल्प में wish का भाव ही गायब है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar572",
+    "subjectId": "english",
+    "question": "Select the indirect speech of the sentence.\n\nThe coach said to the players, “You must reach the ground by six, and you can use the gym only if you have finished your warm-up.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "The coach told the players that they had to reach the ground by six and that they could use the gym only if they had finished their warm-up."
+      },
+      {
+        "id": "B",
+        "text": "The coach told the players that they had to reach the ground by six, and they could use the gym only if they had been finished their warm-up."
+      },
+      {
+        "id": "C",
+        "text": "The coach told the players that we had to reach the ground by six and that we could use the gym only if we had finished our warm-up."
+      },
+      {
+        "id": "D",
+        "text": "The coach told the players that they had to reach the ground by six and that they can use the gym only if they have finished their warm-up."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Modals का narration: can → could; may → might; will / shall → would; must → had to (obligation) जबकि must अनुमान (inference) या निषेध (mustn't) में वैसा ही रहता है; should, ought to, would, could, might, used to, had better, would rather — ये पहले से past रूप हैं, इसलिए नहीं बदलते। Questions में 'Shall I / Shall we' → should I / we; 'Will you ...?' (request) → would। उलटा करने पर could → can / could, would → will / would, had to → must / have to (संदर्भ से), और not-changed modals जस के तस।\n\nयहाँ: Past reporting verb में: must (कर्तव्य) → had to; can → could; have finished → had finished; you → they (Object players); said to → told। दूसरे विकल्प में pronoun (we) गलत है; पहले में can / have finished नहीं बदले; चौथे में 'had been finished' अशुद्ध रूप बन गया है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar573",
+    "subjectId": "english",
+    "question": "Select the active voice of the sentence.\n\nI was offered a lucrative position by the multinational firm, but I turned it down.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The multinational firm offered a lucrative position to I, but I turned it down."
+      },
+      {
+        "id": "B",
+        "text": "The multinational firm was offering me a lucrative position, but I turned it down."
+      },
+      {
+        "id": "C",
+        "text": "The multinational firm offered me a lucrative position, but I turned it down."
+      },
+      {
+        "id": "D",
+        "text": "I offered the multinational firm a lucrative position, but I turned it down."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: दो Objects वाले verbs (give, tell, send, show, offer, lend, teach, promise, award, grant, ask, pay): Active में Indirect Object (व्यक्ति) और Direct Object (वस्तु) दोनों होते हैं, इसलिए Passive के दो रूप बनते हैं — (a) व्यक्ति को Subject बनाकर: He gave me a book → I was given a book (by him); (b) वस्तु को Subject बनाकर: A book was given to me (by him) — यहाँ 'to / for' ज़रूरी है। रूप (a) में 'to' नहीं लगता; रूप (b) में Indirect Object से पहले 'to / for' लगता है। एक ही वाक्य में दोनों रूप मिलाना गलत है।\n\nयहाँ: 'I was offered ... by the firm' का Active 'The firm offered me ...' है — agent Subject बनता है और 'I' (Subject) Active में Object 'me' बनता है। Tense Simple Past रहता है। 'to I' में case गलत है और तीसरे विकल्प में कर्ता-कर्म उलट गए हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar574",
+    "subjectId": "english",
+    "question": "Select the indirect speech of the sentence.\n\nThe guide said to the tourists, “We reached here yesterday evening, and we will leave for the next village tomorrow morning.”",
+    "options": [
+      {
+        "id": "A",
+        "text": "The guide told the tourists that they reached here the previous evening and would leave for the next village the following morning."
+      },
+      {
+        "id": "B",
+        "text": "The guide told the tourists that they had reached there the previous evening and would leave for the next village the following morning."
+      },
+      {
+        "id": "C",
+        "text": "The guide said to the tourists that we had reached there the previous evening and will leave for the next village the following morning."
+      },
+      {
+        "id": "D",
+        "text": "The guide told the tourists that they had reached there yesterday evening and would leave for the next village tomorrow morning."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: समय और स्थान सूचक शब्दों का बदलाव (reporting verb past होने पर): now → then; today → that day; tonight → that night; tomorrow → the next day / the following day; yesterday → the previous day / the day before; last night / week / year → the previous night / week / year; next week → the following week; ago → before; this → that; these → those; here → there; hence → thence; thus → so; come → go (बोलने वाले से दूर की ओर), bring → take। उलटा करने पर इन शब्दों का Direct रूप लौटता है (the next day → tomorrow; the previous day → yesterday; before → ago; that → this; there → here)।\n\nयहाँ: Past reporting verb के कारण: said to → told; we → they; reached → had reached; here → there; yesterday evening → the previous evening; will leave → would leave; tomorrow morning → the following morning। हर विकल्प में इनमें से कोई न कोई बदलाव छूट गया है (here, yesterday / tomorrow, we, will)।",
+    "language": "en"
+  },
+  {
+    "id": "grammar575",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nSheela [said her brother] that she was sorry that she could not attend his wedding.",
+    "options": [
+      {
+        "id": "A",
+        "text": "said that to her brother"
+      },
+      {
+        "id": "B",
+        "text": "says her brother"
+      },
+      {
+        "id": "C",
+        "text": "told to her brother"
+      },
+      {
+        "id": "D",
+        "text": "told her brother"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "नियम: Assertive (कथनात्मक) वाक्य का narration: Reporting verb 'said' रहता है; यदि श्रोता (object) बताया गया हो तो 'said to' → 'told' (said to him → told him)। 'Said' के बाद object नहीं आता (said him ✗, told that ✗), और 'told' के बाद object ज़रूरी है (told me that ✓)। Quotation marks और comma हटते हैं और 'that' conjunction लगता है। 'Say / tell' की यह गलती error-spotting में बार-बार पूछी जाती है।\n\nयहाँ: 'Said' के बाद सीधा object नहीं आता (said her brother ✗)। श्रोता बताना हो तो 'said to her brother' या 'told her brother' लगता है, और 'told' के बाद 'to' नहीं आता। विकल्पों में केवल 'told her brother' सही है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar576",
+    "subjectId": "english",
+    "question": "Select the active voice of the sentence.\n\nThe entire syllabus ought to have been completed by the students before the preparatory leave began.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The students ought to have been completing the entire syllabus before the preparatory leave began."
+      },
+      {
+        "id": "B",
+        "text": "The students ought to complete the entire syllabus before the preparatory leave began."
+      },
+      {
+        "id": "C",
+        "text": "The students ought to have completed the entire syllabus before the preparatory leave began."
+      },
+      {
+        "id": "D",
+        "text": "The students should complete the entire syllabus before the preparatory leave began."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Modals का Passive: Modal + V1 → Modal + be + V3 (can be done, may be done, must be done, should be done, would be done, ought to be done, need to be done); Modal perfect (should / could / would / might / must have + V3) → Modal + have been + V3 (should have been done); have to / has to / had to → have / has / had to be + V3; is / are / am to + V1 → is / are / am to be + V3; used to + V1 → used to be + V3। Modal वही रहता है, केवल 'be + V3' जुड़ता है। 'Can be able to' जैसे रूप गलत हैं।\n\nयहाँ: Modal perfect passive (ought to have been + V3) का Active 'ought to have + V3' है। 'ought to complete' और 'should complete' में perfect (अतीत का भाव) गायब है; 'have been completing' continuous बन गया है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar577",
+    "subjectId": "english",
+    "question": "Select the direct speech of the sentence.\n\nThe sergeant ordered the recruits to line up and not to speak until further orders.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The sergeant said to the recruits, “Lined up and do not speak until further orders.”"
+      },
+      {
+        "id": "B",
+        "text": "The sergeant said to the recruits, “You are lined up and do not speak until further orders.”"
+      },
+      {
+        "id": "C",
+        "text": "The sergeant said to the recruits, “Line up and do not speak until further orders.”"
+      },
+      {
+        "id": "D",
+        "text": "The sergeant said to the recruits, “Line up and not to speak until further orders.”"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "नियम: Imperative (आदेश / निवेदन / सलाह / निषेध) का narration: Reporting verb उसकी प्रकृति से बदलता है — आदेश: ordered / commanded / told; निवेदन: requested / begged / implored; सलाह: advised / urged; निषेध: forbade / told ... not to। Structure: Reporting verb + Object + to + V1 (Negative: not to + V1; 'Do not' के लिए told / ordered ... not to)। 'Please / kindly' हो तो requested लगता है। उलटा करने पर: told / ordered + to V1 → सीधा Imperative (V1 से शुरू); requested → 'Please ...'; forbade → 'Do not ...'।\n\nयहाँ: 'ordered ... to V1' का Direct रूप सीधा Imperative होता है (V1 से शुरू), और 'not to V1' → 'Do not + V1'। दूसरे हिस्से में 'not to speak' को Direct में 'and not to speak' रखना गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar578",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe employees were made / work overtime / by the management / during the festive season.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The employees were made"
+      },
+      {
+        "id": "B",
+        "text": "work overtime"
+      },
+      {
+        "id": "C",
+        "text": "by the management"
+      },
+      {
+        "id": "D",
+        "text": "during the festive season"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Make / Let / See / Hear / Watch / Help तथा Object Complement वाले verbs: (i) Active में make, see, hear, watch, notice के बाद bare infinitive (बिना to) आता है, पर Passive में 'to + V1' जुड़ता है: He made me laugh → I was made to laugh; They saw him enter → He was seen to enter। (ii) यदि Active में V-ing हो तो Passive में भी V-ing रहता है: They saw him running → He was seen running। (iii) 'Let' का Passive प्रायः 'be allowed to' से बनता है (They let him go → He was allowed to go)। (iv) elect, appoint, name, call, make, consider + Object + complement → Passive में complement बिना 'as / to be' के रहता है: They elected him president → He was elected president।\n\nयहाँ: Make का Active में bare infinitive आता है (made them work), पर Passive में 'to + V1' जुड़ता है — 'The employees were made to work overtime'। इसलिए दूसरा हिस्सा गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar579",
+    "subjectId": "english",
+    "question": "Select the passive voice of the sentence.\n\nPlease submit the application form before the last date.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Please let the application form submitted before the last date."
+      },
+      {
+        "id": "B",
+        "text": "The application form may be submitted before the last date."
+      },
+      {
+        "id": "C",
+        "text": "You are requested to submit the application form before the last date."
+      },
+      {
+        "id": "D",
+        "text": "The application form is requested to be submitted before the last date."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Imperative (आदेश / निवेदन) वाक्य का Passive: (i) सामान्य आदेश: 'Let + Object + be + V3' (Open the door → Let the door be opened); (ii) विनम्र निवेदन (Please / Kindly): 'You are requested to + V1' (Please help the man → You are requested to help the man); (iii) आदेश / सलाह: You are ordered / advised to + V1; (iv) निषेध: 'Do not + V1' → 'Let + Object + not be + V3' (Do not touch it → Let it not be touched) या 'You are forbidden to ...'। 'Passive of an imperative' में 'to be requested to be helped' जैसे अटपटे रूप गलत हैं।\n\nयहाँ: 'Please / Kindly' वाले निवेदन का Passive 'You are requested to + V1' होता है। 'The form is requested to be submitted' में request का कर्म ही बदल गया है, और 'may be submitted' आदेश को अनुमति बना देता है; आख़िरी विकल्प व्याकरण की दृष्टि से अशुद्ध है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar580",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe boy thanked / to his teacher / for his timely help.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The boy thanked"
+      },
+      {
+        "id": "B",
+        "text": "to his teacher"
+      },
+      {
+        "id": "C",
+        "text": "for his timely help"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "नियम: Greetings / Thanks / Wishes / Apologies / Replies: Good morning → greeted him good morning (wished him good morning); Thank you → thanked him (for ...); Congratulations → congratulated him (on ...); Happy birthday / Best of luck → wished him a happy birthday / the best of luck; Sorry → apologised (for ...); Goodbye → bade him goodbye; 'Yes, I will' → replied / answered in the affirmative; 'No, I shall not' → replied in the negative। इन वाक्यों में 'that' नहीं लगता। Thank / congratulate के बाद 'to' नहीं लगता (thanked to him ✗)।\n\nयहाँ: Thank / congratulate / greet के बाद 'to' नहीं लगता — 'The boy thanked his teacher for his timely help'। 'to his teacher' गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar581",
+    "subjectId": "english",
+    "question": "Select the active voice of the sentence.\n\nThe suspect was seen to enter the building by two eyewitnesses just before the blast.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Two eyewitnesses saw the suspect to enter the building just before the blast."
+      },
+      {
+        "id": "B",
+        "text": "Two eyewitnesses were seeing the suspect enter the building just before the blast."
+      },
+      {
+        "id": "C",
+        "text": "Two eyewitnesses saw the suspect enter the building just before the blast."
+      },
+      {
+        "id": "D",
+        "text": "Two eyewitnesses had seen the suspect entering the building just before the blast."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Make / Let / See / Hear / Watch / Help तथा Object Complement वाले verbs: (i) Active में make, see, hear, watch, notice के बाद bare infinitive (बिना to) आता है, पर Passive में 'to + V1' जुड़ता है: He made me laugh → I was made to laugh; They saw him enter → He was seen to enter। (ii) यदि Active में V-ing हो तो Passive में भी V-ing रहता है: They saw him running → He was seen running। (iii) 'Let' का Passive प्रायः 'be allowed to' से बनता है (They let him go → He was allowed to go)। (iv) elect, appoint, name, call, make, consider + Object + complement → Passive में complement बिना 'as / to be' के रहता है: They elected him president → He was elected president।\n\nयहाँ: Passive में 'was seen to enter' था, इसलिए Active में 'to' हटकर bare infinitive आता है — 'saw the suspect enter'। 'to enter' रखना, 'had seen ... entering' और 'were seeing' गलत रूपांतरण हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar582",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe secretary of the cultural committee told that / he would not be able to attend / the annual function to be held the next day.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The secretary of the cultural committee told that"
+      },
+      {
+        "id": "B",
+        "text": "he would not be able to attend"
+      },
+      {
+        "id": "C",
+        "text": "the annual function to be held the next day"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Say / Tell / Ask का सही प्रयोग (error-spotting का मुख्य बिंदु): (i) 'said' के बाद object नहीं आता; श्रोता हो तो 'said to him' (He said me ✗)। (ii) 'told' के बाद object ज़रूरी है (He told that ✗ → He told me that ✓)। (iii) 'asked' के साथ 'that' नहीं लगता (asked that what ✗)। (iv) 'asked' के बाद if / whether या wh-word आता है, दोनों साथ नहीं (asked whether if ✗)। (v) reported question में सामान्य क्रम (asked what the matter was ✓; asked what was the matter ✗)। (vi) Reporting verb के बाद 'to' और infinitive का प्रयोग imperative में होता है (told me to wait)। (vii) Indirect में quotation marks और प्रश्नचिह्न नहीं लगते।\n\nयहाँ: 'Told' के बाद object ज़रूरी है (told me / them / the members that ...)। 'told that' गलत है; 'said that' बिना object के चल जाता है। इसलिए पहला हिस्सा गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar583",
+    "subjectId": "english",
+    "question": "Select the indirect speech of the sentence.\n\nThe customer said to the shopkeeper, “Have you received the consignment that I had ordered last month?”",
+    "options": [
+      {
+        "id": "A",
+        "text": "The customer asked the shopkeeper if he has received the consignment that he ordered last month."
+      },
+      {
+        "id": "B",
+        "text": "The customer asked the shopkeeper if he had received the consignment that he had ordered the previous month."
+      },
+      {
+        "id": "C",
+        "text": "The customer asked the shopkeeper whether if he had received the consignment that he had ordered the previous month."
+      },
+      {
+        "id": "D",
+        "text": "The customer asked the shopkeeper had he received the consignment that he had ordered the previous month."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Interrogative (प्रश्नवाचक) वाक्य का narration: Reporting verb said / said to → asked / enquired / inquired of / wanted to know। (i) Yes/No प्रश्न (Do / Is / Are / Has / Can ... से शुरू) में 'if' या 'whether' लगता है। (ii) Wh-प्रश्न (what, where, why, who, how) में वही wh-word रहता है, 'that' नहीं लगता। (iii) वाक्य का क्रम सामान्य (Subject + Verb) हो जाता है, do / does / did हट जाते हैं और प्रश्नचिह्न (?) नहीं लगता (asked what was the matter ✗ → asked what the matter was)। (iv) Tense और pronoun के नियम पहले की तरह लगते हैं। उलटा करने पर: asked if / whether → Yes/No प्रश्न (Do / Is / Will / Has ... ?); asked + wh-word → उसी wh-word से प्रश्न, उलटा क्रम (Where were you?) और '?' लगता है।\n\nयहाँ: Yes/No प्रश्न में reporting verb 'asked' और conjunction 'if / whether' (दोनों साथ नहीं) लगता है; क्रम सामान्य (he had received) रहता है। Have received → had received; Past Perfect (had ordered) वैसा ही रहता है; last month → the previous month; you → he, I → he।",
+    "language": "en"
+  },
+  {
+    "id": "grammar584",
+    "subjectId": "english",
+    "question": "Select the active voice of the sentence.\n\nThe accident was reported to the police long after the injured passengers had been taken to the hospital.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The accident reported the police long after the injured passengers had taken to the hospital."
+      },
+      {
+        "id": "B",
+        "text": "Someone reported the accident to the police long after they had taken the injured passengers to the hospital."
+      },
+      {
+        "id": "C",
+        "text": "The police reported the accident long after the injured passengers were taken to the hospital."
+      },
+      {
+        "id": "D",
+        "text": "Someone had reported the accident to the police long after they took the injured passengers to the hospital."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Passive → Active: (i) 'by' के बाद का agent Active का Subject बनता है, और Passive का Subject Object बन जाता है (pronoun का case बदलता है: by them → They; me ← I)। (ii) Tense वही रहता है — was + V3 → V2; has been + V3 → has + V3; is being + V3 → is + V-ing; will be + V3 → will + V1। (iii) यदि agent नहीं दिया हो तो वाक्य के अनुसार someone / somebody / people / they / we / one जोड़ा जाता है (The bear was spotted near the village → Someone spotted the bear near the village)। (iv) Active वाक्य में अर्थ बदलना नहीं चाहिए; यानी वही कर्ता, वही कर्म।\n\nयहाँ: Passive → Active में agent न दिया हो तो someone / they जोड़ा जाता है। दोनों clauses के tense वैसे ही रहेंगे: was reported → reported; had been taken → had taken। पहले विकल्प में कर्ता-कर्म उलट गए हैं, दूसरे में tenses बदल गए हैं, और चौथे में agent (the police) ग़लत जोड़ दिया गया है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar585",
+    "subjectId": "english",
+    "question": "Select the passive voice of the sentence.\n\nWhy did the manager reject the proposal submitted by the interns?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Why did the proposal submitted by the interns reject by the manager?"
+      },
+      {
+        "id": "B",
+        "text": "Why is the proposal submitted by the interns rejected by the manager?"
+      },
+      {
+        "id": "C",
+        "text": "Why was the proposal submitted by the interns rejected by the manager?"
+      },
+      {
+        "id": "D",
+        "text": "Why was the proposal submitted by the interns being rejected by the manager?"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Wh-प्रश्नों का Passive: (i) Who + V + O? → By whom + was / is + O + V3? (Who wrote this book? → By whom was this book written?); (ii) Whom + aux + S + V1? → Who + be + V3 + by S? (Whom did you call? → Who was called by you?); (iii) What / Why / How / When / Where + aux + S + V1 + O? → What / Why ... + be + O + V3 + by S? (Why did he beat her? → Why was she beaten by him?)। Subject के रूप में 'Who' passive में 'By whom' बन जाता है, और 'Whom' → 'Who' (क्योंकि वह नया subject है)।\n\nयहाँ: Wh-प्रश्न (Why did + S + V1 + O?) का Passive 'Why was + O + V3 + by S?' होता है। Simple Past है, इसलिए 'was ... rejected'। 'is rejected' tense बदलता है, 'was being rejected' continuous बनाता है, और 'did ... reject by' में did के साथ passive जोड़ दिया गया है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar586",
+    "subjectId": "english",
+    "question": "Select the active voice of the sentence.\n\nHas the entire amount been transferred to the contractor's account by the finance department?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Has the contractor's account transferred the entire amount to the finance department?"
+      },
+      {
+        "id": "B",
+        "text": "Did the finance department transfer the entire amount to the contractor's account?"
+      },
+      {
+        "id": "C",
+        "text": "Had the finance department transferred the entire amount to the contractor's account?"
+      },
+      {
+        "id": "D",
+        "text": "Has the finance department transferred the entire amount to the contractor's account?"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Yes/No प्रश्न (Do / Does / Did / Is / Has / Can ... से शुरू) का Passive: Do / Does + S + V1 + O? → Is / Are + O + V3 + by S?; Did + S + V1 + O? → Was / Were + O + V3 + by S?; Has / Have / Had + S + V3 + O? → Has / Have / Had + O + been + V3 + by S?; Can / Will / Should + S + V1 + O? → Can / Will / Should + O + be + V3 + by S?; Is / Are / Was + S + V-ing + O? → Is / Are / Was + O + being + V3 + by S?। प्रश्न का क्रम (auxiliary पहले) बना रहता है।\n\nयहाँ: Present Perfect प्रश्न (Has ... been transferred) का Active 'Has + Subject + V3 ...?' है। 'Did ... transfer' (Simple Past) और 'Had ... transferred' (Past Perfect) tense बदल देते हैं, और अंतिम विकल्प में कर्ता-कर्म उलट गए हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar587",
+    "subjectId": "english",
+    "question": "Select the passive voice of the sentence.\n\nDo not touch the exhibits in the gallery.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The exhibits in the gallery do not be touched."
+      },
+      {
+        "id": "B",
+        "text": "The exhibits in the gallery were not touched by you."
+      },
+      {
+        "id": "C",
+        "text": "Let the exhibits in the gallery not be touched."
+      },
+      {
+        "id": "D",
+        "text": "Let the exhibits in the gallery do not be touched."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Imperative (आदेश / निवेदन) वाक्य का Passive: (i) सामान्य आदेश: 'Let + Object + be + V3' (Open the door → Let the door be opened); (ii) विनम्र निवेदन (Please / Kindly): 'You are requested to + V1' (Please help the man → You are requested to help the man); (iii) आदेश / सलाह: You are ordered / advised to + V1; (iv) निषेध: 'Do not + V1' → 'Let + Object + not be + V3' (Do not touch it → Let it not be touched) या 'You are forbidden to ...'। 'Passive of an imperative' में 'to be requested to be helped' जैसे अटपटे रूप गलत हैं।\n\nयहाँ: Negative imperative (Do not + V1) का Passive 'Let + Object + not be + V3' बनता है। 'do not be touched' और 'Let ... do not be touched' में do का गलत प्रयोग है, और 'were not touched by you' अर्थ व काल दोनों बदल देता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar588",
+    "subjectId": "english",
+    "question": "Select the direct speech of the sentence.\n\nShe exclaimed that the valley looked very beautiful at that moment.",
+    "options": [
+      {
+        "id": "A",
+        "text": "She said, “How beautiful the valley looks at that moment!”"
+      },
+      {
+        "id": "B",
+        "text": "She said, “What beautiful the valley looks at this moment!”"
+      },
+      {
+        "id": "C",
+        "text": "She said, “How beautiful the valley looks at this moment!”"
+      },
+      {
+        "id": "D",
+        "text": "She said, “How beautiful the valley looked at this moment!”"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Exclamatory (विस्मयादिबोधक) वाक्य का narration: Reporting verb exclaimed / cried out / said with joy / sorrow / surprise / regret / contempt / applause बनता है, और 'that' लगता है। Interjection के अनुसार: Hurrah → exclaimed with joy; Alas → exclaimed with sorrow; Wow / Oh / Ah → exclaimed with surprise / wonder; Bravo → applauded; Ugh / Fie → exclaimed with disgust / contempt। 'What a / How' वाक्य में 'what / how' हटकर 'very' जुड़ जाता है (What a beautiful sight! → exclaimed that it was a very beautiful sight)। उलटा करने पर interjection तय करने के लिए exclaimed के बाद का भाव (with joy / sorrow ...) देखें, और वाक्य 'What a / How' से बनता है।\n\nयहाँ: Exclamatory वाक्य के narration में 'How + adjective ... !' का भाव 'very + adjective' बनकर आ जाता है; उलटा करने पर 'looked very beautiful' → 'How beautiful the valley looks!'। 'that moment' → 'this moment' के कारण tense भी वर्तमान (looks) लौटता है। पहले विकल्प में 'this moment' के साथ Past (looked) बेमेल है; दूसरे में 'What' के बाद 'a / noun' चाहिए, 'What beautiful' संरचना गलत है; चौथे में 'that moment' वापस 'this moment' नहीं हुआ।",
+    "language": "en"
+  },
+  {
+    "id": "grammar589",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nBy the time the merger was announced, the firm's accounts ____ by an independent auditor.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were audited"
+      },
+      {
+        "id": "B",
+        "text": "had been audited"
+      },
+      {
+        "id": "C",
+        "text": "would be audited"
+      },
+      {
+        "id": "D",
+        "text": "have been audited"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Perfect tenses का Passive: Present Perfect → has / have + been + V3; Past Perfect → had + been + V3; Future Perfect → will / shall have + been + V3। Perfect Continuous tenses (has been doing; had been doing; will have been doing) का passive प्रायः नहीं बनता। 'Been' तभी आता है जब Active में perfect था; Simple Past के लिए 'been' नहीं आता।\n\nयहाँ: 'By the time + Simple Past' के साथ main clause Past Perfect में आता है — passive में 'had been + V3'। 'were audited' (Simple Past), 'have been audited' (Present Perfect) और 'would be audited' (भविष्य) इस पैटर्न में मेल नहीं खाते।",
+    "language": "en"
+  },
+  {
+    "id": "grammar590",
+    "subjectId": "english",
+    "question": "Select the passive voice of the sentence.\n\nThe senior editor revises every article carefully before it goes to print.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every article was revised carefully by the senior editor before it went to print."
+      },
+      {
+        "id": "B",
+        "text": "Every article is being revised carefully by the senior editor before it goes to print."
+      },
+      {
+        "id": "C",
+        "text": "Every article has been revised carefully by the senior editor before it goes to print."
+      },
+      {
+        "id": "D",
+        "text": "Every article is revised carefully by the senior editor before it goes to print."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Simple tenses का Passive: Object → Subject; Active का Subject → 'by + Object'; क्रिया का रूप: Simple Present → is / am / are + V3; Simple Past → was / were + V3; Simple Future → will / shall be + V3। Be-verb नए subject (पुराने object) के number और person से तय होती है। Pronoun का case बदलता है (I → me; he → him; we → us; they → them) और agent 'by' के बाद आता है। Tense का मेल ज़रूरी है — Simple Past का passive 'was / were + V3' होता है, 'had been' नहीं।\n\nयहाँ: Simple Present (revises) का Passive 'is revised' होता है। 'is being revised' (continuous), 'has been revised' (perfect) और 'was revised' (past) tense बदल देते हैं। Subordinate clause 'before it goes to print' वैसा ही रहता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar591",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe new metro line ____ at the moment; it will be thrown open to the public next year.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is constructing"
+      },
+      {
+        "id": "B",
+        "text": "was constructed"
+      },
+      {
+        "id": "C",
+        "text": "has been constructed"
+      },
+      {
+        "id": "D",
+        "text": "is being constructed"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Continuous tenses का Passive: Present Continuous → is / am / are + being + V3; Past Continuous → was / were + being + V3। Future Continuous (will be doing) का passive प्रायः नहीं बनता / नहीं पूछा जाता (will be being done ✗ अटपटा रूप माना जाता है)। पहचान: Active में '-ing' था तो Passive में 'being' आएगा। 'is being' को 'has been' से भ्रमित न करें — continuous अभी चल रही क्रिया है, perfect पूरी हो चुकी।\n\nयहाँ: 'At the moment' चल रही क्रिया बताता है, इसलिए Present Continuous passive 'is being + V3' आएगा। 'has been constructed' पूरी हो चुकी क्रिया है; 'was constructed' भूतकाल है; 'is constructing' में कर्ता-कर्म का मेल गलत है (metro line स्वयं नहीं बनाती)।",
+    "language": "en"
+  },
+  {
+    "id": "grammar592",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nHe said that if it ____ the next morning, they would postpone the trip.",
+    "options": [
+      {
+        "id": "A",
+        "text": "would rain"
+      },
+      {
+        "id": "B",
+        "text": "rains"
+      },
+      {
+        "id": "C",
+        "text": "will rain"
+      },
+      {
+        "id": "D",
+        "text": "rained"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "नियम: Conditional वाक्यों का narration: (i) Type-1 (If + Present, will + V1): reporting verb past हो तो If-clause का Present → Past और will → would (If it rains, we will stay → if it rained, they would stay)। (ii) Type-2 (If + Past, would + V1) और Type-3 (If + Past Perfect, would have + V3) में tense नहीं बदलता, क्योंकि वे पहले से अवास्तविक past रूप में हैं। (iii) 'Unless / provided' वाले वाक्य भी इसी तरह चलते हैं। उलटा करने पर: if + past + would → if + present + will; Type-2 / Type-3 जस के तस रहते हैं।\n\nयहाँ: Type-1 conditional (If it rains, we will postpone) का narration: reporting verb past हो तो If-clause का Present → Past (rains → rained) और will → would। 'will rain / would rain' if-clause में नहीं आते; 'rains' में backshift नहीं हुआ।",
+    "language": "en"
+  },
+  {
+    "id": "grammar593",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHe asked me / what was the reason / for my absence / from the meeting.",
+    "options": [
+      {
+        "id": "A",
+        "text": "He asked me"
+      },
+      {
+        "id": "B",
+        "text": "what was the reason"
+      },
+      {
+        "id": "C",
+        "text": "for my absence"
+      },
+      {
+        "id": "D",
+        "text": "from the meeting"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Say / Tell / Ask का सही प्रयोग (error-spotting का मुख्य बिंदु): (i) 'said' के बाद object नहीं आता; श्रोता हो तो 'said to him' (He said me ✗)। (ii) 'told' के बाद object ज़रूरी है (He told that ✗ → He told me that ✓)। (iii) 'asked' के साथ 'that' नहीं लगता (asked that what ✗)। (iv) 'asked' के बाद if / whether या wh-word आता है, दोनों साथ नहीं (asked whether if ✗)। (v) reported question में सामान्य क्रम (asked what the matter was ✓; asked what was the matter ✗)। (vi) Reporting verb के बाद 'to' और infinitive का प्रयोग imperative में होता है (told me to wait)। (vii) Indirect में quotation marks और प्रश्नचिह्न नहीं लगते।\n\nयहाँ: Reported (indirect) question में सामान्य क्रम रहता है — 'what the reason was'। 'what was the reason' में सीधे प्रश्न की तरह inversion कर दिया गया है, जो गलत है। सही वाक्य: 'He asked me what the reason for my absence from the meeting was.'",
+    "language": "en"
+  },
+  {
+    "id": "grammar594",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe prize was jointly won / by Rohit and I / after a gruelling contest.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The prize was jointly won"
+      },
+      {
+        "id": "B",
+        "text": "by Rohit and I"
+      },
+      {
+        "id": "C",
+        "text": "after a gruelling contest"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "voice",
+    "difficulty": "medium",
+    "explanation": "नियम: Case (Pronoun) का बदलाव: Active का Subject Passive में 'by' के बाद Objective case में आता है (I → by me; we → by us; he → by him; she → by her; they → by them; who → by whom), और Active का Object Passive में Subject बनकर Nominative case में (me → I; us → we; him → he; her → she; them → they; whom → who)। 'Who' (subject) ↔ 'By whom' और 'Whom' (object) ↔ 'Who'। गलत case (by he, was seen by I) error-spotting का नियमित बिंदु है।\n\nयहाँ: 'By' के बाद Objective case आता है — 'by Rohit and me'। 'I' (Nominative) गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar595",
+    "subjectId": "english",
+    "question": "Select the active voice of the sentence.\n\nThe old man was run over by a speeding truck while he was crossing the highway.",
+    "options": [
+      {
+        "id": "A",
+        "text": "A speeding truck had run over the old man while he was crossing the highway."
+      },
+      {
+        "id": "B",
+        "text": "A speeding truck runs over the old man while he is crossing the highway."
+      },
+      {
+        "id": "C",
+        "text": "The old man ran over a speeding truck while he was crossing the highway."
+      },
+      {
+        "id": "D",
+        "text": "A speeding truck ran over the old man while he was crossing the highway."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Prepositional / Phrasal verbs का Passive: जब verb के साथ preposition या adverb जुड़ा हो (laugh at, look after, look into, take care of, send for, turn down, put off, call off, deal with, speak to, run over), तो Passive में पूरा phrasal verb साथ रहता है और preposition कभी नहीं छूटता: They laughed at him → He was laughed at (by them); The committee will look into the matter → The matter will be looked into (by the committee)। Preposition छोड़ देना या 'by' के बाद लगा देना गलत है।\n\nयहाँ: Phrasal verb 'run over' का Passive 'was run over'; Active में 'ran over' होगा (Simple Past)। Tense बदलना (runs, had run) या कर्ता-कर्म उलटना (The old man ran over a truck) गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar596",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe commissioner [is said having resigned] under pressure from the ministry.",
+    "options": [
+      {
+        "id": "A",
+        "text": "said to had resigned"
+      },
+      {
+        "id": "B",
+        "text": "is said to resign"
+      },
+      {
+        "id": "C",
+        "text": "is said to have resigned"
+      },
+      {
+        "id": "D",
+        "text": "is said that he resigned"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Impersonal / Reporting verbs का Passive: (i) 'People say / believe / think / know / expect / report that + clause' → 'It is said / believed / thought / known / expected / reported that + clause' अथवा 'Subject + is said / believed to + V1'। (ii) अगर clause की क्रिया उसी समय की है तो 'to + V1' (He is believed to be honest), और अगर पहले की घटना है तो 'to have + V3' (He is said to have been killed)। (iii) 'It is said that' में 'it' dummy subject है, इसलिए Active में 'People / They / Everyone' जैसा सामान्य कर्ता जोड़ा जाता है। (iv) clause की क्रिया passive हो तो 'to have been + V3'।\n\nयहाँ: Reporting verb के Passive में 'Subject + is said + to + V1' आता है; पहले की घटना के लिए 'to have + V3' (is said to have resigned)। 'having' का प्रयोग यहाँ नहीं होता और 'is said that he resigned' के पहले अलग subject के साथ यह जुड़ नहीं सकता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar597",
+    "subjectId": "english",
+    "question": "Select the passive voice of the sentence.\n\nThe engineers were testing the new bridge when the cables snapped.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The new bridge was tested by the engineers when the cables snapped."
+      },
+      {
+        "id": "B",
+        "text": "The new bridge had been tested by the engineers when the cables snapped."
+      },
+      {
+        "id": "C",
+        "text": "The new bridge is being tested by the engineers when the cables snapped."
+      },
+      {
+        "id": "D",
+        "text": "The new bridge was being tested by the engineers when the cables snapped."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Continuous tenses का Passive: Present Continuous → is / am / are + being + V3; Past Continuous → was / were + being + V3। Future Continuous (will be doing) का passive प्रायः नहीं बनता / नहीं पूछा जाता (will be being done ✗ अटपटा रूप माना जाता है)। पहचान: Active में '-ing' था तो Passive में 'being' आएगा। 'is being' को 'has been' से भ्रमित न करें — continuous अभी चल रही क्रिया है, perfect पूरी हो चुकी।\n\nयहाँ: Past Continuous (were testing) का Passive 'was being + V3' होता है — 'was being tested'। 'was tested' (Simple Past), 'had been tested' (Past Perfect) और 'is being tested' (Present Continuous) में tense बदल जाता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar598",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe commander [ordered the soldiers do not fire] until he gave the signal.",
+    "options": [
+      {
+        "id": "A",
+        "text": "ordered the soldiers not to fire"
+      },
+      {
+        "id": "B",
+        "text": "ordered the soldiers for not firing"
+      },
+      {
+        "id": "C",
+        "text": "ordered the soldiers not fire"
+      },
+      {
+        "id": "D",
+        "text": "ordered to the soldiers not to fire"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Imperative (आदेश / निवेदन / सलाह / निषेध) का narration: Reporting verb उसकी प्रकृति से बदलता है — आदेश: ordered / commanded / told; निवेदन: requested / begged / implored; सलाह: advised / urged; निषेध: forbade / told ... not to। Structure: Reporting verb + Object + to + V1 (Negative: not to + V1; 'Do not' के लिए told / ordered ... not to)। 'Please / kindly' हो तो requested लगता है। उलटा करने पर: told / ordered + to V1 → सीधा Imperative (V1 से शुरू); requested → 'Please ...'; forbade → 'Do not ...'।\n\nयहाँ: Imperative का narration 'Reporting verb + Object + (not) to + V1' से बनता है — 'ordered the soldiers not to fire'। 'ordered' के बाद 'to' से पहले object नहीं छूटता और 'do not' नहीं रहता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar599",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nA modern villa is had / by the retired professor / on the outskirts of the city.",
+    "options": [
+      {
+        "id": "A",
+        "text": "A modern villa is had"
+      },
+      {
+        "id": "B",
+        "text": "by the retired professor"
+      },
+      {
+        "id": "C",
+        "text": "on the outskirts of the city"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "voice",
+    "difficulty": "medium",
+    "explanation": "नियम: ऐसे वाक्य जिनका Passive नहीं बनता: (i) अकर्मक (intransitive) क्रियाएँ (The sun rises; He arrived; She slept) — इनका कोई object नहीं होता। (ii) सकर्मक होते हुए भी स्थिति / संबंध बताने वाली क्रियाएँ: have (अधिकार के अर्थ में), possess (प्रायः नहीं), resemble, suit, fit, become, lack, cost, weigh, contain, equal, mean — A car is had by him ✗; He is resembled by his son ✗। (iii) Reflexive / reciprocal वाले प्रयोग। Error-spotting में ऐसे जबरन बनाए गए passive पकड़ने होते हैं।\n\nयहाँ: 'Have' जब अधिकार / स्वामित्व के अर्थ में हो तो उसका Passive नहीं बनता। सही Active रूप: 'The retired professor has a modern villa on the outskirts of the city.' इसलिए 'is had' गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar600",
+    "subjectId": "english",
+    "question": "Select the direct speech of the sentence.\n\nThe teacher told the class to submit the assignment by Friday and asked who had not yet bought the textbook.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The teacher said to the class, “Submitted the assignment by Friday. Who has not yet bought the textbook?”"
+      },
+      {
+        "id": "B",
+        "text": "The teacher said to the class, “Submit the assignment by Friday. Who has not yet bought the textbook?”"
+      },
+      {
+        "id": "C",
+        "text": "The teacher said to the class, “Submit the assignment by Friday. Has anyone not yet bought the textbook?”"
+      },
+      {
+        "id": "D",
+        "text": "The teacher said to the class, “You have submitted the assignment by Friday. Who has not yet bought the textbook?”"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: मिश्रित (Mixed) narration: जब एक ही उद्धरण में अलग-अलग प्रकार के वाक्य (assertive + interrogative + imperative) हों, तो हर वाक्य का narration अपने नियम से होता है और उन्हें 'and' से जोड़ा जाता है (told ... and asked ...; ordered ... and added that ...)। हर हिस्से के लिए reporting verb अलग-अलग हो सकता है। उलटा करने पर हर हिस्सा अलग वाक्य बनता है — imperative, प्रश्न और कथन अपनी-अपनी शैली (command, 'Who ...?', 'I ...') में।\n\nयहाँ: मिश्रित narration में हर हिस्से का अलग रूप लौटता है: 'told ... to submit' → Imperative (Submit ...), और 'asked who had not ...' → wh-प्रश्न 'Who has not yet bought ...?' (Past Perfect → Present Perfect)। प्रश्न का प्रकार (wh) बदलकर Yes/No बनाना या imperative को statement बनाना गलत है।",
+    "language": "en"
+  }
+]
