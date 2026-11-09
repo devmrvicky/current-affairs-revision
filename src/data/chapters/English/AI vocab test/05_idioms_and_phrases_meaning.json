@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_idm_121",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A nine days' wonder",
+    "options": [
+      {
+        "id": "A",
+        "text": "A famous miracle"
+      },
+      {
+        "id": "B",
+        "text": "A nine-day holiday"
+      },
+      {
+        "id": "C",
+        "text": "Something that causes only short-lived interest"
+      },
+      {
+        "id": "D",
+        "text": "A very rare marvel"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A nine days' wonder = चार दिन की चाँदनी। Example: The new gadget was a nine days' wonder and soon forgotten.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_122",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A Pyrrhic victory",
+    "options": [
+      {
+        "id": "A",
+        "text": "A victory in battle by trickery"
+      },
+      {
+        "id": "B",
+        "text": "A victory won at too great a cost"
+      },
+      {
+        "id": "C",
+        "text": "A victory by a narrow margin"
+      },
+      {
+        "id": "D",
+        "text": "An easy win"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "A Pyrrhic victory = हार जैसी महँगी जीत। Example: Winning the case but losing all his savings was a Pyrrhic victory.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_123",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A straw in the wind",
+    "options": [
+      {
+        "id": "A",
+        "text": "A small sign of what may happen"
+      },
+      {
+        "id": "B",
+        "text": "A weak person"
+      },
+      {
+        "id": "C",
+        "text": "A sudden storm"
+      },
+      {
+        "id": "D",
+        "text": "A useless thing"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A straw in the wind = भविष्य का छोटा संकेत। Example: The falling sales were a straw in the wind for the company.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_124",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: An ivory tower",
+    "options": [
+      {
+        "id": "A",
+        "text": "A very tall building"
+      },
+      {
+        "id": "B",
+        "text": "A place of worship"
+      },
+      {
+        "id": "C",
+        "text": "A luxurious palace"
+      },
+      {
+        "id": "D",
+        "text": "A state of being cut off from practical realities"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "An ivory tower = दुनिया की सच्चाइयों से कटी स्थिति। Example: The professor lived in an ivory tower, unaware of ordinary problems.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_125",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: At one sitting",
+    "options": [
+      {
+        "id": "A",
+        "text": "In one continuous period"
+      },
+      {
+        "id": "B",
+        "text": "After a long wait"
+      },
+      {
+        "id": "C",
+        "text": "In one's own seat"
+      },
+      {
+        "id": "D",
+        "text": "At a single desk"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "At one sitting = एक ही बैठक में। Example: He finished the whole novel at one sitting.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_126",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Be on tenterhooks",
+    "options": [
+      {
+        "id": "A",
+        "text": "Be hanging from a hook"
+      },
+      {
+        "id": "B",
+        "text": "Be extremely lazy"
+      },
+      {
+        "id": "C",
+        "text": "Be in anxious suspense"
+      },
+      {
+        "id": "D",
+        "text": "Be very angry"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "Be on tenterhooks = साँस अटकी रहना। Example: We were on tenterhooks waiting for the result.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_127",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Carry coals to Newcastle",
+    "options": [
+      {
+        "id": "A",
+        "text": "Work in a coal mine"
+      },
+      {
+        "id": "B",
+        "text": "Supply something where it is already plentiful"
+      },
+      {
+        "id": "C",
+        "text": "Travel a long way"
+      },
+      {
+        "id": "D",
+        "text": "Do a very heavy job"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "Carry coals to Newcastle = उल्टे बाँस बरेली को। Example: Selling tea in Assam is like carrying coals to Newcastle.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_128",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Castles in the air",
+    "options": [
+      {
+        "id": "A",
+        "text": "Real achievements"
+      },
+      {
+        "id": "B",
+        "text": "Buildings on hills"
+      },
+      {
+        "id": "C",
+        "text": "Strong forts"
+      },
+      {
+        "id": "D",
+        "text": "Plans unlikely to be realised"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Castles in the air = हवाई किले बनाना। Example: Stop building castles in the air and start working.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_129",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Clip someone's wings",
+    "options": [
+      {
+        "id": "A",
+        "text": "Help someone fly"
+      },
+      {
+        "id": "B",
+        "text": "Reward someone's effort"
+      },
+      {
+        "id": "C",
+        "text": "Cut someone's hair"
+      },
+      {
+        "id": "D",
+        "text": "Restrict someone's freedom or power"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Clip someone's wings = पर कतरना। Example: Strict rules clipped the young officer's wings.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_130",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Cook the books",
+    "options": [
+      {
+        "id": "A",
+        "text": "Falsify accounts"
+      },
+      {
+        "id": "B",
+        "text": "Study hard"
+      },
+      {
+        "id": "C",
+        "text": "Prepare a report"
+      },
+      {
+        "id": "D",
+        "text": "Write a cookery book"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Cook the books = हिसाब-किताब में हेराफेरी करना। Example: The manager was caught cooking the books.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_131",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: In the doldrums",
+    "options": [
+      {
+        "id": "A",
+        "text": "In a heavy storm"
+      },
+      {
+        "id": "B",
+        "text": "In low spirits; inactive or stagnant"
+      },
+      {
+        "id": "C",
+        "text": "In great success"
+      },
+      {
+        "id": "D",
+        "text": "In a hurry"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "In the doldrums = उदासी या ठहराव में होना। Example: The economy has been in the doldrums for two years.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_132",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Keep one's powder dry",
+    "options": [
+      {
+        "id": "A",
+        "text": "Keep gunpowder wet"
+      },
+      {
+        "id": "B",
+        "text": "Avoid wasting money"
+      },
+      {
+        "id": "C",
+        "text": "Stay ready but wait for the right moment"
+      },
+      {
+        "id": "D",
+        "text": "Stay away from danger"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Keep one's powder dry = तैयार रहकर सही समय की प्रतीक्षा करना। Example: Keep your powder dry until the offer is final.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_133",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Look a gift horse in the mouth",
+    "options": [
+      {
+        "id": "A",
+        "text": "Give an expensive present"
+      },
+      {
+        "id": "B",
+        "text": "Find fault with a gift"
+      },
+      {
+        "id": "C",
+        "text": "Accept a gift gladly"
+      },
+      {
+        "id": "D",
+        "text": "Buy a horse carefully"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Look a gift horse in the mouth = मिले उपहार में कमी निकालना। Example: Don't look a gift horse in the mouth; just say thanks.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_134",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Run out of steam",
+    "options": [
+      {
+        "id": "A",
+        "text": "Get angry quickly"
+      },
+      {
+        "id": "B",
+        "text": "Work very fast"
+      },
+      {
+        "id": "C",
+        "text": "Lose energy or enthusiasm"
+      },
+      {
+        "id": "D",
+        "text": "Finish a train journey"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Run out of steam = जोश ठंडा पड़ जाना। Example: The campaign ran out of steam after a month.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_135",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Run the gauntlet",
+    "options": [
+      {
+        "id": "A",
+        "text": "Face criticism or attack from many people"
+      },
+      {
+        "id": "B",
+        "text": "Run a race very fast"
+      },
+      {
+        "id": "C",
+        "text": "Escape from prison"
+      },
+      {
+        "id": "D",
+        "text": "Win a competition"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Run the gauntlet = चारों ओर से आलोचना झेलना। Example: The minister had to run the gauntlet of angry reporters.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_136",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Set one's face against",
+    "options": [
+      {
+        "id": "A",
+        "text": "Look directly at"
+      },
+      {
+        "id": "B",
+        "text": "Make an angry face"
+      },
+      {
+        "id": "C",
+        "text": "Support strongly"
+      },
+      {
+        "id": "D",
+        "text": "Firmly oppose"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Set one's face against = दृढ़ता से विरोध करना। Example: She set her face against the proposal.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_137",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: The blind leading the blind",
+    "options": [
+      {
+        "id": "A",
+        "text": "A group of travellers"
+      },
+      {
+        "id": "B",
+        "text": "The ignorant guiding the ignorant"
+      },
+      {
+        "id": "C",
+        "text": "An expert teaching a novice"
+      },
+      {
+        "id": "D",
+        "text": "A helpful guide for sufferers"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "The blind leading the blind = अंधा अंधे को राह दिखाए। Example: Two beginners teaching each other is the blind leading the blind.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_138",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: The jewel in the crown",
+    "options": [
+      {
+        "id": "A",
+        "text": "A royal gift"
+      },
+      {
+        "id": "B",
+        "text": "A costly ornament"
+      },
+      {
+        "id": "C",
+        "text": "The weakest part"
+      },
+      {
+        "id": "D",
+        "text": "The most valuable part of something"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "The jewel in the crown = सबसे कीमती हिस्सा। Example: Kashmir is called the jewel in the crown of India.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_139",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: The thin end of the wedge",
+    "options": [
+      {
+        "id": "A",
+        "text": "A sign of improvement"
+      },
+      {
+        "id": "B",
+        "text": "A trivial matter"
+      },
+      {
+        "id": "C",
+        "text": "A small change that leads to bigger harm"
+      },
+      {
+        "id": "D",
+        "text": "The sharp point of a tool"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "The thin end of the wedge = बड़े नुकसान की छोटी शुरुआत। Example: Allowing one exception is the thin end of the wedge.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_140",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: The tip of the iceberg",
+    "options": [
+      {
+        "id": "A",
+        "text": "A small visible part of a much bigger problem"
+      },
+      {
+        "id": "B",
+        "text": "The coldest day"
+      },
+      {
+        "id": "C",
+        "text": "A completely solved problem"
+      },
+      {
+        "id": "D",
+        "text": "A very cold place"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "The tip of the iceberg = बड़ी समस्या का छोटा-सा दिखता हिस्सा। Example: The two arrests are only the tip of the iceberg.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_141",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Through the roof",
+    "options": [
+      {
+        "id": "A",
+        "text": "Completely hidden"
+      },
+      {
+        "id": "B",
+        "text": "Extremely high"
+      },
+      {
+        "id": "C",
+        "text": "Under a shelter"
+      },
+      {
+        "id": "D",
+        "text": "Very low"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "Through the roof = आसमान छूना। Example: Vegetable prices have gone through the roof.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_142",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Up in the air",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fully planned"
+      },
+      {
+        "id": "B",
+        "text": "Very happy"
+      },
+      {
+        "id": "C",
+        "text": "Uncertain, undecided"
+      },
+      {
+        "id": "D",
+        "text": "Flying a kite"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "Up in the air = अधर में लटकना। Example: Our holiday plans are still up in the air.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_143",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Within a stone's throw",
+    "options": [
+      {
+        "id": "A",
+        "text": "Very close"
+      },
+      {
+        "id": "B",
+        "text": "Hit by a stone"
+      },
+      {
+        "id": "C",
+        "text": "Very far away"
+      },
+      {
+        "id": "D",
+        "text": "Inside a stone building"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "Within a stone's throw = दो कदम की दूरी पर। Example: The market is within a stone's throw of my house.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_144",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A bad workman always blames his tools",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tools are costly"
+      },
+      {
+        "id": "B",
+        "text": "Workers should repair tools"
+      },
+      {
+        "id": "C",
+        "text": "Bad workers have no tools"
+      },
+      {
+        "id": "D",
+        "text": "To blame external factors for poor performance"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A bad workman blames his tools = नाच न जाने आँगन टेढ़ा। Example: He blamed the bat for his duck; a bad workman always blames his tools.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_145",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Absence makes the heart grow fonder",
+    "options": [
+      {
+        "id": "A",
+        "text": "Distance ends friendship"
+      },
+      {
+        "id": "B",
+        "text": "People forget those who leave"
+      },
+      {
+        "id": "C",
+        "text": "A heart needs rest"
+      },
+      {
+        "id": "D",
+        "text": "One values someone more when they are away"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Absence makes the heart grow fonder = दूर रहने पर प्रेम और बढ़ता है। Example: After a month abroad, absence made the heart grow fonder.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_146",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Bird's eye view",
+    "options": [
+      {
+        "id": "A",
+        "text": "A wide, general view from above"
+      },
+      {
+        "id": "B",
+        "text": "A very close look"
+      },
+      {
+        "id": "C",
+        "text": "A view of birds"
+      },
+      {
+        "id": "D",
+        "text": "A clear future plan"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Bird's eye view = ऊँचाई से दिखने वाला व्यापक दृश्य। Example: From the hilltop we got a bird's eye view of the city.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_147",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Burn bridges",
+    "options": [
+      {
+        "id": "A",
+        "text": "To end a war"
+      },
+      {
+        "id": "B",
+        "text": "To destroy chances of returning or going back"
+      },
+      {
+        "id": "C",
+        "text": "To make new friends"
+      },
+      {
+        "id": "D",
+        "text": "To build new roads"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Burn bridges = लौटने के सारे रास्ते नष्ट कर देना। Example: Don't burn bridges with your old employer.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_148",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Chew someone out",
+    "options": [
+      {
+        "id": "A",
+        "text": "To teach manners"
+      },
+      {
+        "id": "B",
+        "text": "To feed someone well"
+      },
+      {
+        "id": "C",
+        "text": "To scold or reprimand someone severely"
+      },
+      {
+        "id": "D",
+        "text": "To praise loudly"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Chew someone out = कड़ी फटकार लगाना। Example: The coach chewed the players out after the match.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_149",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Chew the fat",
+    "options": [
+      {
+        "id": "A",
+        "text": "To lose weight"
+      },
+      {
+        "id": "B",
+        "text": "To eat heavily"
+      },
+      {
+        "id": "C",
+        "text": "To chat idly"
+      },
+      {
+        "id": "D",
+        "text": "To argue angrily"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Chew the fat = गप्पें लड़ाना। Example: The old friends sat chewing the fat for hours.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_150",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Elephantine task",
+    "options": [
+      {
+        "id": "A",
+        "text": "A task in a zoo"
+      },
+      {
+        "id": "B",
+        "text": "A huge and difficult task"
+      },
+      {
+        "id": "C",
+        "text": "A job done slowly"
+      },
+      {
+        "id": "D",
+        "text": "A very easy job"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Elephantine task = बहुत बड़ा और कठिन काम। Example: Preparing the whole syllabus in a month is an elephantine task.",
+    "language": "en"
+  }
+]

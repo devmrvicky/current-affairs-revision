@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_ows_121",
+    "subjectId": "english",
+    "question": "Choose the one word for: A place where animals are slaughtered.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pantry"
+      },
+      {
+        "id": "B",
+        "text": "Abattoir"
+      },
+      {
+        "id": "C",
+        "text": "Tannery"
+      },
+      {
+        "id": "D",
+        "text": "Cloakroom"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Abattoir = कसाईखाना (पशु-वध गृह)। Example: The meat is processed at the city abattoir.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_122",
+    "subjectId": "english",
+    "question": "Choose the one word for: A list of issues to be discussed at a meeting.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agenda"
+      },
+      {
+        "id": "B",
+        "text": "Manuscript"
+      },
+      {
+        "id": "C",
+        "text": "Blurb"
+      },
+      {
+        "id": "D",
+        "text": "Corrigendum"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Agenda = कार्यसूची। Example: The first item on the agenda is the budget.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_123",
+    "subjectId": "english",
+    "question": "Choose the one word for: Selfless concern for the welfare of others.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hedonism"
+      },
+      {
+        "id": "B",
+        "text": "Materialism"
+      },
+      {
+        "id": "C",
+        "text": "Relativism"
+      },
+      {
+        "id": "D",
+        "text": "Altruism"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Altruism = परोपकारिता (निःस्वार्थ सेवा)। Example: His altruism made him donate his salary to the poor.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_124",
+    "subjectId": "english",
+    "question": "Choose the one word for: To merge companies into one.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Disband"
+      },
+      {
+        "id": "B",
+        "text": "Liquidate"
+      },
+      {
+        "id": "C",
+        "text": "Amalgamate"
+      },
+      {
+        "id": "D",
+        "text": "Bifurcate"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Amalgamate = विलय करना (मिलाकर एक करना)। Example: The two banks decided to amalgamate.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_125",
+    "subjectId": "english",
+    "question": "Choose the one word for: A general pardon granted to offenders.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parole"
+      },
+      {
+        "id": "B",
+        "text": "Indictment"
+      },
+      {
+        "id": "C",
+        "text": "Extradition"
+      },
+      {
+        "id": "D",
+        "text": "Amnesty"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Amnesty = आम माफ़ी। Example: The government announced an amnesty for political prisoners.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_126",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who actively opposes someone or something.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accomplice"
+      },
+      {
+        "id": "B",
+        "text": "Mediator"
+      },
+      {
+        "id": "C",
+        "text": "Antagonist"
+      },
+      {
+        "id": "D",
+        "text": "Protagonist"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Antagonist = विरोधी। Example: The hero fought his antagonist in the last scene.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_127",
+    "subjectId": "english",
+    "question": "Choose the one word for: A song identified with a country or group.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anthem"
+      },
+      {
+        "id": "B",
+        "text": "Lullaby"
+      },
+      {
+        "id": "C",
+        "text": "Carol"
+      },
+      {
+        "id": "D",
+        "text": "Dirge"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Anthem = गान (जैसे राष्ट्रगान)। Example: Everyone stood up when the national anthem played.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_128",
+    "subjectId": "english",
+    "question": "Choose the one word for: A system of segregation on grounds of race.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Absolutism"
+      },
+      {
+        "id": "B",
+        "text": "Apartheid"
+      },
+      {
+        "id": "C",
+        "text": "Feudalism"
+      },
+      {
+        "id": "D",
+        "text": "Colonialism"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Apartheid = रंगभेद। Example: Apartheid was officially ended in South Africa in 1994.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_129",
+    "subjectId": "english",
+    "question": "Choose the one word for: The complete final destruction of the world.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Renaissance"
+      },
+      {
+        "id": "B",
+        "text": "Genesis"
+      },
+      {
+        "id": "C",
+        "text": "Apocalypse"
+      },
+      {
+        "id": "D",
+        "text": "Exodus"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Apocalypse = प्रलय। Example: The film shows the world after an apocalypse.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_130",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who abandons his faith or religious beliefs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cleric"
+      },
+      {
+        "id": "B",
+        "text": "Apostate"
+      },
+      {
+        "id": "C",
+        "text": "Pontiff"
+      },
+      {
+        "id": "D",
+        "text": "Evangelist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Apostate = धर्मत्यागी। Example: The apostate was cut off from his old community.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_131",
+    "subjectId": "english",
+    "question": "Choose the one word for: Very old; no longer in general use.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Archaic"
+      },
+      {
+        "id": "B",
+        "text": "Emergent"
+      },
+      {
+        "id": "C",
+        "text": "Neoteric"
+      },
+      {
+        "id": "D",
+        "text": "Futuristic"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Archaic = पुरातन। Example: 'Thou' is an archaic form of 'you'.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_132",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who designs buildings.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Surveyor"
+      },
+      {
+        "id": "B",
+        "text": "Carpenter"
+      },
+      {
+        "id": "C",
+        "text": "Mason"
+      },
+      {
+        "id": "D",
+        "text": "Architect"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Architect = वास्तुकार। Example: The architect prepared the plan of the new library.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_133",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who studies the stars and planets.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Astronomer"
+      },
+      {
+        "id": "B",
+        "text": "Biologist"
+      },
+      {
+        "id": "C",
+        "text": "Geologist"
+      },
+      {
+        "id": "D",
+        "text": "Zoologist"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Astronomer = खगोलशास्त्री। Example: The astronomer discovered a new comet.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_134",
+    "subjectId": "english",
+    "question": "Choose the one word for: The instrument used to measure atmospheric pressure.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Thermometer"
+      },
+      {
+        "id": "B",
+        "text": "Barometer"
+      },
+      {
+        "id": "C",
+        "text": "Hygrometer"
+      },
+      {
+        "id": "D",
+        "text": "Galvanometer"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Barometer = दाबमापी। Example: A falling barometer warns of a storm.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_135",
+    "subjectId": "english",
+    "question": "Choose the one word for: Showing disrespect towards sacred or holy things.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Atheism"
+      },
+      {
+        "id": "B",
+        "text": "Piety"
+      },
+      {
+        "id": "C",
+        "text": "Blasphemy"
+      },
+      {
+        "id": "D",
+        "text": "Fatalism"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Blasphemy = ईशनिंदा। Example: He was accused of blasphemy for mocking the scripture.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_136",
+    "subjectId": "english",
+    "question": "Choose the one word for: A severe snowstorm with high winds.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Avalanche"
+      },
+      {
+        "id": "B",
+        "text": "Monsoon"
+      },
+      {
+        "id": "C",
+        "text": "Drizzle"
+      },
+      {
+        "id": "D",
+        "text": "Blizzard"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Blizzard = बर्फ़ीला तूफ़ान। Example: The blizzard blocked all roads in the valley.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_137",
+    "subjectId": "english",
+    "question": "Choose the one word for: A detailed list of items in a library.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Catalogue"
+      },
+      {
+        "id": "B",
+        "text": "Abstract"
+      },
+      {
+        "id": "C",
+        "text": "Glossary"
+      },
+      {
+        "id": "D",
+        "text": "Appendix"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Catalogue = सूची-पत्र। Example: Search the library catalogue for the book.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_138",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who talks a great deal.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eavesdropper"
+      },
+      {
+        "id": "B",
+        "text": "Spectator"
+      },
+      {
+        "id": "C",
+        "text": "Bystander"
+      },
+      {
+        "id": "D",
+        "text": "Chatterbox"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Chatterbox = बकबक करने वाला। Example: The little chatterbox talked all the way home.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_139",
+    "subjectId": "english",
+    "question": "Choose the one word for: A companion who shares in one's activities.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adversary"
+      },
+      {
+        "id": "B",
+        "text": "Stranger"
+      },
+      {
+        "id": "C",
+        "text": "Comrade"
+      },
+      {
+        "id": "D",
+        "text": "Rival"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Comrade = साथी, सहयोगी। Example: He shared his food with a fellow comrade.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_140",
+    "subjectId": "english",
+    "question": "Choose the one word for: The exclusive legal right to reproduce and sell a creative work.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Franchise"
+      },
+      {
+        "id": "B",
+        "text": "Copyright"
+      },
+      {
+        "id": "C",
+        "text": "Patent"
+      },
+      {
+        "id": "D",
+        "text": "Trademark"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Copyright = प्रतिलिप्यधिकार। Example: Copying a novel without permission violates copyright.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_141",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who believes everything easily.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Astute"
+      },
+      {
+        "id": "B",
+        "text": "Dubious"
+      },
+      {
+        "id": "C",
+        "text": "Prudish"
+      },
+      {
+        "id": "D",
+        "text": "Credulous"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Credulous = अंधविश्वासी, भोला। Example: Credulous buyers believed the false advertisement.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_142",
+    "subjectId": "english",
+    "question": "Choose the one word for: The study of very low temperatures and their effects on materials.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Thermodynamics"
+      },
+      {
+        "id": "B",
+        "text": "Hydraulics"
+      },
+      {
+        "id": "C",
+        "text": "Cryogenics"
+      },
+      {
+        "id": "D",
+        "text": "Pyrotechnics"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Cryogenics = अति-निम्न ताप का विज्ञान। Example: Cryogenics is used to store rocket fuel.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_143",
+    "subjectId": "english",
+    "question": "Choose the one word for: Punishment of being kept in school after classes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Detention"
+      },
+      {
+        "id": "B",
+        "text": "Suspension"
+      },
+      {
+        "id": "C",
+        "text": "Probation"
+      },
+      {
+        "id": "D",
+        "text": "Expulsion"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Detention = स्कूल में रोके रखने की सज़ा। Example: He got detention for coming late.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_144",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person considered important due to high rank.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vassal"
+      },
+      {
+        "id": "B",
+        "text": "Dignitary"
+      },
+      {
+        "id": "C",
+        "text": "Subordinate"
+      },
+      {
+        "id": "D",
+        "text": "Commoner"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Dignitary = गणमान्य व्यक्ति। Example: Several dignitaries attended the ceremony.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_145",
+    "subjectId": "english",
+    "question": "Choose the one word for: The period of weakness of mind due to extreme old age.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Puberty"
+      },
+      {
+        "id": "B",
+        "text": "Adolescence"
+      },
+      {
+        "id": "C",
+        "text": "Dotage"
+      },
+      {
+        "id": "D",
+        "text": "Infancy"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Dotage = सठियाना (बुढ़ापे की कमज़ोरी)। Example: In his dotage he often forgot names.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_146",
+    "subjectId": "english",
+    "question": "Choose the one word for: A short quotation at the beginning of a book.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Colophon"
+      },
+      {
+        "id": "B",
+        "text": "Caption"
+      },
+      {
+        "id": "C",
+        "text": "Footnote"
+      },
+      {
+        "id": "D",
+        "text": "Epigraph"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Epigraph = शीर्ष-उद्धरण। Example: The novel opens with an epigraph from Tagore.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_147",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who is skilled in horsemanship.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Equestrian"
+      },
+      {
+        "id": "B",
+        "text": "Acrobat"
+      },
+      {
+        "id": "C",
+        "text": "Marksman"
+      },
+      {
+        "id": "D",
+        "text": "Gymnast"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Equestrian = घुड़सवार। Example: The equestrian won gold in the riding event.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_148",
+    "subjectId": "english",
+    "question": "Choose the one word for: The time when day and night are of equal length.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solstice"
+      },
+      {
+        "id": "B",
+        "text": "Equinox"
+      },
+      {
+        "id": "C",
+        "text": "Eclipse"
+      },
+      {
+        "id": "D",
+        "text": "Perihelion"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Equinox = विषुव। Example: Day and night are equal at the equinox.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_149",
+    "subjectId": "english",
+    "question": "Choose the one word for: A speech delivered without preparation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rehearsal"
+      },
+      {
+        "id": "B",
+        "text": "Extempore"
+      },
+      {
+        "id": "C",
+        "text": "Recitation"
+      },
+      {
+        "id": "D",
+        "text": "Sermon"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Extempore = आशु भाषण (बिना तैयारी का)। Example: She gave an extempore speech on the topic.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_150",
+    "subjectId": "english",
+    "question": "Choose the one word for: A very strong wind.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Breeze"
+      },
+      {
+        "id": "B",
+        "text": "Whirlpool"
+      },
+      {
+        "id": "C",
+        "text": "Zephyr"
+      },
+      {
+        "id": "D",
+        "text": "Gale"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Gale = आँधी। Example: The gale uprooted several trees.",
+    "language": "en"
+  }
+]
