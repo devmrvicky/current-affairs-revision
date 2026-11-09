@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "reasoning001",
+    "subjectId": "reasoning",
+    "question": "एक कूट भाषा में 'SPIRIT' को 'WKMIMG' लिखा जाता है। उसी नियम से 'GLOBAL' को कैसे लिखा जाएगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "KGTSEY"
+      },
+      {
+        "id": "B",
+        "text": "KGSSEY"
+      },
+      {
+        "id": "C",
+        "text": "KGSREY"
+      },
+      {
+        "id": "D",
+        "text": "KGRSEY"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding_decoding",
+    "difficulty": "hard",
+    "explanation": "विषम स्थानों के अक्षर में 4 जोड़ते हैं: S→W, I→M, I→M। सम स्थानों पर क्रमशः 5, 9 और 13 घटाते हैं: P→K, R→I, T→G। इसी नियम से GLOBAL: G→K, L→G, O→S, B→S, A→E, L→Y। कोड KGSSEY होगा।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning002",
+    "subjectId": "reasoning",
+    "question": "यदि किसी कूट भाषा में प्रत्येक अक्षर को अंग्रेजी वर्णमाला में उससे 2 स्थान आगे के अक्षर से बदला जाता है, तो 'DOG' का कूट क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "EPH"
+      },
+      {
+        "id": "B",
+        "text": "FQJ"
+      },
+      {
+        "id": "C",
+        "text": "GQK"
+      },
+      {
+        "id": "D",
+        "text": "FQI"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding_decoding",
+    "difficulty": "medium",
+    "explanation": "D से 2 आगे F, O से 2 आगे Q और G से 2 आगे I आता है। इसलिए DOG का कूट FQI है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning003",
+    "subjectId": "reasoning",
+    "question": "एक कूट भाषा में प्रत्येक अक्षर को वर्णमाला के ठीक विपरीत अक्षर से बदला जाता है (A↔Z, B↔Y आदि)। इस नियम से 'CHAIR' का कूट क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "XSZRI"
+      },
+      {
+        "id": "B",
+        "text": "XSRIZ"
+      },
+      {
+        "id": "C",
+        "text": "XSAIR"
+      },
+      {
+        "id": "D",
+        "text": "WTRQH"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding_decoding",
+    "difficulty": "medium",
+    "explanation": "विपरीत अक्षर युग्म हैं: C→X, H→S, A→Z, I→R और R→I। इसलिए कूट XSZRI है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning004",
+    "subjectId": "reasoning",
+    "question": "यदि किसी शब्द के अक्षरों को उल्टे क्रम में लिखकर कूट बनाया जाता है, तो 'MARKET' का कूट क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TEKARM"
+      },
+      {
+        "id": "B",
+        "text": "TERKAM"
+      },
+      {
+        "id": "C",
+        "text": "TEKRAM"
+      },
+      {
+        "id": "D",
+        "text": "TKE RAM"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding_decoding",
+    "difficulty": "medium",
+    "explanation": "MARKET को उल्टे क्रम में लिखने पर TEKRAM प्राप्त होता है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning005",
+    "subjectId": "reasoning",
+    "question": "एक कूट भाषा में किसी शब्द का मान उसके सभी अक्षरों के वर्णमाला-क्रमांक का योग है। यदि A=1, B=2, ... Z=26 हो, तो 'BIRD' का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "31"
+      },
+      {
+        "id": "B",
+        "text": "33"
+      },
+      {
+        "id": "C",
+        "text": "32"
+      },
+      {
+        "id": "D",
+        "text": "34"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coding_decoding",
+    "difficulty": "medium",
+    "explanation": "B=2, I=9, R=18 और D=4। योग=2+9+18+4=33।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning006",
+    "subjectId": "reasoning",
+    "question": "एक कूट में विषम स्थान वाले अक्षर को 1 स्थान और सम स्थान वाले अक्षर को 2 स्थान आगे बढ़ाया जाता है। इस नियम से 'ROAD' का कूट क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SPBF"
+      },
+      {
+        "id": "B",
+        "text": "SQBG"
+      },
+      {
+        "id": "C",
+        "text": "TQBF"
+      },
+      {
+        "id": "D",
+        "text": "SQBF"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding_decoding",
+    "difficulty": "medium",
+    "explanation": "R→S (+1), O→Q (+2), A→B (+1), D→F (+2)। इसलिए ROAD का कूट SQBF है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning007",
+    "subjectId": "reasoning",
+    "question": "यदि प्रत्येक अक्षर को अंग्रेजी वर्णमाला में उससे ठीक एक स्थान पीछे के अक्षर से बदला जाए, तो 'PEAR' का कूट क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ODZQ"
+      },
+      {
+        "id": "B",
+        "text": "ODZP"
+      },
+      {
+        "id": "C",
+        "text": "QFBS"
+      },
+      {
+        "id": "D",
+        "text": "PDZQ"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coding_decoding",
+    "difficulty": "medium",
+    "explanation": "P→O, E→D, A→Z (वर्णमाला के चक्र के अनुसार) और R→Q। इसलिए कूट ODZQ है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning008",
+    "subjectId": "reasoning",
+    "question": "एक कूट भाषा में प्रत्येक अक्षर को वर्णमाला के विपरीत अक्षर से बदला जाता है। उसी नियम से 'BOOK' का कूट क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "YLLQ"
+      },
+      {
+        "id": "B",
+        "text": "ZLLP"
+      },
+      {
+        "id": "C",
+        "text": "YLLP"
+      },
+      {
+        "id": "D",
+        "text": "YKKP"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coding_decoding",
+    "difficulty": "medium",
+    "explanation": "विपरीत अक्षर: B→Y, O→L, O→L और K→P। अतः BOOK का कूट YLLP है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning009",
+    "subjectId": "reasoning",
+    "question": "एक कूट में शब्द के अक्षरों को जोड़ों में बदला जाता है: पहला अक्षर दूसरे स्थान पर और दूसरा अक्षर पहले स्थान पर, तीसरा चौथे स्थान पर और चौथा तीसरे स्थान पर। इस नियम से 'TRAIN' का कूट क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "TEKRAM"
+      },
+      {
+        "id": "B",
+        "text": "TEKARM"
+      },
+      {
+        "id": "C",
+        "text": "TERKAM"
+      },
+      {
+        "id": "D",
+        "text": "RTIAN"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coding_decoding",
+    "difficulty": "medium",
+    "explanation": "TRAIN में पहले जोड़े TR को RT और दूसरे जोड़े AI को IA करेंगे; अंतिम N वैसा ही रहेगा। कूट RTIAN है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning010",
+    "subjectId": "reasoning",
+    "question": "एक महिला की ओर इशारा करते हुए राम कहता है, “वह मेरे इकलौते बेटे की पत्नी की माँ है।” वह महिला राम से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "समधन"
+      },
+      {
+        "id": "B",
+        "text": "माँ"
+      },
+      {
+        "id": "C",
+        "text": "बहन"
+      },
+      {
+        "id": "D",
+        "text": "बेटी"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood_relation",
+    "difficulty": "medium",
+    "explanation": "राम के इकलौते बेटे की पत्नी राम की बहू है। उस पत्नी की माँ राम की समधन (बहू की माँ) है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning011",
+    "subjectId": "reasoning",
+    "question": "एक महिला की ओर इशारा करके अमित कहता है, “वह मेरी माँ की इकलौती बेटी की बेटी है।” यदि अमित पुरुष है, तो वह महिला अमित से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भतीजी"
+      },
+      {
+        "id": "B",
+        "text": "बहन"
+      },
+      {
+        "id": "C",
+        "text": "भांजी"
+      },
+      {
+        "id": "D",
+        "text": "माँ"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood_relation",
+    "difficulty": "medium",
+    "explanation": "अमित की माँ की इकलौती बेटी अमित की बहन होगी। बहन की बेटी अमित की भांजी होती है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning012",
+    "subjectId": "reasoning",
+    "question": "एक महिला की ओर इशारा करके रवि कहता है, “वह मेरे पिता के इकलौते बेटे की पत्नी है।” यदि रवि पुरुष है और उसके पिता का इकलौता बेटा रवि ही है, तो महिला रवि से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बहन"
+      },
+      {
+        "id": "B",
+        "text": "पत्नी"
+      },
+      {
+        "id": "C",
+        "text": "माँ"
+      },
+      {
+        "id": "D",
+        "text": "बेटी"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood_relation",
+    "difficulty": "medium",
+    "explanation": "रवि के पिता का इकलौता बेटा रवि स्वयं है। उस बेटे की पत्नी रवि की पत्नी है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning013",
+    "subjectId": "reasoning",
+    "question": "A, B का भाई है। B, C की माँ है। A का C से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पिता"
+      },
+      {
+        "id": "B",
+        "text": "चाचा"
+      },
+      {
+        "id": "C",
+        "text": "दादा"
+      },
+      {
+        "id": "D",
+        "text": "मामा"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood_relation",
+    "difficulty": "medium",
+    "explanation": "B, C की माँ है और A, B का भाई है। इसलिए A, C का मामा है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning014",
+    "subjectId": "reasoning",
+    "question": "P, Q की माँ है और Q, R का पिता है। P का R से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "नानी"
+      },
+      {
+        "id": "B",
+        "text": "दादी"
+      },
+      {
+        "id": "C",
+        "text": "बुआ"
+      },
+      {
+        "id": "D",
+        "text": "बहन"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "blood_relation",
+    "difficulty": "medium",
+    "explanation": "Q, R का पिता है और P, Q की माँ है। इसलिए P, R की पितृ-दादी है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning015",
+    "subjectId": "reasoning",
+    "question": "रीना, सीमा की बेटी है। सीमा, मोहन की बहन है। मोहन का रीना से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मामा"
+      },
+      {
+        "id": "B",
+        "text": "पिता"
+      },
+      {
+        "id": "C",
+        "text": "भाई"
+      },
+      {
+        "id": "D",
+        "text": "दादा"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "blood_relation",
+    "difficulty": "medium",
+    "explanation": "सीमा रीना की माँ है और मोहन सीमा का भाई है। अतः मोहन रीना का मामा है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning016",
+    "subjectId": "reasoning",
+    "question": "एक पुरुष की ओर संकेत करके नेहा कहती है, “वह मेरी माँ की इकलौती बेटी का बेटा है।” यदि नेहा की माँ की इकलौती बेटी नेहा ही है, तो पुरुष नेहा से किस प्रकार संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाई"
+      },
+      {
+        "id": "B",
+        "text": "पिता"
+      },
+      {
+        "id": "C",
+        "text": "बेटा"
+      },
+      {
+        "id": "D",
+        "text": "भांजा"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood_relation",
+    "difficulty": "medium",
+    "explanation": "नेहा की माँ की इकलौती बेटी स्वयं नेहा है। नेहा का बेटा उस पुरुष से संबंधित है; अतः वह नेहा का बेटा है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning017",
+    "subjectId": "reasoning",
+    "question": "X, Y का पिता है। Y, Z की बहन है। X का Z से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चाचा"
+      },
+      {
+        "id": "B",
+        "text": "भाई"
+      },
+      {
+        "id": "C",
+        "text": "दादा"
+      },
+      {
+        "id": "D",
+        "text": "पिता"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "blood_relation",
+    "difficulty": "medium",
+    "explanation": "Y और Z भाई-बहन हैं। X, Y का पिता है, इसलिए X, Z का भी पिता है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning018",
+    "subjectId": "reasoning",
+    "question": "M, N का भाई है। N, O की बेटी है। यदि M और N दोनों O की संतान हैं, तो M का O से क्या संबंध है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पिता"
+      },
+      {
+        "id": "B",
+        "text": "भाई"
+      },
+      {
+        "id": "C",
+        "text": "पुत्र"
+      },
+      {
+        "id": "D",
+        "text": "भतीजा"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "blood_relation",
+    "difficulty": "medium",
+    "explanation": "N, O की बेटी है और M, N का भाई है। प्रश्न में दिया है कि दोनों O की संतान हैं; अतः M, O का पुत्र है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning019",
+    "subjectId": "reasoning",
+    "question": "शब्द CAREFUL के सभी अक्षरों को अंग्रेजी वर्णमाला के क्रम में व्यवस्थित किया जाता है। बने हुए समूह में बाएँ से दूसरे और दाएँ से चौथे अक्षर के बीच वर्णमाला में कितने अक्षर हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "alphabetical_order",
+    "difficulty": "medium",
+    "explanation": "CAREFUL के अक्षरों का क्रम A, C, E, F, L, R, U होगा। बाएँ से दूसरा C और दाएँ से चौथा F है। C और F के बीच D तथा E हैं, यानी 2 अक्षर।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning020",
+    "subjectId": "reasoning",
+    "question": "शब्द BRIGHT के अक्षरों को वर्णमाला के क्रम में व्यवस्थित किया जाता है। बाएँ से तीसरे और दाएँ से दूसरे अक्षर के बीच वर्णमाला में कितने अक्षर हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "9"
+      },
+      {
+        "id": "C",
+        "text": "8"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "alphabetical_order",
+    "difficulty": "medium",
+    "explanation": "क्रम B, G, H, I, R, T है। बाएँ से तीसरा H और दाएँ से दूसरा R है। इनके बीच I, J, K, L, M, N, O, P, Q यानी 9 अक्षर हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning021",
+    "subjectId": "reasoning",
+    "question": "शब्द MONDAY के अक्षरों को वर्णमाला के क्रम में रखने पर बाएँ से तीसरे और दाएँ से दूसरे अक्षर के बीच कितने अक्षर होंगे?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "0"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "alphabetical_order",
+    "difficulty": "medium",
+    "explanation": "वर्णमाला क्रम A, D, M, N, O, Y है। बाएँ से तीसरा M और दाएँ से दूसरा O है। इनके बीच केवल N है।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning022",
+    "subjectId": "reasoning",
+    "question": "शब्द TEACHER के अक्षरों को वर्णमाला के क्रम में व्यवस्थित करने पर बाएँ से दूसरे और दाएँ से तीसरे अक्षर के बीच अंग्रेजी वर्णमाला में कितने अक्षर होंगे?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "5"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "alphabetical_order",
+    "difficulty": "medium",
+    "explanation": "क्रम A, C, E, E, H, R, T है। बाएँ से दूसरा C और दाएँ से तीसरा H है। इनके बीच D, E, F, G चार अक्षर हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning023",
+    "subjectId": "reasoning",
+    "question": "शब्द COMPUTER के अक्षरों को वर्णमाला के क्रम में व्यवस्थित किया जाता है। बाएँ से चौथे और दाएँ से तीसरे अक्षर के बीच कितने अक्षर हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "2"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "alphabetical_order",
+    "difficulty": "medium",
+    "explanation": "क्रम C, E, M, O, P, R, T, U है। बाएँ से चौथा O और दाएँ से तीसरा R है। इनके बीच P और Q दो अक्षर हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning024",
+    "subjectId": "reasoning",
+    "question": "शब्द FAMILY के अक्षरों को वर्णमाला के क्रम में रखने पर बाएँ से दूसरे तथा दाएँ से दूसरे अक्षर के बीच कितने अक्षर होंगे?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4"
+      },
+      {
+        "id": "B",
+        "text": "6"
+      },
+      {
+        "id": "C",
+        "text": "5"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "alphabetical_order",
+    "difficulty": "medium",
+    "explanation": "क्रम A, F, I, L, M, Y है। बाएँ से दूसरा F और दाएँ से दूसरा M है। इनके बीच G, H, I, J, K, L यानी 6 अक्षर हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning025",
+    "subjectId": "reasoning",
+    "question": "शब्द NETWORK के अक्षरों को वर्णमाला के क्रम में व्यवस्थित करने पर बाएँ से तीसरे और दाएँ से तीसरे अक्षर के बीच कितने अक्षर हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "3"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "alphabetical_order",
+    "difficulty": "medium",
+    "explanation": "क्रम E, K, N, O, R, T, W है। बाएँ से तीसरा N और दाएँ से तीसरा R है। इनके बीच O, P, Q तीन अक्षर हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning026",
+    "subjectId": "reasoning",
+    "question": "शब्द GARDEN के अक्षरों को वर्णमाला के क्रम में व्यवस्थित करने पर बाएँ से दूसरे तथा दाएँ से दूसरे अक्षर के बीच कितने अक्षर होंगे?",
+    "options": [
+      {
+        "id": "A",
+        "text": "7"
+      },
+      {
+        "id": "B",
+        "text": "8"
+      },
+      {
+        "id": "C",
+        "text": "9"
+      },
+      {
+        "id": "D",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "alphabetical_order",
+    "difficulty": "medium",
+    "explanation": "क्रम A, D, E, G, N, R है। बाएँ से दूसरा D और दाएँ से दूसरा N है। इनके बीच E, F, G, H, I, J, K, L, M यानी 9 अक्षर हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning027",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित संख्या श्रृंखला में प्रश्न चिह्न (?) के स्थान पर कौन-सी संख्या आएगी? 9, 45, ?, 540, 1080",
+    "options": [
+      {
+        "id": "A",
+        "text": "135"
+      },
+      {
+        "id": "B",
+        "text": "180"
+      },
+      {
+        "id": "C",
+        "text": "160"
+      },
+      {
+        "id": "D",
+        "text": "225"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "number_series",
+    "difficulty": "medium",
+    "explanation": "क्रमशः 5, 4, 3 और 2 से गुणा किया गया है: 9×5=45, 45×4=180, 180×3=540, 540×2=1080।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning028",
+    "subjectId": "reasoning",
+    "question": "श्रृंखला में अगली संख्या ज्ञात कीजिए: 4, 9, 19, 39, 79, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "149"
+      },
+      {
+        "id": "B",
+        "text": "157"
+      },
+      {
+        "id": "C",
+        "text": "161"
+      },
+      {
+        "id": "D",
+        "text": "159"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "number_series",
+    "difficulty": "medium",
+    "explanation": "प्रत्येक पद को 2 से गुणा करके 1 जोड़ा गया है: 4×2+1=9, 9×2+1=19, 19×2+1=39, 39×2+1=79। अगला=79×2+1=159।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning029",
+    "subjectId": "reasoning",
+    "question": "श्रृंखला में प्रश्न चिह्न के स्थान पर कौन-सी संख्या होगी? 3, 8, 18, 38, 78, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "148"
+      },
+      {
+        "id": "B",
+        "text": "156"
+      },
+      {
+        "id": "C",
+        "text": "158"
+      },
+      {
+        "id": "D",
+        "text": "160"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "number_series",
+    "difficulty": "medium",
+    "explanation": "प्रत्येक पद को 2 से गुणा करके 2 जोड़ा गया है। अगला पद=78×2+2=158।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning030",
+    "subjectId": "reasoning",
+    "question": "अगली संख्या ज्ञात कीजिए: 2, 6, 12, 20, 30, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "42"
+      },
+      {
+        "id": "B",
+        "text": "40"
+      },
+      {
+        "id": "C",
+        "text": "44"
+      },
+      {
+        "id": "D",
+        "text": "46"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "number_series",
+    "difficulty": "medium",
+    "explanation": "अंतर क्रमशः 4, 6, 8 और 10 हैं। अगला अंतर 12 होगा। इसलिए 30+12=42।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning031",
+    "subjectId": "reasoning",
+    "question": "श्रृंखला में अगली संख्या क्या होगी? 7, 14, 42, 168, 840, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4200"
+      },
+      {
+        "id": "B",
+        "text": "5040"
+      },
+      {
+        "id": "C",
+        "text": "4800"
+      },
+      {
+        "id": "D",
+        "text": "5880"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "number_series",
+    "difficulty": "medium",
+    "explanation": "क्रमशः 2, 3, 4, 5 और 6 से गुणा किया गया है। अगली संख्या=840×6=5040।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning032",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित श्रृंखला में प्रश्न चिह्न के स्थान पर कौन-सी संख्या आएगी? 121, 100, 81, 64, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "36"
+      },
+      {
+        "id": "B",
+        "text": "42"
+      },
+      {
+        "id": "C",
+        "text": "56"
+      },
+      {
+        "id": "D",
+        "text": "49"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "number_series",
+    "difficulty": "medium",
+    "explanation": "ये घटते क्रम के पूर्ण वर्ग हैं: 11², 10², 9², 8²। अगला 7²=49 होगा।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning033",
+    "subjectId": "reasoning",
+    "question": "श्रृंखला में अगली संख्या ज्ञात कीजिए: 2, 5, 11, 23, 47, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "95"
+      },
+      {
+        "id": "B",
+        "text": "93"
+      },
+      {
+        "id": "C",
+        "text": "94"
+      },
+      {
+        "id": "D",
+        "text": "97"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "number_series",
+    "difficulty": "medium",
+    "explanation": "प्रत्येक पद को 2 से गुणा करके 1 जोड़ा गया है। अगला पद=47×2+1=95।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning034",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित श्रृंखला में प्रश्न चिह्न (?) के स्थान पर कौन-सी संख्या होगी? 1, 4, 9, 16, 25, ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30"
+      },
+      {
+        "id": "B",
+        "text": "32"
+      },
+      {
+        "id": "C",
+        "text": "36"
+      },
+      {
+        "id": "D",
+        "text": "49"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "number_series",
+    "difficulty": "medium",
+    "explanation": "ये क्रमिक प्राकृतिक संख्याओं के वर्ग हैं: 1², 2², 3², 4², 5²। अगला 6²=36 होगा।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning035",
+    "subjectId": "reasoning",
+    "question": "उस समुच्चय का चयन कीजिए जिसमें संख्याएँ उसी प्रकार संबंधित हैं जैसे इन समुच्चयों में हैं: (5, 2, 121) और (4, 3, 55)।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(3, 2, 25)"
+      },
+      {
+        "id": "B",
+        "text": "(3, 2, 23)"
+      },
+      {
+        "id": "C",
+        "text": "(4, 2, 58)"
+      },
+      {
+        "id": "D",
+        "text": "(5, 3, 118)"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "number_analogy",
+    "difficulty": "medium",
+    "explanation": "संबंध: तीसरी संख्या = पहली संख्या का घन − दूसरी संख्या का वर्ग। 5³−2²=121 और 4³−3²=55। इसलिए 3³−2²=27−4=23।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning036",
+    "subjectId": "reasoning",
+    "question": "(2, 3, 31) और (3, 2, 17) में प्रयुक्त समान नियम के अनुसार सही समुच्चय चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(4, 2, 20)"
+      },
+      {
+        "id": "B",
+        "text": "(4, 3, 25)"
+      },
+      {
+        "id": "C",
+        "text": "(5, 1, 28)"
+      },
+      {
+        "id": "D",
+        "text": "(4, 2, 24)"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "number_analogy",
+    "difficulty": "medium",
+    "explanation": "तीसरी संख्या = पहली संख्या का वर्ग + दूसरी संख्या का घन। 2²+3³=4+27=31 और 3²+2³=9+8=17। इसलिए 4²+2³=16+8=24।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning037",
+    "subjectId": "reasoning",
+    "question": "(7, 3, 40) और (6, 2, 32) में प्रयुक्त नियम के अनुसार सही समुच्चय चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(9, 4, 72)"
+      },
+      {
+        "id": "B",
+        "text": "(8, 3, 49)"
+      },
+      {
+        "id": "C",
+        "text": "(9, 4, 65)"
+      },
+      {
+        "id": "D",
+        "text": "(7, 2, 53)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "number_analogy",
+    "difficulty": "medium",
+    "explanation": "तीसरी संख्या = पहली संख्या का वर्ग − दूसरी संख्या का वर्ग। 7²−3²=49−9=40 और 6²−2²=36−4=32। इसलिए 9²−4²=81−16=65।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning038",
+    "subjectId": "reasoning",
+    "question": "(3, 4, 19) और (5, 2, 17) में प्रयुक्त नियम के अनुसार सही समुच्चय चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(6, 3, 27)"
+      },
+      {
+        "id": "B",
+        "text": "(6, 3, 24)"
+      },
+      {
+        "id": "C",
+        "text": "(5, 4, 25)"
+      },
+      {
+        "id": "D",
+        "text": "(4, 3, 18)"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "number_analogy",
+    "difficulty": "medium",
+    "explanation": "तीसरी संख्या = पहली×दूसरी + पहली + दूसरी। 3×4+3+4=19 और 5×2+5+2=17। इसलिए 6×3+6+3=27।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning039",
+    "subjectId": "reasoning",
+    "question": "(2, 3, 11) और (3, 2, 17) में प्रयुक्त नियम के अनुसार सही समुच्चय चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(4, 2, 30)"
+      },
+      {
+        "id": "B",
+        "text": "(3, 4, 34)"
+      },
+      {
+        "id": "C",
+        "text": "(5, 2, 48)"
+      },
+      {
+        "id": "D",
+        "text": "(4, 2, 31)"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "number_analogy",
+    "difficulty": "medium",
+    "explanation": "तीसरी संख्या = पहली संख्या का वर्ग × दूसरी संख्या − 1। 2²×3−1=11 और 3²×2−1=17। इसलिए 4²×2−1=31।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning040",
+    "subjectId": "reasoning",
+    "question": "(2, 3, 19) और (3, 4, 37) में प्रयुक्त नियम के अनुसार सही समुच्चय चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(1, 5, 29)"
+      },
+      {
+        "id": "B",
+        "text": "(1, 5, 31)"
+      },
+      {
+        "id": "C",
+        "text": "(2, 4, 24)"
+      },
+      {
+        "id": "D",
+        "text": "(3, 5, 40)"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "number_analogy",
+    "difficulty": "medium",
+    "explanation": "तीसरी संख्या = पहली² + दूसरी² + पहली×दूसरी। 2²+3²+2×3=4+9+6=19। 3²+4²+12=37। इसलिए 1+25+5=31।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning041",
+    "subjectId": "reasoning",
+    "question": "(2, 3, 35) और (1, 4, 65) में प्रयुक्त नियम के अनुसार सही समुच्चय चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(2, 4, 64)"
+      },
+      {
+        "id": "B",
+        "text": "(3, 2, 27)"
+      },
+      {
+        "id": "C",
+        "text": "(2, 4, 72)"
+      },
+      {
+        "id": "D",
+        "text": "(4, 2, 70)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "number_analogy",
+    "difficulty": "medium",
+    "explanation": "तीसरी संख्या = पहली संख्या का घन + दूसरी संख्या का घन। 2³+3³=8+27=35 और 1³+4³=65। इसलिए 2³+4³=8+64=72।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning042",
+    "subjectId": "reasoning",
+    "question": "(2, 3, 25) और (4, 1, 25) में प्रयुक्त नियम के अनुसार सही समुच्चय चुनिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(3, 5, 64)"
+      },
+      {
+        "id": "B",
+        "text": "(3, 5, 56)"
+      },
+      {
+        "id": "C",
+        "text": "(4, 5, 80)"
+      },
+      {
+        "id": "D",
+        "text": "(2, 6, 49)"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "number_analogy",
+    "difficulty": "medium",
+    "explanation": "तीसरी संख्या = (पहली + दूसरी) का वर्ग। (2+3)²=25 और (4+1)²=25। इसलिए (3+5)²=64।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning043",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित प्रत्येक पंक्ति में तीसरी संख्या पहली दो संख्याओं के समान नियम से प्राप्त होती है। प्रश्न चिह्न के स्थान पर क्या आएगा?\n(2, 3, 13)\n(4, 5, 41)\n(6, 2, ?)",
+    "options": [
+      {
+        "id": "A",
+        "text": "36"
+      },
+      {
+        "id": "B",
+        "text": "38"
+      },
+      {
+        "id": "C",
+        "text": "42"
+      },
+      {
+        "id": "D",
+        "text": "40"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "missing_number",
+    "difficulty": "medium",
+    "explanation": "तीसरी संख्या = पहली संख्या का वर्ग + दूसरी संख्या का वर्ग। 2²+3²=13 और 4²+5²=41। इसलिए 6²+2²=36+4=40।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning044",
+    "subjectId": "reasoning",
+    "question": "नीचे दिए गए संख्या-समूह में प्रत्येक पंक्ति में तीसरी संख्या, पहली और दूसरी संख्या के योग का वर्ग है। रिक्त स्थान भरिए।\n(1, 3, 16)\n(2, 4, 36)\n(3, 5, ?)",
+    "options": [
+      {
+        "id": "A",
+        "text": "49"
+      },
+      {
+        "id": "B",
+        "text": "64"
+      },
+      {
+        "id": "C",
+        "text": "56"
+      },
+      {
+        "id": "D",
+        "text": "72"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "missing_number",
+    "difficulty": "medium",
+    "explanation": "तीसरी संख्या=(पहली+दूसरी)²। (1+3)²=16, (2+4)²=36। इसलिए (3+5)²=64।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning045",
+    "subjectId": "reasoning",
+    "question": "प्रत्येक पंक्ति में तीसरी संख्या = पहली×दूसरी + पहली + दूसरी है। लुप्त संख्या ज्ञात कीजिए।\n(2, 3, 11)\n(3, 4, 19)\n(5, 6, ?)",
+    "options": [
+      {
+        "id": "A",
+        "text": "39"
+      },
+      {
+        "id": "B",
+        "text": "40"
+      },
+      {
+        "id": "C",
+        "text": "41"
+      },
+      {
+        "id": "D",
+        "text": "42"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "missing_number",
+    "difficulty": "medium",
+    "explanation": "2×3+2+3=11 और 3×4+3+4=19। इसलिए 5×6+5+6=30+11=41।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning046",
+    "subjectId": "reasoning",
+    "question": "प्रत्येक पंक्ति में तीसरी संख्या = पहली संख्या का घन − दूसरी संख्या का वर्ग है। प्रश्न चिह्न का मान ज्ञात कीजिए।\n(3, 2, 23)\n(4, 3, 55)\n(5, 2, ?)",
+    "options": [
+      {
+        "id": "A",
+        "text": "121"
+      },
+      {
+        "id": "B",
+        "text": "117"
+      },
+      {
+        "id": "C",
+        "text": "119"
+      },
+      {
+        "id": "D",
+        "text": "125"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "missing_number",
+    "difficulty": "medium",
+    "explanation": "3³−2²=27−4=23 और 4³−3²=64−9=55। अतः 5³−2²=125−4=121।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning047",
+    "subjectId": "reasoning",
+    "question": "प्रत्येक पंक्ति में तीसरी संख्या = पहली संख्या का वर्ग × दूसरी संख्या + दूसरी संख्या है। रिक्त स्थान भरिए।\n(2, 3, 15)\n(3, 2, 20)\n(4, 3, ?)",
+    "options": [
+      {
+        "id": "A",
+        "text": "48"
+      },
+      {
+        "id": "B",
+        "text": "51"
+      },
+      {
+        "id": "C",
+        "text": "54"
+      },
+      {
+        "id": "D",
+        "text": "57"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "missing_number",
+    "difficulty": "medium",
+    "explanation": "2²×3+3=15 और 3²×2+2=20। इसलिए 4²×3+3=48+3=51।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning048",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित पंक्तियों में तीसरी संख्या = पहली संख्या का वर्ग + दूसरी संख्या का घन है। प्रश्न चिह्न का मान क्या है?\n(2, 3, 31)\n(3, 2, 17)\n(4, 2, ?)",
+    "options": [
+      {
+        "id": "A",
+        "text": "22"
+      },
+      {
+        "id": "B",
+        "text": "26"
+      },
+      {
+        "id": "C",
+        "text": "28"
+      },
+      {
+        "id": "D",
+        "text": "24"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "missing_number",
+    "difficulty": "medium",
+    "explanation": "2²+3³=4+27=31 और 3²+2³=9+8=17। इसलिए 4²+2³=16+8=24।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning049",
+    "subjectId": "reasoning",
+    "question": "प्रत्येक पंक्ति में तीसरी संख्या = पहली संख्या का वर्ग + दूसरी संख्या का वर्ग + दोनों का गुणनफल है। लुप्त संख्या ज्ञात कीजिए।\n(2, 3, 19)\n(3, 4, 37)\n(4, 5, ?)",
+    "options": [
+      {
+        "id": "A",
+        "text": "61"
+      },
+      {
+        "id": "B",
+        "text": "59"
+      },
+      {
+        "id": "C",
+        "text": "63"
+      },
+      {
+        "id": "D",
+        "text": "65"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "missing_number",
+    "difficulty": "medium",
+    "explanation": "2²+3²+2×3=19 और 3²+4²+3×4=37। इसलिए 4²+5²+4×5=16+25+20=61।",
+    "language": "hi"
+  },
+  {
+    "id": "reasoning050",
+    "subjectId": "reasoning",
+    "question": "प्रत्येक पंक्ति में तीसरी संख्या = (पहली संख्या + दूसरी संख्या) का वर्ग है। प्रश्न चिह्न के स्थान पर कौन-सी संख्या आएगी?\n(2, 5, 49)\n(3, 4, 49)\n(4, 6, ?)",
+    "options": [
+      {
+        "id": "A",
+        "text": "90"
+      },
+      {
+        "id": "B",
+        "text": "96"
+      },
+      {
+        "id": "C",
+        "text": "100"
+      },
+      {
+        "id": "D",
+        "text": "110"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "missing_number",
+    "difficulty": "medium",
+    "explanation": "(2+5)²=49 और (3+4)²=49। इसलिए (4+6)²=10²=100।",
+    "language": "hi"
+  }
+]
