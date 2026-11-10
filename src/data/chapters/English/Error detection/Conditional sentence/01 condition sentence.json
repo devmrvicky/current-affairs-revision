@@ -1,0 +1,1290 @@
+[
+  {
+    "id": "error001",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) If he were you / (b) I would have given / (c) him my car. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If he were you"
+      },
+      {
+        "id": "B",
+        "text": "(b) I would have given"
+      },
+      {
+        "id": "C",
+        "text": "(c) him my car."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spotting_error",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (c)**\n\n**नियम — Second Conditional:** काल्पनिक वर्तमान स्थिति में संरचना होती है: **If + subject + were/V2, subject + would + V1**।\n\n- If-clause में **were** सही है।\n- परिणाम वाले clause में **would have given** की जगह **would give** होना चाहिए।\n\n**सुधरा वाक्य:** If he were you, I would give him my car.",
+    "language": "en"
+  },
+  {
+    "id": "error002",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Had he invited me / (b) I would have attended / (c) the function. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) Had he invited me"
+      },
+      {
+        "id": "B",
+        "text": "(b) I would have attended"
+      },
+      {
+        "id": "C",
+        "text": "(c) the function."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spotting_error",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (d) No error**\n\n**नियम — Third Conditional:** If + Past Perfect के स्थान पर inversion में **Had + subject + V3** आ सकता है। परिणाम में **would have + V3** लगता है।\n\n- Had he invited me = If he had invited me।\n- I would have attended सही परिणाम clause है।\n\n**निष्कर्ष:** वाक्य व्याकरण की दृष्टि से सही है।",
+    "language": "en"
+  },
+  {
+    "id": "error003",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) If he had called me up / (b) I would inform / (c) him. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If he had called me up"
+      },
+      {
+        "id": "B",
+        "text": "(b) I would inform"
+      },
+      {
+        "id": "C",
+        "text": "(c) him."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spotting_error",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (b)**\n\n**नियम — Third Conditional:** If-clause में **had + V3** होने पर परिणाम clause में सामान्यतः **would have + V3** आता है।\n\n- If he had called me up — Past Perfect, सही।\n- I would inform को **I would have informed** करना होगा।\n\n**सुधरा वाक्य:** If he had called me up, I would have informed him.",
+    "language": "en"
+  },
+  {
+    "id": "error004",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) If he will work hard / (b) he will surely / (c) get the job of his choice. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If he will work hard"
+      },
+      {
+        "id": "B",
+        "text": "(b) he will surely"
+      },
+      {
+        "id": "C",
+        "text": "(c) get the job of his choice."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spotting_error",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (a)**\n\n**नियम — First Conditional:** भविष्य की वास्तविक संभावना के लिए If-clause में **Simple Present** और मुख्य clause में **will + V1** आता है। सामान्यतः If-clause में will नहीं लगाते।\n\n- will work को **works** करें।\n- मुख्य clause का will surely get सही है।\n\n**सुधरा वाक्य:** If he works hard, he will surely get the job of his choice.",
+    "language": "en"
+  },
+  {
+    "id": "error005",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Unless I do not / (b) see his ticket, / (c) I will not let him sit here. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) Unless I do not"
+      },
+      {
+        "id": "B",
+        "text": "(b) see his ticket,"
+      },
+      {
+        "id": "C",
+        "text": "(c) I will not let him sit here."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spotting_error",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (a)**\n\n**नियम — Unless:** Unless का अर्थ है **if ... not**। इसलिए Unless के साथ उसी clause में अतिरिक्त not नहीं लगाते।\n\n- Unless I do not को **Unless I** करें।\n- मुख्य clause में will not सही है।\n\n**सुधरा वाक्य:** Unless I see his ticket, I will not let him sit here.",
+    "language": "en"
+  },
+  {
+    "id": "error006",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Before the police will come / (b) you should better / (c) get the anticipatory bail. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) Before the police will come"
+      },
+      {
+        "id": "B",
+        "text": "(b) you should better"
+      },
+      {
+        "id": "C",
+        "text": "(c) get the anticipatory bail."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spotting_error",
+    "difficulty": "hard",
+    "explanation": "**पुस्तक की उत्तर-कुंजी के अनुसार उत्तर: (a)**\n\n**नियम — Future Time Clause:** Before/after/when/until जैसे time conjunctions के बाद भविष्य का अर्थ होने पर भी सामान्यतः **Simple Present** आता है, will नहीं।\n\n- Before the police will come को **Before the police come** करें।\n- **ध्यान दें:** छपे हुए भाग (b) में “you should better” भी मानक अंग्रेज़ी में अशुद्ध है। वहाँ “you had better” या “you should” होना चाहिए।\n\n**निष्कर्ष:** स्रोत प्रश्न में एक से अधिक संभावित त्रुटियाँ हैं; पुस्तक का अभिप्रेत उत्तर (a) है।\n\n**Source note:** मूल प्रश्न को हूबहू सुरक्षित रखा गया है। इस item को एकल-त्रुटि वाले अभ्यास में बिना संपादन के इस्तेमाल न करें।",
+    "language": "en"
+  },
+  {
+    "id": "error007",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) We will come to know the truth / (b) after / (c) the investigation finished. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) We will come to know the truth"
+      },
+      {
+        "id": "B",
+        "text": "(b) after"
+      },
+      {
+        "id": "C",
+        "text": "(c) the investigation finished."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spotting_error",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (c)**\n\n**नियम — Future Time Clause:** After के बाद भविष्य की घटना बताने के लिए सामान्यतः Present Simple या Present Perfect का प्रयोग होता है; यहाँ पहले जाँच पूरी होगी, फिर हमें सच पता चलेगा।\n\n- the investigation finished को **the investigation has finished** करें।\n\n**सुधरा वाक्य:** We will come to know the truth after the investigation has finished.",
+    "language": "en"
+  },
+  {
+    "id": "error008",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Until the train will not get the signal / (b) it will not / (c) leave the platform. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) Until the train will not get the signal"
+      },
+      {
+        "id": "B",
+        "text": "(b) it will not"
+      },
+      {
+        "id": "C",
+        "text": "(c) leave the platform."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spotting_error",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (a)**\n\n**नियम — Until:** Until-clause में भविष्य का अर्थ होने पर Simple Present आता है। Unless/Until के साथ अतिरिक्त not भी नहीं लगाते, क्योंकि अर्थ पहले से नकारात्मक सीमा दर्शाता है।\n\n- “will not get” को **gets** करें।\n\n**सुधरा वाक्य:** Until the train gets the signal, it will not leave the platform.",
+    "language": "en"
+  },
+  {
+    "id": "error009",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) If I had money, / (b) I will have lent / (c) it to her. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If I had money,"
+      },
+      {
+        "id": "B",
+        "text": "(b) I will have lent"
+      },
+      {
+        "id": "C",
+        "text": "(c) it to her."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spotting_error",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (b)**\n\n**नियम — Second Conditional:** If + Simple Past के साथ काल्पनिक परिणाम में **would + V1** आता है।\n\n- I will have lent को **I would lend** करें।\n\n**सुधरा वाक्य:** If I had money, I would lend it to her.",
+    "language": "en"
+  },
+  {
+    "id": "error010",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) If I was you, / (b) I would not tolerate him / (c) for a moment. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If I was you,"
+      },
+      {
+        "id": "B",
+        "text": "(b) I would not tolerate him"
+      },
+      {
+        "id": "C",
+        "text": "(c) for a moment."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spotting_error",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (a)**\n\n**नियम — Subjunctive Were:** काल्पनिक सलाह या असंभव स्थिति में मानक परीक्षा-प्रयोग **If I were you** होता है।\n\n- was को **were** करें।\n\n**सुधरा वाक्य:** If I were you, I would not tolerate him for a moment.",
+    "language": "en"
+  },
+  {
+    "id": "error011",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Suppose she does not agree, / (b) what could / (c) we do? / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) Suppose she does not agree,"
+      },
+      {
+        "id": "B",
+        "text": "(b) what could"
+      },
+      {
+        "id": "C",
+        "text": "(c) we do?"
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spotting_error",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (b)**\n\n**नियम — Real/Open Condition:** ‘Suppose she does not agree’ वर्तमान/भविष्य की वास्तविक संभावना बताता है। इसके साथ परिणाम में सामान्यतः **what can we do?** आएगा।\n\n- **what could** को **what can** करें।\n- प्रश्न का शेष भाग ‘we do?’ सही है।\n\n**सुधरा वाक्य:** Suppose she does not agree, what can we do?",
+    "language": "en"
+  },
+  {
+    "id": "error012",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Supposing if you do not reach / (b) the station in time, / (c) what will you do? / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) Supposing if you do not reach"
+      },
+      {
+        "id": "B",
+        "text": "(b) the station in time,"
+      },
+      {
+        "id": "C",
+        "text": "(c) what will you do?"
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spotting_error",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (a)**\n\n**नियम — Supposing:** Supposing स्वयं conditional conjunction है और इसका अर्थ “मान लो कि” होता है। इसके बाद if लगाने से conjunction दोहर जाता है।\n\n- Supposing if को **Supposing** करें।\n\n**सुधरा वाक्य:** Supposing you do not reach the station in time, what will you do?",
+    "language": "en"
+  },
+  {
+    "id": "error013",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) If you saw a tiger / (b) what will your / (c) reaction be? / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If you saw a tiger"
+      },
+      {
+        "id": "B",
+        "text": "(b) what will your"
+      },
+      {
+        "id": "C",
+        "text": "(c) reaction be?"
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spotting_error",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (b)**\n\n**नियम — Second Conditional:** If + V2 के साथ परिणाम clause में **would + V1** आता है।\n\n- what will your को **what would your** करें।\n\n**सुधरा वाक्य:** If you saw a tiger, what would your reaction be?",
+    "language": "en"
+  },
+  {
+    "id": "error014",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) If I had two houses, / (b) I would have given / (c) one to you. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If I had two houses,"
+      },
+      {
+        "id": "B",
+        "text": "(b) I would have given"
+      },
+      {
+        "id": "C",
+        "text": "(c) one to you."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spotting_error",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (b)**\n\n**नियम — Second Conditional:** If I had two houses वर्तमान की काल्पनिक स्थिति है। परिणाम clause में **would + V1** आएगा, would have + V3 नहीं।\n\n- I would have given को **I would give** करें।\n\n**सुधरा वाक्य:** If I had two houses, I would give one to you.",
+    "language": "en"
+  },
+  {
+    "id": "error015",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) If we will heat dry ice / (b) it turns / (c) to vapour. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If we will heat dry ice"
+      },
+      {
+        "id": "B",
+        "text": "(b) it turns"
+      },
+      {
+        "id": "C",
+        "text": "(c) to vapour."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spotting_error",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (a)**\n\n**नियम — Zero Conditional / Scientific Fact:** वैज्ञानिक तथ्य के लिए If-clause और मुख्य clause दोनों में Simple Present आता है। If-clause में will नहीं लगाते।\n\n- If we will heat को **If we heat** करें।\n\n**सुधरा वाक्य:** If we heat dry ice, it turns to vapour.",
+    "language": "en"
+  },
+  {
+    "id": "error016",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Suppose if you are / (b) late, you will be / (c) in trouble. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) Suppose if you are"
+      },
+      {
+        "id": "B",
+        "text": "(b) late, you will be"
+      },
+      {
+        "id": "C",
+        "text": "(c) in trouble."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spotting_error",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (a)**\n\n**नियम — Suppose:** Suppose का अर्थ “मान लो कि” है। इसके साथ if जोड़ना अनावश्यक है।\n\n- Suppose if को **Suppose** करें।\n\n**सुधरा वाक्य:** Suppose you are late, you will be in trouble.",
+    "language": "en"
+  },
+  {
+    "id": "error017",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Unless / (b) he will not understand the concept, / (c) he will not be able to solve the questions. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) Unless"
+      },
+      {
+        "id": "B",
+        "text": "(b) he will not understand the concept,"
+      },
+      {
+        "id": "C",
+        "text": "(c) he will not be able to solve the questions."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spotting_error",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (b)**\n\n**नियम — Unless:** Unless का अर्थ if not है; इसके बाद सामान्यतः affirmative clause आता है। भविष्य का संदर्भ होने पर भी unless-clause में Simple Present प्रयोग होता है।\n\n- he will not understand को **he understands** करें।\n\n**सुधरा वाक्य:** Unless he understands the concept, he will not be able to solve the questions.",
+    "language": "en"
+  },
+  {
+    "id": "condition018",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) If he tried again, / (b) he can pass the exam / (c) with flying colours. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If he tried again,"
+      },
+      {
+        "id": "B",
+        "text": "(b) he can pass the exam"
+      },
+      {
+        "id": "C",
+        "text": "(c) with flying colours."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (b)**\n\n**नियम — Second Conditional:** If + V2 के साथ परिणाम clause में would/could + V1 आता है।\n\n- he can pass को **he could pass** करें।\n\n**सुधरा वाक्य:** If he tried again, he could pass the exam with flying colours.",
+    "language": "en"
+  },
+  {
+    "id": "condition019",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) I will wait for you / (b) unless / (c) you come. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) I will wait for you"
+      },
+      {
+        "id": "B",
+        "text": "(b) unless"
+      },
+      {
+        "id": "C",
+        "text": "(c) you come."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (b)**\n\n**नियम — Until vs Unless:** Until का अर्थ “जब तक” है और किसी समय-बिंदु तक प्रतीक्षा बताने के लिए यही उपयुक्त है। Unless का अर्थ “यदि नहीं” है।\n\n- unless को **until** करें।\n\n**सुधरा वाक्य:** I will wait for you until you come.",
+    "language": "en"
+  },
+  {
+    "id": "condition020",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) If I was you, / (b) I would teach / (c) him a lesson. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If I was you,"
+      },
+      {
+        "id": "B",
+        "text": "(b) I would teach"
+      },
+      {
+        "id": "C",
+        "text": "(c) him a lesson."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (a)**\n\n**नियम — Subjunctive Were:** सलाह या काल्पनिक स्थिति में मानक रूप **If I were you** होता है।\n\n- was को **were** करें।\n\n**सुधरा वाक्य:** If I were you, I would teach him a lesson.",
+    "language": "en"
+  },
+  {
+    "id": "condition021",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) If I were the Prime Minister of India / (b) I will work for the / (c) welfare of the poor. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If I were the Prime Minister of India"
+      },
+      {
+        "id": "B",
+        "text": "(b) I will work for the"
+      },
+      {
+        "id": "C",
+        "text": "(c) welfare of the poor."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (b)**\n\n**नियम — Second Conditional:** If I were ... काल्पनिक स्थिति है; परिणाम clause में would + V1 चाहिए।\n\n- I will work को **I would work** करें।\n\n**सुधरा वाक्य:** If I were the Prime Minister of India, I would work for the welfare of the poor.",
+    "language": "en"
+  },
+  {
+    "id": "condition022",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) If she would have come to me / (b) I would have given her the / (c) money she needed / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If she would have come to me"
+      },
+      {
+        "id": "B",
+        "text": "(b) I would have given her the"
+      },
+      {
+        "id": "C",
+        "text": "(c) money she needed"
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (a)**\n\n**नियम — Third Conditional:** If-clause में **had + V3** और परिणाम clause में **would have + V3** आता है। If-clause में would have का प्रयोग नहीं होता।\n\n- If she would have come को **If she had come** करें।\n\n**सुधरा वाक्य:** If she had come to me, I would have given her the money she needed.",
+    "language": "en"
+  },
+  {
+    "id": "condition023",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) If he drove fast, / (b) he can reach the station / (c) in time. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If he drove fast,"
+      },
+      {
+        "id": "B",
+        "text": "(b) he can reach the station"
+      },
+      {
+        "id": "C",
+        "text": "(c) in time."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (b)**\n\n**नियम — Second Conditional:** If he drove fast में V2 है; इसलिए परिणाम clause में can के स्थान पर could आएगा।\n\n- he can reach को **he could reach** करें।\n\n**सुधरा वाक्य:** If he drove fast, he could reach the station in time.",
+    "language": "en"
+  },
+  {
+    "id": "condition024",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) If I was a millionaire, / (b) I would support / (c) the millennium project. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If I was a millionaire,"
+      },
+      {
+        "id": "B",
+        "text": "(b) I would support"
+      },
+      {
+        "id": "C",
+        "text": "(c) the millennium project."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (a)**\n\n**नियम — Subjunctive Were:** अवास्तविक/काल्पनिक वर्तमान स्थिति में सभी व्यक्तियों के साथ औपचारिक मानक रूप **were** प्रयोग होता है।\n\n- was को **were** करें।\n\n**सुधरा वाक्य:** If I were a millionaire, I would support the millennium project.",
+    "language": "en"
+  },
+  {
+    "id": "condition025",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) If both of you stood / (b) on the table / (c) it would have broken. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If both of you stood"
+      },
+      {
+        "id": "B",
+        "text": "(b) on the table"
+      },
+      {
+        "id": "C",
+        "text": "(c) it would have broken."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (a)**\n\n**नियम — Third Conditional:** परिणाम clause में would have broken है, जो बीती हुई काल्पनिक स्थिति दर्शाता है। If-clause में Past Perfect चाहिए।\n\n- stood को **had stood** करें।\n\n**सुधरा वाक्य:** If both of you had stood on the table, it would have broken.",
+    "language": "en"
+  },
+  {
+    "id": "condition026",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) If she would have worked hard, / (b) she would / (c) have passed. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If she would have worked hard,"
+      },
+      {
+        "id": "B",
+        "text": "(b) she would"
+      },
+      {
+        "id": "C",
+        "text": "(c) have passed."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (a)**\n\n**नियम — Third Conditional:** If-clause में had + V3 और मुख्य clause में would have + V3 आता है।\n\n- If she would have worked को **If she had worked** करें।\n\n**सुधरा वाक्य:** If she had worked hard, she would have passed.",
+    "language": "en"
+  },
+  {
+    "id": "condition027",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) If you had seen me, / (b) you should have stopped your car / (c) and come to help me. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If you had seen me,"
+      },
+      {
+        "id": "B",
+        "text": "(b) you should have stopped your car"
+      },
+      {
+        "id": "C",
+        "text": "(c) and come to help me."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conditional_sentence",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (d) No error**\n\n**नियम — Third Conditional / Should Have:** If + Past Perfect के बाद should have + V3 का प्रयोग कर्तव्य, अपेक्षा या उचित कार्रवाई बताने के लिए हो सकता है।\n\n- should have stopped और come (should have come का साझा auxiliary) व्याकरण की दृष्टि से स्वीकार्य है।\n- यहाँ should का अर्थ “तुम्हें ऐसा करना चाहिए था” है।\n\n**निष्कर्ष:** वाक्य में कोई अनिवार्य व्याकरणिक त्रुटि नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "condition028",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) If the Government will make strict law, / (b) the law and order situation / (c) will improve. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) If the Government will make strict law,"
+      },
+      {
+        "id": "B",
+        "text": "(b) the law and order situation"
+      },
+      {
+        "id": "C",
+        "text": "(c) will improve."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conditional_sentence",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (a)**\n\n**नियम — First Conditional:** If-clause में Simple Present और परिणाम clause में will + V1 आता है।\n\n- If the Government will make को **If the Government makes** करें।\n- “strict law” के साथ article का प्रश्न भी बनता है; प्राकृतिक रूप “a strict law” होगा।\n\n**सुधरा वाक्य:** If the Government makes a strict law, the law and order situation will improve.\n\n**Source note:** मूल मुद्रित वाक्य में ‘strict law’ से पहले article भी छूटा हुआ प्रतीत होता है; पुस्तक-शैली का अपेक्षित error (a) है।",
+    "language": "en"
+  },
+  {
+    "id": "condition029",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) But for his help / (b) the patient would / (c) have died. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) But for his help"
+      },
+      {
+        "id": "B",
+        "text": "(b) the patient would"
+      },
+      {
+        "id": "C",
+        "text": "(c) have died."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (d) No error**\n\n**नियम — But for:** But for का अर्थ “यदि ... न होता” है। बीती हुई काल्पनिक स्थिति में इसके साथ **would have + V3** सही है।\n\n- But for his help = If it had not been for his help।\n- would have died सही संरचना है।\n\n**निष्कर्ष:** कोई त्रुटि नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "condition030",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) But for his prompt action, / (b) many people would / (c) have lost their savings. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) But for his prompt action,"
+      },
+      {
+        "id": "B",
+        "text": "(b) many people would"
+      },
+      {
+        "id": "C",
+        "text": "(c) have lost their savings."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (d) No error**\n\n**नियम — But for:** But for + noun phrase किसी आवश्यक सहायता/कारण के न होने की काल्पनिक स्थिति बताता है। परिणाम में would have + V3 आता है।\n\n- But for his prompt action = यदि उसकी तुरंत कार्रवाई न हुई होती।\n- would have lost सही है।\n\n**निष्कर्ष:** कोई त्रुटि नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "condition031",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) I will not come / (b) in case / (c) it will rain. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) I will not come"
+      },
+      {
+        "id": "B",
+        "text": "(b) in case"
+      },
+      {
+        "id": "C",
+        "text": "(c) it will rain."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (c)**\n\n**नियम — In case:** भविष्य की संभावना के लिए in case के बाद सामान्यतः Simple Present आता है, will नहीं।\n\n- it will rain को **it rains** करें।\n\n**सुधरा वाक्य:** I will not come in case it rains.",
+    "language": "en"
+  },
+  {
+    "id": "condition032",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) Had the river overflown its bank, / (b) flood would / (c) have come. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) Had the river overflown its bank,"
+      },
+      {
+        "id": "B",
+        "text": "(b) flood would"
+      },
+      {
+        "id": "C",
+        "text": "(c) have come."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conditional_sentence",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (b)**\n\n**नियम — Third Conditional Inversion:** Had + subject + V3, If + subject + had + V3 के बराबर है। परिणाम clause में यहाँ “a flood would have come” होना चाहिए।\n\n- flood would के पहले article **a** जोड़ें: **a flood would**।\n\n**सुधरा वाक्य:** Had the river overflown its bank, a flood would have come.",
+    "language": "en"
+  },
+  {
+    "id": "condition033",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) Had I known him, / (b) I would allow him / (c) to enter my house. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) Had I known him,"
+      },
+      {
+        "id": "B",
+        "text": "(b) I would allow him"
+      },
+      {
+        "id": "C",
+        "text": "(c) to enter my house."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (b)**\n\n**नियम — Third Conditional:** Had I known him = If I had known him। परिणाम में would have + V3 चाहिए।\n\n- I would allow को **I would have allowed** करें।\n\n**सुधरा वाक्य:** Had I known him, I would have allowed him to enter my house.",
+    "language": "en"
+  },
+  {
+    "id": "condition034",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) You will not get well, / (b) unless you will not / (c) follow the doctor's instructions. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) You will not get well,"
+      },
+      {
+        "id": "B",
+        "text": "(b) unless you will not"
+      },
+      {
+        "id": "C",
+        "text": "(c) follow the doctor's instructions."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (b)**\n\n**नियम — Unless:** Unless = if not। Unless-clause में अतिरिक्त not नहीं आता और भविष्य के अर्थ में भी Simple Present प्रयोग होता है।\n\n- unless you will not को **unless you** करें।\n\n**सुधरा वाक्य:** You will not get well unless you follow the doctor's instructions.",
+    "language": "en"
+  },
+  {
+    "id": "condition035",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) Supposing if he refuses / (b) to meet you, / (c) what will you do? / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) Supposing if he refuses"
+      },
+      {
+        "id": "B",
+        "text": "(b) to meet you,"
+      },
+      {
+        "id": "C",
+        "text": "(c) what will you do?"
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (a)**\n\n**नियम — Supposing:** Supposing स्वयं conditional conjunction है; इसके साथ if का प्रयोग अनावश्यक है।\n\n- Supposing if को **Supposing** करें।\n\n**सुधरा वाक्य:** Supposing he refuses to meet you, what will you do?",
+    "language": "en"
+  },
+  {
+    "id": "condition036",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) I shall take you for a long drive / (b) after you / (c) will return from the meeting. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) I shall take you for a long drive"
+      },
+      {
+        "id": "B",
+        "text": "(b) after you"
+      },
+      {
+        "id": "C",
+        "text": "(c) will return from the meeting."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (c)**\n\n**नियम — Future Time Clause:** After के बाद भविष्य की घटना के लिए Simple Present आता है, will नहीं।\n\n- will return को **return** करें।\n\n**सुधरा वाक्य:** I shall take you for a long drive after you return from the meeting.",
+    "language": "en"
+  },
+  {
+    "id": "condition037",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) When you complete your service / (b) you will be / (c) retired on pension. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) When you complete your service"
+      },
+      {
+        "id": "B",
+        "text": "(b) you will be"
+      },
+      {
+        "id": "C",
+        "text": "(c) retired on pension."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (d) No error**\n\n**नियम — When Clause:** When-clause में भविष्य के अर्थ के लिए Simple Present (complete) और मुख्य clause में will be का प्रयोग सही है।\n\n- “you will be retired on pension” भविष्य में सेवानिवृत्त किए जाने/होने का passive construction है।\n\n**निष्कर्ष:** दिए गए वाक्य में कोई अनिवार्य त्रुटि नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "condition038",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) Were she I, / (b) she will not allow / (c) you to go anywhere at this time of crisis. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) Were she I,"
+      },
+      {
+        "id": "B",
+        "text": "(b) she will not allow"
+      },
+      {
+        "id": "C",
+        "text": "(c) you to go anywhere at this time of crisis."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (b)**\n\n**नियम — Were + Subject Inversion:** Were she I, = If she were I। यह काल्पनिक स्थिति है, इसलिए परिणाम clause में would + V1 आएगा।\n\n- she will not allow को **she would not allow** करें।\n\n**सुधरा वाक्य:** Were she I, she would not allow you to go anywhere at this time of crisis.",
+    "language": "en"
+  },
+  {
+    "id": "condition039",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) I told her when / (b) she came to Delhi, / (c) I would show her all historical monuments. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) I told her when"
+      },
+      {
+        "id": "B",
+        "text": "(b) she came to Delhi,"
+      },
+      {
+        "id": "C",
+        "text": "(c) I would show her all historical monuments."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (d) No error**\n\n**नियम — Reported Future / Time Clause:** Past reporting verb (told) के बाद future-in-the-past के लिए would आ सकता है। जब she came to Delhi time clause है, तो came का Simple Past सही है।\n\n- I would show her भविष्य में किए जाने वाले वादे/कार्य को past viewpoint से बताता है।\n\n**निष्कर्ष:** वाक्य को “I told her [that] when she came to Delhi, I would show her...” के अर्थ में पढ़ने पर कोई अनिवार्य त्रुटि नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "condition040",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) You can scale this high peak, / (b) provided you / (c) will wear the right kind of shoes. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) You can scale this high peak,"
+      },
+      {
+        "id": "B",
+        "text": "(b) provided you"
+      },
+      {
+        "id": "C",
+        "text": "(c) will wear the right kind of shoes."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (c)**\n\n**नियम — Provided:** Provided (that) condition बताता है। भविष्य की शर्त के लिए provided-clause में Simple Present आता है, will नहीं।\n\n- will wear को **wear** करें।\n\n**सुधरा वाक्य:** You can scale this high peak, provided you wear the right kind of shoes.",
+    "language": "en"
+  },
+  {
+    "id": "condition041",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) Had you / (b) worked hard, / (c) you will have passed. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) Had you"
+      },
+      {
+        "id": "B",
+        "text": "(b) worked hard,"
+      },
+      {
+        "id": "C",
+        "text": "(c) you will have passed."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (c)**\n\n**नियम — Third Conditional Inversion:** Had you worked hard = If you had worked hard। परिणाम clause में **would have + V3** आता है।\n\n- you will have passed को **you would have passed** करें।\n\n**सुधरा वाक्य:** Had you worked hard, you would have passed.",
+    "language": "en"
+  },
+  {
+    "id": "condition042",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) When I shall see him, / (b) I shall / (c) tell him. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) When I shall see him,"
+      },
+      {
+        "id": "B",
+        "text": "(b) I shall"
+      },
+      {
+        "id": "C",
+        "text": "(c) tell him."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (a)**\n\n**नियम — When Clause:** भविष्य के अर्थ में when-clause के अंदर shall/will नहीं लगाते; Simple Present आता है।\n\n- When I shall see him को **When I see him** करें।\n\n**सुधरा वाक्य:** When I see him, I shall tell him.",
+    "language": "en"
+  },
+  {
+    "id": "condition043",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) He will tell you / (b) about it when / (c) he will come back. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) He will tell you"
+      },
+      {
+        "id": "B",
+        "text": "(b) about it when"
+      },
+      {
+        "id": "C",
+        "text": "(c) he will come back."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (c)**\n\n**नियम — Future Time Clause:** When-clause में भविष्य के लिए Simple Present (comes) आता है, will come नहीं।\n\n- he will come back को **he comes back** करें।\n\n**सुधरा वाक्य:** He will tell you about it when he comes back.",
+    "language": "en"
+  },
+  {
+    "id": "condition044",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) When I will get back, / (b) I shall pay back / (c) the money that I borrowed from you last month. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) When I will get back,"
+      },
+      {
+        "id": "B",
+        "text": "(b) I shall pay back"
+      },
+      {
+        "id": "C",
+        "text": "(c) the money that I borrowed from you last month."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (a)**\n\n**नियम — When Clause:** भविष्य की समय-सूचक subordinate clause में will के स्थान पर Simple Present आता है।\n\n- When I will get back को **When I get back** करें।\n\n**सुधरा वाक्य:** When I get back, I shall pay back the money that I borrowed from you last month.",
+    "language": "en"
+  },
+  {
+    "id": "condition045",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) I will / (b) meet him / (c) when he will come. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) I will"
+      },
+      {
+        "id": "B",
+        "text": "(b) meet him"
+      },
+      {
+        "id": "C",
+        "text": "(c) when he will come."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (c)**\n\n**नियम — When Clause:** जब when भविष्य के समय को दर्शाता है, तो उसके बाद Simple Present आता है।\n\n- when he will come को **when he comes** करें।\n\n**सुधरा वाक्य:** I will meet him when he comes.",
+    "language": "en"
+  },
+  {
+    "id": "condition046",
+    "subjectId": "english",
+    "question": "Identify the error in the following conditional sentence.\n\n(a) Had I realized, / (b) your house was such a long way off, / (c) I would take a taxi. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "(a) Had I realized,"
+      },
+      {
+        "id": "B",
+        "text": "(b) your house was such a long way off,"
+      },
+      {
+        "id": "C",
+        "text": "(c) I would take a taxi."
+      },
+      {
+        "id": "D",
+        "text": "(d) No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conditional_sentence",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (c)**\n\n**नियम — Third Conditional Inversion:** Had I realized = If I had realized। अतीत में शर्त पूरी न होने पर परिणाम भी past hypothetical होगा: would have + V3।\n\n- I would take को **I would have taken** करें।\n\n**सुधरा वाक्य:** Had I realized your house was such a long way off, I would have taken a taxi.",
+    "language": "en"
+  }
+]
