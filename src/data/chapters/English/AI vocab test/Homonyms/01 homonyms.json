@@ -1,0 +1,802 @@
+[
+  {
+    "id": "vocab_homo_1",
+    "subjectId": "english",
+    "question": "Fill in the blank with the correct word: \n\n The heavy rain will strongly _____ the crops.",
+    "options": [
+      { "id": "A", "text": "effect" },
+      { "id": "B", "text": "affect" },
+      { "id": "C", "text": "infect" },
+      { "id": "D", "text": "defect" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Affect** (Verb) = प्रभाव डालना (To influence)।\n**Effect** (Noun) = परिणाम/प्रभाव (Result)।\n\n*Explanation:* यहाँ helping verb 'will' के बाद main verb (V1) की आवश्यकता है। चूँकि 'affect' verb है, इसलिए **affect** सही उत्तर होगा।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_2",
+    "subjectId": "english",
+    "question": "Choose the most appropriate word: \n\n Everyone was invited to the party _____ Rahul.",
+    "options": [
+      { "id": "A", "text": "accept" },
+      { "id": "B", "text": "expect" },
+      { "id": "C", "text": "except" },
+      { "id": "D", "text": "aspect" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Accept** = स्वीकार करना।\n**Except** = के अलावा / को छोड़कर।\n**Expect** = उम्मीद करना।\n\n*Explanation:* वाक्य का अर्थ है कि राहुल 'को छोड़कर' सबको बुलाया गया। इसलिए **except** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_3",
+    "subjectId": "english",
+    "question": "Select the correct homonym to fill the blank: \n\n You must _____ yourself to the changing environment.",
+    "options": [
+      { "id": "A", "text": "adept" },
+      { "id": "B", "text": "adopt" },
+      { "id": "C", "text": "adapt" },
+      { "id": "D", "text": "addict" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Adapt** = अनुकूल बनाना (To adjust)।\n**Adopt** = गोद लेना या अपनाना।\n**Adept** = निपुण/कुशल (Skilled)।\n\n*Explanation:* बदलते पर्यावरण के 'अनुकूल' ढलने की बात हो रही है, अतः **adapt** सही होगा।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_4",
+    "subjectId": "english",
+    "question": "Fill in the blank with the appropriate word: \n\n He sacrificed an animal at the _____ of the temple.",
+    "options": [
+      { "id": "A", "text": "alter" },
+      { "id": "B", "text": "altar" },
+      { "id": "C", "text": "ulcer" },
+      { "id": "D", "text": "alder" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Altar** (Noun) = वेदी (A sacred table in a church/temple)।\n**Alter** (Verb) = बदलना (To change)।\n\n*Explanation:* मंदिर में बलि चढ़ाने की जगह 'वेदी' (altar) होती है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_5",
+    "subjectId": "english",
+    "question": "Choose the correctly spelled word for the blank: \n\n The President gave his _____ to the new bill.",
+    "options": [
+      { "id": "A", "text": "ascent" },
+      { "id": "B", "text": "assent" },
+      { "id": "C", "text": "accent" },
+      { "id": "D", "text": "ascend" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Assent** = सहमति (Agreement/Approval)।\n**Ascent** = चढ़ाई (Upward movement)।\n**Accent** = उच्चारण का तरीका।\n\n*Explanation:* बिल (विधेयक) को 'सहमति' दी जाती है, इसलिए **assent** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_6",
+    "subjectId": "english",
+    "question": "Select the correct word from the options: \n\n The accused was released on _____.",
+    "options": [
+      { "id": "A", "text": "bale" },
+      { "id": "B", "text": "bail" },
+      { "id": "C", "text": "bell" },
+      { "id": "D", "text": "veil" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Bail** = जमानत (Security given for release of a prisoner)।\n**Bale** = गाँठ (A large bundle of goods, e.g., cotton)।\n\n*Explanation:* आरोपी को 'जमानत' पर छोड़ा गया, अतः **bail** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_7",
+    "subjectId": "english",
+    "question": "Choose the correct homonym: \n\n Walking _____ foot on the hot sand is painful.",
+    "options": [
+      { "id": "A", "text": "bear" },
+      { "id": "B", "text": "bare" },
+      { "id": "C", "text": "beer" },
+      { "id": "D", "text": "bore" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Bare** = नंगे/बिना ढका हुआ (Uncovered)।\n**Bear** = भालू / सहन करना।\n\n*Explanation:* नंगे पैर चलने (bare foot) की बात हो रही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_8",
+    "subjectId": "english",
+    "question": "Fill in the blank: \n\n The driver applied the _____ to stop the car suddenly.",
+    "options": [
+      { "id": "A", "text": "break" },
+      { "id": "B", "text": "brake" },
+      { "id": "C", "text": "brick" },
+      { "id": "D", "text": "bark" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Brake** = गाड़ी रोकने वाला यंत्र (Device for slowing down)।\n**Break** = तोड़ना (To shatter)।\n\n*Explanation:* गाड़ी रोकने के लिए **brake** का प्रयोग किया जाता है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_9",
+    "subjectId": "english",
+    "question": "Select the correct word: \n\n The politician went door to door to _____ for votes.",
+    "options": [
+      { "id": "A", "text": "canvas" },
+      { "id": "B", "text": "canvass" },
+      { "id": "C", "text": "candid" },
+      { "id": "D", "text": "cancel" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "hard",
+    "explanation": "**Canvass** (Verb) = वोट या समर्थन मांगना (To solicit votes)।\n**Canvas** (Noun) = एक प्रकार का मोटा कपड़ा (Strong cloth used for painting/tents)।\n\n*Explanation:* वोट मांगने के लिए **canvass** (डबल 's') का प्रयोग होता है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_10",
+    "subjectId": "english",
+    "question": "Choose the most appropriate homophone: \n\n Discrimination on the basis of _____ is prohibited in India.",
+    "options": [
+      { "id": "A", "text": "cast" },
+      { "id": "B", "text": "caste" },
+      { "id": "C", "text": "cost" },
+      { "id": "D", "text": "coast" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Caste** = जाति (Social class)।\n**Cast** = फेंकना / नाटक के पात्र (To throw / actors in a play)।\n\n*Explanation:* भारत में 'जाति' के आधार पर भेदभाव मना है, इसलिए **caste** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_11",
+    "subjectId": "english",
+    "question": "Fill in the blank with the correct word: \n\n The lawyer managed to _____ several previous judgments to support his case.",
+    "options": [
+      { "id": "A", "text": "site" },
+      { "id": "B", "text": "sight" },
+      { "id": "C", "text": "cite" },
+      { "id": "D", "text": "slight" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "hard",
+    "explanation": "**Cite** = उदाहरण देना / हवाला देना (To quote)।\n**Site** = कार्यस्थल (Location)।\n**Sight** = दृश्य / दृष्टि (Vision)।\n\n*Explanation:* वकील ने पुराने फैसलों का 'हवाला' दिया, इसलिए **cite** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_12",
+    "subjectId": "english",
+    "question": "Select the correct word: \n\n This cloth is too _____ for making a baby's dress.",
+    "options": [
+      { "id": "A", "text": "course" },
+      { "id": "B", "text": "coarse" },
+      { "id": "C", "text": "curse" },
+      { "id": "D", "text": "choir" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Coarse** = खुरदरा / मोटा (Rough in texture)।\n**Course** = पाठ्यक्रम / मार्ग (Route / Syllabus)।\n\n*Explanation:* कपड़े की बनावट (खुरदरापन) की बात हो रही है, इसलिए **coarse** सही होगा।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_13",
+    "subjectId": "english",
+    "question": "Choose the appropriate word: \n\n Husband and wife should _____ each other.",
+    "options": [
+      { "id": "A", "text": "compliment" },
+      { "id": "B", "text": "complement" },
+      { "id": "C", "text": "supplement" },
+      { "id": "D", "text": "implement" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "hard",
+    "explanation": "**Complement** = पूरक होना (To complete or enhance each other)।\n**Compliment** = प्रशंसा करना (Praise)।\n\n*Explanation:* पति-पत्नी एक-दूसरे के पूरक (complement) होने चाहिए। (ध्यान दें: compliment का अर्थ केवल तारीफ करना है, जबकि रिश्ता पूरक होने का भाव देता है।)",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_14",
+    "subjectId": "english",
+    "question": "Fill in the blank: \n\n The police found a _____ in the abandoned building.",
+    "options": [
+      { "id": "A", "text": "corps" },
+      { "id": "B", "text": "corpse" },
+      { "id": "C", "text": "cop" },
+      { "id": "D", "text": "crop" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Corpse** = मुर्दा शरीर / लाश (A dead human body)।\n**Corps** = सेना की टुकड़ी (A branch of a military organization, pronounced as 'कोर')।\n\n*Explanation:* खंडहर में लाश मिलने की बात है, अतः **corpse** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_15",
+    "subjectId": "english",
+    "question": "Select the correct word to fill the blank: \n\n The student sought the _____ of his teacher before making a career choice.",
+    "options": [
+      { "id": "A", "text": "council" },
+      { "id": "B", "text": "counsel" },
+      { "id": "C", "text": "cancel" },
+      { "id": "D", "text": "consul" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Counsel** = सलाह / परामर्श (Advice)।\n**Council** = परिषद् / समिति (An advisory or administrative body)।\n\n*Explanation:* छात्र ने शिक्षक से 'सलाह' (counsel) मांगी।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_16",
+    "subjectId": "english",
+    "question": "Choose the right option: \n\n She maintains a personal _____ to record her daily thoughts.",
+    "options": [
+      { "id": "A", "text": "dairy" },
+      { "id": "B", "text": "diary" },
+      { "id": "C", "text": "daisy" },
+      { "id": "D", "text": "deity" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Diary** = डायरी / दैनंदिनी (A book for keeping daily records)।\n**Dairy** = दुग्धशाला (A place where milk products are made)।\n\n*Explanation:* विचारों को लिखने के लिए **diary** का प्रयोग किया जाता है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_17",
+    "subjectId": "english",
+    "question": "Fill in the blank with the suitable word: \n\n The family mourned the sudden passing of the _____.",
+    "options": [
+      { "id": "A", "text": "diseased" },
+      { "id": "B", "text": "deceased" },
+      { "id": "C", "text": "disease" },
+      { "id": "D", "text": "deceit" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Deceased** = मृतक (A person who has died)।\n**Diseased** = रोगग्रस्त (Suffering from a disease)।\n\n*Explanation:* निधन (passing) की बात हो रही है, इसलिए मृतक (deceased) सही शब्द है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_18",
+    "subjectId": "english",
+    "question": "Select the correctly spelt homonym: \n\n I would like to have ice cream for _____.",
+    "options": [
+      { "id": "A", "text": "desert" },
+      { "id": "B", "text": "dessert" },
+      { "id": "C", "text": "dissert" },
+      { "id": "D", "text": "desart" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Dessert** = खाने के बाद का मीठा व्यंजन (Sweet course eaten at the end of a meal)।\n**Desert** = रेगिस्तान (Barren land)।\n\n*Explanation:* आइसक्रीम एक मिठाई है, अतः **dessert** (डबल 's') सही होगा।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_19",
+    "subjectId": "english",
+    "question": "Choose the exact homophone: \n\n Early in the morning, the grass was covered with _____.",
+    "options": [
+      { "id": "A", "text": "due" },
+      { "id": "B", "text": "dew" },
+      { "id": "C", "text": "do" },
+      { "id": "D", "text": "dough" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Dew** = ओस की बूंदें (Tiny drops of water)।\n**Due** = बकाया (Expected at a certain time / Owed)।\n\n*Explanation:* घास पर 'ओस' (dew) की बूंदें होती हैं।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_20",
+    "subjectId": "english",
+    "question": "Fill in the blank: \n\n My mother decided to _____ her hair black.",
+    "options": [
+      { "id": "A", "text": "die" },
+      { "id": "B", "text": "dye" },
+      { "id": "C", "text": "dry" },
+      { "id": "D", "text": "dial" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Dye** = रंगना (To color hair or cloth)।\n**Die** = मरना (To stop living)।\n\n*Explanation:* बालों को 'रंगने' की बात है, इसलिए **dye** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_21",
+    "subjectId": "english",
+    "question": "Select the correct word: \n\n In old times, gentlemen settled their disputes with a pistol _____.",
+    "options": [
+      { "id": "A", "text": "dual" },
+      { "id": "B", "text": "duel" },
+      { "id": "C", "text": "dwell" },
+      { "id": "D", "text": "dull" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Duel** = द्वंद्व युद्ध (A contest with deadly weapons arranged between two people)।\n**Dual** = दोहरा (Consisting of two parts)।\n\n*Explanation:* पुराने समय की पिस्तौल की 'लड़ाई/द्वंद्व' के लिए **duel** का प्रयोग होता है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_22",
+    "subjectId": "english",
+    "question": "Fill in the blank with the suitable homophone: \n\n The police arrested him for trading in _____ liquor.",
+    "options": [
+      { "id": "A", "text": "elicit" },
+      { "id": "B", "text": "illicit" },
+      { "id": "C", "text": "elite" },
+      { "id": "D", "text": "elect" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "hard",
+    "explanation": "**Illicit** = अवैध (Illegal)।\n**Elicit** = उगलवाना / प्राप्त करना (To draw out information)।\n\n*Explanation:* यहाँ 'अवैध' शराब के व्यापार की बात हो रही है, इसलिए **illicit** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_23",
+    "subjectId": "english",
+    "question": "Choose the correct word: \n\n Dark clouds are gathering; a storm is _____.",
+    "options": [
+      { "id": "A", "text": "eminent" },
+      { "id": "B", "text": "imminent" },
+      { "id": "C", "text": "immense" },
+      { "id": "D", "text": "emigrant" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "hard",
+    "explanation": "**Imminent** = जो तुरंत होने वाला हो / सिर पर मंडराता हुआ (About to happen)।\n**Eminent** = प्रसिद्ध/प्रख्यात (Famous and respected)।\n\n*Explanation:* तूफान का तुरंत आना संभावित है, इसलिए **imminent** सही उत्तर है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_24",
+    "subjectId": "english",
+    "question": "Select the correct option to fill in the blank: \n\n The bus _____ has been increased again.",
+    "options": [
+      { "id": "A", "text": "fair" },
+      { "id": "B", "text": "fare" },
+      { "id": "C", "text": "fear" },
+      { "id": "D", "text": "fire" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Fare** = किराया (The money a passenger on public transportation has to pay)।\n**Fair** = मेला / निष्पक्ष / गोरा (Just / Pale / An exhibition)।\n\n*Explanation:* बस के 'किराये' के लिए **fare** का उपयोग होता है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_25",
+    "subjectId": "english",
+    "question": "Choose the most appropriate word: \n\n Bread is made from wheat _____.",
+    "options": [
+      { "id": "A", "text": "floor" },
+      { "id": "B", "text": "flour" },
+      { "id": "C", "text": "flower" },
+      { "id": "D", "text": "flair" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Flour** = आटा (Powder obtained by grinding grain)।\n**Floor** = फर्श।\n**Flower** = फूल।\n\n*Explanation:* ब्रेड गेहूँ के 'आटे' (flour) से बनती है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_26",
+    "subjectId": "english",
+    "question": "Fill in the blank with the correct word: \n\n The referee blew his whistle and declared a _____.",
+    "options": [
+      { "id": "A", "text": "fowl" },
+      { "id": "B", "text": "foul" },
+      { "id": "C", "text": "fool" },
+      { "id": "D", "text": "fall" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Foul** = नियम विरुद्ध / अनुचित खेल (An unfair or invalid stroke or piece of play)।\n**Fowl** = पक्षी/मुर्गा (A bird kept for eggs and meat)।\n\n*Explanation:* खेल के मैदान में रेफरी **foul** (नियम उल्लंघन) घोषित करता है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_27",
+    "subjectId": "english",
+    "question": "Select the correct option: \n\n The injured soldier walked with a limping _____.",
+    "options": [
+      { "id": "A", "text": "gate" },
+      { "id": "B", "text": "gait" },
+      { "id": "C", "text": "get" },
+      { "id": "D", "text": "goat" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "hard",
+    "explanation": "**Gait** = चलने का ढंग (A person's manner of walking)।\n**Gate** = फाटक (Entrance)।\n\n*Explanation:* घायल सैनिक के लंगड़ाकर 'चलने के ढंग' की बात हो रही है, इसलिए **gait** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_28",
+    "subjectId": "english",
+    "question": "Choose the proper homonym: \n\n The medicine will help to _____ your wound quickly.",
+    "options": [
+      { "id": "A", "text": "heel" },
+      { "id": "B", "text": "heal" },
+      { "id": "C", "text": "hill" },
+      { "id": "D", "text": "hail" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Heal** = घाव भरना / ठीक होना (To become sound or healthy again)।\n**Heel** = एड़ी (The back part of the foot)।\n\n*Explanation:* दवा से 'घाव भरने' (heal) का अर्थ निकल रहा है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_29",
+    "subjectId": "english",
+    "question": "Fill in the blank with correct word: \n\n During the crisis, people started to _____ essential food items.",
+    "options": [
+      { "id": "A", "text": "horde" },
+      { "id": "B", "text": "hoard" },
+      { "id": "C", "text": "hard" },
+      { "id": "D", "text": "heard" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Hoard** = जमाखोरी करना / छिपाकर रखना (To amass and hide away)।\n**Horde** = विशाल समूह / गिरोह (A large group of people)।\n\n*Explanation:* संकट के समय लोग सामान की 'जमाखोरी' (hoard) करते हैं।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_30",
+    "subjectId": "english",
+    "question": "Select the suitable word: \n\n Animal activists protest for the _____ treatment of street dogs.",
+    "options": [
+      { "id": "A", "text": "human" },
+      { "id": "B", "text": "humane" },
+      { "id": "C", "text": "humour" },
+      { "id": "D", "text": "humble" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Humane** = दयालु / मानवीय व्यवहार (Having or showing compassion)।\n**Human** = इंसान (Relating to people)।\n\n*Explanation:* जानवरों के प्रति 'दयालु' व्यवहार की बात हो रही है, अतः **humane** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_31",
+    "subjectId": "english",
+    "question": "Choose the most appropriate word: \n\n He has been sitting _____ all day without doing any work.",
+    "options": [
+      { "id": "A", "text": "idol" },
+      { "id": "B", "text": "ideal" },
+      { "id": "C", "text": "idle" },
+      { "id": "D", "text": "idyll" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Idle** = बेकार / निठल्ला (Lazy / Without purpose)।\n**Idol** = मूर्ति / आदर्श व्यक्ति।\n**Ideal** = पूर्ण रूप से सही / आदर्श।\n\n*Explanation:* बिना काम किए 'बेकार' बैठे रहने के लिए **idle** का प्रयोग होता है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_32",
+    "subjectId": "english",
+    "question": "Fill in the blank: \n\n Of the two choices presented, I prefer the _____.",
+    "options": [
+      { "id": "A", "text": "later" },
+      { "id": "B", "text": "letter" },
+      { "id": "C", "text": "latter" },
+      { "id": "D", "text": "litter" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Latter** = बाद वाला (दो में से) (Occurring closer to the end of something / Second of two)।\n**Later** = बाद में (समय के सन्दर्भ में)।\n\n*Explanation:* दो विकल्पों में से 'बाद वाले' की बात हो रही है, इसलिए **latter** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_33",
+    "subjectId": "english",
+    "question": "Select the correct homophone: \n\n The dog's collar is too _____; it might slip off.",
+    "options": [
+      { "id": "A", "text": "lose" },
+      { "id": "B", "text": "loss" },
+      { "id": "C", "text": "loose" },
+      { "id": "D", "text": "louse" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Loose** = ढीला (Not tightly fixed)।\n**Lose** = खोना / हारना (To be deprived of / fail to win)।\n\n*Explanation:* कॉलर के 'ढीले' होने की बात हो रही है, अतः **loose** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_34",
+    "subjectId": "english",
+    "question": "Choose the appropriate homophone to complete the sentence: \n\n Did you receive my _____ yesterday?",
+    "options": [
+      { "id": "A", "text": "male" },
+      { "id": "B", "text": "mail" },
+      { "id": "C", "text": "meal" },
+      { "id": "D", "text": "mall" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Mail** = डाक / पत्र (Letters and packages)।\n**Male** = पुरुष (Men or boys)।\n\n*Explanation:* पत्र (डाक) प्राप्त करने की बात हो रही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_35",
+    "subjectId": "english",
+    "question": "Fill in the blank: \n\n Let's _____ at the coffee shop at 5 PM.",
+    "options": [
+      { "id": "A", "text": "meat" },
+      { "id": "B", "text": "meet" },
+      { "id": "C", "text": "mete" },
+      { "id": "D", "text": "might" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Meet** = मिलना (To come into the presence of someone)।\n**Meat** = मांस (The flesh of an animal)।\n\n*Explanation:* यहाँ मिलने की बात हो रही है, अतः **meet** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_36",
+    "subjectId": "english",
+    "question": "Select the correct option: \n\n As a _____, he is not allowed to sign legal contracts.",
+    "options": [
+      { "id": "A", "text": "miner" },
+      { "id": "B", "text": "minor" },
+      { "id": "C", "text": "manor" },
+      { "id": "D", "text": "manner" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Minor** = नाबालिग / छोटा (A person under the age of full legal responsibility)।\n**Miner** = खनिक (A person who works in a mine)।\n\n*Explanation:* कानूनी अनुबंध पर हस्ताक्षर करने का अधिकार 'नाबालिग' को नहीं होता है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_37",
+    "subjectId": "english",
+    "question": "Choose the most appropriate word: \n\n The baseball shattered the window _____.",
+    "options": [
+      { "id": "A", "text": "pain" },
+      { "id": "B", "text": "pane" },
+      { "id": "C", "text": "pen" },
+      { "id": "D", "text": "pan" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Pane** = कांच का शीशा (A single sheet of glass in a window)।\n**Pain** = दर्द (Physical suffering)।\n\n*Explanation:* खिड़की के 'शीशे' टूटने की बात है, अतः **pane** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_38",
+    "subjectId": "english",
+    "question": "Fill in the blank with the correct word: \n\n He gave me a _____ of cake.",
+    "options": [
+      { "id": "A", "text": "peace" },
+      { "id": "B", "text": "piece" },
+      { "id": "C", "text": "pace" },
+      { "id": "D", "text": "pease" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Piece** = टुकड़ा (A portion of an object)।\n**Peace** = शांति (Freedom from disturbance)।\n\n*Explanation:* केक के 'टुकड़े' की बात हो रही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_39",
+    "subjectId": "english",
+    "question": "Select the appropriate homophone: \n\n Only authorized _____ are allowed in this restricted area.",
+    "options": [
+      { "id": "A", "text": "personal" },
+      { "id": "B", "text": "personnel" },
+      { "id": "C", "text": "persons" },
+      { "id": "D", "text": "personality" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "hard",
+    "explanation": "**Personnel** = कर्मचारी/स्टाफ (People employed in an organization)।\n**Personal** = व्यक्तिगत (Belonging to a particular person)।\n\n*Explanation:* किसी क्षेत्र में प्रवेश के लिए 'कर्मचारियों' का सन्दर्भ है, इसलिए **personnel** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_40",
+    "subjectId": "english",
+    "question": "Choose the correct word: \n\n She likes to wear _____ clothes without any heavy embroidery.",
+    "options": [
+      { "id": "A", "text": "plane" },
+      { "id": "B", "text": "plain" },
+      { "id": "C", "text": "plan" },
+      { "id": "D", "text": "plumb" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Plain** = सादा / बिना किसी सजावट के (Not decorated)।\n**Plane** = हवाई जहाज़ / समतल।\n\n*Explanation:* यहाँ 'सादे' कपड़ों की बात हो रही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_41",
+    "subjectId": "english",
+    "question": "Fill in the blank: \n\n Can you please _____ me a glass of water?",
+    "options": [
+      { "id": "A", "text": "pore" },
+      { "id": "B", "text": "pour" },
+      { "id": "C", "text": "poor" },
+      { "id": "D", "text": "purr" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Pour** = उंडेलना / डालना (Flow rapidly in a steady stream)।\n**Pore** = रोमछिद्र / ध्यान से पढ़ना (A minute opening in a surface / To study closely)।\n\n*Explanation:* पानी 'डालने' की बात है, अतः **pour** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_42",
+    "subjectId": "english",
+    "question": "Select the correct option to fill in the blank: \n\n The eagle swooped down to catch its _____.",
+    "options": [
+      { "id": "A", "text": "pray" },
+      { "id": "B", "text": "prey" },
+      { "id": "C", "text": "praise" },
+      { "id": "D", "text": "pry" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Prey** = शिकार (An animal hunted and killed for food)।\n**Pray** = प्रार्थना करना (To address God)।\n\n*Explanation:* चील अपने 'शिकार' को पकड़ने के लिए झपटी, इसलिए **prey** सही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_43",
+    "subjectId": "english",
+    "question": "Choose the most appropriate word: \n\n Gandhiji was a man of strong moral _____.",
+    "options": [
+      { "id": "A", "text": "principal" },
+      { "id": "B", "text": "principals" },
+      { "id": "C", "text": "principle" },
+      { "id": "D", "text": "principles" }
+    ],
+    "correctAnswer": "D",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Principles** = सिद्धांत/नियम (Fundamental truth or proposition)।\n**Principal** = प्रधानाचार्य / मुख्य।\n\n*Explanation:* महात्मा गांधी मजबूत नैतिक 'सिद्धांतों' वाले व्यक्ति थे, इसलिए **principles** सही उत्तर है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_44",
+    "subjectId": "english",
+    "question": "Fill in the blank with the correct word: \n\n The library is usually very _____ in the afternoon.",
+    "options": [
+      { "id": "A", "text": "quite" },
+      { "id": "B", "text": "quit" },
+      { "id": "C", "text": "quiet" },
+      { "id": "D", "text": "quilt" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Quiet** = शांत (Making little or no noise)।\n**Quite** = बिल्कुल (Completely)।\n**Quit** = छोड़ना।\n\n*Explanation:* लाइब्रेरी में 'शांति' होती है, इसलिए **quiet** सही होगा।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_45",
+    "subjectId": "english",
+    "question": "Select the correct word: \n\n The king's _____ lasted for over forty years.",
+    "options": [
+      { "id": "A", "text": "rain" },
+      { "id": "B", "text": "rein" },
+      { "id": "C", "text": "reign" },
+      { "id": "D", "text": "ring" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "hard",
+    "explanation": "**Reign** = शासनकाल (The period of rule of a monarch)।\n**Rein** = लगाम (A strap used to control a horse)।\n**Rain** = बारिश।\n\n*Explanation:* राजा के 'शासनकाल' की बात हो रही है, इसलिए **reign** सही उत्तर है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_46",
+    "subjectId": "english",
+    "question": "Choose the most appropriate option: \n\n We took a shorter _____ to avoid the heavy traffic.",
+    "options": [
+      { "id": "A", "text": "root" },
+      { "id": "B", "text": "route" },
+      { "id": "C", "text": "rout" },
+      { "id": "D", "text": "riot" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Route** = रास्ता / मार्ग (A way or course taken in getting from a starting point to a destination)।\n**Root** = जड़ (Part of a plant)।\n**Rout** = बुरी तरह हराना।\n\n*Explanation:* ट्रैफिक से बचने के लिए छोटा 'रास्ता' (route) लिया गया।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_47",
+    "subjectId": "english",
+    "question": "Fill in the blank with the correct word: \n\n I have a _____ throat due to cold water.",
+    "options": [
+      { "id": "A", "text": "soar" },
+      { "id": "B", "text": "sore" },
+      { "id": "C", "text": "sour" },
+      { "id": "D", "text": "shore" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Sore** = दर्द/सूजन युक्त (Painful or aching)।\n**Soar** = ऊँची उड़ान भरना (Fly high)।\n**Sour** = खट्टा।\n\n*Explanation:* गले में खराश/दर्द के लिए **sore throat** का प्रयोग होता है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_48",
+    "subjectId": "english",
+    "question": "Select the correct option to complete the sentence: \n\n I need to buy some pens and notebooks from the _____ shop.",
+    "options": [
+      { "id": "A", "text": "stationary" },
+      { "id": "B", "text": "stationery" },
+      { "id": "C", "text": "station" },
+      { "id": "D", "text": "statuary" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "medium",
+    "explanation": "**Stationery** = लेखन-सामग्री (Writing materials like paper, envelopes, pens)। *(Trick: E for Envelope/Eraser)*\n**Stationary** = स्थिर (Not moving)। *(Trick: A for At rest)*\n\n*Explanation:* पेन-कॉपी आदि को **stationery** कहते हैं।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_49",
+    "subjectId": "english",
+    "question": "Choose the most appropriate word: \n\n Our office is located on the third _____ of this building.",
+    "options": [
+      { "id": "A", "text": "story" },
+      { "id": "B", "text": "storey" },
+      { "id": "C", "text": "stair" },
+      { "id": "D", "text": "stare" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "easy",
+    "explanation": "**Storey** = मंज़िल (A level of a building)। *(नोट: अमेरिकन इंग्लिश में इसे story भी कहते हैं, लेकिन SSC में storey मान्य है)।*\n**Story** = कहानी।\n\n*Explanation:* इमारत की तीसरी 'मंज़िल' की बात हो रही है।",
+    "language": "en"
+  },
+  {
+    "id": "vocab_homo_50",
+    "subjectId": "english",
+    "question": "Fill in the blank with the correct word: \n\n All the doctor's efforts to save the patient were in _____.",
+    "options": [
+      { "id": "A", "text": "vein" },
+      { "id": "B", "text": "vain" },
+      { "id": "C", "text": "vane" },
+      { "id": "D", "text": "wane" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "homonyms-and-homophones",
+    "difficulty": "hard",
+    "explanation": "**Vain** = व्यर्थ / बेकार (Producing no result / Useless)।\n**Vein** = नस/शिरा (Tubes forming part of the blood circulation system)।\n**Vane** = हवा की दिशा बताने वाला यन्त्र।\n\n*Explanation:* डॉक्टर के प्रयास 'व्यर्थ' (in vain) गए।",
+    "language": "en"
+  }
+]
