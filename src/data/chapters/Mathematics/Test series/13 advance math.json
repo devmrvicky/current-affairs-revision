@@ -1,0 +1,642 @@
+[
+  {
+    "id": "math001",
+    "subjectId": "math",
+    "question": "यदि $x = 3 + 2\\sqrt{2}$ है, तो $\\sqrt{x} - \\frac{1}{\\sqrt{x}}$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$2\\sqrt{2}$" },
+      { "id": "B", "text": "$2$" },
+      { "id": "C", "text": "$3$" },
+      { "id": "D", "text": "$\\sqrt{2}$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** $x = 3 + 2\\sqrt{2}$ को $(\\sqrt{2} + 1)^2$ के रूप में लिखा जा सकता है।\n- अतः $\\sqrt{x} = \\sqrt{2} + 1$\n- $\\frac{1}{\\sqrt{x}} = \\frac{1}{\\sqrt{2} + 1} = \\sqrt{2} - 1$ (परिमेयकरण करने पर)\n- $\\sqrt{x} - \\frac{1}{\\sqrt{x}} = (\\sqrt{2} + 1) - (\\sqrt{2} - 1) = 2$।",
+    "language": "hi"
+  },
+  {
+    "id": "math002",
+    "subjectId": "math",
+    "question": "यदि $x + \\frac{1}{x} = \\sqrt{3}$ है, तो $x^6$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$1$" },
+      { "id": "B", "text": "$-1$" },
+      { "id": "C", "text": "$0$" },
+      { "id": "D", "text": "$3$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** यदि $x + \\frac{1}{x} = \\sqrt{3}$ हो, तो दोनों तरफ घन (cube) करने पर:\n$x^3 + \\frac{1}{x^3} + 3(x+\\frac{1}{x}) = 3\\sqrt{3}$\n$x^3 + \\frac{1}{x^3} + 3\\sqrt{3} = 3\\sqrt{3} \\implies x^3 + \\frac{1}{x^3} = 0$\nइस प्रकार, $x^6 + 1 = 0 \\implies x^6 = -1$।",
+    "language": "hi"
+  },
+  {
+    "id": "math003",
+    "subjectId": "math",
+    "question": "यदि $\\sec\\theta + \\tan\\theta = 5$ है, तो $\\sin\\theta$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$\\frac{12}{13}$" },
+      { "id": "B", "text": "$\\frac{5}{13}$" },
+      { "id": "C", "text": "$\\frac{13}{12}$" },
+      { "id": "D", "text": "$\\frac{5}{12}$" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "trigonometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** हम जानते हैं कि $\\sec^2\\theta - \\tan^2\\theta = 1$ होता है, इसलिए $\\sec\\theta - \\tan\\theta = \\frac{1}{\\sec\\theta + \\tan\\theta} = \\frac{1}{5}$।\n- दोनों समीकरणों को जोड़ने पर: $2\\sec\\theta = 5 + \\frac{1}{5} = \\frac{26}{5} \\implies \\sec\\theta = \\frac{13}{5}$।\n- अतः $\\cos\\theta = \\frac{5}{13}$। पाइथागोरस प्रमेय से लंब $12$ होगा, इसलिए $\\sin\\theta = \\frac{12}{13}$।",
+    "language": "hi"
+  },
+  {
+    "id": "math004",
+    "subjectId": "math",
+    "question": "किसी त्रिभुज के परिवृत्त की त्रिज्या (Circumradius) $R = 5$ सेमी और अंतःवृत्त की त्रिज्या (Inradius) $r = 2$ सेमी है। इसके परिकेंद्र और अंतःकेंद्र के बीच की दूरी क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$\\sqrt{3}$ सेमी" },
+      { "id": "B", "text": "$\\sqrt{5}$ सेमी" },
+      { "id": "C", "text": "$3$ सेमी" },
+      { "id": "D", "text": "$\\sqrt{15}$ सेमी" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** यूलर के प्रमेय (Euler's Theorem) के अनुसार, परिकेंद्र और अंतःकेंद्र के बीच की दूरी $d = \\sqrt{R(R - 2r)}$ होती है।\n- $d = \\sqrt{5(5 - 2 \\times 2)} = \\sqrt{5(1)} = \\sqrt{5}$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math005",
+    "subjectId": "math",
+    "question": "यदि द्विघात समीकरण $x^2 - x - 1 = 0$ के मूल $\\alpha$ और $\\beta$ हैं, तो $\\alpha^3 + \\beta^3$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$2$" },
+      { "id": "B", "text": "$3$" },
+      { "id": "C", "text": "$4$" },
+      { "id": "D", "text": "$5$" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "quadratic_equations",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** समीकरण से, मूलों का योग $\\alpha + \\beta = 1$ और गुणनफल $\\alpha\\beta = -1$ है।\n- $\\alpha^3 + \\beta^3 = (\\alpha + \\beta)^3 - 3\\alpha\\beta(\\alpha + \\beta)$\n- $= (1)^3 - 3(-1)(1) = 1 + 3 = 4$।",
+    "language": "hi"
+  },
+  {
+    "id": "math006",
+    "subjectId": "math",
+    "question": "एक त्रिभुज की तीन माध्यिकाओं (Medians) की लंबाई क्रमशः $3$ सेमी, $4$ सेमी और $5$ सेमी है। उस त्रिभुज का क्षेत्रफल क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$6$ सेमी$^2$" },
+      { "id": "B", "text": "$8$ सेमी$^2$" },
+      { "id": "C", "text": "$10$ सेमी$^2$" },
+      { "id": "D", "text": "$12$ सेमी$^2$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** यदि त्रिभुज की माध्यिकाएँ $m_1, m_2, m_3$ दी हों, तो त्रिभुज का क्षेत्रफल $= \\frac{4}{3} \\times$ (माध्यिकाओं से बने त्रिभुज का क्षेत्रफल) होता है।\n- $3, 4, 5$ एक समकोण त्रिभुज बनाते हैं। इसका क्षेत्रफल $= \\frac{1}{2} \\times 3 \\times 4 = 6$।\n- मूल त्रिभुज का क्षेत्रफल $= \\frac{4}{3} \\times 6 = 8$ सेमी$^2$।",
+    "language": "hi"
+  },
+  {
+    "id": "math007",
+    "subjectId": "math",
+    "question": "एक $R$ त्रिज्या वाले गोले (Sphere) के अंदर रखे जा सकने वाले अधिकतम आयतन वाले बेलन (Cylinder) की त्रिज्या क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$R\\sqrt{\\frac{2}{3}}$" },
+      { "id": "B", "text": "$R\\sqrt{\\frac{1}{3}}$" },
+      { "id": "C", "text": "$\\frac{R}{\\sqrt{2}}$" },
+      { "id": "D", "text": "$\\frac{2R}{3}$" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "mensuration_3d",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** गोले के भीतर अधिकतम आयतन वाले बेलन की ऊँचाई $h = \\frac{2R}{\\sqrt{3}}$ होती है।\n- त्रिज्या $r = \\sqrt{R^2 - \\frac{h^2}{4}} = \\sqrt{R^2 - \\frac{4R^2/3}{4}} = \\sqrt{R^2 - \\frac{R^2}{3}} = \\sqrt{\\frac{2}{3}}R$।",
+    "language": "hi"
+  },
+  {
+    "id": "math008",
+    "subjectId": "math",
+    "question": "त्रिकोणमितीय व्यंजक $4\\tan^2\\theta + 9\\cot^2\\theta$ का न्यूनतम (minimum) मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$6$" },
+      { "id": "B", "text": "$12$" },
+      { "id": "C", "text": "$13$" },
+      { "id": "D", "text": "$36$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "trigonometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** $a\\tan^2\\theta + b\\cot^2\\theta$ का न्यूनतम मान $2\\sqrt{ab}$ होता है।\n- यहाँ $a = 4, b = 9$ है।\n- न्यूनतम मान $= 2\\sqrt{4 \\times 9} = 2 \\times 6 = 12$।",
+    "language": "hi"
+  },
+  {
+    "id": "math009",
+    "subjectId": "math",
+    "question": "एक झील से $10\\sqrt{3}$ मीटर की ऊँचाई पर स्थित एक बिंदु से एक बादल का उन्नयन कोण (Elevation) $30^\\circ$ है, और झील में बादल के प्रतिबिंब का अवनमन कोण (Depression) $60^\\circ$ है। झील के तल से बादल की ऊँचाई क्या है?",
+    "options": [
+      { "id": "A", "text": "$10\\sqrt{3}$ मी" },
+      { "id": "B", "text": "$20\\sqrt{3}$ मी" },
+      { "id": "C", "text": "$30$ मी" },
+      { "id": "D", "text": "$40$ मी" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height_and_distance",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** झील के तल से बादल की ऊँचाई $H = h \\times \\frac{\\tan\\beta + \\tan\\alpha}{\\tan\\beta - \\tan\\alpha}$ होती है, जहाँ $h=10\\sqrt{3}$, $\\alpha=30^\\circ$ और $\\beta=60^\\circ$ है।\n- $H = 10\\sqrt{3} \\times \\frac{\\sqrt{3} + 1/\\sqrt{3}}{\\sqrt{3} - 1/\\sqrt{3}} = 10\\sqrt{3} \\times \\frac{4/\\sqrt{3}}{2/\\sqrt{3}} = 10\\sqrt{3} \\times 2 = 20\\sqrt{3}$ मीटर।",
+    "language": "hi"
+  },
+  {
+    "id": "math010",
+    "subjectId": "math",
+    "question": "यदि $x^2 - 3x + 1 = 0$ है, तो $x^5 + \\frac{1}{x^5}$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$123$" },
+      { "id": "B", "text": "$126$" },
+      { "id": "C", "text": "$121$" },
+      { "id": "D", "text": "$132$" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** समीकरण को $x$ से भाग देने पर: $x + \\frac{1}{x} = 3$।\n- $x^2 + \\frac{1}{x^2} = 3^2 - 2 = 7$\n- $x^3 + \\frac{1}{x^3} = 3^3 - 3(3) = 18$\n- $x^5 + \\frac{1}{x^5} = (x^2 + \\frac{1}{x^2})(x^3 + \\frac{1}{x^3}) - (x + \\frac{1}{x}) = (7 \\times 18) - 3 = 126 - 3 = 123$।",
+    "language": "hi"
+  },
+  {
+    "id": "math011",
+    "subjectId": "math",
+    "question": "यदि $x^4 + y^4 + x^2y^2 = 21$ और $x^2 + y^2 + xy = 7$ है, तो $x^2 + y^2 - xy$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$3$" },
+      { "id": "B", "text": "$4$" },
+      { "id": "C", "text": "$14$" },
+      { "id": "D", "text": "$28$" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** बीजगणित की महत्वपूर्ण सर्वसमिका: $x^4 + y^4 + x^2y^2 = (x^2 + y^2 + xy)(x^2 + y^2 - xy)$।\n- मान रखने पर: $21 = 7 \\times (x^2 + y^2 - xy)$\n- अतः $x^2 + y^2 - xy = \\frac{21}{7} = 3$।",
+    "language": "hi"
+  },
+  {
+    "id": "math012",
+    "subjectId": "math",
+    "question": "पिछले प्रश्न के ही आधार पर, यदि $x^4 + y^4 + x^2y^2 = 21$ और $x^2 + y^2 + xy = 7$ है, तो केवल $xy$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$1$" },
+      { "id": "B", "text": "$2$" },
+      { "id": "C", "text": "$3$" },
+      { "id": "D", "text": "$4$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** हमें प्राप्त हुआ: $x^2 + y^2 + xy = 7$ (समीकरण 1) और $x^2 + y^2 - xy = 3$ (समीकरण 2)।\n- समीकरण 1 में से समीकरण 2 घटाने पर: $2xy = 4 \\implies xy = 2$।",
+    "language": "hi"
+  },
+  {
+    "id": "math013",
+    "subjectId": "math",
+    "question": "एक लंब वृत्तीय शंकु (Cone) को आधार के समानांतर दो तलों (planes) द्वारा काटा जाता है, जो इसकी ऊँचाई को तीन बराबर भागों में बाँटते हैं। ऊपर से नीचे की ओर इन तीनों भागों (ऊपरी शंकु, मध्य छिन्नक, निचला छिन्नक) के आयतनों का अनुपात क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$1:2:3$" },
+      { "id": "B", "text": "$1:4:9$" },
+      { "id": "C", "text": "$1:7:19$" },
+      { "id": "D", "text": "$1:8:27$" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "mensuration_3d",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** यदि ऊँचाई को $1:2:3$ के अनुपात में बाँटा जाए, तो शीर्ष से बनने वाले तीनों शंकुओं के आयतन का अनुपात उनकी ऊँचाई के घन (cube) के अनुपात में होता है अर्थात् $1^3 : 2^3 : 3^3 = 1 : 8 : 27$।\n- हिस्सों (Parts) का आयतन: पहला भाग $= 1$, दूसरा भाग $= 8-1 = 7$, तीसरा भाग $= 27-8 = 19$।\n- अतः अनुपात $1 : 7 : 19$ होगा।",
+    "language": "hi"
+  },
+  {
+    "id": "math014",
+    "subjectId": "math",
+    "question": "एक वृत्त के बाहर स्थित बिंदु $P$ से वृत्त पर दो छेदक रेखाएँ (Secants) खींची गई हैं, जो वृत्त को क्रमशः $A, B$ और $C, D$ पर काटती हैं। यदि $PA = 4$ सेमी (बाहरी भाग), $PB = 10$ सेमी (कुल लंबाई) और $PC = 5$ सेमी (बाहरी भाग) है, तो जीवा $CD$ की लंबाई क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$3$ सेमी" },
+      { "id": "B", "text": "$4$ सेमी" },
+      { "id": "C", "text": "$5$ सेमी" },
+      { "id": "D", "text": "$8$ सेमी" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** छेदक रेखा प्रमेय (Secant Theorem) के अनुसार: $PA \\times PB = PC \\times PD$।\n- $4 \\times 10 = 5 \\times PD \\implies 40 = 5 \\times PD \\implies PD = 8$ सेमी।\n- हमें जीवा $CD$ की लंबाई ज्ञात करनी है, $CD = PD - PC = 8 - 5 = 3$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math015",
+    "subjectId": "math",
+    "question": "यदि $x = \\frac{\\sqrt{5}+1}{\\sqrt{5}-1}$ और $y = \\frac{\\sqrt{5}-1}{\\sqrt{5}+1}$ है, तो $\\frac{x^2+xy+y^2}{x^2-xy+y^2}$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$\\frac{3}{4}$" },
+      { "id": "B", "text": "$\\frac{4}{3}$" },
+      { "id": "C", "text": "$\\frac{5}{3}$" },
+      { "id": "D", "text": "$1$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** $x = \\frac{(\\sqrt{5}+1)^2}{4} = \\frac{6+2\\sqrt{5}}{4} = \\frac{3+\\sqrt{5}}{2}$ और $y = \\frac{3-\\sqrt{5}}{2}$।\n- $x+y = 3$ और $xy = 1$।\n- $\\frac{x^2+xy+y^2}{x^2-xy+y^2} = \\frac{(x+y)^2 - xy}{(x+y)^2 - 3xy} = \\frac{3^2 - 1}{3^2 - 3} = \\frac{8}{6} = \\frac{4}{3}$।",
+    "language": "hi"
+  },
+  {
+    "id": "math016",
+    "subjectId": "math",
+    "question": "यदि द्विघात समीकरण $x^2 - px + q = 0$ के दोनों मूलों (roots) का अंतर $1$ है, तो $p$ और $q$ के बीच क्या संबंध होगा?",
+    "options": [
+      { "id": "A", "text": "$p^2 = 4q + 1$" },
+      { "id": "B", "text": "$p^2 = 4q - 1$" },
+      { "id": "C", "text": "$q^2 = 4p + 1$" },
+      { "id": "D", "text": "$p^2 = q + 1$" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "quadratic_equations",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** मूलों का अंतर $= \\frac{\\sqrt{D}}{a}$ होता है, जहाँ $D = b^2 - 4ac$।\n- यहाँ $\\sqrt{p^2 - 4q} = 1$।\n- दोनों तरफ वर्ग करने पर: $p^2 - 4q = 1 \\implies p^2 = 4q + 1$।",
+    "language": "hi"
+  },
+  {
+    "id": "math017",
+    "subjectId": "math",
+    "question": "त्रिकोणमितीय व्यंजक $\\cos 20^\\circ \\cos 40^\\circ \\cos 80^\\circ$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$\\frac{1}{2}$" },
+      { "id": "B", "text": "$\\frac{1}{4}$" },
+      { "id": "C", "text": "$\\frac{1}{8}$" },
+      { "id": "D", "text": "$\\frac{\\sqrt{3}}{8}$" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "trigonometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** मानक सूत्र: $\\cos\\theta \\cos(60^\\circ-\\theta) \\cos(60^\\circ+\\theta) = \\frac{1}{4}\\cos3\\theta$।\n- यहाँ $\\theta = 20^\\circ$ है, अतः यह $\\cos 20^\\circ \\cos(60^\\circ-20^\\circ) \\cos(60^\\circ+20^\\circ)$ के रूप में है।\n- परिणाम $= \\frac{1}{4}\\cos(3 \\times 20^\\circ) = \\frac{1}{4}\\cos 60^\\circ = \\frac{1}{4} \\times \\frac{1}{2} = \\frac{1}{8}$।",
+    "language": "hi"
+  },
+  {
+    "id": "math018",
+    "subjectId": "math",
+    "question": "एक समकोण त्रिभुज $\\triangle ABC$ में, $\\angle A = 90^\\circ$ और $AD \\perp BC$ है। यदि $BD = 2$ सेमी और $CD = 8$ सेमी है, तो लंब $AD$ की लंबाई क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$2$ सेमी" },
+      { "id": "B", "text": "$4$ सेमी" },
+      { "id": "C", "text": "$6$ सेमी" },
+      { "id": "D", "text": "$16$ सेमी" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** समकोण त्रिभुज में समकोण शीर्ष से कर्ण पर खींचे गए लंब की लंबाई का वर्ग कर्ण के दोनों भागों के गुणनफल के बराबर होता है।\n- $AD^2 = BD \\times CD = 2 \\times 8 = 16$।\n- अतः $AD = \\sqrt{16} = 4$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math019",
+    "subjectId": "math",
+    "question": "एक समबहुभुज (Regular Polygon) का प्रत्येक बाह्य कोण (Exterior Angle) $24^\\circ$ है। इस बहुभुज में विकर्णों (Diagonals) की कुल संख्या कितनी होगी?",
+    "options": [
+      { "id": "A", "text": "$54$" },
+      { "id": "B", "text": "$90$" },
+      { "id": "C", "text": "$135$" },
+      { "id": "D", "text": "$150$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "polygon",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** बहुभुज की भुजाओं की संख्या $n = \\frac{360^\\circ}{\\text{बाह्य कोण}} = \\frac{360^\\circ}{24^\\circ} = 15$।\n- विकर्णों की संख्या $= \\frac{n(n-3)}{2} = \\frac{15(15-3)}{2} = \\frac{15 \\times 12}{2} = 90$।",
+    "language": "hi"
+  },
+  {
+    "id": "math020",
+    "subjectId": "math",
+    "question": "एक चतुर्भुज $ABCD$ के अंदर एक वृत्त परिगत (inscribed) है जो इसकी चारों भुजाओं को स्पर्श करता है। यदि $AB = 7$ सेमी, $BC = 9$ सेमी और $CD = 8$ सेमी है, तो भुजा $AD$ की लंबाई क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$5$ सेमी" },
+      { "id": "B", "text": "$6$ सेमी" },
+      { "id": "C", "text": "$8$ सेमी" },
+      { "id": "D", "text": "$10$ सेमी" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** जब कोई वृत्त चतुर्भुज की चारों भुजाओं को स्पर्श करता है, तो आमने-सामने की भुजाओं का योग बराबर होता है।\n- $AB + CD = BC + AD \\implies 7 + 8 = 9 + AD$\n- $15 = 9 + AD \\implies AD = 15 - 9 = 6$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math021",
+    "subjectId": "math",
+    "question": "यदि $A$ और $B$ न्यून कोण (Acute angles) हैं, जहाँ $\\sin A = \\frac{3}{5}$ और $\\cos B = \\frac{12}{13}$ है, तो $\\sin(A-B)$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$\\frac{16}{65}$" },
+      { "id": "B", "text": "$\\frac{33}{65}$" },
+      { "id": "C", "text": "$\\frac{56}{65}$" },
+      { "id": "D", "text": "$\\frac{63}{65}$" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "trigonometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** $\\sin A = \\frac{3}{5} \\implies \\cos A = \\frac{4}{5}$। $\\cos B = \\frac{12}{13} \\implies \\sin B = \\frac{5}{13}$।\n- $\\sin(A-B) = \\sin A \\cos B - \\cos A \\sin B$\n- $= (\\frac{3}{5} \\times \\frac{12}{13}) - (\\frac{4}{5} \\times \\frac{5}{13}) = \\frac{36}{65} - \\frac{20}{65} = \\frac{16}{65}$।",
+    "language": "hi"
+  },
+  {
+    "id": "math022",
+    "subjectId": "math",
+    "question": "समतल मैदान पर $10$ मीटर और $15$ मीटर ऊँचाई के दो खंभे खड़े हैं। पहले खंभे के शीर्ष को दूसरे के आधार से और दूसरे खंभे के शीर्ष को पहले के आधार से तार द्वारा जोड़ा जाता है। दोनों तारों के प्रतिच्छेदन बिंदु (Intersection point) की मैदान से ऊँचाई क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$5$ मीटर" },
+      { "id": "B", "text": "$6$ मीटर" },
+      { "id": "C", "text": "$7.5$ मीटर" },
+      { "id": "D", "text": "$12.5$ मीटर" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height_and_distance",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** इस प्रकार के क्रॉस-वायर पैटर्न में प्रतिच्छेदन बिंदु की ऊँचाई $h = \\frac{ab}{a+b}$ होती है, जहाँ $a$ और $b$ खंभों की ऊँचाइयाँ हैं।\n- $h = \\frac{10 \\times 15}{10 + 15} = \\frac{150}{25} = 6$ मीटर।",
+    "language": "hi"
+  },
+  {
+    "id": "math023",
+    "subjectId": "math",
+    "question": "एक समान आधार त्रिज्या ($r$) और समान ऊँचाई ($h = r$) वाले बेलन, शंकु और अर्धगोले (Cylinder, Cone, Hemisphere) के आयतनों का अनुपात क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$1:2:3$" },
+      { "id": "B", "text": "$3:1:2$" },
+      { "id": "C", "text": "$2:1:3$" },
+      { "id": "D", "text": "$3:2:1$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "mensuration_3d",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** आयतन का सूत्र:\n- बेलन $= \\pi r^2h = \\pi r^3$\n- शंकु $= \\frac{1}{3}\\pi r^2h = \\frac{1}{3}\\pi r^3$\n- अर्धगोला $= \\frac{2}{3}\\pi r^3$ (यहाँ ऊँचाई $r$ ही होती है)\n- अनुपात: $1 : \\frac{1}{3} : \\frac{2}{3} \\implies 3 : 1 : 2$।",
+    "language": "hi"
+  },
+  {
+    "id": "math024",
+    "subjectId": "math",
+    "question": "एक वृत्त की त्रिज्या $5$ सेमी है। इसमें दो समानांतर जीवाएँ (Chords) जिनकी लंबाई क्रमशः $8$ सेमी और $6$ सेमी है, केंद्र के विपरीत दिशाओं (opposite sides) में स्थित हैं। इन दोनों जीवाओं के बीच की दूरी कितनी होगी?",
+    "options": [
+      { "id": "A", "text": "$1$ सेमी" },
+      { "id": "B", "text": "$5$ सेमी" },
+      { "id": "C", "text": "$7$ सेमी" },
+      { "id": "D", "text": "$14$ सेमी" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** जीवा पर केंद्र से डाला गया लंब उसे समद्विभाजित करता है।\n- $8$ सेमी जीवा की केंद्र से दूरी $d_1 = \\sqrt{5^2 - 4^2} = \\sqrt{25-16} = 3$ सेमी।\n- $6$ सेमी जीवा की दूरी $d_2 = \\sqrt{5^2 - 3^2} = 4$ सेमी।\n- विपरीत दिशाओं में होने के कारण कुल दूरी $= 3 + 4 = 7$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math025",
+    "subjectId": "math",
+    "question": "यदि $a+b+c=0$ है, तो व्यंजक $\\frac{a^2}{bc} + \\frac{b^2}{ca} + \\frac{c^2}{ab}$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$0$" },
+      { "id": "B", "text": "$1$" },
+      { "id": "C", "text": "$2$" },
+      { "id": "D", "text": "$3$" }
+    ],
+    "correctAnswer": "D",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (D)**\n\n**नियम / हल:** व्यंजक का LCM $abc$ होगा। इसे हल करने पर: $\\frac{a^3 + b^3 + c^3}{abc}$।\n- चूँकि $a+b+c=0$ है, इसलिए $a^3 + b^3 + c^3 = 3abc$ होता है।\n- मान रखने पर: $\\frac{3abc}{abc} = 3$।",
+    "language": "hi"
+  },
+  {
+    "id": "math026",
+    "subjectId": "math",
+    "question": "यदि $\\tan(A+B) = \\sqrt{3}$ और $\\tan(A-B) = \\frac{1}{\\sqrt{3}}$ है, जहाँ $A$ और $B$ न्यून कोण हैं, तो $A$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$15^\\circ$" },
+      { "id": "B", "text": "$30^\\circ$" },
+      { "id": "C", "text": "$45^\\circ$" },
+      { "id": "D", "text": "$60^\\circ$" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "trigonometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** $\\tan 60^\\circ = \\sqrt{3} \\implies A+B = 60^\\circ$। $\\tan 30^\\circ = \\frac{1}{\\sqrt{3}} \\implies A-B = 30^\\circ$।\n- दोनों को जोड़ने पर: $2A = 90^\\circ \\implies A = 45^\\circ$।",
+    "language": "hi"
+  },
+  {
+    "id": "math027",
+    "subjectId": "math",
+    "question": "यदि एक समबाहु त्रिभुज $4$ सेमी त्रिज्या वाले वृत्त के परिगत (circumscribed) है, तो उस त्रिभुज का क्षेत्रफल क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$16\\sqrt{3}$ सेमी$^2$" },
+      { "id": "B", "text": "$24\\sqrt{3}$ सेमी$^2$" },
+      { "id": "C", "text": "$48\\sqrt{3}$ सेमी$^2$" },
+      { "id": "D", "text": "$64\\sqrt{3}$ सेमी$^2$" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "mensuration_2d",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** समबाहु त्रिभुज के अंतःवृत्त की त्रिज्या $r = \\frac{a}{2\\sqrt{3}}$ होती है।\n- $4 = \\frac{a}{2\\sqrt{3}} \\implies a = 8\\sqrt{3}$ सेमी।\n- त्रिभुज का क्षेत्रफल $= \\frac{\\sqrt{3}}{4} a^2 = \\frac{\\sqrt{3}}{4} (8\\sqrt{3})^2 = \\frac{\\sqrt{3}}{4} \\times 192 = 48\\sqrt{3}$ सेमी$^2$।",
+    "language": "hi"
+  },
+  {
+    "id": "math028",
+    "subjectId": "math",
+    "question": "यदि $x + \\frac{1}{x} = 5$ है, तो $x^4 + \\frac{1}{x^4}$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$525$" },
+      { "id": "B", "text": "$527$" },
+      { "id": "C", "text": "$623$" },
+      { "id": "D", "text": "$625$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** $x^2 + \\frac{1}{x^2} = k^2 - 2 = 5^2 - 2 = 23$।\n- फिर से वर्ग करने पर: $x^4 + \\frac{1}{x^4} = 23^2 - 2 = 529 - 2 = 527$।",
+    "language": "hi"
+  },
+  {
+    "id": "math029",
+    "subjectId": "math",
+    "question": "यदि $\\frac{\\cos^2\\theta}{\\cot^2\\theta - \\cos^2\\theta} = 3$ है, और $\\theta$ एक न्यून कोण है, तो $\\theta$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$30^\\circ$" },
+      { "id": "B", "text": "$45^\\circ$" },
+      { "id": "C", "text": "$60^\\circ$" },
+      { "id": "D", "text": "$90^\\circ$" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "trigonometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** अंश और हर को $\\cos^2\\theta$ से भाग देने पर: $\\frac{1}{\\frac{1}{\\sin^2\\theta} - 1} = 3$ (क्योंकि $\\cot^2\\theta = \\frac{\\cos^2\\theta}{\\sin^2\\theta}$)।\n- $\\frac{1}{\\text{cosec}^2\\theta - 1} = 3 \\implies \\frac{1}{\\cot^2\\theta} = 3 \\implies \\tan^2\\theta = 3$।\n- अतः $\\tan\\theta = \\sqrt{3} \\implies \\theta = 60^\\circ$।",
+    "language": "hi"
+  },
+  {
+    "id": "math030",
+    "subjectId": "math",
+    "question": "यदि $x^2 + y^2 + z^2 + 4x - 6y + 13 = 0$ है, तो $x + y + z$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$1$" },
+      { "id": "B", "text": "$2$" },
+      { "id": "C", "text": "$5$" },
+      { "id": "D", "text": "$-1$" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** समीकरण को पूर्ण वर्ग (Perfect Square) में बदलें: $(x^2+4x+4) + (y^2-6y+9) + z^2 = 0$ (यहाँ $13 = 4+9$)।\n- $(x+2)^2 + (y-3)^2 + z^2 = 0$। चूँकि वर्गों का योग $0$ है, प्रत्येक पद शून्य होगा।\n- $x = -2, y = 3, z = 0$।\n- $x+y+z = -2 + 3 + 0 = 1$।",
+    "language": "hi"
+  },
+  {
+    "id": "math031",
+    "subjectId": "math",
+    "question": "दो वृत्तों की त्रिज्याएँ $5$ सेमी और $3$ सेमी हैं, और उनके केंद्रों के बीच की दूरी $10$ सेमी है। उनकी तिर्यक उभयनिष्ठ स्पर्श रेखा (Transverse Common Tangent) की लंबाई क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$4$ सेमी" },
+      { "id": "B", "text": "$6$ सेमी" },
+      { "id": "C", "text": "$8$ सेमी" },
+      { "id": "D", "text": "$\\sqrt{34}$ सेमी" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** TCT की लंबाई $= \\sqrt{d^2 - (r_1 + r_2)^2}$ होती है।\n- $= \\sqrt{10^2 - (5+3)^2} = \\sqrt{100 - 64} = \\sqrt{36} = 6$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math032",
+    "subjectId": "math",
+    "question": "किसी समबाहु त्रिभुज के परिवृत्त (Circumcircle) और अंतःवृत्त (Incircle) के क्षेत्रफलों का अनुपात क्या होता है?",
+    "options": [
+      { "id": "A", "text": "$2:1$" },
+      { "id": "B", "text": "$3:1$" },
+      { "id": "C", "text": "$4:1$" },
+      { "id": "D", "text": "$1:4$" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "mensuration_2d",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** समबाहु त्रिभुज में परित्रिज्या $R$ और अंतःत्रिज्या $r$ का अनुपात $R = 2r$ होता है।\n- क्षेत्रफल का अनुपात $\\pi R^2 : \\pi r^2 = (2r)^2 : r^2 = 4r^2 : r^2 = 4:1$ होता है।",
+    "language": "hi"
+  },
+  {
+    "id": "math033",
+    "subjectId": "math",
+    "question": "यदि द्विघात समीकरण $x^2 - 2x - 1 = 0$ के मूल $\\alpha$ और $\\beta$ हैं, तो $\\alpha^2 + \\beta^2$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$2$" },
+      { "id": "B", "text": "$4$" },
+      { "id": "C", "text": "$6$" },
+      { "id": "D", "text": "$8$" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "quadratic_equations",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** मूलों का योग $\\alpha + \\beta = 2$ और गुणनफल $\\alpha\\beta = -1$ है।\n- $\\alpha^2 + \\beta^2 = (\\alpha + \\beta)^2 - 2\\alpha\\beta = (2)^2 - 2(-1) = 4 + 2 = 6$।",
+    "language": "hi"
+  },
+  {
+    "id": "math034",
+    "subjectId": "math",
+    "question": "दो समबहुभुजों की भुजाओं की संख्या का अनुपात $1:2$ है (अर्थात् $n$ और $2n$), और उनके प्रत्येक आंतरिक कोण का अनुपात $3:4$ है। पहले बहुभुज में भुजाओं की संख्या ($n$) कितनी है?",
+    "options": [
+      { "id": "A", "text": "$4$" },
+      { "id": "B", "text": "$5$" },
+      { "id": "C", "text": "$6$" },
+      { "id": "D", "text": "$8$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "polygon",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** आंतरिक कोण का सूत्र $\\frac{(n-2)180^\\circ}{n}$ होता है।\n- अनुपात: $\\frac{(n-2)/n}{(2n-2)/2n} = \\frac{3}{4} \\implies \\frac{n-2}{n-1} = \\frac{3}{4}$।\n- $4(n-2) = 3(n-1) \\implies 4n - 8 = 3n - 3 \\implies n = 5$।",
+    "language": "hi"
+  },
+  {
+    "id": "math035",
+    "subjectId": "math",
+    "question": "यदि $x^3 + y^3 = 35$ और $x + y = 5$ है, तो $\\frac{1}{x} + \\frac{1}{y}$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$\\frac{3}{5}$" },
+      { "id": "B", "text": "$\\frac{5}{6}$" },
+      { "id": "C", "text": "$\\frac{6}{5}$" },
+      { "id": "D", "text": "$\\frac{5}{3}$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** $(x+y)^3 = x^3 + y^3 + 3xy(x+y)$\n- $125 = 35 + 3xy(5) \\implies 90 = 15xy \\implies xy = 6$।\n- $\\frac{1}{x} + \\frac{1}{y} = \\frac{x+y}{xy} = \\frac{5}{6}$।",
+    "language": "hi"
+  },
+  {
+    "id": "math036",
+    "subjectId": "math",
+    "question": "एक त्रिभुज $ABC$ में, $AB = 6$ सेमी, $AC = 8$ सेमी और $BC = 7$ सेमी है। यदि रेखाखंड $AD$ कोण $\\angle A$ का समद्विभाजक (Angle Bisector) है और भुजा $BC$ से बिंदु $D$ पर मिलता है, तो $BD$ की लंबाई क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$2$ सेमी" },
+      { "id": "B", "text": "$3$ सेमी" },
+      { "id": "C", "text": "$4$ सेमी" },
+      { "id": "D", "text": "$5$ सेमी" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** कोण समद्विभाजक प्रमेय (Angle Bisector Theorem) के अनुसार: $\\frac{AB}{AC} = \\frac{BD}{DC}$।\n- $\\frac{6}{8} = \\frac{BD}{7-BD} \\implies \\frac{3}{4} = \\frac{BD}{7-BD} \\implies 21 - 3BD = 4BD \\implies 7BD = 21 \\implies BD = 3$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math037",
+    "subjectId": "math",
+    "question": "एक ठोस धातु के बेलन (जिसकी त्रिज्या $8$ सेमी और ऊँचाई $2$ सेमी है) को पिघलाकर $2$ सेमी त्रिज्या वाले कितने छोटे गोले (Spheres) बनाए जा सकते हैं?",
+    "options": [
+      { "id": "A", "text": "$12$" },
+      { "id": "B", "text": "$16$" },
+      { "id": "C", "text": "$24$" },
+      { "id": "D", "text": "$32$" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "mensuration_3d",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** बेलन का आयतन $= \\pi (8)^2 (2) = 128\\pi$।\n- एक गोले का आयतन $= \\frac{4}{3}\\pi (2)^3 = \\frac{32\\pi}{3}$।\n- गोलों की संख्या $= \\frac{128\\pi}{32\\pi/3} = \\frac{128 \\times 3}{32} = 4 \\times 3 = 12$।",
+    "language": "hi"
+  },
+  {
+    "id": "math038",
+    "subjectId": "math",
+    "question": "सूर्य का उन्नयन कोण $60^\\circ$ से घटकर $30^\\circ$ होने पर एक टावर की छाया $20$ मीटर लंबी हो जाती है। टावर की ऊँचाई ज्ञात करें।",
+    "options": [
+      { "id": "A", "text": "$10$ मीटर" },
+      { "id": "B", "text": "$10\\sqrt{3}$ मीटर" },
+      { "id": "C", "text": "$20\\sqrt{3}$ मीटर" },
+      { "id": "D", "text": "$30$ मीटर" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height_and_distance",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** छाया में वृद्धि $d = h(\\cot 30^\\circ - \\cot 60^\\circ)$।\n- $20 = h(\\sqrt{3} - \\frac{1}{\\sqrt{3}}) = h(\\frac{2}{\\sqrt{3}})$।\n- $h = \\frac{20\\sqrt{3}}{2} = 10\\sqrt{3}$ मीटर।",
+    "language": "hi"
+  },
+  {
+    "id": "math039",
+    "subjectId": "math",
+    "question": "यदि $\\sin\\theta + \\operatorname{cosec}\\theta = 2$ है, तो $\\sin^{10}\\theta + \\operatorname{cosec}^{10}\\theta$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$1$" },
+      { "id": "B", "text": "$2$" },
+      { "id": "C", "text": "$10$" },
+      { "id": "D", "text": "$1024$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "trigonometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** चूँकि $\\operatorname{cosec}\\theta = \\frac{1}{\\sin\\theta}$ है, यह $x + \\frac{1}{x} = 2$ के रूप का है, जिसका हल $x=1$ होता है।\n- अर्थात् $\\sin\\theta = 1$ और $\\operatorname{cosec}\\theta = 1$।\n- $1^{10} + 1^{10} = 1 + 1 = 2$।",
+    "language": "hi"
+  },
+  {
+    "id": "math040",
+    "subjectId": "math",
+    "question": "यदि $3\\sin\\theta + 4\\cos\\theta = 5$ है, तो $\\tan\\theta$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$\\frac{3}{4}$" },
+      { "id": "B", "text": "$\\frac{4}{3}$" },
+      { "id": "C", "text": "$\\frac{3}{5}$" },
+      { "id": "D", "text": "$\\frac{4}{5}$" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "trigonometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** समीकरण को $5$ से भाग देने पर: $(\\frac{3}{5})\\sin\\theta + (\\frac{4}{5})\\cos\\theta = 1$।\n- इसकी तुलना $\\sin^2\\theta + \\cos^2\\theta = 1$ से करने पर $\\sin\\theta = \\frac{3}{5}$ और $\\cos\\theta = \\frac{4}{5}$ प्राप्त होता है।\n- अतः $\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta} = \\frac{3/5}{4/5} = \\frac{3}{4}$।",
+    "language": "hi"
+  }
+]
