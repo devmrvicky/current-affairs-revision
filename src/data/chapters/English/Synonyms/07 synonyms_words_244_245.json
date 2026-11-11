@@ -6,7 +6,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Dull"
+        "text": "Precise"
       },
       {
         "id": "B",
@@ -14,17 +14,17 @@
       },
       {
         "id": "C",
-        "text": "Murky"
+        "text": "Greedy"
       },
       {
         "id": "D",
-        "text": "Depressed"
+        "text": "Fragile"
       }
     ],
     "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Cheerful – खुशमिजाज; प्रसन्न. Word Tone: Positive. Example: A cheerful attitude makes work easier. Hindi: खुशमिजाज रवैया काम आसान बनाता है। Option meanings: A. Dull – फीका; नीरस; B. Gloomy – उदास; अंधकारमय; निराशाजनक; C. Murky – धुंधला; अंधकारमय; D. Depressed – उदास",
+    "explanation": "Cheerful – खुशमिजाज; प्रसन्न. Word Tone: Positive. Example: A cheerful attitude makes work easier. Hindi: खुशमिजाज रवैया काम आसान बनाता है। Option meanings: A. Precise – सटीक; B. Gloomy – उदास; निराशाजनक; C. Greedy – लालची; D. Fragile – नाजुक",
     "language": "en"
   },
   {
@@ -34,25 +34,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Inflame"
+        "text": "Decorate"
       },
       {
         "id": "B",
-        "text": "Instigate"
+        "text": "Suppress"
       },
       {
         "id": "C",
-        "text": "Incite"
+        "text": "Predict"
       },
       {
         "id": "D",
-        "text": "Provoke"
+        "text": "Illuminate"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Quell – दबाना; शांत करना; विद्रोह या अशांति रोकना. Word Tone: Positive. Example: The police managed to quell the disturbance. Hindi: पुलिस अशांति को शांत करने में सफल रही। Option meanings: A. Inflame – संदर्भानुसार संबंधित अर्थ; B. Instigate – भड़काना; C. Incite – उचित अर्थ; D. Provoke – उकसाना",
+    "explanation": "Quell – दबाना; शांत करना; विद्रोह या अशांति रोकना. Word Tone: Positive. Example: The police managed to quell the disturbance. Hindi: पुलिस अशांति को शांत करने में सफल रही। Option meanings: A. Decorate – सजाना; B. Suppress – दबाना; शांत करना; C. Predict – पूर्वानुमान करना; D. Illuminate – रोशन करना",
     "language": "en"
   },
   {
@@ -62,25 +62,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Tropical"
-      },
-      {
-        "id": "B",
-        "text": "Warm"
-      },
-      {
-        "id": "C",
         "text": "Freezing"
       },
       {
+        "id": "B",
+        "text": "Generous"
+      },
+      {
+        "id": "C",
+        "text": "Polished"
+      },
+      {
         "id": "D",
-        "text": "Hot"
+        "text": "Timid"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Frigid – अत्यधिक ठंडा; बर्फ जैसा ठंडा. Word Tone: Negative. Example: The frigid wind made walking difficult. Hindi: कड़ाके की ठंडी हवा ने चलना मुश्किल कर दिया। Option meanings: A. Tropical – उष्णकटिबंधीय; गर्म जलवायु वाला; B. Warm – गर्म; C. Freezing – जमाने वाला ठंडा; अत्यधिक ठंडा; D. Hot – गरम",
+    "explanation": "Frigid – अत्यधिक ठंडा; बर्फ जैसा ठंडा. Word Tone: Negative. Example: The frigid wind made walking difficult. Hindi: कड़ाके की ठंडी हवा ने चलना मुश्किल कर दिया। Option meanings: A. Freezing – अत्यधिक ठंडा; जमाने वाला; B. Generous – उदार; C. Polished – निखरा हुआ; D. Timid – डरपोक",
     "language": "en"
   },
   {
@@ -94,21 +94,21 @@
       },
       {
         "id": "B",
-        "text": "Evasive"
+        "text": "Circular"
       },
       {
         "id": "C",
-        "text": "Devious"
+        "text": "Miserly"
       },
       {
         "id": "D",
-        "text": "Reserved"
+        "text": "Drowsy"
       }
     ],
     "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Outspoken – बेबाक; खुलकर बोलने वाला. Word Tone: Positive. Example: The outspoken activist criticised the policy. Hindi: बेबाक कार्यकर्ता ने नीति की आलोचना की। Option meanings: A. Candid – स्पष्टवादी; B. Evasive – टालमटोल करने वाला; C. Devious – कपटी; छलपूर्ण; टेढ़े रास्ते अपनाने वाला; D. Reserved – संकोची",
+    "explanation": "Outspoken – बेबाक; खुलकर बोलने वाला. Word Tone: Positive. Example: The outspoken activist criticised the policy. Hindi: बेबाक कार्यकर्ता ने नीति की आलोचना की। Option meanings: A. Candid – स्पष्टवादी; बेबाक; B. Circular – गोलाकार; C. Miserly – कंजूस; D. Drowsy – उनींदा",
     "language": "en"
   },
   {
@@ -118,25 +118,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Icy"
-      },
-      {
-        "id": "B",
-        "text": "Frigid"
-      },
-      {
-        "id": "C",
         "text": "Frosty"
       },
       {
-        "id": "D",
+        "id": "B",
+        "text": "Arctic"
+      },
+      {
+        "id": "C",
         "text": "Warm"
+      },
+      {
+        "id": "D",
+        "text": "Icy"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Freezing – जमाने वाला ठंडा; अत्यधिक ठंडा. Word Tone: Negative. Example: It was freezing outside. Hindi: बाहर कड़ाके की ठंड थी। Option meanings: A. Icy – बर्फीला; B. Frigid – अत्यधिक ठंडा; बर्फ जैसा ठंडा; C. Frosty – पाला पड़ा हुआ; D. Warm – गर्म",
+    "explanation": "Freezing – जमाने वाला ठंडा; अत्यधिक ठंडा. Word Tone: Negative. Example: It was freezing outside. Hindi: बाहर कड़ाके की ठंड थी। Option meanings: A. Frosty – पाले जैसा ठंडा; B. Arctic – ध्रुवीय; अत्यधिक ठंडा; C. Warm – गर्म; D. Icy – बर्फीला",
     "language": "en"
   },
   {
@@ -146,25 +146,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Adept"
+        "text": "Reserved"
       },
       {
         "id": "B",
-        "text": "Talkative"
+        "text": "Silent"
       },
       {
         "id": "C",
-        "text": "Garrulous"
+        "text": "Taciturn"
       },
       {
         "id": "D",
-        "text": "Voluble"
+        "text": "Talkative"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Reticent – संकोची; कम बोलने वाला; विचार प्रकट करने में अनिच्छुक. Word Tone: Neutral. Example: She was reticent about her personal life. Hindi: वह अपने निजी जीवन के बारे में कम बोलती थी। Option meanings: A. Adept – संदर्भानुसार संबंधित अर्थ; B. Talkative – बातूनी; C. Garrulous – बहुत बोलने वाला; बातूनी; D. Voluble – धाराप्रवाह और बहुत बोलने वाला",
+    "explanation": "Reticent – संकोची; कम बोलने वाला; विचार प्रकट करने में अनिच्छुक. Word Tone: Neutral. Example: She was reticent about her personal life. Hindi: वह अपने निजी जीवन के बारे में कम बोलती थी। Option meanings: A. Reserved – संकोची; कम बोलने वाला; B. Silent – मौन; C. Taciturn – अल्पभाषी; D. Talkative – बातूनी; अधिक बोलने वाला",
     "language": "en"
   },
   {
@@ -174,25 +174,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Agitated"
+        "text": "Perturbed"
       },
       {
         "id": "B",
-        "text": "Upset"
+        "text": "Malleable"
       },
       {
         "id": "C",
-        "text": "Furious"
+        "text": "Reticent"
       },
       {
         "id": "D",
-        "text": "Disturbed"
+        "text": "Diligent"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Unperturbed – अविचलित; शांत; परेशान न होने वाला. Word Tone: Positive. Example: He remained unperturbed during the crisis. Hindi: संकट के दौरान वह शांत बना रहा। Option meanings: A. Agitated – व्याकुल; B. Upset – दुखी; परेशान; C. Furious – अत्यंत क्रोधित; गुस्से से भरा; D. Disturbed – परेशान",
+    "explanation": "Unperturbed – अविचलित; शांत; परेशान न होने वाला. Word Tone: Positive. Example: He remained unperturbed during the crisis. Hindi: संकट के दौरान वह शांत बना रहा। Option meanings: A. Perturbed – व्याकुल; विचलित; B. Malleable – आसानी से ढलने वाला; C. Reticent – कम बोलने वाला; D. Diligent – परिश्रमी",
     "language": "en"
   },
   {
@@ -202,7 +202,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Mighty"
+        "text": "Exact"
       },
       {
         "id": "B",
@@ -210,17 +210,17 @@
       },
       {
         "id": "C",
-        "text": "Robust"
+        "text": "Cordial"
       },
       {
         "id": "D",
-        "text": "Powerful"
+        "text": "Rapid"
       }
     ],
     "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Feeble – दुर्बल; कमजोर. Word Tone: Negative. Example: He made a feeble attempt to defend himself. Hindi: उसने अपना बचाव करने का कमजोर प्रयास किया। Option meanings: A. Mighty – शक्तिशाली; B. Weak – उचित अर्थ; C. Robust – सुदृढ़; मजबूत; D. Powerful – ताकतवर",
+    "explanation": "Feeble – दुर्बल; कमजोर. Word Tone: Negative. Example: He made a feeble attempt to defend himself. Hindi: उसने अपना बचाव करने का कमजोर प्रयास किया। Option meanings: A. Exact – सटीक; B. Weak – कमजोर; दुर्बल; C. Cordial – हार्दिक; D. Rapid – तेज",
     "language": "en"
   },
   {
@@ -230,25 +230,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Frugal"
+        "text": "Opulent"
       },
       {
         "id": "B",
-        "text": "Sparing"
+        "text": "Lavish"
       },
       {
         "id": "C",
-        "text": "Economical"
+        "text": "Frugal"
       },
       {
         "id": "D",
-        "text": "Thrifty"
+        "text": "Wasteful"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Extravagant – फिजूलखर्च; अपव्ययी; अत्यधिक खर्चीला. Word Tone: Negative. Example: He made an extravagant purchase. Hindi: उसने बहुत फिजूलखर्ची वाली खरीदारी की। Option meanings: A. Frugal – मितव्ययी; सोच-समझकर खर्च करने वाला; B. Sparing – संदर्भानुसार संबंधित अर्थ; C. Economical – किफायती; कम खर्च वाला; D. Thrifty – संदर्भानुसार संबंधित अर्थ",
+    "explanation": "Extravagant – फिजूलखर्च; अपव्ययी; अत्यधिक खर्चीला. Word Tone: Negative. Example: He made an extravagant purchase. Hindi: उसने बहुत फिजूलखर्ची वाली खरीदारी की। Option meanings: A. Opulent – धनाढ्य; वैभवशाली; B. Lavish – खर्चीला; भव्य; C. Frugal – मितव्ययी; कम खर्च करने वाला; D. Wasteful – अपव्ययी",
     "language": "en"
   },
   {
@@ -258,25 +258,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Tender"
+        "text": "Fierce"
       },
       {
         "id": "B",
-        "text": "Mild"
+        "text": "Gentle"
       },
       {
         "id": "C",
-        "text": "Docile"
+        "text": "Aggressive"
       },
       {
         "id": "D",
-        "text": "Gentle"
+        "text": "Savage"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Ferocious – क्रूर; उग्र; हिंसक. Word Tone: Negative. Example: The ferocious dog frightened the visitors. Hindi: उग्र कुत्ते ने आगंतुकों को डरा दिया। Option meanings: A. Tender – कोमल; B. Mild – नरम; C. Docile – विनम्र; D. Gentle – कोमल; नम्र; शांत स्वभाव वाला",
+    "explanation": "Ferocious – क्रूर; उग्र; हिंसक. Word Tone: Negative. Example: The ferocious dog frightened the visitors. Hindi: उग्र कुत्ते ने आगंतुकों को डरा दिया। Option meanings: A. Fierce – उग्र; B. Gentle – कोमल; नम्र; C. Aggressive – आक्रामक; D. Savage – जंगली; क्रूर",
     "language": "en"
   },
   {
@@ -286,25 +286,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Frenzied"
+        "text": "Courteous"
       },
       {
         "id": "B",
-        "text": "Calm"
+        "text": "Frenzied"
       },
       {
         "id": "C",
-        "text": "Controlled"
+        "text": "Calm"
       },
       {
         "id": "D",
-        "text": "Composed"
+        "text": "Methodical"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Berserk – बेकाबू; उन्मत्त; हिंसक उत्तेजना में. Word Tone: Negative. Example: The fans ran berserk after the victory. Hindi: जीत के बाद प्रशंसक बेकाबू हो गए। Option meanings: A. Frenzied – उन्मत्त; B. Calm – शांत; C. Controlled – नियंत्रित; D. Composed – संयत",
+    "explanation": "Berserk – बेकाबू; उन्मत्त; हिंसक उत्तेजना में. Word Tone: Negative. Example: The fans ran berserk after the victory. Hindi: जीत के बाद प्रशंसक बेकाबू हो गए। Option meanings: A. Courteous – विनम्र; B. Frenzied – उन्मत्त; बेकाबू उत्तेजना में; C. Calm – शांत; D. Methodical – व्यवस्थित",
     "language": "en"
   },
   {
@@ -314,25 +314,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Sturdy"
+        "text": "Candid"
       },
       {
         "id": "B",
-        "text": "Strong"
+        "text": "Energetic"
       },
       {
         "id": "C",
-        "text": "Feeble"
+        "text": "Massive"
       },
       {
         "id": "D",
-        "text": "Robust"
+        "text": "Feeble"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Frail – कमजोर; दुर्बल; नाजुक. Word Tone: Negative. Example: The frail old man walked slowly. Hindi: कमजोर वृद्ध व्यक्ति धीरे-धीरे चला। Option meanings: A. Sturdy – मजबूत; टिकाऊ; B. Strong – मजबूत; C. Feeble – दुर्बल; कमजोर; D. Robust – सुदृढ़; मजबूत",
+    "explanation": "Frail – कमजोर; दुर्बल; नाजुक. Word Tone: Negative. Example: The frail old man walked slowly. Hindi: कमजोर वृद्ध व्यक्ति धीरे-धीरे चला। Option meanings: A. Candid – स्पष्टवादी; B. Energetic – ऊर्जावान; C. Massive – विशाल; D. Feeble – दुर्बल; कमजोर",
     "language": "en"
   },
   {
@@ -342,25 +342,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Freezing"
+        "text": "Subtropical"
       },
       {
         "id": "B",
-        "text": "Arctic"
+        "text": "Humid"
       },
       {
         "id": "C",
-        "text": "Icy"
+        "text": "Polar"
       },
       {
         "id": "D",
-        "text": "Frigid"
+        "text": "Equatorial"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Tropical – उष्णकटिबंधीय; गर्म जलवायु वाला. Word Tone: Neutral. Example: They moved to a tropical island. Hindi: वे एक उष्णकटिबंधीय द्वीप पर चले गए। Option meanings: A. Freezing – जमाने वाला ठंडा; अत्यधिक ठंडा; B. Arctic – ध्रुवीय; अत्यधिक ठंडा; C. Icy – बर्फीला; D. Frigid – अत्यधिक ठंडा; बर्फ जैसा ठंडा",
+    "explanation": "Tropical – उष्णकटिबंधीय; गर्म जलवायु वाला. Word Tone: Neutral. Example: They moved to a tropical island. Hindi: वे एक उष्णकटिबंधीय द्वीप पर चले गए। Option meanings: A. Subtropical – उपोष्णकटिबंधीय; B. Humid – नम; आर्द्र; C. Polar – ध्रुवीय; अत्यधिक ठंडे क्षेत्र से संबंधित; D. Equatorial – भूमध्यरेखीय",
     "language": "en"
   },
   {
@@ -374,21 +374,21 @@
       },
       {
         "id": "B",
-        "text": "Sensible"
+        "text": "Accurate"
       },
       {
         "id": "C",
-        "text": "Mature"
+        "text": "Sturdy"
       },
       {
         "id": "D",
-        "text": "Wise"
+        "text": "Sincere"
       }
     ],
     "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Puerile – बचकाना; अपरिपक्व. Word Tone: Negative. Example: His puerile jokes annoyed everyone. Hindi: उसके बचकाने मजाकों ने सभी को परेशान किया। Option meanings: A. Childish – बचकाना; B. Sensible – समझदार; C. Mature – परिपक्व; D. Wise – बुद्धिमान",
+    "explanation": "Puerile – बचकाना; अपरिपक्व. Word Tone: Negative. Example: His puerile jokes annoyed everyone. Hindi: उसके बचकाने मजाकों ने सभी को परेशान किया। Option meanings: A. Childish – बचकाना; अपरिपक्व; B. Accurate – सटीक; C. Sturdy – मजबूत; D. Sincere – ईमानदार",
     "language": "en"
   },
   {
@@ -398,25 +398,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Reliable"
+        "text": "Suspicious"
       },
       {
         "id": "B",
-        "text": "Certain"
+        "text": "Uncertain"
       },
       {
         "id": "C",
-        "text": "Authentic"
+        "text": "Questionable"
       },
       {
         "id": "D",
-        "text": "Genuine"
+        "text": "Trustworthy"
       }
     ],
     "correctAnswer": "D",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Dubious – संदिग्ध; अविश्वसनीय. Word Tone: Negative. Example: The officer questioned the dubious transaction. Hindi: अधिकारी ने संदिग्ध लेन-देन पर सवाल उठाया। Option meanings: A. Reliable – विश्वसनीय; B. Certain – निश्चित; C. Authentic – प्रामाणिक; D. Genuine – असली",
+    "explanation": "Dubious – संदिग्ध; अविश्वसनीय. Word Tone: Negative. Example: The officer questioned the dubious transaction. Hindi: अधिकारी ने संदिग्ध लेन-देन पर सवाल उठाया। Option meanings: A. Suspicious – संदिग्ध; B. Uncertain – अनिश्चित; C. Questionable – संदेहास्पद; D. Trustworthy – विश्वसनीय; भरोसेमंद",
     "language": "en"
   },
   {
@@ -426,25 +426,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Weaken"
+        "text": "Divide"
       },
       {
         "id": "B",
-        "text": "Strengthen"
+        "text": "Abandon"
       },
       {
         "id": "C",
-        "text": "Damage"
+        "text": "Neglect"
       },
       {
         "id": "D",
-        "text": "Undermine"
+        "text": "Strengthen"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Fortify – मजबूत करना; किलेबंदी करना. Word Tone: Positive. Example: The walls were fortified against attack. Hindi: दीवारों को हमले से बचाने के लिए मजबूत किया गया। Option meanings: A. Weaken – कमजोर करना; B. Strengthen – मजबूत करना; C. Damage – नुकसान पहुँचाना; D. Undermine – कमजोर करना; नींव हिला देना",
+    "explanation": "Fortify – मजबूत करना; किलेबंदी करना. Word Tone: Positive. Example: The walls were fortified against attack. Hindi: दीवारों को हमले से बचाने के लिए मजबूत किया गया। Option meanings: A. Divide – विभाजित करना; B. Abandon – त्यागना; C. Neglect – उपेक्षा करना; D. Strengthen – मजबूत करना",
     "language": "en"
   },
   {
@@ -454,25 +454,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Sorrow"
+        "text": "Silence"
       },
       {
         "id": "B",
-        "text": "Happiness"
+        "text": "Caution"
       },
       {
         "id": "C",
-        "text": "Woe"
+        "text": "Friction"
       },
       {
         "id": "D",
-        "text": "Misery"
+        "text": "Joy"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Glee – अत्यधिक खुशी; उल्लास. Word Tone: Positive. Example: The children shouted with glee. Hindi: बच्चे खुशी से चिल्ला उठे। Option meanings: A. Sorrow – दुख; B. Happiness – खुशी; C. Woe – दुख; शोक; D. Misery – दुर्दशा",
+    "explanation": "Glee – अत्यधिक खुशी; उल्लास. Word Tone: Positive. Example: The children shouted with glee. Hindi: बच्चे खुशी से चिल्ला उठे। Option meanings: A. Silence – मौन; B. Caution – सावधानी; C. Friction – घर्षण; मतभेद; D. Joy – आनंद; उल्लास",
     "language": "en"
   },
   {
@@ -482,25 +482,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Outspoken"
+        "text": "Timid"
       },
       {
         "id": "B",
-        "text": "Devious"
+        "text": "Fragile"
       },
       {
         "id": "C",
-        "text": "Uncandid"
+        "text": "Secretive"
       },
       {
         "id": "D",
-        "text": "Evasive"
+        "text": "Candid"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Forthright – स्पष्टवादी; साफ-साफ बोलने वाला. Word Tone: Positive. Example: She was forthright about her concerns. Hindi: उसने अपनी चिंताओं के बारे में साफ-साफ बात की। Option meanings: A. Outspoken – बेबाक; खुलकर बोलने वाला; B. Devious – कपटी; छलपूर्ण; टेढ़े रास्ते अपनाने वाला; C. Uncandid – निष्कपट नहीं; D. Evasive – टालमटोल करने वाला",
+    "explanation": "Forthright – स्पष्टवादी; साफ-साफ बोलने वाला. Word Tone: Positive. Example: She was forthright about her concerns. Hindi: उसने अपनी चिंताओं के बारे में साफ-साफ बात की। Option meanings: A. Timid – डरपोक; B. Fragile – नाजुक; C. Secretive – गुप्त रखने वाला; D. Candid – स्पष्टवादी; साफ-साफ बोलने वाला",
     "language": "en"
   },
   {
@@ -510,11 +510,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Allow"
+        "text": "Assemble"
       },
       {
         "id": "B",
-        "text": "Permit"
+        "text": "Encourage"
       },
       {
         "id": "C",
@@ -522,13 +522,13 @@
       },
       {
         "id": "D",
-        "text": "Authorise"
+        "text": "Repair"
       }
     ],
     "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Forbid – मना करना; निषेध करना. Word Tone: Negative. Example: The rules forbid smoking in this area. Hindi: नियम इस क्षेत्र में धूम्रपान करने से रोकते हैं। Option meanings: A. Allow – अनुमति देना; B. Permit – संदर्भानुसार संबंधित अर्थ; C. Prohibit – निषेध करना; D. Authorise – अधिकृत करना",
+    "explanation": "Forbid – मना करना; निषेध करना. Word Tone: Negative. Example: The rules forbid smoking in this area. Hindi: नियम इस क्षेत्र में धूम्रपान करने से रोकते हैं। Option meanings: A. Assemble – एकत्र करना; B. Encourage – प्रोत्साहित करना; C. Prohibit – निषेध करना; रोकना; D. Repair – मरम्मत करना",
     "language": "en"
   },
   {
@@ -538,25 +538,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Cheerful"
-      },
-      {
-        "id": "B",
         "text": "Downcast"
       },
       {
+        "id": "B",
+        "text": "Precise"
+      },
+      {
         "id": "C",
-        "text": "Radiant"
+        "text": "Energetic"
       },
       {
         "id": "D",
-        "text": "Buoyant"
+        "text": "Cautious"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Depressed – उदास; निराश; अवसादग्रस्त. Word Tone: Negative. Example: She felt depressed after the setback. Hindi: असफलता के बाद वह उदास महसूस कर रही थी। Option meanings: A. Cheerful – खुशमिजाज; प्रसन्न; B. Downcast – निराश; C. Radiant – दमकता हुआ; D. Buoyant – प्रसन्नचित्त; आशावादी",
+    "explanation": "Depressed – उदास; निराश; अवसादग्रस्त. Word Tone: Negative. Example: She felt depressed after the setback. Hindi: असफलता के बाद वह उदास महसूस कर रही थी। Option meanings: A. Downcast – उदास; निराश; B. Precise – सटीक; C. Energetic – ऊर्जावान; D. Cautious – सावधान",
     "language": "en"
   },
   {
@@ -566,7 +566,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Garrulous"
+        "text": "Reserved"
       },
       {
         "id": "B",
@@ -574,17 +574,17 @@
       },
       {
         "id": "C",
-        "text": "Talkative"
+        "text": "Silent"
       },
       {
         "id": "D",
-        "text": "Voluble"
+        "text": "Reticent"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Taciturn – कम बोलने वाला; अल्पभाषी. Word Tone: Neutral. Example: The taciturn man rarely joined conversations. Hindi: कम बोलने वाला व्यक्ति शायद ही कभी बातचीत में शामिल होता था। Option meanings: A. Garrulous – बहुत बोलने वाला; बातूनी; B. Loquacious – वाचाल; C. Talkative – बातूनी; D. Voluble – धाराप्रवाह और बहुत बोलने वाला",
+    "explanation": "Taciturn – कम बोलने वाला; अल्पभाषी. Word Tone: Neutral. Example: The taciturn man rarely joined conversations. Hindi: कम बोलने वाला व्यक्ति शायद ही कभी बातचीत में शामिल होता था। Option meanings: A. Reserved – संकोची; B. Loquacious – बहुत बातूनी; वाचाल; C. Silent – मौन; D. Reticent – कम बोलने वाला",
     "language": "en"
   },
   {
@@ -594,25 +594,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Original"
+        "text": "Fictitious"
       },
       {
         "id": "B",
-        "text": "Genuine"
+        "text": "Bogus"
       },
       {
         "id": "C",
-        "text": "Real"
+        "text": "Authentic"
       },
       {
         "id": "D",
-        "text": "Authentic"
+        "text": "Counterfeit"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Spurious – जाली; नकली; झूठा. Word Tone: Negative. Example: The claim was based on spurious evidence. Hindi: दावा जाली सबूतों पर आधारित था। Option meanings: A. Original – मूल; असली; B. Genuine – असली; C. Real – वास्तविक; असली; D. Authentic – प्रामाणिक",
+    "explanation": "Spurious – जाली; नकली; झूठा. Word Tone: Negative. Example: The claim was based on spurious evidence. Hindi: दावा जाली सबूतों पर आधारित था। Option meanings: A. Fictitious – काल्पनिक; B. Bogus – जाली; C. Authentic – प्रामाणिक; असली; D. Counterfeit – नकली",
     "language": "en"
   },
   {
@@ -622,25 +622,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Ephemeral"
+        "text": "Cautious"
       },
       {
         "id": "B",
-        "text": "Enduring"
+        "text": "Ephemeral"
       },
       {
         "id": "C",
-        "text": "Lasting"
+        "text": "Permanent"
       },
       {
         "id": "D",
-        "text": "Permanent"
+        "text": "Vast"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Fleeting – क्षणिक; बहुत कम समय तक रहने वाला. Word Tone: Neutral. Example: The fleeting moment soon became a cherished memory. Hindi: वह क्षणिक पल जल्द ही एक अनमोल याद बन गया। Option meanings: A. Ephemeral – उचित अर्थ; B. Enduring – टिकाऊ; C. Lasting – स्थायी; लंबे समय तक रहने वाला; D. Permanent – स्थायी",
+    "explanation": "Fleeting – क्षणिक; बहुत कम समय तक रहने वाला. Word Tone: Neutral. Example: The fleeting moment soon became a cherished memory. Hindi: वह क्षणिक पल जल्द ही एक अनमोल याद बन गया। Option meanings: A. Cautious – सावधान; B. Ephemeral – क्षणभंगुर; अल्पकालिक; C. Permanent – स्थायी; D. Vast – विशाल",
     "language": "en"
   },
   {
@@ -650,25 +650,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Downcast"
+        "text": "Lively"
       },
       {
         "id": "B",
-        "text": "Gloomy"
+        "text": "Optimistic"
       },
       {
         "id": "C",
-        "text": "Unhappy"
+        "text": "Despondent"
       },
       {
         "id": "D",
-        "text": "Depressed"
+        "text": "Upbeat"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Buoyant – प्रसन्नचित्त; आशावादी; उत्साही. Word Tone: Positive. Example: Despite the setback, he remained buoyant. Hindi: असफलता के बावजूद वह उत्साही बना रहा। Option meanings: A. Downcast – निराश; B. Gloomy – उदास; अंधकारमय; निराशाजनक; C. Unhappy – दुखी; D. Depressed – उदास",
+    "explanation": "Buoyant – प्रसन्नचित्त; आशावादी; उत्साही. Word Tone: Positive. Example: Despite the setback, he remained buoyant. Hindi: असफलता के बावजूद वह उत्साही बना रहा। Option meanings: A. Lively – जीवंत; B. Optimistic – आशावादी; C. Despondent – निराश; हताश; D. Upbeat – उत्साही",
     "language": "en"
   },
   {
@@ -678,25 +678,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Intimidate"
+        "text": "Comfort"
       },
       {
         "id": "B",
-        "text": "Alarm"
+        "text": "Encourage"
       },
       {
         "id": "C",
-        "text": "Terrify"
+        "text": "Console"
       },
       {
         "id": "D",
-        "text": "Frighten"
+        "text": "Alarm"
       }
     ],
     "correctAnswer": "D",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Reassure – आश्वस्त करना; डर दूर करना. Word Tone: Positive. Example: The doctor tried to reassure the patient. Hindi: डॉक्टर ने मरीज को आश्वस्त करने की कोशिश की। Option meanings: A. Intimidate – डराना; B. Alarm – घबराहट; C. Terrify – भयभीत करना; D. Frighten – उचित अर्थ",
+    "explanation": "Reassure – आश्वस्त करना; डर दूर करना. Word Tone: Positive. Example: The doctor tried to reassure the patient. Hindi: डॉक्टर ने मरीज को आश्वस्त करने की कोशिश की। Option meanings: A. Comfort – सांत्वना देना; B. Encourage – प्रोत्साहित करना; C. Console – दिलासा देना; D. Alarm – चिंतित या भयभीत करना",
     "language": "en"
   },
   {
@@ -710,21 +710,21 @@
       },
       {
         "id": "B",
-        "text": "Selfish"
+        "text": "Careless"
       },
       {
         "id": "C",
-        "text": "Miserly"
+        "text": "Generous"
       },
       {
         "id": "D",
-        "text": "Generous"
+        "text": "Rigid"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Magnanimous – उदार; विशालहृदय; क्षमाशील. Word Tone: Positive. Example: He was magnanimous in victory. Hindi: वह जीत के बाद भी उदार बना रहा। Option meanings: A. Stingy – कंजूस; कृपण; B. Selfish – स्वार्थी; केवल अपना हित देखने वाला; C. Miserly – कंजूस; अत्यधिक धन बचाने वाला; D. Generous – उदार; दानशील; खुले दिल वाला",
+    "explanation": "Magnanimous – उदार; विशालहृदय; क्षमाशील. Word Tone: Positive. Example: He was magnanimous in victory. Hindi: वह जीत के बाद भी उदार बना रहा। Option meanings: A. Stingy – कंजूस; B. Careless – लापरवाह; C. Generous – उदार; दरियादिल; D. Rigid – कठोर; अड़ियल",
     "language": "en"
   },
   {
@@ -734,25 +734,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Solemn"
+        "text": "Light-hearted"
       },
       {
         "id": "B",
-        "text": "Grave"
+        "text": "Frivolous"
       },
       {
         "id": "C",
-        "text": "Earnest"
+        "text": "Solemn"
       },
       {
         "id": "D",
-        "text": "Serious"
+        "text": "Facetious"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Flippant – गंभीरता या सम्मान न दिखाने वाला; हल्का-फुल्का. Word Tone: Negative. Example: His flippant remarks offended the audience. Hindi: उसकी गैर-गंभीर टिप्पणियों से श्रोता नाराज़ हुए। Option meanings: A. Solemn – गंभीर; औपचारिक; गरिमामय; B. Grave – संदर्भानुसार संबंधित अर्थ; C. Earnest – गंभीर; ईमानदार; सच्चे मन से किया गया; D. Serious – उचित अर्थ",
+    "explanation": "Flippant – गंभीरता या सम्मान न दिखाने वाला; हल्का-फुल्का. Word Tone: Negative. Example: His flippant remarks offended the audience. Hindi: उसकी गैर-गंभीर टिप्पणियों से श्रोता नाराज़ हुए। Option meanings: A. Light-hearted – हल्के-फुल्के स्वभाव वाला; B. Frivolous – तुच्छ; गैर-गंभीर; C. Solemn – गंभीर; गरिमामय; D. Facetious – मजाकिया; गंभीरता रहित",
     "language": "en"
   },
   {
@@ -766,21 +766,21 @@
       },
       {
         "id": "B",
-        "text": "Pacify"
+        "text": "Soothe"
       },
       {
         "id": "C",
-        "text": "Quell"
+        "text": "Gather"
       },
       {
         "id": "D",
-        "text": "Suppress"
+        "text": "Measure"
       }
     ],
     "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Foment – भड़काना; उकसाना; अशांति पैदा करना. Word Tone: Negative. Example: The speaker tried to foment unrest. Hindi: वक्ता ने अशांति भड़काने की कोशिश की। Option meanings: A. Incite – उचित अर्थ; B. Pacify – शांत करना; C. Quell – दबाना; शांत करना; विद्रोह या अशांति रोकना; D. Suppress – दबाना",
+    "explanation": "Foment – भड़काना; उकसाना; अशांति पैदा करना. Word Tone: Negative. Example: The speaker tried to foment unrest. Hindi: वक्ता ने अशांति भड़काने की कोशिश की। Option meanings: A. Incite – भड़काना; उकसाना; B. Soothe – शांत करना; C. Gather – एकत्र करना; D. Measure – मापना",
     "language": "en"
   },
   {
@@ -790,7 +790,7 @@
     "options": [
       {
         "id": "A",
-        "text": "Reticent"
+        "text": "Precise"
       },
       {
         "id": "B",
@@ -802,13 +802,13 @@
       },
       {
         "id": "D",
-        "text": "Taciturn"
+        "text": "Patient"
       }
     ],
     "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Garrulous – बहुत बोलने वाला; बातूनी. Word Tone: Negative. Example: The garrulous passenger talked throughout the journey. Hindi: बातूनी यात्री पूरी यात्रा में बोलता रहा। Option meanings: A. Reticent – संकोची; कम बोलने वाला; विचार प्रकट करने में अनिच्छुक; B. Talkative – बातूनी; C. Quiet – शांत; D. Taciturn – कम बोलने वाला; अल्पभाषी",
+    "explanation": "Garrulous – बहुत बोलने वाला; बातूनी. Word Tone: Negative. Example: The garrulous passenger talked throughout the journey. Hindi: बातूनी यात्री पूरी यात्रा में बोलता रहा। Option meanings: A. Precise – सटीक; B. Talkative – बातूनी; बहुत बोलने वाला; C. Quiet – शांत; कम बोलने वाला; D. Patient – धैर्यवान",
     "language": "en"
   },
   {
@@ -818,25 +818,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Cowardly"
+        "text": "Courageous"
       },
       {
         "id": "B",
-        "text": "Craven"
+        "text": "Bitter"
       },
       {
         "id": "C",
-        "text": "Timid"
+        "text": "Flexible"
       },
       {
         "id": "D",
-        "text": "Courageous"
+        "text": "Cowardly"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Gallant – बहादुर; वीर; शिष्ट. Word Tone: Positive. Example: The gallant soldier rescued the child. Hindi: बहादुर सैनिक ने बच्चे को बचाया। Option meanings: A. Cowardly – कायर; B. Craven – कायर; अत्यंत डरपोक; C. Timid – संदर्भानुसार संबंधित अर्थ; D. Courageous – साहसी",
+    "explanation": "Gallant – बहादुर; वीर; शिष्ट. Word Tone: Positive. Example: The gallant soldier rescued the child. Hindi: बहादुर सैनिक ने बच्चे को बचाया। Option meanings: A. Courageous – साहसी; बहादुर; B. Bitter – कटु; C. Flexible – लचीला; D. Cowardly – कायर",
     "language": "en"
   },
   {
@@ -846,11 +846,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Facilitate"
+        "text": "Admire"
       },
       {
         "id": "B",
-        "text": "Allow"
+        "text": "Permit"
       },
       {
         "id": "C",
@@ -858,13 +858,13 @@
       },
       {
         "id": "D",
-        "text": "Enable"
+        "text": "Collect"
       }
     ],
     "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Preclude – रोकना; असंभव बना देना. Word Tone: Neutral. Example: Lack of evidence may preclude further action. Hindi: सबूतों की कमी आगे की कार्रवाई रोक सकती है। Option meanings: A. Facilitate – सुगम बनाना; B. Allow – अनुमति देना; C. Prevent – रोकना; D. Enable – सक्षम बनाना",
+    "explanation": "Preclude – रोकना; असंभव बना देना. Word Tone: Neutral. Example: Lack of evidence may preclude further action. Hindi: सबूतों की कमी आगे की कार्रवाई रोक सकती है। Option meanings: A. Admire – प्रशंसा करना; B. Permit – अनुमति देना; C. Prevent – रोकना; असंभव बना देना; D. Collect – इकट्ठा करना",
     "language": "en"
   },
   {
@@ -874,25 +874,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Perfume"
-      },
-      {
-        "id": "B",
         "text": "Fragrance"
       },
       {
+        "id": "B",
+        "text": "Stink"
+      },
+      {
         "id": "C",
-        "text": "Aroma"
+        "text": "Odour"
       },
       {
         "id": "D",
-        "text": "Sweetness"
+        "text": "Reek"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Stench – दुर्गंध; बदबू. Word Tone: Negative. Example: A terrible stench came from the drain. Hindi: नाली से भयंकर दुर्गंध आ रही थी। Option meanings: A. Perfume – संदर्भानुसार संबंधित अर्थ; B. Fragrance – सुगंध; खुशबू; C. Aroma – खुशबू; D. Sweetness – संदर्भानुसार संबंधित अर्थ",
+    "explanation": "Stench – दुर्गंध; बदबू. Word Tone: Negative. Example: A terrible stench came from the drain. Hindi: नाली से भयंकर दुर्गंध आ रही थी। Option meanings: A. Fragrance – सुगंध; खुशबू; B. Stink – बदबू; C. Odour – गंध; D. Reek – तीव्र दुर्गंध",
     "language": "en"
   },
   {
@@ -902,25 +902,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Fortify"
+        "text": "Weaken"
       },
       {
         "id": "B",
-        "text": "Strengthen"
+        "text": "Erode"
       },
       {
         "id": "C",
-        "text": "Support"
+        "text": "Strengthen"
       },
       {
         "id": "D",
-        "text": "Reinforce"
+        "text": "Sabotage"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Undermine – कमजोर करना; नींव हिला देना. Word Tone: Negative. Example: False rumours can undermine public trust. Hindi: झूठी अफवाहें जनता के भरोसे को कमजोर कर सकती हैं। Option meanings: A. Fortify – मजबूत करना; किलेबंदी करना; B. Strengthen – मजबूत करना; C. Support – समर्थन करना; D. Reinforce – और मजबूत करना",
+    "explanation": "Undermine – कमजोर करना; नींव हिला देना. Word Tone: Negative. Example: False rumours can undermine public trust. Hindi: झूठी अफवाहें जनता के भरोसे को कमजोर कर सकती हैं। Option meanings: A. Weaken – कमजोर करना; B. Erode – धीरे-धीरे नष्ट करना; C. Strengthen – मजबूत करना; सुदृढ़ बनाना; D. Sabotage – जानबूझकर नुकसान पहुँचाना",
     "language": "en"
   },
   {
@@ -934,21 +934,21 @@
       },
       {
         "id": "B",
-        "text": "冷ness"
+        "text": "Enthusiasm"
       },
       {
         "id": "C",
-        "text": "Disinterest"
+        "text": "Zeal"
       },
       {
         "id": "D",
-        "text": "Indifference"
+        "text": "Ardour"
       }
     ],
     "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Passion – जुनून; प्रबल भावना. Word Tone: Positive. Example: She has a passion for learning languages. Hindi: उसे भाषाएँ सीखने का जुनून है। Option meanings: A. Apathy – उदासीनता; B. 冷ness – संदर्भानुसार संबंधित अर्थ; C. Disinterest – अरुचि; D. Indifference – उदासीनता",
+    "explanation": "Passion – जुनून; प्रबल भावना. Word Tone: Positive. Example: She has a passion for learning languages. Hindi: उसे भाषाएँ सीखने का जुनून है। Option meanings: A. Apathy – उदासीनता; उत्साह का अभाव; B. Enthusiasm – उत्साह; C. Zeal – जोश; उत्साह; D. Ardour – प्रबल उत्साह",
     "language": "en"
   },
   {
@@ -962,11 +962,11 @@
       },
       {
         "id": "B",
-        "text": "Disperse"
+        "text": "Scatter"
       },
       {
         "id": "C",
-        "text": "Scatter"
+        "text": "Disperse"
       },
       {
         "id": "D",
@@ -976,7 +976,7 @@
     "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Congregate – एकत्र होना; समूह में इकट्ठा होना. Word Tone: Neutral. Example: The villagers congregated near the temple. Hindi: ग्रामीण मंदिर के पास इकट्ठा हुए। Option meanings: A. Assemble – उचित अर्थ; B. Disperse – तितर-बितर करना; C. Scatter – बिखेरना; D. Divide – विभाजित करना",
+    "explanation": "Congregate – एकत्र होना; समूह में इकट्ठा होना. Word Tone: Neutral. Example: The villagers congregated near the temple. Hindi: ग्रामीण मंदिर के पास इकट्ठा हुए। Option meanings: A. Assemble – एकत्र होना; इकट्ठा होना; B. Scatter – बिखरना; C. Disperse – तितर-बितर होना; D. Divide – विभाजित करना",
     "language": "en"
   },
   {
@@ -986,25 +986,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Wise"
-      },
-      {
-        "id": "B",
-        "text": "Puerile"
-      },
-      {
-        "id": "C",
         "text": "Solemn"
       },
       {
+        "id": "B",
+        "text": "Mature"
+      },
+      {
+        "id": "C",
+        "text": "Trivial"
+      },
+      {
         "id": "D",
-        "text": "Serious"
+        "text": "Diligent"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Frivolous – तुच्छ; बचकाना; गंभीरता रहित. Word Tone: Negative. Example: The court rejected the frivolous petition. Hindi: अदालत ने तुच्छ याचिका खारिज कर दी। Option meanings: A. Wise – बुद्धिमान; B. Puerile – बचकाना; अपरिपक्व; C. Solemn – गंभीर; औपचारिक; गरिमामय; D. Serious – संदर्भानुसार संबंधित अर्थ",
+    "explanation": "Frivolous – तुच्छ; बचकाना; गंभीरता रहित. Word Tone: Negative. Example: The court rejected the frivolous petition. Hindi: अदालत ने तुच्छ याचिका खारिज कर दी। Option meanings: A. Solemn – गंभीर; B. Mature – परिपक्व; C. Trivial – तुच्छ; महत्त्वहीन; D. Diligent – परिश्रमी",
     "language": "en"
   },
   {
@@ -1014,11 +1014,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Comforting"
+        "text": "Calm"
       },
       {
         "id": "B",
-        "text": "Pleasant"
+        "text": "Comforting"
       },
       {
         "id": "C",
@@ -1032,7 +1032,7 @@
     "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Scary – डरावना; भय पैदा करने वाला. Word Tone: Negative. Example: The dark forest looked scary at night. Hindi: रात में अंधेरा जंगल डरावना लग रहा था। Option meanings: A. Comforting – सांत्वना देने वाला; B. Pleasant – सुखद; C. Frightening – डरावना; D. Reassuring – आश्वस्त करने वाला",
+    "explanation": "Scary – डरावना; भय पैदा करने वाला. Word Tone: Negative. Example: The dark forest looked scary at night. Hindi: रात में अंधेरा जंगल डरावना लग रहा था। Option meanings: A. Calm – शांत; B. Comforting – सांत्वना देने वाला; C. Frightening – डरावना; भय उत्पन्न करने वाला; D. Reassuring – आश्वस्त करने वाला",
     "language": "en"
   },
   {
@@ -1042,25 +1042,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Carefree"
+        "text": "Earnest"
       },
       {
         "id": "B",
-        "text": "Trivial"
+        "text": "Grave"
       },
       {
         "id": "C",
-        "text": "Frivolous"
+        "text": "Serious"
       },
       {
         "id": "D",
-        "text": "Puerile"
+        "text": "Frivolous"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Solemn – गंभीर; औपचारिक; गरिमामय. Word Tone: Neutral. Example: They made a solemn promise. Hindi: उन्होंने गंभीर प्रतिज्ञा की। Option meanings: A. Carefree – संदर्भानुसार संबंधित अर्थ; B. Trivial – तुच्छ; मामूली; कम महत्त्वपूर्ण; C. Frivolous – तुच्छ; बचकाना; गंभीरता रहित; D. Puerile – बचकाना; अपरिपक्व",
+    "explanation": "Solemn – गंभीर; औपचारिक; गरिमामय. Word Tone: Neutral. Example: They made a solemn promise. Hindi: उन्होंने गंभीर प्रतिज्ञा की। Option meanings: A. Earnest – गंभीर; सच्चा; B. Grave – गंभीर; C. Serious – गंभीर; D. Frivolous – तुच्छ; गैर-गंभीर",
     "language": "en"
   },
   {
@@ -1074,21 +1074,21 @@
       },
       {
         "id": "B",
-        "text": "Bright"
+        "text": "Optimistic"
       },
       {
         "id": "C",
-        "text": "Murky"
+        "text": "Radiant"
       },
       {
         "id": "D",
-        "text": "Radiant"
+        "text": "Somber"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Gloomy – उदास; अंधकारमय; निराशाजनक. Word Tone: Negative. Example: The gloomy sky suggested rain. Hindi: उदास आसमान बारिश का संकेत दे रहा था। Option meanings: A. Cheerful – खुशमिजाज; प्रसन्न; B. Bright – उज्ज्वल; C. Murky – धुंधला; अंधकारमय; D. Radiant – दमकता हुआ",
+    "explanation": "Gloomy – उदास; अंधकारमय; निराशाजनक. Word Tone: Negative. Example: The gloomy sky suggested rain. Hindi: उदास आसमान बारिश का संकेत दे रहा था। Option meanings: A. Cheerful – प्रसन्न; B. Optimistic – आशावादी; C. Radiant – दमकता हुआ; D. Somber – उदास; गंभीर; निराशाजनक",
     "language": "en"
   },
   {
@@ -1098,25 +1098,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Strong"
-      },
-      {
-        "id": "B",
-        "text": "Sturdy"
-      },
-      {
-        "id": "C",
         "text": "Robust"
       },
       {
-        "id": "D",
+        "id": "B",
         "text": "Weak"
+      },
+      {
+        "id": "C",
+        "text": "Durable"
+      },
+      {
+        "id": "D",
+        "text": "Sturdy"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Flimsy – कमजोर; आसानी से टूटने वाला; ठोस आधार रहित. Word Tone: Negative. Example: The flimsy chair broke under his weight. Hindi: उसके वजन से कमजोर कुर्सी टूट गई। Option meanings: A. Strong – मजबूत; B. Sturdy – मजबूत; टिकाऊ; C. Robust – सुदृढ़; मजबूत; D. Weak – उचित अर्थ",
+    "explanation": "Flimsy – कमजोर; आसानी से टूटने वाला; ठोस आधार रहित. Word Tone: Negative. Example: The flimsy chair broke under his weight. Hindi: उसके वजन से कमजोर कुर्सी टूट गई। Option meanings: A. Robust – सुदृढ़; B. Weak – कमजोर; भंगुर; C. Durable – टिकाऊ; D. Sturdy – मजबूत; टिकाऊ",
     "language": "en"
   },
   {
@@ -1126,25 +1126,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Liberal"
+        "text": "Greedy"
       },
       {
         "id": "B",
-        "text": "Generous"
+        "text": "Miserly"
       },
       {
         "id": "C",
-        "text": "Magnanimous"
+        "text": "Avaricious"
       },
       {
         "id": "D",
-        "text": "Benevolent"
+        "text": "Generous"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Stingy – कंजूस; कृपण. Word Tone: Negative. Example: The stingy owner refused to pay fair wages. Hindi: कंजूस मालिक ने उचित मजदूरी देने से इनकार किया। Option meanings: A. Liberal – उदार; B. Generous – उदार; दानशील; खुले दिल वाला; C. Magnanimous – उदार; विशालहृदय; क्षमाशील; D. Benevolent – दयालु; परोपकारी",
+    "explanation": "Stingy – कंजूस; कृपण. Word Tone: Negative. Example: The stingy owner refused to pay fair wages. Hindi: कंजूस मालिक ने उचित मजदूरी देने से इनकार किया। Option meanings: A. Greedy – लालची; B. Miserly – कंजूस; C. Avaricious – लोभी; D. Generous – उदार; दरियादिल",
     "language": "en"
   },
   {
@@ -1154,25 +1154,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Friendly"
+        "text": "Cheerful"
       },
       {
         "id": "B",
-        "text": "Genial"
+        "text": "Sulky"
       },
       {
         "id": "C",
-        "text": "Jovial"
+        "text": "Morose"
       },
       {
         "id": "D",
-        "text": "Cheerful"
+        "text": "Gloomy"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Sullen – उदास और चिड़चिड़ा; मुँह फुलाए हुए. Word Tone: Negative. Example: He remained sullen after the argument. Hindi: बहस के बाद वह उदास और चिड़चिड़ा बना रहा। Option meanings: A. Friendly – दोस्ताना; B. Genial – मिलनसार; हँसमुख; सौहार्दपूर्ण; C. Jovial – संदर्भानुसार संबंधित अर्थ; D. Cheerful – खुशमिजाज; प्रसन्न",
+    "explanation": "Sullen – उदास और चिड़चिड़ा; मुँह फुलाए हुए. Word Tone: Negative. Example: He remained sullen after the argument. Hindi: बहस के बाद वह उदास और चिड़चिड़ा बना रहा। Option meanings: A. Cheerful – प्रसन्न; खुशमिजाज; B. Sulky – मुँह फुलाए हुए; C. Morose – उदास; D. Gloomy – निराशाजनक",
     "language": "en"
   },
   {
@@ -1182,25 +1182,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Fragile"
+        "text": "Resilient"
       },
       {
         "id": "B",
-        "text": "Tough"
+        "text": "Fragile"
       },
       {
         "id": "C",
-        "text": "Robust"
+        "text": "Tough"
       },
       {
         "id": "D",
-        "text": "Sturdy"
+        "text": "Robust"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Delicate – नाजुक; कोमल; सावधानी से संभालने योग्य. Word Tone: Neutral. Example: The delicate instrument needs careful handling. Hindi: नाजुक उपकरण को सावधानी से संभालना चाहिए। Option meanings: A. Fragile – नाजुक; आसानी से टूटने वाला; B. Tough – मजबूत; कठिन; टिकाऊ; C. Robust – सुदृढ़; मजबूत; D. Sturdy – मजबूत; टिकाऊ",
+    "explanation": "Delicate – नाजुक; कोमल; सावधानी से संभालने योग्य. Word Tone: Neutral. Example: The delicate instrument needs careful handling. Hindi: नाजुक उपकरण को सावधानी से संभालना चाहिए। Option meanings: A. Resilient – लचीला; जल्दी संभलने वाला; B. Fragile – नाजुक; आसानी से टूटने वाला; C. Tough – मजबूत; D. Robust – सुदृढ़",
     "language": "en"
   },
   {
@@ -1210,25 +1210,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Frugality"
+        "text": "Lavishness"
       },
       {
         "id": "B",
-        "text": "Sparingness"
+        "text": "Extravagance"
       },
       {
         "id": "C",
-        "text": "Thrift"
+        "text": "Wastefulness"
       },
       {
         "id": "D",
-        "text": "Economy"
+        "text": "Frugality"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Prodigality – अपव्यय; फिजूलखर्ची. Word Tone: Negative. Example: The king's prodigality emptied the treasury. Hindi: राजा की फिजूलखर्ची ने खजाना खाली कर दिया। Option meanings: A. Frugality – मितव्ययिता; कम खर्च करने का गुण; B. Sparingness – कम खर्च करने का गुण; C. Thrift – मितव्ययिता; D. Economy – किफायत",
+    "explanation": "Prodigality – अपव्यय; फिजूलखर्ची. Word Tone: Negative. Example: The king's prodigality emptied the treasury. Hindi: राजा की फिजूलखर्ची ने खजाना खाली कर दिया। Option meanings: A. Lavishness – खर्चीलापन; B. Extravagance – फिजूलखर्ची; C. Wastefulness – अपव्यय; D. Frugality – मितव्ययिता; सोच-समझकर खर्च करना",
     "language": "en"
   },
   {
@@ -1238,25 +1238,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Abandon"
-      },
-      {
-        "id": "B",
-        "text": "Support"
-      },
-      {
-        "id": "C",
         "text": "Retain"
       },
       {
+        "id": "B",
+        "text": "Abandon"
+      },
+      {
+        "id": "C",
+        "text": "Support"
+      },
+      {
         "id": "D",
-        "text": "Keep"
+        "text": "Preserve"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Forsake – त्याग देना; छोड़ देना. Word Tone: Negative. Example: He refused to forsake his principles. Hindi: उसने अपने सिद्धांतों को छोड़ने से इनकार कर दिया। Option meanings: A. Abandon – त्याग देना; B. Support – समर्थन करना; C. Retain – बनाए रखना; D. Keep – रखना",
+    "explanation": "Forsake – त्याग देना; छोड़ देना. Word Tone: Negative. Example: He refused to forsake his principles. Hindi: उसने अपने सिद्धांतों को छोड़ने से इनकार कर दिया। Option meanings: A. Retain – बनाए रखना; B. Abandon – त्याग देना; छोड़ देना; C. Support – समर्थन करना; D. Preserve – सुरक्षित रखना",
     "language": "en"
   },
   {
@@ -1266,11 +1266,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Flexible"
+        "text": "Malleable"
       },
       {
         "id": "B",
-        "text": "Tough"
+        "text": "Flexible"
       },
       {
         "id": "C",
@@ -1284,7 +1284,7 @@
     "correctAnswer": "D",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Brittle – भंगुर; आसानी से टूटने वाला. Word Tone: Negative. Example: The brittle branch snapped in the wind. Hindi: भंगुर शाखा हवा में टूट गई। Option meanings: A. Flexible – लचीला; B. Tough – मजबूत; कठिन; टिकाऊ; C. Resilient – लचीला; जल्दी संभलने वाला; D. Fragile – नाजुक; आसानी से टूटने वाला",
+    "explanation": "Brittle – भंगुर; आसानी से टूटने वाला. Word Tone: Negative. Example: The brittle branch snapped in the wind. Hindi: भंगुर शाखा हवा में टूट गई। Option meanings: A. Malleable – आसानी से आकार लेने वाला; B. Flexible – लचीला; C. Resilient – लचीला; सहनशील; D. Fragile – भंगुर; आसानी से टूटने वाला",
     "language": "en"
   },
   {
@@ -1294,25 +1294,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Composure"
-      },
-      {
-        "id": "B",
         "text": "Tranquillity"
       },
       {
+        "id": "B",
+        "text": "Mania"
+      },
+      {
         "id": "C",
-        "text": "Berserk"
+        "text": "Restraint"
       },
       {
         "id": "D",
-        "text": "Calm"
+        "text": "Composure"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Frenzy – उन्माद; बेकाबू उत्तेजना. Word Tone: Negative. Example: The crowd went into a frenzy after the goal. Hindi: गोल के बाद भीड़ उन्माद में आ गई। Option meanings: A. Composure – संयम; B. Tranquillity – शांति; C. Berserk – बेकाबू; उन्मत्त; हिंसक उत्तेजना में; D. Calm – शांत",
+    "explanation": "Frenzy – उन्माद; बेकाबू उत्तेजना. Word Tone: Negative. Example: The crowd went into a frenzy after the goal. Hindi: गोल के बाद भीड़ उन्माद में आ गई। Option meanings: A. Tranquillity – शांति; B. Mania – उन्माद; बेकाबू उत्तेजना; C. Restraint – आत्म-नियंत्रण; D. Composure – संयम",
     "language": "en"
   },
   {
@@ -1322,25 +1322,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Happiness"
+        "text": "Misery"
       },
       {
         "id": "B",
-        "text": "Glee"
+        "text": "Sorrow"
       },
       {
         "id": "C",
-        "text": "Joy"
+        "text": "Grief"
       },
       {
         "id": "D",
-        "text": "Delight"
+        "text": "Joy"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Woe – दुख; शोक; विपत्ति. Word Tone: Negative. Example: The poem speaks of human woe. Hindi: कविता मानवीय दुख की बात करती है। Option meanings: A. Happiness – खुशी; B. Glee – अत्यधिक खुशी; उल्लास; C. Joy – आनंद; D. Delight – प्रसन्नता",
+    "explanation": "Woe – दुख; शोक; विपत्ति. Word Tone: Negative. Example: The poem speaks of human woe. Hindi: कविता मानवीय दुख की बात करती है। Option meanings: A. Misery – दुर्दशा; B. Sorrow – दुख; C. Grief – शोक; D. Joy – आनंद; खुशी",
     "language": "en"
   },
   {
@@ -1350,25 +1350,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Minor"
-      },
-      {
-        "id": "B",
         "text": "Insignificant"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Petty"
       },
       {
+        "id": "C",
+        "text": "Significant"
+      },
+      {
         "id": "D",
-        "text": "Formidable"
+        "text": "Minor"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Trivial – तुच्छ; मामूली; कम महत्त्वपूर्ण. Word Tone: Negative. Example: Do not waste time on trivial matters. Hindi: तुच्छ बातों पर समय बर्बाद मत करो। Option meanings: A. Minor – मामूली; B. Insignificant – महत्त्वहीन; C. Petty – तुच्छ; D. Formidable – भय उत्पन्न करने वाला; कठिन; प्रभावशाली",
+    "explanation": "Trivial – तुच्छ; मामूली; कम महत्त्वपूर्ण. Word Tone: Negative. Example: Do not waste time on trivial matters. Hindi: तुच्छ बातों पर समय बर्बाद मत करो। Option meanings: A. Insignificant – महत्त्वहीन; B. Petty – तुच्छ; C. Significant – महत्त्वपूर्ण; D. Minor – मामूली",
     "language": "en"
   },
   {
@@ -1378,25 +1378,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Useless"
+        "text": "Deserving"
       },
       {
         "id": "B",
-        "text": "Valueless"
+        "text": "Meritorious"
       },
       {
         "id": "C",
-        "text": "Worthless"
+        "text": "Unworthy"
       },
       {
         "id": "D",
-        "text": "Pointless"
+        "text": "Valuable"
       }
     ],
     "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Worthy – योग्य; मूल्यवान; सम्मान के योग्य. Word Tone: Positive. Example: She is worthy of praise. Hindi: वह प्रशंसा की पात्र है। Option meanings: A. Useless – बेकार; B. Valueless – संदर्भानुसार संबंधित अर्थ; C. Worthless – बेकार; मूल्यहीन; D. Pointless – निरर्थक",
+    "explanation": "Worthy – योग्य; मूल्यवान; सम्मान के योग्य. Word Tone: Positive. Example: She is worthy of praise. Hindi: वह प्रशंसा की पात्र है। Option meanings: A. Deserving – योग्य; B. Meritorious – गुणवान; प्रशंसनीय; C. Unworthy – अयोग्य; सम्मान के लायक नहीं; D. Valuable – मूल्यवान",
     "language": "en"
   },
   {
@@ -1406,25 +1406,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Brave"
-      },
-      {
-        "id": "B",
-        "text": "Gallant"
-      },
-      {
-        "id": "C",
         "text": "Cowardly"
       },
       {
-        "id": "D",
+        "id": "B",
+        "text": "Brave"
+      },
+      {
+        "id": "C",
         "text": "Valiant"
+      },
+      {
+        "id": "D",
+        "text": "Heroic"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Craven – कायर; अत्यंत डरपोक. Word Tone: Negative. Example: His craven behaviour disappointed the team. Hindi: उसके कायरतापूर्ण व्यवहार ने टीम को निराश किया। Option meanings: A. Brave – बहादुर; साहसी; B. Gallant – बहादुर; वीर; शिष्ट; C. Cowardly – कायर; D. Valiant – वीर",
+    "explanation": "Craven – कायर; अत्यंत डरपोक. Word Tone: Negative. Example: His craven behaviour disappointed the team. Hindi: उसके कायरतापूर्ण व्यवहार ने टीम को निराश किया। Option meanings: A. Cowardly – कायर; डरपोक; B. Brave – बहादुर; C. Valiant – वीर; D. Heroic – वीरतापूर्ण",
     "language": "en"
   },
   {
@@ -1434,25 +1434,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Independence"
+        "text": "Imprisonment"
       },
       {
         "id": "B",
-        "text": "Liberty"
+        "text": "Freedom"
       },
       {
         "id": "C",
-        "text": "Autonomy"
+        "text": "Bondage"
       },
       {
         "id": "D",
-        "text": "Freedom"
+        "text": "Confinement"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Captivity – कैद; बंधन की अवस्था. Word Tone: Negative. Example: The bird was released from captivity. Hindi: पक्षी को कैद से मुक्त किया गया। Option meanings: A. Independence – स्वतंत्रता; B. Liberty – संदर्भानुसार संबंधित अर्थ; C. Autonomy – स्वायत्तता; D. Freedom – स्वतंत्रता; आजादी",
+    "explanation": "Captivity – कैद; बंधन की अवस्था. Word Tone: Negative. Example: The bird was released from captivity. Hindi: पक्षी को कैद से मुक्त किया गया। Option meanings: A. Imprisonment – कैद; B. Freedom – स्वतंत्रता; आजादी; C. Bondage – गुलामी; D. Confinement – बंदीकरण",
     "language": "en"
   },
   {
@@ -1470,17 +1470,17 @@
       },
       {
         "id": "C",
-        "text": "Unperturbed"
+        "text": "Calm"
       },
       {
         "id": "D",
-        "text": "Calm"
+        "text": "Unperturbed"
       }
     ],
     "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Furious – अत्यंत क्रोधित; गुस्से से भरा. Word Tone: Negative. Example: She was furious about the unfair decision. Hindi: वह अनुचित निर्णय से बहुत क्रोधित थी। Option meanings: A. Angry – उचित अर्थ; B. Serene – शांत; C. Unperturbed – अविचलित; शांत; परेशान न होने वाला; D. Calm – शांत",
+    "explanation": "Furious – अत्यंत क्रोधित; गुस्से से भरा. Word Tone: Negative. Example: She was furious about the unfair decision. Hindi: वह अनुचित निर्णय से बहुत क्रोधित थी। Option meanings: A. Angry – क्रोधित; गुस्से में; B. Serene – शांत; स्थिर; C. Calm – शांत; D. Unperturbed – अविचलित",
     "language": "en"
   },
   {
@@ -1490,25 +1490,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Candid"
-      },
-      {
-        "id": "B",
         "text": "Secretive"
       },
       {
+        "id": "B",
+        "text": "Candid"
+      },
+      {
         "id": "C",
-        "text": "Open"
+        "text": "Frank"
       },
       {
         "id": "D",
-        "text": "Straightforward"
+        "text": "Open"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Furtive – गुप्त; छिपकर किया जाने वाला; चोरी-छिपे. Word Tone: Negative. Example: He cast a furtive glance at the letter. Hindi: उसने पत्र पर चोरी-छिपे नज़र डाली। Option meanings: A. Candid – स्पष्टवादी; B. Secretive – उचित अर्थ; C. Open – खुला; D. Straightforward – सीधा-सादा",
+    "explanation": "Furtive – गुप्त; छिपकर किया जाने वाला; चोरी-छिपे. Word Tone: Negative. Example: He cast a furtive glance at the letter. Hindi: उसने पत्र पर चोरी-छिपे नज़र डाली। Option meanings: A. Secretive – गुप्त; चोरी-छिपे किया गया; B. Candid – स्पष्टवादी; C. Frank – निष्कपट; साफ-साफ बोलने वाला; D. Open – खुला",
     "language": "en"
   },
   {
@@ -1518,25 +1518,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Permit"
-      },
-      {
-        "id": "B",
         "text": "Prohibit"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Authorise"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Legalise"
+      },
+      {
+        "id": "D",
+        "text": "Permit"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Outlaw – अवैध घोषित करना; प्रतिबंधित करना. Word Tone: Negative. Example: The law outlawed the harmful practice. Hindi: कानून ने हानिकारक प्रथा को अवैध घोषित कर दिया। Option meanings: A. Permit – संदर्भानुसार संबंधित अर्थ; B. Prohibit – निषेध करना; C. Authorise – अधिकृत करना; D. Legalise – वैध बनाना",
+    "explanation": "Outlaw – अवैध घोषित करना; प्रतिबंधित करना. Word Tone: Negative. Example: The law outlawed the harmful practice. Hindi: कानून ने हानिकारक प्रथा को अवैध घोषित कर दिया। Option meanings: A. Prohibit – प्रतिबंधित करना; अवैध घोषित करना; B. Authorise – अधिकृत करना; C. Legalise – वैध करना; D. Permit – अनुमति देना",
     "language": "en"
   },
   {
@@ -1546,25 +1546,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Worthy"
-      },
-      {
-        "id": "B",
         "text": "Productive"
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Effective"
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Useless"
+      },
+      {
+        "id": "D",
+        "text": "Fruitful"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Futile – व्यर्थ; निष्फल; बेकार. Word Tone: Negative. Example: Further discussion proved futile. Hindi: आगे की चर्चा व्यर्थ साबित हुई। Option meanings: A. Worthy – योग्य; मूल्यवान; सम्मान के योग्य; B. Productive – उत्पादक; लाभदायक; परिणाम देने वाला; C. Effective – प्रभावी; D. Useless – बेकार",
+    "explanation": "Futile – व्यर्थ; निष्फल; बेकार. Word Tone: Negative. Example: Further discussion proved futile. Hindi: आगे की चर्चा व्यर्थ साबित हुई। Option meanings: A. Productive – उत्पादक; B. Effective – प्रभावी; C. Useless – बेकार; निष्फल; D. Fruitful – फलदायी",
     "language": "en"
   },
   {
@@ -1574,11 +1574,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Decline"
+        "text": "Wither"
       },
       {
         "id": "B",
-        "text": "Degenerate"
+        "text": "Deteriorate"
       },
       {
         "id": "C",
@@ -1586,13 +1586,13 @@
       },
       {
         "id": "D",
-        "text": "Wither"
+        "text": "Decline"
       }
     ],
     "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Flourish – फलना-फूलना; समृद्ध होना; तेजी से विकसित होना. Word Tone: Positive. Example: Small businesses can flourish with proper support. Hindi: उचित सहायता से छोटे व्यवसाय फल-फूल सकते हैं। Option meanings: A. Decline – गिरावट; B. Degenerate – पतन होना; बिगड़ना; निम्न स्तर पर गिरना; C. Thrive – उचित अर्थ; D. Wither – मुरझाना",
+    "explanation": "Flourish – फलना-फूलना; समृद्ध होना; तेजी से विकसित होना. Word Tone: Positive. Example: Small businesses can flourish with proper support. Hindi: उचित सहायता से छोटे व्यवसाय फल-फूल सकते हैं। Option meanings: A. Wither – मुरझाना; B. Deteriorate – बिगड़ना; C. Thrive – फलना-फूलना; समृद्ध होना; D. Decline – गिरावट होना",
     "language": "en"
   },
   {
@@ -1602,25 +1602,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Lavish"
-      },
-      {
-        "id": "B",
-        "text": "Extravagant"
-      },
-      {
-        "id": "C",
         "text": "Wasteful"
       },
       {
-        "id": "D",
+        "id": "B",
         "text": "Economical"
+      },
+      {
+        "id": "C",
+        "text": "Extravagant"
+      },
+      {
+        "id": "D",
+        "text": "Lavish"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Frugal – मितव्ययी; सोच-समझकर खर्च करने वाला. Word Tone: Positive. Example: A frugal person avoids unnecessary expenses. Hindi: मितव्ययी व्यक्ति अनावश्यक खर्चों से बचता है। Option meanings: A. Lavish – संदर्भानुसार संबंधित अर्थ; B. Extravagant – फिजूलखर्च; अपव्ययी; अत्यधिक खर्चीला; C. Wasteful – संदर्भानुसार संबंधित अर्थ; D. Economical – किफायती; कम खर्च वाला",
+    "explanation": "Frugal – मितव्ययी; सोच-समझकर खर्च करने वाला. Word Tone: Positive. Example: A frugal person avoids unnecessary expenses. Hindi: मितव्ययी व्यक्ति अनावश्यक खर्चों से बचता है। Option meanings: A. Wasteful – अपव्ययी; B. Economical – किफायती; कम खर्च वाला; C. Extravagant – फिजूलखर्च; D. Lavish – खर्चीला",
     "language": "en"
   },
   {
@@ -1630,25 +1630,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Lasting"
+        "text": "Permanent"
       },
       {
         "id": "B",
-        "text": "Prolonged"
-      },
-      {
-        "id": "C",
         "text": "Brief"
       },
       {
+        "id": "C",
+        "text": "Lasting"
+      },
+      {
         "id": "D",
-        "text": "Permanent"
+        "text": "Prolonged"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Momentary – क्षणिक; थोड़े समय का. Word Tone: Neutral. Example: There was a momentary pause before he answered. Hindi: उत्तर देने से पहले थोड़ी देर का विराम आया। Option meanings: A. Lasting – स्थायी; लंबे समय तक रहने वाला; B. Prolonged – संदर्भानुसार संबंधित अर्थ; C. Brief – संक्षिप्त; थोड़े समय का; D. Permanent – स्थायी",
+    "explanation": "Momentary – क्षणिक; थोड़े समय का. Word Tone: Neutral. Example: There was a momentary pause before he answered. Hindi: उत्तर देने से पहले थोड़ी देर का विराम आया। Option meanings: A. Permanent – स्थायी; B. Brief – संक्षिप्त; थोड़े समय का; C. Lasting – स्थायी; D. Prolonged – लंबे समय तक चलने वाला",
     "language": "en"
   },
   {
@@ -1658,25 +1658,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Sly"
+        "text": "Frank"
       },
       {
         "id": "B",
-        "text": "Secretive"
+        "text": "Devious"
       },
       {
         "id": "C",
-        "text": "Furtive"
+        "text": "Direct"
       },
       {
         "id": "D",
-        "text": "Stealthy"
+        "text": "Honest"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Straight – सीधा; स्पष्ट; खुला. Word Tone: Positive. Example: Give me a straight answer. Hindi: मुझे सीधा जवाब दो। Option meanings: A. Sly – धूर्त; B. Secretive – संदर्भानुसार संबंधित अर्थ; C. Furtive – गुप्त; छिपकर किया जाने वाला; चोरी-छिपे; D. Stealthy – चुपके से किया गया",
+    "explanation": "Straight – सीधा; स्पष्ट; खुला. Word Tone: Positive. Example: Give me a straight answer. Hindi: मुझे सीधा जवाब दो। Option meanings: A. Frank – स्पष्टवादी; B. Devious – कपटी; घुमावदार/छलपूर्ण; C. Direct – सीधा; D. Honest – ईमानदार",
     "language": "en"
   },
   {
@@ -1686,25 +1686,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Divide"
+        "text": "Assemble"
       },
       {
         "id": "B",
-        "text": "Scatter"
+        "text": "Divide"
       },
       {
         "id": "C",
-        "text": "Disperse"
+        "text": "Scatter"
       },
       {
         "id": "D",
-        "text": "Assemble"
+        "text": "Disperse"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Gather – इकट्ठा करना; एकत्र होना. Word Tone: Neutral. Example: People gathered in the town square. Hindi: लोग नगर चौक में इकट्ठा हुए। Option meanings: A. Divide – विभाजित करना; B. Scatter – बिखेरना; C. Disperse – तितर-बितर करना; D. Assemble – उचित अर्थ",
+    "explanation": "Gather – इकट्ठा करना; एकत्र होना. Word Tone: Neutral. Example: People gathered in the town square. Hindi: लोग नगर चौक में इकट्ठा हुए। Option meanings: A. Assemble – इकट्ठा करना; एकत्र करना; B. Divide – विभाजित करना; C. Scatter – बिखेरना; D. Disperse – तितर-बितर करना",
     "language": "en"
   },
   {
@@ -1718,21 +1718,21 @@
       },
       {
         "id": "B",
-        "text": "Huge"
+        "text": "Feeble"
       },
       {
         "id": "C",
-        "text": "Mighty"
+        "text": "Insignificant"
       },
       {
         "id": "D",
-        "text": "Enormous"
+        "text": "Tiny"
       }
     ],
     "correctAnswer": "A",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Puny – तुच्छ; बहुत छोटा या कमजोर. Word Tone: Negative. Example: The puny effort was not enough to solve the problem. Hindi: कमजोर प्रयास समस्या हल करने के लिए पर्याप्त नहीं था। Option meanings: A. Gigantic – विशालकाय; बहुत बड़ा; B. Huge – विशाल; C. Mighty – शक्तिशाली; D. Enormous – बहुत बड़ा",
+    "explanation": "Puny – तुच्छ; बहुत छोटा या कमजोर. Word Tone: Negative. Example: The puny effort was not enough to solve the problem. Hindi: कमजोर प्रयास समस्या हल करने के लिए पर्याप्त नहीं था। Option meanings: A. Gigantic – विशालकाय; B. Feeble – दुर्बल; C. Insignificant – महत्त्वहीन; D. Tiny – बहुत छोटा",
     "language": "en"
   },
   {
@@ -1742,25 +1742,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Independence"
+        "text": "Captivity"
       },
       {
         "id": "B",
-        "text": "Liberty"
+        "text": "Slavery"
       },
       {
         "id": "C",
-        "text": "Freedom"
+        "text": "Subjugation"
       },
       {
         "id": "D",
-        "text": "Emancipation"
+        "text": "Freedom"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Bondage – गुलामी; बंधन. Word Tone: Negative. Example: The reform aimed to free people from bondage. Hindi: सुधार का उद्देश्य लोगों को गुलामी से मुक्त करना था। Option meanings: A. Independence – स्वतंत्रता; B. Liberty – संदर्भानुसार संबंधित अर्थ; C. Freedom – स्वतंत्रता; आजादी; D. Emancipation – मुक्ति",
+    "explanation": "Bondage – गुलामी; बंधन. Word Tone: Negative. Example: The reform aimed to free people from bondage. Hindi: सुधार का उद्देश्य लोगों को गुलामी से मुक्त करना था। Option meanings: A. Captivity – कैद; B. Slavery – दासता; C. Subjugation – अधीनता; D. Freedom – स्वतंत्रता; आजादी",
     "language": "en"
   },
   {
@@ -1770,25 +1770,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Genial"
+        "text": "Rude"
       },
       {
         "id": "B",
-        "text": "Courteous"
+        "text": "Ill-mannered"
       },
       {
         "id": "C",
-        "text": "Friendly"
+        "text": "Courteous"
       },
       {
         "id": "D",
-        "text": "Cordial"
+        "text": "Vulgar"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Boorish – असभ्य; भद्दे व्यवहार वाला. Word Tone: Negative. Example: His boorish manners embarrassed his friends. Hindi: उसके असभ्य व्यवहार ने दोस्तों को शर्मिंदा किया। Option meanings: A. Genial – मिलनसार; हँसमुख; सौहार्दपूर्ण; B. Courteous – विनम्र; C. Friendly – दोस्ताना; D. Cordial – हार्दिक; मैत्रीपूर्ण; सौहार्दपूर्ण",
+    "explanation": "Boorish – असभ्य; भद्दे व्यवहार वाला. Word Tone: Negative. Example: His boorish manners embarrassed his friends. Hindi: उसके असभ्य व्यवहार ने दोस्तों को शर्मिंदा किया। Option meanings: A. Rude – असभ्य; B. Ill-mannered – बुरे व्यवहार वाला; C. Courteous – विनम्र; शिष्ट; D. Vulgar – भद्दा; अशिष्ट",
     "language": "en"
   },
   {
@@ -1798,11 +1798,11 @@
     "options": [
       {
         "id": "A",
-        "text": "Trivial"
+        "text": "Insignificant"
       },
       {
         "id": "B",
-        "text": "Insignificant"
+        "text": "Trivial"
       },
       {
         "id": "C",
@@ -1816,7 +1816,7 @@
     "correctAnswer": "D",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Formidable – भय उत्पन्न करने वाला; कठिन; प्रभावशाली. Word Tone: Neutral/Negative. Example: They faced a formidable opponent. Hindi: उन्होंने एक शक्तिशाली प्रतिद्वंद्वी का सामना किया। Option meanings: A. Trivial – तुच्छ; मामूली; कम महत्त्वपूर्ण; B. Insignificant – महत्त्वहीन; C. Feeble – दुर्बल; कमजोर; D. Daunting – कठिन; भय उत्पन्न करने वाला",
+    "explanation": "Formidable – भय उत्पन्न करने वाला; कठिन; प्रभावशाली. Word Tone: Neutral/Negative. Example: They faced a formidable opponent. Hindi: उन्होंने एक शक्तिशाली प्रतिद्वंद्वी का सामना किया। Option meanings: A. Insignificant – महत्त्वहीन; B. Trivial – तुच्छ; C. Feeble – कमजोर; D. Daunting – भय उत्पन्न करने वाला; कठिन",
     "language": "en"
   },
   {
@@ -1826,25 +1826,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Genial"
+        "text": "Unfriendly"
       },
       {
         "id": "B",
-        "text": "Convivial"
+        "text": "Aggressive"
       },
       {
         "id": "C",
-        "text": "Friendly"
+        "text": "Antagonistic"
       },
       {
         "id": "D",
-        "text": "Cordial"
+        "text": "Friendly"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Hostile – शत्रुतापूर्ण; विरोधी. Word Tone: Negative. Example: The hostile crowd refused to listen. Hindi: शत्रुतापूर्ण भीड़ सुनने को तैयार नहीं थी। Option meanings: A. Genial – मिलनसार; हँसमुख; सौहार्दपूर्ण; B. Convivial – मिलनसार; आनंदपूर्ण सामाजिक वातावरण वाला; C. Friendly – दोस्ताना; D. Cordial – हार्दिक; मैत्रीपूर्ण; सौहार्दपूर्ण",
+    "explanation": "Hostile – शत्रुतापूर्ण; विरोधी. Word Tone: Negative. Example: The hostile crowd refused to listen. Hindi: शत्रुतापूर्ण भीड़ सुनने को तैयार नहीं थी। Option meanings: A. Unfriendly – अमित्रवत; B. Aggressive – आक्रामक; C. Antagonistic – विरोधी; D. Friendly – मित्रवत; दोस्ताना",
     "language": "en"
   },
   {
@@ -1854,25 +1854,25 @@
     "options": [
       {
         "id": "A",
-        "text": "Straightforward"
+        "text": "Cunning"
       },
       {
         "id": "B",
-        "text": "Forthright"
+        "text": "Straightforward"
       },
       {
         "id": "C",
-        "text": "Candid"
+        "text": "Evasive"
       },
       {
         "id": "D",
-        "text": "Honest"
+        "text": "Sly"
       }
     ],
     "correctAnswer": "B",
     "topicId": "synonyms-antonyms",
     "difficulty": "hard",
-    "explanation": "Devious – कपटी; छलपूर्ण; टेढ़े रास्ते अपनाने वाला. Word Tone: Negative. Example: The devious plan was exposed. Hindi: कपटी योजना का पर्दाफाश हो गया। Option meanings: A. Straightforward – सीधा-सादा; B. Forthright – स्पष्टवादी; साफ-साफ बोलने वाला; C. Candid – स्पष्टवादी; D. Honest – ईमानदार",
+    "explanation": "Devious – कपटी; छलपूर्ण; टेढ़े रास्ते अपनाने वाला. Word Tone: Negative. Example: The devious plan was exposed. Hindi: कपटी योजना का पर्दाफाश हो गया। Option meanings: A. Cunning – धूर्त; चालाक; B. Straightforward – सीधा-सादा; स्पष्टवादी; C. Evasive – टालमटोल करने वाला; D. Sly – कपटी",
     "language": "en"
   }
 ]
