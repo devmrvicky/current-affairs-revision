@@ -1,0 +1,982 @@
+[
+  {
+    "id": "logical_seq_001",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. अध्याय\n2. वाक्य\n3. अक्षर\n4. वाक्यांश\n5. शब्द",
+    "options": [
+      {
+        "id": "A",
+        "text": "3, 5, 4, 2, 1"
+      },
+      {
+        "id": "B",
+        "text": "3, 4, 5, 2, 1"
+      },
+      {
+        "id": "C",
+        "text": "3, 4, 5, 1, 2"
+      },
+      {
+        "id": "D",
+        "text": "3, 4, 2, 1, 5"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_002",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. सेलेक्शन\n2. इंटरव्यू\n3. जॉब पोस्टिंग\n4. एडवर्टाइजमेंट\n5. एप्लीकेशन",
+    "options": [
+      {
+        "id": "A",
+        "text": "4, 5, 2, 3, 1"
+      },
+      {
+        "id": "B",
+        "text": "4, 5, 2, 1, 3"
+      },
+      {
+        "id": "C",
+        "text": "4, 2, 1, 5, 3"
+      },
+      {
+        "id": "D",
+        "text": "3, 4, 5, 1, 2"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_003",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. उपचार\n2. सुधार\n3. वायरस\n4. लक्षण\n5. संक्रमण",
+    "options": [
+      {
+        "id": "A",
+        "text": "4, 5, 3, 1, 2"
+      },
+      {
+        "id": "B",
+        "text": "2, 5, 1, 4, 3"
+      },
+      {
+        "id": "C",
+        "text": "3, 5, 4, 2, 1"
+      },
+      {
+        "id": "D",
+        "text": "3, 5, 4, 1, 2"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_004",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. तारा\n2. उपग्रह\n3. आकाशगंगा\n4. ग्रह\n5. ब्रह्मांड",
+    "options": [
+      {
+        "id": "A",
+        "text": "5, 1, 3, 2, 4"
+      },
+      {
+        "id": "B",
+        "text": "3, 1, 5, 2, 4"
+      },
+      {
+        "id": "C",
+        "text": "2, 1, 5, 3, 4"
+      },
+      {
+        "id": "D",
+        "text": "5, 3, 1, 4, 2"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_005",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. रंगाई\n2. दीवार\n3. सजावट\n4. नींव\n5. छत\n6. फर्श सीमेंटिंग",
+    "options": [
+      {
+        "id": "A",
+        "text": "4, 2, 6, 5, 1, 3"
+      },
+      {
+        "id": "B",
+        "text": "4, 5, 6, 2, 3, 1"
+      },
+      {
+        "id": "C",
+        "text": "4, 2, 5, 6, 1, 3"
+      },
+      {
+        "id": "D",
+        "text": "3, 1, 5, 6, 4, 2"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_006",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. फूल\n2. अंकुर\n3. फल\n4. पौधा\n5. बीज",
+    "options": [
+      {
+        "id": "A",
+        "text": "5, 4, 1, 3, 2"
+      },
+      {
+        "id": "B",
+        "text": "5, 2, 4, 1, 3"
+      },
+      {
+        "id": "C",
+        "text": "2, 1, 3, 4, 5"
+      },
+      {
+        "id": "D",
+        "text": "2, 5, 4, 1, 3"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_007",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. बाइट\n2. मेगाबाइट\n3. टेराबाइट\n4. गीगाबाइट\n5. किलोबाइट",
+    "options": [
+      {
+        "id": "A",
+        "text": "3, 1, 2, 4, 5"
+      },
+      {
+        "id": "B",
+        "text": "1, 5, 4, 2, 3"
+      },
+      {
+        "id": "C",
+        "text": "1, 5, 2, 4, 3"
+      },
+      {
+        "id": "D",
+        "text": "1, 5, 2, 3, 4"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_008",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. पेस्ट करना\n2. कॉपी करना\n3. सेव करना\n4. प्रिंट करना\n5. चयन करना",
+    "options": [
+      {
+        "id": "A",
+        "text": "2, 1, 5, 3, 4"
+      },
+      {
+        "id": "B",
+        "text": "5, 2, 1, 3, 4"
+      },
+      {
+        "id": "C",
+        "text": "2, 1, 3, 4, 5"
+      },
+      {
+        "id": "D",
+        "text": "5, 4, 2, 1, 3"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_009",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. टिड्डा\n2. व्हेल\n3. भृंग (बीटल)\n4. मगरमच्छ\n5. मेंढक",
+    "options": [
+      {
+        "id": "A",
+        "text": "4, 2, 5, 1, 3"
+      },
+      {
+        "id": "B",
+        "text": "2, 3, 5, 4, 1"
+      },
+      {
+        "id": "C",
+        "text": "3, 5, 4, 2, 1"
+      },
+      {
+        "id": "D",
+        "text": "3, 1, 5, 4, 2"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_010",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. प्राथमिक\n2. निम्न माध्यमिक\n3. बालवाड़ी\n4. विश्वविद्यालय\n5. उच्च माध्यमिक",
+    "options": [
+      {
+        "id": "A",
+        "text": "3, 1, 2, 5, 4"
+      },
+      {
+        "id": "B",
+        "text": "3, 2, 1, 5, 4"
+      },
+      {
+        "id": "C",
+        "text": "3, 1, 2, 4, 5"
+      },
+      {
+        "id": "D",
+        "text": "3, 1, 5, 2, 4"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_011",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. कर्नल\n2. फील्ड मार्शल\n3. ब्रिगेडियर\n4. लेफ्टिनेंट\n5. जनरल",
+    "options": [
+      {
+        "id": "A",
+        "text": "1, 2, 3, 5, 4"
+      },
+      {
+        "id": "B",
+        "text": "2, 5, 1, 4, 3"
+      },
+      {
+        "id": "C",
+        "text": "2, 5, 3, 1, 4"
+      },
+      {
+        "id": "D",
+        "text": "3, 5, 2, 4, 1"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_012",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. राज्य\n2. ग्राम\n3. जिला\n4. शहर\n5. देश",
+    "options": [
+      {
+        "id": "A",
+        "text": "1, 3, 5, 2, 4"
+      },
+      {
+        "id": "B",
+        "text": "4, 3, 5, 2, 1"
+      },
+      {
+        "id": "C",
+        "text": "1, 3, 5, 4, 2"
+      },
+      {
+        "id": "D",
+        "text": "2, 4, 3, 1, 5"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_013",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. दवाओं का पर्चा लिखा जाना\n2. पेट में दर्द महसूस होना\n3. डॉक्टर से मिलना\n4. डॉक्टर द्वारा रोग-निदान करना\n5. दवाओं को बताए गए समय के अनुसार लेना\n6. दर्द में राहत मिलना",
+    "options": [
+      {
+        "id": "A",
+        "text": "3, 2, 4, 1, 5, 6"
+      },
+      {
+        "id": "B",
+        "text": "2, 3, 4, 5, 1, 6"
+      },
+      {
+        "id": "C",
+        "text": "2, 3, 4, 1, 5, 6"
+      },
+      {
+        "id": "D",
+        "text": "2, 3, 1, 4, 5, 6"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_014",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. वर्ग\n2. परिवार\n3. राज्य\n4. गण\n5. समुदाय",
+    "options": [
+      {
+        "id": "A",
+        "text": "3, 5, 1, 4, 2"
+      },
+      {
+        "id": "B",
+        "text": "3, 5, 2, 4, 1"
+      },
+      {
+        "id": "C",
+        "text": "3, 2, 4, 1, 5"
+      },
+      {
+        "id": "D",
+        "text": "3, 4, 2, 5, 1"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_015",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. एक्सीडेंट\n2. हॉस्पिटल\n3. रिकवरी\n4. सर्जरी\n5. एम्बुलेंस",
+    "options": [
+      {
+        "id": "A",
+        "text": "2, 5, 4, 3, 1"
+      },
+      {
+        "id": "B",
+        "text": "1, 5, 2, 4, 3"
+      },
+      {
+        "id": "C",
+        "text": "1, 3, 4, 2, 5"
+      },
+      {
+        "id": "D",
+        "text": "1, 5, 2, 3, 4"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_016",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. विवाह सभागृह निश्चित करना\n2. विवाह का दिन तय करना\n3. मेहमानों को आमंत्रित करना\n4. विवाह समारोह संपन्न होना\n5. निमंत्रण कार्ड की छपाई कराना",
+    "options": [
+      {
+        "id": "A",
+        "text": "2, 1, 3, 4, 5"
+      },
+      {
+        "id": "B",
+        "text": "2, 1, 5, 3, 4"
+      },
+      {
+        "id": "C",
+        "text": "2, 1, 3, 5, 4"
+      },
+      {
+        "id": "D",
+        "text": "1, 2, 3, 5, 4"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_017",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. स्कूटर\n2. साइकिल\n3. हवाई जहाज\n4. ट्रक\n5. कार",
+    "options": [
+      {
+        "id": "A",
+        "text": "2, 3, 4, 1, 5"
+      },
+      {
+        "id": "B",
+        "text": "2, 1, 5, 4, 3"
+      },
+      {
+        "id": "C",
+        "text": "2, 4, 1, 5, 3"
+      },
+      {
+        "id": "D",
+        "text": "3, 4, 5, 1, 2"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_018",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. शर्ट पीस\n2. धागा\n3. फैब्रिक\n4. शर्ट\n5. कपास",
+    "options": [
+      {
+        "id": "A",
+        "text": "5, 2, 3, 1, 4"
+      },
+      {
+        "id": "B",
+        "text": "3, 5, 1, 2, 4"
+      },
+      {
+        "id": "C",
+        "text": "5, 3, 1, 2, 4"
+      },
+      {
+        "id": "D",
+        "text": "3, 1, 2, 4, 5"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_019",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. वेतन\n2. भर्ती\n3. शिक्षा\n4. पदोन्नति\n5. विद्यालय\n6. रोजगार",
+    "options": [
+      {
+        "id": "A",
+        "text": "5, 3, 2, 6, 1, 4"
+      },
+      {
+        "id": "B",
+        "text": "5, 3, 2, 6, 4, 1"
+      },
+      {
+        "id": "C",
+        "text": "3, 5, 4, 2, 6, 1"
+      },
+      {
+        "id": "D",
+        "text": "5, 3, 4, 1, 2, 6"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_020",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. बच्चा\n2. विवाह\n3. नवजात\n4. रोजगार\n5. शिक्षा",
+    "options": [
+      {
+        "id": "A",
+        "text": "5, 2, 4, 1, 3"
+      },
+      {
+        "id": "B",
+        "text": "3, 1, 5, 4, 2"
+      },
+      {
+        "id": "C",
+        "text": "4, 1, 3, 5, 2"
+      },
+      {
+        "id": "D",
+        "text": "3, 5, 2, 4, 1"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_021",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. भूख\n2. रोना\n3. स्तनपान\n4. बच्चा\n5. नींद\n6. माँ",
+    "options": [
+      {
+        "id": "A",
+        "text": "4, 1, 3, 6, 5, 2"
+      },
+      {
+        "id": "B",
+        "text": "4, 5, 2, 6, 3, 1"
+      },
+      {
+        "id": "C",
+        "text": "4, 1, 2, 6, 3, 5"
+      },
+      {
+        "id": "D",
+        "text": "4, 1, 2, 3, 5, 6"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_022",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. परिणाम घोषित\n2. स्वीकृति\n3. परीक्षा\n4. अधिसूचना\n5. प्रवेश पत्र\n6. ऑनलाइन आवेदन",
+    "options": [
+      {
+        "id": "A",
+        "text": "4, 6, 2, 5, 3, 1"
+      },
+      {
+        "id": "B",
+        "text": "4, 6, 5, 2, 1, 3"
+      },
+      {
+        "id": "C",
+        "text": "4, 2, 5, 1, 6, 3"
+      },
+      {
+        "id": "D",
+        "text": "4, 2, 6, 3, 5, 1"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_023",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. लेखन\n2. पुस्तक\n3. विक्रेता\n4. विचार\n5. प्रतिपुष्टि\n6. पाठक",
+    "options": [
+      {
+        "id": "A",
+        "text": "4, 1, 3, 6, 5, 2"
+      },
+      {
+        "id": "B",
+        "text": "4, 1, 2, 6, 5, 3"
+      },
+      {
+        "id": "C",
+        "text": "4, 1, 2, 3, 6, 5"
+      },
+      {
+        "id": "D",
+        "text": "4, 1, 2, 6, 3, 5"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_024",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. कलाई\n2. नाखून\n3. कंधा\n4. कोहनी\n5. हथेली\n6. अंगुलियाँ",
+    "options": [
+      {
+        "id": "A",
+        "text": "3, 1, 4, 2, 5, 6"
+      },
+      {
+        "id": "B",
+        "text": "3, 4, 1, 5, 6, 2"
+      },
+      {
+        "id": "C",
+        "text": "3, 4, 1, 2, 5, 6"
+      },
+      {
+        "id": "D",
+        "text": "3, 5, 1, 4, 6, 2"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_025",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. कंधा\n2. जांघ\n3. पेट\n4. छाती\n5. चेहरा\n6. गर्दन",
+    "options": [
+      {
+        "id": "A",
+        "text": "2, 4, 6, 1, 3, 2"
+      },
+      {
+        "id": "B",
+        "text": "5, 6, 3, 4, 1, 2"
+      },
+      {
+        "id": "C",
+        "text": "5, 6, 1, 4, 3, 2"
+      },
+      {
+        "id": "D",
+        "text": "5, 6, 1, 2, 3, 4"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_026",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. दुर्घटना\n2. एम्बुलेंस\n3. अंधाधुंध गाड़ी चलाना\n4. चोट लगना\n5. अस्पताल\n6. उपचार",
+    "options": [
+      {
+        "id": "A",
+        "text": "3, 1, 4, 2, 6, 5"
+      },
+      {
+        "id": "B",
+        "text": "3, 1, 4, 2, 5, 6"
+      },
+      {
+        "id": "C",
+        "text": "3, 4, 1, 2, 5, 6"
+      },
+      {
+        "id": "D",
+        "text": "3, 1, 2, 4, 5, 6"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_027",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. विश्व\n2. देश\n3. शहर\n4. महाद्वीप\n5. राज्य",
+    "options": [
+      {
+        "id": "A",
+        "text": "3, 5, 4, 2, 1"
+      },
+      {
+        "id": "B",
+        "text": "3, 2, 5, 4, 1"
+      },
+      {
+        "id": "C",
+        "text": "3, 5, 2, 4, 1"
+      },
+      {
+        "id": "D",
+        "text": "5, 3, 2, 4, 1"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_028",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. पंजाब\n2. अमृतसर\n3. विश्व\n4. भारत\n5. एशिया\n6. स्वर्ण मंदिर",
+    "options": [
+      {
+        "id": "A",
+        "text": "2, 1, 4, 5, 3, 6"
+      },
+      {
+        "id": "B",
+        "text": "6, 2, 1, 4, 5, 3"
+      },
+      {
+        "id": "C",
+        "text": "3, 1, 5, 2, 4, 6"
+      },
+      {
+        "id": "D",
+        "text": "6, 2, 1, 5, 3, 4"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_029",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. डेसी\n2. मिली\n3. किलो\n4. हेक्टो\n5. सेंटी\n6. डेका",
+    "options": [
+      {
+        "id": "A",
+        "text": "4, 3, 5, 1, 2, 6"
+      },
+      {
+        "id": "B",
+        "text": "2, 5, 1, 6, 4, 3"
+      },
+      {
+        "id": "C",
+        "text": "1, 2, 6, 5, 4, 3"
+      },
+      {
+        "id": "D",
+        "text": "2, 1, 5, 6, 4, 3"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_030",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. नवजात शिशु\n2. वृद्ध व्यक्ति\n3. किशोर\n4. वयस्क\n5. बाल्यावस्था",
+    "options": [
+      {
+        "id": "A",
+        "text": "5, 1, 3, 4, 2"
+      },
+      {
+        "id": "B",
+        "text": "1, 5, 3, 2, 4"
+      },
+      {
+        "id": "C",
+        "text": "5, 1, 4, 3, 2"
+      },
+      {
+        "id": "D",
+        "text": "1, 5, 3, 4, 2"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_031",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. पैराग्राफ\n2. वाक्य\n3. अक्षर\n4. वाक्यांश\n5. शब्द",
+    "options": [
+      {
+        "id": "A",
+        "text": "5, 3, 1, 2, 4"
+      },
+      {
+        "id": "B",
+        "text": "3, 5, 1, 2, 4"
+      },
+      {
+        "id": "C",
+        "text": "1, 2, 3, 4, 5"
+      },
+      {
+        "id": "D",
+        "text": "3, 5, 4, 2, 1"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_032",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. दवा\n2. रोग की पहचान\n3. परामर्श\n4. बीमारी\n5. स्वास्थ्य लाभ\n6. डॉक्टर",
+    "options": [
+      {
+        "id": "A",
+        "text": "4, 6, 3, 2, 1, 5"
+      },
+      {
+        "id": "B",
+        "text": "2, 6, 4, 1, 3, 5"
+      },
+      {
+        "id": "C",
+        "text": "4, 6, 2, 3, 1, 5"
+      },
+      {
+        "id": "D",
+        "text": "4, 6, 1, 3, 2, 5"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_033",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. खेत की जुताई\n2. रोटी बनाना\n3. गेहूँ का उत्पादन\n4. गेहूँ पीसना\n5. बीज बोना\n6. आटा गूँथना",
+    "options": [
+      {
+        "id": "A",
+        "text": "2, 5, 3, 4, 1, 6"
+      },
+      {
+        "id": "B",
+        "text": "1, 5, 3, 6, 4, 2"
+      },
+      {
+        "id": "C",
+        "text": "1, 5, 3, 4, 6, 2"
+      },
+      {
+        "id": "D",
+        "text": "4, 5, 2, 6, 1, 3"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_034",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. यात्रा\n2. गंतव्य\n3. भुगतान\n4. बर्थ/सीट नंबर\n5. आरक्षण\n6. आरक्षण के लिए बर्थ/सीट की उपलब्धता",
+    "options": [
+      {
+        "id": "A",
+        "text": "6, 2, 5, 4, 3, 1"
+      },
+      {
+        "id": "B",
+        "text": "5, 3, 4, 1, 6, 3"
+      },
+      {
+        "id": "C",
+        "text": "2, 6, 3, 5, 4, 1"
+      },
+      {
+        "id": "D",
+        "text": "1, 2, 5, 4, 3, 6"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  },
+  {
+    "id": "logical_seq_035",
+    "subjectId": "reasoning",
+    "question": "निम्नलिखित शब्दों/चरणों को तार्किक क्रम में व्यवस्थित करें और सही विकल्प चुनें:\n1. पत्र\n2. डाकिया\n3. वितरण\n4. पत्र-पेटिका\n5. डाकखाना",
+    "options": [
+      {
+        "id": "A",
+        "text": "1, 4, 5, 2, 3"
+      },
+      {
+        "id": "B",
+        "text": "3, 1, 2, 5, 4"
+      },
+      {
+        "id": "C",
+        "text": "3, 2, 1, 5, 4"
+      },
+      {
+        "id": "D",
+        "text": "5, 4, 3, 1, 2"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "logical-sequence-of-words",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "hi"
+  }
+]
