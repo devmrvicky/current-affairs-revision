@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_ows_181",
+    "subjectId": "english",
+    "question": "Choose the one word for: A place where the bones of the dead are kept.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Crematorium"
+      },
+      {
+        "id": "B",
+        "text": "Mortuary"
+      },
+      {
+        "id": "C",
+        "text": "Sanctuary"
+      },
+      {
+        "id": "D",
+        "text": "Ossuary"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Ossuary = अस्थि-गृह (हड्डियाँ रखने का स्थान)। Example: The old church has an ossuary beneath its floor.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_182",
+    "subjectId": "english",
+    "question": "Choose the one word for: A monument raised in memory of a person who is buried elsewhere.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obelisk"
+      },
+      {
+        "id": "B",
+        "text": "Cenotaph"
+      },
+      {
+        "id": "C",
+        "text": "Sepulchre"
+      },
+      {
+        "id": "D",
+        "text": "Mausoleum"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Cenotaph = स्मारक-समाधि (जिसमें शव दफ़न नहीं होता)। Example: A cenotaph honours the soldiers who died in the war.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_183",
+    "subjectId": "english",
+    "question": "Choose the one word for: The scientific study of caves.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vulcanology"
+      },
+      {
+        "id": "B",
+        "text": "Speleology"
+      },
+      {
+        "id": "C",
+        "text": "Cartography"
+      },
+      {
+        "id": "D",
+        "text": "Seismology"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Speleology = गुफा-विज्ञान। Example: Speleology students explored the limestone caves of Meghalaya.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_184",
+    "subjectId": "english",
+    "question": "Choose the one word for: The scientific study of trees.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dendrology"
+      },
+      {
+        "id": "B",
+        "text": "Pomology"
+      },
+      {
+        "id": "C",
+        "text": "Dermatology"
+      },
+      {
+        "id": "D",
+        "text": "Oncology"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Dendrology = वृक्ष-विज्ञान। Example: She took a course in dendrology at the forest institute.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_185",
+    "subjectId": "english",
+    "question": "Choose the one word for: The scientific study of old age and the process of ageing.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Genealogy"
+      },
+      {
+        "id": "B",
+        "text": "Genetics"
+      },
+      {
+        "id": "C",
+        "text": "Gerontology"
+      },
+      {
+        "id": "D",
+        "text": "Gynaecology"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Gerontology = वृद्धावस्था-विज्ञान (जरा-विज्ञान)। Example: Gerontology helps us plan better care for the elderly.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_186",
+    "subjectId": "english",
+    "question": "Choose the one word for: The cultivation of grapes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aquaculture"
+      },
+      {
+        "id": "B",
+        "text": "Floriculture"
+      },
+      {
+        "id": "C",
+        "text": "Arboriculture"
+      },
+      {
+        "id": "D",
+        "text": "Viticulture"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Viticulture = अंगूर की खेती। Example: Viticulture is thriving in the hills of Nashik.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_187",
+    "subjectId": "english",
+    "question": "Choose the one word for: The rearing of silkworms for the production of silk.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sericulture"
+      },
+      {
+        "id": "B",
+        "text": "Pisciculture"
+      },
+      {
+        "id": "C",
+        "text": "Apiculture"
+      },
+      {
+        "id": "D",
+        "text": "Horticulture"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Sericulture = रेशम-कीट पालन। Example: Many families in Assam earn their living from sericulture.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_188",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who is between sixty and seventy years old.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Septuagenarian"
+      },
+      {
+        "id": "B",
+        "text": "Octogenarian"
+      },
+      {
+        "id": "C",
+        "text": "Nonagenarian"
+      },
+      {
+        "id": "D",
+        "text": "Sexagenarian"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Sexagenarian = साठ से सत्तर वर्ष की आयु का व्यक्ति। Example: The sexagenarian professor still cycles to college.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_189",
+    "subjectId": "english",
+    "question": "Choose the one word for: A direct vote by all the voters on one important public question.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Veto"
+      },
+      {
+        "id": "B",
+        "text": "Plebiscite"
+      },
+      {
+        "id": "C",
+        "text": "Ordinance"
+      },
+      {
+        "id": "D",
+        "text": "Caucus"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Plebiscite = जनमत-संग्रह। Example: The island held a plebiscite to decide its future.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_190",
+    "subjectId": "english",
+    "question": "Choose the one word for: An official appointed to investigate complaints against public authorities.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ombudsman"
+      },
+      {
+        "id": "B",
+        "text": "Arbitrator"
+      },
+      {
+        "id": "C",
+        "text": "Auditor"
+      },
+      {
+        "id": "D",
+        "text": "Registrar"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Ombudsman = लोकपाल, शिकायत-निवारण अधिकारी। Example: The ombudsman looked into the citizens' complaints against the department.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_191",
+    "subjectId": "english",
+    "question": "Choose the one word for: A manuscript page on which the original writing has been erased and written over.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Parchment"
+      },
+      {
+        "id": "B",
+        "text": "Scroll"
+      },
+      {
+        "id": "C",
+        "text": "Palimpsest"
+      },
+      {
+        "id": "D",
+        "text": "Codex"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Palimpsest = पुनर्लिखित पांडुलिपि। Example: Scholars read the faint old text beneath the palimpsest.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_192",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who lives alone and avoids the company of others.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Recluse"
+      },
+      {
+        "id": "B",
+        "text": "Tyrant"
+      },
+      {
+        "id": "C",
+        "text": "Nomad"
+      },
+      {
+        "id": "D",
+        "text": "Vagrant"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Recluse = एकांतप्रिय व्यक्ति। Example: After his wife's death he became a recluse.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_193",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who travels from place to place, especially for work.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Veteran"
+      },
+      {
+        "id": "B",
+        "text": "Itinerant"
+      },
+      {
+        "id": "C",
+        "text": "Inmate"
+      },
+      {
+        "id": "D",
+        "text": "Squatter"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Itinerant = घुमंतू (काम के लिए जगह-जगह घूमने वाला)। Example: The itinerant tailor visited a new village every week.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_194",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who takes up a subject only for pleasure and without serious study.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Virtuoso"
+      },
+      {
+        "id": "B",
+        "text": "Connoisseur"
+      },
+      {
+        "id": "C",
+        "text": "Dilettante"
+      },
+      {
+        "id": "D",
+        "text": "Pundit"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Dilettante = शौक़िया, ऊपरी जानकारी रखने वाला। Example: He is a mere dilettante in music, not a trained singer.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_195",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who is indifferent or hostile to art and culture.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Philistine"
+      },
+      {
+        "id": "B",
+        "text": "Aesthete"
+      },
+      {
+        "id": "C",
+        "text": "Patron"
+      },
+      {
+        "id": "D",
+        "text": "Bohemian"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Philistine = कला-संस्कृति के प्रति उदासीन व्यक्ति। Example: Only a philistine would call that painting a waste of money.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_196",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who takes special delight in fine food and drink.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Teetotaller"
+      },
+      {
+        "id": "B",
+        "text": "Vegan"
+      },
+      {
+        "id": "C",
+        "text": "Epicure"
+      },
+      {
+        "id": "D",
+        "text": "Ascetic"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Epicure = खाने-पीने का रसिक, स्वादप्रेमी। Example: The epicure travelled across India to taste regional dishes.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_197",
+    "subjectId": "english",
+    "question": "Choose the one word for: A detailed scholarly work written on a single subject.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Compendium"
+      },
+      {
+        "id": "B",
+        "text": "Anthology"
+      },
+      {
+        "id": "C",
+        "text": "Thesaurus"
+      },
+      {
+        "id": "D",
+        "text": "Monograph"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Monograph = किसी एक विषय पर लिखा शोध-ग्रंथ। Example: He published a monograph on the Chola temples.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_198",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person in charge of a museum or an art gallery.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Curator"
+      },
+      {
+        "id": "B",
+        "text": "Librarian"
+      },
+      {
+        "id": "C",
+        "text": "Custodian"
+      },
+      {
+        "id": "D",
+        "text": "Warden"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Curator = संग्रहालय का अधीक्षक। Example: The curator arranged the rare coins in the new gallery.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_199",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who draws or makes maps.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Calligrapher"
+      },
+      {
+        "id": "B",
+        "text": "Lexicographer"
+      },
+      {
+        "id": "C",
+        "text": "Choreographer"
+      },
+      {
+        "id": "D",
+        "text": "Cartographer"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Cartographer = मानचित्रकार। Example: The cartographer prepared a detailed map of the district.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_200",
+    "subjectId": "english",
+    "question": "Choose the one word for: A form of government in which power rests with a small group of people.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anarchy"
+      },
+      {
+        "id": "B",
+        "text": "Theocracy"
+      },
+      {
+        "id": "C",
+        "text": "Monarchy"
+      },
+      {
+        "id": "D",
+        "text": "Oligarchy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Oligarchy = अल्पतंत्र (कुछ लोगों का शासन)। Example: In an oligarchy, a handful of families control the state.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_201",
+    "subjectId": "english",
+    "question": "Choose the one word for: The minimum number of members that must be present to hold a valid meeting.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agenda"
+      },
+      {
+        "id": "B",
+        "text": "Quorum"
+      },
+      {
+        "id": "C",
+        "text": "Majority"
+      },
+      {
+        "id": "D",
+        "text": "Mandate"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Quorum = गणपूर्ति (वैध बैठक के लिए न्यूनतम सदस्य)। Example: The meeting was postponed for lack of a quorum.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_202",
+    "subjectId": "english",
+    "question": "Choose the one word for: A long period of leave granted for study or travel.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Moratorium"
+      },
+      {
+        "id": "B",
+        "text": "Sojourn"
+      },
+      {
+        "id": "C",
+        "text": "Sabbatical"
+      },
+      {
+        "id": "D",
+        "text": "Recess"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Sabbatical = अध्ययन या शोध के लिए मिलने वाला लंबा अवकाश। Example: The professor took a sabbatical to write a book.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_203",
+    "subjectId": "english",
+    "question": "Choose the one word for: A disease that is regularly found among the people of a particular area.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sporadic"
+      },
+      {
+        "id": "B",
+        "text": "Pandemic"
+      },
+      {
+        "id": "C",
+        "text": "Endemic"
+      },
+      {
+        "id": "D",
+        "text": "Epidemic"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Endemic = स्थानिक (किसी क्षेत्र में सदा पाया जाने वाला)। Example: Malaria is endemic in many tropical regions.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_204",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who is new to a subject or an activity.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neophyte"
+      },
+      {
+        "id": "B",
+        "text": "Veteran"
+      },
+      {
+        "id": "C",
+        "text": "Pedagogue"
+      },
+      {
+        "id": "D",
+        "text": "Adept"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Neophyte = नौसिखिया। Example: As a neophyte, he needed guidance at every step.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_205",
+    "subjectId": "english",
+    "question": "Choose the one word for: A small, exclusive group of people who share the same interests.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Congregation"
+      },
+      {
+        "id": "B",
+        "text": "Coterie"
+      },
+      {
+        "id": "C",
+        "text": "Contingent"
+      },
+      {
+        "id": "D",
+        "text": "Consortium"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Coterie = छोटा विशिष्ट गुट, मंडली। Example: A coterie of writers met at the café every evening.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_206",
+    "subjectId": "english",
+    "question": "Choose the one word for: That cannot be erased or removed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inedible"
+      },
+      {
+        "id": "B",
+        "text": "Indelible"
+      },
+      {
+        "id": "C",
+        "text": "Illegible"
+      },
+      {
+        "id": "D",
+        "text": "Insoluble"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Indelible = अमिट। Example: The teacher left an indelible mark on his mind.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_207",
+    "subjectId": "english",
+    "question": "Choose the one word for: That cannot be satisfied.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insatiable"
+      },
+      {
+        "id": "B",
+        "text": "Inevitable"
+      },
+      {
+        "id": "C",
+        "text": "Insolent"
+      },
+      {
+        "id": "D",
+        "text": "Inaccessible"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Insatiable = अतृप्त, जिसकी तृप्ति न हो सके। Example: She has an insatiable hunger for books.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_208",
+    "subjectId": "english",
+    "question": "Choose the one word for: That cannot be imitated.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Impartial"
+      },
+      {
+        "id": "B",
+        "text": "Inimitable"
+      },
+      {
+        "id": "C",
+        "text": "Inexorable"
+      },
+      {
+        "id": "D",
+        "text": "Inflexible"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Inimitable = अनुपम, जिसकी नक़ल न हो सके। Example: Kishore Kumar's inimitable voice is still loved.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_209",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who is unable to pay his debts.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Creditor"
+      },
+      {
+        "id": "B",
+        "text": "Trustee"
+      },
+      {
+        "id": "C",
+        "text": "Guarantor"
+      },
+      {
+        "id": "D",
+        "text": "Insolvent"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Insolvent = दिवालिया। Example: The firm was declared insolvent by the court.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_210",
+    "subjectId": "english",
+    "question": "Choose the one word for: The dishonest use of money that was entrusted to one's care.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Smuggling"
+      },
+      {
+        "id": "B",
+        "text": "Extortion"
+      },
+      {
+        "id": "C",
+        "text": "Embezzlement"
+      },
+      {
+        "id": "D",
+        "text": "Forgery"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Embezzlement = गबन। Example: The cashier was jailed for embezzlement.",
+    "language": "en"
+  }
+]

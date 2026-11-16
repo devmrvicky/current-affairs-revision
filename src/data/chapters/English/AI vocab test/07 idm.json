@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_idm_181",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To cut no ice",
+    "options": [
+      {
+        "id": "A",
+        "text": "To have no influence or effect"
+      },
+      {
+        "id": "B",
+        "text": "To slice frozen water"
+      },
+      {
+        "id": "C",
+        "text": "To remain very calm"
+      },
+      {
+        "id": "D",
+        "text": "To end an argument"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Cut no ice = कोई असर न डालना। Example: His excuses cut no ice with the teacher.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_182",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To grasp the nettle",
+    "options": [
+      {
+        "id": "A",
+        "text": "To gather wild plants"
+      },
+      {
+        "id": "B",
+        "text": "To hurt oneself carelessly"
+      },
+      {
+        "id": "C",
+        "text": "To tackle a difficult situation boldly"
+      },
+      {
+        "id": "D",
+        "text": "To avoid a danger"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Grasp the nettle = कठिन समस्या का डटकर सामना करना। Example: It is time to grasp the nettle and fix the budget.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_183",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A chip on one's shoulder",
+    "options": [
+      {
+        "id": "A",
+        "text": "A heavy responsibility"
+      },
+      {
+        "id": "B",
+        "text": "A lasting feeling of resentment or grievance"
+      },
+      {
+        "id": "C",
+        "text": "A sense of great pride"
+      },
+      {
+        "id": "D",
+        "text": "A minor physical injury"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "A chip on one's shoulder = मन में दबी शिकायत या कुंठा। Example: He has a chip on his shoulder about not studying at a big college.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_184",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A Pyrrhic victory",
+    "options": [
+      {
+        "id": "A",
+        "text": "A defeat that brings fame"
+      },
+      {
+        "id": "B",
+        "text": "A victory won by luck"
+      },
+      {
+        "id": "C",
+        "text": "A victory won at too great a cost"
+      },
+      {
+        "id": "D",
+        "text": "A quick and easy victory"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Pyrrhic victory = ऐसी जीत जिसकी भारी क़ीमत चुकानी पड़े। Example: Winning the case but losing all his savings was a Pyrrhic victory.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_185",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To burn one's boats",
+    "options": [
+      {
+        "id": "A",
+        "text": "To begin a sea journey"
+      },
+      {
+        "id": "B",
+        "text": "To cut off every chance of retreat"
+      },
+      {
+        "id": "C",
+        "text": "To waste one's money"
+      },
+      {
+        "id": "D",
+        "text": "To destroy an enemy's fleet"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Burn one's boats = वापसी के सारे रास्ते बंद कर लेना। Example: By quitting his job without another offer, he burnt his boats.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_186",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Cloud-cuckoo-land",
+    "options": [
+      {
+        "id": "A",
+        "text": "A peaceful countryside"
+      },
+      {
+        "id": "B",
+        "text": "A famous bird sanctuary"
+      },
+      {
+        "id": "C",
+        "text": "A place of great success"
+      },
+      {
+        "id": "D",
+        "text": "An unrealistic world of fantasy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Cloud-cuckoo-land = ख़्याली पुलाव की दुनिया। Example: Planning to double sales without a team is living in cloud-cuckoo-land.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_187",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: At sixes and sevens",
+    "options": [
+      {
+        "id": "A",
+        "text": "Divided into equal shares"
+      },
+      {
+        "id": "B",
+        "text": "Playing a game of dice"
+      },
+      {
+        "id": "C",
+        "text": "Perfectly well organised"
+      },
+      {
+        "id": "D",
+        "text": "In a state of confusion or disorder"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "At sixes and sevens = अस्त-व्यस्त, उलझन में। Example: The office was at sixes and sevens after the shifting.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_188",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To pour oil on troubled waters",
+    "options": [
+      {
+        "id": "A",
+        "text": "To pollute a river"
+      },
+      {
+        "id": "B",
+        "text": "To start a fresh fight"
+      },
+      {
+        "id": "C",
+        "text": "To waste valuable resources"
+      },
+      {
+        "id": "D",
+        "text": "To calm a quarrel or a tense situation"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Pour oil on troubled waters = झगड़े को शांत करना। Example: The principal poured oil on troubled waters between the two groups.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_189",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: In the doldrums",
+    "options": [
+      {
+        "id": "A",
+        "text": "In the middle of a heavy storm"
+      },
+      {
+        "id": "B",
+        "text": "In a state of low spirits or inactivity"
+      },
+      {
+        "id": "C",
+        "text": "In a state of great joy"
+      },
+      {
+        "id": "D",
+        "text": "On a long sea voyage"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "In the doldrums = उदासी या ठहराव की दशा में। Example: The tourism trade has been in the doldrums this year.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_190",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To throw down the gauntlet",
+    "options": [
+      {
+        "id": "A",
+        "text": "To drop something by mistake"
+      },
+      {
+        "id": "B",
+        "text": "To admit defeat"
+      },
+      {
+        "id": "C",
+        "text": "To issue a challenge"
+      },
+      {
+        "id": "D",
+        "text": "To begin a celebration"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Throw down the gauntlet = चुनौती देना। Example: The opposition threw down the gauntlet to the government.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_191",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To take the wind out of someone's sails",
+    "options": [
+      {
+        "id": "A",
+        "text": "To make a boat move faster"
+      },
+      {
+        "id": "B",
+        "text": "To suddenly reduce someone's confidence or excitement"
+      },
+      {
+        "id": "C",
+        "text": "To help someone win easily"
+      },
+      {
+        "id": "D",
+        "text": "To cause a sudden storm"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Take the wind out of someone's sails = किसी का जोश ठंडा कर देना। Example: The harsh review took the wind out of the director's sails.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_192",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To lead someone up the garden path",
+    "options": [
+      {
+        "id": "A",
+        "text": "To guide someone politely"
+      },
+      {
+        "id": "B",
+        "text": "To walk with someone in the evening"
+      },
+      {
+        "id": "C",
+        "text": "To deceive or mislead someone"
+      },
+      {
+        "id": "D",
+        "text": "To show someone a beautiful garden"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Lead someone up the garden path = झाँसा देना, बहकाना। Example: The agent led us up the garden path with false promises.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_193",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To sail close to the wind",
+    "options": [
+      {
+        "id": "A",
+        "text": "To travel only by sea"
+      },
+      {
+        "id": "B",
+        "text": "To behave very carefully"
+      },
+      {
+        "id": "C",
+        "text": "To take a risk by nearly breaking the rules"
+      },
+      {
+        "id": "D",
+        "text": "To move at great speed"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Sail close to the wind = नियमों की सीमा पर जोखिम भरा काम करना। Example: The trader sailed close to the wind with his tax returns.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_194",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To toe the line",
+    "options": [
+      {
+        "id": "A",
+        "text": "To stand in a long queue"
+      },
+      {
+        "id": "B",
+        "text": "To obey the rules or follow orders"
+      },
+      {
+        "id": "C",
+        "text": "To disobey openly"
+      },
+      {
+        "id": "D",
+        "text": "To start a race early"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Toe the line = नियमों या आदेशों का पालन करना। Example: Every new recruit must toe the line.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_195",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To grease someone's palm",
+    "options": [
+      {
+        "id": "A",
+        "text": "To greet someone warmly"
+      },
+      {
+        "id": "B",
+        "text": "To massage someone's hand"
+      },
+      {
+        "id": "C",
+        "text": "To bribe someone"
+      },
+      {
+        "id": "D",
+        "text": "To pay someone's salary"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Grease someone's palm = रिश्वत देना। Example: He greased the clerk's palm to get the file moved.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_196",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To cast pearls before swine",
+    "options": [
+      {
+        "id": "A",
+        "text": "To rear animals for profit"
+      },
+      {
+        "id": "B",
+        "text": "To offer something valuable to those who cannot appreciate it"
+      },
+      {
+        "id": "C",
+        "text": "To donate generously to the poor"
+      },
+      {
+        "id": "D",
+        "text": "To sell jewels at a high price"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Cast pearls before swine = अयोग्य को अनमोल चीज़ देना (भैंस के आगे बीन बजाना)। Example: Teaching poetry to the bored students was casting pearls before swine.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_197",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To rest on one's laurels",
+    "options": [
+      {
+        "id": "A",
+        "text": "To relax under a tree"
+      },
+      {
+        "id": "B",
+        "text": "To refuse an award politely"
+      },
+      {
+        "id": "C",
+        "text": "To work harder after success"
+      },
+      {
+        "id": "D",
+        "text": "To be content with past success and make no further effort"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Rest on one's laurels = पिछली सफलता पर ही संतुष्ट होकर बैठ जाना। Example: The champion rested on his laurels and lost the title.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_198",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To keep the wolf from the door",
+    "options": [
+      {
+        "id": "A",
+        "text": "To guard the house at night"
+      },
+      {
+        "id": "B",
+        "text": "To keep strangers away"
+      },
+      {
+        "id": "C",
+        "text": "To avoid hunger and poverty"
+      },
+      {
+        "id": "D",
+        "text": "To hunt wild animals"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Keep the wolf from the door = भुखमरी या ग़रीबी से बचे रहना। Example: His small pension just keeps the wolf from the door.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_199",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To read the riot act",
+    "options": [
+      {
+        "id": "A",
+        "text": "To scold or warn someone severely"
+      },
+      {
+        "id": "B",
+        "text": "To read a law aloud in public"
+      },
+      {
+        "id": "C",
+        "text": "To lead a street protest"
+      },
+      {
+        "id": "D",
+        "text": "To praise someone openly"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Read the riot act = कड़ी फटकार लगाना। Example: The coach read the riot act to the careless players.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_200",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A bee in one's bonnet",
+    "options": [
+      {
+        "id": "A",
+        "text": "A sudden feeling of fear"
+      },
+      {
+        "id": "B",
+        "text": "An obsessive idea about something"
+      },
+      {
+        "id": "C",
+        "text": "A minor head injury"
+      },
+      {
+        "id": "D",
+        "text": "A fashionable kind of hat"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "A bee in one's bonnet = किसी बात की सनक सवार होना। Example: He has a bee in his bonnet about early morning walks.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_201",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To feather one's nest",
+    "options": [
+      {
+        "id": "A",
+        "text": "To enrich oneself, often by misusing one's position"
+      },
+      {
+        "id": "B",
+        "text": "To live a simple life"
+      },
+      {
+        "id": "C",
+        "text": "To give gifts to one's family"
+      },
+      {
+        "id": "D",
+        "text": "To build a house for birds"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Feather one's nest = पद का लाभ उठाकर अपनी जेब भरना। Example: The officer feathered his nest with public money.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_202",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To take French leave",
+    "options": [
+      {
+        "id": "A",
+        "text": "To be absent without permission"
+      },
+      {
+        "id": "B",
+        "text": "To say goodbye politely"
+      },
+      {
+        "id": "C",
+        "text": "To take a long holiday"
+      },
+      {
+        "id": "D",
+        "text": "To go abroad for higher studies"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Take French leave = बिना अनुमति ग़ैरहाज़िर होना। Example: He took French leave and went to watch the match.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_203",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To show the white feather",
+    "options": [
+      {
+        "id": "A",
+        "text": "To show cowardice"
+      },
+      {
+        "id": "B",
+        "text": "To offer peace"
+      },
+      {
+        "id": "C",
+        "text": "To admire birds"
+      },
+      {
+        "id": "D",
+        "text": "To show off one's skills"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Show the white feather = कायरता दिखाना। Example: The soldier refused to show the white feather.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_204",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To stew in one's own juice",
+    "options": [
+      {
+        "id": "A",
+        "text": "To suffer the results of one's own actions"
+      },
+      {
+        "id": "B",
+        "text": "To praise oneself loudly"
+      },
+      {
+        "id": "C",
+        "text": "To prepare a tasty dish"
+      },
+      {
+        "id": "D",
+        "text": "To quarrel with a friend"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Stew in one's own juice = अपने किए का फल भुगतना। Example: Let him stew in his own juice for a while.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_205",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A cat's paw",
+    "options": [
+      {
+        "id": "A",
+        "text": "A gentle and soft-hearted person"
+      },
+      {
+        "id": "B",
+        "text": "A cunning wild animal"
+      },
+      {
+        "id": "C",
+        "text": "A sign of good luck"
+      },
+      {
+        "id": "D",
+        "text": "A person who is used by another to do an unpleasant or risky job"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "A cat's paw = दूसरे के हाथ की कठपुतली। Example: The clerk was only a cat's paw of the corrupt manager.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_206",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To carry coals to Newcastle",
+    "options": [
+      {
+        "id": "A",
+        "text": "To travel in cold weather"
+      },
+      {
+        "id": "B",
+        "text": "To do a very heavy job"
+      },
+      {
+        "id": "C",
+        "text": "To trade profitably in fuel"
+      },
+      {
+        "id": "D",
+        "text": "To do something unnecessary or useless"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Carry coals to Newcastle = जहाँ चीज़ भरपूर हो वहीं और ले जाना (व्यर्थ का काम)। Example: Gifting rice to a farmer is like carrying coals to Newcastle.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_207",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To hang fire",
+    "options": [
+      {
+        "id": "A",
+        "text": "To delay or hesitate in taking action"
+      },
+      {
+        "id": "B",
+        "text": "To start a fire"
+      },
+      {
+        "id": "C",
+        "text": "To burn very quickly"
+      },
+      {
+        "id": "D",
+        "text": "To succeed at once"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Hang fire = देर करना, टालमटोल करना। Example: The road project is hanging fire for want of funds.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_208",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To steal a march on someone",
+    "options": [
+      {
+        "id": "A",
+        "text": "To lead a parade"
+      },
+      {
+        "id": "B",
+        "text": "To gain an advantage by acting before others"
+      },
+      {
+        "id": "C",
+        "text": "To rob someone on the road"
+      },
+      {
+        "id": "D",
+        "text": "To leave a place secretly"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Steal a march on someone = पहले चाल चलकर बढ़त ले लेना। Example: The rival firm stole a march on us by launching earlier.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_209",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To come a cropper",
+    "options": [
+      {
+        "id": "A",
+        "text": "To fail badly or fall heavily"
+      },
+      {
+        "id": "B",
+        "text": "To buy a farm"
+      },
+      {
+        "id": "C",
+        "text": "To get a quick promotion"
+      },
+      {
+        "id": "D",
+        "text": "To win a rich harvest"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Come a cropper = बुरी तरह गिरना या असफल होना। Example: He came a cropper in the final exam.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_210",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Hobson's choice",
+    "options": [
+      {
+        "id": "A",
+        "text": "A free and wide choice"
+      },
+      {
+        "id": "B",
+        "text": "A foolish choice"
+      },
+      {
+        "id": "C",
+        "text": "A very difficult choice"
+      },
+      {
+        "id": "D",
+        "text": "A choice with no real alternative"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Hobson's choice = ऐसा चुनाव जिसमें विकल्प ही न हो (लो या छोड़ो)। Example: With only one bus left, it was Hobson's choice.",
+    "language": "en"
+  }
+]
