@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_idm_301",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To set the Thames on fire",
+    "options": [
+      {
+        "id": "A",
+        "text": "To start a big fire"
+      },
+      {
+        "id": "B",
+        "text": "To clean a polluted river"
+      },
+      {
+        "id": "C",
+        "text": "To cause a river accident"
+      },
+      {
+        "id": "D",
+        "text": "To do something remarkable or sensational"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Set the Thames on fire = कोई बड़ा कमाल कर दिखाना (अक्सर निषेध में)। Example: He is hardworking, but he will never set the Thames on fire.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_302",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To be a law unto oneself",
+    "options": [
+      {
+        "id": "A",
+        "text": "To study law deeply"
+      },
+      {
+        "id": "B",
+        "text": "To follow one's own rules and ignore others'"
+      },
+      {
+        "id": "C",
+        "text": "To obey every rule"
+      },
+      {
+        "id": "D",
+        "text": "To teach law to others"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "A law unto oneself = अपने ही नियमों पर चलने वाला। Example: The old artist is a law unto himself.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_303",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To bear the brunt of",
+    "options": [
+      {
+        "id": "A",
+        "text": "To avoid a danger skilfully"
+      },
+      {
+        "id": "B",
+        "text": "To suffer the main force of an attack or difficulty"
+      },
+      {
+        "id": "C",
+        "text": "To share a burden equally"
+      },
+      {
+        "id": "D",
+        "text": "To reward someone"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Bear the brunt of = मुख्य आघात झेलना। Example: Small farmers bore the brunt of the drought.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_304",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To bask in reflected glory",
+    "options": [
+      {
+        "id": "A",
+        "text": "To lose fame"
+      },
+      {
+        "id": "B",
+        "text": "To enjoy credit earned by someone else's success"
+      },
+      {
+        "id": "C",
+        "text": "To sit in strong sunlight"
+      },
+      {
+        "id": "D",
+        "text": "To admire a mirror"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Bask in reflected glory = दूसरे की कामयाबी की चमक में इठलाना। Example: The coach basked in the reflected glory of his pupil.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_305",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To bring someone to book",
+    "options": [
+      {
+        "id": "A",
+        "text": "To punish someone or make him account for his actions"
+      },
+      {
+        "id": "B",
+        "text": "To give someone a book as a gift"
+      },
+      {
+        "id": "C",
+        "text": "To teach someone to read"
+      },
+      {
+        "id": "D",
+        "text": "To register someone in a library"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Bring someone to book = जवाबदेह ठहराना, सज़ा दिलाना। Example: The corrupt officers were brought to book.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_306",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To carry the can",
+    "options": [
+      {
+        "id": "A",
+        "text": "To take the blame for something others did too"
+      },
+      {
+        "id": "B",
+        "text": "To serve drinks at a party"
+      },
+      {
+        "id": "C",
+        "text": "To carry a heavy tin"
+      },
+      {
+        "id": "D",
+        "text": "To win a trophy"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Carry the can = दूसरों की ग़लती का दोष अपने सिर लेना। Example: The junior clerk had to carry the can for the error.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_307",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To cut a sorry figure",
+    "options": [
+      {
+        "id": "A",
+        "text": "To make a poor or foolish impression"
+      },
+      {
+        "id": "B",
+        "text": "To draw a sad picture"
+      },
+      {
+        "id": "C",
+        "text": "To become very thin"
+      },
+      {
+        "id": "D",
+        "text": "To reduce the cost of something"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Cut a sorry figure = हास्यास्पद दिखना। Example: He cut a sorry figure at the party in torn clothes.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_308",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To cut one's coat according to one's cloth",
+    "options": [
+      {
+        "id": "A",
+        "text": "To spend lavishly"
+      },
+      {
+        "id": "B",
+        "text": "To live within one's means"
+      },
+      {
+        "id": "C",
+        "text": "To become a good tailor"
+      },
+      {
+        "id": "D",
+        "text": "To copy someone's style"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Cut one's coat according to one's cloth = चादर देखकर पाँव पसारना। Example: Cut your coat according to your cloth, and you will not borrow.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_309",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To draw a veil over",
+    "options": [
+      {
+        "id": "A",
+        "text": "To marry in a grand style"
+      },
+      {
+        "id": "B",
+        "text": "To cover a window with cloth"
+      },
+      {
+        "id": "C",
+        "text": "To avoid talking about something unpleasant"
+      },
+      {
+        "id": "D",
+        "text": "To reveal a secret"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Draw a veil over = अप्रिय बात पर पर्दा डाल देना। Example: Let us draw a veil over the whole episode.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_310",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To end in smoke",
+    "options": [
+      {
+        "id": "A",
+        "text": "To be cooked in a kitchen"
+      },
+      {
+        "id": "B",
+        "text": "To finish with a big fire"
+      },
+      {
+        "id": "C",
+        "text": "To come to nothing"
+      },
+      {
+        "id": "D",
+        "text": "To end with success"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "End in smoke = बेनतीजा रह जाना। Example: All his big plans ended in smoke.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_311",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To fall between two stools",
+    "options": [
+      {
+        "id": "A",
+        "text": "To sit comfortably on a bench"
+      },
+      {
+        "id": "B",
+        "text": "To trip over furniture"
+      },
+      {
+        "id": "C",
+        "text": "To fail because one cannot choose between two options"
+      },
+      {
+        "id": "D",
+        "text": "To get an extra chance"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Fall between two stools = दो नावों में पैर रखकर डूबना। Example: Hesitating between two jobs, he fell between two stools.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_312",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To feel the pinch",
+    "options": [
+      {
+        "id": "A",
+        "text": "To suffer from a shortage of money"
+      },
+      {
+        "id": "B",
+        "text": "To feel a sharp pain"
+      },
+      {
+        "id": "C",
+        "text": "To catch a thief"
+      },
+      {
+        "id": "D",
+        "text": "To enjoy a prize"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Feel the pinch = पैसे की तंगी महसूस करना। Example: Families are feeling the pinch of rising prices.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_313",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To gild the lily",
+    "options": [
+      {
+        "id": "A",
+        "text": "To plant a flower garden"
+      },
+      {
+        "id": "B",
+        "text": "To paint a gold statue"
+      },
+      {
+        "id": "C",
+        "text": "To decorate something already beautiful, needlessly"
+      },
+      {
+        "id": "D",
+        "text": "To praise a flower"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Gild the lily = सुंदर चीज़ को व्यर्थ सजाना। Example: Adding jewellery to that dress would be gilding the lily.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_314",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To go through the mill",
+    "options": [
+      {
+        "id": "A",
+        "text": "To get a quick reward"
+      },
+      {
+        "id": "B",
+        "text": "To undergo a hard training or difficult experience"
+      },
+      {
+        "id": "C",
+        "text": "To work in a flour mill"
+      },
+      {
+        "id": "D",
+        "text": "To visit a factory"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Go through the mill = कठिन दौर से गुज़रना। Example: Every recruit goes through the mill.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_315",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To harp on the same string",
+    "options": [
+      {
+        "id": "A",
+        "text": "To play a musical instrument well"
+      },
+      {
+        "id": "B",
+        "text": "To speak very softly"
+      },
+      {
+        "id": "C",
+        "text": "To change the topic often"
+      },
+      {
+        "id": "D",
+        "text": "To keep talking about the same subject repeatedly"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Harp on the same string = एक ही राग अलापना। Example: Stop harping on the same string about money.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_316",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To keep at bay",
+    "options": [
+      {
+        "id": "A",
+        "text": "To hold something dear"
+      },
+      {
+        "id": "B",
+        "text": "To prevent something unpleasant from coming close"
+      },
+      {
+        "id": "C",
+        "text": "To live near the sea"
+      },
+      {
+        "id": "D",
+        "text": "To invite trouble"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Keep at bay = दूर रखना, पास न फटकने देना। Example: Garlic is believed to keep disease at bay.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_317",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To kill the fatted calf",
+    "options": [
+      {
+        "id": "A",
+        "text": "To prepare a lavish feast to celebrate a return"
+      },
+      {
+        "id": "B",
+        "text": "To work on a farm"
+      },
+      {
+        "id": "C",
+        "text": "To punish a servant"
+      },
+      {
+        "id": "D",
+        "text": "To sacrifice an animal in secret"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Kill the fatted calf = किसी के लौटने पर भव्य दावत करना। Example: The family killed the fatted calf when he came home.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_318",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To make light of",
+    "options": [
+      {
+        "id": "A",
+        "text": "To switch on a lamp"
+      },
+      {
+        "id": "B",
+        "text": "To make something less heavy"
+      },
+      {
+        "id": "C",
+        "text": "To praise something highly"
+      },
+      {
+        "id": "D",
+        "text": "To treat something as unimportant"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Make light of = हल्के में लेना। Example: Never make light of a doctor's warning.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_319",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To make short work of",
+    "options": [
+      {
+        "id": "A",
+        "text": "To avoid work completely"
+      },
+      {
+        "id": "B",
+        "text": "To do a task very carefully"
+      },
+      {
+        "id": "C",
+        "text": "To finish or deal with something very quickly"
+      },
+      {
+        "id": "D",
+        "text": "To work for a short time only"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Make short work of = झटपट निपटा देना। Example: The team made short work of the pending files.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_320",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To play havoc with",
+    "options": [
+      {
+        "id": "A",
+        "text": "To play a game with friends"
+      },
+      {
+        "id": "B",
+        "text": "To arrange neatly"
+      },
+      {
+        "id": "C",
+        "text": "To bring peace to"
+      },
+      {
+        "id": "D",
+        "text": "To cause great damage or disorder"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Play havoc with = तबाही मचाना। Example: The storm played havoc with the crops.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_321",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To put a spoke in someone's wheel",
+    "options": [
+      {
+        "id": "A",
+        "text": "To hinder someone's plans"
+      },
+      {
+        "id": "B",
+        "text": "To help someone start a business"
+      },
+      {
+        "id": "C",
+        "text": "To speed up someone's work"
+      },
+      {
+        "id": "D",
+        "text": "To repair a bicycle"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Put a spoke in someone's wheel = किसी के काम में रोड़ा अटकाना। Example: His objection put a spoke in our wheel.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_322",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To queer the pitch",
+    "options": [
+      {
+        "id": "A",
+        "text": "To win by a trick"
+      },
+      {
+        "id": "B",
+        "text": "To prepare a cricket ground"
+      },
+      {
+        "id": "C",
+        "text": "To make a strange sound"
+      },
+      {
+        "id": "D",
+        "text": "To spoil someone's plans in advance"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Queer the pitch = पहले से किसी का खेल बिगाड़ देना। Example: A rival's rumour queered the pitch for our launch.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_323",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To rob Peter to pay Paul",
+    "options": [
+      {
+        "id": "A",
+        "text": "To pay all debts at once"
+      },
+      {
+        "id": "B",
+        "text": "To share profits equally"
+      },
+      {
+        "id": "C",
+        "text": "To take from one person in order to pay another"
+      },
+      {
+        "id": "D",
+        "text": "To steal from a church"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Rob Peter to pay Paul = एक से लेकर दूसरे को चुकाना। Example: Using one loan to repay another is robbing Peter to pay Paul.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_324",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To run to earth",
+    "options": [
+      {
+        "id": "A",
+        "text": "To run very fast"
+      },
+      {
+        "id": "B",
+        "text": "To find something after a long search"
+      },
+      {
+        "id": "C",
+        "text": "To fall on the ground"
+      },
+      {
+        "id": "D",
+        "text": "To hide in a hole"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Run to earth = लंबी खोज के बाद पकड़ लेना। Example: The police ran the thief to earth in a village.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_325",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To take to one's heels",
+    "options": [
+      {
+        "id": "A",
+        "text": "To stand firm"
+      },
+      {
+        "id": "B",
+        "text": "To walk slowly"
+      },
+      {
+        "id": "C",
+        "text": "To run away quickly"
+      },
+      {
+        "id": "D",
+        "text": "To wear new shoes"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Take to one's heels = सिर पर पाँव रखकर भाग जाना। Example: The boys took to their heels when the guard shouted.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_326",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To weigh anchor",
+    "options": [
+      {
+        "id": "A",
+        "text": "To stop a ship in port"
+      },
+      {
+        "id": "B",
+        "text": "To buy a boat"
+      },
+      {
+        "id": "C",
+        "text": "To measure a heavy object"
+      },
+      {
+        "id": "D",
+        "text": "To raise the anchor and set sail"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Weigh anchor = लंगर उठाकर जहाज़ रवाना करना। Example: The ship weighed anchor at dawn.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_327",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To be in clover",
+    "options": [
+      {
+        "id": "A",
+        "text": "To live in comfort and luxury"
+      },
+      {
+        "id": "B",
+        "text": "To be very lucky in a game"
+      },
+      {
+        "id": "C",
+        "text": "To be in great danger"
+      },
+      {
+        "id": "D",
+        "text": "To work on a farm"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "In clover = ऐश-आराम में रहना। Example: After his lottery win, he lived in clover.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_328",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To be tarred with the same brush",
+    "options": [
+      {
+        "id": "A",
+        "text": "To work for the same boss"
+      },
+      {
+        "id": "B",
+        "text": "To paint a road together"
+      },
+      {
+        "id": "C",
+        "text": "To be clean and tidy"
+      },
+      {
+        "id": "D",
+        "text": "To share the same faults as another"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Tarred with the same brush = एक ही थैली के चट्टे-बट्टे होना। Example: Don't blame all of them; they are not tarred with the same brush.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_329",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A thorn in one's side",
+    "options": [
+      {
+        "id": "A",
+        "text": "A constant source of trouble or annoyance"
+      },
+      {
+        "id": "B",
+        "text": "A source of great pleasure"
+      },
+      {
+        "id": "C",
+        "text": "A trusted adviser"
+      },
+      {
+        "id": "D",
+        "text": "A minor injury"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A thorn in one's side = लगातार परेशानी की जड़। Example: The noisy neighbour is a thorn in my side.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_330",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To scrape through",
+    "options": [
+      {
+        "id": "A",
+        "text": "To win easily"
+      },
+      {
+        "id": "B",
+        "text": "To succeed or pass by a very narrow margin"
+      },
+      {
+        "id": "C",
+        "text": "To clean a surface"
+      },
+      {
+        "id": "D",
+        "text": "To fail completely"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Scrape through = मुश्किल से पास हो जाना। Example: He scraped through the exam with 36 marks.",
+    "language": "en"
+  }
+]

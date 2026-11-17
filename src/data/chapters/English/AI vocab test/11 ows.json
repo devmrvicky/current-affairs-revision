@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_ows_301",
+    "subjectId": "english",
+    "question": "Choose the one word for: The art of making and displaying fireworks.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alchemy"
+      },
+      {
+        "id": "B",
+        "text": "Aerodynamics"
+      },
+      {
+        "id": "C",
+        "text": "Pyromania"
+      },
+      {
+        "id": "D",
+        "text": "Pyrotechnics"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Pyrotechnics = आतिशबाज़ी की कला। Example: The festival ended with a grand pyrotechnics show.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_302",
+    "subjectId": "english",
+    "question": "Choose the one word for: The study of how air flows around moving objects.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hydraulics"
+      },
+      {
+        "id": "B",
+        "text": "Acoustics"
+      },
+      {
+        "id": "C",
+        "text": "Aerodynamics"
+      },
+      {
+        "id": "D",
+        "text": "Kinetics"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Aerodynamics = वायुगतिकी। Example: Aerodynamics shapes the design of fast cars.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_303",
+    "subjectId": "english",
+    "question": "Choose the one word for: The science of sound.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acoustics"
+      },
+      {
+        "id": "B",
+        "text": "Dynamics"
+      },
+      {
+        "id": "C",
+        "text": "Optics"
+      },
+      {
+        "id": "D",
+        "text": "Mechanics"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Acoustics = ध्वनि-विज्ञान। Example: The hall has excellent acoustics.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_304",
+    "subjectId": "english",
+    "question": "Choose the one word for: An official book listing drugs and their uses.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pharmacopoeia"
+      },
+      {
+        "id": "B",
+        "text": "Prescription"
+      },
+      {
+        "id": "C",
+        "text": "Dispensary"
+      },
+      {
+        "id": "D",
+        "text": "Formula"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Pharmacopoeia = औषधि-कोश। Example: The pharmacopoeia lists the standard dose of each drug.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_305",
+    "subjectId": "english",
+    "question": "Choose the one word for: The vocabulary of a language, or a dictionary of that language.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dialect"
+      },
+      {
+        "id": "B",
+        "text": "Lexicon"
+      },
+      {
+        "id": "C",
+        "text": "Grammar"
+      },
+      {
+        "id": "D",
+        "text": "Syllabus"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Lexicon = शब्द-भंडार, शब्दकोश। Example: The word entered the English lexicon in 1990.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_306",
+    "subjectId": "english",
+    "question": "Choose the one word for: The text of an opera or a musical play.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aria"
+      },
+      {
+        "id": "B",
+        "text": "Overture"
+      },
+      {
+        "id": "C",
+        "text": "Libretto"
+      },
+      {
+        "id": "D",
+        "text": "Score"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Libretto = ओपेरा या संगीत-नाटक का पाठ। Example: The poet wrote the libretto of the opera.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_307",
+    "subjectId": "english",
+    "question": "Choose the one word for: A piece of music that introduces an opera or a play.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Encore"
+      },
+      {
+        "id": "B",
+        "text": "Epilogue"
+      },
+      {
+        "id": "C",
+        "text": "Overture"
+      },
+      {
+        "id": "D",
+        "text": "Finale"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Overture = आरंभिक संगीत-प्रस्तुति। Example: The overture set the mood for the opera.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_308",
+    "subjectId": "english",
+    "question": "Choose the one word for: A pleasant and harmonious sound in words.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Euphony"
+      },
+      {
+        "id": "B",
+        "text": "Resonance"
+      },
+      {
+        "id": "C",
+        "text": "Dissonance"
+      },
+      {
+        "id": "D",
+        "text": "Monotony"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Euphony = श्रुतिमधुरता। Example: The poet is famous for the euphony of his verses.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_309",
+    "subjectId": "english",
+    "question": "Choose the one word for: A word or phrase that reads the same backwards as forwards.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prefix"
+      },
+      {
+        "id": "B",
+        "text": "Suffix"
+      },
+      {
+        "id": "C",
+        "text": "Homonym"
+      },
+      {
+        "id": "D",
+        "text": "Palindrome"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Palindrome = जो उलटा-सीधा एक-सा पढ़ा जाए। Example: 'Madam' is a palindrome.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_310",
+    "subjectId": "english",
+    "question": "Choose the one word for: A word formed by rearranging the letters of another word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acrostic"
+      },
+      {
+        "id": "B",
+        "text": "Homophone"
+      },
+      {
+        "id": "C",
+        "text": "Anagram"
+      },
+      {
+        "id": "D",
+        "text": "Antonym"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Anagram = वर्ण-विपर्यय। Example: 'Listen' is an anagram of 'silent'.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_311",
+    "subjectId": "english",
+    "question": "Choose the one word for: A figure of speech that joins two contradictory words.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Simile"
+      },
+      {
+        "id": "B",
+        "text": "Oxymoron"
+      },
+      {
+        "id": "C",
+        "text": "Alliteration"
+      },
+      {
+        "id": "D",
+        "text": "Metaphor"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Oxymoron = विरोधाभासी शब्द-युग्म। Example: 'Deafening silence' is an oxymoron.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_312",
+    "subjectId": "english",
+    "question": "Choose the one word for: A deliberate and extreme exaggeration used for effect.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sarcasm"
+      },
+      {
+        "id": "B",
+        "text": "Understatement"
+      },
+      {
+        "id": "C",
+        "text": "Paradox"
+      },
+      {
+        "id": "D",
+        "text": "Hyperbole"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Hyperbole = अतिशयोक्ति। Example: 'I have told you a million times' is hyperbole.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_313",
+    "subjectId": "english",
+    "question": "Choose the one word for: A story in which characters and events stand for hidden meanings.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Allegory"
+      },
+      {
+        "id": "B",
+        "text": "Memoir"
+      },
+      {
+        "id": "C",
+        "text": "Biography"
+      },
+      {
+        "id": "D",
+        "text": "Legend"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Allegory = रूपक-कथा। Example: Animal Farm is an allegory of political events.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_314",
+    "subjectId": "english",
+    "question": "Choose the one word for: A short simple story that teaches a moral lesson.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ballad"
+      },
+      {
+        "id": "B",
+        "text": "Elegy"
+      },
+      {
+        "id": "C",
+        "text": "Epic"
+      },
+      {
+        "id": "D",
+        "text": "Parable"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Parable = नीति-कथा। Example: The teacher told a parable about honesty.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_315",
+    "subjectId": "english",
+    "question": "Choose the one word for: A long narrative poem about the heroic deeds of legendary figures.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lyric"
+      },
+      {
+        "id": "B",
+        "text": "Epic"
+      },
+      {
+        "id": "C",
+        "text": "Fable"
+      },
+      {
+        "id": "D",
+        "text": "Ode"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Epic = महाकाव्य। Example: The Mahabharata is a great epic.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_316",
+    "subjectId": "english",
+    "question": "Choose the one word for: A piece of writing that mocks a person through ridicule.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lampoon"
+      },
+      {
+        "id": "B",
+        "text": "Sermon"
+      },
+      {
+        "id": "C",
+        "text": "Prologue"
+      },
+      {
+        "id": "D",
+        "text": "Obituary"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Lampoon = व्यंग्यात्मक आक्षेप। Example: The magazine published a lampoon of the minister.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_317",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who is opposed to war and violence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Militant"
+      },
+      {
+        "id": "B",
+        "text": "Hawk"
+      },
+      {
+        "id": "C",
+        "text": "Rebel"
+      },
+      {
+        "id": "D",
+        "text": "Pacifist"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Pacifist = शांतिवादी। Example: As a pacifist, he refused to join the army.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_318",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who supports an aggressive and warlike foreign policy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mediator"
+      },
+      {
+        "id": "B",
+        "text": "Moderate"
+      },
+      {
+        "id": "C",
+        "text": "Jingoist"
+      },
+      {
+        "id": "D",
+        "text": "Diplomat"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Jingoist = उग्र राष्ट्रवादी, युद्धोन्मादी। Example: The jingoist demanded war over a small dispute.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_319",
+    "subjectId": "english",
+    "question": "Choose the one word for: A man who has many casual love affairs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hermit"
+      },
+      {
+        "id": "B",
+        "text": "Philanderer"
+      },
+      {
+        "id": "C",
+        "text": "Bachelor"
+      },
+      {
+        "id": "D",
+        "text": "Misogynist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Philanderer = लंपट, रसिया। Example: The film showed a philanderer's downfall.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_320",
+    "subjectId": "english",
+    "question": "Choose the one word for: A lover and connoisseur of wine.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bibliophile"
+      },
+      {
+        "id": "B",
+        "text": "Oenophile"
+      },
+      {
+        "id": "C",
+        "text": "Philatelist"
+      },
+      {
+        "id": "D",
+        "text": "Anglophile"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Oenophile = मदिरा-प्रेमी व पारखी। Example: The oenophile collected rare vintages.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_321",
+    "subjectId": "english",
+    "question": "Choose the one word for: A professional boxer.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pugilist"
+      },
+      {
+        "id": "B",
+        "text": "Wrestler"
+      },
+      {
+        "id": "C",
+        "text": "Sprinter"
+      },
+      {
+        "id": "D",
+        "text": "Gladiator"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Pugilist = मुक्केबाज़। Example: The retired pugilist now trains youngsters.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_322",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who rides horses.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pedestrian"
+      },
+      {
+        "id": "B",
+        "text": "Mariner"
+      },
+      {
+        "id": "C",
+        "text": "Cyclist"
+      },
+      {
+        "id": "D",
+        "text": "Equestrian"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Equestrian = घुड़सवार। Example: The equestrian won the gold in jumping.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_323",
+    "subjectId": "english",
+    "question": "Choose the one word for: A doctor who treats mental illness.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dentist"
+      },
+      {
+        "id": "B",
+        "text": "Radiologist"
+      },
+      {
+        "id": "C",
+        "text": "Psychiatrist"
+      },
+      {
+        "id": "D",
+        "text": "Dermatologist"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Psychiatrist = मनोरोग-चिकित्सक। Example: The psychiatrist advised regular counselling.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_324",
+    "subjectId": "english",
+    "question": "Choose the one word for: A dentist who corrects irregularities of the teeth.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Optician"
+      },
+      {
+        "id": "B",
+        "text": "Podiatrist"
+      },
+      {
+        "id": "C",
+        "text": "Pharmacist"
+      },
+      {
+        "id": "D",
+        "text": "Orthodontist"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Orthodontist = दंत-विन्यास विशेषज्ञ। Example: The orthodontist fitted braces on her teeth.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_325",
+    "subjectId": "english",
+    "question": "Choose the one word for: An expert in food and nutrition.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gynaecologist"
+      },
+      {
+        "id": "B",
+        "text": "Dietician"
+      },
+      {
+        "id": "C",
+        "text": "Physiotherapist"
+      },
+      {
+        "id": "D",
+        "text": "Pharmacist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Dietician = आहार-विशेषज्ञ। Example: The dietician planned a balanced menu for him.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_326",
+    "subjectId": "english",
+    "question": "Choose the one word for: An instrument that measures the distance travelled by a vehicle.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Odometer"
+      },
+      {
+        "id": "B",
+        "text": "Chronometer"
+      },
+      {
+        "id": "C",
+        "text": "Altimeter"
+      },
+      {
+        "id": "D",
+        "text": "Speedometer"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Odometer = वाहन की तय दूरी मापने का यंत्र। Example: The odometer showed ten thousand kilometres.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_327",
+    "subjectId": "english",
+    "question": "Choose the one word for: An instrument for measuring atmospheric pressure.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Barometer"
+      },
+      {
+        "id": "B",
+        "text": "Hygrometer"
+      },
+      {
+        "id": "C",
+        "text": "Seismograph"
+      },
+      {
+        "id": "D",
+        "text": "Thermometer"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Barometer = वायुदाबमापी। Example: A falling barometer warns of a storm.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_328",
+    "subjectId": "english",
+    "question": "Choose the one word for: An instrument for measuring the speed of wind.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Periscope"
+      },
+      {
+        "id": "B",
+        "text": "Metronome"
+      },
+      {
+        "id": "C",
+        "text": "Anemometer"
+      },
+      {
+        "id": "D",
+        "text": "Sextant"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Anemometer = पवन-गतिमापी। Example: The anemometer recorded strong winds.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_329",
+    "subjectId": "english",
+    "question": "Choose the one word for: A device that marks musical time with a regular beat.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tripod"
+      },
+      {
+        "id": "B",
+        "text": "Metronome"
+      },
+      {
+        "id": "C",
+        "text": "Thermostat"
+      },
+      {
+        "id": "D",
+        "text": "Compass"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Metronome = संगीत की लय मापने वाला यंत्र। Example: The pianist practised with a metronome.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_330",
+    "subjectId": "english",
+    "question": "Choose the one word for: A raised platform in a hall on which speakers stand.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gallery"
+      },
+      {
+        "id": "B",
+        "text": "Dais"
+      },
+      {
+        "id": "C",
+        "text": "Mezzanine"
+      },
+      {
+        "id": "D",
+        "text": "Aisle"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Dais = सभा-भवन का ऊँचा मंच। Example: The chief guest sat on the dais.",
+    "language": "en"
+  }
+]

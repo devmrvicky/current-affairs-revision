@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_idm_271",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To bring home the bacon",
+    "options": [
+      {
+        "id": "A",
+        "text": "To buy meat in bulk"
+      },
+      {
+        "id": "B",
+        "text": "To return home early"
+      },
+      {
+        "id": "C",
+        "text": "To bring food for a party"
+      },
+      {
+        "id": "D",
+        "text": "To earn a living or achieve success"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Bring home the bacon = रोज़ी-रोटी कमाना, सफलता हासिल करना। Example: Both parents work to bring home the bacon.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_272",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To be up in arms",
+    "options": [
+      {
+        "id": "A",
+        "text": "To prepare for a long journey"
+      },
+      {
+        "id": "B",
+        "text": "To protest angrily"
+      },
+      {
+        "id": "C",
+        "text": "To carry heavy loads"
+      },
+      {
+        "id": "D",
+        "text": "To be ready to surrender"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Be up in arms = ग़ुस्से में विरोध करना। Example: Residents were up in arms over the water cut.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_273",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To blow the whistle",
+    "options": [
+      {
+        "id": "A",
+        "text": "To start a sports match"
+      },
+      {
+        "id": "B",
+        "text": "To expose a wrongdoing to the authorities"
+      },
+      {
+        "id": "C",
+        "text": "To call for help in a play"
+      },
+      {
+        "id": "D",
+        "text": "To make a loud noise"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Blow the whistle = गड़बड़ी का भंडाफोड़ करना। Example: A clerk blew the whistle on the scam.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_274",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To break the bank",
+    "options": [
+      {
+        "id": "A",
+        "text": "To open an account"
+      },
+      {
+        "id": "B",
+        "text": "To cost more than one can afford"
+      },
+      {
+        "id": "C",
+        "text": "To rob a bank"
+      },
+      {
+        "id": "D",
+        "text": "To save a lot of money"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Break the bank = बजट से बाहर ख़र्च कराना। Example: A small gift won't break the bank.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_275",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To chew the fat",
+    "options": [
+      {
+        "id": "A",
+        "text": "To have a long, friendly chat"
+      },
+      {
+        "id": "B",
+        "text": "To eat oily food"
+      },
+      {
+        "id": "C",
+        "text": "To think very hard"
+      },
+      {
+        "id": "D",
+        "text": "To argue angrily"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Chew the fat = गपशप करना। Example: The old friends sat chewing the fat for hours.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_276",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To clear the air",
+    "options": [
+      {
+        "id": "A",
+        "text": "To remove misunderstanding or tension"
+      },
+      {
+        "id": "B",
+        "text": "To make a loud announcement"
+      },
+      {
+        "id": "C",
+        "text": "To purify polluted air"
+      },
+      {
+        "id": "D",
+        "text": "To leave a room quickly"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Clear the air = ग़लतफ़हमी दूर करना। Example: A frank talk cleared the air between them.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_277",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To cook someone's goose",
+    "options": [
+      {
+        "id": "A",
+        "text": "To ruin someone's chances or plans"
+      },
+      {
+        "id": "B",
+        "text": "To prepare a feast for someone"
+      },
+      {
+        "id": "C",
+        "text": "To cheat at a card game"
+      },
+      {
+        "id": "D",
+        "text": "To help someone become rich"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Cook someone's goose = किसी की योजना चौपट कर देना। Example: His late arrival cooked his goose.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_278",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To dig one's own grave",
+    "options": [
+      {
+        "id": "A",
+        "text": "To search for hidden treasure"
+      },
+      {
+        "id": "B",
+        "text": "To cause one's own ruin by foolish actions"
+      },
+      {
+        "id": "C",
+        "text": "To prepare for a funeral"
+      },
+      {
+        "id": "D",
+        "text": "To work hard in a field"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Dig one's own grave = अपनी ही बर्बादी का रास्ता बनाना। Example: By lying to the court, he dug his own grave.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_279",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To fish in troubled waters",
+    "options": [
+      {
+        "id": "A",
+        "text": "To cross a river with difficulty"
+      },
+      {
+        "id": "B",
+        "text": "To catch fish in a flooded river"
+      },
+      {
+        "id": "C",
+        "text": "To seek personal gain from a confused situation"
+      },
+      {
+        "id": "D",
+        "text": "To calm a stormy sea"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Fish in troubled waters = अशांति में अपना फ़ायदा ढूँढना। Example: Brokers fish in troubled waters during a market crash.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_280",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To fall flat",
+    "options": [
+      {
+        "id": "A",
+        "text": "To slip on a smooth floor"
+      },
+      {
+        "id": "B",
+        "text": "To lie down to rest"
+      },
+      {
+        "id": "C",
+        "text": "To fail to produce the desired effect"
+      },
+      {
+        "id": "D",
+        "text": "To win by a big margin"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Fall flat = उम्मीद के मुताबिक़ असर न करना। Example: His joke fell flat.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_281",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To get a raw deal",
+    "options": [
+      {
+        "id": "A",
+        "text": "To buy raw materials cheaply"
+      },
+      {
+        "id": "B",
+        "text": "To cook food badly"
+      },
+      {
+        "id": "C",
+        "text": "To be treated unfairly"
+      },
+      {
+        "id": "D",
+        "text": "To get a good bargain"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Get a raw deal = अन्यायपूर्ण व्यवहार पाना। Example: The workers got a raw deal in the agreement.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_282",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To give someone the slip",
+    "options": [
+      {
+        "id": "A",
+        "text": "To escape from someone who is following you"
+      },
+      {
+        "id": "B",
+        "text": "To give someone a piece of paper"
+      },
+      {
+        "id": "C",
+        "text": "To make someone fall"
+      },
+      {
+        "id": "D",
+        "text": "To hand over a note secretly"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Give someone the slip = पीछा करने वाले को चकमा देना। Example: The thief gave the police the slip.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_283",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To have the last laugh",
+    "options": [
+      {
+        "id": "A",
+        "text": "To laugh at one's own joke"
+      },
+      {
+        "id": "B",
+        "text": "To laugh loudly at a funeral"
+      },
+      {
+        "id": "C",
+        "text": "To succeed in the end after being doubted"
+      },
+      {
+        "id": "D",
+        "text": "To tell the final joke at a show"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Have the last laugh = अंत में सफल होकर शक करने वालों को ग़लत साबित करना। Example: The small team had the last laugh by winning the cup.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_284",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To lose face",
+    "options": [
+      {
+        "id": "A",
+        "text": "To become very angry"
+      },
+      {
+        "id": "B",
+        "text": "To be humiliated or lose one's respect"
+      },
+      {
+        "id": "C",
+        "text": "To lose one's way"
+      },
+      {
+        "id": "D",
+        "text": "To change one's appearance"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Lose face = इज़्ज़त गँवाना। Example: The leader lost face after the public blunder.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_285",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To miss the boat",
+    "options": [
+      {
+        "id": "A",
+        "text": "To reach a harbour late"
+      },
+      {
+        "id": "B",
+        "text": "To take a risk and gain"
+      },
+      {
+        "id": "C",
+        "text": "To travel by sea"
+      },
+      {
+        "id": "D",
+        "text": "To miss a good chance"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Miss the boat = सुनहरा मौक़ा गँवा देना। Example: Apply today, or you will miss the boat.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_286",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To run out of steam",
+    "options": [
+      {
+        "id": "A",
+        "text": "To become very angry"
+      },
+      {
+        "id": "B",
+        "text": "To lose energy or momentum"
+      },
+      {
+        "id": "C",
+        "text": "To stop a train engine"
+      },
+      {
+        "id": "D",
+        "text": "To finish cooking quickly"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Run out of steam = जोश या ताक़त ख़त्म हो जाना। Example: The campaign ran out of steam after a month.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_287",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To pull out all the stops",
+    "options": [
+      {
+        "id": "A",
+        "text": "To make the greatest possible effort"
+      },
+      {
+        "id": "B",
+        "text": "To stop a machine suddenly"
+      },
+      {
+        "id": "C",
+        "text": "To end a performance early"
+      },
+      {
+        "id": "D",
+        "text": "To remove all obstacles on a road"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Pull out all the stops = पूरी ताक़त झोंक देना। Example: The team pulled out all the stops to win the final.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_288",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To shoot oneself in the foot",
+    "options": [
+      {
+        "id": "A",
+        "text": "To injure oneself in a hunt"
+      },
+      {
+        "id": "B",
+        "text": "To act in self-defence"
+      },
+      {
+        "id": "C",
+        "text": "To practise shooting"
+      },
+      {
+        "id": "D",
+        "text": "To harm one's own cause by a foolish act"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Shoot oneself in the foot = अपने पैरों पर कुल्हाड़ी मारना। Example: By insulting the judge, he shot himself in the foot.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_289",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To steal the show",
+    "options": [
+      {
+        "id": "A",
+        "text": "To stop a performance"
+      },
+      {
+        "id": "B",
+        "text": "To watch a show secretly"
+      },
+      {
+        "id": "C",
+        "text": "To attract the most attention and praise"
+      },
+      {
+        "id": "D",
+        "text": "To rob a theatre"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Steal the show = सबसे ज़्यादा तारीफ़ बटोर लेना। Example: The child actor stole the show.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_290",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To take the cake",
+    "options": [
+      {
+        "id": "A",
+        "text": "To bake a cake for a party"
+      },
+      {
+        "id": "B",
+        "text": "To win a baking contest"
+      },
+      {
+        "id": "C",
+        "text": "To refuse a sweet"
+      },
+      {
+        "id": "D",
+        "text": "To be the most remarkable, often in a negative sense"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Take the cake = सबसे बढ़कर निकलना (अक्सर बुरी बात में)। Example: His excuse really takes the cake.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_291",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To throw caution to the winds",
+    "options": [
+      {
+        "id": "A",
+        "text": "To act in a reckless way"
+      },
+      {
+        "id": "B",
+        "text": "To go out in stormy weather"
+      },
+      {
+        "id": "C",
+        "text": "To announce a warning"
+      },
+      {
+        "id": "D",
+        "text": "To be extra careful"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Throw caution to the winds = सावधानी ताक पर रख देना। Example: He threw caution to the winds and invested everything.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_292",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To work like a Trojan",
+    "options": [
+      {
+        "id": "A",
+        "text": "To work without pay"
+      },
+      {
+        "id": "B",
+        "text": "To work for a foreign king"
+      },
+      {
+        "id": "C",
+        "text": "To work slowly"
+      },
+      {
+        "id": "D",
+        "text": "To work very hard"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Work like a Trojan = जी-तोड़ मेहनत करना। Example: She worked like a Trojan to finish the project.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_293",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To be in the red",
+    "options": [
+      {
+        "id": "A",
+        "text": "To be in danger"
+      },
+      {
+        "id": "B",
+        "text": "To be in good health"
+      },
+      {
+        "id": "C",
+        "text": "To be in debt or to have a negative balance"
+      },
+      {
+        "id": "D",
+        "text": "To be very angry"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "In the red = घाटे या क़र्ज़ में होना। Example: The firm has been in the red for two years.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_294",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To be at a loose end",
+    "options": [
+      {
+        "id": "A",
+        "text": "To be busy with many tasks"
+      },
+      {
+        "id": "B",
+        "text": "To have nothing to do"
+      },
+      {
+        "id": "C",
+        "text": "To be badly tangled"
+      },
+      {
+        "id": "D",
+        "text": "To be in a hurry"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "At a loose end = ख़ाली बैठे होना। Example: Sunday afternoons find him at a loose end.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_295",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A flash in the pan",
+    "options": [
+      {
+        "id": "A",
+        "text": "A long-lasting achievement"
+      },
+      {
+        "id": "B",
+        "text": "A well-planned success"
+      },
+      {
+        "id": "C",
+        "text": "A brief success that is not repeated"
+      },
+      {
+        "id": "D",
+        "text": "A sudden fire in the kitchen"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "A flash in the pan = क्षणिक सफलता। Example: His first hit turned out to be a flash in the pan.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_296",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To beat a retreat",
+    "options": [
+      {
+        "id": "A",
+        "text": "To win a battle"
+      },
+      {
+        "id": "B",
+        "text": "To play a drum"
+      },
+      {
+        "id": "C",
+        "text": "To attack boldly"
+      },
+      {
+        "id": "D",
+        "text": "To withdraw quickly"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Beat a retreat = जल्दी से पीछे हट जाना। Example: The army beat a retreat at dawn.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_297",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To hang by a thread",
+    "options": [
+      {
+        "id": "A",
+        "text": "To be in a very uncertain or dangerous position"
+      },
+      {
+        "id": "B",
+        "text": "To hang a picture neatly"
+      },
+      {
+        "id": "C",
+        "text": "To sew a garment"
+      },
+      {
+        "id": "D",
+        "text": "To be perfectly safe"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Hang by a thread = बाल बराबर सहारे पर टिका होना। Example: The patient's life hung by a thread.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_298",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To jump through hoops",
+    "options": [
+      {
+        "id": "A",
+        "text": "To skip a procedure"
+      },
+      {
+        "id": "B",
+        "text": "To perform a circus act"
+      },
+      {
+        "id": "C",
+        "text": "To play a game happily"
+      },
+      {
+        "id": "D",
+        "text": "To go through a long and difficult process to get something"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Jump through hoops = कड़े झंझट से गुज़रना। Example: We had to jump through hoops to get the licence.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_299",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To lay one's cards on the table",
+    "options": [
+      {
+        "id": "A",
+        "text": "To be completely open about one's plans"
+      },
+      {
+        "id": "B",
+        "text": "To play a card game"
+      },
+      {
+        "id": "C",
+        "text": "To cheat in a game"
+      },
+      {
+        "id": "D",
+        "text": "To hide one's intentions"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Lay one's cards on the table = अपने इरादे साफ़ बता देना। Example: He laid his cards on the table at the meeting.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_300",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To play it by ear",
+    "options": [
+      {
+        "id": "A",
+        "text": "To follow a strict plan"
+      },
+      {
+        "id": "B",
+        "text": "To deal with a situation as it develops, without a fixed plan"
+      },
+      {
+        "id": "C",
+        "text": "To listen to music carefully"
+      },
+      {
+        "id": "D",
+        "text": "To ignore advice"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Play it by ear = हालात देखकर तय करना। Example: We have no schedule; let us play it by ear.",
+    "language": "en"
+  }
+]

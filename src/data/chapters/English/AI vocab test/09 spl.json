@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_spl_241",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rhododendron"
+      },
+      {
+        "id": "B",
+        "text": "Bougainvillea"
+      },
+      {
+        "id": "C",
+        "text": "Hibiscus"
+      },
+      {
+        "id": "D",
+        "text": "Crysanthemum"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Chrysanthemum = गुलदाउदी (Chrys- में h और y दोनों)। Example: Chrysanthemums bloom in winter.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_242",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Halucination"
+      },
+      {
+        "id": "B",
+        "text": "Sensation"
+      },
+      {
+        "id": "C",
+        "text": "Imagination"
+      },
+      {
+        "id": "D",
+        "text": "Perception"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Hallucination = मतिभ्रम (दोहरा l)। Example: High fever can cause hallucination.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_243",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Biological"
+      },
+      {
+        "id": "B",
+        "text": "Chemical"
+      },
+      {
+        "id": "C",
+        "text": "Pharmacuetical"
+      },
+      {
+        "id": "D",
+        "text": "Technological"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Pharmaceutical = औषधि संबंधी (Pharma-ceu-tical)। Example: He works in a pharmaceutical company.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_244",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Phenomenom"
+      },
+      {
+        "id": "B",
+        "text": "Equilibrium"
+      },
+      {
+        "id": "C",
+        "text": "Hypothesis"
+      },
+      {
+        "id": "D",
+        "text": "Catalyst"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Phenomenon = घटना, प्रपंच (अंत -non; बहुवचन phenomena)। Example: A rainbow is a natural phenomenon.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_245",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Susceptable"
+      },
+      {
+        "id": "B",
+        "text": "Permissible"
+      },
+      {
+        "id": "C",
+        "text": "Accessible"
+      },
+      {
+        "id": "D",
+        "text": "Responsible"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Susceptible = जल्दी प्रभावित होने वाला (अंत -ible)। Example: Children are susceptible to colds.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_246",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Instantaneous"
+      },
+      {
+        "id": "B",
+        "text": "Miscellanious"
+      },
+      {
+        "id": "C",
+        "text": "Spontaneous"
+      },
+      {
+        "id": "D",
+        "text": "Simultaneous"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Miscellaneous = विविध (अंत -eous)। Example: Miscellaneous expenses were high this month.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_247",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pyschology"
+      },
+      {
+        "id": "B",
+        "text": "Sociology"
+      },
+      {
+        "id": "C",
+        "text": "Philosophy"
+      },
+      {
+        "id": "D",
+        "text": "Physiology"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Psychology = मनोविज्ञान (Ps-y-chology: पहले s, फिर y)। Example: She studies psychology.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_248",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Restaraunt"
+      },
+      {
+        "id": "B",
+        "text": "Canteen"
+      },
+      {
+        "id": "C",
+        "text": "Cafeteria"
+      },
+      {
+        "id": "D",
+        "text": "Bakery"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Restaurant = भोजनालय (Restau-rant, 'au')। Example: We had dinner at a restaurant.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_249",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fluent"
+      },
+      {
+        "id": "B",
+        "text": "Succint"
+      },
+      {
+        "id": "C",
+        "text": "Coherent"
+      },
+      {
+        "id": "D",
+        "text": "Eloquent"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Succinct = संक्षिप्त और स्पष्ट (दोहरा c)। Example: Give a succinct reply.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_250",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eighth"
+      },
+      {
+        "id": "B",
+        "text": "Twelth"
+      },
+      {
+        "id": "C",
+        "text": "Fifth"
+      },
+      {
+        "id": "D",
+        "text": "Ninth"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Twelfth = बारहवाँ (Twelf-th, f ज़रूरी)। Example: He stood twelfth in the race.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_251",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acrophobia"
+      },
+      {
+        "id": "B",
+        "text": "Claustrophobia"
+      },
+      {
+        "id": "C",
+        "text": "Hydrophobia"
+      },
+      {
+        "id": "D",
+        "text": "Zenophobia"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Xenophobia = विदेशियों से डर या घृणा (X से शुरू)। Example: Xenophobia fuels hatred towards migrants.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_252",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tradition"
+      },
+      {
+        "id": "B",
+        "text": "Aquisition"
+      },
+      {
+        "id": "C",
+        "text": "Ambition"
+      },
+      {
+        "id": "D",
+        "text": "Condition"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Acquisition = अधिग्रहण, प्राप्ति (Ac-quisition)। Example: The acquisition of the rival firm made headlines.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_253",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Curriculum"
+      },
+      {
+        "id": "B",
+        "text": "Doctrine"
+      },
+      {
+        "id": "C",
+        "text": "Syllabus"
+      },
+      {
+        "id": "D",
+        "text": "Disipline"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Discipline = अनुशासन (Dis-ci-pline: sc)। Example: Discipline is the key to success.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_254",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Solitude"
+      },
+      {
+        "id": "B",
+        "text": "Magnitude"
+      },
+      {
+        "id": "C",
+        "text": "Gratitute"
+      },
+      {
+        "id": "D",
+        "text": "Multitude"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Gratitude = कृतज्ञता (अंत -tude)। Example: She thanked him with deep gratitude.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_255",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tongue"
+      },
+      {
+        "id": "B",
+        "text": "Vogue"
+      },
+      {
+        "id": "C",
+        "text": "Plague"
+      },
+      {
+        "id": "D",
+        "text": "Fatique"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Fatigue = थकान (अंत -gue)। Example: Long hours cause fatigue.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_256",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dependence"
+      },
+      {
+        "id": "B",
+        "text": "Independance"
+      },
+      {
+        "id": "C",
+        "text": "Intelligence"
+      },
+      {
+        "id": "D",
+        "text": "Excellence"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Independence = स्वतंत्रता (अंत -ence)। Example: India won independence in 1947.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_257",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mediteranean"
+      },
+      {
+        "id": "B",
+        "text": "Antarctic"
+      },
+      {
+        "id": "C",
+        "text": "Caribbean"
+      },
+      {
+        "id": "D",
+        "text": "Himalayan"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Mediterranean = भूमध्यसागरीय (Medi-terr-anean, दोहरा r)। Example: Olives grow well in Mediterranean regions.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_258",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obsession"
+      },
+      {
+        "id": "B",
+        "text": "Procession"
+      },
+      {
+        "id": "C",
+        "text": "Succession"
+      },
+      {
+        "id": "D",
+        "text": "Posession"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Possession = अधिकार, संपत्ति (दो बार दोहरा s)। Example: Drugs were found in his possession.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_259",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Practice"
+      },
+      {
+        "id": "B",
+        "text": "Prejudise"
+      },
+      {
+        "id": "C",
+        "text": "Advantage"
+      },
+      {
+        "id": "D",
+        "text": "Sacrifice"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Prejudice = पूर्वाग्रह (अंत -dice)। Example: He has a prejudice against strangers.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_260",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Complicated"
+      },
+      {
+        "id": "B",
+        "text": "Educated"
+      },
+      {
+        "id": "C",
+        "text": "Sophiscated"
+      },
+      {
+        "id": "D",
+        "text": "Dedicated"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Sophisticated = परिष्कृत, जटिल (Sophis-ti-cated)। Example: A sophisticated machine was installed.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_261",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agreement"
+      },
+      {
+        "id": "B",
+        "text": "Temperment"
+      },
+      {
+        "id": "C",
+        "text": "Government"
+      },
+      {
+        "id": "D",
+        "text": "Environment"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Temperament = स्वभाव (temper + a + ment)। Example: She has a calm temperament.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_262",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cucumber"
+      },
+      {
+        "id": "B",
+        "text": "Broccoli"
+      },
+      {
+        "id": "C",
+        "text": "Vegtable"
+      },
+      {
+        "id": "D",
+        "text": "Spinach"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Vegetable = सब्ज़ी (Veg-e-table)। Example: Eat a green vegetable every day.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_263",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Porcupine"
+      },
+      {
+        "id": "B",
+        "text": "Flamingo"
+      },
+      {
+        "id": "C",
+        "text": "Crocodile"
+      },
+      {
+        "id": "D",
+        "text": "Chamelion"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Chameleon = गिरगिट (Cha-me-leon)। Example: A chameleon changes its colour.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_264",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Geometry"
+      },
+      {
+        "id": "B",
+        "text": "Arithmetic"
+      },
+      {
+        "id": "C",
+        "text": "Mathmatics"
+      },
+      {
+        "id": "D",
+        "text": "Algebra"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Mathematics = गणित (Math-e-matics)। Example: He is good at mathematics.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_265",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Magician"
+      },
+      {
+        "id": "B",
+        "text": "Technician"
+      },
+      {
+        "id": "C",
+        "text": "Phisician"
+      },
+      {
+        "id": "D",
+        "text": "Politician"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Physician = चिकित्सक (Phy-si-cian)। Example: The physician prescribed complete rest.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_266",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rescue"
+      },
+      {
+        "id": "B",
+        "text": "Persue"
+      },
+      {
+        "id": "C",
+        "text": "Issue"
+      },
+      {
+        "id": "D",
+        "text": "Continue"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Pursue = पीछा करना, अनुसरण करना (Pur-sue)। Example: She wants to pursue a career in law.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_267",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shedule"
+      },
+      {
+        "id": "B",
+        "text": "Timetable"
+      },
+      {
+        "id": "C",
+        "text": "Calendar"
+      },
+      {
+        "id": "D",
+        "text": "Roster"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Schedule = कार्यक्रम-सूची (Sch- से शुरू)। Example: Check the exam schedule.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_268",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ambience"
+      },
+      {
+        "id": "B",
+        "text": "Experience"
+      },
+      {
+        "id": "C",
+        "text": "Convinience"
+      },
+      {
+        "id": "D",
+        "text": "Audience"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Convenience = सुविधा (Conven-ience)। Example: For your convenience, we open early.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_269",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Literature"
+      },
+      {
+        "id": "B",
+        "text": "Illustrate"
+      },
+      {
+        "id": "C",
+        "text": "Alliteration"
+      },
+      {
+        "id": "D",
+        "text": "Iliterate"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Illiterate = अनपढ़ (il + literate, दोहरा l)। Example: Education removes the curse of being illiterate.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_270",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Embroidary"
+      },
+      {
+        "id": "B",
+        "text": "Upholstery"
+      },
+      {
+        "id": "C",
+        "text": "Tapestry"
+      },
+      {
+        "id": "D",
+        "text": "Brocade"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Embroidery = कढ़ाई (Embroid-ery)। Example: The saree has fine embroidery.",
+    "language": "en"
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_ows_271",
+    "subjectId": "english",
+    "question": "Choose the one word for: The scientific study of the kidneys and their diseases.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hepatology"
+      },
+      {
+        "id": "B",
+        "text": "Urology"
+      },
+      {
+        "id": "C",
+        "text": "Neurology"
+      },
+      {
+        "id": "D",
+        "text": "Nephrology"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Nephrology = वृक्क-विज्ञान (गुर्दे का अध्ययन)। Example: A nephrology expert treated the patient's kidney failure.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_272",
+    "subjectId": "english",
+    "question": "Choose the one word for: The scientific study of blood and its diseases.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Histology"
+      },
+      {
+        "id": "B",
+        "text": "Cytology"
+      },
+      {
+        "id": "C",
+        "text": "Haematology"
+      },
+      {
+        "id": "D",
+        "text": "Immunology"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Haematology = रुधिर-विज्ञान। Example: Haematology tests found a low blood count.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_273",
+    "subjectId": "english",
+    "question": "Choose the one word for: The scientific study of bones.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Osteology"
+      },
+      {
+        "id": "B",
+        "text": "Myology"
+      },
+      {
+        "id": "C",
+        "text": "Odontology"
+      },
+      {
+        "id": "D",
+        "text": "Ophthalmology"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Osteology = अस्थि-विज्ञान। Example: Osteology helped identify the age of the skeleton.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_274",
+    "subjectId": "english",
+    "question": "Choose the one word for: The scientific study of the punishment of crime and the management of prisons.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Penology"
+      },
+      {
+        "id": "B",
+        "text": "Phonology"
+      },
+      {
+        "id": "C",
+        "text": "Philology"
+      },
+      {
+        "id": "D",
+        "text": "Theology"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Penology = दंड एवं कारागार-विज्ञान। Example: A penology course covers prison reforms.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_275",
+    "subjectId": "english",
+    "question": "Choose the one word for: The study of people's efficiency in their working environment.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Electronics"
+      },
+      {
+        "id": "B",
+        "text": "Ergonomics"
+      },
+      {
+        "id": "C",
+        "text": "Athletics"
+      },
+      {
+        "id": "D",
+        "text": "Economics"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Ergonomics = कार्य-परिवेश अनुकूलन विज्ञान। Example: Ergonomics suggests a better chair for office workers.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_276",
+    "subjectId": "english",
+    "question": "Choose the one word for: The study of improving the human race by selective breeding.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aesthetics"
+      },
+      {
+        "id": "B",
+        "text": "Ethics"
+      },
+      {
+        "id": "C",
+        "text": "Eugenics"
+      },
+      {
+        "id": "D",
+        "text": "Optics"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Eugenics = सुजनन-विज्ञान (चयनित प्रजनन से मानव-सुधार)। Example: Eugenics is now widely rejected as unethical.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_277",
+    "subjectId": "english",
+    "question": "Choose the one word for: The scientific study of human history through the excavation of ancient remains.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Geology"
+      },
+      {
+        "id": "B",
+        "text": "Cosmology"
+      },
+      {
+        "id": "C",
+        "text": "Archaeology"
+      },
+      {
+        "id": "D",
+        "text": "Anthropology"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Archaeology = पुरातत्व-विज्ञान। Example: Archaeology revealed the ruins of an ancient city.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_278",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who makes an excessive show of learning or is overly concerned with minor rules.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pedant"
+      },
+      {
+        "id": "B",
+        "text": "Tutor"
+      },
+      {
+        "id": "C",
+        "text": "Pundit"
+      },
+      {
+        "id": "D",
+        "text": "Sage"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Pedant = विद्वत्ता का दिखावा करने वाला, छोटे नियमों का हठी। Example: The pedant corrected every comma in the notice.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_279",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who believes that pleasure is the chief aim of life.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stoic"
+      },
+      {
+        "id": "B",
+        "text": "Pragmatist"
+      },
+      {
+        "id": "C",
+        "text": "Puritan"
+      },
+      {
+        "id": "D",
+        "text": "Hedonist"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Hedonist = सुखवादी। Example: The hedonist spent his life in feasts and festivals.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_280",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who believes that people are motivated only by selfishness.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Idealist"
+      },
+      {
+        "id": "B",
+        "text": "Philanthropist"
+      },
+      {
+        "id": "C",
+        "text": "Cynic"
+      },
+      {
+        "id": "D",
+        "text": "Romantic"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Cynic = दोषदर्शी (हर किसी को स्वार्थी मानने वाला)। Example: A cynic refuses to believe in anyone's goodness.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_281",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who selflessly works for the welfare of others.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Miser"
+      },
+      {
+        "id": "B",
+        "text": "Altruist"
+      },
+      {
+        "id": "C",
+        "text": "Rival"
+      },
+      {
+        "id": "D",
+        "text": "Egoist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Altruist = परोपकारी। Example: The altruist gave all his savings to the school.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_282",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who falsely claims to have special knowledge or skill.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sage"
+      },
+      {
+        "id": "B",
+        "text": "Maestro"
+      },
+      {
+        "id": "C",
+        "text": "Veteran"
+      },
+      {
+        "id": "D",
+        "text": "Charlatan"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Charlatan = पाखंडी, नीम-हकीम। Example: The charlatan sold fake medicines in the market.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_283",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who claims to foretell future events.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Soothsayer"
+      },
+      {
+        "id": "B",
+        "text": "Counsellor"
+      },
+      {
+        "id": "C",
+        "text": "Astronomer"
+      },
+      {
+        "id": "D",
+        "text": "Historian"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Soothsayer = भविष्यवक्ता। Example: The king consulted a soothsayer before the war.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_284",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who is guided and supported by an older and more experienced person.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Guardian"
+      },
+      {
+        "id": "B",
+        "text": "Colleague"
+      },
+      {
+        "id": "C",
+        "text": "Mentor"
+      },
+      {
+        "id": "D",
+        "text": "Protégé"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Protégé = संरक्षित शिष्य। Example: The young singer was the protégé of a great maestro.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_285",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who gives money or help to others, especially to an institution.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tenant"
+      },
+      {
+        "id": "B",
+        "text": "Benefactor"
+      },
+      {
+        "id": "C",
+        "text": "Landlord"
+      },
+      {
+        "id": "D",
+        "text": "Borrower"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Benefactor = उपकारी, दानदाता। Example: A kind benefactor funded the new library.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_286",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who is involved in a lawsuit.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Litigant"
+      },
+      {
+        "id": "B",
+        "text": "Notary"
+      },
+      {
+        "id": "C",
+        "text": "Juror"
+      },
+      {
+        "id": "D",
+        "text": "Advocate"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Litigant = मुक़दमे का पक्षकार। Example: Each litigant presented his side before the judge.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_287",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person appointed to carry out the instructions in someone's will.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Heir"
+      },
+      {
+        "id": "B",
+        "text": "Guardian"
+      },
+      {
+        "id": "C",
+        "text": "Receiver"
+      },
+      {
+        "id": "D",
+        "text": "Executor"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Executor = वसीयत का निष्पादक। Example: The executor distributed the property as the will directed.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_288",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who spends money in a careless and wasteful way.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Investor"
+      },
+      {
+        "id": "B",
+        "text": "Pauper"
+      },
+      {
+        "id": "C",
+        "text": "Spendthrift"
+      },
+      {
+        "id": "D",
+        "text": "Miser"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Spendthrift = फ़िज़ूलख़र्च। Example: The spendthrift wasted his inheritance in a year.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_289",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who lends money at a very high rate of interest.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Broker"
+      },
+      {
+        "id": "B",
+        "text": "Usurer"
+      },
+      {
+        "id": "C",
+        "text": "Auditor"
+      },
+      {
+        "id": "D",
+        "text": "Banker"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Usurer = सूदख़ोर। Example: The poor farmer was trapped by a cruel usurer.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_290",
+    "subjectId": "english",
+    "question": "Choose the one word for: An animal that eats both plants and meat.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Herbivore"
+      },
+      {
+        "id": "B",
+        "text": "Omnivore"
+      },
+      {
+        "id": "C",
+        "text": "Insectivore"
+      },
+      {
+        "id": "D",
+        "text": "Carnivore"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Omnivore = सर्वाहारी। Example: A bear is an omnivore.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_291",
+    "subjectId": "english",
+    "question": "Choose the one word for: A channel or bridge-like structure built to carry water across a long distance.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aqueduct"
+      },
+      {
+        "id": "B",
+        "text": "Reservoir"
+      },
+      {
+        "id": "C",
+        "text": "Embankment"
+      },
+      {
+        "id": "D",
+        "text": "Culvert"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Aqueduct = जलसेतु, पानी ले जाने की नहर। Example: The Romans built a long aqueduct to feed the city.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_292",
+    "subjectId": "english",
+    "question": "Choose the one word for: A long bridge-like structure carrying a road or railway across a valley.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Causeway"
+      },
+      {
+        "id": "B",
+        "text": "Jetty"
+      },
+      {
+        "id": "C",
+        "text": "Tunnel"
+      },
+      {
+        "id": "D",
+        "text": "Viaduct"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Viaduct = घाटी पर बना लंबा पुल। Example: The train crossed the valley on a high viaduct.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_293",
+    "subjectId": "english",
+    "question": "Choose the one word for: A place that provides care for people who are terminally ill.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hostel"
+      },
+      {
+        "id": "B",
+        "text": "Infirmary"
+      },
+      {
+        "id": "C",
+        "text": "Hospice"
+      },
+      {
+        "id": "D",
+        "text": "Asylum"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Hospice = असाध्य रोगियों की देखभाल का स्थान। Example: She volunteers at a hospice every Sunday.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_294",
+    "subjectId": "english",
+    "question": "Choose the one word for: A place where small children are looked after during the day while their parents are at work.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conservatory"
+      },
+      {
+        "id": "B",
+        "text": "Reformatory"
+      },
+      {
+        "id": "C",
+        "text": "Seminary"
+      },
+      {
+        "id": "D",
+        "text": "Creche"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Creche = शिशु-पालनाघर। Example: The factory runs a creche for workers' children.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_295",
+    "subjectId": "english",
+    "question": "Choose the one word for: An open circular or oval building with rising rows of seats around a central arena.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pagoda"
+      },
+      {
+        "id": "B",
+        "text": "Amphitheatre"
+      },
+      {
+        "id": "C",
+        "text": "Rotunda"
+      },
+      {
+        "id": "D",
+        "text": "Auditorium"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Amphitheatre = गोलाकार खुला रंगमंच। Example: The ancient amphitheatre could seat thousands.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_296",
+    "subjectId": "english",
+    "question": "Choose the one word for: A large shop that sells a wide variety of goods.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Emporium"
+      },
+      {
+        "id": "B",
+        "text": "Depot"
+      },
+      {
+        "id": "C",
+        "text": "Warehouse"
+      },
+      {
+        "id": "D",
+        "text": "Kiosk"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Emporium = बड़ी दुकान, वाणिज्य केंद्र। Example: The emporium sells handicrafts from every state.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_297",
+    "subjectId": "english",
+    "question": "Choose the one word for: To listen secretly to a private conversation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eavesdrop"
+      },
+      {
+        "id": "B",
+        "text": "Interfere"
+      },
+      {
+        "id": "C",
+        "text": "Intrude"
+      },
+      {
+        "id": "D",
+        "text": "Intercede"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Eavesdrop = छिपकर बातें सुनना। Example: The child tried to eavesdrop on his parents.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_298",
+    "subjectId": "english",
+    "question": "Choose the one word for: To give up a throne or a high office voluntarily.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dethrone"
+      },
+      {
+        "id": "B",
+        "text": "Banish"
+      },
+      {
+        "id": "C",
+        "text": "Abdicate"
+      },
+      {
+        "id": "D",
+        "text": "Evict"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Abdicate = पद या राजगद्दी स्वेच्छा से त्याग देना। Example: The old king abdicated in favour of his son.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_299",
+    "subjectId": "english",
+    "question": "Choose the one word for: To give formal approval to a treaty or an agreement.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Postpone"
+      },
+      {
+        "id": "B",
+        "text": "Ratify"
+      },
+      {
+        "id": "C",
+        "text": "Annul"
+      },
+      {
+        "id": "D",
+        "text": "Amend"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Ratify = अनुसमर्थन करना। Example: Parliament ratified the trade agreement.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_300",
+    "subjectId": "english",
+    "question": "Choose the one word for: That cannot be easily understood; mysterious.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inglorious"
+      },
+      {
+        "id": "B",
+        "text": "Inscrutable"
+      },
+      {
+        "id": "C",
+        "text": "Indecent"
+      },
+      {
+        "id": "D",
+        "text": "Inaccurate"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Inscrutable = रहस्यमय, जिसे समझना कठिन हो। Example: The judge's face was inscrutable.",
+    "language": "en"
+  }
+]

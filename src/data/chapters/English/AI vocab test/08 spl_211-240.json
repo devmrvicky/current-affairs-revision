@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_spl_211",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mosquito"
+      },
+      {
+        "id": "B",
+        "text": "Souvenir"
+      },
+      {
+        "id": "C",
+        "text": "Handkerchief"
+      },
+      {
+        "id": "D",
+        "text": "Heirarchy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Hierarchy = पदानुक्रम, श्रेणीक्रम (Hi-er-archy)। Example: The army has a strict hierarchy.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_212",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Innoculate"
+      },
+      {
+        "id": "B",
+        "text": "Giraffe"
+      },
+      {
+        "id": "C",
+        "text": "Cauliflower"
+      },
+      {
+        "id": "D",
+        "text": "Colleague"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Inoculate = टीका लगाना (एक n)। Example: Children are inoculated against measles.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_213",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pamphlet"
+      },
+      {
+        "id": "B",
+        "text": "Lantern"
+      },
+      {
+        "id": "C",
+        "text": "Rethoric"
+      },
+      {
+        "id": "D",
+        "text": "Sapphire"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Rhetoric = वाक्पटुता, भाषण-कला (Rhet-o-ric)। Example: His rhetoric moved the crowd.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_214",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tyrany"
+      },
+      {
+        "id": "B",
+        "text": "Boulevard"
+      },
+      {
+        "id": "C",
+        "text": "Sanatorium"
+      },
+      {
+        "id": "D",
+        "text": "Pedestrian"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Tyranny = अत्याचार, निरंकुश शासन (दोहरा n)। Example: People rose against the tyranny of the ruler.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_215",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vaccum"
+      },
+      {
+        "id": "B",
+        "text": "Chimney"
+      },
+      {
+        "id": "C",
+        "text": "Gymnasium"
+      },
+      {
+        "id": "D",
+        "text": "Cabbage"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Vacuum = निर्वात (दो u साथ-साथ)। Example: Sound cannot travel in a vacuum.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_216",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Daughter"
+      },
+      {
+        "id": "B",
+        "text": "Auxilliary"
+      },
+      {
+        "id": "C",
+        "text": "Bachelor"
+      },
+      {
+        "id": "D",
+        "text": "Ascertain"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Auxiliary = सहायक (एक l)। Example: 'Is' and 'has' are auxiliary verbs.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_217",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Catastrophy"
+      },
+      {
+        "id": "B",
+        "text": "Orchestra"
+      },
+      {
+        "id": "C",
+        "text": "Apartment"
+      },
+      {
+        "id": "D",
+        "text": "Cyclone"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Catastrophe = भीषण विपत्ति (अंत -phe)। Example: The flood was a catastrophe for the village.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_218",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Collosal"
+      },
+      {
+        "id": "B",
+        "text": "Dessert"
+      },
+      {
+        "id": "C",
+        "text": "Calculate"
+      },
+      {
+        "id": "D",
+        "text": "Squirrel"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Colossal = विशालकाय (एक l, दोहरा s)। Example: The colossal statue stands at the harbour.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_219",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trespass"
+      },
+      {
+        "id": "B",
+        "text": "Disipate"
+      },
+      {
+        "id": "C",
+        "text": "Magnificent"
+      },
+      {
+        "id": "D",
+        "text": "Hazardous"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Dissipate = बिखर जाना, उड़ा देना (दोहरा s)। Example: The fog began to dissipate by noon.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_220",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rapport"
+      },
+      {
+        "id": "B",
+        "text": "Elligible"
+      },
+      {
+        "id": "C",
+        "text": "Opponent"
+      },
+      {
+        "id": "D",
+        "text": "Bouquet"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Eligible = पात्र, योग्य (एक l)। Example: Only graduates are eligible for the post.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_221",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Squadron"
+      },
+      {
+        "id": "B",
+        "text": "Orchard"
+      },
+      {
+        "id": "C",
+        "text": "Prairie"
+      },
+      {
+        "id": "D",
+        "text": "Dormatory"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Dormitory = छात्रावास का शयनकक्ष (अंत -tory)। Example: Forty boys sleep in the dormitory.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_222",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tomorrow"
+      },
+      {
+        "id": "B",
+        "text": "Boundry"
+      },
+      {
+        "id": "C",
+        "text": "Mattress"
+      },
+      {
+        "id": "D",
+        "text": "Cylinder"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Boundary = सीमा (अंत -ary)। Example: The wall marks the boundary of the field.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_223",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Efficient"
+      },
+      {
+        "id": "B",
+        "text": "Initiative"
+      },
+      {
+        "id": "C",
+        "text": "Obedient"
+      },
+      {
+        "id": "D",
+        "text": "Leniant"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Lenient = उदार, नरम (अंत -ent)। Example: The judge was lenient to the first-time offender.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_224",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cashier"
+      },
+      {
+        "id": "B",
+        "text": "Receipt"
+      },
+      {
+        "id": "C",
+        "text": "Naieve"
+      },
+      {
+        "id": "D",
+        "text": "Aisle"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Naive = भोला, नादान (Na-ive)। Example: It was naive to trust a stranger with money.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_225",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Banquet"
+      },
+      {
+        "id": "B",
+        "text": "Vehicle"
+      },
+      {
+        "id": "C",
+        "text": "Parachute"
+      },
+      {
+        "id": "D",
+        "text": "Omnicient"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Omniscient = सर्वज्ञ (omni + science)। Example: No human is omniscient.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_226",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Marmalade"
+      },
+      {
+        "id": "B",
+        "text": "Pavillion"
+      },
+      {
+        "id": "C",
+        "text": "Cardigan"
+      },
+      {
+        "id": "D",
+        "text": "Avalanche"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Pavilion = मंडप (एक l)। Example: The cricketers returned to the pavilion.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_227",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Quandry"
+      },
+      {
+        "id": "B",
+        "text": "Trousers"
+      },
+      {
+        "id": "C",
+        "text": "Lavender"
+      },
+      {
+        "id": "D",
+        "text": "Marathon"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Quandary = असमंजस, दुविधा (अंत -ary)। Example: He was in a quandary over which job to take.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_228",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Raspberry"
+      },
+      {
+        "id": "B",
+        "text": "Almond"
+      },
+      {
+        "id": "C",
+        "text": "Cupboard"
+      },
+      {
+        "id": "D",
+        "text": "Rehersal"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Rehearsal = पूर्वाभ्यास (re-HEAR-sal, इसमें hear छिपा है)। Example: The dress rehearsal went well.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_229",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Triangle"
+      },
+      {
+        "id": "B",
+        "text": "Symetry"
+      },
+      {
+        "id": "C",
+        "text": "Pyramid"
+      },
+      {
+        "id": "D",
+        "text": "Sphere"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Symmetry = समरूपता (दोहरा m)। Example: The Taj Mahal is admired for its symmetry.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_230",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diligence"
+      },
+      {
+        "id": "B",
+        "text": "Eloquence"
+      },
+      {
+        "id": "C",
+        "text": "Tendancy"
+      },
+      {
+        "id": "D",
+        "text": "Prudence"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Tendency = प्रवृत्ति (अंत -ency)। Example: He has a tendency to oversleep.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_231",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Notorious"
+      },
+      {
+        "id": "B",
+        "text": "Unscrupulus"
+      },
+      {
+        "id": "C",
+        "text": "Ambitious"
+      },
+      {
+        "id": "D",
+        "text": "Conspicuous"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Unscrupulous = बेईमान, अनैतिक (अंत -ous)। Example: An unscrupulous dealer sold fake goods.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_232",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Captain"
+      },
+      {
+        "id": "B",
+        "text": "Curtain"
+      },
+      {
+        "id": "C",
+        "text": "Villian"
+      },
+      {
+        "id": "D",
+        "text": "Fountain"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Villain = खलनायक, दुष्ट (अंत -ain)। Example: The villain was arrested in the last scene.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_233",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aggregate"
+      },
+      {
+        "id": "B",
+        "text": "Occasion"
+      },
+      {
+        "id": "C",
+        "text": "Accumulate"
+      },
+      {
+        "id": "D",
+        "text": "Abreviation"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Abbreviation = संक्षिप्त रूप (दोहरा b)। Example: 'Dr' is an abbreviation of 'Doctor'.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_234",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Emergency"
+      },
+      {
+        "id": "B",
+        "text": "Frequency"
+      },
+      {
+        "id": "C",
+        "text": "Adolescense"
+      },
+      {
+        "id": "D",
+        "text": "Efficiency"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Adolescence = किशोरावस्था (अंत -ence)। Example: Adolescence is a time of rapid change.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_235",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Strenuous"
+      },
+      {
+        "id": "B",
+        "text": "Continuous"
+      },
+      {
+        "id": "C",
+        "text": "Ambigous"
+      },
+      {
+        "id": "D",
+        "text": "Righteous"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Ambiguous = अस्पष्ट, द्वयर्थक (Ambigu-ous)। Example: The reply was ambiguous.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_236",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Antidote"
+      },
+      {
+        "id": "B",
+        "text": "Anectode"
+      },
+      {
+        "id": "C",
+        "text": "Metaphor"
+      },
+      {
+        "id": "D",
+        "text": "Epitome"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Anecdote = छोटा रोचक क़िस्सा (An-ec-dote)। Example: He told an anecdote about his school days.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_237",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bankrupcy"
+      },
+      {
+        "id": "B",
+        "text": "Accuracy"
+      },
+      {
+        "id": "C",
+        "text": "Constituency"
+      },
+      {
+        "id": "D",
+        "text": "Conspiracy"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Bankruptcy = दिवालियापन (bankrupt + cy, t बना रहता है)। Example: The company filed for bankruptcy.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_238",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mercenary"
+      },
+      {
+        "id": "B",
+        "text": "Subsidiary"
+      },
+      {
+        "id": "C",
+        "text": "Benificiary"
+      },
+      {
+        "id": "D",
+        "text": "Intermediary"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Beneficiary = लाभार्थी (bene-fici-ary)। Example: The widow was the sole beneficiary of the will.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_239",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deteriorate"
+      },
+      {
+        "id": "B",
+        "text": "Reiterate"
+      },
+      {
+        "id": "C",
+        "text": "Procrastinate"
+      },
+      {
+        "id": "D",
+        "text": "Corraborate"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Corroborate = पुष्टि करना, समर्थन करना (दोहरा r, दो o)। Example: Another witness corroborated his story.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_240",
+    "subjectId": "english",
+    "question": "Select the option that contains the incorrectly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Facinate"
+      },
+      {
+        "id": "B",
+        "text": "Idiotic"
+      },
+      {
+        "id": "C",
+        "text": "Charismatic"
+      },
+      {
+        "id": "D",
+        "text": "Fanatic"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Fascinate = मंत्रमुग्ध करना (fa-sc-inate; s के बाद c भी आता है)। Example: Magic tricks fascinate small children.",
+    "language": "en"
+  }
+]

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_idm_241",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A leopard cannot change its spots",
+    "options": [
+      {
+        "id": "A",
+        "text": "A dangerous animal can be hunted"
+      },
+      {
+        "id": "B",
+        "text": "A person must hide his weaknesses"
+      },
+      {
+        "id": "C",
+        "text": "A wild animal can be tamed"
+      },
+      {
+        "id": "D",
+        "text": "A person cannot change his basic nature"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A leopard cannot change its spots = व्यक्ति का मूल स्वभाव नहीं बदलता। Example: He promised to reform, but a leopard cannot change its spots.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_242",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To be on the warpath",
+    "options": [
+      {
+        "id": "A",
+        "text": "To walk along a battlefield"
+      },
+      {
+        "id": "B",
+        "text": "To be angry and ready for a fight"
+      },
+      {
+        "id": "C",
+        "text": "To lead an army to peace talks"
+      },
+      {
+        "id": "D",
+        "text": "To be tired of war"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "On the warpath = लड़ने को आमादा, ग़ुस्से में। Example: The principal was on the warpath after the cheating.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_243",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To eat one's heart out",
+    "options": [
+      {
+        "id": "A",
+        "text": "To eat a heavy meal"
+      },
+      {
+        "id": "B",
+        "text": "To suffer silently from grief or envy"
+      },
+      {
+        "id": "C",
+        "text": "To forgive someone"
+      },
+      {
+        "id": "D",
+        "text": "To feel very proud"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Eat one's heart out = भीतर ही भीतर कुढ़ना। Example: She ate her heart out when her friend won the prize.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_244",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To fly off the handle",
+    "options": [
+      {
+        "id": "A",
+        "text": "To remain calm"
+      },
+      {
+        "id": "B",
+        "text": "To lose one's temper suddenly"
+      },
+      {
+        "id": "C",
+        "text": "To leave a job in haste"
+      },
+      {
+        "id": "D",
+        "text": "To repair a broken tool"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Fly off the handle = अचानक आपे से बाहर हो जाना। Example: He flies off the handle at the slightest delay.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_245",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To have a soft spot for",
+    "options": [
+      {
+        "id": "A",
+        "text": "To have a special fondness for"
+      },
+      {
+        "id": "B",
+        "text": "To have a weak muscle"
+      },
+      {
+        "id": "C",
+        "text": "To avoid completely"
+      },
+      {
+        "id": "D",
+        "text": "To dislike strongly"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Have a soft spot for = के प्रति विशेष लगाव रखना। Example: The teacher has a soft spot for shy students.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_246",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To keep mum",
+    "options": [
+      {
+        "id": "A",
+        "text": "To remain silent"
+      },
+      {
+        "id": "B",
+        "text": "To make a loud noise"
+      },
+      {
+        "id": "C",
+        "text": "To look after one's mother"
+      },
+      {
+        "id": "D",
+        "text": "To tell a secret"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Keep mum = चुप्पी साधे रखना। Example: He kept mum about the plan.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_247",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To look daggers at",
+    "options": [
+      {
+        "id": "A",
+        "text": "To stare at someone with great anger"
+      },
+      {
+        "id": "B",
+        "text": "To admire someone secretly"
+      },
+      {
+        "id": "C",
+        "text": "To greet someone warmly"
+      },
+      {
+        "id": "D",
+        "text": "To search for a weapon"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Look daggers at = ग़ुस्से से घूरना। Example: She looked daggers at him for breaking the vase.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_248",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To make a beeline for",
+    "options": [
+      {
+        "id": "A",
+        "text": "To avoid a person"
+      },
+      {
+        "id": "B",
+        "text": "To go straight and quickly towards"
+      },
+      {
+        "id": "C",
+        "text": "To follow a long winding path"
+      },
+      {
+        "id": "D",
+        "text": "To wait for someone patiently"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Make a beeline for = सीधा और तेज़ी से उसी ओर जाना। Example: The children made a beeline for the ice-cream stall.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_249",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To mend fences",
+    "options": [
+      {
+        "id": "A",
+        "text": "To mark one's territory"
+      },
+      {
+        "id": "B",
+        "text": "To build a boundary wall"
+      },
+      {
+        "id": "C",
+        "text": "To repair a damaged relationship"
+      },
+      {
+        "id": "D",
+        "text": "To start a quarrel"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Mend fences = बिगड़े रिश्ते सुधारना। Example: The minister travelled to mend fences with the allies.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_250",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To open a can of worms",
+    "options": [
+      {
+        "id": "A",
+        "text": "To solve a puzzle"
+      },
+      {
+        "id": "B",
+        "text": "To start a fishing trip"
+      },
+      {
+        "id": "C",
+        "text": "To create a complicated problem by raising a sensitive matter"
+      },
+      {
+        "id": "D",
+        "text": "To open a new shop"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Open a can of worms = पेचीदा मुसीबत खड़ी कर देना। Example: Questioning the old accounts opened a can of worms.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_251",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To pass the hat round",
+    "options": [
+      {
+        "id": "A",
+        "text": "To give away one's old clothes"
+      },
+      {
+        "id": "B",
+        "text": "To spend money freely"
+      },
+      {
+        "id": "C",
+        "text": "To collect money from a group of people"
+      },
+      {
+        "id": "D",
+        "text": "To wear a hat in public"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Pass the hat round = चंदा इकट्ठा करना। Example: We passed the hat round to help the injured worker.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_252",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To pick holes in",
+    "options": [
+      {
+        "id": "A",
+        "text": "To find faults in something"
+      },
+      {
+        "id": "B",
+        "text": "To dig a pit in the ground"
+      },
+      {
+        "id": "C",
+        "text": "To praise something warmly"
+      },
+      {
+        "id": "D",
+        "text": "To repair a torn cloth"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Pick holes in = कमियाँ निकालना। Example: Critics picked holes in the new policy.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_253",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To put one's foot down",
+    "options": [
+      {
+        "id": "A",
+        "text": "To stop walking"
+      },
+      {
+        "id": "B",
+        "text": "To step on someone"
+      },
+      {
+        "id": "C",
+        "text": "To take a firm stand"
+      },
+      {
+        "id": "D",
+        "text": "To give in at once"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Put one's foot down = सख़्ती से अपनी बात पर अड़ जाना। Example: Father put his foot down about late-night parties.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_254",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To put one's foot in it",
+    "options": [
+      {
+        "id": "A",
+        "text": "To show great courage"
+      },
+      {
+        "id": "B",
+        "text": "To make an embarrassing mistake by saying something tactless"
+      },
+      {
+        "id": "C",
+        "text": "To step into a puddle"
+      },
+      {
+        "id": "D",
+        "text": "To start a new project"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Put one's foot in it = बेतुकी बात कहकर शर्मिंदा होना। Example: He put his foot in it by asking about her failed marriage.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_255",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To raise the roof",
+    "options": [
+      {
+        "id": "A",
+        "text": "To repair a house"
+      },
+      {
+        "id": "B",
+        "text": "To remain completely silent"
+      },
+      {
+        "id": "C",
+        "text": "To build an upper floor"
+      },
+      {
+        "id": "D",
+        "text": "To make a very loud noise, especially by cheering or celebrating"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Raise the roof = शोर-शराबे से आसमान सिर पर उठा लेना। Example: The fans raised the roof when India won.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_256",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To save one's skin",
+    "options": [
+      {
+        "id": "A",
+        "text": "To take a risk deliberately"
+      },
+      {
+        "id": "B",
+        "text": "To escape harm or punishment"
+      },
+      {
+        "id": "C",
+        "text": "To protect oneself from the sun"
+      },
+      {
+        "id": "D",
+        "text": "To earn a lot of money"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Save one's skin = अपनी जान या इज़्ज़त बचा लेना। Example: He blamed his friend to save his skin.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_257",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To see red",
+    "options": [
+      {
+        "id": "A",
+        "text": "To become suddenly and extremely angry"
+      },
+      {
+        "id": "B",
+        "text": "To see a danger signal"
+      },
+      {
+        "id": "C",
+        "text": "To admire a colour"
+      },
+      {
+        "id": "D",
+        "text": "To feel very sleepy"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "See red = आग-बबूला हो जाना। Example: He saw red when he read the insulting letter.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_258",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To shed crocodile tears",
+    "options": [
+      {
+        "id": "A",
+        "text": "To cry in great pain"
+      },
+      {
+        "id": "B",
+        "text": "To weep for a lost friend"
+      },
+      {
+        "id": "C",
+        "text": "To be afraid of reptiles"
+      },
+      {
+        "id": "D",
+        "text": "To show insincere sorrow"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Shed crocodile tears = घड़ियाली आँसू बहाना। Example: The heir shed crocodile tears at the funeral.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_259",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To show one's true colours",
+    "options": [
+      {
+        "id": "A",
+        "text": "To display a national flag"
+      },
+      {
+        "id": "B",
+        "text": "To hide one's feelings"
+      },
+      {
+        "id": "C",
+        "text": "To reveal one's real nature"
+      },
+      {
+        "id": "D",
+        "text": "To paint a picture beautifully"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Show one's true colours = असली चेहरा दिखाना। Example: He showed his true colours when the money ran out.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_260",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To stick to one's guns",
+    "options": [
+      {
+        "id": "A",
+        "text": "To carry a weapon always"
+      },
+      {
+        "id": "B",
+        "text": "To give up one's position"
+      },
+      {
+        "id": "C",
+        "text": "To start a fight"
+      },
+      {
+        "id": "D",
+        "text": "To refuse to change one's opinion despite pressure"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Stick to one's guns = अपनी बात पर डटे रहना। Example: She stuck to her guns despite the criticism.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_261",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To take a rain check",
+    "options": [
+      {
+        "id": "A",
+        "text": "To politely postpone an offer to a later time"
+      },
+      {
+        "id": "B",
+        "text": "To carry an umbrella"
+      },
+      {
+        "id": "C",
+        "text": "To cancel a plan forever"
+      },
+      {
+        "id": "D",
+        "text": "To measure the rainfall"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Take a rain check = न्योते को बाद के लिए टाल देना। Example: I can't come today; may I take a rain check?",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_262",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To take someone to task",
+    "options": [
+      {
+        "id": "A",
+        "text": "To praise someone's work"
+      },
+      {
+        "id": "B",
+        "text": "To give someone a job"
+      },
+      {
+        "id": "C",
+        "text": "To help with homework"
+      },
+      {
+        "id": "D",
+        "text": "To scold someone for a fault"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Take someone to task = फटकारना, जवाबदेही माँगना। Example: The boss took him to task for the delay.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_263",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To tighten one's belt",
+    "options": [
+      {
+        "id": "A",
+        "text": "To prepare for a fight"
+      },
+      {
+        "id": "B",
+        "text": "To dress formally"
+      },
+      {
+        "id": "C",
+        "text": "To cut down on spending"
+      },
+      {
+        "id": "D",
+        "text": "To put on weight"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Tighten one's belt = ख़र्चों में कटौती करना। Example: After the pay cut, we had to tighten our belts.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_264",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To turn the tables",
+    "options": [
+      {
+        "id": "A",
+        "text": "To serve food to guests"
+      },
+      {
+        "id": "B",
+        "text": "To reverse a situation to one's advantage"
+      },
+      {
+        "id": "C",
+        "text": "To rearrange the furniture"
+      },
+      {
+        "id": "D",
+        "text": "To lose a game"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Turn the tables = बाज़ी पलट देना। Example: The new bowler turned the tables in the last over.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_265",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To wash one's hands of",
+    "options": [
+      {
+        "id": "A",
+        "text": "To share the blame equally"
+      },
+      {
+        "id": "B",
+        "text": "To take full charge of"
+      },
+      {
+        "id": "C",
+        "text": "To refuse to take any further responsibility for"
+      },
+      {
+        "id": "D",
+        "text": "To clean oneself after work"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Wash one's hands of = पल्ला झाड़ लेना। Example: The manager washed his hands of the failed project.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_266",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To wear one's heart on one's sleeve",
+    "options": [
+      {
+        "id": "A",
+        "text": "To dress very neatly"
+      },
+      {
+        "id": "B",
+        "text": "To wear a badge with pride"
+      },
+      {
+        "id": "C",
+        "text": "To hide one's emotions"
+      },
+      {
+        "id": "D",
+        "text": "To show one's feelings openly"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Wear one's heart on one's sleeve = मन की भावनाएँ खुलकर ज़ाहिर करना। Example: She wears her heart on her sleeve.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_267",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To win hands down",
+    "options": [
+      {
+        "id": "A",
+        "text": "To win very easily"
+      },
+      {
+        "id": "B",
+        "text": "To win by cheating"
+      },
+      {
+        "id": "C",
+        "text": "To lose with honour"
+      },
+      {
+        "id": "D",
+        "text": "To win after a hard fight"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Win hands down = आसानी से जीत जाना। Example: Our team won hands down.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_268",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A skeleton in the cupboard",
+    "options": [
+      {
+        "id": "A",
+        "text": "A useless old thing"
+      },
+      {
+        "id": "B",
+        "text": "A medical specimen"
+      },
+      {
+        "id": "C",
+        "text": "A very thin person"
+      },
+      {
+        "id": "D",
+        "text": "A shameful secret kept hidden"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A skeleton in the cupboard = घर का छिपा हुआ शर्मनाक राज़। Example: Every old family has a skeleton in the cupboard.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_269",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A snake in the grass",
+    "options": [
+      {
+        "id": "A",
+        "text": "A hidden enemy or a treacherous person"
+      },
+      {
+        "id": "B",
+        "text": "A harmless creature"
+      },
+      {
+        "id": "C",
+        "text": "A guide in the forest"
+      },
+      {
+        "id": "D",
+        "text": "A good friend"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A snake in the grass = आस्तीन का साँप। Example: He proved to be a snake in the grass.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_270",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A fool's paradise",
+    "options": [
+      {
+        "id": "A",
+        "text": "A very beautiful garden"
+      },
+      {
+        "id": "B",
+        "text": "A state of happiness based on false hopes"
+      },
+      {
+        "id": "C",
+        "text": "A place for jesters"
+      },
+      {
+        "id": "D",
+        "text": "A well-planned future"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "A fool's paradise = झूठी उम्मीदों पर टिकी ख़ुशी, ख़्याली जन्नत। Example: He lives in a fool's paradise, thinking the exam is easy.",
+    "language": "en"
+  }
+]
