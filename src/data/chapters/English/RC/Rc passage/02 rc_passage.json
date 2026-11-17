@@ -1,0 +1,702 @@
+[
+  {
+    "id": "rc026",
+    "subjectId": "english",
+    "question": "In 1885 the German psychologist Hermann Ebbinghaus published the results of a curious experiment conducted on a single subject: himself. Memorising lists of meaningless syllables such as 'wid' and 'zof', he tested how many he could recall after intervals ranging from twenty minutes to a month. The results, plotted as a graph, produced what is now called the forgetting curve: memory falls steeply in the first hours after learning and then declines more gradually. Without review, most of what is learned is lost within days. He repeated the exercise many times with fresh lists, so that chance and fatigue would not distort the pattern, and the shape of the curve proved remarkably consistent.\n\nFor more than a century, the curve was read as a lament about the frailty of the mind, and students were urged to cram, repeat and revise ever harder. Recent researchers, however, caution that forgetting is not merely a failure. A memory that retained every detail would be clogged with trivia and unable to pick out what matters; the capacity to let go of outdated information, such as last year's telephone number, is what allows the mind to generalise and adapt. On this view, forgetting is a feature of a healthy memory, and the real puzzle is not why we forget but why we remember anything at all.\n\nThe curve does, nonetheless, carry a practical lesson. Ebbinghaus found that each act of review slowed the decay, so that material revisited at widening intervals, after a day, then a week, then a month, could be retained far longer than material studied once, however intensely. This 'spaced repetition' has since been confirmed in many studies and is now built into language-learning software. It is worth remembering, though, that Ebbinghaus tested nonsense syllables. The meaningful material that students actually study, rich in connections to what they already know, is forgotten more slowly, and the slope of the curve in everyday learning is gentler than his original graph suggests.\n\nWhich of the following best expresses the central idea of the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The forgetting curve, once read as a sign of mental weakness, is now seen as reflecting a useful feature of memory, and it also offers practical lessons for study."
+      },
+      {
+        "id": "B",
+        "text": "Ebbinghaus's experiments on nonsense syllables have been shown to be worthless for understanding everyday learning."
+      },
+      {
+        "id": "C",
+        "text": "Cramming is the most effective way of defeating the forgetting curve."
+      },
+      {
+        "id": "D",
+        "text": "A memory that retains every detail would be ideal for learners."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "main-idea",
+    "difficulty": "hard",
+    "explanation": "नियम: Main idea / central idea वही विकल्प है जो पूरे passage का सार समेटे। गलत विकल्प प्रायः चार प्रकार के होते हैं: (i) Too narrow — केवल एक paragraph या एक detail की बात; (ii) Out of scope — passage में है ही नहीं; (iii) Extreme / distorted — always, never, only, sole, completely जैसे चरम शब्द या बात को तोड़-मरोड़कर पेश करना; (iv) Opposite — लेखक के मत के उलट।\n\nयहाँ: सही उत्तर (A)। Para 1: Ebbinghaus का experiment और curve। Para 2: curve को कमज़ोरी मानने की पुरानी सोच के बजाय भूलना स्मृति की उपयोगी विशेषता है। Para 3: curve से व्यावहारिक सीख (spaced repetition)। यही विकल्प तीनों हिस्सों को जोड़ता है।\n\nअन्य विकल्प:\n(B) — Extreme: passage केवल इतना कहता है कि सार्थक सामग्री धीमे भूली जाती है और वास्तविक curve कम तीखा है; प्रयोग को 'worthless' नहीं बताता।\n(C) — Opposite: Para 3 के अनुसार बढ़ते अंतराल पर दोहराना (spaced repetition) ज़्यादा देर तक याद रखवाता है, और cramming को लेकर Para 2 में आलोचना का संकेत है।\n(D) — Opposite: Para 2 में कहा गया कि हर बात याद रखने वाली स्मृति फ़ालतू बातों से भर जाती और ज़रूरी चीज़ें नहीं चुन पाती।",
+    "language": "en"
+  },
+  {
+    "id": "rc027",
+    "subjectId": "english",
+    "question": "In 1885 the German psychologist Hermann Ebbinghaus published the results of a curious experiment conducted on a single subject: himself. Memorising lists of meaningless syllables such as 'wid' and 'zof', he tested how many he could recall after intervals ranging from twenty minutes to a month. The results, plotted as a graph, produced what is now called the forgetting curve: memory falls steeply in the first hours after learning and then declines more gradually. Without review, most of what is learned is lost within days. He repeated the exercise many times with fresh lists, so that chance and fatigue would not distort the pattern, and the shape of the curve proved remarkably consistent.\n\nFor more than a century, the curve was read as a lament about the frailty of the mind, and students were urged to cram, repeat and revise ever harder. Recent researchers, however, caution that forgetting is not merely a failure. A memory that retained every detail would be clogged with trivia and unable to pick out what matters; the capacity to let go of outdated information, such as last year's telephone number, is what allows the mind to generalise and adapt. On this view, forgetting is a feature of a healthy memory, and the real puzzle is not why we forget but why we remember anything at all.\n\nThe curve does, nonetheless, carry a practical lesson. Ebbinghaus found that each act of review slowed the decay, so that material revisited at widening intervals, after a day, then a week, then a month, could be retained far longer than material studied once, however intensely. This 'spaced repetition' has since been confirmed in many studies and is now built into language-learning software. It is worth remembering, though, that Ebbinghaus tested nonsense syllables. The meaningful material that students actually study, rich in connections to what they already know, is forgotten more slowly, and the slope of the curve in everyday learning is gentler than his original graph suggests.\n\nSelect the word or phrase closest in meaning to 'lament' as used in the passage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "triumphant claim"
+      },
+      {
+        "id": "B",
+        "text": "casual remark"
+      },
+      {
+        "id": "C",
+        "text": "mournful complaint"
+      },
+      {
+        "id": "D",
+        "text": "scientific proof"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "vocabulary-in-context",
+    "difficulty": "medium",
+    "explanation": "नियम: Vocabulary-in-context में शब्द का शब्दकोश-अर्थ नहीं, passage के वाक्य में उसका अर्थ देखें। वाक्य के भाव (सकारात्मक / नकारात्मक) और 'but, yet, however' जैसे संकेतकों से सही अर्थ पकड़ें।\n\nयहाँ: सही उत्तर (C)। 'the curve was read as a lament about the frailty of the mind' = इसे मन की कमज़ोरी पर शोक भरी शिकायत की तरह पढ़ा गया। Lament (noun) = शोक या खेद की अभिव्यक्ति, यानी mournful complaint।\n\nअन्य विकल्प:\n(A) triumphant claim — triumphant claim = विजय-भरा दावा। 'frailty (कमज़ोरी)' के साथ शोक का भाव है, गर्व का नहीं।\n(B) casual remark — casual remark = सरसरी टिप्पणी। Lament में गहरा खेद होता है, इसलिए हल्की टिप्पणी बेमेल है।\n(D) scientific proof — scientific proof = वैज्ञानिक प्रमाण। Lament एक भावना की अभिव्यक्ति है, प्रमाण नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "rc028",
+    "subjectId": "english",
+    "question": "In 1885 the German psychologist Hermann Ebbinghaus published the results of a curious experiment conducted on a single subject: himself. Memorising lists of meaningless syllables such as 'wid' and 'zof', he tested how many he could recall after intervals ranging from twenty minutes to a month. The results, plotted as a graph, produced what is now called the forgetting curve: memory falls steeply in the first hours after learning and then declines more gradually. Without review, most of what is learned is lost within days. He repeated the exercise many times with fresh lists, so that chance and fatigue would not distort the pattern, and the shape of the curve proved remarkably consistent.\n\nFor more than a century, the curve was read as a lament about the frailty of the mind, and students were urged to cram, repeat and revise ever harder. Recent researchers, however, caution that forgetting is not merely a failure. A memory that retained every detail would be clogged with trivia and unable to pick out what matters; the capacity to let go of outdated information, such as last year's telephone number, is what allows the mind to generalise and adapt. On this view, forgetting is a feature of a healthy memory, and the real puzzle is not why we forget but why we remember anything at all.\n\nThe curve does, nonetheless, carry a practical lesson. Ebbinghaus found that each act of review slowed the decay, so that material revisited at widening intervals, after a day, then a week, then a month, could be retained far longer than material studied once, however intensely. This 'spaced repetition' has since been confirmed in many studies and is now built into language-learning software. It is worth remembering, though, that Ebbinghaus tested nonsense syllables. The meaningful material that students actually study, rich in connections to what they already know, is forgotten more slowly, and the slope of the curve in everyday learning is gentler than his original graph suggests.\n\nWhich of the following can be inferred from the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ebbinghaus devised spaced repetition as a technique for language-learning software."
+      },
+      {
+        "id": "B",
+        "text": "Poems studied closely would probably be forgotten more slowly than lists of nonsense syllables."
+      },
+      {
+        "id": "C",
+        "text": "Regular review can eliminate forgetting altogether."
+      },
+      {
+        "id": "D",
+        "text": "Modern researchers have rejected the existence of the forgetting curve."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "inference",
+    "difficulty": "hard",
+    "explanation": "नियम: Inference वह निष्कर्ष है जो passage के तथ्यों से तर्कसंगत रूप से निकलता है, पर शब्दशः लिखा नहीं होता। सही विकल्प passage की बात का सीधा विस्तार होता है; गलत विकल्प या तो नई बात जोड़ते हैं या always / never / necessarily / only जैसे चरम शब्द लगाते हैं।\n\nयहाँ: सही उत्तर (B)। अंतिम paragraph: सार्थक सामग्री, जिसमें पहले से ज्ञात चीज़ों से जुड़ाव होता है, ज़्यादा धीरे भूली जाती है। इसलिए ध्यान से पढ़ी गई कविताएँ (जुड़ावों से भरी) अर्थहीन अक्षर-समूहों से धीमे भूली जाएँगी — यह सीधा निष्कर्ष है।\n\nअन्य विकल्प:\n(A) — Distorted: passage बताता है कि spaced repetition की पुष्टि बाद के अध्ययनों में हुई और अब सॉफ़्टवेयर में है; यह नहीं कि Ebbinghaus ने उसे सॉफ़्टवेयर के लिए बनाया।\n(C) — Extreme: review 'decay को धीमा' करता है, पूरी तरह ख़त्म नहीं; 'altogether' चरम शब्द है।\n(D) — Opposite: शोधकर्ता curve को नकारते नहीं, उसकी व्याख्या बदलते हैं (भूलना कमी नहीं, उपयोगी है)।",
+    "language": "en"
+  },
+  {
+    "id": "rc029",
+    "subjectId": "english",
+    "question": "In 1885 the German psychologist Hermann Ebbinghaus published the results of a curious experiment conducted on a single subject: himself. Memorising lists of meaningless syllables such as 'wid' and 'zof', he tested how many he could recall after intervals ranging from twenty minutes to a month. The results, plotted as a graph, produced what is now called the forgetting curve: memory falls steeply in the first hours after learning and then declines more gradually. Without review, most of what is learned is lost within days. He repeated the exercise many times with fresh lists, so that chance and fatigue would not distort the pattern, and the shape of the curve proved remarkably consistent.\n\nFor more than a century, the curve was read as a lament about the frailty of the mind, and students were urged to cram, repeat and revise ever harder. Recent researchers, however, caution that forgetting is not merely a failure. A memory that retained every detail would be clogged with trivia and unable to pick out what matters; the capacity to let go of outdated information, such as last year's telephone number, is what allows the mind to generalise and adapt. On this view, forgetting is a feature of a healthy memory, and the real puzzle is not why we forget but why we remember anything at all.\n\nThe curve does, nonetheless, carry a practical lesson. Ebbinghaus found that each act of review slowed the decay, so that material revisited at widening intervals, after a day, then a week, then a month, could be retained far longer than material studied once, however intensely. This 'spaced repetition' has since been confirmed in many studies and is now built into language-learning software. It is worth remembering, though, that Ebbinghaus tested nonsense syllables. The meaningful material that students actually study, rich in connections to what they already know, is forgotten more slowly, and the slope of the curve in everyday learning is gentler than his original graph suggests.\n\nAll of the following are mentioned in the passage EXCEPT:",
+    "options": [
+      {
+        "id": "A",
+        "text": "He measured recall after intervals ranging from twenty minutes to a month."
+      },
+      {
+        "id": "B",
+        "text": "Memory declines steeply soon after learning and more gradually later."
+      },
+      {
+        "id": "C",
+        "text": "Letting go of outdated information helps the mind to generalise and adapt."
+      },
+      {
+        "id": "D",
+        "text": "Ebbinghaus tested a large group of university students."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "detail-except",
+    "difficulty": "medium",
+    "explanation": "नियम: 'NOT / EXCEPT' प्रश्न में तीन विकल्प passage में मिलते हैं और एक नहीं मिलता। हर विकल्प को passage की पंक्तियों से मिलाएँ; जो न मिले (या passage के उलट हो) वही उत्तर है।\n\nयहाँ: सही उत्तर (D)। Para 1 के अनुसार प्रयोग 'a single subject: himself' पर हुआ था, यानी Ebbinghaus ने अपने ऊपर ही परीक्षण किया। 'बड़े विश्वविद्यालय छात्र-समूह' का कहीं उल्लेख नहीं, बल्कि वह बात passage के उलट है, इसलिए यही EXCEPT का उत्तर है।\n\nअन्य विकल्प:\n(A) — Para 1 में स्पष्ट उल्लेख: 'intervals ranging from twenty minutes to a month'।\n(B) — Para 1 में उल्लेख: 'memory falls steeply in the first hours ... then declines more gradually'।\n(C) — Para 2 में उल्लेख: 'the capacity to let go of outdated information ... allows the mind to generalise and adapt'।",
+    "language": "en"
+  },
+  {
+    "id": "rc030",
+    "subjectId": "english",
+    "question": "In 1885 the German psychologist Hermann Ebbinghaus published the results of a curious experiment conducted on a single subject: himself. Memorising lists of meaningless syllables such as 'wid' and 'zof', he tested how many he could recall after intervals ranging from twenty minutes to a month. The results, plotted as a graph, produced what is now called the forgetting curve: memory falls steeply in the first hours after learning and then declines more gradually. Without review, most of what is learned is lost within days. He repeated the exercise many times with fresh lists, so that chance and fatigue would not distort the pattern, and the shape of the curve proved remarkably consistent.\n\nFor more than a century, the curve was read as a lament about the frailty of the mind, and students were urged to cram, repeat and revise ever harder. Recent researchers, however, caution that forgetting is not merely a failure. A memory that retained every detail would be clogged with trivia and unable to pick out what matters; the capacity to let go of outdated information, such as last year's telephone number, is what allows the mind to generalise and adapt. On this view, forgetting is a feature of a healthy memory, and the real puzzle is not why we forget but why we remember anything at all.\n\nThe curve does, nonetheless, carry a practical lesson. Ebbinghaus found that each act of review slowed the decay, so that material revisited at widening intervals, after a day, then a week, then a month, could be retained far longer than material studied once, however intensely. This 'spaced repetition' has since been confirmed in many studies and is now built into language-learning software. It is worth remembering, though, that Ebbinghaus tested nonsense syllables. The meaningful material that students actually study, rich in connections to what they already know, is forgotten more slowly, and the slope of the curve in everyday learning is gentler than his original graph suggests.\n\nThe author mentions 'last year's telephone number' in order to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "prove that human memory is basically unreliable"
+      },
+      {
+        "id": "B",
+        "text": "suggest that telephone numbers are harder to remember than syllables"
+      },
+      {
+        "id": "C",
+        "text": "show how discarding outdated information can benefit the mind"
+      },
+      {
+        "id": "D",
+        "text": "argue that Ebbinghaus's results cannot be replicated"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "author-purpose",
+    "difficulty": "medium",
+    "explanation": "नियम: Purpose / function वाले प्रश्न में 'क्या कहा गया' नहीं बल्कि 'क्यों कहा गया' देखें — यानी उस उदाहरण, वाक्य या paragraph का काम (चेतावनी, उदाहरण, विरोध, निष्कर्ष)। उसके आसपास के वाक्य उसकी भूमिका स्पष्ट करते हैं।\n\nयहाँ: सही उत्तर (C)। Para 2: 'the capacity to let go of outdated information, such as last year's telephone number, is what allows the mind to generalise and adapt' — पुराने फ़ोन नंबर को भूल जाना उदाहरण है कि अप्रचलित जानकारी छोड़ना मस्तिष्क के लिए उपयोगी है।\n\nअन्य विकल्प:\n(A) — Opposite: उदाहरण भूलने को 'लाभकारी' दिखाने के लिए है, स्मृति को अविश्वसनीय सिद्ध करने के लिए नहीं।\n(B) — Out of scope: दोनों के बीच कठिनाई की कोई तुलना नहीं की गई।\n(D) — Out of scope: उदाहरण का Ebbinghaus के परिणामों की पुनरावृत्ति से कोई संबंध नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "rc031",
+    "subjectId": "english",
+    "question": "For almost the whole of human history, the night sky was the common inheritance of every person on Earth. Navigators steered by it, farmers read their seasons from it, and every culture wove myths around its patterns. Today, a child born in a large city may never see the Milky Way. Artificial light, spilling upwards and scattering in the atmosphere, produces a luminous haze called skyglow, and astronomers estimate that a large share of humanity now lives beneath skies too bright for the galaxy to be seen. Even the countryside is not spared, since the glow of a distant city can wash out faint stars many kilometres away.\n\nLight pollution is usually dismissed as a matter of aesthetics, a loss of beauty that must be accepted as the price of safety and progress. The evidence suggests the cost is greater. Many creatures have evolved to depend on darkness: sea-turtle hatchlings, which find the sea by the brightness of the horizon, wander inland towards streetlights; migrating birds, disoriented by lit towers, collide with buildings in their thousands; and nocturnal insects, drawn to lamps, circle until they die of exhaustion. In humans, exposure to bright light at night suppresses the hormone melatonin and disrupts the body clock, and researchers have begun to investigate links with sleep disorders and other illnesses, although the findings are still preliminary.\n\nThe remedy, unusually for an environmental problem, is cheap and well understood. Shielding lamps so that they direct light downwards, using warmer colours and dimmer bulbs, and switching lights off when they are not needed can reduce glare without compromising safety. Several towns and parks have been designated 'dark-sky' places, and some have found that tourism has grown as a result. The obstacle is not technology but habit: a culture that equates brightness with security finds it hard to believe that less light might sometimes be better. Restoring the night, it seems, is a matter of will rather than invention.\n\nWhich of the following would be the most suitable title for the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Myths of the Ancient Night Sky"
+      },
+      {
+        "id": "B",
+        "text": "Losing the Night: The Hidden Costs and Simple Cures of Light Pollution"
+      },
+      {
+        "id": "C",
+        "text": "How Streetlights Make Our Cities Safer"
+      },
+      {
+        "id": "D",
+        "text": "The Plight of Sea Turtles and Migrating Birds"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "title",
+    "difficulty": "hard",
+    "explanation": "नियम: Title वह होना चाहिए जो पूरे passage को समेटे और संक्षिप्त हो। बहुत narrow (केवल एक हिस्सा), out of scope (passage से बाहर) या लेखक के मत के उलट वाला title गलत होता है।\n\nयहाँ: सही उत्तर (B)। Passage की रूपरेखा: Para 1 में रात के आसमान का खोना, Para 2 में छिपी हानियाँ (जीव-जंतु और मानव), Para 3 में सस्ता और सरल उपाय। 'Hidden Costs and Simple Cures' इन सबको समेटता है।\n\nअन्य विकल्प:\n(A) Myths of the Ancient Night Sky — Too narrow: प्राचीन आकाश और मिथकों का ज़िक्र केवल Para 1 की भूमिका है, passage का विषय नहीं।\n(C) — Opposite: लेखक रोशनी को सुरक्षा के नाम पर होने वाले नुकसान के रूप में देखता है और कम, सही दिशा वाली रोशनी की वकालत करता है।\n(D) — Too narrow: कछुए और पक्षी केवल प्रभावों के उदाहरण हैं; passage का केंद्र पूरी समस्या और उसका समाधान है।",
+    "language": "en"
+  },
+  {
+    "id": "rc032",
+    "subjectId": "english",
+    "question": "For almost the whole of human history, the night sky was the common inheritance of every person on Earth. Navigators steered by it, farmers read their seasons from it, and every culture wove myths around its patterns. Today, a child born in a large city may never see the Milky Way. Artificial light, spilling upwards and scattering in the atmosphere, produces a luminous haze called skyglow, and astronomers estimate that a large share of humanity now lives beneath skies too bright for the galaxy to be seen. Even the countryside is not spared, since the glow of a distant city can wash out faint stars many kilometres away.\n\nLight pollution is usually dismissed as a matter of aesthetics, a loss of beauty that must be accepted as the price of safety and progress. The evidence suggests the cost is greater. Many creatures have evolved to depend on darkness: sea-turtle hatchlings, which find the sea by the brightness of the horizon, wander inland towards streetlights; migrating birds, disoriented by lit towers, collide with buildings in their thousands; and nocturnal insects, drawn to lamps, circle until they die of exhaustion. In humans, exposure to bright light at night suppresses the hormone melatonin and disrupts the body clock, and researchers have begun to investigate links with sleep disorders and other illnesses, although the findings are still preliminary.\n\nThe remedy, unusually for an environmental problem, is cheap and well understood. Shielding lamps so that they direct light downwards, using warmer colours and dimmer bulbs, and switching lights off when they are not needed can reduce glare without compromising safety. Several towns and parks have been designated 'dark-sky' places, and some have found that tourism has grown as a result. The obstacle is not technology but habit: a culture that equates brightness with security finds it hard to believe that less light might sometimes be better. Restoring the night, it seems, is a matter of will rather than invention.\n\nSelect the word that is OPPOSITE in meaning to 'preliminary' as used in the passage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "tentative"
+      },
+      {
+        "id": "B",
+        "text": "initial"
+      },
+      {
+        "id": "C",
+        "text": "incomplete"
+      },
+      {
+        "id": "D",
+        "text": "definitive"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "vocabulary-in-context",
+    "difficulty": "medium",
+    "explanation": "नियम: Antonym (विलोम) वाले प्रश्न में पहले context से शब्द का सही अर्थ तय करें, फिर उसका उलटा खोजें। Synonym (समानार्थी) वाले विकल्प जान-बूझकर trap की तरह रखे जाते हैं।\n\nयहाँ: सही उत्तर (D)। 'the findings are still preliminary' = निष्कर्ष अभी प्रारंभिक / अंतिम नहीं हैं। Preliminary का विलोम definitive = अंतिम और निर्णायक, जिस पर और संदेह की गुंजाइश न हो।\n\nअन्य विकल्प:\n(A) tentative — tentative = अस्थायी, अनिश्चित। यह 'preliminary' के भाव के निकट है, इसलिए विलोम नहीं।\n(B) initial — initial = प्रारंभिक। यह 'preliminary' का समानार्थी है।\n(C) incomplete — incomplete = अधूरा। यह भी 'preliminary' के निकट अर्थ वाला है।",
+    "language": "en"
+  },
+  {
+    "id": "rc033",
+    "subjectId": "english",
+    "question": "For almost the whole of human history, the night sky was the common inheritance of every person on Earth. Navigators steered by it, farmers read their seasons from it, and every culture wove myths around its patterns. Today, a child born in a large city may never see the Milky Way. Artificial light, spilling upwards and scattering in the atmosphere, produces a luminous haze called skyglow, and astronomers estimate that a large share of humanity now lives beneath skies too bright for the galaxy to be seen. Even the countryside is not spared, since the glow of a distant city can wash out faint stars many kilometres away.\n\nLight pollution is usually dismissed as a matter of aesthetics, a loss of beauty that must be accepted as the price of safety and progress. The evidence suggests the cost is greater. Many creatures have evolved to depend on darkness: sea-turtle hatchlings, which find the sea by the brightness of the horizon, wander inland towards streetlights; migrating birds, disoriented by lit towers, collide with buildings in their thousands; and nocturnal insects, drawn to lamps, circle until they die of exhaustion. In humans, exposure to bright light at night suppresses the hormone melatonin and disrupts the body clock, and researchers have begun to investigate links with sleep disorders and other illnesses, although the findings are still preliminary.\n\nThe remedy, unusually for an environmental problem, is cheap and well understood. Shielding lamps so that they direct light downwards, using warmer colours and dimmer bulbs, and switching lights off when they are not needed can reduce glare without compromising safety. Several towns and parks have been designated 'dark-sky' places, and some have found that tourism has grown as a result. The obstacle is not technology but habit: a culture that equates brightness with security finds it hard to believe that less light might sometimes be better. Restoring the night, it seems, is a matter of will rather than invention.\n\nWhich of the following can be inferred from the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The author thinks that brighter lighting does not always mean greater security."
+      },
+      {
+        "id": "B",
+        "text": "Light pollution matters only to astronomers."
+      },
+      {
+        "id": "C",
+        "text": "Studies have proved that artificial light at night causes illness in humans."
+      },
+      {
+        "id": "D",
+        "text": "Dark-sky tourism has made most towns richer."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "inference",
+    "difficulty": "hard",
+    "explanation": "नियम: Inference वह निष्कर्ष है जो passage के तथ्यों से तर्कसंगत रूप से निकलता है, पर शब्दशः लिखा नहीं होता। सही विकल्प passage की बात का सीधा विस्तार होता है; गलत विकल्प या तो नई बात जोड़ते हैं या always / never / necessarily / only जैसे चरम शब्द लगाते हैं।\n\nयहाँ: सही उत्तर (A)। Para 3 का अंतिम हिस्सा: 'a culture that equates brightness with security finds it hard to believe that less light might sometimes be better' और 'reduce glare without compromising safety' — लेखक मानता है कि ज़्यादा रोशनी का मतलब हमेशा ज़्यादा सुरक्षा नहीं होता।\n\nअन्य विकल्प:\n(B) — Opposite: Para 2 में जीवों और मानव स्वास्थ्य पर प्रभाव बताए गए हैं, इसलिए यह केवल खगोलविदों की समस्या नहीं है।\n(C) — Extreme: लेखक कहता है कि अध्ययन अभी 'preliminary' हैं और केवल संबंधों की जाँच हो रही है; 'proved' गलत है।\n(D) — Distorted: passage में 'some' स्थानों में पर्यटन बढ़ने की बात है, 'most towns' या 'richer' की नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "rc034",
+    "subjectId": "english",
+    "question": "For almost the whole of human history, the night sky was the common inheritance of every person on Earth. Navigators steered by it, farmers read their seasons from it, and every culture wove myths around its patterns. Today, a child born in a large city may never see the Milky Way. Artificial light, spilling upwards and scattering in the atmosphere, produces a luminous haze called skyglow, and astronomers estimate that a large share of humanity now lives beneath skies too bright for the galaxy to be seen. Even the countryside is not spared, since the glow of a distant city can wash out faint stars many kilometres away.\n\nLight pollution is usually dismissed as a matter of aesthetics, a loss of beauty that must be accepted as the price of safety and progress. The evidence suggests the cost is greater. Many creatures have evolved to depend on darkness: sea-turtle hatchlings, which find the sea by the brightness of the horizon, wander inland towards streetlights; migrating birds, disoriented by lit towers, collide with buildings in their thousands; and nocturnal insects, drawn to lamps, circle until they die of exhaustion. In humans, exposure to bright light at night suppresses the hormone melatonin and disrupts the body clock, and researchers have begun to investigate links with sleep disorders and other illnesses, although the findings are still preliminary.\n\nThe remedy, unusually for an environmental problem, is cheap and well understood. Shielding lamps so that they direct light downwards, using warmer colours and dimmer bulbs, and switching lights off when they are not needed can reduce glare without compromising safety. Several towns and parks have been designated 'dark-sky' places, and some have found that tourism has grown as a result. The obstacle is not technology but habit: a culture that equates brightness with security finds it hard to believe that less light might sometimes be better. Restoring the night, it seems, is a matter of will rather than invention.\n\nThe author's claim that glare can be reduced 'without compromising safety' assumes that:",
+    "options": [
+      {
+        "id": "A",
+        "text": "most people are unaware that light pollution exists"
+      },
+      {
+        "id": "B",
+        "text": "dark-sky places attract more tourists than large cities do"
+      },
+      {
+        "id": "C",
+        "text": "safety depends more on well-directed light than on the sheer quantity of light"
+      },
+      {
+        "id": "D",
+        "text": "astronomers will pay for lamps to be shielded"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "assumption",
+    "difficulty": "hard",
+    "explanation": "नियम: Assumption वह अनकही बात है जिसके बिना तर्क टिक नहीं सकता। कसौटी: विकल्प को नकार दें; यदि तर्क ढह जाए तो वही assumption है। Passage में पहले से लिखी बात या विषय से हटकर बात assumption नहीं होती।\n\nयहाँ: सही उत्तर (C)। कसौटी: यदि यह मान लिया जाए कि सुरक्षा के लिए रोशनी की मात्रा ही ज़रूरी है, तो 'दिशा बदलने और मंद करने' से सुरक्षा घटेगी और लेखक का दावा ढह जाएगा। इसलिए दावा इस मान्यता पर टिका है कि सुरक्षा सही दिशा की रोशनी पर निर्भर है।\n\nअन्य विकल्प:\n(A) — यह तर्क की बुनियाद नहीं है; सुरक्षा बनी रहने का दावा लोगों की जागरूकता पर टिका नहीं है।\n(B) — यह पर्यटन की तुलना है, सुरक्षा और रोशनी की मात्रा के संबंध से अलग बात है।\n(D) — लागत का स्रोत असंबंधित है; तर्क में इसका कोई आधार नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "rc035",
+    "subjectId": "english",
+    "question": "For almost the whole of human history, the night sky was the common inheritance of every person on Earth. Navigators steered by it, farmers read their seasons from it, and every culture wove myths around its patterns. Today, a child born in a large city may never see the Milky Way. Artificial light, spilling upwards and scattering in the atmosphere, produces a luminous haze called skyglow, and astronomers estimate that a large share of humanity now lives beneath skies too bright for the galaxy to be seen. Even the countryside is not spared, since the glow of a distant city can wash out faint stars many kilometres away.\n\nLight pollution is usually dismissed as a matter of aesthetics, a loss of beauty that must be accepted as the price of safety and progress. The evidence suggests the cost is greater. Many creatures have evolved to depend on darkness: sea-turtle hatchlings, which find the sea by the brightness of the horizon, wander inland towards streetlights; migrating birds, disoriented by lit towers, collide with buildings in their thousands; and nocturnal insects, drawn to lamps, circle until they die of exhaustion. In humans, exposure to bright light at night suppresses the hormone melatonin and disrupts the body clock, and researchers have begun to investigate links with sleep disorders and other illnesses, although the findings are still preliminary.\n\nThe remedy, unusually for an environmental problem, is cheap and well understood. Shielding lamps so that they direct light downwards, using warmer colours and dimmer bulbs, and switching lights off when they are not needed can reduce glare without compromising safety. Several towns and parks have been designated 'dark-sky' places, and some have found that tourism has grown as a result. The obstacle is not technology but habit: a culture that equates brightness with security finds it hard to believe that less light might sometimes be better. Restoring the night, it seems, is a matter of will rather than invention.\n\nThe tone of the last paragraph is best described as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "despairing and fatalistic"
+      },
+      {
+        "id": "B",
+        "text": "hopeful, but critical of prevailing attitudes"
+      },
+      {
+        "id": "C",
+        "text": "detached and indifferent"
+      },
+      {
+        "id": "D",
+        "text": "angry and accusatory"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tone-and-attitude",
+    "difficulty": "hard",
+    "explanation": "नियम: Tone / attitude वाले प्रश्न में लेखक के शब्द-चयन और 'but / yet / however' जैसे मोड़ देखें। Extreme tone (wholly dismissive, unreservedly enthusiastic) प्रायः गलत होते हैं, क्योंकि लेखक आम तौर पर संतुलित रुख रखता है।\n\nयहाँ: सही उत्तर (B)। अंतिम paragraph में उपाय सस्ते और ज्ञात बताए गए हैं (आशावाद), जबकि बाधा 'हमारी आदत' बताई गई है — 'a culture that equates brightness with security' (वर्तमान सोच की आलोचना)। इसलिए सही भाव 'hopeful, but critical of prevailing attitudes' है।\n\nअन्य विकल्प:\n(A) despairing and fatalistic — Opposite: लेखक समाधान को 'cheap and well understood' कहता है, इसलिए निराशावादी नहीं है।\n(C) detached and indifferent — Incorrect: 'obstacle is habit' और 'matter of will' जैसे वाक्य लेखक की सक्रिय राय दिखाते हैं।\n(D) angry and accusatory — Extreme: लेखक आदत की आलोचना करता है, पर क्रोध या दोषारोपण का स्वर नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "rc036",
+    "subjectId": "english",
+    "question": "Few debates in the museum world are as heated as the question of whether objects taken from their places of origin should be returned. The great museums of Europe and North America hold vast collections assembled during the age of empire, when treasures were bought, gifted, exchanged or simply seized. The countries that lost these objects regard them as stolen fragments of their heritage, and a growing number are demanding their return. In recent years some institutions have agreed: bronzes looted from the kingdom of Benin, for example, have been handed back to Nigeria by museums and universities in several countries.\n\nMuseums that resist return advance arguments that deserve a hearing, even if not all of them persuade. They say that objects in a universal museum can be seen by millions of visitors from every nation, encouraging a sense of shared human history; that they have been conserved with resources that source countries may lack; and that opening the door to restitution would empty the great collections, since almost every object has a contested past. Some of these claims are weaker than they appear. Conservation capacity is not fixed and is improving in many places, and the argument that visitors benefit from seeing objects abroad would justify, by the same logic, the removal of any treasure to any wealthy country.\n\nBetween the extremes, a middle path is emerging. Long-term loans, shared custody and travelling exhibitions allow objects to circulate without settling the question of ownership, while joint research and training help source countries build their own capacity. Such arrangements are unlikely to satisfy those who regard return as a matter of justice rather than convenience. But they reflect a recognition that the question is not whether the past was unjust, which few would deny, but how the present should respond. A museum's duty, on this view, is not merely to keep what it holds but to give a truthful account of how it came to hold it.\n\nWhich of the following best expresses the central idea of the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Museums should immediately return every object acquired during the age of empire."
+      },
+      {
+        "id": "B",
+        "text": "Source countries lack the resources to conserve their own heritage."
+      },
+      {
+        "id": "C",
+        "text": "Universal museums have lost their purpose and should be closed."
+      },
+      {
+        "id": "D",
+        "text": "Claims on both sides of the repatriation debate deserve attention, and practical compromises that treat the history of acquisition honestly are emerging."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "main-idea",
+    "difficulty": "hard",
+    "explanation": "नियम: Main idea / central idea वही विकल्प है जो पूरे passage का सार समेटे। गलत विकल्प प्रायः चार प्रकार के होते हैं: (i) Too narrow — केवल एक paragraph या एक detail की बात; (ii) Out of scope — passage में है ही नहीं; (iii) Extreme / distorted — always, never, only, sole, completely जैसे चरम शब्द या बात को तोड़-मरोड़कर पेश करना; (iv) Opposite — लेखक के मत के उलट।\n\nयहाँ: सही उत्तर (D)। Para 1: वापसी की माँग और कुछ संस्थानों की सहमति। Para 2: संग्रहालयों के तर्कों की परख। Para 3: बीच का रास्ता (ऋण, साझा संरक्षण) और संग्रहालय का कर्तव्य। यही विकल्प तीनों को जोड़ता है।\n\nअन्य विकल्प:\n(A) — Extreme: लेखक 'हर वस्तु तुरंत लौटाने' की वकालत नहीं करता; वह बीच के रास्ते की बात करता है।\n(B) — Distorted: यह संग्रहालयों का तर्क है, जिसे लेखक 'कमज़ोर' बताता है; passage का सार नहीं।\n(C) — Extreme: लेखक संग्रहालयों को बंद करने की बात कहीं नहीं करता।",
+    "language": "en"
+  },
+  {
+    "id": "rc037",
+    "subjectId": "english",
+    "question": "Few debates in the museum world are as heated as the question of whether objects taken from their places of origin should be returned. The great museums of Europe and North America hold vast collections assembled during the age of empire, when treasures were bought, gifted, exchanged or simply seized. The countries that lost these objects regard them as stolen fragments of their heritage, and a growing number are demanding their return. In recent years some institutions have agreed: bronzes looted from the kingdom of Benin, for example, have been handed back to Nigeria by museums and universities in several countries.\n\nMuseums that resist return advance arguments that deserve a hearing, even if not all of them persuade. They say that objects in a universal museum can be seen by millions of visitors from every nation, encouraging a sense of shared human history; that they have been conserved with resources that source countries may lack; and that opening the door to restitution would empty the great collections, since almost every object has a contested past. Some of these claims are weaker than they appear. Conservation capacity is not fixed and is improving in many places, and the argument that visitors benefit from seeing objects abroad would justify, by the same logic, the removal of any treasure to any wealthy country.\n\nBetween the extremes, a middle path is emerging. Long-term loans, shared custody and travelling exhibitions allow objects to circulate without settling the question of ownership, while joint research and training help source countries build their own capacity. Such arrangements are unlikely to satisfy those who regard return as a matter of justice rather than convenience. But they reflect a recognition that the question is not whether the past was unjust, which few would deny, but how the present should respond. A museum's duty, on this view, is not merely to keep what it holds but to give a truthful account of how it came to hold it.\n\nSelect the word or phrase closest in meaning to 'advance' as used in the passage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "put forward"
+      },
+      {
+        "id": "B",
+        "text": "move ahead"
+      },
+      {
+        "id": "C",
+        "text": "improve"
+      },
+      {
+        "id": "D",
+        "text": "lend"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "vocabulary-in-context",
+    "difficulty": "medium",
+    "explanation": "नियम: Vocabulary-in-context में शब्द का शब्दकोश-अर्थ नहीं, passage के वाक्य में उसका अर्थ देखें। वाक्य के भाव (सकारात्मक / नकारात्मक) और 'but, yet, however' जैसे संकेतकों से सही अर्थ पकड़ें।\n\nयहाँ: सही उत्तर (A)। 'Museums that resist return advance arguments' — संग्रहालय अपने पक्ष में तर्क प्रस्तुत करते हैं। यहाँ 'advance' = put forward (सामने रखना, पेश करना)।\n\nअन्य विकल्प:\n(B) move ahead — move ahead = आगे बढ़ना। यहाँ 'arguments' के साथ 'advance' का अर्थ चलना नहीं, पेश करना है।\n(C) improve — improve = सुधारना। तर्कों को सुधारने का अर्थ यहाँ बेमेल है।\n(D) lend — lend = उधार देना। तर्कों के संदर्भ में यह अर्थ नहीं बनता।",
+    "language": "en"
+  },
+  {
+    "id": "rc038",
+    "subjectId": "english",
+    "question": "Few debates in the museum world are as heated as the question of whether objects taken from their places of origin should be returned. The great museums of Europe and North America hold vast collections assembled during the age of empire, when treasures were bought, gifted, exchanged or simply seized. The countries that lost these objects regard them as stolen fragments of their heritage, and a growing number are demanding their return. In recent years some institutions have agreed: bronzes looted from the kingdom of Benin, for example, have been handed back to Nigeria by museums and universities in several countries.\n\nMuseums that resist return advance arguments that deserve a hearing, even if not all of them persuade. They say that objects in a universal museum can be seen by millions of visitors from every nation, encouraging a sense of shared human history; that they have been conserved with resources that source countries may lack; and that opening the door to restitution would empty the great collections, since almost every object has a contested past. Some of these claims are weaker than they appear. Conservation capacity is not fixed and is improving in many places, and the argument that visitors benefit from seeing objects abroad would justify, by the same logic, the removal of any treasure to any wealthy country.\n\nBetween the extremes, a middle path is emerging. Long-term loans, shared custody and travelling exhibitions allow objects to circulate without settling the question of ownership, while joint research and training help source countries build their own capacity. Such arrangements are unlikely to satisfy those who regard return as a matter of justice rather than convenience. But they reflect a recognition that the question is not whether the past was unjust, which few would deny, but how the present should respond. A museum's duty, on this view, is not merely to keep what it holds but to give a truthful account of how it came to hold it.\n\nThe author's remark that the visitors' argument 'would justify, by the same logic, the removal of any treasure to any wealthy country' is intended to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "support the view that wealthy countries are the best custodians of heritage"
+      },
+      {
+        "id": "B",
+        "text": "expose a weakness in the museums' reasoning by showing its extreme consequence"
+      },
+      {
+        "id": "C",
+        "text": "suggest that all treasures ought to remain where they are now"
+      },
+      {
+        "id": "D",
+        "text": "ridicule people who visit museums abroad"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "author-purpose",
+    "difficulty": "hard",
+    "explanation": "नियम: Purpose / function वाले प्रश्न में 'क्या कहा गया' नहीं बल्कि 'क्यों कहा गया' देखें — यानी उस उदाहरण, वाक्य या paragraph का काम (चेतावनी, उदाहरण, विरोध, निष्कर्ष)। उसके आसपास के वाक्य उसकी भूमिका स्पष्ट करते हैं।\n\nयहाँ: सही उत्तर (B)। Para 2 में लेखक कहता है कि 'visitors benefit' वाला तर्क 'by the same logic' हर कीमती वस्तु को किसी भी धनी देश में ले जाने को सही ठहरा देगा। यह reductio ad absurdum है, यानी तर्क को उसके चरम परिणाम तक ले जाकर उसकी कमज़ोरी उजागर करना।\n\nअन्य विकल्प:\n(A) — Opposite: यह टिप्पणी उस तर्क की कमज़ोरी दिखाने के लिए है, उसका समर्थन करने के लिए नहीं।\n(C) — Opposite: टिप्पणी का उद्देश्य यथास्थिति का समर्थन नहीं है; वह संग्रहालयों के तर्क पर प्रश्न उठाती है।\n(D) — Out of scope: लेखक दर्शकों का उपहास नहीं करता, तर्क की परख करता है।",
+    "language": "en"
+  },
+  {
+    "id": "rc039",
+    "subjectId": "english",
+    "question": "Few debates in the museum world are as heated as the question of whether objects taken from their places of origin should be returned. The great museums of Europe and North America hold vast collections assembled during the age of empire, when treasures were bought, gifted, exchanged or simply seized. The countries that lost these objects regard them as stolen fragments of their heritage, and a growing number are demanding their return. In recent years some institutions have agreed: bronzes looted from the kingdom of Benin, for example, have been handed back to Nigeria by museums and universities in several countries.\n\nMuseums that resist return advance arguments that deserve a hearing, even if not all of them persuade. They say that objects in a universal museum can be seen by millions of visitors from every nation, encouraging a sense of shared human history; that they have been conserved with resources that source countries may lack; and that opening the door to restitution would empty the great collections, since almost every object has a contested past. Some of these claims are weaker than they appear. Conservation capacity is not fixed and is improving in many places, and the argument that visitors benefit from seeing objects abroad would justify, by the same logic, the removal of any treasure to any wealthy country.\n\nBetween the extremes, a middle path is emerging. Long-term loans, shared custody and travelling exhibitions allow objects to circulate without settling the question of ownership, while joint research and training help source countries build their own capacity. Such arrangements are unlikely to satisfy those who regard return as a matter of justice rather than convenience. But they reflect a recognition that the question is not whether the past was unjust, which few would deny, but how the present should respond. A museum's duty, on this view, is not merely to keep what it holds but to give a truthful account of how it came to hold it.\n\nWhich of the following statements is supported by the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No museum has so far agreed to return any object to its country of origin."
+      },
+      {
+        "id": "B",
+        "text": "Long-term loans and shared custody settle the question of ownership."
+      },
+      {
+        "id": "C",
+        "text": "Some institutions have already returned objects looted from Benin to Nigeria."
+      },
+      {
+        "id": "D",
+        "text": "Source countries have rejected all proposals for loans and joint research."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "true-false",
+    "difficulty": "medium",
+    "explanation": "नियम: 'Supported by the passage' वाले प्रश्न में वही कथन सही है जो passage से सीधे समर्थित हो। बाहरी जानकारी, आधा-सच या उलटा किया हुआ तथ्य वाले विकल्प गलत होते हैं।\n\nयहाँ: सही उत्तर (C)। Para 1: 'bronzes looted from the kingdom of Benin ... have been handed back to Nigeria by museums and universities in several countries' — यही कथन उसका सीधा रूपांतरण है।\n\nअन्य विकल्प:\n(A) — Opposite: Para 1 में Benin bronzes के लौटाए जाने का उदाहरण है।\n(B) — Contradicts: Para 3 में कहा गया है कि वे ownership का प्रश्न 'settle किए बिना' वस्तुओं को circulate होने देते हैं।\n(D) — Not stated: ऐसा कोई दावा passage में नहीं है; बल्कि कहा गया है कि न्याय चाहने वालों को ये व्यवस्थाएँ शायद संतुष्ट न करें।",
+    "language": "en"
+  },
+  {
+    "id": "rc040",
+    "subjectId": "english",
+    "question": "Few debates in the museum world are as heated as the question of whether objects taken from their places of origin should be returned. The great museums of Europe and North America hold vast collections assembled during the age of empire, when treasures were bought, gifted, exchanged or simply seized. The countries that lost these objects regard them as stolen fragments of their heritage, and a growing number are demanding their return. In recent years some institutions have agreed: bronzes looted from the kingdom of Benin, for example, have been handed back to Nigeria by museums and universities in several countries.\n\nMuseums that resist return advance arguments that deserve a hearing, even if not all of them persuade. They say that objects in a universal museum can be seen by millions of visitors from every nation, encouraging a sense of shared human history; that they have been conserved with resources that source countries may lack; and that opening the door to restitution would empty the great collections, since almost every object has a contested past. Some of these claims are weaker than they appear. Conservation capacity is not fixed and is improving in many places, and the argument that visitors benefit from seeing objects abroad would justify, by the same logic, the removal of any treasure to any wealthy country.\n\nBetween the extremes, a middle path is emerging. Long-term loans, shared custody and travelling exhibitions allow objects to circulate without settling the question of ownership, while joint research and training help source countries build their own capacity. Such arrangements are unlikely to satisfy those who regard return as a matter of justice rather than convenience. But they reflect a recognition that the question is not whether the past was unjust, which few would deny, but how the present should respond. A museum's duty, on this view, is not merely to keep what it holds but to give a truthful account of how it came to hold it.\n\nWhich of the following best describes the author's attitude towards the arguments of the museums that resist return?",
+    "options": [
+      {
+        "id": "A",
+        "text": "contemptuous of every one of them"
+      },
+      {
+        "id": "B",
+        "text": "fair-minded, though sceptical of some of them"
+      },
+      {
+        "id": "C",
+        "text": "uncritically approving of them"
+      },
+      {
+        "id": "D",
+        "text": "completely indifferent to them"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tone-and-attitude",
+    "difficulty": "hard",
+    "explanation": "नियम: Tone / attitude वाले प्रश्न में लेखक के शब्द-चयन और 'but / yet / however' जैसे मोड़ देखें। Extreme tone (wholly dismissive, unreservedly enthusiastic) प्रायः गलत होते हैं, क्योंकि लेखक आम तौर पर संतुलित रुख रखता है।\n\nयहाँ: सही उत्तर (B)। 'arguments that deserve a hearing' (निष्पक्षता) और 'Some of these claims are weaker than they appear' (कुछ पर संदेह) — दोनों मिलकर 'fair-minded, though sceptical of some' का रुख बनाते हैं।\n\nअन्य विकल्प:\n(A) — Extreme: लेखक कहता है कि वे तर्क 'deserve a hearing', इसलिए सब की अवहेलना नहीं करता।\n(C) uncritically approving of them — Opposite: लेखक कुछ दावों को 'weaker than they appear' कहता है।\n(D) completely indifferent to them — Incorrect: लेखक उन पर विस्तार से विचार करता है; वह उदासीन नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "rc041",
+    "subjectId": "english",
+    "question": "The washing machine that lasted two decades in a grandmother's kitchen has a modern successor that, by many accounts, is built to survive barely half as long. Consumers have long suspected that products are designed to fail, and the suspicion has a name: planned obsolescence. Economists point out, however, that the matter is more complicated than a conspiracy. Manufacturers face genuine pressures to cut costs and weight, and consumers themselves often prefer a cheaper product with newer features to a durable one that looks dated within a few years.\n\nWhere the charge of obsolescence is hard to dismiss is in the barriers placed in the way of repair. Glued-in batteries, proprietary screws, software locks that disable a device when an independent technician replaces a part, and the withholding of manuals and spare parts all raise the cost of mending to the point where replacement seems the only sensible course. The result is a mountain of electronic waste, much of it shipped to countries ill-equipped to handle its toxic contents. Campaigners for a 'right to repair' argue that owners should be free to fix what they have bought, and several governments have begun to legislate in that spirit by requiring spare parts to be made available for a number of years.\n\nManufacturers respond that repair by amateurs is unsafe, that guarding their designs protects intellectual property, and that tightly integrated products are more reliable and compact. These concerns are not frivolous: a poorly repaired battery can catch fire. But safety is an argument for training and standards, not for a blanket monopoly on repair. Whether the law will succeed in changing behaviour remains to be seen, since regulation can be evaded and consumer habits are slow to change. What is clear is that a product's lifespan is not a law of nature; it is a design decision, and therefore one that society may legitimately ask to be reconsidered.\n\nThe passage is primarily concerned with:",
+    "options": [
+      {
+        "id": "A",
+        "text": "examining why products have short lifespans, focusing on barriers to repair, and arguing that lifespan is a design choice open to regulation"
+      },
+      {
+        "id": "B",
+        "text": "proving that manufacturers deliberately conspire to make every product fail early"
+      },
+      {
+        "id": "C",
+        "text": "explaining how amateur repair can be made completely safe"
+      },
+      {
+        "id": "D",
+        "text": "recommending that consumers stop buying electronic goods"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "main-idea",
+    "difficulty": "hard",
+    "explanation": "नियम: Main idea / central idea वही विकल्प है जो पूरे passage का सार समेटे। गलत विकल्प प्रायः चार प्रकार के होते हैं: (i) Too narrow — केवल एक paragraph या एक detail की बात; (ii) Out of scope — passage में है ही नहीं; (iii) Extreme / distorted — always, never, only, sole, completely जैसे चरम शब्द या बात को तोड़-मरोड़कर पेश करना; (iv) Opposite — लेखक के मत के उलट।\n\nयहाँ: सही उत्तर (A)। Para 1: कम उम्र के कारण (जटिल, साज़िश भर नहीं)। Para 2: मरम्मत में बाधाएँ और 'right to repair'। Para 3: निर्माताओं की आपत्तियाँ और निष्कर्ष कि जीवनकाल एक 'design decision' है जिसे समाज दोबारा परखने को कह सकता है।\n\nअन्य विकल्प:\n(B) — Extreme / opposite: Para 1 में अर्थशास्त्री कहते हैं कि मामला 'conspiracy' से ज़्यादा जटिल है।\n(C) — Out of scope: सुरक्षा का ज़िक्र केवल निर्माताओं की आपत्ति के रूप में है, passage का मुख्य विषय नहीं।\n(D) — Out of scope: ऐसी कोई सलाह passage में नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "rc042",
+    "subjectId": "english",
+    "question": "The washing machine that lasted two decades in a grandmother's kitchen has a modern successor that, by many accounts, is built to survive barely half as long. Consumers have long suspected that products are designed to fail, and the suspicion has a name: planned obsolescence. Economists point out, however, that the matter is more complicated than a conspiracy. Manufacturers face genuine pressures to cut costs and weight, and consumers themselves often prefer a cheaper product with newer features to a durable one that looks dated within a few years.\n\nWhere the charge of obsolescence is hard to dismiss is in the barriers placed in the way of repair. Glued-in batteries, proprietary screws, software locks that disable a device when an independent technician replaces a part, and the withholding of manuals and spare parts all raise the cost of mending to the point where replacement seems the only sensible course. The result is a mountain of electronic waste, much of it shipped to countries ill-equipped to handle its toxic contents. Campaigners for a 'right to repair' argue that owners should be free to fix what they have bought, and several governments have begun to legislate in that spirit by requiring spare parts to be made available for a number of years.\n\nManufacturers respond that repair by amateurs is unsafe, that guarding their designs protects intellectual property, and that tightly integrated products are more reliable and compact. These concerns are not frivolous: a poorly repaired battery can catch fire. But safety is an argument for training and standards, not for a blanket monopoly on repair. Whether the law will succeed in changing behaviour remains to be seen, since regulation can be evaded and consumer habits are slow to change. What is clear is that a product's lifespan is not a law of nature; it is a design decision, and therefore one that society may legitimately ask to be reconsidered.\n\nSelect the word that is OPPOSITE in meaning to 'frivolous' as used in the passage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "trivial"
+      },
+      {
+        "id": "B",
+        "text": "playful"
+      },
+      {
+        "id": "C",
+        "text": "careless"
+      },
+      {
+        "id": "D",
+        "text": "weighty"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "vocabulary-in-context",
+    "difficulty": "medium",
+    "explanation": "नियम: Antonym (विलोम) वाले प्रश्न में पहले context से शब्द का सही अर्थ तय करें, फिर उसका उलटा खोजें। Synonym (समानार्थी) वाले विकल्प जान-बूझकर trap की तरह रखे जाते हैं।\n\nयहाँ: सही उत्तर (D)। 'These concerns are not frivolous: a poorly repaired battery can catch fire' — चिंताएँ तुच्छ नहीं, गंभीर हैं। Frivolous = तुच्छ, हल्का-फुल्का; विलोम weighty = गंभीर, महत्त्वपूर्ण।\n\nअन्य विकल्प:\n(A) trivial — trivial = तुच्छ, मामूली। यह 'frivolous' के निकट अर्थ वाला है, विलोम नहीं।\n(B) playful — playful = खिलंदड़ा। यह भी frivolous के निकट है (चंचल, गंभीर नहीं)।\n(C) careless — careless = लापरवाह। अर्थ निकट-सा है और विलोम नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "rc043",
+    "subjectId": "english",
+    "question": "The washing machine that lasted two decades in a grandmother's kitchen has a modern successor that, by many accounts, is built to survive barely half as long. Consumers have long suspected that products are designed to fail, and the suspicion has a name: planned obsolescence. Economists point out, however, that the matter is more complicated than a conspiracy. Manufacturers face genuine pressures to cut costs and weight, and consumers themselves often prefer a cheaper product with newer features to a durable one that looks dated within a few years.\n\nWhere the charge of obsolescence is hard to dismiss is in the barriers placed in the way of repair. Glued-in batteries, proprietary screws, software locks that disable a device when an independent technician replaces a part, and the withholding of manuals and spare parts all raise the cost of mending to the point where replacement seems the only sensible course. The result is a mountain of electronic waste, much of it shipped to countries ill-equipped to handle its toxic contents. Campaigners for a 'right to repair' argue that owners should be free to fix what they have bought, and several governments have begun to legislate in that spirit by requiring spare parts to be made available for a number of years.\n\nManufacturers respond that repair by amateurs is unsafe, that guarding their designs protects intellectual property, and that tightly integrated products are more reliable and compact. These concerns are not frivolous: a poorly repaired battery can catch fire. But safety is an argument for training and standards, not for a blanket monopoly on repair. Whether the law will succeed in changing behaviour remains to be seen, since regulation can be evaded and consumer habits are slow to change. What is clear is that a product's lifespan is not a law of nature; it is a design decision, and therefore one that society may legitimately ask to be reconsidered.\n\nWhich of the following, if true, would most WEAKEN the manufacturers' claim that tightly integrated products are more reliable?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Consumers often prefer cheaper products with newer features."
+      },
+      {
+        "id": "B",
+        "text": "Sealed devices are cheaper to manufacture than repairable ones."
+      },
+      {
+        "id": "C",
+        "text": "Independent studies show that devices with replaceable parts fail no more often than sealed devices."
+      },
+      {
+        "id": "D",
+        "text": "Amateur repairs have sometimes caused battery fires."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "weaken",
+    "difficulty": "hard",
+    "explanation": "नियम: Weaken वाले प्रश्न में वह विकल्प चुनें जो तर्क की बुनियाद, यानी उसके प्रमाण या मान्यता, पर चोट करे। जो तर्क का समर्थन करे या असंबंधित बात कहे वह उत्तर नहीं है। पहले तर्क का मुख्य दावा पहचानें, फिर देखें कौन-सा विकल्प उसे कमज़ोर करता है।\n\nयहाँ: सही उत्तर (C)। दावा: 'tightly integrated products are more reliable'। यदि अध्ययन दिखाएँ कि बदले जा सकने वाले पुर्ज़ों वाले उपकरण सील्ड उपकरणों से अधिक ख़राब नहीं होते, तो integration से reliability बढ़ने का दावा सीधे कमज़ोर होता है।\n\nअन्य विकल्प:\n(A) — असंबंधित: उपभोक्ताओं की पसंद का reliability के दावे से सीधा संबंध नहीं है (यह Para 1 का तर्क है)।\n(B) — असंबंधित: लागत का प्रश्न reliability के दावे को कमज़ोर नहीं करता।\n(D) — यह निर्माताओं की सुरक्षा-संबंधी आपत्ति का समर्थन करता है, reliability के दावे को कमज़ोर नहीं करता।",
+    "language": "en"
+  },
+  {
+    "id": "rc044",
+    "subjectId": "english",
+    "question": "The washing machine that lasted two decades in a grandmother's kitchen has a modern successor that, by many accounts, is built to survive barely half as long. Consumers have long suspected that products are designed to fail, and the suspicion has a name: planned obsolescence. Economists point out, however, that the matter is more complicated than a conspiracy. Manufacturers face genuine pressures to cut costs and weight, and consumers themselves often prefer a cheaper product with newer features to a durable one that looks dated within a few years.\n\nWhere the charge of obsolescence is hard to dismiss is in the barriers placed in the way of repair. Glued-in batteries, proprietary screws, software locks that disable a device when an independent technician replaces a part, and the withholding of manuals and spare parts all raise the cost of mending to the point where replacement seems the only sensible course. The result is a mountain of electronic waste, much of it shipped to countries ill-equipped to handle its toxic contents. Campaigners for a 'right to repair' argue that owners should be free to fix what they have bought, and several governments have begun to legislate in that spirit by requiring spare parts to be made available for a number of years.\n\nManufacturers respond that repair by amateurs is unsafe, that guarding their designs protects intellectual property, and that tightly integrated products are more reliable and compact. These concerns are not frivolous: a poorly repaired battery can catch fire. But safety is an argument for training and standards, not for a blanket monopoly on repair. Whether the law will succeed in changing behaviour remains to be seen, since regulation can be evaded and consumer habits are slow to change. What is clear is that a product's lifespan is not a law of nature; it is a design decision, and therefore one that society may legitimately ask to be reconsidered.\n\nAccording to the passage, economists hold that short product lifespans are:",
+    "options": [
+      {
+        "id": "A",
+        "text": "entirely the result of a deliberate plot by manufacturers"
+      },
+      {
+        "id": "B",
+        "text": "partly the outcome of cost pressures and consumer preferences, and not merely of a conspiracy"
+      },
+      {
+        "id": "C",
+        "text": "solely a consequence of consumers' demand for cheaper goods"
+      },
+      {
+        "id": "D",
+        "text": "an unavoidable law of nature"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "detail",
+    "difficulty": "medium",
+    "explanation": "नियम: Detail / reason वाले प्रश्न में उत्तर passage में लिखे कारण या तथ्य पर टिका होता है। लेखक का बताया कारण चुनें, अपनी बाहरी जानकारी नहीं, और हर विकल्प को passage से मिलाएँ।\n\nयहाँ: सही उत्तर (B)। Para 1: 'Economists point out ... more complicated than a conspiracy. Manufacturers face genuine pressures to cut costs ... consumers themselves often prefer a cheaper product' — कारण आंशिक रूप से लागत-दबाव और उपभोक्ता की पसंद हैं।\n\nअन्य विकल्प:\n(A) — Opposite: अर्थशास्त्री इसे 'conspiracy' से अधिक जटिल बताते हैं; 'entirely' चरम शब्द है।\n(C) — Extreme: उपभोक्ता की पसंद एक कारण है, 'solely' नहीं; निर्माताओं की लागत-सीमाएँ भी बताई गई हैं।\n(D) an unavoidable law of nature — Opposite: अंतिम पंक्ति में कहा गया है कि जीवनकाल 'a law of nature' नहीं, बल्कि 'a design decision' है।",
+    "language": "en"
+  },
+  {
+    "id": "rc045",
+    "subjectId": "english",
+    "question": "The washing machine that lasted two decades in a grandmother's kitchen has a modern successor that, by many accounts, is built to survive barely half as long. Consumers have long suspected that products are designed to fail, and the suspicion has a name: planned obsolescence. Economists point out, however, that the matter is more complicated than a conspiracy. Manufacturers face genuine pressures to cut costs and weight, and consumers themselves often prefer a cheaper product with newer features to a durable one that looks dated within a few years.\n\nWhere the charge of obsolescence is hard to dismiss is in the barriers placed in the way of repair. Glued-in batteries, proprietary screws, software locks that disable a device when an independent technician replaces a part, and the withholding of manuals and spare parts all raise the cost of mending to the point where replacement seems the only sensible course. The result is a mountain of electronic waste, much of it shipped to countries ill-equipped to handle its toxic contents. Campaigners for a 'right to repair' argue that owners should be free to fix what they have bought, and several governments have begun to legislate in that spirit by requiring spare parts to be made available for a number of years.\n\nManufacturers respond that repair by amateurs is unsafe, that guarding their designs protects intellectual property, and that tightly integrated products are more reliable and compact. These concerns are not frivolous: a poorly repaired battery can catch fire. But safety is an argument for training and standards, not for a blanket monopoly on repair. Whether the law will succeed in changing behaviour remains to be seen, since regulation can be evaded and consumer habits are slow to change. What is clear is that a product's lifespan is not a law of nature; it is a design decision, and therefore one that society may legitimately ask to be reconsidered.\n\nWhich of the following would the author most likely agree with?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Laws requiring spare parts may not, on their own, be enough to change what manufacturers do."
+      },
+      {
+        "id": "B",
+        "text": "Safety concerns justify giving manufacturers a monopoly over repair."
+      },
+      {
+        "id": "C",
+        "text": "Regulation always succeeds in changing the behaviour of firms."
+      },
+      {
+        "id": "D",
+        "text": "Consumers bear no responsibility for the short life of products."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "inference",
+    "difficulty": "hard",
+    "explanation": "नियम: Inference वह निष्कर्ष है जो passage के तथ्यों से तर्कसंगत रूप से निकलता है, पर शब्दशः लिखा नहीं होता। सही विकल्प passage की बात का सीधा विस्तार होता है; गलत विकल्प या तो नई बात जोड़ते हैं या always / never / necessarily / only जैसे चरम शब्द लगाते हैं।\n\nयहाँ: सही उत्तर (A)। Para 3: 'Whether the law will succeed in changing behaviour remains to be seen, since regulation can be evaded and consumer habits are slow to change' — लेखक मानता है कि केवल क़ानून पर्याप्त न हो, यह संभव है।\n\nअन्य विकल्प:\n(B) — Opposite: लेखक कहता है कि सुरक्षा 'training and standards' का तर्क है, 'blanket monopoly' का नहीं।\n(C) — Extreme / opposite: 'always' ग़लत; लेखक कहता है कि regulation को टाला जा सकता है।\n(D) — Contradicts: Para 1 में उपभोक्ताओं की पसंद भी एक कारण बताई गई है।",
+    "language": "en"
+  },
+  {
+    "id": "rc046",
+    "subjectId": "english",
+    "question": "In 1906 the statistician Francis Galton attended a country fair where visitors were invited to guess the weight of an ox once it had been slaughtered and dressed. Nearly eight hundred people entered, most of them with no expertise in livestock. Galton, who was inclined to distrust the judgement of the masses, collected the tickets, expecting to demonstrate their folly. To his surprise, the average of the guesses came within a few pounds of the true weight, more accurately than the great majority of the individual guesses. The 'wisdom of the crowd' had been, in a manner of speaking, discovered by a sceptic.\n\nThe result is often cited as proof that crowds are wise, but this conclusion is too sweeping. A crowd is wise only under particular conditions. Its members must hold diverse perspectives, so that their errors point in different directions and cancel out; they must form their judgements independently, rather than copying one another; and there must be some way of combining their opinions into a single estimate. When these conditions fail, the effect can be reversed. Had the visitors at Galton's fair shouted their guesses aloud, the early estimates would have influenced later ones, and a collective mistake might have been magnified instead of corrected. Financial bubbles, in which investors follow the herd into overpriced assets, show how a crowd that watches itself can be spectacularly foolish.\n\nThe lesson has practical consequences for those who design organisations. Committees in which junior members wait to hear the chairperson's view before speaking destroy independence, and so do meetings in which the loudest voice sets the agenda. Some firms now ask participants to write down their estimates privately before discussion begins, and to combine them afterwards. The method sounds simple, even trivial, but it rests on a real insight: the wisdom of a group lies not in the group as such but in the way its members' separate judgements are gathered. A crowd, in short, is wise only when each of its members is allowed to think independently, and sometimes uncomfortably, for himself or herself.\n\nWhich of the following would be the most suitable title for the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Francis Galton: The Life of a Sceptical Statistician"
+      },
+      {
+        "id": "B",
+        "text": "The Folly of Experts and the Triumph of the Masses"
+      },
+      {
+        "id": "C",
+        "text": "When Are Crowds Wise? Independence, Diversity and the Pooling of Judgements"
+      },
+      {
+        "id": "D",
+        "text": "Why Financial Bubbles Burst"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "title",
+    "difficulty": "hard",
+    "explanation": "नियम: Title वह होना चाहिए जो पूरे passage को समेटे और संक्षिप्त हो। बहुत narrow (केवल एक हिस्सा), out of scope (passage से बाहर) या लेखक के मत के उलट वाला title गलत होता है।\n\nयहाँ: सही उत्तर (C)। Passage Galton के उदाहरण से शुरू होता है, फिर बताता है कि भीड़ कब बुद्धिमान है (विविधता, स्वतंत्रता, मतों को जोड़ने की विधि), और अंत में संगठनों के लिए सीख। इसे 'When Are Crowds Wise?' सबसे अच्छी तरह समेटता है।\n\nअन्य विकल्प:\n(A) — Too narrow: Galton केवल शुरुआती उदाहरण है; passage का विषय उसका जीवन नहीं।\n(B) — Distorted: लेखक 'मूर्ख विशेषज्ञों' और 'भीड़ की जीत' का दावा नहीं करता, बल्कि शर्तें बताता है जिनके तहत भीड़ बुद्धिमान होती है।\n(D) Why Financial Bubbles Burst — Too narrow: बाज़ार के बुलबुले केवल एक उदाहरण हैं।",
+    "language": "en"
+  },
+  {
+    "id": "rc047",
+    "subjectId": "english",
+    "question": "In 1906 the statistician Francis Galton attended a country fair where visitors were invited to guess the weight of an ox once it had been slaughtered and dressed. Nearly eight hundred people entered, most of them with no expertise in livestock. Galton, who was inclined to distrust the judgement of the masses, collected the tickets, expecting to demonstrate their folly. To his surprise, the average of the guesses came within a few pounds of the true weight, more accurately than the great majority of the individual guesses. The 'wisdom of the crowd' had been, in a manner of speaking, discovered by a sceptic.\n\nThe result is often cited as proof that crowds are wise, but this conclusion is too sweeping. A crowd is wise only under particular conditions. Its members must hold diverse perspectives, so that their errors point in different directions and cancel out; they must form their judgements independently, rather than copying one another; and there must be some way of combining their opinions into a single estimate. When these conditions fail, the effect can be reversed. Had the visitors at Galton's fair shouted their guesses aloud, the early estimates would have influenced later ones, and a collective mistake might have been magnified instead of corrected. Financial bubbles, in which investors follow the herd into overpriced assets, show how a crowd that watches itself can be spectacularly foolish.\n\nThe lesson has practical consequences for those who design organisations. Committees in which junior members wait to hear the chairperson's view before speaking destroy independence, and so do meetings in which the loudest voice sets the agenda. Some firms now ask participants to write down their estimates privately before discussion begins, and to combine them afterwards. The method sounds simple, even trivial, but it rests on a real insight: the wisdom of a group lies not in the group as such but in the way its members' separate judgements are gathered. A crowd, in short, is wise only when each of its members is allowed to think independently, and sometimes uncomfortably, for himself or herself.\n\nSelect the word or phrase closest in meaning to 'sweeping' as used in the passage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "overgeneralised"
+      },
+      {
+        "id": "B",
+        "text": "thorough"
+      },
+      {
+        "id": "C",
+        "text": "cautious"
+      },
+      {
+        "id": "D",
+        "text": "emotional"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "vocabulary-in-context",
+    "difficulty": "medium",
+    "explanation": "नियम: Vocabulary-in-context में शब्द का शब्दकोश-अर्थ नहीं, passage के वाक्य में उसका अर्थ देखें। वाक्य के भाव (सकारात्मक / नकारात्मक) और 'but, yet, however' जैसे संकेतकों से सही अर्थ पकड़ें।\n\nयहाँ: सही उत्तर (A)। 'this conclusion is too sweeping' — यह निष्कर्ष ज़रूरत से ज़्यादा व्यापक है, क्योंकि आगे लेखक बताता है कि भीड़ केवल कुछ शर्तों पर बुद्धिमान होती है। Sweeping = overgeneralised (अति-सामान्यीकृत)।\n\nअन्य विकल्प:\n(B) thorough — thorough = पूरी तरह, गहन। 'too sweeping' में अत्यधिक सामान्यीकरण का दोष है, गहराई की प्रशंसा नहीं।\n(C) cautious — cautious = सतर्क। 'too sweeping' का भाव इसके उलट, यानी बेहिचक व्यापक दावे का है।\n(D) emotional — emotional = भावुक। यहाँ बात तर्क की व्यापकता की है, भावना की नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "rc048",
+    "subjectId": "english",
+    "question": "In 1906 the statistician Francis Galton attended a country fair where visitors were invited to guess the weight of an ox once it had been slaughtered and dressed. Nearly eight hundred people entered, most of them with no expertise in livestock. Galton, who was inclined to distrust the judgement of the masses, collected the tickets, expecting to demonstrate their folly. To his surprise, the average of the guesses came within a few pounds of the true weight, more accurately than the great majority of the individual guesses. The 'wisdom of the crowd' had been, in a manner of speaking, discovered by a sceptic.\n\nThe result is often cited as proof that crowds are wise, but this conclusion is too sweeping. A crowd is wise only under particular conditions. Its members must hold diverse perspectives, so that their errors point in different directions and cancel out; they must form their judgements independently, rather than copying one another; and there must be some way of combining their opinions into a single estimate. When these conditions fail, the effect can be reversed. Had the visitors at Galton's fair shouted their guesses aloud, the early estimates would have influenced later ones, and a collective mistake might have been magnified instead of corrected. Financial bubbles, in which investors follow the herd into overpriced assets, show how a crowd that watches itself can be spectacularly foolish.\n\nThe lesson has practical consequences for those who design organisations. Committees in which junior members wait to hear the chairperson's view before speaking destroy independence, and so do meetings in which the loudest voice sets the agenda. Some firms now ask participants to write down their estimates privately before discussion begins, and to combine them afterwards. The method sounds simple, even trivial, but it rests on a real insight: the wisdom of a group lies not in the group as such but in the way its members' separate judgements are gathered. A crowd, in short, is wise only when each of its members is allowed to think independently, and sometimes uncomfortably, for himself or herself.\n\nWhich of the following, if true, would most strengthen the author's claim that independence is essential for a wise crowd?",
+    "options": [
+      {
+        "id": "A",
+        "text": "In a similar experiment, a few experts guessed more accurately than the crowd's average."
+      },
+      {
+        "id": "B",
+        "text": "Larger crowds at bigger fairs make more accurate guesses than smaller ones."
+      },
+      {
+        "id": "C",
+        "text": "Members of diverse groups say they enjoy meetings more."
+      },
+      {
+        "id": "D",
+        "text": "In an experiment, groups whose members saw each other's guesses first produced less accurate averages than groups who guessed privately."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "strengthen",
+    "difficulty": "hard",
+    "explanation": "नियम: Strengthen वाले प्रश्न में वह विकल्प चुनें जो लेखक के तर्क का नया समर्थन करे। जो तर्क को सीमित या विपरीत दिखाए वह उसे कमज़ोर करता है, और जो विषय से असंबंधित हो उसका कोई असर नहीं पड़ता।\n\nयहाँ: सही उत्तर (D)। लेखक का दावा: स्वतंत्र निर्णय ज़रूरी है, वरना त्रुटियाँ बढ़ती हैं। जिस प्रयोग में एक-दूसरे के अनुमान देखने वाले समूहों का औसत कम सटीक निकला, वह इस दावे का सीधा, प्रायोगिक प्रमाण है।\n\nअन्य विकल्प:\n(A) — यह भीड़ की सटीकता की तुलना विशेषज्ञों से करता है; स्वतंत्रता का प्रश्न अछूता है, इसलिए तर्क पर असर नहीं पड़ता।\n(B) — यह भीड़ के आकार से संबंधित है, स्वतंत्रता से नहीं।\n(C) — यह लोगों की पसंद के बारे में है और भीड़ की सटीकता या स्वतंत्रता से असंबंधित है।",
+    "language": "en"
+  },
+  {
+    "id": "rc049",
+    "subjectId": "english",
+    "question": "In 1906 the statistician Francis Galton attended a country fair where visitors were invited to guess the weight of an ox once it had been slaughtered and dressed. Nearly eight hundred people entered, most of them with no expertise in livestock. Galton, who was inclined to distrust the judgement of the masses, collected the tickets, expecting to demonstrate their folly. To his surprise, the average of the guesses came within a few pounds of the true weight, more accurately than the great majority of the individual guesses. The 'wisdom of the crowd' had been, in a manner of speaking, discovered by a sceptic.\n\nThe result is often cited as proof that crowds are wise, but this conclusion is too sweeping. A crowd is wise only under particular conditions. Its members must hold diverse perspectives, so that their errors point in different directions and cancel out; they must form their judgements independently, rather than copying one another; and there must be some way of combining their opinions into a single estimate. When these conditions fail, the effect can be reversed. Had the visitors at Galton's fair shouted their guesses aloud, the early estimates would have influenced later ones, and a collective mistake might have been magnified instead of corrected. Financial bubbles, in which investors follow the herd into overpriced assets, show how a crowd that watches itself can be spectacularly foolish.\n\nThe lesson has practical consequences for those who design organisations. Committees in which junior members wait to hear the chairperson's view before speaking destroy independence, and so do meetings in which the loudest voice sets the agenda. Some firms now ask participants to write down their estimates privately before discussion begins, and to combine them afterwards. The method sounds simple, even trivial, but it rests on a real insight: the wisdom of a group lies not in the group as such but in the way its members' separate judgements are gathered. A crowd, in short, is wise only when each of its members is allowed to think independently, and sometimes uncomfortably, for himself or herself.\n\nFrom the discussion of financial bubbles, it can be inferred that:",
+    "options": [
+      {
+        "id": "A",
+        "text": "investors who join bubbles are less intelligent than other people"
+      },
+      {
+        "id": "B",
+        "text": "a crowd whose members watch and imitate one another may magnify errors instead of cancelling them"
+      },
+      {
+        "id": "C",
+        "text": "bubbles can be prevented simply by banning group discussion"
+      },
+      {
+        "id": "D",
+        "text": "the wisdom of crowds is a myth with no basis in fact"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "inference",
+    "difficulty": "hard",
+    "explanation": "नियम: Inference वह निष्कर्ष है जो passage के तथ्यों से तर्कसंगत रूप से निकलता है, पर शब्दशः लिखा नहीं होता। सही विकल्प passage की बात का सीधा विस्तार होता है; गलत विकल्प या तो नई बात जोड़ते हैं या always / never / necessarily / only जैसे चरम शब्द लगाते हैं।\n\nयहाँ: सही उत्तर (B)। Para 2: 'a crowd that watches itself can be spectacularly foolish' और पहले की बात कि शुरुआती अनुमान बाद वालों को प्रभावित कर 'collective mistake' बढ़ा सकते हैं। इसलिए नकल करने वाली भीड़ त्रुटियों को रद्द करने की जगह बढ़ा सकती है।\n\nअन्य विकल्प:\n(A) — Not stated: बुद्धि की कोई तुलना नहीं की गई; बात नकल की प्रवृत्ति की है।\n(C) — Extreme: 'simply by banning' ऐसा सरल समाधान लेखक नहीं बताता।\n(D) — Extreme / opposite: लेखक कहता है कि भीड़ कुछ शर्तों पर बुद्धिमान होती है, मिथक नहीं कहता।",
+    "language": "en"
+  },
+  {
+    "id": "rc050",
+    "subjectId": "english",
+    "question": "In 1906 the statistician Francis Galton attended a country fair where visitors were invited to guess the weight of an ox once it had been slaughtered and dressed. Nearly eight hundred people entered, most of them with no expertise in livestock. Galton, who was inclined to distrust the judgement of the masses, collected the tickets, expecting to demonstrate their folly. To his surprise, the average of the guesses came within a few pounds of the true weight, more accurately than the great majority of the individual guesses. The 'wisdom of the crowd' had been, in a manner of speaking, discovered by a sceptic.\n\nThe result is often cited as proof that crowds are wise, but this conclusion is too sweeping. A crowd is wise only under particular conditions. Its members must hold diverse perspectives, so that their errors point in different directions and cancel out; they must form their judgements independently, rather than copying one another; and there must be some way of combining their opinions into a single estimate. When these conditions fail, the effect can be reversed. Had the visitors at Galton's fair shouted their guesses aloud, the early estimates would have influenced later ones, and a collective mistake might have been magnified instead of corrected. Financial bubbles, in which investors follow the herd into overpriced assets, show how a crowd that watches itself can be spectacularly foolish.\n\nThe lesson has practical consequences for those who design organisations. Committees in which junior members wait to hear the chairperson's view before speaking destroy independence, and so do meetings in which the loudest voice sets the agenda. Some firms now ask participants to write down their estimates privately before discussion begins, and to combine them afterwards. The method sounds simple, even trivial, but it rests on a real insight: the wisdom of a group lies not in the group as such but in the way its members' separate judgements are gathered. A crowd, in short, is wise only when each of its members is allowed to think independently, and sometimes uncomfortably, for himself or herself.\n\nThe last paragraph primarily:",
+    "options": [
+      {
+        "id": "A",
+        "text": "applies the earlier analysis to the way groups and organisations make decisions"
+      },
+      {
+        "id": "B",
+        "text": "refutes Galton's original findings about the ox"
+      },
+      {
+        "id": "C",
+        "text": "narrates a detailed anecdote about a single firm"
+      },
+      {
+        "id": "D",
+        "text": "lists the failures of every committee"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "author-purpose",
+    "difficulty": "hard",
+    "explanation": "नियम: Purpose / function वाले प्रश्न में 'क्या कहा गया' नहीं बल्कि 'क्यों कहा गया' देखें — यानी उस उदाहरण, वाक्य या paragraph का काम (चेतावनी, उदाहरण, विरोध, निष्कर्ष)। उसके आसपास के वाक्य उसकी भूमिका स्पष्ट करते हैं।\n\nयहाँ: सही उत्तर (A)। Para 3 की शुरुआत: 'The lesson has practical consequences for those who design organisations' — पिछले विश्लेषण (विविधता, स्वतंत्रता, एकत्रीकरण) को समितियों और बैठकों में लागू किया जाता है।\n\nअन्य विकल्प:\n(B) — Opposite: Galton का नतीजा आख़िर तक अस्वीकृत नहीं होता; लेखक उसे शर्तों के साथ समझाता है।\n(C) — Distorted: 'Some firms' का सामान्य उल्लेख है, किसी एक कंपनी का विस्तृत किस्सा नहीं।\n(D) — Extreme: 'every committee' का दावा नहीं; केवल कुछ पद्धतियाँ (junior सदस्यों का इंतज़ार, ज़ोरदार आवाज़) स्वतंत्रता को नष्ट करती बताई गई हैं।",
+    "language": "en"
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "id": "rc001",
+    "subjectId": "english",
+    "question": "Summer in a modern city is not merely a matter of higher temperatures; it is a matter of unequal ones. Concrete, asphalt and glass absorb solar radiation through the day and release it slowly after dusk, so that densely built neighbourhoods can remain several degrees warmer than the surrounding countryside long after the sun has set. This phenomenon, known as the urban heat island effect, is aggravated by the waste heat of air-conditioners and vehicles, which makes the very devices meant to provide relief a part of the problem. For the poor, who often live in cramped, poorly ventilated housing with few trees nearby, the consequences are the most severe, and heat-related illness is a mounting burden on public health.\n\nPlanners have long regarded trees as an aesthetic luxury, the kind of embellishment that is funded in prosperous districts and quietly dropped from budgets elsewhere. Evidence now compels a reassessment. A mature tree cools its surroundings in two ways: its canopy intercepts sunlight before it reaches the ground, and its leaves release water vapour, which draws heat from the air much as perspiration cools the body. Studies in several cities have found that tree-lined streets can be markedly cooler than bare ones, and the benefits extend to lower electricity bills, cleaner air and reduced flooding, since roots and soil absorb rainwater that would otherwise overwhelm drains.\n\nYet planting trees is not the simple remedy it appears to be. Saplings need water, space and years of care before they offer meaningful shade, and many municipal drives record impressive planting figures but dismal survival rates. Species chosen for their rapid growth may prove unsuited to local conditions, while roots that buckle pavements invite complaints that lead to premature felling. The lesson is that the value of an urban forest lies less in the number of trees planted than in the number that survive to maturity. A city that treats its canopy as infrastructure, to be maintained and budgeted for like roads and sewers, will reap far greater rewards than one that treats it as decoration.\n\nWhich of the following best expresses the central idea of the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Air-conditioners and vehicles are the chief cause of the urban heat island effect, so trees are a better substitute for them."
+      },
+      {
+        "id": "B",
+        "text": "Trees can help cool cities and bring other benefits, but they deliver these only when planted with care and kept alive over the long term."
+      },
+      {
+        "id": "C",
+        "text": "The urban poor suffer most from heat, so tree planting should be confined to their neighbourhoods."
+      },
+      {
+        "id": "D",
+        "text": "Municipal tree-planting drives have largely failed, and cities should spend on roads and sewers instead."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "main-idea",
+    "difficulty": "hard",
+    "explanation": "नियम: Main idea / central idea वही विकल्प है जो पूरे passage का सार समेटे। गलत विकल्प प्रायः चार प्रकार के होते हैं: (i) Too narrow — केवल एक paragraph या एक detail की बात; (ii) Out of scope — passage में है ही नहीं; (iii) Extreme / distorted — always, never, only, sole, completely जैसे चरम शब्द या बात को तोड़-मरोड़कर पेश करना; (iv) Opposite — लेखक के मत के उलट।\n\nयहाँ: सही उत्तर (B)। पूरे passage का सार: Para 2 में बताया गया है कि पेड़ गर्मी घटाते हैं (छाया, वाष्पन) और बिजली बिल, हवा, बाढ़ में भी लाभ देते हैं; Para 3 बताता है कि यह लाभ तभी मिलता है जब पेड़ जीवित रहें और उनकी देखभाल हो। यही विकल्प तीनों paragraphs को जोड़ता है।\n\nअन्य विकल्प:\n(A) — Distorted: AC और वाहनों की अपशिष्ट गर्मी केवल heat island को 'aggravate' करती है (para 1), उसे 'chief cause' नहीं कहा गया; पेड़ों को AC का विकल्प बताना passage में कहीं नहीं है।\n(C) — Too narrow + distorted: गरीबों पर ज़्यादा असर केवल para 1 का एक ब्योरा है; पेड़ सिर्फ़ उनके इलाक़ों में लगें, ऐसा कहीं नहीं कहा गया।\n(D) — Extreme / opposite: लेखक drives को असफल घोषित नहीं करता, केवल कहता है कि गिनती से ज़्यादा survival मायने रखता है; सड़क-सीवर का ज़िक्र सिर्फ़ रख-रखाव और बजट की सोच समझाने के लिए है।",
+    "language": "en"
+  },
+  {
+    "id": "rc002",
+    "subjectId": "english",
+    "question": "Summer in a modern city is not merely a matter of higher temperatures; it is a matter of unequal ones. Concrete, asphalt and glass absorb solar radiation through the day and release it slowly after dusk, so that densely built neighbourhoods can remain several degrees warmer than the surrounding countryside long after the sun has set. This phenomenon, known as the urban heat island effect, is aggravated by the waste heat of air-conditioners and vehicles, which makes the very devices meant to provide relief a part of the problem. For the poor, who often live in cramped, poorly ventilated housing with few trees nearby, the consequences are the most severe, and heat-related illness is a mounting burden on public health.\n\nPlanners have long regarded trees as an aesthetic luxury, the kind of embellishment that is funded in prosperous districts and quietly dropped from budgets elsewhere. Evidence now compels a reassessment. A mature tree cools its surroundings in two ways: its canopy intercepts sunlight before it reaches the ground, and its leaves release water vapour, which draws heat from the air much as perspiration cools the body. Studies in several cities have found that tree-lined streets can be markedly cooler than bare ones, and the benefits extend to lower electricity bills, cleaner air and reduced flooding, since roots and soil absorb rainwater that would otherwise overwhelm drains.\n\nYet planting trees is not the simple remedy it appears to be. Saplings need water, space and years of care before they offer meaningful shade, and many municipal drives record impressive planting figures but dismal survival rates. Species chosen for their rapid growth may prove unsuited to local conditions, while roots that buckle pavements invite complaints that lead to premature felling. The lesson is that the value of an urban forest lies less in the number of trees planted than in the number that survive to maturity. A city that treats its canopy as infrastructure, to be maintained and budgeted for like roads and sewers, will reap far greater rewards than one that treats it as decoration.\n\nSelect the word that is OPPOSITE in meaning to the word 'mounting' as used in the passage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "swelling"
+      },
+      {
+        "id": "B",
+        "text": "pressing"
+      },
+      {
+        "id": "C",
+        "text": "chronic"
+      },
+      {
+        "id": "D",
+        "text": "diminishing"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "vocabulary-in-context",
+    "difficulty": "medium",
+    "explanation": "नियम: Antonym (विलोम) वाले प्रश्न में पहले context से शब्द का सही अर्थ तय करें, फिर उसका उलटा खोजें। Synonym (समानार्थी) वाले विकल्प जान-बूझकर trap की तरह रखे जाते हैं।\n\nयहाँ: सही उत्तर (D)। 'Heat-related illness is a mounting burden' = गर्मी से होने वाली बीमारी का बढ़ता हुआ बोझ। Mounting = increasing / growing (बढ़ता हुआ)। इसका विलोम diminishing = घटता हुआ, कम होता हुआ।\n\nअन्य विकल्प:\n(A) swelling — swelling = फूलता / बढ़ता हुआ। यह 'mounting' का समानार्थी है, विलोम नहीं।\n(B) pressing — pressing = अत्यावश्यक, तुरंत ध्यान माँगने वाला (a pressing need)। इसमें बढ़ने या घटने का भाव नहीं है।\n(C) chronic — chronic = दीर्घकालिक, पुराना (a chronic disease)। यह अवधि बताता है, मात्रा के बढ़ने-घटने का विलोम नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "rc003",
+    "subjectId": "english",
+    "question": "Summer in a modern city is not merely a matter of higher temperatures; it is a matter of unequal ones. Concrete, asphalt and glass absorb solar radiation through the day and release it slowly after dusk, so that densely built neighbourhoods can remain several degrees warmer than the surrounding countryside long after the sun has set. This phenomenon, known as the urban heat island effect, is aggravated by the waste heat of air-conditioners and vehicles, which makes the very devices meant to provide relief a part of the problem. For the poor, who often live in cramped, poorly ventilated housing with few trees nearby, the consequences are the most severe, and heat-related illness is a mounting burden on public health.\n\nPlanners have long regarded trees as an aesthetic luxury, the kind of embellishment that is funded in prosperous districts and quietly dropped from budgets elsewhere. Evidence now compels a reassessment. A mature tree cools its surroundings in two ways: its canopy intercepts sunlight before it reaches the ground, and its leaves release water vapour, which draws heat from the air much as perspiration cools the body. Studies in several cities have found that tree-lined streets can be markedly cooler than bare ones, and the benefits extend to lower electricity bills, cleaner air and reduced flooding, since roots and soil absorb rainwater that would otherwise overwhelm drains.\n\nYet planting trees is not the simple remedy it appears to be. Saplings need water, space and years of care before they offer meaningful shade, and many municipal drives record impressive planting figures but dismal survival rates. Species chosen for their rapid growth may prove unsuited to local conditions, while roots that buckle pavements invite complaints that lead to premature felling. The lesson is that the value of an urban forest lies less in the number of trees planted than in the number that survive to maturity. A city that treats its canopy as infrastructure, to be maintained and budgeted for like roads and sewers, will reap far greater rewards than one that treats it as decoration.\n\nWhich of the following is most strongly supported by the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A city that plants fewer trees but ensures that they survive may gain more than one that plants many and neglects them."
+      },
+      {
+        "id": "B",
+        "text": "Cities with few trees necessarily pay higher electricity bills than cities with many trees."
+      },
+      {
+        "id": "C",
+        "text": "Prosperous districts are generally free from the urban heat island effect."
+      },
+      {
+        "id": "D",
+        "text": "Damage to pavements by roots is the main reason why saplings fail to survive."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "inference",
+    "difficulty": "hard",
+    "explanation": "नियम: Inference वह निष्कर्ष है जो passage के तथ्यों से तर्कसंगत रूप से निकलता है, पर शब्दशः लिखा नहीं होता। सही विकल्प passage की बात का सीधा विस्तार होता है; गलत विकल्प या तो नई बात जोड़ते हैं या always / never / necessarily / main / only जैसे चरम शब्द लगाते हैं।\n\nयहाँ: सही उत्तर (A)। Para 3 का निष्कर्ष: मूल्य 'लगाए गए पेड़ों की संख्या' में नहीं, 'परिपक्वता तक बचे पेड़ों की संख्या' में है। इसलिए कम पर जीवित पेड़ बनाम अधिक पर उपेक्षित पेड़ — पहला ज़्यादा लाभ देता है, यह सीधा तार्किक निष्कर्ष है।\n\nअन्य विकल्प:\n(B) — Extreme: कम बिजली बिल पेड़ों का एक संभावित लाभ बताया गया है (para 2), पर 'necessarily' जैसी अनिवार्यता का दावा passage नहीं करता।\n(C) — Not stated: passage केवल यह कहता है कि समृद्ध इलाक़ों में पेड़ों पर पैसा लगता है, यह नहीं कि वे heat island से मुक्त हैं।\n(D) — Distorted: जड़ों की शिकायत से 'premature felling' एक कारण है, पर पानी, जगह, देखभाल की कमी और अनुपयुक्त प्रजाति भी बताई गई हैं; 'main reason' लेखक ने नहीं कहा।",
+    "language": "en"
+  },
+  {
+    "id": "rc004",
+    "subjectId": "english",
+    "question": "Summer in a modern city is not merely a matter of higher temperatures; it is a matter of unequal ones. Concrete, asphalt and glass absorb solar radiation through the day and release it slowly after dusk, so that densely built neighbourhoods can remain several degrees warmer than the surrounding countryside long after the sun has set. This phenomenon, known as the urban heat island effect, is aggravated by the waste heat of air-conditioners and vehicles, which makes the very devices meant to provide relief a part of the problem. For the poor, who often live in cramped, poorly ventilated housing with few trees nearby, the consequences are the most severe, and heat-related illness is a mounting burden on public health.\n\nPlanners have long regarded trees as an aesthetic luxury, the kind of embellishment that is funded in prosperous districts and quietly dropped from budgets elsewhere. Evidence now compels a reassessment. A mature tree cools its surroundings in two ways: its canopy intercepts sunlight before it reaches the ground, and its leaves release water vapour, which draws heat from the air much as perspiration cools the body. Studies in several cities have found that tree-lined streets can be markedly cooler than bare ones, and the benefits extend to lower electricity bills, cleaner air and reduced flooding, since roots and soil absorb rainwater that would otherwise overwhelm drains.\n\nYet planting trees is not the simple remedy it appears to be. Saplings need water, space and years of care before they offer meaningful shade, and many municipal drives record impressive planting figures but dismal survival rates. Species chosen for their rapid growth may prove unsuited to local conditions, while roots that buckle pavements invite complaints that lead to premature felling. The lesson is that the value of an urban forest lies less in the number of trees planted than in the number that survive to maturity. A city that treats its canopy as infrastructure, to be maintained and budgeted for like roads and sewers, will reap far greater rewards than one that treats it as decoration.\n\nAccording to the passage, all of the following are benefits of urban trees EXCEPT:",
+    "options": [
+      {
+        "id": "A",
+        "text": "lower electricity bills"
+      },
+      {
+        "id": "B",
+        "text": "reduced flooding"
+      },
+      {
+        "id": "C",
+        "text": "stronger and more durable pavements"
+      },
+      {
+        "id": "D",
+        "text": "cleaner air"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "detail-except",
+    "difficulty": "medium",
+    "explanation": "नियम: 'NOT / EXCEPT' प्रश्न में तीन विकल्प passage में मिलते हैं और एक नहीं मिलता। हर विकल्प को passage की पंक्तियों से मिलाएँ; जो न मिले (या passage के उलट हो) वही उत्तर है।\n\nयहाँ: सही उत्तर (C)। Pavements वाला विकल्प passage के उलट है: Para 3 में कहा गया है कि जड़ें pavements को 'buckle' (टेढ़ा / उखाड़) कर देती हैं, यानी यह लाभ नहीं बल्कि एक समस्या है। इसलिए यही EXCEPT का उत्तर है।\n\nअन्य विकल्प:\n(A) lower electricity bills — Para 2 में स्पष्ट उल्लेख: पेड़ों के लाभों में 'lower electricity bills' गिनाए गए हैं।\n(B) reduced flooding — Para 2 में उल्लेख: जड़ें और मिट्टी वह बारिश का पानी सोखती हैं जो नालियों पर बोझ बनता।\n(D) cleaner air — Para 2 में उल्लेख: लाभों में 'cleaner air' शामिल है।",
+    "language": "en"
+  },
+  {
+    "id": "rc005",
+    "subjectId": "english",
+    "question": "Summer in a modern city is not merely a matter of higher temperatures; it is a matter of unequal ones. Concrete, asphalt and glass absorb solar radiation through the day and release it slowly after dusk, so that densely built neighbourhoods can remain several degrees warmer than the surrounding countryside long after the sun has set. This phenomenon, known as the urban heat island effect, is aggravated by the waste heat of air-conditioners and vehicles, which makes the very devices meant to provide relief a part of the problem. For the poor, who often live in cramped, poorly ventilated housing with few trees nearby, the consequences are the most severe, and heat-related illness is a mounting burden on public health.\n\nPlanners have long regarded trees as an aesthetic luxury, the kind of embellishment that is funded in prosperous districts and quietly dropped from budgets elsewhere. Evidence now compels a reassessment. A mature tree cools its surroundings in two ways: its canopy intercepts sunlight before it reaches the ground, and its leaves release water vapour, which draws heat from the air much as perspiration cools the body. Studies in several cities have found that tree-lined streets can be markedly cooler than bare ones, and the benefits extend to lower electricity bills, cleaner air and reduced flooding, since roots and soil absorb rainwater that would otherwise overwhelm drains.\n\nYet planting trees is not the simple remedy it appears to be. Saplings need water, space and years of care before they offer meaningful shade, and many municipal drives record impressive planting figures but dismal survival rates. Species chosen for their rapid growth may prove unsuited to local conditions, while roots that buckle pavements invite complaints that lead to premature felling. The lesson is that the value of an urban forest lies less in the number of trees planted than in the number that survive to maturity. A city that treats its canopy as infrastructure, to be maintained and budgeted for like roads and sewers, will reap far greater rewards than one that treats it as decoration.\n\nThe primary purpose of the last paragraph is to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "argue that tree-planting drives should be abandoned in favour of other kinds of infrastructure"
+      },
+      {
+        "id": "B",
+        "text": "caution that the benefits of urban trees depend on long-term maintenance and not merely on planting"
+      },
+      {
+        "id": "C",
+        "text": "blame residents whose complaints lead to the felling of trees"
+      },
+      {
+        "id": "D",
+        "text": "compare the cost of planting trees with the cost of building roads and sewers"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "author-purpose",
+    "difficulty": "hard",
+    "explanation": "नियम: Purpose / function वाले प्रश्न में 'क्या कहा गया' नहीं बल्कि 'क्यों कहा गया' देखें — यानी paragraph या वाक्य का काम (चेतावनी, उदाहरण, विरोध, निष्कर्ष)। उस हिस्से के आसपास के वाक्य भूमिका स्पष्ट करते हैं।\n\nयहाँ: सही उत्तर (B)। Last paragraph 'Yet' से शुरू होकर चेतावनी देता है: saplings को देखभाल चाहिए, कई drives में survival दर खराब है, और निष्कर्ष यह कि सिर्फ़ रोपण नहीं, पेड़ों का बचे रहना मायने रखता है। इसलिए paragraph का उद्देश्य 'long-term maintenance' की चेतावनी देना है।\n\nअन्य विकल्प:\n(A) — Extreme / opposite: लेखक drives छोड़ने को नहीं कहता, बल्कि canopy को सड़क-सीवर जैसे infrastructure की तरह संभालने की सलाह देता है।\n(C) — Out of scope: शिकायतों का ज़िक्र केवल पेड़ कटने के एक कारण के रूप में है; निवासियों को दोष देना paragraph का उद्देश्य नहीं।\n(D) — Distorted: तुलना लागत की नहीं, रख-रखाव और बजट की मानसिकता की है — पेड़ों को भी सड़क-सीवर की तरह maintain और budget किया जाए।",
+    "language": "en"
+  },
+  {
+    "id": "rc006",
+    "subjectId": "english",
+    "question": "In 1968 the ecologist Garrett Hardin published an essay whose title, 'The Tragedy of the Commons', became a byword in the social sciences. Hardin asked his readers to picture a pasture open to all herders. Each herder, reasoning rationally, adds one more animal to his flock, since he alone enjoys the full gain from the extra animal while the cost of overgrazing is shared among everyone. The pasture, inevitably, is ruined. From this parable Hardin drew a bleak conclusion: shared resources are safe only when they are privatised or regulated from above, because ordinary users cannot be trusted to restrain themselves.\n\nThe argument was elegant, and it proved enormously influential among policymakers, who used it to justify transferring village forests and grazing lands to private owners or to state departments. But elegance is not the same as accuracy. The political scientist Elinor Ostrom, who shared the Nobel Prize in Economics in 2009, spent decades studying how communities actually manage shared resources, from alpine meadows in Switzerland to irrigation systems in Spain and forests in Japan. She found that many of these arrangements had endured for centuries, not because they were free of conflict, but because users had devised their own rules: who may take how much, who monitors the resource, and how offenders are penalised. Hardin, she observed, had described not a commons but an open-access free-for-all, in which no rules exist at all.\n\nNone of this means that commons are invariably well governed. Local rules can be unjust, excluding women or the landless from decisions, and they can crumble when outsiders, market pressures or sudden population growth overwhelm them. Ostrom's contribution was therefore not to romanticise the village but to widen the range of options. Between the market and the state, she argued, lies a third possibility: self-governance by those who depend on the resource, provided the rules are clear, the monitoring is local and the community has the authority to enforce its own decisions. Policymakers who overlook this possibility, she warned, risk dismantling working institutions in the name of repairing broken ones.\n\nThe passage is primarily concerned with:",
+    "options": [
+      {
+        "id": "A",
+        "text": "challenging a once-influential theory by showing that communities can sustainably govern shared resources through rules of their own"
+      },
+      {
+        "id": "B",
+        "text": "proving that privatisation is the only dependable way of protecting shared resources"
+      },
+      {
+        "id": "C",
+        "text": "describing the life and academic achievements of Elinor Ostrom"
+      },
+      {
+        "id": "D",
+        "text": "showing that traditional village commons are free from injustice and conflict"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "main-idea",
+    "difficulty": "hard",
+    "explanation": "नियम: Main idea / central idea वही विकल्प है जो पूरे passage का सार समेटे। गलत विकल्प प्रायः चार प्रकार के होते हैं: (i) Too narrow — केवल एक paragraph या एक detail की बात; (ii) Out of scope — passage में है ही नहीं; (iii) Extreme / distorted — always, never, only, sole, completely जैसे चरम शब्द या बात को तोड़-मरोड़कर पेश करना; (iv) Opposite — लेखक के मत के उलट।\n\nयहाँ: सही उत्तर (A)। Para 1 में Hardin का सिद्धांत, Para 2 में Ostrom के प्रमाणों से उसका खंडन, Para 3 में सीमाओं के साथ 'तीसरे रास्ते' (स्थानीय स्व-शासन) की बात। पूरा passage एक प्रभावशाली सिद्धांत को चुनौती देता है और बताता है कि समुदाय अपने नियमों से साझा संसाधन बचा सकते हैं।\n\nअन्य विकल्प:\n(B) — Opposite: यह Hardin का मत है, जिसे लेखक Ostrom के शोध के सहारे चुनौती देता है।\n(C) — Too narrow: Ostrom का शोध मुख्य तर्क का साधन है, passage का विषय स्वयं Ostrom का जीवन या उपलब्धियाँ नहीं हैं।\n(D) — Contradicts passage: Para 2 में कहा गया कि व्यवस्थाएँ संघर्ष-मुक्त होने के कारण नहीं टिकीं, और Para 3 में बताया गया कि स्थानीय नियम अन्यायपूर्ण भी हो सकते हैं।",
+    "language": "en"
+  },
+  {
+    "id": "rc007",
+    "subjectId": "english",
+    "question": "In 1968 the ecologist Garrett Hardin published an essay whose title, 'The Tragedy of the Commons', became a byword in the social sciences. Hardin asked his readers to picture a pasture open to all herders. Each herder, reasoning rationally, adds one more animal to his flock, since he alone enjoys the full gain from the extra animal while the cost of overgrazing is shared among everyone. The pasture, inevitably, is ruined. From this parable Hardin drew a bleak conclusion: shared resources are safe only when they are privatised or regulated from above, because ordinary users cannot be trusted to restrain themselves.\n\nThe argument was elegant, and it proved enormously influential among policymakers, who used it to justify transferring village forests and grazing lands to private owners or to state departments. But elegance is not the same as accuracy. The political scientist Elinor Ostrom, who shared the Nobel Prize in Economics in 2009, spent decades studying how communities actually manage shared resources, from alpine meadows in Switzerland to irrigation systems in Spain and forests in Japan. She found that many of these arrangements had endured for centuries, not because they were free of conflict, but because users had devised their own rules: who may take how much, who monitors the resource, and how offenders are penalised. Hardin, she observed, had described not a commons but an open-access free-for-all, in which no rules exist at all.\n\nNone of this means that commons are invariably well governed. Local rules can be unjust, excluding women or the landless from decisions, and they can crumble when outsiders, market pressures or sudden population growth overwhelm them. Ostrom's contribution was therefore not to romanticise the village but to widen the range of options. Between the market and the state, she argued, lies a third possibility: self-governance by those who depend on the resource, provided the rules are clear, the monitoring is local and the community has the authority to enforce its own decisions. Policymakers who overlook this possibility, she warned, risk dismantling working institutions in the name of repairing broken ones.\n\nSelect the word closest in meaning to 'romanticise' as used in the passage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "condemn"
+      },
+      {
+        "id": "B",
+        "text": "simplify"
+      },
+      {
+        "id": "C",
+        "text": "idealise"
+      },
+      {
+        "id": "D",
+        "text": "modernise"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "vocabulary-in-context",
+    "difficulty": "medium",
+    "explanation": "नियम: Vocabulary-in-context में शब्द का शब्दकोश-अर्थ नहीं, passage के वाक्य में उसका अर्थ देखें। वाक्य के भाव (सकारात्मक / नकारात्मक) और 'but, yet, however' जैसे संकेतकों से सही अर्थ पकड़ें।\n\nयहाँ: सही उत्तर (C)। 'Ostrom's contribution was not to romanticise the village but to widen the range of options' — उसने गाँव को ज़रूरत से ज़्यादा आदर्श / सुंदर रूप में नहीं दिखाया (पिछली पंक्तियों में अन्यायपूर्ण स्थानीय नियमों का ज़िक्र भी है)। Romanticise = idealise (आदर्श बनाकर प्रस्तुत करना)।\n\nअन्य विकल्प:\n(A) condemn — condemn = निंदा करना, दोषी ठहराना। भाव उलटा है, क्योंकि यहाँ बात गाँव को ज़रूरत से ज़्यादा अच्छा दिखाने की है।\n(B) simplify — simplify = सरल बनाना (किसी जटिल चीज़ को आसान करना)। यहाँ गाँव को सरल नहीं बल्कि आदर्श रूप में दिखाने की बात है।\n(D) modernise — modernise = आधुनिक बनाना। इस वाक्य के संदर्भ में अर्थहीन है।",
+    "language": "en"
+  },
+  {
+    "id": "rc008",
+    "subjectId": "english",
+    "question": "In 1968 the ecologist Garrett Hardin published an essay whose title, 'The Tragedy of the Commons', became a byword in the social sciences. Hardin asked his readers to picture a pasture open to all herders. Each herder, reasoning rationally, adds one more animal to his flock, since he alone enjoys the full gain from the extra animal while the cost of overgrazing is shared among everyone. The pasture, inevitably, is ruined. From this parable Hardin drew a bleak conclusion: shared resources are safe only when they are privatised or regulated from above, because ordinary users cannot be trusted to restrain themselves.\n\nThe argument was elegant, and it proved enormously influential among policymakers, who used it to justify transferring village forests and grazing lands to private owners or to state departments. But elegance is not the same as accuracy. The political scientist Elinor Ostrom, who shared the Nobel Prize in Economics in 2009, spent decades studying how communities actually manage shared resources, from alpine meadows in Switzerland to irrigation systems in Spain and forests in Japan. She found that many of these arrangements had endured for centuries, not because they were free of conflict, but because users had devised their own rules: who may take how much, who monitors the resource, and how offenders are penalised. Hardin, she observed, had described not a commons but an open-access free-for-all, in which no rules exist at all.\n\nNone of this means that commons are invariably well governed. Local rules can be unjust, excluding women or the landless from decisions, and they can crumble when outsiders, market pressures or sudden population growth overwhelm them. Ostrom's contribution was therefore not to romanticise the village but to widen the range of options. Between the market and the state, she argued, lies a third possibility: self-governance by those who depend on the resource, provided the rules are clear, the monitoring is local and the community has the authority to enforce its own decisions. Policymakers who overlook this possibility, she warned, risk dismantling working institutions in the name of repairing broken ones.\n\nWith which of the following statements would Elinor Ostrom most probably agree?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Communities should be given sole control of every shared resource, whatever injustices may exist in their local rules."
+      },
+      {
+        "id": "B",
+        "text": "Privatisation of shared resources is always inferior to management by the community."
+      },
+      {
+        "id": "C",
+        "text": "State departments can never manage forests and grazing lands as effectively as villagers can."
+      },
+      {
+        "id": "D",
+        "text": "A shared resource governed by no rules at all may well be exhausted, but this does not prove that every shared resource is doomed."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "inference",
+    "difficulty": "hard",
+    "explanation": "नियम: Inference वह निष्कर्ष है जो passage के तथ्यों से तर्कसंगत रूप से निकलता है, पर शब्दशः लिखा नहीं होता। सही विकल्प passage की बात का सीधा विस्तार होता है; गलत विकल्प या तो नई बात जोड़ते हैं या always / never / necessarily / main / only जैसे चरम शब्द लगाते हैं।\n\nयहाँ: सही उत्तर (D)। Ostrom का मत संतुलित है: Hardin ने जिसे commons कहा वह नियम-रहित 'open-access free-for-all' था (para 2), इसलिए उसका बर्बाद होना हर साझा संसाधन की नियति नहीं है; और para 3 में वह मानती है कि commons हमेशा अच्छे नहीं चलते। केवल यही कथन इस संतुलित मत से मेल खाता है।\n\nअन्य विकल्प:\n(A) — Extreme: Ostrom खुद मानती है कि स्थानीय नियम अन्यायपूर्ण हो सकते हैं (para 3); 'sole control of every resource' जैसा दावा वह नहीं करती।\n(B) — Extreme: वह 'विकल्पों का दायरा बढ़ाती' है, बाज़ार को हमेशा घटिया नहीं बताती; 'always' चरम शब्द है।\n(C) — Extreme: 'never' जैसा निरपेक्ष दावा passage में कहीं नहीं मिलता; वह तो केवल 'तीसरे विकल्प' की अनदेखी के विरुद्ध चेतावनी देती है।",
+    "language": "en"
+  },
+  {
+    "id": "rc009",
+    "subjectId": "english",
+    "question": "In 1968 the ecologist Garrett Hardin published an essay whose title, 'The Tragedy of the Commons', became a byword in the social sciences. Hardin asked his readers to picture a pasture open to all herders. Each herder, reasoning rationally, adds one more animal to his flock, since he alone enjoys the full gain from the extra animal while the cost of overgrazing is shared among everyone. The pasture, inevitably, is ruined. From this parable Hardin drew a bleak conclusion: shared resources are safe only when they are privatised or regulated from above, because ordinary users cannot be trusted to restrain themselves.\n\nThe argument was elegant, and it proved enormously influential among policymakers, who used it to justify transferring village forests and grazing lands to private owners or to state departments. But elegance is not the same as accuracy. The political scientist Elinor Ostrom, who shared the Nobel Prize in Economics in 2009, spent decades studying how communities actually manage shared resources, from alpine meadows in Switzerland to irrigation systems in Spain and forests in Japan. She found that many of these arrangements had endured for centuries, not because they were free of conflict, but because users had devised their own rules: who may take how much, who monitors the resource, and how offenders are penalised. Hardin, she observed, had described not a commons but an open-access free-for-all, in which no rules exist at all.\n\nNone of this means that commons are invariably well governed. Local rules can be unjust, excluding women or the landless from decisions, and they can crumble when outsiders, market pressures or sudden population growth overwhelm them. Ostrom's contribution was therefore not to romanticise the village but to widen the range of options. Between the market and the state, she argued, lies a third possibility: self-governance by those who depend on the resource, provided the rules are clear, the monitoring is local and the community has the authority to enforce its own decisions. Policymakers who overlook this possibility, she warned, risk dismantling working institutions in the name of repairing broken ones.\n\nWhich of the following statements is supported by the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ostrom found that long-lasting community arrangements endured because they were free of disputes."
+      },
+      {
+        "id": "B",
+        "text": "Hardin's ideas were used to justify handing village forests and pastures over to private owners or state departments."
+      },
+      {
+        "id": "C",
+        "text": "Ostrom's research was confined to the alpine meadows of Switzerland."
+      },
+      {
+        "id": "D",
+        "text": "Hardin shared the 2009 Nobel Prize in Economics with Ostrom."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "true-false",
+    "difficulty": "medium",
+    "explanation": "नियम: 'Supported by the passage' वाले प्रश्न में वही कथन सही है जो passage से सीधे समर्थित हो। बाहरी जानकारी, आधा-सच या उलटा किया हुआ तथ्य वाले विकल्प गलत होते हैं।\n\nयहाँ: सही उत्तर (B)। Para 2 की पहली पंक्ति: 'it proved enormously influential among policymakers, who used it to justify transferring village forests and grazing lands to private owners or to state departments' — यही कथन इसका सीधा रूपांतरण है।\n\nअन्य विकल्प:\n(A) — Opposite: Para 2 में स्पष्ट है कि वे व्यवस्थाएँ संघर्ष-मुक्त होने के कारण नहीं बल्कि अपने बनाए नियमों के कारण टिकीं।\n(C) — Distorted: Switzerland के चरागाहों के साथ Spain की सिंचाई-व्यवस्थाएँ और Japan के जंगल भी बताए गए हैं।\n(D) — Not supported: passage में पुरस्कार केवल Ostrom का बताया गया है, Hardin का नहीं (वास्तव में 2009 का पुरस्कार Ostrom ने Oliver Williamson के साथ साझा किया था)।",
+    "language": "en"
+  },
+  {
+    "id": "rc010",
+    "subjectId": "english",
+    "question": "In 1968 the ecologist Garrett Hardin published an essay whose title, 'The Tragedy of the Commons', became a byword in the social sciences. Hardin asked his readers to picture a pasture open to all herders. Each herder, reasoning rationally, adds one more animal to his flock, since he alone enjoys the full gain from the extra animal while the cost of overgrazing is shared among everyone. The pasture, inevitably, is ruined. From this parable Hardin drew a bleak conclusion: shared resources are safe only when they are privatised or regulated from above, because ordinary users cannot be trusted to restrain themselves.\n\nThe argument was elegant, and it proved enormously influential among policymakers, who used it to justify transferring village forests and grazing lands to private owners or to state departments. But elegance is not the same as accuracy. The political scientist Elinor Ostrom, who shared the Nobel Prize in Economics in 2009, spent decades studying how communities actually manage shared resources, from alpine meadows in Switzerland to irrigation systems in Spain and forests in Japan. She found that many of these arrangements had endured for centuries, not because they were free of conflict, but because users had devised their own rules: who may take how much, who monitors the resource, and how offenders are penalised. Hardin, she observed, had described not a commons but an open-access free-for-all, in which no rules exist at all.\n\nNone of this means that commons are invariably well governed. Local rules can be unjust, excluding women or the landless from decisions, and they can crumble when outsiders, market pressures or sudden population growth overwhelm them. Ostrom's contribution was therefore not to romanticise the village but to widen the range of options. Between the market and the state, she argued, lies a third possibility: self-governance by those who depend on the resource, provided the rules are clear, the monitoring is local and the community has the authority to enforce its own decisions. Policymakers who overlook this possibility, she warned, risk dismantling working institutions in the name of repairing broken ones.\n\nThe author's attitude towards Hardin's argument can best be described as:",
+    "options": [
+      {
+        "id": "A",
+        "text": "respectful of its elegance but unconvinced of its accuracy"
+      },
+      {
+        "id": "B",
+        "text": "wholly dismissive of it as baseless"
+      },
+      {
+        "id": "C",
+        "text": "enthusiastically supportive of it"
+      },
+      {
+        "id": "D",
+        "text": "neutral and uninterested in its merits"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tone-and-attitude",
+    "difficulty": "hard",
+    "explanation": "नियम: Tone / attitude वाले प्रश्न में लेखक के शब्द-चयन और 'but / yet' जैसे मोड़ देखें। Extreme tone (wholly dismissive, unreservedly enthusiastic) प्रायः गलत होते हैं, क्योंकि लेखक आम तौर पर संतुलित रुख रखता है।\n\nयहाँ: सही उत्तर (A)। 'The argument was elegant ... But elegance is not the same as accuracy' — पहले हिस्से में उसकी सुंदरता और प्रभाव का सम्मान है, 'But' के बाद उसकी सटीकता पर संदेह। इसलिए 'respectful of its elegance but unconvinced of its accuracy' सही है।\n\nअन्य विकल्प:\n(B) — Extreme: लेखक इसे 'elegant' और 'enormously influential' कहता है; पूरी तरह निराधार नहीं मानता।\n(C) — Opposite: 'But elegance is not the same as accuracy' से लेखक का असहमति वाला रुख साफ़ है।\n(D) — Incorrect: लेखक तटस्थ नहीं है; वह सिद्धांत पर प्रश्न उठाता है और Ostrom के प्रमाणों से उसका परीक्षण करता है।",
+    "language": "en"
+  },
+  {
+    "id": "rc011",
+    "subjectId": "english",
+    "question": "Every translator eventually confronts a word that refuses to cross the border. The Portuguese saudade, the Japanese komorebi and the German Schadenfreude are routinely cited as untranslatable, and they are usually offered as proof that languages carve up experience in fundamentally different ways. The claim is seductive, but it needs to be handled with care. What these words resist is not translation but compression: the idea can be conveyed in English, though it may take a sentence rather than a single word. The real difficulty lies elsewhere, in the associations a word carries with it, the shared memories, the literary echoes and the faint social register that a native speaker absorbs without effort and a foreigner can almost never reproduce.\n\nThis is why poetry, which exploits such associations most heavily, is notoriously hard to translate, and why the translator's task is better understood as a negotiation than as a transfer. A literal rendering may preserve every dictionary meaning and yet lose the music, humour or irony of the original; a free rendering may capture the spirit and yet betray the author's choices. An old Italian proverb, traduttore, traditore, captures the dilemma in a pun: the translator is a traitor. The accusation is unfair, since a translator who never departs from the original is seldom faithful to it. Fidelity, in this view, is a matter of effect rather than of words, and demands that readers of the new language be moved, amused or disturbed in much the same manner as the readers of the first.\n\nThere is, besides, a consolation that rarely gets its due. Translation is not only a loss; it is also an act of creation that has repeatedly enriched the language receiving it. English acquired countless idioms, and even entire literary forms such as the sonnet, through the labours of translators who wrestled with texts that were never meant for it. A culture that stops translating does not preserve its purity; it merely grows poorer, deprived of the ideas that others have to offer.\n\nWhich of the following would be the most suitable title for the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Untranslatable Words and the Differences Between Languages"
+      },
+      {
+        "id": "B",
+        "text": "The Treachery of Translators"
+      },
+      {
+        "id": "C",
+        "text": "How English Became the Language of Poetry"
+      },
+      {
+        "id": "D",
+        "text": "Beyond the Dictionary: The Difficulty and Worth of Translation"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "title",
+    "difficulty": "hard",
+    "explanation": "नियम: Title वह होना चाहिए जो पूरे passage को समेटे और संक्षिप्त हो। बहुत narrow (केवल एक हिस्सा), out of scope (passage से बाहर) या लेखक के मत के उलट वाला title गलत होता है।\n\nयहाँ: सही उत्तर (D)। Passage तीन बातें कहता है: (1) शब्दकोश से आगे की कठिनाई — जुड़ाव और प्रभाव (para 1-2); (2) निष्ठा का अर्थ प्रभाव में है (para 2); (3) अनुवाद का सृजनात्मक मूल्य (para 3)। 'The Difficulty and Worth of Translation' इन सबको समेटता है।\n\nअन्य विकल्प:\n(A) — Too narrow + contrary: यह केवल para 1 का हिस्सा है, और लेखक 'untranslatable' दावे को सावधानी से परखने को कहता है, उसका समर्थन नहीं करता।\n(B) The Treachery of Translators — Opposite: लेखक 'translator is a traitor' वाले आरोप को स्पष्ट रूप से 'unfair' कहता है।\n(C) — Out of scope: passage का केंद्र अनुवाद की कठिनाई और मूल्य है; अंग्रेज़ी का काव्य-भाषा बनना विषय नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "rc012",
+    "subjectId": "english",
+    "question": "Every translator eventually confronts a word that refuses to cross the border. The Portuguese saudade, the Japanese komorebi and the German Schadenfreude are routinely cited as untranslatable, and they are usually offered as proof that languages carve up experience in fundamentally different ways. The claim is seductive, but it needs to be handled with care. What these words resist is not translation but compression: the idea can be conveyed in English, though it may take a sentence rather than a single word. The real difficulty lies elsewhere, in the associations a word carries with it, the shared memories, the literary echoes and the faint social register that a native speaker absorbs without effort and a foreigner can almost never reproduce.\n\nThis is why poetry, which exploits such associations most heavily, is notoriously hard to translate, and why the translator's task is better understood as a negotiation than as a transfer. A literal rendering may preserve every dictionary meaning and yet lose the music, humour or irony of the original; a free rendering may capture the spirit and yet betray the author's choices. An old Italian proverb, traduttore, traditore, captures the dilemma in a pun: the translator is a traitor. The accusation is unfair, since a translator who never departs from the original is seldom faithful to it. Fidelity, in this view, is a matter of effect rather than of words, and demands that readers of the new language be moved, amused or disturbed in much the same manner as the readers of the first.\n\nThere is, besides, a consolation that rarely gets its due. Translation is not only a loss; it is also an act of creation that has repeatedly enriched the language receiving it. English acquired countless idioms, and even entire literary forms such as the sonnet, through the labours of translators who wrestled with texts that were never meant for it. A culture that stops translating does not preserve its purity; it merely grows poorer, deprived of the ideas that others have to offer.\n\nSelect the word closest in meaning to 'seductive' as used in the passage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "evasive"
+      },
+      {
+        "id": "B",
+        "text": "alluring"
+      },
+      {
+        "id": "C",
+        "text": "ambiguous"
+      },
+      {
+        "id": "D",
+        "text": "controversial"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "vocabulary-in-context",
+    "difficulty": "medium",
+    "explanation": "नियम: Vocabulary-in-context में शब्द का शब्दकोश-अर्थ नहीं, passage के वाक्य में उसका अर्थ देखें। वाक्य के भाव (सकारात्मक / नकारात्मक) और 'but, yet, however' जैसे संकेतकों से सही अर्थ पकड़ें।\n\nयहाँ: सही उत्तर (B)। 'The claim is seductive, but it needs to be handled with care' — दावा मोहक / लुभावना लगता है, फिर भी उसे सावधानी से परखना चाहिए। 'but' के पहले वाला हिस्सा सकारात्मक आकर्षण दिखाता है। Seductive = alluring (आकर्षक, लुभाने वाला)।\n\nअन्य विकल्प:\n(A) evasive — evasive = टालमटोल करने वाला, सीधा जवाब न देने वाला। 'दावा आकर्षक है पर सावधानी चाहिए' के भाव से मेल नहीं खाता।\n(C) ambiguous — ambiguous = अस्पष्ट, दो अर्थ वाला। 'but' से पहले आकर्षण का भाव चाहिए, अस्पष्टता का नहीं।\n(D) controversial — controversial = विवादास्पद, जिस पर बहस हो। यहाँ दावे के लुभावने होने की बात है, विवाद की नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "rc013",
+    "subjectId": "english",
+    "question": "Every translator eventually confronts a word that refuses to cross the border. The Portuguese saudade, the Japanese komorebi and the German Schadenfreude are routinely cited as untranslatable, and they are usually offered as proof that languages carve up experience in fundamentally different ways. The claim is seductive, but it needs to be handled with care. What these words resist is not translation but compression: the idea can be conveyed in English, though it may take a sentence rather than a single word. The real difficulty lies elsewhere, in the associations a word carries with it, the shared memories, the literary echoes and the faint social register that a native speaker absorbs without effort and a foreigner can almost never reproduce.\n\nThis is why poetry, which exploits such associations most heavily, is notoriously hard to translate, and why the translator's task is better understood as a negotiation than as a transfer. A literal rendering may preserve every dictionary meaning and yet lose the music, humour or irony of the original; a free rendering may capture the spirit and yet betray the author's choices. An old Italian proverb, traduttore, traditore, captures the dilemma in a pun: the translator is a traitor. The accusation is unfair, since a translator who never departs from the original is seldom faithful to it. Fidelity, in this view, is a matter of effect rather than of words, and demands that readers of the new language be moved, amused or disturbed in much the same manner as the readers of the first.\n\nThere is, besides, a consolation that rarely gets its due. Translation is not only a loss; it is also an act of creation that has repeatedly enriched the language receiving it. English acquired countless idioms, and even entire literary forms such as the sonnet, through the labours of translators who wrestled with texts that were never meant for it. A culture that stops translating does not preserve its purity; it merely grows poorer, deprived of the ideas that others have to offer.\n\nAccording to the author, the so-called untranslatable words are hard to translate mainly because:",
+    "options": [
+      {
+        "id": "A",
+        "text": "the experiences they describe do not exist in other cultures"
+      },
+      {
+        "id": "B",
+        "text": "no sentence in another language can convey their meaning"
+      },
+      {
+        "id": "C",
+        "text": "they carry associations that a foreign reader can hardly reproduce"
+      },
+      {
+        "id": "D",
+        "text": "dictionaries have failed to record their exact equivalents"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "detail",
+    "difficulty": "medium",
+    "explanation": "नियम: Detail / reason वाले प्रश्न में उत्तर passage में लिखे कारण या तथ्य पर टिका होता है। 'mainly because' में लेखक का बताया मुख्य कारण चुनें, अपनी बाहरी जानकारी नहीं। हर विकल्प की बात को passage से मिलाएँ।\n\nयहाँ: सही उत्तर (C)। Para 1: 'The real difficulty lies elsewhere, in the associations a word carries with it, the shared memories, the literary echoes and the faint social register' — मूल कठिनाई जुड़ावों में है, जिन्हें विदेशी पाठक लगभग कभी नहीं दोहरा सकता।\n\nअन्य विकल्प:\n(A) — Contradicts: लेखक कहता है कि विचार अंग्रेज़ी में व्यक्त हो सकता है, इसलिए अनुभव का अस्तित्व न होना कारण नहीं है।\n(B) — Contradicts: Para 1 में साफ़ कहा गया है कि विचार एक वाक्य में बताया जा सकता है; समस्या 'compression' की है।\n(D) — Out of scope: शब्दकोशों की कमी का उल्लेख passage में नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "rc014",
+    "subjectId": "english",
+    "question": "Every translator eventually confronts a word that refuses to cross the border. The Portuguese saudade, the Japanese komorebi and the German Schadenfreude are routinely cited as untranslatable, and they are usually offered as proof that languages carve up experience in fundamentally different ways. The claim is seductive, but it needs to be handled with care. What these words resist is not translation but compression: the idea can be conveyed in English, though it may take a sentence rather than a single word. The real difficulty lies elsewhere, in the associations a word carries with it, the shared memories, the literary echoes and the faint social register that a native speaker absorbs without effort and a foreigner can almost never reproduce.\n\nThis is why poetry, which exploits such associations most heavily, is notoriously hard to translate, and why the translator's task is better understood as a negotiation than as a transfer. A literal rendering may preserve every dictionary meaning and yet lose the music, humour or irony of the original; a free rendering may capture the spirit and yet betray the author's choices. An old Italian proverb, traduttore, traditore, captures the dilemma in a pun: the translator is a traitor. The accusation is unfair, since a translator who never departs from the original is seldom faithful to it. Fidelity, in this view, is a matter of effect rather than of words, and demands that readers of the new language be moved, amused or disturbed in much the same manner as the readers of the first.\n\nThere is, besides, a consolation that rarely gets its due. Translation is not only a loss; it is also an act of creation that has repeatedly enriched the language receiving it. English acquired countless idioms, and even entire literary forms such as the sonnet, through the labours of translators who wrestled with texts that were never meant for it. A culture that stops translating does not preserve its purity; it merely grows poorer, deprived of the ideas that others have to offer.\n\nWhich of the following can be inferred about the author's view of fidelity in translation?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A translator who keeps strictly to the original wording may still fail to be faithful to its effect."
+      },
+      {
+        "id": "B",
+        "text": "Fidelity is impossible, so every translation betrays the author."
+      },
+      {
+        "id": "C",
+        "text": "Free renderings are always preferable to literal ones."
+      },
+      {
+        "id": "D",
+        "text": "Literal translations are the only way to preserve the author's intentions."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "inference",
+    "difficulty": "hard",
+    "explanation": "नियम: Inference वह निष्कर्ष है जो passage के तथ्यों से तर्कसंगत रूप से निकलता है, पर शब्दशः लिखा नहीं होता। सही विकल्प passage की बात का सीधा विस्तार होता है; गलत विकल्प या तो नई बात जोड़ते हैं या always / never / necessarily / main / only जैसे चरम शब्द लगाते हैं।\n\nयहाँ: सही उत्तर (A)। Para 2: 'a translator who never departs from the original is seldom faithful to it' और 'Fidelity ... is a matter of effect rather than of words' — इसलिए शब्दों से चिपका अनुवादक भी प्रभाव के प्रति निष्ठावान न हो, यह सीधा निष्कर्ष है।\n\nअन्य विकल्प:\n(B) — Extreme: लेखक निष्ठा को असंभव नहीं बल्कि 'प्रभाव' के रूप में परिभाषित करता है और आरोप को अनुचित कहता है।\n(C) — Extreme: 'always' गलत है; para 2 में मुक्त अनुवाद की भी सीमा बताई गई है कि वह लेखक के चुनाव से विश्वासघात कर सकता है।\n(D) — Opposite: लेखक के अनुसार शब्दशः अनुवाद संगीत, हास्य और व्यंग्य खो सकता है।",
+    "language": "en"
+  },
+  {
+    "id": "rc015",
+    "subjectId": "english",
+    "question": "Every translator eventually confronts a word that refuses to cross the border. The Portuguese saudade, the Japanese komorebi and the German Schadenfreude are routinely cited as untranslatable, and they are usually offered as proof that languages carve up experience in fundamentally different ways. The claim is seductive, but it needs to be handled with care. What these words resist is not translation but compression: the idea can be conveyed in English, though it may take a sentence rather than a single word. The real difficulty lies elsewhere, in the associations a word carries with it, the shared memories, the literary echoes and the faint social register that a native speaker absorbs without effort and a foreigner can almost never reproduce.\n\nThis is why poetry, which exploits such associations most heavily, is notoriously hard to translate, and why the translator's task is better understood as a negotiation than as a transfer. A literal rendering may preserve every dictionary meaning and yet lose the music, humour or irony of the original; a free rendering may capture the spirit and yet betray the author's choices. An old Italian proverb, traduttore, traditore, captures the dilemma in a pun: the translator is a traitor. The accusation is unfair, since a translator who never departs from the original is seldom faithful to it. Fidelity, in this view, is a matter of effect rather than of words, and demands that readers of the new language be moved, amused or disturbed in much the same manner as the readers of the first.\n\nThere is, besides, a consolation that rarely gets its due. Translation is not only a loss; it is also an act of creation that has repeatedly enriched the language receiving it. English acquired countless idioms, and even entire literary forms such as the sonnet, through the labours of translators who wrestled with texts that were never meant for it. A culture that stops translating does not preserve its purity; it merely grows poorer, deprived of the ideas that others have to offer.\n\nThe author mentions the sonnet in order to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "prove that poetry cannot be translated without loss"
+      },
+      {
+        "id": "B",
+        "text": "illustrate the dangers of a free rendering"
+      },
+      {
+        "id": "C",
+        "text": "suggest that English culture has kept its purity by avoiding translation"
+      },
+      {
+        "id": "D",
+        "text": "show how translation can enrich the language that receives it"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "author-purpose",
+    "difficulty": "hard",
+    "explanation": "नियम: Purpose / function वाले प्रश्न में 'क्या कहा गया' नहीं बल्कि 'क्यों कहा गया' देखें — यानी paragraph या वाक्य का काम (चेतावनी, उदाहरण, विरोध, निष्कर्ष)। उस हिस्से के आसपास के वाक्य भूमिका स्पष्ट करते हैं।\n\nयहाँ: सही उत्तर (D)। Para 3: 'an act of creation that has repeatedly enriched the language receiving it. English acquired countless idioms, and even entire literary forms such as the sonnet' — sonnet उदाहरण है कि अनुवाद से अंग्रेज़ी को नए रूप मिले।\n\nअन्य विकल्प:\n(A) — Opposite focus: उस पंक्ति में अनुवाद की हानि नहीं, उसका लाभ बताया जा रहा है ('Translation is not only a loss')।\n(B) — Out of scope: Sonnet का उदाहरण मुक्त अनुवाद के ख़तरों से नहीं, अनुवाद से भाषा के समृद्ध होने से जुड़ा है।\n(C) — Opposite: लेखक कहता है कि अनुवाद रोकने वाली संस्कृति शुद्ध नहीं रहती, बल्कि ग़रीब होती है।",
+    "language": "en"
+  },
+  {
+    "id": "rc016",
+    "subjectId": "english",
+    "question": "It is easy to forget that time, in the sense of a single hour shared by everyone, is a recent invention. Until the nineteenth century, every town in Britain set its clocks by the sun, so that noon in Bristol arrived about ten minutes later than noon in London. The difference mattered little as long as travel was slow; a traveller on horseback could scarcely notice that he had crossed into a different hour. The railways changed everything. A timetable that listed arrivals and departures in dozens of local times was a recipe for confusion and, on single-track lines, for collision. In 1840 the Great Western Railway therefore adopted London time at all its stations, and within a few decades the entire country had followed.\n\nThe change did not arrive without protest. Many towns resented what they saw as an arbitrary imposition from the capital, and some clung to their local time for years, displaying clocks with two minute hands, one for local time and one for railway time. Critics complained that the railways were robbing communities of their natural rhythm, replacing the authority of the sun with the authority of a timetable. Their anxiety was not misplaced. Once everyone lived by the same clock, punctuality became a virtue, lateness a vice, and the working day something to be measured, bought and sold. The historian E. P. Thompson later argued that this new discipline of time was central to the making of the industrial workforce.\n\nYet the benefits were as real as the losses. Standard time made possible the coordination on which modern commerce, communication and eventually air travel depend. The United States, after a similar period of chaos in which railways used scores of different times, divided the continent into four zones in 1883. India, remarkably, adopted a single time for a country spanning almost thirty degrees of longitude, a decision that spares its citizens the confusion of zones but makes sunrise in the east noticeably earlier than the clock suggests. The history of standard time is thus a reminder that every convenience has a price, and that the price is usually paid by those least consulted when the bargain is struck.\n\nWhich of the following best summarises the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The railways alone were responsible for the discipline of industrial labour in Britain."
+      },
+      {
+        "id": "B",
+        "text": "Britain's towns successfully resisted London time, unlike those in the United States."
+      },
+      {
+        "id": "C",
+        "text": "Standard time, introduced to serve the railways, brought coordination and commercial gains but at the cost of local autonomy and older rhythms of life."
+      },
+      {
+        "id": "D",
+        "text": "A single national time, as in India, is preferable to the system of time zones used elsewhere."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "main-idea",
+    "difficulty": "hard",
+    "explanation": "नियम: Main idea / central idea वही विकल्प है जो पूरे passage का सार समेटे। गलत विकल्प प्रायः चार प्रकार के होते हैं: (i) Too narrow — केवल एक paragraph या एक detail की बात; (ii) Out of scope — passage में है ही नहीं; (iii) Extreme / distorted — always, never, only, sole, completely जैसे चरम शब्द या बात को तोड़-मरोड़कर पेश करना; (iv) Opposite — लेखक के मत के उलट।\n\nयहाँ: सही उत्तर (C)। Para 1: रेलवे के कारण मानक समय आया। Para 2: विरोध और समय के नए अनुशासन की कीमत। Para 3: लाभ (समन्वय), और अंतिम निष्कर्ष कि हर सुविधा की कीमत होती है। यही विकल्प तीनों भागों को जोड़ता है।\n\nअन्य विकल्प:\n(A) — Extreme: 'alone' गलत है। Thompson का तर्क केवल यह है कि समय का नया अनुशासन औद्योगिक श्रमिक-वर्ग के बनने में 'central' था, एकमात्र कारण नहीं।\n(B) — Contradicts: कुछ शहर वर्षों तक अड़े रहे, पर अंततः पूरे देश ने लंदन समय अपना लिया; अमेरिका से ऐसी तुलना नहीं की गई।\n(D) — Distorted: लेखक भारत के एकल समय के लाभ और हानि दोनों बताता है, किसी प्रणाली को श्रेष्ठ नहीं ठहराता।",
+    "language": "en"
+  },
+  {
+    "id": "rc017",
+    "subjectId": "english",
+    "question": "It is easy to forget that time, in the sense of a single hour shared by everyone, is a recent invention. Until the nineteenth century, every town in Britain set its clocks by the sun, so that noon in Bristol arrived about ten minutes later than noon in London. The difference mattered little as long as travel was slow; a traveller on horseback could scarcely notice that he had crossed into a different hour. The railways changed everything. A timetable that listed arrivals and departures in dozens of local times was a recipe for confusion and, on single-track lines, for collision. In 1840 the Great Western Railway therefore adopted London time at all its stations, and within a few decades the entire country had followed.\n\nThe change did not arrive without protest. Many towns resented what they saw as an arbitrary imposition from the capital, and some clung to their local time for years, displaying clocks with two minute hands, one for local time and one for railway time. Critics complained that the railways were robbing communities of their natural rhythm, replacing the authority of the sun with the authority of a timetable. Their anxiety was not misplaced. Once everyone lived by the same clock, punctuality became a virtue, lateness a vice, and the working day something to be measured, bought and sold. The historian E. P. Thompson later argued that this new discipline of time was central to the making of the industrial workforce.\n\nYet the benefits were as real as the losses. Standard time made possible the coordination on which modern commerce, communication and eventually air travel depend. The United States, after a similar period of chaos in which railways used scores of different times, divided the continent into four zones in 1883. India, remarkably, adopted a single time for a country spanning almost thirty degrees of longitude, a decision that spares its citizens the confusion of zones but makes sunrise in the east noticeably earlier than the clock suggests. The history of standard time is thus a reminder that every convenience has a price, and that the price is usually paid by those least consulted when the bargain is struck.\n\nSelect the word closest in meaning to 'arbitrary' as used in the passage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "capricious"
+      },
+      {
+        "id": "B",
+        "text": "systematic"
+      },
+      {
+        "id": "C",
+        "text": "unavoidable"
+      },
+      {
+        "id": "D",
+        "text": "temporary"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "vocabulary-in-context",
+    "difficulty": "medium",
+    "explanation": "नियम: Vocabulary-in-context में शब्द का शब्दकोश-अर्थ नहीं, passage के वाक्य में उसका अर्थ देखें। वाक्य के भाव (सकारात्मक / नकारात्मक) और 'but, yet, however' जैसे संकेतकों से सही अर्थ पकड़ें।\n\nयहाँ: सही उत्तर (A)। 'resented what they saw as an arbitrary imposition from the capital' — राजधानी से थोपा गया ऐसा निर्णय जो बिना ठोस कारण, मनमाना लगता था। Arbitrary = capricious (मनमाना, सनक पर आधारित)।\n\nअन्य विकल्प:\n(B) systematic — systematic = सुव्यवस्थित, नियमबद्ध। भाव उलटा है; 'arbitrary' का विलोम है।\n(C) unavoidable — unavoidable = अपरिहार्य, जिससे बचा न जा सके। नगरों को वह फ़ैसला अपरिहार्य नहीं, थोपा हुआ और मनमाना लगा।\n(D) temporary — temporary = अस्थायी। यहाँ फ़ैसले की अवधि नहीं, उसकी मनमानी प्रकृति की बात है।",
+    "language": "en"
+  },
+  {
+    "id": "rc018",
+    "subjectId": "english",
+    "question": "It is easy to forget that time, in the sense of a single hour shared by everyone, is a recent invention. Until the nineteenth century, every town in Britain set its clocks by the sun, so that noon in Bristol arrived about ten minutes later than noon in London. The difference mattered little as long as travel was slow; a traveller on horseback could scarcely notice that he had crossed into a different hour. The railways changed everything. A timetable that listed arrivals and departures in dozens of local times was a recipe for confusion and, on single-track lines, for collision. In 1840 the Great Western Railway therefore adopted London time at all its stations, and within a few decades the entire country had followed.\n\nThe change did not arrive without protest. Many towns resented what they saw as an arbitrary imposition from the capital, and some clung to their local time for years, displaying clocks with two minute hands, one for local time and one for railway time. Critics complained that the railways were robbing communities of their natural rhythm, replacing the authority of the sun with the authority of a timetable. Their anxiety was not misplaced. Once everyone lived by the same clock, punctuality became a virtue, lateness a vice, and the working day something to be measured, bought and sold. The historian E. P. Thompson later argued that this new discipline of time was central to the making of the industrial workforce.\n\nYet the benefits were as real as the losses. Standard time made possible the coordination on which modern commerce, communication and eventually air travel depend. The United States, after a similar period of chaos in which railways used scores of different times, divided the continent into four zones in 1883. India, remarkably, adopted a single time for a country spanning almost thirty degrees of longitude, a decision that spares its citizens the confusion of zones but makes sunrise in the east noticeably earlier than the clock suggests. The history of standard time is thus a reminder that every convenience has a price, and that the price is usually paid by those least consulted when the bargain is struck.\n\nWhich of the following is NOT mentioned in the passage as a consequence of standard time?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Punctuality came to be treated as a virtue and lateness as a vice."
+      },
+      {
+        "id": "B",
+        "text": "Working time became something that could be measured, bought and sold."
+      },
+      {
+        "id": "C",
+        "text": "Commerce, communication and air travel could be coordinated across distances."
+      },
+      {
+        "id": "D",
+        "text": "A marked fall in railway collisions on single-track lines."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "detail-except",
+    "difficulty": "hard",
+    "explanation": "नियम: 'NOT / EXCEPT' प्रश्न में तीन विकल्प passage में मिलते हैं और एक नहीं मिलता। हर विकल्प को passage की पंक्तियों से मिलाएँ; जो न मिले (या passage के उलट हो) वही उत्तर है।\n\nयहाँ: सही उत्तर (D)। Para 1 केवल इतना कहता है कि अलग-अलग स्थानीय समयों वाली timetable single-track लाइनों पर टक्कर का जोखिम पैदा करती थी। लेकिन मानक समय के बाद टक्करों में 'कमी आई', ऐसा कोई दावा passage नहीं करता; इसलिए यही विकल्प EXCEPT का उत्तर है।\n\nअन्य विकल्प:\n(A) — Para 2 में स्पष्ट उल्लेख: 'punctuality became a virtue, lateness a vice'।\n(B) — Para 2 में स्पष्ट उल्लेख: 'the working day something to be measured, bought and sold'।\n(C) — Para 3 में उल्लेख: standard time से 'commerce, communication and eventually air travel' का समन्वय संभव हुआ।",
+    "language": "en"
+  },
+  {
+    "id": "rc019",
+    "subjectId": "english",
+    "question": "It is easy to forget that time, in the sense of a single hour shared by everyone, is a recent invention. Until the nineteenth century, every town in Britain set its clocks by the sun, so that noon in Bristol arrived about ten minutes later than noon in London. The difference mattered little as long as travel was slow; a traveller on horseback could scarcely notice that he had crossed into a different hour. The railways changed everything. A timetable that listed arrivals and departures in dozens of local times was a recipe for confusion and, on single-track lines, for collision. In 1840 the Great Western Railway therefore adopted London time at all its stations, and within a few decades the entire country had followed.\n\nThe change did not arrive without protest. Many towns resented what they saw as an arbitrary imposition from the capital, and some clung to their local time for years, displaying clocks with two minute hands, one for local time and one for railway time. Critics complained that the railways were robbing communities of their natural rhythm, replacing the authority of the sun with the authority of a timetable. Their anxiety was not misplaced. Once everyone lived by the same clock, punctuality became a virtue, lateness a vice, and the working day something to be measured, bought and sold. The historian E. P. Thompson later argued that this new discipline of time was central to the making of the industrial workforce.\n\nYet the benefits were as real as the losses. Standard time made possible the coordination on which modern commerce, communication and eventually air travel depend. The United States, after a similar period of chaos in which railways used scores of different times, divided the continent into four zones in 1883. India, remarkably, adopted a single time for a country spanning almost thirty degrees of longitude, a decision that spares its citizens the confusion of zones but makes sunrise in the east noticeably earlier than the clock suggests. The history of standard time is thus a reminder that every convenience has a price, and that the price is usually paid by those least consulted when the bargain is struck.\n\nWhich of the following can be inferred about India's single time zone from the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It was adopted after protests similar to those seen in Britain."
+      },
+      {
+        "id": "B",
+        "text": "It spares citizens the confusion of zones but fits daylight poorly in the country's eastern parts."
+      },
+      {
+        "id": "C",
+        "text": "It has been criticised by historians such as E. P. Thompson."
+      },
+      {
+        "id": "D",
+        "text": "It causes more confusion than the four zones of the United States."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "inference",
+    "difficulty": "hard",
+    "explanation": "नियम: Inference वह निष्कर्ष है जो passage के तथ्यों से तर्कसंगत रूप से निकलता है, पर शब्दशः लिखा नहीं होता। सही विकल्प passage की बात का सीधा विस्तार होता है; गलत विकल्प या तो नई बात जोड़ते हैं या always / never / necessarily / main / only जैसे चरम शब्द लगाते हैं।\n\nयहाँ: सही उत्तर (B)। Para 3: भारत का एकल समय 'spares its citizens the confusion of zones' (लाभ), पर 'makes sunrise in the east noticeably earlier than the clock suggests' (घड़ी और दिन के उजाले में बेमेल)। इसलिए सही निष्कर्ष यही है।\n\nअन्य विकल्प:\n(A) — Not stated: ऐसे विरोध का उल्लेख केवल Britain के संदर्भ में है, भारत के लिए नहीं।\n(C) — Not stated: Thompson का तर्क समय-अनुशासन और औद्योगिक श्रमिकों से जुड़ा है, भारत के समय-क्षेत्र से नहीं।\n(D) — Opposite: passage के अनुसार एकल समय ज़ोन-संबंधी भ्रम को ख़त्म करता है, बढ़ाता नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "rc020",
+    "subjectId": "english",
+    "question": "It is easy to forget that time, in the sense of a single hour shared by everyone, is a recent invention. Until the nineteenth century, every town in Britain set its clocks by the sun, so that noon in Bristol arrived about ten minutes later than noon in London. The difference mattered little as long as travel was slow; a traveller on horseback could scarcely notice that he had crossed into a different hour. The railways changed everything. A timetable that listed arrivals and departures in dozens of local times was a recipe for confusion and, on single-track lines, for collision. In 1840 the Great Western Railway therefore adopted London time at all its stations, and within a few decades the entire country had followed.\n\nThe change did not arrive without protest. Many towns resented what they saw as an arbitrary imposition from the capital, and some clung to their local time for years, displaying clocks with two minute hands, one for local time and one for railway time. Critics complained that the railways were robbing communities of their natural rhythm, replacing the authority of the sun with the authority of a timetable. Their anxiety was not misplaced. Once everyone lived by the same clock, punctuality became a virtue, lateness a vice, and the working day something to be measured, bought and sold. The historian E. P. Thompson later argued that this new discipline of time was central to the making of the industrial workforce.\n\nYet the benefits were as real as the losses. Standard time made possible the coordination on which modern commerce, communication and eventually air travel depend. The United States, after a similar period of chaos in which railways used scores of different times, divided the continent into four zones in 1883. India, remarkably, adopted a single time for a country spanning almost thirty degrees of longitude, a decision that spares its citizens the confusion of zones but makes sunrise in the east noticeably earlier than the clock suggests. The history of standard time is thus a reminder that every convenience has a price, and that the price is usually paid by those least consulted when the bargain is struck.\n\nThe concluding sentence of the passage suggests that the author is:",
+    "options": [
+      {
+        "id": "A",
+        "text": "unreservedly enthusiastic about technological change"
+      },
+      {
+        "id": "B",
+        "text": "nostalgic for the pre-industrial world and hostile to all standardisation"
+      },
+      {
+        "id": "C",
+        "text": "ambivalent about progress, acknowledging its gains while noting that its costs fall unevenly"
+      },
+      {
+        "id": "D",
+        "text": "critical of the railway companies for imposing London time"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tone-and-attitude",
+    "difficulty": "hard",
+    "explanation": "नियम: Tone / attitude वाले प्रश्न में लेखक के शब्द-चयन और 'but / yet' जैसे मोड़ देखें। Extreme tone (wholly dismissive, unreservedly enthusiastic) प्रायः गलत होते हैं, क्योंकि लेखक आम तौर पर संतुलित रुख रखता है।\n\nयहाँ: सही उत्तर (C)। 'every convenience has a price, and the price is usually paid by those least consulted' — लेखक प्रगति के लाभ मानता है ('benefits were as real as the losses') पर यह भी कहता है कि कीमत असमान रूप से कमज़ोरों पर पड़ती है। यही द्वंद्वात्मक (ambivalent) रुख है।\n\nअन्य विकल्प:\n(A) — Extreme: लेखक लाभ के साथ हानि भी गिनाता है; 'unreservedly' शब्द गलत है।\n(B) — Extreme: लेखक मानक समय के लाभों को 'real' मानता है; सारी मानकीकरण-व्यवस्था का विरोधी नहीं है।\n(D) — Out of scope: अंतिम वाक्य किसी कंपनी की आलोचना नहीं, बल्कि 'हर सुविधा की कीमत' की सामान्य टिप्पणी है।",
+    "language": "en"
+  },
+  {
+    "id": "rc021",
+    "subjectId": "english",
+    "question": "We tend to regard a single, unbroken stretch of eight hours as the natural pattern of human sleep, and to treat any deviation from it as a disorder. History suggests otherwise. In a widely discussed study of pre-industrial Europe, the historian Roger Ekirch found hundreds of references, in diaries, court records and medical texts, to a practice of 'first sleep' and 'second sleep'. People went to bed soon after dusk, woke after a few hours, spent an hour or so awake, praying, chatting, tending the fire or visiting neighbours, and then slept again until morning. The interval was so ordinary that writers mentioned it without explanation, the way one would mention breakfast.\n\nEkirch argues that this pattern faded as artificial lighting spread, first in the streets of eighteenth-century cities and later in homes. Evenings grew longer and more productive, bedtimes moved later, and the two halves of the night fused into one. Laboratory work lends some support to the idea: when volunteers were kept in darkness for fourteen hours a day over several weeks, their sleep reportedly divided into two phases, separated by a spell of quiet wakefulness. Not every scholar is convinced, however. Sceptics note that the historical evidence, though plentiful, comes mainly from literate, urban or well-to-do sources, and that passing allusions to waking at night need not prove a universal custom. Studies of present-day communities without electricity, moreover, have often found people sleeping in a single consolidated block.\n\nThe debate, in the end, is less about the nights of our ancestors than about the anxieties of our own. Millions of people who wake in the small hours and cannot fall asleep again are told that something is wrong with them, and the fear of sleeplessness itself deepens the problem. If waking at night is a normal variant, as Ekirch's work implies, then the first step towards a remedy may be reassurance rather than medication. But the cautious reader should resist the temptation to treat an interesting hypothesis as a settled fact: the past is a poor guide to what the body requires, and what was customary is not thereby healthy.\n\nWhich of the following best captures the central idea of the passage?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Modern sleepers should return to a two-phase pattern of sleep in order to cure insomnia."
+      },
+      {
+        "id": "B",
+        "text": "Historical evidence questions the belief that unbroken sleep is natural, but that evidence is contested and should be treated with caution."
+      },
+      {
+        "id": "C",
+        "text": "Artificial lighting is the sole cause of present-day sleep disorders."
+      },
+      {
+        "id": "D",
+        "text": "People in pre-industrial Europe slept better than people do today."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "main-idea",
+    "difficulty": "hard",
+    "explanation": "नियम: Main idea / central idea वही विकल्प है जो पूरे passage का सार समेटे। गलत विकल्प प्रायः चार प्रकार के होते हैं: (i) Too narrow — केवल एक paragraph या एक detail की बात; (ii) Out of scope — passage में है ही नहीं; (iii) Extreme / distorted — always, never, only, sole, completely जैसे चरम शब्द या बात को तोड़-मरोड़कर पेश करना; (iv) Opposite — लेखक के मत के उलट।\n\nयहाँ: सही उत्तर (B)। Para 1: Ekirch का साक्ष्य कि पहले नींद दो हिस्सों में होती थी। Para 2: समर्थन और संदेहवादियों की आपत्तियाँ। Para 3: सावधानी की सलाह — परिकल्पना को तथ्य न मानें। इसलिए सार है: अखंड नींद 'प्राकृतिक' है, इस धारणा पर प्रश्न है, पर साक्ष्य विवादित है।\n\nअन्य विकल्प:\n(A) — Extreme / opposite: लेखक अंत में कहता है कि अतीत की प्रथा से स्वास्थ्य के निष्कर्ष नहीं निकालने चाहिए; वह दो-चरण नींद अपनाने की सलाह नहीं देता।\n(C) — Extreme: 'sole cause' गलत है। प्रकाश का संबंध केवल Ekirch के अनुसार नींद के पैटर्न के बदलने से है, आधुनिक नींद-विकारों के एकमात्र कारण से नहीं।\n(D) — Not stated: 'बेहतर नींद' की कोई तुलना passage में नहीं है; बात नींद के पैटर्न की है, गुणवत्ता की नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "rc022",
+    "subjectId": "english",
+    "question": "We tend to regard a single, unbroken stretch of eight hours as the natural pattern of human sleep, and to treat any deviation from it as a disorder. History suggests otherwise. In a widely discussed study of pre-industrial Europe, the historian Roger Ekirch found hundreds of references, in diaries, court records and medical texts, to a practice of 'first sleep' and 'second sleep'. People went to bed soon after dusk, woke after a few hours, spent an hour or so awake, praying, chatting, tending the fire or visiting neighbours, and then slept again until morning. The interval was so ordinary that writers mentioned it without explanation, the way one would mention breakfast.\n\nEkirch argues that this pattern faded as artificial lighting spread, first in the streets of eighteenth-century cities and later in homes. Evenings grew longer and more productive, bedtimes moved later, and the two halves of the night fused into one. Laboratory work lends some support to the idea: when volunteers were kept in darkness for fourteen hours a day over several weeks, their sleep reportedly divided into two phases, separated by a spell of quiet wakefulness. Not every scholar is convinced, however. Sceptics note that the historical evidence, though plentiful, comes mainly from literate, urban or well-to-do sources, and that passing allusions to waking at night need not prove a universal custom. Studies of present-day communities without electricity, moreover, have often found people sleeping in a single consolidated block.\n\nThe debate, in the end, is less about the nights of our ancestors than about the anxieties of our own. Millions of people who wake in the small hours and cannot fall asleep again are told that something is wrong with them, and the fear of sleeplessness itself deepens the problem. If waking at night is a normal variant, as Ekirch's work implies, then the first step towards a remedy may be reassurance rather than medication. But the cautious reader should resist the temptation to treat an interesting hypothesis as a settled fact: the past is a poor guide to what the body requires, and what was customary is not thereby healthy.\n\nSelect the word or phrase closest in meaning to 'allusions' as used in the passage.",
+    "options": [
+      {
+        "id": "A",
+        "text": "detailed accounts"
+      },
+      {
+        "id": "B",
+        "text": "formal denials"
+      },
+      {
+        "id": "C",
+        "text": "scientific proofs"
+      },
+      {
+        "id": "D",
+        "text": "passing references"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "vocabulary-in-context",
+    "difficulty": "medium",
+    "explanation": "नियम: Vocabulary-in-context में शब्द का शब्दकोश-अर्थ नहीं, passage के वाक्य में उसका अर्थ देखें। वाक्य के भाव (सकारात्मक / नकारात्मक) और 'but, yet, however' जैसे संकेतकों से सही अर्थ पकड़ें।\n\nयहाँ: सही उत्तर (D)। 'passing allusions to waking at night need not prove a universal custom' — रात में जागने के बारे में यूँ ही, संकेत-भरे उल्लेख हर जगह की प्रथा सिद्ध नहीं करते। Allusion = passing (indirect) reference (संकेतात्मक उल्लेख)।\n\nअन्य विकल्प:\n(A) detailed accounts — detailed accounts = विस्तृत विवरण। Allusion इसका उलटा, संक्षिप्त / अप्रत्यक्ष उल्लेख होता है।\n(B) formal denials — formal denials = औपचारिक इनकार। रात में जागने की बात का इनकार यहाँ संदर्भ में नहीं है।\n(C) scientific proofs — scientific proofs = वैज्ञानिक प्रमाण। वाक्य कहता है कि ऐसे उल्लेख सार्वभौमिक प्रथा सिद्ध नहीं करते, यानी वे प्रमाण नहीं हैं।",
+    "language": "en"
+  },
+  {
+    "id": "rc023",
+    "subjectId": "english",
+    "question": "We tend to regard a single, unbroken stretch of eight hours as the natural pattern of human sleep, and to treat any deviation from it as a disorder. History suggests otherwise. In a widely discussed study of pre-industrial Europe, the historian Roger Ekirch found hundreds of references, in diaries, court records and medical texts, to a practice of 'first sleep' and 'second sleep'. People went to bed soon after dusk, woke after a few hours, spent an hour or so awake, praying, chatting, tending the fire or visiting neighbours, and then slept again until morning. The interval was so ordinary that writers mentioned it without explanation, the way one would mention breakfast.\n\nEkirch argues that this pattern faded as artificial lighting spread, first in the streets of eighteenth-century cities and later in homes. Evenings grew longer and more productive, bedtimes moved later, and the two halves of the night fused into one. Laboratory work lends some support to the idea: when volunteers were kept in darkness for fourteen hours a day over several weeks, their sleep reportedly divided into two phases, separated by a spell of quiet wakefulness. Not every scholar is convinced, however. Sceptics note that the historical evidence, though plentiful, comes mainly from literate, urban or well-to-do sources, and that passing allusions to waking at night need not prove a universal custom. Studies of present-day communities without electricity, moreover, have often found people sleeping in a single consolidated block.\n\nThe debate, in the end, is less about the nights of our ancestors than about the anxieties of our own. Millions of people who wake in the small hours and cannot fall asleep again are told that something is wrong with them, and the fear of sleeplessness itself deepens the problem. If waking at night is a normal variant, as Ekirch's work implies, then the first step towards a remedy may be reassurance rather than medication. But the cautious reader should resist the temptation to treat an interesting hypothesis as a settled fact: the past is a poor guide to what the body requires, and what was customary is not thereby healthy.\n\nAccording to the passage, why do some scholars doubt Ekirch's thesis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "His sources represent only a part of society, and scattered references need not prove a universal practice."
+      },
+      {
+        "id": "B",
+        "text": "His conclusions rest entirely on laboratory experiments with volunteers."
+      },
+      {
+        "id": "C",
+        "text": "Most diaries and court records of the period have been lost."
+      },
+      {
+        "id": "D",
+        "text": "Artificial lighting spread too late to have changed sleeping habits."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "detail",
+    "difficulty": "medium",
+    "explanation": "नियम: Detail / reason वाले प्रश्न में उत्तर passage में लिखे कारण या तथ्य पर टिका होता है। 'mainly because' में लेखक का बताया मुख्य कारण चुनें, अपनी बाहरी जानकारी नहीं। हर विकल्प की बात को passage से मिलाएँ।\n\nयहाँ: सही उत्तर (A)। Para 2: 'Sceptics note that the historical evidence, though plentiful, comes mainly from literate, urban or well-to-do sources, and that passing allusions ... need not prove a universal custom' — यही आपत्ति इस विकल्प में है।\n\nअन्य विकल्प:\n(B) — Distorted: Ekirch का आधार डायरियाँ, अदालती रिकॉर्ड और चिकित्सा-ग्रंथ हैं; प्रयोगशाला का काम केवल 'कुछ समर्थन' देता है।\n(C) — Contradicts: संदेहवादी साक्ष्य को 'plentiful' मानते हैं; उनकी आपत्ति उसके स्वरूप (केवल साक्षर, शहरी, संपन्न स्रोत) पर है।\n(D) — Not stated: संदेहवादियों की आपत्ति में प्रकाश के फैलाव की तिथि का उल्लेख नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "rc024",
+    "subjectId": "english",
+    "question": "We tend to regard a single, unbroken stretch of eight hours as the natural pattern of human sleep, and to treat any deviation from it as a disorder. History suggests otherwise. In a widely discussed study of pre-industrial Europe, the historian Roger Ekirch found hundreds of references, in diaries, court records and medical texts, to a practice of 'first sleep' and 'second sleep'. People went to bed soon after dusk, woke after a few hours, spent an hour or so awake, praying, chatting, tending the fire or visiting neighbours, and then slept again until morning. The interval was so ordinary that writers mentioned it without explanation, the way one would mention breakfast.\n\nEkirch argues that this pattern faded as artificial lighting spread, first in the streets of eighteenth-century cities and later in homes. Evenings grew longer and more productive, bedtimes moved later, and the two halves of the night fused into one. Laboratory work lends some support to the idea: when volunteers were kept in darkness for fourteen hours a day over several weeks, their sleep reportedly divided into two phases, separated by a spell of quiet wakefulness. Not every scholar is convinced, however. Sceptics note that the historical evidence, though plentiful, comes mainly from literate, urban or well-to-do sources, and that passing allusions to waking at night need not prove a universal custom. Studies of present-day communities without electricity, moreover, have often found people sleeping in a single consolidated block.\n\nThe debate, in the end, is less about the nights of our ancestors than about the anxieties of our own. Millions of people who wake in the small hours and cannot fall asleep again are told that something is wrong with them, and the fear of sleeplessness itself deepens the problem. If waking at night is a normal variant, as Ekirch's work implies, then the first step towards a remedy may be reassurance rather than medication. But the cautious reader should resist the temptation to treat an interesting hypothesis as a settled fact: the past is a poor guide to what the body requires, and what was customary is not thereby healthy.\n\nWhich of the following, if true, would most strengthen Ekirch's thesis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Most surviving diaries from the period were written by members of the clergy."
+      },
+      {
+        "id": "B",
+        "text": "Present-day shift workers frequently report broken sleep."
+      },
+      {
+        "id": "C",
+        "text": "Records from several pre-industrial societies outside Europe also describe a waking interval between two sleeps."
+      },
+      {
+        "id": "D",
+        "text": "Most communities without electricity today sleep in one unbroken block each night."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "strengthen-weaken",
+    "difficulty": "hard",
+    "explanation": "नियम: Strengthen वाले प्रश्न में वह विकल्प चुनें जो लेखक / शोधकर्ता के तर्क को नया समर्थन दे। जो प्रमाण को सीमित या विपरीत दिखाए वह तर्क को कमज़ोर करता है, और जो विषय से असंबंधित हो वह असर ही नहीं डालता।\n\nयहाँ: सही उत्तर (C)। Ekirch का दावा है कि दो चरणों वाली नींद एक व्यापक, सामान्य प्रथा थी। यूरोप के बाहर के कई पूर्व-औद्योगिक समाजों से वैसा ही प्रमाण मिलना उसे यूरोप तक सीमित अपवाद से सार्वभौमिक पैटर्न बना देता है, इसलिए यही उसे सबसे अधिक मज़बूत करता है।\n\nअन्य विकल्प:\n(A) — यह साक्ष्य को एक वर्ग तक सीमित दिखाता है, इसलिए संदेहवादियों का पक्ष मज़बूत करता है; Ekirch का नहीं।\n(B) — अप्रासंगिक: शिफ़्ट में काम करने वालों की नींद टूटने का कारण काम का समय है, इससे पूर्व-औद्योगिक युग की प्रथा का कोई समर्थन नहीं होता।\n(D) — यह संदेहवादियों वाली बात को और बल देता है (बिजली-रहित समुदायों में भी एकल नींद), इसलिए Ekirch का दावा कमज़ोर होता है।",
+    "language": "en"
+  },
+  {
+    "id": "rc025",
+    "subjectId": "english",
+    "question": "We tend to regard a single, unbroken stretch of eight hours as the natural pattern of human sleep, and to treat any deviation from it as a disorder. History suggests otherwise. In a widely discussed study of pre-industrial Europe, the historian Roger Ekirch found hundreds of references, in diaries, court records and medical texts, to a practice of 'first sleep' and 'second sleep'. People went to bed soon after dusk, woke after a few hours, spent an hour or so awake, praying, chatting, tending the fire or visiting neighbours, and then slept again until morning. The interval was so ordinary that writers mentioned it without explanation, the way one would mention breakfast.\n\nEkirch argues that this pattern faded as artificial lighting spread, first in the streets of eighteenth-century cities and later in homes. Evenings grew longer and more productive, bedtimes moved later, and the two halves of the night fused into one. Laboratory work lends some support to the idea: when volunteers were kept in darkness for fourteen hours a day over several weeks, their sleep reportedly divided into two phases, separated by a spell of quiet wakefulness. Not every scholar is convinced, however. Sceptics note that the historical evidence, though plentiful, comes mainly from literate, urban or well-to-do sources, and that passing allusions to waking at night need not prove a universal custom. Studies of present-day communities without electricity, moreover, have often found people sleeping in a single consolidated block.\n\nThe debate, in the end, is less about the nights of our ancestors than about the anxieties of our own. Millions of people who wake in the small hours and cannot fall asleep again are told that something is wrong with them, and the fear of sleeplessness itself deepens the problem. If waking at night is a normal variant, as Ekirch's work implies, then the first step towards a remedy may be reassurance rather than medication. But the cautious reader should resist the temptation to treat an interesting hypothesis as a settled fact: the past is a poor guide to what the body requires, and what was customary is not thereby healthy.\n\nThe author's remark that 'what was customary is not thereby healthy' serves to:",
+    "options": [
+      {
+        "id": "A",
+        "text": "dismiss Ekirch's research as entirely mistaken"
+      },
+      {
+        "id": "B",
+        "text": "recommend that people with insomnia adopt older customs"
+      },
+      {
+        "id": "C",
+        "text": "suggest that modern sleep patterns are unhealthy"
+      },
+      {
+        "id": "D",
+        "text": "warn against drawing medical conclusions from historical custom alone"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "author-purpose",
+    "difficulty": "hard",
+    "explanation": "नियम: Purpose / function वाले प्रश्न में 'क्या कहा गया' नहीं बल्कि 'क्यों कहा गया' देखें — यानी paragraph या वाक्य का काम (चेतावनी, उदाहरण, विरोध, निष्कर्ष)। उस हिस्से के आसपास के वाक्य भूमिका स्पष्ट करते हैं।\n\nयहाँ: सही उत्तर (D)। अंतिम वाक्य: 'the past is a poor guide to what the body requires, and what was customary is not thereby healthy' — लेखक चेताता है कि कोई प्रथा पुरानी होने भर से स्वास्थ्यकर साबित नहीं होती, इसलिए इतिहास से सीधे चिकित्सीय निष्कर्ष नहीं निकालने चाहिए।\n\nअन्य विकल्प:\n(A) — Extreme: लेखक Ekirch के शोध को 'interesting hypothesis' मानता है; पूरी तरह ग़लत नहीं कहता।\n(B) — Opposite: पंक्ति का भाव यही है कि पुरानी प्रथा को स्वास्थ्य के लिए सही मान लेना ग़लत होगा।\n(C) — Not stated: लेखक आधुनिक नींद को अस्वस्थ नहीं ठहराता; वह केवल अतीत से स्वास्थ्य का निष्कर्ष निकालने पर सावधान करता है।",
+    "language": "en"
+  }
+]
