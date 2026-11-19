@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "grammar1001",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe report ____ unread on his desk for nearly a week before the auditor noticed it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "lied"
+      },
+      {
+        "id": "B",
+        "text": "laid"
+      },
+      {
+        "id": "C",
+        "text": "lay"
+      },
+      {
+        "id": "D",
+        "text": "lain"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "verbs",
+    "difficulty": "hard",
+    "explanation": "नियम: तीन अलग क्रियाएँ: lie (लेटना / पड़ा रहना, अकर्मक) – lay – lain – lying; lay (रखना, सकर्मक, object चाहिए) – laid – laid – laying; lie (झूठ बोलना) – lied – lied — The file lay on the table (खुद पड़ी थी); She laid the file on the table (उसने रखी)। 'lay' अकर्मक lie का Past है, इसलिए अकर्मक अर्थ में past के लिए 'lay' आता है, 'laid' नहीं।\n\nयहाँ: रिपोर्ट खुद पड़ी रही (उसका कोई object नहीं है), इसलिए अकर्मक lie का Simple Past 'lay' आएगा। 'laid' (lay का past) तब आता जब कोई उसे रखता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1002",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe scholarship will be / awarded to whomever / secures the highest marks.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The scholarship will be"
+      },
+      {
+        "id": "B",
+        "text": "awarded to whomever"
+      },
+      {
+        "id": "C",
+        "text": "secures the highest marks."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "pronouns",
+    "difficulty": "hard",
+    "explanation": "नियम: whoever / whomever का चुनाव उस शब्द की अपने clause में भूमिका से होता है, उससे पहले आए preposition से नहीं: जो clause में कर्ता है वहाँ whoever (nominative), जो कर्म है वहाँ whomever — The scholarship will be awarded to whoever secures the highest marks ('secures' का कर्ता whoever है; पूरा clause 'to' का कर्म है); Give it to whomever you like।\n\nयहाँ: 'to' का कर्म पूरा clause 'whoever secures the highest marks' है। उस clause में 'secures' का कर्ता चाहिए, इसलिए nominative 'whoever' आएगा — 'awarded to whoever secures'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1003",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe syllabus of this year's examination / is far more extensive / than last year, though the duration is the same.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The syllabus of this year's examination"
+      },
+      {
+        "id": "B",
+        "text": "is far more extensive"
+      },
+      {
+        "id": "C",
+        "text": "than last year, though the duration is the same."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adjectives",
+    "difficulty": "hard",
+    "explanation": "नियम: तुलना हमेशा समान श्रेणी की वस्तुओं की होती है। जिस वस्तु की तुलना हो रही है उसके बाद दूसरी वस्तु भी वही होनी चाहिए, इसलिए 'than' के बाद दोहराए गए noun की जगह that of (एकवचन) / those of (बहुवचन) या possessive (last year's) आता है — The syllabus of this year is more extensive than that of last year; 'syllabus' की तुलना 'year' से करना तर्कदोष है।\n\nयहाँ: यहाँ syllabus की तुलना 'last year' (एक समय) से हो रही है, जो तर्कदोष है। सही रूप 'than that of last year' (या 'than last year's') होगा।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1004",
+    "subjectId": "english",
+    "question": "Fill in the blanks.\n\nThe portrait ____ in the hall for decades, while the convict was ____ at dawn.",
+    "options": [
+      {
+        "id": "A",
+        "text": "hung; hung"
+      },
+      {
+        "id": "B",
+        "text": "hanged; hung"
+      },
+      {
+        "id": "C",
+        "text": "hung; hanged"
+      },
+      {
+        "id": "D",
+        "text": "hanged; hanged"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "verbs",
+    "difficulty": "hard",
+    "explanation": "नियम: hang – hung – hung (वस्तु का टँगना / टाँगना) और hang – hanged – hanged (फाँसी देना) — The portrait hung on the wall; The convict was hanged at dawn।\n\nयहाँ: तस्वीर टँगी रही — वस्तु के अर्थ में 'hung'; दोषी को फाँसी दी गई — मृत्युदंड के अर्थ में 'hanged'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1005",
+    "subjectId": "english",
+    "question": "Fill in the blanks.\n\nIf only the engineers ____ the warning signs last year, the bridge ____ today.",
+    "options": [
+      {
+        "id": "A",
+        "text": "heeded; would still be standing"
+      },
+      {
+        "id": "B",
+        "text": "had heeded; would still have been standing"
+      },
+      {
+        "id": "C",
+        "text": "would have heeded; had still been standing"
+      },
+      {
+        "id": "D",
+        "text": "had heeded; would still be standing"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conditionals",
+    "difficulty": "hard",
+    "explanation": "नियम: Mixed conditional: if-clause में अतीत की अवास्तविक शर्त (had + V3, या If only + had + V3) और main clause में उसका वर्तमान पर असर (would + V1 / would be + V-ing), जिसके साथ now / today / still / even now जैसे वर्तमान-सूचक शब्द होते हैं — If she had accepted the offer last year, she would be living in London now। ऐसे में main clause में 'would have + V3' नहीं आता, क्योंकि परिणाम अतीत का नहीं, वर्तमान का है।\n\nयहाँ: 'If only + had + V3' अतीत की चूक बताता है (यहाँ 'last year' से स्पष्ट है), और 'today' से परिणाम वर्तमान का है, इसलिए main clause में 'would still be standing' आएगा। 'would still have been standing today' में अतीत और वर्तमान का मेल गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1006",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nTwo-thirds of the district was inundated, / and one-third of its residents / was rendered homeless.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Two-thirds of the district was inundated,"
+      },
+      {
+        "id": "B",
+        "text": "and one-third of its residents"
+      },
+      {
+        "id": "C",
+        "text": "was rendered homeless."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "नियम: भिन्न / प्रतिशत / part / rest / most / some / all / half + of + noun में verb 'of' के बाद की संज्ञा के अनुसार लगता है — Half of the cake is eaten; Half of the apples are rotten; Two-fifths of the students are absent; 40 per cent of the land is barren; 40 per cent of the voters are women।\n\nयहाँ: 'Two-thirds of the district' में district एकवचन है, इसलिए 'was' सही है; पर 'one-third of its residents' में residents गणनीय बहुवचन हैं, इसलिए 'were rendered homeless' होगा।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1007",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nNot until the dam collapsed [the villagers realised] the danger of living near the river.",
+    "options": [
+      {
+        "id": "A",
+        "text": "had the villagers realised"
+      },
+      {
+        "id": "B",
+        "text": "did the villagers realised"
+      },
+      {
+        "id": "C",
+        "text": "did the villagers realise"
+      },
+      {
+        "id": "D",
+        "text": "the villagers did realise"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "inversion",
+    "difficulty": "hard",
+    "explanation": "नियम: Not until / Only after / Only when / Never / Seldom / Little से वाक्य शुरू होने पर main clause में auxiliary + subject का inversion होता है; Simple Past के लिए did + subject + V1 — Not until the dam collapsed did the villagers realise the danger; 'the villagers did realise', 'did the villagers realised' ✗।\n\nयहाँ: 'Not until' से वाक्य शुरू होने पर main clause में inversion होता है। 'collapsed' Simple Past है, इसलिए 'did + subject + V1' आएगा — 'did the villagers realise'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1008",
+    "subjectId": "english",
+    "question": "How many of the following sentences are grammatically correct?\n\n(i) A number of the candidates has been disqualified.\n(ii) Neither the principal nor the teachers were informed about the change.\n(iii) The number of unemployed graduates is increasing every year.\n(iv) Each of the girls and boys have received a certificate.",
+    "options": [
+      {
+        "id": "A",
+        "text": "One"
+      },
+      {
+        "id": "B",
+        "text": "Two"
+      },
+      {
+        "id": "C",
+        "text": "Three"
+      },
+      {
+        "id": "D",
+        "text": "All four"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "नियम: (i) 'A number of + बहुवचन noun' = कई; verb बहुवचन (A number of books are missing); 'The number of + बहुवचन noun' = संख्या; verb एकवचन (The number of books is large); 'a large number of' और 'a majority of + बहुवचन noun' भी बहुवचन verb लेते हैं।\n(ii) Either ... or / Neither ... nor / Not only ... but also / or / nor से जुड़े subjects में verb सबसे निकट वाले (बाद वाले) subject के अनुसार लगता है — Neither the manager nor the clerks were present; Either he or I am wrong; Not only the boys but also the girl was punished। पर 'Both ... and' में verb हमेशा बहुवचन।\n(iii) Each, every, either, neither, everyone, everybody, someone, anybody, nobody, nothing + एकवचन verb; 'each of / either of / neither of + बहुवचन noun' के बाद भी verb एकवचन — Each of the boys has a pen; Neither of the two girls is guilty; Everybody was present।\n\nयहाँ: (i) गलत — 'A number of + बहुवचन' का verb बहुवचन ('have been'). (ii) सही — 'neither ... nor' में verb निकटतम noun 'teachers' के अनुसार बहुवचन। (iii) सही — 'The number of' एकवचन। (iv) गलत — 'Each of' का verb एकवचन ('has received')। इसलिए दो वाक्य सही हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1009",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe boy ran as fast as he could / lest he should not / miss the last train.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The boy ran as fast as he could"
+      },
+      {
+        "id": "B",
+        "text": "lest he should not"
+      },
+      {
+        "id": "C",
+        "text": "miss the last train."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: Lest का अर्थ ही 'ऐसा न हो कि' (so that ... not) है, यानी उसमें निषेध पहले से है, इसलिए उसके साथ not नहीं लगता और verb 'should + V1' होता है — He ran fast lest he should miss the train; 'lest he should not miss' ✗, 'lest he did not' ✗।\n\nयहाँ: 'Lest' में पहले से निषेध का अर्थ है, इसलिए उसके साथ 'not' लगाना दोहरा निषेध है — 'lest he should miss the last train'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1010",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nNothing has changed in the village since last year, ____ ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "hadn't it"
+      },
+      {
+        "id": "B",
+        "text": "hasn't it"
+      },
+      {
+        "id": "C",
+        "text": "have they"
+      },
+      {
+        "id": "D",
+        "text": "has it"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "question-tags",
+    "difficulty": "hard",
+    "explanation": "नियम: (i) Question tag: सकारात्मक कथन का tag नकारात्मक और नकारात्मक कथन का tag सकारात्मक होता है; tag में मुख्य वाक्य का auxiliary और वही tense आता है — He has gone, hasn't he? / He has not gone, has he?\n(ii) Nothing, nobody, no one, never, hardly, scarcely, seldom, rarely, little, few जैसे नकारात्मक अर्थ वाले शब्दों के कारण पूरा वाक्य नकारात्मक माना जाता है, इसलिए tag सकारात्मक होता है — Nothing has changed, has it?; He hardly ever visits us, does he?\n(iii) Nothing / everything / something / anything के लिए tag में 'it' और everyone / someone / anybody / nobody के लिए 'they' आता है।\n\nयहाँ: 'Nothing' नकारात्मक अर्थ वाला शब्द है, इसलिए कथन नकारात्मक माना जाएगा और tag सकारात्मक होगा। 'Nothing' के लिए 'it' आता है और tense Present Perfect रहेगा — 'has it?'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1011",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\n[Being a holiday], the offices remained closed throughout the city.",
+    "options": [
+      {
+        "id": "A",
+        "text": "As being a holiday"
+      },
+      {
+        "id": "B",
+        "text": "It being a holiday"
+      },
+      {
+        "id": "C",
+        "text": "It is being a holiday"
+      },
+      {
+        "id": "D",
+        "text": "Being it a holiday"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "नियम: Participle phrase का कर्ता main clause के कर्ता से भिन्न हो तो उसे अपना कर्ता देकर absolute construction बनाई जाती है — It being a holiday, the offices were closed। अकेला 'Being a holiday, the offices were closed' गलत माना जाता है, क्योंकि being का कर्ता 'offices' नहीं हो सकता।\n\nयहाँ: 'Being a holiday' का कर्ता main clause का कर्ता 'offices' बन जाता है, जो अर्थहीन है। इसलिए phrase को अपना कर्ता देकर 'It being a holiday' (absolute construction) लिखा जाएगा।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1012",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nYou ____ so much money on the gift; she would have been happy with a simple card.",
+    "options": [
+      {
+        "id": "A",
+        "text": "needn't spend"
+      },
+      {
+        "id": "B",
+        "text": "needn't have spent"
+      },
+      {
+        "id": "C",
+        "text": "can't spend"
+      },
+      {
+        "id": "D",
+        "text": "mustn't have spent"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "modals",
+    "difficulty": "hard",
+    "explanation": "नियम: needn't have + V3 = अतीत में वह काम किया गया, पर उसकी ज़रूरत नहीं थी (फ़िज़ूल हुआ) — You needn't have spent so much; 'needn't spend' वर्तमान / भविष्य की बात करता है और 'mustn't have' / 'can't have' निष्कर्ष (deduction) के लिए हैं।\n\nयहाँ: पैसा खर्च हो चुका है और उसकी ज़रूरत नहीं थी, इसलिए 'needn't have + V3' आएगा। 'needn't spend' आगे के लिए सलाह जैसा लगता है, और 'mustn't have spent' निष्कर्ष वाला रूप है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1013",
+    "subjectId": "english",
+    "question": "Identify the sentence(s) with an error.\n\n(P) Had the management consulted the employees, the strike could have been avoided.\n(Q) Were the management to consult the employees now, the strike could still be avoided.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only P"
+      },
+      {
+        "id": "B",
+        "text": "Only Q"
+      },
+      {
+        "id": "C",
+        "text": "Both P and Q"
+      },
+      {
+        "id": "D",
+        "text": "Neither P nor Q"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "inversion",
+    "difficulty": "hard",
+    "explanation": "नियम: (i) Conditional inversion (अतीत): Had + subject + V3; (वर्तमान / काल्पनिक भविष्य): Were + subject + to + V1 — Had the management consulted the employees, the strike could have been avoided; Were the management to consult them now, the strike could still be avoided।\n(ii) Conditional inversion (if हटाकर): Had + subject + V3 (= If he had ...), Should + subject + V1 (= If you should need ...), Were + subject + to + V1 (= If he were to ...): Should you need any help, please call me; Had he worked hard, he would have passed।\n\nयहाँ: P में अतीत की अवास्तविक शर्त का सही inversion (Had + subject + V3) है। Q में 'Were + subject + to + V1' काल्पनिक वर्तमान / भविष्य की शर्त के लिए सही है। दोनों वाक्य सही हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1014",
+    "subjectId": "english",
+    "question": "Select the correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rahul is more cleverer than wise."
+      },
+      {
+        "id": "B",
+        "text": "Rahul is cleverer than he is wiser."
+      },
+      {
+        "id": "C",
+        "text": "Rahul is cleverer than wise."
+      },
+      {
+        "id": "D",
+        "text": "Rahul is more clever than wise."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "adjectives",
+    "difficulty": "hard",
+    "explanation": "नियम: जब एक ही व्यक्ति / वस्तु के दो गुणों की आपस में तुलना हो तो adjective के साथ -er नहीं लगता; 'more + positive adjective + than + positive adjective' आता है — Rahul is more clever than wise (-er वाला रूप दो अलग व्यक्तियों की तुलना के लिए है: Rahul is cleverer than Mohan)।\n\nयहाँ: यहाँ एक ही व्यक्ति (Rahul) के दो गुणों — clever और wise — की तुलना है, इसलिए 'more clever than wise' आएगा। '-er' वाला रूप दो अलग व्यक्तियों की तुलना के लिए है, और 'more cleverer' दोहरा comparative है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1015",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHe is believed to flee the country / a week before / the police raid.",
+    "options": [
+      {
+        "id": "A",
+        "text": "He is believed to flee the country"
+      },
+      {
+        "id": "B",
+        "text": "a week before"
+      },
+      {
+        "id": "C",
+        "text": "the police raid."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "नियम: believed / said / thought / reported / known + to + V1 (वर्तमान या सामान्य के बारे में) बनाम to have + V3 (पहले हो चुकी क्रिया के बारे में) — He is believed to have fled the country a week before the raid; 'a week before the raid' बीते समय का संकेत है, इसलिए perfect infinitive ज़रूरी।\n\nयहाँ: 'A week before the police raid' से पता चलता है कि भागने की क्रिया पहले हो चुकी है, इसलिए perfect infinitive आएगा — 'is believed to have fled'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1016",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nHe lost ____ little money he had in the share market.",
+    "options": [
+      {
+        "id": "A",
+        "text": "the"
+      },
+      {
+        "id": "B",
+        "text": "some"
+      },
+      {
+        "id": "C",
+        "text": "any"
+      },
+      {
+        "id": "D",
+        "text": "a"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "articles",
+    "difficulty": "hard",
+    "explanation": "नियम: little के तीन प्रयोग: little = लगभग नहीं (नकारात्मक); a little = थोड़ा सा (सकारात्मक); the little + noun (+ relative clause) = जो थोड़ा था वह सारा — He lost the little money he had in the share market (जितना था सब); 'a little money he had' ✗।\n\nयहाँ: यहाँ 'जितना थोड़ा पैसा उसके पास था, वह सब' का अर्थ है, जिसके लिए 'the little + noun + (that / which) he had' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1017",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHardly any of the candidates / have submitted their forms / so far, although the last date is near.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hardly any of the candidates"
+      },
+      {
+        "id": "B",
+        "text": "have submitted their forms"
+      },
+      {
+        "id": "C",
+        "text": "so far, although the last date is near."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "नियम: 'Hardly any / scarcely any / few / little' से पहले आए 'any of the + बहुवचन noun' में क्रिया बहुवचन noun के अनुसार चलती है — Hardly any of the candidates have submitted their forms; 'hardly any' नकारात्मक अर्थ देता है, पर वाक्य में दोबारा not लगाने की ज़रूरत नहीं।\n\nयहाँ: 'Hardly any of the candidates' में 'candidates' बहुवचन है, इसलिए 'have submitted' सही है; वाक्य में निषेध-शब्द 'hardly' के कारण अलग से 'not' की ज़रूरत नहीं। वाक्य में कोई त्रुटि नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1018",
+    "subjectId": "english",
+    "question": "Select the option that expresses the given sentence in the comparative degree.\n\nVery few poets in Hindi are as great as Premchand.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Premchand is greater than few other poets in Hindi."
+      },
+      {
+        "id": "B",
+        "text": "Premchand is greater than any other poet in Hindi."
+      },
+      {
+        "id": "C",
+        "text": "Premchand is greater than most other poets in Hindi."
+      },
+      {
+        "id": "D",
+        "text": "Premchand is the greatest of all the poets in Hindi."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "sentence-transformation",
+    "difficulty": "hard",
+    "explanation": "नियम: Degree बदलने का नियम: Very few + plural noun + are as + positive + as X = X is + comparative + than most other + plural noun; No other + singular noun + is as + positive + as X = X is + comparative + than any other + singular noun; X is one of the + superlative + plural noun। 'Very few ... as great as Premchand' का comparative: Premchand is greater than most other poets।\n\nयहाँ: 'Very few ... as great as X' का comparative रूप 'X is greater than most other ...' होता है। 'any other' रूप 'No other ... as great as X' का है, और 'greatest of all' superlative है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1019",
+    "subjectId": "english",
+    "question": "Select the correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "More than one candidate was disqualified for malpractice."
+      },
+      {
+        "id": "B",
+        "text": "More than one candidates were disqualified for malpractice."
+      },
+      {
+        "id": "C",
+        "text": "More than one candidates was disqualified for malpractice."
+      },
+      {
+        "id": "D",
+        "text": "More than one candidate were disqualified for malpractice."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "नियम: 'More than one + singular noun' का verb एकवचन होता है (अर्थ बहुवचन जैसा लगने पर भी) — More than one candidate was disqualified; 'candidates' और 'were' ✗। जबकि 'more than two / three + plural noun' में बहुवचन क्रिया आती है।\n\nयहाँ: 'More than one' के बाद singular noun और singular verb आते हैं — 'More than one candidate was disqualified'। बाकी विकल्पों में noun या verb बहुवचन हो गया है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1020",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nHe decided to resign rather than [accepting] the humiliation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "having accepted"
+      },
+      {
+        "id": "B",
+        "text": "be accepting"
+      },
+      {
+        "id": "C",
+        "text": "accepted"
+      },
+      {
+        "id": "D",
+        "text": "accept"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "नियम: 'Rather than' के दोनों ओर समान रूप आता है: 'would / decided to + V1 + rather than + V1' — He decided to resign rather than accept the humiliation (accepting / accepted / to accepting ✗); 'to resign rather than to accept' में भी दोनों भाग समान हैं।\n\nयहाँ: 'to resign rather than ...' में दोनों ओर समान रूप चाहिए, इसलिए 'rather than accept' आएगा।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1021",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nWhom do you think / will win the / election in this constituency?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Whom do you think"
+      },
+      {
+        "id": "B",
+        "text": "will win the"
+      },
+      {
+        "id": "C",
+        "text": "election in this constituency?"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "pronouns",
+    "difficulty": "hard",
+    "explanation": "नियम: Who = subject (कर्ता), Whom = object (कर्म) या preposition के बाद, Whose = अधिकार। कसौटी: clause में उस शब्द की भूमिका देखें — The man whom I met (I met him → object); The girl who won (she won → subject); बीच में 'I thought / you said' जैसा parenthetical आए तो भी भूमिका वही रहती है (a man who I thought was a thief → he was a thief)।\n\nयहाँ: 'do you think' बीच में आया parenthetical है। 'will win' का कर्ता प्रश्न-शब्द है, इसलिए nominative 'Who' आएगा — 'Who do you think will win'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1022",
+    "subjectId": "english",
+    "question": "Identify the sentence(s) with an error.\n\n(P) Scarcely had the minister finished his speech when the crowd began to protest.\n(Q) No sooner had the minister finished his speech when the crowd began to protest.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only P"
+      },
+      {
+        "id": "B",
+        "text": "Only Q"
+      },
+      {
+        "id": "C",
+        "text": "Both P and Q"
+      },
+      {
+        "id": "D",
+        "text": "Neither P nor Q"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "hard",
+    "explanation": "नियम: No sooner ... than; Hardly / Scarcely / Barely ... when / before — पहले हिस्से में Past Perfect (had + V3) और बाद में Simple Past: No sooner had he arrived than it began to rain; Hardly had we reached the station when the train departed। 'No sooner ... when' ✗, 'Hardly / Scarcely ... than' ✗; 'than' (तुलना) और 'then' (तब) अलग हैं।\n\nयहाँ: P में 'Scarcely had ... when' सही जोड़ा है। Q में 'No sooner' का जोड़ीदार 'than' होता है, 'when' नहीं। इसलिए केवल Q गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1023",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThere is hardly any milk left in the pot, ____ ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "is it"
+      },
+      {
+        "id": "B",
+        "text": "isn't it"
+      },
+      {
+        "id": "C",
+        "text": "is there"
+      },
+      {
+        "id": "D",
+        "text": "isn't there"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "question-tags",
+    "difficulty": "hard",
+    "explanation": "नियम: (i) Question tag: सकारात्मक कथन का tag नकारात्मक और नकारात्मक कथन का tag सकारात्मक होता है; tag में मुख्य वाक्य का auxiliary और वही tense आता है — He has gone, hasn't he? / He has not gone, has he?\n(ii) Hardly, scarcely, barely, rarely, seldom, never, few, little, no, nothing वाले वाक्य नकारात्मक माने जाते हैं, इसलिए tag सकारात्मक होता है; 'There is / There are' वाले वाक्य के tag में subject के रूप में 'there' ही दोहराया जाता है — There is hardly any milk left, is there?\n\nयहाँ: 'Hardly' के कारण कथन नकारात्मक माना जाता है, इसलिए tag सकारात्मक होगा; और 'There is ...' वाले वाक्य के tag में 'there' दोहराया जाता है — 'is there?'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1024",
+    "subjectId": "english",
+    "question": "Select the correct passive voice of the given sentence.\n\nPeople say that he is a spy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "He was said to be a spy."
+      },
+      {
+        "id": "B",
+        "text": "He is said to be a spy."
+      },
+      {
+        "id": "C",
+        "text": "It is said him to be a spy."
+      },
+      {
+        "id": "D",
+        "text": "He is said to have been a spy."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: People say that ... का passive 'He is said to be ...' (समान काल) बनता है; पूर्ववर्ती घटना हो तो 'is said to have been'; tense reporting-verb के अनुसार रहता है — People say that he is a spy → He is said to be a spy (वैकल्पिक: It is said that he is a spy)।\n\nयहाँ: 'People say that he is ...' का passive 'He is said to be ...' होता है। 'to have been' पहले हो चुकी स्थिति दिखाता है और 'was said' से tense बदल जाता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1025",
+    "subjectId": "english",
+    "question": "Select the correct indirect speech of the given sentence.\n\nShe said, \"I wish I were taller.\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "She said that she wished to be taller."
+      },
+      {
+        "id": "B",
+        "text": "She said that she wished she were taller."
+      },
+      {
+        "id": "C",
+        "text": "She said that she wished she would be taller."
+      },
+      {
+        "id": "D",
+        "text": "She said that she wishes she was taller."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Reporting में past subjunctive (wish / if only / as if के साथ 'were' या Simple Past) का रूप नहीं बदलता — She said, 'I wish I were taller' → She said that she wished she were taller; 'had been taller' अर्थ बदल देता है, 'wishes she was' tense गलत है।\n\nयहाँ: 'wish' वाले clause का past subjunctive 'were' reporting में नहीं बदलता। 'would be' wish के साथ अपनी ही स्थिति के लिए नहीं चलता, 'wishes she was' में tense नहीं बदला, और 'wished to be' इच्छा का अर्थ ही बदल देता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1026",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nNeither of the two brothers / wants to sell / his share of the property.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neither of the two brothers"
+      },
+      {
+        "id": "B",
+        "text": "wants to sell"
+      },
+      {
+        "id": "C",
+        "text": "his share of the property."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "नियम: Each, every, either, neither, everyone, everybody, someone, anybody, nobody, nothing + एकवचन verb; 'each of / either of / neither of + बहुवचन noun' के बाद भी verb एकवचन — Each of the boys has a pen; Neither of the two girls is guilty; Everybody was present।\n\nयहाँ: 'Neither of the two' का verb एकवचन होता है ('wants') और उसके साथ pronoun भी एकवचन ('his') आता है। वाक्य में कोई त्रुटि नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1027",
+    "subjectId": "english",
+    "question": "Select the correct indirect speech of the given sentence.\n\nHe said to me, \"May God bless you!\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "He said to me that may God bless me."
+      },
+      {
+        "id": "B",
+        "text": "He prayed that God may bless me."
+      },
+      {
+        "id": "C",
+        "text": "He wished that God will bless me."
+      },
+      {
+        "id": "D",
+        "text": "He prayed that God might bless me."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: प्रार्थना / शुभकामना वाले (optative) वाक्य 'May ...!' की reporting 'prayed / wished that + subject + might + V1' से होती है — He said to me, 'May God bless you!' → He prayed that God might bless me।\n\nयहाँ: 'May ...!' प्रार्थना / शुभकामना का वाक्य है, इसलिए reporting 'prayed that + subject + might + V1' से होती है। 'may' का past रूप 'might' ही आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1028",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nI remember ____ to the zoo by my uncle when I was five.",
+    "options": [
+      {
+        "id": "A",
+        "text": "being taken"
+      },
+      {
+        "id": "B",
+        "text": "taking"
+      },
+      {
+        "id": "C",
+        "text": "to take"
+      },
+      {
+        "id": "D",
+        "text": "to be taken"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "नियम: Remember / forget / regret + V-ing = बीती हुई घटना; + to V1 = आगे करने की बात। जब कर्ता पर क्रिया की जाती हो तो passive gerund 'being + V3' आता है — I remember being taken to the zoo by my uncle (मुझे ले जाया गया था); 'to be taken' भविष्य के काम का अर्थ देता है।\n\nयहाँ: बचपन की बीती घटना याद है, इसलिए 'remember + V-ing'; और मुझे ले जाया गया था (कर्ता पर क्रिया हुई), इसलिए passive gerund 'being taken' आएगा।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1029",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nIt is nearly twenty years / since he has left / his native village in Bihar.",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is nearly twenty years"
+      },
+      {
+        "id": "B",
+        "text": "since he has left"
+      },
+      {
+        "id": "C",
+        "text": "his native village in Bihar."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "नियम: 'It is / has been + अवधि + since + subject + Simple Past' — 'since' वाले clause में Simple Past आता है (Present Perfect नहीं), क्योंकि उसमें बीती हुई समाप्त घटना का बिंदु बताया जाता है — It is twenty years since he left his village; 'since he has left' ✗। (वहीं 'since' के साथ सक्रिय अवधि बताने पर main clause में Present Perfect आता है: He has lived here since 2010.)\n\nयहाँ: 'It is + अवधि + since' के बाद का clause Simple Past में आता है — 'since he left his native village'; 'has left' गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1030",
+    "subjectId": "english",
+    "question": "How many of the following sentences are grammatically correct?\n\n(i) Hardly had he left than the phone rang.\n(ii) He is junior than me.\n(iii) He was accused for stealing the necklace.\n(iv) She did not hardly recognise him.",
+    "options": [
+      {
+        "id": "A",
+        "text": "One"
+      },
+      {
+        "id": "B",
+        "text": "Two"
+      },
+      {
+        "id": "C",
+        "text": "Three"
+      },
+      {
+        "id": "D",
+        "text": "None of them"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "mixed",
+    "difficulty": "hard",
+    "explanation": "नियम: (i) No sooner ... than; Hardly / Scarcely / Barely ... when / before — पहले हिस्से में Past Perfect (had + V3) और बाद में Simple Past: No sooner had he arrived than it began to rain; Hardly had we reached the station when the train departed। 'No sooner ... when' ✗, 'Hardly / Scarcely ... than' ✗; 'than' (तुलना) और 'then' (तब) अलग हैं।\n(ii) Latin comparative शब्द — senior, junior, superior, inferior, prior, anterior, posterior, preferable और क्रिया prefer — के बाद 'to' आता है, 'than' नहीं (senior to me; superior to; prefer tea to coffee; prefer walking to driving); 'more superior', 'prefer ... than' गलत हैं; 'would rather ... than' सही है।\n(iii) निश्चित verb + preposition: congratulate (on), accuse (of), suffer (from), prevent (from), blame (for), succeed (in), insist (on), depend / rely (on), consist (of), look (at / for / after), laugh (at), listen (to), wait (for), adhere (to), differ (from), complain (about), aim (at), provide (with), convict (of), die (of), prohibit (from), divide (among / between)।\n(iv) hard (परिश्रम से / कठोर) बनाम hardly (मुश्किल से, लगभग नहीं — नकारात्मक अर्थ); late / lately, near / nearly, high / highly, close / closely, free / freely के अर्थ अलग हैं। 'hardly / scarcely / barely' स्वयं नकारात्मक हैं, इसलिए 'not / never' के साथ दोहरा निषेध गलत — He could hardly believe (could not hardly ✗); He works hard (hardly ✗)।\n\nयहाँ: (i) गलत — 'Hardly' का जोड़ीदार 'when' है, 'than' नहीं। (ii) गलत — 'junior' के बाद 'to' आता है। (iii) गलत — 'accuse' के साथ 'of' आता है। (iv) गलत — 'hardly' के साथ 'did not' दोहरा निषेध है। इसलिए कोई भी वाक्य सही नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1031",
+    "subjectId": "english",
+    "question": "Select the correct passive voice of the given sentence.\n\nI saw him enter the room.",
+    "options": [
+      {
+        "id": "A",
+        "text": "I was seen to enter the room by him."
+      },
+      {
+        "id": "B",
+        "text": "He was seen enter the room by me."
+      },
+      {
+        "id": "C",
+        "text": "He was seen to enter the room by me."
+      },
+      {
+        "id": "D",
+        "text": "He was seen to have entered the room by me."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "hard",
+    "explanation": "नियम: Active में see / hear / watch / make + object + bare infinitive (V1) हो तो passive में वही infinitive 'to + V1' बन जाता है — I saw him enter the room → He was seen to enter the room (by me)। 'He was seen enter' ✗।\n\nयहाँ: Active में 'saw him enter' (bare infinitive) था, इसलिए passive में 'to' जुड़कर 'He was seen to enter' बनेगा। बिना 'to' वाला रूप गलत है और 'to have entered' काल का अर्थ बदल देता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1032",
+    "subjectId": "english",
+    "question": "Select the correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The scheme aims to reduce costs, improving quality and increase profits."
+      },
+      {
+        "id": "B",
+        "text": "The scheme aims at reducing costs, to improve quality and increasing profits."
+      },
+      {
+        "id": "C",
+        "text": "The scheme aims at reducing costs, improving quality and to increase profits."
+      },
+      {
+        "id": "D",
+        "text": "The scheme aims at reducing costs, improving quality and increasing profits."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "parallelism",
+    "difficulty": "hard",
+    "explanation": "नियम: सूची (series) के सभी अंश एक ही व्याकरणिक रूप में होने चाहिए, और preposition का gerund / infinitive एक-सा रहे — The scheme aims at reducing costs, improving quality and increasing profits; 'reducing, improving और to increase' का मेल गलत है।\n\nयहाँ: सूची के तीनों अंश एक ही रूप (aims at + V-ing) में होने चाहिए — reducing, improving, increasing। अन्य विकल्पों में gerund और infinitive मिल गए हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1033",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nBut for his generous donation, / the orphanage will have been / closed down long ago.",
+    "options": [
+      {
+        "id": "A",
+        "text": "But for his generous donation,"
+      },
+      {
+        "id": "B",
+        "text": "the orphanage will have been"
+      },
+      {
+        "id": "C",
+        "text": "closed down long ago."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conditionals",
+    "difficulty": "hard",
+    "explanation": "नियम: 'But for + noun' (= If it had not been for) के साथ main clause में third conditional (would / could have + V3) आती है; will have + V3 (future perfect) नहीं — But for his donation, the orphanage would have been closed down long ago।\n\nयहाँ: 'But for + noun' अतीत की शर्त है, इसलिए main clause में 'would have been' (third conditional) आएगा, 'will have been' (future perfect) नहीं; 'long ago' भी अतीत का संकेत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1034",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe committee, which comprises of / seven members, has recommended / that the proposal be dropped.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The committee, which comprises of"
+      },
+      {
+        "id": "B",
+        "text": "seven members, has recommended"
+      },
+      {
+        "id": "C",
+        "text": "that the proposal be dropped."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions",
+    "difficulty": "hard",
+    "explanation": "नियम: Comprise सकर्मक क्रिया है (= से मिलकर बना होना), इसलिए उसके बाद 'of' नहीं आता — The committee comprises seven members; या 'is composed of / consists of seven members'। 'comprises of' ✗।\n\nयहाँ: 'Comprise' सकर्मक क्रिया है और उसके बाद 'of' नहीं आता — 'which comprises seven members'। 'that the proposal be dropped' में subjunctive 'be' सही है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1035",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nShe is the only / one of the doctors / who have treated all the patients free of charge during the epidemic.",
+    "options": [
+      {
+        "id": "A",
+        "text": "She is the only"
+      },
+      {
+        "id": "B",
+        "text": "one of the doctors"
+      },
+      {
+        "id": "C",
+        "text": "who have treated all the patients free of charge during the epidemic."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "नियम: 'One of the + बहुवचन noun' का verb एकवचन (One of my friends is a doctor); पर relative clause में who / that का verb उसके antecedent के अनुसार — 'one of those / the few + बहुवचन noun + who' में बहुवचन (He is one of those students who work hard); 'the only one of the + बहुवचन noun + who' में एकवचन (She is the only one of the girls who has passed)।\n\nयहाँ: 'the only one of the + plural noun + who' में who का antecedent 'one' है, इसलिए verb एकवचन — 'who has treated'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1036",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nOf the two proposals, the one / submitted by the engineers / is the most feasible.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Of the two proposals, the one"
+      },
+      {
+        "id": "B",
+        "text": "submitted by the engineers"
+      },
+      {
+        "id": "C",
+        "text": "is the most feasible."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adjectives",
+    "difficulty": "hard",
+    "explanation": "नियम: दो में तुलना हो तो comparative (+ the) आता है, तीन या अधिक में superlative — Of the two proposals, this is the more feasible; 'the most feasible' ✗।\n\nयहाँ: यहाँ दो proposals में तुलना है, इसलिए comparative 'the more feasible' आएगा; 'the most feasible' तीन या अधिक में होता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1037",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\n____ you need any further information, please contact the helpdesk.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Would"
+      },
+      {
+        "id": "B",
+        "text": "Must"
+      },
+      {
+        "id": "C",
+        "text": "Should"
+      },
+      {
+        "id": "D",
+        "text": "Could"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "inversion",
+    "difficulty": "hard",
+    "explanation": "नियम: If you should + V1 (संभावना कम) = Should + subject + V1 — Should you need any help, contact me; 'Should' के बाद 'would / could / must' नहीं आते।\n\nयहाँ: 'If you should need' का inversion रूप 'Should you need' है; इसमें 'would / could / must' नहीं आते।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1038",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe decision, that was announced / late on Friday, / surprised everyone in the department.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The decision, that was announced"
+      },
+      {
+        "id": "B",
+        "text": "late on Friday,"
+      },
+      {
+        "id": "C",
+        "text": "surprised everyone in the department."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "pronouns",
+    "difficulty": "hard",
+    "explanation": "नियम: Non-restrictive (comma से घिरा, अतिरिक्त सूचना देने वाला) relative clause में 'that' नहीं आता; वहाँ 'which' (वस्तु) / 'who' (व्यक्ति) आता है — The decision, which was announced late on Friday, surprised everyone। 'that' केवल restrictive clause में आता है (The decision that was announced on Friday surprised everyone)।\n\nयहाँ: यहाँ clause comma से घिरा अतिरिक्त सूचना देने वाला (non-restrictive) है, इसलिए 'that' नहीं, 'which' आएगा — 'The decision, which was announced late on Friday'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1039",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nBoth his sons-in-laws / were present at / the function held at his residence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both his sons-in-laws"
+      },
+      {
+        "id": "B",
+        "text": "were present at"
+      },
+      {
+        "id": "C",
+        "text": "the function held at his residence."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "nouns",
+    "difficulty": "hard",
+    "explanation": "नियम: Compound nouns में मुख्य शब्द (noun) बहुवचन बनता है, अंतिम शब्द नहीं: sons-in-law, mothers-in-law, passers-by, commanders-in-chief, attorneys-general, courts-martial, lookers-on — Both his sons-in-law were present; 'sons-in-laws' ✗।\n\nयहाँ: Compound noun में मुख्य शब्द बहुवचन बनता है — 'sons-in-law'; अंत में 's' लगाकर 'sons-in-laws' लिखना गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1040",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe geography teacher explained / that the earth revolves / around the sun once every year.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The geography teacher explained"
+      },
+      {
+        "id": "B",
+        "text": "that the earth revolves"
+      },
+      {
+        "id": "C",
+        "text": "around the sun once every year."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Reporting verb past हो तो भी universal truth / वैज्ञानिक तथ्य / आदत का tense नहीं बदलता — The teacher said that the earth moves round the sun (moved ✗); He said that honesty is the best policy।\n\nयहाँ: सार्वभौमिक / वैज्ञानिक सत्य का tense reporting verb 'explained' (past) होने पर भी नहीं बदलता, इसलिए 'the earth revolves' सही है। वाक्य में कोई त्रुटि नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1041",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nIt is I who ____ responsible for the delay in the project.",
+    "options": [
+      {
+        "id": "A",
+        "text": "am"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "be"
+      },
+      {
+        "id": "D",
+        "text": "is"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "नियम: 'It is I / you / he who ...' जैसे cleft वाक्यों में who के बाद की क्रिया का रूप उसके पहले आए pronoun (I / you / he) के पुरुष और वचन के अनुसार चलता है — It is I who am responsible for the delay; It is you who are to blame; It is he who is guilty। 'It is I who is' ✗, क्योंकि who का antecedent 'I' है।\n\nयहाँ: 'who' का antecedent 'I' है, इसलिए who के बाद की क्रिया 'I' के अनुसार 'am' आएगी — 'It is I who am responsible'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1042",
+    "subjectId": "english",
+    "question": "Identify the sentence(s) with an error.\n\n(P) She is not only a gifted singer but also writes lyrics.\n(Q) Not only is she a gifted singer but she also writes lyrics.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only P"
+      },
+      {
+        "id": "B",
+        "text": "Only Q"
+      },
+      {
+        "id": "C",
+        "text": "Both P and Q"
+      },
+      {
+        "id": "D",
+        "text": "Neither P nor Q"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "parallelism",
+    "difficulty": "hard",
+    "explanation": "नियम: (i) Correlative conjunctions के दोनों भाग समान संरचना / शब्द-वर्ग से जुड़ें — She is not only intelligent but also hard-working ('but also works hard' ✗); both higher wages and shorter working hours ('both ... and to work' ✗)।\n(ii) Neither ... nor / either ... or / both ... and / not only ... but also के दोनों भाग समान रूप के होने चाहिए — He neither wrote to me nor called me up (क्रिया + क्रिया); 'He neither wrote to me nor did he call' ✗, क्योंकि एक भाग क्रिया है और दूसरा inversion वाला पूरा clause।\n\nयहाँ: P में 'not only' के बाद noun phrase (a gifted singer) है और 'but also' के बाद क्रिया (writes lyrics), इसलिए समानता टूटती है। Q में inversion के साथ दोनों भाग पूरे clause हैं, इसलिए सही है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1043",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe freshly baked bread / smells deliciously, but / it tastes rather bland.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The freshly baked bread"
+      },
+      {
+        "id": "B",
+        "text": "smells deliciously, but"
+      },
+      {
+        "id": "C",
+        "text": "it tastes rather bland."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "hard",
+    "explanation": "नियम: smell, taste, feel, look, sound, seem, appear, remain, grow, turn जैसी linking verbs के बाद विशेषण (adjective) आता है, क्रिया-विशेषण (adverb) नहीं — The bread smells delicious (smells deliciously ✗); The soup tastes bitter।\n\nयहाँ: 'smell' यहाँ linking verb है, इसलिए उसके बाद विशेषण 'delicious' आएगा, क्रिया-विशेषण 'deliciously' नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1044",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nShe is such intelligent a girl / that everyone admires her / and respects her opinion.",
+    "options": [
+      {
+        "id": "A",
+        "text": "She is such intelligent a girl"
+      },
+      {
+        "id": "B",
+        "text": "that everyone admires her"
+      },
+      {
+        "id": "C",
+        "text": "and respects her opinion."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adjectives",
+    "difficulty": "hard",
+    "explanation": "नियम: Pattern: such + a / an + adjective + noun; so + adjective + a / an + noun — She is such an intelligent girl; She is so intelligent a girl; 'such intelligent a girl' और 'so an intelligent girl' ✗।\n\nयहाँ: 'such' के बाद 'a / an + adjective + noun' आता है (such an intelligent girl); 'adjective + a + noun' वाला क्रम 'so' के साथ आता है (so intelligent a girl)। 'such intelligent a girl' गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1045",
+    "subjectId": "english",
+    "question": "Fill in the blanks.\n\nHe bought ____ umbrella and ____ one-rupee coin from the shop.",
+    "options": [
+      {
+        "id": "A",
+        "text": "an; an"
+      },
+      {
+        "id": "B",
+        "text": "an; a"
+      },
+      {
+        "id": "C",
+        "text": "a; a"
+      },
+      {
+        "id": "D",
+        "text": "a; an"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "articles",
+    "difficulty": "hard",
+    "explanation": "नियम: a / an का चुनाव spelling से नहीं, पहली ध्वनि से होता है: 'one' की शुरुआती ध्वनि /w/ (व्यंजन) है, इसलिए a one-rupee coin; 'umbrella' का /ʌ/ स्वर-ध्वनि है, इसलिए an umbrella; an hour, an MBA, a university, a European।\n\nयहाँ: 'umbrella' की शुरुआती ध्वनि स्वर (/ʌ/) है, इसलिए 'an umbrella'; 'one' की शुरुआती ध्वनि /w/ (व्यंजन) है, इसलिए 'a one-rupee coin'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1046",
+    "subjectId": "english",
+    "question": "How many of the following sentences are grammatically correct?\n\n(i) Unless you apologise, she will not forgive you.\n(ii) I would rather walk than wait for a bus.\n(iii) Scarcely had he spoken when the phone rang.\n(iv) It is high time we left.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only two"
+      },
+      {
+        "id": "B",
+        "text": "Only three"
+      },
+      {
+        "id": "C",
+        "text": "All four"
+      },
+      {
+        "id": "D",
+        "text": "None of them"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "mixed",
+    "difficulty": "hard",
+    "explanation": "नियम: (i) Unless का अर्थ 'if ... not' है, यानी इसका अपना निषेध है, इसलिए इसके साथ 'not' नहीं लगता — Unless you work hard, you will not succeed (Unless you do not ✗); I will not go unless you come with me; Unless के बाद भविष्य नहीं आता।\n(ii) Modal (can, could, may, might, shall, should, will, would, must) + V1 (बिना 'to'); 'had better / would rather / would sooner / need not / dare not + V1' (You had better consult a doctor); 'ought to + V1' और 'used to + V1' में 'to' रहता है; 'would rather + V1 ... than + V1' (I would rather stay than go)।\n(iii) No sooner ... than; Hardly / Scarcely / Barely ... when / before — पहले हिस्से में Past Perfect (had + V3) और बाद में Simple Past: No sooner had he arrived than it began to rain; Hardly had we reached the station when the train departed। 'No sooner ... when' ✗, 'Hardly / Scarcely ... than' ✗; 'than' (तुलना) और 'then' (तब) अलग हैं।\n(iv) It is (high) time + subject + V2 (अर्थ वर्तमान का) — It is high time we left; 'It is high time we leave' ✗।\n\nयहाँ: (i) सही — 'Unless' के साथ 'not' नहीं लगा। (ii) सही — 'would rather + V1 ... than + V1'। (iii) सही — 'Scarcely had ... when'। (iv) सही — 'It is high time + Simple Past'। इसलिए चारों वाक्य सही हैं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1047",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe opposition demanded that the minister [resign] immediately.",
+    "options": [
+      {
+        "id": "A",
+        "text": "resigns"
+      },
+      {
+        "id": "B",
+        "text": "resigned"
+      },
+      {
+        "id": "C",
+        "text": "will resign"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "subjunctive",
+    "difficulty": "hard",
+    "explanation": "नियम: suggest / insist / demand / propose / recommend / request / order / require + that + subject + (should) + V1 (Subjunctive); 'It is essential / necessary / important that + subject + (should) + V1' — The doctor suggested that she consult a specialist; 'consults / consulted / will consult' ✗।\n\nयहाँ: 'demand that' के बाद subjunctive में (should +) V1 आता है, इसलिए 'resign' सही है। वाक्य को बदलने की ज़रूरत नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1048",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nNeither of the three / candidates was eligible / for the post advertised last month.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neither of the three"
+      },
+      {
+        "id": "B",
+        "text": "candidates was eligible"
+      },
+      {
+        "id": "C",
+        "text": "for the post advertised last month."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "adjectives",
+    "difficulty": "hard",
+    "explanation": "नियम: Either / neither केवल दो के लिए प्रयुक्त होते हैं; तीन या अधिक के लिए any one / none (of) आता है — None of the three candidates was eligible; 'Neither of the three' ✗।\n\nयहाँ: 'Neither' केवल दो के लिए प्रयुक्त होता है। तीन में से किसी के लिए 'None of the three' आएगा।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1049",
+    "subjectId": "english",
+    "question": "Select the correct indirect speech of the given sentence.\n\nHe said, \"I have been to Paris twice, and I will never go there again.\"",
+    "options": [
+      {
+        "id": "A",
+        "text": "He said that he had been to Paris twice and will never go there again."
+      },
+      {
+        "id": "B",
+        "text": "He said that he had been to Paris twice and would never go here again."
+      },
+      {
+        "id": "C",
+        "text": "He said that he was to Paris twice and would never go there again."
+      },
+      {
+        "id": "D",
+        "text": "He said that he had been to Paris twice and would never go there again."
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "hard",
+    "explanation": "नियम: Reporting verb past हो तो Present Perfect → Past Perfect (have been → had been) और will → would; 'there' जैसे स्थान-सूचक शब्द वैसे ही रहते हैं (here ही there में बदलता है) — He said, 'I have been to Paris twice and I will never go there again' → He said that he had been to Paris twice and would never go there again।\n\nयहाँ: Reporting verb 'said' past है, इसलिए 'have been' → 'had been' और 'will' → 'would' होगा; 'there' वैसा ही रहता है। अन्य विकल्पों में tense का मेल बिगड़ा है या 'there' की जगह 'here' आ गया है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1050",
+    "subjectId": "english",
+    "question": "Select the correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "I have never accepted, and shall never accept, a bribe from anyone."
+      },
+      {
+        "id": "B",
+        "text": "I have never accept, and shall never accept, a bribe from anyone."
+      },
+      {
+        "id": "C",
+        "text": "I have never, and shall never, accept a bribe from anyone."
+      },
+      {
+        "id": "D",
+        "text": "I have never accepted, and shall never accepted, a bribe from anyone."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "mixed",
+    "difficulty": "hard",
+    "explanation": "नियम: जब एक ही शब्द दो क्रियाओं के लिए बाँटा जाए तो वह दोनों के साथ व्याकरणिक रूप से सही बैठना चाहिए; क्रिया-रूप अलग हों तो हर क्रिया को पूरा लिखना पड़ता है — I have never accepted, and shall never accept, a bribe (have + accepted, shall + accept); 'I have never, and shall never, accept a bribe' ✗, क्योंकि 'have never accept' गलत है।\n\nयहाँ: 'have' के साथ V3 'accepted' और 'shall' के साथ V1 'accept' चाहिए। क्रिया-रूप अलग होने से दोनों को पूरा लिखना पड़ता है; 'have never ... accept' जैसा साझा प्रयोग गलत है।",
+    "language": "en"
+  }
+]
