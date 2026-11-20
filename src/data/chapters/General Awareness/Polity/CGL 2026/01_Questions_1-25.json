@@ -1,0 +1,702 @@
+[
+  {
+    "id": "pyq001",
+    "subjectId": "polity",
+    "question": "उच्च न्यायालयों को रिट जारी करने की शक्ति कौन-सा अनुच्छेद देता है? / Which Article empowers High Courts to issue writs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 226 / Article 226"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 132 / Article 132"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 136 / Article 136"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 32 / Article 32"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "writs",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 226 के तहत उच्च न्यायालय पाँच रिट जारी कर सकते हैं—Habeas Corpus, Mandamus, Prohibition, Certiorari और Quo Warranto। इसका दायरा मौलिक अधिकारों के साथ अन्य कानूनी अधिकारों तक है। अनुच्छेद 32 सर्वोच्च न्यायालय को मौलिक अधिकारों के प्रवर्तन हेतु रिट शक्ति देता है और स्वयं एक मौलिक अधिकार है। अतः 226 का दायरा 32 से व्यापक है। PDF के पेन-नोट में यही 32 बनाम 226 का अंतर रेखांकित है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq002",
+    "subjectId": "polity",
+    "question": "अनुच्छेद 124(4) के अंतर्गत सर्वोच्च न्यायालय के न्यायाधीश को हटाने के आधार क्या हैं? / Grounds for removal of a Supreme Court judge?",
+    "options": [
+      {
+        "id": "A",
+        "text": "न्यायिक अभिलेख न रखना / Failure to maintain records"
+      },
+      {
+        "id": "B",
+        "text": "सिद्ध कदाचार या अक्षमता / Proved misbehaviour or incapacity"
+      },
+      {
+        "id": "C",
+        "text": "लाभ का पद स्वीकारना / Accepting office of profit"
+      },
+      {
+        "id": "D",
+        "text": "संविधान का उल्लंघन या आपराधिक दोषसिद्धि / Constitutional violation or conviction"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "judiciary",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 124(4) में केवल सिद्ध कदाचार या अक्षमता आधार हैं। हटाने के लिए संसद के प्रत्येक सदन में कुल सदस्य-संख्या का बहुमत तथा उपस्थित और मतदान करने वालों का कम-से-कम 2/3 बहुमत चाहिए। राष्ट्रपति इसके बाद हटाने का आदेश देते हैं। उच्च न्यायालय के न्यायाधीश पर समान प्रक्रिया अनुच्छेद 217(1)(b) के तहत लागू होती है। प्रक्रिया Judges (Inquiry) Act, 1968 में दी गई है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq003",
+    "subjectId": "polity",
+    "question": "अनुच्छेद 131 के अंतर्गत सर्वोच्च न्यायालय की मूल अधिकारिता में कौन-सा विवाद आता है? / Which dispute falls under Article 131 original jurisdiction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "आपराधिक अपील / Criminal appeal"
+      },
+      {
+        "id": "B",
+        "text": "दो निजी नागरिकों का विवाद / Private citizens dispute"
+      },
+      {
+        "id": "C",
+        "text": "स्थानीय चुनाव विवाद / Local election dispute"
+      },
+      {
+        "id": "D",
+        "text": "भारत संघ और राज्यों के बीच विवाद / Dispute between Union and States"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "supreme-court",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 131 संघीय विवादों में सर्वोच्च न्यायालय की मूल और अनन्य अधिकारिता देता है—संघ बनाम राज्य, या राज्य बनाम राज्य। विवाद कानूनी अधिकार के अस्तित्व/विस्तार से जुड़ा होना चाहिए। मूल अधिकारिता का अर्थ है कि मामला सीधे सर्वोच्च न्यायालय में शुरू हो सकता है। अनुच्छेद 262 अंतर्राज्यीय नदी-जल विवादों पर विशेष व्यवस्था और न्यायालयीय अधिकारिता को बाहर करने की अनुमति देता है। PDF का पेन-नोट “Original/Exclusive” और Union-State dispute पर जोर देता है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq004",
+    "subjectId": "polity",
+    "question": "संसद की कार्यवाही को केवल प्रक्रिया की अनियमितता के आधार पर न्यायालय में चुनौती से कौन-सा अनुच्छेद संरक्षण देता है? / Procedural irregularity protection for Parliament?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 121 / Article 121"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 120 / Article 120"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 122 / Article 122"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 110 / Article 110"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "parliament",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 122 संसद की कार्यवाही की वैधता को केवल प्रक्रियात्मक अनियमितता के आधार पर चुनौती देने से संरक्षण देता है। यह हर प्रकार की संवैधानिक अवैधता या मौलिक अधिकार उल्लंघन को न्यायिक समीक्षा से बाहर नहीं करता। अनुच्छेद 121 न्यायाधीशों के आचरण पर चर्चा रोकता है, सिवाय हटाने के प्रस्ताव के। अनुच्छेद 120 संसद की भाषा और 110 धन विधेयक की परिभाषा से संबंधित है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq005",
+    "subjectId": "polity",
+    "question": "सर्वोच्च न्यायालय की सहायक शक्तियों का प्रावधान किस अनुच्छेद में है? / Ancillary powers of Supreme Court?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 145 / Article 145"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 141 / Article 141"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 142 / Article 142"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 140 / Article 140"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "supreme-court",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 140 संसद को सर्वोच्च न्यायालय की अधिकारिता के प्रभावी प्रयोग हेतु पूरक शक्तियाँ देने की अनुमति देता है। अनुच्छेद 141—SC द्वारा घोषित विधि सभी न्यायालयों पर बाध्यकारी; अनुच्छेद 142—पूर्ण न्याय; अनुच्छेद 143—राष्ट्रपति की सलाहकारी राय; अनुच्छेद 145—SC के नियम। PDF के पेन-नोट में 141 को binding और 142 को complete justice से जोड़ा गया है। इन अनुच्छेदों को अलग-अलग याद रखें।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq006",
+    "subjectId": "polity",
+    "question": "अंतर्राज्यीय नदी-जल विवादों में न्यायालयों की अधिकारिता को बाहर करने की शक्ति किस अनुच्छेद में है? / Exclusion of court jurisdiction in inter-State water disputes?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 262 / Article 262"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 356 / Article 356"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 263 / Article 263"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 131 / Article 131"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "federalism",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 262 संसद को अंतर्राज्यीय नदी या नदी-घाटी के जल-विवादों के न्यायनिर्णयन हेतु कानून बनाने और ऐसे विवादों में न्यायालयों की अधिकारिता रोकने की शक्ति देता है। इसी आधार पर Inter-State River Water Disputes Act, 1956 बना। अनुच्छेद 263 अंतर्राज्यीय परिषद है; 131 संघीय विवादों की मूल अधिकारिता है। PDF के नोट में 1956 Act का संकेत है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq007",
+    "subjectId": "polity",
+    "question": "संसद में सर्वोच्च/उच्च न्यायालय के न्यायाधीश के पद-निर्वहन संबंधी आचरण पर चर्चा को कौन-सा अनुच्छेद प्रतिबंधित करता है? / Discussion on conduct of judges in Parliament?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 122 / Article 122"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 120 / Article 120"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 119 / Article 119"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 121 / Article 121"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "parliament",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 121 न्यायाधीश के पद-निर्वहन संबंधी आचरण पर संसद में चर्चा रोकता है, सिवाय राष्ट्रपति को न्यायाधीश हटाने हेतु अभिभाषण प्रस्तुत करने के प्रस्ताव के। यह न्यायपालिका की स्वतंत्रता की रक्षा करता है। राज्य विधानमंडल के लिए समान प्रावधान अनुच्छेद 211 है। न्यायाधीश को हटाने के आधार अनुच्छेद 124(4) में हैं। PDF के पेन-नोट में judge conduct और removal-motion exception दर्ज है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq008",
+    "subjectId": "polity",
+    "question": "भारत के सर्वोच्च न्यायालय की स्थापना और गठन का मूल अनुच्छेद कौन-सा है? / Establishment and constitution of Supreme Court?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 125 / Article 125"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 126 / Article 126"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 124 / Article 124"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 123 / Article 123"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "supreme-court",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 124 सर्वोच्च न्यायालय की स्थापना और गठन का मूल प्रावधान है। यह भाग V, अध्याय IV में आता है; SC से संबंधित अनुच्छेद 124–147 हैं। अनुच्छेद 125 वेतन-भत्ते, 126 कार्यवाहक CJI, 127 तदर्थ न्यायाधीश, 129 Court of Record, 131 मूल अधिकारिता, 141 बाध्यकारी विधि और 142 पूर्ण न्याय से संबंधित हैं। PDF के पेन-नोट में 124–147 की सीमा लिखी है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq009",
+    "subjectId": "polity",
+    "question": "शाह बानो मामले (1985) के बाद प्रमुख राजनीतिक-कानूनी घटनाक्रम क्या हुआ? / Major consequence after Shah Bano case?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अल्पसंख्यक पहचान की सुरक्षा समाप्त हुई / Minority protection abolished"
+      },
+      {
+        "id": "B",
+        "text": "न्यायालय ने अपना निर्णय वापस ले लिया / Court withdrew its judgment"
+      },
+      {
+        "id": "C",
+        "text": "तलाकशुदा मुस्लिम महिलाओं के अधिकारों पर 1986 का कानून बना / 1986 law on divorced Muslim women"
+      },
+      {
+        "id": "D",
+        "text": "भरण-पोषण का कानून पूरी तरह समाप्त हुआ / Maintenance law abolished"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "landmark-cases",
+    "difficulty": "hard",
+    "explanation": "शाह बानो (1985) में SC ने CrPC धारा 125 के तहत तलाकशुदा मुस्लिम महिला के भरण-पोषण का अधिकार माना। इसके बाद संसद ने Muslim Women (Protection of Rights on Divorce) Act, 1986 बनाया। यह न्यायालय द्वारा निर्णय वापस लेना नहीं, विधायी प्रतिक्रिया थी। CrPC 125 निराश्रित पत्नी, बच्चों और माता-पिता के भरण-पोषण से संबंधित है। Danial Latifi (2001) मामले में 1986 के कानून की व्याख्या हुई। PDF का पेन-नोट 1985 केस और 1986 कानून को जोड़ता है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq010",
+    "subjectId": "polity",
+    "question": "किस ऐतिहासिक मामले में SC ने माना कि प्रस्तावना संविधान का हिस्सा है? / Preamble held to be part of Constitution in which case?",
+    "options": [
+      {
+        "id": "A",
+        "text": "केशवानंद भारती मामला / Kesavananda Bharati case"
+      },
+      {
+        "id": "B",
+        "text": "मिनर्वा मिल्स / Minerva Mills"
+      },
+      {
+        "id": "C",
+        "text": "गोलकनाथ / Golaknath"
+      },
+      {
+        "id": "D",
+        "text": "बेरुबारी संघ / Berubari Union"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "landmark-cases",
+    "difficulty": "medium",
+    "explanation": "केशवानंद भारती बनाम केरल राज्य (1973) में 13 न्यायाधीशों की पीठ ने प्रस्तावना को संविधान का हिस्सा माना और मूल संरचना सिद्धांत प्रतिपादित किया। बेरुबारी (1960) में पहले प्रस्तावना को संविधान का हिस्सा नहीं माना गया था। संसद अनुच्छेद 368 के तहत संशोधन कर सकती है, पर मूल संरचना नष्ट नहीं कर सकती। मूल संरचना के उदाहरणों में संविधान की सर्वोच्चता, लोकतंत्र, धर्मनिरपेक्षता, संघवाद और न्यायिक समीक्षा हैं। PDF के नोट में 1973, 13 judges और Basic Structure लिखा है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq011",
+    "subjectId": "polity",
+    "question": "अनुच्छेद 127 के तहत तदर्थ SC न्यायाधीश की नियुक्ति के लिए किसकी पूर्व सहमति आवश्यक है? / Prior consent for ad hoc SC judge?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SC कॉलेजियम / Supreme Court Collegium"
+      },
+      {
+        "id": "B",
+        "text": "प्रधानमंत्री / Prime Minister"
+      },
+      {
+        "id": "C",
+        "text": "केंद्रीय विधि मंत्री / Union Law Minister"
+      },
+      {
+        "id": "D",
+        "text": "राष्ट्रपति / The President"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "supreme-court",
+    "difficulty": "hard",
+    "explanation": "अनुच्छेद 127 में न्यायाधीशों की संख्या अपर्याप्त होने पर CJI संबंधित उच्च न्यायालय के मुख्य न्यायाधीश से परामर्श करके योग्य HC न्यायाधीश को तदर्थ रूप से बैठने के लिए अनुरोध कर सकते हैं; राष्ट्रपति की पूर्व सहमति आवश्यक है। अनुच्छेद 126 कार्यवाहक CJI और 128 सेवानिवृत्त न्यायाधीशों की उपस्थिति से संबंधित है। पेन-नोट में ad hoc/temporary judge का संकेत है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq012",
+    "subjectId": "polity",
+    "question": "सर्वोच्च न्यायालय को Court of Record किस अनुच्छेद में घोषित किया गया है? / Supreme Court as Court of Record?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 128 / Article 128"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 129 / Article 129"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 130 / Article 130"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 131 / Article 131"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "supreme-court",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 129 SC को Court of Record बनाता है। उसके अभिलेख/निर्णय प्रामाणिक होते हैं और उसे अपनी अवमानना के लिए दंड देने की शक्ति है। उच्च न्यायालयों के लिए समान प्रावधान अनुच्छेद 215 है। अनुच्छेद 130 SC की सीट, 131 मूल अधिकारिता और 142 पूर्ण न्याय से संबंधित हैं। PDF के पेन-नोट में contempt power का स्पष्ट संकेत है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq013",
+    "subjectId": "polity",
+    "question": "SC को “पूर्ण न्याय” करने के लिए आदेश पारित करने की शक्ति किस अनुच्छेद में है? / Power to do complete justice?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 137 / Article 137"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 141 / Article 141"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 136 / Article 136"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 142 / Article 142"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "supreme-court",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 142 SC को लंबित मामले में पूर्ण न्याय हेतु आवश्यक डिक्री/आदेश पारित करने देता है। ऐसे आदेश पूरे भारत में प्रवर्तनीय हैं। अनुच्छेद 136 विशेष अनुमति याचिका, 137 समीक्षा और 141 SC द्वारा घोषित विधि की बाध्यकारी प्रकृति से संबंधित है। यह शक्ति न्यायपूर्ण समाधान हेतु है; इसे संविधान या कानून को मनमाने ढंग से बदलने की शक्ति न समझें। PDF में complete justice को 142 से जोड़ा गया है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq014",
+    "subjectId": "polity",
+    "question": "मूल संरचना सिद्धांत किस मामले में प्रतिपादित हुआ? / Case that propounded Basic Structure?",
+    "options": [
+      {
+        "id": "A",
+        "text": "एस. आर. बोम्मई / S. R. Bommai"
+      },
+      {
+        "id": "B",
+        "text": "केशवानंद भारती बनाम केरल राज्य / Kesavananda Bharati v. State of Kerala"
+      },
+      {
+        "id": "C",
+        "text": "गोलकनाथ बनाम पंजाब / Golaknath v. Punjab"
+      },
+      {
+        "id": "D",
+        "text": "बेरुबारी संघ / Berubari Union"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "landmark-cases",
+    "difficulty": "medium",
+    "explanation": "केशवानंद भारती (24 अप्रैल 1973) में 13-जज पीठ ने 7:6 के बहुमत से मूल संरचना सिद्धांत दिया। संसद संविधान संशोधन कर सकती है, लेकिन मूल संरचना नष्ट नहीं कर सकती। गोलकनाथ (1967) ने मौलिक अधिकारों में संशोधन पर रोक का दृष्टिकोण लिया; मिनर्वा मिल्स (1980) ने सीमित संशोधन शक्ति और FR-DPSP संतुलन को मूल संरचना से जोड़ा। PDF में यह PYQ दोहराया गया है; इस प्रश्न में निर्णय और पीठ पर ध्यान है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq015",
+    "subjectId": "polity",
+    "question": "सुप्रियो बनाम भारत संघ (2023) मामला मुख्यतः किस विषय से संबंधित था? / Supriyo v Union of India (2023) concerned which issue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "समलैंगिक विवाह को कानूनी मान्यता / Legal recognition of same-sex marriage"
+      },
+      {
+        "id": "B",
+        "text": "चुनावी वित्तपोषण / Electoral funding"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 370 का निरसन / Article 370 abrogation"
+      },
+      {
+        "id": "D",
+        "text": "डेटा संरक्षण और निजता / Data privacy"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "landmark-cases",
+    "difficulty": "medium",
+    "explanation": "सुप्रियो (2023) में SC ने समलैंगिक जोड़ों के विवाह को न्यायिक रूप से वैधानिक मान्यता देने से इनकार किया और कहा कि विवाह की नई व्यवस्था विधायिका का क्षेत्र है। निर्णय ने LGBTQIA+ गरिमा/समानता पर चर्चा की, पर विवाह का अधिकार मौलिक अधिकार घोषित नहीं किया। निजता का अधिकार Puttaswamy (2017) से और चुनावी बॉन्ड मामला (2024) चुनावी वित्तपोषण से जुड़ा है। PDF के नोट में same-sex marriage चिह्नित है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq016",
+    "subjectId": "polity",
+    "question": "कौन-सी रिट अधीनस्थ न्यायालय/अधिकरण को अधिकार-क्षेत्र से बाहर जाने से रोकती है? / Writ preventing lower court exceeding jurisdiction?",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्रतिषेध / Prohibition"
+      },
+      {
+        "id": "B",
+        "text": "परमादेश / Mandamus"
+      },
+      {
+        "id": "C",
+        "text": "अधिकार-पृच्छा / Quo Warranto"
+      },
+      {
+        "id": "D",
+        "text": "बंदी प्रत्यक्षीकरण / Habeas Corpus"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "writs",
+    "difficulty": "medium",
+    "explanation": "Prohibition रिट अधीनस्थ न्यायालय/अधिकरण को अधिकार-क्षेत्र से बाहर कार्यवाही जारी रखने से रोकती है और सामान्यतः निर्णय से पहले जारी होती है। Certiorari का प्रयोग पारित आदेश को निरस्त करने के लिए हो सकता है। Habeas Corpus अवैध हिरासत, Mandamus सार्वजनिक कर्तव्य, Quo Warranto सार्वजनिक पद पर अधिकार की जाँच से संबंधित हैं। PDF के पेन-नोट में prohibition और jurisdiction रोकने का संकेत है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq017",
+    "subjectId": "polity",
+    "question": "संघ सूची के विषयों के संबंध में SC की अधिकारिता का विस्तार कौन कर सकता है? / Who may extend SC jurisdiction for Union List matters?",
+    "options": [
+      {
+        "id": "A",
+        "text": "केवल राज्यसभा / Rajya Sabha alone"
+      },
+      {
+        "id": "B",
+        "text": "संसद / Parliament"
+      },
+      {
+        "id": "C",
+        "text": "राष्ट्रपति / President"
+      },
+      {
+        "id": "D",
+        "text": "भारत के मुख्य न्यायाधीश / CJI"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "supreme-court",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 138 संसद को कानून द्वारा SC की अधिकारिता का विस्तार करने देता है। अनुच्छेद 139 अतिरिक्त writ powers, 140 ancillary powers और 136 special leave petition से संबंधित हैं। इसलिए विस्तार का अधिकार संसद को है। PDF के पेन-नोट में Union List और Parliament का संकेत है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq018",
+    "subjectId": "polity",
+    "question": "सही मिलान चुनें: अनुच्छेद 140, 280, 356 क्रमशः किससे संबंधित हैं? / Match Articles 140, 280 and 356.",
+    "options": [
+      {
+        "id": "A",
+        "text": "सहायक शक्तियाँ, राष्ट्रपति शासन, वित्त आयोग / Ancillary powers, President’s Rule, Finance Commission"
+      },
+      {
+        "id": "B",
+        "text": "राष्ट्रपति शासन, सहायक शक्तियाँ, वित्त आयोग / President’s Rule, ancillary powers, Finance Commission"
+      },
+      {
+        "id": "C",
+        "text": "SC की सहायक शक्तियाँ, वित्त आयोग, राष्ट्रपति शासन / Ancillary SC powers, Finance Commission, President’s Rule"
+      },
+      {
+        "id": "D",
+        "text": "वित्त आयोग, राष्ट्रपति शासन, SC की सहायक शक्तियाँ / Finance Commission, President’s Rule, ancillary powers"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "constitutional-matching",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 140 SC की सहायक शक्तियाँ, 280 वित्त आयोग और 356 राज्य में संवैधानिक तंत्र विफल होने पर राष्ट्रपति शासन से संबंधित है। वित्त आयोग सामान्यतः हर पाँच वर्ष में गठित होता है। अनुच्छेद 352 राष्ट्रीय आपातकाल और 360 वित्तीय आपातकाल है। अनुच्छेद 356 की उद्घोषणा दो महीने के भीतर संसद से अनुमोदित होनी चाहिए। PDF में यही matching question दिया गया है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq019",
+    "subjectId": "polity",
+    "question": "इनमें से कौन-सा DPSP नहीं, बल्कि मौलिक अधिकार है? / Which is not a DPSP but a Fundamental Right?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पर्यावरण संरक्षण / Environmental protection"
+      },
+      {
+        "id": "B",
+        "text": "संवैधानिक उपचारों का अधिकार / Right to Constitutional Remedies"
+      },
+      {
+        "id": "C",
+        "text": "समान कार्य के लिए समान वेतन / Equal pay for equal work"
+      },
+      {
+        "id": "D",
+        "text": "ग्राम पंचायतों को बढ़ावा / Promotion of village panchayats"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "dpsp",
+    "difficulty": "easy",
+    "explanation": "संवैधानिक उपचार का अधिकार अनुच्छेद 32 और भाग III में मौलिक अधिकार है। DPSP भाग IV, अनुच्छेद 36–51 में हैं। पर्यावरण संरक्षण अनुच्छेद 48A, समान वेतन 39(d), ग्राम पंचायत 40 में हैं। DPSP न्यायालय में सीधे प्रवर्तनीय नहीं (अनुच्छेद 37), पर शासन में मूलभूत हैं। पेन-नोट में 36–51, 39(d), 43A और 48A के संकेत हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq020",
+    "subjectId": "polity",
+    "question": "मौलिक अधिकार संविधान के किस भाग में दिए गए हैं? / Fundamental Rights are in which Part?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाग III / Part III"
+      },
+      {
+        "id": "B",
+        "text": "भाग IV / Part IV"
+      },
+      {
+        "id": "C",
+        "text": "भाग I / Part I"
+      },
+      {
+        "id": "D",
+        "text": "भाग II / Part II"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fundamental-rights",
+    "difficulty": "easy",
+    "explanation": "मौलिक अधिकार भाग III, अनुच्छेद 12–35 में हैं: समानता 14–18, स्वतंत्रता 19–22, शोषण-विरोध 23–24, धर्म की स्वतंत्रता 25–28, सांस्कृतिक/शैक्षिक अधिकार 29–30 और उपचार 32। भाग II नागरिकता 5–11; भाग IV DPSP 36–51; भाग IVA मौलिक कर्तव्य 51A है। अनुच्छेद 12 राज्य और 13 FR-विरोधी कानूनों से संबंधित हैं। PDF के पेन-नोट में यही भाग/अनुच्छेद क्रम लिखा है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq021",
+    "subjectId": "polity",
+    "question": "उपराष्ट्रपति के पद से संबंधित प्रावधान संविधान के किस भाग में हैं? / Vice-President provisions are in which Part?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाग VI / Part VI"
+      },
+      {
+        "id": "B",
+        "text": "भाग V / Part V"
+      },
+      {
+        "id": "C",
+        "text": "भाग IV / Part IV"
+      },
+      {
+        "id": "D",
+        "text": "भाग III / Part III"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "union-executive",
+    "difficulty": "easy",
+    "explanation": "उपराष्ट्रपति भाग V (संघ) में आते हैं। अनुच्छेद 63 पद, 64 राज्यसभा के पदेन सभापति का कार्य और 65 राष्ट्रपति के रूप में कार्य करने से संबंधित हैं। राष्ट्रपति के प्रावधान 52–62, उपराष्ट्रपति 63–71 हैं। भाग V में संघ की कार्यपालिका, संसद, सर्वोच्च न्यायालय और CAG के प्रावधान भी हैं। PDF के नोट में Part V की 52–151 सीमा दी गई है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq022",
+    "subjectId": "polity",
+    "question": "अनुच्छेद 60 के अनुसार राष्ट्रपति को शपथ कौन दिलाता है? / Who administers President’s oath?",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्रधानमंत्री / Prime Minister"
+      },
+      {
+        "id": "B",
+        "text": "उपराष्ट्रपति / Vice-President"
+      },
+      {
+        "id": "C",
+        "text": "लोकसभा अध्यक्ष / Speaker of Lok Sabha"
+      },
+      {
+        "id": "D",
+        "text": "भारत के मुख्य न्यायाधीश / Chief Justice of India"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "president",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 60 के अनुसार CJI राष्ट्रपति को शपथ दिलाते हैं; उनकी अनुपस्थिति में SC के वरिष्ठतम उपलब्ध न्यायाधीश शपथ दिलाते हैं। उपराष्ट्रपति की शपथ अनुच्छेद 69 और राज्यपाल की अनुच्छेद 159 में है। राष्ट्रपति संविधान और विधि का परिरक्षण, संरक्षण और प्रतिरक्षण करने तथा जनता की सेवा/कल्याण का संकल्प लेते हैं। PDF के पेन-नोट में CJI और अनुपस्थिति का उल्लेख है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq023",
+    "subjectId": "polity",
+    "question": "राष्ट्रपति पद के उम्मीदवार की न्यूनतम आयु कितनी है? / Minimum age for President?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25 वर्ष / 25 years"
+      },
+      {
+        "id": "B",
+        "text": "21 वर्ष / 21 years"
+      },
+      {
+        "id": "C",
+        "text": "35 वर्ष / 35 years"
+      },
+      {
+        "id": "D",
+        "text": "30 वर्ष / 30 years"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "president",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 58 के अनुसार राष्ट्रपति उम्मीदवार की आयु कम-से-कम 35 वर्ष होनी चाहिए, वह भारत का नागरिक हो और लोकसभा सदस्य चुने जाने की योग्यता रखता हो। लोकसभा सदस्य 25 वर्ष, राज्यसभा सदस्य 30 वर्ष (अनुच्छेद 84), राज्यपाल 35 वर्ष (157) और मतदाता 18 वर्ष (326) का होना चाहिए। राष्ट्रपति का कार्यकाल पाँच वर्ष है (अनुच्छेद 56)। PDF के पेन-नोट में अलग पदों की आयु की तुलना है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq024",
+    "subjectId": "polity",
+    "question": "अनुच्छेद 111 के तहत राष्ट्रपति की suspensive veto शक्ति क्या है? / What is suspensive veto?",
+    "options": [
+      {
+        "id": "A",
+        "text": "विधेयक को SC भेजना / Refer to Supreme Court"
+      },
+      {
+        "id": "B",
+        "text": "विधेयक को स्थायी रूप से अस्वीकारना / Permanently reject"
+      },
+      {
+        "id": "C",
+        "text": "विधेयक को अनिश्चितकाल रोकना / Withhold indefinitely"
+      },
+      {
+        "id": "D",
+        "text": "गैर-धन विधेयक को पुनर्विचार के लिए लौटाना / Return a non-Money Bill for reconsideration"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "president",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 111 के तहत राष्ट्रपति साधारण/गैर-धन विधेयक को पुनर्विचार हेतु लौटा सकते हैं। संसद दोबारा पारित कर भेजे तो राष्ट्रपति को स्वीकृति देनी होती है। धन विधेयक लौटाया नहीं जा सकता। वीटो के प्रकार—पूर्ण, निलंबनकारी और जेबी—परीक्षा में पूछे जाते हैं। संविधान संशोधन विधेयक पर 24वें संशोधन के बाद राष्ट्रपति की स्वीकृति अनिवार्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq025",
+    "subjectId": "polity",
+    "question": "सितंबर 2021 में रामनाथ कोविंद ने तमिलनाडु का राज्यपाल किसे नियुक्त किया? / Who was appointed Governor of Tamil Nadu in September 2021?",
+    "options": [
+      {
+        "id": "A",
+        "text": "सी. वी. आनंद बोस / C. V. Ananda Bose"
+      },
+      {
+        "id": "B",
+        "text": "आरिफ मोहम्मद खान / Arif Mohammed Khan"
+      },
+      {
+        "id": "C",
+        "text": "आर. एन. रवि / R. N. Ravi"
+      },
+      {
+        "id": "D",
+        "text": "बनवारीलाल पुरोहित / Banwarilal Purohit"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "governors",
+    "difficulty": "easy",
+    "explanation": "PDF में सितंबर 2021 की नियुक्ति के लिए आर. एन. रवि सही हैं। राज्यपाल की नियुक्ति राष्ट्रपति अनुच्छेद 155 के तहत करते हैं; कार्यकाल अनुच्छेद 156 में राष्ट्रपति के प्रसादपर्यंत है। योग्यता अनुच्छेद 157—भारतीय नागरिकता और 35 वर्ष आयु। राज्यपाल राज्य का संवैधानिक प्रमुख है; वास्तविक कार्यपालिका मुख्यमंत्री और मंत्रिपरिषद चलाते हैं। यह ऐतिहासिक नियुक्ति-प्रश्न है, वर्तमान पदाधिकारी का प्रश्न नहीं।",
+    "language": "hi"
+  }
+]
