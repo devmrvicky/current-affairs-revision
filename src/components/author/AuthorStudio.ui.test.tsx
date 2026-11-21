@@ -218,10 +218,10 @@ describe('workspace walkthrough', () => {
     await user.click(within(viewer).getByRole('button', { name: 'Save' }));
     await waitFor(async () => expect(await (await getDB()).get('authorContent', file.id)).toMatchObject({ content: expect.stringContaining('New Parliament question?') }));
 
-    await waitFor(() => expect(within(viewer).getByRole('button', { name: 'Add to Practice' })).not.toBeDisabled());
+    await waitFor(() => expect((within(viewer).getByRole('button', { name: 'Add to Practice' }) as HTMLButtonElement).disabled).toBe(false));
     await user.click(within(viewer).getByRole('button', { name: 'Add to Practice' }));
     const publish = await screen.findByRole('dialog', { name: 'Add to Practice' });
-    expect(within(publish).getByLabelText('Subject')).toHaveValue('mathematics');
+    expect((within(publish).getByLabelText('Subject') as HTMLSelectElement).value).toBe('mathematics');
     await user.click(within(publish).getByRole('button', { name: 'Add to Practice' }));
     await waitFor(async () => expect(await questionBankRepository.getTestById(`local:author-${file.id}`)).toMatchObject({ title: 'practice', questionCount: 2 }));
   }, 30_000);
