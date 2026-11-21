@@ -3,13 +3,15 @@ import { motion } from 'framer-motion';
 import {
   Moon, Sun, Monitor, Volume2, VolumeX, Save, Eye,
   Keyboard, Settings, BookOpen, Bell, BellOff, Target,
-  Clock, Flame, AlertTriangle, CheckCircle2, Smartphone
+  Clock, Flame, AlertTriangle, CheckCircle2, Smartphone, ShieldCheck, Database, PenSquare
 } from 'lucide-react';
 import toast from 'react-hot-toast';
+import { Link } from 'react-router-dom';
 import { useSettingsStore } from '../store/statsStore';
 import { useNotificationStore } from '../store/notificationStore';
 import { useDailyGoalStore } from '../store/dailyGoalStore';
 import { AccountSyncCard } from '../components/auth/AccountSyncCard';
+import { useQuestionBankAccess } from '../hooks/useQuestionBankAccess';
 import type { Settings as SettingsType } from '../types';
 
 interface ToggleProps {
@@ -150,7 +152,8 @@ export default function SettingsPage() {
     settings: notifSettings, permissionState,
     load: loadNotif, save: saveNotif, setCategory: setNotifCategory, requestPermission
   } = useNotificationStore();
-  const { goal, load: loadGoal, setTarget } = useDailyGoalStore();
+  const { goal, load: loadGoal, setTarget, clearGoal } = useDailyGoalStore();
+  const { canManage } = useQuestionBankAccess();
   const [requestingPermission, setRequestingPermission] = useState(false);
 
   useEffect(() => {
@@ -181,6 +184,11 @@ export default function SettingsPage() {
   async function handleGoalChange(target: number) {
     await setTarget(target);
     toast.success(`Daily goal set to ${target} questions`, { duration: 1500 });
+  }
+
+  async function handleGoalClear() {
+    await clearGoal();
+    toast.success('Daily goal turned off', { duration: 1500 });
   }
 
   const fontSizes: { value: SettingsType['fontSize']; label: string }[] = [
@@ -251,7 +259,9 @@ export default function SettingsPage() {
           <h2 className="font-display font-semibold" style={{ color: 'var(--text-primary)' }}>Daily Goal</h2>
         </div>
         <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>
-          Set your daily question target. Current: <strong>{goal?.questionsToday ?? 0}/{goal?.target ?? 25}</strong> questions today.
+          {goal && goal.target > 0
+            ? <>Your daily question target. Today: <strong>{goal.questionsToday}/{goal.target}</strong> questions.</>
+            : <>No daily goal is set. Pick a target below — or set any number you like (or switch to tests per day) from the goal card on Home.</>}
         </p>
         <div className="grid grid-cols-4 gap-2">
           {goalOptions.map((target) => (
@@ -269,6 +279,9 @@ export default function SettingsPage() {
             </button>
           ))}
         </div>
+        {goal && goal.target > 0 && (
+          <button onClick={handleGoalClear} className="mt-3 min-h-11 text-sm font-medium text-brand-500 hover:text-brand-600">Turn the daily goal off</button>
+        )}
         {goal && goal.streakDays > 0 && (
           <div className="mt-3 flex items-center gap-2 text-sm">
             <Flame size={14} className="text-amber-500" />
@@ -279,6 +292,26 @@ export default function SettingsPage() {
           </div>
         )}
       </div>
+
+      {/* Admin tools — shown only to admins (see useQuestionBankAccess: this hides the screens; it is not what protects the shared bank). */}
+      {canManage && (
+        <div className="card p-5" data-testid="settings-admin">
+          <div className="flex items-center gap-2 mb-1">
+            <ShieldCheck size={18} className="text-brand-500" />
+            <h2 className="font-display font-semibold" style={{ color: 'var(--text-primary)' }}>Admin</h2>
+          </div>
+          <p className="text-xs mb-3" style={{ color: 'var(--text-muted)' }}>Content tools. Importing changes only this device; publishing changes the question bank for all users.</p>
+          <div className="space-y-1">
+            <Link to="/settings/question-bank" className="flex items-center gap-3 min-h-11 px-2 rounded-xl hover:bg-gray-50 dark:hover:bg-white/5">
+              <Database size={16} className="text-brand-500" aria-hidden /><span className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>Question Bank Manager</span>
+            </Link>
+            <Link to="/author-studio" className="flex items-center gap-3 min-h-11 px-2 rounded-xl hover:bg-gray-50 dark:hover:bg-white/5">
+              <PenSquare size={16} className="text-brand-500" aria-hidden /><span className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>Author Studio</span>
+              <span className="text-xs" style={{ color: 'var(--text-muted)' }}>private · stays on this device</span>
+            </Link>
+          </div>
+        </div>
+      )}
 
       {/* Quiz Preferences */}
       <div className="card p-5">

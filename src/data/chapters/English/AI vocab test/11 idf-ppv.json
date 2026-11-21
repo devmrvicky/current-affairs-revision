@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "vocab_idf_301",
+    "subjectId": "english",
+    "question": "The thief was caught red-___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "footed"
+      },
+      {
+        "id": "B",
+        "text": "handed"
+      },
+      {
+        "id": "C",
+        "text": "eyed"
+      },
+      {
+        "id": "D",
+        "text": "faced"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Caught red-handed = रंगे हाथों पकड़ा जाना। Example: The pickpocket was caught red-handed.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_302",
+    "subjectId": "english",
+    "question": "The minister is keeping a low ___ after the scandal.",
+    "options": [
+      {
+        "id": "A",
+        "text": "posture"
+      },
+      {
+        "id": "B",
+        "text": "face"
+      },
+      {
+        "id": "C",
+        "text": "tone"
+      },
+      {
+        "id": "D",
+        "text": "profile"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Keep a low profile = चुपचाप, ध्यान से दूर रहना। Example: The star kept a low profile after the controversy.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_303",
+    "subjectId": "english",
+    "question": "The plan failed, so we must go back to the drawing ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "table"
+      },
+      {
+        "id": "B",
+        "text": "desk"
+      },
+      {
+        "id": "C",
+        "text": "paper"
+      },
+      {
+        "id": "D",
+        "text": "board"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Back to the drawing board = नए सिरे से योजना बनाना। Example: Our design was rejected; it's back to the drawing board.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_304",
+    "subjectId": "english",
+    "question": "Before we start, let us make sure we are all on the same ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "line"
+      },
+      {
+        "id": "B",
+        "text": "level"
+      },
+      {
+        "id": "C",
+        "text": "page"
+      },
+      {
+        "id": "D",
+        "text": "side"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "On the same page = एक ही राय या समझ पर होना। Example: The partners must be on the same page about prices.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_305",
+    "subjectId": "english",
+    "question": "He went the whole nine ___ to make the guests comfortable.",
+    "options": [
+      {
+        "id": "A",
+        "text": "yards"
+      },
+      {
+        "id": "B",
+        "text": "feet"
+      },
+      {
+        "id": "C",
+        "text": "steps"
+      },
+      {
+        "id": "D",
+        "text": "miles"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "The whole nine yards = पूरी तरह, कोई कसर न छोड़ते हुए। Example: They gave us the whole nine yards at the wedding.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_306",
+    "subjectId": "english",
+    "question": "She stood her ___ even when everyone opposed her.",
+    "options": [
+      {
+        "id": "A",
+        "text": "post"
+      },
+      {
+        "id": "B",
+        "text": "ground"
+      },
+      {
+        "id": "C",
+        "text": "turf"
+      },
+      {
+        "id": "D",
+        "text": "land"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Stand one's ground = अपनी बात पर डटे रहना। Example: The witness stood his ground in court.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_307",
+    "subjectId": "english",
+    "question": "He must be off his ___ to quit such a good job.",
+    "options": [
+      {
+        "id": "A",
+        "text": "rocker"
+      },
+      {
+        "id": "B",
+        "text": "bed"
+      },
+      {
+        "id": "C",
+        "text": "stool"
+      },
+      {
+        "id": "D",
+        "text": "chair"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Off one's rocker = पागल, सनकी (दिमाग़ फिरा हुआ)। Example: You are off your rocker if you invest everything in it.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_308",
+    "subjectId": "english",
+    "question": "She fell head over ___ in love with a singer.",
+    "options": [
+      {
+        "id": "A",
+        "text": "shoulders"
+      },
+      {
+        "id": "B",
+        "text": "heels"
+      },
+      {
+        "id": "C",
+        "text": "feet"
+      },
+      {
+        "id": "D",
+        "text": "toes"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Head over heels = पूरी तरह प्रेम में डूबा। Example: He is head over heels in love.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_309",
+    "subjectId": "english",
+    "question": "The two runners were neck and ___ in the final lap.",
+    "options": [
+      {
+        "id": "A",
+        "text": "nose"
+      },
+      {
+        "id": "B",
+        "text": "head"
+      },
+      {
+        "id": "C",
+        "text": "shoulder"
+      },
+      {
+        "id": "D",
+        "text": "neck"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Neck and neck = बराबरी की टक्कर में। Example: The two parties are neck and neck in the polls.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_310",
+    "subjectId": "english",
+    "question": "In the crowded old town, rich shops stand cheek by ___ with poor huts.",
+    "options": [
+      {
+        "id": "A",
+        "text": "brow"
+      },
+      {
+        "id": "B",
+        "text": "jowl"
+      },
+      {
+        "id": "C",
+        "text": "chin"
+      },
+      {
+        "id": "D",
+        "text": "neck"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Cheek by jowl = एकदम सटे हुए, पास-पास। Example: Houses stood cheek by jowl in the narrow lane.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_311",
+    "subjectId": "english",
+    "question": "The poor man was sent from pillar to ___ for a simple certificate.",
+    "options": [
+      {
+        "id": "A",
+        "text": "wall"
+      },
+      {
+        "id": "B",
+        "text": "pole"
+      },
+      {
+        "id": "C",
+        "text": "post"
+      },
+      {
+        "id": "D",
+        "text": "gate"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "From pillar to post = एक जगह से दूसरी जगह भटकाया जाना। Example: Patients are sent from pillar to post in some offices.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_312",
+    "subjectId": "english",
+    "question": "He will get the contract by hook or by ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "rope"
+      },
+      {
+        "id": "B",
+        "text": "bait"
+      },
+      {
+        "id": "C",
+        "text": "crook"
+      },
+      {
+        "id": "D",
+        "text": "line"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "By hook or by crook = किसी भी तरीक़े से। Example: She will win by hook or by crook.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_313",
+    "subjectId": "english",
+    "question": "Honesty pays in the long ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "walk"
+      },
+      {
+        "id": "B",
+        "text": "jump"
+      },
+      {
+        "id": "C",
+        "text": "run"
+      },
+      {
+        "id": "D",
+        "text": "race"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "In the long run = लंबे समय में। Example: Hard work pays off in the long run.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_314",
+    "subjectId": "english",
+    "question": "The answer is on the tip of my ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "tongue"
+      },
+      {
+        "id": "B",
+        "text": "lips"
+      },
+      {
+        "id": "C",
+        "text": "pen"
+      },
+      {
+        "id": "D",
+        "text": "mind"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "On the tip of one's tongue = ज़ुबान पर आकर भी याद न आना। Example: His name is on the tip of my tongue.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_315",
+    "subjectId": "english",
+    "question": "He is in the ___ for forgetting his wife's birthday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "kitchen"
+      },
+      {
+        "id": "B",
+        "text": "doghouse"
+      },
+      {
+        "id": "C",
+        "text": "bedroom"
+      },
+      {
+        "id": "D",
+        "text": "garden"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "In the doghouse = नाराज़गी में, बदनाम। Example: He was in the doghouse after missing the party.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_316",
+    "subjectId": "english",
+    "question": "To cut a long story ___, he lost the case.",
+    "options": [
+      {
+        "id": "A",
+        "text": "thin"
+      },
+      {
+        "id": "B",
+        "text": "small"
+      },
+      {
+        "id": "C",
+        "text": "brief"
+      },
+      {
+        "id": "D",
+        "text": "short"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "To cut a long story short = संक्षेप में। Example: To cut a long story short, we missed the train.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_317",
+    "subjectId": "english",
+    "question": "The constant noise drove me up the ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "hill"
+      },
+      {
+        "id": "B",
+        "text": "wall"
+      },
+      {
+        "id": "C",
+        "text": "tree"
+      },
+      {
+        "id": "D",
+        "text": "stairs"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Drive someone up the wall = बहुत परेशान कर देना। Example: His loud music drives me up the wall.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_318",
+    "subjectId": "english",
+    "question": "I had butterflies in my ___ before the speech.",
+    "options": [
+      {
+        "id": "A",
+        "text": "head"
+      },
+      {
+        "id": "B",
+        "text": "throat"
+      },
+      {
+        "id": "C",
+        "text": "chest"
+      },
+      {
+        "id": "D",
+        "text": "stomach"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Butterflies in the stomach = घबराहट होना। Example: She had butterflies in her stomach before the interview.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_319",
+    "subjectId": "english",
+    "question": "We waited with bated ___ for the result.",
+    "options": [
+      {
+        "id": "A",
+        "text": "hope"
+      },
+      {
+        "id": "B",
+        "text": "anxiety"
+      },
+      {
+        "id": "C",
+        "text": "breath"
+      },
+      {
+        "id": "D",
+        "text": "fear"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "With bated breath = साँस रोककर। Example: The crowd watched with bated breath.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_320",
+    "subjectId": "english",
+    "question": "I am sick and ___ of his excuses.",
+    "options": [
+      {
+        "id": "A",
+        "text": "tired"
+      },
+      {
+        "id": "B",
+        "text": "bored"
+      },
+      {
+        "id": "C",
+        "text": "angry"
+      },
+      {
+        "id": "D",
+        "text": "upset"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Sick and tired of = पूरी तरह ऊब चुका। Example: I am sick and tired of the delay.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_321",
+    "subjectId": "english",
+    "question": "He is as good as his ___ and never breaks a promise.",
+    "options": [
+      {
+        "id": "A",
+        "text": "promise"
+      },
+      {
+        "id": "B",
+        "text": "word"
+      },
+      {
+        "id": "C",
+        "text": "deed"
+      },
+      {
+        "id": "D",
+        "text": "oath"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "As good as one's word = वादे का पक्का। Example: Trust him; he is as good as his word.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_322",
+    "subjectId": "english",
+    "question": "Let us give him the benefit of the ___ until we know more.",
+    "options": [
+      {
+        "id": "A",
+        "text": "hour"
+      },
+      {
+        "id": "B",
+        "text": "chance"
+      },
+      {
+        "id": "C",
+        "text": "trust"
+      },
+      {
+        "id": "D",
+        "text": "doubt"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Benefit of the doubt = शक का लाभ देना। Example: The judge gave the accused the benefit of the doubt.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_323",
+    "subjectId": "english",
+    "question": "He learned the hard ___ not to trust strangers.",
+    "options": [
+      {
+        "id": "A",
+        "text": "way"
+      },
+      {
+        "id": "B",
+        "text": "path"
+      },
+      {
+        "id": "C",
+        "text": "road"
+      },
+      {
+        "id": "D",
+        "text": "lesson"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Learn the hard way = ठोकर खाकर सीखना। Example: She learned the hard way to save money.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_324",
+    "subjectId": "english",
+    "question": "He who pays the ___ calls the tune.",
+    "options": [
+      {
+        "id": "A",
+        "text": "singer"
+      },
+      {
+        "id": "B",
+        "text": "piper"
+      },
+      {
+        "id": "C",
+        "text": "dancer"
+      },
+      {
+        "id": "D",
+        "text": "drummer"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "He who pays the piper calls the tune = जो ख़र्च उठाता है, फ़ैसला उसी का चलता है। Example: The sponsor chose the venue; he who pays the piper calls the tune.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_325",
+    "subjectId": "english",
+    "question": "It took her a year to come to ___ with her loss.",
+    "options": [
+      {
+        "id": "A",
+        "text": "rules"
+      },
+      {
+        "id": "B",
+        "text": "ends"
+      },
+      {
+        "id": "C",
+        "text": "terms"
+      },
+      {
+        "id": "D",
+        "text": "peace"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Come to terms with = कठिन सच्चाई को स्वीकार कर लेना। Example: He has come to terms with his failure.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_326",
+    "subjectId": "english",
+    "question": "The police are determined to get to the ___ of the mystery.",
+    "options": [
+      {
+        "id": "A",
+        "text": "bottom"
+      },
+      {
+        "id": "B",
+        "text": "top"
+      },
+      {
+        "id": "C",
+        "text": "depth"
+      },
+      {
+        "id": "D",
+        "text": "end"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Get to the bottom of = तह तक पहुँचना। Example: The committee will get to the bottom of the scam.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_327",
+    "subjectId": "english",
+    "question": "The cruel landlord has a heart of ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "wood"
+      },
+      {
+        "id": "B",
+        "text": "glass"
+      },
+      {
+        "id": "C",
+        "text": "sand"
+      },
+      {
+        "id": "D",
+        "text": "stone"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Heart of stone = पत्थरदिल। Example: Only a heart of stone could ignore her tears.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_328",
+    "subjectId": "english",
+    "question": "The crowded city was sitting on a powder ___ of anger.",
+    "options": [
+      {
+        "id": "A",
+        "text": "bag"
+      },
+      {
+        "id": "B",
+        "text": "bin"
+      },
+      {
+        "id": "C",
+        "text": "keg"
+      },
+      {
+        "id": "D",
+        "text": "box"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Sitting on a powder keg = विस्फोटक हालात में होना। Example: The border town is sitting on a powder keg.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_329",
+    "subjectId": "english",
+    "question": "The two brothers are at ___ over the family land.",
+    "options": [
+      {
+        "id": "A",
+        "text": "odds"
+      },
+      {
+        "id": "B",
+        "text": "home"
+      },
+      {
+        "id": "C",
+        "text": "ease"
+      },
+      {
+        "id": "D",
+        "text": "rest"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "At odds with = मतभेद या टकराव में। Example: The partners are at odds over the plan.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idf_330",
+    "subjectId": "english",
+    "question": "His remark was made tongue in ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "cheek"
+      },
+      {
+        "id": "B",
+        "text": "jaw"
+      },
+      {
+        "id": "C",
+        "text": "lip"
+      },
+      {
+        "id": "D",
+        "text": "mouth"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Tongue in cheek = मज़ाक़ या व्यंग्य में कही बात। Example: She wrote the review tongue in cheek.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_301",
+    "subjectId": "english",
+    "question": "The hall was crowded ___ spectators.",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "by"
+      },
+      {
+        "id": "D",
+        "text": "in"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "easy",
+    "explanation": "Crowded with = से भरा हुआ। Example: The market was crowded with shoppers.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_302",
+    "subjectId": "english",
+    "question": "He is superior ___ me in rank.",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "from"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "than"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Superior to = से श्रेष्ठ (यहाँ than नहीं आता)। Example: This model is superior to the old one.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_303",
+    "subjectId": "english",
+    "question": "She is blessed ___ good health.",
+    "options": [
+      {
+        "id": "A",
+        "text": "of"
+      },
+      {
+        "id": "B",
+        "text": "by"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "in"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Blessed with = से संपन्न। Example: He is blessed with a loving family.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_304",
+    "subjectId": "english",
+    "question": "The workers protested ___ the new rules.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to"
+      },
+      {
+        "id": "B",
+        "text": "against"
+      },
+      {
+        "id": "C",
+        "text": "for"
+      },
+      {
+        "id": "D",
+        "text": "at"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "easy",
+    "explanation": "Protest against = का विरोध करना। Example: Students protested against the fee hike.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_305",
+    "subjectId": "english",
+    "question": "The committee consists ___ ten members.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "from"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "easy",
+    "explanation": "Consist of = से मिलकर बना होना। Example: The team consists of eleven players.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_306",
+    "subjectId": "english",
+    "question": "He is guilty ___ murder.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "in"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "of"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Guilty of = का दोषी। Example: She is guilty of negligence.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_307",
+    "subjectId": "english",
+    "question": "The soldiers were armed ___ rifles.",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "by"
+      },
+      {
+        "id": "C",
+        "text": "in"
+      },
+      {
+        "id": "D",
+        "text": "of"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "easy",
+    "explanation": "Armed with = से लैस। Example: The guard was armed with a stick.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_308",
+    "subjectId": "english",
+    "question": "The speaker referred ___ a recent survey.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to"
+      },
+      {
+        "id": "B",
+        "text": "for"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Refer to = का उल्लेख करना। Example: He referred to a news report.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_309",
+    "subjectId": "english",
+    "question": "He is intent ___ winning the contest.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "in"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "hard",
+    "explanation": "Intent on = पर कृतसंकल्प। Example: She is intent on becoming a doctor.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_310",
+    "subjectId": "english",
+    "question": "The accident was attributed ___ carelessness.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to"
+      },
+      {
+        "id": "B",
+        "text": "for"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Attribute to = का कारण बताना। Example: The failure was attributed to poor planning.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_311",
+    "subjectId": "english",
+    "question": "The engine broke ___ on the highway.",
+    "options": [
+      {
+        "id": "A",
+        "text": "down"
+      },
+      {
+        "id": "B",
+        "text": "away"
+      },
+      {
+        "id": "C",
+        "text": "out"
+      },
+      {
+        "id": "D",
+        "text": "off"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "easy",
+    "explanation": "Break down = ख़राब हो जाना। Example: The bus broke down near the bridge.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_312",
+    "subjectId": "english",
+    "question": "The bomb went ___ at noon.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "away"
+      },
+      {
+        "id": "C",
+        "text": "out"
+      },
+      {
+        "id": "D",
+        "text": "off"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "easy",
+    "explanation": "Go off = फट जाना। Example: The alarm went off at six.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_313",
+    "subjectId": "english",
+    "question": "The lecture livened ___ when the guest arrived.",
+    "options": [
+      {
+        "id": "A",
+        "text": "out"
+      },
+      {
+        "id": "B",
+        "text": "off"
+      },
+      {
+        "id": "C",
+        "text": "up"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Liven up = रंगत आ जाना। Example: The party livened up after the music started.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_314",
+    "subjectId": "english",
+    "question": "He tried to butter ___ the boss for a promotion.",
+    "options": [
+      {
+        "id": "A",
+        "text": "off"
+      },
+      {
+        "id": "B",
+        "text": "out"
+      },
+      {
+        "id": "C",
+        "text": "up"
+      },
+      {
+        "id": "D",
+        "text": "down"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "hard",
+    "explanation": "Butter up = चापलूसी करना। Example: Don't butter up the teacher.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_315",
+    "subjectId": "english",
+    "question": "The students were told to brush ___ their lessons.",
+    "options": [
+      {
+        "id": "A",
+        "text": "down"
+      },
+      {
+        "id": "B",
+        "text": "away"
+      },
+      {
+        "id": "C",
+        "text": "off"
+      },
+      {
+        "id": "D",
+        "text": "up"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Brush up = (पढ़ाई को) दोहराकर निखारना। Example: She is brushing up her French.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_316",
+    "subjectId": "english",
+    "question": "The committee hopes to hammer ___ a deal by evening.",
+    "options": [
+      {
+        "id": "A",
+        "text": "up"
+      },
+      {
+        "id": "B",
+        "text": "down"
+      },
+      {
+        "id": "C",
+        "text": "off"
+      },
+      {
+        "id": "D",
+        "text": "out"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "hard",
+    "explanation": "Hammer out = लंबी बहस के बाद समझौता निकालना। Example: The leaders hammered out an agreement.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_317",
+    "subjectId": "english",
+    "question": "The volunteers tried to drum ___ support for the campaign.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "up"
+      },
+      {
+        "id": "C",
+        "text": "in"
+      },
+      {
+        "id": "D",
+        "text": "off"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "hard",
+    "explanation": "Drum up = (समर्थन) जुटाना। Example: They drummed up funds for the school.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_318",
+    "subjectId": "english",
+    "question": "The rain will let ___ by evening.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "up"
+      },
+      {
+        "id": "C",
+        "text": "out"
+      },
+      {
+        "id": "D",
+        "text": "over"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Let up = (बारिश या दबाव का) कम होना। Example: The storm did not let up all night.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_319",
+    "subjectId": "english",
+    "question": "Everyone chipped ___ to buy a gift for the teacher.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "over"
+      },
+      {
+        "id": "C",
+        "text": "off"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Chip in = मिलकर पैसे देना। Example: We chipped in for the party.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_320",
+    "subjectId": "english",
+    "question": "A dispute flared ___ between the neighbours.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "off"
+      },
+      {
+        "id": "C",
+        "text": "up"
+      },
+      {
+        "id": "D",
+        "text": "out"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Flare up = अचानक भड़क उठना। Example: Violence flared up again.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_321",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: He is very fond [for] chocolates.",
+    "options": [
+      {
+        "id": "A",
+        "text": "of"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "easy",
+    "explanation": "Fond of = का शौक़ीन। Example: She is fond of music.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_322",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: The teacher is satisfied [from] his work.",
+    "options": [
+      {
+        "id": "A",
+        "text": "of"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Satisfied with = से संतुष्ट। Example: He is satisfied with the result.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_323",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: The thief escaped [from] the prison.",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "off"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Escape from = से भाग निकलना। वाक्य सही है। Example: Two prisoners escaped from the jail.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_324",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: Children should be obedient [for] their parents.",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "by"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Obedient to = का आज्ञाकारी। Example: A soldier is obedient to orders.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_325",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: She is aware [about] the danger.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "to"
+      },
+      {
+        "id": "C",
+        "text": "of"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Aware of = से अवगत। Example: Are you aware of the risk?",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_326",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: He was charged [for] murder.",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Charged with = पर आरोप लगाया गया। Example: He was charged with theft.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_327",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: The book is full [with] errors.",
+    "options": [
+      {
+        "id": "A",
+        "text": "of"
+      },
+      {
+        "id": "B",
+        "text": "in"
+      },
+      {
+        "id": "C",
+        "text": "by"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "easy",
+    "explanation": "Full of = से भरा। Example: The bag is full of books.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_328",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: He was dismissed [from] service for negligence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "of"
+      },
+      {
+        "id": "B",
+        "text": "by"
+      },
+      {
+        "id": "C",
+        "text": "off"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Dismissed from = से बर्ख़ास्त। वाक्य सही है। Example: The clerk was dismissed from his post.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_329",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: He has been living here [from] 2015.",
+    "options": [
+      {
+        "id": "A",
+        "text": "since"
+      },
+      {
+        "id": "B",
+        "text": "for"
+      },
+      {
+        "id": "C",
+        "text": "by"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "Since + आरंभ-बिंदु, for + अवधि। Example: She has taught here since 2010.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ppv_330",
+    "subjectId": "english",
+    "question": "Improve the bracketed part of the sentence: The train will arrive [in] 5 pm.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "by"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions-phrasal-verbs",
+    "difficulty": "easy",
+    "explanation": "At + निश्चित समय। Example: The meeting starts at noon.",
+    "language": "en"
+  }
+]

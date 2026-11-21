@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_ows_211",
+    "subjectId": "english",
+    "question": "Choose the one word for: The method of growing plants in water without using soil.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aeronautics"
+      },
+      {
+        "id": "B",
+        "text": "Agronomy"
+      },
+      {
+        "id": "C",
+        "text": "Hydrology"
+      },
+      {
+        "id": "D",
+        "text": "Hydroponics"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Hydroponics = मिट्टी के बिना पानी में पौधे उगाने की विधि। Example: Lettuce is grown by hydroponics in the greenhouse.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_212",
+    "subjectId": "english",
+    "question": "Choose the one word for: The scientific study of birds' eggs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ornithology"
+      },
+      {
+        "id": "B",
+        "text": "Oncology"
+      },
+      {
+        "id": "C",
+        "text": "Oology"
+      },
+      {
+        "id": "D",
+        "text": "Ontology"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Oology = अंडा-विज्ञान (पक्षियों के अंडों का अध्ययन)। Example: The museum's oology collection has eggs of rare birds.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_213",
+    "subjectId": "english",
+    "question": "Choose the one word for: The scientific study of soils.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pedology"
+      },
+      {
+        "id": "B",
+        "text": "Petrology"
+      },
+      {
+        "id": "C",
+        "text": "Pedagogy"
+      },
+      {
+        "id": "D",
+        "text": "Podiatry"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Pedology = मृदा-विज्ञान। Example: Pedology helps farmers choose the right crop for their land.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_214",
+    "subjectId": "english",
+    "question": "Choose the one word for: The art or science of measuring time and making clocks.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Horology"
+      },
+      {
+        "id": "B",
+        "text": "Horticulture"
+      },
+      {
+        "id": "C",
+        "text": "Heraldry"
+      },
+      {
+        "id": "D",
+        "text": "Hagiology"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Horology = घड़ी-निर्माण व काल-मापन विद्या। Example: He studied horology to repair antique clocks.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_215",
+    "subjectId": "english",
+    "question": "Choose the one word for: The study of ancient inscriptions.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ethnography"
+      },
+      {
+        "id": "B",
+        "text": "Epigraphy"
+      },
+      {
+        "id": "C",
+        "text": "Topography"
+      },
+      {
+        "id": "D",
+        "text": "Etymology"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Epigraphy = शिलालेख-विज्ञान। Example: Epigraphy helped historians read Ashoka's edicts.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_216",
+    "subjectId": "english",
+    "question": "Choose the one word for: The study of coats of arms and family crests.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Calligraphy"
+      },
+      {
+        "id": "B",
+        "text": "Cryptography"
+      },
+      {
+        "id": "C",
+        "text": "Heraldry"
+      },
+      {
+        "id": "D",
+        "text": "Numismatics"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Heraldry = कुल-चिह्न विद्या। Example: The castle gate is decorated with symbols of heraldry.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_217",
+    "subjectId": "english",
+    "question": "Choose the one word for: The killing of a king or queen.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Patricide"
+      },
+      {
+        "id": "B",
+        "text": "Infanticide"
+      },
+      {
+        "id": "C",
+        "text": "Regicide"
+      },
+      {
+        "id": "D",
+        "text": "Fratricide"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Regicide = राजहत्या। Example: The regicide shocked the whole kingdom.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_218",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who believes that nothing can be known about the existence of God.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agnostic"
+      },
+      {
+        "id": "B",
+        "text": "Heretic"
+      },
+      {
+        "id": "C",
+        "text": "Atheist"
+      },
+      {
+        "id": "D",
+        "text": "Theist"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Agnostic = अज्ञेयवादी। Example: An agnostic neither accepts nor rejects the idea of God.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_219",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who gives up his religion or political party.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zealot"
+      },
+      {
+        "id": "B",
+        "text": "Pagan"
+      },
+      {
+        "id": "C",
+        "text": "Missionary"
+      },
+      {
+        "id": "D",
+        "text": "Apostate"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Apostate = धर्म या दल का त्यागी, पथभ्रष्ट। Example: The apostate left the party after twenty years.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_220",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who tells stories and anecdotes in an interesting way.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Orator"
+      },
+      {
+        "id": "B",
+        "text": "Ventriloquist"
+      },
+      {
+        "id": "C",
+        "text": "Raconteur"
+      },
+      {
+        "id": "D",
+        "text": "Mimic"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Raconteur = क़िस्से सुनाने में माहिर व्यक्ति। Example: The old colonel was a fine raconteur at dinners.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_221",
+    "subjectId": "english",
+    "question": "Choose the one word for: A guide who shows tourists around a place of interest.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Valet"
+      },
+      {
+        "id": "B",
+        "text": "Cicerone"
+      },
+      {
+        "id": "C",
+        "text": "Porter"
+      },
+      {
+        "id": "D",
+        "text": "Concierge"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Cicerone = पर्यटक-मार्गदर्शक। Example: A cicerone explained the history of the fort.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_222",
+    "subjectId": "english",
+    "question": "Choose the one word for: A speech or writing that praises a person highly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Satire"
+      },
+      {
+        "id": "B",
+        "text": "Elegy"
+      },
+      {
+        "id": "C",
+        "text": "Tirade"
+      },
+      {
+        "id": "D",
+        "text": "Panegyric"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Panegyric = प्रशस्ति, स्तुति-लेख। Example: The poet wrote a panegyric on the king's victory.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_223",
+    "subjectId": "english",
+    "question": "Choose the one word for: A bitter and abusive attack in speech or writing.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Diatribe"
+      },
+      {
+        "id": "B",
+        "text": "Monologue"
+      },
+      {
+        "id": "C",
+        "text": "Eulogy"
+      },
+      {
+        "id": "D",
+        "text": "Soliloquy"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Diatribe = कटु और तीखी आलोचना। Example: He launched into a diatribe against the council.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_224",
+    "subjectId": "english",
+    "question": "Choose the one word for: Government by the wealthy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bureaucracy"
+      },
+      {
+        "id": "B",
+        "text": "Technocracy"
+      },
+      {
+        "id": "C",
+        "text": "Gerontocracy"
+      },
+      {
+        "id": "D",
+        "text": "Plutocracy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Plutocracy = धनिकतंत्र (धनवानों का शासन)। Example: Critics say money rules in a plutocracy.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_225",
+    "subjectId": "english",
+    "question": "Choose the one word for: A system in which people rise by their ability and not by birth or wealth.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Autocracy"
+      },
+      {
+        "id": "B",
+        "text": "Meritocracy"
+      },
+      {
+        "id": "C",
+        "text": "Anarchy"
+      },
+      {
+        "id": "D",
+        "text": "Aristocracy"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Meritocracy = योग्यतातंत्र। Example: A meritocracy rewards talent, not family name.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_226",
+    "subjectId": "english",
+    "question": "Choose the one word for: Something that belongs to a different time from the one in which it appears.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anachronism"
+      },
+      {
+        "id": "B",
+        "text": "Interlude"
+      },
+      {
+        "id": "C",
+        "text": "Hiatus"
+      },
+      {
+        "id": "D",
+        "text": "Chronicle"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Anachronism = कालदोष (असंगत काल की वस्तु)। Example: A wristwatch in a film about ancient Rome is an anachronism.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_227",
+    "subjectId": "english",
+    "question": "Choose the one word for: A short statement that expresses a general truth.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Slogan"
+      },
+      {
+        "id": "B",
+        "text": "Epitaph"
+      },
+      {
+        "id": "C",
+        "text": "Euphemism"
+      },
+      {
+        "id": "D",
+        "text": "Aphorism"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Aphorism = सूक्ति। Example: 'Haste makes waste' is a well-known aphorism.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_228",
+    "subjectId": "english",
+    "question": "Choose the one word for: An agreement to stop fighting for a period of time.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sanction"
+      },
+      {
+        "id": "B",
+        "text": "Ultimatum"
+      },
+      {
+        "id": "C",
+        "text": "Armistice"
+      },
+      {
+        "id": "D",
+        "text": "Blockade"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Armistice = युद्धविराम-समझौता। Example: The armistice ended four years of war.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_229",
+    "subjectId": "english",
+    "question": "Choose the one word for: An official ban on trade with a particular country.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Royalty"
+      },
+      {
+        "id": "B",
+        "text": "Embargo"
+      },
+      {
+        "id": "C",
+        "text": "Dividend"
+      },
+      {
+        "id": "D",
+        "text": "Subsidy"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Embargo = व्यापार-प्रतिबंध। Example: The embargo stopped all oil exports.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_230",
+    "subjectId": "english",
+    "question": "Choose the one word for: A delay or cancellation of a punishment, especially a death sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acquittal"
+      },
+      {
+        "id": "B",
+        "text": "Reprieve"
+      },
+      {
+        "id": "C",
+        "text": "Probation"
+      },
+      {
+        "id": "D",
+        "text": "Extradition"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Reprieve = दंड का स्थगन या राहत। Example: The convict got a last-minute reprieve.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_231",
+    "subjectId": "english",
+    "question": "Choose the one word for: An exact copy of a document or a picture.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Facsimile"
+      },
+      {
+        "id": "B",
+        "text": "Prototype"
+      },
+      {
+        "id": "C",
+        "text": "Draft"
+      },
+      {
+        "id": "D",
+        "text": "Archive"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Facsimile = हू-ब-हू प्रतिलिपि। Example: The museum displays a facsimile of the old charter.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_232",
+    "subjectId": "english",
+    "question": "Choose the one word for: A planned route or a list of places to be visited on a journey.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Voyage"
+      },
+      {
+        "id": "B",
+        "text": "Pilgrimage"
+      },
+      {
+        "id": "C",
+        "text": "Excursion"
+      },
+      {
+        "id": "D",
+        "text": "Itinerary"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Itinerary = यात्रा-कार्यक्रम। Example: Our itinerary includes Jaipur and Udaipur.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_233",
+    "subjectId": "english",
+    "question": "Choose the one word for: The examination of tissue taken from a living body to find a disease.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Autopsy"
+      },
+      {
+        "id": "B",
+        "text": "Transfusion"
+      },
+      {
+        "id": "C",
+        "text": "Biopsy"
+      },
+      {
+        "id": "D",
+        "text": "Dialysis"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Biopsy = ऊतक-परीक्षण (जीवित शरीर से)। Example: The doctor ordered a biopsy of the lump.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_234",
+    "subjectId": "english",
+    "question": "Choose the one word for: A forecast of the likely course of a disease.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Symptom"
+      },
+      {
+        "id": "B",
+        "text": "Therapy"
+      },
+      {
+        "id": "C",
+        "text": "Diagnosis"
+      },
+      {
+        "id": "D",
+        "text": "Prognosis"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Prognosis = रोग का पूर्वानुमान। Example: The doctor gave a hopeful prognosis.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_235",
+    "subjectId": "english",
+    "question": "Choose the one word for: A doctor who treats disorders of the foot.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Optician"
+      },
+      {
+        "id": "B",
+        "text": "Podiatrist"
+      },
+      {
+        "id": "C",
+        "text": "Dermatologist"
+      },
+      {
+        "id": "D",
+        "text": "Radiologist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Podiatrist = पाद-चिकित्सक। Example: A podiatrist treated her ankle pain.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_236",
+    "subjectId": "english",
+    "question": "Choose the one word for: A specialist who studies and treats the hair and scalp.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Trichologist"
+      },
+      {
+        "id": "B",
+        "text": "Dentist"
+      },
+      {
+        "id": "C",
+        "text": "Neurologist"
+      },
+      {
+        "id": "D",
+        "text": "Cardiologist"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Trichologist = केश-रोग विशेषज्ञ। Example: A trichologist advised him on hair fall.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_237",
+    "subjectId": "english",
+    "question": "Choose the one word for: A doctor who specialises in childbirth and the care of women during pregnancy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obstetrician"
+      },
+      {
+        "id": "B",
+        "text": "Anaesthetist"
+      },
+      {
+        "id": "C",
+        "text": "Orthopaedist"
+      },
+      {
+        "id": "D",
+        "text": "Paediatrician"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Obstetrician = प्रसूति-विशेषज्ञ। Example: The obstetrician delivered the baby safely.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_238",
+    "subjectId": "english",
+    "question": "Choose the one word for: An imaginary place or state in which everything is perfect.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Metropolis"
+      },
+      {
+        "id": "B",
+        "text": "Necropolis"
+      },
+      {
+        "id": "C",
+        "text": "Utopia"
+      },
+      {
+        "id": "D",
+        "text": "Oasis"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Utopia = आदर्श काल्पनिक लोक। Example: Thomas More wrote about an island called Utopia.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_239",
+    "subjectId": "english",
+    "question": "Choose the one word for: A liquid believed to give eternal youth or life.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Serum"
+      },
+      {
+        "id": "B",
+        "text": "Elixir"
+      },
+      {
+        "id": "C",
+        "text": "Antidote"
+      },
+      {
+        "id": "D",
+        "text": "Tonic"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Elixir = संजीवनी, अमृत-रस। Example: Alchemists searched for the elixir of life.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_240",
+    "subjectId": "english",
+    "question": "Choose the one word for: A poem or stanza of four lines.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Couplet"
+      },
+      {
+        "id": "B",
+        "text": "Quatrain"
+      },
+      {
+        "id": "C",
+        "text": "Limerick"
+      },
+      {
+        "id": "D",
+        "text": "Sonnet"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Quatrain = चतुष्पदी (चार पंक्तियों का पद्य)। Example: Omar Khayyam wrote many quatrains.",
+    "language": "en"
+  }
+]

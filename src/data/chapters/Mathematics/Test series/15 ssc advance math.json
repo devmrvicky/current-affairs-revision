@@ -1,0 +1,642 @@
+[
+  {
+    "id": "adv_math_001",
+    "subjectId": "math",
+    "question": "यदि $a = 99$, $b = 97$, और $c = 98$ है, तो $a^2 + b^2 + c^2 - ab - bc - ca$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$2$" },
+      { "id": "B", "text": "$3$" },
+      { "id": "C", "text": "$6$" },
+      { "id": "D", "text": "$9$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** इस व्यंजक का एक विशेष सूत्र होता है: $\\frac{ 1 }{ 2 } [ (a-b)^2 + (b-c)^2 + (c-a)^2 ]$।\n- मान रखने पर: $\\frac{ 1 }{ 2 } [ (99-97)^2 + (97-98)^2 + (98-99)^2 ]$\n- $= \\frac{ 1 }{ 2 } [ 2^2 + (-1)^2 + (-1)^2 ] = \\frac{ 1 }{ 2 } [ 4 + 1 + 1 ] = \\frac{ 6 }{ 2 } = 3$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_002",
+    "subjectId": "math",
+    "question": "यदि $x + \\frac{ 1 }{ x } = \\sqrt{ 3 }$ है, तो $x^{18} + x^{12} + x^6 + 1$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$-1$" },
+      { "id": "B", "text": "$0$" },
+      { "id": "C", "text": "$1$" },
+      { "id": "D", "text": "$2$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** बीजगणित के नियमानुसार, यदि $x + \\frac{ 1 }{ x } = \\sqrt{ 3 }$ हो, तो $x^6 = -1$ होता है।\n- व्यंजक: $(x^6)^3 + (x^6)^2 + (x^6)^1 + 1$\n- $= (-1)^3 + (-1)^2 + (-1) + 1 = -1 + 1 - 1 + 1 = 0$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_003",
+    "subjectId": "math",
+    "question": "यदि $x^4 + \\frac{ 1 }{ x^4 } = 119$ है, तो $x^3 - \\frac{ 1 }{ x^3 }$ का धनात्मक मान क्या होगा? ($x > 1$)",
+    "options": [
+      { "id": "A", "text": "$36$" },
+      { "id": "B", "text": "$39$" },
+      { "id": "C", "text": "$42$" },
+      { "id": "D", "text": "$45$" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** $x^2 + \\frac{ 1 }{ x^2 } = \\sqrt{ 119 + 2 } = \\sqrt{ 121 } = 11$।\n- अब, $x - \\frac{ 1 }{ x } = \\sqrt{ 11 - 2 } = \\sqrt{ 9 } = 3$।\n- $x^3 - \\frac{ 1 }{ x^3 } = (x - \\frac{ 1 }{ x })^3 + 3(x - \\frac{ 1 }{ x }) = 3^3 + 3(3) = 27 + 9 = 36$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_004",
+    "subjectId": "math",
+    "question": "यदि $a^3 + b^3 + c^3 - 3abc = 0$ है, और $a + b + c \\neq 0$ (तथा $a, b, c$ वास्तविक संख्याएँ हैं), तो $a, b, c$ के बीच क्या संबंध है?",
+    "options": [
+      { "id": "A", "text": "$a + b = c$" },
+      { "id": "B", "text": "$a^2 = bc$" },
+      { "id": "C", "text": "$a = b = c$" },
+      { "id": "D", "text": "$a \\neq b \\neq c$" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** $a^3 + b^3 + c^3 - 3abc = \\frac{ 1 }{ 2 } (a+b+c) [ (a-b)^2 + (b-c)^2 + (c-a)^2 ]$।\n- चूँकि यह $0$ के बराबर है और $a+b+c \\neq 0$ है, तो कोष्ठक वाला भाग $0$ होना चाहिए।\n- वर्गों का योग $0$ तभी होता है जब प्रत्येक पद $0$ हो, अर्थात् $a-b=0, b-c=0, c-a=0 \\implies a = b = c$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_005",
+    "subjectId": "math",
+    "question": "यदि $2^x = 4^y = 8^z$ है, और $xyz = 288$ है, तो $z$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$2$" },
+      { "id": "B", "text": "$3$" },
+      { "id": "C", "text": "$4$" },
+      { "id": "D", "text": "$6$" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** $2^x = 2^{2y} = 2^{3z}$, अतः $x = 2y = 3z$।\n- यहाँ से $x = 3z$ और $y = \\frac{ 3z }{ 2 }$ मिलता है।\n- $xyz = (3z) \\times (\\frac{ 3z }{ 2 }) \\times z = \\frac{ 9z^3 }{ 2 } = 288$।\n- $9z^3 = 576 \\implies z^3 = 64 \\implies z = 4$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_006",
+    "subjectId": "math",
+    "question": "अनंत श्रेणी $\\sqrt{ 42 + \\sqrt{ 42 + \\sqrt{ 42 + \\dots } } }$ का धनात्मक मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$6$" },
+      { "id": "B", "text": "$7$" },
+      { "id": "C", "text": "$8$" },
+      { "id": "D", "text": "$42$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** यदि पैटर्न $\\sqrt{ n + \\sqrt{ n + \\dots } }$ हो और $n$ को दो लगातार पूर्णांकों ($a \\times (a+1)$) में तोड़ा जा सके, तो बड़ा पूर्णांक उत्तर होता है।\n- यहाँ $42 = 6 \\times 7$ है। चूँकि बीच में '$+$' का चिन्ह है, इसलिए उत्तर बड़ी संख्या ($7$) होगी।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_007",
+    "subjectId": "math",
+    "question": "$\\sin^2 5^\\circ + \\sin^2 10^\\circ + \\sin^2 15^\\circ + \\dots + \\sin^2 85^\\circ$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$8$" },
+      { "id": "B", "text": "$8.5$" },
+      { "id": "C", "text": "$9$" },
+      { "id": "D", "text": "$9.5$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "trigonometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** कुल पदों की संख्या $= \\frac{ 85 - 5 }{ 5 } + 1 = 17$ पद।\n- $\\sin^2 \\theta + \\sin^2(90^\\circ - \\theta) = 1$ होता है। $16$ पद मिलकर $8$ जोड़े (pairs) बनाएँगे जिनका योग $8$ होगा।\n- बीच का पद $\\sin^2 45^\\circ$ बचेगा, जिसका मान $(\\frac{ 1 }{ \\sqrt{ 2 } })^2 = 0.5$ होता है। कुल योग $= 8 + 0.5 = 8.5$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_008",
+    "subjectId": "math",
+    "question": "त्रिकोणमितीय फलन $5 \\sin \\theta + 12 \\cos \\theta$ का अधिकतम (Maximum) मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$12$" },
+      { "id": "B", "text": "$13$" },
+      { "id": "C", "text": "$17$" },
+      { "id": "D", "text": "$60$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** $a \\sin \\theta + b \\cos \\theta$ का अधिकतम मान $\\sqrt{ a^2 + b^2 }$ होता है।\n- यहाँ अधिकतम मान $= \\sqrt{ 5^2 + 12^2 } = \\sqrt{ 25 + 144 } = \\sqrt{ 169 } = 13$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_009",
+    "subjectId": "math",
+    "question": "यदि $\\sin \\theta + \\sin^2 \\theta = 1$ है, तो $\\cos^2 \\theta + \\cos^4 \\theta$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$0$" },
+      { "id": "B", "text": "$1$" },
+      { "id": "C", "text": "$2$" },
+      { "id": "D", "text": "$\\sqrt{ 2 }$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "trigonometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** $\\sin \\theta + \\sin^2 \\theta = 1 \\implies \\sin \\theta = 1 - \\sin^2 \\theta = \\cos^2 \\theta$।\n- अब $\\cos^2 \\theta + \\cos^4 \\theta$ में $\\cos^2 \\theta$ की जगह $\\sin \\theta$ रखने पर: $\\sin \\theta + (\\sin \\theta)^2 = \\sin \\theta + \\sin^2 \\theta$।\n- चूँकि प्रश्न में ही इसका मान $1$ दिया गया है, इसलिए उत्तर $1$ होगा।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_010",
+    "subjectId": "math",
+    "question": "$\\tan 10^\\circ \\tan 20^\\circ \\tan 60^\\circ \\tan 70^\\circ \\tan 80^\\circ$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$\\frac{ 1 }{ \\sqrt{ 3 } }$" },
+      { "id": "B", "text": "$1$" },
+      { "id": "C", "text": "$\\sqrt{ 3 }$" },
+      { "id": "D", "text": "$3$" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** यदि $A + B = 90^\\circ$ हो, तो $\\tan A \\times \\tan B = 1$ होता है।\n- यहाँ $(\\tan 10^\\circ \\times \\tan 80^\\circ) = 1$ और $(\\tan 20^\\circ \\times \\tan 70^\\circ) = 1$।\n- केवल $\\tan 60^\\circ$ बचता है, जिसका मान $\\sqrt{ 3 }$ है। अतः परिणाम $1 \\times 1 \\times \\sqrt{ 3 } = \\sqrt{ 3 }$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_011",
+    "subjectId": "math",
+    "question": "यदि $\\tan \\theta + \\cot \\theta = 2$ है, तो $\\tan^{100} \\theta + \\cot^{100} \\theta$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$1$" },
+      { "id": "B", "text": "$2$" },
+      { "id": "C", "text": "$100$" },
+      { "id": "D", "text": "$200$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "trigonometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** $\\tan \\theta + \\frac{ 1 }{ \\tan \\theta } = 2$ एक बीजगणितीय समीकरण $x + \\frac{ 1 }{ x } = 2$ के रूप में है, जो केवल $x = 1$ पर संतुष्ट होता है।\n- अतः $\\tan \\theta = 1$ और $\\cot \\theta = 1$ (यानि $\\theta = 45^\\circ$)।\n- $1^{100} + 1^{100} = 1 + 1 = 2$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_012",
+    "subjectId": "math",
+    "question": "$\\triangle ABC$ में, यदि $I$ अंतःकेंद्र (Incenter) है और $\\angle BIC = 110^\\circ$ है, तो कोण $\\angle A$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$20^\\circ$" },
+      { "id": "B", "text": "$40^\\circ$" },
+      { "id": "C", "text": "$55^\\circ$" },
+      { "id": "D", "text": "$70^\\circ$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** अंतःकेंद्र पर बना कोण $\\angle BIC = 90^\\circ + \\frac{ \\angle A }{ 2 }$ होता है।\n- $110^\\circ = 90^\\circ + \\frac{ \\angle A }{ 2 } \\implies \\frac{ \\angle A }{ 2 } = 20^\\circ \\implies \\angle A = 40^\\circ$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_013",
+    "subjectId": "math",
+    "question": "$\\triangle ABC$ में, $O$ परिकेंद्र (Circumcenter) है। यदि $\\angle A = 50^\\circ$ है, तो $\\angle OBC$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$40^\\circ$" },
+      { "id": "B", "text": "$50^\\circ$" },
+      { "id": "C", "text": "$80^\\circ$" },
+      { "id": "D", "text": "$100^\\circ$" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** परिकेंद्र पर बना कोण शीर्ष कोण का दोगुना होता है, $\\angle BOC = 2 \\times 50^\\circ = 100^\\circ$।\n- $\\triangle OBC$ में, $OB = OC$ (परित्रिज्या) इसलिए $\\angle OBC = \\angle OCB$।\n- $\\angle OBC = \\frac{ 180^\\circ - 100^\\circ }{ 2 } = \\frac{ 80^\\circ }{ 2 } = 40^\\circ$। (शॉर्टकट: $\\angle OBC = 90^\\circ - \\angle A$)।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_014",
+    "subjectId": "math",
+    "question": "$\\triangle ABC$ में, $H$ लंबकेंद्र (Orthocenter) है। यदि $\\angle A = 70^\\circ$ है, तो $\\angle BHC$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$70^\\circ$" },
+      { "id": "B", "text": "$110^\\circ$" },
+      { "id": "C", "text": "$125^\\circ$" },
+      { "id": "D", "text": "$140^\\circ$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** लंबकेंद्र के मामले में, $\\angle BHC + \\angle A = 180^\\circ$ होता है (क्योंकि सम्मुख कोणों का योग चक्रीय चतुर्भुज बनाता है)।\n- $\\angle BHC = 180^\\circ - 70^\\circ = 110^\\circ$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_015",
+    "subjectId": "math",
+    "question": "एक वृत्त के अंदर दो जीवाएँ (Chords) $AB$ और $CD$ एक दूसरे को बिंदु $P$ पर काटती हैं। यदि $AP = 4$ सेमी, $PB = 6$ सेमी और $CP = 3$ सेमी है, तो जीवा $CD$ की कुल लंबाई क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$8$ सेमी" },
+      { "id": "B", "text": "$9$ सेमी" },
+      { "id": "C", "text": "$10$ सेमी" },
+      { "id": "D", "text": "$11$ सेमी" }
+    ],
+    "correctAnswer": "D",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (D)**\n\n**नियम / हल:** प्रतिच्छेदी जीवा प्रमेय (Intersecting Chords Theorem) से: $AP \\times PB = CP \\times DP$।\n- $4 \\times 6 = 3 \\times DP \\implies 24 = 3 \\times DP \\implies DP = 8$ सेमी।\n- कुल लंबाई $CD = CP + DP = 3 + 8 = 11$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_016",
+    "subjectId": "math",
+    "question": "एक बिंदु $P$ से वृत्त पर दो छेदक रेखाएँ (Secants) $PAB$ और $PCD$ खींची गई हैं। यदि $PA = 4$ सेमी, $AB = 5$ सेमी और $PC = 3$ सेमी है, तो $CD$ की लंबाई क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$7$ सेमी" },
+      { "id": "B", "text": "$9$ सेमी" },
+      { "id": "C", "text": "$12$ सेमी" },
+      { "id": "D", "text": "$15$ सेमी" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** छेदक रेखा प्रमेय: $PA \\times PB = PC \\times PD$। (यहाँ $PB = PA + AB = 4 + 5 = 9$)\n- $4 \\times 9 = 3 \\times PD \\implies 36 = 3 \\times PD \\implies PD = 12$ सेमी।\n- $CD = PD - PC = 12 - 3 = 9$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_017",
+    "subjectId": "math",
+    "question": "दो वृत्तों की त्रिज्याएँ $8$ सेमी और $3$ सेमी हैं, और उनके केंद्रों के बीच की दूरी $13$ सेमी है। उनकी सीधी उभयनिष्ठ स्पर्श रेखा (Direct Common Tangent - DCT) की लंबाई क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$10$ सेमी" },
+      { "id": "B", "text": "$11$ सेमी" },
+      { "id": "C", "text": "$12$ सेमी" },
+      { "id": "D", "text": "$14$ सेमी" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** DCT की लंबाई $= \\sqrt{ d^2 - (r_1 - r_2)^2 }$।\n- $= \\sqrt{ 13^2 - (8-3)^2 } = \\sqrt{ 169 - 25 } = \\sqrt{ 144 } = 12$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_018",
+    "subjectId": "math",
+    "question": "एक वृत्त पर बिंदु $A$ से एक स्पर्श रेखा (Tangent) खींची गई है। $AB$ वृत्त की एक जीवा है जो स्पर्श रेखा के साथ $45^\\circ$ का कोण बनाती है। इस जीवा $AB$ द्वारा वृत्त के प्रमुख चाप (Major Arc) के किसी बिंदु पर बनाया गया कोण क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$45^\\circ$" },
+      { "id": "B", "text": "$90^\\circ$" },
+      { "id": "C", "text": "$135^\\circ$" },
+      { "id": "D", "text": "$180^\\circ$" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** एकांतर खंड प्रमेय (Alternate Segment Theorem) के अनुसार, स्पर्श रेखा और जीवा के बीच का कोण, उसी जीवा द्वारा एकांतर चाप (दूसरे खंड) में बनाए गए कोण के बराबर होता है। अतः यह $45^\\circ$ ही होगा।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_019",
+    "subjectId": "math",
+    "question": "$\\triangle ABC$ में, $AB = 5$ सेमी, $AC = 7$ सेमी, और $BC = 6$ सेमी है। शीर्ष $A$ से $BC$ पर खींची गई माध्यिका (Median) $AD$ की लंबाई क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$2\\sqrt{ 7 }$ सेमी" },
+      { "id": "B", "text": "$2\\sqrt{ 5 }$ सेमी" },
+      { "id": "C", "text": "$3\\sqrt{ 3 }$ सेमी" },
+      { "id": "D", "text": "$4$ सेमी" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** अपोलोनियस प्रमेय (Apollonius Theorem): $AB^2 + AC^2 = 2(AD^2 + BD^2)$। यहाँ $BD = \\frac{ BC }{ 2 } = 3$ सेमी।\n- $5^2 + 7^2 = 2(AD^2 + 3^2) \\implies 25 + 49 = 2(AD^2 + 9) \\implies 74 = 2(AD^2 + 9)$।\n- $37 = AD^2 + 9 \\implies AD^2 = 28 \\implies AD = \\sqrt{ 28 } = 2\\sqrt{ 7 }$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_020",
+    "subjectId": "math",
+    "question": "एक $r$ त्रिज्या वाले अर्धवृत्त (Semicircle) के अंदर खींचे जा सकने वाले सबसे बड़े वर्ग (Square) का क्षेत्रफल क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$\\frac{ 1 }{ 2 } r^2$" },
+      { "id": "B", "text": "$\\frac{ 2 }{ 3 } r^2$" },
+      { "id": "C", "text": "$\\frac{ 4 }{ 5 } r^2$" },
+      { "id": "D", "text": "$r^2$" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "mensuration_2d",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** अर्धवृत्त के अंदर सबसे बड़े वर्ग की भुजा $x$ है। केंद्र से कोने की दूरी त्रिज्या $r$ होगी। पाइथागोरस से: $(\\frac{ x }{ 2 })^2 + x^2 = r^2$।\n- $\\frac{ x^2 }{ 4 } + x^2 = r^2 \\implies \\frac{ 5x^2 }{ 4 } = r^2 \\implies x^2 = \\frac{ 4 }{ 5 } r^2$।\n- वर्ग का क्षेत्रफल $x^2$ ही होता है, अतः उत्तर $\\frac{ 4 }{ 5 } r^2$ है।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_021",
+    "subjectId": "math",
+    "question": "$\\triangle ABC$ का क्षेत्रफल $48$ वर्ग सेमी है। यदि $D, E, F$ क्रमशः भुजाओं $AB, BC, CA$ के मध्य बिंदु (Midpoints) हैं, तो $\\triangle DEF$ का क्षेत्रफल क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$8$ वर्ग सेमी" },
+      { "id": "B", "text": "$12$ वर्ग सेमी" },
+      { "id": "C", "text": "$16$ वर्ग सेमी" },
+      { "id": "D", "text": "$24$ वर्ग सेमी" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** किसी त्रिभुज की भुजाओं के मध्य बिंदुओं को मिलाने पर वह $4$ समान क्षेत्रफल वाले छोटे त्रिभुजों में बँट जाता है।\n- $\\triangle DEF$ का क्षेत्रफल $= \\frac{ 1 }{ 4 } \\times \\triangle ABC$ का क्षेत्रफल $= \\frac{ 48 }{ 4 } = 12$ वर्ग सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_022",
+    "subjectId": "math",
+    "question": "एक $6$ सेमी भुजा वाले समषट्भुज (Regular Hexagon) का क्षेत्रफल क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$27\\sqrt{ 3 }$ वर्ग सेमी" },
+      { "id": "B", "text": "$54\\sqrt{ 3 }$ वर्ग सेमी" },
+      { "id": "C", "text": "$108\\sqrt{ 3 }$ वर्ग सेमी" },
+      { "id": "D", "text": "$216$ वर्ग सेमी" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "mensuration_2d",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** समषट्भुज $6$ समबाहु त्रिभुजों से मिलकर बना होता है।\n- क्षेत्रफल $= 6 \\times (\\frac{ \\sqrt{ 3 } }{ 4 } a^2) = 6 \\times (\\frac{ \\sqrt{ 3 } }{ 4 } \\times 36) = 6 \\times 9\\sqrt{ 3 } = 54\\sqrt{ 3 }$ वर्ग सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_023",
+    "subjectId": "math",
+    "question": "एक $60$ मीटर लंबे और $40$ मीटर चौड़े आयताकार मैदान के बीचों-बीच $5$ मीटर चौड़े दो रास्ते (एक लंबाई के समानांतर और एक चौड़ाई के समानांतर) एक दूसरे को काटते हैं। रास्तों का कुल क्षेत्रफल क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$475$ वर्ग मीटर" },
+      { "id": "B", "text": "$500$ वर्ग मीटर" },
+      { "id": "C", "text": "$525$ वर्ग मीटर" },
+      { "id": "D", "text": "$2400$ वर्ग मीटर" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "mensuration_2d",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** क्रॉस पाथ (Cross path) का क्षेत्रफल $= w(L + B - w)$ जहाँ $w$ चौड़ाई है।\n- $= 5(60 + 40 - 5) = 5(95) = 475$ वर्ग मीटर।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_024",
+    "subjectId": "math",
+    "question": "$14$ सेमी त्रिज्या और $120^\\circ$ केंद्रीय कोण वाले एक वृत्त के त्रिज्यखंड (Sector) को मोड़कर एक शंकु (Cone) बनाया जाता है। इस नए शंकु के आधार की त्रिज्या (Radius) क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$\\frac{ 14 }{ 3 }$ सेमी" },
+      { "id": "B", "text": "$7$ सेमी" },
+      { "id": "C", "text": "$\\frac{ 28 }{ 3 }$ सेमी" },
+      { "id": "D", "text": "$14$ सेमी" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "mensuration_3d",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** त्रिज्यखंड के चाप की लंबाई (Arc Length) शंकु के आधार की परिधि (Circumference) बन जाती है।\n- चाप की लंबाई $= \\frac{ 120 }{ 360 } \\times 2\\pi R = \\frac{ 1 }{ 3 } \\times 2\\pi(14)$।\n- इसे $2\\pi r$ के बराबर रखने पर: $2\\pi r = \\frac{ 28\\pi }{ 3 } \\implies r = \\frac{ 14 }{ 3 }$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_025",
+    "subjectId": "math",
+    "question": "$4$ सेमी भुजा वाले एक समचतुष्फलक (Regular Tetrahedron) का कुल पृष्ठीय क्षेत्रफल (Total Surface Area) क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$8\\sqrt{ 3 }$ सेमी$^2$" },
+      { "id": "B", "text": "$16\\sqrt{ 3 }$ सेमी$^2$" },
+      { "id": "C", "text": "$32\\sqrt{ 3 }$ सेमी$^2$" },
+      { "id": "D", "text": "$64\\sqrt{ 3 }$ सेमी$^2$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "mensuration_3d",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** समचतुष्फलक $4$ समबाहु त्रिभुजों से मिलकर बनता है।\n- कुल क्षेत्रफल $= 4 \\times (\\frac{ \\sqrt{ 3 } }{ 4 } a^2) = \\sqrt{ 3 } a^2$।\n- $= \\sqrt{ 3 } \\times 4^2 = 16\\sqrt{ 3 }$ सेमी$^2$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_026",
+    "subjectId": "math",
+    "question": "एक लंब प्रिज्म (Right Prism) का आधार एक समकोण त्रिभुज है जिसकी भुजाएँ $5$ सेमी, $12$ सेमी और $13$ सेमी हैं। यदि प्रिज्म का आयतन $300$ सेमी$^3$ है, तो प्रिज्म की ऊँचाई क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$5$ सेमी" },
+      { "id": "B", "text": "$10$ सेमी" },
+      { "id": "C", "text": "$12$ सेमी" },
+      { "id": "D", "text": "$15$ सेमी" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "mensuration_3d",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** प्रिज्म का आयतन $= \\text{आधार का क्षेत्रफल} \\times \\text{ऊँचाई}$।\n- आधार का क्षेत्रफल $= \\frac{ 1 }{ 2 } \\times 5 \\times 12 = 30$ सेमी$^2$।\n- $300 = 30 \\times \\text{ऊँचाई} \\implies \\text{ऊँचाई} = \\frac{ 300 }{ 30 } = 10$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_027",
+    "subjectId": "math",
+    "question": "एक लंब पिरामिड (Right Pyramid) का आधार $10$ सेमी भुजा वाला एक वर्ग (Square) है। यदि पिरामिड की ऊँचाई $12$ सेमी है, तो इसकी तिर्यक ऊँचाई (Slant Height) क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$13$ सेमी" },
+      { "id": "B", "text": "$14$ सेमी" },
+      { "id": "C", "text": "$15$ सेमी" },
+      { "id": "D", "text": "$\\sqrt{ 119 }$ सेमी" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "mensuration_3d",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** पिरामिड में तिर्यक ऊँचाई $L = \\sqrt{ h^2 + (a/2)^2 }$ होती है, जहाँ $a$ आधार की भुजा है।\n- $L = \\sqrt{ 12^2 + 5^2 } = \\sqrt{ 144 + 25 } = \\sqrt{ 169 } = 13$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_028",
+    "subjectId": "math",
+    "question": "$1$ सेमी, $6$ सेमी और $8$ सेमी त्रिज्या वाले तीन ठोस धात्विक गोलों को पिघलाकर एक नया बड़ा गोला बनाया जाता है। नए गोले की त्रिज्या क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$9$ सेमी" },
+      { "id": "B", "text": "$10$ सेमी" },
+      { "id": "C", "text": "$12$ सेमी" },
+      { "id": "D", "text": "$15$ सेमी" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "mensuration_3d",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** नए गोले का आयतन = तीनों गोलों के आयतन का योग। $\\frac{ 4 }{ 3 }\\pi R^3 = \\frac{ 4 }{ 3 }\\pi (1^3 + 6^3 + 8^3)$।\n- $R^3 = 1 + 216 + 512 = 729$।\n- $R = \\sqrt[3]{ 729 } = 9$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_029",
+    "subjectId": "math",
+    "question": "एक बाल्टी शंकु के छिन्नक (Frustum of a cone) के आकार की है, जिसके सिरों की त्रिज्याएँ $14$ सेमी और $7$ सेमी हैं। यदि बाल्टी की ऊँचाई $24$ सेमी है, तो इसकी तिर्यक ऊँचाई (Slant Height) क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$25$ सेमी" },
+      { "id": "B", "text": "$26$ सेमी" },
+      { "id": "C", "text": "$28$ सेमी" },
+      { "id": "D", "text": "$30$ सेमी" }
+    ],
+    "correctAnswer": "A",
+    "topicId": "mensuration_3d",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (A)**\n\n**नियम / हल:** छिन्नक की तिर्यक ऊँचाई $L = \\sqrt{ h^2 + (R - r)^2 }$ होती है।\n- $L = \\sqrt{ 24^2 + (14 - 7)^2 } = \\sqrt{ 576 + 49 } = \\sqrt{ 625 } = 25$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_030",
+    "subjectId": "math",
+    "question": "एक पाइप जिसका आंतरिक व्यास (Diameter) $14$ सेमी है, उसमें से पानी $5$ मीटर प्रति सेकंड की दर से एक आयताकार टैंक में गिर रहा है। टैंक का आधार $50$ मीटर $\\times$ $44$ मीटर है। $1$ घंटे में टैंक में पानी का स्तर कितना ऊपर उठ जाएगा?",
+    "options": [
+      { "id": "A", "text": "$6.3$ सेमी" },
+      { "id": "B", "text": "$12.6$ सेमी" },
+      { "id": "C", "text": "$25.2$ सेमी" },
+      { "id": "D", "text": "$50.4$ सेमी" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "mensuration_3d",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** $1$ घंटे में पाइप से निकला आयतन $= \\pi r^2 \\times \\text{गति} \\times \\text{समय}$। $r = 7 \\text{ cm} = 0.07 \\text{ m}$।\n- आयतन $= \\frac{ 22 }{ 7 } \\times 0.07 \\times 0.07 \\times 5 \\times 3600 = 277.2$ घन मीटर (m$^3$)।\n- पानी का स्तर $= \\frac{ \\text{आयतन} }{ \\text{टैंक का क्षेत्रफल} } = \\frac{ 277.2 }{ 50 \\times 44 } = \\frac{ 277.2 }{ 2200 } = 0.126$ मीटर $= 12.6$ सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_031",
+    "subjectId": "math",
+    "question": "$100$ मीटर चौड़ी सड़क के दोनों ओर समान ऊँचाई के दो खंभे खड़े हैं। सड़क पर स्थित एक बिंदु से खंभों के शीर्ष के उन्नयन कोण क्रमशः $30^\\circ$ और $60^\\circ$ हैं। खंभों की ऊँचाई क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$25$ मीटर" },
+      { "id": "B", "text": "$25\\sqrt{ 3 }$ मीटर" },
+      { "id": "C", "text": "$50\\sqrt{ 3 }$ मीटर" },
+      { "id": "D", "text": "$75$ मीटर" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height_and_distance",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** इस स्थिति में खंभे की ऊँचाई $h = \\frac{ \\text{दूरी} }{ \\cot 30^\\circ + \\cot 60^\\circ }$ होती है।\n- $h = \\frac{ 100 }{ \\sqrt{ 3 } + \\frac{ 1 }{ \\sqrt{ 3 } } } = \\frac{ 100 }{ \\frac{ 4 }{ \\sqrt{ 3 } } } = \\frac{ 100\\sqrt{ 3 } }{ 4 } = 25\\sqrt{ 3 }$ मीटर।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_032",
+    "subjectId": "math",
+    "question": "एक व्यक्ति एक मीनार की ओर आ रहा है। मीनार के शीर्ष का उन्नयन कोण $30^\\circ$ से $60^\\circ$ होने में उसे $12$ मिनट का समय लगता है। $60^\\circ$ वाले बिंदु से मीनार के आधार तक पहुँचने में उसे और कितना समय लगेगा? (व्यक्ति की गति समान है)",
+    "options": [
+      { "id": "A", "text": "$4$ मिनट" },
+      { "id": "B", "text": "$6$ मिनट" },
+      { "id": "C", "text": "$8$ मिनट" },
+      { "id": "D", "text": "$12$ मिनट" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height_and_distance",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** जब उन्नयन कोण $30^\\circ$ से $60^\\circ$ होता है, तो तय की गई दूरी, शेष दूरी की दोगुनी होती है।\n- चूँकि दोगुनी दूरी तय करने में $12$ मिनट लगे, इसलिए शेष आधी दूरी तय करने में $12 / 2 = 6$ मिनट का समय लगेगा।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_033",
+    "subjectId": "math",
+    "question": "बिंदु $(a, b)$ और $(-a, -b)$ के बीच की दूरी (Distance) क्या होगी?",
+    "options": [
+      { "id": "A", "text": "$\\sqrt{ a^2 + b^2 }$" },
+      { "id": "B", "text": "$2\\sqrt{ a^2 + b^2 }$" },
+      { "id": "C", "text": "$4\\sqrt{ a^2 + b^2 }$" },
+      { "id": "D", "text": "$0$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coordinate_geometry",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** दूरी सूत्र (Distance Formula): $D = \\sqrt{ (x_2 - x_1)^2 + (y_2 - y_1)^2 }$।\n- $D = \\sqrt{ (-a - a)^2 + (-b - b)^2 } = \\sqrt{ (-2a)^2 + (-2b)^2 } = \\sqrt{ 4a^2 + 4b^2 } = 2\\sqrt{ a^2 + b^2 }$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_034",
+    "subjectId": "math",
+    "question": "त्रिभुज के तीन शीर्ष $(1, 2)$, $(-3, 4)$ और $(5, -6)$ हैं। इस त्रिभुज के केंद्रक (Centroid) के निर्देशांक (Coordinates) क्या होंगे?",
+    "options": [
+      { "id": "A", "text": "$(1, 1)$" },
+      { "id": "B", "text": "$(1, 0)$" },
+      { "id": "C", "text": "$(0, 1)$" },
+      { "id": "D", "text": "$(-1, 0)$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coordinate_geometry",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** केंद्रक का सूत्र $(\\frac{ x_1 + x_2 + x_3 }{ 3 }, \\frac{ y_1 + y_2 + y_3 }{ 3 })$ होता है।\n- $x = \\frac{ 1 - 3 + 5 }{ 3 } = \\frac{ 3 }{ 3 } = 1$।\n- $y = \\frac{ 2 + 4 - 6 }{ 3 } = \\frac{ 0 }{ 3 } = 0$। अतः निर्देशांक $(1, 0)$ होंगे।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_035",
+    "subjectId": "math",
+    "question": "यदि द्विघात समीकरण $ax^2 + bx + c = 0$ के दोनों मूल (roots) समान हैं, तो $c$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$\\frac{ b^2 }{ a }$" },
+      { "id": "B", "text": "$\\frac{ b^2 }{ 2a }$" },
+      { "id": "C", "text": "$\\frac{ b^2 }{ 4a }$" },
+      { "id": "D", "text": "$\\frac{ -b^2 }{ 4a }$" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "quadratic_equations",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** मूल समान होने पर विविक्तकर (Discriminant) शून्य होता है, अर्थात् $D = b^2 - 4ac = 0$।\n- $b^2 = 4ac \\implies c = \\frac{ b^2 }{ 4a }$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_036",
+    "subjectId": "math",
+    "question": "समीकरण $x^2 - 7x + 12 = 0$ के मूल (roots) $\\alpha$ और $\\beta$ हैं। वह समीकरण क्या होगा जिसके मूल $\\alpha^2$ और $\\beta^2$ हों?",
+    "options": [
+      { "id": "A", "text": "$x^2 - 14x + 144 = 0$" },
+      { "id": "B", "text": "$x^2 - 25x + 144 = 0$" },
+      { "id": "C", "text": "$x^2 - 49x + 144 = 0$" },
+      { "id": "D", "text": "$x^2 + 25x + 144 = 0$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "quadratic_equations",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** $x^2 - 7x + 12 = 0$ के मूल $3$ और $4$ हैं।\n- हमें वह समीकरण चाहिए जिसके मूल $3^2 = 9$ और $4^2 = 16$ हों।\n- मूलों का योग $= 9 + 16 = 25$, गुणनफल $= 9 \\times 16 = 144$।\n- नया समीकरण: $x^2 - (25)x + 144 = 0$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_037",
+    "subjectId": "math",
+    "question": "एक समबहुभुज (Regular Polygon) के प्रत्येक आंतरिक कोण और बाह्य कोण का अनुपात $7 : 2$ है। इस बहुभुज में भुजाओं की संख्या कितनी होगी?",
+    "options": [
+      { "id": "A", "text": "$7$" },
+      { "id": "B", "text": "$8$" },
+      { "id": "C", "text": "$9$" },
+      { "id": "D", "text": "$10$" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "polygon",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** आंतरिक कोण + बाह्य कोण $= 180^\\circ$। अनुपात $7 : 2$ है।\n- बाह्य कोण $= \\frac{ 2 }{ 9 } \\times 180^\\circ = 40^\\circ$।\n- भुजाओं की संख्या $n = \\frac{ 360^\\circ }{ \\text{बाह्य कोण} } = \\frac{ 360^\\circ }{ 40^\\circ } = 9$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_038",
+    "subjectId": "math",
+    "question": "यदि $a + b + c = 15$ और $a^2 + b^2 + c^2 = 83$ है, तो $a^3 + b^3 + c^3 - 3abc$ का मान क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$120$" },
+      { "id": "B", "text": "$150$" },
+      { "id": "C", "text": "$180$" },
+      { "id": "D", "text": "$210$" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** $(a+b+c)^2 = a^2 + b^2 + c^2 + 2(ab+bc+ca) \\implies 225 = 83 + 2(ab+bc+ca) \\implies ab+bc+ca = \\frac{ 142 }{ 2 } = 71$।\n- $a^3 + b^3 + c^3 - 3abc = (a+b+c) [a^2 + b^2 + c^2 - (ab+bc+ca)]$।\n- $= 15 \\times [83 - 71] = 15 \\times 12 = 180$।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_039",
+    "subjectId": "math",
+    "question": "यदि $x^2 - 6x + 15$ का न्यूनतम (Minimum) मान ज्ञात करना हो, तो वह क्या होगा?",
+    "options": [
+      { "id": "A", "text": "$3$" },
+      { "id": "B", "text": "$6$" },
+      { "id": "C", "text": "$9$" },
+      { "id": "D", "text": "$15$" }
+    ],
+    "correctAnswer": "B",
+    "topicId": "algebra",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: (B)**\n\n**नियम / हल:** द्विघात समीकरण $ax^2+bx+c$ का न्यूनतम मान $x = \\frac{ -b }{ 2a }$ पर होता है। यहाँ $x = \\frac{ -(-6) }{ 2(1) } = 3$।\n- $x=3$ रखने पर: $3^2 - 6(3) + 15 = 9 - 18 + 15 = 6$। (या पूर्ण वर्ग बनाएँ: $(x-3)^2 + 6$, न्यूनतम मान 6 है)।",
+    "language": "hi"
+  },
+  {
+    "id": "adv_math_040",
+    "subjectId": "math",
+    "question": "यदि $x = \\frac{ \\sqrt{ 3 } + 1 }{ \\sqrt{ 3 } - 1 }$ और $y = \\frac{ \\sqrt{ 3 } - 1 }{ \\sqrt{ 3 } + 1 }$ है, तो $x^2 + y^2$ का मान ज्ञात करें।",
+    "options": [
+      { "id": "A", "text": "$10$" },
+      { "id": "B", "text": "$12$" },
+      { "id": "C", "text": "$14$" },
+      { "id": "D", "text": "$16$" }
+    ],
+    "correctAnswer": "C",
+    "topicId": "algebra",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: (C)**\n\n**नियम / हल:** परिमेयकरण (Rationalization) से $x = 2 + \\sqrt{ 3 }$ और $y = 2 - \\sqrt{ 3 }$ प्राप्त होता है।\n- $x+y = 4$ और $xy = 1$।\n- $x^2 + y^2 = (x+y)^2 - 2xy = 4^2 - 2(1) = 16 - 2 = 14$।",
+    "language": "hi"
+  }
+]

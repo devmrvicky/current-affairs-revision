@@ -29,12 +29,15 @@ export interface ReviewItem {
   universalId?: string;
   /** The saved Review Center record behind it, when there is one (purposes can be edited through it). */
   savedId?: string;
+  /** The older wrong-questions record behind it (so it can be dismissed from the hub), when there is one. */
+  legacyWrongId?: string;
   question: string;
   options: string[];
   correctAnswer: string;
   explanation: string;
   subjectId?: string;
   topicId?: string;
+  chapterId?: string;
   subtopicId?: string;
   difficulty?: string;
   sourceLabel: string;
@@ -62,6 +65,7 @@ export interface QuestionInfo {
   explanation: string;
   subjectId?: string;
   topicId?: string;
+  chapterId?: string;
   subtopicId?: string;
   difficulty?: string;
 }
@@ -113,6 +117,8 @@ export function buildReviewItems(input: BuildInput): ReviewItem[] {
     Object.assign(item, { attempts: h.attempts, answered: h.answered, wrong: h.wrong, lastAttemptAt: h.lastAttemptAt, lastWasWrong: h.lastWasWrong, trailingCorrect: h.trailingCorrect });
     item.subjectId ??= h.subjectId;
     item.topicId ??= h.topicId;
+    item.chapterId ??= h.chapterId;
+    item.subtopicId ??= h.subtopicId;
   };
 
   // 1. Saved questions — the full text is stored, so these never depend on the question bank.
@@ -132,9 +138,11 @@ export function buildReviewItems(input: BuildInput): ReviewItem[] {
     if (m.purpose === 'review' || (!m.purpose && !m.purposes)) addCat(item, 'review'); // older marks have no purpose at all
     if (universalId) {
       const q = questions.get(universalId);
-      if (q) { item.subjectId ??= q.subjectId; item.topicId ??= q.topicId; item.subtopicId ??= q.subtopicId; item.difficulty ??= q.difficulty; }
+      if (q) { item.subjectId ??= q.subjectId; item.topicId ??= q.topicId; item.chapterId ??= q.chapterId; item.subtopicId ??= q.subtopicId; item.difficulty ??= q.difficulty; }
       applyHistory(item, histories.get(universalId));
     }
+    // What was recorded when it was saved — used when the question is no longer in the pool (older records have none of these).
+    item.subjectId ??= m.subjectId; item.topicId ??= m.topicId; item.chapterId ??= m.chapterId; item.subtopicId ??= m.subtopicId;
     items.set(key, item);
   }
 
@@ -146,7 +154,7 @@ export function buildReviewItems(input: BuildInput): ReviewItem[] {
     if (!item) {
       const q = questions.get(h.questionId);
       if (!q) continue; // wrong, but there is no copy of the question to show
-      item = blank(key, { universalId: h.questionId, question: q.question, options: q.options, correctAnswer: q.correctAnswer, explanation: q.explanation, subjectId: q.subjectId, topicId: q.topicId, subtopicId: q.subtopicId, difficulty: q.difficulty, sourceLabel: 'Practice & tests' });
+      item = blank(key, { universalId: h.questionId, question: q.question, options: q.options, correctAnswer: q.correctAnswer, explanation: q.explanation, subjectId: q.subjectId, topicId: q.topicId, chapterId: q.chapterId, subtopicId: q.subtopicId, difficulty: q.difficulty, sourceLabel: 'Practice & tests' });
       items.set(key, item);
     }
     applyHistory(item, h);
@@ -159,6 +167,7 @@ export function buildReviewItems(input: BuildInput): ReviewItem[] {
     const key = `t:${norm(w.question)}`;
     const item = items.get(key) ?? blank(key, { question: w.question, options: w.options, correctAnswer: w.correctAnswer, explanation: w.explanation, sourceLabel: w.fileName, monthKey: monthKeyOf(w.fileName, monthlyPaths) });
     item.monthKey ??= monthKeyOf(w.fileName, monthlyPaths);
+    item.legacyWrongId = w.id;
     if (!item.universalId) Object.assign(item, { wrong: Math.max(item.wrong, w.wrongCount), lastWasWrong: true, trailingCorrect: w.consecutiveCorrect, lastAttemptAt: w.lastAttemptAt, attempts: Math.max(item.attempts, w.wrongCount), answered: Math.max(item.answered, w.wrongCount) });
     addCat(item, 'wrong');
     items.set(key, item);
@@ -213,6 +222,9 @@ export interface ReviewFilters {
   category: ReviewCategory | 'all';
   subjectId?: string;
   topicId?: string;
+  /** The chapter the question belongs to. */
+  chapterId?: string;
+  /** The concept (subtopic) the question tests. */
   subtopicId?: string;
   difficulty?: string;
   /** Result of the latest attempt. */
@@ -237,6 +249,7 @@ export function filterReviewItems(items: readonly ReviewItem[], f: ReviewFilters
     if (f.category !== 'all' && !it.categories.includes(f.category)) return false;
     if (f.subjectId && it.subjectId !== f.subjectId) return false;
     if (f.topicId && it.topicId !== f.topicId) return false;
+    if (f.chapterId && it.chapterId !== f.chapterId) return false;
     if (f.subtopicId && it.subtopicId !== f.subtopicId) return false;
     if (f.difficulty && it.difficulty !== f.difficulty) return false;
     if (f.month && it.monthKey !== f.month) return false;

@@ -41,7 +41,7 @@ describe('v11 → v12', () => {
     vi.resetModules();
     const { getDB } = await import('./db');
     const db = await getDB();
-    expect(db.version).toBe(12);
+    expect(db.version).toBe(13); // the app's current schema: the v12 block runs on the way, then v13 adds the Question Bank stores
     for (const s of NEW_STORES) expect(db.objectStoreNames.contains(s as never), s).toBe(true);
     expect(await db.get('savedSessions', 'sess-legacy')).toEqual(legacy.session);
     expect(await db.get('bookmarks' as never, 'bm-1')).toEqual(legacy.bookmark);
@@ -80,7 +80,7 @@ describe('v11 → v12', () => {
     first.close();
     vi.resetModules();
     const second = await (await import('./db')).getDB();
-    expect(second.version).toBe(12);
+    expect(second.version).toBe(13);
     expect(await second.get('authorMeta', 'settings')).toEqual({ key: 'settings', autoLockMinutes: 7, view: 'grid' });
     expect(await second.get('savedSessions', 'sess-legacy')).toEqual(legacy.session);
     second.close();
@@ -92,7 +92,7 @@ describe('fresh install', () => {
     await dropDb();
     vi.resetModules();
     const db = await (await import('./db')).getDB();
-    for (const s of [...NEW_STORES, 'savedSessions', 'bookmarks', 'wrongQuestions', 'savedTests']) expect(db.objectStoreNames.contains(s as never), s).toBe(true);
+    for (const s of [...NEW_STORES, 'savedSessions', 'bookmarks', 'wrongQuestions', 'savedTests', 'tests', 'questions', 'importHistory', 'metadata']) expect(db.objectStoreNames.contains(s as never), s).toBe(true);
     db.close();
   });
 });

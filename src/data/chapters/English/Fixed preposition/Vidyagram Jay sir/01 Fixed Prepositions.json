@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "fp001",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: You must refrain ___ smoking.",
+    "options": [
+      {
+        "id": "A",
+        "text": "from"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "for"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp002",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The wall is decorated ___ posters.",
+    "options": [
+      {
+        "id": "A",
+        "text": "by"
+      },
+      {
+        "id": "B",
+        "text": "in"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp003",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The jar was filled ___ homemade pickles.",
+    "options": [
+      {
+        "id": "A",
+        "text": "of"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "by"
+      },
+      {
+        "id": "D",
+        "text": "from"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp004",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The officer was suspicious ___ the stranger's intentions.",
+    "options": [
+      {
+        "id": "A",
+        "text": "about"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "for"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp005",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: You must prevent your brother ___ doing such things.",
+    "options": [
+      {
+        "id": "A",
+        "text": "from"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp006",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The guard stopped the boy ___ entering the field.",
+    "options": [
+      {
+        "id": "A",
+        "text": "from"
+      },
+      {
+        "id": "B",
+        "text": "against"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "of"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp007",
+    "subjectId": "english",
+    "question": "Choose the option that improves the underlined part: I am confident to pass the examination.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to passing the examination"
+      },
+      {
+        "id": "B",
+        "text": "in pass the examination"
+      },
+      {
+        "id": "C",
+        "text": "of passing the examination"
+      },
+      {
+        "id": "D",
+        "text": "for pass the examination"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp008",
+    "subjectId": "english",
+    "question": "Choose the option that improves the underlined part: The clerk was accused for stealing office funds.",
+    "options": [
+      {
+        "id": "A",
+        "text": "accused of stealing office funds"
+      },
+      {
+        "id": "B",
+        "text": "accused with stealing office funds"
+      },
+      {
+        "id": "C",
+        "text": "accused to steal office funds"
+      },
+      {
+        "id": "D",
+        "text": "charged of stealing office funds"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp009",
+    "subjectId": "english",
+    "question": "Choose the option that improves the underlined part: I object for your behaviour.",
+    "options": [
+      {
+        "id": "A",
+        "text": "object to your behaviour"
+      },
+      {
+        "id": "B",
+        "text": "object at your behaviour"
+      },
+      {
+        "id": "C",
+        "text": "object with your behaviour"
+      },
+      {
+        "id": "D",
+        "text": "object against your behaviour"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp010",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: Children should listen ___ their teachers carefully.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "to"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp011",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: She has a reputation ___ helping people in need.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "about"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp012",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The storm hindered the ship ___ reaching the port.",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "from"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp013",
+    "subjectId": "english",
+    "question": "Choose the option that improves the underlined part: You must adapt with the situation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "adapt to the situation"
+      },
+      {
+        "id": "B",
+        "text": "adapt for the situation"
+      },
+      {
+        "id": "C",
+        "text": "adapt by the situation"
+      },
+      {
+        "id": "D",
+        "text": "adapt on the situation"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp014",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: He did not respond ___ my email.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp015",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: He was suspected ___ leaking confidential information.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "of"
+      },
+      {
+        "id": "D",
+        "text": "at"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp016",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The company was found guilty ___ tax evasion.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "by"
+      },
+      {
+        "id": "D",
+        "text": "of"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp017",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: Please attend ___ this matter urgently.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "about"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "for"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp018",
+    "subjectId": "english",
+    "question": "Choose the option that improves the underlined part: The manager was dismissed on charges to accept bribes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "dismissed with charges for accepting bribes"
+      },
+      {
+        "id": "B",
+        "text": "dismissed on charge to accept bribes"
+      },
+      {
+        "id": "C",
+        "text": "dismissed on charges of accepting bribes"
+      },
+      {
+        "id": "D",
+        "text": "dismissed for charges of accept bribes"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp019",
+    "subjectId": "english",
+    "question": "Choose the correct phrase to fill in the blank: The factory operates ___ environmental laws.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in compliance to"
+      },
+      {
+        "id": "B",
+        "text": "in compliance with"
+      },
+      {
+        "id": "C",
+        "text": "on compliance with"
+      },
+      {
+        "id": "D",
+        "text": "at compliance to"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp020",
+    "subjectId": "english",
+    "question": "Choose the option that improves the underlined part: The witness's statement was consistent to the facts presented earlier.",
+    "options": [
+      {
+        "id": "A",
+        "text": "consistent with the facts presented earlier"
+      },
+      {
+        "id": "B",
+        "text": "consistent of the facts presented earlier"
+      },
+      {
+        "id": "C",
+        "text": "consistent for the facts presented earlier"
+      },
+      {
+        "id": "D",
+        "text": "consistent by the facts presented earlier"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp021",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The teacher was pleased ___ the class's progress.",
+    "options": [
+      {
+        "id": "A",
+        "text": "by"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp022",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The boy was indifferent ___ his studies.",
+    "options": [
+      {
+        "id": "A",
+        "text": "about"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "for"
+      },
+      {
+        "id": "D",
+        "text": "to"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp023",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The book consists ___ ten chapters.",
+    "options": [
+      {
+        "id": "A",
+        "text": "of"
+      },
+      {
+        "id": "B",
+        "text": "in"
+      },
+      {
+        "id": "C",
+        "text": "from"
+      },
+      {
+        "id": "D",
+        "text": "by"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp024",
+    "subjectId": "english",
+    "question": "Choose the option that improves the underlined part: She adhered strictly by the code of conduct.",
+    "options": [
+      {
+        "id": "A",
+        "text": "adhered strictly with the code of conduct"
+      },
+      {
+        "id": "B",
+        "text": "adhered strictly to the code of conduct"
+      },
+      {
+        "id": "C",
+        "text": "adhered strictly for the code of conduct"
+      },
+      {
+        "id": "D",
+        "text": "adhered strictly at the code of conduct"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp025",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The patient was devoid ___ any hope of recovery.",
+    "options": [
+      {
+        "id": "A",
+        "text": "from"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "in"
+      },
+      {
+        "id": "D",
+        "text": "of"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp026",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The classroom is equipped ___ modern smart boards.",
+    "options": [
+      {
+        "id": "A",
+        "text": "by"
+      },
+      {
+        "id": "B",
+        "text": "for"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "at"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp027",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: He is capable ___ solving complicated puzzles.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp028",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: She is hopeful ___ a favourable result.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "about"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp029",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The final decision depends ___ the committee's vote.",
+    "options": [
+      {
+        "id": "A",
+        "text": "of"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "from"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp030",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The doctor was concerned ___ the patient's slow recovery.",
+    "options": [
+      {
+        "id": "A",
+        "text": "about"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "at"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp031",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: Passengers must refrain ___ using mobile phones during takeoff.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "from"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp032",
+    "subjectId": "english",
+    "question": "Choose the correct phrase to fill in the blank: The revised plan is ___ the safety rules.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in accordance to"
+      },
+      {
+        "id": "B",
+        "text": "in accordance with"
+      },
+      {
+        "id": "C",
+        "text": "on accordance with"
+      },
+      {
+        "id": "D",
+        "text": "at accordance to"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp033",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: She objected ___ changing the schedule without notice.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "to"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp034",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The prisoners were deprived ___ basic comforts.",
+    "options": [
+      {
+        "id": "A",
+        "text": "from"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "of"
+      },
+      {
+        "id": "D",
+        "text": "to"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp035",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: We must adapt ___ changing circumstances.",
+    "options": [
+      {
+        "id": "A",
+        "text": "with"
+      },
+      {
+        "id": "B",
+        "text": "to"
+      },
+      {
+        "id": "C",
+        "text": "for"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp036",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: He is proficient ___ handling complex databases.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "in"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp037",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The organisation is committed ___ improving rural education.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "to"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp038",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: They congratulated him ___ winning the match.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp039",
+    "subjectId": "english",
+    "question": "Choose the option that improves the underlined part: The accused was acquitted from all charges.",
+    "options": [
+      {
+        "id": "A",
+        "text": "acquitted of all charges"
+      },
+      {
+        "id": "B",
+        "text": "acquitted by all charges"
+      },
+      {
+        "id": "C",
+        "text": "acquitted with all charges"
+      },
+      {
+        "id": "D",
+        "text": "acquitted for all charges"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp040",
+    "subjectId": "english",
+    "question": "Choose the option that improves the underlined part: This fabric is superior than the cheaper one.",
+    "options": [
+      {
+        "id": "A",
+        "text": "superior from the cheaper one"
+      },
+      {
+        "id": "B",
+        "text": "superior with the cheaper one"
+      },
+      {
+        "id": "C",
+        "text": "superior over than the cheaper one"
+      },
+      {
+        "id": "D",
+        "text": "superior to the cheaper one"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp041",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: She is senior ___ me in service.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to"
+      },
+      {
+        "id": "B",
+        "text": "than"
+      },
+      {
+        "id": "C",
+        "text": "from"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp042",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: I am not familiar ___ this operating system.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to"
+      },
+      {
+        "id": "B",
+        "text": "of"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "about"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp043",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The district is famous ___ its handloom products.",
+    "options": [
+      {
+        "id": "A",
+        "text": "of"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "to"
+      },
+      {
+        "id": "D",
+        "text": "for"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp044",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The manager was annoyed ___ the repeated interruptions.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "by"
+      },
+      {
+        "id": "D",
+        "text": "of"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp045",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: She is angry ___ her brother for breaking the vase.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "about"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "for"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp046",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: Passengers were waiting ___ the platform for the train.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "over"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp047",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The fallen leaves drifted ___ the stream.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "down"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp048",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The two accounts differ ___ several minor details.",
+    "options": [
+      {
+        "id": "A",
+        "text": "from"
+      },
+      {
+        "id": "B",
+        "text": "in"
+      },
+      {
+        "id": "C",
+        "text": "with"
+      },
+      {
+        "id": "D",
+        "text": "by"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp049",
+    "subjectId": "english",
+    "question": "Choose the correct preposition to fill in the blank: The students were keen ___ participating in the debate.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "for"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "in"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fixed-prepositions",
+    "difficulty": "medium",
+    "explanation": "",
+    "language": "en"
+  },
+  {
+    "id": "fp050",
+    "subjectId": "english",
+    "question": "Choose the option that improves the underlined part: The proposal is on line with our long-term goals.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in line to our long-term goals"
+      },
+      {
+        "id": "B",
+        "text": "in line with our long-term goals"
+      },
+      {
+        "id": "C",
+        "text": "on line to our long-term goals"
+      },
+      {
+        "id": "D",
+        "text": "at line with our long-term goals"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "fixed-prepositions",
+    "difficulty": "hard",
+    "explanation": "",
+    "language": "en"
+  }
+]

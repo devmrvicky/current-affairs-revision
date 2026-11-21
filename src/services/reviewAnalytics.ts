@@ -28,6 +28,8 @@ export interface AttemptRow {
   universalQuestionId?: string;
   subjectId: string;
   topicId?: string;
+  chapterId?: string;
+  subtopicId?: string;
   isCorrect: boolean;
   wasAnswered: boolean;
   timeTaken: number;
@@ -71,6 +73,8 @@ export interface QuestionHistory {
   questionId: string;
   subjectId: string;
   topicId?: string;
+  chapterId?: string;
+  subtopicId?: string;
   attempts: number;
   answered: number;
   wrong: number;
@@ -100,6 +104,8 @@ export function buildQuestionHistories(rows: readonly AttemptRow[]): Map<string,
       questionId,
       subjectId: list[list.length - 1].subjectId,
       topicId: list[list.length - 1].topicId,
+      chapterId: [...list].reverse().find((r) => r.chapterId)?.chapterId,
+      subtopicId: [...list].reverse().find((r) => r.subtopicId)?.subtopicId,
       attempts: list.length,
       answered: answeredRows.length,
       wrong: answeredRows.filter((r) => !r.isCorrect).length,

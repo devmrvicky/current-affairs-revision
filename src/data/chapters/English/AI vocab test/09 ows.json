@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_ows_241",
+    "subjectId": "english",
+    "question": "Choose the one word for: The scientific study of fish.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Anthropology"
+      },
+      {
+        "id": "B",
+        "text": "Embryology"
+      },
+      {
+        "id": "C",
+        "text": "Entomology"
+      },
+      {
+        "id": "D",
+        "text": "Ichthyology"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Ichthyology = मत्स्य-विज्ञान। Example: Ichthyology students study the fish of the Ganga.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_242",
+    "subjectId": "english",
+    "question": "Choose the one word for: The scientific study of reptiles and amphibians.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cetology"
+      },
+      {
+        "id": "B",
+        "text": "Malacology"
+      },
+      {
+        "id": "C",
+        "text": "Herpetology"
+      },
+      {
+        "id": "D",
+        "text": "Palaeontology"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Herpetology = सरीसृप व उभयचर-विज्ञान। Example: A herpetology team counted the frogs in the Western Ghats.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_243",
+    "subjectId": "english",
+    "question": "Choose the one word for: The scientific study of lakes and other inland waters.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Limnology"
+      },
+      {
+        "id": "B",
+        "text": "Glaciology"
+      },
+      {
+        "id": "C",
+        "text": "Oceanography"
+      },
+      {
+        "id": "D",
+        "text": "Hydrography"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Limnology = झील-विज्ञान (मीठे जलाशयों का अध्ययन)। Example: Limnology explains why some lakes turn green.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_244",
+    "subjectId": "english",
+    "question": "Choose the one word for: The scientific study of wines and wine-making.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oenology"
+      },
+      {
+        "id": "B",
+        "text": "Ethnology"
+      },
+      {
+        "id": "C",
+        "text": "Ecology"
+      },
+      {
+        "id": "D",
+        "text": "Etiology"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Oenology = मदिरा-विज्ञान। Example: She trained in oenology at a famous vineyard.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_245",
+    "subjectId": "english",
+    "question": "Choose the one word for: The study of flags.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Palaeography"
+      },
+      {
+        "id": "B",
+        "text": "Vexillology"
+      },
+      {
+        "id": "C",
+        "text": "Cosmography"
+      },
+      {
+        "id": "D",
+        "text": "Philately"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Vexillology = ध्वज-विज्ञान। Example: A vexillology expert explained the history of the tricolour.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_246",
+    "subjectId": "english",
+    "question": "Choose the one word for: The study or art of bell-ringing.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Chronology"
+      },
+      {
+        "id": "B",
+        "text": "Cryptology"
+      },
+      {
+        "id": "C",
+        "text": "Campanology"
+      },
+      {
+        "id": "D",
+        "text": "Cosmetology"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Campanology = घंटा-वादन विद्या। Example: Campanology is still popular in old English churches.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_247",
+    "subjectId": "english",
+    "question": "Choose the one word for: The scientific study of elections and voting trends.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Phrenology"
+      },
+      {
+        "id": "B",
+        "text": "Psychology"
+      },
+      {
+        "id": "C",
+        "text": "Psephology"
+      },
+      {
+        "id": "D",
+        "text": "Pathology"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Psephology = चुनाव एवं मतदान-प्रवृत्ति का अध्ययन। Example: A psephology expert predicted the swing in votes.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_248",
+    "subjectId": "english",
+    "question": "Choose the one word for: The study of the origin of place names.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Toponymy"
+      },
+      {
+        "id": "B",
+        "text": "Terminology"
+      },
+      {
+        "id": "C",
+        "text": "Etymology"
+      },
+      {
+        "id": "D",
+        "text": "Taxonomy"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Toponymy = स्थान-नाम विज्ञान। Example: Toponymy explains how Delhi got its name.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_249",
+    "subjectId": "english",
+    "question": "Choose the one word for: The study of handwriting to understand a person's character.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Calligraphy"
+      },
+      {
+        "id": "B",
+        "text": "Phonetics"
+      },
+      {
+        "id": "C",
+        "text": "Lexicography"
+      },
+      {
+        "id": "D",
+        "text": "Graphology"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Graphology = हस्तलेख-विज्ञान। Example: A graphology expert examined the signature on the will.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_250",
+    "subjectId": "english",
+    "question": "Choose the one word for: The art of preparing and mounting dead animals so that they look lifelike.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Embalming"
+      },
+      {
+        "id": "B",
+        "text": "Vivisection"
+      },
+      {
+        "id": "C",
+        "text": "Taxidermy"
+      },
+      {
+        "id": "D",
+        "text": "Dissection"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Taxidermy = मृत पशुओं को सुरक्षित रखकर जीवंत दिखाने की कला। Example: The museum has a taxidermy tiger in its hall.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_251",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who believes that all people should be treated as equals.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Autocrat"
+      },
+      {
+        "id": "B",
+        "text": "Egalitarian"
+      },
+      {
+        "id": "C",
+        "text": "Absolutist"
+      },
+      {
+        "id": "D",
+        "text": "Elitist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Egalitarian = समतावादी। Example: An egalitarian society offers equal chances to all.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_252",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who believes that all events are fixed in advance and cannot be changed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Realist"
+      },
+      {
+        "id": "B",
+        "text": "Optimist"
+      },
+      {
+        "id": "C",
+        "text": "Sceptic"
+      },
+      {
+        "id": "D",
+        "text": "Fatalist"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Fatalist = भाग्यवादी। Example: A fatalist leaves everything to destiny.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_253",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who abandons his country or cause to join the opposite side.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Defector"
+      },
+      {
+        "id": "B",
+        "text": "Envoy"
+      },
+      {
+        "id": "C",
+        "text": "Refugee"
+      },
+      {
+        "id": "D",
+        "text": "Exile"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Defector = पाला बदलकर दूसरे पक्ष में जाने वाला। Example: The defector gave secret papers to the enemy.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_254",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who rebels against lawful authority, especially a sailor or a soldier.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Deserter"
+      },
+      {
+        "id": "B",
+        "text": "Privateer"
+      },
+      {
+        "id": "C",
+        "text": "Pirate"
+      },
+      {
+        "id": "D",
+        "text": "Mutineer"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Mutineer = (सैनिक या नाविक) विद्रोही। Example: The captain was thrown overboard by a mutineer.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_255",
+    "subjectId": "english",
+    "question": "Choose the one word for: A child who stays away from school without permission.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Novice"
+      },
+      {
+        "id": "B",
+        "text": "Truant"
+      },
+      {
+        "id": "C",
+        "text": "Scholar"
+      },
+      {
+        "id": "D",
+        "text": "Prodigy"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Truant = स्कूल से बिना अनुमति ग़ायब रहने वाला। Example: The truant was caught at the cinema.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_256",
+    "subjectId": "english",
+    "question": "Choose the one word for: That cannot be expressed in words.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ineffable"
+      },
+      {
+        "id": "B",
+        "text": "Inexpert"
+      },
+      {
+        "id": "C",
+        "text": "Infallible"
+      },
+      {
+        "id": "D",
+        "text": "Inaudible"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Ineffable = अवर्णनीय। Example: She felt an ineffable joy on seeing her son.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_257",
+    "subjectId": "english",
+    "question": "Choose the one word for: That cannot be taken away from a person.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Invisible"
+      },
+      {
+        "id": "B",
+        "text": "Inanimate"
+      },
+      {
+        "id": "C",
+        "text": "Inadequate"
+      },
+      {
+        "id": "D",
+        "text": "Inalienable"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Inalienable = अहस्तांतरणीय, जो छीना न जा सके। Example: Freedom of speech is an inalienable right.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_258",
+    "subjectId": "english",
+    "question": "Choose the one word for: A collection of documents containing detailed information about a person or a subject.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Directory"
+      },
+      {
+        "id": "B",
+        "text": "Digest"
+      },
+      {
+        "id": "C",
+        "text": "Dossier"
+      },
+      {
+        "id": "D",
+        "text": "Diary"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Dossier = किसी व्यक्ति या विषय की दस्तावेज़ी फ़ाइल। Example: The police kept a dossier on the suspect.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_259",
+    "subjectId": "english",
+    "question": "Choose the one word for: A valuable object passed down in a family through generations.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Antique"
+      },
+      {
+        "id": "B",
+        "text": "Heirloom"
+      },
+      {
+        "id": "C",
+        "text": "Trophy"
+      },
+      {
+        "id": "D",
+        "text": "Relic"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Heirloom = पुश्तैनी धरोहर। Example: The gold necklace is a family heirloom.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_260",
+    "subjectId": "english",
+    "question": "Choose the one word for: A payment made for professional services for which no fee is legally required.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Premium"
+      },
+      {
+        "id": "B",
+        "text": "Honorarium"
+      },
+      {
+        "id": "C",
+        "text": "Pension"
+      },
+      {
+        "id": "D",
+        "text": "Gratuity"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Honorarium = मानदेय। Example: The guest speaker received an honorarium.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_261",
+    "subjectId": "english",
+    "question": "Choose the one word for: A very small or inadequate amount of money.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pittance"
+      },
+      {
+        "id": "B",
+        "text": "Fortune"
+      },
+      {
+        "id": "C",
+        "text": "Allowance"
+      },
+      {
+        "id": "D",
+        "text": "Windfall"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Pittance = नाममात्र की रक़म। Example: The workers were paid a mere pittance.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_262",
+    "subjectId": "english",
+    "question": "Choose the one word for: A yearly publication containing a calendar along with astronomical and other information.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gazette"
+      },
+      {
+        "id": "B",
+        "text": "Bulletin"
+      },
+      {
+        "id": "C",
+        "text": "Journal"
+      },
+      {
+        "id": "D",
+        "text": "Almanac"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Almanac = पंचांग, वार्षिकी। Example: The farmer consulted the almanac before sowing.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_263",
+    "subjectId": "english",
+    "question": "Choose the one word for: A list of difficult words with their meanings, given at the end of a book.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Index"
+      },
+      {
+        "id": "B",
+        "text": "Synopsis"
+      },
+      {
+        "id": "C",
+        "text": "Glossary"
+      },
+      {
+        "id": "D",
+        "text": "Appendix"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Glossary = शब्दावली-सूची। Example: Check the glossary for the meaning of technical terms.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_264",
+    "subjectId": "english",
+    "question": "Choose the one word for: A place where trees are grown and displayed for scientific study.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Planetarium"
+      },
+      {
+        "id": "B",
+        "text": "Aviary"
+      },
+      {
+        "id": "C",
+        "text": "Aquarium"
+      },
+      {
+        "id": "D",
+        "text": "Arboretum"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Arboretum = वृक्ष-उद्यान। Example: The arboretum has trees from forty countries.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_265",
+    "subjectId": "english",
+    "question": "Choose the one word for: A collection of dried plants kept for scientific study.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nursery"
+      },
+      {
+        "id": "B",
+        "text": "Herbarium"
+      },
+      {
+        "id": "C",
+        "text": "Terrarium"
+      },
+      {
+        "id": "D",
+        "text": "Vivarium"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Herbarium = शुष्क पादप-संग्रह। Example: The herbarium holds a rare Himalayan fern.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_266",
+    "subjectId": "english",
+    "question": "Choose the one word for: A dining hall in a monastery or a college.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Refectory"
+      },
+      {
+        "id": "B",
+        "text": "Cloister"
+      },
+      {
+        "id": "C",
+        "text": "Chapel"
+      },
+      {
+        "id": "D",
+        "text": "Pantry"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Refectory = (मठ या कॉलेज का) भोजन-कक्ष। Example: The monks gathered in the refectory for dinner.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_267",
+    "subjectId": "english",
+    "question": "Choose the one word for: A collection of wild animals kept in captivity for exhibition.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menagerie"
+      },
+      {
+        "id": "B",
+        "text": "Kennel"
+      },
+      {
+        "id": "C",
+        "text": "Stable"
+      },
+      {
+        "id": "D",
+        "text": "Aviary"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Menagerie = प्रदर्शन के लिए रखे गए जंगली जानवरों का संग्रह। Example: The king kept a menagerie in his palace garden.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_268",
+    "subjectId": "english",
+    "question": "Choose the one word for: That cannot be proved wrong.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Irrelevant"
+      },
+      {
+        "id": "B",
+        "text": "Irresolute"
+      },
+      {
+        "id": "C",
+        "text": "Irrefutable"
+      },
+      {
+        "id": "D",
+        "text": "Irreparable"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Irrefutable = अकाट्य। Example: The camera footage was irrefutable proof.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_269",
+    "subjectId": "english",
+    "question": "Choose the one word for: To dig out a dead body from its grave.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Embalm"
+      },
+      {
+        "id": "B",
+        "text": "Exhume"
+      },
+      {
+        "id": "C",
+        "text": "Inter"
+      },
+      {
+        "id": "D",
+        "text": "Entomb"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Exhume = क़ब्र से शव निकालना। Example: The court ordered police to exhume the body.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_270",
+    "subjectId": "english",
+    "question": "Choose the one word for: A long speech made to delay or block the passing of a law.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Resolution"
+      },
+      {
+        "id": "B",
+        "text": "Filibuster"
+      },
+      {
+        "id": "C",
+        "text": "Rebuttal"
+      },
+      {
+        "id": "D",
+        "text": "Walkout"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Filibuster = विधेयक रोकने के लिए दिया गया लंबा भाषण। Example: The senator held a filibuster for ten hours.",
+    "language": "en"
+  }
+]

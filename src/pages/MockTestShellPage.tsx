@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useNavigate, useParams, } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
-import { AlertTriangle, ChevronLeft, ChevronRight, Flag, LayoutGrid, X, Send } from 'lucide-react';
+import { AlertTriangle, ChevronLeft, ChevronRight, Flag, LayoutGrid, Send } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { useMockSessionStore } from '../store/mockSessionStore';
 import { resolveQuestionsByIds } from '../services/questionRepository';
@@ -10,6 +10,10 @@ import { mockAttemptsDB } from '../services/db';
 import { QuizTimer } from '../components/quiz/QuizTimer';
 import { MockQuestionPalette } from '../components/mock/MockQuestionPalette';
 import { ExamShell } from '../components/exam/ExamShell';
+import { ShuffledOptions } from '../components/exam/ShuffledOptions';
+import { TestExitControls } from '../components/exam/TestExitControls';
+import { summarizeMock } from '../services/sessionLifecycle';
+import { getOptionLabel } from '../utils';
 import { useExamKeyboardNavigation } from '../hooks/useExamKeyboardNavigation';
 import { useSessionPresence } from '../hooks/useSessionPresence';
 import { useExitTest } from '../hooks/useExitTest';
@@ -235,11 +239,6 @@ export default function MockTestShellPage() {
     goToQuestion(index);
   }
 
-  function handleClose() {
-    exitTest();
-    toast('Progress saved — resume this test from Home.', { icon: '💾', id: 'test-saved' });
-  }
-
   /** Same action as "Finish Section" on a section's last question: lock this section and start the next. */
   function finishCurrentSection() {
     flushTimeSpent();
@@ -262,9 +261,7 @@ export default function MockTestShellPage() {
   const header = (
     <div className="px-3 sm:px-4 min-h-14 py-2 flex items-center justify-between gap-2 sm:gap-4">
       <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
-        <button onClick={handleClose} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0" aria-label="Close test (progress is saved)" title="Close — your progress is saved">
-          <X size={18} style={{ color: 'var(--text-secondary)' }} />
-        </button>
+        <TestExitControls getSummary={() => summarizeMock(session, 'active')} exit={exitTest} />
         <div className="min-w-0">
           <h1 className="font-display font-bold text-xs sm:text-sm truncate" style={{ color: 'var(--text-primary)' }}>{currentSection.title}</h1>
           <p className="text-[11px] sm:text-xs" style={{ color: 'var(--text-muted)' }} data-testid="question-position">
@@ -424,8 +421,11 @@ export default function MockTestShellPage() {
               <div className="text-sm sm:text-base font-medium mb-5 min-w-0" style={{ color: 'var(--text-primary)' }}>
                 <QuestionMarkdownRenderer content={currentQuestion.question} baseDir={currentQuestion.sourceMockBaseDir} />
               </div>
+              {/* Fresh random option order each time this question is shown; answers are stored by option id, and the badge shows the on-screen position. */}
+              <ShuffledOptions key={currentQuestionId} options={currentQuestion.options} getKey={(o) => o.id} getText={(o) => o.text}>
+              {(orderedOptions) => (
               <div className="space-y-2.5" role="group" aria-label="Answer options">
-                {currentQuestion.options.map((opt) => {
+                {orderedOptions.map((opt, idx) => {
                   const isSelected = currentState?.selectedAnswer === opt.id;
                   return (
                     <button
@@ -443,13 +443,15 @@ export default function MockTestShellPage() {
                         className="flex-shrink-0 w-6 h-6 rounded-full border-2 flex items-center justify-center text-xs font-semibold"
                         style={{ borderColor: isSelected ? 'var(--brand-500, #6366f1)' : 'var(--border)', color: isSelected ? 'var(--brand-500, #6366f1)' : 'var(--text-muted)' }}
                       >
-                        {opt.id}
+                        {getOptionLabel(idx)}
                       </span>
                       <span className="min-w-0 flex-1"><QuestionOptionContent text={opt.text} image={opt.image} baseDir={currentQuestion.sourceMockBaseDir} /></span>
                     </button>
                   );
                 })}
               </div>
+              )}
+              </ShuffledOptions>
             </>
           )}
         </motion.div>

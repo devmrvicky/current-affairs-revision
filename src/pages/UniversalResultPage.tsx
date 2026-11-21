@@ -8,6 +8,8 @@ import { buildSessionQuestionIds, computeUniversalResult } from '../services/pra
 import { getPracticeTestById } from '../services/practiceTestRepository';
 import { useCompletedPracticeSession } from '../hooks/useCompletedPracticeSession';
 import { analyzePracticeSession } from '../services/practiceAnalysisService';
+import { practiceResultContext } from '../services/resultContext';
+import { universalAttemptsDB, type UniversalAttemptRecord } from '../services/db';
 import { AnalysisView } from '../components/mock-analysis/AnalysisView';
 import { PracticeAnalysisExtras } from '../components/mock-analysis/PracticeAnalysisExtras';
 import { useStartPracticeTest } from '../hooks/useStartPracticeTest';
@@ -22,6 +24,8 @@ export default function UniversalResultPage() {
   const { start: startTest } = useStartPracticeTest();
   const [questionsById, setQuestionsById] = useState<Map<string, UniversalQuestion>>(new Map());
   const [loaded, setLoaded] = useState(false);
+  // Earlier attempts of the same test come from the ledger; if it can't be read the comparison table simply has none.
+  const [ledger, setLedger] = useState<UniversalAttemptRecord[]>([]);
   const [isRetrying, setIsRetrying] = useState(false);
   const loadedRef = useRef(false);
   // Set the moment a retake begins. Starting a new session replaces the completed one in the store, which
@@ -33,13 +37,15 @@ export default function UniversalResultPage() {
 
   // The same analysis the mock result page shows, built from this session's own recorded data.
   const analysis = useMemo(() => (session && loaded ? analyzePracticeSession(session, questionsById) : null), [session, loaded, questionsById]);
+  const resultContext = useMemo(() => (session && loaded ? practiceResultContext(session, questionsById, ledger) : null), [session, loaded, questionsById, ledger]);
 
   useEffect(() => {
     if (completed.status === 'missing' && !attemptId) { if (!leavingRef.current) navigate('/', { replace: true }); return; }
     if (!session || loadedRef.current) return;
     loadedRef.current = true;
-    resolveQuestionsByIds(session.questionIds).then((qs) => {
+    Promise.all([resolveQuestionsByIds(session.questionIds), universalAttemptsDB.getAll().catch(() => [] as UniversalAttemptRecord[])]).then(([qs, rows]) => {
       setQuestionsById(new Map(qs.map((q) => [q.id, q])));
+      setLedger(rows);
       setLoaded(true);
     });
   }, [completed.status, attemptId, session, navigate]);
@@ -137,7 +143,7 @@ export default function UniversalResultPage() {
         </button>
       </motion.div>
 
-      {analysis && <AnalysisView analysis={analysis} variant="practice" />}
+      {analysis && resultContext && <AnalysisView analysis={analysis} context={resultContext} variant="practice" />}
       <PracticeAnalysisExtras session={session} questionsById={questionsById} />
     </div>
   );

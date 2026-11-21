@@ -19,26 +19,23 @@ const session = (sectional: boolean): PracticeSession => ({
 afterEach(cleanup);
 
 describe('practice analysis extras on screen', () => {
-  it('shows each section of a sectional test and the questions you keep getting wrong', async () => {
+  it('shows the questions you keep getting wrong, as a table', async () => {
     await (await getDB()).clear('universalAttempts' as never);
     await universalAttemptsDB.recordMany([{ id: 'old1', universalQuestionId: 'q1', examId: 'e', subjectId: 'mathematics', topicId: 'average', isCorrect: false, wasAnswered: true, timeTaken: 9, attemptedAt: 5, sessionId: 'older', sourceFileName: 'universal-session-older' }]);
     render(<PracticeAnalysisExtras session={session(true)} questionsById={questionsById} />);
-    const sections = await screen.findAllByTestId('section-result');
-    expect(sections).toHaveLength(2);
-    expect(within(sections[0]).getByText(/1 correct · 1 wrong · 0 skipped of 2/)).toBeTruthy();
-    expect(within(sections[1]).getByText(/0 correct · 1 wrong · 1 skipped of 2/)).toBeTruthy();
-    expect(within(sections[0]).getByText(/Time: 00:50 of 05:00 allotted/)).toBeTruthy();
-    const repeated = await screen.findAllByTestId('repeated-mistake');
+    const table = await screen.findByRole('region', { name: 'Repeated mistakes' });
+    const repeated = within(table).getAllByTestId('repeated-mistake');
     expect(repeated).toHaveLength(1);
     expect(repeated[0].textContent).toMatch(/Text q1/);
-    expect(repeated[0].textContent).toMatch(/1 time before/);
+    const row = repeated[0].closest('tr') as HTMLElement;
+    expect(within(row).getByText('1 time')).toBeTruthy(); // wrong once before
+    expect(within(table).getByRole('columnheader', { name: 'Wrong before' })).toBeTruthy();
   });
 
-  it('shows no section block for an ordinary test, and nothing at all when there is nothing to report', async () => {
+  it('shows nothing at all when there is nothing to report', async () => {
     await (await getDB()).clear('universalAttempts' as never);
     render(<PracticeAnalysisExtras session={session(false)} questionsById={questionsById} />);
     await waitFor(() => expect(screen.getByTestId('practice-analysis-extras')).toBeTruthy());
-    expect(screen.queryByTestId('section-result')).toBeNull();
     expect(screen.queryByTestId('repeated-mistake')).toBeNull();
   });
 });

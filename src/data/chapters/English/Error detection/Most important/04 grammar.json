@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "grammar951",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nTen kilometres / is a long distance / to walk in this heat.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ten kilometres"
+      },
+      {
+        "id": "B",
+        "text": "is a long distance"
+      },
+      {
+        "id": "C",
+        "text": "to walk in this heat."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "medium",
+    "explanation": "नियम: दूरी, धन, समय, वज़न, माप जब एक इकाई (single unit) की तरह आएँ तो verb एकवचन — Ten kilometres is a long distance; Fifty rupees is enough for me; Five years is a long time। भिन्न में 'Two-thirds of the work is done' (uncountable → एकवचन), पर 'Two-thirds of the students are present' (countable plural → बहुवचन)।\n\nयहाँ: दूरी (ten kilometres) एक इकाई की तरह आई है, इसलिए verb एकवचन 'is' सही है। वाक्य में कोई त्रुटि नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar952",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nEither the Principal / or the teachers / has to attend / the annual meeting at the district office.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Either the Principal"
+      },
+      {
+        "id": "B",
+        "text": "or the teachers"
+      },
+      {
+        "id": "C",
+        "text": "has to attend"
+      },
+      {
+        "id": "D",
+        "text": "the annual meeting at the district office."
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "नियम: Either ... or / Neither ... nor / Not only ... but also / or / nor से जुड़े subjects में verb सबसे निकट वाले (बाद वाले) subject के अनुसार लगता है — Neither the manager nor the clerks were present; Either he or I am wrong; Not only the boys but also the girl was punished। पर 'Both ... and' में verb हमेशा बहुवचन।\n\nयहाँ: 'Either ... or' में verb निकटतम subject 'teachers' (बहुवचन) के अनुसार लगता है, इसलिए 'has to attend' गलत है; सही 'have to attend'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar953",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe Chief Minister, together with / his cabinet colleagues, are expected / to attend the ceremony.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Chief Minister, together with"
+      },
+      {
+        "id": "B",
+        "text": "his cabinet colleagues, are expected"
+      },
+      {
+        "id": "C",
+        "text": "to attend the ceremony."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "नियम: Subject के साथ with, along with, together with, as well as, in addition to, accompanied by, no less than जुड़े हों तो verb पहले (मुख्य) subject के अनुसार लगता है — The teacher, along with his students, is coming; Ram, as well as his brothers, has arrived; The captain, with his team, was present।\n\nयहाँ: 'Together with' से जुड़ा हिस्सा गिना नहीं जाता, इसलिए verb मुख्य subject 'The Chief Minister' (एकवचन) के अनुसार 'is expected' होगा।",
+    "language": "en"
+  },
+  {
+    "id": "grammar954",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe police is / investigating the case / of the missing child.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The police is"
+      },
+      {
+        "id": "B",
+        "text": "investigating the case"
+      },
+      {
+        "id": "C",
+        "text": "of the missing child."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "medium",
+    "explanation": "नियम: जो शब्द रूप में बहुवचन पर अर्थ में एकवचन हैं — mathematics, physics, economics, politics, news, measles, mumps, ethics, gymnastics, billiards, the United States, The Arabian Nights, किताब / अख़बार का नाम — उनके साथ verb एकवचन। इसके उलट trousers, scissors, spectacles, pants, jeans, shorts, tongs, pliers, binoculars हमेशा बहुवचन verb लेते हैं (These trousers are ...); 'The police, cattle, people, clergy, poultry' भी बहुवचन।\n\nयहाँ: 'The police' हमेशा बहुवचन माना जाता है, इसलिए 'The police are investigating'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar955",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe news of the sudden strikes / in the factories / were quite disturbing.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The news of the sudden strikes"
+      },
+      {
+        "id": "B",
+        "text": "in the factories"
+      },
+      {
+        "id": "C",
+        "text": "were quite disturbing."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "medium",
+    "explanation": "नियम: जो शब्द रूप में बहुवचन पर अर्थ में एकवचन हैं — mathematics, physics, economics, politics, news, measles, mumps, ethics, gymnastics, billiards, the United States, The Arabian Nights, किताब / अख़बार का नाम — उनके साथ verb एकवचन। इसके उलट trousers, scissors, spectacles, pants, jeans, shorts, tongs, pliers, binoculars हमेशा बहुवचन verb लेते हैं (These trousers are ...); 'The police, cattle, people, clergy, poultry' भी बहुवचन।\n\nयहाँ: 'News' रूप में बहुवचन पर अर्थ में एकवचन है और head noun भी यही है, इसलिए 'was quite disturbing' होगा।",
+    "language": "en"
+  },
+  {
+    "id": "grammar956",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nWhy did you / not told me about / the change in the schedule?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Why did you"
+      },
+      {
+        "id": "B",
+        "text": "not told me about"
+      },
+      {
+        "id": "C",
+        "text": "the change in the schedule?"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "नियम: Do / does / did के बाद मुख्य क्रिया हमेशा V1 (base form) आती है — Did you see the film? (saw ✗); He does not go; I did not know। Negative और question में V2 नहीं लगता।\n\nयहाँ: 'Did' के बाद मुख्य क्रिया V1 में आती है — 'not tell me'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar957",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nShe is seeming / very tired / after the long journey.",
+    "options": [
+      {
+        "id": "A",
+        "text": "She is seeming"
+      },
+      {
+        "id": "B",
+        "text": "very tired"
+      },
+      {
+        "id": "C",
+        "text": "after the long journey."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "नियम: Stative verbs (know, understand, like, love, hate, want, need, believe, belong, own, prefer, remember, see, hear, seem, contain) सामान्यतः continuous रूप में नहीं आते — I understand this chapter (am understanding ✗); I have known him for ten years (have been knowing ✗); She wants to become a doctor।\n\nयहाँ: 'Seem' stative क्रिया है और continuous में नहीं आती। सही: 'She seems very tired'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar958",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nI will call you / as soon as / I will reach home.",
+    "options": [
+      {
+        "id": "A",
+        "text": "I will call you"
+      },
+      {
+        "id": "B",
+        "text": "as soon as"
+      },
+      {
+        "id": "C",
+        "text": "I will reach home."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tenses",
+    "difficulty": "medium",
+    "explanation": "नियम: समय / शर्त के clause (if, when, as soon as, before, after, until, unless, as long as, while) में भविष्य के अर्थ के लिए Simple Present आता है, will / would नहीं — I will phone you as soon as I reach home (will reach ✗); If it rains tomorrow, we will cancel the picnic।\n\nयहाँ: 'As soon as' वाले समय-सूचक clause में भविष्य के लिए Simple Present आता है — 'as soon as I reach home'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar959",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nBy the time the ambulance arrived, the patient [had died].",
+    "options": [
+      {
+        "id": "A",
+        "text": "has died"
+      },
+      {
+        "id": "B",
+        "text": "would die"
+      },
+      {
+        "id": "C",
+        "text": "dies"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tenses",
+    "difficulty": "hard",
+    "explanation": "नियम: दो बीती क्रियाओं में जो पहले पूरी हुई उसके लिए Past Perfect (had + V3) और बाद वाली के लिए Simple Past — When we reached the station, the train had left; The thief had escaped before the police arrived; after / before / by the time / as soon as के साथ यही क्रम रहता है।\n\nयहाँ: 'By the time + Simple Past' में पहले हो चुकी क्रिया के लिए Past Perfect (had died) सही है। इसलिए सुधार की ज़रूरत नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar960",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe librarian has not received the returned books ____ .",
+    "options": [
+      {
+        "id": "A",
+        "text": "already"
+      },
+      {
+        "id": "B",
+        "text": "still"
+      },
+      {
+        "id": "C",
+        "text": "yet"
+      },
+      {
+        "id": "D",
+        "text": "ever"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "easy",
+    "explanation": "नियम: already = पहले ही (सकारात्मक: He has already left), yet = अब तक (नकारात्मक / प्रश्न: He has not come yet; Has he come yet?), still = अब भी; 'not ... already' ✗; 'just' = अभी-अभी (Present Perfect), 'just now' = Simple Past।\n\nयहाँ: नकारात्मक वाक्य में 'अब तक' के अर्थ में 'yet' आता है; 'already' सकारात्मक वाक्यों में लगता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar961",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHonesty is / the best policy / in all walks of life.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Honesty is"
+      },
+      {
+        "id": "B",
+        "text": "the best policy"
+      },
+      {
+        "id": "C",
+        "text": "in all walks of life."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "articles",
+    "difficulty": "medium",
+    "explanation": "नियम: बिना article: खेल (play cricket), भोजन (have breakfast), भाषा (speak English), विषय (study history), सामान्य अर्थ में बहुवचन / अमूर्त संज्ञा (Honesty is the best policy; Boys like football), 'by + साधन' (by bus, by train), 'go home', 'at night', 'at noon', 'next / last + समय' (next week)।\n\nयहाँ: 'Honesty' अमूर्त संज्ञा है, इसलिए उससे पहले article नहीं लगता; 'the best' में superlative से पहले 'the' सही है। वाक्य में कोई त्रुटि नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar962",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe Mount Everest / is the highest peak / in the world.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The Mount Everest"
+      },
+      {
+        "id": "B",
+        "text": "is the highest peak"
+      },
+      {
+        "id": "C",
+        "text": "in the world."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "articles",
+    "difficulty": "medium",
+    "explanation": "नियम: 'The' लगता है: superlative से पहले (the best); अद्वितीय वस्तु (the sun, the moon, the sky, the earth); नदियों, पर्वत-शृंखलाओं, समुद्रों, द्वीप-समूहों, जहाज़ों, अख़बारों, धर्मग्रंथों, स्मारकों के नाम से पहले (the Ganga, the Himalayas, the Pacific, the Titanic, the Times of India, the Gita, the Taj Mahal, the Red Fort); दिशा (in the east); ordinal से पहले (the fifth emperor); 'the + comparative ..., the + comparative' (The more, the merrier)। पर Mount Everest, Lake Superior, India जैसे अकेले नामों से पहले नहीं।\n\nयहाँ: अकेले पर्वत-शिखर के नाम (Mount Everest) से पहले 'the' नहीं लगता। 'The' पर्वत-शृंखला (the Himalayas) से पहले लगता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar963",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\n____ more you practise, the better you will perform in the examination.",
+    "options": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "An"
+      },
+      {
+        "id": "C",
+        "text": "The"
+      },
+      {
+        "id": "D",
+        "text": "This"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "articles",
+    "difficulty": "medium",
+    "explanation": "नियम: 'The' लगता है: superlative से पहले (the best); अद्वितीय वस्तु (the sun, the moon, the sky, the earth); नदियों, पर्वत-शृंखलाओं, समुद्रों, द्वीप-समूहों, जहाज़ों, अख़बारों, धर्मग्रंथों, स्मारकों के नाम से पहले (the Ganga, the Himalayas, the Pacific, the Titanic, the Times of India, the Gita, the Taj Mahal, the Red Fort); दिशा (in the east); ordinal से पहले (the fifth emperor); 'the + comparative ..., the + comparative' (The more, the merrier)। पर Mount Everest, Lake Superior, India जैसे अकेले नामों से पहले नहीं।\n\nयहाँ: 'The + comparative ..., the + comparative' संरचना में दोनों जगह 'the' लगता है — 'The more you practise, the better ...'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar964",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nI prefer coffee / than tea / in the morning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "I prefer coffee"
+      },
+      {
+        "id": "B",
+        "text": "than tea"
+      },
+      {
+        "id": "C",
+        "text": "in the morning."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "prepositions",
+    "difficulty": "easy",
+    "explanation": "नियम: Latin comparative शब्द — senior, junior, superior, inferior, prior, anterior, posterior, preferable और क्रिया prefer — के बाद 'to' आता है, 'than' नहीं (senior to me; superior to; prefer tea to coffee; prefer walking to driving); 'more superior', 'prefer ... than' गलत हैं; 'would rather ... than' सही है।\n\nयहाँ: 'Prefer' के बाद 'to' आता है, 'than' नहीं — 'prefer coffee to tea'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar965",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe principal insisted ____ meeting the parents before taking any decision.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for"
+      },
+      {
+        "id": "B",
+        "text": "to"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "at"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions",
+    "difficulty": "medium",
+    "explanation": "नियम: निश्चित verb + preposition: congratulate (on), accuse (of), suffer (from), prevent (from), blame (for), succeed (in), insist (on), depend / rely (on), consist (of), look (at / for / after), laugh (at), listen (to), wait (for), adhere (to), differ (from), complain (about), aim (at), provide (with), convict (of), die (of), prohibit (from), divide (among / between)।\n\nयहाँ: 'Insist' के साथ 'on' आता है, और preposition के बाद gerund (meeting) आता है — 'insisted on meeting'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar966",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nShe is very good at playing / the sitar and / is fond of singing.",
+    "options": [
+      {
+        "id": "A",
+        "text": "She is very good at playing"
+      },
+      {
+        "id": "B",
+        "text": "the sitar and"
+      },
+      {
+        "id": "C",
+        "text": "is fond of singing."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "prepositions",
+    "difficulty": "medium",
+    "explanation": "नियम: Adjective + preposition: fond of, proud of, afraid of, jealous of, good at (कौशल), weak in (विषय), keen on, angry with (व्यक्ति) / at (बात), tired of, interested in, aware of, ashamed of, capable of, different from, similar to, married to, responsible for, accustomed to, anxious about, satisfied with, indifferent to।\n\nयहाँ: कौशल के लिए 'good at' और 'fond of' दोनों सही हैं। वाक्य में कोई त्रुटि नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar967",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe two brothers divided the property ____ themselves equally.",
+    "options": [
+      {
+        "id": "A",
+        "text": "between"
+      },
+      {
+        "id": "B",
+        "text": "with"
+      },
+      {
+        "id": "C",
+        "text": "among"
+      },
+      {
+        "id": "D",
+        "text": "over"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions",
+    "difficulty": "medium",
+    "explanation": "नियम: Between दो के बीच (between the two brothers); Among तीन या अधिक के बीच (among the five children); 'between you and me' (objective case)। तीन या अधिक चीज़ें बाँटने / चुनने में 'among' आता है।\n\nयहाँ: दो व्यक्तियों के बीच बँटवारे में 'between' आता है; 'among' तीन या अधिक के लिए है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar968",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe delegation [reached to] the airport at noon.",
+    "options": [
+      {
+        "id": "A",
+        "text": "reached"
+      },
+      {
+        "id": "B",
+        "text": "arrived to"
+      },
+      {
+        "id": "C",
+        "text": "reached in"
+      },
+      {
+        "id": "D",
+        "text": "reached at"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions",
+    "difficulty": "medium",
+    "explanation": "नियम: ये verbs सीधे object लेते हैं, preposition नहीं: discuss, reach, enter, attend, resemble, marry, approach, order, request, demand, contact, obey, answer, await — He discussed the matter (about ✗); reached Delhi (to ✗); married a businessman (with ✗); resembles his father (to ✗); entered the room (into ✗)।\n\nयहाँ: 'Reach' सकर्मक क्रिया है और सीधे object लेती है, इसलिए 'to' अनावश्यक है — 'reached the airport'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar969",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe boy whom / I thought was honest / has cheated me / of a large amount of money.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The boy whom"
+      },
+      {
+        "id": "B",
+        "text": "I thought was honest"
+      },
+      {
+        "id": "C",
+        "text": "has cheated me"
+      },
+      {
+        "id": "D",
+        "text": "of a large amount of money."
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "pronouns",
+    "difficulty": "hard",
+    "explanation": "नियम: Who = subject (कर्ता), Whom = object (कर्म) या preposition के बाद, Whose = अधिकार। कसौटी: clause में उस शब्द की भूमिका देखें — The man whom I met (I met him → object); The girl who won (she won → subject); बीच में 'I thought / you said' जैसा parenthetical आए तो भी भूमिका वही रहती है (a man who I thought was a thief → he was a thief)।\n\nयहाँ: 'I thought' बीच में आया parenthetical है; 'was honest' का कर्ता वही लड़का है (he was honest), इसलिए Subjective 'who' आएगा — 'The boy who I thought was honest'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar970",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nHe prides ____ on his punctuality.",
+    "options": [
+      {
+        "id": "A",
+        "text": "his"
+      },
+      {
+        "id": "B",
+        "text": "him"
+      },
+      {
+        "id": "C",
+        "text": "himself"
+      },
+      {
+        "id": "D",
+        "text": "he"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "pronouns",
+    "difficulty": "easy",
+    "explanation": "नियम: कुछ मुहावरों में reflexive pronoun अनिवार्य है: pride oneself on, avail oneself of, absent oneself from, enjoy oneself, apply oneself to, acquit oneself, help oneself to, betake oneself — He prides himself on his punctuality (prides on ✗); The students availed themselves of the facility।\n\nयहाँ: 'Pride' के बाद reflexive pronoun अनिवार्य है — 'prides himself on'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar971",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nNobody knew the secret / except her and me / before the meeting.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nobody knew the secret"
+      },
+      {
+        "id": "B",
+        "text": "except her and me"
+      },
+      {
+        "id": "C",
+        "text": "before the meeting."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "pronouns",
+    "difficulty": "hard",
+    "explanation": "नियम: Preposition (between, with, for, to, except, but, like, near, about) और 'let' के बाद pronoun का Objective case (me, him, her, us, them) आता है — Between you and me (I ✗); Let him and me go (Let he and I ✗); Nobody but him knows; Everyone except her was present।\n\nयहाँ: 'Except' preposition है, इसलिए उसके बाद Objective case (her and me) सही है। वाक्य में कोई त्रुटि नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar972",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe company has / changed it's / policy on leave.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The company has"
+      },
+      {
+        "id": "B",
+        "text": "changed it's"
+      },
+      {
+        "id": "C",
+        "text": "policy on leave."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "pronouns",
+    "difficulty": "easy",
+    "explanation": "नियम: Double possessive: 'a friend of mine / of his / of Ram's' (a friend of me ✗, a cousin of her ✗, my friend of ✗); 'mine, yours, his, hers, ours, theirs' संज्ञा के बिना आते हैं (This book is mine) और 'my, your, his' संज्ञा के साथ (my book); its ≠ it's; gerund से पहले possessive (I object to his going)।\n\nयहाँ: अधिकार बताने के लिए 'its' आता है; 'it's' का अर्थ 'it is' होता है — 'changed its policy'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar973",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThis is the [most perfect] solution to the problem.",
+    "options": [
+      {
+        "id": "A",
+        "text": "more perfect"
+      },
+      {
+        "id": "B",
+        "text": "perfect"
+      },
+      {
+        "id": "C",
+        "text": "very perfect"
+      },
+      {
+        "id": "D",
+        "text": "perfectly"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adjectives",
+    "difficulty": "medium",
+    "explanation": "नियम: Absolute adjectives (unique, perfect, complete, universal, ideal, entire, whole, total, final, fatal, dead, round, empty, full, infinite, eternal, supreme, extreme) के degrees नहीं बनते — 'more / most unique', 'very perfect', 'more complete' गलत हैं; सही रूप 'unique', 'perfect', 'almost unique', 'nearly perfect'।\n\nयहाँ: 'Perfect' absolute adjective है, उसके degrees नहीं बनते; इसलिए 'most perfect' गलत है — 'the perfect solution'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar974",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe poet and novelist ____ expected to deliver the keynote address today, and he has already reached the city.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "have been"
+      },
+      {
+        "id": "C",
+        "text": "were"
+      },
+      {
+        "id": "D",
+        "text": "are"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "hard",
+    "explanation": "नियम: दो अलग subjects 'and' से जुड़ें तो बहुवचन (Rama and Krishna are worshipped); पर जब दोनों शब्द एक ही इकाई / वस्तु का नाम हों तो एकवचन — Rice and curry is my favourite dish; Bread and butter is his breakfast; The horse and carriage is waiting; Slow and steady wins the race। एक ही व्यक्ति के दो पद (The poet and novelist is dead) में article एक बार और verb एकवचन।\n\nयहाँ: 'The poet and novelist' में article केवल एक बार आया है, यानी यह एक ही व्यक्ति के दो पद हैं; इसलिए verb एकवचन 'is' आएगा। अलग-अलग व्यक्ति होते तो 'the poet and the novelist are' होता।",
+    "language": "en"
+  },
+  {
+    "id": "grammar975",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nFor ____ details about the course, please contact the office.",
+    "options": [
+      {
+        "id": "A",
+        "text": "far"
+      },
+      {
+        "id": "B",
+        "text": "furthest"
+      },
+      {
+        "id": "C",
+        "text": "further"
+      },
+      {
+        "id": "D",
+        "text": "farther"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adjectives",
+    "difficulty": "medium",
+    "explanation": "नियम: older / oldest = उम्र की सामान्य तुलना (older than); elder / eldest = केवल परिवार के सदस्यों के साथ और बाद में 'than' नहीं (my elder brother ✓; Ravi is elder than Mohan ✗); later / latest = समय; latter / last = क्रम; farther = दूरी; further = अतिरिक्त।\n\nयहाँ: 'अतिरिक्त' के अर्थ में 'further' आता है; 'farther' दूरी के लिए है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar976",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe company was founded twenty years ____ .",
+    "options": [
+      {
+        "id": "A",
+        "text": "before"
+      },
+      {
+        "id": "B",
+        "text": "since"
+      },
+      {
+        "id": "C",
+        "text": "ago"
+      },
+      {
+        "id": "D",
+        "text": "past"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "adverbs",
+    "difficulty": "easy",
+    "explanation": "नियम: ago = अब से पहले (Simple Past के साथ: He left ten years ago); before = किसी बीते बिंदु से पहले (Past Perfect के साथ: He had left ten years before); सीधे बीते समय की सूचना में 'ago' आता है, 'before' नहीं।\n\nयहाँ: अब से पहले बीते समय को बताने के लिए Simple Past के साथ 'ago' आता है — 'twenty years ago'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar977",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe children played / happily and noisy / in the garden / till late in the evening.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The children played"
+      },
+      {
+        "id": "B",
+        "text": "happily and noisy"
+      },
+      {
+        "id": "C",
+        "text": "in the garden"
+      },
+      {
+        "id": "D",
+        "text": "till late in the evening."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "adverbs",
+    "difficulty": "medium",
+    "explanation": "नियम: क्रिया को modify करने वाले शब्द adverb होने चाहिए, और 'and' से जुड़े शब्द एक ही प्रकार के — playing happily and noisily ('noisy' adjective है, क्रिया को modify नहीं कर सकता)।\n\nयहाँ: 'Played' क्रिया को modify करने वाले दोनों शब्द adverb होने चाहिए; 'noisy' विशेषण है, इसलिए 'happily and noisily' होगा।",
+    "language": "en"
+  },
+  {
+    "id": "grammar978",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe box was too heavy ____ .",
+    "options": [
+      {
+        "id": "A",
+        "text": "so that the little boy lifts"
+      },
+      {
+        "id": "B",
+        "text": "that the little boy could not lift"
+      },
+      {
+        "id": "C",
+        "text": "for the little boy that he could lift"
+      },
+      {
+        "id": "D",
+        "text": "for the little boy to lift"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "नियम: too + adjective / adverb + to + V1 (नकारात्मक अर्थ: He was too weak to lift the box); 'too ... for lifting' ✗, 'too ... that' ✗; enough + to + V1 (strong enough to lift)।\n\nयहाँ: 'Too + adjective + (for + noun) + to + V1' संरचना में 'that' clause नहीं आता। सही: 'too heavy for the little boy to lift'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar979",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nI am not sure ____ he will attend the meeting or not.",
+    "options": [
+      {
+        "id": "A",
+        "text": "whether"
+      },
+      {
+        "id": "B",
+        "text": "lest"
+      },
+      {
+        "id": "C",
+        "text": "unless"
+      },
+      {
+        "id": "D",
+        "text": "although"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "नियम: Whether ... or (not) संदेह / विकल्प बताता है (I do not know whether he will come or not); 'if' शर्त के लिए; 'whether' के बाद 'or not' आ सकता है और infinitive भी (whether to go or stay)।\n\nयहाँ: संदेह / विकल्प बताने और 'or not' के साथ 'whether' आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar980",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nWork hard / or you will / fail in the examination.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Work hard"
+      },
+      {
+        "id": "B",
+        "text": "or you will"
+      },
+      {
+        "id": "C",
+        "text": "fail in the examination."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "नियम: Imperative + and / or: 'Work hard, and you will succeed' (सकारात्मक परिणाम); 'Work hard, or you will fail' (अन्यथा / नकारात्मक परिणाम = Unless you work hard, you will fail); 'otherwise' का अर्थ भी यही है; 'but' यहाँ नहीं आता।\n\nयहाँ: Imperative के बाद नकारात्मक परिणाम बताने के लिए 'or' (अन्यथा) सही है। वाक्य में कोई त्रुटि नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar981",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nRavi is very industrious, ____ his brother is extremely lazy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "because"
+      },
+      {
+        "id": "B",
+        "text": "whereas"
+      },
+      {
+        "id": "C",
+        "text": "lest"
+      },
+      {
+        "id": "D",
+        "text": "unless"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "नियम: While / Whereas = जबकि (विरोध / तुलना: Some like tea, while others like coffee); Unless = यदि नहीं; Lest = कहीं ऐसा न हो; Than = तुलना; Since = कारण / समय — सही संयोजक अर्थ के अनुसार चुनें।\n\nयहाँ: दो विपरीत बातों की तुलना में 'whereas / while' (जबकि) आता है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar982",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nBecause the road was blocked, so we took / a longer route / to the airport.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because the road was blocked, so we took"
+      },
+      {
+        "id": "B",
+        "text": "a longer route"
+      },
+      {
+        "id": "C",
+        "text": "to the airport."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "medium",
+    "explanation": "नियम: Although / Though / Even though के साथ 'but' नहीं आता (दोहरा संयोजक गलत): Although he was poor, he was honest; 'though ... yet' चलता है; इसी प्रकार because ... so ✗, since ... therefore ✗।\n\nयहाँ: 'Because' और 'so' दोनों एक साथ नहीं लगते (दोहरा संयोजक)। सही: 'Because the road was blocked, we took a longer route'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar983",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nIf only I ____ more careful, I would not have lost my wallet.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were"
+      },
+      {
+        "id": "B",
+        "text": "am"
+      },
+      {
+        "id": "C",
+        "text": "had been"
+      },
+      {
+        "id": "D",
+        "text": "would be"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conditionals",
+    "difficulty": "hard",
+    "explanation": "नियम: If only / I wish + had + V3 (अतीत का पछतावा), V2 / were (वर्तमान की इच्छा): If only I had been more careful, I would not have lost my wallet; 'would not have lost' के साथ if-clause में 'were / am' मेल नहीं खाता।\n\nयहाँ: अतीत के पछतावे (would not have lost) के लिए 'If only + had + V3' आता है — 'had been'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar984",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nMay God / blesses you / with a long and healthy life.",
+    "options": [
+      {
+        "id": "A",
+        "text": "May God"
+      },
+      {
+        "id": "B",
+        "text": "blesses you"
+      },
+      {
+        "id": "C",
+        "text": "with a long and healthy life."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "modals",
+    "difficulty": "easy",
+    "explanation": "नियम: इच्छा / आशीर्वाद (Optative): May + subject + V1 — May God bless you with success; 'blessed / blesses / has blessed' ✗; 'May' के बाद हमेशा V1 आता है।\n\nयहाँ: Optative वाक्य में 'May' के बाद V1 आता है — 'May God bless you'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar985",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nHe [ought to have informed] the police about the theft.",
+    "options": [
+      {
+        "id": "A",
+        "text": "ought to informed"
+      },
+      {
+        "id": "B",
+        "text": "ought to have inform"
+      },
+      {
+        "id": "C",
+        "text": "ought have informed"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "modals",
+    "difficulty": "medium",
+    "explanation": "नियम: should / ought to + have + V3 = करना चाहिए था (पर नहीं किया); could have = कर सकता था; would have = करता (पर नहीं किया); must have = ज़रूर किया होगा; needn't have = करने की ज़रूरत नहीं थी; may / might have = शायद किया हो।\n\nयहाँ: 'Ought to have + V3' का अर्थ 'करना चाहिए था (पर नहीं किया)' है; वाक्य सही है। इसलिए सुधार की ज़रूरत नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar986",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nShe is busy ____ for the interview.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to prepare"
+      },
+      {
+        "id": "B",
+        "text": "prepare"
+      },
+      {
+        "id": "C",
+        "text": "prepared"
+      },
+      {
+        "id": "D",
+        "text": "preparing"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "नियम: busy / worth / no use / spend time + V-ing: He is busy preparing for the exam (to prepare ✗); She spends hours reading। 'be busy' के बाद gerund आता है, infinitive नहीं।\n\nयहाँ: 'Be busy' के बाद gerund (V-ing) आता है — 'busy preparing'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar987",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe accused was / seen run away / from the spot.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The accused was"
+      },
+      {
+        "id": "B",
+        "text": "seen run away"
+      },
+      {
+        "id": "C",
+        "text": "from the spot."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "नियम: make, let, see, hear, watch, feel, notice, help के बाद bare infinitive (to के बिना): The doctor made the patient take the medicine; I saw him go; पर passive में 'to' लौट आता है (The patient was made to take ...; He was seen to go)।\n\nयहाँ: Active में 'see + object + V1' होता है, पर passive में 'to' लौट आता है — 'was seen to run away'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar988",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nThe minister denied ____ any money from the contractor.",
+    "options": [
+      {
+        "id": "A",
+        "text": "taking"
+      },
+      {
+        "id": "B",
+        "text": "take"
+      },
+      {
+        "id": "C",
+        "text": "to take"
+      },
+      {
+        "id": "D",
+        "text": "to have take"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "नियम: इन verbs के बाद gerund (V-ing) आता है, to-infinitive नहीं: avoid, enjoy, finish, mind, practise, suggest, deny, admit, delay, postpone, consider, escape, risk, imagine, give up, put off, keep, stop (रोकना), cannot help — He avoided meeting me; He gave up smoking।\n\nयहाँ: 'Deny' के बाद gerund आता है — 'denied taking'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar989",
+    "subjectId": "english",
+    "question": "Select the correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Driving to the market, a beautiful horse I saw."
+      },
+      {
+        "id": "B",
+        "text": "While driving to the market, I saw a beautiful horse."
+      },
+      {
+        "id": "C",
+        "text": "Driving to the market, a beautiful horse was seen by me."
+      },
+      {
+        "id": "D",
+        "text": "I saw a beautiful horse driving to the market."
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "parallelism",
+    "difficulty": "hard",
+    "explanation": "नियम: (i) Modifier अपने संबद्ध शब्द के पास होना चाहिए, वरना अर्थ बिगड़ता है (misplaced modifier) — He lost his bag, which contained all his certificates, while travelling in a bus (शुरुआती रूप में 'which' bus से जुड़ गया ✗); 'only' जिस शब्द पर बल दे उसके ठीक पहले आता है।\n(ii) Participle phrase का कर्ता वही होना चाहिए जो main clause का कर्ता है; वरना 'dangling participle' गलत है — Walking along the road, I saw a snake (Walking along the road, a snake bit me ✗); Opening the door, the room was found empty ✗ → When the door was opened, ... / On opening the door, we found the room empty।\n\nयहाँ: सही वाक्य में modifier 'While driving to the market' का कर्ता 'I' है। अन्य विकल्पों में 'घोड़ा' गाड़ी चलाता प्रतीत होता है (misplaced / dangling modifier)।",
+    "language": "en"
+  },
+  {
+    "id": "grammar990",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe students of this school / are more disciplined / than any other school in the city.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The students of this school"
+      },
+      {
+        "id": "B",
+        "text": "are more disciplined"
+      },
+      {
+        "id": "C",
+        "text": "than any other school in the city."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "parallelism",
+    "difficulty": "hard",
+    "explanation": "नियम: तुलना समान वस्तुओं की होनी चाहिए — The climate of Shimla is cooler than that of Delhi (than Delhi ✗); बहुवचन के लिए 'those of' (The prices of vegetables are higher than those of last year); 'The salary of a doctor is higher than that of a teacher'।\n\nयहाँ: तुलना students की students से होनी चाहिए, school से नहीं। सही: 'than those of any other school'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar991",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe old man [was run over by] a speeding truck near the bridge.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was ran over by"
+      },
+      {
+        "id": "B",
+        "text": "has run over by"
+      },
+      {
+        "id": "C",
+        "text": "is run over from"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "voice",
+    "difficulty": "medium",
+    "explanation": "नियम: Prepositional / phrasal verbs का passive में preposition बना रहता है — The boy was laughed at by his classmates; He was looked after; The plan was approved of। preposition हटाना गलत है।\n\nयहाँ: 'Run over' का passive 'was run over by' सही बनता है (V3 = run, और preposition बना रहता है)। इसलिए सुधार की ज़रूरत नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar992",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHe is / well known / with everyone in the neighbourhood.",
+    "options": [
+      {
+        "id": "A",
+        "text": "He is"
+      },
+      {
+        "id": "B",
+        "text": "well known"
+      },
+      {
+        "id": "C",
+        "text": "with everyone in the neighbourhood."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "voice",
+    "difficulty": "medium",
+    "explanation": "नियम: Passive participle के साथ निश्चित preposition आते हैं: known to (व्यक्ति / समूह: He is well known to everyone), known for (गुण / कारण: known for honesty), known as (नाम / पद: known as the Iron Man), known by (पहचान का चिह्न: A man is known by the company he keeps); इसी प्रकार interested in, surprised at, pleased with, satisfied with, tired of, married to, annoyed with / at, absorbed in, covered with। 'known with' ✗।\n\nयहाँ: व्यक्ति / समूह के लिए 'known to' आता है — 'well known to everyone'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar993",
+    "subjectId": "english",
+    "question": "Improve the bracketed segment.\n\nThe doctor advised him [to avoid] oily food.",
+    "options": [
+      {
+        "id": "A",
+        "text": "avoid"
+      },
+      {
+        "id": "B",
+        "text": "for avoiding"
+      },
+      {
+        "id": "C",
+        "text": "that avoid"
+      },
+      {
+        "id": "D",
+        "text": "No improvement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "नियम: Imperative → ordered / commanded / requested / advised / forbade + object + (not) to + V1 — The teacher ordered the students to keep quiet; 'ordered to the students' ✗, 'for keeping' ✗; Please → requested; Don't → forbade / advised ... not to।\n\nयहाँ: Advice वाले वाक्य के reporting में 'advised + object + to + V1' आता है; वाक्य सही है। इसलिए सुधार की ज़रूरत नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar994",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nHe asked me / that whether I / had finished the work.",
+    "options": [
+      {
+        "id": "A",
+        "text": "He asked me"
+      },
+      {
+        "id": "B",
+        "text": "that whether I"
+      },
+      {
+        "id": "C",
+        "text": "had finished the work."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "narration",
+    "difficulty": "medium",
+    "explanation": "नियम: Interrogative → asked / enquired + if / whether (yes-no प्रश्न) या वही wh-word + statement order (did / do नहीं) — She asked me where I lived (where did I live ✗); He asked me whether I had finished the work; 'asked that' ✗, '?' हटता है।\n\nयहाँ: Yes / no प्रश्न की reporting में 'if / whether' आता है, 'that' नहीं — 'asked me whether I had finished'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar995",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nSeveral criterias / have been laid down / for the selection of candidates.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Several criterias"
+      },
+      {
+        "id": "B",
+        "text": "have been laid down"
+      },
+      {
+        "id": "C",
+        "text": "for the selection of candidates."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "nouns",
+    "difficulty": "medium",
+    "explanation": "नियम: अनियमित बहुवचन: thief → thieves, knife → knives, wife → wives, leaf → leaves, half → halves (अपवाद: roof → roofs, chief → chiefs, cliff → cliffs); man → men, foot → feet, tooth → teeth, mouse → mice, ox → oxen; phenomenon → phenomena, criterion → criteria, datum → data, medium → media, crisis → crises, basis → bases, analysis → analyses; 'thiefs / criterias / phenomenas' गलत हैं।\n\nयहाँ: 'Criterion' का बहुवचन 'criteria' है; 'criterias' गलत है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar996",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe women's hostel / and the boys' hostel / are near the library.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The women's hostel"
+      },
+      {
+        "id": "B",
+        "text": "and the boys' hostel"
+      },
+      {
+        "id": "C",
+        "text": "are near the library."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "nouns",
+    "difficulty": "hard",
+    "explanation": "नियम: अनियमित बहुवचन (men, women, children) में 's लगता है (women's hostel, children's park); 's' पर समाप्त नियमित बहुवचन में केवल apostrophe (girls' school, boys' hostel); 'womens' / 'childrens' ✗; its (अधिकार) बनाम it's (it is)।\n\nयहाँ: अनियमित बहुवचन women में 's (women's) और नियमित बहुवचन boys में केवल apostrophe (boys') सही है। वाक्य में कोई त्रुटि नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "grammar997",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe shopkeeper sold five hundreds eggs / to the school / canteen yesterday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The shopkeeper sold five hundreds eggs"
+      },
+      {
+        "id": "B",
+        "text": "to the school"
+      },
+      {
+        "id": "C",
+        "text": "canteen yesterday."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "nouns",
+    "difficulty": "medium",
+    "explanation": "नियम: संख्या के बाद hundred, thousand, lakh, crore, million, dozen, score में 's' नहीं लगता (five hundred eggs, ten thousand people, two dozen pencils); अनिश्चित संख्या के लिए 'hundreds of / thousands of / dozens of' (s + of)।\n\nयहाँ: संख्या के बाद 'hundred' में 's' नहीं लगता — 'five hundred eggs'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar998",
+    "subjectId": "english",
+    "question": "Spot the error.\n\nThe teacher asked him / to repeat again / the last sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The teacher asked him"
+      },
+      {
+        "id": "B",
+        "text": "to repeat again"
+      },
+      {
+        "id": "C",
+        "text": "the last sentence."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "redundancy",
+    "difficulty": "easy",
+    "explanation": "नियम: Redundancy (pleonasm) — एक ही अर्थ दोहराना गलत है: return back, repeat again, revert back, join together, cooperate together, mutual cooperation, free gift, advance warning, final conclusion, new innovation, past history, more preferable, most unique, same identical, enter into (a room); सही रूप: return, repeat, cooperate, preferable।\n\nयहाँ: 'Repeat' में ही 'दोबारा' का अर्थ है, इसलिए 'again' अनावश्यक दोहराव है — 'to repeat the last sentence'।",
+    "language": "en"
+  },
+  {
+    "id": "grammar999",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nHe did not ____ my invitation to the wedding.",
+    "options": [
+      {
+        "id": "A",
+        "text": "accept"
+      },
+      {
+        "id": "B",
+        "text": "except"
+      },
+      {
+        "id": "C",
+        "text": "excerpt"
+      },
+      {
+        "id": "D",
+        "text": "expect"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "confusing-words",
+    "difficulty": "easy",
+    "explanation": "नियम: भ्रमित शब्द: principal (प्रधान / प्राचार्य / मूलधन) – principle (सिद्धांत); affect (v. प्रभावित करना) – effect (n. प्रभाव); stationary (स्थिर) – stationery (लेखन-सामग्री); complement (पूरक) – compliment (प्रशंसा); advice (n. सलाह) – advise (v.); lose (v.) – loose (adj.); accept (स्वीकारना) – except (के सिवा); council (परिषद) – counsel (सलाह); ensure (सुनिश्चित करना) – insure (बीमा करना) – assure (आश्वस्त करना); device (n.) – devise (v.); later – latter; farther – further। अर्थ के अनुसार सही शब्द चुनें।\n\nयहाँ: 'स्वीकार करना' के लिए 'accept' आता है; 'except' का अर्थ 'के सिवा' है।",
+    "language": "en"
+  },
+  {
+    "id": "grammar1000",
+    "subjectId": "english",
+    "question": "Fill in the blank.\n\nHe bought some ____ items, including pens and notebooks, for the office.",
+    "options": [
+      {
+        "id": "A",
+        "text": "stationing"
+      },
+      {
+        "id": "B",
+        "text": "stationary"
+      },
+      {
+        "id": "C",
+        "text": "stationed"
+      },
+      {
+        "id": "D",
+        "text": "stationery"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "confusing-words",
+    "difficulty": "medium",
+    "explanation": "नियम: भ्रमित शब्द: principal (प्रधान / प्राचार्य / मूलधन) – principle (सिद्धांत); affect (v. प्रभावित करना) – effect (n. प्रभाव); stationary (स्थिर) – stationery (लेखन-सामग्री); complement (पूरक) – compliment (प्रशंसा); advice (n. सलाह) – advise (v.); lose (v.) – loose (adj.); accept (स्वीकारना) – except (के सिवा); council (परिषद) – counsel (सलाह); ensure (सुनिश्चित करना) – insure (बीमा करना) – assure (आश्वस्त करना); device (n.) – devise (v.); later – latter; farther – further। अर्थ के अनुसार सही शब्द चुनें।\n\nयहाँ: 'Stationery' का अर्थ लेखन-सामग्री है; 'stationary' का अर्थ स्थिर है।",
+    "language": "en"
+  }
+]

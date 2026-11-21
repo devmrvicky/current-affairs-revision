@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "math_geom_001",
+    "subjectId": "mathematics",
+    "question": "यदि किसी कोण का संपूरक कोण (Supplementary Angle) उसके पूरक कोण (Complementary Angle) का 3 गुना है, तो वह कोण कितना होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "60°"
+      },
+      {
+        "id": "B",
+        "text": "45°"
+      },
+      {
+        "id": "C",
+        "text": "30°"
+      },
+      {
+        "id": "D",
+        "text": "50°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "easy",
+    "explanation": "माना कोण x है। प्रश्न के अनुसार, 180° − x = 3(90° − x) ⇒ 180° − x = 270° − 3x ⇒ 2x = 90° ⇒ x = 45°।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_002",
+    "subjectId": "mathematics",
+    "question": "दो समांतर रेखाओं AB और CD के बीच एक बिंदु E इस प्रकार है कि ∠BAE = 110° तथा ∠DCE = 125° है (जहाँ A और C एक ही ओर हैं)। ∠AEC का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "125°"
+      },
+      {
+        "id": "B",
+        "text": "115°"
+      },
+      {
+        "id": "C",
+        "text": "135°"
+      },
+      {
+        "id": "D",
+        "text": "55°"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "E से AB और CD के समांतर एक रेखा EF खींचने पर, ∠AEF = 180° − 110° = 70° तथा ∠CEF = 180° − 125° = 55°। अतः ∠AEC = 70° + 55° = 125°।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_003",
+    "subjectId": "mathematics",
+    "question": "एक रैखिक युग्म (Linear Pair) बनाने वाले दो आसन्न कोणों के कोण समद्विभाजकों के बीच का कोण सदैव कितना होता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "180°"
+      },
+      {
+        "id": "B",
+        "text": "60°"
+      },
+      {
+        "id": "C",
+        "text": "45°"
+      },
+      {
+        "id": "D",
+        "text": "90°"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "geometry",
+    "difficulty": "easy",
+    "explanation": "रैखिक युग्म के दोनों कोणों का योग 180° होता है। उनके समद्विभाजकों के बीच का कोण = (180°)/2 = 90° होता है।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_004",
+    "subjectId": "mathematics",
+    "question": "यदि एक समबहुभुज (Regular Polygon) का प्रत्येक अंतःकोण 150° है, तो इस बहुभुज में विकर्णों की कुल संख्या कितनी होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "65"
+      },
+      {
+        "id": "B",
+        "text": "44"
+      },
+      {
+        "id": "C",
+        "text": "54"
+      },
+      {
+        "id": "D",
+        "text": "35"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "प्रत्येक बाह्य कोण = 180° − 150° = 30°। भुजाओं की संख्या n = 360°/30° = 12। विकर्णों की संख्या = n(n − 3)/2 = 12 × 9 / 2 = 54।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_005",
+    "subjectId": "mathematics",
+    "question": "△ABC की भुजा BC को D तक बढ़ाया गया है। यदि बाह्य कोण ∠ACD = 128° तथा ∠ABC = 43° है, तो ∠BAC का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "75°"
+      },
+      {
+        "id": "B",
+        "text": "85°"
+      },
+      {
+        "id": "C",
+        "text": "95°"
+      },
+      {
+        "id": "D",
+        "text": "65°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "easy",
+    "explanation": "बाह्य कोण प्रमेय से, ∠ACD = ∠ABC + ∠BAC ⇒ 128° = 43° + ∠BAC ⇒ ∠BAC = 128° − 43° = 85°।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_006",
+    "subjectId": "mathematics",
+    "question": "यदि किसी त्रिभुज की तीन भुजाएँ 6 सेमी, 10 सेमी और x सेमी हैं (जहाँ x एक पूर्णांक है), तो x के कुल कितने मान संभव हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "11"
+      },
+      {
+        "id": "B",
+        "text": "10"
+      },
+      {
+        "id": "C",
+        "text": "12"
+      },
+      {
+        "id": "D",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "त्रिभुज की शर्त से |10 − 6| < x < 10 + 6 ⇒ 4 < x < 16। अतः x के पूर्णांक मान 5 से 15 तक कुल 11 संभव हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_007",
+    "subjectId": "mathematics",
+    "question": "△ABC में, AD कोण ∠A का आंतरिक समद्विभाजक है जो BC से बिंदु D पर मिलता है। यदि AB = 10 सेमी, AC = 14 सेमी और BC = 12 सेमी है, तो BD की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4.5 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "7 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "6 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "5 सेमी"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "कोण समद्विभाजक प्रमेय से BD/DC = AB/AC = 10/14 = 5/7। अतः BD = 12 × (5/(5+7)) = 12 × (5/12) = 5 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_008",
+    "subjectId": "mathematics",
+    "question": "△ABC में भुजा BC के समांतर रेखा DE खींची गई है, जो AB को D पर और AC को E पर काटती है। यदि AD = 3 सेमी, DB = 5 सेमी और AE = 4.8 सेमी है, तो AC की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10.4 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "8.0 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "12.8 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "11.2 सेमी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "geometry",
+    "difficulty": "easy",
+    "explanation": "थेल्स प्रमेय (BPT) से AD/AB = AE/AC ⇒ 3/(3+5) = 4.8/AC ⇒ 3/8 = 4.8/AC ⇒ AC = (4.8 × 8)/3 = 12.8 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_009",
+    "subjectId": "mathematics",
+    "question": "यदि △ABC ∼ △PQR है तथा △ABC और △PQR के क्षेत्रफल क्रमशः 81 वर्ग सेमी और 144 वर्ग सेमी हैं। यदि BC = 12 सेमी हो, तो QR की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "16 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "18 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "14 सेमी"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "easy",
+    "explanation": "समरूप त्रिभुजों में (BC/QR)² = क्षेत्रफल(△ABC)/क्षेत्रफल(△PQR) = 81/144 ⇒ BC/QR = 9/12 ⇒ 12/QR = 3/4 ⇒ QR = 16 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_010",
+    "subjectId": "mathematics",
+    "question": "एक समकोण △ABC में ∠B = 90° है तथा शीर्ष B से कर्ण AC पर लंब BD डाला गया है। यदि AD = 9 सेमी और DC = 16 सेमी है, तो BD की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "13 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "15 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "10 सेमी"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "समकोण त्रिभुज समरूपता प्रमेय से BD² = AD × DC = 9 × 16 = 144 ⇒ BD = √144 = 12 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_011",
+    "subjectId": "mathematics",
+    "question": "△ABC में, AE ⊥ BC तथा AD कोण ∠A का समद्विभाजक है। यदि ∠B = 68° और ∠C = 34° है, तो ∠EAD का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15°"
+      },
+      {
+        "id": "B",
+        "text": "34°"
+      },
+      {
+        "id": "C",
+        "text": "22°"
+      },
+      {
+        "id": "D",
+        "text": "17°"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "एक ही शीर्ष से लंब और कोण समद्विभाजक के बीच का कोण = |∠B − ∠C|/2 = |68° − 34°|/2 = 34°/2 = 17°।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_012",
+    "subjectId": "mathematics",
+    "question": "△ABC की भुजाओं AB और AC को क्रमशः D और E तक बढ़ाया गया है। बाह्य कोणों ∠CBD और ∠BCE के समद्विभाजक बिंदु O पर मिलते हैं। यदि ∠A = 70° है, तो ∠BOC का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "35°"
+      },
+      {
+        "id": "B",
+        "text": "125°"
+      },
+      {
+        "id": "C",
+        "text": "55°"
+      },
+      {
+        "id": "D",
+        "text": "65°"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "बाह्य कोण समद्विभाजकों के प्रतिच्छेदन पर बना कोण ∠BOC = 90° − ∠A/2 = 90° − 70°/2 = 55°।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_013",
+    "subjectId": "mathematics",
+    "question": "△ABC में AB = 5 सेमी, AC = 8 सेमी तथा ∠A = 60° है। तीसरी भुजा BC की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "7 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "√89 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "8 सेमी"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "कोज्या नियम (Cosine Rule) से: BC² = AB² + AC² − 2·AB·AC·cos 60° = 25 + 64 − 2×5×8×(1/2) = 89 − 40 = 49 ⇒ BC = 7 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_014",
+    "subjectId": "mathematics",
+    "question": "△ABC का क्षेत्रफल 72 वर्ग सेमी है। यदि G इसका केंद्रक (Centroid) और D भुजा BC का मध्य-बिंदु है, तो △BGD का क्षेत्रफल क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 वर्ग सेमी"
+      },
+      {
+        "id": "B",
+        "text": "24 वर्ग सेमी"
+      },
+      {
+        "id": "C",
+        "text": "18 वर्ग सेमी"
+      },
+      {
+        "id": "D",
+        "text": "9 वर्ग सेमी"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "easy",
+    "explanation": "त्रिभुज की तीनों माध्यिकाएँ उसे 6 बराबर क्षेत्रफल वाले त्रिभुजों में बाँटती हैं। अतः △BGD का क्षेत्रफल = 72/6 = 12 वर्ग सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_015",
+    "subjectId": "mathematics",
+    "question": "△ABC की भुजाएँ AB = 7 सेमी, AC = 9 सेमी तथा BC = 8 सेमी हैं। भुजा BC पर खींची गई माध्यिका AD की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "√41 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "6 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "8 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "7 सेमी"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "अपोलोनियस प्रमेय से: AB² + AC² = 2(AD² + BD²) ⇒ 49 + 81 = 2(AD² + 4²) ⇒ 130/2 = AD² + 16 ⇒ AD² = 49 ⇒ AD = 7 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_016",
+    "subjectId": "mathematics",
+    "question": "△ABC की दो माध्यिकाएँ BE और CF परस्पर 90° के कोण पर प्रतिच्छेद करती हैं। यदि AB = 6 सेमी और AC = 8 सेमी है, तो BC की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5√2 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "10 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "2√5 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "4√5 सेमी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "जब दो माध्यिकाएँ 90° पर काटती हैं, तो AB² + AC² = 5·BC² होता है। अतः 6² + 8² = 5·BC² ⇒ 100 = 5·BC² ⇒ BC² = 20 ⇒ BC = 2√5 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_017",
+    "subjectId": "mathematics",
+    "question": "किसी त्रिभुज की तीनों माध्यिकाओं की लंबाइयाँ क्रमशः 9 सेमी, 12 सेमी और 15 सेमी हैं। उस त्रिभुज का क्षेत्रफल क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "54 वर्ग सेमी"
+      },
+      {
+        "id": "B",
+        "text": "72 वर्ग सेमी"
+      },
+      {
+        "id": "C",
+        "text": "48 वर्ग सेमी"
+      },
+      {
+        "id": "D",
+        "text": "90 वर्ग सेमी"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "माध्यिकाओं (9, 12, 15) से बने समकोण त्रिभुज का क्षेत्रफल = ½ × 9 × 12 = 54 वर्ग सेमी। मुख्य त्रिभुज का क्षेत्रफल = (4/3) × 54 = 72 वर्ग सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_018",
+    "subjectId": "mathematics",
+    "question": "एक समकोण त्रिभुज की भुजाएँ 8 सेमी, 15 सेमी और 17 सेमी हैं। इसके परित्रिज्या (R) और अंतःत्रिज्या (r) के बीच का अंतर क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5.5 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "6.5 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "4.5 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "3.0 सेमी"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "समकोण त्रिभुज में R = कर्ण/2 = 17/2 = 8.5 सेमी तथा r = (लंब + आधार − कर्ण)/2 = (8 + 15 − 17)/2 = 3 सेमी। अतः अंतर R − r = 8.5 − 3 = 5.5 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_019",
+    "subjectId": "mathematics",
+    "question": "यदि किसी त्रिभुज की परित्रिज्या (R) = 10 सेमी तथा अंतःत्रिज्या (r) = 3.2 सेमी है, तो उसके परिकेंद्र और अंतःकेंद्र के बीच की दूरी क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4.5 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "8 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "5 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "6 सेमी"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "परिकेंद्र और अंतःकेंद्र के बीच की दूरी d = √(R² − 2Rr) = √(10² − 2 × 10 × 3.2) = √(100 − 64) = √36 = 6 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_020",
+    "subjectId": "mathematics",
+    "question": "△ABC का लंबकेंद्र (Orthocenter) H है। यदि ∠BHC = 115° है, तो ∠BAC का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "115°"
+      },
+      {
+        "id": "B",
+        "text": "57.5°"
+      },
+      {
+        "id": "C",
+        "text": "65°"
+      },
+      {
+        "id": "D",
+        "text": "75°"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "geometry",
+    "difficulty": "easy",
+    "explanation": "लंबकेंद्र H के लिए ∠BHC + ∠BAC = 180° होता है। अतः ∠BAC = 180° − 115° = 65°।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_021",
+    "subjectId": "mathematics",
+    "question": "एक आयत (Rectangle) ABCD के अंदर एक बिंदु P स्थित है। यदि PA = 6 सेमी, PC = 7 सेमी तथा PB = 2 सेमी है, तो PD की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "9 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "10 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "7.5 सेमी"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "ब्रिटिश फ्लैग प्रमेय से, आयत के अंदर किसी भी बिंदु P के लिए PA² + PC² = PB² + PD² होता है ⇒ 6² + 7² = 2² + PD² ⇒ 85 = 4 + PD² ⇒ PD = √81 = 9 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_022",
+    "subjectId": "mathematics",
+    "question": "आयत ABCD के विकर्ण AC और BD बिंदु O पर प्रतिच्छेद करते हैं। यदि ∠AOB = 68° है, तो ∠ODC का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "56°"
+      },
+      {
+        "id": "B",
+        "text": "68°"
+      },
+      {
+        "id": "C",
+        "text": "34°"
+      },
+      {
+        "id": "D",
+        "text": "62°"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "आयत के विकर्ण बराबर और परस्पर समद्विभाजित करते हैं, अतः OA = OB। △AOB में ∠OBA = (180° − 68°)/2 = 56°। चूँकि AB ∥ DC, अतः एकांतर कोण ∠ODC = ∠OBA = 56°।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_023",
+    "subjectId": "mathematics",
+    "question": "10 सेमी त्रिज्या वाले एक वृत्त के अंदर बनाए जा सकने वाले सबसे बड़े वर्ग (Square) का क्षेत्रफल क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "150 वर्ग सेमी"
+      },
+      {
+        "id": "B",
+        "text": "100 वर्ग सेमी"
+      },
+      {
+        "id": "C",
+        "text": "400 वर्ग सेमी"
+      },
+      {
+        "id": "D",
+        "text": "200 वर्ग सेमी"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "geometry",
+    "difficulty": "easy",
+    "explanation": "वृत्त के अंदर बने सबसे बड़े वर्ग का विकर्ण वृत्त के व्यास (2 × 10 = 20 सेमी) के बराबर होता है। अतः वर्ग का क्षेत्रफल = (विकर्ण)²/2 = 20²/2 = 200 वर्ग सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_024",
+    "subjectId": "mathematics",
+    "question": "एक समांतर चतुर्भुज (Parallelogram) की दो आसन्न भुजाएँ 7 सेमी और 9 सेमी हैं। यदि इसका एक विकर्ण 14 सेमी है, तो दूसरे विकर्ण की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "10 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "8 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "6 सेमी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "समांतर चतुर्भुज में d₁² + d₂² = 2(a² + b²) ⇒ 14² + d₂² = 2(7² + 9²) ⇒ 196 + d₂² = 260 ⇒ d₂² = 64 ⇒ d₂ = 8 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_025",
+    "subjectId": "mathematics",
+    "question": "समांतर चतुर्भुज ABCD में, दो आसन्न कोणों ∠A और ∠B के कोण समद्विभाजक बिंदु P पर मिलते हैं। ∠APB का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "60°"
+      },
+      {
+        "id": "B",
+        "text": "90°"
+      },
+      {
+        "id": "C",
+        "text": "120°"
+      },
+      {
+        "id": "D",
+        "text": "45°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "easy",
+    "explanation": "समांतर चतुर्भुज के आसन्न कोणों का योग 180° होता है (∠A + ∠B = 180°)। △APB में ∠APB = 180° − (∠A + ∠B)/2 = 180° − 90° = 90°।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_026",
+    "subjectId": "mathematics",
+    "question": "एक समचतुर्भुज (Rhombus) का परिमाप 52 सेमी है और इसका एक विकर्ण 10 सेमी है। समचतुर्भुज का क्षेत्रफल क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "120 वर्ग सेमी"
+      },
+      {
+        "id": "B",
+        "text": "240 वर्ग सेमी"
+      },
+      {
+        "id": "C",
+        "text": "60 वर्ग सेमी"
+      },
+      {
+        "id": "D",
+        "text": "130 वर्ग सेमी"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "भुजा a = 52/4 = 13 सेमी और d₁/2 = 5 सेमी। समचतुर्भुज के विकर्ण 90° पर समद्विभाजित करते हैं, अतः d₂/2 = √(13² − 5²) = 12 ⇒ d₂ = 24 सेमी। क्षेत्रफल = ½ × 10 × 24 = 120 वर्ग सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_027",
+    "subjectId": "mathematics",
+    "question": "एक समलंब चतुर्भुज (Trapezium) की दो समांतर भुजाओं की लंबाइयाँ 26 सेमी और 14 सेमी हैं। इसके विकर्णों के मध्य-बिंदुओं को मिलाने वाले रेखाखंड की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "20 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "12 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "6 सेमी"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "समलंब चतुर्भुज के विकर्णों के मध्य-बिंदुओं को मिलाने वाले रेखाखंड की लंबाई = |a − b|/2 = (26 − 14)/2 = 6 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_028",
+    "subjectId": "mathematics",
+    "question": "समलंब चतुर्भुज ABCD (जहाँ AB ∥ DC) के विकर्ण बिंदु O पर काटते हैं। यदि △AOB का क्षेत्रफल 16 वर्ग सेमी तथा △COD का क्षेत्रफल 36 वर्ग सेमी है, तो △AOD का क्षेत्रफल क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20 वर्ग सेमी"
+      },
+      {
+        "id": "B",
+        "text": "26 वर्ग सेमी"
+      },
+      {
+        "id": "C",
+        "text": "24 वर्ग सेमी"
+      },
+      {
+        "id": "D",
+        "text": "32 वर्ग सेमी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "समलंब चतुर्भुज में △AOD = △BOC तथा क्षेत्रफल(△AOD) × क्षेत्रफल(△BOC) = क्षेत्रफल(△AOB) × क्षेत्रफल(△COD) होता है। अतः क्षेत्रफल(△AOD) = √(16 × 36) = 24 वर्ग सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_029",
+    "subjectId": "mathematics",
+    "question": "ABCD एक चक्रीय चतुर्भुज है जिसकी भुजा AB को E तक बढ़ाया गया है। यदि बाह्य कोण ∠CBE = 82° तथा ∠ADB = 47° है, तो ∠BAC का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "47°"
+      },
+      {
+        "id": "B",
+        "text": "35°"
+      },
+      {
+        "id": "C",
+        "text": "82°"
+      },
+      {
+        "id": "D",
+        "text": "55°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "चक्रीय चतुर्भुज का बाह्य कोण ∠CBE = अंतः सम्मुख कोण ∠ADC = 82°। अतः ∠BDC = 82° − 47° = 35°। एक ही जीवा BC पर बने कोण बराबर होते हैं, इसलिए ∠BAC = ∠BDC = 35°।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_030",
+    "subjectId": "mathematics",
+    "question": "किसी चतुर्भुज ABCD में कोण ∠A और ∠B के समद्विभाजक बिंदु O पर मिलते हैं। यदि ∠C = 72° और ∠D = 88° है, तो ∠AOB का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "80°"
+      },
+      {
+        "id": "B",
+        "text": "100°"
+      },
+      {
+        "id": "C",
+        "text": "75°"
+      },
+      {
+        "id": "D",
+        "text": "85°"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "चतुर्भुज के किन्हीं दो आसन्न कोणों के समद्विभाजकों के बीच का कोण शेष दो कोणों के योग का आधा होता है: ∠AOB = (∠C + ∠D)/2 = (72° + 88°)/2 = 80°।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_031",
+    "subjectId": "mathematics",
+    "question": "13 सेमी त्रिज्या वाले एक वृत्त में 24 सेमी लंबी एक जीवा (Chord) खींची गई है। वृत्त के केंद्र से इस जीवा की लंबवत दूरी क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "7 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "6 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "5 सेमी"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "geometry",
+    "difficulty": "easy",
+    "explanation": "केंद्र से जीवा पर डाला गया लंब जीवा को समद्विभाजित करता है (24/2 = 12 सेमी)। अतः दूरी = √(13² − 12²) = √25 = 5 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_032",
+    "subjectId": "mathematics",
+    "question": "10 सेमी त्रिज्या वाले वृत्त में केंद्र के विपरीत दिशाओं में दो समांतर जीवाएँ खींची गई हैं, जिनकी लंबाइयाँ 12 सेमी और 16 सेमी हैं। दोनों जीवाओं के बीच की दूरी क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "2 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "14 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "10 सेमी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "पहली जीवा की केंद्र से दूरी = √(10² − 6²) = 8 सेमी तथा दूसरी की दूरी = √(10² − 8²) = 6 सेमी। विपरीत दिशा में होने से कुल दूरी = 8 + 6 = 14 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_033",
+    "subjectId": "mathematics",
+    "question": "O केंद्र वाले एक वृत्त का व्यास AB है और वृत्त की परिधि पर एक बिंदु C स्थित है। यदि ∠BAC = 38° है, तो ∠ABC का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "38°"
+      },
+      {
+        "id": "B",
+        "text": "52°"
+      },
+      {
+        "id": "C",
+        "text": "62°"
+      },
+      {
+        "id": "D",
+        "text": "48°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "easy",
+    "explanation": "अर्धवृत्त में बना कोण समकोण होता है (∠ACB = 90°)। अतः △ABC में ∠ABC = 90° − 38° = 52°।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_034",
+    "subjectId": "mathematics",
+    "question": "एक वृत्त की जीवा उसकी त्रिज्या के बराबर है। इस जीवा द्वारा लघु वृत्तखंड (Minor Arc) के किसी बिंदु पर अंतरित कोण कितना होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "150°"
+      },
+      {
+        "id": "B",
+        "text": "30°"
+      },
+      {
+        "id": "C",
+        "text": "60°"
+      },
+      {
+        "id": "D",
+        "text": "120°"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "जीवा = त्रिज्या होने से केंद्र पर कोण = 60°। दीर्घ चाप पर कोण = 60°/2 = 30°। चक्रीय चतुर्भुज गुण से लघु चाप पर कोण = 180° − 30° = 150°।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_035",
+    "subjectId": "mathematics",
+    "question": "एक वृत्त की दो जीवाएँ AB और CD अंदर बिंदु P पर प्रतिच्छेद करती हैं। यदि AP = 6 सेमी, PB = 4 सेमी और CP = 3 सेमी है, तो PD की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "6 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "9 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "8 सेमी"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "geometry",
+    "difficulty": "easy",
+    "explanation": "प्रतिच्छेदी जीवा प्रमेय से: AP × PB = CP × PD ⇒ 6 × 4 = 3 × PD ⇒ PD = 24/3 = 8 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_036",
+    "subjectId": "mathematics",
+    "question": "एक वृत्त की दो जीवाएँ AB और CD अंदर बिंदु P पर समकोण (90°) पर काटती हैं। यदि AP = 2 सेमी, PB = 12 सेमी, CP = 4 सेमी और PD = 6 सेमी हो, तो वृत्त की त्रिज्या क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "10 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "5√2 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "4√2 सेमी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "90° पर काटने वाली जीवाओं के लिए 4r² = AP² + PB² + CP² + PD² होता है ⇒ 4r² = 4 + 144 + 16 + 36 = 200 ⇒ r² = 50 ⇒ r = 5√2 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_037",
+    "subjectId": "mathematics",
+    "question": "दो जीवाएँ AB और CD आगे बढ़ाने पर वृत्त के बाहर बिंदु P पर मिलती हैं। यदि AB = 7 सेमी, PB = 5 सेमी और PD = 4 सेमी है, तो जीवा CD की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "11 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "10 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "9 सेमी"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "छेदक रेखा प्रमेय से: PA × PB = PC × PD। यहाँ PA = 7 + 5 = 12 सेमी ⇒ 12 × 5 = PC × 4 ⇒ PC = 15 सेमी। अतः CD = PC − PD = 15 − 4 = 11 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_038",
+    "subjectId": "mathematics",
+    "question": "O केंद्र वाले वृत्त की दो छेदक रेखाएँ PAB और PCD बाहर बिंदु P पर मिलती हैं। यदि केंद्र पर चाप AC द्वारा अंतरित कोण ∠AOC = 110° तथा चाप BD द्वारा अंतरित कोण ∠BOD = 30° है, तो ∠APC का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "40°"
+      },
+      {
+        "id": "B",
+        "text": "70°"
+      },
+      {
+        "id": "C",
+        "text": "55°"
+      },
+      {
+        "id": "D",
+        "text": "35°"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "बाह्य प्रतिच्छेदन पर बना कोण ∠APC = (∠AOC − ∠BOD)/2 = (110° − 30°)/2 = 80°/2 = 40°।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_039",
+    "subjectId": "mathematics",
+    "question": "10 सेमी और 17 सेमी त्रिज्या वाले दो वृत्त परस्पर प्रतिच्छेद करते हैं और उनके केंद्रों के बीच की दूरी 21 सेमी है। उनकी उभयनिष्ठ जीवा (Common Chord) की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "14 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "12 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "8 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "16 सेमी"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "geometry",
+    "difficulty": "hard",
+    "explanation": "10, 17, 21 भुजाओं वाले त्रिभुज का अर्ध-परिमाप s = 24 व क्षेत्रफल = √(24×14×7×3) = 84। केंद्रों की रेखा पर ऊँचाई h = (2×84)/21 = 8 सेमी। अतः उभयनिष्ठ जीवा = 2h = 16 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_040",
+    "subjectId": "mathematics",
+    "question": "केंद्र O से 17 सेमी की दूरी पर स्थित एक बिंदु P से वृत्त पर खींची गई स्पर्श रेखा PT की लंबाई 15 सेमी है। वृत्त की त्रिज्या क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "9 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "8 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "12 सेमी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "geometry",
+    "difficulty": "easy",
+    "explanation": "स्पर्श बिंदु पर त्रिज्या लंबवत होती है (∠OTP = 90°)। अतः त्रिज्या OT = √(17² − 15²) = √64 = 8 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_041",
+    "subjectId": "mathematics",
+    "question": "बाह्य बिंदु P से केंद्र O वाले वृत्त पर PA और PB दो स्पर्श रेखाएँ खींची गई हैं। यदि ∠APB = 50° है, तो ∠OAB का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "50°"
+      },
+      {
+        "id": "B",
+        "text": "25°"
+      },
+      {
+        "id": "C",
+        "text": "65°"
+      },
+      {
+        "id": "D",
+        "text": "40°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "∠AOB = 180° − ∠APB = 130°। △OAB में OA = OB होने से ∠OAB = (180° − 130°)/2 = 25° (शॉर्टकट: ∠OAB = ∠APB/2)।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_042",
+    "subjectId": "mathematics",
+    "question": "एक बिंदु P से वृत्त पर PT एक स्पर्श रेखा और PAB एक छेदक रेखा खींची गई है। यदि PT = 12 सेमी और PA = 8 सेमी है, तो जीवा AB की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "18 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "14 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "8 सेमी"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "स्पर्श-छेदक प्रमेय से PT² = PA × PB ⇒ 12² = 8 × PB ⇒ PB = 144/8 = 18 सेमी। अतः AB = PB − PA = 18 − 8 = 10 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_043",
+    "subjectId": "mathematics",
+    "question": "रेखा PT वृत्त को बिंदु A पर स्पर्श करती है और जीवा AB स्पर्श रेखा के साथ ∠BAT = 62° का कोण बनाती है। यदि दीर्घ चाप AB पर एक बिंदु C स्थित है, तो ∠ACB का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "56°"
+      },
+      {
+        "id": "B",
+        "text": "118°"
+      },
+      {
+        "id": "C",
+        "text": "31°"
+      },
+      {
+        "id": "D",
+        "text": "62°"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "एकांतर वृत्तखंड प्रमेय (Alternate Segment Theorem) से, स्पर्श रेखा और जीवा के बीच बना कोण एकांतर वृत्तखंड में बने कोण के बराबर होता है। अतः ∠ACB = ∠BAT = 62°।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_044",
+    "subjectId": "mathematics",
+    "question": "9 सेमी और 4 सेमी त्रिज्या वाले दो वृत्तों के केंद्रों के बीच की दूरी 13 सेमी है। इनकी सीधी उभयनिष्ठ स्पर्श रेखा (Direct Common Tangent) की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "11 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "10 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "12 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "13 सेमी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "DCT की लंबाई = √(d² − (R − r)²) = √(13² − (9 − 4)²) = √(169 − 25) = √144 = 12 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_045",
+    "subjectId": "mathematics",
+    "question": "6 सेमी और 2 सेमी त्रिज्या वाले दो वृत्तों के केंद्रों के बीच की दूरी 10 सेमी है। इनकी तिर्यक उभयनिष्ठ स्पर्श रेखा (Transverse Common Tangent) की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "6 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "4√5 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "5 सेमी"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "TCT की लंबाई = √(d² − (R + r)²) = √(10² − (6 + 2)²) = √(100 − 64) = √36 = 6 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_046",
+    "subjectId": "mathematics",
+    "question": "16 सेमी और 9 सेमी त्रिज्या वाले दो वृत्त एक-दूसरे को बाह्य रूप से स्पर्श करते हैं। उनकी सीधी उभयनिष्ठ स्पर्श रेखा की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "24 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "25 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "12 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "20 सेमी"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "जब दो वृत्त बाह्य रूप से स्पर्श करते हैं, तो सीधी उभयनिष्ठ स्पर्श रेखा की लंबाई = 2√(R × r) = 2√(16 × 9) = 2 × 12 = 24 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_047",
+    "subjectId": "mathematics",
+    "question": "एक चतुर्भुज ABCD के अंदर एक वृत्त बनाया गया है जो इसकी चारों भुजाओं को स्पर्श करता है। यदि AB = 12 सेमी, BC = 15 सेमी और CD = 14 सेमी है, तो AD की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "13 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "10 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "11 सेमी"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "geometry",
+    "difficulty": "easy",
+    "explanation": "वृत्त के परिगत चतुर्भुज में सम्मुख भुजाओं का योग बराबर होता है: AB + CD = BC + AD ⇒ 12 + 14 = 15 + AD ⇒ AD = 26 − 15 = 11 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_048",
+    "subjectId": "mathematics",
+    "question": "एक वृत्त △ABC की भुजा BC को तथा बढ़ाई गई भुजाओं AB और AC को क्रमशः बिंदुओं P और Q पर स्पर्श करता है। यदि △ABC का परिमाप 32 सेमी है, तो AP की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "32 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "16 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "24 सेमी"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "बाह्य वृत्त के गुण से AP = AQ = △ABC का अर्ध-परिमाप = 32/2 = 16 सेमी।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_049",
+    "subjectId": "mathematics",
+    "question": "△ABC का अंतःवृत्त इसकी भुजाओं BC, CA और AB को क्रमशः D, E और F पर स्पर्श करता है। यदि ∠A = 56° है, तो ∠EDF का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "56°"
+      },
+      {
+        "id": "B",
+        "text": "62°"
+      },
+      {
+        "id": "C",
+        "text": "124°"
+      },
+      {
+        "id": "D",
+        "text": "68°"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "geometry",
+    "difficulty": "medium",
+    "explanation": "स्पर्श बिंदुओं पर त्रिज्याएँ 90° बनाती हैं, अतः ∠EOF = 180° − 56° = 124°। परिधि कोण ∠EDF = ∠EOF/2 = 124°/2 = 62° (अथवा 90° − ∠A/2)।",
+    "language": "hi"
+  },
+  {
+    "id": "math_geom_050",
+    "subjectId": "mathematics",
+    "question": "7 सेमी त्रिज्या वाले तीन समान वृत्त एक-दूसरे को बाह्य रूप से स्पर्श करते हैं। इन तीनों वृत्तों के केंद्रों को मिलाने से बने त्रिभुज का परिमाप क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "42 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "21 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "28 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "49 सेमी"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "geometry",
+    "difficulty": "easy",
+    "explanation": "प्रत्येक दो केंद्रों के बीच की दूरी = r + r = 7 + 7 = 14 सेमी। अतः तीनों केंद्रों से बने समबाहु त्रिभुज का परिमाप = 3 × 14 = 42 सेमी।",
+    "language": "hi"
+  }
+]

@@ -1,5 +1,6 @@
 import type { SavedSessionRecord, ArchivedSessionRecord } from '../types/savedSession';
 import type { AuthorFolder, AuthorFile, AuthorFileContent, AuthorImportRecord, AuthorMetaRecord } from '../types/authorStudio';
+import type { BankTestRecord, BankQuestionRecord, ImportHistoryRecord, MetadataRecord } from './questionBank/types';
 import { openDB, DBSchema, IDBPDatabase } from 'idb';
 import { v4 as uuidv4 } from 'uuid';
 import type { SavedTest, Statistics, Settings, WrongQuestion, BookmarkedQuestion, MarkedReviewQuestion, ChapterStats, DailyGoal, NotificationSettings, NotificationCategorySettings, Highlight, ReadingProgress, ReaderNote, ReadingPrefs, AiSummaryCacheEntry } from '../types';
@@ -40,6 +41,9 @@ export interface UniversalAttemptRecord {
   examId: string;
   subjectId: string;
   topicId?: string;
+  /** The chapter / concept (subtopic) the question belongs to — recorded from now on; older rows have neither (optional, so they stay valid). */
+  chapterId?: string;
+  subtopicId?: string;
   isCorrect: boolean;
   wasAnswered: boolean;
   timeTaken: number;
@@ -198,10 +202,31 @@ interface AppDB extends DBSchema {
     key: string;
     value: AuthorMetaRecord;
   };
+  // ── Question Bank (tests that are not bundled: imported on this device, or published for everyone) ──
+  // Independent of user progress: replacing or deleting a bank test never touches attempts, bookmarks or scores.
+  tests: {
+    key: string;
+    value: BankTestRecord;
+    indexes: { 'by-testId': string; 'by-subject': string; 'by-chapter': string; 'by-source': string; 'by-updatedAt': number };
+  };
+  questions: {
+    key: string;
+    value: BankQuestionRecord;
+    indexes: { 'by-testId': string; 'by-testKey': string; 'by-questionId': string; 'by-subject': string; 'by-chapter': string; 'by-source': string; 'by-updatedAt': number };
+  };
+  importHistory: {
+    key: string;
+    value: ImportHistoryRecord;
+    indexes: { 'by-at': number };
+  };
+  metadata: {
+    key: string;
+    value: MetadataRecord;
+  };
 }
 
 const DB_NAME = 'CurrentAffairsDB';
-const DB_VERSION = 12;
+const DB_VERSION = 13;
 
 let dbInstance: IDBPDatabase<AppDB> | null = null;
 
@@ -300,6 +325,35 @@ export async function getDB(): Promise<IDBPDatabase<AppDB>> {
         }
         if (!db.objectStoreNames.contains('authorMeta')) {
           db.createObjectStore('authorMeta', { keyPath: 'key' });
+        }
+      }
+      if (oldVersion < 13) {
+        // Additive: the Question Bank's own stores. Nothing existing is renamed, rewritten or re-keyed, and the guards
+        // make re-running the upgrade harmless (idempotent). Bundled content and every user-progress store are untouched.
+        if (!db.objectStoreNames.contains('tests')) {
+          const t = db.createObjectStore('tests', { keyPath: 'key' });
+          t.createIndex('by-testId', 'id');
+          t.createIndex('by-subject', 'subjectId');
+          t.createIndex('by-chapter', 'chapterId');
+          t.createIndex('by-source', 'origin');
+          t.createIndex('by-updatedAt', 'updatedAt');
+        }
+        if (!db.objectStoreNames.contains('questions')) {
+          const q = db.createObjectStore('questions', { keyPath: 'key' });
+          q.createIndex('by-testId', 'testId');
+          q.createIndex('by-testKey', 'testKey');
+          q.createIndex('by-questionId', 'questionId');
+          q.createIndex('by-subject', 'subjectId');
+          q.createIndex('by-chapter', 'chapterId');
+          q.createIndex('by-source', 'origin');
+          q.createIndex('by-updatedAt', 'updatedAt');
+        }
+        if (!db.objectStoreNames.contains('importHistory')) {
+          const h = db.createObjectStore('importHistory', { keyPath: 'id' });
+          h.createIndex('by-at', 'at');
+        }
+        if (!db.objectStoreNames.contains('metadata')) {
+          db.createObjectStore('metadata', { keyPath: 'key' });
         }
       }
     },
@@ -704,7 +758,8 @@ export const chapterStatsDB = {
 
 // ─── Daily Goal ───────────────────────────────────────────────────────────────
 
-const DEFAULT_GOAL_TARGET = 25;
+// A daily goal is entirely the learner's choice. `target: 0` means "no goal set" (never chosen, or cleared) — nothing is ever
+// pre-filled for them, it never counts as met, and it never builds a streak.
 
 export const dailyGoalDB = {
   async get(dateKey: string): Promise<DailyGoal | undefined> {
@@ -728,12 +783,12 @@ export const dailyGoalDB = {
     const yesterday = new Date(y, (m || 1) - 1, (d || 1) - 1); // local-date arithmetic, no UTC parsing
     const ydKey = `${yesterday.getFullYear()}-${String(yesterday.getMonth()+1).padStart(2,'0')}-${String(yesterday.getDate()).padStart(2,'0')}`;
     const yd = await this.get(ydKey);
-    const ydMet = yd ? (yd.type === 'tests' ? yd.testsToday >= yd.target : yd.questionsToday >= yd.target) : false;
+    const ydMet = yd && yd.target > 0 ? (yd.type === 'tests' ? yd.testsToday >= yd.target : yd.questionsToday >= yd.target) : false;
     const streakDays = yd && ydMet ? yd.streakDays : 0;
     const bestStreakDays = yd ? Math.max(yd.bestStreakDays, streakDays) : 0;
     const fresh: DailyGoal = {
       type: yd?.type ?? 'questions', // carry the user's chosen type forward day to day — never silently reset it
-      target: yd?.target ?? DEFAULT_GOAL_TARGET,
+      target: yd?.target ?? 0, // carried forward as chosen; 0 = none set
       questionsToday: 0,
       testsToday: 0,
       dateKey,
@@ -757,9 +812,9 @@ export const dailyGoalDB = {
 
   async incrementTests(dateKey: string, count = 1): Promise<DailyGoal> {
     const goal = await this.getOrCreate(dateKey);
-    const wasMetBefore = goal.type === 'tests' && goal.testsToday >= goal.target;
+    const wasMetBefore = goal.type === 'tests' && goal.target > 0 && goal.testsToday >= goal.target;
     const updated: DailyGoal = { ...goal, testsToday: goal.testsToday + count };
-    const nowMet = updated.type === 'tests' && updated.testsToday >= updated.target;
+    const nowMet = updated.type === 'tests' && updated.target > 0 && updated.testsToday >= updated.target;
     if (nowMet && !wasMetBefore) {
       updated.streakDays = goal.streakDays + 1;
       updated.bestStreakDays = Math.max(goal.bestStreakDays, updated.streakDays);
@@ -772,9 +827,9 @@ export const dailyGoalDB = {
 
   async incrementQuestions(dateKey: string, count: number): Promise<DailyGoal> {
     const goal = await this.getOrCreate(dateKey);
-    const wasMetBefore = goal.type === 'questions' && goal.questionsToday >= goal.target;
+    const wasMetBefore = goal.type === 'questions' && goal.target > 0 && goal.questionsToday >= goal.target;
     const updated: DailyGoal = { ...goal, questionsToday: goal.questionsToday + count };
-    const nowMet = updated.type === 'questions' && updated.questionsToday >= updated.target;
+    const nowMet = updated.type === 'questions' && updated.target > 0 && updated.questionsToday >= updated.target;
     if (nowMet && !wasMetBefore) {
       updated.streakDays = goal.streakDays + 1;
       updated.bestStreakDays = Math.max(goal.bestStreakDays, updated.streakDays);

@@ -1,0 +1,4 @@
+# HTTP caching for the published Question Bank (Netlify / Cloudflare Pages read this file; on other hosts set the same header).
+# `no-cache` means "revalidate every time" — a changed manifest or test is picked up at once, and an unchanged one costs only a 304.
+/data/question-bank/*
+  Cache-Control: no-cache

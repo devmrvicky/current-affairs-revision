@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, CheckCircle2, XCircle, Circle, Clock, Flag, Bookmark } from 'lucide-react';
 import { useQuizStore } from '../store/quizStore';
 import { getOptionLabel, formatTime } from '../utils';
+import { LegacyQuestionTable } from '../components/results/LegacyResultTables';
 
 export default function TestReviewPage() {
   const navigate = useNavigate();
@@ -29,6 +30,8 @@ export default function TestReviewPage() {
           <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>{session.testMeta.examName}</p>
         </div>
       </motion.div>
+
+      <LegacyQuestionTable session={session} />
 
       {session.attempts.map((attempt, idx) => {
         const isCorrect = attempt.status === 'correct';

@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_idm_211",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A wet blanket",
+    "options": [
+      {
+        "id": "A",
+        "text": "A kind of bed sheet"
+      },
+      {
+        "id": "B",
+        "text": "A person who loves the rain"
+      },
+      {
+        "id": "C",
+        "text": "A very warm person"
+      },
+      {
+        "id": "D",
+        "text": "A person who spoils the enjoyment of others"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A wet blanket = उत्साह ठंडा करने वाला व्यक्ति। Example: Don't be a wet blanket; join the party.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_212",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To ride roughshod over",
+    "options": [
+      {
+        "id": "A",
+        "text": "To travel over rough ground"
+      },
+      {
+        "id": "B",
+        "text": "To treat others harshly, ignoring their feelings"
+      },
+      {
+        "id": "C",
+        "text": "To win a race easily"
+      },
+      {
+        "id": "D",
+        "text": "To train a horse"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Ride roughshod over = बेरहमी से कुचलना, परवाह न करना। Example: The builder rode roughshod over the villagers' objections.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_213",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To fight shy of",
+    "options": [
+      {
+        "id": "A",
+        "text": "To fight bravely"
+      },
+      {
+        "id": "B",
+        "text": "To avoid something out of reluctance"
+      },
+      {
+        "id": "C",
+        "text": "To show great anger"
+      },
+      {
+        "id": "D",
+        "text": "To fail in a duel"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Fight shy of = कतराना, बचना। Example: He fights shy of public speaking.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_214",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To pull the wool over someone's eyes",
+    "options": [
+      {
+        "id": "A",
+        "text": "To protect someone's eyes"
+      },
+      {
+        "id": "B",
+        "text": "To deceive someone"
+      },
+      {
+        "id": "C",
+        "text": "To make someone sleepy"
+      },
+      {
+        "id": "D",
+        "text": "To clean someone's spectacles"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Pull the wool over someone's eyes = आँखों में धूल झोंकना। Example: The agent pulled the wool over the buyer's eyes.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_215",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To split hairs",
+    "options": [
+      {
+        "id": "A",
+        "text": "To argue over tiny, unimportant differences"
+      },
+      {
+        "id": "B",
+        "text": "To cut one's hair"
+      },
+      {
+        "id": "C",
+        "text": "To work with great care"
+      },
+      {
+        "id": "D",
+        "text": "To settle a quarrel"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Split hairs = बाल की खाल निकालना। Example: Stop splitting hairs and accept the offer.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_216",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To pay lip service",
+    "options": [
+      {
+        "id": "A",
+        "text": "To express support in words without acting on it"
+      },
+      {
+        "id": "B",
+        "text": "To praise someone sincerely"
+      },
+      {
+        "id": "C",
+        "text": "To speak very softly"
+      },
+      {
+        "id": "D",
+        "text": "To pay for a service"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Pay lip service = सिर्फ़ ज़ुबानी समर्थन जताना। Example: Many leaders only pay lip service to women's safety.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_217",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To have a field day",
+    "options": [
+      {
+        "id": "A",
+        "text": "To enjoy a time of great success or opportunity"
+      },
+      {
+        "id": "B",
+        "text": "To spend a day in a field"
+      },
+      {
+        "id": "C",
+        "text": "To have a very bad day"
+      },
+      {
+        "id": "D",
+        "text": "To have a day off"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Have a field day = मौक़े का भरपूर मज़ा या फ़ायदा उठाना। Example: Reporters had a field day with the minister's blunder.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_218",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To lick one's wounds",
+    "options": [
+      {
+        "id": "A",
+        "text": "To take revenge"
+      },
+      {
+        "id": "B",
+        "text": "To recover quietly after a defeat"
+      },
+      {
+        "id": "C",
+        "text": "To treat a wound with medicine"
+      },
+      {
+        "id": "D",
+        "text": "To boast about a victory"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Lick one's wounds = हार के बाद चुपचाप सँभलना। Example: The team went home to lick their wounds.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_219",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To rub salt into the wound",
+    "options": [
+      {
+        "id": "A",
+        "text": "To comfort someone"
+      },
+      {
+        "id": "B",
+        "text": "To heal a wound quickly"
+      },
+      {
+        "id": "C",
+        "text": "To make someone's pain or distress worse"
+      },
+      {
+        "id": "D",
+        "text": "To add taste to food"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Rub salt into the wound = जले पर नमक छिड़कना। Example: Laughing at his failure was rubbing salt into the wound.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_220",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To sow one's wild oats",
+    "options": [
+      {
+        "id": "A",
+        "text": "To work hard on a farm"
+      },
+      {
+        "id": "B",
+        "text": "To grow crops in a hurry"
+      },
+      {
+        "id": "C",
+        "text": "To behave recklessly in one's youth"
+      },
+      {
+        "id": "D",
+        "text": "To save money for old age"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Sow one's wild oats = जवानी में लापरवाह मौज-मस्ती करना। Example: He sowed his wild oats before settling down.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_221",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To tilt at windmills",
+    "options": [
+      {
+        "id": "A",
+        "text": "To repair old machines"
+      },
+      {
+        "id": "B",
+        "text": "To win against strong rivals"
+      },
+      {
+        "id": "C",
+        "text": "To fight against imaginary enemies"
+      },
+      {
+        "id": "D",
+        "text": "To work in a flour mill"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Tilt at windmills = काल्पनिक शत्रुओं से लड़ना। Example: Fighting a non-existent rule is tilting at windmills.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_222",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To run the gauntlet",
+    "options": [
+      {
+        "id": "A",
+        "text": "To face a series of attacks or hostile criticism"
+      },
+      {
+        "id": "B",
+        "text": "To run a race quickly"
+      },
+      {
+        "id": "C",
+        "text": "To escape from a prison"
+      },
+      {
+        "id": "D",
+        "text": "To wear protective gloves"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Run the gauntlet = आलोचनाओं या हमलों की बौछार झेलना। Example: The witness had to run the gauntlet of angry reporters.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_223",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To turn turtle",
+    "options": [
+      {
+        "id": "A",
+        "text": "To move very slowly"
+      },
+      {
+        "id": "B",
+        "text": "To hide in fear"
+      },
+      {
+        "id": "C",
+        "text": "To capsize or turn upside down"
+      },
+      {
+        "id": "D",
+        "text": "To become a pet lover"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Turn turtle = उलट जाना, पलट जाना। Example: The boat turned turtle in the storm.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_224",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To live from hand to mouth",
+    "options": [
+      {
+        "id": "A",
+        "text": "To save money regularly"
+      },
+      {
+        "id": "B",
+        "text": "To spend all one earns just to survive"
+      },
+      {
+        "id": "C",
+        "text": "To eat with one's hands"
+      },
+      {
+        "id": "D",
+        "text": "To live a life of luxury"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Live from hand to mouth = रोज़ कमाकर रोज़ खाना। Example: Daily wagers often live from hand to mouth.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_225",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To bury one's head in the sand",
+    "options": [
+      {
+        "id": "A",
+        "text": "To search for treasure"
+      },
+      {
+        "id": "B",
+        "text": "To face a problem bravely"
+      },
+      {
+        "id": "C",
+        "text": "To play on the beach"
+      },
+      {
+        "id": "D",
+        "text": "To ignore an obvious danger"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Bury one's head in the sand = ख़तरे से आँखें मूँद लेना। Example: Burying your head in the sand will not clear the debts.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_226",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To play fast and loose",
+    "options": [
+      {
+        "id": "A",
+        "text": "To take part in a sport"
+      },
+      {
+        "id": "B",
+        "text": "To behave carelessly and without a sense of responsibility"
+      },
+      {
+        "id": "C",
+        "text": "To play a game very quickly"
+      },
+      {
+        "id": "D",
+        "text": "To lose a game on purpose"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Play fast and loose = लापरवाही या बेईमानी से पेश आना। Example: He played fast and loose with the company's funds.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_227",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To go to the dogs",
+    "options": [
+      {
+        "id": "A",
+        "text": "To fall into a bad or ruined condition"
+      },
+      {
+        "id": "B",
+        "text": "To become a pet owner"
+      },
+      {
+        "id": "C",
+        "text": "To improve greatly"
+      },
+      {
+        "id": "D",
+        "text": "To go for a long walk"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Go to the dogs = बर्बाद हो जाना। Example: The firm went to the dogs after the founder died.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_228",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To sing for one's supper",
+    "options": [
+      {
+        "id": "A",
+        "text": "To perform in a music concert"
+      },
+      {
+        "id": "B",
+        "text": "To cook a meal at night"
+      },
+      {
+        "id": "C",
+        "text": "To refuse help from others"
+      },
+      {
+        "id": "D",
+        "text": "To do some work in return for a favour received"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Sing for one's supper = मिली मदद के बदले कुछ काम करना। Example: The guests had to sing for their supper by washing the dishes.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_229",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To make a clean breast of",
+    "options": [
+      {
+        "id": "A",
+        "text": "To hide the truth"
+      },
+      {
+        "id": "B",
+        "text": "To win someone's heart"
+      },
+      {
+        "id": "C",
+        "text": "To confess everything fully"
+      },
+      {
+        "id": "D",
+        "text": "To clean oneself well"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Make a clean breast of = सब कुछ साफ़-साफ़ क़बूल कर लेना। Example: The clerk made a clean breast of the theft.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_230",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To hold the fort",
+    "options": [
+      {
+        "id": "A",
+        "text": "To build a strong castle"
+      },
+      {
+        "id": "B",
+        "text": "To leave a place suddenly"
+      },
+      {
+        "id": "C",
+        "text": "To attack an enemy base"
+      },
+      {
+        "id": "D",
+        "text": "To take charge while others are away"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Hold the fort = पीछे से ज़िम्मेदारी सँभालना। Example: Please hold the fort while I attend the meeting.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_231",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To go off at a tangent",
+    "options": [
+      {
+        "id": "A",
+        "text": "To suddenly change from one topic to another"
+      },
+      {
+        "id": "B",
+        "text": "To follow a plan carefully"
+      },
+      {
+        "id": "C",
+        "text": "To end a talk early"
+      },
+      {
+        "id": "D",
+        "text": "To move in a straight line"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Go off at a tangent = मूल विषय से हटकर अचानक दूसरी बात करने लगना। Example: The speaker went off at a tangent in the middle of the lecture.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_232",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To keep a stiff upper lip",
+    "options": [
+      {
+        "id": "A",
+        "text": "To cry openly in public"
+      },
+      {
+        "id": "B",
+        "text": "To show great anger"
+      },
+      {
+        "id": "C",
+        "text": "To remain proud and rude"
+      },
+      {
+        "id": "D",
+        "text": "To stay calm and firm in the face of trouble"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Keep a stiff upper lip = मुसीबत में धैर्य बनाए रखना। Example: She kept a stiff upper lip throughout the crisis.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_233",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: On tenterhooks",
+    "options": [
+      {
+        "id": "A",
+        "text": "In great comfort"
+      },
+      {
+        "id": "B",
+        "text": "In a position of power"
+      },
+      {
+        "id": "C",
+        "text": "In a state of anxious suspense"
+      },
+      {
+        "id": "D",
+        "text": "In a state of deep sleep"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "On tenterhooks = बेचैनी भरी प्रतीक्षा में। Example: The students were on tenterhooks before the result.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_234",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: At loggerheads",
+    "options": [
+      {
+        "id": "A",
+        "text": "In great danger"
+      },
+      {
+        "id": "B",
+        "text": "In strong disagreement"
+      },
+      {
+        "id": "C",
+        "text": "In complete agreement"
+      },
+      {
+        "id": "D",
+        "text": "In a great hurry"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "At loggerheads = तीखे मतभेद में। Example: The partners are at loggerheads over the profits.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_235",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To throw a spanner in the works",
+    "options": [
+      {
+        "id": "A",
+        "text": "To give help in need"
+      },
+      {
+        "id": "B",
+        "text": "To start a new factory"
+      },
+      {
+        "id": "C",
+        "text": "To spoil a plan by causing trouble"
+      },
+      {
+        "id": "D",
+        "text": "To repair a machine"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Throw a spanner in the works = बने-बनाए काम में अड़ंगा डालना। Example: His late objection threw a spanner in the works.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_236",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A damp squib",
+    "options": [
+      {
+        "id": "A",
+        "text": "A wet pen"
+      },
+      {
+        "id": "B",
+        "text": "A small explosion that causes damage"
+      },
+      {
+        "id": "C",
+        "text": "A very exciting event"
+      },
+      {
+        "id": "D",
+        "text": "An event that fails to live up to expectations"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "A damp squib = उम्मीद से बहुत फीका निकला आयोजन। Example: The much-hyped film turned out to be a damp squib.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_237",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A red herring",
+    "options": [
+      {
+        "id": "A",
+        "text": "Something that misleads or distracts from the real issue"
+      },
+      {
+        "id": "B",
+        "text": "An important clue"
+      },
+      {
+        "id": "C",
+        "text": "A clear sign of danger"
+      },
+      {
+        "id": "D",
+        "text": "A rare type of fish"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A red herring = ध्यान भटकाने वाली बात। Example: The missing watch was a red herring in the case.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_238",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To nail one's colours to the mast",
+    "options": [
+      {
+        "id": "A",
+        "text": "To build a sailing boat"
+      },
+      {
+        "id": "B",
+        "text": "To hoist a flag for fun"
+      },
+      {
+        "id": "C",
+        "text": "To abandon a ship"
+      },
+      {
+        "id": "D",
+        "text": "To declare one's position firmly and refuse to change it"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Nail one's colours to the mast = अपने पक्ष पर डटे रहने की घोषणा करना। Example: The leader nailed his colours to the mast on reforms.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_239",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A Trojan horse",
+    "options": [
+      {
+        "id": "A",
+        "text": "Something that hides a harmful purpose behind a pleasant look"
+      },
+      {
+        "id": "B",
+        "text": "A fast and strong racehorse"
+      },
+      {
+        "id": "C",
+        "text": "A brave soldier"
+      },
+      {
+        "id": "D",
+        "text": "A gift of great value"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "A Trojan horse = मीठी छुरी, छिपा हुआ ख़तरा। Example: The free software turned out to be a Trojan horse.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_240",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A swan song",
+    "options": [
+      {
+        "id": "A",
+        "text": "A song about birds"
+      },
+      {
+        "id": "B",
+        "text": "A final appearance or farewell performance"
+      },
+      {
+        "id": "C",
+        "text": "A beautiful love song"
+      },
+      {
+        "id": "D",
+        "text": "A first public performance"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A swan song = अंतिम प्रस्तुति या विदाई-प्रदर्शन। Example: The match was the veteran's swan song.",
+    "language": "en"
+  }
+]

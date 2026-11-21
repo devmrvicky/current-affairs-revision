@@ -15,12 +15,19 @@ const TYPE_META: Record<DailyGoalType, { label: string; unit: string; icon: type
 };
 
 export function DailyGoalCard() {
-  const { goal, setGoal, getProgress, isGoalMet, getCurrentValue } = useDailyGoalStore();
+  const { goal, isLoading, setGoal, clearGoal, getProgress, isGoalMet, getCurrentValue } = useDailyGoalStore();
   const [showSettings, setShowSettings] = useState(false);
   const [draftType, setDraftType] = useState<DailyGoalType>('questions');
-  const [draftTarget, setDraftTarget] = useState(25);
+  // The custom number is edited as text, so the field can be emptied and retyped; it only has to be a whole number ≥ 1 when saved.
+  const [draftText, setDraftText] = useState('25');
+  const draftTarget = Number.parseInt(draftText, 10);
+  const validDraft = Number.isInteger(draftTarget) && draftTarget >= 1;
 
-  if (!goal) return null;
+  // Still loading: a placeholder of the same size, so the page doesn't jump.
+  if (!goal) {
+    return <div className="card p-5" aria-busy={isLoading} aria-label="Loading daily goal"><div className="h-4 w-1/3 rounded shimmer mb-3" style={{ background: 'var(--border)' }} /><div className="h-3 rounded-full shimmer" style={{ background: 'var(--border)' }} /></div>;
+  }
+  const hasGoal = goal.target > 0;
 
   const meta = TYPE_META[goal.type];
   const progress = getProgress();
@@ -29,12 +36,17 @@ export function DailyGoalCard() {
 
   function openSettings() {
     setDraftType(goal!.type);
-    setDraftTarget(goal!.target);
+    setDraftText(String(goal!.target > 0 ? goal!.target : PRESETS[goal!.type][1])); // a starting suggestion only — nothing is saved until Save Goal
     setShowSettings(true);
   }
 
+  async function handleClear() {
+    await clearGoal();
+    setShowSettings(false);
+  }
+
   async function handleSave() {
-    if (draftTarget < 1) return;
+    if (!validDraft) return;
     await setGoal(draftType, draftTarget);
     setShowSettings(false);
   }
@@ -51,13 +63,21 @@ export function DailyGoalCard() {
           </div>
           <button
             onClick={openSettings}
-            className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
+            className="w-10 h-10 -m-2 flex items-center justify-center rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors"
             aria-label="Change goal"
           >
             <Settings2 size={14} style={{ color: 'var(--text-muted)' }} />
           </button>
         </div>
 
+        {!hasGoal ? (
+          <div>
+            <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>No daily goal set. Pick what to track and a target that suits you — or leave it off.</p>
+            {goal.streakDays > 0 && <p className="text-xs mt-2" style={{ color: 'var(--text-muted)' }}>🔥 {goal.streakDays} day streak · Best {goal.bestStreakDays}</p>}
+            <button onClick={openSettings} className="btn-primary w-full sm:w-auto mt-3 px-4 py-2.5 text-sm">Set a goal</button>
+          </div>
+        ) : (
+        <>
         <div className="flex justify-between items-baseline mb-2">
           <span className="text-sm font-medium" style={{ color: 'var(--text-secondary)' }}>
             {current} / {goal.target} {meta.unit}
@@ -77,6 +97,8 @@ export function DailyGoalCard() {
         )}
         {goal.streakDays > 0 && (
           <p className="text-xs mt-2" style={{ color: 'var(--text-muted)' }}>🔥 {goal.streakDays} day streak · Best {goal.bestStreakDays}</p>
+        )}
+        </>
         )}
       </motion.div>
 
@@ -107,7 +129,7 @@ export function DailyGoalCard() {
                   return (
                     <button
                       key={type}
-                      onClick={() => { setDraftType(type); setDraftTarget(PRESETS[type][1]); }}
+                      onClick={() => { setDraftType(type); setDraftText(String(PRESETS[type][1])); }}
                       className={`p-3 rounded-xl text-left transition-colors ${active ? 'ring-2 ring-brand-500' : ''}`}
                       style={{ border: '1px solid var(--border)' }}
                     >
@@ -123,7 +145,7 @@ export function DailyGoalCard() {
                 {PRESETS[draftType].map((n) => (
                   <button
                     key={n}
-                    onClick={() => setDraftTarget(n)}
+                    onClick={() => setDraftText(String(n))}
                     className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${draftTarget === n ? 'bg-brand-500 text-white' : ''}`}
                     style={draftTarget !== n ? { border: '1px solid var(--border)', color: 'var(--text-secondary)' } : undefined}
                   >
@@ -134,14 +156,18 @@ export function DailyGoalCard() {
               <input
                 type="number"
                 min={1}
-                value={draftTarget}
-                onChange={(e) => setDraftTarget(Math.max(1, Number(e.target.value) || 1))}
+                inputMode="numeric"
+                value={draftText}
+                onChange={(e) => setDraftText(e.target.value)}
                 className="w-full px-3 py-2 rounded-xl text-sm mb-5"
                 style={{ border: '1px solid var(--border)', background: 'var(--bg)', color: 'var(--text-primary)' }}
                 aria-label={`Custom target in ${TYPE_META[draftType].unit}`}
               />
 
-              <button onClick={handleSave} className="btn-primary w-full py-2.5">Save Goal</button>
+              <button onClick={handleSave} disabled={!validDraft} className="btn-primary w-full py-2.5 disabled:opacity-50">Save Goal</button>
+              {hasGoal && (
+                <button onClick={handleClear} className="btn-secondary w-full py-2.5 mt-2 text-sm">Clear goal (no daily target)</button>
+              )}
             </motion.div>
           </motion.div>
         )}

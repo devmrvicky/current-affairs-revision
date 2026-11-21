@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "maths001",
+    "subjectId": "maths",
+    "question": "एक ऊर्ध्वाधर मीनार की छाया 10 मीटर लंबी होती है जब सूर्य का उन्नयन कोण 60° होता है। मीनार की ऊँचाई ज्ञात कीजिए?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "17.32 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "32 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "11 मीटर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "tan 60° = ऊँचाई/10 ⇒ ऊँचाई = 10√3 ≈ 17.32 मीटर।"
+  },
+  {
+    "id": "maths002",
+    "subjectId": "maths",
+    "question": "एक मीनार के आधार से 20 मी दूर एक बिंदु पर, मीनार के शीर्ष का उन्नयन कोण 30° है। मीनार की ऊँचाई ज्ञात कीजिए। (√3 ≈ 2 का प्रयोग करें)",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "12 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "11 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "15 मीटर"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "tan 30° = h/20 ⇒ h = 20/√3 ≈ 20/2 = 10 मीटर।"
+  },
+  {
+    "id": "maths003",
+    "subjectId": "maths",
+    "question": "एक हेलीकॉप्टर 575 मी की ऊँचाई पर उड़ रहा है। जमीन पर खड़ा एक व्यक्ति उसे 30° के उन्नयन कोण पर देखता है। उस व्यक्ति से हेलीकॉप्टर के ठीक नीचे जमीन पर स्थित बिंदु की क्षैतिज दूरी कितनी है? (√3 = 1.73 लीजिए)",
+    "options": [
+      {
+        "id": "A",
+        "text": "994.75 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "895.75 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "998.75 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "990.75 मीटर"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "tan 30° = 575/d ⇒ d = 575√3 = 575 × 1.73 = 994.75 मीटर।"
+  },
+  {
+    "id": "maths004",
+    "subjectId": "maths",
+    "question": "100 मीटर ऊँचे एक लाइटहाउस के शीर्ष से एक नाव का अवनमन कोण 30° है। लाइटहाउस के आधार से नाव की दूरी ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "78 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "173.2 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "254 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "189 मीटर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "tan 30° = 100/d ⇒ d = 100√3 ≈ 173.2 मीटर।"
+  },
+  {
+    "id": "maths005",
+    "subjectId": "maths",
+    "question": "एक झंडे के खंभे की छाया 10 मीटर मापी गई है। यह देखते हुए कि झंडे के खंभे की ऊँचाई 10√3 मीटर है, सूर्य किस कोण पर ऊँचा है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30°"
+      },
+      {
+        "id": "B",
+        "text": "45°"
+      },
+      {
+        "id": "C",
+        "text": "60°"
+      },
+      {
+        "id": "D",
+        "text": "75°"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "tan θ = 10√3/10 = √3 ⇒ θ = 60°।"
+  },
+  {
+    "id": "maths006",
+    "subjectId": "maths",
+    "question": "2 मीटर लंबा एक प्रेक्षक, एक छत से 30 मीटर दूर है। उसकी आँख से छत के शीर्ष का उन्नयन कोण 45° है। छत की ऊँचाई क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "32 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "31 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "33 मीटर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "tan 45° = (H−2)/30 = 1 ⇒ H−2 = 30 ⇒ H = 32 मीटर।"
+  },
+  {
+    "id": "maths007",
+    "subjectId": "maths",
+    "question": "जमीन से 60 मीटर ऊँचाई पर उड़ रही एक पतंग डोरी से बँधी है जो जमीन से 45° का कोण बनाती है। डोरी की लंबाई (मीटर में) क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "40√2 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "60√2 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "70√2 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "50√2 मीटर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "sin 45° = 60/L ⇒ L = 60√2 मीटर।"
+  },
+  {
+    "id": "maths008",
+    "subjectId": "maths",
+    "question": "एक सीढ़ी दीवार के सहारे जमीन से 60° का कोण बनाते हुए टिकी हुई है। यदि सीढ़ी का निचला हिस्सा दीवार से 5 मी दूर है, तो सीढ़ी की लंबाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "10 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "12 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "20 मीटर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "cos 60° = 5/L ⇒ 1/2 = 5/L ⇒ L = 10 मीटर।"
+  },
+  {
+    "id": "maths009",
+    "subjectId": "maths",
+    "question": "एक आदमी जमीन पर लगे एक झंडे के खंभे से बँधी रस्सी खींच रहा है। रस्सी 20 मीटर लंबी है और जमीन से 60° का कोण बनाती है। झंडे के खंभे को जिस जगह बाँधा है, वह कितनी ऊँचाई पर है? साथ ही आदमी और झंडे के खंभे के आधार के बीच की क्षैतिज दूरी भी ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "9.55 मीटर और 15 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "11.45 मीटर और 16 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "17.32 मीटर और 10 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "12.88 मीटर और 19 मीटर"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "ऊँचाई = 20 sin 60° = 10√3 ≈ 17.32 मीटर; क्षैतिज दूरी = 20 cos 60° = 10 मीटर।"
+  },
+  {
+    "id": "maths010",
+    "subjectId": "maths",
+    "question": "एक सीढ़ी दीवार के सहारे जमीन से 'x' कोण बनाते हुए इस प्रकार टिकी हुई है कि tan x = 192/80 है। यदि सीढ़ी की लंबाई 52 मीटर है, तो दीवार से सीढ़ी के पाद की दूरी (मीटर में) क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "15 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "30 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "40 मीटर"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "tan x = 192/80 = 12/5, अतः त्रिभुज 5:12:13 होगा। 13k = 52 ⇒ k = 4; आधार = 5k = 20 मीटर।"
+  },
+  {
+    "id": "maths011",
+    "subjectId": "maths",
+    "question": "48 सेमी लंबी एक छड़ी एक दीवार के साथ 60° के झुकाव पर है, जहाँ छड़ी का निचला हिस्सा दीवार के फर्श के पास है। फर्श से उस बिंदु तक की लंबाई ज्ञात कीजिए जहाँ छड़ी दीवार को छूती है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "24√3 सेमी"
+      },
+      {
+        "id": "B",
+        "text": "12√3 सेमी"
+      },
+      {
+        "id": "C",
+        "text": "12√2 सेमी"
+      },
+      {
+        "id": "D",
+        "text": "18√3 सेमी"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "PDF में अंकित विकल्प (A) 24√3 सेमी है। ध्यान दें: प्रश्न के शब्दों में कोण दीवार के साथ 60° है, तो ऊँचाई 48cos60° = 24 सेमी आती है; 24√3 सेमी तभी आएगा जब 60° का कोण जमीन के साथ माना जाए। स्रोत के प्रश्न/विकल्प में यह असंगति है।"
+  },
+  {
+    "id": "maths012",
+    "subjectId": "maths",
+    "question": "एक 15 मीटर ऊँचा पेड़ हवा से इस तरह टूट जाता है कि उसका शीर्ष जमीन को छूता है और जमीन के साथ 60° का कोण बनाता है। नीचे से कितनी ऊँचाई पर पेड़ टूटता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15/(1+√3) मीटर"
+      },
+      {
+        "id": "B",
+        "text": "30√3/(2+√3) मीटर"
+      },
+      {
+        "id": "C",
+        "text": "15√3/(2+√3) मीटर"
+      },
+      {
+        "id": "D",
+        "text": "5 मीटर"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "यदि टूटने की ऊँचाई h है, तो h = (15−h)sin60°। हल करने पर h = 15√3/(2+√3) मीटर।"
+  },
+  {
+    "id": "maths013",
+    "subjectId": "maths",
+    "question": "एक पोल 12 मी की छाया बनाता है, जबकि उसी समय पर 1.5 मी लंबा एक लड़का 2 मी की छाया बनाता है। पोल की ऊँचाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "9 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "12 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "6 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "15 मीटर"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "समान सूर्य कोण पर ऊँचाई/छाया समान होगी। h/12 = 1.5/2 ⇒ h = 9 मीटर।"
+  },
+  {
+    "id": "maths014",
+    "subjectId": "maths",
+    "question": "एक आदमी लैम्पपोस्ट के शीर्ष के प्रतिबिंब को दर्पण में देखता है, जो लैम्पपोस्ट के पाद से 6.6 मीटर दूर है। आदमी की ऊँचाई 1.25 मीटर है और वह दर्पण से 2 मीटर दूर खड़ा है। यह मानते हुए कि दर्पण जमीन पर रखा गया है और दर्पण, आदमी तथा लैम्पपोस्ट एक ही रेखा में हैं, लैम्पपोस्ट की ऊँचाई (मीटर में) ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "4.28 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "3.97 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "4.45 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "4.13 मीटर"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "समान त्रिभुजों से H/6.6 = 1.25/2 ⇒ H = 6.6 × 1.25/2 = 4.125 ≈ 4.13 मीटर।"
+  },
+  {
+    "id": "maths015",
+    "subjectId": "maths",
+    "question": "एक खंभा TF है जिसकी आधार F जमीन पर है। एक बिंदु A, F से 25 मीटर दूर है, तो T का उन्नयन कोण x° है। एक अन्य बिंदु B, जो F से 75 मीटर दूर है और A के समान रेखा में है, से T का उन्नयन कोण y° है। यदि खंभे की ऊँचाई 25√3 मीटर है, तो x° + y° का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "60°"
+      },
+      {
+        "id": "B",
+        "text": "75°"
+      },
+      {
+        "id": "C",
+        "text": "90°"
+      },
+      {
+        "id": "D",
+        "text": "120°"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "tan x = 25√3/25 = √3 ⇒ x = 60°; tan y = 25√3/75 = 1/√3 ⇒ y = 30°। योग = 90°।"
+  },
+  {
+    "id": "maths016",
+    "subjectId": "maths",
+    "question": "बिंदु M और N एक इमारत के आधार से एक सीधी रेखा में क्रमशः 72 मीटर और 128 मीटर की दूरी पर स्थित हैं और इन बिंदुओं से उस इमारत के शीर्ष का उन्नयन कोण पूरक हैं। उस इमारत की ऊँचाई (मीटर में) कितनी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "84"
+      },
+      {
+        "id": "B",
+        "text": "96"
+      },
+      {
+        "id": "C",
+        "text": "80"
+      },
+      {
+        "id": "D",
+        "text": "90"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "पूरक उन्नयन कोणों के लिए h² = 72 × 128 = 9216 ⇒ h = 96 मीटर।"
+  },
+  {
+    "id": "maths017",
+    "subjectId": "maths",
+    "question": "एक मीनार जमीन पर लंबवत खड़ी है। बिंदु P से, जो जमीन पर मीनार के आधार से 40 मीटर की दूरी पर स्थित है, मीनार के शिखर का उन्नयन कोण α है, जहाँ tan(α) 1.5 के बराबर है। मीनार के आधार से 60 मीटर दूर (बिंदु P और मीनार के आधार की सीध में) स्थित एक अन्य बिंदु Q से, मीनार के शिखर का उन्नयन कोण β है। tan(β) का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2/3"
+      },
+      {
+        "id": "B",
+        "text": "1"
+      },
+      {
+        "id": "C",
+        "text": "3/2"
+      },
+      {
+        "id": "D",
+        "text": "9/4"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "मीनार की ऊँचाई = 40 × 1.5 = 60 मीटर। अतः tan β = 60/60 = 1।"
+  },
+  {
+    "id": "maths018",
+    "subjectId": "maths",
+    "question": "भूमि पर एक बिंदु A से, एक इमारत के शीर्ष का उन्नयन कोण 30° है। एक बिंदु B से, जो कि बिंदु A और इमारत के तल के बीच में है, उन्नयन कोण 60° है। इमारत के तल से बिंदु A की दूरी और इमारत के तल से बिंदु B की दूरी का अनुपात क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 : 3"
+      },
+      {
+        "id": "B",
+        "text": "√3 : 1"
+      },
+      {
+        "id": "C",
+        "text": "2 : 1"
+      },
+      {
+        "id": "D",
+        "text": "3 : 1"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "समान ऊँचाई h के लिए दूरियाँ क्रमशः h√3 और h/√3 हैं। अनुपात = 3 : 1।"
+  },
+  {
+    "id": "maths019",
+    "subjectId": "maths",
+    "question": "भूमि पर स्थित किसी बिंदु P से एक मीनार के शीर्ष का उन्नयन कोण 30° है। मीनार की ओर 36 मी चलने पर, उन्नयन कोण 60° हो जाता है। मीनार की ऊँचाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "18√3 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "12√3 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "6√3 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "36√3 मीटर"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "मान लें दूरी x और ऊँचाई h। h = x/√3 तथा h = (x−36)√3। हल से x = 54 और h = 18√3 मीटर।"
+  },
+  {
+    "id": "maths020",
+    "subjectId": "maths",
+    "question": "10 मी ऊँचे एक टावर के शीर्ष से एक लड़का जमीन पर एक कार को टावर के आधार से दूर जाते हुए देखता है। यदि कार का अवनमन कोण 60° से 30° हो जाता है, तो इस दौरान कार कितनी दूरी तय करेगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(10√3 − 10/√3) मीटर"
+      },
+      {
+        "id": "B",
+        "text": "10(√3 + 1) मीटर"
+      },
+      {
+        "id": "C",
+        "text": "(10√3 + 1) मीटर"
+      },
+      {
+        "id": "D",
+        "text": "10 मीटर"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "पहली दूरी = 10/ tan60° = 10/√3; दूसरी = 10/tan30° = 10√3। अंतर = 10√3 − 10/√3 मीटर।"
+  },
+  {
+    "id": "maths021",
+    "subjectId": "maths",
+    "question": "एक पुरुष किसी खंभे के शीर्ष को 45° के उन्नयन कोण से देखता है। वह खंभे की ओर 15 मीटर चलता है, तब उन्नयन कोण 60° हो जाता है। खंभे की ऊँचाई क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15(√3 − 1) मीटर"
+      },
+      {
+        "id": "B",
+        "text": "15(3 − √3) मीटर"
+      },
+      {
+        "id": "C",
+        "text": "15(√3 + 1)/2 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "15(3 + √3)/2 मीटर"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "मान लें प्रारंभिक दूरी x और ऊँचाई h। tan45° = h/x ⇒ h=x; tan60° = h/(x−15)। हल से h = 15(3+√3)/2 मीटर।"
+  },
+  {
+    "id": "maths022",
+    "subjectId": "maths",
+    "question": "50 मीटर ऊँचे एक टावर के शीर्ष से, टावर के एक ही ओर स्थित दो वस्तुओं के अवनमन कोण 45° और 60° हैं। वस्तुओं के बीच की दूरी ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "21.13 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "28.7 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "28.87 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "8.87 मीटर"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "आधार से दूरियाँ 50 cot45° = 50 और 50 cot60° = 50/√3 हैं। अंतर = 50 − 50/√3 ≈ 21.13 मीटर।"
+  },
+  {
+    "id": "maths023",
+    "subjectId": "maths",
+    "question": "एक नदी पर बने पुल पर स्थित स्थान से, दोनों ओर के किनारों पर अवनमन कोण 30° और 45° हैं। यह देखते हुए कि पुल किनारों से 50 मीटर ऊपर है, नदी की चौड़ाई क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "50(√3 − 1) मीटर"
+      },
+      {
+        "id": "B",
+        "text": "50√3 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "50(1 + 1/√3) मीटर"
+      },
+      {
+        "id": "D",
+        "text": "50(√3 + 1) मीटर"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "दोनों ओर की क्षैतिज दूरियाँ 50 cot30° = 50√3 और 50 cot45° = 50 हैं। चौड़ाई = 50(√3+1) मीटर।"
+  },
+  {
+    "id": "maths024",
+    "subjectId": "maths",
+    "question": "आदित्य 150 मीटर ऊँचे एक लाइटहाउस पर खड़ा है और दोनों ओर क्रमशः 30° और 60° के अवनमन कोण वाले दो नावों को देख रहा है। दोनों नावों के बीच की दूरी ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "300 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "150√3 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "250 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "200√3 मीटर"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "नावों की क्षैतिज दूरियाँ 150 cot30° और 150 cot60° हैं। योग = 150√3 + 150/√3 = 200√3 मीटर।"
+  },
+  {
+    "id": "maths025",
+    "subjectId": "maths",
+    "question": "चट्टान के शीर्ष के उन्नयन कोण जमीन पर दो बिंदुओं से, जो एक-दूसरे से 200 मीटर की दूरी पर हैं और चट्टान के विपरीत दिशा में हैं, 30° और 45° हैं। चट्टान की ऊँचाई क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "100(√3 + 1) मीटर"
+      },
+      {
+        "id": "B",
+        "text": "200(√3 − 1) मीटर"
+      },
+      {
+        "id": "C",
+        "text": "100(√3 − 1) मीटर"
+      },
+      {
+        "id": "D",
+        "text": "200 मीटर"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "मान लें ऊँचाई h। दोनों दूरियाँ h√3 और h हैं। h√3+h=200 ⇒ h=200/(√3+1)=100(√3−1) मीटर।"
+  },
+  {
+    "id": "maths026",
+    "subjectId": "maths",
+    "question": "भूमि पर स्थित दो बिंदु A और B, जो 1200 मीटर की दूरी पर हैं, से एक गुब्बारा देखा जाता है। इन बिंदुओं से गुब्बारे के उन्नयन कोण क्रमशः 60° और 30° हैं। यदि गुब्बारा A और B के बीच स्थित है, तो उसकी ऊँचाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "300√3 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "200√3 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "500 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "600 मीटर"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "यदि क्षैतिज दूरियाँ x और 1200−x हैं, तो x=h/√3 और 1200−x=h√3। जोड़ने पर h=300√3 मीटर।"
+  },
+  {
+    "id": "maths027",
+    "subjectId": "maths",
+    "question": "दो मीनारें, जिनकी ऊँचाइयाँ h₁ और h₂ हैं, उनके आधारों को मिलाने वाली रेखा पर स्थित एक बिंदु से क्रमशः 30° और 60° के कोण बनाती हैं। यदि दोनों मीनारों के बीच की दूरी d है और बिंदु मध्यबिंदु है, तो h₁ : h₂ का अनुपात ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1 : 3"
+      },
+      {
+        "id": "B",
+        "text": "3 : 1"
+      },
+      {
+        "id": "C",
+        "text": "4 : 5"
+      },
+      {
+        "id": "D",
+        "text": "5 : 4"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "मध्यबिंदु से दोनों आधारों की दूरी d/2 है। h₁=(d/2)tan30° और h₂=(d/2)tan60° ⇒ अनुपात 1:3।"
+  },
+  {
+    "id": "maths028",
+    "subjectId": "maths",
+    "question": "12 मी और 20 मी ऊँचाई वाले दो खंभे, समतल जमीन पर लगे हैं। खंभों के निचले हिस्सों के बीच की दूरी 15 मी है। उनके शीर्षों के बीच की दूरी (मी में) ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "17"
+      },
+      {
+        "id": "B",
+        "text": "20"
+      },
+      {
+        "id": "C",
+        "text": "25"
+      },
+      {
+        "id": "D",
+        "text": "16"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "शीर्षों की ऊँचाई का अंतर = 20−12 = 8 मीटर। दूरी = √(15²+8²)=17 मीटर।"
+  },
+  {
+    "id": "maths029",
+    "subjectId": "maths",
+    "question": "23 मीटर लंबा एक खंभा एक खिड़की तक पहुँचता है जो सड़क के एक तरफ जमीन से 3√5 मीटर ऊपर है। अपने पैर को उसी बिंदु पर रखते हुए, खंभे को सड़क की दूसरी तरफ घुमाया जाता है ताकि वह 4√15 मीटर ऊँची खिड़की तक पहुँच सके। सड़क की चौड़ाई (मीटर में) क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "17"
+      },
+      {
+        "id": "B",
+        "text": "35"
+      },
+      {
+        "id": "C",
+        "text": "39"
+      },
+      {
+        "id": "D",
+        "text": "22"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "पहली ओर दूरी = √(23²−(3√5)²)=22 मीटर; दूसरी ओर = √(23²−(4√15)²)=17 मीटर। कुल चौड़ाई = 39 मीटर।"
+  },
+  {
+    "id": "maths030",
+    "subjectId": "maths",
+    "question": "एक मीनार और एक खंभा लंबवत खड़े हैं। जमीन पर उनके बीच स्थित एक बिंदु से, उनके शीर्षों के उन्नयन कोण क्रमशः 45° और 30° हैं। यदि खंभा 20 मीटर ऊँचा है और वह बिंदु दोनों से समान दूरी पर है, तो मीनार की ऊँचाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "20 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "40 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "34.64 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "90 मीटर"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "खंभे के लिए tan30°=20/d ⇒ d=20√3। समान दूरी और 45° के लिए मीनार की ऊँचाई=d=20√3≈34.64 मीटर।"
+  },
+  {
+    "id": "maths031",
+    "subjectId": "maths",
+    "question": "एक पहाड़ी और एक टावर समान तल पर खड़े हैं। टावर के पाद से पहाड़ी के शीर्ष का उन्नयन कोण 60° है तथा पहाड़ी के पाद से टावर के शीर्ष का उन्नयन कोण 30° है। यदि टावर 50 मीटर ऊँचा है, तो पहाड़ी की ऊँचाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "150 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "50√3 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "100 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "100√3 मीटर"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "दूरी d=50/tan30°=50√3। पहाड़ी की ऊँचाई = d tan60° = 50√3×√3 = 150 मीटर।"
+  },
+  {
+    "id": "maths032",
+    "subjectId": "maths",
+    "question": "एक घर की छत पर एक खंभा खड़ा है। घर की ऊँचाई 25 मीटर है। बिंदु P से घर के शिखर का उन्नयन कोण 45° है और बिंदु P से खंभे के शिखर का उन्नयन कोण 60° है। बिंदु P भूमि पर स्थित है। खंभे की ऊँचाई (मीटर में) कितनी होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20(√3 − 1)"
+      },
+      {
+        "id": "B",
+        "text": "25(√3 − 1)"
+      },
+      {
+        "id": "C",
+        "text": "25(√2 − 1)"
+      },
+      {
+        "id": "D",
+        "text": "20(√3 + 1)"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "tan45°=25/d ⇒ d=25। कुल ऊँचाई=25√3। खंभे की ऊँचाई=25√3−25=25(√3−1) मीटर।"
+  },
+  {
+    "id": "maths033",
+    "subjectId": "maths",
+    "question": "एक प्रतिमा जिसकी ऊँचाई 1.6 मीटर है, एक चबूतरे के ऊपर रखी है। जमीन पर एक बिंदु से, प्रतिमा के शीर्ष का उन्नयन कोण 60° मापा जाता है, जबकि उसी बिंदु से चबूतरे के शीर्ष का उन्नयन कोण 45° है। चबूतरे की ऊँचाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "0.8(√3 − 1) मीटर"
+      },
+      {
+        "id": "B",
+        "text": "1.6(√3 − 1) मीटर"
+      },
+      {
+        "id": "C",
+        "text": "0.8(√3 + 1) मीटर"
+      },
+      {
+        "id": "D",
+        "text": "1.6(√3 + 1) मीटर"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "मान लें चबूतरे की ऊँचाई h और दूरी d। tan45°=h/d ⇒ d=h; tan60°=(h+1.6)/h। हल से h=0.8(√3+1) मीटर।"
+  },
+  {
+    "id": "maths034",
+    "subjectId": "maths",
+    "question": "जमीन पर 50 मीटर की दूरी पर दो ऊर्ध्वाधर खंभे खड़े हैं। छोटे खंभे की ऊँचाई 10 मीटर है। छोटे खंभे के शीर्ष से, ऊँचे खंभे के शीर्ष का उन्नयन कोण 30° है। ऊँचे खंभे की ऊँचाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "35.20 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "38.87 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "40.12 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "42.25 मीटर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "ऊँचाइयों का अंतर = 50 tan30° = 50/√3 ≈ 28.87 मीटर। बड़ी ऊँचाई = 10+28.87=38.87 मीटर।"
+  },
+  {
+    "id": "maths035",
+    "subjectId": "maths",
+    "question": "20 मीटर ऊँची एक इमारत की छत से एक मीनार के शीर्ष का उन्नयन कोण 45° है और उसके पाद का अवनमन कोण 30° है। मीनार की ऊँचाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "20√3 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "20(√3 + 1) मीटर"
+      },
+      {
+        "id": "C",
+        "text": "40√3 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "20(2√3 + 1) मीटर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "क्षैतिज दूरी = 20 cot30° = 20√3। मीनार की छत से ऊपर की ऊँचाई = 20√3। कुल ऊँचाई = 20+20√3 = 20(√3+1) मीटर।"
+  },
+  {
+    "id": "maths036",
+    "subjectId": "maths",
+    "question": "एक जहाज के डेक पर खड़ा एक व्यक्ति (जल स्तर से 25 मीटर ऊपर) एक चट्टान के शीर्ष का उन्नयन कोण 60° और आधार का अवनमन कोण 30° देखता है। चट्टान की ऊँचाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "90 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "100 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "103.92 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "152 मीटर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "क्षैतिज दूरी = 25 cot30° = 25√3। चट्टान की ऊँचाई = 25 + 25√3×tan60° = 25+75 = 100 मीटर।"
+  },
+  {
+    "id": "maths037",
+    "subjectId": "maths",
+    "question": "90 मीटर ऊँची इमारत के शिखर से, एक मीनार के शीर्ष और तल पर अवनमन कोण क्रमशः 30° और 60° मापा जाता है। मीनार की ऊँचाई (मीटर में) कितनी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "50 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "60 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "70 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "75 मीटर"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "मीनार से क्षैतिज दूरी = 90 cot60° = 30√3। शीर्ष तक ऊर्ध्वाधर अंतर = 30√3 tan30° = 30। मीनार की ऊँचाई = 90−30 = 60 मीटर।"
+  },
+  {
+    "id": "maths038",
+    "subjectId": "maths",
+    "question": "एक मीनार 50 मीटर ऊँची है। इसके शिखर से, पास की एक इमारत के ऊपर और नीचे के अवनमन कोण क्रमशः 30° और 45° हैं। इमारत की अनुमानित ऊँचाई और मीनार को इमारत से अलग करने वाली क्षैतिज दूरी ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "ऊँचाई = 21 मीटर, दूरी = 50 मीटर"
+      },
+      {
+        "id": "B",
+        "text": "ऊँचाई = 25 मीटर, दूरी = 25 मीटर"
+      },
+      {
+        "id": "C",
+        "text": "ऊँचाई = 28 मीटर, दूरी = 15 मीटर"
+      },
+      {
+        "id": "D",
+        "text": "ऊँचाई = 18 मीटर, दूरी = 15 मीटर"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "दूरी = 50 cot45° = 50 मीटर। इमारत की ऊँचाई = 50−50 tan30° ≈ 50−28.87 = 21.13 मीटर ≈ 21 मीटर।"
+  },
+  {
+    "id": "maths039",
+    "subjectId": "maths",
+    "question": "100 मीटर ऊँची चट्टान के ऊपर से एक प्रेक्षक एक कार को चट्टान के आधार से दूर जाते हुए देखता है। कार का अवनमन कोण 8 सेकंड में 45° से 30° हो जाता है। कार की अनुमानित गति क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8.5 मीटर/सेकंड"
+      },
+      {
+        "id": "B",
+        "text": "9.2 मीटर/सेकंड"
+      },
+      {
+        "id": "C",
+        "text": "10.0 मीटर/सेकंड"
+      },
+      {
+        "id": "D",
+        "text": "11.5 मीटर/सेकंड"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "क्षैतिज दूरी में परिवर्तन = 100 cot30°−100 cot45° = 100(√3−1) ≈ 73.2 मीटर। गति = 73.2/8 ≈ 9.2 मीटर/सेकंड।"
+  },
+  {
+    "id": "maths040",
+    "subjectId": "maths",
+    "question": "1000 मीटर की स्थिर ऊँचाई पर उड़ रहा एक विमान जमीन पर एक बिंदु से देखा जाता है। जैसे ही विमान प्रेक्षक से सीधे दूर उड़ता है, विमान का उन्नयन कोण 20 सेकंड में 60° से 45° में बदल जाता है। हवाई जहाज की अनुमानित गति क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "20.5 मीटर/सेकंड"
+      },
+      {
+        "id": "B",
+        "text": "21.1 मीटर/सेकंड"
+      },
+      {
+        "id": "C",
+        "text": "22.8 मीटर/सेकंड"
+      },
+      {
+        "id": "D",
+        "text": "23.5 मीटर/सेकंड"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "दूरियों का अंतर = 1000 cot45°−1000 cot60° = 1000−1000/√3 ≈ 422.65 मीटर। गति = 422.65/20 ≈ 21.1 मीटर/सेकंड।"
+  },
+  {
+    "id": "maths041",
+    "subjectId": "maths",
+    "question": "बिंदु A के ठीक ऊपर एक गर्म हवा का गुब्बारा 2 मीटर/सेकंड की गति से ऊर्ध्वाधर रूप से ऊपर उठ रहा है। बिंदु B पर एक प्रेक्षक, जो A से 500 मीटर पूर्व में है, गुब्बारे को देखता है। जिस समय उन्नयन कोण 30° है, उस समय से 60° के उन्नयन कोण तक पहुँचने में कितना समय लगेगा? (मान लें कि कोई क्षैतिज बदलाव नहीं है।)",
+    "options": [
+      {
+        "id": "A",
+        "text": "288.675 सेकंड"
+      },
+      {
+        "id": "B",
+        "text": "250.062 सेकंड"
+      },
+      {
+        "id": "C",
+        "text": "255.725 सेकंड"
+      },
+      {
+        "id": "D",
+        "text": "285.565 सेकंड"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "ऊँचाई में वृद्धि = 500(tan60°−tan30°)=500(√3−1/√3)=577.35 मीटर। समय = 577.35/2 = 288.675 सेकंड।"
+  },
+  {
+    "id": "maths042",
+    "subjectId": "maths",
+    "question": "झील से h मीटर ऊपर स्थित एक बिंदु से किसी बादल का उन्नयन कोण α है और झील में उसके प्रतिबिंब का अवनमन कोण β है। झील के ऊपर बादल की ऊँचाई ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "H = h(tan α + tan β)/(tan β − tan α)"
+      },
+      {
+        "id": "B",
+        "text": "H = h(tan α − tan β)/(tan β + tan α)"
+      },
+      {
+        "id": "C",
+        "text": "H = h(tan α tan β)/(tan β − tan α)"
+      },
+      {
+        "id": "D",
+        "text": "H = h(tan α tan β)/(tan β + tan α)"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "height-distance",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "यदि क्षैतिज दूरी x हो, tanα=(H−h)/x तथा tanβ=(H+h)/x। दोनों समीकरणों से H = h(tanα+tanβ)/(tanβ−tanα)।"
+  },
+  {
+    "id": "maths083",
+    "subjectId": "maths",
+    "question": "एक संकेत मीनार के शिखर का उन्नयन कोण θ इस प्रकार है कि tan θ = 3/4 है, तो sin 2θ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "24/25"
+      },
+      {
+        "id": "B",
+        "text": "12/25"
+      },
+      {
+        "id": "C",
+        "text": "7/25"
+      },
+      {
+        "id": "D",
+        "text": "9/25"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "sin2θ = 2tanθ/(1+tan²θ) = 2×(3/4)/(1+9/16) = 24/25।"
+  },
+  {
+    "id": "maths084",
+    "subjectId": "maths",
+    "question": "यदि sin x = 0.6 और x ∈ (0, π/2), तो sin 2x + cos 2x ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "2.68"
+      },
+      {
+        "id": "B",
+        "text": "0.52"
+      },
+      {
+        "id": "C",
+        "text": "0.68"
+      },
+      {
+        "id": "D",
+        "text": "1.24"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "cos x=0.8। sin2x=2×0.6×0.8=0.96 और cos2x=0.8²−0.6²=0.28। योग=1.24।"
+  },
+  {
+    "id": "maths085",
+    "subjectId": "maths",
+    "question": "यदि sin A − cos A = 1/3 और A ∈ (0, π/2) है, तो sin 2A क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2/3"
+      },
+      {
+        "id": "B",
+        "text": "4/9"
+      },
+      {
+        "id": "C",
+        "text": "8/9"
+      },
+      {
+        "id": "D",
+        "text": "1/2"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "(sinA−cosA)²=1−sin2A=1/9 ⇒ sin2A=8/9।"
+  },
+  {
+    "id": "maths086",
+    "subjectId": "maths",
+    "question": "यदि sin A + cos A = 4/5, तो sin 2A ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/4"
+      },
+      {
+        "id": "B",
+        "text": "5/18"
+      },
+      {
+        "id": "C",
+        "text": "7/8"
+      },
+      {
+        "id": "D",
+        "text": "−9/25"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "(sinA+cosA)²=1+sin2A=16/25 ⇒ sin2A=−9/25।"
+  },
+  {
+    "id": "maths087",
+    "subjectId": "maths",
+    "question": "यदि cos A = 1 − 2sin²(A/2) है, तो cos 2A का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "sin A"
+      },
+      {
+        "id": "B",
+        "text": "1 − 2sin² A"
+      },
+      {
+        "id": "C",
+        "text": "sec A"
+      },
+      {
+        "id": "D",
+        "text": "निर्धारित नहीं किया जा सकता"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "cos 2A का द्विगुण कोण सूत्र cos2A = 1−2sin²A है।"
+  },
+  {
+    "id": "maths088",
+    "subjectId": "maths",
+    "question": "[(sin x − 2sin³ x)/(2cos³ x − cos x)]² + 1, x ≠ 45°, का मान किसके बराबर है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "cosec² x"
+      },
+      {
+        "id": "B",
+        "text": "sec² x"
+      },
+      {
+        "id": "C",
+        "text": "cot² x"
+      },
+      {
+        "id": "D",
+        "text": "2tan² x"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "अंश = sinx cos2x और हर = cosx cos2x। अनुपात = tanx; अतः tan²x+1 = sec²x।"
+  },
+  {
+    "id": "maths089",
+    "subjectId": "maths",
+    "question": "यदि cot θ = 3/4 है, तो sin 3θ का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "44/125"
+      },
+      {
+        "id": "B",
+        "text": "117/125"
+      },
+      {
+        "id": "C",
+        "text": "81/125"
+      },
+      {
+        "id": "D",
+        "text": "−117/125"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "3-4-5 त्रिभुज से sinθ=4/5। sin3θ=3sinθ−4sin³θ = 44/125।"
+  },
+  {
+    "id": "maths090",
+    "subjectId": "maths",
+    "question": "sin 20° cos 10° + cos 20° sin 10° का मान क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/2"
+      },
+      {
+        "id": "B",
+        "text": "3/4"
+      },
+      {
+        "id": "C",
+        "text": "5/4"
+      },
+      {
+        "id": "D",
+        "text": "7/8"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "sinA cosB + cosA sinB = sin(A+B)। अतः sin30° = 1/2।"
+  },
+  {
+    "id": "maths091",
+    "subjectId": "maths",
+    "question": "यदि sin(A + B) = sin A cos B + cos A sin B, तो sin 75° का मान ज्ञात करो।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(√3 + 1)/2"
+      },
+      {
+        "id": "B",
+        "text": "(√3 + 1)/√2"
+      },
+      {
+        "id": "C",
+        "text": "(√2 + 1)/(2√2)"
+      },
+      {
+        "id": "D",
+        "text": "(√3 + 1)/(2√2)"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "sin75° = sin(45°+30°) = sin45°cos30° + cos45°sin30° = (√3+1)/(2√2)।"
+  },
+  {
+    "id": "maths092",
+    "subjectId": "maths",
+    "question": "यदि sin A = 3/5 और cos B = 4/5 है, और A, B दोनों प्रथम चतुर्थांश में हैं, तो sin(A + B) = ?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12/25"
+      },
+      {
+        "id": "B",
+        "text": "7/10"
+      },
+      {
+        "id": "C",
+        "text": "24/25"
+      },
+      {
+        "id": "D",
+        "text": "4/5"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "cosA=4/5 और sinB=3/5। sin(A+B)=sinAcosB+cosAsinB=12/25+12/25=24/25।"
+  },
+  {
+    "id": "maths093",
+    "subjectId": "maths",
+    "question": "यदि cot(A − B) = √3 हो, तो (cot B − cot A)/(cot A cot B + 1) + (tan A − tan B)/(1 + tan A tan B) का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/√3"
+      },
+      {
+        "id": "B",
+        "text": "2√3/3"
+      },
+      {
+        "id": "C",
+        "text": "(2 − √3)/3"
+      },
+      {
+        "id": "D",
+        "text": "(3√3 + 2)/3"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "दोनों पद tan(A−B) के बराबर हैं। अतः योग=2tan(A−B)। cot(A−B)=√3 ⇒ tan(A−B)=1/√3; योग=2√3/3।"
+  },
+  {
+    "id": "maths094",
+    "subjectId": "maths",
+    "question": "निम्नलिखित व्यंजक का मान क्या है? (cos 3x + cos x)/(sin 3x − sin x)",
+    "options": [
+      {
+        "id": "A",
+        "text": "sin x"
+      },
+      {
+        "id": "B",
+        "text": "cot x"
+      },
+      {
+        "id": "C",
+        "text": "cos x"
+      },
+      {
+        "id": "D",
+        "text": "tan x"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "योग-से-गुणनफल सूत्र से अंश=2cos2x cosx और हर=2cos2x sinx। अनुपात=cotx।"
+  },
+  {
+    "id": "maths095",
+    "subjectId": "maths",
+    "question": "सरल कीजिए: sin(A + B)sin(A − B)",
+    "options": [
+      {
+        "id": "A",
+        "text": "sin² A − sin² B"
+      },
+      {
+        "id": "B",
+        "text": "sin² A + sin² B"
+      },
+      {
+        "id": "C",
+        "text": "cos 2A"
+      },
+      {
+        "id": "D",
+        "text": "cos² A − cos² B"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "sin(A+B)sin(A−B)=sin²A−sin²B।"
+  },
+  {
+    "id": "maths096",
+    "subjectId": "maths",
+    "question": "2cos A cos B = cos(A + B) + cos(A − B) का प्रयोग करके, cos 75° cos 15° का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/2"
+      },
+      {
+        "id": "B",
+        "text": "1/4"
+      },
+      {
+        "id": "C",
+        "text": "√3/2"
+      },
+      {
+        "id": "D",
+        "text": "√3/4"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "2cos75°cos15°=cos90°+cos60°=0+1/2। अतः गुणनफल=1/4।"
+  },
+  {
+    "id": "maths097",
+    "subjectId": "maths",
+    "question": "cos 10° · cos 30° · cos 50° · cos 70° का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/8"
+      },
+      {
+        "id": "B",
+        "text": "1/16"
+      },
+      {
+        "id": "C",
+        "text": "5/16"
+      },
+      {
+        "id": "D",
+        "text": "3/16"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "cos50°cos70° = cos(60°−10°)cos(60°+10°) = (2cos20°−1)/4। इसलिए पूरा गुणनफल = cos30°[2cos20°cos10°−cos10°]/4 = cos²30°/4 = 3/16।"
+  },
+  {
+    "id": "maths098",
+    "subjectId": "maths",
+    "question": "sin 186° sin 222° sin 246° sin 258° का मान ज्ञात करें।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1/625"
+      },
+      {
+        "id": "B",
+        "text": "1/256"
+      },
+      {
+        "id": "C",
+        "text": "1/81"
+      },
+      {
+        "id": "D",
+        "text": "1/16"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "sin186°sin222°sin246°sin258° = sin6°sin42°sin66°sin78°। sin6°sin66°=(3−√5)/8 और sin42°sin78°=(3+√5)/8; गुणनफल=1/16।"
+  },
+  {
+    "id": "maths099",
+    "subjectId": "maths",
+    "question": "tan 6° · tan 42° · tan 66° · tan 78° का मान ज्ञात कीजिए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "1/4"
+      },
+      {
+        "id": "C",
+        "text": "1/9"
+      },
+      {
+        "id": "D",
+        "text": "1/16"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "पहचान tan6°tan42°tan66° = tan12° तथा tan78° = cot12° का प्रयोग करें। अतः पूरा गुणनफल tan12°×cot12° = 1।"
+  },
+  {
+    "id": "maths100",
+    "subjectId": "maths",
+    "question": "यदि α + β = 45° और (tan α + 1)(tan β + 1) = 2x है, तो x का मान है:",
+    "options": [
+      {
+        "id": "A",
+        "text": "2"
+      },
+      {
+        "id": "B",
+        "text": "−1"
+      },
+      {
+        "id": "C",
+        "text": "0"
+      },
+      {
+        "id": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "trigonometry",
+    "difficulty": "medium",
+    "language": "hi",
+    "explanation": "tan(α+β)=1 ⇒ tanα+tanβ=1−tanαtanβ। इसलिए (tanα+1)(tanβ+1)=2=2x ⇒ x=1।"
+  }
+]

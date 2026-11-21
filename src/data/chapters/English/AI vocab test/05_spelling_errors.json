@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_spl_121",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "agricultral"
+      },
+      {
+        "id": "B",
+        "text": "Agricultural"
+      },
+      {
+        "id": "C",
+        "text": "agriculteral"
+      },
+      {
+        "id": "D",
+        "text": "agricutural"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Agricultural (agri + cultur + al) = कृषि संबंधी। Example: Agricultural land feeds the nation.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_122",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Disenfranchize"
+      },
+      {
+        "id": "B",
+        "text": "Disinfranchise"
+      },
+      {
+        "id": "C",
+        "text": "Disenfranchise"
+      },
+      {
+        "id": "D",
+        "text": "Disenfranchice"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Disenfranchise (dis + en + franchise) = मताधिकार छीनना। Example: The new rule disenfranchised thousands of voters.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_123",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Antediluvian"
+      },
+      {
+        "id": "B",
+        "text": "antidiluvian"
+      },
+      {
+        "id": "C",
+        "text": "antedilluvian"
+      },
+      {
+        "id": "D",
+        "text": "antedeluvian"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Antediluvian (ante + diluv + ian) = अत्यंत पुराना, प्रलय-पूर्व का। Example: His antediluvian ideas were rejected by the board.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_124",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Archtypal"
+      },
+      {
+        "id": "B",
+        "text": "Archetipal"
+      },
+      {
+        "id": "C",
+        "text": "Archetypale"
+      },
+      {
+        "id": "D",
+        "text": "Archetypal"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Archetypal (arche + typ + al) = आदर्श, मूल रूप वाला। Example: He is the archetypal village hero.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_125",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Baffled"
+      },
+      {
+        "id": "B",
+        "text": "Baffeled"
+      },
+      {
+        "id": "C",
+        "text": "Bafled"
+      },
+      {
+        "id": "D",
+        "text": "Bafffled"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Baffled (baff + led (दो f, दो l नहीं)) = हैरान, उलझन में। Example: The police were baffled by the strange clue.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_126",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ballastics"
+      },
+      {
+        "id": "B",
+        "text": "Ballisticks"
+      },
+      {
+        "id": "C",
+        "text": "Balistics"
+      },
+      {
+        "id": "D",
+        "text": "Ballistics"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Ballistics (ball + istics) = प्रक्षेप्य-विज्ञान। Example: Ballistics experts examined the bullet.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_127",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "controvertial"
+      },
+      {
+        "id": "B",
+        "text": "contraversial"
+      },
+      {
+        "id": "C",
+        "text": "Controversial"
+      },
+      {
+        "id": "D",
+        "text": "controversal"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Controversial (con + trovers + ial) = विवादास्पद। Example: The controversial film was banned.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_128",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Branstorming"
+      },
+      {
+        "id": "B",
+        "text": "Brainstorming"
+      },
+      {
+        "id": "C",
+        "text": "Brainstroming"
+      },
+      {
+        "id": "D",
+        "text": "Brainstormming"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Brainstorming (brain + storm + ing) = विचार-मंथन। Example: The team held a brainstorming session.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_129",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Buoyent"
+      },
+      {
+        "id": "B",
+        "text": "Bouyant"
+      },
+      {
+        "id": "C",
+        "text": "Buoyant"
+      },
+      {
+        "id": "D",
+        "text": "Boyant"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Buoyant (buoy + ant (u के बाद o नहीं)) = उत्साहपूर्ण; तैरने वाला। Example: A cork is buoyant in water.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_130",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Celistial"
+      },
+      {
+        "id": "B",
+        "text": "Celestial"
+      },
+      {
+        "id": "C",
+        "text": "Celestiel"
+      },
+      {
+        "id": "D",
+        "text": "Celestyal"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Celestial (celest + ial) = आकाशीय, दिव्य। Example: The moon is a celestial body.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_131",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Characterestic"
+      },
+      {
+        "id": "B",
+        "text": "Characterstic"
+      },
+      {
+        "id": "C",
+        "text": "Charactaristic"
+      },
+      {
+        "id": "D",
+        "text": "Characteristic"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Characteristic (character + istic) = विशेषता, ख़ास गुण। Example: Honesty is his main characteristic.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_132",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Colloquial"
+      },
+      {
+        "id": "B",
+        "text": "Colloquail"
+      },
+      {
+        "id": "C",
+        "text": "Coloquiul"
+      },
+      {
+        "id": "D",
+        "text": "Colloqiual"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Colloquial (coll + oqu + ial) = बोलचाल का। Example: Colloquial English is used in daily talk.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_133",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Comissioner"
+      },
+      {
+        "id": "B",
+        "text": "Commissioner"
+      },
+      {
+        "id": "C",
+        "text": "Commissionar"
+      },
+      {
+        "id": "D",
+        "text": "Commisioner"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Commissioner (commiss + ioner (दो m, दो s)) = आयुक्त। Example: The commissioner inspected the ward.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_134",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "compatable"
+      },
+      {
+        "id": "B",
+        "text": "competible"
+      },
+      {
+        "id": "C",
+        "text": "Compatible"
+      },
+      {
+        "id": "D",
+        "text": "compatibel"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Compatible (compat + ible) = अनुकूल, मेल खाने वाला। Example: The software is compatible with all phones.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_135",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conjectural"
+      },
+      {
+        "id": "B",
+        "text": "conjecterel"
+      },
+      {
+        "id": "C",
+        "text": "conjechtural"
+      },
+      {
+        "id": "D",
+        "text": "conjecktural"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Conjectural (conjectur + al) = अनुमान पर आधारित। Example: The report is purely conjectural.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_136",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Debonare"
+      },
+      {
+        "id": "B",
+        "text": "Debonayer"
+      },
+      {
+        "id": "C",
+        "text": "Debonairee"
+      },
+      {
+        "id": "D",
+        "text": "Debonair"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Debonair (de + bon + air) = शिष्ट और आकर्षक। Example: The debonair actor charmed the audience.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_137",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Disguize"
+      },
+      {
+        "id": "B",
+        "text": "Disguise"
+      },
+      {
+        "id": "C",
+        "text": "Disguse"
+      },
+      {
+        "id": "D",
+        "text": "Disgise"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "easy",
+    "explanation": "Disguise (dis + guise) = भेष बदलना, छद्मवेश। Example: The thief escaped in disguise.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_138",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Efervescent"
+      },
+      {
+        "id": "B",
+        "text": "Ephervescent"
+      },
+      {
+        "id": "C",
+        "text": "Effervesent"
+      },
+      {
+        "id": "D",
+        "text": "Effervescent"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Effervescent (ef + fer + vescent) = बुदबुदाने वाला; जोशीला। Example: Her effervescent personality lit up the room.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_139",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Epitomi"
+      },
+      {
+        "id": "B",
+        "text": "Epitoma"
+      },
+      {
+        "id": "C",
+        "text": "Epitome"
+      },
+      {
+        "id": "D",
+        "text": "Epittome"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Epitome (epi + tome ('e' पर समाप्त)) = साक्षात् उदाहरण, सार। Example: She is the epitome of grace.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_140",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Frangible"
+      },
+      {
+        "id": "B",
+        "text": "Franjible"
+      },
+      {
+        "id": "C",
+        "text": "Frangable"
+      },
+      {
+        "id": "D",
+        "text": "Frangibel"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Frangible (frang + ible) = भंगुर, आसानी से टूटने वाला। Example: Glass is a frangible material.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_141",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hazardous"
+      },
+      {
+        "id": "B",
+        "text": "Hazardus"
+      },
+      {
+        "id": "C",
+        "text": "Hazardious"
+      },
+      {
+        "id": "D",
+        "text": "Hazzardous"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Hazardous (hazard + ous) = ख़तरनाक। Example: Burning plastic is hazardous to health.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_142",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hemorage"
+      },
+      {
+        "id": "B",
+        "text": "Heamorrhage"
+      },
+      {
+        "id": "C",
+        "text": "Hemorrhage"
+      },
+      {
+        "id": "D",
+        "text": "Hemorrage"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Hemorrhage (hemo + rrhage (दो r)) = अत्यधिक रक्तस्राव। Example: The patient died of a brain hemorrhage.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_143",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "imutable"
+      },
+      {
+        "id": "B",
+        "text": "immuatable"
+      },
+      {
+        "id": "C",
+        "text": "immutible"
+      },
+      {
+        "id": "D",
+        "text": "Immutable"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Immutable (im + mut + able) = अपरिवर्तनीय। Example: Truth is immutable.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_144",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "impertubable"
+      },
+      {
+        "id": "B",
+        "text": "Imperturbable"
+      },
+      {
+        "id": "C",
+        "text": "imperturbible"
+      },
+      {
+        "id": "D",
+        "text": "imperterbable"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Imperturbable (im + perturb + able) = शांतचित्त, अविचलित। Example: The imperturbable judge never lost his temper.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_145",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "intranzigent"
+      },
+      {
+        "id": "B",
+        "text": "Intransigent"
+      },
+      {
+        "id": "C",
+        "text": "intransegent"
+      },
+      {
+        "id": "D",
+        "text": "intransigant"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Intransigent (in + trans + igent) = अड़ियल, समझौता न करने वाला। Example: The intransigent leader refused every compromise.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_146",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Iridescent"
+      },
+      {
+        "id": "B",
+        "text": "Irredescent"
+      },
+      {
+        "id": "C",
+        "text": "Iridescant"
+      },
+      {
+        "id": "D",
+        "text": "Iridiscent"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Iridescent (irid + escent) = इंद्रधनुषी चमक वाला। Example: The soap bubble was iridescent in sunlight.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_147",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kaleidoccope"
+      },
+      {
+        "id": "B",
+        "text": "Kaleidiscope"
+      },
+      {
+        "id": "C",
+        "text": "Kalaidoscope"
+      },
+      {
+        "id": "D",
+        "text": "Kaleidoscope"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "medium",
+    "explanation": "Kaleidoscope (kaleido + scope) = बहुरूपदर्शी। Example: Children love playing with a kaleidoscope.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_148",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Malepropism"
+      },
+      {
+        "id": "B",
+        "text": "Malapropizm"
+      },
+      {
+        "id": "C",
+        "text": "Malapropism"
+      },
+      {
+        "id": "D",
+        "text": "Malapropismm"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Malapropism (mal + a + prop + ism) = हास्यास्पद गलत शब्द-प्रयोग। Example: Saying 'pineapple of politeness' is a malapropism.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_149",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Melifluous"
+      },
+      {
+        "id": "B",
+        "text": "Mellifluos"
+      },
+      {
+        "id": "C",
+        "text": "Mellifluas"
+      },
+      {
+        "id": "D",
+        "text": "Mellifluous"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Mellifluous (melli + fluous) = मधुर, कर्णप्रिय। Example: The singer's mellifluous voice won hearts.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_spl_150",
+    "subjectId": "english",
+    "question": "Select the correctly spelt word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meretricius"
+      },
+      {
+        "id": "B",
+        "text": "Meretricious"
+      },
+      {
+        "id": "C",
+        "text": "Meretriscious"
+      },
+      {
+        "id": "D",
+        "text": "Meretritious"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "spelling-errors",
+    "difficulty": "hard",
+    "explanation": "Meretricious (mere + tricious) = दिखावटी पर निरर्थक। Example: The meretricious jewellery looked costly but was cheap.",
+    "language": "en"
+  }
+]

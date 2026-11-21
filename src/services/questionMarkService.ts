@@ -8,6 +8,7 @@
 // updates that record rather than adding another; removing the mark deletes it.
 
 import { markedForReviewDB } from './db';
+import { chapterIdOfSource } from './chapterMeta';
 import { useMarkedReviewStore } from '../store/markedReviewStore';
 import { normalizePurposes, savedPurposes, type MarkPurpose } from '../types/questionMark';
 import type { UniversalQuestion } from '../types/universalQuestion';
@@ -48,6 +49,10 @@ export async function syncQuestionMark(question: UniversalQuestion, purposes: Ma
     markedAt: existing?.markedAt ?? Date.now(), // the day it was first saved doesn't change when another purpose is added
     purpose: set[0],
     purposes: set,
+    subjectId: question.subjectId,
+    topicId: question.topicId,
+    chapterId: chapterIdOfSource(question.source),
+    subtopicId: question.subtopicId,
   };
   await markedForReviewDB.upsert(record);
   await useMarkedReviewStore.getState().load();

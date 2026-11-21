@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate, useParams, Navigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, FileText, ListChecks, Newspaper, ChevronRight } from 'lucide-react';
+import { ArrowLeft, FileText, ListChecks, Newspaper, ChevronRight, Star } from 'lucide-react';
 import { useExamStore } from '../store/examStore';
 import { subjectRegistry } from '../data/registry/subjectRegistry';
-import { getChaptersForSubject, type UniversalChapter } from '../services/universalChapterRepository';
+import { chapterReaderKey, getChaptersForSubject, type UniversalChapter } from '../services/universalChapterRepository';
+import { useReaderStore } from '../store/readerStore';
 import { getQuestionCountByTopic } from '../services/questionRepository';
 import { usePracticeTestLibrary, type PracticeTestLibraryData } from '../hooks/usePracticeTestLibrary';
 import { ChapterTestsButton, ChapterTestsPanel } from '../components/tests/ChapterTests';
@@ -34,7 +35,7 @@ interface ChapterRow extends UniversalChapter {
  * place. Defined at module level so toggling T re-renders only this row — an
  * inline component would remount every row (and replay its entrance animation).
  */
-function ChapterCard({ chapter, index, questionLabel, testsOpen, onToggleTests, testsData, onOpen }: {
+function ChapterCard({ chapter, index, questionLabel, testsOpen, onToggleTests, testsData, onOpen, isFavorite, onToggleFavorite }: {
   chapter: ChapterRow;
   index: number;
   questionLabel: string;
@@ -42,6 +43,8 @@ function ChapterCard({ chapter, index, questionLabel, testsOpen, onToggleTests, 
   onToggleTests: () => void;
   testsData: PracticeTestLibraryData;
   onOpen: () => void;
+  isFavorite: boolean;
+  onToggleFavorite: () => void;
 }) {
   return (
     <motion.div
@@ -65,6 +68,10 @@ function ChapterCard({ chapter, index, questionLabel, testsOpen, onToggleTests, 
               <span className="text-xs" style={{ color: 'var(--text-muted)' }}>{chapter.testFileCount} test file{chapter.testFileCount === 1 ? '' : 's'}</span>
             )}
           </div>
+        </button>
+        <button type="button" onClick={onToggleFavorite} aria-pressed={isFavorite} aria-label={isFavorite ? `Remove ${chapter.title} from favorites` : `Add ${chapter.title} to favorites`} data-testid="chapter-favorite"
+          className="w-11 h-11 flex items-center justify-center rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 flex-shrink-0">
+          <Star size={18} className={isFavorite ? 'text-amber-500' : ''} style={isFavorite ? undefined : { color: 'var(--text-muted)' }} fill={isFavorite ? 'currentColor' : 'none'} aria-hidden />
         </button>
         {chapter.testFileCount > 0 && <ChapterTestsButton chapterTitle={chapter.title} open={testsOpen} onToggle={onToggleTests} />}
       </div>
@@ -96,6 +103,11 @@ export default function SubjectChaptersPage() {
 
   const [counts, setCounts] = useState<Record<string, number>>({});
   const [loadingCounts, setLoadingCounts] = useState(true);
+
+  // Favorites are the same ★ as on the chapter page and Home's Favorite chapters — one record per chapter, keyed by the chapter's reader key.
+  const readerProgress = useReaderStore((s) => s.progress);
+  const toggleFavorite = useReaderStore((s) => s.toggleFavorite);
+  useEffect(() => { void useReaderStore.getState().loadAll(); }, []);
 
   // "T" — which chapters have their tests open, and whether each library has been asked for yet.
   const [openTests, setOpenTests] = useState<Set<string>>(new Set());
@@ -146,6 +158,8 @@ export default function SubjectChaptersPage() {
         onToggleTests={() => toggleTests(key, isCurrentAffairs)}
         testsData={isCurrentAffairs ? caTests : ownTests}
         onOpen={() => navigate(`/chapters/${chapter.navSubjectId}/${chapter.id}`)}
+        isFavorite={!!readerProgress[chapterReaderKey(chapter.navSubjectId, chapter.id)]?.isFavorite}
+        onToggleFavorite={() => { void toggleFavorite(chapterReaderKey(chapter.navSubjectId, chapter.id)); }}
       />
     );
   }

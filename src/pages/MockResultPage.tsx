@@ -5,6 +5,8 @@ import { getMockDefinition } from '../services/mockDefinitionRepository';
 import { resolveQuestionsByIds } from '../services/questionRepository';
 import { mockAttemptsDB } from '../services/db';
 import { analyzeMockAttempt } from '../services/mockAnalysisService';
+import { mockResultContext } from '../services/resultContext';
+import type { ResultContext } from '../services/resultTables';
 import { downloadMockReport } from '../services/mockReportExportService';
 import { AnalysisView } from '../components/mock-analysis/AnalysisView';
 import type { UniversalQuestion } from '../types/universalQuestion';
@@ -21,6 +23,7 @@ export default function MockResultPage() {
   const [notFoundReason, setNotFoundReason] = useState<string>('');
   const [definition, setDefinition] = useState<MockDefinition | null>(null);
   const [analysis, setAnalysis] = useState<MockAnalysis | null>(null);
+  const [resultContext, setResultContext] = useState<ResultContext | null>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -45,9 +48,11 @@ export default function MockResultPage() {
       const questionsById = new Map<string, UniversalQuestion>(questions.map((q) => [q.id, q]));
 
       const result = await analyzeMockAttempt(attempt, def, questionsById);
+      const context = mockResultContext(attempt, questionsById, await mockAttemptsDB.getForMock(attempt.mockDefinitionId));
       if (cancelled) return;
       setDefinition(def);
       setAnalysis(result);
+      setResultContext(context);
       setState('ready');
     }
 
@@ -64,7 +69,7 @@ export default function MockResultPage() {
     );
   }
 
-  if (state === 'not-found' || !analysis || !definition) {
+  if (state === 'not-found' || !analysis || !definition || !resultContext) {
     return (
       <div className="max-w-lg mx-auto pt-16 text-center px-4">
         <AlertTriangle size={32} className="mx-auto mb-3 text-amber-500" />
@@ -98,7 +103,7 @@ export default function MockResultPage() {
         <p className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>Completed {new Date(analysis.completedAt).toLocaleString()}</p>
       </div>
 
-      <AnalysisView analysis={analysis} variant="mock" />
+      <AnalysisView analysis={analysis} context={resultContext} variant="mock" />
     </div>
   );
 }

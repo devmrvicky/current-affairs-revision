@@ -67,6 +67,30 @@ export default defineConfig({
         navigateFallback: '/index.html',
         navigateFallbackDenylist: [/^\/_/, /\/[^/?]+\.[^/]+$/],
         runtimeCaching: [
+          // Question Bank (published tests). NetworkFirst, never cache-first: the manifest is how learners hear that a test changed,
+          // so a stale copy must never win over the network. The cache is only an offline fallback. (The sync code also fetches with
+          // `cache: 'no-cache'` and verifies every file against the manifest's SHA-256, so even a stale copy could not be installed.)
+          // JSON is not in `globPatterns`, so none of this is precached either.
+          {
+            urlPattern: /\/data\/question-bank\/manifest\.json(?:\?.*)?$/i,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'question-bank-manifest',
+              networkTimeoutSeconds: 5,
+              expiration: { maxEntries: 1, maxAgeSeconds: 60 * 60 * 24 * 7 },
+              cacheableResponse: { statuses: [200] },
+            },
+          },
+          {
+            urlPattern: /\/data\/question-bank\/tests\/.+\.json(?:\?.*)?$/i,
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'question-bank-tests',
+              networkTimeoutSeconds: 8,
+              expiration: { maxEntries: 200, maxAgeSeconds: 60 * 60 * 24 * 30 },
+              cacheableResponse: { statuses: [200] },
+            },
+          },
           // Google Fonts
           {
             urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,

@@ -17,6 +17,9 @@ const question = (id: string): UniversalQuestion => ({
   id, examIds: ['ssc-chsl'], subjectId: 'mathematics', topicId: 'average', questionType: 'mcq', question: `Question text ${id}`, difficulty: 'easy',
   options: [{ id: 'A', text: `${id} alpha` }, { id: 'B', text: `${id} beta` }, { id: 'C', text: `${id} gamma` }, { id: 'D', text: `${id} delta` }], correctAnswer: 'B', explanation: `Because ${id}`,
 });
+/** Presses a key on the window AFTER React has attached its listeners — under load the passive effect that adds the keyboard handler can lag a render behind the first paint. */
+const pressKey = async (key: string) => { await act(async () => {}); fireEvent.keyDown(window, { key }); };
+
 vi.mock('../services/questionRepository', async (orig) => ({
   ...(await orig<typeof import('../services/questionRepository')>()),
   resolveQuestionsByIds: vi.fn(async (ids: string[]) => ids.map(question)),
@@ -50,33 +53,73 @@ beforeEach(() => { usePracticeSessionStore.getState().clearSession(); });
 afterEach(cleanup);
 
 describe('Test mode', () => {
-  it('arrow keys move between questions; floating buttons are always there and move too', async () => {
+  it('arrow keys move between questions; the floating buttons appear only after an option is chosen, then move too', async () => {
+    start(base);
+    mount();
+    await screen.findByText('Question text q1', {}, { timeout: 5000 });
+    expect(position()).toMatch(/Q1 \/ 6/);
+    await pressKey('ArrowRight');
+    await screen.findByText('Question text q2', {}, { timeout: 5000 }); // first test in the file runs cold; the exit animation can exceed the default 1 s
+    expect(screen.queryByTestId('floating-next')).toBeNull(); // nothing chosen on q2 yet
+    await userEvent.click(screen.getByRole('button', { name: /q2 alpha/ }));
+    expect(screen.getByTestId('floating-prev')).toBeTruthy();
+    expect(screen.getByTestId('floating-next')).toBeTruthy();
+    await userEvent.click(screen.getByTestId('floating-next'));
+    await screen.findByText('Question text q3', {}, { timeout: 5000 });
+    await pressKey('ArrowLeft');
+    await screen.findByText('Question text q2', {}, { timeout: 5000 }); // first test in the file runs cold; the exit animation can exceed the default 1 s
+  });
+
+  it('Test mode: the floating buttons are hidden before any option is chosen, shown after, and gone again on the next unanswered question', async () => {
     start(base);
     mount();
     await screen.findByText('Question text q1');
-    expect(position()).toMatch(/Q1 \/ 6/);
-    fireEvent.keyDown(window, { key: 'ArrowRight' });
-    await screen.findByText('Question text q2');
+    expect(screen.queryByTestId('floating-prev')).toBeNull();
+    expect(screen.queryByTestId('floating-next')).toBeNull();
+    await userEvent.click(screen.getByRole('button', { name: /q1 gamma/ }));
     expect(screen.getByTestId('floating-prev')).toBeTruthy();
-    expect(screen.getByTestId('floating-next')).toBeTruthy(); // present before any answer — nothing about correctness is shown
+    expect(screen.getByTestId('floating-next')).toBeTruthy();
     await userEvent.click(screen.getByTestId('floating-next'));
-    await screen.findByText('Question text q3');
-    fireEvent.keyDown(window, { key: 'ArrowLeft' });
     await screen.findByText('Question text q2');
+    expect(screen.queryByTestId('floating-prev')).toBeNull(); // q2 has no chosen option
+    expect(screen.queryByTestId('floating-next')).toBeNull();
+    await pressKey('ArrowLeft');
+    await screen.findByText('Question text q1');
+    expect(screen.getByTestId('floating-next')).toBeTruthy(); // q1 still has its chosen option
   });
 
   it('the floating buttons are large, thumb-sized tabs at the vertical centre of the left and right edges', async () => {
     start(base);
     mount();
     await screen.findByText('Question text q1');
+    await userEvent.click(screen.getByRole('button', { name: /q1 alpha/ }));
     for (const id of ['floating-prev', 'floating-next']) {
       const cls = screen.getByTestId(id).className;
+      expect(cls).toMatch(/\babsolute\b/); // an overlay: takes no layout space
       expect(cls).toMatch(/\btop-1\/2\b/);
       expect(cls).toMatch(/-translate-y-1\/2/);
       expect(cls).toMatch(/\bw-10\b.*\bh-20\b/); // 40×80 on phones, larger from md
+      expect(cls).toMatch(/(^|\s)opacity-20(\s|$)/); // almost transparent at rest, so the options underneath stay readable
+      expect(cls).toMatch(/enabled:hover:opacity-100/); // fully opaque when hovered…
+      expect(cls).toMatch(/enabled:active:opacity-100/); // …pressed…
+      expect(cls).toMatch(/enabled:focus-visible:opacity-100/); // …or focused
+      expect((screen.getByTestId(id) as HTMLElement).style.opacity).toBe(''); // no inline opacity that would defeat those classes
     }
     expect(screen.getByTestId('floating-prev').className).toMatch(/\bleft-0\b/);
     expect(screen.getByTestId('floating-next').className).toMatch(/\bright-0\b/);
+  });
+
+  it('the floating buttons overlay the content without changing its spacing (Test: px-3 sm:px-5 lg:px-8)', async () => {
+    start(base);
+    mount();
+    await screen.findByText('Question text q1');
+    const content = screen.getByTestId('exam-question-area').querySelector('.exam-shell__content > div') as HTMLElement;
+    const before = content.className;
+    expect(before).toMatch(/\bpx-3\b.*\bsm:px-5\b.*\blg:px-8\b/);
+    expect(before).not.toMatch(/px-10|px-14|md:px-16/);
+    await userEvent.click(screen.getByRole('button', { name: /q1 alpha/ }));
+    expect((screen.getByTestId('exam-question-area').querySelector('.exam-shell__content > div') as HTMLElement).className).toBe(before);
+    expect(screen.getByTestId('exam-question-area').contains(screen.getByTestId('floating-next'))).toBe(false); // lives in the overlay layer, not in the content
   });
 
   it('arrow keys do not fire while typing in a field', async () => {
@@ -147,12 +190,12 @@ describe('Sectional timing', () => {
     expect(buttons.map((b) => b.getAttribute('aria-disabled'))).toEqual([null, null, null, 'true', 'true', 'true']);
     await userEvent.click(buttons[4]); // Q5 is locked
     expect(position()).toMatch(/Q1 \/ 6/);
-    fireEvent.keyDown(window, { key: 'ArrowLeft' });
+    await pressKey('ArrowLeft');
     expect(position()).toMatch(/Q1 \/ 6/);
     // walk to the end of section 1: the arrow stops there and the button changes
-    fireEvent.keyDown(window, { key: 'ArrowRight' }); fireEvent.keyDown(window, { key: 'ArrowRight' });
+    await pressKey('ArrowRight'); await pressKey('ArrowRight');
     await screen.findByText('Question text q3');
-    fireEvent.keyDown(window, { key: 'ArrowRight' });
+    await pressKey('ArrowRight');
     expect(position()).toMatch(/Q3 \/ 6/);
     expect(screen.getByRole('button', { name: /Finish Section/ })).toBeTruthy();
   });
@@ -171,7 +214,7 @@ describe('Sectional timing', () => {
     await waitFor(() => expect(position()).toMatch(/Q4 \/ 6/));
     expect(session().sectionStarts).toHaveLength(2);
     expect(screen.getByTestId('section-timer').textContent).toMatch(/Section 2 · 2\/2/);
-    fireEvent.keyDown(window, { key: 'ArrowLeft' }); // can't go back into section 1
+    await pressKey('ArrowLeft'); // can't go back into section 1
     expect(position()).toMatch(/Q4 \/ 6/);
     expect(screen.queryByRole('button', { name: /Finish Section/ })).toBeNull(); // last section: Next → Submit flow
   });
@@ -273,5 +316,76 @@ describe('Marking with purposes (spec §7)', () => {
     await userEvent.click(within(await screen.findByRole('dialog', { name: /Mark question 1/ })).getByRole('checkbox', { name: /Doubtful/ }));
     const palette = screen.getByRole('complementary', { name: 'Question palette' });
     await waitFor(() => expect(within(palette).getByRole('button', { name: '1' }).textContent).toMatch(/\?/));
+  });
+});
+
+describe('Option order', () => {
+  // Fisher–Yates with Math.random() === 0 turns [alpha, beta, gamma, delta] into [beta, gamma, delta, alpha];
+  // with 0.99 it leaves the order alone. `rnd` lets a test change that between visits.
+  let rnd = 0;
+  let spy: { mockRestore: () => void } | undefined;
+  beforeEach(() => { rnd = 0; spy = vi.spyOn(Math, 'random').mockImplementation(() => rnd); });
+  afterEach(() => { spy?.mockRestore(); spy = undefined; });
+
+  const group = () => screen.getByRole('group', { name: 'Answer options' });
+  const onScreen = () => within(group()).getAllByRole('button').map((b) => b.textContent!);
+
+  it('shows the options in a random order, lettered by on-screen position (not the stored one)', async () => {
+    start(base);
+    mount();
+    await screen.findByText('Question text q1');
+    const texts = onScreen();
+    expect(texts).toHaveLength(4);
+    expect(texts[0]).toMatch(/^A.*q1 beta/);
+    expect(texts[1]).toMatch(/^B.*q1 gamma/);
+    expect(texts[2]).toMatch(/^C.*q1 delta/);
+    expect(texts[3]).toMatch(/^D.*q1 alpha/);
+  });
+
+  it('records and scores by option id, whatever position it is shown at (Practice)', async () => {
+    start({ ...base, mode: 'practice' });
+    mount();
+    await screen.findByText('Question text q1');
+    // "beta" (id B, the correct one) is shown FIRST, "alpha" (id A) LAST.
+    await userEvent.click(within(group()).getAllByRole('button')[0]);
+    expect(session().states[0].selectedAnswer).toBe('B');
+    expect(await screen.findByText('Correct')).toBeTruthy();
+  });
+
+  it('records the id of the option tapped, not its position (Test)', async () => {
+    start(base);
+    mount();
+    await screen.findByText('Question text q1');
+    await userEvent.click(within(group()).getAllByRole('button')[3]); // shown last = alpha = id A
+    expect(session().states[0].selectedAnswer).toBe('A');
+  });
+
+  it('does not move the options while the question stays on screen (answering, re-rendering)', async () => {
+    start(base);
+    mount();
+    await screen.findByText('Question text q1');
+    const before = onScreen().map((t) => t.slice(1));
+    rnd = 0.99; // anything that reshuffled now would give a different order
+    await userEvent.click(within(group()).getAllByRole('button')[1]);
+    await userEvent.click(within(group()).getAllByRole('button')[2]); // change answer
+    expect(onScreen().map((t) => t.slice(1))).toEqual(before);
+  });
+
+  it('shows a fresh order each time the question comes back on screen, and the chosen answer stays selected', async () => {
+    start(base);
+    mount();
+    await screen.findByText('Question text q1');
+    expect(onScreen()[0]).toMatch(/q1 beta/); // first visit (random = 0)
+    await userEvent.click(within(group()).getAllByRole('button')[3]); // alpha → id A
+    rnd = 0.99; // the next shuffles leave the order alone
+    await pressKey('ArrowRight');
+    await screen.findByText('Question text q2');
+    await pressKey('ArrowLeft');
+    await screen.findByText('Question text q1');
+    const texts = onScreen();
+    expect(texts[0]).toMatch(/^A.*q1 alpha/); // different order than the first visit
+    expect(texts[3]).toMatch(/^D.*q1 delta/);
+    expect(within(group()).getByRole('button', { name: /q1 alpha/ }).getAttribute('aria-pressed')).toBe('true');
+    expect(session().states[0].selectedAnswer).toBe('A');
   });
 });

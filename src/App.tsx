@@ -1,11 +1,12 @@
 import { useEffect } from 'react';
-import { Toaster } from 'react-hot-toast';
+import toast, { Toaster } from 'react-hot-toast';
 import AppRouter from './routes/AppRouter';
 import { useSettingsStore, applyTheme } from './store/statsStore';
 import { useAuthStore } from './store/authStore';
 import { initSyncListeners } from './services/syncService';
 import { PWAUpdateNotifier } from './components/common/PWAComponents';
 import { GlobalErrorBoundary } from './components/common/GlobalErrorBoundary';
+import { syncQuestionBankOnStart } from './services/questionBank/startup';
 
 function App() {
   const { load, settings } = useSettingsStore();
@@ -16,6 +17,11 @@ function App() {
   useEffect(() => {
     initAuth();
     initSyncListeners();
+  }, []);
+  // Published question-bank tests: what is cached works immediately; check for updates quietly once the app has settled.
+  useEffect(() => {
+    const t = setTimeout(() => { void syncQuestionBankOnStart((m) => toast(m, { icon: '📚' })); }, 3000);
+    return () => clearTimeout(t);
   }, []);
 
   return (

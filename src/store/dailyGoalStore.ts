@@ -13,6 +13,8 @@ interface DailyGoalStore {
   setTarget: (target: number) => Promise<void>;
   /** User explicitly changes what they track and/or the target — never called automatically. */
   setGoal: (type: DailyGoalType, target: number) => Promise<void>;
+  /** User explicitly turns the goal off (target 0 = no goal). Today's counts and the streak history are kept. */
+  clearGoal: () => Promise<void>;
 
   getProgress: () => number;         // 0-100
   isGoalMet: () => boolean;
@@ -61,6 +63,13 @@ export const useDailyGoalStore = create<DailyGoalStore>((set, get) => ({
     set({ goal: updated });
   },
 
+  clearGoal: async () => {
+    const dateKey = formatDateKey(new Date());
+    const type = get().goal?.type ?? 'questions';
+    const updated = await dailyGoalDB.setGoal(dateKey, type, 0);
+    set({ goal: updated });
+  },
+
   getCurrentValue: () => {
     const g = get().goal;
     if (!g) return 0;
@@ -75,7 +84,7 @@ export const useDailyGoalStore = create<DailyGoalStore>((set, get) => ({
 
   isGoalMet: () => {
     const g = get().goal;
-    return !!g && get().getCurrentValue() >= g.target;
+    return !!g && g.target > 0 && get().getCurrentValue() >= g.target;
   },
 
   getRemainingToday: () => {

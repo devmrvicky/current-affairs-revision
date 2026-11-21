@@ -1,0 +1,702 @@
+[
+  {
+    "id": "cloze001",
+    "subjectId": "english",
+    "question": "The stepwell, or baoli, of western India was never conceived as a mere reservoir; it was an underground palace of water, built to serve as a public stage for community life. In a land where rainfall was erratic and rivers (A)____ dry for months on end, these structures stored monsoon water so that whole villages could survive the harshest summers. Descending through successive flights of steps, travellers found a cool refuge that offered respite (B)____ the scorching heat above, while women gathered at the lowest landing to draw water, exchange news and offer prayers to the goddess of the well. The sculpted pillars and carved niches were not ornaments alone; each depicted a deity or a myth that reinforced the moral order of the village.\n\nHad the builders been concerned only with utility, they would never (C)____ such labour on elaborate galleries and pavilions. Yet the patrons, often queens and merchants, regarded charity of this kind as a form of devotion, and the beauty of a stepwell thus became a (D)____ expression of its founder's merit. With the arrival of piped water in the colonial era, however, these wonders fell into neglect, and many were reduced to the status of dumping grounds. It is a sobering irony that a technology which had sustained entire regions for centuries could be forgotten within a single generation. Conservationists now insist that the surviving stepwells (E)____ restored without further delay, not as museum pieces but as living systems of water harvesting.\n\nSelect the most appropriate option to fill in blank (A).",
+    "options": [
+      {
+        "id": "A",
+        "text": "run"
+      },
+      {
+        "id": "B",
+        "text": "ran"
+      },
+      {
+        "id": "C",
+        "text": "running"
+      },
+      {
+        "id": "D",
+        "text": "runs"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tenses",
+    "difficulty": "easy",
+    "explanation": "नियम: Passage का काल (Tense) clause-दर-clause समान रखा जाता है। 'and' से जुड़े clauses में verbs का काल एक जैसा (parallel) होना चाहिए। 'Run dry' idiom है = (नदी, कुएँ, तालाब का) सूख जाना; यहाँ 'run' का अर्थ 'दौड़ना' नहीं बल्कि 'हो जाना (become)' है। Plural subject के साथ verb में -s नहीं लगता।\n\nयहाँ: पहला clause 'rainfall was erratic' भूतकाल में है, इसलिए दूसरा clause भी Simple Past में होगा — 'rivers ran dry' (नदियाँ महीनों सूखी रहती थीं)।\n\nविकल्पों के अर्थ: run = दौड़ना / V1 (काल मेल नहीं खाता, यहाँ भूतकाल चाहिए); running = V-ing (finite verb नहीं बनता, वाक्य अधूरा रहता); runs = singular present verb ('rivers' बहुवचन है और काल भी गलत)।",
+    "language": "en"
+  },
+  {
+    "id": "cloze002",
+    "subjectId": "english",
+    "question": "The stepwell, or baoli, of western India was never conceived as a mere reservoir; it was an underground palace of water, built to serve as a public stage for community life. In a land where rainfall was erratic and rivers (A)____ dry for months on end, these structures stored monsoon water so that whole villages could survive the harshest summers. Descending through successive flights of steps, travellers found a cool refuge that offered respite (B)____ the scorching heat above, while women gathered at the lowest landing to draw water, exchange news and offer prayers to the goddess of the well. The sculpted pillars and carved niches were not ornaments alone; each depicted a deity or a myth that reinforced the moral order of the village.\n\nHad the builders been concerned only with utility, they would never (C)____ such labour on elaborate galleries and pavilions. Yet the patrons, often queens and merchants, regarded charity of this kind as a form of devotion, and the beauty of a stepwell thus became a (D)____ expression of its founder's merit. With the arrival of piped water in the colonial era, however, these wonders fell into neglect, and many were reduced to the status of dumping grounds. It is a sobering irony that a technology which had sustained entire regions for centuries could be forgotten within a single generation. Conservationists now insist that the surviving stepwells (E)____ restored without further delay, not as museum pieces but as living systems of water harvesting.\n\nSelect the most appropriate option to fill in blank (B).",
+    "options": [
+      {
+        "id": "A",
+        "text": "from"
+      },
+      {
+        "id": "B",
+        "text": "against"
+      },
+      {
+        "id": "C",
+        "text": "of"
+      },
+      {
+        "id": "D",
+        "text": "over"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions",
+    "difficulty": "easy",
+    "explanation": "नियम: Respite (थोड़े समय की राहत / विश्राम) के साथ preposition 'from' आता है — respite from the heat / pain / work। इसी तरह relief from, shelter from, refuge from, escape from। 'Protection / defence' के साथ against या from दोनों चलते हैं, पर 'respite' के साथ 'from' ही।\n\nयहाँ: Scorching heat (झुलसाने वाली गर्मी) से राहत देने वाला ठंडा आश्रय — 'respite from the scorching heat'।\n\nविकल्पों के अर्थ: against = के विरुद्ध (protection against / fight against में आता है, respite के साथ नहीं); of = का / की (संबंध या स्वामित्व बताता है, राहत 'से' का भाव नहीं); over = के ऊपर / पर (स्थान या नियंत्रण, 'respite over' नहीं बनता)।",
+    "language": "en"
+  },
+  {
+    "id": "cloze003",
+    "subjectId": "english",
+    "question": "The stepwell, or baoli, of western India was never conceived as a mere reservoir; it was an underground palace of water, built to serve as a public stage for community life. In a land where rainfall was erratic and rivers (A)____ dry for months on end, these structures stored monsoon water so that whole villages could survive the harshest summers. Descending through successive flights of steps, travellers found a cool refuge that offered respite (B)____ the scorching heat above, while women gathered at the lowest landing to draw water, exchange news and offer prayers to the goddess of the well. The sculpted pillars and carved niches were not ornaments alone; each depicted a deity or a myth that reinforced the moral order of the village.\n\nHad the builders been concerned only with utility, they would never (C)____ such labour on elaborate galleries and pavilions. Yet the patrons, often queens and merchants, regarded charity of this kind as a form of devotion, and the beauty of a stepwell thus became a (D)____ expression of its founder's merit. With the arrival of piped water in the colonial era, however, these wonders fell into neglect, and many were reduced to the status of dumping grounds. It is a sobering irony that a technology which had sustained entire regions for centuries could be forgotten within a single generation. Conservationists now insist that the surviving stepwells (E)____ restored without further delay, not as museum pieces but as living systems of water harvesting.\n\nSelect the most appropriate option to fill in blank (C).",
+    "options": [
+      {
+        "id": "A",
+        "text": "had lavished"
+      },
+      {
+        "id": "B",
+        "text": "be lavishing"
+      },
+      {
+        "id": "C",
+        "text": "have lavished"
+      },
+      {
+        "id": "D",
+        "text": "to lavish"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "conditionals",
+    "difficulty": "hard",
+    "explanation": "नियम: Inverted Third Conditional: 'Had + subject + V3, subject + would / could / might + have + V3' (= If + had + V3)। अतीत की अवास्तविक स्थिति का परिणाम 'would never have + V3' से बताया जाता है। Modal (would, could, might, should) के बाद V1 आता है — न 'had', न 'to'। 'Lavish X on Y' = Y पर X खुले हाथ से / ज़रूरत से ज़्यादा खर्च करना या लगाना।\n\nयहाँ: 'Had the builders been concerned only with utility' (अगर बनाने वाले सिर्फ़ उपयोगिता देखते) तो वे 'would never have lavished such labour on elaborate galleries' (भव्य गलियारों पर इतनी मेहनत कभी न लुटाते)।\n\nविकल्पों के अर्थ: had lavished = would के बाद 'had' नहीं आता; be lavishing = 'would be + V-ing' वर्तमान की क्रिया बताता है, यहाँ अतीत का अवास्तविक परिणाम चाहिए; to lavish = modal के बाद 'to' नहीं लगता; lavish = उदारता से लुटाना / बेहिसाब लगाना।",
+    "language": "en"
+  },
+  {
+    "id": "cloze004",
+    "subjectId": "english",
+    "question": "The stepwell, or baoli, of western India was never conceived as a mere reservoir; it was an underground palace of water, built to serve as a public stage for community life. In a land where rainfall was erratic and rivers (A)____ dry for months on end, these structures stored monsoon water so that whole villages could survive the harshest summers. Descending through successive flights of steps, travellers found a cool refuge that offered respite (B)____ the scorching heat above, while women gathered at the lowest landing to draw water, exchange news and offer prayers to the goddess of the well. The sculpted pillars and carved niches were not ornaments alone; each depicted a deity or a myth that reinforced the moral order of the village.\n\nHad the builders been concerned only with utility, they would never (C)____ such labour on elaborate galleries and pavilions. Yet the patrons, often queens and merchants, regarded charity of this kind as a form of devotion, and the beauty of a stepwell thus became a (D)____ expression of its founder's merit. With the arrival of piped water in the colonial era, however, these wonders fell into neglect, and many were reduced to the status of dumping grounds. It is a sobering irony that a technology which had sustained entire regions for centuries could be forgotten within a single generation. Conservationists now insist that the surviving stepwells (E)____ restored without further delay, not as museum pieces but as living systems of water harvesting.\n\nSelect the most appropriate option to fill in blank (D).",
+    "options": [
+      {
+        "id": "A",
+        "text": "tactile"
+      },
+      {
+        "id": "B",
+        "text": "tenuous"
+      },
+      {
+        "id": "C",
+        "text": "tentative"
+      },
+      {
+        "id": "D",
+        "text": "tangible"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "vocabulary",
+    "difficulty": "hard",
+    "explanation": "नियम: Vocabulary (संदर्भ से अर्थ): वाक्य कहता है कि सुंदरता, संस्थापक के पुण्य (merit) की किस तरह की अभिव्यक्ति बनी — ऐसी जो साफ़ दिखाई दे, ठोस प्रमाण जैसी हो।\n\nयहाँ: Tangible = मूर्त, ठोस, जिसे देखा / महसूस किया जा सके (tangible proof / benefits) → 'a tangible expression of its founder's merit' (संस्थापक के पुण्य की मूर्त अभिव्यक्ति)।\n\nविकल्पों के अर्थ: tactile = स्पर्श से संबंधित (tactile sense — छूकर पहचानना), पुण्य की अभिव्यक्ति के लिए अर्थहीन; tenuous = बहुत कमज़ोर / पतला (a tenuous link), संदर्भ के उलट क्योंकि यहाँ सुंदरता ठोस प्रमाण है; tentative = अस्थायी / झिझक भरा (a tentative plan), भव्य निर्माण अनिश्चित अभिव्यक्ति नहीं था।",
+    "language": "en"
+  },
+  {
+    "id": "cloze005",
+    "subjectId": "english",
+    "question": "The stepwell, or baoli, of western India was never conceived as a mere reservoir; it was an underground palace of water, built to serve as a public stage for community life. In a land where rainfall was erratic and rivers (A)____ dry for months on end, these structures stored monsoon water so that whole villages could survive the harshest summers. Descending through successive flights of steps, travellers found a cool refuge that offered respite (B)____ the scorching heat above, while women gathered at the lowest landing to draw water, exchange news and offer prayers to the goddess of the well. The sculpted pillars and carved niches were not ornaments alone; each depicted a deity or a myth that reinforced the moral order of the village.\n\nHad the builders been concerned only with utility, they would never (C)____ such labour on elaborate galleries and pavilions. Yet the patrons, often queens and merchants, regarded charity of this kind as a form of devotion, and the beauty of a stepwell thus became a (D)____ expression of its founder's merit. With the arrival of piped water in the colonial era, however, these wonders fell into neglect, and many were reduced to the status of dumping grounds. It is a sobering irony that a technology which had sustained entire regions for centuries could be forgotten within a single generation. Conservationists now insist that the surviving stepwells (E)____ restored without further delay, not as museum pieces but as living systems of water harvesting.\n\nSelect the most appropriate option to fill in blank (E).",
+    "options": [
+      {
+        "id": "A",
+        "text": "be"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "were"
+      },
+      {
+        "id": "D",
+        "text": "being"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "subjunctive",
+    "difficulty": "hard",
+    "explanation": "नियम: Subjunctive Mood: insist, demand, suggest, recommend, propose, request, urge, order + that + subject + (should) + V1। इस मुक़ाम पर subject चाहे कोई भी हो, 'be' ही आता है — is / are / was नहीं। यह माँग या सुझाव का भाव देता है, किसी तथ्य का नहीं।\n\nयहाँ: Conservationists की माँग है कि stepwells का जीर्णोद्धार किया जाए — 'insist that the surviving stepwells (should) be restored'।\n\nविकल्पों के अर्थ: are = तथ्य की सूचना देता है, जबकि यहाँ माँग का भाव है (और वे अभी restored नहीं हैं); were = भूतकाल / काल्पनिक रूप, 'insist that' के बाद नहीं आता; being = V-ing (finite verb नहीं, वाक्य अधूरा रहता)।",
+    "language": "en"
+  },
+  {
+    "id": "cloze006",
+    "subjectId": "english",
+    "question": "Along the muddy margins where rivers meet the sea, mangrove forests have long been dismissed as swampy wastelands fit only for reclamation. This (A)____ view is now giving way to a better understanding of their worth. Local communities, long accustomed to cutting the trees for firewood and timber, are slowly learning that the forests are worth more standing than felled. The tangled roots of these salt-tolerant trees act as a natural barrier that dissipates the force of storm surges, and a dense belt of mangroves can substantially reduce the energy of incoming waves. When the tsunami of 2004 struck the Indian Ocean coast, several villages that lay behind thick mangrove cover suffered markedly less damage than those (B)____ such protection.\n\nBeyond their role as shields, mangroves are among the most productive ecosystems on the planet. Their submerged roots serve as nurseries for fish, crabs and prawns, thereby sustaining the livelihoods of millions of fisherfolk. Over the long run, a healthy mangrove can be worth more to a community than the same land converted into a shrimp pond that is abandoned after a few seasons. Their remarkable (C)____ to salty, oxygen-poor mud explains why they thrive where almost no other tree can. They also store far more carbon per hectare than most terrestrial forests, locking it away in waterlogged soil for centuries. Yet even today the pace of destruction (D)____ unchecked: shrimp farms, ports and tourist resorts continue to (E)____ on what remains of the coastline. Unless urgent steps are taken, we shall lose not merely a stretch of vegetation but the first line of defence against a rising sea.\n\nSelect the most appropriate option to fill in blank (A).",
+    "options": [
+      {
+        "id": "A",
+        "text": "meticulous"
+      },
+      {
+        "id": "B",
+        "text": "magnanimous"
+      },
+      {
+        "id": "C",
+        "text": "myopic"
+      },
+      {
+        "id": "D",
+        "text": "mercurial"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "vocabulary",
+    "difficulty": "hard",
+    "explanation": "नियम: Vocabulary (संदर्भ से अर्थ): मैंग्रोव को लंबे समय से 'बेकार दलदल' मानकर नज़रअंदाज़ किया गया और अब यह सोच बदल रही है — यानी पुराना नज़रिया संकीर्ण और अदूरदर्शी था।\n\nयहाँ: Myopic = अदूरदर्शी, संकुचित सोच वाला (शाब्दिक: निकट-दृष्टि दोष वाला) → 'This myopic view' (यह अदूरदर्शी नज़रिया)।\n\nविकल्पों के अर्थ: meticulous = बहुत सावधान और बारीकी से काम करने वाला (प्रशंसा का शब्द, संदर्भ के उलट); magnanimous = उदार, बड़े दिल वाला (wetlands को बेकार कहने वाली सोच उदार नहीं); mercurial = चंचल, जिसका मन पल-पल बदले (यहाँ 'लंबे समय से चली आ रही' सोच के लिए बेमेल)।",
+    "language": "en"
+  },
+  {
+    "id": "cloze007",
+    "subjectId": "english",
+    "question": "Along the muddy margins where rivers meet the sea, mangrove forests have long been dismissed as swampy wastelands fit only for reclamation. This (A)____ view is now giving way to a better understanding of their worth. Local communities, long accustomed to cutting the trees for firewood and timber, are slowly learning that the forests are worth more standing than felled. The tangled roots of these salt-tolerant trees act as a natural barrier that dissipates the force of storm surges, and a dense belt of mangroves can substantially reduce the energy of incoming waves. When the tsunami of 2004 struck the Indian Ocean coast, several villages that lay behind thick mangrove cover suffered markedly less damage than those (B)____ such protection.\n\nBeyond their role as shields, mangroves are among the most productive ecosystems on the planet. Their submerged roots serve as nurseries for fish, crabs and prawns, thereby sustaining the livelihoods of millions of fisherfolk. Over the long run, a healthy mangrove can be worth more to a community than the same land converted into a shrimp pond that is abandoned after a few seasons. Their remarkable (C)____ to salty, oxygen-poor mud explains why they thrive where almost no other tree can. They also store far more carbon per hectare than most terrestrial forests, locking it away in waterlogged soil for centuries. Yet even today the pace of destruction (D)____ unchecked: shrimp farms, ports and tourist resorts continue to (E)____ on what remains of the coastline. Unless urgent steps are taken, we shall lose not merely a stretch of vegetation but the first line of defence against a rising sea.\n\nSelect the most appropriate option to fill in blank (B).",
+    "options": [
+      {
+        "id": "A",
+        "text": "lacked"
+      },
+      {
+        "id": "B",
+        "text": "lacking"
+      },
+      {
+        "id": "C",
+        "text": "lack"
+      },
+      {
+        "id": "D",
+        "text": "lacks"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "non-finite-verbs",
+    "difficulty": "hard",
+    "explanation": "नियम: Participle: Relative clause को छोटा करके present participle (V-ing) से विशेषण की तरह प्रयोग किया जा सकता है — 'those which lacked' = 'those lacking'। 'than' के बाद 'those' के साथ अलग finite verb (lacked / lack / lacks) बिना who / that के नहीं लग सकता। Lack (v.) = की कमी होना।\n\nयहाँ: 'less damage than those lacking such protection' (उन गाँवों की तुलना में जिनके पास ऐसी सुरक्षा नहीं थी)।\n\nविकल्पों के अर्थ: lacked / lack / lacks = ये finite verbs हैं; 'those' के बाद relative pronoun (that / which) के बिना ये वाक्य-रचना तोड़ देते हैं (साथ ही lacks एकवचन है और 'those' बहुवचन)।",
+    "language": "en"
+  },
+  {
+    "id": "cloze008",
+    "subjectId": "english",
+    "question": "Along the muddy margins where rivers meet the sea, mangrove forests have long been dismissed as swampy wastelands fit only for reclamation. This (A)____ view is now giving way to a better understanding of their worth. Local communities, long accustomed to cutting the trees for firewood and timber, are slowly learning that the forests are worth more standing than felled. The tangled roots of these salt-tolerant trees act as a natural barrier that dissipates the force of storm surges, and a dense belt of mangroves can substantially reduce the energy of incoming waves. When the tsunami of 2004 struck the Indian Ocean coast, several villages that lay behind thick mangrove cover suffered markedly less damage than those (B)____ such protection.\n\nBeyond their role as shields, mangroves are among the most productive ecosystems on the planet. Their submerged roots serve as nurseries for fish, crabs and prawns, thereby sustaining the livelihoods of millions of fisherfolk. Over the long run, a healthy mangrove can be worth more to a community than the same land converted into a shrimp pond that is abandoned after a few seasons. Their remarkable (C)____ to salty, oxygen-poor mud explains why they thrive where almost no other tree can. They also store far more carbon per hectare than most terrestrial forests, locking it away in waterlogged soil for centuries. Yet even today the pace of destruction (D)____ unchecked: shrimp farms, ports and tourist resorts continue to (E)____ on what remains of the coastline. Unless urgent steps are taken, we shall lose not merely a stretch of vegetation but the first line of defence against a rising sea.\n\nSelect the most appropriate option to fill in blank (C).",
+    "options": [
+      {
+        "id": "A",
+        "text": "adaptable"
+      },
+      {
+        "id": "B",
+        "text": "adaptably"
+      },
+      {
+        "id": "C",
+        "text": "adapt"
+      },
+      {
+        "id": "D",
+        "text": "adaptability"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "word-form",
+    "difficulty": "easy",
+    "explanation": "नियम: Word Form: 'their remarkable ____' — possessive (their) और adjective (remarkable) के बाद noun आता है। Adapt (v.) → adaptable (adj.) → adaptability (n.) → adaptably (adv.)। Noun के आगे adjective, verb के आगे adverb।\n\nयहाँ: Noun चाहिए → 'adaptability to salty, oxygen-poor mud' (खारे, कम-ऑक्सीजन वाले कीचड़ में ढलने की क्षमता)।\n\nविकल्पों के अर्थ: adaptable = (adjective) आसानी से ढल जाने वाला; adaptably = (adverb) ढलने के ढंग से; adapt = (verb) ढलना / अनुकूल बनाना। इन तीनों में कोई noun नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze009",
+    "subjectId": "english",
+    "question": "Along the muddy margins where rivers meet the sea, mangrove forests have long been dismissed as swampy wastelands fit only for reclamation. This (A)____ view is now giving way to a better understanding of their worth. Local communities, long accustomed to cutting the trees for firewood and timber, are slowly learning that the forests are worth more standing than felled. The tangled roots of these salt-tolerant trees act as a natural barrier that dissipates the force of storm surges, and a dense belt of mangroves can substantially reduce the energy of incoming waves. When the tsunami of 2004 struck the Indian Ocean coast, several villages that lay behind thick mangrove cover suffered markedly less damage than those (B)____ such protection.\n\nBeyond their role as shields, mangroves are among the most productive ecosystems on the planet. Their submerged roots serve as nurseries for fish, crabs and prawns, thereby sustaining the livelihoods of millions of fisherfolk. Over the long run, a healthy mangrove can be worth more to a community than the same land converted into a shrimp pond that is abandoned after a few seasons. Their remarkable (C)____ to salty, oxygen-poor mud explains why they thrive where almost no other tree can. They also store far more carbon per hectare than most terrestrial forests, locking it away in waterlogged soil for centuries. Yet even today the pace of destruction (D)____ unchecked: shrimp farms, ports and tourist resorts continue to (E)____ on what remains of the coastline. Unless urgent steps are taken, we shall lose not merely a stretch of vegetation but the first line of defence against a rising sea.\n\nSelect the most appropriate option to fill in blank (D).",
+    "options": [
+      {
+        "id": "A",
+        "text": "remains"
+      },
+      {
+        "id": "B",
+        "text": "remain"
+      },
+      {
+        "id": "C",
+        "text": "remained"
+      },
+      {
+        "id": "D",
+        "text": "remaining"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "medium",
+    "explanation": "नियम: Subject-Verb Agreement: Verb मुख्य subject (head noun) के अनुसार लगता है, बीच के 'of' phrase के noun के अनुसार नहीं। 'Even today' (आज भी) वर्तमान काल का संकेत है।\n\nयहाँ: Subject 'pace' एकवचन है ('of destruction' केवल modifier है) और काल वर्तमान है → 'the pace of destruction remains unchecked' (विनाश की रफ़्तार आज भी बेरोक है)।\n\nविकल्पों के अर्थ: remain = बहुवचन verb ('pace' एकवचन है); remained = भूतकाल ('even today' और आगे 'continue to' वर्तमान बताते हैं); remaining = V-ing (finite verb नहीं, वाक्य अधूरा रहता)।",
+    "language": "en"
+  },
+  {
+    "id": "cloze010",
+    "subjectId": "english",
+    "question": "Along the muddy margins where rivers meet the sea, mangrove forests have long been dismissed as swampy wastelands fit only for reclamation. This (A)____ view is now giving way to a better understanding of their worth. Local communities, long accustomed to cutting the trees for firewood and timber, are slowly learning that the forests are worth more standing than felled. The tangled roots of these salt-tolerant trees act as a natural barrier that dissipates the force of storm surges, and a dense belt of mangroves can substantially reduce the energy of incoming waves. When the tsunami of 2004 struck the Indian Ocean coast, several villages that lay behind thick mangrove cover suffered markedly less damage than those (B)____ such protection.\n\nBeyond their role as shields, mangroves are among the most productive ecosystems on the planet. Their submerged roots serve as nurseries for fish, crabs and prawns, thereby sustaining the livelihoods of millions of fisherfolk. Over the long run, a healthy mangrove can be worth more to a community than the same land converted into a shrimp pond that is abandoned after a few seasons. Their remarkable (C)____ to salty, oxygen-poor mud explains why they thrive where almost no other tree can. They also store far more carbon per hectare than most terrestrial forests, locking it away in waterlogged soil for centuries. Yet even today the pace of destruction (D)____ unchecked: shrimp farms, ports and tourist resorts continue to (E)____ on what remains of the coastline. Unless urgent steps are taken, we shall lose not merely a stretch of vegetation but the first line of defence against a rising sea.\n\nSelect the most appropriate option to fill in blank (E).",
+    "options": [
+      {
+        "id": "A",
+        "text": "embark"
+      },
+      {
+        "id": "B",
+        "text": "encroach"
+      },
+      {
+        "id": "C",
+        "text": "dwell"
+      },
+      {
+        "id": "D",
+        "text": "insist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "नियम: Encroach on / upon = किसी की ज़मीन, अधिकार या सीमा में धीरे-धीरे अतिक्रमण करना। 'On' के साथ आने वाले अन्य verbs के अर्थ अलग हैं: embark on (कोई काम / यात्रा शुरू करना), dwell on (किसी बात पर देर तक सोचना या बोलना), insist on (ज़िद / ज़ोर देना)।\n\nयहाँ: Shrimp farms, ports और resorts तटरेखा के बचे हिस्से में अतिक्रमण कर रहे हैं → 'continue to encroach on what remains of the coastline'।\n\nविकल्पों के अर्थ: embark = शुरू करना (embark on a journey), तट के विनाश का अर्थ नहीं बनता; dwell = ठहरना / बार-बार सोचना (dwell on the past), अर्थ बेमेल; insist = ज़ोर देना (insist on a demand), अर्थ बेमेल।",
+    "language": "en"
+  },
+  {
+    "id": "cloze011",
+    "subjectId": "english",
+    "question": "We are often told that we live in an age of information, but it is perhaps more accurate to say that we live in an age of interruption. The average smartphone user (A)____ their device dozens of times a day, and each glance, however brief, exacts a small but cumulative toll on concentration. Psychologists warn that the mind, once pulled away from a task, takes several minutes to return to its earlier depth of focus, if it returns at all. The result is a generation that is perpetually busy yet rarely absorbed.\n\nThe architects of these platforms are hardly (B)____ of this effect; on the contrary, their business model depends on it. Every notification, every endless scroll and every autoplay video is engineered to (C)____ on the mind's craving for novelty, since human attention, not information, is the scarce commodity that advertisers are willing to buy. (D)____ the convenience such technology offers is undeniable, its design exploits the very weakness of the mind that it claims to serve.\n\nSome educators have therefore begun to treat sustained attention as a skill that must be deliberately cultivated, much like physical fitness. Students are encouraged to put away their devices for short periods and to read at length, (E)____ pausing to check a screen. Initially, many find the exercise uncomfortable, even distressing, but with practice the restlessness subsides and a deeper, calmer mode of thinking returns. The aim is not to reject technology altogether but to regain the ability to choose when to be connected.\n\nSelect the most appropriate option to fill in blank (A).",
+    "options": [
+      {
+        "id": "A",
+        "text": "check"
+      },
+      {
+        "id": "B",
+        "text": "have checked"
+      },
+      {
+        "id": "C",
+        "text": "is checking"
+      },
+      {
+        "id": "D",
+        "text": "checks"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "subject-verb-agreement",
+    "difficulty": "medium",
+    "explanation": "नियम: आदत / नियमित क्रिया के लिए Simple Present आता है, और एकवचन subject (the average user) के साथ verb में -s / -es लगता है। 'dozens of times a day' बार-बार होने वाली आदत बताता है।\n\nयहाँ: 'The average smartphone user checks their device dozens of times a day' (औसत user दिन में दर्जनों बार अपना फ़ोन देखता है)।\n\nविकल्पों के अर्थ: check = बहुवचन verb (subject एकवचन है); have checked = Present Perfect (पूरी हो चुकी क्रिया का परिणाम, आदत नहीं); is checking = अभी चल रही क्रिया (Present Continuous), रोज़ की आदत के लिए उपयुक्त नहीं।",
+    "language": "en"
+  },
+  {
+    "id": "cloze012",
+    "subjectId": "english",
+    "question": "We are often told that we live in an age of information, but it is perhaps more accurate to say that we live in an age of interruption. The average smartphone user (A)____ their device dozens of times a day, and each glance, however brief, exacts a small but cumulative toll on concentration. Psychologists warn that the mind, once pulled away from a task, takes several minutes to return to its earlier depth of focus, if it returns at all. The result is a generation that is perpetually busy yet rarely absorbed.\n\nThe architects of these platforms are hardly (B)____ of this effect; on the contrary, their business model depends on it. Every notification, every endless scroll and every autoplay video is engineered to (C)____ on the mind's craving for novelty, since human attention, not information, is the scarce commodity that advertisers are willing to buy. (D)____ the convenience such technology offers is undeniable, its design exploits the very weakness of the mind that it claims to serve.\n\nSome educators have therefore begun to treat sustained attention as a skill that must be deliberately cultivated, much like physical fitness. Students are encouraged to put away their devices for short periods and to read at length, (E)____ pausing to check a screen. Initially, many find the exercise uncomfortable, even distressing, but with practice the restlessness subsides and a deeper, calmer mode of thinking returns. The aim is not to reject technology altogether but to regain the ability to choose when to be connected.\n\nSelect the most appropriate option to fill in blank (B).",
+    "options": [
+      {
+        "id": "A",
+        "text": "oblivious"
+      },
+      {
+        "id": "B",
+        "text": "obsessive"
+      },
+      {
+        "id": "C",
+        "text": "obstinate"
+      },
+      {
+        "id": "D",
+        "text": "oblique"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "vocabulary",
+    "difficulty": "hard",
+    "explanation": "नियम: Vocabulary + preposition: Oblivious of / to = अनजान, बेख़बर (जिसे किसी बात का ध्यान ही न हो)। 'Hardly oblivious' का अर्थ है 'बिल्कुल अनजान नहीं' यानी पूरी तरह जानते हैं; आगे 'on the contrary, their business model depends on it' से यही भाव पक्का होता है।\n\nयहाँ: 'hardly oblivious of this effect' (वे इस असर से अनजान बिल्कुल नहीं हैं)।\n\nविकल्पों के अर्थ: obsessive = जुनूनी / सनकी (obsessive about); obstinate = ज़िद्दी, अड़ियल (obstinate about / in); oblique = तिरछा या घुमा-फिराकर कहा गया (an oblique reference)। इनमें से किसी के साथ 'of this effect' का अर्थ नहीं बनता।",
+    "language": "en"
+  },
+  {
+    "id": "cloze013",
+    "subjectId": "english",
+    "question": "We are often told that we live in an age of information, but it is perhaps more accurate to say that we live in an age of interruption. The average smartphone user (A)____ their device dozens of times a day, and each glance, however brief, exacts a small but cumulative toll on concentration. Psychologists warn that the mind, once pulled away from a task, takes several minutes to return to its earlier depth of focus, if it returns at all. The result is a generation that is perpetually busy yet rarely absorbed.\n\nThe architects of these platforms are hardly (B)____ of this effect; on the contrary, their business model depends on it. Every notification, every endless scroll and every autoplay video is engineered to (C)____ on the mind's craving for novelty, since human attention, not information, is the scarce commodity that advertisers are willing to buy. (D)____ the convenience such technology offers is undeniable, its design exploits the very weakness of the mind that it claims to serve.\n\nSome educators have therefore begun to treat sustained attention as a skill that must be deliberately cultivated, much like physical fitness. Students are encouraged to put away their devices for short periods and to read at length, (E)____ pausing to check a screen. Initially, many find the exercise uncomfortable, even distressing, but with practice the restlessness subsides and a deeper, calmer mode of thinking returns. The aim is not to reject technology altogether but to regain the ability to choose when to be connected.\n\nSelect the most appropriate option to fill in blank (C).",
+    "options": [
+      {
+        "id": "A",
+        "text": "comment"
+      },
+      {
+        "id": "B",
+        "text": "elaborate"
+      },
+      {
+        "id": "C",
+        "text": "capitalise"
+      },
+      {
+        "id": "D",
+        "text": "reflect"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "phrasal-verbs",
+    "difficulty": "hard",
+    "explanation": "नियम: Capitalise on = किसी चीज़ या अवसर का फ़ायदा उठाना (take advantage of)। 'On' के साथ आने वाले अन्य verbs: comment on (टिप्पणी करना), elaborate on (विस्तार से समझाना), reflect on (सोच-विचार करना)।\n\nयहाँ: Notifications, endless scroll और autoplay का मक़सद मन की नएपन की चाह का फ़ायदा उठाना है → 'engineered to capitalise on the mind's craving for novelty'।\n\nविकल्पों के अर्थ: comment = टिप्पणी करना (comment on a matter); elaborate = विस्तार से बताना; reflect = गहराई से सोचना या प्रतिबिंबित करना। तीनों में 'फ़ायदा उठाने / शोषण करने' का भाव नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "cloze014",
+    "subjectId": "english",
+    "question": "We are often told that we live in an age of information, but it is perhaps more accurate to say that we live in an age of interruption. The average smartphone user (A)____ their device dozens of times a day, and each glance, however brief, exacts a small but cumulative toll on concentration. Psychologists warn that the mind, once pulled away from a task, takes several minutes to return to its earlier depth of focus, if it returns at all. The result is a generation that is perpetually busy yet rarely absorbed.\n\nThe architects of these platforms are hardly (B)____ of this effect; on the contrary, their business model depends on it. Every notification, every endless scroll and every autoplay video is engineered to (C)____ on the mind's craving for novelty, since human attention, not information, is the scarce commodity that advertisers are willing to buy. (D)____ the convenience such technology offers is undeniable, its design exploits the very weakness of the mind that it claims to serve.\n\nSome educators have therefore begun to treat sustained attention as a skill that must be deliberately cultivated, much like physical fitness. Students are encouraged to put away their devices for short periods and to read at length, (E)____ pausing to check a screen. Initially, many find the exercise uncomfortable, even distressing, but with practice the restlessness subsides and a deeper, calmer mode of thinking returns. The aim is not to reject technology altogether but to regain the ability to choose when to be connected.\n\nSelect the most appropriate option to fill in blank (D).",
+    "options": [
+      {
+        "id": "A",
+        "text": "Despite"
+      },
+      {
+        "id": "B",
+        "text": "Although"
+      },
+      {
+        "id": "C",
+        "text": "However"
+      },
+      {
+        "id": "D",
+        "text": "Unless"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "conjunctions",
+    "difficulty": "easy",
+    "explanation": "नियम: Although / Though / Even though + पूरा clause (subject + verb) = यद्यपि, हालाँकि। Despite / In spite of + noun या gerund (clause नहीं)। However = तथापि (अलग वाक्य, आगे comma)। Unless = जब तक ... न (if not)।\n\nयहाँ: आगे पूरा clause है — 'the convenience such technology offers is undeniable' — और दोनों हिस्सों में विरोध है → 'Although the convenience ... is undeniable, its design exploits ...'।\n\nविकल्पों के अर्थ: Despite = के बावजूद (preposition, इसके बाद clause नहीं आ सकता); However = फिर भी (connector, comma और नया वाक्य चाहिए); Unless = जब तक न (शर्त का भाव, विरोध का नहीं)।",
+    "language": "en"
+  },
+  {
+    "id": "cloze015",
+    "subjectId": "english",
+    "question": "We are often told that we live in an age of information, but it is perhaps more accurate to say that we live in an age of interruption. The average smartphone user (A)____ their device dozens of times a day, and each glance, however brief, exacts a small but cumulative toll on concentration. Psychologists warn that the mind, once pulled away from a task, takes several minutes to return to its earlier depth of focus, if it returns at all. The result is a generation that is perpetually busy yet rarely absorbed.\n\nThe architects of these platforms are hardly (B)____ of this effect; on the contrary, their business model depends on it. Every notification, every endless scroll and every autoplay video is engineered to (C)____ on the mind's craving for novelty, since human attention, not information, is the scarce commodity that advertisers are willing to buy. (D)____ the convenience such technology offers is undeniable, its design exploits the very weakness of the mind that it claims to serve.\n\nSome educators have therefore begun to treat sustained attention as a skill that must be deliberately cultivated, much like physical fitness. Students are encouraged to put away their devices for short periods and to read at length, (E)____ pausing to check a screen. Initially, many find the exercise uncomfortable, even distressing, but with practice the restlessness subsides and a deeper, calmer mode of thinking returns. The aim is not to reject technology altogether but to regain the ability to choose when to be connected.\n\nSelect the most appropriate option to fill in blank (E).",
+    "options": [
+      {
+        "id": "A",
+        "text": "instead"
+      },
+      {
+        "id": "B",
+        "text": "rather"
+      },
+      {
+        "id": "C",
+        "text": "besides"
+      },
+      {
+        "id": "D",
+        "text": "without"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "non-finite-verbs",
+    "difficulty": "medium",
+    "explanation": "नियम: Preposition के बाद gerund (V-ing) आता है। 'Without + V-ing' = बिना ... किए। 'Instead' के बाद 'of' (instead of pausing) और 'rather' के बाद 'than' (rather than pausing) ज़रूरी है।\n\nयहाँ: 'read at length, without pausing to check a screen' (स्क्रीन देखने को रुके बिना लंबे समय तक पढ़ना)।\n\nविकल्पों के अर्थ: instead = बजाय / इसकी जगह (अकेले gerund नहीं लेता, 'instead of' चाहिए); rather = बल्कि (rather than चाहिए); besides = के अलावा (अर्थ बेमेल: 'रुकने के अलावा पढ़ना' नहीं बनता)।",
+    "language": "en"
+  },
+  {
+    "id": "cloze016",
+    "subjectId": "english",
+    "question": "For centuries, the poor in rural economies have been caught in a vicious circle: they are poor because they cannot invest, and they cannot invest because they are poor. Without access to affordable credit, a farmer cannot buy seeds in time, and a weaver cannot stock yarn for the festival season. Traditional banks, deterred by collateral requirements and the high cost of serving small borrowers, have (A)____ a blind eye to the very people who need credit the most. Moneylenders filled the vacuum, but at interest rates so exorbitant (B)____ borrowers remained entangled in debt for generations. The result was a cruel paradox: those with the least capacity to pay were charged the highest price for money.\n\nThe self-help group model, which took root in India in the early 1990s, offered a radical alternative. A group of ten to twenty women, each of (C)____ contributed a modest sum every month, pooled its savings and lent the money to members on terms decided by the group itself. Because members knew one another, social pressure, rather than collateral, ensured repayment. Studies show that repayment rates in such groups have been remarkably high, (D)____ the scepticism of formal lenders who once considered the poor to be uncreditworthy.\n\nThe benefits, however, extend (E)____ the economic sphere. Women who earn and save acquire a voice in household decisions, and many go on to contest local elections. Several groups now also run small enterprises such as dairies, tailoring units and food stalls. Credit, in this sense, has proved to be not merely a financial instrument but a tool of social emancipation.\n\nSelect the most appropriate option to fill in blank (A).",
+    "options": [
+      {
+        "id": "A",
+        "text": "closed"
+      },
+      {
+        "id": "B",
+        "text": "looked"
+      },
+      {
+        "id": "C",
+        "text": "turned"
+      },
+      {
+        "id": "D",
+        "text": "shut"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "नियम: Idiom: Turn a blind eye (to) = जानबूझकर अनदेखी करना, देखकर भी न देखने का नाटक करना। इस idiom में verb 'turn' ही आता है; 'close / shut / look a blind eye' ग़लत प्रयोग हैं ('close / shut one's eyes to' अलग idiom है)।\n\nयहाँ: Banks ज़रूरतमंदों की अनदेखी करते रहे → 'have turned a blind eye to the very people who need credit' ('have' के बाद V3 = turned)।\n\nविकल्पों के अर्थ: closed / shut = बंद किया (closed / shut one's eyes to — आँखें मूँद लेना; 'a blind eye' के साथ नहीं); looked = देखा ('looked a blind eye' अर्थहीन)।",
+    "language": "en"
+  },
+  {
+    "id": "cloze017",
+    "subjectId": "english",
+    "question": "For centuries, the poor in rural economies have been caught in a vicious circle: they are poor because they cannot invest, and they cannot invest because they are poor. Without access to affordable credit, a farmer cannot buy seeds in time, and a weaver cannot stock yarn for the festival season. Traditional banks, deterred by collateral requirements and the high cost of serving small borrowers, have (A)____ a blind eye to the very people who need credit the most. Moneylenders filled the vacuum, but at interest rates so exorbitant (B)____ borrowers remained entangled in debt for generations. The result was a cruel paradox: those with the least capacity to pay were charged the highest price for money.\n\nThe self-help group model, which took root in India in the early 1990s, offered a radical alternative. A group of ten to twenty women, each of (C)____ contributed a modest sum every month, pooled its savings and lent the money to members on terms decided by the group itself. Because members knew one another, social pressure, rather than collateral, ensured repayment. Studies show that repayment rates in such groups have been remarkably high, (D)____ the scepticism of formal lenders who once considered the poor to be uncreditworthy.\n\nThe benefits, however, extend (E)____ the economic sphere. Women who earn and save acquire a voice in household decisions, and many go on to contest local elections. Several groups now also run small enterprises such as dairies, tailoring units and food stalls. Credit, in this sense, has proved to be not merely a financial instrument but a tool of social emancipation.\n\nSelect the most appropriate option to fill in blank (B).",
+    "options": [
+      {
+        "id": "A",
+        "text": "that"
+      },
+      {
+        "id": "B",
+        "text": "which"
+      },
+      {
+        "id": "C",
+        "text": "than"
+      },
+      {
+        "id": "D",
+        "text": "as"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "conjunctions",
+    "difficulty": "easy",
+    "explanation": "नियम: So + adjective / adverb + that + clause = इतना ... कि (परिणाम); Such + (a / an) + adjective + noun + that। 'So ... as' के बाद to-infinitive आता है (so exorbitant as to leave), clause नहीं।\n\nयहाँ: 'interest rates so exorbitant that borrowers remained entangled in debt' (इतनी ऊँची दरें कि कर्ज़दार पीढ़ियों तक कर्ज़ में उलझे रहे)।\n\nविकल्पों के अर्थ: which = relative pronoun (परिणाम-सूचक नहीं है); than = से (तुलना के लिए, 'so' के साथ नहीं); as = जैसा / के रूप में ('so ... as to + V1' में आता है, आगे सीधा clause नहीं)।",
+    "language": "en"
+  },
+  {
+    "id": "cloze018",
+    "subjectId": "english",
+    "question": "For centuries, the poor in rural economies have been caught in a vicious circle: they are poor because they cannot invest, and they cannot invest because they are poor. Without access to affordable credit, a farmer cannot buy seeds in time, and a weaver cannot stock yarn for the festival season. Traditional banks, deterred by collateral requirements and the high cost of serving small borrowers, have (A)____ a blind eye to the very people who need credit the most. Moneylenders filled the vacuum, but at interest rates so exorbitant (B)____ borrowers remained entangled in debt for generations. The result was a cruel paradox: those with the least capacity to pay were charged the highest price for money.\n\nThe self-help group model, which took root in India in the early 1990s, offered a radical alternative. A group of ten to twenty women, each of (C)____ contributed a modest sum every month, pooled its savings and lent the money to members on terms decided by the group itself. Because members knew one another, social pressure, rather than collateral, ensured repayment. Studies show that repayment rates in such groups have been remarkably high, (D)____ the scepticism of formal lenders who once considered the poor to be uncreditworthy.\n\nThe benefits, however, extend (E)____ the economic sphere. Women who earn and save acquire a voice in household decisions, and many go on to contest local elections. Several groups now also run small enterprises such as dairies, tailoring units and food stalls. Credit, in this sense, has proved to be not merely a financial instrument but a tool of social emancipation.\n\nSelect the most appropriate option to fill in blank (C).",
+    "options": [
+      {
+        "id": "A",
+        "text": "who"
+      },
+      {
+        "id": "B",
+        "text": "whom"
+      },
+      {
+        "id": "C",
+        "text": "which"
+      },
+      {
+        "id": "D",
+        "text": "whose"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "pronouns",
+    "difficulty": "medium",
+    "explanation": "नियम: Preposition + relative pronoun: Preposition के तुरंत बाद objective case 'whom' आता है, 'who' नहीं — each of whom, some of whom, many of whom, all of whom, in whom। निर्जीव के लिए 'which' और अधिकार के लिए 'whose' आता है।\n\nयहाँ: 'each of whom contributed a modest sum every month' (जिनमें से प्रत्येक ने हर महीने थोड़ी राशि दी) — 'of' के बाद 'whom'।\n\nविकल्पों के अर्थ: who = subject case (preposition के बाद नहीं लगता); which = निर्जीव वस्तुओं / जानवरों के लिए (यहाँ women हैं); whose = जिसका / जिसकी (इसके बाद noun चाहिए, जैसे 'each of whose members')।",
+    "language": "en"
+  },
+  {
+    "id": "cloze019",
+    "subjectId": "english",
+    "question": "For centuries, the poor in rural economies have been caught in a vicious circle: they are poor because they cannot invest, and they cannot invest because they are poor. Without access to affordable credit, a farmer cannot buy seeds in time, and a weaver cannot stock yarn for the festival season. Traditional banks, deterred by collateral requirements and the high cost of serving small borrowers, have (A)____ a blind eye to the very people who need credit the most. Moneylenders filled the vacuum, but at interest rates so exorbitant (B)____ borrowers remained entangled in debt for generations. The result was a cruel paradox: those with the least capacity to pay were charged the highest price for money.\n\nThe self-help group model, which took root in India in the early 1990s, offered a radical alternative. A group of ten to twenty women, each of (C)____ contributed a modest sum every month, pooled its savings and lent the money to members on terms decided by the group itself. Because members knew one another, social pressure, rather than collateral, ensured repayment. Studies show that repayment rates in such groups have been remarkably high, (D)____ the scepticism of formal lenders who once considered the poor to be uncreditworthy.\n\nThe benefits, however, extend (E)____ the economic sphere. Women who earn and save acquire a voice in household decisions, and many go on to contest local elections. Several groups now also run small enterprises such as dairies, tailoring units and food stalls. Credit, in this sense, has proved to be not merely a financial instrument but a tool of social emancipation.\n\nSelect the most appropriate option to fill in blank (D).",
+    "options": [
+      {
+        "id": "A",
+        "text": "relying"
+      },
+      {
+        "id": "B",
+        "text": "complying"
+      },
+      {
+        "id": "C",
+        "text": "allying"
+      },
+      {
+        "id": "D",
+        "text": "belying"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "vocabulary",
+    "difficulty": "hard",
+    "explanation": "नियम: Belie = किसी धारणा / दावे को झूठा साबित करना, उसके विपरीत प्रमाण देना (belie the claim / fear / expectation)। समान दिखने वाले शब्दों में भ्रम न करें: rely on (भरोसा करना), comply with (पालन करना), ally with (गठबंधन करना)।\n\nयहाँ: औपचारिक कर्ज़दाता मानते थे कि गरीब पैसे नहीं लौटाएँगे, पर ऊँची repayment दर ने इस संदेह को झुठला दिया → 'belying the scepticism of formal lenders'।\n\nविकल्पों के अर्थ: relying = भरोसा करते हुए (rely on / upon); complying = पालन करते हुए (comply with); allying = गठजोड़ करते हुए (ally with)। इन तीनों के बाद सीधे 'the scepticism' का अर्थ नहीं बनता।",
+    "language": "en"
+  },
+  {
+    "id": "cloze020",
+    "subjectId": "english",
+    "question": "For centuries, the poor in rural economies have been caught in a vicious circle: they are poor because they cannot invest, and they cannot invest because they are poor. Without access to affordable credit, a farmer cannot buy seeds in time, and a weaver cannot stock yarn for the festival season. Traditional banks, deterred by collateral requirements and the high cost of serving small borrowers, have (A)____ a blind eye to the very people who need credit the most. Moneylenders filled the vacuum, but at interest rates so exorbitant (B)____ borrowers remained entangled in debt for generations. The result was a cruel paradox: those with the least capacity to pay were charged the highest price for money.\n\nThe self-help group model, which took root in India in the early 1990s, offered a radical alternative. A group of ten to twenty women, each of (C)____ contributed a modest sum every month, pooled its savings and lent the money to members on terms decided by the group itself. Because members knew one another, social pressure, rather than collateral, ensured repayment. Studies show that repayment rates in such groups have been remarkably high, (D)____ the scepticism of formal lenders who once considered the poor to be uncreditworthy.\n\nThe benefits, however, extend (E)____ the economic sphere. Women who earn and save acquire a voice in household decisions, and many go on to contest local elections. Several groups now also run small enterprises such as dairies, tailoring units and food stalls. Credit, in this sense, has proved to be not merely a financial instrument but a tool of social emancipation.\n\nSelect the most appropriate option to fill in blank (E).",
+    "options": [
+      {
+        "id": "A",
+        "text": "behind"
+      },
+      {
+        "id": "B",
+        "text": "besides"
+      },
+      {
+        "id": "C",
+        "text": "beyond"
+      },
+      {
+        "id": "D",
+        "text": "beneath"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prepositions",
+    "difficulty": "easy",
+    "explanation": "नियम: Beyond = की सीमा से आगे / परे। 'Extend beyond' = सीमा के पार तक फैलना। Besides = के अलावा; behind = के पीछे; beneath = के नीचे।\n\nयहाँ: लाभ आर्थिक क्षेत्र से आगे तक जाते हैं — आगे दिए उदाहरण (घर के फ़ैसलों में आवाज़, स्थानीय चुनाव) सामाजिक-राजनीतिक हैं → 'extend beyond the economic sphere'।\n\nविकल्पों के अर्थ: behind = पीछे (extend behind का भाव नहीं); besides = के अलावा ('extend besides' प्रयोग नहीं होता); beneath = के नीचे / से निचले स्तर पर (अर्थ बेमेल)।",
+    "language": "en"
+  },
+  {
+    "id": "cloze021",
+    "subjectId": "english",
+    "question": "The popular image of the scientist as a lone genius who arrives at a discovery through pure logic is, (A)____ closer inspection, largely a myth. Many of the most consequential breakthroughs have owed as much to chance as to design. X-rays, vulcanised rubber and the microwave oven all began as unexpected by-products of work aimed at something else. Röntgen, for instance, noticed a faint glow on a distant screen while working with a shielded tube, and his curiosity about that glow led him to the discovery of X-rays. When Alexander Fleming returned from a holiday in 1928, he noticed that a mould had contaminated one of his bacterial cultures and had (B)____ out the surrounding bacteria. (C)____ less attentive researcher might have discarded the dish without a second thought. Fleming, however, recognised the oddity for what it was, and his observation eventually gave rise to penicillin.\n\nChance, though, rewards only those who are prepared for it. Only after years of patient work had trained him (D)____ Fleming able to see significance where others saw only spoilage. It would therefore be a mistake to conclude that discovery is mere luck. The history of science suggests that fortunate accidents are (E)____ into breakthroughs by those who are alert enough to recognise them and persistent enough to pursue them. Laboratories that tolerate untidy experiments and unexpected results are, in fact, likelier to produce discoveries than those that demand only neat outcomes. Serendipity, in short, is an accident that meets a ready mind.\n\nSelect the most appropriate option to fill in blank (A).",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "by"
+      },
+      {
+        "id": "D",
+        "text": "with"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "prepositions",
+    "difficulty": "easy",
+    "explanation": "नियम: Fixed expression: On closer inspection / examination / reflection / analysis = और ध्यान से जाँचने-सोचने पर। इस idiom में 'on' (या 'upon') लगता है; at / by / with नहीं।\n\nयहाँ: 'is, on closer inspection, largely a myth' (नज़दीक से देखने पर यह काफ़ी हद तक मिथक है)।\n\nविकल्पों के अर्थ: at = पर / में (स्थान या समय, 'at closer inspection' ग़लत है); by = द्वारा / के पास (साधन या कर्ता); with = के साथ (साथ-संग का भाव)। तीनों इस idiom में नहीं आते।",
+    "language": "en"
+  },
+  {
+    "id": "cloze022",
+    "subjectId": "english",
+    "question": "The popular image of the scientist as a lone genius who arrives at a discovery through pure logic is, (A)____ closer inspection, largely a myth. Many of the most consequential breakthroughs have owed as much to chance as to design. X-rays, vulcanised rubber and the microwave oven all began as unexpected by-products of work aimed at something else. Röntgen, for instance, noticed a faint glow on a distant screen while working with a shielded tube, and his curiosity about that glow led him to the discovery of X-rays. When Alexander Fleming returned from a holiday in 1928, he noticed that a mould had contaminated one of his bacterial cultures and had (B)____ out the surrounding bacteria. (C)____ less attentive researcher might have discarded the dish without a second thought. Fleming, however, recognised the oddity for what it was, and his observation eventually gave rise to penicillin.\n\nChance, though, rewards only those who are prepared for it. Only after years of patient work had trained him (D)____ Fleming able to see significance where others saw only spoilage. It would therefore be a mistake to conclude that discovery is mere luck. The history of science suggests that fortunate accidents are (E)____ into breakthroughs by those who are alert enough to recognise them and persistent enough to pursue them. Laboratories that tolerate untidy experiments and unexpected results are, in fact, likelier to produce discoveries than those that demand only neat outcomes. Serendipity, in short, is an accident that meets a ready mind.\n\nSelect the most appropriate option to fill in blank (B).",
+    "options": [
+      {
+        "id": "A",
+        "text": "held"
+      },
+      {
+        "id": "B",
+        "text": "brought"
+      },
+      {
+        "id": "C",
+        "text": "put"
+      },
+      {
+        "id": "D",
+        "text": "wiped"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "phrasal-verbs",
+    "difficulty": "medium",
+    "explanation": "नियम: Phrasal verb: Wipe out = पूरी तरह नष्ट कर देना, सफ़ाया कर देना। अन्य: hold out (डटे रहना / हाथ बढ़ाना), bring out (प्रकाशित करना / उभारना), put out (आग बुझाना / प्रकाशित करना)।\n\nयहाँ: Fleming ने देखा कि mould ने आसपास के bacteria का सफ़ाया कर दिया था → 'had wiped out the surrounding bacteria' ('had' के बाद V3 = wiped)।\n\nविकल्पों के अर्थ: held out = टिके रहना / प्रस्ताव देना; brought out = बाहर लाना, छापना; put out = बुझाना। इनमें से कोई 'bacteria को नष्ट करना' नहीं दर्शाता।",
+    "language": "en"
+  },
+  {
+    "id": "cloze023",
+    "subjectId": "english",
+    "question": "The popular image of the scientist as a lone genius who arrives at a discovery through pure logic is, (A)____ closer inspection, largely a myth. Many of the most consequential breakthroughs have owed as much to chance as to design. X-rays, vulcanised rubber and the microwave oven all began as unexpected by-products of work aimed at something else. Röntgen, for instance, noticed a faint glow on a distant screen while working with a shielded tube, and his curiosity about that glow led him to the discovery of X-rays. When Alexander Fleming returned from a holiday in 1928, he noticed that a mould had contaminated one of his bacterial cultures and had (B)____ out the surrounding bacteria. (C)____ less attentive researcher might have discarded the dish without a second thought. Fleming, however, recognised the oddity for what it was, and his observation eventually gave rise to penicillin.\n\nChance, though, rewards only those who are prepared for it. Only after years of patient work had trained him (D)____ Fleming able to see significance where others saw only spoilage. It would therefore be a mistake to conclude that discovery is mere luck. The history of science suggests that fortunate accidents are (E)____ into breakthroughs by those who are alert enough to recognise them and persistent enough to pursue them. Laboratories that tolerate untidy experiments and unexpected results are, in fact, likelier to produce discoveries than those that demand only neat outcomes. Serendipity, in short, is an accident that meets a ready mind.\n\nSelect the most appropriate option to fill in blank (C).",
+    "options": [
+      {
+        "id": "A",
+        "text": "An"
+      },
+      {
+        "id": "B",
+        "text": "A"
+      },
+      {
+        "id": "C",
+        "text": "The"
+      },
+      {
+        "id": "D",
+        "text": "That"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "articles",
+    "difficulty": "easy",
+    "explanation": "नियम: Article का चुनाव अगले शब्द की ध्वनि से होता है: व्यंजन-ध्वनि से पहले 'a', स्वर-ध्वनि से पहले 'an'। 'The' किसी विशिष्ट / पहले उल्लेखित व्यक्ति या वस्तु के लिए आता है।\n\nयहाँ: 'less' की शुरुआत व्यंजन-ध्वनि से होती है और कोई भी (अनिश्चित) कम सतर्क शोधकर्ता बताया गया है → 'A less attentive researcher'। वाक्य के आरंभ में होने से capital 'A'।\n\nविकल्पों के अर्थ: An = स्वर-ध्वनि से पहले (an umbrella); The = विशिष्ट (यहाँ कोई ख़ास शोधकर्ता नहीं); That = वह (पहले से बताए गए व्यक्ति के लिए, यहाँ संदर्भ नहीं है)।",
+    "language": "en"
+  },
+  {
+    "id": "cloze024",
+    "subjectId": "english",
+    "question": "The popular image of the scientist as a lone genius who arrives at a discovery through pure logic is, (A)____ closer inspection, largely a myth. Many of the most consequential breakthroughs have owed as much to chance as to design. X-rays, vulcanised rubber and the microwave oven all began as unexpected by-products of work aimed at something else. Röntgen, for instance, noticed a faint glow on a distant screen while working with a shielded tube, and his curiosity about that glow led him to the discovery of X-rays. When Alexander Fleming returned from a holiday in 1928, he noticed that a mould had contaminated one of his bacterial cultures and had (B)____ out the surrounding bacteria. (C)____ less attentive researcher might have discarded the dish without a second thought. Fleming, however, recognised the oddity for what it was, and his observation eventually gave rise to penicillin.\n\nChance, though, rewards only those who are prepared for it. Only after years of patient work had trained him (D)____ Fleming able to see significance where others saw only spoilage. It would therefore be a mistake to conclude that discovery is mere luck. The history of science suggests that fortunate accidents are (E)____ into breakthroughs by those who are alert enough to recognise them and persistent enough to pursue them. Laboratories that tolerate untidy experiments and unexpected results are, in fact, likelier to produce discoveries than those that demand only neat outcomes. Serendipity, in short, is an accident that meets a ready mind.\n\nSelect the most appropriate option to fill in blank (D).",
+    "options": [
+      {
+        "id": "A",
+        "text": "were"
+      },
+      {
+        "id": "B",
+        "text": "did"
+      },
+      {
+        "id": "C",
+        "text": "was"
+      },
+      {
+        "id": "D",
+        "text": "has"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "inversion",
+    "difficulty": "hard",
+    "explanation": "नियम: Inversion: Only after / Only when / Only if / Only then / Not until / Hardly / No sooner / Never से वाक्य शुरू हो तो main clause में auxiliary या be-verb subject से पहले आता है। Be-verb का रूप subject के अनुसार: was / were।\n\nयहाँ: 'Only after years of patient work had trained him' के बाद main clause = 'was Fleming able to see significance ...' (केवल वर्षों के धैर्यपूर्ण काम के बाद ही Fleming महत्त्व देखने में सक्षम हुए)।\n\nविकल्पों के अर्थ: were = बहुवचन be-verb (Fleming एकवचन है); did = 'did Fleming able' नहीं बनता (did के बाद V1 चाहिए); has = 'has Fleming able' नहीं बनता (has के बाद V3 चाहिए)।",
+    "language": "en"
+  },
+  {
+    "id": "cloze025",
+    "subjectId": "english",
+    "question": "The popular image of the scientist as a lone genius who arrives at a discovery through pure logic is, (A)____ closer inspection, largely a myth. Many of the most consequential breakthroughs have owed as much to chance as to design. X-rays, vulcanised rubber and the microwave oven all began as unexpected by-products of work aimed at something else. Röntgen, for instance, noticed a faint glow on a distant screen while working with a shielded tube, and his curiosity about that glow led him to the discovery of X-rays. When Alexander Fleming returned from a holiday in 1928, he noticed that a mould had contaminated one of his bacterial cultures and had (B)____ out the surrounding bacteria. (C)____ less attentive researcher might have discarded the dish without a second thought. Fleming, however, recognised the oddity for what it was, and his observation eventually gave rise to penicillin.\n\nChance, though, rewards only those who are prepared for it. Only after years of patient work had trained him (D)____ Fleming able to see significance where others saw only spoilage. It would therefore be a mistake to conclude that discovery is mere luck. The history of science suggests that fortunate accidents are (E)____ into breakthroughs by those who are alert enough to recognise them and persistent enough to pursue them. Laboratories that tolerate untidy experiments and unexpected results are, in fact, likelier to produce discoveries than those that demand only neat outcomes. Serendipity, in short, is an accident that meets a ready mind.\n\nSelect the most appropriate option to fill in blank (E).",
+    "options": [
+      {
+        "id": "A",
+        "text": "transformed"
+      },
+      {
+        "id": "B",
+        "text": "transacted"
+      },
+      {
+        "id": "C",
+        "text": "transmitted"
+      },
+      {
+        "id": "D",
+        "text": "transcribed"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "vocabulary",
+    "difficulty": "hard",
+    "explanation": "नियम: Transform (...) into = रूप बदलकर कुछ और बना देना, परिवर्तित कर देना। समान दिखने वाले शब्दों के अर्थ अलग हैं: transact (लेन-देन करना), transmit (प्रसारित करना / भेजना), transcribe (लिखित प्रतिलिपि बनाना)।\n\nयहाँ: सजग और लगनशील लोग संयोग से हुई घटनाओं को खोजों में बदल देते हैं → 'accidents are transformed into breakthroughs' (Passive: are + V3)।\n\nविकल्पों के अर्थ: transacted = लेन-देन किया गया (business transacted); transmitted = प्रसारित / संचारित किया गया (a signal transmitted); transcribed = लिखित रूप में उतारा गया (a speech transcribed)। इनके साथ 'into breakthroughs' नहीं बनता।",
+    "language": "en"
+  }
+]

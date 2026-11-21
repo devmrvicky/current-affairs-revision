@@ -25,6 +25,8 @@ import { examRegistry } from '../data/registry/examRegistry';
 import { getAllMockSourceUniversalQuestions, clearMockSourceCache } from './mockSourceRegistry';
 import { slugify } from '../utils/slug';
 import { unwrapQuestionFile, normalizeOptions, resolveCorrectAnswer } from './canonicalQuestionNormalizer';
+import { loadBankPoolQuestions, resolveRetiredBankQuestions, BANK_ID_PREFIX } from './questionBank/poolProvider';
+import { onBankChanged } from './questionBank/bankEvents';
 
 // ─── Topic-name → topic-id resolution ──────────────────────────────────────────
 // Chapter folder names are free-text ("Books and authors"); TOPICS registry ids
@@ -406,6 +408,7 @@ async function loadCanonicalChapterQuestions(): Promise<UniversalQuestion[]> {
 let _dailyCache: UniversalQuestion[] | null = null;
 let _chapterCache: UniversalQuestion[] | null = null;
 let _mockSourceCache: UniversalQuestion[] | null = null;
+let _bankCache: UniversalQuestion[] | null = null;
 
 /** Bumped whenever the content cache is cleared, so layers that derive and cache structure from the pool (the practice test library) know when to rebuild. */
 let _poolVersion = 0;
@@ -473,21 +476,32 @@ async function loadChapterWiseCurrentAffairsQuestions(): Promise<UniversalQuesti
   return all;
 }
 
+/** Tests imported on this device or published for everyone (Question Bank). Empty — and the pool unchanged — when there are none; never blocks bundled content if the bank can't be read. */
+async function loadBankQuestions(): Promise<UniversalQuestion[]> {
+  if (_bankCache) return _bankCache;
+  _bankCache = await loadBankPoolQuestions().catch((err) => { console.error('Question bank unavailable', err); return [] as UniversalQuestion[]; });
+  return _bankCache;
+}
+
+// Any write to the bank (import, replace, delete, sync) invalidates what the pool cached.
+onBankChanged(() => clearQuestionCache());
+
 /** All questions currently loadable in the app, across every source. Cached after first call. */
 async function loadAllQuestions(): Promise<UniversalQuestion[]> {
-  const [daily, chapterWise, canonicalChapter, native, mocks, mockSource] = await Promise.all([
+  const [daily, chapterWise, canonicalChapter, native, mocks, mockSource, bank] = await Promise.all([
     loadDailyCurrentAffairsQuestions(),
     loadChapterWiseCurrentAffairsQuestions(),
     loadCanonicalChapterQuestions(),
     loadNativeUniversalQuestions(),
     loadExamMockQuestions(),
     loadMockSourceQuestions(),
+    loadBankQuestions(),
   ]);
   // De-dupe by id defensively — every source uses a disjoint id prefix so
   // collisions shouldn't happen, but a repository consumer should never have
   // to worry about it either way.
   const seen = new Map<string, UniversalQuestion>();
-  for (const q of [...daily, ...chapterWise, ...canonicalChapter, ...native, ...mocks, ...mockSource]) seen.set(q.id, q);
+  for (const q of [...daily, ...chapterWise, ...canonicalChapter, ...native, ...mocks, ...mockSource, ...bank]) seen.set(q.id, q);
   return Array.from(seen.values());
 }
 
@@ -500,6 +514,7 @@ export function clearQuestionCache(): void {
   _nativeCache = null;
   _mockCache = null;
   _mockSourceCache = null;
+  _bankCache = null;
   clearMockSourceCache();
 }
 
@@ -567,7 +582,14 @@ export async function getRandomQuestions(count: number, from?: UniversalQuestion
 export async function resolveQuestionsByIds(ids: string[]): Promise<UniversalQuestion[]> {
   const all = await loadAllQuestions();
   const byId = new Map(all.map((q) => [q.id, q]));
-  return ids.map((id) => byId.get(id)).filter((q): q is UniversalQuestion => Boolean(q));
+  const found = ids.map((id) => byId.get(id));
+  // A bank question that a replace/update/delete retired is no longer in the pool, but attempts recorded against it must still open.
+  const gone = ids.filter((id, i) => !found[i] && id.startsWith(BANK_ID_PREFIX));
+  if (gone.length > 0) {
+    const retired = new Map((await resolveRetiredBankQuestions(gone)).map((q) => [q.id, q]));
+    ids.forEach((id, i) => { if (!found[i]) found[i] = retired.get(id); });
+  }
+  return found.filter((q): q is UniversalQuestion => Boolean(q));
 }
 
 // ─── Dynamic content discovery ─────────────────────────────────────────────────

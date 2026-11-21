@@ -21,6 +21,9 @@ import { useExitTest } from '../hooks/useExitTest';
 import { SubmitTestDialog } from '../components/exam/SubmitTestDialog';
 import { MarkPurposeSheet } from '../components/exam/MarkPurposeSheet';
 import { FloatingQuestionNav } from '../components/exam/FloatingQuestionNav';
+import { ShuffledOptions } from '../components/exam/ShuffledOptions';
+import { TestExitControls } from '../components/exam/TestExitControls';
+import { summarizePractice } from '../services/sessionLifecycle';
 import { savedMarkId, syncQuestionMark } from '../services/questionMarkService';
 import { useMarkedReviewStore } from '../store/markedReviewStore';
 import { effectivePurpose, getMarkPurposeInfo, normalizePurposes, savedPurposes, toggleMarkPurpose, type MarkPurpose } from '../types/questionMark';
@@ -329,18 +332,11 @@ export default function UniversalSessionPage() {
     }
   }
 
-  function handleClose() {
-    exitTest();
-    toast('Progress saved — resume this test from Home.', { icon: '💾', id: 'test-saved' });
-  }
-
   const header = (
     <>
       <div className="px-3 sm:px-4 min-h-14 py-2 flex items-center justify-between gap-2 sm:gap-4">
         <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
-          <button onClick={handleClose} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0" aria-label="Close test (progress is saved)" title="Close — your progress is saved">
-            <X size={18} style={{ color: 'var(--text-secondary)' }} />
-          </button>
+          <TestExitControls getSummary={() => summarizePractice(session, 'active')} exit={exitTest} />
           <div className="min-w-0">
             <h1 className="font-display font-bold text-xs sm:text-sm truncate" style={{ color: 'var(--text-primary)' }}>
               {session.config.label}
@@ -499,14 +495,15 @@ export default function UniversalSessionPage() {
       palette={<QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={navigateTo} hideCorrectness={isTestMode} lockedIndices={lockedIndices} lockedReason={lockedReason} />}
       paletteFooter={submitButton}
       floating={
-        // Test mode: always (moving between questions reveals nothing). Practice: once the answer's feedback is on screen, as before.
-        (isTestMode || isAnswered) && currentQuestion ? (
+        // Both modes: only once an option is chosen on this question (Test: no feedback is shown, Practice: its feedback is on screen).
+        // They disappear again on a question with nothing chosen. They never reveal correctness.
+        isAnswered && currentQuestion ? (
           <FloatingQuestionNav canPrevious={session.currentIndex > rangeStart} canNext={session.currentIndex < rangeEnd - 1} onPrevious={() => navigateTo(session.currentIndex - 1)} onNext={() => navigateTo(session.currentIndex + 1)} />
         ) : null
       }
     >
       <AnimatePresence mode="wait">
-        <motion.div key={session.currentIndex} initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.15 }} className="py-4 sm:py-6 px-10 sm:px-14 md:px-16 pb-6">
+        <motion.div key={session.currentIndex} initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.15 }} className={isTestMode ? 'py-4 sm:py-6 px-3 sm:px-5 lg:px-8 pb-6' : 'py-4 sm:py-6 px-3 sm:px-5 md:px-16 pb-16 md:pb-6'}>
           {!currentQuestion ? (
             // Question resolution failed — show it plainly rather than crash or silently substitute another question (master prompt §22).
             <div className="flex items-start gap-3 p-4 rounded-xl" style={{ background: 'rgba(239,68,68,0.08)' }}>
@@ -527,8 +524,11 @@ export default function UniversalSessionPage() {
                 </div>
               </div>
 
+              {/* Options come on screen in a fresh random order every time this question is shown (display only — answers are stored by option id). */}
+              <ShuffledOptions key={currentQuestion.id} options={currentQuestion.options} getKey={(o) => o.id} getText={(o) => o.text}>
+              {(orderedOptions) => (
               <div className="space-y-3" role="group" aria-label="Answer options">
-                {currentQuestion.options.map((option, idx) => {
+                {orderedOptions.map((option, idx) => {
                   const label = getOptionLabel(idx);
                   const isSelected = option.id === currentState.selectedAnswer;
                   const isCorrectOption = option.id === currentQuestion.correctAnswer;
@@ -561,6 +561,8 @@ export default function UniversalSessionPage() {
                   );
                 })}
               </div>
+              )}
+              </ShuffledOptions>
 
               {/* Test mode: answers aren't final until submitted — they can be changed or cleared. */}
               {isTestMode && isAnswered && (

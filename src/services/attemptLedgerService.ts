@@ -27,6 +27,7 @@ import type { QuizSession } from '../types';
 import type { PracticeSession } from '../types/practiceSession';
 import type { UniversalQuestion } from '../types/universalQuestion';
 import { universalAttemptsDB, type UniversalAttemptRecord } from './db';
+import { chapterIdOfSource } from './chapterMeta';
 import { parseDateFromFileName } from './quizRepository';
 import { getChapterList } from './chapterRepository';
 import { resolveTopicId } from './questionRepository';
@@ -159,6 +160,8 @@ export async function recordPracticeSessionAttempts(
       // couldn't be resolved at all.
       subjectId: q?.subjectId ?? session.config.subjectIds[0] ?? 'unknown',
       topicId: q?.topicId,
+      chapterId: chapterIdOfSource(q?.source),
+      subtopicId: q?.subtopicId,
       isCorrect,
       wasAnswered,
       timeTaken: state.timeTaken,
@@ -214,6 +217,8 @@ export async function recordMockSessionAttempts(
         examId,
         subjectId: q?.subjectId ?? 'unknown',
         topicId: q?.topicId,
+        chapterId: chapterIdOfSource(q?.source),
+        subtopicId: q?.subtopicId,
         isCorrect,
         wasAnswered,
         timeTaken: state?.timeSpentSeconds ?? 0,

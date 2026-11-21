@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_idm_151",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Face-saving measure",
+    "options": [
+      {
+        "id": "A",
+        "text": "A beauty treatment"
+      },
+      {
+        "id": "B",
+        "text": "An attempt to avoid embarrassment"
+      },
+      {
+        "id": "C",
+        "text": "A plan to win praise"
+      },
+      {
+        "id": "D",
+        "text": "A way to protect the face from injury"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Face-saving measure = इज़्ज़त बचाने का उपाय। Example: The apology was only a face-saving measure.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_152",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To flog a dead horse",
+    "options": [
+      {
+        "id": "A",
+        "text": "To ride a horse hard"
+      },
+      {
+        "id": "B",
+        "text": "To win a race by effort"
+      },
+      {
+        "id": "C",
+        "text": "To waste effort on a lost cause"
+      },
+      {
+        "id": "D",
+        "text": "To punish an animal"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Flog a dead horse = ऐसे मामले पर मेहनत करना जिसका नतीजा न निकले। Example: Arguing with him is like flogging a dead horse.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_153",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Get wind of something",
+    "options": [
+      {
+        "id": "A",
+        "text": "To learn about a secret or private matter"
+      },
+      {
+        "id": "B",
+        "text": "To escape from trouble"
+      },
+      {
+        "id": "C",
+        "text": "To feel a cool breeze"
+      },
+      {
+        "id": "D",
+        "text": "To lose one's breath"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Get wind of something = भनक लग जाना। Example: The press got wind of the scandal.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_154",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To give a wide berth",
+    "options": [
+      {
+        "id": "A",
+        "text": "To give a heavy burden"
+      },
+      {
+        "id": "B",
+        "text": "To welcome warmly"
+      },
+      {
+        "id": "C",
+        "text": "To offer a large bed"
+      },
+      {
+        "id": "D",
+        "text": "To keep a safe distance from"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Give a wide berth = किसी से दूरी बनाए रखना। Example: Give that dog a wide berth.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_155",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Go against the grain",
+    "options": [
+      {
+        "id": "A",
+        "text": "To work in a farm"
+      },
+      {
+        "id": "B",
+        "text": "To act contrary to one's principles or nature"
+      },
+      {
+        "id": "C",
+        "text": "To cut wood the right way"
+      },
+      {
+        "id": "D",
+        "text": "To follow the crowd"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Go against the grain = स्वभाव या सिद्धांतों के विपरीत काम करना। Example: Telling lies goes against the grain for him.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_156",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Go the extra mile",
+    "options": [
+      {
+        "id": "A",
+        "text": "To stop working early"
+      },
+      {
+        "id": "B",
+        "text": "To travel a long distance"
+      },
+      {
+        "id": "C",
+        "text": "To make an extra effort"
+      },
+      {
+        "id": "D",
+        "text": "To take a shortcut"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "Go the extra mile = अपेक्षा से अधिक प्रयास करना। Example: She went the extra mile to help the new student.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_157",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To hang in the balance",
+    "options": [
+      {
+        "id": "A",
+        "text": "To hang a weighing scale"
+      },
+      {
+        "id": "B",
+        "text": "To be perfectly steady"
+      },
+      {
+        "id": "C",
+        "text": "To be sure of success"
+      },
+      {
+        "id": "D",
+        "text": "To have an uncertain outcome"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Hang in the balance = अधर में लटकना, नतीजा अनिश्चित। Example: The patient's life hung in the balance.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_158",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To have too many irons in the fire",
+    "options": [
+      {
+        "id": "A",
+        "text": "To be involved in too many activities at once"
+      },
+      {
+        "id": "B",
+        "text": "To cook many dishes"
+      },
+      {
+        "id": "C",
+        "text": "To work as a blacksmith"
+      },
+      {
+        "id": "D",
+        "text": "To avoid all work"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Too many irons in the fire = एक साथ बहुत से कामों में उलझे रहना। Example: With four projects, he has too many irons in the fire.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_159",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Hit below the belt",
+    "options": [
+      {
+        "id": "A",
+        "text": "To strike very hard"
+      },
+      {
+        "id": "B",
+        "text": "To win fairly"
+      },
+      {
+        "id": "C",
+        "text": "To attack unfairly"
+      },
+      {
+        "id": "D",
+        "text": "To attack from the front"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Hit below the belt = अनुचित तरीके से वार करना। Example: Mocking his poverty was hitting below the belt.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_160",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Hold a candle to",
+    "options": [
+      {
+        "id": "A",
+        "text": "To search in the dark"
+      },
+      {
+        "id": "B",
+        "text": "To honour a saint"
+      },
+      {
+        "id": "C",
+        "text": "To light a lamp for someone"
+      },
+      {
+        "id": "D",
+        "text": "To be as good as someone else"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Hold a candle to = किसी की बराबरी कर पाना। Example: No singer can hold a candle to her.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_161",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Keep an eye on",
+    "options": [
+      {
+        "id": "A",
+        "text": "To close one eye"
+      },
+      {
+        "id": "B",
+        "text": "To watch closely"
+      },
+      {
+        "id": "C",
+        "text": "To ignore completely"
+      },
+      {
+        "id": "D",
+        "text": "To lose sight of"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "Keep an eye on = नज़र रखना। Example: Please keep an eye on my bag.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_162",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Leave it on the back burner",
+    "options": [
+      {
+        "id": "A",
+        "text": "To postpone a task or project"
+      },
+      {
+        "id": "B",
+        "text": "To ruin a plan"
+      },
+      {
+        "id": "C",
+        "text": "To finish a task early"
+      },
+      {
+        "id": "D",
+        "text": "To cook slowly"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Leave on the back burner = किसी काम को बाद के लिए टाल देना। Example: The plan was left on the back burner.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_163",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Off the cuff",
+    "options": [
+      {
+        "id": "A",
+        "text": "With careful planning"
+      },
+      {
+        "id": "B",
+        "text": "In a formal manner"
+      },
+      {
+        "id": "C",
+        "text": "Without preparation"
+      },
+      {
+        "id": "D",
+        "text": "At a high price"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Off the cuff = बिना तैयारी के, तुरंत। Example: He gave an off-the-cuff reply.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_164",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: On the ball",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alert and competent"
+      },
+      {
+        "id": "B",
+        "text": "Dancing at a party"
+      },
+      {
+        "id": "C",
+        "text": "Playing a game"
+      },
+      {
+        "id": "D",
+        "text": "Slow and careless"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "On the ball = सतर्क और सक्षम। Example: Our new clerk is really on the ball.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_165",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Straight from the horse's mouth",
+    "options": [
+      {
+        "id": "A",
+        "text": "From an animal doctor"
+      },
+      {
+        "id": "B",
+        "text": "From the most reliable or primary source"
+      },
+      {
+        "id": "C",
+        "text": "After a long delay"
+      },
+      {
+        "id": "D",
+        "text": "From a doubtful rumour"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Straight from the horse's mouth = सबसे विश्वसनीय या मूल स्रोत से। Example: I heard it straight from the horse's mouth.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_166",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Through thick and thin",
+    "options": [
+      {
+        "id": "A",
+        "text": "Through a dense forest"
+      },
+      {
+        "id": "B",
+        "text": "With great difficulty only"
+      },
+      {
+        "id": "C",
+        "text": "Only in good times"
+      },
+      {
+        "id": "D",
+        "text": "Under all conditions, both good and bad"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "easy",
+    "explanation": "Through thick and thin = हर हाल में। Example: True friends stay together through thick and thin.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_167",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To tie oneself up in knots",
+    "options": [
+      {
+        "id": "A",
+        "text": "To tie a rope tightly"
+      },
+      {
+        "id": "B",
+        "text": "To get confused or anxious"
+      },
+      {
+        "id": "C",
+        "text": "To become very calm"
+      },
+      {
+        "id": "D",
+        "text": "To learn a new skill"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Tie oneself up in knots = बुरी तरह उलझ जाना या घबरा जाना। Example: She tied herself up in knots before the interview.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_168",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Upset the apple cart",
+    "options": [
+      {
+        "id": "A",
+        "text": "To sell fruit"
+      },
+      {
+        "id": "B",
+        "text": "To win a bet"
+      },
+      {
+        "id": "C",
+        "text": "To help a vendor"
+      },
+      {
+        "id": "D",
+        "text": "To ruin a carefully planned arrangement"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Upset the apple cart = बना-बनाया खेल बिगाड़ना। Example: His late objection upset the apple cart.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_169",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Want to curl up and die",
+    "options": [
+      {
+        "id": "A",
+        "text": "To be seriously ill"
+      },
+      {
+        "id": "B",
+        "text": "To feel extremely sleepy"
+      },
+      {
+        "id": "C",
+        "text": "To feel extreme embarrassment or shame"
+      },
+      {
+        "id": "D",
+        "text": "To feel very proud"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Curl up and die = शर्म से ज़मीन में गड़ जाना। Example: I wanted to curl up and die when my phone rang in class.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_170",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: To weather the storm",
+    "options": [
+      {
+        "id": "A",
+        "text": "To face difficulties bravely and survive them"
+      },
+      {
+        "id": "B",
+        "text": "To avoid all trouble"
+      },
+      {
+        "id": "C",
+        "text": "To predict the climate"
+      },
+      {
+        "id": "D",
+        "text": "To enjoy the rain"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Weather the storm = मुश्किलों का बहादुरी से सामना कर पार पाना। Example: The company weathered the storm of recession.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_171",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A red-letter day",
+    "options": [
+      {
+        "id": "A",
+        "text": "A day of important exams"
+      },
+      {
+        "id": "B",
+        "text": "A day of heavy work"
+      },
+      {
+        "id": "C",
+        "text": "A memorable, happy day"
+      },
+      {
+        "id": "D",
+        "text": "A day of mourning"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A red-letter day = यादगार शुभ दिन। Example: The day I joined the army was a red-letter day for me.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_172",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: A sight for sore eyes",
+    "options": [
+      {
+        "id": "A",
+        "text": "A painful scene"
+      },
+      {
+        "id": "B",
+        "text": "A sign of eye disease"
+      },
+      {
+        "id": "C",
+        "text": "An unpleasant surprise"
+      },
+      {
+        "id": "D",
+        "text": "A welcome, pleasing sight"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "A sight for sore eyes = आँखों को सुकून देने वाला दृश्य। Example: After a year abroad, my brother was a sight for sore eyes.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_173",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Beauty is in the eye of the beholder",
+    "options": [
+      {
+        "id": "A",
+        "text": "Beauty is only skin deep"
+      },
+      {
+        "id": "B",
+        "text": "Beauty is a matter of personal taste"
+      },
+      {
+        "id": "C",
+        "text": "Everyone loves beauty"
+      },
+      {
+        "id": "D",
+        "text": "Beauty fades with age"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Beauty is in the eye of the beholder = सुंदरता देखने वाले की नज़र में होती है। Example: He loves that old painting; beauty is in the eye of the beholder.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_174",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Blaze a trail",
+    "options": [
+      {
+        "id": "A",
+        "text": "To be the first to do something new"
+      },
+      {
+        "id": "B",
+        "text": "To lose one's way"
+      },
+      {
+        "id": "C",
+        "text": "To set a forest on fire"
+      },
+      {
+        "id": "D",
+        "text": "To follow an old path"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Blaze a trail = नई राह बनाना। Example: Kalpana Chawla blazed a trail for Indian women in space.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_175",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Dance to someone's tune",
+    "options": [
+      {
+        "id": "A",
+        "text": "To do whatever someone wants"
+      },
+      {
+        "id": "B",
+        "text": "To oppose someone boldly"
+      },
+      {
+        "id": "C",
+        "text": "To learn dancing"
+      },
+      {
+        "id": "D",
+        "text": "To enjoy a song"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Dance to someone's tune = किसी के इशारों पर नाचना। Example: He refuses to dance to his boss's tune.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_176",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Drop the ball",
+    "options": [
+      {
+        "id": "A",
+        "text": "To play a game well"
+      },
+      {
+        "id": "B",
+        "text": "To make a careless mistake"
+      },
+      {
+        "id": "C",
+        "text": "To win a match"
+      },
+      {
+        "id": "D",
+        "text": "To throw a party"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Drop the ball = लापरवाही से चूक जाना। Example: The clerk dropped the ball and lost the file.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_177",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Hold all the aces",
+    "options": [
+      {
+        "id": "A",
+        "text": "To play fairly"
+      },
+      {
+        "id": "B",
+        "text": "To be a card dealer"
+      },
+      {
+        "id": "C",
+        "text": "To lose everything"
+      },
+      {
+        "id": "D",
+        "text": "To be in a very strong position"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Hold all the aces = हर तरह से भारी पड़ना। Example: With the funds and the votes, she holds all the aces.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_178",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Lord it over",
+    "options": [
+      {
+        "id": "A",
+        "text": "To obey strictly"
+      },
+      {
+        "id": "B",
+        "text": "To become a king"
+      },
+      {
+        "id": "C",
+        "text": "To act in a superior, bossy way"
+      },
+      {
+        "id": "D",
+        "text": "To serve a lord humbly"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Lord it over = रौब जमाना। Example: Don't lord it over your juniors.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_179",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Play into someone's hands",
+    "options": [
+      {
+        "id": "A",
+        "text": "To shake hands"
+      },
+      {
+        "id": "B",
+        "text": "To learn from a rival"
+      },
+      {
+        "id": "C",
+        "text": "To unknowingly help an opponent"
+      },
+      {
+        "id": "D",
+        "text": "To play a game together"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "idioms-phrases",
+    "difficulty": "hard",
+    "explanation": "Play into someone's hands = अनजाने में विरोधी का फ़ायदा करा देना। Example: By losing his temper, he played into his rival's hands.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_idm_180",
+    "subjectId": "english",
+    "question": "Choose the meaning of the idiom: Rule the roost",
+    "options": [
+      {
+        "id": "A",
+        "text": "To rule a kingdom"
+      },
+      {
+        "id": "B",
+        "text": "To be in charge"
+      },
+      {
+        "id": "C",
+        "text": "To live in a hotel"
+      },
+      {
+        "id": "D",
+        "text": "To keep poultry"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "idioms-phrases",
+    "difficulty": "medium",
+    "explanation": "Rule the roost = हुक्म चलाना, सर्वेसर्वा होना। Example: In that house, the grandmother rules the roost.",
+    "language": "en"
+  }
+]

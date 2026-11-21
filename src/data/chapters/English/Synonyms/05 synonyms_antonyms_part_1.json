@@ -1,0 +1,982 @@
+[
+  {
+    "id": "vocab001",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Malevolent'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Benevolent"
+      },
+      {
+        "id": "B",
+        "text": "Compassionate"
+      },
+      {
+        "id": "C",
+        "text": "Malicious"
+      },
+      {
+        "id": "D",
+        "text": "Kind-hearted"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Malevolent – दुष्ट; दूसरों का बुरा चाहने वाला; दुर्भावनापूर्ण. Word Tone: Negative. Example: The story describes a malevolent ruler. Hindi: कहानी में एक दुष्ट शासक का वर्णन है। Option meanings: A. Benevolent – दयालु; परोपकारी; B. Compassionate – करुणामय; C. Malicious – दुर्भावनापूर्ण; D. Kind-hearted – दयालु हृदय वाला",
+    "language": "en"
+  },
+  {
+    "id": "vocab002",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Maverick'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Follower"
+      },
+      {
+        "id": "B",
+        "text": "Conformist"
+      },
+      {
+        "id": "C",
+        "text": "Nonconformist"
+      },
+      {
+        "id": "D",
+        "text": "Traditionalist"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Maverick – स्वतंत्र विचारों वाला व्यक्ति; परंपरा से हटकर चलने वाला. Word Tone: Neutral/Positive. Example: The maverick scientist challenged accepted theories. Hindi: स्वतंत्र विचारों वाले वैज्ञानिक ने प्रचलित सिद्धांतों को चुनौती दी। Option meanings: A. Follower – अनुयायी; B. Conformist – रूढ़ियों का पालन करने वाला; C. Nonconformist – परंपरा से हटकर चलने वाला; D. Traditionalist – परंपरावादी",
+    "language": "en"
+  },
+  {
+    "id": "vocab003",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Muddle'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Confuse"
+      },
+      {
+        "id": "B",
+        "text": "Sort out"
+      },
+      {
+        "id": "C",
+        "text": "Organize"
+      },
+      {
+        "id": "D",
+        "text": "Clarify"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Muddle – गड़बड़ी; उलझन; भ्रमित करना. Word Tone: Negative. Example: The unclear instructions muddled the entire process. Hindi: अस्पष्ट निर्देशों ने पूरी प्रक्रिया को उलझा दिया। Option meanings: A. Confuse – भ्रमित करना; B. Sort out – सुलझाना; C. Organize – व्यवस्थित करना; D. Clarify – स्पष्ट करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab004",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Morbid'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cheerful"
+      },
+      {
+        "id": "B",
+        "text": "Wholesome"
+      },
+      {
+        "id": "C",
+        "text": "Macabre"
+      },
+      {
+        "id": "D",
+        "text": "Healthy"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Morbid – रुग्ण; अस्वस्थ; मृत्यु या भयावह विषयों में असामान्य रुचि रखने वाला. Word Tone: Negative. Example: He showed a morbid fascination with crime stories. Hindi: उसे अपराध की कहानियों के प्रति असामान्य और रुग्ण आकर्षण था। Option meanings: A. Cheerful – प्रसन्न; B. Wholesome – स्वस्थकर; हितकारी; C. Macabre – भयावह; मृत्यु से जुड़ा; D. Healthy – स्वस्थ",
+    "language": "en"
+  },
+  {
+    "id": "vocab005",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Spiteful'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kind-hearted"
+      },
+      {
+        "id": "B",
+        "text": "Vindictive"
+      },
+      {
+        "id": "C",
+        "text": "Forgiving"
+      },
+      {
+        "id": "D",
+        "text": "Generous"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Spiteful – द्वेषपूर्ण; दूसरों को चोट पहुँचाने की भावना वाला. Word Tone: Negative. Example: She made a spiteful remark during the argument. Hindi: बहस के दौरान उसने द्वेषपूर्ण टिप्पणी की। Option meanings: A. Kind-hearted – दयालु हृदय वाला; B. Vindictive – प्रतिशोधी; C. Forgiving – क्षमाशील; D. Generous – उदार",
+    "language": "en"
+  },
+  {
+    "id": "vocab006",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Lustre'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dullness"
+      },
+      {
+        "id": "B",
+        "text": "Sheen"
+      },
+      {
+        "id": "C",
+        "text": "Tarnish"
+      },
+      {
+        "id": "D",
+        "text": "Gloom"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Lustre – चमक; आभा; दमक. Word Tone: Positive. Example: The polish restored the lustre of the old table. Hindi: पॉलिश ने पुरानी मेज की चमक लौटा दी। Option meanings: A. Dullness – फीकापन; B. Sheen – चमक; दमक; C. Tarnish – चमक उतरना; कलंक; D. Gloom – अंधकार; उदासी",
+    "language": "en"
+  },
+  {
+    "id": "vocab007",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Vicious'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Benevolent"
+      },
+      {
+        "id": "B",
+        "text": "Mild"
+      },
+      {
+        "id": "C",
+        "text": "Gentle"
+      },
+      {
+        "id": "D",
+        "text": "Savage"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Vicious – क्रूर; दुष्ट; हिंसक या अत्यंत बुरा. Word Tone: Negative. Example: The vicious attack shocked the town. Hindi: क्रूर हमले ने पूरे शहर को स्तब्ध कर दिया। Option meanings: A. Benevolent – दयालु; परोपकारी; B. Mild – नरम; हल्का; C. Gentle – कोमल; नम्र; D. Savage – क्रूर; हिंसक",
+    "language": "en"
+  },
+  {
+    "id": "vocab008",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Menace'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Safeguard"
+      },
+      {
+        "id": "B",
+        "text": "Threat"
+      },
+      {
+        "id": "C",
+        "text": "Protection"
+      },
+      {
+        "id": "D",
+        "text": "Assurance"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Menace – खतरा; भय या नुकसान की आशंका पैदा करने वाला व्यक्ति या चीज. Word Tone: Negative. Example: The spreading fire became a menace to nearby villages. Hindi: फैलती आग आसपास के गाँवों के लिए खतरा बन गई। Option meanings: A. Safeguard – सुरक्षा उपाय; B. Threat – खतरा; धमकी; C. Protection – रक्षा; D. Assurance – आश्वासन",
+    "language": "en"
+  },
+  {
+    "id": "vocab009",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Negligent'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Careless"
+      },
+      {
+        "id": "B",
+        "text": "Remiss"
+      },
+      {
+        "id": "C",
+        "text": "Diligent"
+      },
+      {
+        "id": "D",
+        "text": "Inattentive"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Negligent – लापरवाह; कर्तव्य में ढिलाई करने वाला. Word Tone: Negative. Example: The negligent driver ignored the warning signs. Hindi: लापरवाह चालक ने चेतावनी संकेतों को अनदेखा किया। Option meanings: A. Careless – लापरवाह; B. Remiss – कर्तव्य में ढिलाई करने वाला; C. Diligent – परिश्रमी; सावधान; D. Inattentive – असावधान",
+    "language": "en"
+  },
+  {
+    "id": "vocab010",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Heinous'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Virtuous"
+      },
+      {
+        "id": "B",
+        "text": "Atrocious"
+      },
+      {
+        "id": "C",
+        "text": "Admirable"
+      },
+      {
+        "id": "D",
+        "text": "Commendable"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Heinous – जघन्य; घोर निंदनीय; अत्यंत बुरा. Word Tone: Negative. Example: The court condemned the heinous crime. Hindi: अदालत ने जघन्य अपराध की निंदा की। Option meanings: A. Virtuous – सदाचारी; B. Atrocious – जघन्य; अत्यंत क्रूर; C. Admirable – प्रशंसनीय; D. Commendable – प्रशंसनीय",
+    "language": "en"
+  },
+  {
+    "id": "vocab011",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Sumptuous'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sparse"
+      },
+      {
+        "id": "B",
+        "text": "Austere"
+      },
+      {
+        "id": "C",
+        "text": "Meagre"
+      },
+      {
+        "id": "D",
+        "text": "Lavish"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Sumptuous – भव्य; आलीशान; शानदार और विलासितापूर्ण. Word Tone: Positive. Example: The guests were served a sumptuous dinner. Hindi: मेहमानों को शानदार रात्रिभोज परोसा गया। Option meanings: A. Sparse – विरल; कम मात्रा में; B. Austere – सादा; तड़क-भड़क रहित; C. Meagre – अल्प; बहुत कम; D. Lavish – भव्य; खर्चीला; उदारतापूर्वक दिया गया",
+    "language": "en"
+  },
+  {
+    "id": "vocab012",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Clemency'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mercy"
+      },
+      {
+        "id": "B",
+        "text": "Cruelty"
+      },
+      {
+        "id": "C",
+        "text": "Severity"
+      },
+      {
+        "id": "D",
+        "text": "Harshness"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Clemency – दया; अपराधी के प्रति नरमी या क्षमादान. Word Tone: Positive. Example: The prisoner appealed to the king for clemency. Hindi: कैदी ने राजा से दया की अपील की। Option meanings: A. Mercy – दया; क्षमादान; B. Cruelty – क्रूरता; C. Severity – कठोरता; D. Harshness – निर्दयता",
+    "language": "en"
+  },
+  {
+    "id": "vocab013",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Methodical'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Systematic"
+      },
+      {
+        "id": "B",
+        "text": "Chaotic"
+      },
+      {
+        "id": "C",
+        "text": "Haphazard"
+      },
+      {
+        "id": "D",
+        "text": "Disorderly"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Methodical – नियमबद्ध; योजनाबद्ध और क्रम से काम करने वाला. Word Tone: Positive. Example: She adopted a methodical approach to revision. Hindi: उसने दोहराई के लिए एक व्यवस्थित तरीका अपनाया। Option meanings: A. Systematic – व्यवस्थित; क्रमबद्ध; B. Chaotic – अव्यवस्थित; अराजक; C. Haphazard – बेतरतीब; D. Disorderly – अव्यवस्थित",
+    "language": "en"
+  },
+  {
+    "id": "vocab014",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Meander'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "March"
+      },
+      {
+        "id": "B",
+        "text": "Advance"
+      },
+      {
+        "id": "C",
+        "text": "Proceed directly"
+      },
+      {
+        "id": "D",
+        "text": "Wander"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Meander – घुमावदार रास्ते से जाना; बिना निश्चित दिशा के भटकना. Word Tone: Neutral. Example: The river meanders through the valley. Hindi: नदी घाटी से होकर घुमावदार रास्ते में बहती है। Option meanings: A. March – तेजी से आगे बढ़ना; B. Advance – आगे बढ़ना; C. Proceed directly – सीधे आगे बढ़ना; D. Wander – भटकना",
+    "language": "en"
+  },
+  {
+    "id": "vocab015",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Meek'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Timid"
+      },
+      {
+        "id": "B",
+        "text": "Docile"
+      },
+      {
+        "id": "C",
+        "text": "Assertive"
+      },
+      {
+        "id": "D",
+        "text": "Submissive"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Meek – विनम्र; दब्बू; शांत और अधीन रहने वाला. Word Tone: Neutral. Example: The meek employee rarely challenged his manager. Hindi: विनम्र कर्मचारी शायद ही कभी अपने प्रबंधक का विरोध करता था। Option meanings: A. Timid – डरपोक; B. Docile – आसानी से वश में आने वाला; C. Assertive – आत्मविश्वास से अपनी बात रखने वाला; D. Submissive – आज्ञाकारी; दब्बू",
+    "language": "en"
+  },
+  {
+    "id": "vocab016",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Mercurial'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stable"
+      },
+      {
+        "id": "B",
+        "text": "Steady"
+      },
+      {
+        "id": "C",
+        "text": "Consistent"
+      },
+      {
+        "id": "D",
+        "text": "Volatile"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Mercurial – चंचल; तेजी से बदलते मूड या स्वभाव वाला. Word Tone: Neutral/Negative. Example: His mercurial mood made him difficult to predict. Hindi: उसका तेजी से बदलता मिजाज उसे समझना कठिन बना देता था। Option meanings: A. Stable – स्थिर; B. Steady – अडिग; स्थिर; C. Consistent – स्थिर; एकसमान; D. Volatile – अस्थिर; तेजी से बदलने वाला",
+    "language": "en"
+  },
+  {
+    "id": "vocab017",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Capricious'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Consistent"
+      },
+      {
+        "id": "B",
+        "text": "Predictable"
+      },
+      {
+        "id": "C",
+        "text": "Steadfast"
+      },
+      {
+        "id": "D",
+        "text": "Fickle"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Capricious – मनमौजी; अप्रत्याशित रूप से बदलने वाला. Word Tone: Negative. Example: The capricious weather ruined their plans. Hindi: मौसम के अनिश्चित बदलाव ने उनकी योजनाएँ बिगाड़ दीं। Option meanings: A. Consistent – स्थिर; एकसमान; B. Predictable – पूर्वानुमेय; C. Steadfast – दृढ़; अटल; D. Fickle – चंचल; अस्थिर",
+    "language": "en"
+  },
+  {
+    "id": "vocab018",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Mundane'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Extraordinary"
+      },
+      {
+        "id": "B",
+        "text": "Commonplace"
+      },
+      {
+        "id": "C",
+        "text": "Routine"
+      },
+      {
+        "id": "D",
+        "text": "Ordinary"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Mundane – सांसारिक; सामान्य; रोजमर्रा का और नीरस. Word Tone: Neutral/Negative. Example: She wanted to escape her mundane routine. Hindi: वह अपनी रोजमर्रा की नीरस दिनचर्या से बाहर निकलना चाहती थी। Option meanings: A. Extraordinary – असाधारण; B. Commonplace – आम; साधारण; C. Routine – रोजमर्रा का; D. Ordinary – साधारण",
+    "language": "en"
+  },
+  {
+    "id": "vocab019",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Infinitesimal'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Microscopic"
+      },
+      {
+        "id": "B",
+        "text": "Negligible"
+      },
+      {
+        "id": "C",
+        "text": "Minute"
+      },
+      {
+        "id": "D",
+        "text": "Enormous"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Infinitesimal – अत्यंत सूक्ष्म; नगण्य; बहुत ही छोटा. Word Tone: Neutral. Example: The error was infinitesimal and did not affect the result. Hindi: त्रुटि बहुत छोटी थी और परिणाम पर उसका प्रभाव नहीं पड़ा। Option meanings: A. Microscopic – सूक्ष्मदर्शी से दिखने योग्य; B. Negligible – नगण्य; C. Minute – अत्यंत छोटा; D. Enormous – विशाल",
+    "language": "en"
+  },
+  {
+    "id": "vocab020",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Splendid'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mediocre"
+      },
+      {
+        "id": "B",
+        "text": "Excellent"
+      },
+      {
+        "id": "C",
+        "text": "Glorious"
+      },
+      {
+        "id": "D",
+        "text": "Magnificent"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Splendid – शानदार; उत्कृष्ट; भव्य. Word Tone: Positive. Example: They enjoyed a splendid view of the mountains. Hindi: उन्होंने पहाड़ों का शानदार दृश्य देखा। Option meanings: A. Mediocre – औसत दर्जे का; B. Excellent – उत्कृष्ट; श्रेष्ठ; C. Glorious – शानदार; गौरवशाली; D. Magnificent – भव्य; शानदार",
+    "language": "en"
+  },
+  {
+    "id": "vocab021",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Iniquitous'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fair"
+      },
+      {
+        "id": "B",
+        "text": "Unjust"
+      },
+      {
+        "id": "C",
+        "text": "Equitable"
+      },
+      {
+        "id": "D",
+        "text": "Righteous"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Iniquitous – अत्यंत अन्यायपूर्ण; पापपूर्ण; दुष्ट. Word Tone: Negative. Example: The ruler imposed iniquitous laws on the poor. Hindi: शासक ने गरीबों पर अन्यायपूर्ण कानून थोपे। Option meanings: A. Fair – उचित; निष्पक्ष; B. Unjust – अन्यायपूर्ण; C. Equitable – न्यायसंगत; D. Righteous – न्यायप्रिय; धर्मनिष्ठ",
+    "language": "en"
+  },
+  {
+    "id": "vocab022",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Lethal'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Innocuous"
+      },
+      {
+        "id": "B",
+        "text": "Benign"
+      },
+      {
+        "id": "C",
+        "text": "Harmless"
+      },
+      {
+        "id": "D",
+        "text": "Deadly"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Lethal – घातक; मृत्यु का कारण बन सकने वाला. Word Tone: Negative. Example: Even a small amount of the chemical can be lethal. Hindi: इस रसायन की थोड़ी मात्रा भी जानलेवा हो सकती है। Option meanings: A. Innocuous – निरापद; B. Benign – सौम्य; अहानिकर; C. Harmless – हानिरहित; D. Deadly – जानलेवा",
+    "language": "en"
+  },
+  {
+    "id": "vocab023",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Mitigate'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aggravate"
+      },
+      {
+        "id": "B",
+        "text": "Alleviate"
+      },
+      {
+        "id": "C",
+        "text": "Worsen"
+      },
+      {
+        "id": "D",
+        "text": "Intensify"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Mitigate – कठिनाई, दर्द या प्रभाव को कम करना. Word Tone: Positive. Example: The new policy aims to mitigate poverty. Hindi: नई नीति का उद्देश्य गरीबी कम करना है। Option meanings: A. Aggravate – बढ़ाना; गंभीर करना; B. Alleviate – कम करना; राहत पहुँचाना; C. Worsen – बिगाड़ना; D. Intensify – तीव्र करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab024",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Maestro'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Novice"
+      },
+      {
+        "id": "B",
+        "text": "Beginner"
+      },
+      {
+        "id": "C",
+        "text": "Virtuoso"
+      },
+      {
+        "id": "D",
+        "text": "Amateur"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Maestro – किसी कला का महान उस्ताद; कुशल कलाकार. Word Tone: Positive. Example: The young pianist performed under a celebrated maestro. Hindi: युवा पियानोवादक ने एक प्रसिद्ध उस्ताद के निर्देशन में प्रस्तुति दी। Option meanings: A. Novice – नौसिखिया; B. Beginner – शुरुआती; C. Virtuoso – किसी कला का अत्यंत कुशल व्यक्ति; D. Amateur – शौकिया व्यक्ति",
+    "language": "en"
+  },
+  {
+    "id": "vocab025",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Tranquil'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Peaceful"
+      },
+      {
+        "id": "B",
+        "text": "Turbulent"
+      },
+      {
+        "id": "C",
+        "text": "Serene"
+      },
+      {
+        "id": "D",
+        "text": "Calm"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Tranquil – शांत; सुकून भरा; अशांतिहीन. Word Tone: Positive. Example: They spent a tranquil evening by the lake. Hindi: उन्होंने झील के किनारे शांतिपूर्ण शाम बिताई। Option meanings: A. Peaceful – शांतिपूर्ण; B. Turbulent – अशांत; उथल-पुथल भरा; C. Serene – शांत; स्थिर; D. Calm – शांत",
+    "language": "en"
+  },
+  {
+    "id": "vocab026",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Despicable'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Wretched"
+      },
+      {
+        "id": "B",
+        "text": "Vile"
+      },
+      {
+        "id": "C",
+        "text": "Admirable"
+      },
+      {
+        "id": "D",
+        "text": "Contemptible"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Despicable – घृणित; निंदनीय; तुच्छ. Word Tone: Negative. Example: Cheating vulnerable people is despicable. Hindi: कमजोर लोगों को धोखा देना घृणित है। Option meanings: A. Wretched – घटिया; दयनीय; B. Vile – नीच; घिनौना; C. Admirable – प्रशंसनीय; D. Contemptible – घृणित; तुच्छ",
+    "language": "en"
+  },
+  {
+    "id": "vocab027",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Monotonous'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tedious"
+      },
+      {
+        "id": "B",
+        "text": "Varied"
+      },
+      {
+        "id": "C",
+        "text": "Dull"
+      },
+      {
+        "id": "D",
+        "text": "Repetitive"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Monotonous – एकरस; नीरस; लगातार एक जैसा. Word Tone: Negative. Example: The monotonous lecture made the students sleepy. Hindi: एकरस व्याख्यान से विद्यार्थियों को नींद आने लगी। Option meanings: A. Tedious – उबाऊ; B. Varied – विविध; अलग-अलग प्रकार का; C. Dull – फीका; D. Repetitive – दोहराव वाला",
+    "language": "en"
+  },
+  {
+    "id": "vocab028",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Spendthrift'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Extravagant"
+      },
+      {
+        "id": "B",
+        "text": "Prodigal"
+      },
+      {
+        "id": "C",
+        "text": "Thrifty person"
+      },
+      {
+        "id": "D",
+        "text": "Wasteful"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Spendthrift – फिजूलखर्च व्यक्ति; धन को बिना सोचे खर्च करने वाला. Word Tone: Negative. Example: A spendthrift often struggles to save money. Hindi: फिजूलखर्च व्यक्ति को अक्सर पैसे बचाने में कठिनाई होती है। Option meanings: A. Extravagant – फिजूलखर्च; B. Prodigal – उड़ाऊ; C. Thrifty person – मितव्ययी व्यक्ति; D. Wasteful – अपव्ययी",
+    "language": "en"
+  },
+  {
+    "id": "vocab029",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Nasty'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pleasant"
+      },
+      {
+        "id": "B",
+        "text": "Disagreeable"
+      },
+      {
+        "id": "C",
+        "text": "Offensive"
+      },
+      {
+        "id": "D",
+        "text": "Unpleasant"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Nasty – बुरा; अप्रिय; गंदा या दुर्भावनापूर्ण. Word Tone: Negative. Example: He made a nasty remark about his neighbour. Hindi: उसने अपने पड़ोसी के बारे में बुरी टिप्पणी की। Option meanings: A. Pleasant – सुखद; मनभावन; B. Disagreeable – अप्रिय; C. Offensive – आपत्तिजनक; D. Unpleasant – असुखद",
+    "language": "en"
+  },
+  {
+    "id": "vocab030",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Muster'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scatter"
+      },
+      {
+        "id": "B",
+        "text": "Assemble"
+      },
+      {
+        "id": "C",
+        "text": "Dismiss"
+      },
+      {
+        "id": "D",
+        "text": "Disperse"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Muster – इकट्ठा करना; जुटाना; साहस या संसाधन एकत्र करना. Word Tone: Neutral. Example: She tried to muster the courage to speak. Hindi: उसने बोलने का साहस जुटाने की कोशिश की। Option meanings: A. Scatter – बिखेरना; B. Assemble – इकट्ठा करना; C. Dismiss – भंग करना; D. Disperse – तितर-बितर करना",
+    "language": "en"
+  },
+  {
+    "id": "vocab031",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Miniature'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enlarged"
+      },
+      {
+        "id": "B",
+        "text": "Tiny"
+      },
+      {
+        "id": "C",
+        "text": "Diminutive"
+      },
+      {
+        "id": "D",
+        "text": "Small-scale"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Miniature – लघु प्रतिरूप; बहुत छोटे आकार की वस्तु. Word Tone: Neutral. Example: He built a miniature model of the fort. Hindi: उसने किले का एक लघु मॉडल बनाया। Option meanings: A. Enlarged – बड़ा किया हुआ; B. Tiny – बहुत छोटा; C. Diminutive – छोटा; नन्हा; D. Small-scale – लघु आकार का",
+    "language": "en"
+  },
+  {
+    "id": "vocab032",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Diminutive'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enormous"
+      },
+      {
+        "id": "B",
+        "text": "Tiny"
+      },
+      {
+        "id": "C",
+        "text": "Miniature"
+      },
+      {
+        "id": "D",
+        "text": "Petite"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Diminutive – बहुत छोटा; नन्हा; छोटे कद या आकार वाला. Word Tone: Neutral. Example: The diminutive child stood in the front row. Hindi: छोटे कद का बच्चा पहली पंक्ति में खड़ा था। Option meanings: A. Enormous – विशाल; B. Tiny – बहुत छोटा; C. Miniature – लघु; बहुत छोटे आकार का; D. Petite – छोटे कद की",
+    "language": "en"
+  },
+  {
+    "id": "vocab033",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Nebulous'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vague"
+      },
+      {
+        "id": "B",
+        "text": "Clear"
+      },
+      {
+        "id": "C",
+        "text": "Precise"
+      },
+      {
+        "id": "D",
+        "text": "Definite"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Nebulous – अस्पष्ट; धुंधला; स्पष्ट रूप से परिभाषित न होना. Word Tone: Negative/Neutral. Example: The plan remained nebulous and lacked details. Hindi: योजना अस्पष्ट रही और उसमें विवरणों की कमी थी। Option meanings: A. Vague – अस्पष्ट; B. Clear – स्वच्छ; स्पष्ट; C. Precise – सटीक; D. Definite – निश्चित",
+    "language": "en"
+  },
+  {
+    "id": "vocab034",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Nefarious'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Righteous"
+      },
+      {
+        "id": "B",
+        "text": "Wicked"
+      },
+      {
+        "id": "C",
+        "text": "Virtuous"
+      },
+      {
+        "id": "D",
+        "text": "Honourable"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Nefarious – दुष्ट; अत्यंत बुरा या अनैतिक. Word Tone: Negative. Example: The gang was involved in nefarious activities. Hindi: गिरोह दुष्ट और गैरकानूनी गतिविधियों में शामिल था। Option meanings: A. Righteous – न्यायप्रिय; धर्मनिष्ठ; B. Wicked – दुष्ट; C. Virtuous – सदाचारी; D. Honourable – सम्माननीय",
+    "language": "en"
+  },
+  {
+    "id": "vocab035",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Mettle'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Weakness"
+      },
+      {
+        "id": "B",
+        "text": "Timidity"
+      },
+      {
+        "id": "C",
+        "text": "Cowardice"
+      },
+      {
+        "id": "D",
+        "text": "Fortitude"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Mettle – साहस; कठिन परिस्थिति में दृढ़ बने रहने की क्षमता. Word Tone: Positive. Example: The difficult match tested the team's mettle. Hindi: कठिन मुकाबले ने टीम के साहस की परीक्षा ली। Option meanings: A. Weakness – कमजोरी; B. Timidity – डरपोकपन; संकोच; C. Cowardice – कायरता; D. Fortitude – धैर्य; मानसिक दृढ़ता",
+    "language": "en"
+  }
+]

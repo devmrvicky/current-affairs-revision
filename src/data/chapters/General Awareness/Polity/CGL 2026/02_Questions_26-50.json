@@ -1,0 +1,702 @@
+[
+  {
+    "id": "pyq026",
+    "subjectId": "polity",
+    "question": "भारत के राष्ट्रपति के पद का प्रावधान किस अनुच्छेद में है? / Office of President is established under which Article?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 51 / Article 51"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 52 / Article 52"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 54 / Article 54"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 50 / Article 50"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "president",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 52 कहता है कि भारत का एक राष्ट्रपति होगा। अनुच्छेद 53 संघ की कार्यपालिका शक्ति राष्ट्रपति में निहित करता है; 54 निर्वाचन, 55 निर्वाचन की रीति, 56 कार्यकाल, 58 योग्यता और 61 महाभियोग बताते हैं। अनुच्छेद 50 न्यायपालिका को कार्यपालिका से अलग करने वाला DPSP है। PDF का सवाल सीधे अनुच्छेद पहचानने वाला है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq027",
+    "subjectId": "polity",
+    "question": "राष्ट्रपति पर महाभियोग की प्रक्रिया किस अनुच्छेद में है? / Impeachment of President is under which Article?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 59 / Article 59"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 60 / Article 60"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 62 / Article 62"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 61 / Article 61"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "president",
+    "difficulty": "hard",
+    "explanation": "अनुच्छेद 61 में संविधान के उल्लंघन के आधार पर महाभियोग की प्रक्रिया है। आरोप संसद के किसी भी सदन में शुरू हो सकता है; कम-से-कम 14 दिन की लिखित सूचना और सदन के कुल सदस्यों के एक-चौथाई के हस्ताक्षर चाहिए। प्रत्येक सदन में कुल सदस्य-संख्या के कम-से-कम 2/3 से प्रस्ताव पारित होना चाहिए; दूसरा सदन आरोप की जाँच करता है। यह जजों को हटाने की प्रक्रिया (124(4)) से अलग है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq028",
+    "subjectId": "polity",
+    "question": "2023 में Grand Order of the Chain of the Yellow Star से किस भारतीय राष्ट्रपति को सम्मानित किया गया? / Who received the award in 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "द्रौपदी मुर्मू / Droupadi Murmu"
+      },
+      {
+        "id": "B",
+        "text": "रामनाथ कोविंद / Ram Nath Kovind"
+      },
+      {
+        "id": "C",
+        "text": "डॉ. ए. पी. जे. अब्दुल कलाम / Dr. A. P. J. Abdul Kalam"
+      },
+      {
+        "id": "D",
+        "text": "प्रतिभा पाटिल / Pratibha Patil"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "president-current-affairs",
+    "difficulty": "easy",
+    "explanation": "PDF के अनुसार 2023 में सूरीनाम ने भारत की राष्ट्रपति द्रौपदी मुर्मू को यह सम्मान दिया। द्रौपदी मुर्मू भारत की 15वीं राष्ट्रपति और पहली आदिवासी राष्ट्रपति हैं; भारत की पहली महिला राष्ट्रपति प्रतिभा पाटिल थीं। राष्ट्रपति का निर्वाचन अनुच्छेद 54 और कार्यकाल अनुच्छेद 56 में है। यह संविधान के पद से जुड़ा समसामयिक सम्मान-आधारित प्रश्न है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq029",
+    "subjectId": "polity",
+    "question": "वित्त आयोग का गठन राष्ट्रपति किस अनुच्छेद के तहत करते हैं? / Finance Commission is constituted under which Article?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 148 / Article 148"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 315 / Article 315"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 324 / Article 324"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 280 / Article 280"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "finance-commission",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 280 के अनुसार राष्ट्रपति प्रत्येक पाँच वर्ष में या उससे पहले वित्त आयोग गठित करते हैं। इसमें अध्यक्ष और चार सदस्य होते हैं। आयोग केंद्र-राज्य कर-वितरण, राज्यों के बीच हिस्सेदारी, अनुदान-सहायता तथा पंचायतों/नगरपालिकाओं के संसाधनों पर सिफारिश करता है। 148 CAG, 315 UPSC और 324 निर्वाचन आयोग से संबंधित हैं। PDF के पेन-नोट में वित्त आयोग के वितरण कार्य का संकेत है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq030",
+    "subjectId": "polity",
+    "question": "PDF के अनुसार दिल्ली के 22वें उपराज्यपाल कौन बताए गए हैं? / Who is identified in the PDF as Delhi’s 22nd LG?",
+    "options": [
+      {
+        "id": "A",
+        "text": "नजीब जंग / Najeeb Jung"
+      },
+      {
+        "id": "B",
+        "text": "अनिल बैजल / Anil Baijal"
+      },
+      {
+        "id": "C",
+        "text": "मनोज सिन्हा / Manoj Sinha"
+      },
+      {
+        "id": "D",
+        "text": "विनय कुमार सक्सेना / Vinai Kumar Saxena"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "delhi-administration",
+    "difficulty": "easy",
+    "explanation": "PDF में उत्तर विनय कुमार सक्सेना चिह्नित है। यह पदाधिकारी-आधारित समसामयिक तथ्य है। दिल्ली की संवैधानिक व्यवस्था अनुच्छेद 239AA से जुड़ी है, जिसे 69वें संशोधन ने जोड़ा। दिल्ली विधानसभा सार्वजनिक व्यवस्था, पुलिस और भूमि पर कानून नहीं बना सकती। अनुच्छेद 239AB विशेष परिस्थिति में संवैधानिक तंत्र विफलता से संबंधित है। पदाधिकारी संबंधी तथ्य समय के साथ बदल सकते हैं; यहाँ PDF का संदर्भ रखा गया है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq031",
+    "subjectId": "polity",
+    "question": "रक्षा बलों की सर्वोच्च कमान राष्ट्रपति में निहित होने का प्रावधान किस उपखंड में है? / Supreme Command of Defence Forces is vested by which provision?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 56(2) / Article 56(2)"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 53(2) / Article 53(2)"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 58(1) / Article 58(1)"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 61(1) / Article 61(1)"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "president",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 53(2) रक्षा सेनाओं की सर्वोच्च कमान राष्ट्रपति में निहित करता है, जिसका प्रयोग संसद के कानून के अधीन होता है। राष्ट्रपति संवैधानिक सर्वोच्च कमांडर हैं; वास्तविक नीति और संचालन निर्वाचित सरकार के माध्यम से होता है। 53(1) संघ की कार्यपालिका शक्ति, 74 मंत्रिपरिषद की सलाह और 77 भारत सरकार के कार्य-संचालन से संबंधित है। पेन-नोट में 53(2) विशेष रूप से चिह्नित है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq032",
+    "subjectId": "polity",
+    "question": "अनुच्छेद 75 के अनुसार मंत्रिपरिषद सामूहिक रूप से किसके प्रति उत्तरदायी है? / Collective responsibility is to whom?",
+    "options": [
+      {
+        "id": "A",
+        "text": "लोकसभा / Lok Sabha"
+      },
+      {
+        "id": "B",
+        "text": "राज्यसभा / Rajya Sabha"
+      },
+      {
+        "id": "C",
+        "text": "राष्ट्रपति / President"
+      },
+      {
+        "id": "D",
+        "text": "सर्वोच्च न्यायालय / Supreme Court"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "union-executive",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 75(3) मंत्रिपरिषद को लोकसभा के प्रति सामूहिक रूप से उत्तरदायी बनाता है। अविश्वास प्रस्ताव पारित होने पर पूरी मंत्रिपरिषद को पद छोड़ना पड़ता है। प्रधानमंत्री मंत्रिपरिषद का प्रमुख है; नियुक्ति 75(1) में, राष्ट्रपति के प्रसादपर्यंत पद 75(2) में और सामूहिक उत्तरदायित्व 75(3) में है। राज्य स्तर पर समान व्यवस्था अनुच्छेद 164(2) में है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq033",
+    "subjectId": "polity",
+    "question": "राष्ट्रपति का पद मृत्यु, त्यागपत्र या हटाए जाने से रिक्त होने पर चुनाव कितने समय में कराया जाना चाहिए? / Time limit to fill casual vacancy of President?",
+    "options": [
+      {
+        "id": "A",
+        "text": "एक वर्ष / One year"
+      },
+      {
+        "id": "B",
+        "text": "छह महीने / Six months"
+      },
+      {
+        "id": "C",
+        "text": "तीन महीने / Three months"
+      },
+      {
+        "id": "D",
+        "text": "नौ महीने / Nine months"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "president",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 62(2) के अनुसार आकस्मिक रिक्ति होने पर छह महीने के भीतर चुनाव होना चाहिए। नया राष्ट्रपति पद ग्रहण करने की तारीख से पाँच वर्ष का पूरा कार्यकाल पाता है। सामान्य कार्यकाल समाप्त होने पर चुनाव पहले से पूरा कराया जाता है (62(1))। रिक्ति के दौरान उपराष्ट्रपति अनुच्छेद 65 के तहत राष्ट्रपति के रूप में कार्य करता है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq034",
+    "subjectId": "polity",
+    "question": "कौन-सा अनुच्छेद कहता है कि संघ के मंत्री राष्ट्रपति के प्रसादपर्यंत पद धारण करते हैं? / Union Ministers hold office during President’s pleasure under which Article?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 75(2) / Article 75(2)"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 71 / Article 71"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 81 / Article 81"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 78 / Article 78"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "union-executive",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 75(2) मंत्रियों के राष्ट्रपति के प्रसादपर्यंत पद धारण करने की बात करता है। संसदीय प्रणाली में राष्ट्रपति प्रधानमंत्री की सलाह पर कार्य करते हैं। इसे 75(3) से अलग रखें—75(2) पद की शर्त, 75(3) लोकसभा के प्रति सामूहिक उत्तरदायित्व है। राज्य मंत्रियों के लिए समान प्रावधान अनुच्छेद 164(1) में है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq035",
+    "subjectId": "polity",
+    "question": "भारत की संसदीय व्यवस्था में वास्तविक कार्यपालिका शक्ति सामान्यतः कौन प्रयोग करता है? / Real executive authority is exercised by whom?",
+    "options": [
+      {
+        "id": "A",
+        "text": "संसद / Parliament"
+      },
+      {
+        "id": "B",
+        "text": "प्रधानमंत्री / Prime Minister"
+      },
+      {
+        "id": "C",
+        "text": "मुख्य न्यायाधीश / Chief Justice"
+      },
+      {
+        "id": "D",
+        "text": "राष्ट्रपति / President"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "union-executive",
+    "difficulty": "easy",
+    "explanation": "राष्ट्रपति संवैधानिक/औपचारिक प्रमुख हैं, जबकि प्रधानमंत्री और मंत्रिपरिषद वास्तविक कार्यपालिका चलाते हैं। अनुच्छेद 74 राष्ट्रपति को सहायता और सलाह देने वाली मंत्रिपरिषद देता है। 42वें संशोधन ने सलाह मानना बाध्यकारी किया; 44वें संशोधन के बाद राष्ट्रपति एक बार पुनर्विचार माँग सकते हैं, पर पुनर्विचार के बाद सलाह माननी होती है। प्रधानमंत्री की नियुक्ति अनुच्छेद 75(1) में और सामूहिक उत्तरदायित्व 75(3) में है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq036",
+    "subjectId": "polity",
+    "question": "अनुच्छेद 72 में commutation का अर्थ क्या है? / Meaning of commutation under Article 72?",
+    "options": [
+      {
+        "id": "A",
+        "text": "दोषी को पूर्ण बरी करना / Acquit completely"
+      },
+      {
+        "id": "B",
+        "text": "दंड निष्पादन स्थगित करना / Postpone execution"
+      },
+      {
+        "id": "C",
+        "text": "दंड अस्थायी निलंबित करना / Suspend temporarily"
+      },
+      {
+        "id": "D",
+        "text": "दंड को हल्के प्रकार के दंड में बदलना / Substitute a lighter form of punishment"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "president",
+    "difficulty": "medium",
+    "explanation": "Commutation में दंड की प्रकृति को हल्के दंड में बदला जाता है। अनुच्छेद 72 राष्ट्रपति को pardon, commutation, remission, respite और suspension की शक्तियाँ देता है। यह मृत्युदंड, कोर्ट मार्शल और संघ की कार्यपालिका शक्ति के क्षेत्र के अपराधों पर लागू होता है। राज्यपाल की शक्ति अनुच्छेद 161 में है; राज्यपाल मृत्युदंड को pardon नहीं कर सकता, राष्ट्रपति कर सकते हैं। PDF पेन-नोट में इन दया शक्तियों के अंतर लिखे हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq037",
+    "subjectId": "polity",
+    "question": "उपराष्ट्रपति किस सदन का पदेन सभापति होता है? / Vice-President is ex-officio Chairman of which House?",
+    "options": [
+      {
+        "id": "A",
+        "text": "लोकसभा / Lok Sabha"
+      },
+      {
+        "id": "B",
+        "text": "विधानसभा / Legislative Assembly"
+      },
+      {
+        "id": "C",
+        "text": "मंत्रिपरिषद / Council of Ministers"
+      },
+      {
+        "id": "D",
+        "text": "राज्यसभा / Rajya Sabha"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "vice-president",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 64 और 89(1) के अनुसार उपराष्ट्रपति राज्यसभा का पदेन सभापति होता है। वह राज्यसभा का सदस्य नहीं होता; सामान्यतः मतदान नहीं करता, लेकिन मत बराबर होने पर निर्णायक मत देता है। लोकसभा का अध्यक्ष सदन द्वारा चुना जाता है। उपराष्ट्रपति का निर्वाचन अनुच्छेद 66 के तहत संसद के दोनों सदनों के सदस्य करते हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq038",
+    "subjectId": "polity",
+    "question": "संसद के अवकाश में राष्ट्रपति किस अनुच्छेद के तहत अध्यादेश जारी कर सकते हैं? / President’s ordinance power?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 213 / Article 213"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 108 / Article 108"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 110 / Article 110"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 123 / Article 123"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "ordinances",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 123 राष्ट्रपति को तब अध्यादेश जारी करने देता है जब संसद के दोनों सदन एक साथ सत्र में न हों और तत्काल कार्रवाई आवश्यक हो। अध्यादेश का प्रभाव कानून जैसा होता है, लेकिन संसद के पुनः एकत्र होने के छह सप्ताह बाद समाप्त हो जाता है, जब तक पहले निरस्त/प्रतिस्थापित न हो। राज्यपाल की अध्यादेश शक्ति अनुच्छेद 213 में है। अनुच्छेद 108 संयुक्त बैठक, 110 धन विधेयक और 112 वार्षिक वित्तीय विवरण है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq039",
+    "subjectId": "polity",
+    "question": "अनुच्छेद 53 के अनुसार संघ की कार्यपालिका शक्ति औपचारिक रूप से किसमें निहित है? / Executive power of Union is vested in whom?",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्रधानमंत्री / Prime Minister"
+      },
+      {
+        "id": "B",
+        "text": "संसद / Parliament"
+      },
+      {
+        "id": "C",
+        "text": "राष्ट्रपति / President"
+      },
+      {
+        "id": "D",
+        "text": "मंत्रिपरिषद / Council of Ministers"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "union-executive",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 53(1) संघ की कार्यपालिका शक्ति राष्ट्रपति में निहित करता है। संसदीय प्रणाली में राष्ट्रपति सामान्यतः अनुच्छेद 74 के तहत मंत्रिपरिषद की सलाह पर कार्य करते हैं; इसलिए औपचारिक कार्यपालिका राष्ट्रपति और वास्तविक कार्यपालिका प्रधानमंत्री-मंत्रिपरिषद है। 53(2) रक्षा बलों की सर्वोच्च कमान और 77 भारत सरकार के कार्य-संचालन से संबंधित है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq040",
+    "subjectId": "polity",
+    "question": "राज्य के क्षेत्र, सीमा या नाम बदलने वाले विधेयक पर राज्य विधानमंडल की राय के लिए अवधि कौन तय करता है? / Who specifies the time period for State Legislature to express views on a reorganisation Bill?",
+    "options": [
+      {
+        "id": "A",
+        "text": "राष्ट्रपति / The President"
+      },
+      {
+        "id": "B",
+        "text": "संविधान में निश्चित छह महीने / Fixed six months"
+      },
+      {
+        "id": "C",
+        "text": "एक सत्र / One session"
+      },
+      {
+        "id": "D",
+        "text": "संसद / Parliament"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "union-territory",
+    "difficulty": "hard",
+    "explanation": "अनुच्छेद 3 के परंतुक के अनुसार विधेयक राष्ट्रपति की सिफारिश पर ही संसद में प्रस्तुत हो सकता है। प्रभावित राज्य के विधानमंडल को राय व्यक्त करने के लिए राष्ट्रपति द्वारा निर्दिष्ट अवधि दी जाती है। राज्य की राय संसद पर बाध्यकारी नहीं है। अनुच्छेद 2 नए राज्य के प्रवेश/स्थापना, अनुच्छेद 3 राज्य गठन/सीमा/नाम, और अनुच्छेद 4 पूरक/परिणामी कानून बताता है। ऐसे कानून अनुच्छेद 368 के संशोधन नहीं माने जाते।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq041",
+    "subjectId": "polity",
+    "question": "द्रौपदी मुर्मू भारत की कौन-सी राष्ट्रपति हैं? / Droupadi Murmu is which President of India?",
+    "options": [
+      {
+        "id": "A",
+        "text": "13वीं / 13th"
+      },
+      {
+        "id": "B",
+        "text": "14वीं / 14th"
+      },
+      {
+        "id": "C",
+        "text": "15वीं / 15th"
+      },
+      {
+        "id": "D",
+        "text": "12वीं / 12th"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "president-current-affairs",
+    "difficulty": "easy",
+    "explanation": "द्रौपदी मुर्मू भारत की 15वीं राष्ट्रपति हैं; उन्होंने 25 जुलाई 2022 को पद ग्रहण किया। वह पहली आदिवासी राष्ट्रपति और दूसरी महिला राष्ट्रपति हैं; पहली महिला राष्ट्रपति प्रतिभा पाटिल थीं। चुनाव अनुच्छेद 54, कार्यकाल 56 और योग्यता 58 में है। आकस्मिक रिक्ति पर चुनाव छह महीने में (62(2)) कराया जाना चाहिए।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq042",
+    "subjectId": "polity",
+    "question": "राष्ट्रपति का पद आकस्मिक रूप से रिक्त होने पर कौन राष्ट्रपति के रूप में कार्य करता है? / Who acts as President on casual vacancy?",
+    "options": [
+      {
+        "id": "A",
+        "text": "उपराष्ट्रपति / Vice-President"
+      },
+      {
+        "id": "B",
+        "text": "लोकसभा अध्यक्ष / Speaker of Lok Sabha"
+      },
+      {
+        "id": "C",
+        "text": "CJI / Chief Justice of India"
+      },
+      {
+        "id": "D",
+        "text": "प्रधानमंत्री / Prime Minister"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "vice-president",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 65 के अनुसार मृत्यु, त्यागपत्र या हटाए जाने से पद रिक्त होने पर उपराष्ट्रपति नया राष्ट्रपति पद ग्रहण करे तब तक राष्ट्रपति के रूप में कार्य करता है। अनुपस्थिति/असमर्थता में भी वह कार्यों का निर्वहन करता है। इस अवधि में वह राज्यसभा के सभापति के कर्तव्य नहीं निभाता। आकस्मिक रिक्ति का चुनाव छह महीने में (62(2)) होता है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq043",
+    "subjectId": "polity",
+    "question": "राष्ट्रपति राज्यसभा में कितने सदस्यों को नामित कर सकते हैं? / Number of nominated members in Rajya Sabha?",
+    "options": [
+      {
+        "id": "A",
+        "text": "15 सदस्य / 15 members"
+      },
+      {
+        "id": "B",
+        "text": "14 सदस्य / 14 members"
+      },
+      {
+        "id": "C",
+        "text": "12 सदस्य / 12 members"
+      },
+      {
+        "id": "D",
+        "text": "10 सदस्य / 10 members"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "parliament",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 80 के तहत राष्ट्रपति साहित्य, विज्ञान, कला और समाज सेवा में विशेष ज्ञान/अनुभव रखने वाले 12 सदस्यों को नामित कर सकते हैं। राज्यसभा की अधिकतम सदस्य-संख्या 250 है—238 तक निर्वाचित प्रतिनिधि और 12 नामित। नामित सदस्य राष्ट्रपति चुनाव में मत नहीं देते, पर उपराष्ट्रपति चुनाव में दोनों सदनों के सभी सदस्य भाग लेते हैं। लोकसभा का Anglo-Indian नामांकन 104वें संशोधन से समाप्त हुआ।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq044",
+    "subjectId": "polity",
+    "question": "अनुच्छेद 356 के तहत राष्ट्रपति शासन किसकी रिपोर्ट पर लगाया जा सकता है? / Whose report may be a basis for President’s Rule?",
+    "options": [
+      {
+        "id": "A",
+        "text": "राज्यपाल / Governor"
+      },
+      {
+        "id": "B",
+        "text": "मुख्यमंत्री / Chief Minister"
+      },
+      {
+        "id": "C",
+        "text": "निर्वाचन आयोग / Election Commission"
+      },
+      {
+        "id": "D",
+        "text": "CJI / Chief Justice"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "emergency",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 356 के तहत राज्यपाल की रिपोर्ट या अन्यथा राष्ट्रपति को संतोष हो कि राज्य सरकार संविधान के अनुसार नहीं चलाई जा सकती, तो राष्ट्रपति शासन की उद्घोषणा की जा सकती है। राज्यपाल की रिपोर्ट एकमात्र अनिवार्य आधार नहीं है। संसद के दोनों सदनों का अनुमोदन दो महीने में आवश्यक है। S. R. Bommai (1994) ने अनुच्छेद 356 के प्रयोग को न्यायिक समीक्षा के अधीन माना। 352 राष्ट्रीय आपातकाल और 360 वित्तीय आपातकाल है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq045",
+    "subjectId": "polity",
+    "question": "PDF में सेवानिवृत्त राष्ट्रपति को कौन-सी सुविधा बताई गई है? / Which post-retirement facility is listed in the PDF?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कैबिनेट मंत्री पद स्वतः / Automatic Cabinet post"
+      },
+      {
+        "id": "B",
+        "text": "किराया-मुक्त सुसज्जित आवास, निजी स्टाफ और पेंशन / Rent-free furnished residence, personal staff and pension"
+      },
+      {
+        "id": "C",
+        "text": "आजीवन पुनर्निर्वाचन / Lifetime re-election"
+      },
+      {
+        "id": "D",
+        "text": "राज्यसभा की आजीवन सदस्यता / Lifetime Rajya Sabha membership"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "president-current-affairs",
+    "difficulty": "medium",
+    "explanation": "PDF में rent-free furnished residence, personal staff और pension वाला विकल्प चिह्नित है। ये सुविधाएँ President’s Emoluments and Pension Act, 1951 तथा संशोधनों से नियंत्रित हैं; यह कोई संवैधानिक शक्ति नहीं बल्कि वैधानिक पदोत्तर सुविधा है। राष्ट्रपति का कार्यकाल अनुच्छेद 56 में पाँच वर्ष है और पुनर्निर्वाचन संभव है (57)। पेंशन की राशि कानून में बदलाव से बदल सकती है; PDF में दी राशि को स्थायी संवैधानिक तथ्य न मानें।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq046",
+    "subjectId": "polity",
+    "question": "PDF के मार्च 2026 संदर्भ में One Nation, One Election रोडमैप के समय राष्ट्रपति कौन थीं? / President at the time stated in the PDF?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ओम बिरला / Om Birla"
+      },
+      {
+        "id": "B",
+        "text": "द्रौपदी मुर्मू / Droupadi Murmu"
+      },
+      {
+        "id": "C",
+        "text": "नरेंद्र मोदी / Narendra Modi"
+      },
+      {
+        "id": "D",
+        "text": "जगदीप धनखड़ / Jagdeep Dhankhar"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "president-current-affairs",
+    "difficulty": "medium",
+    "explanation": "PDF में उत्तर द्रौपदी मुर्मू चिह्नित है। यह समय-विशिष्ट पदाधिकारी प्रश्न है। One Nation, One Election का संवैधानिक पक्ष लोकसभा और राज्य विधानसभाओं के कार्यकाल तथा चुनाव-समय के समन्वय से जुड़ा है। इस प्रश्न में PDF का समय-संदर्भ रखा गया है; विधेयक की सटीक प्रस्तुति-तिथि/स्थिति इस प्रश्न का उत्तर नहीं है। राष्ट्रपति का निर्वाचन अनुच्छेद 54 और कार्यकाल 56 में है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq047",
+    "subjectId": "polity",
+    "question": "भारत में सबसे लंबे समय तक प्रधानमंत्री कौन रहे? / Longest-serving Prime Minister of India?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मनमोहन सिंह / Manmohan Singh"
+      },
+      {
+        "id": "B",
+        "text": "इंदिरा गांधी / Indira Gandhi"
+      },
+      {
+        "id": "C",
+        "text": "जवाहरलाल नेहरू / Jawaharlal Nehru"
+      },
+      {
+        "id": "D",
+        "text": "नरेंद्र मोदी / Narendra Modi"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "prime-minister",
+    "difficulty": "easy",
+    "explanation": "जवाहरलाल नेहरू 15 अगस्त 1947 से 27 मई 1964 तक प्रधानमंत्री रहे और भारत के सबसे लंबे समय तक पद पर रहे प्रधानमंत्री हैं। नियुक्ति राष्ट्रपति अनुच्छेद 75(1) के तहत करते हैं; मंत्रिपरिषद लोकसभा के प्रति सामूहिक रूप से उत्तरदायी है (75(3))। नेहरू भारत के प्रथम प्रधानमंत्री थे; इंदिरा गांधी सबसे लंबे समय तक पद पर रहने वाली महिला प्रधानमंत्री थीं।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq048",
+    "subjectId": "polity",
+    "question": "PDF में U.S. President’s Volunteer Service Award पाने वाले पहले भारतीय साधु के रूप में किस जैन आचार्य का नाम है? / Which Jain Acharya is named in the PDF?",
+    "options": [
+      {
+        "id": "A",
+        "text": "शांतिसागर / Shantisagar"
+      },
+      {
+        "id": "B",
+        "text": "जिनेंद्र वर्णी / Jinendra Varni"
+      },
+      {
+        "id": "C",
+        "text": "जैन आचार्य लोकेश / Jain Acharya Lokesh"
+      },
+      {
+        "id": "D",
+        "text": "माधवाचार्य / Madhvacharya"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "awards-personalities",
+    "difficulty": "easy",
+    "explanation": "PDF में जैन आचार्य लोकेश का नाम चिह्नित है। यह व्यक्तित्व/सम्मान आधारित समसामयिक प्रश्न है, संवैधानिक अनुच्छेद नहीं। U.S. President’s Volunteer Service Award स्वयंसेवी सेवा के लिए दिया जाने वाला सम्मान है। परीक्षा में व्यक्ति, सम्मान और संबंधित देश/संस्था को एक साथ याद रखें। पेन-नोट में Jainism, knowledge, faith और conduct जैसे संकेत पढ़े जा सकते हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq049",
+    "subjectId": "polity",
+    "question": "PDF के अनुसार फरवरी 2024 में CVC में Vigilance Commissioner किसे नियुक्त किया गया? / Who was appointed Vigilance Commissioner in February 2024?",
+    "options": [
+      {
+        "id": "A",
+        "text": "संजय कोठारी / Sanjay Kothari"
+      },
+      {
+        "id": "B",
+        "text": "राजेश वर्मा / Rajesh Verma"
+      },
+      {
+        "id": "C",
+        "text": "सुरेश एन. पटेल / Suresh N. Patel"
+      },
+      {
+        "id": "D",
+        "text": "ए. एस. राजीव / A. S. Rajeev"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "constitutional-bodies",
+    "difficulty": "medium",
+    "explanation": "PDF में A. S. Rajeev उत्तर चिह्नित है। केंद्रीय सतर्कता आयोग 1964 में संथानम समिति की सिफारिश पर बना और 2003 के कानून से वैधानिक दर्जा मिला। केंद्रीय सतर्कता आयुक्त/आयुक्तों की नियुक्ति राष्ट्रपति करते हैं। चयन समिति में प्रधानमंत्री, गृह मंत्री और लोकसभा में विपक्ष के नेता शामिल होते हैं। CVC केंद्रीय सरकारी संगठनों में सतर्कता प्रशासन से संबंधित है, CBI का पर्याय नहीं। नियुक्ति-तिथि PDF का ऐतिहासिक तथ्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq050",
+    "subjectId": "polity",
+    "question": "संविधान की सातवीं अनुसूची में कौन-सी सूचियाँ हैं? / Which lists are in the Seventh Schedule?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भाषाएँ और दल-बदल / Languages and defection"
+      },
+      {
+        "id": "B",
+        "text": "पंचायत और नगरपालिका विषय / Panchayat and municipal subjects"
+      },
+      {
+        "id": "C",
+        "text": "संघ, राज्य और समवर्ती सूची / Union, State and Concurrent Lists"
+      },
+      {
+        "id": "D",
+        "text": "राज्यों के नाम, शपथ, वेतन / States, oaths and salaries"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "seventh-schedule",
+    "difficulty": "easy",
+    "explanation": "सातवीं अनुसूची में विधायी विषयों का संघ सूची, राज्य सूची और समवर्ती सूची में बँटवारा है। सामान्यतः संसद संघ सूची, राज्य विधानमंडल राज्य सूची और दोनों समवर्ती सूची पर कानून बना सकते हैं। समवर्ती सूची में टकराव पर अनुच्छेद 254 लागू होता है। अवशिष्ट शक्तियाँ संसद में अनुच्छेद 248 और संघ सूची प्रविष्टि 97 के तहत हैं। छठी अनुसूची जनजातीय क्षेत्रों और दसवीं अनुसूची दल-बदल से संबंधित है।",
+    "language": "hi"
+  }
+]

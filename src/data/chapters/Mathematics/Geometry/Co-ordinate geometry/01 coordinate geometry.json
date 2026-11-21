@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "math_coord_001",
+    "subjectId": "mathematics",
+    "question": "बिंदु (−5, 7) कार्तीय तल के किस चतुर्थांश (Quadrant) में स्थित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "प्रथम चतुर्थांश (I)"
+      },
+      {
+        "id": "B",
+        "text": "द्वितीय चतुर्थांश (II)"
+      },
+      {
+        "id": "C",
+        "text": "तृतीय चतुर्थांश (III)"
+      },
+      {
+        "id": "D",
+        "text": "चतुर्थ चतुर्थांश (IV)"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coordinate-geometry",
+    "difficulty": "easy",
+    "explanation": "चूँकि x-निर्देशांक (−5) ऋणात्मक और y-निर्देशांक (+7) धनात्मक है (−, +), अतः बिंदु द्वितीय चतुर्थांश (II) में स्थित है।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_002",
+    "subjectId": "mathematics",
+    "question": "यदि बिंदु P(4, −9) का भुज (Abscissa) तथा बिंदु Q(−3, 6) की कोटि (Ordinate) हो, तो इन दोनों का योग क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "1"
+      },
+      {
+        "id": "B",
+        "text": "−5"
+      },
+      {
+        "id": "C",
+        "text": "10"
+      },
+      {
+        "id": "D",
+        "text": "−13"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coordinate-geometry",
+    "difficulty": "easy",
+    "explanation": "P(4, −9) का भुज (x-निर्देशांक) = 4 और Q(−3, 6) की कोटि (y-निर्देशांक) = 6। अतः योग = 4 + 6 = 10।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_003",
+    "subjectId": "mathematics",
+    "question": "बिंदु (−6, 8) की X-अक्ष, Y-अक्ष तथा मूल बिंदु से दूरियाँ क्रमशः क्या हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6, 8, 10"
+      },
+      {
+        "id": "B",
+        "text": "8, 6, 10"
+      },
+      {
+        "id": "C",
+        "text": "−6, 8, 14"
+      },
+      {
+        "id": "D",
+        "text": "8, 6, 14"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coordinate-geometry",
+    "difficulty": "easy",
+    "explanation": "X-अक्ष से दूरी = |y| = 8; Y-अक्ष से दूरी = |x| = |−6| = 6; मूल बिंदु से दूरी = √((−6)² + 8²) = √100 = 10।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_004",
+    "subjectId": "mathematics",
+    "question": "बिंदु (3, −4) का Y-अक्ष के सापेक्ष प्रतिबिंब (Reflection) लेने पर प्राप्त बिंदु का पुनः मूल बिंदु के सापेक्ष प्रतिबिंब क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(−3, 4)"
+      },
+      {
+        "id": "B",
+        "text": "(3, 4)"
+      },
+      {
+        "id": "C",
+        "text": "(−3, −4)"
+      },
+      {
+        "id": "D",
+        "text": "(4, −3)"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "Y-अक्ष के सापेक्ष (3, −4) का प्रतिबिंब = (−3, −4)। पुनः मूल बिंदु के सापेक्ष (−3, −4) का प्रतिबिंब (चिह्न बदलने पर) = (3, 4)।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_005",
+    "subjectId": "mathematics",
+    "question": "बिंदु (2, 5) का रेखा x = 4 के सापेक्ष प्रतिबिंब ज्ञात कीजिए तथा प्राप्त बिंदु का रेखा y = x के सापेक्ष प्रतिबिंब बताइए।",
+    "options": [
+      {
+        "id": "A",
+        "text": "(5, 6)"
+      },
+      {
+        "id": "B",
+        "text": "(6, 5)"
+      },
+      {
+        "id": "C",
+        "text": "(5, −6)"
+      },
+      {
+        "id": "D",
+        "text": "(4, 5)"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "रेखा x = a के सापेक्ष (x, y) का प्रतिबिंब (2a − x, y) होता है → (2×4 − 2, 5) = (6, 5)। अब y = x के सापेक्ष (6, 5) का प्रतिबिंब = (5, 6)।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_006",
+    "subjectId": "mathematics",
+    "question": "यदि बिंदुओं (k, 3) तथा (2, −1) के बीच की दूरी 5 इकाई है, तो k के संभावित मान क्या हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 या −3"
+      },
+      {
+        "id": "B",
+        "text": "−5 या 1"
+      },
+      {
+        "id": "C",
+        "text": "4 या −2"
+      },
+      {
+        "id": "D",
+        "text": "5 या −1"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "√((k − 2)² + (3 − (−1))²) = 5 ⇒ (k − 2)² + 16 = 25 ⇒ (k − 2)² = 9 ⇒ k − 2 = ±3 ⇒ k = 5 या −1।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_007",
+    "subjectId": "mathematics",
+    "question": "X-अक्ष पर स्थित वह बिंदु कौन-सा है जो बिंदुओं A(2, −5) तथा B(−2, 9) से समान दूरी पर है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(−5, 0)"
+      },
+      {
+        "id": "B",
+        "text": "(7, 0)"
+      },
+      {
+        "id": "C",
+        "text": "(−7, 0)"
+      },
+      {
+        "id": "D",
+        "text": "(0, −7)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "माना बिंदु (x, 0) है। (x − 2)² + (0 + 5)² = (x + 2)² + (0 − 9)² ⇒ x² − 4x + 29 = x² + 4x + 85 ⇒ −8x = 56 ⇒ x = −7। अतः बिंदु (−7, 0)।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_008",
+    "subjectId": "mathematics",
+    "question": "यदि बिंदु A(1, 2), B(4, y), C(x, 6) और D(3, 5) इसी क्रम में एक समांतर चतुर्भुज के शीर्ष हैं, तो (x, y) का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(3, 6)"
+      },
+      {
+        "id": "B",
+        "text": "(6, 3)"
+      },
+      {
+        "id": "C",
+        "text": "(5, 4)"
+      },
+      {
+        "id": "D",
+        "text": "(7, 2)"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coordinate-geometry",
+    "difficulty": "easy",
+    "explanation": "समांतर चतुर्भुज के विकर्ण परस्पर समद्विभाजित करते हैं (A + C = B + D): 1 + x = 4 + 3 ⇒ x = 6; तथा 2 + 6 = y + 5 ⇒ y = 3।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_009",
+    "subjectId": "mathematics",
+    "question": "बिंदुओं (2, −3) तथा (7, 7) को मिलाने वाले रेखाखंड को 2 : 3 के अनुपात में अंतः विभाजित करने वाले बिंदु के निर्देशांक क्या हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(4, 1)"
+      },
+      {
+        "id": "B",
+        "text": "(5, 2)"
+      },
+      {
+        "id": "C",
+        "text": "(3, 1)"
+      },
+      {
+        "id": "D",
+        "text": "(4, −1)"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coordinate-geometry",
+    "difficulty": "easy",
+    "explanation": "अंतः विभाजन सूत्र से: x = (2×7 + 3×2)/(2+3) = 20/5 = 4; y = (2×7 + 3×(−3))/(2+3) = 5/5 = 1। अतः बिंदु (4, 1)।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_010",
+    "subjectId": "mathematics",
+    "question": "बिंदुओं (3, 4) तथा (6, −2) को मिलाने वाले रेखाखंड को 3 : 2 के अनुपात में बाह्य विभाजित करने वाले बिंदु के निर्देशांक क्या होंगे?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(10, −10)"
+      },
+      {
+        "id": "B",
+        "text": "(−12, 14)"
+      },
+      {
+        "id": "C",
+        "text": "(9, −8)"
+      },
+      {
+        "id": "D",
+        "text": "(12, −14)"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "बाह्य विभाजन सूत्र से: x = (3×6 − 2×3)/(3−2) = 12; y = (3×(−2) − 2×4)/(3−2) = −14। अतः बिंदु (12, −14)।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_011",
+    "subjectId": "mathematics",
+    "question": "Y-अक्ष बिंदुओं (−4, 5) तथा (6, −3) को मिलाने वाले रेखाखंड को किस अनुपात में विभाजित करता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5 : 3 (अंतः)"
+      },
+      {
+        "id": "B",
+        "text": "3 : 2 (अंतः)"
+      },
+      {
+        "id": "C",
+        "text": "2 : 3 (अंतः)"
+      },
+      {
+        "id": "D",
+        "text": "2 : 3 (बाह्य)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "Y-अक्ष पर x = 0 होता है। अनुपात = −x₁ : x₂ = −(−4) : 6 = 4 : 6 = 2 : 3 (धनात्मक होने के कारण अंतः विभाजन)।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_012",
+    "subjectId": "mathematics",
+    "question": "रेखा 2x + y − 4 = 0 बिंदुओं A(2, −2) तथा B(3, 7) को मिलाने वाले रेखाखंड को किस अनुपात में विभाजित करती है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9 : 2 (अंतः)"
+      },
+      {
+        "id": "B",
+        "text": "2 : 9 (अंतः)"
+      },
+      {
+        "id": "C",
+        "text": "2 : 7 (अंतः)"
+      },
+      {
+        "id": "D",
+        "text": "2 : 9 (बाह्य)"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "अनुपात = −(ax₁ + by₁ + c) : (ax₂ + by₂ + c) = −(4 − 2 − 4) : (6 + 7 − 4) = 2 : 9 (अंतः विभाजन)।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_013",
+    "subjectId": "mathematics",
+    "question": "बिंदुओं A(2, −2) तथा B(−7, 4) को जोड़ने वाले रेखाखंड को समत्रिभाजित (Trisect) करने वाले बिंदुओं के निर्देशांक क्या हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(−1, 0) तथा (−4, 2)"
+      },
+      {
+        "id": "B",
+        "text": "(−2, 0) तथा (−5, 2)"
+      },
+      {
+        "id": "C",
+        "text": "(−1, 1) तथा (−4, 3)"
+      },
+      {
+        "id": "D",
+        "text": "(1, 0) तथा (4, −2)"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "1 : 2 के अनुपात से पहला बिंदु = ((−7 + 4)/3, (4 − 4)/3) = (−1, 0) तथा 2 : 1 के अनुपात से दूसरा बिंदु = ((−14 + 2)/3, (8 − 2)/3) = (−4, 2)।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_014",
+    "subjectId": "mathematics",
+    "question": "एक त्रिभुज का केंद्रक (Centroid) (4, 3) है। यदि इसके दो शीर्ष (2, −1) तथा (6, 5) हैं, तो तीसरे शीर्ष के निर्देशांक क्या होंगे?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(4, 3)"
+      },
+      {
+        "id": "B",
+        "text": "(5, 4)"
+      },
+      {
+        "id": "C",
+        "text": "(3, 6)"
+      },
+      {
+        "id": "D",
+        "text": "(4, 5)"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coordinate-geometry",
+    "difficulty": "easy",
+    "explanation": "केंद्रक G = ((x₁+x₂+x₃)/3, (y₁+y₂+y₃)/3) ⇒ x₃ = 3(4) − (2 + 6) = 4; y₃ = 3(3) − (−1 + 5) = 5। अतः तीसरा शीर्ष (4, 5)।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_015",
+    "subjectId": "mathematics",
+    "question": "शीर्षों A(0, 0), B(3, 0) तथा C(0, 4) से बने त्रिभुज का अंतःकेंद्र (Incenter) क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(1, 4/3)"
+      },
+      {
+        "id": "B",
+        "text": "(1.5, 2)"
+      },
+      {
+        "id": "C",
+        "text": "(1, 1)"
+      },
+      {
+        "id": "D",
+        "text": "(3/2, 3/2)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "भुजाएँ a = BC = 5, b = AC = 4, c = AB = 3 हैं। अंतःकेंद्र I = ((ax₁+bx₂+cx₃)/(a+b+c), (ay₁+by₂+cy₃)/(a+b+c)) = (12/12, 12/12) = (1, 1)।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_016",
+    "subjectId": "mathematics",
+    "question": "शीर्षों A(0, 0), B(6, 0) और C(0, 8) वाले त्रिभुज के परिकेंद्र (Circumcenter) तथा लंबकेंद्र (Orthocenter) के बीच की दूरी क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 इकाई"
+      },
+      {
+        "id": "B",
+        "text": "5 इकाई"
+      },
+      {
+        "id": "C",
+        "text": "7 इकाई"
+      },
+      {
+        "id": "D",
+        "text": "2.5 इकाई"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "यहाँ ∠A = 90° है। समकोण त्रिभुज में लंबकेंद्र समकोण शीर्ष A(0, 0) होता है और परिकेंद्र कर्ण BC का मध्य-बिंदु (3, 4) होता है। अतः दूरी = √(3² + 4²) = 5 इकाई।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_017",
+    "subjectId": "mathematics",
+    "question": "बिंदुओं (1, 2), (4, 6) तथा (−2, 5) से बनने वाले त्रिभुज का क्षेत्रफल (वर्ग इकाई में) क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10.5"
+      },
+      {
+        "id": "B",
+        "text": "12.5"
+      },
+      {
+        "id": "C",
+        "text": "9.5"
+      },
+      {
+        "id": "D",
+        "text": "21"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "शीर्ष (1, 2) को (0, 0) पर स्थानांतरित करने पर नए बिंदु (3, 4) व (−3, 3)। क्षेत्रफल = ½|3×3 − 4×(−3)| = ½|9 + 12| = 21/2 = 10.5 वर्ग इकाई।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_018",
+    "subjectId": "mathematics",
+    "question": "यदि बिंदु (1, 4), (k, −2) तथा (−3, 16) संरेख (Collinear) हैं, तो k का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "−3"
+      },
+      {
+        "id": "C",
+        "text": "2"
+      },
+      {
+        "id": "D",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "संरेखता के लिए ढाल बराबर होंगे: (−2 − 4)/(k − 1) = (16 − 4)/(−3 − 1) ⇒ −6/(k − 1) = −3 ⇒ k − 1 = 2 ⇒ k = 3।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_019",
+    "subjectId": "mathematics",
+    "question": "शीर्षों A(1, 1), B(7, −3), C(12, 2) तथा D(7, 21) से बने चतुर्भुज ABCD का क्षेत्रफल क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "140 वर्ग इकाई"
+      },
+      {
+        "id": "B",
+        "text": "124 वर्ग इकाई"
+      },
+      {
+        "id": "C",
+        "text": "132 वर्ग इकाई"
+      },
+      {
+        "id": "D",
+        "text": "264 वर्ग इकाई"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "शूलेस सूत्र से: ½|(1×(−3) + 7×2 + 12×21 + 7×1) − (1×7 + (−3)×12 + 2×7 + 21×1)| = ½|270 − 6| = 132 वर्ग इकाई।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_020",
+    "subjectId": "mathematics",
+    "question": "सरल रेखा 3x + 4y = 24 तथा निर्देशांक अक्षों द्वारा निर्मित त्रिभुज का क्षेत्रफल क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "12 वर्ग इकाई"
+      },
+      {
+        "id": "B",
+        "text": "24 वर्ग इकाई"
+      },
+      {
+        "id": "C",
+        "text": "48 वर्ग इकाई"
+      },
+      {
+        "id": "D",
+        "text": "18 वर्ग इकाई"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "रेखा का x-अंतःखंड = 24/3 = 8 और y-अंतःखंड = 24/4 = 6। अतः क्षेत्रफल = ½ × |x-अंतःखंड| × |y-अंतःखंड| = ½ × 8 × 6 = 24 वर्ग इकाई।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_021",
+    "subjectId": "mathematics",
+    "question": "रेखाओं x = 0, y = 0, 2x + 3y = 6 तथा 2x + 3y = 12 से घिरे चतुर्भुज (समलंब) का क्षेत्रफल क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "9 वर्ग इकाई"
+      },
+      {
+        "id": "B",
+        "text": "12 वर्ग इकाई"
+      },
+      {
+        "id": "C",
+        "text": "6 वर्ग इकाई"
+      },
+      {
+        "id": "D",
+        "text": "15 वर्ग इकाई"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "बड़े त्रिभुज (2x + 3y = 12) का क्षेत्रफल = ½ × 6 × 4 = 12; छोटे त्रिभुज (2x + 3y = 6) का क्षेत्रफल = ½ × 3 × 2 = 3। अभीष्ट क्षेत्रफल = 12 − 3 = 9 वर्ग इकाई।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_022",
+    "subjectId": "mathematics",
+    "question": "बिंदुओं (2, 1) तथा (2 + √3, 2) से होकर जाने वाली रेखा धनात्मक X-अक्ष के साथ कितना कोण बनाती है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "150°"
+      },
+      {
+        "id": "B",
+        "text": "45°"
+      },
+      {
+        "id": "C",
+        "text": "60°"
+      },
+      {
+        "id": "D",
+        "text": "30°"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coordinate-geometry",
+    "difficulty": "easy",
+    "explanation": "ढाल m = (y₂ − y₁)/(x₂ − x₁) = (2 − 1)/(2 + √3 − 2) = 1/√3 = tan 30° ⇒ θ = 30°।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_023",
+    "subjectId": "mathematics",
+    "question": "सरल रेखा 4x − 5y + 20 = 0 की ढाल (Slope) तथा Y-अंतःखंड (y-intercept) क्रमशः क्या हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4/5 तथा −5"
+      },
+      {
+        "id": "B",
+        "text": "−4/5 तथा 4"
+      },
+      {
+        "id": "C",
+        "text": "4/5 तथा 4"
+      },
+      {
+        "id": "D",
+        "text": "5/4 तथा 4"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coordinate-geometry",
+    "difficulty": "easy",
+    "explanation": "y = mx + c रूप में बदलने पर: 5y = 4x + 20 ⇒ y = (4/5)x + 4। अतः ढाल m = 4/5 तथा y-अंतःखंड c = 4।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_024",
+    "subjectId": "mathematics",
+    "question": "बिंदु (2, −3) से होकर जाने वाली तथा −2 ढाल वाली सरल रेखा का समीकरण क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2x − y − 7 = 0"
+      },
+      {
+        "id": "B",
+        "text": "2x + y − 1 = 0"
+      },
+      {
+        "id": "C",
+        "text": "2x + y + 1 = 0"
+      },
+      {
+        "id": "D",
+        "text": "x + 2y + 4 = 0"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "बिंदु-ढाल रूप (y − y₁) = m(x − x₁) से: y − (−3) = −2(x − 2) ⇒ y + 3 = −2x + 4 ⇒ 2x + y − 1 = 0।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_025",
+    "subjectId": "mathematics",
+    "question": "उस सरल रेखा का समीकरण ज्ञात कीजिए जो बिंदु (2, 3) से गुजरती है और जिसका X-अंतःखंड उसके Y-अंतःखंड का दोगुना है।",
+    "options": [
+      {
+        "id": "A",
+        "text": "x + 2y = 8"
+      },
+      {
+        "id": "B",
+        "text": "2x + y = 7"
+      },
+      {
+        "id": "C",
+        "text": "x + 2y = 10"
+      },
+      {
+        "id": "D",
+        "text": "2x + y = 8"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "माना y-अंतःखंड = b, तो x-अंतःखंड = 2b। समीकरण x/(2b) + y/b = 1 में (2, 3) रखने पर: 2/(2b) + 3/b = 1 ⇒ 4/b = 1 ⇒ b = 4। अतः x/8 + y/4 = 1 ⇒ x + 2y = 8।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_026",
+    "subjectId": "mathematics",
+    "question": "उस रेखा का समीकरण क्या होगा जिस पर मूल बिंदु से डाले गए लंब की लंबाई 4 इकाई है और यह लंब धनात्मक X-अक्ष से 60° का कोण बनाता है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "√3x − y = 8"
+      },
+      {
+        "id": "B",
+        "text": "√3x + y = 8"
+      },
+      {
+        "id": "C",
+        "text": "x + √3y = 4"
+      },
+      {
+        "id": "D",
+        "text": "x + √3y = 8"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "अभिलंब रूप x cos α + y sin α = p में α = 60° और p = 4 रखने पर: x(1/2) + y(√3/2) = 4 ⇒ x + √3y = 8।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_027",
+    "subjectId": "mathematics",
+    "question": "रेखा 3x − 4y + 7 = 0 के समांतर तथा बिंदु (−2, 5) से होकर जाने वाली रेखा का समीकरण क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4x + 3y − 7 = 0"
+      },
+      {
+        "id": "B",
+        "text": "3x − 4y − 26 = 0"
+      },
+      {
+        "id": "C",
+        "text": "3x − 4y + 26 = 0"
+      },
+      {
+        "id": "D",
+        "text": "3x + 4y − 14 = 0"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "समांतर रेखा का रूप 3x − 4y + k = 0 होगा। बिंदु (−2, 5) रखने पर: 3(−2) − 4(5) + k = 0 ⇒ k = 26। अतः 3x − 4y + 26 = 0।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_028",
+    "subjectId": "mathematics",
+    "question": "बिंदुओं A(1, 5) तथा B(5, −3) को मिलाने वाले रेखाखंड के लंब समद्विभाजक (Perpendicular Bisector) का समीकरण क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "x + 2y − 5 = 0"
+      },
+      {
+        "id": "B",
+        "text": "x − 2y − 1 = 0"
+      },
+      {
+        "id": "C",
+        "text": "2x − y − 5 = 0"
+      },
+      {
+        "id": "D",
+        "text": "x − 2y + 1 = 0"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "AB का मध्य-बिंदु = (3, 1) और AB की ढाल = (−3−5)/(5−1) = −2। लंब समद्विभाजक की ढाल = 1/2। समीकरण: y − 1 = ½(x − 3) ⇒ x − 2y − 1 = 0।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_029",
+    "subjectId": "mathematics",
+    "question": "रेखाओं x − √3y + 2 = 0 तथा √3x − y + 5 = 0 के बीच का न्यूनकोण (Acute Angle) क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30°"
+      },
+      {
+        "id": "B",
+        "text": "45°"
+      },
+      {
+        "id": "C",
+        "text": "60°"
+      },
+      {
+        "id": "D",
+        "text": "15°"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "m₁ = 1/√3 (θ₁ = 30°) तथा m₂ = √3 (θ₂ = 60°)। अतः दोनों रेखाओं के बीच का न्यूनकोण = |60° − 30°| = 30°।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_030",
+    "subjectId": "mathematics",
+    "question": "बिंदु (2, 3) से रेखा x + y − 7 = 0 पर डाले गए लंब के पाद (Foot of Perpendicular) के निर्देशांक क्या हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(5, 2)"
+      },
+      {
+        "id": "B",
+        "text": "(4, 3)"
+      },
+      {
+        "id": "C",
+        "text": "(2, 5)"
+      },
+      {
+        "id": "D",
+        "text": "(3, 4)"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "सूत्र (x−x₁)/a = (y−y₁)/b = −(ax₁+by₁+c)/(a²+b²) से: (x−2)/1 = (y−3)/1 = −(2+3−7)/2 = 1 ⇒ x = 3, y = 4।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_031",
+    "subjectId": "mathematics",
+    "question": "यदि तीन रेखाएँ 2x + y − 3 = 0, 5x + ky − 3 = 0 तथा 3x − y − 2 = 0 संगामी (Concurrent) हैं, तो k का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "−3"
+      },
+      {
+        "id": "B",
+        "text": "2"
+      },
+      {
+        "id": "C",
+        "text": "−2"
+      },
+      {
+        "id": "D",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "पहली और तीसरी रेखा को हल करने पर प्रतिच्छेदन बिंदु (1, 1) प्राप्त होता है। इसे दूसरी रेखा में रखने पर: 5(1) + k(1) − 3 = 0 ⇒ k = −2।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_032",
+    "subjectId": "mathematics",
+    "question": "बिंदु (3, −5) से सरल रेखा 3x − 4y − 26 = 0 की लंबवत दूरी कितनी है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4/5 इकाई"
+      },
+      {
+        "id": "B",
+        "text": "3/5 इकाई"
+      },
+      {
+        "id": "C",
+        "text": "1 इकाई"
+      },
+      {
+        "id": "D",
+        "text": "7/5 इकाई"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "दूरी d = |ax₁ + by₁ + c| / √(a² + b²) = |3(3) − 4(−5) − 26| / √(3² + 4²) = |9 + 20 − 26| / 5 = 3/5 इकाई।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_033",
+    "subjectId": "mathematics",
+    "question": "दो समांतर रेखाओं 3x + 4y − 9 = 0 तथा 6x + 8y + 15 = 0 के बीच की लंबवत दूरी क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "33/10 इकाई"
+      },
+      {
+        "id": "B",
+        "text": "24/5 इकाई"
+      },
+      {
+        "id": "C",
+        "text": "3/10 इकाई"
+      },
+      {
+        "id": "D",
+        "text": "15/10 इकाई"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "दूसरी रेखा को 2 से भाग देने पर 3x + 4y + 15/2 = 0। दूरी = |c₂ − c₁|/√(a²+b²) = |15/2 − (−9)| / 5 = (33/2)/5 = 33/10 इकाई।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_034",
+    "subjectId": "mathematics",
+    "question": "समांतर रेखाओं 5x + 12y − 7 = 0 तथा 5x + 12y + 19 = 0 से ठीक बराबर दूरी पर स्थित समांतर रेखा का समीकरण क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5x + 12y + 12 = 0"
+      },
+      {
+        "id": "B",
+        "text": "5x + 12y − 6 = 0"
+      },
+      {
+        "id": "C",
+        "text": "5x + 12y + 13 = 0"
+      },
+      {
+        "id": "D",
+        "text": "5x + 12y + 6 = 0"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "दोनों समांतर रेखाओं के मध्य स्थित रेखा के लिए c = (c₁ + c₂)/2 = (−7 + 19)/2 = 6। अतः अभीष्ट समीकरण 5x + 12y + 6 = 0।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_035",
+    "subjectId": "mathematics",
+    "question": "एक वर्ग की दो सम्मुख भुजाएँ रेखाओं 5x − 12y + 10 = 0 तथा 5x − 12y − 16 = 0 पर स्थित हैं। उस वर्ग का क्षेत्रफल क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "16 वर्ग इकाई"
+      },
+      {
+        "id": "B",
+        "text": "2 वर्ग इकाई"
+      },
+      {
+        "id": "C",
+        "text": "4 वर्ग इकाई"
+      },
+      {
+        "id": "D",
+        "text": "9 वर्ग इकाई"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "दोनों समांतर रेखाओं के बीच की दूरी (वर्ग की भुजा) = |10 − (−16)| / √(5² + 12²) = 26/13 = 2 इकाई। अतः वर्ग का क्षेत्रफल = 2² = 4 वर्ग इकाई।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_036",
+    "subjectId": "mathematics",
+    "question": "k के किस मान के लिए समीकरण युग्म 3x + 2y = 5 तथा 6x + ky = 7 का कोई हल नहीं (समांतर रेखाएँ) होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "−4"
+      },
+      {
+        "id": "B",
+        "text": "4"
+      },
+      {
+        "id": "C",
+        "text": "3"
+      },
+      {
+        "id": "D",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coordinate-geometry",
+    "difficulty": "easy",
+    "explanation": "कोई हल न होने (समांतर रेखाओं) की शर्त: a₁/a₂ = b₁/b₂ ≠ c₁/c₂ ⇒ 3/6 = 2/k ≠ 5/7 ⇒ k = 4।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_037",
+    "subjectId": "mathematics",
+    "question": "k के किस मान के लिए रैखिक समीकरण 2x + 3y = 7 तथा (k + 1)x + (2k − 1)y = 4k + 1 के अनंत अनेक हल (संपाती रेखाएँ) होंगे?",
+    "options": [
+      {
+        "id": "A",
+        "text": "5"
+      },
+      {
+        "id": "B",
+        "text": "3"
+      },
+      {
+        "id": "C",
+        "text": "4"
+      },
+      {
+        "id": "D",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "संपाती रेखाओं की शर्त a₁/a₂ = b₁/b₂ = c₁/c₂ से: 2/(k+1) = 3/(2k−1) ⇒ 4k − 2 = 3k + 3 ⇒ k = 5 (जो 7/21 = 1/3 को भी संतुष्ट करता है)।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_038",
+    "subjectId": "mathematics",
+    "question": "समीकरणों x = 3, y = 4 तथा 4x + 3y = 36 के ग्राफ से बनने वाले त्रिभुज का क्षेत्रफल क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "10 वर्ग इकाई"
+      },
+      {
+        "id": "B",
+        "text": "12 वर्ग इकाई"
+      },
+      {
+        "id": "C",
+        "text": "8 वर्ग इकाई"
+      },
+      {
+        "id": "D",
+        "text": "6 वर्ग इकाई"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "त्रिभुज के शीर्ष (3, 4), (3, 8) तथा (6, 4) होंगे। यह समकोण त्रिभुज है जिसका आधार = 6 − 3 = 3 तथा ऊँचाई = 8 − 4 = 4। क्षेत्रफल = ½ × 3 × 4 = 6 वर्ग इकाई।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_039",
+    "subjectId": "mathematics",
+    "question": "समीकरण युग्म kx + 2y = 5 तथा 3x + y = 1 का एक अद्वितीय हल (प्रतिच्छेदी रेखाएँ) होने के लिए k की शर्त क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "k ≠ 3"
+      },
+      {
+        "id": "B",
+        "text": "k = 6"
+      },
+      {
+        "id": "C",
+        "text": "k ≠ 6"
+      },
+      {
+        "id": "D",
+        "text": "k = −6"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coordinate-geometry",
+    "difficulty": "easy",
+    "explanation": "अद्वितीय हल (प्रतिच्छेदी रेखाओं) की शर्त a₁/a₂ ≠ b₁/b₂ से: k/3 ≠ 2/1 ⇒ k ≠ 6।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_040",
+    "subjectId": "mathematics",
+    "question": "रेखाओं x + 2y = 5 तथा 3x − y = 1 के प्रतिच्छेदन बिंदु से गुजरने वाली और रेखा y = 2x + 3 के समांतर रेखा का समीकरण क्या है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2x + y = 4"
+      },
+      {
+        "id": "B",
+        "text": "2x − y = 0"
+      },
+      {
+        "id": "C",
+        "text": "x − 2y + 3 = 0"
+      },
+      {
+        "id": "D",
+        "text": "2x − y + 1 = 0"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "दोनों रेखाओं का प्रतिच्छेदन बिंदु (1, 2) है। y = 2x + 3 के समांतर रेखा की ढाल m = 2 होगी। अतः समीकरण: y − 2 = 2(x − 1) ⇒ 2x − y = 0।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_041",
+    "subjectId": "mathematics",
+    "question": "वृत्त x² + y² − 6x + 8y − 11 = 0 का केंद्र (Center) तथा त्रिज्या (Radius) क्रमशः क्या हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(3, −4) तथा 6"
+      },
+      {
+        "id": "B",
+        "text": "(−3, 4) तथा 6"
+      },
+      {
+        "id": "C",
+        "text": "(3, −4) तथा √11"
+      },
+      {
+        "id": "D",
+        "text": "(6, −8) तथा 6"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coordinate-geometry",
+    "difficulty": "easy",
+    "explanation": "x² + y² + 2gx + 2fy + c = 0 से तुलना करने पर g = −3, f = 4, c = −11। केंद्र = (−g, −f) = (3, −4) तथा त्रिज्या = √(g² + f² − c) = √(9 + 16 + 11) = 6।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_042",
+    "subjectId": "mathematics",
+    "question": "उस वृत्त का समीकरण क्या होगा जिसके एक व्यास के सिरों के निर्देशांक (2, −3) तथा (−4, 5) हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "x² + y² − 2x − 2y + 23 = 0"
+      },
+      {
+        "id": "B",
+        "text": "x² + y² − 2x + 2y − 23 = 0"
+      },
+      {
+        "id": "C",
+        "text": "x² + y² + 2x − 2y − 25 = 0"
+      },
+      {
+        "id": "D",
+        "text": "x² + y² + 2x − 2y − 23 = 0"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "व्यास रूप (x−x₁)(x−x₂) + (y−y₁)(y−y₂) = 0 से: (x−2)(x+4) + (y+3)(y−5) = 0 ⇒ x² + y² + 2x − 2y − 23 = 0।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_043",
+    "subjectId": "mathematics",
+    "question": "बाह्य बिंदु (5, 1) से वृत्त x² + y² + 6x − 4y − 3 = 0 पर खींची गई स्पर्श रेखा की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 इकाई"
+      },
+      {
+        "id": "B",
+        "text": "√43 इकाई"
+      },
+      {
+        "id": "C",
+        "text": "7 इकाई"
+      },
+      {
+        "id": "D",
+        "text": "49 इकाई"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "स्पर्श रेखा की लंबाई = √S₁ = √(5² + 1² + 6(5) − 4(1) − 3) = √(25 + 1 + 30 − 4 − 3) = √49 = 7 इकाई।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_044",
+    "subjectId": "mathematics",
+    "question": "यदि सरल रेखा 3x + 4y = k वृत्त x² + y² = 25 को स्पर्श करती है, तो k का मान क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "±5"
+      },
+      {
+        "id": "B",
+        "text": "±25"
+      },
+      {
+        "id": "C",
+        "text": "±15"
+      },
+      {
+        "id": "D",
+        "text": "±20"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "स्पर्शता के लिए केंद्र (0, 0) से रेखा की लंबवत दूरी त्रिज्या r = 5 के बराबर होगी: |−k| / √(3² + 4²) = 5 ⇒ |k|/5 = 5 ⇒ k = ±25।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_045",
+    "subjectId": "mathematics",
+    "question": "वृत्त x² + y² − 8x − 6y + 7 = 0 द्वारा X-अक्ष पर काटे गए अंतःखंड (Chord) की लंबाई क्या होगी?",
+    "options": [
+      {
+        "id": "A",
+        "text": "6 इकाई"
+      },
+      {
+        "id": "B",
+        "text": "3 इकाई"
+      },
+      {
+        "id": "C",
+        "text": "8 इकाई"
+      },
+      {
+        "id": "D",
+        "text": "4 इकाई"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "X-अक्ष पर अंतःखंड की लंबाई = 2√(g² − c) = 2√((−4)² − 7) = 2√(16 − 7) = 2 × 3 = 6 इकाई।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_046",
+    "subjectId": "mathematics",
+    "question": "परवलय (Parabola) y² = 12x की नाभि (Focus) तथा नाभिलंब (Latus Rectum) की लंबाई क्रमशः क्या हैं?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(6, 0) तथा 12"
+      },
+      {
+        "id": "B",
+        "text": "(0, 3) तथा 12"
+      },
+      {
+        "id": "C",
+        "text": "(3, 0) तथा 6"
+      },
+      {
+        "id": "D",
+        "text": "(3, 0) तथा 12"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "y² = 4ax से तुलना करने पर 4a = 12 ⇒ a = 3। अतः नाभि = (a, 0) = (3, 0) तथा नाभिलंब की लंबाई = 4a = 12।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_047",
+    "subjectId": "mathematics",
+    "question": "कार्तीय बिंदु (−1, √3) के ध्रुवीय निर्देशांक (Polar Coordinates) (r, θ) क्या होंगे?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(2, 150°)"
+      },
+      {
+        "id": "B",
+        "text": "(2, 60°)"
+      },
+      {
+        "id": "C",
+        "text": "(2, 120°)"
+      },
+      {
+        "id": "D",
+        "text": "(4, 120°)"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "r = √((−1)² + (√3)²) = 2। बिंदु द्वितीय चतुर्थांश में है और tan θ = √3/(−1) = −√3 ⇒ θ = 180° − 60° = 120°। अतः (2, 120°)।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_048",
+    "subjectId": "mathematics",
+    "question": "एक चर बिंदु P(x, y) इस प्रकार गतिमान है कि बिंदुओं A(0, 0) व B(3, 0) से इसकी दूरियों का अनुपात PA : PB = 2 : 1 है। P का बिंदुपथ (Locus) क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "x² + y² − 4x + 6 = 0"
+      },
+      {
+        "id": "B",
+        "text": "x² + y² − 8x + 12 = 0"
+      },
+      {
+        "id": "C",
+        "text": "3x² + 3y² − 8x + 12 = 0"
+      },
+      {
+        "id": "D",
+        "text": "x² − y² − 8x + 12 = 0"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "PA² = 4·PB² ⇒ x² + y² = 4[(x − 3)² + y²] = 4x² − 24x + 36 + 4y² ⇒ 3x² + 3y² − 24x + 36 = 0 ⇒ x² + y² − 8x + 12 = 0।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_049",
+    "subjectId": "mathematics",
+    "question": "यदि अक्षों की दिशा अपरिवर्तित रखते हुए मूल बिंदु को (2, −3) पर स्थानांतरित कर दिया जाए, तो बिंदु (5, 4) के नए निर्देशांक क्या होंगे?",
+    "options": [
+      {
+        "id": "A",
+        "text": "(3, 7)"
+      },
+      {
+        "id": "B",
+        "text": "(7, 1)"
+      },
+      {
+        "id": "C",
+        "text": "(3, 1)"
+      },
+      {
+        "id": "D",
+        "text": "(−3, −7)"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "coordinate-geometry",
+    "difficulty": "medium",
+    "explanation": "नए निर्देशांक (X, Y) = (x − h, y − k) = (5 − 2, 4 − (−3)) = (3, 7)।",
+    "language": "hi"
+  },
+  {
+    "id": "math_coord_050",
+    "subjectId": "mathematics",
+    "question": "एक वर्ग ABCD के दो सम्मुख शीर्ष A(1, 2) तथा C(5, 6) हैं। इसके दूसरे विकर्ण BD का समीकरण क्या होगा?",
+    "options": [
+      {
+        "id": "A",
+        "text": "2x + y − 10 = 0"
+      },
+      {
+        "id": "B",
+        "text": "x − y + 1 = 0"
+      },
+      {
+        "id": "C",
+        "text": "x + y − 5 = 0"
+      },
+      {
+        "id": "D",
+        "text": "x + y − 7 = 0"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "coordinate-geometry",
+    "difficulty": "hard",
+    "explanation": "वर्ग के विकर्ण परस्पर लंब समद्विभाजित करते हैं। AC का मध्य-बिंदु = (3, 4) तथा AC की ढाल = (6−2)/(5−1) = 1। अतः BD की ढाल = −1 और समीकरण: y − 4 = −1(x − 3) ⇒ x + y − 7 = 0।",
+    "language": "hi"
+  }
+]

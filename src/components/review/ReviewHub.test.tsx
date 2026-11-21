@@ -10,9 +10,9 @@ import type { MarkedReviewQuestion, WrongQuestion } from '../../types';
 
 const DAY = 86_400_000;
 const NOW = Date.now();
-const QUESTIONS: Record<string, { subjectId: string; topicId: string; difficulty: string }> = {
-  m1: { subjectId: 'mathematics', topicId: 'average', difficulty: 'hard' },
-  e1: { subjectId: 'english', topicId: 'idioms', difficulty: 'easy' },
+const QUESTIONS: Record<string, { subjectId: string; topicId: string; difficulty: string; source?: string; subtopicId?: string }> = {
+  m1: { subjectId: 'mathematics', topicId: 'average', difficulty: 'hard', source: 'chapter:mathematics/average/Test 1', subtopicId: 'weighted-average' },
+  e1: { subjectId: 'english', topicId: 'idioms', difficulty: 'easy', source: 'chapter:english/idioms/Test 1', subtopicId: 'phrasal-verbs' },
   r1: { subjectId: 'reasoning', topicId: 'seating', difficulty: 'medium' },
   g1: { subjectId: 'general-awareness', topicId: 'polity', difficulty: 'easy' },
 };
@@ -88,6 +88,32 @@ describe('Review Center (universal)', () => {
     expect(items()).toHaveLength(4); // m1 is here too: same record, second category
   });
 
+  it('filters by Chapter and Concept; the choices narrow as you go, and questions with no chapter never match a chapter', async () => {
+    mount();
+    await waitFor(() => expect(items()).toHaveLength(6));
+    const options = (label: string) => within(screen.getByLabelText(label)).getAllByRole('option').map((o) => (o as HTMLOptionElement).value);
+    expect(options('Chapter')).toEqual(['', 'average', 'idioms']); // only chapters that exist among these questions
+    expect(options('Concept')).toEqual(['', 'weighted-average', 'phrasal-verbs']);
+
+    await userEvent.selectOptions(screen.getByLabelText('Chapter'), 'average');
+    expect(items()).toEqual(['u:m1']);
+    expect(options('Concept')).toEqual(['', 'weighted-average']); // narrowed by the chapter
+    await userEvent.selectOptions(screen.getByLabelText('Concept'), 'weighted-average');
+    expect(items()).toEqual(['u:m1']);
+
+    // Changing the subject clears chapter and concept, and narrows what is offered.
+    await userEvent.selectOptions(screen.getByLabelText('Subject'), 'english');
+    expect((screen.getByLabelText('Chapter') as HTMLSelectElement).value).toBe('');
+    expect((screen.getByLabelText('Concept') as HTMLSelectElement).value).toBe('');
+    expect(options('Chapter')).toEqual(['', 'idioms']);
+    await userEvent.selectOptions(screen.getByLabelText('Chapter'), 'idioms');
+    expect(items()).toEqual(['u:e1']);
+
+    await userEvent.selectOptions(screen.getByLabelText('Subject'), '');
+    await userEvent.selectOptions(screen.getByLabelText('Chapter'), '');
+    expect(items()).toHaveLength(6); // clearing the filters brings back everything, including questions that have no chapter
+  });
+
   it('filters combine and never disagree with the count', async () => {
     mount();
     await waitFor(() => expect(items()).toHaveLength(6));
@@ -160,6 +186,7 @@ describe('Review Center (universal)', () => {
     await userEvent.click(within(dialog).getByLabelText(/Shuffle questions/)); // off → highest priority first
     await userEvent.click(within(dialog).getByRole('radio', { name: /Test \(answers at the end\)/ }));
     await userEvent.type(within(dialog).getByLabelText('Timer (minutes)'), '15');
+    expect(within(dialog).getByTestId('revision-timer-note').textContent).toMatch(/One overall timer.*Sectional timers are available in tests from Practice by Topic/); // the limit is stated, not hidden
     await userEvent.click(within(dialog).getByRole('button', { name: 'Start test' }));
     await screen.findByText('QUIZ SCREEN');
 

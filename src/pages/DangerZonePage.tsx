@@ -6,6 +6,7 @@ import { useQuizStore } from '../store/quizStore';
 import { useNavigate } from 'react-router-dom';
 import { EmptyState } from '../components/common/EmptyState';
 import { getOptionLabel } from '../utils';
+import { ShuffledOptions } from '../components/exam/ShuffledOptions';
 import type { WrongQuestion } from '../types';
 import toast from 'react-hot-toast';
 
@@ -85,8 +86,11 @@ const DangerCard = memo(function DangerCard({
             exit={{ height: 0, opacity: 0 }}
             className="overflow-hidden"
           >
+            {/* Fresh random option order each time the card opens (display only — the answer is the option text). */}
+            <ShuffledOptions key={wq.id} options={wq.options} getKey={(o) => o} getText={(o) => o}>
+            {(orderedOptions) => (
             <div className="mt-3 space-y-2">
-              {wq.options.map((opt, idx) => {
+              {orderedOptions.map((opt, idx) => {
                 const isCorrect = opt === wq.correctAnswer;
                 const isSelected = opt === selected;
                 let cls = 'option-btn text-sm py-2.5';
@@ -111,6 +115,8 @@ const DangerCard = memo(function DangerCard({
                 );
               })}
             </div>
+            )}
+            </ShuffledOptions>
             {revealed && wq.explanation && (
               <div className="mt-2 p-3 rounded-xl border" style={{ background: 'var(--bg)', borderColor: 'var(--border)' }}>
                 <p className="text-xs font-bold uppercase tracking-wider mb-1" style={{ color: 'var(--text-muted)' }}>Explanation</p>

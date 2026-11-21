@@ -1,0 +1,702 @@
+[
+  {
+    "id": "pyq076",
+    "subjectId": "polity",
+    "question": "डॉ. आंबेडकर ने किस अनुच्छेद को संविधान का “हृदय और आत्मा” कहा था? / Heart and soul of the Constitution?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 14 / Article 14"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 19 / Article 19"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 32 / Article 32"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 20 / Article 20"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "fundamental-rights",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 32 मौलिक अधिकारों के प्रवर्तन के लिए सीधे सर्वोच्च न्यायालय जाने का अधिकार देता है और पाँच रिट उपलब्ध कराता है। इसे डॉ. आंबेडकर ने हृदय और आत्मा कहा। अनुच्छेद 226 उच्च न्यायालय की रिट शक्ति है और उसका दायरा मौलिक अधिकारों से आगे अन्य कानूनी अधिकारों तक जाता है। अनुच्छेद 13 मौलिक अधिकार-विरोधी कानूनों को असंगत सीमा तक शून्य करता है। PDF के पेन-नोट में 32 को writs/heart and soul से जोड़ा गया है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq077",
+    "subjectId": "polity",
+    "question": "भारत में अंतर्राज्यीय परिषद की स्थापना का प्रावधान किस अनुच्छेद में है? / Inter-State Council is under which Article?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 262 / Article 262"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 263 / Article 263"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 280 / Article 280"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 243 / Article 243"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "federalism",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 263 राष्ट्रपति को सार्वजनिक हित में अंतर्राज्यीय परिषद स्थापित करने देता है। परिषद राज्यों के बीच विवाद/साझा हितों की जाँच, चर्चा और समन्वय के लिए सिफारिश कर सकती है। परिषद 1990 में स्थापित हुई। 262 नदी-जल विवाद, 280 वित्त आयोग और क्षेत्रीय परिषदें वैधानिक निकाय हैं। PDF के पेन-नोट में 1990 का संकेत है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq078",
+    "subjectId": "polity",
+    "question": "संसद सदस्यों के वेतन और भत्तों का निर्धारण किस अनुच्छेद से जुड़ा है? / Salaries and allowances of MPs?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 102 / Article 102"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 104 / Article 104"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 106 / Article 106"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 108 / Article 108"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "parliament",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 106 संसद सदस्यों के वेतन और भत्तों के संबंध में संसद को कानून बनाने की शक्ति देता है। अनुच्छेद 102 अयोग्यताएँ, 104 अयोग्य होते हुए बैठने/मतदान का दंड और 108 संयुक्त बैठक से संबंधित हैं। PDF के पेन-नोट में MP और Article 106 का संकेत है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq079",
+    "subjectId": "polity",
+    "question": "वित्तीय आपातकाल किस अनुच्छेद में है? / Financial Emergency is provided under which Article?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 356 / Article 356"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 352 / Article 352"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 360 / Article 360"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 368 / Article 368"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "emergency",
+    "difficulty": "easy",
+    "explanation": "वित्तीय आपातकाल का सही अनुच्छेद 360 है। 352 राष्ट्रीय आपातकाल, 356 राज्य में संवैधानिक तंत्र विफलता पर राष्ट्रपति शासन और 368 संविधान संशोधन से संबंधित है। PDF में 352 के साथ वित्तीय आपातकाल का संकेत/चिह्नन गलत हो सकता है; सही उत्तर 360 याद रखें। भारत में अब तक वित्तीय आपातकाल घोषित नहीं हुआ है। 44वें संशोधन ने आपातकालीन प्रावधानों में कई सुरक्षा उपाय जोड़े।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq080",
+    "subjectId": "polity",
+    "question": "“राज्यों का संघ” (Union of States) का सही अर्थ क्या है? / Meaning of Union of States?",
+    "options": [
+      {
+        "id": "A",
+        "text": "भारत पूर्ण एकात्मक है / India is completely unitary"
+      },
+      {
+        "id": "B",
+        "text": "राज्यों ने समझौते से संघ बनाया / States formed Union by agreement"
+      },
+      {
+        "id": "C",
+        "text": "संघ अविनाशी है, पर राज्यों का पुनर्गठन हो सकता है / Union indestructible; States may be reorganised"
+      },
+      {
+        "id": "D",
+        "text": "राज्यों को अलग होने का अधिकार है / States may secede"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "union-territory",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 1 भारत को राज्यों का संघ कहता है। संघ राज्यों के समझौते का परिणाम नहीं है और किसी राज्य को अलग होने का अधिकार नहीं है। संसद अनुच्छेद 2–3 के तहत राज्यों का गठन, क्षेत्र, सीमा और नाम बदल सकती है। अनुच्छेद 4 कहता है कि ऐसे कानून अनुच्छेद 368 के संशोधन नहीं माने जाते। PDF के पेन-नोट में indestructible Union और State reorganisation का संकेत है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq081",
+    "subjectId": "polity",
+    "question": "अनुच्छेद 249 के तहत संसद द्वारा बनाया राज्य-सूची कानून, राज्यसभा प्रस्ताव समाप्त होने के बाद कितने समय तक प्रभावी रहता है? / Duration after resolution ceases?",
+    "options": [
+      {
+        "id": "A",
+        "text": "स्थायी / Permanently"
+      },
+      {
+        "id": "B",
+        "text": "छह महीने / Six months"
+      },
+      {
+        "id": "C",
+        "text": "तुरंत समाप्त / Immediately"
+      },
+      {
+        "id": "D",
+        "text": "एक वर्ष / One year"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "federalism",
+    "difficulty": "hard",
+    "explanation": "अनुच्छेद 249 का प्रस्ताव समाप्त होने के बाद उसके आधार पर बना कानून छह महीने तक प्रभावी रहता है; उसके बाद उस सीमा तक प्रभावहीन हो जाता है जिस सीमा तक संसद उसे बनाने में सक्षम न रहती। पहले किए गए कार्य सुरक्षित रहते हैं। प्रस्ताव राज्यसभा में उपस्थित और मतदान करने वालों के 2/3 से पारित, अधिकतम एक वर्ष प्रभावी और एक-एक वर्ष बढ़ाया जा सकता है। अनुच्छेद 250 आपातकाल के दौरान अलग शक्ति देता है। PDF नोट में छह महीने का समय लिखा है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq082",
+    "subjectId": "polity",
+    "question": "अनुच्छेद 177 के तहत मंत्री या राज्य महाधिवक्ता को विधानमंडल में भाग लेने पर कौन-सी सीमा है? / Restriction under Article 177?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मातृभाषा में नहीं बोल सकता / Cannot speak in mother tongue"
+      },
+      {
+        "id": "B",
+        "text": "उसे मतदान का अधिकार नहीं होता / No right to vote"
+      },
+      {
+        "id": "C",
+        "text": "वह विधान परिषद में बोल नहीं सकता / Cannot speak in Council"
+      },
+      {
+        "id": "D",
+        "text": "समिति में भाग नहीं ले सकता / Cannot attend committees"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "state-legislature",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 177 मंत्री और राज्य के महाधिवक्ता को सदन में बोलने/भाग लेने और संबंधित समिति में भाग लेने का अधिकार देता है, लेकिन इस अनुच्छेद के आधार पर मतदान का अधिकार नहीं। सदस्य होने पर मतदान अधिकार सदस्यता से आएगा। संघ में समान प्रावधान अनुच्छेद 88 है, जो मंत्रियों और Attorney General को संसद में भाग लेने देता है, पर वोट नहीं। PDF पेन-नोट में vote X लिखा है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq083",
+    "subjectId": "polity",
+    "question": "सामूहिक उत्तरदायित्व के सिद्धांत का सबसे सही वर्णन कौन-सा है? / Best description of collective responsibility?",
+    "options": [
+      {
+        "id": "A",
+        "text": "मंत्रिमंडल के निर्णय सभी मंत्रियों पर बाध्यकारी होते हैं / Cabinet decisions bind all Ministers"
+      },
+      {
+        "id": "B",
+        "text": "राष्ट्रपति कैबिनेट नियंत्रित करते हैं / President controls Cabinet"
+      },
+      {
+        "id": "C",
+        "text": "न्यायपालिका मंत्रियों की निगरानी करती है / Judiciary supervises Ministers"
+      },
+      {
+        "id": "D",
+        "text": "मंत्री स्वतंत्र रूप से नियुक्त होते हैं / Ministers are appointed independently"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "union-executive",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 75(3) के अनुसार मंत्रिपरिषद लोकसभा के प्रति सामूहिक रूप से उत्तरदायी है। मंत्रिमंडल के निर्णय सभी मंत्रियों पर बाध्यकारी होते हैं; असहमति होने पर मंत्री को निर्णय का सार्वजनिक समर्थन करना या पद छोड़ना चाहिए। अविश्वास प्रस्ताव पारित होने पर पूरी मंत्रिपरिषद जाती है। राज्य स्तर पर समान व्यवस्था अनुच्छेद 164(2) में है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq084",
+    "subjectId": "polity",
+    "question": "भारतीय संविधान को “quasi-federal” कहने का श्रेय किस विद्वान को है? / Who called the Indian Constitution quasi-federal?",
+    "options": [
+      {
+        "id": "A",
+        "text": "के. सी. व्हीयर / K. C. Wheare"
+      },
+      {
+        "id": "B",
+        "text": "ए. वी. डायसी / A. V. Dicey"
+      },
+      {
+        "id": "C",
+        "text": "डॉ. बी. आर. आंबेडकर / Dr. B. R. Ambedkar"
+      },
+      {
+        "id": "D",
+        "text": "ग्रेनविल ऑस्टिन / Granville Austin"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "federalism",
+    "difficulty": "hard",
+    "explanation": "K. C. Wheare ने भारत को quasi-federal कहा क्योंकि संघीय विशेषताओं के साथ केंद्र मजबूत है। लिखित संविधान, शक्तियों का विभाजन, संविधान की सर्वोच्चता और स्वतंत्र न्यायपालिका संघीय विशेषताएँ हैं; एकल नागरिकता, आपातकालीन प्रावधान, राज्यपाल नियुक्ति और अवशिष्ट शक्तियों का केंद्र में होना एकात्मक झुकाव दिखाते हैं। केवल लिखित संविधान संघीयता सिद्ध नहीं करता। PDF में statement-based प्रश्न में Wheare वाला कथन चिह्नित है; margin note की यही अवधारणा है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq085",
+    "subjectId": "polity",
+    "question": "भारत के राष्ट्रपति का चुनाव कौन करता है? / Who elects the President of India?",
+    "options": [
+      {
+        "id": "A",
+        "text": "निर्वाचित सांसद और निर्दिष्ट राज्यों/UTs के निर्वाचित विधायक / Elected MPs and eligible elected MLAs"
+      },
+      {
+        "id": "B",
+        "text": "सभी नागरिक प्रत्यक्ष मतदान से / Direct vote of all citizens"
+      },
+      {
+        "id": "C",
+        "text": "केवल लोकसभा के सदस्य / Only Lok Sabha members"
+      },
+      {
+        "id": "D",
+        "text": "निर्वाचित और नामित सभी सांसद / All elected and nominated MPs"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "president",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 54 के निर्वाचक मंडल में संसद के दोनों सदनों के निर्वाचित सदस्य तथा राज्यों और दिल्ली/पुदुचेरी के निर्वाचित विधायक आते हैं। नामित सांसद और विधान परिषद सदस्य शामिल नहीं। निर्वाचन अनुच्छेद 55 के अनुसार proportional representation, single transferable vote और secret ballot से होता है। उपराष्ट्रपति के चुनाव (अनुच्छेद 66) में दोनों सदनों के निर्वाचित और नामित सदस्य भाग लेते हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq086",
+    "subjectId": "polity",
+    "question": "GST परिषद की स्थापना किस अनुच्छेद के तहत हुई? / GST Council established under which Article?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 246A / Article 246A"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 280 / Article 280"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 269A / Article 269A"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 279A / Article 279A"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "gst",
+    "difficulty": "easy",
+    "explanation": "GST Council का गठन अनुच्छेद 279A से होता है; इसे 101वें संशोधन ने जोड़ा। केंद्रीय वित्त मंत्री परिषद के अध्यक्ष होते हैं; राज्यों के वित्त/कराधान मंत्री सदस्य होते हैं। महत्वपूर्ण अंतर: 246A GST पर कानून बनाने की शक्ति, 269A अंतर्राज्यीय आपूर्ति पर GST और 279A परिषद का गठन। PDF में 246A को परिषद का उत्तर बताने वाली चिह्निती दिखती है तो वह तथ्यात्मक रूप से गलत है—सही 279A है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq087",
+    "subjectId": "polity",
+    "question": "GST पर संसद और राज्य विधानमंडलों को कानून बनाने की शक्ति किस अनुच्छेद में है? / Concurrent GST legislative power?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 248 / Article 248"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 246A / Article 246A"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 254 / Article 254"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 243B / Article 243B"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "gst",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 246A संसद और राज्य विधानमंडलों दोनों को GST पर कानून बनाने की विशेष शक्ति देता है। अंतर्राज्यीय व्यापार/वाणिज्य में आपूर्ति के लिए संसद को विशेष शक्ति 246A(2) में है। अनुच्छेद 269A inter-State GST और 279A GST Council से संबंधित है। अनुच्छेद 254 समवर्ती सूची के कानूनों में टकराव और 248 अवशिष्ट शक्तियों से संबंधित है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq088",
+    "subjectId": "polity",
+    "question": "Public Order सातवीं अनुसूची की किस सूची में है? / Public Order belongs to which list?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अवशिष्ट शक्तियाँ / Residuary Powers"
+      },
+      {
+        "id": "B",
+        "text": "समवर्ती सूची / Concurrent List"
+      },
+      {
+        "id": "C",
+        "text": "संघ सूची / Union List"
+      },
+      {
+        "id": "D",
+        "text": "राज्य सूची / State List"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "seventh-schedule",
+    "difficulty": "easy",
+    "explanation": "Public Order राज्य सूची की प्रविष्टि 1 है; Police प्रविष्टि 2 है। इसलिए सामान्य कानून-व्यवस्था और पुलिस प्रशासन मुख्यतः राज्य विषय हैं। Criminal law और criminal procedure समवर्ती सूची में हैं—इन्हें public order से अलग पहचानें। PDF के पेन-नोट में Union/Concurrent/State List के बीच तुलना करने का संकेत है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq089",
+    "subjectId": "polity",
+    "question": "CJI का पद रिक्त या CJI कार्य करने में असमर्थ हो तो कार्यवाहक CJI की नियुक्ति किस अनुच्छेद में है? / Acting CJI appointment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 127 / Article 127"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 126 / Article 126"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 129 / Article 129"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 125 / Article 125"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "supreme-court",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 126 में राष्ट्रपति सर्वोच्च न्यायालय के किसी अन्य न्यायाधीश को कार्यवाहक CJI नियुक्त कर सकते हैं। अनुच्छेद 127 तदर्थ न्यायाधीश, 125 वेतन-भत्ते, 129 Court of Record और 124 SC की स्थापना से संबंधित हैं। Acting CJI और ad hoc judge अलग हैं: 126 CJI की जगह अस्थायी रूप से कार्य; 127 न्यायाधीशों की संख्या अपर्याप्त होने पर अतिरिक्त न्यायाधीश। PDF के नोट में 126/127/125 का अंतर लिखा है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq090",
+    "subjectId": "polity",
+    "question": "राज्यसभा सदस्य बनने की न्यूनतम आयु अनुच्छेद 84 के अनुसार कितनी है? / Minimum age for Rajya Sabha?",
+    "options": [
+      {
+        "id": "A",
+        "text": "30 वर्ष / 30 years"
+      },
+      {
+        "id": "B",
+        "text": "21 वर्ष / 21 years"
+      },
+      {
+        "id": "C",
+        "text": "25 वर्ष / 25 years"
+      },
+      {
+        "id": "D",
+        "text": "35 वर्ष / 35 years"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "parliament",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 84 के अनुसार राज्यसभा सदस्य के लिए न्यूनतम आयु 30 वर्ष है; लोकसभा के लिए 25 वर्ष। राष्ट्रपति और राज्यपाल के लिए 35 वर्ष (अनुच्छेद 58/157) और मतदान के लिए 18 वर्ष (326, 61वाँ संशोधन) है। PDF के पेन-नोट में 25 और 30 वर्ष का अंतर रेखांकित है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq091",
+    "subjectId": "polity",
+    "question": "संसद में कार्य संचालन के लिए भाषाओं का प्रावधान किस अनुच्छेद में है? / Languages for business in Parliament?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 120 / Article 120"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 121 / Article 121"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 110 / Article 110"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 122 / Article 122"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "parliament",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 120 के अनुसार संसद का कार्य हिंदी या अंग्रेजी में होगा; अध्यक्ष/सभापति सदस्य को अनुमति देकर मातृभाषा में बोलने दे सकते हैं। अनुच्छेद 343 संघ की राजभाषा, 345 राज्य की राजभाषा, 348 SC/HC और विधायी पाठों की भाषा तथा 351 हिंदी के विकास से संबंधित है। 121 न्यायाधीशों के आचरण पर चर्चा और 122 प्रक्रिया की न्यायिक समीक्षा-सीमा है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq092",
+    "subjectId": "polity",
+    "question": "अनुच्छेद 249 का प्रस्ताव राज्यसभा में किस बहुमत से पारित होना चाहिए? / Majority under Article 249?",
+    "options": [
+      {
+        "id": "A",
+        "text": "लोकसभा का साधारण बहुमत / Simple majority of Lok Sabha"
+      },
+      {
+        "id": "B",
+        "text": "कुल सदस्य-संख्या का साधारण बहुमत / Simple majority of total membership"
+      },
+      {
+        "id": "C",
+        "text": "केवल राष्ट्रपति की स्वीकृति / President’s approval alone"
+      },
+      {
+        "id": "D",
+        "text": "उपस्थित और मतदान करने वालों का कम-से-कम 2/3 / At least two-thirds present and voting"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "federalism",
+    "difficulty": "hard",
+    "explanation": "अनुच्छेद 249 के तहत राज्यसभा में उपस्थित और मतदान करने वाले सदस्यों के 2/3 बहुमत से राष्ट्रीय हित का प्रस्ताव पारित होता है। प्रस्ताव अधिकतम एक वर्ष तक प्रभावी और एक-एक वर्ष बढ़ाया जा सकता है। प्रस्ताव समाप्त होने के छह महीने बाद उसके आधार पर बना कानून प्रभावहीन होता है। अनुच्छेद 250 राष्ट्रीय आपातकाल में संसद की राज्य सूची पर कानून बनाने की अलग शक्ति देता है। PDF के पेन-नोट में 2/3 और validity अवधि लिखी है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq093",
+    "subjectId": "polity",
+    "question": "संसद की संयुक्त बैठक की अध्यक्षता कौन करता है? / Who presides over a joint sitting?",
+    "options": [
+      {
+        "id": "A",
+        "text": "राज्यसभा के सभापति / Chairman of Rajya Sabha"
+      },
+      {
+        "id": "B",
+        "text": "राष्ट्रपति / President"
+      },
+      {
+        "id": "C",
+        "text": "उपराष्ट्रपति / Vice-President"
+      },
+      {
+        "id": "D",
+        "text": "लोकसभा अध्यक्ष / Speaker of the Lok Sabha"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "parliament",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 108 के तहत कुछ विधेयकों पर गतिरोध होने पर संयुक्त बैठक हो सकती है। अध्यक्षता लोकसभा अध्यक्ष करते हैं; उनकी अनुपस्थिति में लोकसभा उपाध्यक्ष और फिर राज्यसभा उपसभापति। राज्यसभा के सभापति/उपराष्ट्रपति संयुक्त बैठक की अध्यक्षता नहीं करते। धन विधेयक और संविधान संशोधन विधेयक पर संयुक्त बैठक नहीं होती। PDF के पेन-नोट में Speaker और Chairman का अंतर दर्ज है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq094",
+    "subjectId": "polity",
+    "question": "अनुच्छेद 20 में निम्न में से कौन-सा संरक्षण शामिल नहीं है? / Which is not covered by Article 20?",
+    "options": [
+      {
+        "id": "A",
+        "text": "वैध अपेक्षा का सिद्धांत / Doctrine of legitimate expectation"
+      },
+      {
+        "id": "B",
+        "text": "भूतलक्षी दंड कानून से संरक्षण / Ex post facto protection"
+      },
+      {
+        "id": "C",
+        "text": "स्वयं के विरुद्ध साक्ष्य से संरक्षण / Protection against self-incrimination"
+      },
+      {
+        "id": "D",
+        "text": "दोहरा दंड निषेध / Double jeopardy"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "fundamental-rights",
+    "difficulty": "hard",
+    "explanation": "अनुच्छेद 20 तीन सुरक्षा देता है: भूतलक्षी दंडात्मक कानून से संरक्षण, एक अपराध के लिए दो बार अभियोजन/दंड न होना, और स्वयं के विरुद्ध गवाही देने के लिए बाध्य न किया जाना। Legitimate expectation प्रशासनिक कानून का सिद्धांत है, Article 20 का हिस्सा नहीं। अनुच्छेद 20 सभी व्यक्तियों को मिलता है; अनुच्छेद 21 जीवन/स्वतंत्रता और 22 गिरफ्तारी/निरोध से संरक्षण है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq095",
+    "subjectId": "polity",
+    "question": "संघ को संसद के कानूनों का पालन सुनिश्चित कराने के लिए राज्यों को निर्देश देने की शक्ति किस अनुच्छेद में है? / Union directions to States?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 250 / Article 250"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 254 / Article 254"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 258 / Article 258"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 256 / Article 256"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "centre-state-relations",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 256 के तहत राज्य की कार्यपालिका शक्ति इस तरह प्रयोग होगी कि संसद के कानूनों और लागू मौजूदा कानूनों का पालन हो; संघ इसके लिए निर्देश दे सकता है। अनुच्छेद 257 कुछ मामलों में राज्यों की कार्यपालिका पर संघ का नियंत्रण, 258 संघ के कार्य राज्यों को सौंपना, 258A राज्य के कार्य संघ को सौंपना और 254 समवर्ती सूची में कानूनों का टकराव बताता है। PDF के पेन-नोट में केंद्र-राज्य संबंध का संकेत है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq096",
+    "subjectId": "polity",
+    "question": "अनुच्छेद 358 के तहत राष्ट्रीय आपातकाल में अनुच्छेद 19 का निलंबन किन आधारों पर लागू होता है? / Article 19 suspension under Article 358 applies on which grounds?",
+    "options": [
+      {
+        "id": "A",
+        "text": "वित्तीय अस्थिरता / Financial instability"
+      },
+      {
+        "id": "B",
+        "text": "सशस्त्र विद्रोह / Armed rebellion"
+      },
+      {
+        "id": "C",
+        "text": "युद्ध या बाहरी आक्रमण / War or external aggression"
+      },
+      {
+        "id": "D",
+        "text": "संवैधानिक तंत्र की विफलता / Breakdown of constitutional machinery"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "emergency",
+    "difficulty": "hard",
+    "explanation": "44वें संशोधन के बाद अनुच्छेद 358 के तहत Article 19 का स्वतः निलंबन केवल युद्ध या बाहरी आक्रमण के आधार पर घोषित राष्ट्रीय आपातकाल में लागू होता है; सशस्त्र विद्रोह पर नहीं। अनुच्छेद 352 राष्ट्रीय आपातकाल, 356 राष्ट्रपति शासन और 360 वित्तीय आपातकाल है। अनुच्छेद 359 में अधिकारों के प्रवर्तन हेतु न्यायालय जाने का अधिकार निलंबित हो सकता है, लेकिन 20 और 21 सुरक्षित रहते हैं। PDF में यही आधार पूछा गया है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq097",
+    "subjectId": "polity",
+    "question": "अंतर्राज्यीय परिषद की स्थापना का अधिकार राष्ट्रपति को कौन-सा अनुच्छेद देता है? / President’s power to establish Inter-State Council?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 267 / Article 267"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 265 / Article 265"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 261 / Article 261"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 263 / Article 263"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "federalism",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 263 राष्ट्रपति को सार्वजनिक हित में अंतर्राज्यीय परिषद स्थापित करने देता है। परिषद विवादों की जाँच/सलाह, साझा हितों पर चर्चा और नीतिगत समन्वय के लिए सिफारिश करती है। परिषद 1990 में स्थापित हुई। अनुच्छेद 261 सार्वजनिक कृत्यों/अभिलेखों की मान्यता, 265 कानून के प्राधिकार के बिना कर न लगाने और 267 आकस्मिकता निधि से संबंधित है। PDF में यह विषय दोहराया गया है; यहाँ इसके कार्य और निकटवर्ती अनुच्छेद भी समझाए गए हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq098",
+    "subjectId": "polity",
+    "question": "अनुच्छेद 1 के “राज्यों का संघ” का सही अर्थ क्या है? / Meaning of Union of States under Article 1?",
+    "options": [
+      {
+        "id": "A",
+        "text": "राज्यों को अलग होने का अधिकार है / States may secede"
+      },
+      {
+        "id": "B",
+        "text": "संघ अविनाशी है, राज्य पुनर्गठित हो सकते हैं / Union indestructible; States may be reorganised"
+      },
+      {
+        "id": "C",
+        "text": "संघ संप्रभु राज्यों के समझौते से बना / Union formed by agreement"
+      },
+      {
+        "id": "D",
+        "text": "राज्य संघ के समान पूर्ण संप्रभु हैं / States equally sovereign"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "union-territory",
+    "difficulty": "medium",
+    "explanation": "अनुच्छेद 1 भारत को राज्यों का संघ कहता है; संघ किसी समझौते का परिणाम नहीं और राज्यों को पृथक होने का अधिकार नहीं। अनुच्छेद 3 संसद को नए राज्य बनाने और क्षेत्र/सीमा/नाम बदलने की शक्ति देता है। प्रभावित राज्य की राय ली जाती है, लेकिन वह बाध्यकारी नहीं। अनुच्छेद 2 नए राज्यों का प्रवेश/स्थापना और अनुच्छेद 4 परिणामी कानूनों से संबंधित है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq099",
+    "subjectId": "polity",
+    "question": "अनुच्छेद 76(1) के अनुसार भारत के महान्यायवादी के लिए कौन-सी योग्यता आवश्यक है? / Qualification for Attorney General?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जिला न्यायाधीश होना / District Judge"
+      },
+      {
+        "id": "B",
+        "text": "वर्तमान HC जज होना / Sitting High Court Judge"
+      },
+      {
+        "id": "C",
+        "text": "सर्वोच्च न्यायालय का न्यायाधीश नियुक्त होने की योग्यता / Qualified to be appointed as SC Judge"
+      },
+      {
+        "id": "D",
+        "text": "संसद सदस्य होना / Member of Parliament"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "law-officers",
+    "difficulty": "hard",
+    "explanation": "अनुच्छेद 76(1) के अनुसार Attorney General ऐसा व्यक्ति होना चाहिए जो SC का न्यायाधीश नियुक्त होने की योग्यता रखता हो। अनुच्छेद 124(3) में भारतीय नागरिकता तथा कम-से-कम पाँच वर्ष HC न्यायाधीश, दस वर्ष HC अधिवक्ता या राष्ट्रपति की राय में विशिष्ट विधिवेत्ता होने की शर्त है। AG देश का सर्वोच्च विधि अधिकारी है और राष्ट्रपति के प्रसादपर्यंत पद पर रहता है। अनुच्छेद 88 के तहत संसद में बोल सकता है/भाग ले सकता है पर वोट नहीं। PDF के पेन-नोट में 5 years judge, 10 years advocate और eminent jurist का संकेत है।",
+    "language": "hi"
+  },
+  {
+    "id": "pyq100",
+    "subjectId": "polity",
+    "question": "भारत के सर्वोच्च न्यायालय की स्थापना एवं गठन का मूल अनुच्छेद कौन-सा है? / Basic Article for establishment of Supreme Court?",
+    "options": [
+      {
+        "id": "A",
+        "text": "अनुच्छेद 126 / Article 126"
+      },
+      {
+        "id": "B",
+        "text": "अनुच्छेद 121 / Article 121"
+      },
+      {
+        "id": "C",
+        "text": "अनुच्छेद 123 / Article 123"
+      },
+      {
+        "id": "D",
+        "text": "अनुच्छेद 124 / Article 124"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "supreme-court",
+    "difficulty": "easy",
+    "explanation": "अनुच्छेद 124 SC की स्थापना/गठन से संबंधित है। सर्वोच्च न्यायालय संबंधी प्रावधान भाग V, अध्याय IV में अनुच्छेद 124–147 तक हैं। अनुच्छेद 125 वेतन, 126 कार्यवाहक CJI, 127 ad hoc judge, 129 Court of Record, 131 मूल अधिकारिता, 136 SLP, 141 बाध्यकारी विधि और 142 पूर्ण न्याय से संबंधित हैं। SC न्यायाधीश की सेवानिवृत्ति आयु 65 वर्ष और HC न्यायाधीश की 62 वर्ष (अनुच्छेद 217) है। PDF का अंतिम प्रश्न न्यायपालिका के इसी cluster पर लौटता है।",
+    "language": "hi"
+  }
+]

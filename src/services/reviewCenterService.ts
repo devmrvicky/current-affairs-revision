@@ -3,6 +3,7 @@
 
 import { markedForReviewDB, universalAttemptsDB, wrongQuestionsDB } from './db';
 import { resolveQuestionsByIds } from './questionRepository';
+import { chapterIdOfSource } from './chapterMeta';
 import { getAllMonthlyMagazineTestPaths } from './monthlyMagazineRepository';
 import { buildQuestionHistories } from './reviewAnalytics';
 import { buildReviewItems, type QuestionInfo, type ReviewItem } from './reviewItems';
@@ -20,7 +21,7 @@ export async function loadReviewItems(now: number = Date.now()): Promise<ReviewI
   const questions = new Map<string, QuestionInfo>(
     found.map((q) => [q.id, {
       id: q.id, question: q.question, options: q.options.map((o) => o.text), correctAnswer: q.options.find((o) => o.id === q.correctAnswer)?.text ?? q.correctAnswer,
-      explanation: q.explanation ?? '', subjectId: q.subjectId, topicId: q.topicId, subtopicId: q.subtopicId, difficulty: q.difficulty,
+      explanation: q.explanation ?? '', subjectId: q.subjectId, topicId: q.topicId, chapterId: chapterIdOfSource(q.source), subtopicId: q.subtopicId, difficulty: q.difficulty,
     }]),
   );
   return buildReviewItems({ attempts, saved, legacyWrong, questions, monthlyPaths: getAllMonthlyMagazineTestPaths(), now });

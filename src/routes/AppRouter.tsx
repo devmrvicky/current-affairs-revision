@@ -38,6 +38,8 @@ const NoQuizTodayPage       = lazy(() => import('../pages/NoQuizTodayPage'));
 const NotFoundPage          = lazy(() => import('../pages/NotFoundPage'));
 const AdminDashboardPage    = lazy(() => import('../pages/AdminDashboardPage'));
 const AuthorStudioPage      = lazy(() => import('../pages/author/AuthorStudioPage'));
+const QuestionBankPage      = lazy(() => import('../pages/QuestionBankPage'));
+const QuestionBankManagerPage = lazy(() => import('../pages/QuestionBankManagerPage'));
 const AuthCallbackPage      = lazy(() => import('../pages/AuthCallbackPage'));
 const ExamSelectionPage     = lazy(() => import('../pages/ExamSelectionPage'));
 const PracticeConfigurePage = lazy(() => import('../pages/PracticeConfigurePage'));
@@ -87,6 +89,8 @@ const router = createBrowserRouter([
       { path: 'analysis',                     element: <S><AnalysisPage /></S> },
       { path: 'admin',                        element: <S><AdminDashboardPage /></S> },
       { path: 'author-studio',               element: <S><AuthorStudioPage /></S> },
+      { path: 'question-bank',                element: <S><QuestionBankPage /></S> },
+      { path: 'settings/question-bank',       element: <S><QuestionBankManagerPage /></S> },
       { path: 'exams',                        element: <S><ExamSelectionPage /></S> },
       { path: 'practice/configure',           element: <S><PracticeConfigurePage /></S> },
       { path: 'tests/configure',              element: <Navigate to="/mock-tests" replace /> },

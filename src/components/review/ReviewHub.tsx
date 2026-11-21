@@ -11,12 +11,15 @@ import {
 } from '../../services/reviewItems';
 import { getMarkPurposeInfo } from '../../types/questionMark';
 import { getTopicDisplayName, subjectRegistry } from '../../data/registry/subjectRegistry';
+import { useWrongQuestionsStore } from '../../store/wrongQuestionsStore';
+import { useMarkedReviewStore } from '../../store/markedReviewStore';
 import { useQuizStore } from '../../store/quizStore';
 import { useExamStore } from '../../store/examStore';
 import { getExam } from '../../services/examService';
 
 const PAGE = 20;
 const subjectName = (id: string | undefined) => (id ? subjectRegistry.getSubject(id)?.name ?? id : 'Other');
+const humanize = (id: string) => id.replace(/[-_]+/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 const select = 'rounded-xl px-2.5 py-2 text-xs bg-transparent';
 const selectStyle = { border: '1px solid var(--border)', color: 'var(--text-primary)' };
 
@@ -47,6 +50,9 @@ export function ReviewHub() {
   const visible = useMemo(() => (items ? filterReviewItems(items, filters, now) : []), [items, filters, now]);
   const subjects = useMemo(() => Array.from(new Set((items ?? []).map((i) => i.subjectId).filter((s): s is string => !!s))), [items]);
   const topics = useMemo(() => Array.from(new Set((items ?? []).filter((i) => !filters.subjectId || i.subjectId === filters.subjectId).map((i) => i.topicId).filter((t): t is string => !!t))), [items, filters.subjectId]);
+  // Chapter and Concept narrow by what is already chosen above them. Questions saved before this existed get them from the question pool when it still has them; the rest simply have no chapter/concept to filter by.
+  const chapters = useMemo(() => Array.from(new Set((items ?? []).filter((i) => (!filters.subjectId || i.subjectId === filters.subjectId) && (!filters.topicId || i.topicId === filters.topicId)).map((i) => i.chapterId).filter((c): c is string => !!c))), [items, filters.subjectId, filters.topicId]);
+  const concepts = useMemo(() => Array.from(new Set((items ?? []).filter((i) => (!filters.subjectId || i.subjectId === filters.subjectId) && (!filters.topicId || i.topicId === filters.topicId) && (!filters.chapterId || i.chapterId === filters.chapterId)).map((i) => i.subtopicId).filter((c): c is string => !!c))), [items, filters.subjectId, filters.topicId, filters.chapterId]);
 
   const update = (patch: Partial<ReviewFilters>) => { setFilters((f) => ({ ...f, ...patch })); setPage(0); };
   const pages = Math.max(1, Math.ceil(visible.length / PAGE));
@@ -115,8 +121,10 @@ export function ReviewHub() {
       <section aria-label="Filters" className="space-y-2">
         <div className="flex flex-wrap items-center gap-2">
           <input value={filters.query ?? ''} onChange={(e) => update({ query: e.target.value })} placeholder="Search questions, answers, sources…" aria-label="Search review questions" data-exam-keys="off" className="flex-1 min-w-[10rem] rounded-xl px-3 py-2 text-sm bg-transparent" style={selectStyle} />
-          <select aria-label="Subject" className={select} style={selectStyle} value={filters.subjectId ?? ''} onChange={(e) => update({ subjectId: e.target.value || undefined, topicId: undefined })}><option value="">All subjects</option>{subjects.map((s) => <option key={s} value={s}>{subjectName(s)}</option>)}</select>
-          <select aria-label="Topic" className={select} style={selectStyle} value={filters.topicId ?? ''} onChange={(e) => update({ topicId: e.target.value || undefined })}><option value="">All topics</option>{topics.map((t) => <option key={t} value={t}>{getTopicDisplayName(filters.subjectId ?? subjects[0] ?? '', t)}</option>)}</select>
+          <select aria-label="Subject" className={select} style={selectStyle} value={filters.subjectId ?? ''} onChange={(e) => update({ subjectId: e.target.value || undefined, topicId: undefined, chapterId: undefined, subtopicId: undefined })}><option value="">All subjects</option>{subjects.map((s) => <option key={s} value={s}>{subjectName(s)}</option>)}</select>
+          <select aria-label="Topic" className={select} style={selectStyle} value={filters.topicId ?? ''} onChange={(e) => update({ topicId: e.target.value || undefined, chapterId: undefined, subtopicId: undefined })}><option value="">All topics</option>{topics.map((t) => <option key={t} value={t}>{getTopicDisplayName(filters.subjectId ?? subjects[0] ?? '', t)}</option>)}</select>
+          <select aria-label="Chapter" className={select} style={selectStyle} value={filters.chapterId ?? ''} onChange={(e) => update({ chapterId: e.target.value || undefined, subtopicId: undefined })}><option value="">All chapters</option>{chapters.map((c) => <option key={c} value={c}>{getTopicDisplayName(filters.subjectId ?? subjects[0] ?? '', c)}</option>)}</select>
+          <select aria-label="Concept" className={select} style={selectStyle} value={filters.subtopicId ?? ''} onChange={(e) => update({ subtopicId: e.target.value || undefined })}><option value="">All concepts</option>{concepts.map((c) => <option key={c} value={c}>{humanize(c)}</option>)}</select>
           <select aria-label="Difficulty" className={select} style={selectStyle} value={filters.difficulty ?? ''} onChange={(e) => update({ difficulty: e.target.value || undefined })}><option value="">Any difficulty</option><option value="easy">Easy</option><option value="medium">Medium</option><option value="hard">Hard</option></select>
           <select aria-label="Latest result" className={select} style={selectStyle} value={filters.status ?? ''} onChange={(e) => update({ status: (e.target.value || undefined) as ReviewFilters['status'] })}><option value="">Any result</option><option value="wrong">Latest wrong</option><option value="correct">Latest correct</option><option value="unattempted">Never attempted</option></select>
           <select aria-label="Date" className={select} style={selectStyle} value={filters.dateRange ?? ''} onChange={(e) => update({ dateRange: (e.target.value || undefined) as ReviewFilters['dateRange'] })}><option value="">Any date</option><option value="7d">Last 7 days</option><option value="30d">Last 30 days</option><option value="90d">Last 90 days</option></select>
@@ -158,6 +166,28 @@ export function ReviewHub() {
   );
 }
 
+/** Taking a question off the lists — what the old Wrong / Marked tabs let you do, now on the one list. */
+function RemoveActions({ item, onChanged }: { item: ReviewItem; onChanged: () => Promise<void> }) {
+  const plainMark = !!item.savedId && item.purposes.length === 0; // an older "Mark for review" has no purposes to remove one by one
+  if (!item.legacyWrongId && !plainMark) return null;
+  async function removeWrong() {
+    await useWrongQuestionsStore.getState().dismiss(item.legacyWrongId!);
+    toast.success('Removed from wrong questions');
+    await onChanged();
+  }
+  async function removeMark() {
+    await useMarkedReviewStore.getState().remove(item.savedId!);
+    toast.success('Removed mark');
+    await onChanged();
+  }
+  return (
+    <div className="flex flex-wrap gap-2 pt-1">
+      {item.legacyWrongId && <button type="button" onClick={() => { void removeWrong(); }} className="btn-ghost px-3 py-2 text-xs min-h-11">Remove from wrong questions</button>}
+      {plainMark && <button type="button" onClick={() => { void removeMark(); }} className="btn-ghost px-3 py-2 text-xs min-h-11">Remove mark</button>}
+    </div>
+  );
+}
+
 function ReviewItemRow({ item, expanded, onToggle, onChanged, catLabel }: { item: ReviewItem; expanded: boolean; onToggle: () => void; onChanged: () => Promise<void>; catLabel: (c: ReviewCategory) => string }) {
   async function dropPurpose(p: typeof item.purposes[number]) {
     if (!item.savedId) return;
@@ -183,6 +213,7 @@ function ReviewItemRow({ item, expanded, onToggle, onChanged, catLabel }: { item
           <ol className="grid gap-1 sm:grid-cols-2">{item.options.map((o, i) => <li key={i} className="rounded-lg px-2.5 py-1.5" style={{ border: `1px solid ${o === item.correctAnswer ? '#16a34a' : 'var(--border)'}`, background: o === item.correctAnswer ? 'rgba(22,163,74,0.08)' : undefined, color: 'var(--text-primary)' }}>{String.fromCharCode(65 + i)}. {o}</li>)}</ol>
           {item.explanation && <p className="p-2 rounded-lg" style={{ background: 'var(--border)' }}>{item.explanation}</p>}
           {item.explanation && <SpeakExplanationButton text={item.explanation} />}
+          <RemoveActions item={item} onChanged={onChanged} />
           {item.purposes.length > 0 && (
             <div className="flex flex-wrap items-center gap-1.5"><span>Saved as:</span>
               {item.purposes.map((p) => (
@@ -240,9 +271,13 @@ function GenerateDialog({ open, onClose, pool, filters, monthLabelText }: { open
         <fieldset className="flex gap-4"><legend className="sr-only">Mode</legend>
           {(['practice', 'test'] as const).map((m) => <label key={m} className="inline-flex items-center gap-1.5"><input type="radio" name="rv-mode" checked={mode === m} onChange={() => setMode(m)} /> {m === 'practice' ? 'Practice (answers shown as you go)' : 'Test (answers at the end)'}</label>)}</fieldset>
         {mode === 'test' && (
+          <>
           <div className="flex items-center gap-2"><label htmlFor="rv-min" style={{ color: 'var(--text-secondary)' }}>Timer (minutes)</label>
             <input id="rv-min" type="number" min={1} max={600} placeholder="none" value={minutes} onChange={(e) => setMinutes(e.target.value === '' ? '' : Number(e.target.value))} className="w-24 rounded-xl px-2.5 py-1.5 bg-transparent" style={selectStyle} />
             {timerInvalid && <span role="alert" className="text-xs text-red-600">1–600, whole minutes</span>}</div>
+          {/* Revision tests run on the older quiz engine (their questions come from saved and older records), which has one overall timer. Sectional timing is a Practice-by-Topic feature. */}
+          <p className="text-xs" style={{ color: 'var(--text-muted)' }} data-testid="revision-timer-note">One overall timer. Sectional timers are available in tests from Practice by Topic.</p>
+          </>
         )}
         <p role="status" className="text-xs" style={{ color: 'var(--text-muted)' }}>{chosen.length} question{chosen.length === 1 ? '' : 's'} will be in this test.</p>
         <div className="flex gap-2"><button type="button" onClick={onClose} className="btn-secondary flex-1 py-2.5">Cancel</button>

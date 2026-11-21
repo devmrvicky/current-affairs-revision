@@ -1,0 +1,1346 @@
+[
+  {
+    "id": "vocab001",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Treason'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Loyalty"
+      },
+      {
+        "id": "B",
+        "text": "Patriotism"
+      },
+      {
+        "id": "C",
+        "text": "Betrayal"
+      },
+      {
+        "id": "D",
+        "text": "Allegiance"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Treason. Treason means betrayal of one's country – देशद्रोह, राजद्रोह। Tone: Negative. Example: He was charged with treason. – उस पर देशद्रोह का आरोप लगाया गया. Word Tone/Connotation: included above. Loyalty – निष्ठा। Patriotism – देशभक्ति। Betrayal – विश्वासघात, द्रोह (सही समानार्थी)। Allegiance – निष्ठा, वफादारी.",
+    "language": "en"
+  },
+  {
+    "id": "vocab002",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Lucidity'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Clarity"
+      },
+      {
+        "id": "B",
+        "text": "Coherence"
+      },
+      {
+        "id": "C",
+        "text": "Obscurity"
+      },
+      {
+        "id": "D",
+        "text": "Intelligibility"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Lucidity. Lucidity means clarity of thought or expression – स्पष्टता, सुबोधता। Tone: Positive. Example: The lucidity of her explanation impressed the class. – उसकी व्याख्या की स्पष्टता ने कक्षा को प्रभावित किया. Word Tone/Connotation: included above. Clarity – स्पष्टता। Coherence – सुसंगति। Obscurity – अस्पष्टता (सही विलोम)। Intelligibility – समझ में आने की क्षमता.",
+    "language": "en"
+  },
+  {
+    "id": "vocab003",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Resplendent'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dull"
+      },
+      {
+        "id": "B",
+        "text": "Radiant"
+      },
+      {
+        "id": "C",
+        "text": "Drab"
+      },
+      {
+        "id": "D",
+        "text": "Lustreless"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Resplendent. Resplendent means shining brilliantly or splendidly – देदीप्यमान, चमकदार, भव्य। Tone: Positive. Example: The palace looked resplendent under the lights. – रोशनी में महल भव्य और चमकदार दिख रहा था. Word Tone/Connotation: included above. Dull – फीका, नीरस। Radiant – चमकदार, दमकता हुआ (सही समानार्थी)। Drab – नीरस, फीका। Lustreless – चमकहीन.",
+    "language": "en"
+  },
+  {
+    "id": "vocab004",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Praiseworthy'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meritorious"
+      },
+      {
+        "id": "B",
+        "text": "Admirable"
+      },
+      {
+        "id": "C",
+        "text": "Censurable"
+      },
+      {
+        "id": "D",
+        "text": "Commendable"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Praiseworthy. Praiseworthy means worthy of praise – प्रशंसनीय, सराहनीय। Tone: Positive. Example: The student's praiseworthy honesty impressed everyone. – विद्यार्थी की प्रशंसनीय ईमानदारी ने सभी को प्रभावित किया. Word Tone/Connotation: included above. Meritorious – गुणवान, प्रशंसा के योग्य। Admirable – प्रशंसनीय। Censurable – निंदनीय, दोषारोपण योग्य (सही विलोम)। Commendable – सराहनीय.",
+    "language": "en"
+  },
+  {
+    "id": "vocab005",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Solemn'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Playful"
+      },
+      {
+        "id": "B",
+        "text": "Grave"
+      },
+      {
+        "id": "C",
+        "text": "Carefree"
+      },
+      {
+        "id": "D",
+        "text": "Frivolous"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Solemn. Solemn means serious, dignified, or formal – गंभीर, संजीदा, औपचारिक। Tone: Neutral/Positive. Example: They made a solemn promise. – उन्होंने गंभीर प्रतिज्ञा की. Word Tone/Connotation: included above. Playful – चंचल, मजाकिया। Grave – गंभीर (सही समानार्थी)। Carefree – निश्चिंत। Frivolous – हल्का, गैर-गंभीर.",
+    "language": "en"
+  },
+  {
+    "id": "vocab006",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Knack'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Aptitude"
+      },
+      {
+        "id": "B",
+        "text": "Ineptitude"
+      },
+      {
+        "id": "C",
+        "text": "Aversion"
+      },
+      {
+        "id": "D",
+        "text": "Hesitation"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Knack. Knack means a natural skill or talent – विशेष कौशल, हुनर। Tone: Neutral. Example: She has a knack for solving puzzles. – उसमें पहेलियाँ हल करने का हुनर है. Word Tone/Connotation: included above. Aptitude – योग्यता, स्वाभाविक क्षमता (सही समानार्थी)। Ineptitude – अयोग्यता। Aversion – अरुचि, घृणा। Hesitation – झिझक, हिचकिचाहट.",
+    "language": "en"
+  },
+  {
+    "id": "vocab007",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Frivolity'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Triviality"
+      },
+      {
+        "id": "B",
+        "text": "Foolishness"
+      },
+      {
+        "id": "C",
+        "text": "Seriousness"
+      },
+      {
+        "id": "D",
+        "text": "Frippery"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Frivolity. Frivolity means lack of seriousness or unnecessary amusement – तुच्छता, हल्कापन। Tone: Negative. Example: There is no room for frivolity during an emergency. – आपात स्थिति में हल्केपन की कोई जगह नहीं है. Word Tone/Connotation: included above. Triviality – तुच्छता। Foolishness – मूर्खता। Seriousness – गंभीरता (सही विलोम)। Frippery – दिखावटी या तुच्छ सजावट.",
+    "language": "en"
+  },
+  {
+    "id": "vocab008",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Sanity'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reason"
+      },
+      {
+        "id": "B",
+        "text": "Soundness"
+      },
+      {
+        "id": "C",
+        "text": "Insanity"
+      },
+      {
+        "id": "D",
+        "text": "Judgement"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Sanity. Sanity means soundness of mind and good judgement – मानसिक संतुलन, विवेक। Tone: Positive. Example: A short break helped him regain his sanity. – थोड़े विराम से उसे मानसिक संतुलन वापस पाने में मदद मिली. Word Tone/Connotation: included above. Reason – तर्क, विवेक। Soundness – सुदृढ़ता, सही स्थिति। Insanity – पागलपन, मानसिक असंतुलन (सही विलोम)। Judgement – निर्णय-क्षमता, विवेक.",
+    "language": "en"
+  },
+  {
+    "id": "vocab009",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Liberate'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Enslave"
+      },
+      {
+        "id": "B",
+        "text": "Emancipate"
+      },
+      {
+        "id": "C",
+        "text": "Confine"
+      },
+      {
+        "id": "D",
+        "text": "Subjugate"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Liberate. Liberate means to free from control or oppression – मुक्त करना, आजाद करना। Tone: Positive. Example: The movement sought to liberate the country. – आंदोलन का उद्देश्य देश को स्वतंत्र कराना था. Word Tone/Connotation: included above. Enslave – गुलाम बनाना। Emancipate – मुक्त करना, स्वतंत्र करना (सही समानार्थी)। Confine – सीमित या बंद करना। Subjugate – अधीन करना, वश में करना.",
+    "language": "en"
+  },
+  {
+    "id": "vocab010",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Hiatus'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Resumption"
+      },
+      {
+        "id": "B",
+        "text": "Interruption"
+      },
+      {
+        "id": "C",
+        "text": "Continuity"
+      },
+      {
+        "id": "D",
+        "text": "Acceleration"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Hiatus. Hiatus means a temporary break or interruption – विराम, अस्थायी अंतराल। Tone: Neutral. Example: The series returned after a two-year hiatus. – श्रृंखला दो साल के विराम के बाद लौटी. Word Tone/Connotation: included above. Resumption – पुनः आरंभ। Interruption – रुकावट, व्यवधान (सही समानार्थी)। Continuity – निरंतरता। Acceleration – तेजी, गति बढ़ना.",
+    "language": "en"
+  },
+  {
+    "id": "vocab011",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Liberty'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bondage"
+      },
+      {
+        "id": "B",
+        "text": "Captivity"
+      },
+      {
+        "id": "C",
+        "text": "Freedom"
+      },
+      {
+        "id": "D",
+        "text": "Subjection"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Liberty. Liberty means freedom or independence – स्वतंत्रता, आजादी। Tone: Positive. Example: Liberty is a fundamental democratic value. – स्वतंत्रता लोकतंत्र का एक मूलभूत मूल्य है. Word Tone/Connotation: included above. Bondage – बंधन, गुलामी। Captivity – कैद। Freedom – स्वतंत्रता (सही समानार्थी)। Subjection – अधीनता.",
+    "language": "en"
+  },
+  {
+    "id": "vocab012",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Knave'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rogue"
+      },
+      {
+        "id": "B",
+        "text": "Scoundrel"
+      },
+      {
+        "id": "C",
+        "text": "Honest person"
+      },
+      {
+        "id": "D",
+        "text": "Rascal"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Knave. Knave means a dishonest or deceitful person – धूर्त, बेईमान व्यक्ति। Tone: Negative. Example: The knave cheated innocent people. – उस धूर्त ने निर्दोष लोगों को धोखा दिया. Word Tone/Connotation: included above. Rogue – बदमाश, धूर्त। Scoundrel – नीच या बेईमान व्यक्ति। Honest person – ईमानदार व्यक्ति (सही विलोम)। Rascal – बदमाश, शरारती व्यक्ति.",
+    "language": "en"
+  },
+  {
+    "id": "vocab013",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Facile'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Effortless"
+      },
+      {
+        "id": "B",
+        "text": "Superficial"
+      },
+      {
+        "id": "C",
+        "text": "Laborious"
+      },
+      {
+        "id": "D",
+        "text": "Fluent"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Facile. Facile means easily achieved or done; it can also imply superficiality – सहज, आसानी से किया गया; कभी-कभी सतही। Tone: Usually Neutral, sometimes Negative. Example: The problem was not as facile as it looked. – समस्या उतनी आसान नहीं थी जितनी दिखती थी. Word Tone/Connotation: included above. Effortless – बिना प्रयास का। Superficial – सतही। Laborious – मेहनत-भरा, कठिन (सही विलोम)। Fluent – धाराप्रवाह.",
+    "language": "en"
+  },
+  {
+    "id": "vocab014",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Luscious'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bland"
+      },
+      {
+        "id": "B",
+        "text": "Insipid"
+      },
+      {
+        "id": "C",
+        "text": "Succulent"
+      },
+      {
+        "id": "D",
+        "text": "Tasteless"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Luscious. Luscious means richly sweet, juicy, or delicious – अत्यंत स्वादिष्ट, रसीला। Tone: Positive. Example: We tasted luscious mangoes at the farm. – हमने खेत में बेहद रसीले आम चखे. Word Tone/Connotation: included above. Bland – फीका, स्वादहीन। Insipid – नीरस, बेस्वाद। Succulent – रसदार, रसीला (सही समानार्थी)। Tasteless – बेस्वाद.",
+    "language": "en"
+  },
+  {
+    "id": "vocab015",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Loquacious'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Reticent"
+      },
+      {
+        "id": "B",
+        "text": "Taciturn"
+      },
+      {
+        "id": "C",
+        "text": "Garrulous"
+      },
+      {
+        "id": "D",
+        "text": "Reserved"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Loquacious. Loquacious means very talkative – बातूनी, बहुत बोलने वाला। Tone: Neutral, sometimes Negative. Example: The loquacious guest dominated the conversation. – बातूनी मेहमान ने पूरी बातचीत पर कब्जा कर लिया. Word Tone/Connotation: included above. Reticent – कम बोलने वाला, संकोची। Taciturn – अल्पभाषी। Garrulous – बहुत बातूनी (सही समानार्थी)। Reserved – संकोची, कम बोलने वाला.",
+    "language": "en"
+  },
+  {
+    "id": "vocab016",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Leisure'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Employment"
+      },
+      {
+        "id": "B",
+        "text": "Recreation"
+      },
+      {
+        "id": "C",
+        "text": "Obligation"
+      },
+      {
+        "id": "D",
+        "text": "Labour"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Leisure. Leisure means free time for relaxation or enjoyment – अवकाश, फुर्सत। Tone: Positive/Neutral. Example: She reads during her leisure time. – वह अपने खाली समय में पढ़ती है. Word Tone/Connotation: included above. Employment – रोजगार। Recreation – मनोरंजन, विश्राम का समय (सही समानार्थी)। Obligation – दायित्व। Labour – श्रम, मेहनत.",
+    "language": "en"
+  },
+  {
+    "id": "vocab017",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Lassitude'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vigour"
+      },
+      {
+        "id": "B",
+        "text": "Weariness"
+      },
+      {
+        "id": "C",
+        "text": "Alertness"
+      },
+      {
+        "id": "D",
+        "text": "Enthusiasm"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Lassitude. Lassitude means physical or mental fatigue – थकान, शिथिलता। Tone: Negative. Example: A feeling of lassitude overcame him after the journey. – यात्रा के बाद उस पर थकान छा गई. Word Tone/Connotation: included above. Vigour – जोश, ऊर्जा। Weariness – थकावट (सही समानार्थी)। Alertness – सतर्कता। Enthusiasm – उत्साह.",
+    "language": "en"
+  },
+  {
+    "id": "vocab018",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Laudable'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Blameworthy"
+      },
+      {
+        "id": "B",
+        "text": "Commendable"
+      },
+      {
+        "id": "C",
+        "text": "Disgraceful"
+      },
+      {
+        "id": "D",
+        "text": "Deplorable"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Laudable. Laudable means deserving praise – प्रशंसनीय, सराहनीय। Tone: Positive. Example: Her laudable effort inspired the team. – उसके सराहनीय प्रयास ने टीम को प्रेरित किया. Word Tone/Connotation: included above. Blameworthy – दोषी, निंदनीय। Commendable – प्रशंसनीय (सही समानार्थी)। Disgraceful – शर्मनाक। Deplorable – निंदनीय, दयनीय.",
+    "language": "en"
+  },
+  {
+    "id": "vocab019",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Hebetude'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acumen"
+      },
+      {
+        "id": "B",
+        "text": "Stupor"
+      },
+      {
+        "id": "C",
+        "text": "Sharpness"
+      },
+      {
+        "id": "D",
+        "text": "Perception"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Hebetude. Hebetude means dullness of mind or senses – मानसिक जड़ता, मंदबुद्धिता। Tone: Negative. Example: Prolonged illness left him in a state of hebetude. – लंबी बीमारी ने उसे मानसिक जड़ता की स्थिति में पहुँचा दिया. Word Tone/Connotation: included above. Acumen – तीक्ष्ण बुद्धि, सूझबूझ। Stupor – जड़ता, चेतना का मंद पड़ना (सही समानार्थी)। Sharpness – तीक्ष्णता। Perception – समझ, अनुभूति.",
+    "language": "en"
+  },
+  {
+    "id": "vocab020",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Lament'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Celebrate"
+      },
+      {
+        "id": "B",
+        "text": "Mourn"
+      },
+      {
+        "id": "C",
+        "text": "Applaud"
+      },
+      {
+        "id": "D",
+        "text": "Rejoice"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Lament. Lament means to express sorrow or regret – शोक प्रकट करना, विलाप करना। Tone: Negative. Example: They lamented the loss of their friend. – उन्होंने अपने मित्र की मृत्यु पर शोक व्यक्त किया. Word Tone/Connotation: included above. Celebrate – उत्सव मनाना। Mourn – शोक मनाना (सही समानार्थी)। Applaud – प्रशंसा करना, ताली बजाना। Rejoice – आनंदित होना.",
+    "language": "en"
+  },
+  {
+    "id": "vocab021",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Lucrative'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Profitable"
+      },
+      {
+        "id": "B",
+        "text": "Remunerative"
+      },
+      {
+        "id": "C",
+        "text": "Unprofitable"
+      },
+      {
+        "id": "D",
+        "text": "Gainful"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Lucrative. Lucrative means financially profitable – लाभदायक, मुनाफेदार। Tone: Positive. Example: She accepted a lucrative job offer. – उसने एक लाभदायक नौकरी का प्रस्ताव स्वीकार किया. Word Tone/Connotation: included above. Profitable – लाभदायक। Remunerative – अच्छा पारिश्रमिक देने वाला। Unprofitable – अलाभकारी (सही विलोम)। Gainful – लाभकारी, कमाई वाला.",
+    "language": "en"
+  },
+  {
+    "id": "vocab022",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Sluggish'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lethargic"
+      },
+      {
+        "id": "B",
+        "text": "Languid"
+      },
+      {
+        "id": "C",
+        "text": "Brisk"
+      },
+      {
+        "id": "D",
+        "text": "Inert"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Sluggish. Sluggish means slow-moving or lacking energy – सुस्त, धीमा। Tone: Negative. Example: The sluggish response delayed the project. – धीमी प्रतिक्रिया से परियोजना में देरी हुई. Word Tone/Connotation: included above. Lethargic – सुस्त, निष्क्रिय। Languid – शक्तिहीन, सुस्त। Brisk – तेज, फुर्तीला (सही विलोम)। Inert – निष्क्रिय, जड़.",
+    "language": "en"
+  },
+  {
+    "id": "vocab023",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Loathe'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Adore"
+      },
+      {
+        "id": "B",
+        "text": "Abhor"
+      },
+      {
+        "id": "C",
+        "text": "Admire"
+      },
+      {
+        "id": "D",
+        "text": "Cherish"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Loathe. Loathe means to hate or detest intensely – घृणा करना, बेहद नापसंद करना। Tone: Negative. Example: I loathe dishonesty. – मुझे बेईमानी से घृणा है. Word Tone/Connotation: included above. Adore – बहुत प्यार करना। Abhor – घृणा करना (सही समानार्थी)। Admire – प्रशंसा करना। Cherish – संजोना, बहुत प्रिय मानना.",
+    "language": "en"
+  },
+  {
+    "id": "vocab024",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Lunacy'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Insanity"
+      },
+      {
+        "id": "B",
+        "text": "Madness"
+      },
+      {
+        "id": "C",
+        "text": "Sanity"
+      },
+      {
+        "id": "D",
+        "text": "Folly"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Lunacy. Lunacy means madness or extremely irrational behaviour – पागलपन, मूर्खतापूर्ण व्यवहार। Tone: Negative. Example: Driving at that speed in heavy fog is sheer lunacy. – घने कोहरे में इतनी तेज गाड़ी चलाना सरासर पागलपन है. Word Tone/Connotation: included above. Insanity – पागलपन। Madness – उन्माद, पागलपन। Sanity – मानसिक संतुलन, विवेक (सही विलोम)। Folly – मूर्खता.",
+    "language": "en"
+  },
+  {
+    "id": "vocab025",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Ignorance'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unawareness"
+      },
+      {
+        "id": "B",
+        "text": "Illiteracy"
+      },
+      {
+        "id": "C",
+        "text": "Knowledge"
+      },
+      {
+        "id": "D",
+        "text": "Inexperience"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Ignorance. Ignorance means lack of knowledge or awareness – अज्ञानता, जानकारी का अभाव। Tone: Negative. Example: Ignorance of the rules is no excuse. – नियमों की जानकारी न होना कोई बहाना नहीं है. Word Tone/Connotation: included above. Unawareness – अनभिज्ञता। Illiteracy – निरक्षरता। Knowledge – ज्ञान, जानकारी (सही विलोम)। Inexperience – अनुभवहीनता.",
+    "language": "en"
+  },
+  {
+    "id": "vocab026",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Rogue'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Paragon"
+      },
+      {
+        "id": "B",
+        "text": "Rascal"
+      },
+      {
+        "id": "C",
+        "text": "Sage"
+      },
+      {
+        "id": "D",
+        "text": "Altruist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Rogue. Rogue means a dishonest, deceitful, or mischievous person – बदमाश, धूर्त। Tone: Negative. Example: The rogue vanished with the money. – बदमाश पैसे लेकर गायब हो गया. Word Tone/Connotation: included above. Paragon – आदर्श व्यक्ति। Rascal – बदमाश, धूर्त (सही समानार्थी)। Sage – ज्ञानी, बुद्धिमान व्यक्ति। Altruist – परोपकारी व्यक्ति.",
+    "language": "en"
+  },
+  {
+    "id": "vocab027",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Melancholy'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sorrow"
+      },
+      {
+        "id": "B",
+        "text": "Despondency"
+      },
+      {
+        "id": "C",
+        "text": "Gaiety"
+      },
+      {
+        "id": "D",
+        "text": "Dejection"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Melancholy. Melancholy means deep, quiet sadness – विषाद, उदासी। Tone: Negative. Example: A sense of melancholy filled the room. – कमरे में उदासी का माहौल छा गया. Word Tone/Connotation: included above. Sorrow – दुख। Despondency – निराशा। Gaiety – उल्लास, प्रसन्नता (सही विलोम)। Dejection – मायूसी, निराशा.",
+    "language": "en"
+  },
+  {
+    "id": "vocab028",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Abhor'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Detest"
+      },
+      {
+        "id": "B",
+        "text": "Despise"
+      },
+      {
+        "id": "C",
+        "text": "Adore"
+      },
+      {
+        "id": "D",
+        "text": "Loathe"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Abhor. Abhor means to hate or detest deeply – घृणा करना, नफरत करना। Tone: Negative. Example: She abhors cruelty to animals. – वह जानवरों के प्रति क्रूरता से घृणा करती है. Word Tone/Connotation: included above. Detest – घृणा करना। Despise – तुच्छ समझना, घृणा करना। Adore – बहुत प्रेम करना (सही विलोम)। Loathe – घृणा करना.",
+    "language": "en"
+  },
+  {
+    "id": "vocab029",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Wail'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Whisper"
+      },
+      {
+        "id": "B",
+        "text": "Howl"
+      },
+      {
+        "id": "C",
+        "text": "Murmur"
+      },
+      {
+        "id": "D",
+        "text": "Giggle"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Wail. Wail means to cry out loudly in sorrow or pain – जोर-जोर से रोना, विलाप करना। Tone: Negative. Example: The child began to wail after falling. – गिरने के बाद बच्चा जोर-जोर से रोने लगा. Word Tone/Connotation: included above. Whisper – फुसफुसाना। Howl – जोर से चिल्लाना/विलाप करना (सही समानार्थी)। Murmur – बुदबुदाना। Giggle – धीमे-धीमे हँसना.",
+    "language": "en"
+  },
+  {
+    "id": "vocab030",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Evident'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apparent"
+      },
+      {
+        "id": "B",
+        "text": "Obvious"
+      },
+      {
+        "id": "C",
+        "text": "Obscure"
+      },
+      {
+        "id": "D",
+        "text": "Manifest"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Evident. Evident means clear or obvious – स्पष्ट, प्रत्यक्ष। Tone: Neutral. Example: It was evident that she had prepared well. – यह स्पष्ट था कि उसने अच्छी तैयारी की थी. Word Tone/Connotation: included above. Apparent – प्रत्यक्ष, स्पष्ट। Obvious – साफ जाहिर। Obscure – अस्पष्ट, धुंधला (सही विलोम)। Manifest – स्पष्ट रूप से दिखाई देने वाला.",
+    "language": "en"
+  },
+  {
+    "id": "vocab031",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Latent'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dormant"
+      },
+      {
+        "id": "B",
+        "text": "Hidden"
+      },
+      {
+        "id": "C",
+        "text": "Manifest"
+      },
+      {
+        "id": "D",
+        "text": "潜在"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Latent. Latent means existing but hidden or inactive – सुप्त, छिपा हुआ। Tone: Neutral. Example: The crisis revealed his latent talent. – संकट ने उसकी छिपी हुई प्रतिभा उजागर कर दी. Word Tone/Connotation: included above. Dormant – निष्क्रिय, सुप्त। Hidden – छिपा हुआ। Manifest – स्पष्ट, प्रकट (सही विलोम)। 潜在 – यह विकल्प गलत भाषा/लिपि में है; इसे प्रश्न में शामिल नहीं किया गया है.",
+    "language": "en"
+  },
+  {
+    "id": "vocab032",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Ludicrous'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sensible"
+      },
+      {
+        "id": "B",
+        "text": "Absurd"
+      },
+      {
+        "id": "C",
+        "text": "Plausible"
+      },
+      {
+        "id": "D",
+        "text": "Rational"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Ludicrous. Ludicrous means absurd or ridiculous – हास्यास्पद, बेतुका। Tone: Negative. Example: The rumour was so ludicrous that nobody believed it. – अफवाह इतनी हास्यास्पद थी कि किसी ने विश्वास नहीं किया. Word Tone/Connotation: included above. Sensible – समझदारी भरा। Absurd – बेतुका, हास्यास्पद (सही समानार्थी)। Plausible – विश्वसनीय, तर्कसंगत प्रतीत होने वाला। Rational – तर्कसंगत.",
+    "language": "en"
+  },
+  {
+    "id": "vocab033",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Laid-back'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agitated"
+      },
+      {
+        "id": "B",
+        "text": "Easygoing"
+      },
+      {
+        "id": "C",
+        "text": "Tense"
+      },
+      {
+        "id": "D",
+        "text": "Strict"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Laid-back. Laid-back means relaxed and calm – निश्चिंत, शांत स्वभाव वाला। Tone: Positive/Neutral. Example: He has a laid-back approach to life. – जीवन के प्रति उसका रवैया निश्चिंत है. Word Tone/Connotation: included above. Agitated – उत्तेजित, बेचैन। Easygoing – सहज और शांत स्वभाव वाला (सही समानार्थी)। Tense – तनावग्रस्त। Strict – सख्त, कठोर.",
+    "language": "en"
+  },
+  {
+    "id": "vocab034",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Lavish'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Luxurious"
+      },
+      {
+        "id": "B",
+        "text": "Munificent"
+      },
+      {
+        "id": "C",
+        "text": "Frugal"
+      },
+      {
+        "id": "D",
+        "text": "Profuse"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Lavish. Lavish means abundant, extravagant, or generous – भव्य, खर्चीला, उदारतापूर्वक दिया गया। Tone: Neutral; can be negative when wasteful. Example: They hosted a lavish reception. – उन्होंने भव्य स्वागत समारोह आयोजित किया. Word Tone/Connotation: included above. Luxurious – आलीशान। Munificent – अत्यंत उदार। Frugal – मितव्ययी, कम खर्च करने वाला (सही विलोम)। Profuse – प्रचुर मात्रा में.",
+    "language": "en"
+  },
+  {
+    "id": "vocab035",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Gravity'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Levity"
+      },
+      {
+        "id": "B",
+        "text": "Frivolity"
+      },
+      {
+        "id": "C",
+        "text": "Solemnity"
+      },
+      {
+        "id": "D",
+        "text": "Carelessness"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Gravity. Gravity here means seriousness or importance – गंभीरता, महत्व। Tone: Neutral/Positive. Example: She understood the gravity of the situation. – उसने स्थिति की गंभीरता समझी. Word Tone/Connotation: included above. Levity – हल्कापन। Frivolity – गैर-गंभीरता। Solemnity – गंभीरता, संजीदगी (सही समानार्थी)। Carelessness – लापरवाही.",
+    "language": "en"
+  },
+  {
+    "id": "vocab036",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Drowsy'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vigilant"
+      },
+      {
+        "id": "B",
+        "text": "Somnolent"
+      },
+      {
+        "id": "C",
+        "text": "Energetic"
+      },
+      {
+        "id": "D",
+        "text": "Restless"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Drowsy. Drowsy means sleepy or half-asleep – उनींदा, नींद से भरा हुआ। Tone: Neutral. Example: The medicine made him drowsy. – दवा से उसे नींद आने लगी. Word Tone/Connotation: included above. Vigilant – सतर्क। Somnolent – निद्रालु, उनींदा (सही समानार्थी)। Energetic – ऊर्जावान। Restless – बेचैन.",
+    "language": "en"
+  },
+  {
+    "id": "vocab037",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Long-winded'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Prolix"
+      },
+      {
+        "id": "B",
+        "text": "Concise"
+      },
+      {
+        "id": "C",
+        "text": "Rambling"
+      },
+      {
+        "id": "D",
+        "text": "Verbose"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Long-winded. Long-winded means excessively lengthy or wordy – बहुत लंबा और शब्दाडंबरपूर्ण। Tone: Negative. Example: The speaker gave a long-winded explanation. – वक्ता ने बहुत लंबी और घुमावदार व्याख्या दी. Word Tone/Connotation: included above. Prolix – बहुत लंबा, अनावश्यक शब्दों वाला। Concise – संक्षिप्त और स्पष्ट (सही विलोम)। Rambling – बिना क्रम के लंबा बोलना। Verbose – जरूरत से ज्यादा शब्दों का प्रयोग करने वाला.",
+    "language": "en"
+  },
+  {
+    "id": "vocab038",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Liability'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Asset"
+      },
+      {
+        "id": "B",
+        "text": "Responsibility"
+      },
+      {
+        "id": "C",
+        "text": "Advantage"
+      },
+      {
+        "id": "D",
+        "text": "Benefit"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Liability. Liability means legal responsibility or a disadvantage – दायित्व, देनदारी; बोझ या जोखिम। Tone: Usually Negative. Example: The damaged vehicle became a liability. – क्षतिग्रस्त वाहन एक बोझ बन गया. Word Tone/Connotation: included above. Asset – संपत्ति, लाभकारी चीज। Responsibility – जिम्मेदारी, दायित्व (सही समानार्थी)। Advantage – लाभ। Benefit – फायदा.",
+    "language": "en"
+  },
+  {
+    "id": "vocab039",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Scoundrel'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Benefactor"
+      },
+      {
+        "id": "B",
+        "text": "Villain"
+      },
+      {
+        "id": "C",
+        "text": "Patron"
+      },
+      {
+        "id": "D",
+        "text": "Ally"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Scoundrel. Scoundrel means a wicked or dishonest person – दुष्ट, नीच या बेईमान व्यक्ति। Tone: Negative. Example: The scoundrel deceived his partners. – उस बेईमान व्यक्ति ने अपने साझेदारों को धोखा दिया. Word Tone/Connotation: included above. Benefactor – उपकारी, मददगार। Villain – खलनायक, दुष्ट व्यक्ति (सही समानार्थी)। Patron – संरक्षक, समर्थक। Ally – सहयोगी, मित्र.",
+    "language": "en"
+  },
+  {
+    "id": "vocab040",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Lugubrious'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cheerful"
+      },
+      {
+        "id": "B",
+        "text": "Mournful"
+      },
+      {
+        "id": "C",
+        "text": "Jubilant"
+      },
+      {
+        "id": "D",
+        "text": "Exuberant"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Lugubrious. Lugubrious means excessively mournful or gloomy – उदास, शोकपूर्ण, विषादमय। Tone: Negative. Example: He spoke in a lugubrious voice. – उसने अत्यंत उदास स्वर में बात की. Word Tone/Connotation: included above. Cheerful – प्रसन्न। Mournful – शोकाकुल, दुखी (सही समानार्थी)। Jubilant – अत्यंत प्रसन्न। Exuberant – उत्साह से भरा हुआ.",
+    "language": "en"
+  },
+  {
+    "id": "vocab041",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Lax'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vigilant"
+      },
+      {
+        "id": "B",
+        "text": "Negligent"
+      },
+      {
+        "id": "C",
+        "text": "Stringent"
+      },
+      {
+        "id": "D",
+        "text": "Rigorous"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Lax. Lax means careless or not strict enough – ढीला, लापरवाह, शिथिल। Tone: Negative. Example: Lax security allowed the theft. – ढीली सुरक्षा व्यवस्था के कारण चोरी हुई. Word Tone/Connotation: included above. Vigilant – सतर्क। Negligent – लापरवाह, उपेक्षापूर्ण (सही समानार्थी)। Stringent – कठोर, सख्त। Rigorous – कठोर, सख्ती से लागू.",
+    "language": "en"
+  },
+  {
+    "id": "vocab042",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Lacuna'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Continuity"
+      },
+      {
+        "id": "B",
+        "text": "Deficiency"
+      },
+      {
+        "id": "C",
+        "text": "Completeness"
+      },
+      {
+        "id": "D",
+        "text": "Surplus"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Lacuna. Lacuna means a gap, omission, or missing part – रिक्त स्थान, कमी, छूटा हुआ अंश। Tone: Neutral. Example: The report has a lacuna in its evidence. – रिपोर्ट में साक्ष्यों का एक अभाव है. Word Tone/Connotation: included above. Continuity – निरंतरता। Deficiency – कमी, अभाव (सही समानार्थी)। Completeness – पूर्णता। Surplus – अतिरिक्त मात्रा, अधिशेष.",
+    "language": "en"
+  },
+  {
+    "id": "vocab043",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Fatal'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Harmless"
+      },
+      {
+        "id": "B",
+        "text": "Lethal"
+      },
+      {
+        "id": "C",
+        "text": "Beneficial"
+      },
+      {
+        "id": "D",
+        "text": "Recoverable"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Fatal. Fatal means causing death or disastrous consequences – घातक, जानलेवा। Tone: Negative. Example: The accident proved fatal. – दुर्घटना जानलेवा साबित हुई. Word Tone/Connotation: included above. Harmless – हानिरहित। Lethal – घातक, प्राणघातक (सही समानार्थी)। Beneficial – लाभकारी। Recoverable – जिससे उबरा जा सके.",
+    "language": "en"
+  },
+  {
+    "id": "vocab044",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Obscure'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Vague"
+      },
+      {
+        "id": "B",
+        "text": "Ambiguous"
+      },
+      {
+        "id": "C",
+        "text": "Lucid"
+      },
+      {
+        "id": "D",
+        "text": "Indistinct"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Obscure. Obscure means unclear, difficult to understand, or not well known – अस्पष्ट, अज्ञात। Tone: Usually Negative/Neutral. Example: The reference was obscure to most readers. – वह संदर्भ अधिकांश पाठकों के लिए अस्पष्ट था. Word Tone/Connotation: included above. Vague – अस्पष्ट। Ambiguous – द्विअर्थी, अस्पष्ट। Lucid – स्पष्ट, सुबोध (सही विलोम)। Indistinct – धुंधला, अस्पष्ट.",
+    "language": "en"
+  },
+  {
+    "id": "vocab045",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Laconic'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Verbose"
+      },
+      {
+        "id": "B",
+        "text": "Taciturn"
+      },
+      {
+        "id": "C",
+        "text": "Garrulous"
+      },
+      {
+        "id": "D",
+        "text": "Wordy"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Laconic. Laconic means expressing much in few words – संक्षिप्त, कम शब्दों में बात करने वाला। Tone: Neutral/Positive. Example: Her laconic reply ended the discussion. – उसके संक्षिप्त उत्तर ने चर्चा समाप्त कर दी. Word Tone/Connotation: included above. Verbose – शब्दाडंबरपूर्ण, बहुत बोलने वाला। Taciturn – अल्पभाषी, कम बोलने वाला (सही समानार्थी)। Garrulous – बातूनी। Wordy – अनावश्यक रूप से शब्दों से भरा हुआ.",
+    "language": "en"
+  },
+  {
+    "id": "vocab046",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Lackadaisical'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Zealous"
+      },
+      {
+        "id": "B",
+        "text": "Energetic"
+      },
+      {
+        "id": "C",
+        "text": "Languid"
+      },
+      {
+        "id": "D",
+        "text": "Meticulous"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Lackadaisical. Lackadaisical means lacking enthusiasm or care – उत्साहहीन, लापरवाह। Tone: Negative. Example: His lackadaisical attitude affected the team's performance. – उसके उत्साहहीन रवैये ने टीम के प्रदर्शन को प्रभावित किया. Word Tone/Connotation: included above. Zealous – उत्साही, जोशीला। Energetic – ऊर्जावान। Languid – सुस्त, उत्साहहीन (सही समानार्थी)। Meticulous – बहुत सावधान, बारीकी से काम करने वाला.",
+    "language": "en"
+  },
+  {
+    "id": "vocab047",
+    "subjectId": "english",
+    "question": "Choose the word most nearly similar in meaning to 'Lofty'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Base"
+      },
+      {
+        "id": "B",
+        "text": "Elevated"
+      },
+      {
+        "id": "C",
+        "text": "Mean"
+      },
+      {
+        "id": "D",
+        "text": "Humble"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Lofty. Lofty means high in position or noble in thought – ऊँचा, उदात्त, महान। Tone: Positive; sometimes negative when it means arrogant. Example: They pursued a lofty ideal. – उन्होंने एक उदात्त आदर्श का अनुसरण किया. Word Tone/Connotation: included above. Base – नीच, घटिया। Elevated – ऊँचा, उच्च (सही समानार्थी)। Mean – तुच्छ, नीच। Humble – विनम्र, साधारण.",
+    "language": "en"
+  },
+  {
+    "id": "vocab048",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to 'Levity'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Frivolity"
+      },
+      {
+        "id": "B",
+        "text": "Flippancy"
+      },
+      {
+        "id": "C",
+        "text": "Gravity"
+      },
+      {
+        "id": "D",
+        "text": "Jocularity"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Target word: Levity. Levity means lightness or lack of seriousness – हल्कापन, असंगत मजाकिया रवैया। Tone: Often Negative in serious situations. Example: His levity was inappropriate at the memorial. – स्मृति सभा में उसका हल्कापन अनुचित था. Word Tone/Connotation: included above. Frivolity – हल्कापन, गैर-गंभीरता। Flippancy – लापरवाही भरा हल्का व्यवहार। Gravity – गंभीरता (सही विलोम)। Jocularity – हँसी-मजाक का स्वभाव.",
+    "language": "en"
+  }
+]

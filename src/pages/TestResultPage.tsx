@@ -11,6 +11,7 @@ import { useDailyGoalStore } from '../store/dailyGoalStore';
 import { computeTestScore } from '../services/testScoringService';
 import { recordSessionToLedger } from '../services/attemptLedgerService';
 import { formatTime, formatDateKey, sessionToSavedTest } from '../utils';
+import { LegacyResultTables } from '../components/results/LegacyResultTables';
 import type { DailyQuiz } from '../types';
 
 export default function TestResultPage() {
@@ -143,6 +144,8 @@ export default function TestResultPage() {
           <Home size={16} /> Done
         </button>
       </motion.div>
+
+      <LegacyResultTables session={session} />
     </div>
   );
 }

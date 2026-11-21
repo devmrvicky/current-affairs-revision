@@ -1,16 +1,20 @@
 import { type ReactNode } from 'react';
 import {
   Trophy, Target, TrendingUp, Gauge, BarChart3, Layers, PieChart as PieChartIcon, ListChecks,
-  History, BookOpenCheck, Smile, Clock, Lightbulb, CheckCircle2, Info,
+  BookOpenCheck, Smile, Clock, Lightbulb, CheckCircle2, Info,
 } from 'lucide-react';
 import { formatDuration } from '../../utils';
 import { CollapsibleSection } from './CollapsibleSection';
 import { AnalysisDonutChart, AnalysisBarChart } from './AnalysisCharts';
 import { SolutionsReview } from './SolutionsReview';
+import { ResultTables } from '../results/ResultTables';
+import type { ResultContext } from '../../services/resultTables';
 import type { AreaPerformance, MockAnalysis, TimedQuestionRef } from '../../types/mockAnalysis';
 
 interface AnalysisViewProps {
   analysis: MockAnalysis;
+  /** What the result screen knows beyond the analysis (marking scheme, allotted time, sections, earlier attempts) — feeds the shared result tables. */
+  context: ResultContext;
   /** 'mock' shows rank/percentile/cut-off cards (honest "unavailable" states); 'practice' shows what a practice session can know. */
   variant: 'mock' | 'practice';
 }
@@ -20,7 +24,7 @@ interface AnalysisViewProps {
  * session — both produce the same MockAnalysis. Sections are collapsible so small screens get a
  * scannable page; anything that depends on data the attempt never recorded says so instead of showing zeros.
  */
-export function AnalysisView({ analysis, variant }: AnalysisViewProps) {
+export function AnalysisView({ analysis, context, variant }: AnalysisViewProps) {
   const { summary, timeInsights, recommendations, dataAvailability } = analysis;
   const scoring = summary.scoringApplicable !== false;
   const multiSubject = analysis.subjectPerformance.length > 1;
@@ -66,6 +70,8 @@ export function AnalysisView({ analysis, variant }: AnalysisViewProps) {
         </div>
       </div>
 
+      <ResultTables analysis={analysis} context={context} />
+
       {recommendations && (
         <CollapsibleSection title="Revision plan" subtitle="Based on how you did on each topic in this test" icon={<Lightbulb size={18} />} defaultOpen>
           <RevisionPlan recommendations={recommendations} multiTopic={analysis.topicPerformance.length > 1} />
@@ -78,45 +84,8 @@ export function AnalysisView({ analysis, variant }: AnalysisViewProps) {
             data={analysis.subjectPerformance.map((s) => ({ label: s.subjectName, value: s.marks, maxValue: s.maxMarks }))}
             valueLabel={scoring ? 'Your Score' : 'Correct'} maxLabel={scoring ? 'Max Marks' : 'Questions'}
           />
-          <div className="mt-4 space-y-3">
-            {analysis.subjectPerformance.map((s) => (
-              <div key={s.subjectId} className="flex items-center justify-between text-xs border-t pt-2.5" style={{ borderColor: 'var(--border)' }}>
-                <div>
-                  <p className="font-medium text-sm" style={{ color: 'var(--text-primary)' }}>{s.subjectName}</p>
-                  <p style={{ color: 'var(--text-muted)' }}>{s.attempted}/{s.questionCount} attempted · {s.correct} correct · {s.incorrect} incorrect</p>
-                </div>
-                <div className="text-right">
-                  <p className="font-semibold" style={{ color: 'var(--text-primary)' }}>{scoring ? `${s.marks}/${s.maxMarks}` : `${s.correct}/${s.questionCount}`}</p>
-                  <p style={{ color: 'var(--text-muted)' }}>{s.accuracy !== null ? `${s.accuracy}% acc.` : 'N/A'}{dataAvailability?.perQuestionTime !== false && <> · {formatDuration(s.timeSpentSeconds)}</>}</p>
-                </div>
-              </div>
-            ))}
-          </div>
         </CollapsibleSection>
       )}
-
-      <CollapsibleSection title="Topic-wise Performance" subtitle={`${analysis.topicPerformance.length} topic${analysis.topicPerformance.length === 1 ? '' : 's'}`} icon={<Layers size={18} />} defaultOpen={variant === 'practice'}>
-        <div className="space-y-3">
-          {analysis.topicPerformance.map((t) => (
-            <div key={`${t.subjectId}::${t.topicId}`} className="text-xs border-b last:border-0 pb-3" style={{ borderColor: 'var(--border)' }} data-testid="topic-row">
-              <div className="flex items-start justify-between gap-3">
-                <div className="min-w-0">
-                  <p className="font-medium text-sm" style={{ color: 'var(--text-primary)' }}>{t.topicName}</p>
-                  <p style={{ color: 'var(--text-muted)' }}>{t.correct} correct · {t.incorrect} incorrect · {t.unattempted} unanswered</p>
-                </div>
-                <div className="text-right flex-shrink-0">
-                  <p className="font-semibold" style={{ color: 'var(--text-primary)' }}>{t.accuracy !== null ? `${t.accuracy}%` : 'N/A'}</p>
-                  {dataAvailability?.perQuestionTime !== false && t.avgTimePerQuestionSeconds > 0 && <p style={{ color: 'var(--text-muted)' }}>{t.avgTimePerQuestionSeconds}s avg</p>}
-                </div>
-              </div>
-              <div className="h-1.5 rounded-full overflow-hidden mt-2" style={{ background: 'var(--border)' }} aria-hidden>
-                <div className="h-full rounded-full" style={{ width: `${t.questionCount > 0 ? (t.correct / t.questionCount) * 100 : 0}%`, background: '#22c55e' }} />
-              </div>
-              {t.questionCount < 3 && <p className="mt-1 italic" style={{ color: 'var(--text-muted)' }}>Only {t.questionCount} question{t.questionCount === 1 ? '' : 's'} — not enough to judge this topic.</p>}
-            </div>
-          ))}
-        </div>
-      </CollapsibleSection>
 
       {timeInsights && (
         <CollapsibleSection title="Time analysis" subtitle="Where your time went, question by question" icon={<Clock size={18} />}>
@@ -230,24 +199,6 @@ export function AnalysisView({ analysis, variant }: AnalysisViewProps) {
                 </div>
               </div>
             ))}
-          </div>
-        </CollapsibleSection>
-      )}
-
-      {analysis.historicalComparison && (
-        <CollapsibleSection title="Historical Comparison" subtitle={`vs your ${analysis.historicalComparison.previousAttemptCount} previous attempt(s)`} icon={<History size={18} />}>
-          <div className="grid grid-cols-2 gap-3">
-            <div className="rounded-xl p-3" style={{ background: 'var(--border)' }}>
-              <p className="text-[11px] mb-1" style={{ color: 'var(--text-muted)' }}>Time Taken</p>
-              <p className="text-sm font-bold" style={{ color: 'var(--text-primary)' }}>{formatDuration(analysis.historicalComparison.timeTakenSeconds.current)}</p>
-              <p className="text-[11px]" style={{ color: analysis.historicalComparison.timeTakenSeconds.changeSeconds <= 0 ? '#22c55e' : '#ef4444' }}>
-                {analysis.historicalComparison.timeTakenSeconds.changeSeconds <= 0 ? 'Faster' : 'Slower'} by {formatDuration(Math.abs(analysis.historicalComparison.timeTakenSeconds.changeSeconds))}
-              </p>
-            </div>
-            <div className="rounded-xl p-3" style={{ background: 'var(--border)' }}>
-              <p className="text-[11px] mb-1" style={{ color: 'var(--text-muted)' }}>Previous Average Time</p>
-              <p className="text-sm font-bold" style={{ color: 'var(--text-primary)' }}>{formatDuration(analysis.historicalComparison.timeTakenSeconds.previousAverage)}</p>
-            </div>
           </div>
         </CollapsibleSection>
       )}

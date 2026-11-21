@@ -2,32 +2,28 @@ import { useEffect, useState, useMemo, memo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  Bookmark, XCircle, Flag, Trash2, ArrowLeft, CheckCircle2,
-  Sparkles, ListChecks, History as HistoryIcon, TrendingDown, Layers
+  Bookmark, Trash2, ArrowLeft, CheckCircle2,
+  Sparkles, ListChecks, TrendingDown, Layers, Archive
 } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { useBookmarkStore } from '../store/bookmarkStore';
-import { useWrongQuestionsStore } from '../store/wrongQuestionsStore';
-import { useMarkedReviewStore } from '../store/markedReviewStore';
 import { ReviewInsightsPanel } from '../components/review/ReviewInsightsPanel';
 import { ReviewHub } from '../components/review/ReviewHub';
+import { ArchivedSessionsPanel } from '../components/review/ArchivedSessionsPanel';
 import { universalAttemptsDB } from '../services/db';
 import { weakTopics as computeWeakTopics, WEAK_MIN_ATTEMPTS, SOURCE_LABELS } from '../services/reviewAnalytics';
-import { getMarkPurposeInfo } from '../types/questionMark';
-import { useHistoryStore } from '../store/historyStore';
 import { useChapterStore } from '../store/chapterStore';
 import { useExamStore } from '../store/examStore';
 import { useQuizStore } from '../store/quizStore';
 import { getExam } from '../services/examService';
-import { resolveTopicId, getUnattemptedQuestions, getRandomQuestions, resolveQuestionsByIds } from '../services/questionRepository';
-import { getRecentAttemptRecords } from '../services/attemptLedgerService';
+import { resolveTopicId, getUnattemptedQuestions, getRandomQuestions } from '../services/questionRepository';
 import { toLegacyQuestion } from '../services/legacyQuestionAdapter';
-import { subjectRegistry, getTopicDisplayName } from '../data/registry/subjectRegistry';
+import { getTopicDisplayName } from '../data/registry/subjectRegistry';
 import { EmptyState } from '../components/common/EmptyState';
 import { formatRelativeDate } from '../utils';
 import type { DailyQuiz } from '../types';
 
-type ReviewTab = 'hub' | 'bookmarked' | 'wrong' | 'marked' | 'recent' | 'weak' | 'insights' | 'unattempted';
+type ReviewTab = 'hub' | 'bookmarked' | 'weak' | 'insights' | 'unattempted' | 'archived';
 
 interface CommonItem {
   id: string;
@@ -177,9 +173,6 @@ const PAGE_SIZE = 20;
 export default function ReviewCenterPage() {
   const navigate = useNavigate();
   const { bookmarks, isLoading: loadingBookmarks, load: loadBookmarks, remove: removeBookmark } = useBookmarkStore();
-  const { questions: wrongQuestions, isLoading: loadingWrong, load: loadWrong, dismiss: dismissWrong } = useWrongQuestionsStore();
-  const { items: markedItems, isLoading: loadingMarked, load: loadMarked, remove: removeMarked } = useMarkedReviewStore();
-  const { tests, isLoading: loadingHistory, load: loadHistory } = useHistoryStore();
   const { stats: chapterStats, isLoading: loadingChapters, load: loadChapters } = useChapterStore();
   const { selectedExamId } = useExamStore();
   const { startSession } = useQuizStore();
@@ -194,95 +187,18 @@ export default function ReviewCenterPage() {
 
   useEffect(() => {
     loadBookmarks();
-    loadWrong();
-    loadMarked();
-    loadHistory();
     loadChapters();
   }, []);
 
-  const isLoading = loadingBookmarks || loadingWrong || loadingMarked;
+  const isLoading = loadingBookmarks;
 
   const bookmarkedItems: CommonItem[] = useMemo(() => bookmarks.map((b) => ({
     id: b.id, question: b.question, options: b.options, correctAnswer: b.correctAnswer,
     explanation: b.explanation, sourceLabel: b.sourceDate, timestamp: b.bookmarkedAt,
   })), [bookmarks]);
 
-  const wrongItems: CommonItem[] = useMemo(() => wrongQuestions.map((w) => ({
-    id: w.id, question: w.question, options: w.options, correctAnswer: w.correctAnswer,
-    explanation: w.explanation, sourceLabel: w.displayDate, timestamp: w.lastAttemptAt,
-    meta: w.status === 'mastered' ? 'Mastered ✓' : `Wrong ${w.wrongCount}×`,
-  })), [wrongQuestions]);
-
-  const markedReviewItems: CommonItem[] = useMemo(() => markedItems.map((m) => ({
-    id: m.id, question: m.question, options: m.options, correctAnswer: m.correctAnswer,
-    explanation: m.explanation, sourceLabel: m.universalQuestionId ? `${m.sourceFileName} · ${m.sourceDate}` : m.sourceDate, timestamp: m.markedAt,
-    meta: getMarkPurposeInfo(m.purpose ?? 'review')?.label,
-  })), [markedItems]);
-
-  const [recentItems, setRecentItems] = useState<CommonItem[]>([]);
-  const [loadingRecent, setLoadingRecent] = useState(false);
   const [weakTopics, setWeakTopics] = useState<TopicDisplayRow[]>([]);
   const [loadingWeak, setLoadingWeak] = useState(false);
-
-  // Recently Attempted — the universal attempt ledger is the canonical,
-  // cross-subject source (works for Maths/Reasoning/English the instant they
-  // have attempts, no Current-Affairs-specific code). historyStore is kept
-  // ONLY as a compatibility bridge for sessions the ledger doesn't cover yet
-  // (Monthly Magazine, Mixed Revision) — and explicitly skipped for any
-  // fileName the ledger already has, so a mock test that writes to both
-  // never appears twice (master prompt §28: no duplicate recording surfaced
-  // to the user, even if two systems both hold a copy internally).
-  useEffect(() => {
-    if (tab !== 'recent') return;
-    let cancelled = false;
-    setLoadingRecent(true);
-    (async () => {
-      const ledgerRecords = await getRecentAttemptRecords(80);
-      const ids = ledgerRecords.map((r) => r.universalQuestionId).filter((id): id is string => Boolean(id));
-      const resolved = await resolveQuestionsByIds(ids);
-      const byId = new Map(resolved.map((q) => [q.id, q]));
-
-      const ledgerItems: CommonItem[] = ledgerRecords
-        .filter((r) => r.universalQuestionId && byId.has(r.universalQuestionId))
-        .map((r) => {
-          const q = byId.get(r.universalQuestionId!)!;
-          const subject = subjectRegistry.getSubject(r.subjectId);
-          const topic = r.topicId ? subjectRegistry.getTopicsForSubject(r.subjectId).find((t) => t.id === r.topicId) : undefined;
-          return {
-            id: `ledger-${r.id}`,
-            question: q.question,
-            options: q.options.map((o) => o.text),
-            correctAnswer: q.options.find((o) => o.id === q.correctAnswer)?.text ?? '',
-            explanation: q.explanation ?? '',
-            sourceLabel: [subject?.name ?? r.subjectId, topic?.name].filter(Boolean).join(' · '),
-            timestamp: r.attemptedAt,
-            meta: !r.wasAnswered ? 'Skipped' : r.isCorrect ? 'Correct' : 'Wrong',
-          };
-        });
-
-      const ledgerFileNames = new Set(ledgerRecords.map((r) => r.sourceFileName));
-      const historyItems: CommonItem[] = [...tests]
-        .filter((test) => !ledgerFileNames.has(test.fileName))
-        .sort((a, b) => b.savedAt - a.savedAt)
-        .slice(0, 15)
-        .flatMap((test) =>
-          test.questions.map((q, idx) => ({
-            id: `${test.id}-${idx}`,
-            question: q.question,
-            options: q.options,
-            correctAnswer: q.correctAnswer,
-            explanation: q.explanation,
-            sourceLabel: test.displayDate,
-            timestamp: test.savedAt,
-            meta: q.status === 'correct' ? 'Correct' : q.status === 'wrong' ? 'Wrong' : 'Skipped',
-          }))
-        );
-
-      const merged = [...ledgerItems, ...historyItems].sort((a, b) => b.timestamp - a.timestamp).slice(0, 60);
-      if (!cancelled) setRecentItems(merged);
-    })().finally(() => { if (!cancelled) setLoadingRecent(false); });
-    return () => { cancelled = true; };
-  }, [tab, tests]);
 
   // Weak Topics — ledger-derived performance works for ANY subject/topic the
   // moment attempts exist for it (no `if (subjectId === 'current-affairs')`
@@ -362,30 +278,26 @@ export default function ReviewCenterPage() {
     }
   }
 
+  // Wrong / Marked / Recently-attempted used to be tabs of their own. They were the same questions the Review tab lists, so they are
+  // gone as tabs; what they offered lives on the one list now (remove from wrong list, remove mark, the Date and Latest-result filters,
+  // and every attempt in History). Bookmarks stay: they are a different thing — questions you chose to keep, right or wrong.
   function handleRemove(id: string) {
-    if (tab === 'bookmarked') { removeBookmark(id); toast.success('Removed bookmark'); }
-    else if (tab === 'wrong') { dismissWrong(id); toast.success('Removed from wrong questions'); }
-    else if (tab === 'marked') { removeMarked(id); toast.success('Removed mark'); }
+    removeBookmark(id);
+    toast.success('Removed bookmark');
   }
 
   const tabs: { key: ReviewTab; label: string; icon: React.ReactNode; count: number; accent: string }[] = [
     { key: 'hub', label: 'Review', icon: <TrendingDown size={14} />, count: 0, accent: 'border-l-brand-500' },
     { key: 'bookmarked', label: 'Bookmarked', icon: <Bookmark size={14} />, count: bookmarkedItems.length, accent: 'border-l-purple-500' },
-    { key: 'wrong', label: 'Wrong Questions', icon: <XCircle size={14} />, count: wrongItems.length, accent: 'border-l-red-500' },
-    { key: 'marked', label: 'Marked For Review', icon: <Flag size={14} />, count: markedReviewItems.length, accent: 'border-l-amber-500' },
-    { key: 'recent', label: 'Recently Attempted', icon: <HistoryIcon size={14} />, count: recentItems.length, accent: 'border-l-blue-500' },
     { key: 'weak', label: 'Weak Topics', icon: <TrendingDown size={14} />, count: weakTopics.filter((t) => t.status === 'Weak').length, accent: 'border-l-orange-500' },
     { key: 'insights', label: 'Insights', icon: <TrendingDown size={14} />, count: 0, accent: 'border-l-indigo-500' },
     { key: 'unattempted', label: 'Unattempted', icon: <Layers size={14} />, count: unattemptedCount ?? 0, accent: 'border-l-teal-500' },
+    { key: 'archived', label: 'Closed tests', icon: <Archive size={14} />, count: 0, accent: 'border-l-slate-500' },
   ];
 
-  const activeItems =
-    tab === 'bookmarked' ? bookmarkedItems :
-    tab === 'wrong' ? wrongItems :
-    tab === 'marked' ? markedReviewItems :
-    tab === 'recent' ? recentItems : [];
+  const activeItems = tab === 'bookmarked' ? bookmarkedItems : [];
   const activeAccent = tabs.find((t) => t.key === tab)!.accent;
-  const canRemove = tab === 'bookmarked' || tab === 'wrong' || tab === 'marked';
+  const canRemove = tab === 'bookmarked';
 
   useEffect(() => { setVisibleCount(PAGE_SIZE); }, [tab]);
   const visibleItems = activeItems.slice(0, visibleCount);
@@ -467,6 +379,8 @@ export default function ReviewCenterPage() {
         )
       ) : tab === 'hub' ? (
         <ReviewHub />
+      ) : tab === 'archived' ? (
+        <ArchivedSessionsPanel />
       ) : tab === 'insights' ? (
         <ReviewInsightsPanel />
       ) : tab === 'weak' ? (
@@ -490,30 +404,15 @@ export default function ReviewCenterPage() {
             {weakTopics.map((t, i) => <TopicRow key={t.topicId} topic={t} delay={i * 0.03} />)}
           </div>
         )
-      ) : isLoading || (tab === 'recent' && loadingRecent) ? (
+      ) : isLoading ? (
         <div className="space-y-3">
           {[1, 2, 3].map((i) => <div key={i} className="card h-20 shimmer" style={{ background: 'var(--border)' }} />)}
         </div>
       ) : activeItems.length === 0 ? (
         <EmptyState
-          icon={
-            tab === 'bookmarked' ? <Bookmark size={28} style={{ color: 'var(--text-muted)' }} /> :
-            tab === 'wrong' ? <CheckCircle2 size={28} className="text-green-400" /> :
-            tab === 'recent' ? <HistoryIcon size={28} style={{ color: 'var(--text-muted)' }} /> :
-            <Flag size={28} style={{ color: 'var(--text-muted)' }} />
-          }
-          title={
-            tab === 'bookmarked' ? 'No bookmarked questions yet' :
-            tab === 'wrong' ? "You're all caught up!" :
-            tab === 'recent' ? 'No tests attempted yet' :
-            'No questions marked for review'
-          }
-          description={
-            tab === 'bookmarked' ? 'Bookmark questions during a quiz to revisit them here.' :
-            tab === 'wrong' ? 'No wrong answers in your revision queue right now.' :
-            tab === 'recent' ? 'Complete a practice set, test, or daily quiz to see it here.' :
-            'Use the flag button during a quiz to mark questions you want to revisit.'
-          }
+          icon={<Bookmark size={28} style={{ color: 'var(--text-muted)' }} />}
+          title="No bookmarked questions yet"
+          description="Bookmark questions during a quiz to revisit them here."
           action={
             <button onClick={() => navigate('/chapter-wise-current-affairs')} className="btn-primary mt-4 text-sm py-2 px-5 flex items-center gap-2">
               <ListChecks size={14} /> Take a Test

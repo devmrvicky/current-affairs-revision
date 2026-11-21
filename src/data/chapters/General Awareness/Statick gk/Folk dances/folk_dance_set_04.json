@@ -1,0 +1,812 @@
+[
+  {
+    "id": "folk_dance_set_04_q001",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तमिलनाडु से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चेराव (बाँस नृत्य) (Cherav (Bamboo))"
+      },
+      {
+        "id": "B",
+        "text": "कुम्मी (Kummi)"
+      },
+      {
+        "id": "C",
+        "text": "ओग्गुकथा (Oggukatha)"
+      },
+      {
+        "id": "D",
+        "text": "पाखुपिला (Pakhupila)"
+      }
+    ],
+    "correctOption": "B",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q002",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मिजोरम से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चैलाम (Chailam)"
+      },
+      {
+        "id": "B",
+        "text": "ओग्गुकथा (Oggukatha)"
+      },
+      {
+        "id": "C",
+        "text": "गुसाड़ी (Gusadi)"
+      },
+      {
+        "id": "D",
+        "text": "लंबाड़ी (Lambadi)"
+      }
+    ],
+    "correctOption": "A",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q003",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तमिलनाडु से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "काई सिलंबट्टम (Kai Silambattam)"
+      },
+      {
+        "id": "B",
+        "text": "तलंगलम (Talangalam)"
+      },
+      {
+        "id": "C",
+        "text": "पाखुपिला (Pakhupila)"
+      },
+      {
+        "id": "D",
+        "text": "चेरोकान (Cherokan)"
+      }
+    ],
+    "correctOption": "A",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q004",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तेलंगाना से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चिंदु भागवतम (Chindu Bhagavatam)"
+      },
+      {
+        "id": "B",
+        "text": "कावड़ी (Kavdi)"
+      },
+      {
+        "id": "C",
+        "text": "मयिलाट्टम (Mayilattam)"
+      },
+      {
+        "id": "D",
+        "text": "खुल्लम (Khullam)"
+      }
+    ],
+    "correctOption": "A",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q005",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तमिलनाडु से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "तलंगलम (Talangalam)"
+      },
+      {
+        "id": "B",
+        "text": "गुसाड़ी (Gusadi)"
+      },
+      {
+        "id": "C",
+        "text": "देवरट्टम (Devarattam)"
+      },
+      {
+        "id": "D",
+        "text": "माथुरी (Mathuri)"
+      }
+    ],
+    "correctOption": "C",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q006",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मिजोरम से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "खुल्लम (Khullam)"
+      },
+      {
+        "id": "B",
+        "text": "काई सिलंबट्टम (Kai Silambattam)"
+      },
+      {
+        "id": "C",
+        "text": "मयिलाट्टम (Mayilattam)"
+      },
+      {
+        "id": "D",
+        "text": "पेरिनी शिवतांडवम (Perini Shivathandavam)"
+      }
+    ],
+    "correctOption": "A",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q007",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तेलंगाना से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कुदिरई अट्टम (Kuthirai Attam)"
+      },
+      {
+        "id": "B",
+        "text": "कोलाट्टम (Kolattam)"
+      },
+      {
+        "id": "C",
+        "text": "मथिलाट्टम (Mathilaatam)"
+      },
+      {
+        "id": "D",
+        "text": "लंबाड़ी (Lambadi)"
+      }
+    ],
+    "correctOption": "D",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q008",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तमिलनाडु से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "माथुरी (Mathuri)"
+      },
+      {
+        "id": "B",
+        "text": "लंबाड़ी (Lambadi)"
+      },
+      {
+        "id": "C",
+        "text": "कजाई कोथु (Kajai Kothu)"
+      },
+      {
+        "id": "D",
+        "text": "चिंदु भागवतम (Chindu Bhagavatam)"
+      }
+    ],
+    "correctOption": "C",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q009",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मिजोरम से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "गुसाड़ी (Gusadi)"
+      },
+      {
+        "id": "B",
+        "text": "माथुरी (Mathuri)"
+      },
+      {
+        "id": "C",
+        "text": "डप्पू (Dappu)"
+      },
+      {
+        "id": "D",
+        "text": "यक चाम (Yak Cham)"
+      }
+    ],
+    "correctOption": "D",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q010",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तमिलनाडु से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "खांतम (Khantam)"
+      },
+      {
+        "id": "B",
+        "text": "पाखुपिला (Pakhupila)"
+      },
+      {
+        "id": "C",
+        "text": "ओयिलाट्टम (Oyilattam)"
+      },
+      {
+        "id": "D",
+        "text": "चिंदु भागवतम (Chindu Bhagavatam)"
+      }
+    ],
+    "correctOption": "C",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q011",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मिजोरम से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "जंग तालम (Jang Talam)"
+      },
+      {
+        "id": "B",
+        "text": "लंबाड़ी (Lambadi)"
+      },
+      {
+        "id": "C",
+        "text": "डप्पू (Dappu)"
+      },
+      {
+        "id": "D",
+        "text": "ओयिलाट्टम (Oyilattam)"
+      }
+    ],
+    "correctOption": "A",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q012",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तेलंगाना से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कावड़ी (Kavdi)"
+      },
+      {
+        "id": "B",
+        "text": "कुदिरई अट्टम (Kuthirai Attam)"
+      },
+      {
+        "id": "C",
+        "text": "चेराव (बाँस नृत्य) (Cherav (Bamboo))"
+      },
+      {
+        "id": "D",
+        "text": "ओग्गुकथा (Oggukatha)"
+      }
+    ],
+    "correctOption": "D",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q013",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मिजोरम से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "देवरट्टम (Devarattam)"
+      },
+      {
+        "id": "B",
+        "text": "तलंगलम (Talangalam)"
+      },
+      {
+        "id": "C",
+        "text": "करगम (Karagam)"
+      },
+      {
+        "id": "D",
+        "text": "मयिलाट्टम (Mayilattam)"
+      }
+    ],
+    "correctOption": "B",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q014",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तेलंगाना से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "धिमसा (Dhimsa)"
+      },
+      {
+        "id": "B",
+        "text": "मयिलाट्टम (Mayilattam)"
+      },
+      {
+        "id": "C",
+        "text": "चेरोकान (Cherokan)"
+      },
+      {
+        "id": "D",
+        "text": "कोलाट्टम (Kolattam)"
+      }
+    ],
+    "correctOption": "A",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q015",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तमिलनाडु से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चेराव (बाँस नृत्य) (Cherav (Bamboo))"
+      },
+      {
+        "id": "B",
+        "text": "माथुरी (Mathuri)"
+      },
+      {
+        "id": "C",
+        "text": "बोनालु (Bonalu)"
+      },
+      {
+        "id": "D",
+        "text": "करगम (Karagam)"
+      }
+    ],
+    "correctOption": "D",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q016",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तेलंगाना से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "काई सिलंबट्टम (Kai Silambattam)"
+      },
+      {
+        "id": "B",
+        "text": "डप्पू (Dappu)"
+      },
+      {
+        "id": "C",
+        "text": "पाखुपिला (Pakhupila)"
+      },
+      {
+        "id": "D",
+        "text": "देवरट्टम (Devarattam)"
+      }
+    ],
+    "correctOption": "B",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q017",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मिजोरम से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ओयिलाट्टम (Oyilattam)"
+      },
+      {
+        "id": "B",
+        "text": "सरलमकई (Sarlamkai)"
+      },
+      {
+        "id": "C",
+        "text": "गुसाड़ी (Gusadi)"
+      },
+      {
+        "id": "D",
+        "text": "चिंदु भागवतम (Chindu Bhagavatam)"
+      }
+    ],
+    "correctOption": "B",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q018",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तमिलनाडु से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चिंदु भागवतम (Chindu Bhagavatam)"
+      },
+      {
+        "id": "B",
+        "text": "चेराव (बाँस नृत्य) (Cherav (Bamboo))"
+      },
+      {
+        "id": "C",
+        "text": "मयिलाट्टम (Mayilattam)"
+      },
+      {
+        "id": "D",
+        "text": "तलंगलम (Talangalam)"
+      }
+    ],
+    "correctOption": "C",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q019",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मिजोरम से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "पाखुपिला (Pakhupila)"
+      },
+      {
+        "id": "B",
+        "text": "पेरिनी शिवतांडवम (Perini Shivathandavam)"
+      },
+      {
+        "id": "C",
+        "text": "ओग्गुकथा (Oggukatha)"
+      },
+      {
+        "id": "D",
+        "text": "देवरट्टम (Devarattam)"
+      }
+    ],
+    "correctOption": "A",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q020",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तेलंगाना से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ओयिलाट्टम (Oyilattam)"
+      },
+      {
+        "id": "B",
+        "text": "गुसाड़ी (Gusadi)"
+      },
+      {
+        "id": "C",
+        "text": "चेरोकान (Cherokan)"
+      },
+      {
+        "id": "D",
+        "text": "काई सिलंबट्टम (Kai Silambattam)"
+      }
+    ],
+    "correctOption": "B",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q021",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तमिलनाडु से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कावड़ी (Kavdi)"
+      },
+      {
+        "id": "B",
+        "text": "डप्पू (Dappu)"
+      },
+      {
+        "id": "C",
+        "text": "तलंगलम (Talangalam)"
+      },
+      {
+        "id": "D",
+        "text": "जंग तालम (Jang Talam)"
+      }
+    ],
+    "correctOption": "A",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q022",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तेलंगाना से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "माथुरी (Mathuri)"
+      },
+      {
+        "id": "B",
+        "text": "कुम्मी (Kummi)"
+      },
+      {
+        "id": "C",
+        "text": "कुदिरई अट्टम (Kuthirai Attam)"
+      },
+      {
+        "id": "D",
+        "text": "देवरट्टम (Devarattam)"
+      }
+    ],
+    "correctOption": "A",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q023",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तमिलनाडु से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कोलाट्टम (Kolattam)"
+      },
+      {
+        "id": "B",
+        "text": "तलंगलम (Talangalam)"
+      },
+      {
+        "id": "C",
+        "text": "खांतम (Khantam)"
+      },
+      {
+        "id": "D",
+        "text": "पेरिनी शिवतांडवम (Perini Shivathandavam)"
+      }
+    ],
+    "correctOption": "A",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q024",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मिजोरम से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "लंबाड़ी (Lambadi)"
+      },
+      {
+        "id": "B",
+        "text": "चेराव (बाँस नृत्य) (Cherav (Bamboo))"
+      },
+      {
+        "id": "C",
+        "text": "गुसाड़ी (Gusadi)"
+      },
+      {
+        "id": "D",
+        "text": "कुम्मी (Kummi)"
+      }
+    ],
+    "correctOption": "B",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q025",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तेलंगाना से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कुदिरई अट्टम (Kuthirai Attam)"
+      },
+      {
+        "id": "B",
+        "text": "खांतम (Khantam)"
+      },
+      {
+        "id": "C",
+        "text": "चेरोकान (Cherokan)"
+      },
+      {
+        "id": "D",
+        "text": "पेरिनी शिवतांडवम (Perini Shivathandavam)"
+      }
+    ],
+    "correctOption": "D",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q026",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मिजोरम से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "गुसाड़ी (Gusadi)"
+      },
+      {
+        "id": "B",
+        "text": "खांतम (Khantam)"
+      },
+      {
+        "id": "C",
+        "text": "मथिलाट्टम (Mathilaatam)"
+      },
+      {
+        "id": "D",
+        "text": "कोलाट्टम (Kolattam)"
+      }
+    ],
+    "correctOption": "B",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q027",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तमिलनाडु से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कुदिरई अट्टम (Kuthirai Attam)"
+      },
+      {
+        "id": "B",
+        "text": "पाखुपिला (Pakhupila)"
+      },
+      {
+        "id": "C",
+        "text": "माथुरी (Mathuri)"
+      },
+      {
+        "id": "D",
+        "text": "बोनालु (Bonalu)"
+      }
+    ],
+    "correctOption": "A",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q028",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मिजोरम से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चेरोकान (Cherokan)"
+      },
+      {
+        "id": "B",
+        "text": "माथुरी (Mathuri)"
+      },
+      {
+        "id": "C",
+        "text": "मयिलाट्टम (Mayilattam)"
+      },
+      {
+        "id": "D",
+        "text": "कुदिरई अट्टम (Kuthirai Attam)"
+      }
+    ],
+    "correctOption": "A",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q029",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तेलंगाना से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "देवरट्टम (Devarattam)"
+      },
+      {
+        "id": "B",
+        "text": "काई सिलंबट्टम (Kai Silambattam)"
+      },
+      {
+        "id": "C",
+        "text": "पाखुपिला (Pakhupila)"
+      },
+      {
+        "id": "D",
+        "text": "बोनालु (Bonalu)"
+      }
+    ],
+    "correctOption": "D",
+    "difficulty": "medium",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_04_q030",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य तमिलनाडु से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "खुल्लम (Khullam)"
+      },
+      {
+        "id": "B",
+        "text": "गुसाड़ी (Gusadi)"
+      },
+      {
+        "id": "C",
+        "text": "मथिलाट्टम (Mathilaatam)"
+      },
+      {
+        "id": "D",
+        "text": "खांतम (Khantam)"
+      }
+    ],
+    "correctOption": "C",
+    "difficulty": "medium",
+    "language": "hi"
+  }
+]

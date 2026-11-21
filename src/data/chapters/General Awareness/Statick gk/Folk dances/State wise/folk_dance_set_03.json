@@ -1,0 +1,674 @@
+[
+  {
+    "id": "folk_dance_set_03_q001",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य जम्मू और कश्मीर से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कोलकली (Kolkali)"
+      },
+      {
+        "id": "B",
+        "text": "शाद सुक मिनसीम (Shad Suk Minseim)"
+      },
+      {
+        "id": "C",
+        "text": "ओप्पाना (Oppana)"
+      },
+      {
+        "id": "D",
+        "text": "दमाली (Damali)"
+      }
+    ],
+    "correctAnswer": "D",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: D — दमाली (Damali)।**\n\nदमाली (Damali) जम्मू और कश्मीर का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q002",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मेघालय से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बेहदेनखलाम (Behdeinkhlam)"
+      },
+      {
+        "id": "B",
+        "text": "भांड पाथर नृत्य (Bhand Pather Dance)"
+      },
+      {
+        "id": "C",
+        "text": "लावा (Lava)"
+      },
+      {
+        "id": "D",
+        "text": "दमाली (Damali)"
+      }
+    ],
+    "correctAnswer": "A",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — बेहदेनखलाम (Behdeinkhlam)।**\n\nबेहदेनखलाम (Behdeinkhlam) मेघालय का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q003",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य जम्मू और कश्मीर से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "शाद सुक मिनसीम (Shad Suk Minseim)"
+      },
+      {
+        "id": "B",
+        "text": "डुमहाल (Dumhal)"
+      },
+      {
+        "id": "C",
+        "text": "कोलकली (Kolkali)"
+      },
+      {
+        "id": "D",
+        "text": "परिचकली (Parichakali)"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — डुमहाल (Dumhal)।**\n\nडुमहाल (Dumhal) जम्मू और कश्मीर का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q004",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मेघालय से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कूड डंडीनाच (Kood Dandinach)"
+      },
+      {
+        "id": "B",
+        "text": "लाहो (Laho)"
+      },
+      {
+        "id": "C",
+        "text": "रौफ (Rauf)"
+      },
+      {
+        "id": "D",
+        "text": "ओप्पाना (Oppana)"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — लाहो (Laho)।**\n\nलाहो (Laho) मेघालय का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q005",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य जम्मू और कश्मीर से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बच्छी नृत्य (Bachhi Dance)"
+      },
+      {
+        "id": "B",
+        "text": "चाड सुकड़ा (Chad Sukra)"
+      },
+      {
+        "id": "C",
+        "text": "नोंगक्रेम (Nongkram)"
+      },
+      {
+        "id": "D",
+        "text": "शाद सुक मिनसीम (Shad Suk Minseim)"
+      }
+    ],
+    "correctAnswer": "A",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — बच्छी नृत्य (Bachhi Dance)।**\n\nबच्छी नृत्य (Bachhi Dance) जम्मू और कश्मीर का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q006",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मेघालय से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "परिचकली (Parichakali)"
+      },
+      {
+        "id": "B",
+        "text": "डमांग नृत्य (Damang Dance)"
+      },
+      {
+        "id": "C",
+        "text": "चाड सुकड़ा (Chad Sukra)"
+      },
+      {
+        "id": "D",
+        "text": "कोलकली (Kolkali)"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — चाड सुकड़ा (Chad Sukra)।**\n\nचाड सुकड़ा (Chad Sukra) मेघालय का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q007",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य जम्मू और कश्मीर से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बेहदेनखलाम (Behdeinkhlam)"
+      },
+      {
+        "id": "B",
+        "text": "कूड डंडीनाच (Kood Dandinach)"
+      },
+      {
+        "id": "C",
+        "text": "परिचकली (Parichakali)"
+      },
+      {
+        "id": "D",
+        "text": "डांडी नृत्य (Dandi Dance)"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — कूड डंडीनाच (Kood Dandinach)।**\n\nकूड डंडीनाच (Kood Dandinach) जम्मू और कश्मीर का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q008",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य लक्षद्वीप से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "डमांग नृत्य (Damang Dance)"
+      },
+      {
+        "id": "B",
+        "text": "कुड नृत्य (Kud Dance)"
+      },
+      {
+        "id": "C",
+        "text": "डांडी नृत्य (Dandi Dance)"
+      },
+      {
+        "id": "D",
+        "text": "भांड पाथर नृत्य (Bhand Pather Dance)"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — डांडी नृत्य (Dandi Dance)।**\n\nडांडी नृत्य (Dandi Dance) लक्षद्वीप का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q009",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य जम्मू और कश्मीर से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कोलकली (Kolkali)"
+      },
+      {
+        "id": "B",
+        "text": "भांड पाथर नृत्य (Bhand Pather Dance)"
+      },
+      {
+        "id": "C",
+        "text": "लाहो (Laho)"
+      },
+      {
+        "id": "D",
+        "text": "डोर्सेगाटा (Dorsegata)"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — भांड पाथर नृत्य (Bhand Pather Dance)।**\n\nभांड पाथर नृत्य (Bhand Pather Dance) जम्मू और कश्मीर का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q010",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मेघालय से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "डमांग नृत्य (Damang Dance)"
+      },
+      {
+        "id": "B",
+        "text": "लावा (Lava)"
+      },
+      {
+        "id": "C",
+        "text": "वांगला (Wangala)"
+      },
+      {
+        "id": "D",
+        "text": "हफीजा (Hafiza)"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — वांगला (Wangala)।**\n\nवांगला (Wangala) मेघालय का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q011",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य जम्मू और कश्मीर से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "परिचकली (Parichakali)"
+      },
+      {
+        "id": "B",
+        "text": "बेहदेनखलाम (Behdeinkhlam)"
+      },
+      {
+        "id": "C",
+        "text": "हफीजा (Hafiza)"
+      },
+      {
+        "id": "D",
+        "text": "कोलकली (Kolkali)"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — हफीजा (Hafiza)।**\n\nहफीजा (Hafiza) जम्मू और कश्मीर का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q012",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य लक्षद्वीप से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "दमाली (Damali)"
+      },
+      {
+        "id": "B",
+        "text": "बेहदेनखलाम (Behdeinkhlam)"
+      },
+      {
+        "id": "C",
+        "text": "कोलकली (Kolkali)"
+      },
+      {
+        "id": "D",
+        "text": "चाड सुकड़ा (Chad Sukra)"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — कोलकली (Kolkali)।**\n\nकोलकली (Kolkali) लक्षद्वीप का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q013",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य जम्मू और कश्मीर से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "बेहदेनखलाम (Behdeinkhlam)"
+      },
+      {
+        "id": "B",
+        "text": "शाद सुक मिनसीम (Shad Suk Minseim)"
+      },
+      {
+        "id": "C",
+        "text": "नोंगक्रेम (Nongkram)"
+      },
+      {
+        "id": "D",
+        "text": "कुड नृत्य (Kud Dance)"
+      }
+    ],
+    "correctAnswer": "D",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: D — कुड नृत्य (Kud Dance)।**\n\nकुड नृत्य (Kud Dance) जम्मू और कश्मीर का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q014",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मेघालय से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कूड डंडीनाच (Kood Dandinach)"
+      },
+      {
+        "id": "B",
+        "text": "रौफ (Rauf)"
+      },
+      {
+        "id": "C",
+        "text": "डोर्सेगाटा (Dorsegata)"
+      },
+      {
+        "id": "D",
+        "text": "हफीजा (Hafiza)"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — डोर्सेगाटा (Dorsegata)।**\n\nडोर्सेगाटा (Dorsegata) मेघालय का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q015",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य जम्मू और कश्मीर से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ओप्पाना (Oppana)"
+      },
+      {
+        "id": "B",
+        "text": "लादी-शाही नृत्य (Laddi-Shahi Dance)"
+      },
+      {
+        "id": "C",
+        "text": "डोर्सेगाटा (Dorsegata)"
+      },
+      {
+        "id": "D",
+        "text": "डांडी नृत्य (Dandi Dance)"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — लादी-शाही नृत्य (Laddi-Shahi Dance)।**\n\nलादी-शाही नृत्य (Laddi-Shahi Dance) जम्मू और कश्मीर का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q016",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य लक्षद्वीप से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "चाड सुकड़ा (Chad Sukra)"
+      },
+      {
+        "id": "B",
+        "text": "दमाली (Damali)"
+      },
+      {
+        "id": "C",
+        "text": "कुड नृत्य (Kud Dance)"
+      },
+      {
+        "id": "D",
+        "text": "ओप्पाना (Oppana)"
+      }
+    ],
+    "correctAnswer": "D",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: D — ओप्पाना (Oppana)।**\n\nओप्पाना (Oppana) लक्षद्वीप का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q017",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य जम्मू और कश्मीर से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "डोर्सेगाटा (Dorsegata)"
+      },
+      {
+        "id": "B",
+        "text": "मंडजल (Mandjal)"
+      },
+      {
+        "id": "C",
+        "text": "ओप्पाना (Oppana)"
+      },
+      {
+        "id": "D",
+        "text": "वांगला (Wangala)"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — मंडजल (Mandjal)।**\n\nमंडजल (Mandjal) जम्मू और कश्मीर का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q018",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य लक्षद्वीप से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कूड डंडीनाच (Kood Dandinach)"
+      },
+      {
+        "id": "B",
+        "text": "हिकात (Hikat)"
+      },
+      {
+        "id": "C",
+        "text": "लावा (Lava)"
+      },
+      {
+        "id": "D",
+        "text": "रौफ (Rauf)"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — लावा (Lava)।**\n\nलावा (Lava) लक्षद्वीप का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q019",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य जम्मू और कश्मीर से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "वांगला (Wangala)"
+      },
+      {
+        "id": "B",
+        "text": "ओप्पाना (Oppana)"
+      },
+      {
+        "id": "C",
+        "text": "कोलकली (Kolkali)"
+      },
+      {
+        "id": "D",
+        "text": "हिकात (Hikat)"
+      }
+    ],
+    "correctAnswer": "D",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: D — हिकात (Hikat)।**\n\nहिकात (Hikat) जम्मू और कश्मीर का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q020",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मेघालय से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "डुमहाल (Dumhal)"
+      },
+      {
+        "id": "B",
+        "text": "शाद सुक मिनसीम (Shad Suk Minseim)"
+      },
+      {
+        "id": "C",
+        "text": "लादी-शाही नृत्य (Laddi-Shahi Dance)"
+      },
+      {
+        "id": "D",
+        "text": "कुड नृत्य (Kud Dance)"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — शाद सुक मिनसीम (Shad Suk Minseim)।**\n\nशाद सुक मिनसीम (Shad Suk Minseim) मेघालय का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q021",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य जम्मू और कश्मीर से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "डमांग नृत्य (Damang Dance)"
+      },
+      {
+        "id": "B",
+        "text": "ओप्पाना (Oppana)"
+      },
+      {
+        "id": "C",
+        "text": "चाड सुकड़ा (Chad Sukra)"
+      },
+      {
+        "id": "D",
+        "text": "शाद सुक मिनसीम (Shad Suk Minseim)"
+      }
+    ],
+    "correctAnswer": "A",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — डमांग नृत्य (Damang Dance)।**\n\nडमांग नृत्य (Damang Dance) जम्मू और कश्मीर का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q022",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य लक्षद्वीप से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "कुड नृत्य (Kud Dance)"
+      },
+      {
+        "id": "B",
+        "text": "परिचकली (Parichakali)"
+      },
+      {
+        "id": "C",
+        "text": "दमाली (Damali)"
+      },
+      {
+        "id": "D",
+        "text": "लादी-शाही नृत्य (Laddi-Shahi Dance)"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — परिचकली (Parichakali)।**\n\nपरिचकली (Parichakali) लक्षद्वीप का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q023",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य मेघालय से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "दमाली (Damali)"
+      },
+      {
+        "id": "B",
+        "text": "कोलकली (Kolkali)"
+      },
+      {
+        "id": "C",
+        "text": "हफीजा (Hafiza)"
+      },
+      {
+        "id": "D",
+        "text": "नोंगक्रेम (Nongkram)"
+      }
+    ],
+    "correctAnswer": "D",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: D — नोंगक्रेम (Nongkram)।**\n\nनोंगक्रेम (Nongkram) मेघालय का लोक नृत्य है।",
+    "language": "hi"
+  },
+  {
+    "id": "folk_dance_set_03_q024",
+    "subjectId": "gs",
+    "topicId": "folk-dance",
+    "question": "निम्नलिखित में से कौन-सा लोक नृत्य जम्मू और कश्मीर से संबंधित है?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ओप्पाना (Oppana)"
+      },
+      {
+        "id": "B",
+        "text": "रौफ (Rauf)"
+      },
+      {
+        "id": "C",
+        "text": "लाहो (Laho)"
+      },
+      {
+        "id": "D",
+        "text": "शाद सुक मिनसीम (Shad Suk Minseim)"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — रौफ (Rauf)।**\n\nरौफ (Rauf) जम्मू और कश्मीर का लोक नृत्य है।",
+    "language": "hi"
+  }
+]

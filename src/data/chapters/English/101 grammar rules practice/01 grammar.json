@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "english_grammar_set01_001",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Fill in the blank: The poet and writer ___ been invited to deliver the keynote address.",
+    "options": [
+      {
+        "id": "A",
+        "text": "have"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "has"
+      },
+      {
+        "id": "D",
+        "text": "were"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — has**\n\n**PDF Rule 04: One article may indicate one person with two roles**\n\n- The phrase **the poet and writer** has one article before the first noun and no repeated article before *writer*.\n- In the intended reading, one person is both a poet and a writer; the subject is therefore singular.\n- The present perfect auxiliary for this singular subject is **has**.\n- If the sentence were *The poet and the writer have been invited*, the two articles would ordinarily indicate two different people and a plural verb.\n- The correct sentence is **The poet and writer has been invited to deliver the keynote address.**\n- This rule depends on the intended meaning; context must establish whether one person or two people are being referred to.\n\n**SSC Exam Point:** **The poet and writer** (one person, one article) → **has**; *the poet and the writer* (two people) → **have**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_002",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Fill in the blank: Mathematics ___ one of the most challenging subjects for many candidates.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "have"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "were"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — is**\n\n**PDF Rule 01: A subject name ending in -s can be singular**\n\n- **Mathematics** is the name of an academic subject and is normally treated as singular in this meaning.\n- The correct construction is **Mathematics is**; the final *-s* does not make the subject plural.\n- Other subject names commonly treated as singular include *physics, economics, linguistics* and *politics* when they refer to fields of study.\n- Do not apply this mechanically to every word ending in *-s*: *the economics of the project are...* may refer to economic facts or considerations, depending on the intended meaning and construction.\n- Here, *one of the most challenging subjects* is a complement describing Mathematics; it does not control the verb.\n- In a sentence with a subject-name such as *Mathematics*, first identify whether it denotes one discipline or separate measurable items.\n\n**SSC Exam Point:** Names of academic disciplines such as **Mathematics, Physics and Economics** generally take singular verbs.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_003",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct verb: The principal, accompanied by the members of the committee, ___ the certificates every year.",
+    "options": [
+      {
+        "id": "A",
+        "text": "distribute"
+      },
+      {
+        "id": "B",
+        "text": "distributes"
+      },
+      {
+        "id": "C",
+        "text": "are distributing"
+      },
+      {
+        "id": "D",
+        "text": "have distributed"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "easy",
+    "explanation": "**सही उत्तर: B — distributes**\n\n**PDF Rule 03: Accompanied by is an intervening phrase**\n\n- The actual subject is **the principal**, singular.\n- The phrase *accompanied by the members of the committee* only adds details about the principal.\n- The habitual time expression *every year* calls for the simple present; a singular third-person subject takes **distributes**.\n- The noun *members* is plural but does not control the verb because it is embedded in an accompanying phrase.\n- The sentence would take a plural verb if written as *The principal and the members of the committee distribute...*\n- The PDF's Rule 03 lists *accompanied by* among the expressions that separate the main subject from its verb.\n\n**SSC Exam Point:** **Accompanied by** does not alter the number of *principal*; use **distributes**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_004",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct option: One of these boxes ___ the original portrait, according to the museum guide.",
+    "options": [
+      {
+        "id": "A",
+        "text": "contain"
+      },
+      {
+        "id": "B",
+        "text": "contains"
+      },
+      {
+        "id": "C",
+        "text": "have contained"
+      },
+      {
+        "id": "D",
+        "text": "are containing"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "easy",
+    "explanation": "**सही उत्तर: B — contains**\n\n**PDF Rule 06: One of + demonstrative + plural noun**\n\n- The expression **one of these boxes** selects a single box from a group of boxes.\n- The grammatical subject is *one*, so the simple present verb takes the singular form **contains**.\n- The plural demonstrative phrase *these boxes* identifies the group but does not change the singular subject.\n- The museum guide is the source of the information; it is not part of the subject.\n- The correct sentence is **One of these boxes contains the original portrait.**\n- This is the same main-clause structure as *one of the books is missing* and *one of those routes leads to the fort*.\n\n**SSC Exam Point:** **One of these boxes contains**; the selected item is singular.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_005",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Find the part of the sentence that contains an error: **The quality of these mangoes / are / excellent / for this season.**",
+    "options": [
+      {
+        "id": "A",
+        "text": "The quality of these mangoes"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "excellent"
+      },
+      {
+        "id": "D",
+        "text": "for this season"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — are**\n\n**PDF Rule 01: The head noun, not the nearby plural noun, controls the verb**\n\n- The main subject is **quality**, which is singular; the phrase *of these mangoes* merely tells us whose quality is being discussed.\n- The correct sentence is: **The quality of these mangoes is excellent for this season.**\n- A prepositional phrase beginning with *of* does not normally change the number of the subject: *The price of these books is high.*\n- The noun *mangoes* is the object of the preposition *of*, not the subject of the sentence.\n- Compare: **The mangoes are excellent** (plural subject) with **The quality of the mangoes is excellent** (singular subject).\n- In error-detection questions, mentally remove the intervening phrase and check the basic subject–verb frame.\n\n**SSC Exam Point:** Find the head noun first: *quality* is singular, so use **is**, not **are**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_006",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Identify the incorrect part: **The manager together with his assistants / have gone / to the regional office / for an inspection.**",
+    "options": [
+      {
+        "id": "A",
+        "text": "The manager together with his assistants"
+      },
+      {
+        "id": "B",
+        "text": "have gone"
+      },
+      {
+        "id": "C",
+        "text": "to the regional office"
+      },
+      {
+        "id": "D",
+        "text": "for an inspection"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — have gone**\n\n**PDF Rule 03: Together with leaves the main subject unchanged**\n\n- The main subject is **the manager**, singular; *together with his assistants* is an accompanying phrase.\n- The present perfect auxiliary for a singular subject is **has**, so the sentence should read *The manager ... has gone*.\n- The corrected sentence is: **The manager together with his assistants has gone to the regional office for an inspection.**\n- The plural noun *assistants* does not control the verb because it is part of the phrase introduced by *together with*.\n- Compare *The manager and his assistants have gone...* where *and* joins two subjects and requires a plural verb.\n- This is a classic SSC error pattern: a singular subject is separated from the verb by a plural noun.\n\n**SSC Exam Point:** The main subject **manager** is singular → **has gone**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_007",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Which option correctly treats the joined nouns as one person or two?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Each boy and each girl were given a separate worksheet."
+      },
+      {
+        "id": "B",
+        "text": "Each boy and each girl was given a separate worksheet."
+      },
+      {
+        "id": "C",
+        "text": "Each boys and each girls was given a separate worksheet."
+      },
+      {
+        "id": "D",
+        "text": "Each boy and each girl have been given a separate worksheet yesterday."
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: B — Each boy and each girl was given a separate worksheet.**\n\n**PDF Rule 05: Each repeated before two nouns keeps the subject singular**\n\n- The determiner **each** is repeated before both *boy* and *girl*, emphasizing the individuals separately.\n- The whole subject therefore takes a singular verb; in the past passive, **was given** is correct.\n- The nouns following *each* must remain singular: *each boy* and *each girl*, not *each boys/girls*.\n- Option D mixes the present perfect (*have been given*) with the definite past-time marker *yesterday*.\n- This resembles the PDF's Rule 04 example with *every soldier and every officer*; both constructions make the subject distributive and singular.\n- The phrase *a separate worksheet* supports the one-by-one meaning, but the grammatical trigger is the repeated *each*.\n\n**SSC Exam Point:** **Each + singular noun + and + each + singular noun** takes a singular verb.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_008",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct verb: Neither the students nor the class teacher ___ willing to change the timetable.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "have been"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "easy",
+    "explanation": "**सही उत्तर: C — is**\n\n**PDF Rule 02: Nearest-subject agreement with neither...nor**\n\n- **Neither...nor** is a correlative conjunction joining two subjects or alternatives.\n- When the subjects differ in number, the verb generally agrees with the subject nearest to it; here, the nearest subject is **the class teacher**, which is singular.\n- Therefore, **is** is correct: *Neither the students nor the class teacher is willing...*\n- The first subject *students* is plural, but it does not decide the verb when the nearer subject is singular under the rule taught in the PDF.\n- Reverse the order and the verb changes: *Neither the class teacher nor the students are willing...*\n- The pair must remain complete: use **neither...nor**, not *neither...or*.\n\n**SSC Exam Point:** With **neither...nor**, ignore the first subject for agreement and check the subject nearest the verb.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_009",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Fill in the blank: Either of the two routes ___ to the railway station.",
+    "options": [
+      {
+        "id": "A",
+        "text": "lead"
+      },
+      {
+        "id": "B",
+        "text": "leads"
+      },
+      {
+        "id": "C",
+        "text": "are leading"
+      },
+      {
+        "id": "D",
+        "text": "have led"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — leads**\n\n**PDF Rule 05: Either of is singular**\n\n- **Either of** refers to one of two alternatives and is treated as singular in standard formal grammar.\n- The head word is *Either*, not the plural noun *routes*.\n- In the simple present, a third-person singular subject takes **-s**, so **leads** is correct.\n- The sentence means that each one of the two routes, considered as an alternative, leads to the station.\n- Compare *Either the route or the side streets lead...* where the nearest-subject correlative rule may apply depending on the order and subjects.\n- The same singular pattern is used with *neither of*, *each of* and *one of*.\n\n**SSC Exam Point:** **Either of + plural noun** → singular verb: **Either of the routes leads**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_010",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Identify the incorrect part: **The children / was waiting / outside the examination hall / for their turn.**",
+    "options": [
+      {
+        "id": "A",
+        "text": "The children"
+      },
+      {
+        "id": "B",
+        "text": "was waiting"
+      },
+      {
+        "id": "C",
+        "text": "outside the examination hall"
+      },
+      {
+        "id": "D",
+        "text": "for their turn"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — was waiting**\n\n**PDF Rule 01: Plural subject with a singular past-tense verb**\n\n- The subject **children** is plural; its singular form is *child*.\n- The past continuous form for a plural subject is **were waiting**, not *was waiting*.\n- The corrected sentence is: **The children were waiting outside the examination hall for their turn.**\n- *Was* is used with singular subjects such as *he, she, it* and singular nouns; *were* is used with plural subjects and *you*.\n- The phrase *outside the examination hall* is an adverbial prepositional phrase and has no effect on subject–verb agreement.\n- A common trap is to focus on the noun nearest the verb rather than the actual subject at the beginning of the sentence.\n\n**SSC Exam Point:** Plural subject **children** requires **were** in the past continuous tense.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_011",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Find the part containing an error: **Each of the candidates / have submitted / the required documents / before the deadline.**",
+    "options": [
+      {
+        "id": "A",
+        "text": "Each of the candidates"
+      },
+      {
+        "id": "B",
+        "text": "have submitted"
+      },
+      {
+        "id": "C",
+        "text": "the required documents"
+      },
+      {
+        "id": "D",
+        "text": "before the deadline"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — have submitted**\n\n**PDF Rule 05: Each remains singular before an of-phrase**\n\n- The head word is **Each**, which is singular; *of the candidates* identifies the group from which each person is considered.\n- The correct present perfect auxiliary is **has**, not *have*.\n- The corrected sentence is: **Each of the candidates has submitted the required documents before the deadline.**\n- The plural noun *candidates* comes after the preposition *of* and does not control the verb.\n- The same construction works with *each of the books is*, *each of the players has* and *each of the answers was*.\n- Do not confuse *each of + plural noun* with *the candidates each have...*, where the subject and sentence structure are different.\n\n**SSC Exam Point:** **Each of + plural noun** takes a singular verb: **Each of the candidates has**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_012",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Which sentence is correct according to basic subject–verb agreement?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The results of the survey shows a clear trend."
+      },
+      {
+        "id": "B",
+        "text": "The results of the survey show a clear trend."
+      },
+      {
+        "id": "C",
+        "text": "The result of the surveys show a clear trend."
+      },
+      {
+        "id": "D",
+        "text": "The results of the survey has shown a clear trend."
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "easy",
+    "explanation": "**सही उत्तर: B — The results of the survey show a clear trend.**\n\n**PDF Rule 01: Plural head noun followed by a singular prepositional phrase**\n\n- The head noun is **results**, which is plural; the prepositional phrase *of the survey* does not control the verb.\n- A plural subject in the simple present takes the base form **show**, not *shows*.\n- The correct sentence is **The results of the survey show a clear trend.**\n- If the head noun were singular—*The result of the survey*—the verb would be **shows**.\n- The word *survey* is singular, but it is the object of *of*, not the subject of the sentence.\n- This pattern is the reverse of questions such as *The quality of the results is...*; always locate the actual head noun.\n\n**SSC Exam Point:** In **Noun + of + Noun**, the first noun is usually the head subject: *results show*, *quality shows*.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_013",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Select the correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The teacher as well as her pupils were present."
+      },
+      {
+        "id": "B",
+        "text": "The teacher as well as her pupils was present."
+      },
+      {
+        "id": "C",
+        "text": "The teacher as well as her pupils have present."
+      },
+      {
+        "id": "D",
+        "text": "The teacher as well as her pupils are being present yesterday."
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — The teacher as well as her pupils was present.**\n\n**PDF Rule 03: As well as does not function like and**\n\n- The phrase **as well as her pupils** is additional information; the main subject remains **the teacher**.\n- Since *teacher* is singular, **was present** is correct in the past tense.\n- If the conjunction were *and*, the sentence would normally take a plural verb: *The teacher and her pupils were present.*\n- Option A incorrectly treats *as well as* as if it were *and*.\n- Option C is structurally incomplete because *have present* is not a correct verb phrase; it would require *have been present* with a plural subject.\n- The time reference *yesterday* in option D conflicts with the present-time construction.\n\n**SSC Exam Point:** **As well as** does not make a compound subject; the verb agrees with *teacher*.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_014",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Which option has the correct agreement with a repeated distributive determiner?",
+    "options": [
+      {
+        "id": "A",
+        "text": "She is one of the singers who performs at national events."
+      },
+      {
+        "id": "B",
+        "text": "She is one of the singers who perform at national events."
+      },
+      {
+        "id": "C",
+        "text": "She is one of the singer who perform at national events."
+      },
+      {
+        "id": "D",
+        "text": "She are one of the singers who performs at national events."
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — She is one of the singers who perform at national events.**\n\n**PDF Rule 06: Relative clause refers to singers**\n\n- The main clause subject is **She**, so the main verb **is** is singular and correct.\n- The relative pronoun **who** refers to **singers**, a plural antecedent; therefore the relative-clause verb is **perform**.\n- Option A uses the singular *performs* incorrectly inside the relative clause.\n- Option C incorrectly uses singular *singer* after the plural phrase *one of the*.\n- Option D makes the main verb disagree with *She* and also uses an incorrect relative-clause verb.\n- The sentence means that she belongs to the group of singers who perform at such events; it does not mean that the relative clause describes only her.\n\n**SSC Exam Point:** **She is one** (singular main clause); singers **who perform** (plural relative clause).",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_015",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Find the error: **The students who completed the assignment / along with their mentor / was congratulated / by the chief guest.**",
+    "options": [
+      {
+        "id": "A",
+        "text": "The students who completed the assignment"
+      },
+      {
+        "id": "B",
+        "text": "along with their mentor"
+      },
+      {
+        "id": "C",
+        "text": "was congratulated"
+      },
+      {
+        "id": "D",
+        "text": "by the chief guest"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: C — was congratulated**\n\n**PDF Rule 03: Relative clause and accompanying phrase must not hide the main subject**\n\n- The main subject is **students**, which is plural; *who completed the assignment* is a relative clause describing that subject.\n- The phrase *along with their mentor* is additional information and does not change the plural subject.\n- The passive verb must therefore be **were congratulated**, not *was congratulated*.\n- The corrected sentence is: **The students who completed the assignment, along with their mentor, were congratulated by the chief guest.**\n- The verb inside the relative clause—*who completed*—is also plural in sense, but its past simple form does not visibly change between singular and plural.\n- Always distinguish the main clause verb from a verb inside a relative clause; the question may test both separately.\n\n**SSC Exam Point:** Main subject **students** is plural → **were congratulated**; *along with their mentor* is not a new subject.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_016",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct verb: Every soldier and every officer ___ required to carry an identity card.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "have"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — is**\n\n**PDF Rule 04: Every before each coordinated singular noun**\n\n- When **every** is repeated before two singular nouns joined by *and*, the subjects are considered individually.\n- The complete expression *Every soldier and every officer* takes a singular verb.\n- Therefore, **is required** is correct.\n- This is different from *The soldier and the officer are required...*, where two separate people are joined without repeated *every*.\n- The same singular pattern is used in *Every boy and every girl has received a form.*\n- The possessive or pronoun later in a sentence may be governed by modern usage and context; the immediate agreement test here concerns the singular verb.\n\n**SSC Exam Point:** Repeated **every + singular noun + and + every + singular noun** generally takes a singular verb.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_017",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Select the correct completion: Something ___ wrong with the figures in the final report.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "have gone"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "were"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — is**\n\n**PDF Rule 05: Indefinite pronouns ending in -thing are singular**\n\n- **Something** is an indefinite pronoun and is grammatically singular.\n- The correct linking verb is **is**: *Something is wrong with the figures...*\n- The plural noun *figures* appears inside the prepositional phrase *with the figures* and does not control the verb.\n- The same singular agreement applies to *anything, everything* and *nothing*.\n- The sentence is not saying that the figures themselves are wrong as the grammatical subject; the subject is the indefinite pronoun *something*.\n- With *nothing*, *everything* and *something*, a singular verb remains the normal choice even when the meaning refers to many unspecified items.\n\n**SSC Exam Point:** Pronouns ending in **-thing**—something, anything, everything, nothing—take singular verbs.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_018",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct option: Either my brother or my parents ___ attending the meeting this evening.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "has"
+      },
+      {
+        "id": "D",
+        "text": "was"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "easy",
+    "explanation": "**सही उत्तर: B — are**\n\n**PDF Rule 02: Nearest subject is plural**\n\n- The subjects are *my brother* (singular) and *my parents* (plural), joined by **either...or**.\n- The nearer subject is **my parents**, so the plural auxiliary **are** is appropriate.\n- The present continuous structure is **are attending**; the verb *attending* itself does not show number, so the auxiliary carries agreement.\n- If the sentence were *Either my parents or my brother...*, the nearest subject would be singular and **is** would be used.\n- The time phrase *this evening* does not alter the agreement rule; it only indicates the planned event.\n- SSC often changes only the order of singular and plural subjects to test whether candidates apply proximity correctly.\n\n**SSC Exam Point:** Either my brother or my parents **are** attending: nearest subject = *parents*.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_019",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct option: Nobody ___ why the final results have been delayed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "know"
+      },
+      {
+        "id": "B",
+        "text": "knows"
+      },
+      {
+        "id": "C",
+        "text": "are knowing"
+      },
+      {
+        "id": "D",
+        "text": "have known"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — knows**\n\n**PDF Rule 05: Nobody is grammatically singular**\n\n- **Nobody** is an indefinite pronoun and takes a singular verb.\n- The correct simple present form is **knows**: *Nobody knows why...*\n- The clause *why the final results have been delayed* is the object/complement of *knows*; the plural noun *results* inside it does not control the main verb.\n- Other singular indefinite pronouns in this group include *somebody, anybody, everybody, someone, anyone* and *no one*.\n- Avoid *nobody don't* or *nobody haven't* in standard English because *nobody* already has negative meaning and requires singular auxiliary agreement.\n- This sentence contains a second verb phrase—*have been delayed*—which correctly agrees with the plural noun *results* inside the subordinate clause.\n\n**SSC Exam Point:** **Nobody knows**; do not let a plural noun inside the following clause distract you.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_020",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct option: The poet and the novelist ___ received separate awards for their works.",
+    "options": [
+      {
+        "id": "A",
+        "text": "has"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "have"
+      },
+      {
+        "id": "D",
+        "text": "was"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — have**\n\n**PDF Rule 04: Two nouns with separate articles denote two people**\n\n- The repeated article **the** before *poet* and *novelist* indicates two distinct persons in the sentence.\n- The plural compound subject therefore takes **have received** in the present perfect tense.\n- The adjective *separate* and the pronoun *their* reinforce the interpretation that two individuals are being discussed.\n- If the sentence were *The poet and novelist has received an award*, it could describe one person holding both occupations.\n- The choice between singular and plural is controlled by the meaning and the noun phrase structure, not by the number of professions alone.\n- This type of question often tests articles as a clue to whether two nouns identify one person or two.\n\n**SSC Exam Point:** **The poet and the novelist** = two people → **have received**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_021",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Three Idiots are a popular film."
+      },
+      {
+        "id": "B",
+        "text": "Three Idiots is a popular film."
+      },
+      {
+        "id": "C",
+        "text": "Three Idiots have a popular film."
+      },
+      {
+        "id": "D",
+        "text": "Three Idiots were a popular film."
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: B — Three Idiots is a popular film.**\n\n**PDF Rule 01: A film title is treated as one work**\n\n- **Three Idiots** is the title of one film; therefore, the title takes a singular verb.\n- The word *Idiots* is plural in form, but it is not the grammatical head of the sentence when the whole expression is a title.\n- The correct agreement is **Three Idiots is a popular film.**\n- If the sentence referred to three individual people, a plural verb would be appropriate: *The three idiots are waiting outside.*\n- SSC questions frequently use names of books, films, newspapers and institutions to test whether the candidate distinguishes a title from its literal words.\n- The verb must agree with the grammatical subject as used in the sentence, not merely with the noun that appears plural.\n\n**SSC Exam Point:** A title naming one work takes singular agreement; distinguish the title from the people/things named by its words.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_022",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct verb: Everyone in the two departments ___ required to attend the briefing.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "have"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "were"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — is**\n\n**PDF Rule 05: Indefinite pronoun everyone is singular**\n\n- **Everyone** is an indefinite pronoun and is grammatically singular in standard formal English.\n- The phrase *in the two departments* adds information about the people but does not change the grammatical number of *everyone*.\n- The correct passive construction is **is required**.\n- Words such as *everyone, everybody, someone, somebody, anyone, anybody, no one* and *nobody* generally take singular verbs.\n- The pronoun refers to all members individually, but grammatical agreement remains singular.\n- In contemporary English, singular *they/their* is widely used for an unknown person's pronoun; that does not make *everyone* take a plural verb.\n\n**SSC Exam Point:** Indefinite pronouns ending in **-one** and **-body** generally take singular verbs: *Everyone is*.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_023",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Identify the incorrect part: **One of the questions / were / too difficult / for the candidates.**",
+    "options": [
+      {
+        "id": "A",
+        "text": "One of the questions"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "too difficult"
+      },
+      {
+        "id": "D",
+        "text": "for the candidates"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — were**\n\n**PDF Rule 06: Singular verb after one of**\n\n- The head subject is **One**, which is singular.\n- The phrase *of the questions* does not make the main subject plural.\n- The correct past-tense linking verb is **was**: *One of the questions was too difficult for the candidates.*\n- The adjective phrase *too difficult* describes the subject but does not affect its number.\n- This is a direct application of the main-clause part of Rule 06; it is different from a plural verb inside a relative clause such as *questions that were difficult*.\n- The word *candidates* at the end is part of a prepositional phrase and cannot control the main verb.\n\n**SSC Exam Point:** **One** is singular → **was**; do not match the verb with *questions*.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_024",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct option: The police ___ the incident, while the news ___ still unconfirmed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is investigating; are"
+      },
+      {
+        "id": "B",
+        "text": "are investigating; is"
+      },
+      {
+        "id": "C",
+        "text": "has investigated; are"
+      },
+      {
+        "id": "D",
+        "text": "was investigating; have"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "easy",
+    "explanation": "**सही उत्तर: B — are investigating; is**\n\n**PDF Rule 01: Two plural-looking/collective forms with different agreement patterns**\n\n- **Police** is normally a plural noun in standard examination usage; hence **the police are investigating** is correct.\n- **News** ends in *-s* but is an uncountable singular noun; therefore, **the news is** correct.\n- The sentence deliberately places two nouns ending in or resembling plural forms together, but their grammatical behaviour differs.\n- Use **a police officer** for one member of the police force; *police* itself is not normally used as a singular count noun in this meaning.\n- Other nouns such as *mathematics* and *physics* can be singular names of disciplines, while *people* and *cattle* take plural agreement.\n- The correct complete sentence is: **The police are investigating the incident, while the news is still unconfirmed.**\n\n**SSC Exam Point:** Remember the contrast: **police are** (plural) but **news is** (singular).",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_025",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Find the incorrect part: **The manager and the accountant / is checking / the annual statements / before submission.**",
+    "options": [
+      {
+        "id": "A",
+        "text": "The manager and the accountant"
+      },
+      {
+        "id": "B",
+        "text": "is checking"
+      },
+      {
+        "id": "C",
+        "text": "the annual statements"
+      },
+      {
+        "id": "D",
+        "text": "before submission"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — is checking**\n\n**PDF Rule 04: Two distinct persons joined by and**\n\n- The repeated article **the** before *manager* and *accountant* indicates two distinct people.\n- Two separate subjects joined by *and* normally require a plural verb; the correct form is **are checking**.\n- The corrected sentence is: **The manager and the accountant are checking the annual statements before submission.**\n- The object *the annual statements* is plural, but it has no role in deciding the number of the subject.\n- Compare *The manager and accountant is checking...* when one person holds both roles; the intended meaning and article structure matter.\n- Do not confuse this pattern with *bread and butter*, where two nouns can jointly express a single unit.\n\n**SSC Exam Point:** Two separately identified people → **are checking**, not **is checking**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_026",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct verb: None of the information ___ relevant to the enquiry.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "have been"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — is**\n\n**PDF Rule 05: None with an uncountable singular noun**\n\n- The noun **information** is uncountable and is grammatically singular in standard English.\n- In this sentence, **none of the information** is treated as singular, so **is** is the expected verb.\n- The construction differs from *none of the applicants are/is...*, where plural agreement may be found depending on meaning and style; formal exam keys often test the singular pattern taught in the rule list.\n- Do not write *informations* when referring to pieces of information; use *pieces of information* if counting is necessary.\n- The adjective *relevant* follows the linking verb and does not influence agreement.\n- Other uncountable nouns such as *advice, furniture, equipment* and *luggage* also normally take singular verbs.\n\n**SSC Exam Point:** With an uncountable noun such as **information**, use singular **is**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_027",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Select the grammatically correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The horse and carriage are waiting outside as one hired vehicle."
+      },
+      {
+        "id": "B",
+        "text": "The horse and carriage is waiting outside as one hired vehicle."
+      },
+      {
+        "id": "C",
+        "text": "The horse and the carriage is waiting outside."
+      },
+      {
+        "id": "D",
+        "text": "The horse and carriage have a single wheel."
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: B — The horse and carriage is waiting outside as one hired vehicle.**\n\n**PDF Rule 04: A conventional combined expression can be singular**\n\n- In the intended context, **horse and carriage** refers to one combined means of transport or one hired conveyance.\n- When the joined nouns are understood as one unit, a singular verb is used: **is waiting**.\n- Option A treats the two nouns as separate subjects; that would be appropriate if the horse and the carriage were being discussed as distinct entities.\n- The meaning clause *as one hired vehicle* makes the unit interpretation explicit.\n- This is similar to expressions such as *bread and butter* or *rice and curry* when they name one combined serving or idea.\n- The rule is semantic rather than mechanical: two nouns joined by *and* do not always force a plural verb.\n\n**SSC Exam Point:** When **horse and carriage** denotes one combined unit, use a singular verb.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_028",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Find the part that contains an error: **One of the employees / have received / the excellence award / this year.**",
+    "options": [
+      {
+        "id": "A",
+        "text": "One of the employees"
+      },
+      {
+        "id": "B",
+        "text": "have received"
+      },
+      {
+        "id": "C",
+        "text": "the excellence award"
+      },
+      {
+        "id": "D",
+        "text": "this year"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — have received**\n\n**PDF Rule 06: One is the singular subject**\n\n- The subject is **One**, not *employees*; *of the employees* is a phrase that identifies the larger group.\n- The present perfect form for a singular subject is **has received**.\n- The corrected sentence is **One of the employees has received the excellence award this year.**\n- A common error is to make the verb agree with the plural noun immediately after *of*.\n- The same pattern applies to *one of the books is missing*, *one of the candidates has qualified* and *one of the reasons was...*.\n- If the plural noun is followed by a relative clause, a different agreement question arises inside that relative clause; do not confuse the two verbs.\n\n**SSC Exam Point:** Main clause subject = **one** → **has received**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_029",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Which sentence correctly applies an intervening phrase rule?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neither of the two answers are acceptable."
+      },
+      {
+        "id": "B",
+        "text": "Neither of the two answers is acceptable."
+      },
+      {
+        "id": "C",
+        "text": "Neither of the two answer is acceptable."
+      },
+      {
+        "id": "D",
+        "text": "Neither of two answers are acceptable."
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "easy",
+    "explanation": "**सही उत्तर: B — Neither of the two answers is acceptable.**\n\n**PDF Rule 05: Neither is singular in the formal examination pattern**\n\n- **Neither** means ‘not one and not the other’ and is treated as singular in the formal SSC pattern shown in the PDF.\n- The noun after **of** is plural—*the two answers*—but it does not determine the verb.\n- Therefore, **is** is correct: *Neither of the two answers is acceptable.*\n- The phrase must be **neither of the two answers**, because *neither* selects one from a known pair.\n- The sentence differs from *Neither the answer nor the explanation is acceptable*, where the nearest-subject rule is being tested.\n- Although plural agreement with *neither* can occur in some informal contexts, the singular form is the expected answer in formal exam grammar.\n\n**SSC Exam Point:** For SSC formal usage, **neither of + plural noun** takes singular **is/has/was**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_030",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Find the part containing an error: **Either Rohan / or his friends / is responsible / for the arrangements.**",
+    "options": [
+      {
+        "id": "A",
+        "text": "Either Rohan"
+      },
+      {
+        "id": "B",
+        "text": "or his friends"
+      },
+      {
+        "id": "C",
+        "text": "is responsible"
+      },
+      {
+        "id": "D",
+        "text": "for the arrangements"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — is responsible**\n\n**PDF Rule 02: The nearest subject is plural**\n\n- The correlative pair **either...or** correctly connects the two subjects Rohan and his friends.\n- The subject nearest the verb is **his friends**, which is plural; the verb must therefore be **are**.\n- The corrected sentence is: **Either Rohan or his friends are responsible for the arrangements.**\n- The verb does not agree with *Rohan* merely because he is mentioned first.\n- If the order were reversed—*Either his friends or Rohan...*—the nearest subject would be singular and **is** would be used.\n- In segmented error-detection questions, the incorrect segment is the verb phrase, not the correlative conjunction.\n\n**SSC Exam Point:** Either Rohan or his friends **are** responsible; the nearer subject *friends* is plural.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_031",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Identify the incorrect part: **Every one of the workers / have received / an identity card / from the office.**",
+    "options": [
+      {
+        "id": "A",
+        "text": "Every one of the workers"
+      },
+      {
+        "id": "B",
+        "text": "have received"
+      },
+      {
+        "id": "C",
+        "text": "an identity card"
+      },
+      {
+        "id": "D",
+        "text": "from the office"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — have received**\n\n**PDF Rule 05: Every one is distinct from the compound expression everyone**\n\n- **Every one** (two words) emphasizes each individual member of a group; it is grammatically singular.\n- The phrase *of the workers* is an of-phrase and does not make the subject plural.\n- The correct auxiliary is **has received**: *Every one of the workers has received an identity card.*\n- **Everyone** (one word) is an indefinite pronoun meaning all people; it also takes a singular verb, but the two-word form is often followed by *of + plural noun*.\n- The noun *workers* is plural but functions as the object of *of*, not as the head of the subject.\n- This is a common spelling-and-agreement trap: identify whether the subject is *everyone* or *every one of + group*.\n\n**SSC Exam Point:** **Every one of + plural noun** takes singular agreement: **has received**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_032",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Complete the sentence correctly: Neither the two applicants nor the supervisor ___ the final decision.",
+    "options": [
+      {
+        "id": "A",
+        "text": "know"
+      },
+      {
+        "id": "B",
+        "text": "knows"
+      },
+      {
+        "id": "C",
+        "text": "have known"
+      },
+      {
+        "id": "D",
+        "text": "are knowing"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — knows**\n\n**PDF Rule 02: Singular nearest subject in simple present**\n\n- The nearer subject to the verb is **the supervisor**, which is singular.\n- In the simple present, a third-person singular subject takes **knows**; the plural first subject *applicants* is not the controller here.\n- The correct sentence is **Neither the two applicants nor the supervisor knows the final decision.**\n- The construction is **neither...nor**; using *neither...or* would be incorrect.\n- The phrase *the final decision* is the object of *knows* and has no effect on subject–verb agreement.\n- The question checks both nearest-subject agreement and the third-person singular *-s* form.\n\n**SSC Exam Point:** Nearest singular subject *supervisor* → **knows** in the simple present.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_033",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct verb: The furniture in the newly renovated rooms ___ quite expensive.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "have been"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: C — is**\n\n**PDF Rule 01: An uncountable noun controls singular agreement**\n\n- **Furniture** is an uncountable noun in standard English and is treated as singular, even when it refers to many pieces.\n- Therefore, the correct verb is **is**: *The furniture ... is quite expensive.*\n- The plural form *furnitures* is not used in standard examination English; use *pieces/items of furniture* when counting.\n- The phrase *in the newly renovated rooms* only adds information about the furniture and does not make the subject plural.\n- Other commonly tested uncountable nouns include *information, advice, luggage, equipment, scenery* and *machinery*; they normally take singular verbs.\n- When a noun denotes a collection of items but is grammatically uncountable, agreement follows its grammatical number, not the number of objects.\n\n**SSC Exam Point:** **Furniture** is uncountable and takes a singular verb: *The furniture is...*",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_034",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Select the sentence that is grammatically correct.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neither the manager nor the assistants was present."
+      },
+      {
+        "id": "B",
+        "text": "Neither the manager nor the assistants were present."
+      },
+      {
+        "id": "C",
+        "text": "Neither the manager or the assistants were present."
+      },
+      {
+        "id": "D",
+        "text": "Neither the manager nor the assistants is present yesterday."
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "easy",
+    "explanation": "**सही उत्तर: B — Neither the manager nor the assistants were present.**\n\n**PDF Rule 02: Correct pair and agreement with the nearest subject**\n\n- The correct correlative pair is **neither...nor**; option C incorrectly uses *or* after *neither*.\n- The nearest subject to the verb is **assistants**, a plural noun, so the plural past form **were** is required.\n- Option A uses *was*, which would agree with a singular nearest subject, but not with *assistants*.\n- Option D mixes present tense *is* with the past-time marker *yesterday*.\n- The sentence has two subjects connected by a correlative conjunction; it is not a compound subject joined by plain *and*.\n- The order of the two subjects matters for the nearest-subject rule; changing their order can change the verb.\n\n**SSC Exam Point:** Use **neither...nor** and match the verb with the nearer subject: *assistants were*.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_035",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct verb to complete the sentence: The Arabian Nights ___ many fascinating stories.",
+    "options": [
+      {
+        "id": "A",
+        "text": "have"
+      },
+      {
+        "id": "B",
+        "text": "has"
+      },
+      {
+        "id": "C",
+        "text": "are having"
+      },
+      {
+        "id": "D",
+        "text": "were having"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — has**\n\n**PDF Rule 01: A book title functioning as a singular subject**\n\n- **The Arabian Nights** is the title of a book/collection, so the complete title is treated as one singular unit even though the word *Nights* is plural in form.\n- A singular title takes a singular verb: **The Arabian Nights has** many fascinating stories.\n- Do not select the verb by looking only at the final noun inside a title; identify whether the expression names one work, one organisation or one entity.\n- The same principle applies to titles such as *Gulliver’s Travels*, *The United States* (when treated as one country) and *The Three Musketeers* (as a book title).\n- If the sentence refers to the actual individual nights rather than the title of a book, the grammatical construction may be different; meaning and function decide the agreement.\n- The plural-looking subject in a title is a common SSC distractor because candidates often match the verb with the nearest visible plural noun.\n\n**SSC Exam Point:** A title of one book, film, newspaper or organisation generally takes a singular verb: *The Arabian Nights is/has...*",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_036",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Complete the sentence: He is the only one of the applicants who ___ the required experience.",
+    "options": [
+      {
+        "id": "A",
+        "text": "have"
+      },
+      {
+        "id": "B",
+        "text": "has"
+      },
+      {
+        "id": "C",
+        "text": "are having"
+      },
+      {
+        "id": "D",
+        "text": "were having"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — has**\n\n**PDF Rule 06: Only one changes the reference of the relative clause**\n\n- The expression **the only one of the applicants** singles out one particular applicant from the group.\n- In this construction, **who** refers to *the only one* rather than to the whole plural group of applicants; therefore the singular verb **has** is used.\n- This contrasts with *He is one of the applicants who have the required experience*, where *who* refers to the plural noun *applicants*.\n- The main clause *He is the only one...* is singular because its subject is *He*.\n- The word **only** is crucial: it changes the intended antecedent of the relative pronoun and therefore the verb in the relative clause.\n- This is a useful advanced contrast for SSC-level grammar because both sentences look similar but the meaning and agreement differ.\n\n**SSC Exam Point:** **One of the applicants who have...** = plural *applicants*; **the only one ... who has...** = singular *one*.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_037",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the sentence in which the subject takes a plural verb.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rice and curry is served at noon."
+      },
+      {
+        "id": "B",
+        "text": "Slow and steady wins the race."
+      },
+      {
+        "id": "C",
+        "text": "The poet and the writer are being honoured separately."
+      },
+      {
+        "id": "D",
+        "text": "Bread and butter is available."
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — The poet and the writer are being honoured separately.**\n\n**PDF Rule 04: Two separately identified persons take plural agreement**\n\n- In option C, **the poet** and **the writer** are presented as two separately identified persons; the repeated article *the* reinforces the separate reference.\n- A compound subject with two distinct persons joined by *and* normally takes a plural verb: **are being honoured**.\n- In option A, *rice and curry* is treated as one combined meal; singular *is* is possible in that meaning.\n- In option B, *slow and steady* is a fixed expression functioning as one idea in the proverb, so *wins* is singular.\n- In option D, *bread and butter* refers to one combined food item/meal, so singular agreement is used.\n- The article pattern can be a clue: *the poet and the writer* generally means two people, while *the poet and writer* may describe one person with two roles.\n\n**SSC Exam Point:** Separate persons joined by **and** → plural verb; repeated articles often signal separate identities.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_038",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Fill in the blank: Not only the principal but also the teachers ___ invited to the national seminar.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "were"
+      },
+      {
+        "id": "D",
+        "text": "has been"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: C — were**\n\n**PDF Rule 02: Not only...but also follows nearest-subject agreement**\n\n- **Not only...but also** is a correlative pair; when it connects two subjects, the verb generally agrees with the subject nearer to it.\n- The subject nearest the blank is **the teachers**, which is plural; the correct verb is **were**.\n- The phrase *the principal* comes first but does not control the verb in this construction.\n- If the order changes—*Not only the teachers but also the principal...*—the verb would normally be singular: **was/is**, depending on tense.\n- The pair should be used in parallel positions and must not be confused with *not only...and also*.\n- The sentence is in the past passive: **were invited**; the auxiliary must agree with the plural subject.\n\n**SSC Exam Point:** In **not only...but also**, the verb agrees with the nearer subject; here **teachers were invited**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_039",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct option: The assumption of many researchers ___ based on incomplete evidence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "have been"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "easy",
+    "explanation": "**सही उत्तर: C — is**\n\n**PDF Rule 03: Main subject controls the verb despite intervening words**\n\n- The head noun is **assumption**, a singular noun.\n- The phrase *of many researchers* identifies whose assumption is being discussed; it does not form part of the subject's number.\n- The correct singular verb is **is**: *The assumption ... is based on incomplete evidence.*\n- The adjective phrase *based on incomplete evidence* is a subject complement and does not influence the verb's number.\n- This sentence follows the same structure as *The belief of many people is misplaced*.\n- Words such as *many* inside an of-phrase do not automatically require a plural verb.\n\n**SSC Exam Point:** The singular head noun **assumption** takes **is**; ignore the plural noun in the of-phrase.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_040",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Which option follows the required agreement pattern?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Not merely the coach but also the players is confident."
+      },
+      {
+        "id": "B",
+        "text": "Not merely the coach but also the players are confident."
+      },
+      {
+        "id": "C",
+        "text": "Not merely the coach or also the players are confident."
+      },
+      {
+        "id": "D",
+        "text": "Not merely the coach but also the players has confidence."
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — Not merely the coach but also the players are confident.**\n\n**PDF Rule 02: Not merely...but also and nearest-subject agreement**\n\n- The PDF groups **not merely...but also** with the correlative conjunction patterns that follow nearest-subject agreement.\n- The nearer subject is **the players**, which is plural; therefore, **are** is correct.\n- Option A uses a singular verb despite the plural nearest subject.\n- Option C breaks the correlative pair by using *or*; the expected pair is *not merely...but also*.\n- Option D uses *has* with a plural subject and also changes the predicate structure awkwardly.\n- The sentence can be rewritten as *The coach and the players are confident*, but that changes the conjunction structure being tested.\n\n**SSC Exam Point:** Correlative pair **not merely...but also**; plural nearest subject *players* takes **are**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_041",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Fill in the blank: The books lying on the top shelf ___ to be transferred to the library.",
+    "options": [
+      {
+        "id": "A",
+        "text": "needs"
+      },
+      {
+        "id": "B",
+        "text": "need"
+      },
+      {
+        "id": "C",
+        "text": "is needing"
+      },
+      {
+        "id": "D",
+        "text": "has needed"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — need**\n\n**PDF Rule 03: A participial phrase does not change the subject number**\n\n- The main subject is **books**, which is plural.\n- The words *lying on the top shelf* form a participial phrase describing the books; they do not become a second subject.\n- A plural subject takes the base verb **need** in the simple present.\n- The phrase *to be transferred to the library* is an infinitive phrase functioning as the complement of *need*.\n- The correct sentence is **The books lying on the top shelf need to be transferred to the library.**\n- The PDF highlights participles, relative clauses, adverbs and infinitives as intervening material that can distract from the real subject.\n\n**SSC Exam Point:** Ignore the participial phrase; **books** is plural, so use **need**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_042",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Fill in the blanks: This is one of the finest novels that ___ ever ___ in English.",
+    "options": [
+      {
+        "id": "A",
+        "text": "has; written"
+      },
+      {
+        "id": "B",
+        "text": "have; been written"
+      },
+      {
+        "id": "C",
+        "text": "is; writing"
+      },
+      {
+        "id": "D",
+        "text": "was; wrote"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — have; been written**\n\n**PDF Rule 06: Plural antecedent and passive relative clause**\n\n- The relative pronoun **that** refers to **novels**, the plural noun immediately preceding the relative clause.\n- The relative clause therefore requires the plural auxiliary **have**.\n- The verb is passive because novels are written by authors; the correct passive perfect form is **have been written**.\n- The main clause *This is one of the finest novels* uses **is** because its subject is *This*.\n- The phrase *ever* commonly appears with the present perfect when describing experience up to the present.\n- The correct sentence is **This is one of the finest novels that have ever been written in English.**\n\n**SSC Exam Point:** **That = novels** (plural) → **have been written**; main clause *This is* remains singular.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_043",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Identify the incorrect part: **Neither the captain nor the players / was aware / of the revised instructions / before the match.**",
+    "options": [
+      {
+        "id": "A",
+        "text": "Neither the captain nor the players"
+      },
+      {
+        "id": "B",
+        "text": "was aware"
+      },
+      {
+        "id": "C",
+        "text": "of the revised instructions"
+      },
+      {
+        "id": "D",
+        "text": "before the match"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: B — was aware**\n\n**PDF Rule 02: Nearest plural subject in past tense**\n\n- The two subjects are connected by the correct pair **neither...nor**.\n- The nearer subject is **the players**, which is plural; its past-tense verb must be **were**.\n- The corrected sentence is: **Neither the captain nor the players were aware of the revised instructions before the match.**\n- The first subject *captain* is singular, but the nearer subject controls the verb in this construction.\n- *Aware of* is the correct adjective-preposition combination; that part of the sentence contains no error.\n- The expression *before the match* is a time phrase and does not affect the choice of auxiliary.\n\n**SSC Exam Point:** Correct **was aware** to **were aware** because *players* is the nearer subject.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_044",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct verb: Bread and butter ___ my usual breakfast.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "have been"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "easy",
+    "explanation": "**सही उत्तर: C — is**\n\n**PDF Rule 04: Two nouns expressing one combined idea**\n\n- Although *bread* and *butter* are two nouns joined by **and**, the phrase refers to one combined meal or food item in this context.\n- When the two nouns express one idea, one dish, one amount or one unit, the subject is treated as singular.\n- Therefore, **is** is correct: *Bread and butter is my usual breakfast.*\n- If the sentence clearly refers to two separate items, plural agreement may be appropriate: *The bread and the butter are on separate plates.*\n- The absence of a second article before *butter* can support the one-combined-idea reading, although meaning remains decisive.\n- The PDF also groups expressions such as *rice and curry*, *slow and steady* and *time and tide* for examination practice; interpret each expression in context.\n\n**SSC Exam Point:** Two nouns joined by **and** can take a singular verb when they form one combined idea or unit.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_045",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct completion: One of the most talented players in the squad ___ selected for the final team.",
+    "options": [
+      {
+        "id": "A",
+        "text": "have been"
+      },
+      {
+        "id": "B",
+        "text": "are being"
+      },
+      {
+        "id": "C",
+        "text": "has been"
+      },
+      {
+        "id": "D",
+        "text": "were"
+      }
+    ],
+    "correctAnswer": "C",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — has been**\n\n**PDF Rule 06: One of + plural noun has a singular main verb**\n\n- In **one of the most talented players**, the grammatical head is **one**, which is singular.\n- The plural noun *players* follows *of* and identifies the group from which one person is selected.\n- The present perfect passive auxiliary must therefore be **has**, giving **has been selected**.\n- The superlative phrase *the most talented* describes the plural group, but it does not change the subject's number.\n- The pattern is: **one of + the + plural noun + singular verb**.\n- Compare *The players have been selected*, where *players* itself is the subject and takes a plural verb.\n\n**SSC Exam Point:** In the main clause, **one of + plural noun** takes a singular verb: **has been selected**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_046",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct verb: The director, along with the senior actors, ___ expected to address the audience.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "have been"
+      },
+      {
+        "id": "D",
+        "text": "were"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: B — is**\n\n**PDF Rule 03: Phrases introduced by along with do not make the subject plural**\n\n- The main subject is **the director**; the phrase *along with the senior actors* adds extra information but does not create a compound subject.\n- The verb must agree with the singular head subject **director**, so **is expected** is correct.\n- Expressions such as *along with, together with, as well as, accompanied by, in addition to* and *with* do not normally change the number of the main subject.\n- The noun *actors* is plural but belongs to the accompanying phrase, not the grammatical subject controlling the verb.\n- Compare: *The director and the actors are expected...* Here *and* creates a compound subject and a plural verb is normally required.\n- The commas around the additional phrase make it easier to identify the main subject, but the agreement rule also applies without commas.\n\n**SSC Exam Point:** With **along with/as well as/together with**, the verb follows the first/main subject: *director is*.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_047",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Choose the correct verbs: Ritu is one of the candidates who ___ qualified and ___ invited for the interview.",
+    "options": [
+      {
+        "id": "A",
+        "text": "has; has been"
+      },
+      {
+        "id": "B",
+        "text": "have; have been"
+      },
+      {
+        "id": "C",
+        "text": "has; have been"
+      },
+      {
+        "id": "D",
+        "text": "have; has been"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — have; have been**\n\n**PDF Rule 06: Relative clause verb agrees with the plural antecedent**\n\n- The phrase **one of the candidates** has *one* as its main subject, but the relative pronoun **who** refers to **candidates**.\n- Since *candidates* is plural, the relative clause takes **have qualified**.\n- The second verb phrase *have been invited* is also inside the relative clause and refers to the same plural antecedent.\n- The complete sentence is: **Ritu is one of the candidates who have qualified and have been invited for the interview.**\n- The main verb **is** agrees with *Ritu*; the relative clause verbs agree with *candidates*. Different clauses can have different subjects.\n- This is the important Rule 06 distinction: *one* controls the main clause, while the plural noun before *who/that* controls the relative clause.\n\n**SSC Exam Point:** In **one of the candidates who...**, use a plural verb in the relative clause because **who = candidates**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_048",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Find the part of the sentence that contains an error: **The list of selected candidates / have been displayed / on the notice board / this morning.**",
+    "options": [
+      {
+        "id": "A",
+        "text": "The list of selected candidates"
+      },
+      {
+        "id": "B",
+        "text": "have been displayed"
+      },
+      {
+        "id": "C",
+        "text": "on the notice board"
+      },
+      {
+        "id": "D",
+        "text": "this morning"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "easy",
+    "explanation": "**सही उत्तर: B — have been displayed**\n\n**PDF Rule 03: Prepositional phrase separates the subject and verb**\n\n- The head subject is **list**, which is singular; *of selected candidates* is only a prepositional phrase modifying it.\n- The correct present perfect passive form is **has been displayed**.\n- The plural noun *candidates* is the object of the preposition *of* and must not mislead the candidate into choosing *have*.\n- The corrected sentence is: **The list of selected candidates has been displayed on the notice board this morning.**\n- The same structure appears in *The bouquet of roses is beautiful* and *The price of these articles has increased*.\n- When a long phrase comes between the subject and verb, remove it mentally and test the basic subject–verb pair.\n\n**SSC Exam Point:** Main subject = **list** (singular); use **has been displayed**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_049",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Which sentence uses the correct singular indefinite-pronoun verb?",
+    "options": [
+      {
+        "id": "A",
+        "text": "He is one of the few managers who consistently leads their teams well."
+      },
+      {
+        "id": "B",
+        "text": "He is one of the few managers who consistently lead their teams well."
+      },
+      {
+        "id": "C",
+        "text": "He is one of the few manager who consistently lead their teams well."
+      },
+      {
+        "id": "D",
+        "text": "He is one of the few managers who consistently leads his team well are."
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: B — He is one of the few managers who consistently lead their teams well.**\n\n**PDF Rule 06: The relative pronoun refers to the plural noun managers**\n\n- The relative clause **who consistently lead their teams well** describes *managers*, not just the single person represented by *one*.\n- Because the antecedent of **who** is plural (*managers*), the relative-clause verb should be **lead**.\n- The main clause remains singular: **He is one**; the verb *is* agrees with the subject *He*.\n- The phrase *one of the few managers* contains a plural noun after *of* and introduces a relative clause whose reference is to that plural group.\n- Option A incorrectly uses *leads* in the relative clause; option C makes *manager* singular after *one of the few*.\n- The possessive *their* in the plural relative clause naturally refers to the managers as a group.\n\n**SSC Exam Point:** Main clause: **He is one**; relative clause: managers **who lead**.",
+    "language": "en"
+  },
+  {
+    "id": "english_grammar_set01_050",
+    "subjectId": "english",
+    "topicId": "grammar-rules-01-to-06",
+    "question": "Identify the incorrect part: **Time and tide / waits for none / according to the old saying.**",
+    "options": [
+      {
+        "id": "A",
+        "text": "Time and tide"
+      },
+      {
+        "id": "B",
+        "text": "waits for none"
+      },
+      {
+        "id": "C",
+        "text": "according to the old saying"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: B — waits for none**\n\n**PDF Rule 04: Two separate subjects joined by and**\n\n- In the proverb, **time** and **tide** are two distinct concepts, not one combined dish, unit or idea.\n- A compound subject formed by two separate nouns joined by *and* normally takes a plural verb.\n- The correct sentence is: **Time and tide wait for none.**\n- The singular verb *waits* is incorrect because it agrees with neither the compound subject nor the intended meaning.\n- This contrasts with *bread and butter is my breakfast*, where the expression denotes one combined meal.\n- In such questions, do not rely only on the presence of *and*; decide whether the nouns represent one idea or two separate entities.\n\n**SSC Exam Point:** **Time and tide** are two separate subjects → plural verb **wait**.",
+    "language": "en"
+  }
+]

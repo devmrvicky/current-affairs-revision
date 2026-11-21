@@ -25,13 +25,16 @@ export function ResumeTestsSection() {
   const [resumingId, setResumingId] = useState<string | null>(null);
   const [toAbandon, setToAbandon] = useState<ResumableSessionSummary | null>(null);
   const [abandoning, setAbandoning] = useState(false);
+  const [loadFailed, setLoadFailed] = useState(false);
 
   const refresh = useCallback(async () => {
     try {
       setSessions(await listResumableSessions());
+      setLoadFailed(false);
     } catch (err) {
       console.error('Could not read saved sessions', err);
       setSessions([]);
+      setLoadFailed(true); // an honest error with a retry — not a silent "No unfinished tests"
     }
   }, []);
 
@@ -95,7 +98,12 @@ export function ResumeTestsSection() {
         </h2>
       </div>
 
-      {sessions.length === 0 ? (
+      {sessions.length === 0 && loadFailed ? (
+        <div className="card p-5 text-center" role="alert">
+          <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>Couldn't read your saved tests</p>
+          <button type="button" onClick={() => { void refresh(); }} className="btn-secondary mt-2 px-4 py-2 text-xs">Try again</button>
+        </div>
+      ) : sessions.length === 0 ? (
         <div className="card p-5 text-center" role="status">
           <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>No unfinished tests</p>
           <p className="text-xs mt-1" style={{ color: 'var(--text-muted)' }}>Start a test and leave it part-way — it will wait for you here.</p>

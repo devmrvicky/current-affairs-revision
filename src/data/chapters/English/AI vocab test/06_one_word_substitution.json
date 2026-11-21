@@ -1,0 +1,842 @@
+[
+  {
+    "id": "vocab_ows_151",
+    "subjectId": "english",
+    "question": "Choose the one word for: A storm with a violent wind.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eruption"
+      },
+      {
+        "id": "B",
+        "text": "Blaze"
+      },
+      {
+        "id": "C",
+        "text": "Tremor"
+      },
+      {
+        "id": "D",
+        "text": "Hurricane"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Hurricane = प्रचंड तूफ़ान। Example: The hurricane destroyed hundreds of houses on the coast.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_152",
+    "subjectId": "english",
+    "question": "Choose the one word for: A mobile, destructive vortex of rotating winds.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tsunami"
+      },
+      {
+        "id": "B",
+        "text": "Tornado"
+      },
+      {
+        "id": "C",
+        "text": "Volcano"
+      },
+      {
+        "id": "D",
+        "text": "Landslide"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Tornado = बवंडर। Example: A tornado tore the roofs off the village huts.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_153",
+    "subjectId": "english",
+    "question": "Choose the one word for: A tropical storm in the Indian or Pacific Ocean.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Typhoon"
+      },
+      {
+        "id": "B",
+        "text": "Cloudburst"
+      },
+      {
+        "id": "C",
+        "text": "Hailstorm"
+      },
+      {
+        "id": "D",
+        "text": "Heatwave"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Typhoon = समुद्री चक्रवात। Example: The typhoon forced the airport to close.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_154",
+    "subjectId": "english",
+    "question": "Choose the one word for: A sudden involuntary muscle contraction.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bruise"
+      },
+      {
+        "id": "B",
+        "text": "Sprain"
+      },
+      {
+        "id": "C",
+        "text": "Spasm"
+      },
+      {
+        "id": "D",
+        "text": "Fracture"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Spasm = ऐंठन। Example: A muscle spasm woke him at night.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_155",
+    "subjectId": "english",
+    "question": "Choose the one word for: An instrument for measuring blood pressure.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oximeter"
+      },
+      {
+        "id": "B",
+        "text": "Stethoscope"
+      },
+      {
+        "id": "C",
+        "text": "Glucometer"
+      },
+      {
+        "id": "D",
+        "text": "Sphygmomanometer"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Sphygmomanometer = रक्तचाप मापने का यंत्र। Example: The nurse used a sphygmomanometer to check his pressure.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_156",
+    "subjectId": "english",
+    "question": "Choose the one word for: A labourer who loads and unloads ships.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shipwright"
+      },
+      {
+        "id": "B",
+        "text": "Stevedore"
+      },
+      {
+        "id": "C",
+        "text": "Navigator"
+      },
+      {
+        "id": "D",
+        "text": "Purser"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Stevedore = गोदी मज़दूर। Example: The stevedores worked all night at the port.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_157",
+    "subjectId": "english",
+    "question": "Choose the one word for: Reasoning that draws a conclusion from two statements.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Syllogism"
+      },
+      {
+        "id": "B",
+        "text": "Fallacy"
+      },
+      {
+        "id": "C",
+        "text": "Paradox"
+      },
+      {
+        "id": "D",
+        "text": "Axiom"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Syllogism = न्याय-वाक्य (दो कथनों से निष्कर्ष)। Example: 'All men are mortal; Ram is a man; so Ram is mortal' is a syllogism.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_158",
+    "subjectId": "english",
+    "question": "Choose the one word for: The science of poisons.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Serology"
+      },
+      {
+        "id": "B",
+        "text": "Immunology"
+      },
+      {
+        "id": "C",
+        "text": "Toxicology"
+      },
+      {
+        "id": "D",
+        "text": "Virology"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Toxicology = विष-विज्ञान। Example: The toxicology report confirmed the poisoning.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_159",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person or animal that lives in a particular place.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intruder"
+      },
+      {
+        "id": "B",
+        "text": "Inhabitant"
+      },
+      {
+        "id": "C",
+        "text": "Wanderer"
+      },
+      {
+        "id": "D",
+        "text": "Sojourner"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Inhabitant = निवासी। Example: Every inhabitant of the village voted.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_160",
+    "subjectId": "english",
+    "question": "Choose the one word for: The legal formation of a company.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Liquidation"
+      },
+      {
+        "id": "B",
+        "text": "Receivership"
+      },
+      {
+        "id": "C",
+        "text": "Incorporation"
+      },
+      {
+        "id": "D",
+        "text": "Dissolution"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Incorporation = (कंपनी का) विधिक गठन। Example: The incorporation of the firm was completed in March.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_161",
+    "subjectId": "english",
+    "question": "Choose the one word for: Something that deviates from what is standard or normal.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Norm"
+      },
+      {
+        "id": "B",
+        "text": "Convention"
+      },
+      {
+        "id": "C",
+        "text": "Standard"
+      },
+      {
+        "id": "D",
+        "text": "Anomaly"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Anomaly = विसंगति, असामान्यता। Example: A snowfall in June would be a weather anomaly.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_162",
+    "subjectId": "english",
+    "question": "Choose the one word for: A system of naming things.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nomenclature"
+      },
+      {
+        "id": "B",
+        "text": "Pedagogy"
+      },
+      {
+        "id": "C",
+        "text": "Etiquette"
+      },
+      {
+        "id": "D",
+        "text": "Mnemonics"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Nomenclature = नामकरण पद्धति। Example: Chemical nomenclature gives every compound a standard name.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_163",
+    "subjectId": "english",
+    "question": "Choose the one word for: The study of snakes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Cetology"
+      },
+      {
+        "id": "B",
+        "text": "Arachnology"
+      },
+      {
+        "id": "C",
+        "text": "Mycology"
+      },
+      {
+        "id": "D",
+        "text": "Ophiology"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Ophiology = सर्प-विज्ञान। Example: Ophiology helps us understand venomous snakes.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_164",
+    "subjectId": "english",
+    "question": "Choose the one word for: A place where children without parents are brought up.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Orphanage"
+      },
+      {
+        "id": "B",
+        "text": "Sanctum"
+      },
+      {
+        "id": "C",
+        "text": "Reformatory"
+      },
+      {
+        "id": "D",
+        "text": "Hostel"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Orphanage = अनाथालय। Example: The couple donated books to the orphanage.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_165",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who has broken the law and is a fugitive.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bailiff"
+      },
+      {
+        "id": "B",
+        "text": "Vigilante"
+      },
+      {
+        "id": "C",
+        "text": "Outlaw"
+      },
+      {
+        "id": "D",
+        "text": "Sheriff"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Outlaw = भगोड़ा अपराधी। Example: The outlaw hid in the hills for years.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_166",
+    "subjectId": "english",
+    "question": "Choose the one word for: The belief that God is everything.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Animism"
+      },
+      {
+        "id": "B",
+        "text": "Pantheism"
+      },
+      {
+        "id": "C",
+        "text": "Deism"
+      },
+      {
+        "id": "D",
+        "text": "Polytheism"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Pantheism = सर्वेश्वरवाद। Example: Pantheism sees God in every part of nature.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_167",
+    "subjectId": "english",
+    "question": "Choose the one word for: To send someone back to their own country.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Repatriate"
+      },
+      {
+        "id": "B",
+        "text": "Banish"
+      },
+      {
+        "id": "C",
+        "text": "Naturalise"
+      },
+      {
+        "id": "D",
+        "text": "Emigrate"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Repatriate = स्वदेश वापस भेजना। Example: The government repatriated stranded workers.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_168",
+    "subjectId": "english",
+    "question": "Choose the one word for: A doctor who specialises in diseases of the nose.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Otologist"
+      },
+      {
+        "id": "B",
+        "text": "Rhinologist"
+      },
+      {
+        "id": "C",
+        "text": "Urologist"
+      },
+      {
+        "id": "D",
+        "text": "Pulmonologist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Rhinologist = नाक-रोग विशेषज्ञ। Example: A rhinologist treated his chronic sinus problem.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_169",
+    "subjectId": "english",
+    "question": "Choose the one word for: A job with little or no work but good pay.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Internship"
+      },
+      {
+        "id": "B",
+        "text": "Apprenticeship"
+      },
+      {
+        "id": "C",
+        "text": "Sinecure"
+      },
+      {
+        "id": "D",
+        "text": "Drudgery"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Sinecure = आराम की नौकरी। Example: The post of adviser was a mere sinecure.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_170",
+    "subjectId": "english",
+    "question": "Choose the one word for: A doctor who performs operations.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pharmacist"
+      },
+      {
+        "id": "B",
+        "text": "Radiologist"
+      },
+      {
+        "id": "C",
+        "text": "Midwife"
+      },
+      {
+        "id": "D",
+        "text": "Surgeon"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Surgeon = शल्य-चिकित्सक। Example: The surgeon operated for four hours.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_171",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who writes by shorthand.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Receptionist"
+      },
+      {
+        "id": "B",
+        "text": "Proofreader"
+      },
+      {
+        "id": "C",
+        "text": "Stenographer"
+      },
+      {
+        "id": "D",
+        "text": "Typist"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Stenographer = आशुलिपिक। Example: The stenographer noted every word of the judge.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_172",
+    "subjectId": "english",
+    "question": "Choose the one word for: A place where coins are made.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Treasury"
+      },
+      {
+        "id": "B",
+        "text": "Mint"
+      },
+      {
+        "id": "C",
+        "text": "Exchequer"
+      },
+      {
+        "id": "D",
+        "text": "Bullion"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Mint = टकसाल। Example: Coins are produced at the government mint.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_173",
+    "subjectId": "english",
+    "question": "Choose the one word for: A saltwater lake separated from the sea.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lagoon"
+      },
+      {
+        "id": "B",
+        "text": "Delta"
+      },
+      {
+        "id": "C",
+        "text": "Fjord"
+      },
+      {
+        "id": "D",
+        "text": "Estuary"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Lagoon = लैगून (समुद्र से अलग खारी झील)। Example: Boats float peacefully on the blue lagoon.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_174",
+    "subjectId": "english",
+    "question": "Choose the one word for: A place where clothes are washed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Salon"
+      },
+      {
+        "id": "B",
+        "text": "Boutique"
+      },
+      {
+        "id": "C",
+        "text": "Tailoring"
+      },
+      {
+        "id": "D",
+        "text": "Laundry"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "easy",
+    "explanation": "Laundry = धुलाई-घर। Example: He gave his suit to the laundry.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_175",
+    "subjectId": "english",
+    "question": "Choose the one word for: That part of the government responsible for making laws.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Judiciary"
+      },
+      {
+        "id": "B",
+        "text": "Executive"
+      },
+      {
+        "id": "C",
+        "text": "Legislature"
+      },
+      {
+        "id": "D",
+        "text": "Secretariat"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Legislature = विधायिका। Example: The legislature passed the new bill.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_176",
+    "subjectId": "english",
+    "question": "Choose the one word for: The science and technology of metals.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Alchemy"
+      },
+      {
+        "id": "B",
+        "text": "Ceramics"
+      },
+      {
+        "id": "C",
+        "text": "Mineralogy"
+      },
+      {
+        "id": "D",
+        "text": "Metallurgy"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Metallurgy = धातुकर्म। Example: Metallurgy is vital for the steel industry.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_177",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who studies the weather.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oceanographer"
+      },
+      {
+        "id": "B",
+        "text": "Meteorologist"
+      },
+      {
+        "id": "C",
+        "text": "Hydrologist"
+      },
+      {
+        "id": "D",
+        "text": "Glaciologist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Meteorologist = मौसम-विज्ञानी। Example: The meteorologist predicted heavy rain.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_178",
+    "subjectId": "english",
+    "question": "Choose the one word for: An enthusiastic pioneer of a cause or reform.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apostle"
+      },
+      {
+        "id": "B",
+        "text": "Opponent"
+      },
+      {
+        "id": "C",
+        "text": "Critic"
+      },
+      {
+        "id": "D",
+        "text": "Heretic"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Apostle = प्रवर्तक, अग्रदूत। Example: Gandhiji was an apostle of non-violence.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_179",
+    "subjectId": "english",
+    "question": "Choose the one word for: A person who loves to argue or debate.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Moderator"
+      },
+      {
+        "id": "B",
+        "text": "Arbitrator"
+      },
+      {
+        "id": "C",
+        "text": "Conciliator"
+      },
+      {
+        "id": "D",
+        "text": "Controversialist"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "one-word-substitution",
+    "difficulty": "medium",
+    "explanation": "Controversialist = विवादप्रिय व्यक्ति। Example: The controversialist turned every talk into a debate.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ows_180",
+    "subjectId": "english",
+    "question": "Choose the one word for: A small room that serves as the entrance to a larger space.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Balcony"
+      },
+      {
+        "id": "B",
+        "text": "Terrace"
+      },
+      {
+        "id": "C",
+        "text": "Anteroom"
+      },
+      {
+        "id": "D",
+        "text": "Veranda"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "one-word-substitution",
+    "difficulty": "hard",
+    "explanation": "Anteroom = उपकक्ष (प्रवेश-कक्ष)। Example: Visitors waited in the anteroom of the minister's office.",
+    "language": "en"
+  }
+]

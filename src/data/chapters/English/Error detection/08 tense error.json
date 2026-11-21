@@ -1,0 +1,1614 @@
+[
+  {
+    "id": "tense_error_001",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) I have not seen him since twenty years / (b) and so I cannot say with certainty / (c) whether he is alive or dead / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "I have not seen him since twenty years"
+      },
+      {
+        "id": "B",
+        "text": "and so I cannot say with certainty"
+      },
+      {
+        "id": "C",
+        "text": "whether he is alive or dead"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- **For** का प्रयोग समय-अवधि (duration) के लिए होता है, जबकि **since** किसी निश्चित प्रारंभ-बिंदु के लिए आता है। ‘Twenty years’ अवधि है, इसलिए ‘since’ गलत है।\n\n**सुधरा हुआ वाक्य:**\n> I have not seen him **for** twenty years, and so I cannot say with certainty whether he is alive or dead.\n\n**विशेष टिप्पणी:**\n- किताब की दिख रही उत्तर-व्याख्या भी (a) बताती है: ‘since’ की जगह ‘for’ आएगा।",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_002",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) When he did not find his cook in the kitchen / (b) he asked his wife / (c) where had he gone / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "When he did not find his cook in the kitchen"
+      },
+      {
+        "id": "B",
+        "text": "he asked his wife"
+      },
+      {
+        "id": "C",
+        "text": "where had he gone"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- Indirect question में सामान्य कथन-क्रम **Subject + Verb** होता है; प्रश्न जैसा inversion (had he gone) नहीं रखा जाता।\n\n**सुधरा हुआ वाक्य:**\n> When he did not find his cook in the kitchen, he asked his wife **where he had gone**.\n\n**विशेष टिप्पणी:**\n- किताब की दिखाई दे रही उत्तर-कुंजी: (c)।",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_003",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Although I am playing cricket / (b) for more than three years / (c) I have not been able to score a century / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Although I am playing cricket"
+      },
+      {
+        "id": "B",
+        "text": "for more than three years"
+      },
+      {
+        "id": "C",
+        "text": "I have not been able to score a century"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘For more than three years’ अवधि बताता है और क्रिया अब तक जारी है। इसलिए Present Perfect Continuous **have been playing** चाहिए, न कि Present Continuous ‘am playing’।\n\n**सुधरा हुआ वाक्य:**\n> Although I **have been playing** cricket for more than three years, I have not been able to score a century.\n\n**विशेष टिप्पणी:**\n- किताब की दिखाई दे रही उत्तर-व्याख्या में भी (a) ‘am’ को ‘have been’ करने को कहा गया है।",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_004",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) I do not know where could he have gone / (b) so early / (c) in the morning / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "I do not know where could he have gone"
+      },
+      {
+        "id": "B",
+        "text": "so early"
+      },
+      {
+        "id": "C",
+        "text": "in the morning"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- Indirect question में **where + subject + auxiliary** का क्रम होता है। ‘where could he have gone’ में प्रश्नवाचक inversion गलत है।\n\n**सुधरा हुआ वाक्य:**\n> I do not know **where he could have gone** so early in the morning.\n\n**विशेष टिप्पणी:**\n- किताब की दिखाई दे रही उत्तर-कुंजी: (a)।",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_005",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) By the time / (b) we got our tickets and entered the cinema theatre, / (c) the show was already begun. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "By the time"
+      },
+      {
+        "id": "B",
+        "text": "we got our tickets and entered the cinema theatre,"
+      },
+      {
+        "id": "C",
+        "text": "the show was already begun."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- दो भूतकालीन घटनाओं में जो घटना पहले पूरी हो चुकी थी, उसके लिए **Past Perfect (had + V3)** आता है। शो का शुरू होना टिकट लेने और थिएटर में प्रवेश करने से पहले हुआ।\n\n**सुधरा हुआ वाक्य:**\n> By the time we got our tickets and entered the cinema theatre, the show **had** already begun.\n\n**विशेष टिप्पणी:**\n- किताब की दिखाई दे रही उत्तर-व्याख्या में भी (c) ‘was’ की जगह ‘had’ दिया है।",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_006",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) By the time / (b) we will get our tickets and enter the cinema theatre, / (c) the show will have already begun. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "By the time"
+      },
+      {
+        "id": "B",
+        "text": "we will get our tickets and enter the cinema theatre,"
+      },
+      {
+        "id": "C",
+        "text": "the show will have already begun."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- भविष्य के अर्थ वाले **by the time** clause में सामान्यतः Present Simple आता है; मुख्य clause Future Perfect हो सकता है। इसलिए subordinate clause में ‘will get’ नहीं आएगा।\n\n**सुधरा हुआ वाक्य:**\n> By the time **we get** our tickets and enter the cinema theatre, the show will have already begun.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_007",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Gowri told me / (b) his name after / (c) he left. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gowri told me"
+      },
+      {
+        "id": "B",
+        "text": "his name after"
+      },
+      {
+        "id": "C",
+        "text": "he left."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: D — No error**\n\n**नियम और विश्लेषण:**\n- ‘After’ दो क्रमिक भूतकालीन घटनाओं का क्रम स्पष्ट कर देता है; ऐसे में उसके बाद Simple Past का प्रयोग सही हो सकता है। ‘His name’ किसी अन्य पुरुष व्यक्ति का नाम बताता है, इसलिए pronoun भी अपने-आप में गलत नहीं है।\n\n**सुधरा हुआ वाक्य:**\n> Gowri told me his name after he left.\n\n**विशेष टिप्पणी:**\n- वाक्य जैसा छपा है, उसके आधार पर कोई निश्चित tense error नहीं है; इसलिए **No error**।",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_008",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) We have been / (b) celebrating many festivals / (c) since centuries. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "We have been"
+      },
+      {
+        "id": "B",
+        "text": "celebrating many festivals"
+      },
+      {
+        "id": "C",
+        "text": "since centuries."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- **Since** निश्चित प्रारंभ-बिंदु (since 2000, since Monday) के साथ आता है। ‘Centuries’ अवधि है, इसलिए **for centuries** होना चाहिए।\n\n**सुधरा हुआ वाक्य:**\n> We have been celebrating many festivals **for centuries**.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_009",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Old age and infirmity / (b) had began to / (c) catch up with him. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Old age and infirmity"
+      },
+      {
+        "id": "B",
+        "text": "had began to"
+      },
+      {
+        "id": "C",
+        "text": "catch up with him."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- Past Perfect का ढाँचा **had + V3** होता है। ‘Begin’ का V2 ‘began’ और V3 ‘begun’ है; ‘had began’ गलत है।\n\n**सुधरा हुआ वाक्य:**\n> Old age and infirmity **had begun to** catch up with him.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_010",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) The passer-by told us / (b) where was the marriage hall / (c) and even led us to it. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "The passer-by told us"
+      },
+      {
+        "id": "B",
+        "text": "where was the marriage hall"
+      },
+      {
+        "id": "C",
+        "text": "and even led us to it."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Told us’ के बाद reported/indirect question है। इसमें प्रश्न का उलटा क्रम नहीं, बल्कि **where + subject + verb** आएगा।\n\n**सुधरा हुआ वाक्य:**\n> The passer-by told us **where the marriage hall was** and even led us to it.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_011",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) I have passed / (b) the examination / (c) two years ago. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "I have passed"
+      },
+      {
+        "id": "B",
+        "text": "the examination"
+      },
+      {
+        "id": "C",
+        "text": "two years ago."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- Present Perfect का प्रयोग finished past-time expression जैसे **two years ago** के साथ नहीं किया जाता। निश्चित भूतकाल के लिए Simple Past चाहिए।\n\n**सुधरा हुआ वाक्य:**\n> I **passed** the examination two years ago.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_012",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Since he joined / (b) this post, he did not take / (c) any bribe. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Since he joined"
+      },
+      {
+        "id": "B",
+        "text": "this post, he did not take"
+      },
+      {
+        "id": "C",
+        "text": "any bribe."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- जब ‘since’ किसी ऐसे past point को बताता है जिसका प्रभाव वर्तमान तक है, मुख्य clause में सामान्यतः Present Perfect आता है। यहाँ ‘did not take’ की जगह ‘has not taken’ होगा।\n\n**सुधरा हुआ वाक्य:**\n> Since he joined this post, he **has not taken** any bribe.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_013",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Perhaps you know / (b) that I have passed / (c) the examination in 1990. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perhaps you know"
+      },
+      {
+        "id": "B",
+        "text": "that I have passed"
+      },
+      {
+        "id": "C",
+        "text": "the examination in 1990."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘In 1990’ एक निश्चित समाप्त भूतकाल है। Present Perfect ‘have passed’ ऐसे definite past-time marker के साथ नहीं आता; Simple Past ‘passed’ चाहिए।\n\n**सुधरा हुआ वाक्य:**\n> Perhaps you know that I **passed** the examination in 1990.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_014",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) He has read four plays / (b) written by Shakespeare / (c) by the end of his vacation. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "He has read four plays"
+      },
+      {
+        "id": "B",
+        "text": "written by Shakespeare"
+      },
+      {
+        "id": "C",
+        "text": "by the end of his vacation."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tense",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: A — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘By the end of his vacation’ किसी deadline तक काम पूरा होने का भाव देता है। यदि vacation भविष्य में है, तो **Future Perfect (will have + V3)** चाहिए।\n\n**सुधरा हुआ वाक्य:**\n> He **will have read** four plays written by Shakespeare by the end of his vacation.\n\n**विशेष टिप्पणी:**\n- **संदर्भ-सीमा:** तस्वीर में यह नहीं बताया गया कि vacation भविष्य का है या बीते समय का। पुस्तक का आशय संभवतः Future Perfect है; यदि vacation पहले ही समाप्त हो चुका हो तो ‘had read’ भी संदर्भानुसार संभव होगा। इसीलिए यह item context-dependent है।",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_015",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) When they stole / (b) the money / (c) and where did they hide it? / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "When they stole"
+      },
+      {
+        "id": "B",
+        "text": "the money"
+      },
+      {
+        "id": "C",
+        "text": "and where did they hide it?"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tense",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: A — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- यदि यह direct question है, तो दोनों coordinated प्रश्नों में interrogative order होना चाहिए। पहले खंड ‘When they stole’ में auxiliary ‘did’ और उसके बाद base verb ‘steal’ चाहिए।\n\n**सुधरा हुआ वाक्य:**\n> **When did they steal** the money and where did they hide it?\n\n**विशेष टिप्पणी:**\n- वाक्य को स्वतंत्र direct question मानकर (a) त्रुटि है। यदि इसे किसी बड़े indirect-question clause का हिस्सा माना जाए, तो पूरा मुख्य clause भी चाहिए; वह फोटो में नहीं है।",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_016",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) The teacher / (b) has took / (c) the responsibility. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "The teacher"
+      },
+      {
+        "id": "B",
+        "text": "has took"
+      },
+      {
+        "id": "C",
+        "text": "the responsibility."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- Present Perfect = **has/have + V3**। ‘Take’ के रूप take–took–taken हैं; ‘has took’ गलत है।\n\n**सुधरा हुआ वाक्य:**\n> The teacher **has taken** the responsibility.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_017",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) For time immemorial / (b) sea shells have been used by man / (c) in many ways. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "For time immemorial"
+      },
+      {
+        "id": "B",
+        "text": "sea shells have been used by man"
+      },
+      {
+        "id": "C",
+        "text": "in many ways."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- स्थिर मुहावरा **since time immemorial** है। ‘For time immemorial’ मानक प्रयोग नहीं है।\n\n**सुधरा हुआ वाक्य:**\n> **Since time immemorial**, sea shells have been used by man in many ways.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_018",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) The river is in spate / (b) and it has overflown / (c) its banks. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "The river is in spate"
+      },
+      {
+        "id": "B",
+        "text": "and it has overflown"
+      },
+      {
+        "id": "C",
+        "text": "its banks."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Overflow’ का सामान्य past और past participle **overflowed** है। ‘Overflown’ इस अर्थ में मानक रूप नहीं है।\n\n**सुधरा हुआ वाक्य:**\n> The river is in spate and it has **overflowed** its banks.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_019",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) The little boy / (b) had been waiting for his turn / (c) since a long time. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "The little boy"
+      },
+      {
+        "id": "B",
+        "text": "had been waiting for his turn"
+      },
+      {
+        "id": "C",
+        "text": "since a long time."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- **For** का प्रयोग अवधि के साथ होता है; ‘a long time’ अवधि है। ‘Since’ के बाद निश्चित शुरुआती समय चाहिए।\n\n**सुधरा हुआ वाक्य:**\n> The little boy had been waiting for his turn **for** a long time.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_020",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) This T.V. serial / (b) is going on / (c) for 3 years. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "This T.V. serial"
+      },
+      {
+        "id": "B",
+        "text": "is going on"
+      },
+      {
+        "id": "C",
+        "text": "for 3 years."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘For 3 years’ ऐसी अवधि है जो वर्तमान तक जारी है। इसलिए Present Perfect Continuous **has been going on** चाहिए।\n\n**सुधरा हुआ वाक्य:**\n> This T.V. serial **has been going on** for 3 years.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_021",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) In the early years of the renaissance, hereditary dancers / (b) have their own set of accompanists / (c) who lived with the dancers and travelled with them from place to place when they gave performances. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "In the early years of the renaissance, hereditary dancers"
+      },
+      {
+        "id": "B",
+        "text": "have their own set of accompanists"
+      },
+      {
+        "id": "C",
+        "text": "who lived with the dancers and travelled with them from place to place when they gave performances."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- वाक्य अतीत के ‘early years’ का वर्णन करता है और आगे ‘lived, travelled, gave’ भी Past Simple में हैं। इसलिए ‘have’ के स्थान पर **had** आएगा।\n\n**सुधरा हुआ वाक्य:**\n> In the early years of the renaissance, hereditary dancers **had** their own set of accompanists who lived with the dancers and travelled with them from place to place when they gave performances.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_022",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) This is turned out to be / (b) one of our most successful projects / (c) and we have made quite / (d) a large profit from it. / (e) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "This is turned out to be"
+      },
+      {
+        "id": "B",
+        "text": "one of our most successful projects"
+      },
+      {
+        "id": "C",
+        "text": "and we have made quite"
+      },
+      {
+        "id": "D",
+        "text": "a large profit from it."
+      },
+      {
+        "id": "E",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- यहाँ ‘turned out’ का अर्थ ‘साबित हुआ/निकला’ है। Present Perfect में सही संरचना **has turned out** होगी; ‘is turned out’ passive-जैसी गलत संरचना है।\n\n**सुधरा हुआ वाक्य:**\n> This **has turned out to be** one of our most successful projects and we have made quite a large profit from it.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_023",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) He is given me / (b) a lot of documents / (c) to read before / (d) the presentation tomorrow. / (e) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "He is given me"
+      },
+      {
+        "id": "B",
+        "text": "a lot of documents"
+      },
+      {
+        "id": "C",
+        "text": "to read before"
+      },
+      {
+        "id": "D",
+        "text": "the presentation tomorrow."
+      },
+      {
+        "id": "E",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- भविष्य की presentation से पहले documents दिए जा चुके हैं—इस अर्थ में Present Perfect **has given** चाहिए। ‘He is given me’ इस active construction में गलत है।\n\n**सुधरा हुआ वाक्य:**\n> He **has given me** a lot of documents to read before the presentation tomorrow.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_024",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Since the trip home / (b) was expensive I / (c) did not went home / (d) during the holidays. / (e) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Since the trip home"
+      },
+      {
+        "id": "B",
+        "text": "was expensive I"
+      },
+      {
+        "id": "C",
+        "text": "did not went home"
+      },
+      {
+        "id": "D",
+        "text": "during the holidays."
+      },
+      {
+        "id": "E",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Did’ के बाद मुख्य क्रिया का base form (V1) आता है। इसलिए ‘did not went’ की जगह **did not go** होगा।\n\n**सुधरा हुआ वाक्य:**\n> Since the trip home was expensive, I **did not go** home during the holidays.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_025",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) As she is late / (b) for work yesterday she decided / (c) to skip breakfast and / (d) leave for office. / (e) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "As she is late"
+      },
+      {
+        "id": "B",
+        "text": "for work yesterday she decided"
+      },
+      {
+        "id": "C",
+        "text": "to skip breakfast and"
+      },
+      {
+        "id": "D",
+        "text": "leave for office."
+      },
+      {
+        "id": "E",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Yesterday’ भूतकाल बताता है; इसलिए ‘is late’ नहीं, **was late** होना चाहिए।\n\n**सुधरा हुआ वाक्य:**\n> As she **was late** for work yesterday, she decided to skip breakfast and leave for office.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_026",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) As soon as the CEO entered the office, the / (b) union leaders approached him / (c) and report the matter to him. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "As soon as the CEO entered the office, the"
+      },
+      {
+        "id": "B",
+        "text": "union leaders approached him"
+      },
+      {
+        "id": "C",
+        "text": "and report the matter to him."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- एक ही past sequence में ‘approached’ के साथ parallel verb भी Past Simple होना चाहिए। ‘Report’ को **reported** करेंगे।\n\n**सुधरा हुआ वाक्य:**\n> As soon as the CEO entered the office, the union leaders approached him and **reported** the matter to him.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_027",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) The college / (b) is running a computer course / (c) since 2007. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "The college"
+      },
+      {
+        "id": "B",
+        "text": "is running a computer course"
+      },
+      {
+        "id": "C",
+        "text": "since 2007."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Since 2007’ काम शुरू होने का बिंदु बताता है और course अब भी चल रहा है। इसलिए **has been running** (Present Perfect Continuous) चाहिए।\n\n**सुधरा हुआ वाक्य:**\n> The college **has been running** a computer course since 2007.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_028",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Did he tell you / (b) why he hasn’t / (c) come yesterday? / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Did he tell you"
+      },
+      {
+        "id": "B",
+        "text": "why he hasn’t"
+      },
+      {
+        "id": "C",
+        "text": "come yesterday?"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Yesterday’ definite past time है, इसलिए Present Perfect ‘hasn’t come’ नहीं आएगा। प्रश्न में सामान्य अपेक्षित रूप **didn’t come** है।\n\n**सुधरा हुआ वाक्य:**\n> Did he tell you why he **didn’t** come yesterday?",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_029",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Last night I dream / (b) I was a Sheikh on the 169th floor / (c) of Burj Khalifa. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Last night I dream"
+      },
+      {
+        "id": "B",
+        "text": "I was a Sheikh on the 169th floor"
+      },
+      {
+        "id": "C",
+        "text": "of Burj Khalifa."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Last night’ के कारण घटना Past Simple में है। ‘Dream’ का past form **dreamt** या **dreamed** है।\n\n**सुधरा हुआ वाक्य:**\n> Last night I **dreamt** I was a Sheikh on the 169th floor of Burj Khalifa.\n\n**विशेष टिप्पणी:**\n- ‘Dreamed’ भी मानक रूप है; किताब के अपेक्षित सुधार के रूप में ‘dreamt’ दिया गया है।",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_030",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) She and her sister / (b) were working here / (c) since 1983. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "She and her sister"
+      },
+      {
+        "id": "B",
+        "text": "were working here"
+      },
+      {
+        "id": "C",
+        "text": "since 1983."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Since 1983’ से शुरू होकर अब तक जारी कार्य के लिए Present Perfect Continuous चाहिए। Subject plural है, इसलिए **have been working** होगा।\n\n**सुधरा हुआ वाक्य:**\n> She and her sister **have been working** here since 1983.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_031",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Nobody saw him / (b) since the fire broke / (c) in his locality. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Nobody saw him"
+      },
+      {
+        "id": "B",
+        "text": "since the fire broke"
+      },
+      {
+        "id": "C",
+        "text": "in his locality."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Since’ के साथ अतीत में शुरू होकर वर्तमान तक जारी स्थिति बताने के लिए Present Perfect चाहिए। ‘Nobody saw’ की जगह **Nobody has seen** होगा।\n\n**सुधरा हुआ वाक्य:**\n> Nobody **has seen** him since the fire broke in his locality.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_032",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) By this time next year / (b) Ramesh will take / (c) his degree. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "By this time next year"
+      },
+      {
+        "id": "B",
+        "text": "Ramesh will take"
+      },
+      {
+        "id": "C",
+        "text": "his degree."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘By this time next year’ भविष्य की किसी deadline तक कार्य पूरा हो जाने का भाव देता है। इसलिए **Future Perfect (will have + V3)** चाहिए।\n\n**सुधरा हुआ वाक्य:**\n> By this time next year Ramesh **will have taken** his degree.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_033",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) The families / (b) are living in Gulmohar Park / (c) for the last two decades. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "The families"
+      },
+      {
+        "id": "B",
+        "text": "are living in Gulmohar Park"
+      },
+      {
+        "id": "C",
+        "text": "for the last two decades."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘For the last two decades’ अवधि वर्तमान तक जारी है। इसलिए Present Perfect Continuous **have been living** चाहिए।\n\n**सुधरा हुआ वाक्य:**\n> The families **have been living** in Gulmohar Park for the last two decades.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_034",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) My uncle / (b) has left / (c) for Bombay last Saturday. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "My uncle"
+      },
+      {
+        "id": "B",
+        "text": "has left"
+      },
+      {
+        "id": "C",
+        "text": "for Bombay last Saturday."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Last Saturday’ निश्चित भूतकाल है। Present Perfect ‘has left’ के साथ इसका प्रयोग नहीं होगा; Simple Past **left** चाहिए।\n\n**सुधरा हुआ वाक्य:**\n> My uncle **left** for Bombay last Saturday.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_035",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Good heavens! / (b) How has she / (c) grown! / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Good heavens!"
+      },
+      {
+        "id": "B",
+        "text": "How has she"
+      },
+      {
+        "id": "C",
+        "text": "grown!"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘How’ से शुरू होने वाले exclamatory sentence में सामान्य क्रम **How + adjective/adverb + subject + verb** होता है। प्रश्नवाचक inversion ‘How has she grown!’ यहाँ उचित नहीं; ‘How she has grown!’ होगा।\n\n**सुधरा हुआ वाक्य:**\n> Good heavens! **How she has** grown!",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_036",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) I ate / (b) nothing / (c) since morning. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "I ate"
+      },
+      {
+        "id": "B",
+        "text": "nothing"
+      },
+      {
+        "id": "C",
+        "text": "since morning."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Since morning’ सुबह से अब तक की अवधि बताता है। वर्तमान तक प्रभाव होने पर Present Perfect चाहिए: **have eaten**।\n\n**सुधरा हुआ वाक्य:**\n> I **have eaten** nothing since morning.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_037",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) He / (b) is having / (c) many friends here. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "He"
+      },
+      {
+        "id": "B",
+        "text": "is having"
+      },
+      {
+        "id": "C",
+        "text": "many friends here."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Have’ जब possession/relationship के अर्थ में हो (यहाँ friends होना), तो सामान्यतः stative verb है और continuous form नहीं लेता। **has** आएगा।\n\n**सुधरा हुआ वाक्य:**\n> He **has** many friends here.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_038",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) When I went there / (b) Bob Charles is playing / (c) a game of chess / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "When I went there"
+      },
+      {
+        "id": "B",
+        "text": "Bob Charles is playing"
+      },
+      {
+        "id": "C",
+        "text": "a game of chess"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘When I went there’ past time point है; उस समय जारी क्रिया के लिए Past Continuous **was playing** होगा।\n\n**सुधरा हुआ वाक्य:**\n> When I went there, Bob Charles **was playing** a game of chess.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_039",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) The vaccine / (b) when hit the market / (c) is dogged by controversy / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "The vaccine"
+      },
+      {
+        "id": "B",
+        "text": "when hit the market"
+      },
+      {
+        "id": "C",
+        "text": "is dogged by controversy"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "hard",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Hit the market’ यहाँ active idiom है (बाज़ार में आना)। इसके subject ‘the vaccine’ को subordinate clause में दोबारा स्पष्ट करना होगा: **when it hit the market**।\n\n**सुधरा हुआ वाक्य:**\n> The vaccine, **when it hit the market**, is dogged by controversy.\n\n**विशेष टिप्पणी:**\n- ‘When hit the market’ को बिना subject के finite active clause की तरह नहीं छोड़ा जा सकता। Present ‘is dogged’ मौजूदा controversy बताता है।",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_040",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) The victim tried to tell us / (b) what has happened but / (c) his voice was not audible. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "The victim tried to tell us"
+      },
+      {
+        "id": "B",
+        "text": "what has happened but"
+      },
+      {
+        "id": "C",
+        "text": "his voice was not audible."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- Reporting verb ‘tried’ Past में है और घटना उससे पहले हो चुकी थी। इसलिए reported clause में Past Perfect **had happened** आएगा।\n\n**सुधरा हुआ वाक्य:**\n> The victim tried to tell us **what had happened**, but his voice was not audible.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_041",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Our history can be seen as a long evolutionary dialectical development / (b) in which there have been / (c) a painstaking forging of rational and moral self. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Our history can be seen as a long evolutionary dialectical development"
+      },
+      {
+        "id": "B",
+        "text": "in which there have been"
+      },
+      {
+        "id": "C",
+        "text": "a painstaking forging of rational and moral self."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘There be’ construction में verb उसके बाद आने वाले वास्तविक subject से agree करता है। ‘A painstaking forging’ singular है, इसलिए **there has been** होगा।\n\n**सुधरा हुआ वाक्य:**\n> Our history can be seen as a long evolutionary dialectical development in which **there has been** a painstaking forging of rational and moral self.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_042",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Last year two Italian prisoners of war / (b) escapes from a prison camp / (c) in Kenya during the war. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Last year two Italian prisoners of war"
+      },
+      {
+        "id": "B",
+        "text": "escapes from a prison camp"
+      },
+      {
+        "id": "C",
+        "text": "in Kenya during the war."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Last year’ Past Simple माँगता है। Plural subject ‘two Italian prisoners’ के साथ past form **escaped** आएगा।\n\n**सुधरा हुआ वाक्य:**\n> Last year two Italian prisoners of war **escaped** from a prison camp in Kenya during the war.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_043",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Madhuri Dixit / (b) is having / (c) a large fan following. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Madhuri Dixit"
+      },
+      {
+        "id": "B",
+        "text": "is having"
+      },
+      {
+        "id": "C",
+        "text": "a large fan following."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Have’ possession/relationship के अर्थ में stative verb है। ‘Fan following होना’ के लिए **has** प्रयोग करें, ‘is having’ नहीं।\n\n**सुधरा हुआ वाक्य:**\n> Madhuri Dixit **has** a large fan following.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_044",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) No one heard anything / (b) about him since / (c) he left India for good. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "No one heard anything"
+      },
+      {
+        "id": "B",
+        "text": "about him since"
+      },
+      {
+        "id": "C",
+        "text": "he left India for good."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Since he left India’ अतीत का प्रारंभ-बिंदु है और प्रभाव वर्तमान तक है। इसलिए **No one has heard** होना चाहिए।\n\n**सुधरा हुआ वाक्य:**\n> No one **has heard** anything about him since he left India for good.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_045",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Before the teacher / (b) could finish the question / (c) the students gave the correct answer. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Before the teacher"
+      },
+      {
+        "id": "B",
+        "text": "could finish the question"
+      },
+      {
+        "id": "C",
+        "text": "the students gave the correct answer."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: D — No error**\n\n**नियम और विश्लेषण:**\n- यह वाक्य सही है। ‘Before the teacher could finish’ एक past-time subordinate clause है और ‘the students gave’ मुख्य clause का Past Simple है। ‘Could finish’ का अर्थ है कि शिक्षक प्रश्न पूरा कर पाते, उससे पहले ही छात्रों ने उत्तर दे दिया।\n\n**सुधरा हुआ वाक्य:**\n> Before the teacher could finish the question, the students gave the correct answer.\n\n**विशेष टिप्पणी:**\n- किसी बदलाव की आवश्यकता नहीं—**No error**।",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_046",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) She did not prepare / (b) her / (c) breakfast yet. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "She did not prepare"
+      },
+      {
+        "id": "B",
+        "text": "her"
+      },
+      {
+        "id": "C",
+        "text": "breakfast yet."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Yet’ यहाँ अब तक काम पूरा न होने का अर्थ देता है। वर्तमान से जुड़ी स्थिति के लिए Present Perfect negative **has not prepared** चाहिए।\n\n**सुधरा हुआ वाक्य:**\n> She **has not prepared** her breakfast yet.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_047",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Perhaps you do not know / (b) I am owning / (c) a farm house besides two bungalows. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Perhaps you do not know"
+      },
+      {
+        "id": "B",
+        "text": "I am owning"
+      },
+      {
+        "id": "C",
+        "text": "a farm house besides two bungalows."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Own’ possession बताने वाला stative verb है; इसे सामान्यतः continuous tense में नहीं रखते। **I own** सही है।\n\n**सुधरा हुआ वाक्य:**\n> Perhaps you do not know **I own** a farm house besides two bungalows.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_048",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) When Anand reached his village / (b) he found that / (c) the news about him preceded him. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "When Anand reached his village"
+      },
+      {
+        "id": "B",
+        "text": "he found that"
+      },
+      {
+        "id": "C",
+        "text": "the news about him preceded him."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- समाचार का गाँव पहुँच जाना, आनंद के पहुँचने से पहले की घटना है। पहले पूरी हुई past action को Past Perfect में रखना अधिक स्पष्ट है: **had preceded**।\n\n**सुधरा हुआ वाक्य:**\n> When Anand reached his village, he found that the news about him **had preceded** him.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_049",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) She will already return / (b) home / (c) when he arrives. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "She will already return"
+      },
+      {
+        "id": "B",
+        "text": "home"
+      },
+      {
+        "id": "C",
+        "text": "when he arrives."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: A — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘When he arrives’ future time clause है। उस समय तक उसके लौट चुकने का भाव Future Perfect से आएगा: **will have returned**।\n\n**सुधरा हुआ वाक्य:**\n> She **will already have returned** home when he arrives.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_050",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Each one of them / (b) has have his share / (c) of joy and sorrow. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Each one of them"
+      },
+      {
+        "id": "B",
+        "text": "has have his share"
+      },
+      {
+        "id": "C",
+        "text": "of joy and sorrow."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Each one’ singular subject है और इसके साथ singular verb **has** आता है। ‘Has have’ दो finite verbs का गलत संयोजन है; ‘have’ हटेगा।\n\n**सुधरा हुआ वाक्य:**\n> Each one of them **has** his share of joy and sorrow.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_051",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) This custom / (b) has come down / (c) since times immemorial. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "This custom"
+      },
+      {
+        "id": "B",
+        "text": "has come down"
+      },
+      {
+        "id": "C",
+        "text": "since times immemorial."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- स्थिर अभिव्यक्ति **since time immemorial** है—यहाँ ‘time’ singular रहता है। ‘times immemorial’ गलत है।\n\n**सुधरा हुआ वाक्य:**\n> This custom has come down **since time immemorial**.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_052",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Since his arrival in India, / (b) he is visiting as many villages as he can / (c) to acquire a firsthand knowledge of rural India. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Since his arrival in India,"
+      },
+      {
+        "id": "B",
+        "text": "he is visiting as many villages as he can"
+      },
+      {
+        "id": "C",
+        "text": "to acquire a firsthand knowledge of rural India."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Since his arrival’ अतीत से वर्तमान तक जारी अवधि बताता है। इसलिए Present Perfect Continuous **has been visiting** चाहिए।\n\n**सुधरा हुआ वाक्य:**\n> Since his arrival in India, he **has been visiting** as many villages as he can to acquire a firsthand knowledge of rural India.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_053",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Believe me, I / (b) am believing / (c) whatever you have said. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Believe me, I"
+      },
+      {
+        "id": "B",
+        "text": "am believing"
+      },
+      {
+        "id": "C",
+        "text": "whatever you have said."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Believe’ मानसिक अवस्था/विश्वास बताने वाला stative verb है। सामान्य अर्थ में इसका continuous form नहीं आता; **I believe** होगा।\n\n**सुधरा हुआ वाक्य:**\n> Believe me, I **believe** whatever you have said.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_054",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) It is time / (b) we should have done / (c) something useful! / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is time"
+      },
+      {
+        "id": "B",
+        "text": "we should have done"
+      },
+      {
+        "id": "C",
+        "text": "something useful!"
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘It is time + subject’ के बाद वर्तमान में कार्रवाई की आवश्यकता जताने के लिए सामान्यतः Past Simple आता है। इसलिए ‘should have done’ की जगह **did** होगा।\n\n**सुधरा हुआ वाक्य:**\n> It is time **we did** something useful!",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_055",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) Mother said, / (b) \"Son, / (c) have you finished your homework?\" / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mother said,"
+      },
+      {
+        "id": "B",
+        "text": "\"Son,"
+      },
+      {
+        "id": "C",
+        "text": "have you finished your homework?\""
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: D — No error**\n\n**नियम और विश्लेषण:**\n- यह direct speech है। ‘Mother said’ के बाद उद्धरण में प्रश्न का Present Perfect (‘Have you finished…?’) सही है; direct speech में reporting verb के past होने से quoted tense अपने-आप नहीं बदलता।\n\n**सुधरा हुआ वाक्य:**\n> Mother said, \"Son, have you finished your homework?\"\n\n**विशेष टिप्पणी:**\n- उद्धृत प्रश्न में tense और word order सही हैं—**No error**।",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_056",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) I am going to buy / (b) a computer / (c) when the prices comes down. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "I am going to buy"
+      },
+      {
+        "id": "B",
+        "text": "a computer"
+      },
+      {
+        "id": "C",
+        "text": "when the prices comes down."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: C — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- ‘Prices’ plural subject है, इसलिए Present Simple में plural verb **come** आएगा, ‘comes’ नहीं। Future time clause में भी ‘when’ के बाद Present Simple का प्रयोग सही है।\n\n**सुधरा हुआ वाक्य:**\n> I am going to buy a computer when the prices **come** down.",
+    "language": "en"
+  },
+  {
+    "id": "tense_error_057",
+    "subjectId": "english",
+    "question": "Spot the error.\n\n(a) I wish / (b) I have learnt swimming / (c) when I was young. / (d) No error",
+    "options": [
+      {
+        "id": "A",
+        "text": "I wish"
+      },
+      {
+        "id": "B",
+        "text": "I have learnt swimming"
+      },
+      {
+        "id": "C",
+        "text": "when I was young."
+      },
+      {
+        "id": "D",
+        "text": "No error"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "tense",
+    "difficulty": "medium",
+    "explanation": "**सही उत्तर: B — त्रुटि वाला भाग**\n\n**नियम और विश्लेषण:**\n- बीते हुए समय के बारे में अफसोस जताने के लिए **I wish + Past Perfect (had + V3)** आता है। इसलिए ‘have learnt’ की जगह ‘had learnt’ होगा।\n\n**सुधरा हुआ वाक्य:**\n> I wish I **had learnt** swimming when I was young.",
+    "language": "en"
+  }
+]

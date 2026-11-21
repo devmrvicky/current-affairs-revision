@@ -423,3 +423,18 @@
     min-height: 44px;
   }
 }
+
+/* Text fields and selects (Question Bank forms). 44 px tall for touch, theme-aware, visible focus ring. */
+@layer components {
+  .input {
+    min-height: 2.75rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.75rem;
+    border: 1px solid var(--border);
+    background: var(--card);
+    color: var(--text-primary);
+    font-size: 0.875rem;
+  }
+  .input:focus-visible { outline: 2px solid #6366f1; outline-offset: 1px; }
+  .input::placeholder { color: var(--text-muted); }
+}

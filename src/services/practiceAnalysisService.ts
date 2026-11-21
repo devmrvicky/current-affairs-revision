@@ -15,6 +15,7 @@ import type { UniversalQuestion } from '../types/universalQuestion';
 import type { MockAnalysis, SummaryStats } from '../types/mockAnalysis';
 import { effectivePurpose } from '../types/questionMark';
 import { analyzeEntries, type FlatQuestionEntry } from './mockAnalysisService';
+import { sectionIndexOfQuestion } from './sessionTiming';
 
 export function analyzePracticeSession(session: PracticeSession, questionsById: Map<string, UniversalQuestion>): MockAnalysis {
   const marking = session.config.marking;
@@ -32,7 +33,8 @@ export function analyzePracticeSession(session: PracticeSession, questionsById: 
       questionId,
       index: i + 1,
       markPurpose: purpose,
-      sectionId: 'session',
+      // A sectional test's questions belong to its sections (so the question table can show them); any other session is one block.
+      sectionId: session.config.timing?.mode === 'sectional' && session.config.timing.sections?.length ? session.config.timing.sections[sectionIndexOfQuestion(session.config.timing, i)].id : 'session',
       subjectId: question.subjectId,
       topicId: question.topicId ?? 'general',
       question,

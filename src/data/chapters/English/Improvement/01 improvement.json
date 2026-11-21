@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "vocab_001",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The new government policy will have a positive **affect** on the country's economy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "effect"
+      },
+      {
+        "id": "B",
+        "text": "effectiveness"
+      },
+      {
+        "id": "C",
+        "text": "affection"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (A)\n\nनियम / हल: 'Affect' एक Verb (क्रिया) है जिसका अर्थ है 'प्रभाव डालना'। यहाँ हमें Noun (संज्ञा) चाहिए क्योंकि पहले adjective 'positive' लगा है। सही शब्द 'Effect' (प्रभाव) होगा।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_002",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The accused strictly **refused** having committed the crime during the interrogation.",
+    "options": [
+      {
+        "id": "A",
+        "text": "declined"
+      },
+      {
+        "id": "B",
+        "text": "denied"
+      },
+      {
+        "id": "C",
+        "text": "rejected"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "hard",
+    "explanation": "सही उत्तर: (B)\n\nनियम / हल: जब आप किसी आरोप या गलत काम को करने से इनकार करते हैं, तो 'deny' का प्रयोग होता है। 'Refuse' का प्रयोग सामान्यतः किसी काम को करने से इनकार करने के लिए होता है, जबकि 'deny' के बाद gerund या किसी आरोप का प्रयोग हो सकता है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_003",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The city is **famous** for its high crime rate and dangerous underground gangs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "renowned"
+      },
+      {
+        "id": "B",
+        "text": "popular"
+      },
+      {
+        "id": "C",
+        "text": "notorious"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (C)\n\nनियम / हल: बुरे कामों (crime/gangs) के लिए प्रसिद्ध होने को 'Notorious' (कुख्यात) कहा जाता है। 'Famous' और 'Renowned' सामान्यतः सकारात्मक या तटस्थ प्रसिद्धि के लिए प्रयुक्त होते हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_004",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: Christopher Columbus **invented** America in the year 1492.",
+    "options": [
+      {
+        "id": "A",
+        "text": "discovered"
+      },
+      {
+        "id": "B",
+        "text": "searched"
+      },
+      {
+        "id": "C",
+        "text": "explored"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (A)\n\nनियम / हल: जो चीज़ पहले से मौजूद हो, उसे खोजने के लिए 'Discover' का प्रयोग होता है। 'Invent' का अर्थ है कोई नई चीज़ बनाना या आविष्कार करना। इसलिए यहाँ 'Discovered' सही है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_005",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: I realized that I had **done a big mistake** by trusting him blindly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "passed a big mistake"
+      },
+      {
+        "id": "B",
+        "text": "made a big mistake"
+      },
+      {
+        "id": "C",
+        "text": "created a big mistake"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (B)\n\nनियम / हल: गलती करने के लिए English में 'Do a mistake' नहीं बोला जाता। सही Collocation 'Make a mistake' है। Past Perfect Tense में इसका प्रयोग 'had made a mistake' होगा।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_006",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The massive ship **drowned** in the deep ocean due to the heavy storm.",
+    "options": [
+      {
+        "id": "A",
+        "text": "sank"
+      },
+      {
+        "id": "B",
+        "text": "submerged"
+      },
+      {
+        "id": "C",
+        "text": "plummeted"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (A)\n\nनियम / हल: जहाज़ जैसी वस्तु के पानी में नीचे चले जाने के लिए 'Sink' का प्रयोग होता है। इसका Past form 'Sank' है। 'Drown' का प्रयोग मुख्यतः किसी व्यक्ति या जीव के डूबने के लिए किया जाता है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_007",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: We went to the new stadium to **see** the live football match.",
+    "options": [
+      {
+        "id": "A",
+        "text": "watch"
+      },
+      {
+        "id": "B",
+        "text": "look"
+      },
+      {
+        "id": "C",
+        "text": "observe"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (A)\n\nनियम / हल: किसी मैच या गतिशील गतिविधि को ध्यानपूर्वक देखने के लिए 'Watch' का प्रयोग किया जाता है। 'Look' के बाद सामान्यतः 'at' आता है, जबकि 'See' का अर्थ अक्सर स्वतः दिखाई देना या देख पाना होता है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_008",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: Her **childish** innocence and pure smile make everyone adore her instantly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "childishly"
+      },
+      {
+        "id": "B",
+        "text": "childlike"
+      },
+      {
+        "id": "C",
+        "text": "childless"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "hard",
+    "explanation": "सही उत्तर: (B)\n\nनियम / हल: 'Childish' का अर्थ होता है 'बचकाना' और इसमें अक्सर नकारात्मक भाव होता है। 'Childlike' का अर्थ है 'बच्चे जैसा सरल या मासूम'। यहाँ innocence की प्रशंसा की गई है, इसलिए 'Childlike' सही है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_009",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: You must apply sunscreen because your skin is very **sensible** to harsh sunlight.",
+    "options": [
+      {
+        "id": "A",
+        "text": "sensational"
+      },
+      {
+        "id": "B",
+        "text": "sensory"
+      },
+      {
+        "id": "C",
+        "text": "sensitive"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (C)\n\nनियम / हल: धूप या किसी बाहरी प्रभाव के प्रति त्वचा के आसानी से प्रतिक्रिया करने के लिए 'Sensitive' (संवेदनशील) का प्रयोग होता है। 'Sensible' का अर्थ 'समझदार' या 'विवेकपूर्ण' होता है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_010",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: After months of arguments, the two rival companies finally reached an **amiable** settlement.",
+    "options": [
+      {
+        "id": "A",
+        "text": "amicable"
+      },
+      {
+        "id": "B",
+        "text": "applicable"
+      },
+      {
+        "id": "C",
+        "text": "approachable"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "hard",
+    "explanation": "सही उत्तर: (A)\n\nनियम / हल: 'Amiable' का प्रयोग सामान्यतः व्यक्ति के मिलनसार स्वभाव के लिए होता है। 'Amicable' का अर्थ है मैत्रीपूर्ण या सौहार्दपूर्ण; इसका प्रयोग 'Amicable settlement' जैसे प्रयोगों में किया जाता है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_011",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: Finding a permanent cure for this deadly disease will be a **historical** achievement for science.",
+    "options": [
+      {
+        "id": "A",
+        "text": "historian"
+      },
+      {
+        "id": "B",
+        "text": "historic"
+      },
+      {
+        "id": "C",
+        "text": "historically"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "hard",
+    "explanation": "सही उत्तर: (B)\n\nनियम / हल: 'Historical' का अर्थ है 'इतिहास से संबंधित'। 'Historic' ऐसी महत्वपूर्ण घटना या उपलब्धि के लिए आता है जो इतिहास में विशेष स्थान पाने योग्य हो। इसलिए यहाँ 'Historic achievement' सही है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_012",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The armed thieves **stole** the local bank in broad daylight and ran away.",
+    "options": [
+      {
+        "id": "A",
+        "text": "hijacked"
+      },
+      {
+        "id": "B",
+        "text": "robbed"
+      },
+      {
+        "id": "C",
+        "text": "mugged"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (B)\n\nनियम / हल: किसी व्यक्ति या स्थान (जैसे bank/house) को लूटने के लिए 'Rob' का प्रयोग होता है, जबकि किसी वस्तु या सामान को चुराने के लिए 'Steal' का प्रयोग किया जाता है। इसलिए 'Robbed the bank' सही है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_013",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The manager's **sympathy** towards the employees' genuine problems caused a massive strike in the factory.",
+    "options": [
+      {
+        "id": "A",
+        "text": "empathy"
+      },
+      {
+        "id": "B",
+        "text": "apathy"
+      },
+      {
+        "id": "C",
+        "text": "telepathy"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "hard",
+    "explanation": "सही उत्तर: (B)\n\nनियम / हल: 'Sympathy' का अर्थ है सहानुभूति, जबकि 'Apathy' का अर्थ है उदासीनता या किसी की समस्या के प्रति रुचि/चिंता का अभाव। कर्मचारियों की समस्याओं के प्रति मैनेजर की उदासीनता के कारण हड़ताल हुई, इसलिए 'Apathy' सही है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_014",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: He bought some beautiful pens, notebooks, and other **stationary** items for his new office.",
+    "options": [
+      {
+        "id": "A",
+        "text": "stationaries"
+      },
+      {
+        "id": "B",
+        "text": "stationery"
+      },
+      {
+        "id": "C",
+        "text": "stational"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (B)\n\nनियम / हल: पेन, कॉपी, कागज़ आदि लिखने-पढ़ने की सामग्री के लिए 'Stationery' (E वाला) सही spelling है। 'Stationary' (A वाला) का अर्थ होता है 'स्थिर' या 'जो चल न रहा हो'।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_015",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The hostess was very **graceful** and welcoming to all her guests at the party.",
+    "options": [
+      {
+        "id": "A",
+        "text": "gracious"
+      },
+      {
+        "id": "B",
+        "text": "grateful"
+      },
+      {
+        "id": "C",
+        "text": "gratuitous"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "hard",
+    "explanation": "सही उत्तर: (A)\n\nनियम / हल: 'Graceful' का अर्थ है चाल-ढाल या व्यवहार में सुंदर और आकर्षक होना। 'Gracious' का अर्थ है विनम्र, दयालु और मेहमाननवाज़। मेहमानों का स्वागत करने के संदर्भ में 'Gracious' अधिक उपयुक्त है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_016",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: My experienced grandfather gave me some **worthless** advice that helped me succeed in my career.",
+    "options": [
+      {
+        "id": "A",
+        "text": "invaluable"
+      },
+      {
+        "id": "B",
+        "text": "useless"
+      },
+      {
+        "id": "C",
+        "text": "pricelessly"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (A)\n\nनियम / हल: जो सलाह सफलता पाने में मदद करे, वह 'Worthless' (बेकार) नहीं हो सकती। ऐसी सलाह 'Invaluable' (अमूल्य या अत्यंत उपयोगी) होती है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_017",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: He is so **credible** that he easily believes whatever fake stories strangers tell him.",
+    "options": [
+      {
+        "id": "A",
+        "text": "creditable"
+      },
+      {
+        "id": "B",
+        "text": "credulous"
+      },
+      {
+        "id": "C",
+        "text": "credential"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "hard",
+    "explanation": "सही उत्तर: (B)\n\nनियम / हल: जो व्यक्ति दूसरों की बातों पर आसानी से विश्वास कर ले, उसे 'Credulous' कहते हैं। 'Credible' का अर्थ है विश्वसनीय, अर्थात जिस पर भरोसा किया जा सके।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_018",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: After hearing all the witnesses, the judge finally gave his **decision**.",
+    "options": [
+      {
+        "id": "A",
+        "text": "verdict"
+      },
+      {
+        "id": "B",
+        "text": "choice"
+      },
+      {
+        "id": "C",
+        "text": "option"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (A)\n\nनियम / हल: 'Verdict' का अर्थ है अदालत में दिया गया निर्णय या निष्कर्ष। दिए गए विकल्पों में यह न्यायिक संदर्भ के लिए सबसे उपयुक्त है। अधिक औपचारिक प्रयोग में 'Judgment' भी कहा जाता है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_019",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The 12th-grade students are preparing very hard to **give** their board exams next month.",
+    "options": [
+      {
+        "id": "A",
+        "text": "take"
+      },
+      {
+        "id": "B",
+        "text": "make"
+      },
+      {
+        "id": "C",
+        "text": "provide"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (A)\n\nनियम / हल: परीक्षा में शामिल होने के लिए विद्यार्थी के संदर्भ में 'Take an exam' का प्रयोग किया जाता है। 'Give an exam' भारतीय अंग्रेज़ी में सुनने को मिलता है, लेकिन मानक प्रयोग में विद्यार्थी 'Take/Sit an exam' करते हैं।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_020",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The severe drought had a **beneficial** impact on the country's agriculture, leading to massive crop failures.",
+    "options": [
+      {
+        "id": "A",
+        "text": "disastrous"
+      },
+      {
+        "id": "B",
+        "text": "benevolent"
+      },
+      {
+        "id": "C",
+        "text": "profitable"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (A)\n\nनियम / हल: वाक्य में 'massive crop failures' यानी बड़े पैमाने पर फसलें बर्बाद होने की बात है। इसलिए सूखे का प्रभाव 'Beneficial' (लाभदायक) नहीं, बल्कि 'Disastrous' (विनाशकारी) होगा।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_021",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The bride received many **complements** on her beautiful dress.",
+    "options": [
+      {
+        "id": "A",
+        "text": "compliments"
+      },
+      {
+        "id": "B",
+        "text": "complaiments"
+      },
+      {
+        "id": "C",
+        "text": "compliants"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (A)\n\nनियम / हल: 'Complement' का अर्थ है 'पूरक' (जो किसी चीज़ को पूरा करे)। जबकि किसी की तारीफ या प्रशंसा करने के लिए 'Compliment' का प्रयोग होता है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_022",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The detective tried to **illicit** a confession from the suspect.",
+    "options": [
+      {
+        "id": "A",
+        "text": "explicit"
+      },
+      {
+        "id": "B",
+        "text": "elicit"
+      },
+      {
+        "id": "C",
+        "text": "implicit"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "hard",
+    "explanation": "सही उत्तर: (B)\n\nनियम / हल: 'Illicit' एक Adjective है जिसका अर्थ है 'अवैध' (Illegal)। यहाँ वाक्य में Verb चाहिए। 'Elicit' का अर्थ है 'उगलवाना' या 'प्राप्त करना' (विशेषकर कोई जानकारी या सच)।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_023",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: He is a man of high moral **principals**.",
+    "options": [
+      {
+        "id": "A",
+        "text": "principalities"
+      },
+      {
+        "id": "B",
+        "text": "principlas"
+      },
+      {
+        "id": "C",
+        "text": "principles"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (C)\n\nनियम / हल: 'Principal' का अर्थ होता है 'प्रधानाचार्य' या 'मुख्य'। जबकि 'Principle' का अर्थ होता है 'सिद्धांत' या 'नैतिक नियम'।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_024",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: She is very **adapt** at learning new programming languages quickly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "adopt"
+      },
+      {
+        "id": "B",
+        "text": "adept"
+      },
+      {
+        "id": "C",
+        "text": "addict"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (B)\n\nनियम / हल: 'Adapt' (अनुकूल बनाना), 'Adopt' (गोद लेना/अपनाना), और 'Adept' (निपुण/कुशल)। यहाँ किसी कला (programming) में 'निपुण' होने की बात है, इसलिए 'Adept' सही होगा।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_025",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The doctor strongly **advices** him to quit smoking.",
+    "options": [
+      {
+        "id": "A",
+        "text": "advised"
+      },
+      {
+        "id": "B",
+        "text": "advice"
+      },
+      {
+        "id": "C",
+        "text": "advises"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (C)\n\nनियम / हल: 'Advice' (C के साथ) एक Noun (संज्ञा) है। यहाँ Subject (doctor) के बाद Verb चाहिए। 'Advise' (S के साथ) Verb होता है। चूँकि Subject Singular है और वाक्य Present Simple में है, इसलिए 'advises' आएगा।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_026",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: If you don't tie the knot tightly, the dog will get **lose** and run away.",
+    "options": [
+      {
+        "id": "A",
+        "text": "loss"
+      },
+      {
+        "id": "B",
+        "text": "loose"
+      },
+      {
+        "id": "C",
+        "text": "louse"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (B)\n\nनियम / हल: 'Lose' (Verb) का अर्थ है 'खोना' या 'हारना'। जबकि 'Loose' (Adjective) का अर्थ है 'ढीला'। यहाँ गाँठ ढीली होने की बात है, इसलिए 'loose' सही है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_027",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: Everyone was present in the meeting **accept** the manager.",
+    "options": [
+      {
+        "id": "A",
+        "text": "except"
+      },
+      {
+        "id": "B",
+        "text": "expect"
+      },
+      {
+        "id": "C",
+        "text": "aspect"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (A)\n\nनियम / हल: 'Accept' का अर्थ है 'स्वीकार करना'। जबकि 'Except' का अर्थ है 'के सिवाय' या 'को छोड़कर'। यहाँ मैनेजर को छोड़कर बाकी सभी की उपस्थिति की बात हो रही है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_028",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The engineer visited the construction **sight** to inspect the ongoing work.",
+    "options": [
+      {
+        "id": "A",
+        "text": "slight"
+      },
+      {
+        "id": "B",
+        "text": "cite"
+      },
+      {
+        "id": "C",
+        "text": "site"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "hard",
+    "explanation": "सही उत्तर: (C)\n\nनियम / हल: 'Sight' का अर्थ है 'दृश्य' या 'दृष्टि'। 'Cite' का अर्थ है 'हवाला देना'। जबकि 'Site' का अर्थ होता है 'कार्यस्थल' या 'जगह' (Construction site)।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_029",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: During the lockdown, people started to **horde** groceries and medicines.",
+    "options": [
+      {
+        "id": "A",
+        "text": "hound"
+      },
+      {
+        "id": "B",
+        "text": "hoard"
+      },
+      {
+        "id": "C",
+        "text": "hood"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "hard",
+    "explanation": "सही उत्तर: (B)\n\nनियम / हल: 'Horde' का अर्थ है 'भीड़' या 'गिरोह'। जबकि 'Hoard' का अर्थ है 'जमाखोरी करना' (भविष्य के लिए जमा करके रखना)। यहाँ सामान की जमाखोरी की बात हो रही है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_030",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The patient couldn't **bare** the severe pain of his broken leg.",
+    "options": [
+      {
+        "id": "A",
+        "text": "bear"
+      },
+      {
+        "id": "B",
+        "text": "beer"
+      },
+      {
+        "id": "C",
+        "text": "bar"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (A)\n\nनियम / हल: 'Bare' का अर्थ होता है 'नंगा' या 'खुला' (जैसे Bare feet)। जबकि 'Bear' का अर्थ (Verb के रूप में) 'सहना' या 'बर्दाश्त करना' होता है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_031",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: Please **insure** that all the windows are locked before leaving the house.",
+    "options": [
+      {
+        "id": "A",
+        "text": "assure"
+      },
+      {
+        "id": "B",
+        "text": "ensure"
+      },
+      {
+        "id": "C",
+        "text": "inshore"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (B)\n\nनियम / हल: 'Insure' का अर्थ है 'बीमा करना'। 'Ensure' का अर्थ है 'सुनिश्चित करना'। यहाँ घर छोड़ने से पहले खिड़कियाँ बंद होने को सुनिश्चित करने की बात है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_032",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: Of the two options presented by the client, I prefer the **later**.",
+    "options": [
+      {
+        "id": "A",
+        "text": "letter"
+      },
+      {
+        "id": "B",
+        "text": "latten"
+      },
+      {
+        "id": "C",
+        "text": "latter"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "hard",
+    "explanation": "सही उत्तर: (C)\n\nनियम / हल: 'Later' समय के लिए आता है (बाद में)। जब दो चीज़ों का उल्लेख हो और उनमें से दूसरे विकल्प की बात करनी हो, तो 'Latter' का प्रयोग होता है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_033",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The famous magician created a perfect **allusion** of making the rabbit disappear.",
+    "options": [
+      {
+        "id": "A",
+        "text": "illusion"
+      },
+      {
+        "id": "B",
+        "text": "elusion"
+      },
+      {
+        "id": "C",
+        "text": "elision"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "hard",
+    "explanation": "सही उत्तर: (A)\n\nनियम / हल: 'Allusion' का अर्थ है 'संकेत' या 'इशारा'। जबकि 'Illusion' का अर्थ है 'भ्रम' या 'मायाजाल'। जादूगर यहाँ भ्रम पैदा करता है, इसलिए 'Illusion' सही है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_034",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The **continuous** interruptions during the important meeting made everyone frustrated.",
+    "options": [
+      {
+        "id": "A",
+        "text": "continuing"
+      },
+      {
+        "id": "B",
+        "text": "continual"
+      },
+      {
+        "id": "C",
+        "text": "continuity"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "hard",
+    "explanation": "सही उत्तर: (B)\n\nनियम / हल: 'Continuous' का अर्थ है बिना रुके लगातार चलना। जबकि 'Continual' का अर्थ है रुक-रुककर बार-बार होना। मीटिंग में बार-बार होने वाली रुकावटों के लिए 'Continual' अधिक उपयुक्त है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_035",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: A judge must remain completely **uninterested** while hearing a complicated legal case.",
+    "options": [
+      {
+        "id": "A",
+        "text": "noninterested"
+      },
+      {
+        "id": "B",
+        "text": "disinteresting"
+      },
+      {
+        "id": "C",
+        "text": "disinterested"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "hard",
+    "explanation": "सही उत्तर: (C)\n\nनियम / हल: 'Uninterested' का अर्थ है 'दिलचस्पी न होना'। जबकि 'Disinterested' का अर्थ है 'निष्पक्ष' (Impartial/Unbiased)। न्याय करते समय जज को निष्पक्ष होना चाहिए।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_036",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: She was feeling extremely **jealous** of her best friend's new luxury car.",
+    "options": [
+      {
+        "id": "A",
+        "text": "envious"
+      },
+      {
+        "id": "B",
+        "text": "zealous"
+      },
+      {
+        "id": "C",
+        "text": "zealousy"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "hard",
+    "explanation": "सही उत्तर: (A)\n\nनियम / हल: किसी दूसरे व्यक्ति की वस्तु या उपलब्धि पाने की इच्छा के कारण ईर्ष्या महसूस करने के लिए 'Envious' अधिक सटीक है। 'Jealous' का प्रयोग ईर्ष्या के व्यापक अर्थ में भी होता है, लेकिन इस संदर्भ में 'Envious' उपयुक्त है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_037",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: Buying a good second-hand vehicle is much more **economic** than buying a brand-new one.",
+    "options": [
+      {
+        "id": "A",
+        "text": "economically"
+      },
+      {
+        "id": "B",
+        "text": "economical"
+      },
+      {
+        "id": "C",
+        "text": "economics"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (B)\n\nनियम / हल: 'Economic' का अर्थ है 'अर्थव्यवस्था से संबंधित'। जबकि 'Economical' का अर्थ है 'किफायती' या पैसे बचाने वाला। यहाँ कम खर्च वाले विकल्प की बात है, इसलिए 'Economical' सही है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_038",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The local politicians are going door to door to **canvas** for votes in this election.",
+    "options": [
+      {
+        "id": "A",
+        "text": "canves"
+      },
+      {
+        "id": "B",
+        "text": "canvasing"
+      },
+      {
+        "id": "C",
+        "text": "canvass"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "hard",
+    "explanation": "सही उत्तर: (C)\n\nनियम / हल: 'Canvas' (सिंगल S) एक मोटा कपड़ा होता है। जबकि 'Canvass' (डबल S) का अर्थ है चुनाव में वोट माँगना या राजनीतिक प्रचार करना। इसलिए यहाँ 'Canvass' सही है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_039",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: The beautiful antique painting was **hanged** carefully on the living room wall.",
+    "options": [
+      {
+        "id": "A",
+        "text": "hang"
+      },
+      {
+        "id": "B",
+        "text": "hung"
+      },
+      {
+        "id": "C",
+        "text": "hanging"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (B)\n\nनियम / हल: किसी व्यक्ति को फाँसी पर लटकाने के अर्थ में 'Hanged' का प्रयोग होता है। किसी निर्जीव वस्तु (जैसे पेंटिंग या कपड़े) को टाँगने के लिए 'Hung' का प्रयोग किया जाता है।",
+    "language": "hi"
+  },
+  {
+    "id": "vocab_040",
+    "subjectId": "english",
+    "question": "दिए गए वाक्य में बोल्ड किए गए भाग के लिए सबसे उपयुक्त विकल्प चुनें: After eating a heavy dinner, the guests ordered ice cream for **desert**.",
+    "options": [
+      {
+        "id": "A",
+        "text": "dessert"
+      },
+      {
+        "id": "B",
+        "text": "deserts"
+      },
+      {
+        "id": "C",
+        "text": "dissert"
+      },
+      {
+        "id": "D",
+        "text": "No substitution"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "contextual_vocabulary",
+    "difficulty": "medium",
+    "explanation": "सही उत्तर: (A)\n\nनियम / हल: 'Desert' का अर्थ है 'रेगिस्तान' या किसी को छोड़ देना। जबकि भोजन के बाद परोसे जाने वाले मीठे व्यंजन को 'Dessert' (डबल S) कहते हैं।",
+    "language": "hi"
+  }
+]

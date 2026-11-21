@@ -8,6 +8,7 @@ import toast from 'react-hot-toast';
 import { useWrongQuestionsStore } from '../store/wrongQuestionsStore';
 import { EmptyState } from '../components/common/EmptyState';
 import { getOptionLabel } from '../utils';
+import { ShuffledOptions } from '../components/exam/ShuffledOptions';
 import type { WrongQuestion } from '../types';
 
 const MASTERY_THRESHOLD = 3;
@@ -24,6 +25,8 @@ const WQCard = memo(function WQCard({ wq, onDismiss, onRecord }: WQCardProps) {
   const [isExpanded, setIsExpanded] = useState(false);
   const [selected, setSelected] = useState<string | null>(null);
   const [revealed, setRevealed] = useState(false);
+  // Bumped on "Try again" so the options are re-shuffled for the new attempt.
+  const [round, setRound] = useState(0);
 
   function handleSelect(option: string) {
     if (revealed) return;
@@ -44,6 +47,7 @@ const WQCard = memo(function WQCard({ wq, onDismiss, onRecord }: WQCardProps) {
   function handleReset() {
     setSelected(null);
     setRevealed(false);
+    setRound((r) => r + 1);
   }
 
   const progressToMastery = Math.min((wq.consecutiveCorrect / MASTERY_THRESHOLD) * 100, 100);
@@ -135,8 +139,11 @@ const WQCard = memo(function WQCard({ wq, onDismiss, onRecord }: WQCardProps) {
             transition={{ duration: 0.2 }}
             className="overflow-hidden"
           >
+            {/* Fresh random option order each time the card opens or is retried (display only — the answer is the option text). */}
+            <ShuffledOptions key={`${wq.id}-${round}`} options={wq.options} getKey={(o) => o} getText={(o) => o}>
+            {(orderedOptions) => (
             <div className="mt-4 space-y-2">
-              {wq.options.map((opt, idx) => {
+              {orderedOptions.map((opt, idx) => {
                 const label = getOptionLabel(idx);
                 const isCorrect = opt === wq.correctAnswer;
                 const isSelected = opt === selected;
@@ -167,6 +174,8 @@ const WQCard = memo(function WQCard({ wq, onDismiss, onRecord }: WQCardProps) {
                 );
               })}
             </div>
+            )}
+            </ShuffledOptions>
 
             {revealed && wq.explanation && (
               <motion.div

@@ -101,8 +101,12 @@ export interface TimeDistributionSlice {
   percentage: number;
 }
 
-/** Minimum sample size before a subject/topic is confidently labelled strong or weak, rather than "Insufficient data" (product spec's own guard). */
-export const MIN_SAMPLE_SIZE_FOR_STRENGTH = 3;
+/**
+ * Minimum sample size before a subject/topic is confidently labelled strong or weak, rather than "Insufficient data".
+ * 10 — the same rule as Review Center's weak topics (WEAK_MIN_ATTEMPTS) and the result tables, so one screen never
+ * calls a topic "Weak" in one place and "Insufficient data" in another.
+ */
+export const MIN_SAMPLE_SIZE_FOR_STRENGTH = 10;
 
 export interface AreaPerformance {
   id: string; // subjectId, or `${subjectId}::${topicId}` for topic-level

@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "vocab_syn_101",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as ABSTAIN.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Indulge"
+      },
+      {
+        "id": "B",
+        "text": "Refrain"
+      },
+      {
+        "id": "C",
+        "text": "Relish"
+      },
+      {
+        "id": "D",
+        "text": "Persist"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Abstain = Abstain = परहेज़ करना (Refrain = Refrain = दूर रहना)। Example: Please abstain from smoking in the hall.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_102",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as ADJUSTED.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unsuited"
+      },
+      {
+        "id": "B",
+        "text": "Obstructed"
+      },
+      {
+        "id": "C",
+        "text": "Immobile"
+      },
+      {
+        "id": "D",
+        "text": "Adapted"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "Adjusted = Adjusted = समायोजित, ढला हुआ (Adapted = Adapted = अनुकूलित)। Example: She quickly adjusted to the new school.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_103",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as AGITATION.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Composure"
+      },
+      {
+        "id": "B",
+        "text": "Serenity"
+      },
+      {
+        "id": "C",
+        "text": "Disturbance"
+      },
+      {
+        "id": "D",
+        "text": "Repose"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Agitation = Agitation = बेचैनी, हलचल (Disturbance = Disturbance = अशांति)। Example: His agitation was clear before the interview.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_104",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as HIGHLIGHTED.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Emphasized"
+      },
+      {
+        "id": "B",
+        "text": "Muted"
+      },
+      {
+        "id": "C",
+        "text": "Overlooked"
+      },
+      {
+        "id": "D",
+        "text": "Suppressed"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Highlighted = Highlighted = उजागर किया (Emphasized = Emphasized = ज़ोर देकर बताया)। Example: The report highlighted the need for reform.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_105",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as CONSENTED.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Objected"
+      },
+      {
+        "id": "B",
+        "text": "Assented"
+      },
+      {
+        "id": "C",
+        "text": "Refused"
+      },
+      {
+        "id": "D",
+        "text": "Resisted"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "Consented = Consented = सहमति दी (Assented = Assented = स्वीकृति दी)। Example: The manager consented to the transfer.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_106",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as DISRESPECT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Irreverence"
+      },
+      {
+        "id": "B",
+        "text": "Esteem"
+      },
+      {
+        "id": "C",
+        "text": "Homage"
+      },
+      {
+        "id": "D",
+        "text": "Veneration"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Disrespect = Disrespect = अनादर (Irreverence = Irreverence = अपमान, अनादर)। Example: Talking loudly in a temple shows disrespect.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_107",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as ENIGMATIC.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Familiar"
+      },
+      {
+        "id": "B",
+        "text": "Self-evident"
+      },
+      {
+        "id": "C",
+        "text": "Mysterious"
+      },
+      {
+        "id": "D",
+        "text": "Evident"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Enigmatic = Enigmatic = रहस्यमय (Mysterious = Mysterious = रहस्यपूर्ण)। Example: The painting's enigmatic smile puzzled critics.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_108",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as FRENZY.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lull"
+      },
+      {
+        "id": "B",
+        "text": "Stupor"
+      },
+      {
+        "id": "C",
+        "text": "Calmness"
+      },
+      {
+        "id": "D",
+        "text": "Rampage"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "Frenzy = Frenzy = उन्माद, बेक़ाबू जोश (Rampage = Rampage = उपद्रव, तांडव)। Example: The crowd was in a frenzy after the goal.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_109",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as GLITTERING.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Murky"
+      },
+      {
+        "id": "B",
+        "text": "Tarnished"
+      },
+      {
+        "id": "C",
+        "text": "Gleaming"
+      },
+      {
+        "id": "D",
+        "text": "Drab"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "Glittering = Glittering = जगमगाता (Gleaming = Gleaming = चमचमाता)। Example: The glittering lights decorated the palace.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_110",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as IMPECUNIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Moneyed"
+      },
+      {
+        "id": "B",
+        "text": "Well-heeled"
+      },
+      {
+        "id": "C",
+        "text": "Thriving"
+      },
+      {
+        "id": "D",
+        "text": "Penniless"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Impecunious = Impecunious = निर्धन (Penniless = Penniless = कंगाल)। Example: The impecunious student could not pay the fee.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_111",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as INSINUATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hint"
+      },
+      {
+        "id": "B",
+        "text": "Declare"
+      },
+      {
+        "id": "C",
+        "text": "Assert"
+      },
+      {
+        "id": "D",
+        "text": "Proclaim"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Insinuate = Insinuate = इशारों में कहना (Hint = Hint = संकेत देना)। Example: Are you trying to insinuate that I lied?",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_112",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as OBVIATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Necessitate"
+      },
+      {
+        "id": "B",
+        "text": "Prevent"
+      },
+      {
+        "id": "C",
+        "text": "Instigate"
+      },
+      {
+        "id": "D",
+        "text": "Invite"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Obviate = Obviate = ज़रूरत पहले ही दूर करना (Prevent = Prevent = रोकना)। Example: Good planning can obviate many problems.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_113",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as QUERULOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Appreciative"
+      },
+      {
+        "id": "B",
+        "text": "Contented"
+      },
+      {
+        "id": "C",
+        "text": "Satisfied"
+      },
+      {
+        "id": "D",
+        "text": "Complaining"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Querulous = Querulous = शिकायती, चिड़चिड़ा (Complaining = Complaining = शिकायत करने वाला)। Example: The querulous patient complained about every small thing.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_114",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as REVILE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hail"
+      },
+      {
+        "id": "B",
+        "text": "Worship"
+      },
+      {
+        "id": "C",
+        "text": "Criticise"
+      },
+      {
+        "id": "D",
+        "text": "Glorify"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Revile = Revile = अपशब्दों से निंदा करना (Criticise = Criticise = आलोचना करना)। Example: Fans reviled the coach after the defeat.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_115",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as SQUANDER.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Conserve"
+      },
+      {
+        "id": "B",
+        "text": "Dissipate"
+      },
+      {
+        "id": "C",
+        "text": "Hoard"
+      },
+      {
+        "id": "D",
+        "text": "Invest"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Squander = Squander = उड़ाना, बर्बाद करना (Dissipate = Dissipate = व्यर्थ गँवाना)। Example: He squandered his inheritance on gambling.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_116",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as SUBSIDIARY.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Secondary"
+      },
+      {
+        "id": "B",
+        "text": "Dominant"
+      },
+      {
+        "id": "C",
+        "text": "Chief"
+      },
+      {
+        "id": "D",
+        "text": "Pivotal"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "Subsidiary = Subsidiary = गौण, सहायक (Secondary = Secondary = दूसरे दर्जे का)। Example: That is only a subsidiary issue.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_117",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as TIRADE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Panegyric"
+      },
+      {
+        "id": "B",
+        "text": "Diatribe"
+      },
+      {
+        "id": "C",
+        "text": "Whisper"
+      },
+      {
+        "id": "D",
+        "text": "Tribute"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Tirade = Tirade = कटु भाषण, फटकार (Diatribe = Diatribe = तीखी भर्त्सना)। Example: The coach launched into an angry tirade.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_118",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as ABJECT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dignified"
+      },
+      {
+        "id": "B",
+        "text": "Priceless"
+      },
+      {
+        "id": "C",
+        "text": "Majestic"
+      },
+      {
+        "id": "D",
+        "text": "Worthless"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Abject = Abject = अत्यंत दयनीय (Worthless = Worthless = बेकार, हीन)। Example: They lived in abject poverty.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_119",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as ACCUMULATED.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Strewn"
+      },
+      {
+        "id": "B",
+        "text": "Discarded"
+      },
+      {
+        "id": "C",
+        "text": "Amassed"
+      },
+      {
+        "id": "D",
+        "text": "Squandered"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Accumulated = Accumulated = जमा किया (Amassed = Amassed = इकट्ठा किया)। Example: He accumulated a large fortune.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_120",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as ADEPT.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Proficient"
+      },
+      {
+        "id": "B",
+        "text": "Amateurish"
+      },
+      {
+        "id": "C",
+        "text": "Inept"
+      },
+      {
+        "id": "D",
+        "text": "Awkward"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Adept = Adept = निपुण (Proficient = Proficient = कुशल)। Example: She is adept at solving puzzles.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_121",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as BRUSQUE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Polished"
+      },
+      {
+        "id": "B",
+        "text": "Affable"
+      },
+      {
+        "id": "C",
+        "text": "Genial"
+      },
+      {
+        "id": "D",
+        "text": "Abrupt"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Brusque = Brusque = रूखा, बेरुख़ी वाला (Abrupt = Abrupt = अचानक, रूखा)। Example: His brusque reply surprised everyone.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_122",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as CAPTIVATING.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Delightful"
+      },
+      {
+        "id": "B",
+        "text": "Dreary"
+      },
+      {
+        "id": "C",
+        "text": "Humdrum"
+      },
+      {
+        "id": "D",
+        "text": "Repulsive"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "Captivating = Captivating = मनमोहक (Delightful = Delightful = आनंददायक)। Example: The singer gave a captivating performance.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_123",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as DELUGE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Famine"
+      },
+      {
+        "id": "B",
+        "text": "Drought"
+      },
+      {
+        "id": "C",
+        "text": "Flood"
+      },
+      {
+        "id": "D",
+        "text": "Mirage"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Deluge = Deluge = भारी बाढ़, मूसलाधार वर्षा (Flood = Flood = बाढ़)। Example: A deluge destroyed the standing crops.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_124",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as DISCONSOLATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Gleeful"
+      },
+      {
+        "id": "B",
+        "text": "Cheerless"
+      },
+      {
+        "id": "C",
+        "text": "Radiant"
+      },
+      {
+        "id": "D",
+        "text": "Exultant"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Disconsolate = Disconsolate = अत्यंत दुखी, जिसे सांत्वना न मिले (Cheerless = Cheerless = उदास)। Example: She was disconsolate after losing her pet.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_syn_125",
+    "subjectId": "english",
+    "question": "Choose the word most nearly the same in meaning as DOLOROUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Harmonious"
+      },
+      {
+        "id": "B",
+        "text": "Soothing"
+      },
+      {
+        "id": "C",
+        "text": "Painful"
+      },
+      {
+        "id": "D",
+        "text": "Blissful"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Dolorous = Dolorous = दुखद, शोकपूर्ण (Painful = Painful = कष्टदायक)। Example: The dolorous cry echoed in the empty hall.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_101",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to ABORTED.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Successful"
+      },
+      {
+        "id": "B",
+        "text": "Incomplete"
+      },
+      {
+        "id": "C",
+        "text": "Abandoned"
+      },
+      {
+        "id": "D",
+        "text": "Halted"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Aborted ↔ Successful = Aborted = बीच में रोका गया ↔ Successful = सफल। Example: The aborted mission was followed by a successful one.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_102",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to ECSTATIC.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rapturous"
+      },
+      {
+        "id": "B",
+        "text": "Miserable"
+      },
+      {
+        "id": "C",
+        "text": "Thrilled"
+      },
+      {
+        "id": "D",
+        "text": "Delighted"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Ecstatic ↔ Miserable = Ecstatic = आनंदविभोर ↔ Miserable = दुखी। Example: She was ecstatic at the news, not miserable.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_103",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to INELUCTABLE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unavoidable"
+      },
+      {
+        "id": "B",
+        "text": "Fated"
+      },
+      {
+        "id": "C",
+        "text": "Certain"
+      },
+      {
+        "id": "D",
+        "text": "Avoidable"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Ineluctable ↔ Avoidable = Ineluctable = अपरिहार्य ↔ Avoidable = टालने योग्य। Example: Death is ineluctable, but many accidents are avoidable.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_104",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to INNATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Acquired"
+      },
+      {
+        "id": "B",
+        "text": "Inherent"
+      },
+      {
+        "id": "C",
+        "text": "Inborn"
+      },
+      {
+        "id": "D",
+        "text": "Intrinsic"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Innate ↔ Acquired = Innate = जन्मजात ↔ Acquired = अर्जित। Example: Talent may be innate, but skill is acquired.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_105",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to JEJUNE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Simplistic"
+      },
+      {
+        "id": "B",
+        "text": "Callow"
+      },
+      {
+        "id": "C",
+        "text": "Immature"
+      },
+      {
+        "id": "D",
+        "text": "Sophisticated"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Jejune ↔ Sophisticated = Jejune = बचकाना, नीरस ↔ Sophisticated = परिष्कृत। Example: His jejune remarks contrasted with her sophisticated analysis.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_106",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to MONOTONY.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Routine"
+      },
+      {
+        "id": "B",
+        "text": "Sameness"
+      },
+      {
+        "id": "C",
+        "text": "Variety"
+      },
+      {
+        "id": "D",
+        "text": "Boredom"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Monotony ↔ Variety = Monotony = एकरसता ↔ Variety = विविधता। Example: Travel breaks the monotony of routine and adds variety.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_107",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to NECESSITY.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Imperative"
+      },
+      {
+        "id": "B",
+        "text": "Luxury"
+      },
+      {
+        "id": "C",
+        "text": "Need"
+      },
+      {
+        "id": "D",
+        "text": "Requirement"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Necessity ↔ Luxury = Necessity = आवश्यकता ↔ Luxury = विलासिता। Example: Water is a necessity, but a car is a luxury.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_108",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to PERILOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unsafe"
+      },
+      {
+        "id": "B",
+        "text": "Fraught"
+      },
+      {
+        "id": "C",
+        "text": "Menacing"
+      },
+      {
+        "id": "D",
+        "text": "Beneficial"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Perilous ↔ Beneficial = Perilous = ख़तरनाक ↔ Beneficial = लाभकारी। Example: The perilous path was replaced by a safe route.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_109",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to REBARBATIVE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Attractive"
+      },
+      {
+        "id": "B",
+        "text": "Objectionable"
+      },
+      {
+        "id": "C",
+        "text": "Offensive"
+      },
+      {
+        "id": "D",
+        "text": "Repellent"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Rebarbative ↔ Attractive = Rebarbative = अप्रिय, घृणास्पद ↔ Attractive = आकर्षक। Example: His rebarbative manner made him unpopular.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_110",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to RELEVANCE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Applicability"
+      },
+      {
+        "id": "B",
+        "text": "Importance"
+      },
+      {
+        "id": "C",
+        "text": "Irrelevance"
+      },
+      {
+        "id": "D",
+        "text": "Pertinence"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "easy",
+    "explanation": "Relevance ↔ Irrelevance = Relevance = प्रासंगिकता ↔ Irrelevance = अप्रासंगिकता। Example: Judge the relevance of a point, not its irrelevance.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_111",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to SCATHING.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Withering"
+      },
+      {
+        "id": "B",
+        "text": "Complimentary"
+      },
+      {
+        "id": "C",
+        "text": "Cutting"
+      },
+      {
+        "id": "D",
+        "text": "Stinging"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Scathing ↔ Complimentary = Scathing = कटु, तीखा ↔ Complimentary = प्रशंसा से भरा। Example: The review was scathing, not complimentary.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_112",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to STIMULATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arouse"
+      },
+      {
+        "id": "B",
+        "text": "Energise"
+      },
+      {
+        "id": "C",
+        "text": "Spur"
+      },
+      {
+        "id": "D",
+        "text": "Discourage"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Stimulate ↔ Discourage = Stimulate = प्रेरित करना ↔ Discourage = हतोत्साहित करना। Example: Praise stimulates learning, but scolding can discourage it.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_113",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to TRADUCE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Exalt"
+      },
+      {
+        "id": "B",
+        "text": "Malign"
+      },
+      {
+        "id": "C",
+        "text": "Slander"
+      },
+      {
+        "id": "D",
+        "text": "Defame"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Traduce ↔ Exalt = Traduce = बदनाम करना ↔ Exalt = गुणगान करना, ऊँचा उठाना। Example: Rivals traduce him, but fans exalt him.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_114",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to UNRESOLVED.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pending"
+      },
+      {
+        "id": "B",
+        "text": "Unsettled"
+      },
+      {
+        "id": "C",
+        "text": "Settled"
+      },
+      {
+        "id": "D",
+        "text": "Undecided"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Unresolved ↔ Settled = Unresolved = अनसुलझा ↔ Settled = तय हुआ। Example: The dispute remains unresolved, not settled.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_115",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to ABNEGATION.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Renunciation"
+      },
+      {
+        "id": "B",
+        "text": "Indulgence"
+      },
+      {
+        "id": "C",
+        "text": "Sacrifice"
+      },
+      {
+        "id": "D",
+        "text": "Restraint"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Abnegation ↔ Indulgence = Abnegation = आत्म-त्याग, संयम ↔ Indulgence = भोग, मनमानी छूट। Example: Monks practise abnegation, not indulgence.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_116",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to ACERBIC.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Caustic"
+      },
+      {
+        "id": "B",
+        "text": "Astringent"
+      },
+      {
+        "id": "C",
+        "text": "Sharp-tongued"
+      },
+      {
+        "id": "D",
+        "text": "Saccharine"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Acerbic ↔ Saccharine = Acerbic = तीखा, कड़वा ↔ Saccharine = अत्यधिक मीठा। Example: Her acerbic wit contrasted with his saccharine praise.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_117",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to CONSTRUCTIVE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Supportive"
+      },
+      {
+        "id": "B",
+        "text": "Positive"
+      },
+      {
+        "id": "C",
+        "text": "Destructive"
+      },
+      {
+        "id": "D",
+        "text": "Helpful"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Constructive ↔ Destructive = Constructive = रचनात्मक ↔ Destructive = विनाशकारी। Example: Constructive criticism helps, destructive criticism hurts.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_118",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to CONTRITE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Penitent"
+      },
+      {
+        "id": "B",
+        "text": "Unrepentant"
+      },
+      {
+        "id": "C",
+        "text": "Apologetic"
+      },
+      {
+        "id": "D",
+        "text": "Remorseful"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Contrite ↔ Unrepentant = Contrite = पश्चातापी ↔ Unrepentant = जिसे पछतावा न हो। Example: He was contrite after the quarrel, but his brother stayed unrepentant.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_119",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to COPIOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Meager"
+      },
+      {
+        "id": "B",
+        "text": "Bounteous"
+      },
+      {
+        "id": "C",
+        "text": "Overflowing"
+      },
+      {
+        "id": "D",
+        "text": "Profuse"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Copious ↔ Meager = Copious = प्रचुर ↔ Meager = अल्प। Example: She took copious notes while the others took meager ones.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_120",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to DETAIN.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Arrest"
+      },
+      {
+        "id": "B",
+        "text": "Confine"
+      },
+      {
+        "id": "C",
+        "text": "Impound"
+      },
+      {
+        "id": "D",
+        "text": "Liberate"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Detain ↔ Liberate = Detain = रोक रखना, हिरासत में लेना ↔ Liberate = मुक्त करना। Example: Police detained the suspect and later set him free to liberate him.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_121",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to EUPHEMISM.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Idiom"
+      },
+      {
+        "id": "B",
+        "text": "Dysphemism"
+      },
+      {
+        "id": "C",
+        "text": "Metaphor"
+      },
+      {
+        "id": "D",
+        "text": "Understatement"
+      }
+    ],
+    "correctAnswer": "B",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Euphemism ↔ Dysphemism = Euphemism = कठोर बात को नरम शब्दों में कहना ↔ Dysphemism = नरम बात को कठोर शब्दों में कहना। Example: 'Pass away' is a euphemism, while 'croak' is a dysphemism.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_122",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to FLUCTUATE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Stabilize"
+      },
+      {
+        "id": "B",
+        "text": "Vary"
+      },
+      {
+        "id": "C",
+        "text": "Oscillate"
+      },
+      {
+        "id": "D",
+        "text": "Waver"
+      }
+    ],
+    "correctAnswer": "A",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "medium",
+    "explanation": "Fluctuate ↔ Stabilize = Fluctuate = घटना-बढ़ना, अस्थिर रहना ↔ Stabilize = स्थिर करना। Example: Prices fluctuate daily, but policy can stabilize them.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_123",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to GARGANTUAN.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Titanic"
+      },
+      {
+        "id": "B",
+        "text": "Mammoth"
+      },
+      {
+        "id": "C",
+        "text": "Infinitesimal"
+      },
+      {
+        "id": "D",
+        "text": "Colossal"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Gargantuan ↔ Infinitesimal = Gargantuan = विशालकाय ↔ Infinitesimal = अत्यंत सूक्ष्म। Example: A gargantuan whale feeds on infinitesimal plankton.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_124",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to HEBETUDINOUS.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Obtuse"
+      },
+      {
+        "id": "B",
+        "text": "Dull-witted"
+      },
+      {
+        "id": "C",
+        "text": "Slow-witted"
+      },
+      {
+        "id": "D",
+        "text": "Sharp"
+      }
+    ],
+    "correctAnswer": "D",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Hebetudinous ↔ Sharp = Hebetudinous = मंदबुद्धि ↔ Sharp = तीक्ष्ण बुद्धि वाला। Example: A hebetudinous mind learns slowly, a sharp one learns fast.",
+    "language": "en"
+  },
+  {
+    "id": "vocab_ant_125",
+    "subjectId": "english",
+    "question": "Choose the word most nearly opposite in meaning to LABYRINTHINE.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Intricate"
+      },
+      {
+        "id": "B",
+        "text": "Convoluted"
+      },
+      {
+        "id": "C",
+        "text": "Linear"
+      },
+      {
+        "id": "D",
+        "text": "Tangled"
+      }
+    ],
+    "correctAnswer": "C",
+    "topicId": "synonyms-antonyms",
+    "difficulty": "hard",
+    "explanation": "Labyrinthine ↔ Linear = Labyrinthine = भूलभुलैया जैसा जटिल ↔ Linear = सीधा, क्रमबद्ध। Example: The labyrinthine plot confused viewers, but the linear story was easy.",
+    "language": "en"
+  }
+]

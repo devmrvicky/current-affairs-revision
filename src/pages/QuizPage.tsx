@@ -17,6 +17,9 @@ import { useMarkedReviewStore } from '../store/markedReviewStore';
 import { effectivePurpose, getMarkPurposeInfo, normalizePurposes, savedPurposes, toggleMarkPurpose, type MarkPurpose } from '../types/questionMark';
 import { useExitTest } from '../hooks/useExitTest';
 import { getOptionLabel } from '../utils';
+import { ShuffledOptions } from '../components/exam/ShuffledOptions';
+import { TestExitControls } from '../components/exam/TestExitControls';
+import { summarizeQuiz } from '../services/sessionLifecycle';
 
 export default function QuizPage() {
   const navigate = useNavigate();
@@ -241,11 +244,6 @@ export default function QuizPage() {
     }
   }
 
-  function handleClose() {
-    exitTest();
-    toast('Progress saved — resume this test from Home.', { icon: '💾', id: 'test-saved' });
-  }
-
   /** Sidebar "Submit Test": the same confirmation the last question shows, available at any time. Practice only needs it when something is marked. */
   function openSubmit() {
     setShowPalette(false);
@@ -262,14 +260,7 @@ export default function QuizPage() {
       <header className="sticky top-0 z-30 glass border-b border-[var(--border)]">
         <div className="max-w-5xl mx-auto px-3 sm:px-4 h-auto min-h-14 py-2 flex items-center justify-between gap-2 sm:gap-4">
           <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
-            <button
-              onClick={handleClose}
-              className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10 transition-colors flex-shrink-0"
-              aria-label="Close test (progress is saved)"
-              title="Close — your progress is saved"
-            >
-              <X size={18} style={{ color: 'var(--text-secondary)' }} />
-            </button>
+            <TestExitControls getSummary={() => summarizeQuiz(session, 'active')} exit={exitTest} />
             <div className="min-w-0">
               <h1 className="font-display font-bold text-xs sm:text-sm truncate" style={{ color: 'var(--text-primary)' }}>
                 {session.date}
@@ -418,9 +409,11 @@ export default function QuizPage() {
                     </button>
                   )}
 
-                  {/* Options */}
+                  {/* Options — fresh random order each time this question is shown (display only; the answer is stored as the option text) */}
+                  <ShuffledOptions key={session.currentIndex} options={currentAttempt.options} getKey={(o) => o} getText={(o) => o}>
+                  {(orderedOptions) => (
                   <div className="space-y-3">
-                    {currentAttempt.options.map((option, idx) => {
+                    {orderedOptions.map((option, idx) => {
                       const label = getOptionLabel(idx);
                       let cls = 'option-btn';
                       const isSelected = option === currentAttempt.selectedAnswer;
@@ -463,6 +456,8 @@ export default function QuizPage() {
                       );
                     })}
                   </div>
+                  )}
+                  </ShuffledOptions>
                 </div>
 
                 {/* Answered hint — bottom sheet is open so no inline feedback needed */}

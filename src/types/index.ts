@@ -235,6 +235,11 @@ export interface MarkedReviewQuestion {
   purposes?: import('./questionMark').MarkPurpose[];
   /** Set for questions from the universal pool, whose ids are strings (`questionId` is then 0). The record id is `universal:${universalQuestionId}`, so re-marking the same question updates one record. */
   universalQuestionId?: string;
+  /** Where the question sits, recorded when it is saved (older records have none; the Review Center then reads it from the question pool). Powers the Subject / Topic / Chapter / Concept filters. */
+  subjectId?: string;
+  topicId?: string;
+  chapterId?: string;
+  subtopicId?: string;
 }
 
 // ─── Chapter Types ────────────────────────────────────────────────────────────

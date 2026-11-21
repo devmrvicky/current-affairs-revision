@@ -1,4 +1,6 @@
 import { SpeakExplanationButton } from '../components/common/SpeakExplanationButton';
+import { ShuffledOptions } from '../components/exam/ShuffledOptions';
+import { getOptionLabel } from '../utils';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -328,8 +330,11 @@ export default function GenericChapterDetailPage() {
                   <div className="text-sm font-medium mb-4" style={{ color: 'var(--text-primary)' }}>
                     <QuestionMarkdownRenderer content={currentQuestion.question} baseDir={currentQuestion.sourceMockBaseDir} />
                   </div>
+                  {/* Fresh random option order each time this question is shown; answers are keyed by option id, the badge shows on-screen position. */}
+                  <ShuffledOptions key={currentQuestion.id} options={currentQuestion.options} getKey={(o) => o.id} getText={(o) => o.text}>
+                  {(orderedOptions) => (
                   <div className="space-y-2">
-                    {currentQuestion.options.map((opt) => {
+                    {orderedOptions.map((opt, idx) => {
                       const selected = answers[currentQuestion.id];
                       const isSelected = selected === opt.id;
                       const isAnswered = !!selected;
@@ -351,13 +356,15 @@ export default function GenericChapterDetailPage() {
                             className="flex-shrink-0 w-5 h-5 mt-0.5 rounded-full border-2 flex items-center justify-center text-[11px] font-semibold"
                             style={{ borderColor, color: isAnswered && isCorrectOpt ? '#22c55e' : isAnswered && isSelected ? '#ef4444' : 'var(--text-muted)' }}
                           >
-                            {isAnswered && isCorrectOpt ? <CheckCircle2 size={13} /> : isAnswered && isSelected ? <XCircle size={13} /> : opt.id}
+                            {isAnswered && isCorrectOpt ? <CheckCircle2 size={13} /> : isAnswered && isSelected ? <XCircle size={13} /> : getOptionLabel(idx)}
                           </span>
                           <QuestionOptionContent text={opt.text} image={opt.image} baseDir={currentQuestion.sourceMockBaseDir} />
                         </button>
                       );
                     })}
                   </div>
+                  )}
+                  </ShuffledOptions>
                   {answers[currentQuestion.id] && currentQuestion.explanation && (
                     <div className="mt-3 p-3 rounded-xl text-xs" style={{ background: 'var(--bg)', color: 'var(--text-secondary)' }}>
                       <QuestionMarkdownRenderer content={currentQuestion.explanation} baseDir={currentQuestion.sourceMockBaseDir} />
