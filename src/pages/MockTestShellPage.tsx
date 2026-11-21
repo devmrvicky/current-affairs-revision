@@ -12,6 +12,8 @@ import { MockQuestionPalette } from '../components/mock/MockQuestionPalette';
 import { ExamShell } from '../components/exam/ExamShell';
 import { ShuffledOptions } from '../components/exam/ShuffledOptions';
 import { TestExitControls } from '../components/exam/TestExitControls';
+import { TestFileNamePopover } from '../components/exam/TestFileNamePopover';
+import { useQuestionSwipe } from '../hooks/useQuestionSwipe';
 import { summarizeMock } from '../services/sessionLifecycle';
 import { getOptionLabel } from '../utils';
 import { useExamKeyboardNavigation } from '../hooks/useExamKeyboardNavigation';
@@ -165,6 +167,14 @@ export default function MockTestShellPage() {
     onNext: () => { flushTimeSpent(); nextQuestion(); },
   });
 
+  const swipeHandlers = useQuestionSwipe({
+    enabled: loaded && !!session && session.status === 'active' && !showPalette && !showSubmitConfirm && !showFinishSectionConfirm && !showMarkSheet && !transitionMessage && !isFinishing,
+    canGoPrevious: kbIndex > 0,
+    canGoNext: kbIndex < kbCount - 1,
+    onPrevious: () => { flushTimeSpent(); prevQuestion(); },
+    onNext: () => { flushTimeSpent(); nextQuestion(); },
+  });
+
   // A suspended session's section clock hasn't been shifted by the time away yet — wait for the presence hook to do that.
   if (!session || !loaded || !currentSection || !currentQuestionId || session.suspendedAt) {
     return (
@@ -263,7 +273,9 @@ export default function MockTestShellPage() {
       <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
         <TestExitControls getSummary={() => summarizeMock(session, 'active')} exit={exitTest} />
         <div className="min-w-0">
-          <h1 className="font-display font-bold text-xs sm:text-sm truncate" style={{ color: 'var(--text-primary)' }}>{currentSection.title}</h1>
+          <h1 className="font-display font-bold text-xs sm:text-sm min-w-0 max-w-[54vw] sm:max-w-[28rem]">
+            <TestFileNamePopover fileName={session.title} displayName={session.title} />
+          </h1>
           <p className="text-[11px] sm:text-xs" style={{ color: 'var(--text-muted)' }} data-testid="question-position">
             Q {currentIndexInSection + 1} / {currentSection.questionIds.length}
             {session.sections.length > 1 && <> · Section {session.currentSectionIndex + 1}/{session.sections.length} · Overall {overallIndex}/{overallTotal}</>}
@@ -407,7 +419,7 @@ export default function MockTestShellPage() {
       paletteFooter={sidebarFinish}
     >
       <AnimatePresence mode="wait">
-        <motion.div key={currentQuestionId} initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.15 }} className="px-3 sm:px-5 lg:px-8 py-4 sm:py-6">
+        <motion.div {...swipeHandlers} key={currentQuestionId} initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.15 }} className="touch-pan-y px-3 sm:px-5 lg:px-8 py-4 sm:py-6">
           {!currentQuestion ? (
             <div className="flex items-start gap-3 p-4 rounded-xl" style={{ background: 'rgba(239,68,68,0.08)' }}>
               <AlertTriangle size={20} className="text-red-500 flex-shrink-0 mt-0.5" />

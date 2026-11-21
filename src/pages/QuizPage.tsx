@@ -19,6 +19,8 @@ import { useExitTest } from '../hooks/useExitTest';
 import { getOptionLabel } from '../utils';
 import { ShuffledOptions } from '../components/exam/ShuffledOptions';
 import { TestExitControls } from '../components/exam/TestExitControls';
+import { TestFileNamePopover } from '../components/exam/TestFileNamePopover';
+import { useQuestionSwipe } from '../hooks/useQuestionSwipe';
 import { summarizeQuiz } from '../services/sessionLifecycle';
 
 export default function QuizPage() {
@@ -163,6 +165,14 @@ export default function QuizPage() {
     onNext: () => (isTestMode ? goToQuestion(kbIndex + 1) : nextQuestion()),
   });
 
+  const swipeHandlers = useQuestionSwipe({
+    enabled: !!session && isTestMode && !showSheet && !searchSheetOpen && !showPalette && !showMarkSheet && !manualPause,
+    canGoPrevious: kbIndex > 0,
+    canGoNext: kbIndex < kbTotal - 1,
+    onPrevious: () => goToQuestion(kbIndex - 1),
+    onNext: () => goToQuestion(kbIndex + 1),
+  });
+
   // Timed mock tests: auto-submit the instant the countdown reaches zero.
   const handleExpire = useCallback(() => {
     if (!session) return;
@@ -262,11 +272,11 @@ export default function QuizPage() {
           <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
             <TestExitControls getSummary={() => summarizeQuiz(session, 'active')} exit={exitTest} />
             <div className="min-w-0">
-              <h1 className="font-display font-bold text-xs sm:text-sm truncate" style={{ color: 'var(--text-primary)' }}>
-                {session.date}
-                <span className="hidden sm:inline">
-                  {isTestMode ? ` — ${session.testMeta!.examName}` : ' — Current Affairs'}
-                </span>
+              <h1 className="font-display font-bold text-xs sm:text-sm min-w-0 max-w-[54vw] sm:max-w-[28rem]">
+                <TestFileNamePopover
+                  fileName={session.fileName}
+                  displayName={isTestMode ? session.testMeta!.examName : session.date}
+                />
               </h1>
               <p className="text-[11px] sm:text-xs" style={{ color: 'var(--text-muted)' }}>
                 Q{session.currentIndex + 1} / {session.totalQuestions}
@@ -343,7 +353,7 @@ export default function QuizPage() {
       <div className="max-w-5xl mx-auto px-3 sm:px-4 py-4 sm:py-6">
         <div className="flex gap-6">
           {/* Question Area */}
-          <div className="flex-1 min-w-0">
+          <div className="flex-1 min-w-0 touch-pan-y" {...swipeHandlers}>
             <AnimatePresence mode="wait">
               <motion.div
                 key={session.currentIndex}

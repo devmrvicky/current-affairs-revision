@@ -25,19 +25,29 @@ beforeEach(async () => {
 afterEach(cleanup);
 
 describe('Resume Tests on Home', () => {
-  it('groups cards by subject and shows title, progress and last activity', async () => {
+  it('shows only the newest unfinished test on Home and groups the full list in subject tabs', async () => {
     await park(session('m1', ['mathematics'], 'Average — Test 1', 5_000));
     await park(session('m2', ['mathematics'], 'Percentage — Test 2', 4_000));
     await park(session('e1', ['english'], 'Idioms — Test 1', 3_000));
+    const user = userEvent.setup();
     render(<MemoryRouter><ResumeTestsSection /></MemoryRouter>);
 
-    const groups = await screen.findAllByTestId('resume-group');
-    expect(groups).toHaveLength(2);
-    expect(within(groups[0]).getAllByTestId('resume-card')).toHaveLength(2); // the two Mathematics tests together
-    expect(within(groups[1]).getAllByTestId('resume-card')).toHaveLength(1);
-    expect(within(groups[0]).getByText('Average — Test 1')).toBeTruthy();
-    expect(within(groups[0]).getAllByText(/1 of 3/).length).toBeGreaterThan(0);
-    expect(within(groups[0]).getAllByText(/Last active/).length).toBe(2);
+    expect(await screen.findByText('Average — Test 1')).toBeTruthy();
+    expect(screen.queryByText('Percentage — Test 2')).toBeNull();
+    expect(screen.getAllByTestId('resume-card')).toHaveLength(1);
+
+    await user.click(screen.getByRole('button', { name: /View all \(3\)/ }));
+    expect(await screen.findByRole('dialog', { name: 'All resumable tests' })).toBeTruthy();
+    const mathTab = screen.getByRole('tab', { name: /mathematics/i });
+    expect(mathTab.getAttribute('aria-selected')).toBe('true');
+    const panel = screen.getByRole('tabpanel', { name: /mathematics resumable tests/i });
+    expect(within(panel).getAllByTestId('resume-card')).toHaveLength(2);
+    expect(within(panel).getByText('Percentage — Test 2')).toBeTruthy();
+
+    await user.click(screen.getByRole('tab', { name: /english/i }));
+    const englishPanel = screen.getByRole('tabpanel', { name: /english resumable tests/i });
+    expect(within(englishPanel).getByText('Idioms — Test 1')).toBeTruthy();
+    expect(within(englishPanel).getByText(/Last active/)).toBeTruthy();
   });
 
   it('✕ asks first; Cancel changes nothing', async () => {

@@ -23,6 +23,8 @@ import { MarkPurposeSheet } from '../components/exam/MarkPurposeSheet';
 import { FloatingQuestionNav } from '../components/exam/FloatingQuestionNav';
 import { ShuffledOptions } from '../components/exam/ShuffledOptions';
 import { TestExitControls } from '../components/exam/TestExitControls';
+import { TestFileNamePopover } from '../components/exam/TestFileNamePopover';
+import { useQuestionSwipe } from '../hooks/useQuestionSwipe';
 import { summarizePractice } from '../services/sessionLifecycle';
 import { savedMarkId, syncQuestionMark } from '../services/questionMarkService';
 import { useMarkedReviewStore } from '../store/markedReviewStore';
@@ -263,6 +265,14 @@ export default function UniversalSessionPage() {
     onNext: () => navigateTo(currentIndex + 1),
   });
 
+  const swipeHandlers = useQuestionSwipe({
+    enabled: loaded && !!session && !isPaused && !showPalette && !showSubmitConfirm && !showMarkSheet && !showFinishSection && !isFinishing,
+    canGoPrevious: currentIndex > rangeStart,
+    canGoNext: currentIndex < rangeEnd - 1,
+    onPrevious: () => navigateTo(currentIndex - 1),
+    onNext: () => navigateTo(currentIndex + 1),
+  });
+
   // `suspendedAt` is cleared by the presence hook within a frame of mounting; until then the clock is not
   // running, so don't render (or let the timer judge) a session whose away-time hasn't been folded in yet.
   if (!session || !loaded || session.suspendedAt) {
@@ -338,8 +348,8 @@ export default function UniversalSessionPage() {
         <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
           <TestExitControls getSummary={() => summarizePractice(session, 'active')} exit={exitTest} />
           <div className="min-w-0">
-            <h1 className="font-display font-bold text-xs sm:text-sm truncate" style={{ color: 'var(--text-primary)' }}>
-              {session.config.label}
+            <h1 className="font-display font-bold text-xs sm:text-sm min-w-0 max-w-[54vw] sm:max-w-[28rem]">
+              <TestFileNamePopover fileName={session.config.label} displayName={session.config.label} />
             </h1>
             <p className="text-[11px] sm:text-xs" style={{ color: 'var(--text-muted)' }} data-testid="question-position">
               Q{session.currentIndex + 1} / {session.questionIds.length}
@@ -503,7 +513,7 @@ export default function UniversalSessionPage() {
       }
     >
       <AnimatePresence mode="wait">
-        <motion.div key={session.currentIndex} initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.15 }} className={isTestMode ? 'py-4 sm:py-6 px-3 sm:px-5 lg:px-8 pb-6' : 'py-4 sm:py-6 px-3 sm:px-5 md:px-16 pb-16 md:pb-6'}>
+        <motion.div {...swipeHandlers} key={session.currentIndex} initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.15 }} className={`touch-pan-y ${isTestMode ? 'py-4 sm:py-6 px-3 sm:px-5 lg:px-8 pb-6' : 'py-4 sm:py-6 px-3 sm:px-5 md:px-16 pb-16 md:pb-6'}`}>
           {!currentQuestion ? (
             // Question resolution failed — show it plainly rather than crash or silently substitute another question (master prompt §22).
             <div className="flex items-start gap-3 p-4 rounded-xl" style={{ background: 'rgba(239,68,68,0.08)' }}>
