@@ -1,7 +1,7 @@
 import { beforeEach, describe, expect, it } from 'vitest';
 import { getDB } from '../db';
 import type { AuthorLockRecord } from '../../types/authorStudio';
-import { createFile, createFolder, getFileContent, listAllFiles, listFolders, listTrash, restoreFolder, saveAuthorSettings, getAuthorSettings, setFileFavorite, setFolderFavorite, trashFile } from './authorDb';
+import { createFile, createFolder, getFileContent, listAllFiles, listFolders, listTrash, restoreFolder, saveAuthorSettings, getAuthorSettings, setFileFavorite, setFolderFavorite, trashFile, setFilePracticeLink, ensureSubjectFolders } from './authorDb';
 import { applyRestore, buildBackup, parseBackup, planRestore } from './authorBackup';
 import { setupPassword } from './authorLockService';
 import { createZip, readZip } from './authorZip';
@@ -28,7 +28,9 @@ describe('what a backup contains', () => {
   it('has the manifest, hierarchy, and files byte-for-byte — and NEVER the lock', async () => {
     await setupPassword('a-very-secret-passphrase', 1_000);
     await saveAuthorSettings({ autoLockMinutes: 9 });
-    await seed();
+    const { b } = await seed();
+    const practiceLink = { testId: 'author-test-1', subjectId: 'general-awareness', chapterId: 'parliament', chapterTitle: 'Parliament', title: 'Parliament Set', examIds: ['ssc-chsl'], syncedAt: 123 };
+    await setFilePracticeLink(b.id, practiceLink);
     const { bytes, manifest, fileName } = await buildBackup('full', undefined, new Date('2026-11-06T10:00:00Z'));
     expect(fileName).toBe('author-studio-full-2026-11-06.zip');
     expect(manifest).toMatchObject({ app: 'examverse-author-studio', formatVersion: 1, scope: 'full', counts: { folders: 3, files: 2 } });
@@ -37,6 +39,7 @@ describe('what a backup contains', () => {
     const paths = entries.map((e) => e.path);
     expect(paths).toEqual(expect.arrayContaining(['manifest.json', 'folders.json', 'files.json', 'imports.json', 'settings.json', 'bank/गणित/intro.json', 'bank/गणित/Average/avg 01.json']));
     expect(dec.decode(entries.find((e) => e.path === 'bank/गणित/Average/avg 01.json')!.data)).toBe(good('2', '3'));
+    expect((await parseBackup(bytes)).files.find((f) => f.path === 'गणित/Average/avg 01.json')?.practiceLink).toEqual(practiceLink);
 
     // The credential must not be anywhere in any entry — not as a key, not as a value.
     const lock = (await (await getDB()).get('authorMeta', 'lock')) as AuthorLockRecord | undefined;
@@ -61,6 +64,25 @@ describe('what a backup contains', () => {
     const { bytes, manifest } = await buildBackup('selection', { folderIds: [avg.id], fileIds: [] });
     expect(manifest.counts).toEqual({ folders: 2, files: 1 });
     expect((await readZip(bytes)).map((e) => e.path)).toContain('bank/गणित/Average/avg 01.json');
+  });
+  it('replace-all preserves the four fixed subject roots and restores content beneath them', async () => {
+    await ensureSubjectFolders();
+    const before = await listFolders();
+    const general = before.find((f) => f.systemSubjectId === 'general-awareness')!;
+    const originalId = general.id;
+    const polity = await createFolder(general.id, 'Polity');
+    await createFile(polity.id, 'Parliament', good('q1'));
+    const { bytes } = await buildBackup('full');
+    await createFolder(general.id, 'Temporary');
+
+    await applyRestore(await parseBackup(bytes), { mode: 'replace-all', policy: 'skip' });
+    const after = await listFolders();
+    expect(after.filter((f) => f.parentId === null && f.systemSubjectId).map((f) => f.systemSubjectId).sort())
+      .toEqual(['english', 'general-awareness', 'mathematics', 'reasoning']);
+    expect(after.find((f) => f.systemSubjectId === 'general-awareness')?.id).toBe(originalId);
+    expect(after.some((f) => f.name === 'Temporary')).toBe(false);
+    const restoredPolity = after.find((f) => f.name === 'Polity' && f.parentId === originalId)!;
+    expect((await listAllFiles()).some((f) => f.name === 'Parliament.json' && f.folderId === restoredPolity.id)).toBe(true);
   });
 });
 

@@ -88,7 +88,9 @@ const router = createBrowserRouter([
       { path: 'no-quiz-today',                element: <S><NoQuizTodayPage /></S> },
       { path: 'analysis',                     element: <S><AnalysisPage /></S> },
       { path: 'admin',                        element: <S><AdminDashboardPage /></S> },
-      { path: 'author-studio',               element: <S><AuthorStudioPage /></S> },
+      { path: 'author',                      element: <S><AuthorStudioPage /></S> },
+      // Keep the previous URL working for bookmarks and older shortcuts.
+      { path: 'author-studio',               element: <Navigate to="/author" replace /> },
       { path: 'question-bank',                element: <S><QuestionBankPage /></S> },
       { path: 'settings/question-bank',       element: <S><QuestionBankManagerPage /></S> },
       { path: 'exams',                        element: <S><ExamSelectionPage /></S> },

@@ -1,6 +1,7 @@
-// Private/public isolation (spec §13.11). Two kinds of proof:
-//   1. static — the public pipeline's source never mentions Author Studio, and Author Studio never imports a public data source
-//   2. runtime — using Author Studio changes no public store and makes no network request
+// Private/public isolation. Author files remain private and the storage/backup layer never reads the public bank.
+// A separate, explicit Add to Practice action in the file viewer may project a validated copy into the local bank.
+//   1. static — the public pipeline's source never reads Author Studio stores
+//   2. runtime — ordinary Author file operations change no public store and make no network request
 import { describe, expect, it, vi } from 'vitest';
 import { getDB } from '../db';
 import { createFile, createFolder, importFiles, trashFile } from './authorDb';
@@ -10,7 +11,7 @@ const sources = import.meta.glob('/src/**/*.{ts,tsx}', { query: '?raw', import: 
 const entries = Object.entries(sources).filter(([p]) => !/\.test\.tsx?$/.test(p) && !p.startsWith('/src/data/'));
 
 const AUTHOR_HOMES = ['/src/services/author/', '/src/pages/author/', '/src/components/author/', '/src/types/authorStudio.ts', '/src/store/authorLockStore.ts'];
-// The only other files allowed to know Author Studio exists: the DB schema, and the router entry for /author-studio.
+// The only other files allowed to know Author Studio exists: the DB schema, router entry, and the sidebar shortcut.
 const ALLOWED_OUTSIDE = ['/src/services/db.ts', '/src/routes/AppRouter.tsx'];
 const AUTHOR_MARKERS = /services\/author\/|authorStudio|authorLockStore|\bauthor(Folders|Files|Content|Imports|Meta)\b|pages\/author\/|components\/author\//;
 
@@ -35,16 +36,16 @@ describe('static isolation', () => {
     expect(authorLines.every((l) => /lazy|import\(|author-studio|AuthorStudio/.test(l))).toBe(true);
   });
 
-  it('Author Studio never imports a public question source, a sync layer, or a network client', () => {
+  it('Author storage and backup modules never import a public question source, a sync layer, or a network client', () => {
     const forbidden = /(questionRepository|universalChapterRepository|testLibraryBuilder|markdownRepository|mockRegistry|attemptLedger|questionMarkService|supabase|syncService|enqueueSync|github)/i;
     const offenders = entries
-      .filter(([p]) => AUTHOR_HOMES.some((h) => p.startsWith(h)))
+      .filter(([p]) => p.startsWith('/src/services/author/'))
       .filter(([, src]) => src.split('\n').some((l) => /^\s*(import|export)\b.*from\s/.test(l) && forbidden.test(l)))
       .map(([p]) => p);
     expect(offenders).toEqual([]);
   });
 
-  it('Author Studio code never calls fetch/XHR/WebSocket (no upload path exists)', () => {
+  it('Author Studio code never calls fetch/XHR/WebSocket (local files stay offline)', () => {
     const offenders = entries
       .filter(([p]) => AUTHOR_HOMES.some((h) => p.startsWith(h)))
       .filter(([, src]) => /\bfetch\s*\(|XMLHttpRequest|new\s+WebSocket|sendBeacon/.test(src))

@@ -2,7 +2,7 @@
 // Everything here lives in its own IndexedDB stores (authorFolders, authorFiles,
 // authorImports, authorMeta). Nothing in the public question pipeline
 // (questionRepository, testLibraryBuilder, mock registry…) reads these stores,
-// and nothing here writes to the public data — see services/author/isolation.test.ts.
+// Source files remain private; validated files can be explicitly projected to the local Question Bank.
 
 export interface AuthorFolder {
   id: string;
@@ -14,6 +14,8 @@ export interface AuthorFolder {
   createdAt: number;
   updatedAt: number;
   favorite?: boolean;
+  /** Present only for the four permanent top-level subject folders. */
+  systemSubjectId?: 'mathematics' | 'english' | 'reasoning' | 'general-awareness';
   /** Set when soft-deleted. Absent = live. Indexed, so Trash is a cheap query. */
   deletedAt?: number;
   /** The folder/file whose deletion put this item in Trash (the "root" of the deleted subtree). */
@@ -38,6 +40,16 @@ export interface AuthorFile {
   deletedAt?: number;
   trashRootId?: string;
   trashOriginalFolderId?: string | null;
+  /** Optional link to the local Practice/Mock Test projection. Author JSON remains the editable source. */
+  practiceLink?: {
+    testId: string;
+    subjectId: string;
+    chapterId: string;
+    chapterTitle: string;
+    title: string;
+    examIds: string[];
+    syncedAt: number;
+  };
   /** Cached validation summary (recomputed on every save). */
   validation?: {
     valid: boolean; errors: number; warnings: number; questions: number; checkedAt: number;

@@ -11,6 +11,7 @@ interface TreeProps {
   /** Folders (and, implicitly, their descendants) that cannot be chosen — e.g. the folder being moved. */
   disabledIds?: ReadonlySet<string>;
   rootLabel?: string;
+  allowRoot?: boolean;
 }
 
 function childrenOf(folders: AuthorFolder[]) {
@@ -21,7 +22,7 @@ function childrenOf(folders: AuthorFolder[]) {
 }
 
 /** Folder tree with expand/collapse. Keyboard: each row is a button; the chevron toggles without selecting. */
-export function AuthorTree({ folders, selectedId, onSelect, disabledIds, rootLabel = 'My Question Bank' }: TreeProps) {
+export function AuthorTree({ folders, selectedId, onSelect, disabledIds, rootLabel = 'My Question Bank', allowRoot = true }: TreeProps) {
   const byParent = useMemo(() => childrenOf(folders), [folders]);
   const byId = useMemo(() => new Map(folders.map((f) => [f.id, f] as const)), [folders]);
   const [open, setOpen] = useState<Set<string>>(new Set());
@@ -64,8 +65,8 @@ export function AuthorTree({ folders, selectedId, onSelect, disabledIds, rootLab
 
   return (
     <div>
-      <button type="button" onClick={() => onSelect(null)} aria-current={selectedId === null}
-        className={`w-full flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm text-left ${selectedId === null ? 'bg-brand-500/10 font-semibold' : 'hover:bg-gray-100 dark:hover:bg-white/5'}`} style={{ color: selectedId === null ? 'var(--text-primary)' : 'var(--text-secondary)' }}>
+      <button type="button" onClick={() => onSelect(null)} disabled={!allowRoot} aria-current={selectedId === null}
+        className={`w-full flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm text-left disabled:opacity-40 disabled:cursor-not-allowed ${selectedId === null ? 'bg-brand-500/10 font-semibold' : 'hover:bg-gray-100 dark:hover:bg-white/5'}`} style={{ color: selectedId === null ? 'var(--text-primary)' : 'var(--text-secondary)' }}>
         <Home size={14} className="text-brand-500" /> {rootLabel}
       </button>
       <div className="mt-0.5">{renderLevel('', 0, false)}</div>
@@ -80,27 +81,28 @@ interface PickerProps {
   folders: AuthorFolder[];
   startId: string | null;
   disabledIds?: ReadonlySet<string>;
+  allowRoot?: boolean;
   busy?: boolean;
   onConfirm: (folderId: string | null) => void;
   onCancel: () => void;
 }
 
 /** "Move to…" / "Copy to…" destination chooser. */
-export function FolderPickerDialog({ open, title, confirmLabel, folders, startId, disabledIds, busy, onConfirm, onCancel }: PickerProps) {
+export function FolderPickerDialog({ open, title, confirmLabel, folders, startId, disabledIds, allowRoot = true, busy, onConfirm, onCancel }: PickerProps) {
   const [choice, setChoice] = useState<string | null>(startId);
   const [seed, setSeed] = useState<{ open: boolean; startId: string | null }>({ open, startId });
   if (seed.open !== open || seed.startId !== startId) { setSeed({ open, startId }); if (open) setChoice(startId); }
   return (
     <Modal open={open} onClose={onCancel} title={title} size="lg">
       <div className="max-h-[50vh] overflow-y-auto rounded-xl p-2" style={{ border: '1px solid var(--border)' }}>
-        <AuthorTree folders={folders} selectedId={choice} onSelect={setChoice} disabledIds={disabledIds} />
+        <AuthorTree folders={folders} selectedId={choice} onSelect={setChoice} disabledIds={disabledIds} allowRoot={allowRoot} />
       </div>
       <p className="mt-2 text-xs" style={{ color: 'var(--text-muted)' }}>
-        Destination: <strong>{choice === null ? 'My Question Bank (top level)' : folders.find((f) => f.id === choice)?.name}</strong>. If a name is already taken there, the item is renamed — nothing is overwritten.
+        Destination: <strong>{choice === null ? 'My Question Bank (top level)' : folders.find((f) => f.id === choice)?.name}</strong>. {choice === null && !allowRoot ? 'Choose one of the four subjects.' : 'If a name is already taken there, the item is renamed — nothing is overwritten.'}
       </p>
       <div className="flex gap-2 mt-4">
         <button type="button" onClick={onCancel} disabled={busy} className="btn-secondary flex-1 text-sm py-2.5">Cancel</button>
-        <button type="button" onClick={() => onConfirm(choice)} disabled={busy} className="btn-primary flex-1 text-sm py-2.5">{busy ? 'Working…' : confirmLabel}</button>
+        <button type="button" onClick={() => onConfirm(choice)} disabled={busy || (!allowRoot && choice === null)} className="btn-primary flex-1 text-sm py-2.5">{busy ? 'Working…' : confirmLabel}</button>
       </div>
     </Modal>
   );

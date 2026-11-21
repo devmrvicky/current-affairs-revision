@@ -1,5 +1,5 @@
 import { Outlet, NavLink, useLocation, useNavigate } from 'react-router-dom';
-import { Home, BarChart3, Settings, BookOpen, Moon, Sun, Layers, Sparkles, ShieldCheck, ChevronDown, Target, ListChecks, Newspaper } from 'lucide-react';
+import { Home, BarChart3, Settings, BookOpen, Moon, Sun, Layers, Sparkles, ShieldCheck, ChevronDown, Target, ListChecks, Newspaper, UserRound } from 'lucide-react';
 import { useSettingsStore } from '../store/statsStore';
 import { useAuthStore } from '../store/authStore';
 import { useExamStore } from '../store/examStore';
@@ -15,6 +15,7 @@ import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 // respectively; the primary dock only has room for the highest-traffic
 // destinations.
 const NAV = [
+  { to: '/author',                       icon: UserRound,     label: 'Author Studio' },
   { to: '/',                              icon: Home,          label: 'Home' },
   { to: '/practice/configure',            icon: Target,        label: 'Practice' },
   { to: '/mock-tests',                    icon: ListChecks,    label: 'Mock Test' },
@@ -154,6 +155,7 @@ export default function AppLayout() {
                   }`
                 }
                 title={label}
+                aria-label={label}
               >
                 {({ isActive }) => (
                   <>

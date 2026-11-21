@@ -143,8 +143,9 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
     return chain;
   }, [folders, folderId]);
 
-  const selectedItems = items.filter((i) => selection.has(itemKey(i)));
-  const allSelected = items.length > 0 && selectedItems.length === items.length;
+  const selectableItems = items.filter((i) => !(i.kind === 'folder' && i.folder.systemSubjectId));
+  const selectedItems = selectableItems.filter((i) => selection.has(itemKey(i)));
+  const allSelected = selectableItems.length > 0 && selectedItems.length === selectableItems.length;
 
   function goTo(id: string | null) { setFolderId(id); setSelection(new Set()); setQuery(''); setFilter('all'); setTreeOpen(false); }
   function toggleSelect(i: Item) { setSelection((prev) => { const n = new Set(prev); const k = itemKey(i); if (n.has(k)) n.delete(k); else n.add(k); return n; }); }
@@ -175,6 +176,7 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
 
   async function startImport(files: IncomingFile[], source: 'upload' | 'folder-upload') {
     if (files.length === 0) return void toast('Nothing to import.');
+    if (folderId === null) return void toast.error('Open one of the four subjects before importing files.');
     try {
       const conflicts = (await findImportConflicts(folderId, files.filter((f) => /\.json$/i.test(f.name)))).map((c) => c.path);
       if (conflicts.length > 0) return setPendingImport({ files, conflicts, source });
@@ -203,6 +205,7 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
     e.preventDefault();
     setDragging(false);
     if (!e.dataTransfer.types.includes('Files')) return;
+    if (folderId === null) { toast.error('Open one of the four subjects before importing files.'); return; }
     await startImport(await readDroppedFiles(e.dataTransfer), 'upload');
   }
 
@@ -240,12 +243,18 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
               </span>
             ))}
           </nav>
-          <div className="flex flex-wrap gap-1.5">
-            <button type="button" className="btn-ghost text-xs inline-flex items-center gap-1 px-2.5 py-1.5" onClick={() => setDialog({ type: 'new-folder' })}><FolderPlus size={14} /> Folder</button>
-            <button type="button" className="btn-ghost text-xs inline-flex items-center gap-1 px-2.5 py-1.5" onClick={() => setDialog({ type: 'new-file' })}><FilePlus2 size={14} /> File</button>
-            <button type="button" className="btn-ghost text-xs inline-flex items-center gap-1 px-2.5 py-1.5" onClick={() => fileInput.current?.click()}><Upload size={14} /> Upload</button>
-            <button type="button" className="btn-ghost text-xs inline-flex items-center gap-1 px-2.5 py-1.5" onClick={() => folderInput.current?.click()}><FolderUp size={14} /> Upload folder</button>
-          </div>
+          {folderId === null ? (
+            <div className="text-[11px] rounded-lg px-3 py-2" style={{ background: 'var(--border)', color: 'var(--text-secondary)' }}>
+              Four fixed subjects are shown here. Open a subject to create folders, question files or upload JSON.
+            </div>
+          ) : (
+            <div className="flex flex-wrap gap-1.5">
+              <button type="button" className="btn-ghost text-xs inline-flex items-center gap-1 px-2.5 py-1.5" onClick={() => setDialog({ type: 'new-folder' })}><FolderPlus size={14} /> Folder</button>
+              <button type="button" className="btn-ghost text-xs inline-flex items-center gap-1 px-2.5 py-1.5" onClick={() => setDialog({ type: 'new-file' })}><FilePlus2 size={14} /> File</button>
+              <button type="button" className="btn-ghost text-xs inline-flex items-center gap-1 px-2.5 py-1.5" onClick={() => fileInput.current?.click()}><Upload size={14} /> Upload</button>
+              <button type="button" className="btn-ghost text-xs inline-flex items-center gap-1 px-2.5 py-1.5" onClick={() => folderInput.current?.click()}><FolderUp size={14} /> Upload folder</button>
+            </div>
+          )}
           <input ref={fileInput} type="file" multiple accept=".json,application/json" className="hidden" onChange={async (e) => { const f = e.target.files; if (f?.length) await startImport(await readPickedFiles(f), 'upload'); e.target.value = ''; }} />
           <input ref={folderInput} type="file" multiple className="hidden" {...({ webkitdirectory: '' } as object)} onChange={async (e) => { const f = e.target.files; if (f?.length) await startImport(await readPickedFiles(f), 'folder-upload'); e.target.value = ''; }} />
         </div>
@@ -301,7 +310,7 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
             <div>
               {view === 'list' && (
                 <div className="flex items-center gap-3 px-3 pb-1 text-[11px] font-semibold uppercase tracking-wide" style={{ color: 'var(--text-muted)' }}>
-                  <input type="checkbox" aria-label="Select all" checked={allSelected} onChange={() => setSelection(allSelected ? new Set() : new Set(items.map(itemKey)))} />
+                  <input type="checkbox" aria-label="Select all" checked={allSelected} disabled={selectableItems.length === 0} onChange={() => setSelection(allSelected ? new Set() : new Set(selectableItems.map(itemKey)))} />
                   <span className="flex-1">Name</span><span className="hidden sm:block w-24 text-right">Questions</span><span className="hidden md:block w-20 text-right">Size</span><span className="hidden md:block w-40 text-right">Modified</span><span className="w-8" />
                 </div>
               )}
@@ -316,7 +325,7 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
                   return (
                     <li key={k} onContextMenu={(e) => openMenu(e, i)} data-testid={isFolder ? 'author-folder' : 'author-file'}
                       className={`card ${view === 'grid' ? 'p-3 flex flex-col gap-2' : 'px-3 py-2.5 flex items-center gap-3'} ${selected ? 'ring-2 ring-brand-500' : ''}`}>
-                      <input type="checkbox" aria-label={`Select ${itemName(i)}`} checked={selected} onChange={() => toggleSelect(i)} />
+                      <input type="checkbox" aria-label={`Select ${itemName(i)}`} checked={selected} disabled={isFolder && !!i.folder.systemSubjectId} onChange={() => toggleSelect(i)} />
                       <button type="button" onClick={() => openItem(i)} className={`min-w-0 text-left flex items-center gap-2.5 ${view === 'grid' ? 'flex-col items-start' : 'flex-1'}`}>
                         {isFolder ? <FolderPlusIcon /> : <FileJson size={view === 'grid' ? 26 : 18} className="text-brand-500 shrink-0" aria-hidden />}
                         <span className="min-w-0">
@@ -353,7 +362,7 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
                 <p>Modified {formatWhen(single.kind === 'folder' ? single.folder.updatedAt : single.file.updatedAt)}</p>
                 <div className="flex gap-1.5 pt-1">
                   <button type="button" className="btn-primary px-3 py-1.5 text-xs" onClick={() => openItem(single)}>Open</button>
-                  <button type="button" className="btn-ghost px-3 py-1.5 text-xs" onClick={() => setDialog({ type: 'rename', item: single })}>Rename</button>
+                  {! (single.kind === 'folder' && single.folder.systemSubjectId) && <button type="button" className="btn-ghost px-3 py-1.5 text-xs" onClick={() => setDialog({ type: 'rename', item: single })}>Rename</button>}
                 </div>
               </aside>
             )}
@@ -385,7 +394,7 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
           try { if (it.kind === 'folder') await renameFolder(it.folder.id, name); else await renameFile(it.file.id, name); onChanged(); await reload(); setDialog(null); } catch (e) { return e instanceof Error ? e.message : 'Could not rename.'; }
         }} />
       <FolderPickerDialog open={dialog?.type === 'move' || dialog?.type === 'copy'} title={dialog?.type === 'copy' ? 'Copy to…' : 'Move to…'} confirmLabel={dialog?.type === 'copy' ? 'Copy here' : 'Move here'}
-        folders={folders} startId={folderId} disabledIds={moveBlocked} busy={busy} onCancel={() => setDialog(null)}
+        folders={folders} startId={folderId} disabledIds={moveBlocked} allowRoot={false} busy={busy} onCancel={() => setDialog(null)}
         onConfirm={async (target) => {
           if (dialog?.type !== 'move' && dialog?.type !== 'copy') return;
           const { type, items: list } = dialog;
@@ -434,6 +443,7 @@ function ItemMenu({ menu, onClose, actions }: { menu: MenuState; onClose: () => 
     return () => { document.removeEventListener('mousedown', onDown); document.removeEventListener('keydown', onKey); };
   }, [onClose]);
   const fav = menu.item.kind === 'folder' ? menu.item.folder.favorite : menu.item.file.favorite;
+  const fixedSubject = menu.item.kind === 'folder' && !!menu.item.folder.systemSubjectId;
   const entries: { label: string; icon: typeof Pencil; run: () => void; danger?: boolean }[] = [
     { label: menu.item.kind === 'folder' ? 'Open folder' : 'Open', icon: FileJson, run: actions.open },
     { label: 'Rename', icon: Pencil, run: actions.rename },
@@ -443,7 +453,7 @@ function ItemMenu({ menu, onClose, actions }: { menu: MenuState; onClose: () => 
     { label: fav ? 'Remove favourite' : 'Add to favourites', icon: Star, run: actions.favorite },
     { label: menu.item.kind === 'folder' ? 'Export folder (ZIP)' : 'Download', icon: Download, run: actions.download },
     { label: 'Move to Trash', icon: Trash2, run: actions.remove, danger: true },
-  ];
+  ].filter((entry) => !fixedSubject || ['Open folder', fav ? 'Remove favourite' : 'Add to favourites', 'Export folder (ZIP)'].includes(entry.label));
   return (
     <div ref={ref} role="menu" aria-label={`Actions for ${itemName(menu.item)}`} style={{ position: 'fixed', left: Math.max(8, menu.x), top: Math.max(8, menu.y), zIndex: 60, background: 'var(--card)', border: '1px solid var(--border)' }} className="rounded-xl shadow-xl py-1 w-48">
       {entries.map((e) => (

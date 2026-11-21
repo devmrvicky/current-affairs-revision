@@ -7,7 +7,8 @@ import AuthorStudioPage from '../../pages/author/AuthorStudioPage';
 import { useAuthorLockStore } from '../../store/authorLockStore';
 import { getDB } from '../../services/db';
 import { readZip } from '../../services/author/authorZip';
-import { saveAuthorSettings } from '../../services/author/authorDb';
+import { createFile, ensureSubjectFolders, listFolders, saveAuthorSettings } from '../../services/author/authorDb';
+import { questionBankRepository } from '../../services/questionBank/repository';
 import { hashPassword } from '../../services/author/authorCrypto';
 
 const PASSWORD = 'correct-horse-battery';
@@ -107,8 +108,9 @@ describe('workspace walkthrough', () => {
     // Dashboard starts empty and real
     expect(await screen.findByText('No files yet')).toBeTruthy();
 
-    // My Question Bank → new folder
+    // My Question Bank now starts with the four permanent subjects. Create under Mathematics.
     await user.click(nav('My Question Bank'));
+    await user.click(await screen.findByRole('button', { name: 'Mathematics' }));
     await user.click(await screen.findByRole('button', { name: /^Folder$/ }));
     await user.type(await screen.findByLabelText('Folder name'), 'गणित');
     await user.click(screen.getByRole('button', { name: 'Create' }));
@@ -169,7 +171,8 @@ describe('workspace walkthrough', () => {
     await waitFor(() => expect(screen.getByText('Trash is empty')).toBeTruthy());
 
     await user.click(nav('My Question Bank'));
-    await user.click(within(await screen.findByTestId('author-folder')).getByRole('button', { name: 'गणित' }));
+    await user.click(await screen.findByRole('button', { name: 'Mathematics' }));
+    await user.click(await screen.findByRole('button', { name: 'गणित' }));
     expect(await screen.findByText('average.json')).toBeTruthy(); // restored into its original folder
 
     // Storage → backup contains the hierarchy and not the credentials
@@ -180,12 +183,48 @@ describe('workspace walkthrough', () => {
     await user.click(await screen.findByRole('button', { name: /Download backup/ }));
     await waitFor(() => expect(captured).toBeTruthy());
     const entries = await readZip(new Uint8Array(await (captured as unknown as Blob).arrayBuffer()));
-    expect(entries.map((e) => e.path)).toContain('bank/गणित/average.json');
+    expect(entries.map((e) => e.path)).toContain('bank/Mathematics/गणित/average.json');
     const lock = await (await getDB()).get('authorMeta', 'lock');
     const text = entries.map((e) => dec.decode(e.data)).join('\n');
     expect(text).not.toContain((lock as { hash: string }).hash);
     expect(text).not.toContain(PASSWORD);
   }, 40_000);
+
+  it('adds and edits a question, then explicitly projects the file into the existing Practice bank', async () => {
+    await presetPassword();
+    await ensureSubjectFolders();
+    const folders = await listFolders();
+    const maths = folders.find((folder) => folder.systemSubjectId === 'mathematics')!;
+    const original = JSON.stringify([{ id: 'existing-q', question: 'Existing question?', options: ['No', 'Yes'], correctAnswer: 'Yes', difficulty: 'easy' }]);
+    const file = await createFile(maths.id, 'practice', original);
+
+    const user = userEvent.setup();
+    render(<AuthorStudioPage />);
+    await unlockUi(user);
+    await user.click(nav('My Question Bank'));
+    await user.click(await screen.findByRole('button', { name: 'Mathematics' }));
+    await user.click(await screen.findByRole('button', { name: 'practice.json' }));
+
+    const viewer = await screen.findByRole('dialog', { name: 'practice.json' });
+    await user.click(within(viewer).getByRole('button', { name: 'Add Question' }));
+    const editor = await screen.findByRole('dialog', { name: 'Add question' });
+    await user.type(within(editor).getByRole('textbox', { name: 'Question' }), 'New Parliament question?');
+    await user.type(within(editor).getByPlaceholderText('Option A text'), 'Lok Sabha');
+    await user.type(within(editor).getByPlaceholderText('Option B text'), 'Rajya Sabha');
+    await user.type(within(editor).getByPlaceholderText('Option C text'), 'Lok Sabha Speaker');
+    await user.type(within(editor).getByPlaceholderText('Option D text'), 'President');
+    await user.click(within(editor).getByRole('button', { name: 'Add question' }));
+    await waitFor(() => expect(viewer.textContent).toContain('New Parliament question?'));
+    await user.click(within(viewer).getByRole('button', { name: 'Save' }));
+    await waitFor(async () => expect(await (await getDB()).get('authorContent', file.id)).toMatchObject({ content: expect.stringContaining('New Parliament question?') }));
+
+    await waitFor(() => expect(within(viewer).getByRole('button', { name: 'Add to Practice' })).not.toBeDisabled());
+    await user.click(within(viewer).getByRole('button', { name: 'Add to Practice' }));
+    const publish = await screen.findByRole('dialog', { name: 'Add to Practice' });
+    expect(within(publish).getByLabelText('Subject')).toHaveValue('mathematics');
+    await user.click(within(publish).getByRole('button', { name: 'Add to Practice' }));
+    await waitFor(async () => expect(await questionBankRepository.getTestById(`local:author-${file.id}`)).toMatchObject({ title: 'practice', questionCount: 2 }));
+  }, 30_000);
 
   it('uploading a file that clashes asks what to do, and Replace asks again', async () => {
     await presetPassword();
@@ -193,6 +232,7 @@ describe('workspace walkthrough', () => {
     render(<AuthorStudioPage />);
     await unlockUi(user);
     await user.click(nav('My Question Bank'));
+    await user.click(await screen.findByRole('button', { name: 'Mathematics' }));
     const good = (id: string) => JSON.stringify([{ id, question: 'Q?', options: ['a', 'b'], correctAnswer: 'a', explanation: 'e', difficulty: 'easy' }]);
     const upload = async (name: string, body: string) => {
       const input = document.querySelector('input[type=file][accept=".json,application/json"]') as HTMLInputElement;

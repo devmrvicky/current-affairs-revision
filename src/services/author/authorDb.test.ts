@@ -2,7 +2,7 @@ import { beforeEach, describe, expect, it } from 'vitest';
 import { getDB } from '../db';
 import {
   AuthorError, copyFolder, createFile, createFolder, duplicateFile, duplicateFolder, emptyTrash, getFileContent, getStats, importFiles,
-  listChildren, listFolders, listImports, listRecent, listTrash, moveFile, moveFolder, purgeFromTrash, renameFile, renameFolder,
+  listChildren, listFolders, listImports, listRecent, listTrash, moveFile, moveFolder, purgeFromTrash, renameFile, renameFolder, ensureSubjectFolders, setFilePracticeLink,
   restoreFile, restoreFolder, searchAuthor, setFileFavorite, trashFile, trashFolder, updateFileContent, listFavorites, getBreadcrumb, listAllFiles,
 } from './authorDb';
 
@@ -18,6 +18,43 @@ async function wipe() {
 const err = async (p: Promise<unknown>) => { try { await p; return null; } catch (e) { return e as AuthorError; } };
 
 beforeEach(wipe);
+
+describe('fixed subject roots', () => {
+  it('creates four permanent subject folders once and preserves matching legacy content', async () => {
+    const existing = await createFolder(null, 'General Awareness');
+    const child = await createFolder(existing.id, 'Polity');
+    await ensureSubjectFolders();
+    await ensureSubjectFolders();
+    const roots = (await listFolders()).filter((folder) => folder.parentId === null);
+    expect(roots.map((folder) => folder.systemSubjectId).filter(Boolean).sort()).toEqual(['english', 'general-awareness', 'mathematics', 'reasoning']);
+    expect(roots).toHaveLength(4);
+    expect((await listFolders()).find((folder) => folder.id === existing.id)).toMatchObject({ systemSubjectId: 'general-awareness' });
+    expect((await listFolders()).find((folder) => folder.id === child.id)?.parentId).toBe(existing.id);
+  });
+
+  it('stores a Practice link on the source file metadata', async () => {
+    const folder = await createFolder(null, 'General Awareness');
+    const file = await createFile(folder.id, 'Parliament', good('1'));
+    const link = { testId: 'author-test-1', subjectId: 'general-awareness', chapterId: 'parliament', chapterTitle: 'Parliament', title: 'Parliament Set', examIds: ['ssc-chsl'], syncedAt: 123 };
+    expect(await setFilePracticeLink(file.id, link)).toMatchObject({ practiceLink: link });
+  });
+
+  it('does not copy a linked Practice test when a source file or folder is duplicated', async () => {
+    await ensureSubjectFolders();
+    const root = (await listFolders()).find((folder) => folder.systemSubjectId === 'general-awareness')!;
+    const folder = await createFolder(root.id, 'Polity');
+    const file = await createFile(folder.id, 'Parliament', good('1'));
+    const link = { testId: 'author-source-test', subjectId: 'general-awareness', chapterId: 'parliament', chapterTitle: 'Parliament', title: 'Parliament Set', examIds: ['ssc-chsl'], syncedAt: 123 };
+    await setFilePracticeLink(file.id, link);
+
+    const copiedFile = await duplicateFile(file.id);
+    expect(copiedFile.practiceLink).toBeUndefined();
+    expect((await (await import('./authorDb')).getFile(file.id))?.practiceLink).toEqual(link);
+
+    const copiedFolder = await duplicateFolder(folder.id);
+    expect((await listChildren(copiedFolder.id)).files[0].practiceLink).toBeUndefined();
+  });
+});
 
 describe('folders', () => {
   it('nests without limit and reports a breadcrumb', async () => {

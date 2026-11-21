@@ -39,7 +39,7 @@ export interface BackupManifest {
 }
 
 interface BackupFolderMeta { path: string; favorite?: boolean; createdAt: number; updatedAt: number }
-interface BackupFileMeta { path: string; favorite?: boolean; createdAt: number; updatedAt: number }
+interface BackupFileMeta { path: string; favorite?: boolean; createdAt: number; updatedAt: number; practiceLink?: NonNullable<AuthorFile['practiceLink']> }
 type BackupSettings = Pick<AuthorSettingsRecord, 'autoLockMinutes' | 'view'>;
 
 const enc = new TextEncoder();
@@ -110,7 +110,7 @@ export async function buildBackup(scope: BackupScope, selection?: BackupSelectio
     const content = (await db.get('authorContent', file.id))?.content ?? '';
     const path = [...pathOfFolder(file.folderId), file.name].join('/');
     entries.push({ path: `bank/${path}`, data: enc.encode(content) });
-    fileMeta.push({ path, favorite: file.favorite || undefined, createdAt: file.createdAt, updatedAt: file.updatedAt });
+    fileMeta.push({ path, favorite: file.favorite || undefined, createdAt: file.createdAt, updatedAt: file.updatedAt, practiceLink: file.practiceLink });
   }
 
   const manifest: BackupManifest = {
@@ -228,7 +228,13 @@ export async function parseBackup(bytes: Uint8Array): Promise<ParsedBackup> {
     const parts = isRecord(raw) && typeof raw.path === 'string' ? cleanPath(raw.path) : null;
     if (!parts) { warnings.push('A file entry with an invalid path was ignored.'); continue; }
     const r = raw as Record<string, unknown>;
-    metaByPath.set(parts.join('/'), { path: parts.join('/'), favorite: r.favorite === true ? true : undefined, createdAt: num(r.createdAt, Date.now()), updatedAt: num(r.updatedAt, Date.now()) });
+    const rawLink = isRecord(r.practiceLink) ? r.practiceLink : undefined;
+    const practiceLink = rawLink && typeof rawLink.testId === 'string' && typeof rawLink.subjectId === 'string'
+      && typeof rawLink.chapterId === 'string' && typeof rawLink.chapterTitle === 'string' && typeof rawLink.title === 'string'
+      && Array.isArray(rawLink.examIds) && rawLink.examIds.every((id) => typeof id === 'string')
+      ? { testId: rawLink.testId, subjectId: rawLink.subjectId, chapterId: rawLink.chapterId, chapterTitle: rawLink.chapterTitle, title: rawLink.title, examIds: rawLink.examIds as string[], syncedAt: num(rawLink.syncedAt, Date.now()) }
+      : undefined;
+    metaByPath.set(parts.join('/'), { path: parts.join('/'), favorite: r.favorite === true ? true : undefined, createdAt: num(r.createdAt, Date.now()), updatedAt: num(r.updatedAt, Date.now()), practiceLink });
   }
 
   const files: ParsedBackupFile[] = [];
@@ -247,7 +253,7 @@ export async function parseBackup(bytes: Uint8Array): Promise<ParsedBackup> {
     try { content = new TextDecoder('utf-8', { fatal: true }).decode(e.data); } catch { errors.push(`"${rel}" is not valid UTF-8 text and was skipped.`); continue; }
     seen.add(key);
     const meta = metaByPath.get(norm);
-    files.push({ path: norm, content, favorite: meta?.favorite, createdAt: meta?.createdAt ?? Date.now(), updatedAt: meta?.updatedAt ?? Date.now() });
+    files.push({ path: norm, content, favorite: meta?.favorite, createdAt: meta?.createdAt ?? Date.now(), updatedAt: meta?.updatedAt ?? Date.now(), practiceLink: meta?.practiceLink });
     if (!validateQuestionFileText(content).valid) warnings.push(`"${norm}" has validation problems (it will be restored as-is; open it in Author Studio to review).`);
   }
   for (const p of metaByPath.keys()) if (!files.some((f) => f.path === p)) warnings.push(`files.json lists "${p}" but its content is not in the archive.`);
@@ -320,7 +326,11 @@ export async function planRestore(parsed: ParsedBackup, mode: RestoreMode): Prom
 
   const counts = { new: 0, identical: 0, conflict: 0 };
   for (const i of items) counts[i.status]++;
-  const willTrash = mode === 'replace-all' ? folders.filter((f) => f.parentId === null).length + files.filter((f) => f.folderId === null).length : 0;
+  const permanentRootIds = new Set(folders.filter((f) => f.parentId === null && f.systemSubjectId).map((f) => f.id));
+  const willTrash = mode === 'replace-all'
+    ? folders.filter((f) => (f.parentId === null && !f.systemSubjectId) || (f.parentId !== null && permanentRootIds.has(f.parentId))).length
+      + files.filter((f) => f.folderId === null || (f.folderId !== null && permanentRootIds.has(f.folderId))).length
+    : 0;
   return { items, counts, newFolders, willTrash };
 }
 
@@ -353,9 +363,21 @@ export async function applyRestore(parsed: ParsedBackup, options: RestoreOptions
     const result: RestoreResult = { foldersCreated: 0, filesAdded: 0, filesReplaced: 0, filesRenamed: 0, filesSkipped: 0, filesIdentical: 0, trashedExisting: 0 };
 
     if (options.mode === 'replace-all') {
-      // Recoverable: everything is moved to Trash, not destroyed.
-      for (const f of (await tx.objectStore('authorFolders').index('by-parentId').getAll('')).filter(isLive)) result.trashedExisting += await trashFolderIn(tx, f.id);
-      for (const f of (await tx.objectStore('authorFiles').index('by-folderId').getAll('')).filter(isLive)) { await trashFileIn(tx, f.id); result.trashedExisting++; }
+      // Recoverable: user content moves to Trash, but the four permanent subject roots survive.
+      // Their descendants and any files directly inside them are cleared so the restored tree
+      // can be recreated under the same stable subject folders.
+      const roots = (await tx.objectStore('authorFolders').index('by-parentId').getAll('')).filter(isLive);
+      for (const root of roots) {
+        if (!root.systemSubjectId) {
+          result.trashedExisting += await trashFolderIn(tx, root.id);
+          continue;
+        }
+        const childFolders = (await tx.objectStore('authorFolders').index('by-parentId').getAll(root.id)).filter(isLive);
+        for (const child of childFolders) result.trashedExisting += await trashFolderIn(tx, child.id);
+        const rootFiles = (await tx.objectStore('authorFiles').index('by-folderId').getAll(root.id)).filter(isLive);
+        for (const file of rootFiles) { await trashFileIn(tx, file.id); result.trashedExisting++; }
+      }
+      for (const file of (await tx.objectStore('authorFiles').index('by-folderId').getAll('')).filter(isLive)) { await trashFileIn(tx, file.id); result.trashedExisting++; }
     }
 
     const cache = new Map<string, string | null>([['', null]]); // lower-cased path → folder id
@@ -396,14 +418,14 @@ export async function applyRestore(parsed: ParsedBackup, options: RestoreOptions
         const policy = options.overrides?.[f.path] ?? options.policy;
         if (policy === 'skip') { result.filesSkipped++; continue; }
         if (policy === 'replace') {
-          await tx.objectStore('authorFiles').put({ ...clash, size, validation, updatedAt: Date.now(), favorite: clash.favorite || f.favorite });
+          await tx.objectStore('authorFiles').put({ ...clash, size, validation, updatedAt: Date.now(), favorite: clash.favorite || f.favorite, practiceLink: f.practiceLink ?? clash.practiceLink });
           await tx.objectStore('authorContent').put({ id: clash.id, content: f.content });
           result.filesReplaced++;
           continue;
         }
       }
       const name = clash ? uniqueName(await liveFileNames(tx, folderId), fileName, { hasExt: true }) : fileName;
-      const record: AuthorFile = { id: uuidv4(), folderId, folderKey: parentKeyOf(folderId), name, size, createdAt: f.createdAt, updatedAt: f.updatedAt, favorite: f.favorite, validation };
+      const record: AuthorFile = { id: uuidv4(), folderId, folderKey: parentKeyOf(folderId), name, size, createdAt: f.createdAt, updatedAt: f.updatedAt, favorite: f.favorite, validation, practiceLink: f.practiceLink };
       await tx.objectStore('authorFiles').put(record);
       await tx.objectStore('authorContent').put({ id: record.id, content: f.content });
       if (clash) result.filesRenamed++; else result.filesAdded++;

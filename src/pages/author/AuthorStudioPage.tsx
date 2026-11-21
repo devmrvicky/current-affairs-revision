@@ -4,7 +4,7 @@ import { AuthorLockGate } from '../../components/author/AuthorLockGate';
 import { AuthorFileManager } from '../../components/author/AuthorFileManager';
 import { AuthorFileViewer } from '../../components/author/AuthorFileViewer';
 import { AllFilesPanel, DashboardPanel, FavoritesPanel, ImportHistoryPanel, RecentPanel, SettingsPanel, StoragePanel, TrashPanel } from '../../components/author/AuthorPanels';
-import { getAuthorSettings, DEFAULT_AUTHOR_SETTINGS } from '../../services/author/authorDb';
+import { getAuthorSettings, DEFAULT_AUTHOR_SETTINGS, ensureSubjectFolders } from '../../services/author/authorDb';
 import { isIdleExpired, useAuthorLockStore } from '../../store/authorLockStore';
 import type { AuthorSettingsRecord } from '../../types/authorStudio';
 
@@ -15,7 +15,7 @@ const NAV: { id: Section; label: string }[] = [
   { id: 'favorites', label: 'Favorites' }, { id: 'trash', label: 'Trash' }, { id: 'imports', label: 'Import History' }, { id: 'storage', label: 'Storage' }, { id: 'settings', label: 'Settings' },
 ];
 
-/** Private, local question-bank workspace. Locked on every fresh start; nothing here is shared with the public Test Engine. */
+/** Private Author Studio. Source files remain on this device; valid files can be explicitly added to the existing local Practice/Mock Test bank. */
 export default function AuthorStudioPage() {
   const unlocked = useAuthorLockStore((s) => s.unlocked);
   return unlocked ? <Workspace /> : <AuthorLockGate />;
@@ -50,7 +50,14 @@ function Workspace() {
 
   useEffect(() => {
     let alive = true;
-    void getAuthorSettings().then((s) => { if (alive) { setSettings(s); setReady(true); } }).catch(() => { if (alive) setReady(true); });
+    void (async () => {
+      try {
+        await ensureSubjectFolders();
+        const s = await getAuthorSettings();
+        if (alive) setSettings(s);
+      } catch { /* The workspace still opens; the folder manager reports any storage failure. */ }
+      if (alive) setReady(true);
+    })();
     return () => { alive = false; };
   }, []);
   useAutoLock(settings.autoLockMinutes);
@@ -65,7 +72,7 @@ function Workspace() {
       <header className="flex items-center justify-between gap-3">
         <div>
           <h1 className="font-display font-bold text-xl" style={{ color: 'var(--text-primary)' }}>Author Studio</h1>
-          <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Private · stored only in this browser · never shown in tests</p>
+          <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Private · stored on this device · add valid files to Practice when ready</p>
         </div>
         <button type="button" onClick={lock} className="btn-secondary text-xs px-4 py-2 inline-flex items-center gap-1.5"><Lock size={13} /> Lock</button>
       </header>
