@@ -25,6 +25,7 @@
 
 import type { UniversalQuestion, Difficulty } from '../types/universalQuestion';
 import { isPlayableQuestion } from '../types/universalQuestion';
+import { questionOwnershipFromId, type QuestionOwnership, type QuestionOwnershipFilter } from './questionOwnership';
 
 export type PracticeTestSource = 'exam-mock' | 'chapter' | 'mock-source';
 export type TestScope = 'chapter' | 'topic' | 'multi-topic' | 'paper';
@@ -61,6 +62,8 @@ export interface PracticeTestDefinition {
   topicTitle?: string;
   /** Distinct topics among the playable questions. */
   topicCount: number;
+  /** Whether the source file contains ExamVerse Original or learner-owned questions. */
+  questionOwnership?: QuestionOwnership;
   /** Questions in the file that cannot be presented (no options / unresolved answer key) and are left out of the test. */
   skippedQuestionCount: number;
 }
@@ -191,30 +194,44 @@ export function buildPracticeTests(
   pool: UniversalQuestion[],
   lookups: LibraryLookups
 ): PracticeTestDefinition[] {
-  const bySource = new Map<string, UniversalQuestion[]>();
+  // Keep owner and source path as separate identity dimensions. Two files can
+  // legitimately share the same folder/name while one is app-owned and the
+  // other is personal; grouping only by `source` would mix their question IDs.
+  interface QuestionGroup { rawSource: string; ownership: QuestionOwnership; questions: UniversalQuestion[] }
+  const bySource = new Map<string, QuestionGroup>();
   for (const q of pool) {
     if (q.subjectId !== subjectId || !q.source) continue;
-    const bucket = bySource.get(q.source);
-    if (bucket) bucket.push(q);
-    else bySource.set(q.source, [q]);
+    const ownership = questionOwnershipFromId(q.id);
+    const groupKey = `${ownership}\u0000${q.source}`;
+    const bucket = bySource.get(groupKey);
+    if (bucket) bucket.questions.push(q);
+    else bySource.set(groupKey, { rawSource: q.source, ownership, questions: [q] });
   }
 
-  interface Draft { rawSource: string; parsed: ParsedSource; playable: UniversalQuestion[]; skipped: number; chapterKey: string }
+  interface Draft { key: string; rawSource: string; ownership: QuestionOwnership; parsed: ParsedSource; playable: UniversalQuestion[]; skipped: number; chapterKey: string }
   const drafts: Draft[] = [];
-  for (const [rawSource, qs] of bySource) {
-    const parsed = parseSource(rawSource, subjectId);
+  for (const [key, group] of bySource) {
+    const parsed = parseSource(group.rawSource, subjectId);
     if (!parsed) continue;
-    const playable = qs.filter(isPlayableQuestion);
+    const playable = group.questions.filter(isPlayableQuestion);
     if (playable.length === 0) continue; // nothing in this file can be taken
     const chapterKey = parsed.kind === 'chapter' ? `${parsed.chapterSubjectId ?? subjectId}/${parsed.chapterId ?? parsed.chapterName}` : '';
-    drafts.push({ rawSource, parsed, playable, skipped: qs.length - playable.length, chapterKey });
+    drafts.push({ key, rawSource: group.rawSource, ownership: group.ownership, parsed, playable, skipped: group.questions.length - playable.length, chapterKey });
   }
 
-  // Clean titles among siblings (same chapter / same paper group), never across them.
-  const titleByRawSource = new Map<string, string>();
+  const ownersByRawSource = new Map<string, Set<QuestionOwnership>>();
+  for (const draft of drafts) {
+    const owners = ownersByRawSource.get(draft.rawSource) ?? new Set<QuestionOwnership>();
+    owners.add(draft.ownership);
+    ownersByRawSource.set(draft.rawSource, owners);
+  }
+
+  // Clean titles among siblings (same chapter / same paper group / same owner), never across owners.
+  const titleByGroup = new Map<string, string>();
   const groups = new Map<string, Draft[]>();
   for (const d of drafts) {
-    const key = d.parsed.kind === 'chapter' ? d.chapterKey : d.parsed.kind;
+    const locationKey = d.parsed.kind === 'chapter' ? d.chapterKey : d.parsed.kind;
+    const key = `${d.ownership}\u0000${locationKey}`;
     const bucket = groups.get(key);
     if (bucket) bucket.push(d);
     else groups.set(key, [d]);
@@ -223,29 +240,33 @@ export function buildPracticeTests(
     if (siblings[0].parsed.kind === 'chapter') {
       // Titles are cleaned among files in the same folder; a nested file's group folders are not part of its title.
       const cleaned = cleanSiblingTitles(siblings.map((d) => d.parsed.fileName.split('/').pop() ?? d.parsed.fileName));
-      siblings.forEach((d, i) => titleByRawSource.set(d.rawSource, cleaned[i]));
+      siblings.forEach((d, i) => titleByGroup.set(d.key, cleaned[i]));
     } else if (siblings[0].parsed.kind === 'mock-source') {
       siblings.forEach((d) => {
         // examSource ("<mock title> — <shift>") is the mock's own name; the file id is a fallback.
         const named = d.playable.find((q) => q.examSource)?.examSource;
-        titleByRawSource.set(d.rawSource, named ? tidyPaperTitle(named) : humanize(d.parsed.fileName));
+        titleByGroup.set(d.key, named ? tidyPaperTitle(named) : humanize(d.parsed.fileName));
       });
     } else {
-      siblings.forEach((d) => titleByRawSource.set(d.rawSource, humanize(d.parsed.fileName)));
+      siblings.forEach((d) => titleByGroup.set(d.key, humanize(d.parsed.fileName)));
     }
   }
 
-  const defs: PracticeTestDefinition[] = drafts.map(({ rawSource, parsed, playable, skipped }) => {
+  const defs: PracticeTestDefinition[] = drafts.map(({ key, rawSource, ownership, parsed, playable, skipped }) => {
     const topicSet = new Set(playable.map((q) => q.topicId).filter((t): t is string => Boolean(t)));
     const topicIds = Array.from(topicSet);
     const difficulties = new Set(playable.map((q) => q.difficulty));
 
+    const collidesAcrossOwners = (ownersByRawSource.get(rawSource)?.size ?? 0) > 1;
+    // Preserve the historic canonical ID for the app-owned test in an actual collision.
+    const ownershipSuffix = collidesAcrossOwners && ownership === 'personal' ? '-my-questions' : '';
+    const ownerTitleSuffix = collidesAcrossOwners ? (ownership === 'personal' ? ' · My Questions' : ' · ExamVerse Original') : '';
     const def: PracticeTestDefinition = {
-      id: `${examId}-${subjectId}-${slug(rawSource)}`,
+      id: `${examId}-${subjectId}-${slug(rawSource)}${ownershipSuffix}`,
       examId,
       subjectId,
       topicIds,
-      title: titleByRawSource.get(rawSource) ?? lightlyCleanFileName(parsed.fileName),
+      title: `${titleByGroup.get(key) ?? lightlyCleanFileName(parsed.fileName)}${ownerTitleSuffix}`,
       questionIds: playable.map((q) => q.id),
       source: parsed.kind,
       questionCount: playable.length,
@@ -254,6 +275,7 @@ export function buildPracticeTests(
       rawSource,
       scope: 'paper',
       topicCount: topicIds.length,
+      questionOwnership: ownership,
       skippedQuestionCount: skipped,
     };
 
@@ -410,6 +432,7 @@ export type SortKey = 'name' | 'recent' | 'attempts' | 'questions' | 'best';
 
 export interface LibraryFilters {
   query: string;
+  questionSource: QuestionOwnershipFilter;
   type: TypeFilter;
   status: StatusFilter;
   chapterKey: string; // '' = any
@@ -417,7 +440,7 @@ export interface LibraryFilters {
   sort: SortKey;
 }
 
-export const DEFAULT_FILTERS: LibraryFilters = { query: '', type: 'all', status: 'all', chapterKey: '', topicId: '', sort: 'name' };
+export const DEFAULT_FILTERS: LibraryFilters = { query: '', questionSource: 'all', type: 'all', status: 'all', chapterKey: '', topicId: '', sort: 'name' };
 
 /** The little the filter/sort layer needs to know about a test's history. */
 export interface TestActivity {
@@ -428,7 +451,7 @@ export interface TestActivity {
 export type ActivityLookup = (testId: string) => TestActivity | undefined;
 
 export function activeFilterCount(f: LibraryFilters): number {
-  return (f.type !== 'all' ? 1 : 0) + (f.status !== 'all' ? 1 : 0) + (f.chapterKey ? 1 : 0) + (f.topicId ? 1 : 0);
+  return (f.questionSource !== 'all' ? 1 : 0) + (f.type !== 'all' ? 1 : 0) + (f.status !== 'all' ? 1 : 0) + (f.chapterKey ? 1 : 0) + (f.topicId ? 1 : 0);
 }
 
 function normalizeText(s: string): string {
@@ -490,6 +513,7 @@ export function applyLibraryFilters(lib: TestLibrary, filters: LibraryFilters, a
   const isNarrowed = tokens.length > 0 || activeFilterCount(filters) > 0;
 
   const keep = (t: PracticeTestDefinition, ch: LibraryChapter): boolean => {
+    if (filters.questionSource !== 'all' && (t.questionOwnership ?? 'original') !== filters.questionSource) return false;
     if (filters.chapterKey && ch.key !== filters.chapterKey) return false;
     if (filters.topicId && !t.topicIds.includes(filters.topicId)) return false;
     if (filters.type !== 'all' && t.scope !== filters.type) return false;

@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Trophy, ListChecks, RotateCcw, Home } from 'lucide-react';
+import { Trophy, ListChecks, RotateCcw, Home, MoreVertical } from 'lucide-react';
 import { usePracticeSessionStore } from '../store/practiceSessionStore';
 import { resolveQuestionsByIds } from '../services/questionRepository';
-import { buildSessionQuestionIds, computeUniversalResult } from '../services/practiceService';
+import { buildSessionQuestionIds } from '../services/practiceService';
 import { getPracticeTestById } from '../services/practiceTestRepository';
 import { useCompletedPracticeSession } from '../hooks/useCompletedPracticeSession';
 import { analyzePracticeSession } from '../services/practiceAnalysisService';
@@ -27,6 +27,7 @@ export default function UniversalResultPage() {
   // Earlier attempts of the same test come from the ledger; if it can't be read the comparison table simply has none.
   const [ledger, setLedger] = useState<UniversalAttemptRecord[]>([]);
   const [isRetrying, setIsRetrying] = useState(false);
+  const [showResultActions, setShowResultActions] = useState(false);
   const loadedRef = useRef(false);
   // Set the moment a retake begins. Starting a new session replaces the completed one in the store, which
   // would otherwise trip the "nothing to show — go home" redirect below and beat the navigation to /session.
@@ -62,9 +63,6 @@ export default function UniversalResultPage() {
   if (!session || !loaded) {
     return <div className="max-w-2xl mx-auto pt-10"><div className="card h-64 shimmer" style={{ background: 'var(--border)' }} /></div>;
   }
-
-  const result = computeUniversalResult(session, questionsById);
-  const hasNegativeMarking = (session.config.marking?.negativeMarks ?? 0) > 0;
 
   async function handleRetry() {
     if (!session) return;
@@ -118,33 +116,30 @@ export default function UniversalResultPage() {
         )}
       </motion.div>
 
-      <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.05 }} className="card p-6 text-center">
-        <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--text-muted)' }}>Score</p>
-        <p className="text-4xl font-display font-bold" style={{ color: 'var(--text-primary)' }}>
-          {result.marks} <span className="text-lg font-medium" style={{ color: 'var(--text-muted)' }}>/ {result.maxMarks}</span>
-        </p>
-        <p className="text-sm mt-1" style={{ color: result.percentage >= 0 ? 'var(--text-secondary)' : '#ef4444' }}>{result.percentage}%</p>
-        {hasNegativeMarking && (
-          <p className="text-xs mt-2" style={{ color: 'var(--text-muted)' }}>
-            +{session.config.marking!.marksPerCorrect} correct · −{session.config.marking!.negativeMarks} incorrect
-          </p>
-        )}
-      </motion.div>
+      <div className="flex justify-end">
+        <div className="relative">
+          <button type="button" onClick={() => setShowResultActions((open) => !open)} aria-haspopup="menu" aria-expanded={showResultActions}
+            className="btn-secondary inline-flex items-center gap-2 px-3 py-2 text-xs font-semibold">
+            <MoreVertical size={15} /> More actions
+          </button>
+          {showResultActions && (
+            <div role="menu" aria-label="Result actions" className="absolute right-0 top-full mt-2 z-30 w-52 rounded-xl py-1 shadow-xl"
+              style={{ background: 'var(--card)', border: '1px solid var(--border)' }}>
+              <button role="menuitem" type="button" onClick={() => { setShowResultActions(false); navigate(attemptId ? `/session/result/${encodeURIComponent(attemptId)}/review` : '/session/result/review'); }} className="w-full flex items-center gap-2 px-3 py-2.5 text-left text-sm hover:bg-gray-100 dark:hover:bg-white/5" style={{ color: 'var(--text-primary)' }}>
+                <ListChecks size={15} /> Review Answers
+              </button>
+              <button role="menuitem" type="button" disabled={isRetrying} onClick={() => { setShowResultActions(false); void handleRetry(); }} className="w-full flex items-center gap-2 px-3 py-2.5 text-left text-sm hover:bg-gray-100 dark:hover:bg-white/5 disabled:opacity-50" style={{ color: 'var(--text-primary)' }}>
+                <RotateCcw size={15} /> {isRetrying ? 'Starting…' : session.config.testDefinitionId ? 'Retake Test' : 'Retry'}
+              </button>
+              <button role="menuitem" type="button" onClick={() => { setShowResultActions(false); handleDone(); }} className="w-full flex items-center gap-2 px-3 py-2.5 text-left text-sm hover:bg-gray-100 dark:hover:bg-white/5" style={{ color: 'var(--text-primary)' }}>
+                <Home size={15} /> {isPastAttempt ? 'Back' : 'Back Home'}
+              </button>
+            </div>
+          )}
+        </div>
+      </div>
 
-      <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="space-y-2.5">
-        <button onClick={() => navigate(attemptId ? `/session/result/${encodeURIComponent(attemptId)}/review` : '/session/result/review')} className="btn-secondary w-full flex items-center justify-center gap-2 py-3">
-          <ListChecks size={16} /> Review Answers
-        </button>
-        <button onClick={handleRetry} disabled={isRetrying} className="btn-secondary w-full flex items-center justify-center gap-2 py-3">
-          <RotateCcw size={16} /> {isRetrying ? 'Starting…' : session.config.testDefinitionId ? 'Retake Test' : 'Retry'}
-        </button>
-        <button onClick={handleDone} className="btn-primary w-full flex items-center justify-center gap-2 py-3">
-          <Home size={16} /> {isPastAttempt ? 'Back' : 'Done'}
-        </button>
-      </motion.div>
-
-      {analysis && resultContext && <AnalysisView analysis={analysis} context={resultContext} variant="practice" />}
-      <PracticeAnalysisExtras session={session} questionsById={questionsById} />
+      {analysis && resultContext && <AnalysisView analysis={analysis} context={resultContext} variant="practice" additionalPerformance={<PracticeAnalysisExtras session={session} questionsById={questionsById} />} />}
     </div>
   );
 }

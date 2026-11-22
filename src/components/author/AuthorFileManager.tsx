@@ -10,8 +10,9 @@ import {
 import { buildBackup } from '../../services/author/authorBackup';
 import { findImportConflicts, importTree, type IncomingFile } from '../../services/author/authorImportTree';
 import { isSameOrDescendant } from '../../services/author/authorNames';
-import type { AuthorFile, AuthorFolder, ConflictPolicy } from '../../types/authorStudio';
+import type { AuthorFile, AuthorFolder, AuthorPracticeTarget, ConflictPolicy } from '../../types/authorStudio';
 import { AuthorTree, FolderPickerDialog } from './AuthorTree';
+import { AuthorAddQuestionDialog } from './AuthorAddQuestionDialog';
 import { ImportConflictDialog, ImportReportDialog, NameDialog } from './AuthorDialogs';
 import { downloadBlob, formatBytes, formatWhen, readDroppedFiles, readPickedFiles } from './authorUi';
 
@@ -39,9 +40,13 @@ interface Props {
   /** Bumped by the parent when something outside changed the data (e.g. a save in the viewer). */
   refreshKey: number;
   onChanged: () => void;
+  autoAddQuestionOnOpen?: boolean;
+  practiceTarget?: AuthorPracticeTarget;
+  onAutoAddHandled?: () => void;
+  onAutoAddCompleted?: () => void;
 }
 
-export function AuthorFileManager({ initialView, startFolderId = null, onOpenFile, refreshKey, onChanged }: Props) {
+export function AuthorFileManager({ initialView, startFolderId = null, onOpenFile, refreshKey, onChanged, autoAddQuestionOnOpen = false, practiceTarget, onAutoAddHandled, onAutoAddCompleted }: Props) {
   const [folderId, setFolderId] = useState<string | null>(startFolderId);
   const [folders, setFolders] = useState<AuthorFolder[]>([]);
   const [children, setChildren] = useState<{ folders: AuthorFolder[]; files: AuthorFile[] }>({ folders: [], files: [] });
@@ -57,6 +62,9 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
   const [menu, setMenu] = useState<MenuState | null>(null);
   const [treeOpen, setTreeOpen] = useState(false);
   const [dragging, setDragging] = useState(false);
+  const [addQuestionOpen, setAddQuestionOpen] = useState(false);
+  const [addQuestionFolderId, setAddQuestionFolderId] = useState<string | null>(null);
+  const [addQuestionFileId, setAddQuestionFileId] = useState<string | null>(null);
 
   const [dialog, setDialog] = useState<
     | { type: 'new-folder' } | { type: 'new-file' } | { type: 'rename'; item: Item }
@@ -68,6 +76,7 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
 
   const fileInput = useRef<HTMLInputElement>(null);
   const folderInput = useRef<HTMLInputElement>(null);
+  const autoAddHandledRef = useRef(false);
 
   const reload = useCallback(async () => {
     try {
@@ -94,6 +103,14 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
     const id = setTimeout(() => { void reload(); }, query ? 200 : 0); // debounce typing only
     return () => clearTimeout(id);
   }, [reload, refreshKey, query]);
+
+  useEffect(() => {
+    if (!autoAddQuestionOnOpen) { autoAddHandledRef.current = false; return; }
+    if (loading || autoAddHandledRef.current) return;
+    autoAddHandledRef.current = true;
+    startAddQuestion(folderId);
+    onAutoAddHandled?.();
+  }, [autoAddQuestionOnOpen, loading, folderId, onAutoAddHandled]);
 
   const run = useCallback(async (label: string, work: () => Promise<unknown>, success?: string) => {
     setBusy(true);
@@ -150,6 +167,11 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
   function goTo(id: string | null) { setFolderId(id); setSelection(new Set()); setQuery(''); setFilter('all'); setTreeOpen(false); }
   function toggleSelect(i: Item) { setSelection((prev) => { const n = new Set(prev); const k = itemKey(i); if (n.has(k)) n.delete(k); else n.add(k); return n; }); }
   function openItem(i: Item) { if (i.kind === 'folder') goTo(i.folder.id); else onOpenFile(i.file.id); }
+  function startAddQuestion(targetFolderId: string | null = folderId, targetFileId: string | null = null) {
+    setAddQuestionFolderId(targetFolderId);
+    setAddQuestionFileId(targetFileId);
+    setAddQuestionOpen(true);
+  }
   function openMenu(e: ReactMouseEvent, item: Item) {
     e.preventDefault(); e.stopPropagation();
     const r = (e.currentTarget as HTMLElement).getBoundingClientRect();
@@ -243,18 +265,20 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
               </span>
             ))}
           </nav>
-          {folderId === null ? (
-            <div className="text-[11px] rounded-lg px-3 py-2" style={{ background: 'var(--border)', color: 'var(--text-secondary)' }}>
-              Four fixed subjects are shown here. Open a subject to create folders, question files or upload JSON.
-            </div>
-          ) : (
-            <div className="flex flex-wrap gap-1.5">
+          <div className="flex flex-wrap items-center gap-1.5">
+            {folderId === null && (
+              <span className="text-[11px] rounded-lg px-3 py-2" style={{ background: 'var(--border)', color: 'var(--text-secondary)' }}>
+                Choose any subject or nested folder when adding a question.
+              </span>
+            )}
+            <button type="button" className="btn-primary text-xs inline-flex items-center gap-1 px-3 py-2" onClick={() => startAddQuestion(folderId)}><FilePlus2 size={14} /> Add Question</button>
+            {folderId !== null && <>
               <button type="button" className="btn-ghost text-xs inline-flex items-center gap-1 px-2.5 py-1.5" onClick={() => setDialog({ type: 'new-folder' })}><FolderPlus size={14} /> Folder</button>
               <button type="button" className="btn-ghost text-xs inline-flex items-center gap-1 px-2.5 py-1.5" onClick={() => setDialog({ type: 'new-file' })}><FilePlus2 size={14} /> File</button>
               <button type="button" className="btn-ghost text-xs inline-flex items-center gap-1 px-2.5 py-1.5" onClick={() => fileInput.current?.click()}><Upload size={14} /> Upload</button>
               <button type="button" className="btn-ghost text-xs inline-flex items-center gap-1 px-2.5 py-1.5" onClick={() => folderInput.current?.click()}><FolderUp size={14} /> Upload folder</button>
-            </div>
-          )}
+            </>}
+          </div>
           <input ref={fileInput} type="file" multiple accept=".json,application/json" className="hidden" onChange={async (e) => { const f = e.target.files; if (f?.length) await startImport(await readPickedFiles(f), 'upload'); e.target.value = ''; }} />
           <input ref={folderInput} type="file" multiple className="hidden" {...({ webkitdirectory: '' } as object)} onChange={async (e) => { const f = e.target.files; if (f?.length) await startImport(await readPickedFiles(f), 'folder-upload'); e.target.value = ''; }} />
         </div>
@@ -370,6 +394,22 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
         )}
       </section>
 
+      <AuthorAddQuestionDialog
+        open={addQuestionOpen}
+        folders={folders}
+        currentFolderId={addQuestionFolderId}
+        initialFileId={addQuestionFileId}
+        practiceTarget={practiceTarget}
+        onCancel={() => { setAddQuestionOpen(false); onAutoAddCompleted?.(); }}
+        onComplete={(id, targetFolderId) => {
+          setAddQuestionOpen(false);
+          onAutoAddCompleted?.();
+          if (targetFolderId !== null) goTo(targetFolderId);
+          onChanged();
+          onOpenFile(id);
+        }}
+      />
+
       {/* Context menu */}
       {menu && <ItemMenu menu={menu} onClose={() => setMenu(null)} actions={{
         open: () => openItem(menu.item),
@@ -380,6 +420,7 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
         favorite: () => void run('Favourite', () => (menu.item.kind === 'folder' ? setFolderFavorite(menu.item.folder.id, !menu.item.folder.favorite) : setFileFavorite(menu.item.file.id, !menu.item.file.favorite))),
         download: () => void download(menu.item),
         remove: () => setDialog({ type: 'delete', items: [menu.item] }),
+        addQuestion: () => startAddQuestion(menu.item.kind === 'folder' ? menu.item.folder.id : menu.item.file.folderId, menu.item.kind === 'file' ? menu.item.file.id : null),
       }} />}
 
       {/* Dialogs */}
@@ -430,7 +471,7 @@ function FolderPlusIcon() {
   return <span className="shrink-0 rounded-md bg-brand-500/10 p-1" aria-hidden><FolderPlus size={16} className="text-brand-500" /></span>;
 }
 
-interface MenuActions { open: () => void; rename: () => void; move: () => void; copy: () => void; duplicate: () => void; favorite: () => void; download: () => void; remove: () => void }
+interface MenuActions { open: () => void; addQuestion: () => void; rename: () => void; move: () => void; copy: () => void; duplicate: () => void; favorite: () => void; download: () => void; remove: () => void }
 
 function ItemMenu({ menu, onClose, actions }: { menu: MenuState; onClose: () => void; actions: MenuActions }) {
   const ref = useRef<HTMLDivElement>(null);
@@ -446,6 +487,7 @@ function ItemMenu({ menu, onClose, actions }: { menu: MenuState; onClose: () => 
   const fixedSubject = menu.item.kind === 'folder' && !!menu.item.folder.systemSubjectId;
   const entries: { label: string; icon: typeof Pencil; run: () => void; danger?: boolean }[] = [
     { label: menu.item.kind === 'folder' ? 'Open folder' : 'Open', icon: FileJson, run: actions.open },
+    { label: menu.item.kind === 'folder' ? 'Add question here' : 'Add question to this file', icon: FilePlus2, run: actions.addQuestion },
     { label: 'Rename', icon: Pencil, run: actions.rename },
     { label: 'Move to…', icon: FolderInput, run: actions.move },
     { label: 'Copy to…', icon: Copy, run: actions.copy },
@@ -453,7 +495,7 @@ function ItemMenu({ menu, onClose, actions }: { menu: MenuState; onClose: () => 
     { label: fav ? 'Remove favourite' : 'Add to favourites', icon: Star, run: actions.favorite },
     { label: menu.item.kind === 'folder' ? 'Export folder (ZIP)' : 'Download', icon: Download, run: actions.download },
     { label: 'Move to Trash', icon: Trash2, run: actions.remove, danger: true },
-  ].filter((entry) => !fixedSubject || ['Open folder', fav ? 'Remove favourite' : 'Add to favourites', 'Export folder (ZIP)'].includes(entry.label));
+  ].filter((entry) => !fixedSubject || ['Open folder', 'Add question here', fav ? 'Remove favourite' : 'Add to favourites', 'Export folder (ZIP)'].includes(entry.label));
   return (
     <div ref={ref} role="menu" aria-label={`Actions for ${itemName(menu.item)}`} style={{ position: 'fixed', left: Math.max(8, menu.x), top: Math.max(8, menu.y), zIndex: 60, background: 'var(--card)', border: '1px solid var(--border)' }} className="rounded-xl shadow-xl py-1 w-48">
       {entries.map((e) => (

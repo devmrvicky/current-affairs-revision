@@ -1,12 +1,11 @@
-import { type ReactNode } from 'react';
+import { type ReactNode, useState } from 'react';
 import {
-  Trophy, Target, TrendingUp, Gauge, BarChart3, Layers, PieChart as PieChartIcon, ListChecks,
-  BookOpenCheck, Smile, Clock, Lightbulb, CheckCircle2, Info,
+  Trophy, Target, TrendingUp, Gauge, BarChart3, Layers, ListChecks,
+  Smile, Clock, Lightbulb, CheckCircle2, Info,
 } from 'lucide-react';
 import { formatDuration } from '../../utils';
 import { CollapsibleSection } from './CollapsibleSection';
-import { AnalysisDonutChart, AnalysisBarChart } from './AnalysisCharts';
-import { SolutionsReview } from './SolutionsReview';
+import { AnalysisBarChart } from './AnalysisCharts';
 import { ResultTables } from '../results/ResultTables';
 import type { ResultContext } from '../../services/resultTables';
 import type { AreaPerformance, MockAnalysis, TimedQuestionRef } from '../../types/mockAnalysis';
@@ -17,6 +16,8 @@ interface AnalysisViewProps {
   context: ResultContext;
   /** 'mock' shows rank/percentile/cut-off cards (honest "unavailable" states); 'practice' shows what a practice session can know. */
   variant: 'mock' | 'practice';
+  /** Practice-only history panel, grouped with the other secondary analysis. */
+  additionalPerformance?: ReactNode;
 }
 
 /**
@@ -24,15 +25,26 @@ interface AnalysisViewProps {
  * session — both produce the same MockAnalysis. Sections are collapsible so small screens get a
  * scannable page; anything that depends on data the attempt never recorded says so instead of showing zeros.
  */
-export function AnalysisView({ analysis, context, variant }: AnalysisViewProps) {
+type AnalysisTab = 'questions' | 'scorecard' | 'subject' | 'performance';
+
+const ANALYSIS_TABS: { id: AnalysisTab; label: string; shortLabel: string; icon: typeof ListChecks; hint: string }[] = [
+  { id: 'questions', label: 'Question-wise', shortLabel: 'Questions', icon: ListChecks, hint: 'Answers and detailed solutions' },
+  { id: 'scorecard', label: 'Scorecard', shortLabel: 'Scorecard', icon: Trophy, hint: 'Your overall result' },
+  { id: 'subject', label: 'Subject-wise', shortLabel: 'Subjects', icon: BarChart3, hint: 'Subject, section and topic performance' },
+  { id: 'performance', label: 'More analysis', shortLabel: 'More', icon: Gauge, hint: 'Timing, difficulty, strengths and attempts' },
+];
+
+/** One compact, tabbed result workspace shared by Practice, Test and Mock results. */
+export function AnalysisView({ analysis, context, variant, additionalPerformance }: AnalysisViewProps) {
   const { summary, timeInsights, recommendations, dataAvailability } = analysis;
   const scoring = summary.scoringApplicable !== false;
   const multiSubject = analysis.subjectPerformance.length > 1;
   const avgPerQuestion = timeInsights?.averageSeconds ?? analysis.speed.averageTimePerQuestionSeconds;
+  const [activeTab, setActiveTab] = useState<AnalysisTab>('questions');
 
   return (
-    <div className="space-y-4">
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+    <div className="space-y-4" data-testid="analysis-workspace">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
         {variant === 'mock' ? (
           <>
             <SummaryCard icon={<Trophy size={15} />} label="All India Rank" value={analysis.ranking ? `${analysis.ranking.rank} / ${analysis.ranking.totalParticipants}` : 'Unavailable'} hint={analysis.ranking ? undefined : 'Needs comparison data'} />
@@ -44,12 +56,7 @@ export function AnalysisView({ analysis, context, variant }: AnalysisViewProps) 
           </>
         ) : (
           <>
-            <SummaryCard
-              icon={<Target size={15} />}
-              label={scoring ? 'Score' : 'Correct'}
-              value={scoring ? `${summary.score} / ${summary.maxScore}` : `${summary.correct} / ${summary.totalQuestions}`}
-              hint={scoring ? `${summary.percentage.toFixed(1)}%` : `${Math.round((summary.correct / Math.max(1, summary.totalQuestions)) * 100)}% of all questions`}
-            />
+            <SummaryCard icon={<Target size={15} />} label={scoring ? 'Score' : 'Correct'} value={scoring ? `${summary.score} / ${summary.maxScore}` : `${summary.correct} / ${summary.totalQuestions}`} hint={scoring ? `${summary.percentage.toFixed(1)}%` : `${Math.round((summary.correct / Math.max(1, summary.totalQuestions)) * 100)}% of all questions`} />
             <SummaryCard icon={<Gauge size={15} />} label="Accuracy" value={summary.accuracy !== null ? `${summary.accuracy.toFixed(1)}%` : 'N/A'} hint={summary.accuracy !== null ? `of ${summary.attempted} attempted` : 'Nothing attempted'} />
             <SummaryCard icon={<ListChecks size={15} />} label="Attempted" value={`${summary.attempted} / ${summary.totalQuestions}`} hint={`${summary.unattempted} unanswered`} />
             <SummaryCard icon={<Clock size={15} />} label="Total time" value={formatDuration(summary.timeTakenSeconds)} />
@@ -59,9 +66,9 @@ export function AnalysisView({ analysis, context, variant }: AnalysisViewProps) 
         )}
       </div>
 
-      <div className="card p-4 sm:p-5">
+      <div className="card p-3.5 sm:p-4">
         <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>{analysis.overview.message}</p>
-        <div className="flex flex-wrap gap-x-6 gap-y-1 mt-3 text-xs" style={{ color: 'var(--text-muted)' }}>
+        <div className="flex flex-wrap gap-x-5 gap-y-1.5 mt-2.5 text-xs" style={{ color: 'var(--text-muted)' }}>
           <span>Correct: <b style={{ color: '#22c55e' }} data-testid="an-correct">{summary.correct}</b></span>
           <span>Incorrect: <b style={{ color: '#ef4444' }} data-testid="an-incorrect">{summary.incorrect}</b></span>
           <span>Unattempted: <b data-testid="an-unattempted">{summary.unattempted}</b></span>
@@ -70,142 +77,84 @@ export function AnalysisView({ analysis, context, variant }: AnalysisViewProps) 
         </div>
       </div>
 
-      <ResultTables analysis={analysis} context={context} />
-
-      {recommendations && (
-        <CollapsibleSection title="Revision plan" subtitle="Based on how you did on each topic in this test" icon={<Lightbulb size={18} />} defaultOpen>
-          <RevisionPlan recommendations={recommendations} multiTopic={analysis.topicPerformance.length > 1} />
-        </CollapsibleSection>
-      )}
-
-      {(variant === 'mock' || multiSubject) && (
-        <CollapsibleSection title="Subject Performance" subtitle={`${analysis.subjectPerformance.length} subject${analysis.subjectPerformance.length === 1 ? '' : 's'}`} icon={<BarChart3 size={18} />} defaultOpen={variant === 'mock'}>
-          <AnalysisBarChart
-            data={analysis.subjectPerformance.map((s) => ({ label: s.subjectName, value: s.marks, maxValue: s.maxMarks }))}
-            valueLabel={scoring ? 'Your Score' : 'Correct'} maxLabel={scoring ? 'Max Marks' : 'Questions'}
-          />
-        </CollapsibleSection>
-      )}
-
-      {timeInsights && (
-        <CollapsibleSection title="Time analysis" subtitle="Where your time went, question by question" icon={<Clock size={18} />}>
-          <TimeAnalysis analysis={analysis} />
-        </CollapsibleSection>
-      )}
-
-      {variant === 'mock' && (
-        <CollapsibleSection title="Speed Analysis" subtitle="Pacing across the test" icon={<Gauge size={18} />}>
-          <div className="grid grid-cols-2 gap-3 mb-4">
-            <div className="rounded-xl p-3 text-center" style={{ background: 'var(--border)' }}>
-              <p className="text-lg font-bold" style={{ color: 'var(--text-primary)' }}>{analysis.speed.questionsPerMinute ?? 'N/A'}</p>
-              <p className="text-[11px]" style={{ color: 'var(--text-muted)' }}>Questions / min</p>
-            </div>
-            <div className="rounded-xl p-3 text-center" style={{ background: 'var(--border)' }}>
-              <p className="text-lg font-bold" style={{ color: 'var(--text-primary)' }}>{analysis.speed.averageTimePerQuestionSeconds ?? 'N/A'}s</p>
-              <p className="text-[11px]" style={{ color: 'var(--text-muted)' }}>Avg time / question</p>
-            </div>
-          </div>
-          <p className="text-xs font-medium mb-2" style={{ color: 'var(--text-secondary)' }}>By subject</p>
-          <div className="space-y-1.5 mb-4">
-            {analysis.speed.bySubject.map((s) => (
-              <div key={s.subjectId} className="flex items-center justify-between text-xs">
-                <span style={{ color: 'var(--text-secondary)' }}>{s.subjectName}</span>
-                <span className="font-medium" style={{ color: 'var(--text-primary)' }}>{s.avgTimePerQuestionSeconds}s/question</span>
-              </div>
-            ))}
-          </div>
-          {analysis.speed.byDifficulty.length > 0 && (
-            <>
-              <p className="text-xs font-medium mb-2" style={{ color: 'var(--text-secondary)' }}>By difficulty</p>
-              <div className="grid grid-cols-3 gap-2">
-                {analysis.speed.byDifficulty.map((d) => (
-                  <div key={d.difficulty} className="rounded-lg p-2 text-center" style={{ background: 'var(--border)' }}>
-                    <p className="text-sm font-bold capitalize" style={{ color: 'var(--text-primary)' }}>{d.avgTimeSeconds}s</p>
-                    <p className="text-[10px] capitalize" style={{ color: 'var(--text-muted)' }}>{d.difficulty}</p>
-                  </div>
-                ))}
-              </div>
-            </>
-          )}
-        </CollapsibleSection>
-      )}
-
-      <CollapsibleSection title="Strong vs Weak Areas" icon={<TrendingUp size={18} />}>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div>
-            <p className="text-xs font-semibold mb-2" style={{ color: '#22c55e' }}>STRONG</p>
-            {analysis.strongAreas.subjects.length === 0 && analysis.strongAreas.topics.length === 0 ? (
-              <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Not enough data yet to call out strengths confidently.</p>
-            ) : (
-              <div className="flex flex-wrap gap-1.5">
-                {[...analysis.strongAreas.subjects, ...analysis.strongAreas.topics].map((a) => (
-                  <span key={a.id} className="text-xs px-2.5 py-1 rounded-full" style={{ background: 'rgba(34,197,94,0.12)', color: '#16a34a' }}>{a.name}</span>
-                ))}
-              </div>
-            )}
-          </div>
-          <div>
-            <p className="text-xs font-semibold mb-2" style={{ color: '#ef4444' }}>WEAK</p>
-            {analysis.weakAreas.subjects.length === 0 && analysis.weakAreas.topics.length === 0 ? (
-              <p className="text-xs" style={{ color: 'var(--text-muted)' }}>No clear weak areas identified.</p>
-            ) : (
-              <div className="flex flex-wrap gap-1.5">
-                {[...analysis.weakAreas.subjects, ...analysis.weakAreas.topics].map((a) => (
-                  <span key={a.id} className="text-xs px-2.5 py-1 rounded-full" style={{ background: 'rgba(239,68,68,0.12)', color: '#dc2626' }}>{a.name}</span>
-                ))}
-              </div>
-            )}
-          </div>
+      <div className="rounded-2xl p-1.5 sm:p-2 sticky top-0 z-20" style={{ background: 'var(--card)', border: '1px solid var(--border)', boxShadow: '0 5px 18px rgba(0,0,0,0.04)' }}>
+        <div role="tablist" aria-label="Test analysis sections" className="grid grid-cols-4 gap-1">
+          {ANALYSIS_TABS.map((tab) => {
+            const Icon = tab.icon;
+            const selected = activeTab === tab.id;
+            return (
+              <button
+                key={tab.id}
+                type="button"
+                role="tab"
+                id={`analysis-tab-${tab.id}`}
+                aria-selected={selected}
+                aria-controls={`analysis-panel-${tab.id}`}
+                onClick={() => setActiveTab(tab.id)}
+                className="min-w-0 rounded-xl px-1.5 py-2.5 sm:px-3 transition-colors flex flex-col sm:flex-row items-center justify-center gap-1.5 sm:gap-2"
+                style={selected ? { background: 'var(--brand-500, #6366f1)', color: '#fff', boxShadow: '0 2px 7px rgba(99,102,241,0.2)' } : { color: 'var(--text-secondary)' }}
+              >
+                <Icon size={16} aria-hidden />
+                <span className="text-[10px] sm:text-xs font-semibold whitespace-nowrap">{tab.shortLabel}</span>
+              </button>
+            );
+          })}
         </div>
-      </CollapsibleSection>
+        <p className="text-[10px] sm:text-[11px] px-2 pt-1.5 text-center" style={{ color: 'var(--text-muted)' }}>{ANALYSIS_TABS.find((tab) => tab.id === activeTab)?.hint}</p>
+      </div>
 
-      {(variant === 'mock' || multiSubject) && (
-        <CollapsibleSection title="Time Distribution" subtitle="Where your time went, by subject" icon={<PieChartIcon size={18} />}>
-          <AnalysisDonutChart data={analysis.timeDistribution.map((t) => ({ name: t.subjectName, value: t.timeSpentSeconds }))} />
-        </CollapsibleSection>
-      )}
+      <section role="tabpanel" id="analysis-panel-questions" aria-labelledby="analysis-tab-questions" hidden={activeTab !== 'questions'} className="space-y-3">
+        <div className="rounded-xl px-3 py-2.5" style={{ background: 'var(--border)' }}>
+          <p className="text-xs font-semibold" style={{ color: 'var(--text-primary)' }}>Question-wise analysis & solutions</p>
+          <p className="text-[11px] mt-0.5" style={{ color: 'var(--text-muted)' }}>Filter by result, subject, timing or marked status. Expand any row to view every option, your answer and the full explanation.</p>
+        </div>
+        <ResultTables analysis={analysis} context={context} sections={['question']} />
+      </section>
 
-      {dataAvailability?.visitedState !== false && (
-        <CollapsibleSection title="Question Preference" subtitle="How you engaged with questions" icon={<ListChecks size={18} />}>
-          <AnalysisDonutChart
-            data={[
-              { name: 'Answered', value: analysis.questionPreference.answered, color: '#22c55e' },
-              { name: 'Answered + Marked', value: analysis.questionPreference.answeredAndMarked, color: '#8b5cf6' },
-              { name: 'Marked only', value: analysis.questionPreference.markedOnly, color: '#f59e0b' },
-              { name: 'Skipped', value: analysis.questionPreference.visitedNotAnswered, color: '#94a3b8' },
-              { name: 'Not visited', value: analysis.questionPreference.notVisited, color: '#e2e8f0' },
-            ]}
-          />
-        </CollapsibleSection>
-      )}
+      <section role="tabpanel" id="analysis-panel-scorecard" aria-labelledby="analysis-tab-scorecard" hidden={activeTab !== 'scorecard'}>
+        <ResultTables analysis={analysis} context={context} sections={['scorecard']} />
+      </section>
 
-      {variant === 'mock' && (
-        <CollapsibleSection title="Subject Preference" subtitle="Attempt behavior, not performance" icon={<BookOpenCheck size={18} />}>
-          <div className="space-y-2.5">
-            {analysis.subjectPreference.map((p) => (
-              <div key={p.subjectId} className="flex items-center justify-between text-xs">
-                <span style={{ color: 'var(--text-secondary)' }}>{p.subjectName}</span>
-                <div className="flex items-center gap-2">
-                  <span style={{ color: 'var(--text-muted)' }}>{p.attemptRate}% attempted</span>
-                  <span
-                    className="px-2 py-0.5 rounded-full text-[10px] font-semibold"
-                    style={{
-                      background: p.label === 'High' ? 'rgba(34,197,94,0.12)' : p.label === 'Medium' ? 'rgba(245,158,11,0.12)' : 'rgba(148,163,184,0.15)',
-                      color: p.label === 'High' ? '#16a34a' : p.label === 'Medium' ? '#b45309' : '#64748b',
-                    }}
-                  >
-                    {p.label}
-                  </span>
-                </div>
-              </div>
-            ))}
+      <section role="tabpanel" id="analysis-panel-subject" aria-labelledby="analysis-tab-subject" hidden={activeTab !== 'subject'} className="space-y-3">
+        <ResultTables analysis={analysis} context={context} sections={['section', 'subject', 'topic']} />
+        {(variant === 'mock' || multiSubject) && (
+          <CollapsibleSection title="Subject performance" subtitle={`${analysis.subjectPerformance.length} subject${analysis.subjectPerformance.length === 1 ? '' : 's'}`} icon={<BarChart3 size={18} />} defaultOpen>
+            <AnalysisBarChart data={analysis.subjectPerformance.map((item) => ({ label: item.subjectName, value: item.marks, maxValue: item.maxMarks }))} valueLabel={scoring ? 'Your Score' : 'Correct'} maxLabel={scoring ? 'Max Marks' : 'Questions'} />
+          </CollapsibleSection>
+        )}
+      </section>
+
+      <section role="tabpanel" id="analysis-panel-performance" aria-labelledby="analysis-tab-performance" hidden={activeTab !== 'performance'} className="space-y-3">
+        <ResultTables analysis={analysis} context={context} sections={['performance']} />
+        {recommendations && (
+          <CollapsibleSection title="Revision plan" subtitle="Based on how you did on each topic in this test" icon={<Lightbulb size={18} />} defaultOpen>
+            <RevisionPlan recommendations={recommendations} multiTopic={analysis.topicPerformance.length > 1} />
+          </CollapsibleSection>
+        )}
+        {timeInsights && (
+          <CollapsibleSection title="Time analysis" subtitle="Where your time went, question by question" icon={<Clock size={18} />}>
+            <TimeAnalysis analysis={analysis} />
+          </CollapsibleSection>
+        )}
+        {variant === 'mock' && (
+          <CollapsibleSection title="Speed analysis" subtitle="Pacing across the test" icon={<Gauge size={18} />}>
+            <div className="grid grid-cols-2 gap-3 mb-4">
+              <div className="rounded-xl p-3 text-center" style={{ background: 'var(--border)' }}><p className="text-lg font-bold" style={{ color: 'var(--text-primary)' }}>{analysis.speed.questionsPerMinute ?? 'N/A'}</p><p className="text-[11px]" style={{ color: 'var(--text-muted)' }}>Questions / min</p></div>
+              <div className="rounded-xl p-3 text-center" style={{ background: 'var(--border)' }}><p className="text-lg font-bold" style={{ color: 'var(--text-primary)' }}>{analysis.speed.averageTimePerQuestionSeconds ?? 'N/A'}s</p><p className="text-[11px]" style={{ color: 'var(--text-muted)' }}>Avg time / question</p></div>
+            </div>
+            <p className="text-xs font-medium mb-2" style={{ color: 'var(--text-secondary)' }}>By subject</p>
+            <div className="space-y-1.5 mb-4">{analysis.speed.bySubject.map((item) => <div key={item.subjectId} className="flex items-center justify-between text-xs"><span style={{ color: 'var(--text-secondary)' }}>{item.subjectName}</span><span className="font-medium" style={{ color: 'var(--text-primary)' }}>{item.avgTimePerQuestionSeconds}s/question</span></div>)}</div>
+            {analysis.speed.byDifficulty.length > 0 && <><p className="text-xs font-medium mb-2" style={{ color: 'var(--text-secondary)' }}>By difficulty</p><div className="grid grid-cols-3 gap-2">{analysis.speed.byDifficulty.map((item) => <div key={item.difficulty} className="rounded-lg p-2 text-center" style={{ background: 'var(--border)' }}><p className="text-sm font-bold capitalize" style={{ color: 'var(--text-primary)' }}>{item.avgTimeSeconds}s</p><p className="text-[10px] capitalize" style={{ color: 'var(--text-muted)' }}>{item.difficulty}</p></div>)}</div></>}
+          </CollapsibleSection>
+        )}
+        <CollapsibleSection title="Strong vs Weak areas" icon={<TrendingUp size={18} />}>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div><p className="text-xs font-semibold mb-2" style={{ color: '#22c55e' }}>STRONG</p>{analysis.strongAreas.subjects.length === 0 && analysis.strongAreas.topics.length === 0 ? <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Not enough data yet to call out strengths confidently.</p> : <div className="flex flex-wrap gap-1.5">{[...analysis.strongAreas.subjects, ...analysis.strongAreas.topics].map((area) => <span key={area.id} className="text-xs px-2.5 py-1 rounded-full" style={{ background: 'rgba(34,197,94,0.12)', color: '#16a34a' }}>{area.name}</span>)}</div>}</div>
+            <div><p className="text-xs font-semibold mb-2" style={{ color: '#ef4444' }}>WEAK</p>{analysis.weakAreas.subjects.length === 0 && analysis.weakAreas.topics.length === 0 ? <p className="text-xs" style={{ color: 'var(--text-muted)' }}>No clear weak areas identified.</p> : <div className="flex flex-wrap gap-1.5">{[...analysis.weakAreas.subjects, ...analysis.weakAreas.topics].map((area) => <span key={area.id} className="text-xs px-2.5 py-1 rounded-full" style={{ background: 'rgba(239,68,68,0.12)', color: '#dc2626' }}>{area.name}</span>)}</div>}</div>
           </div>
         </CollapsibleSection>
-      )}
-
-      <CollapsibleSection title="Solutions" subtitle={`${analysis.solutions.length} questions — filter by incorrect, unanswered, slow or marked`} icon={<BookOpenCheck size={18} />}>
-        <SolutionsReview solutions={analysis.solutions} slowThresholdSeconds={timeInsights?.available && !timeInsights.tooFewToJudge ? timeInsights.slowThresholdSeconds : null} timingAvailable={dataAvailability?.perQuestionTime !== false} />
-      </CollapsibleSection>
+        {additionalPerformance}
+      </section>
     </div>
   );
 }

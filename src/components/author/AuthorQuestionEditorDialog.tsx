@@ -19,6 +19,8 @@ interface Props {
   initial: EditableQuestion | null;
   onCancel: () => void;
   onSave: (question: EditableQuestion) => void;
+  description?: string;
+  saving?: boolean;
 }
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'];
@@ -44,7 +46,7 @@ function optionId(option: unknown, index: number): string {
 }
 
 /** A structured editor for one question in the existing ExamVerse JSON question schema. */
-export function AuthorQuestionEditorDialog({ open, initial, onCancel, onSave }: Props) {
+export function AuthorQuestionEditorDialog({ open, initial, onCancel, onSave, description, saving = false }: Props) {
   const [question, setQuestion] = useState(String(initial?.question ?? ''));
   const originalOptions = Array.isArray(initial?.options) ? initial!.options! : [];
   const seeded = originalOptions.map(optionDraft);
@@ -61,6 +63,7 @@ export function AuthorQuestionEditorDialog({ open, initial, onCancel, onSave }: 
 
   function submit(event: FormEvent) {
     event.preventDefault();
+    if (saving) return;
     const cleanOptions = options.map((value) => ({ text: value.text.trim(), image: value.image.trim() }));
     if (!question.trim()) return setError('Question text is required.');
     if (optionsOverLimit) return setError('This file has more than six options. Edit the JSON source for this question to avoid losing any option.');
@@ -91,7 +94,7 @@ export function AuthorQuestionEditorDialog({ open, initial, onCancel, onSave }: 
   }
 
   return (
-    <Modal open={open} onClose={onCancel} title={initial ? 'Edit question' : 'Add question'} description="Changes are kept in the file editor until you press Save." size="lg">
+    <Modal open={open} onClose={onCancel} title={initial ? 'Edit question' : 'Add question'} description={description ?? "Changes are kept in the file editor until you press Save."} size="lg">
       <form onSubmit={submit} className="space-y-3">
         <label className="block text-sm">
           <span style={{ color: 'var(--text-secondary)' }}>Question</span>
@@ -141,8 +144,8 @@ export function AuthorQuestionEditorDialog({ open, initial, onCancel, onSave }: 
         </div>
         <p role="alert" className="text-xs min-h-4 text-red-600">{error}</p>
         <div className="flex gap-2">
-          <button type="button" onClick={onCancel} className="btn-secondary flex-1 py-2.5 text-sm">Cancel</button>
-          <button type="submit" className="btn-primary flex-1 py-2.5 text-sm">{initial ? 'Apply changes' : 'Add question'}</button>
+          <button type="button" onClick={onCancel} disabled={saving} className="btn-secondary flex-1 py-2.5 text-sm">Cancel</button>
+          <button type="submit" disabled={saving} className="btn-primary flex-1 py-2.5 text-sm disabled:opacity-60">{saving ? 'Saving…' : initial ? 'Apply changes' : 'Add question'}</button>
         </div>
       </form>
     </Modal>

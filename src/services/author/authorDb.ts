@@ -133,6 +133,29 @@ export async function ensureSubjectFolders(): Promise<void> {
   });
 }
 
+/**
+ * Finds or creates a Personal Question Bank path that mirrors an ExamVerse Original chapter.
+ * The bundled/GitHub source is never written to; only this device's Author Studio folders are created.
+ */
+export async function ensureSubjectFolderPath(
+  subjectId: NonNullable<AuthorFolder['systemSubjectId']>,
+  segments: string[],
+): Promise<{ folderId: string; folders: AuthorFolder[] }> {
+  await ensureSubjectFolders();
+  const roots = await listFolders();
+  const root = roots.find((folder) => folder.parentId === null && folder.systemSubjectId === subjectId);
+  if (!root) throw new AuthorError('not-found', `The ${subjectId} subject folder is not available.`);
+  let parentId = root.id;
+  for (const rawSegment of segments) {
+    const segment = cleanName(rawSegment);
+    if (!segment) continue;
+    const children = await listChildren(parentId);
+    const existing = children.folders.find((folder) => nameKey(folder.name) === nameKey(segment));
+    parentId = existing?.id ?? (await createFolder(parentId, segment)).id;
+  }
+  return { folderId: parentId, folders: await listFolders() };
+}
+
 /** Stores the local Practice projection mapping on the author file, so future edits can update the same local test. */
 export async function setFilePracticeLink(id: string, practiceLink: NonNullable<AuthorFile['practiceLink']> | undefined): Promise<AuthorFile> {
   return withTx(async (tx) => {

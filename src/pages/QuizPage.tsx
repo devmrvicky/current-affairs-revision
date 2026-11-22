@@ -23,10 +23,12 @@ import { TestFileNamePopover } from '../components/exam/TestFileNamePopover';
 import { useQuestionSwipe } from '../hooks/useQuestionSwipe';
 import { summarizeQuiz } from '../services/sessionLifecycle';
 
+// Keep question changes lightweight: a tiny directional nudge, not a full-card slide.
+// With AnimatePresence mode=wait this remains a very short ~120ms hand-off.
 const questionSlideVariants = {
-  enter: (direction: number) => ({ opacity: 0, x: direction < 0 ? '100%' : '-100%' }),
+  enter: (direction: number) => ({ opacity: 0.88, x: direction < 0 ? 6 : -6 }),
   center: { opacity: 1, x: 0 },
-  exit: (direction: number) => ({ opacity: 0, x: direction < 0 ? '-100%' : '100%' }),
+  exit: (direction: number) => ({ opacity: 0.88, x: direction < 0 ? -6 : 6 }),
 };
 
 export default function QuizPage() {
@@ -369,7 +371,7 @@ export default function QuizPage() {
                 initial="enter"
                 animate="center"
                 exit="exit"
-                transition={{ duration: 0.2, ease: 'easeOut' }}
+                transition={{ duration: 0.06, ease: 'linear' }}
               >
                 {/* Question Card */}
                 <div className="card p-4 sm:p-6">

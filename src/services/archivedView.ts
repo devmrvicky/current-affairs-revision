@@ -29,7 +29,11 @@ function mockRows(session: MockSession, byId: Map<string, UniversalQuestion>): Q
     const status = selected === null ? 'skipped' : selected === q.correctAnswer ? 'correct' : 'wrong';
     return {
       id, no, sectionTitle: section.title, subject: subjectRegistry.getSubject(q.subjectId)?.name ?? q.subjectId, topic: getTopicDisplayName(q.subjectId, q.topicId),
-      difficulty: q.difficulty ?? null, status, marked: !!st?.isMarkedForReview, yourAnswer: textOf(q, selected), correctAnswer: textOf(q, q.correctAnswer) ?? q.correctAnswer,
+      difficulty: q.difficulty ?? null, status, marked: !!st?.isMarkedForReview,
+      options: q.options.map((option) => ({ id: option.id, text: option.text, image: option.image })),
+      selectedOptionId: selected,
+      correctOptionId: q.correctAnswer,
+      yourAnswer: textOf(q, selected), correctAnswer: textOf(q, q.correctAnswer) ?? q.correctAnswer,
       timeSeconds: st?.timeSpentSeconds > 0 ? st.timeSpentSeconds : null,
       marks: marksFor(status, { marksPerCorrect: section.marksPerQuestion, negativeMarks: section.negativeMarks }), question: q.question, explanation: q.explanation, baseDir: q.sourceMockBaseDir,
     };

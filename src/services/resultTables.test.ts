@@ -110,7 +110,9 @@ describe('question-wise table', () => {
     expect(t.questions.map((r) => r.marks)).toEqual([2, -0.5, 2, 0, -0.5, 2]);
     expect(t.questions.map((r) => r.status)).toEqual(['correct', 'wrong', 'correct', 'skipped', 'wrong', 'correct']);
     const q2 = t.questions[1];
-    expect(q2).toMatchObject({ sectionTitle: expect.any(String), difficulty: 'easy', yourAnswer: 'q2-opt-b', correctAnswer: 'q2-opt-a', timeSeconds: 100, explanation: 'Because q2' });
+    expect(q2).toMatchObject({ sectionTitle: expect.any(String), difficulty: 'easy', yourAnswer: 'q2-opt-b', correctAnswer: 'q2-opt-a', selectedOptionId: 'B', correctOptionId: 'A', timeSeconds: 100, explanation: 'Because q2' });
+    expect(q2.options).toHaveLength(4);
+    expect(q2.options[0]).toMatchObject({ id: 'A' });
     expect(t.questions[3]).toMatchObject({ yourAnswer: null, timeSeconds: null }); // skipped: no answer, no recorded time
     expect(t.questions[5].marked).toBe(true);
     expect(t.questions.filter((r) => r.marked)).toHaveLength(1);
@@ -122,6 +124,8 @@ describe('question-wise table', () => {
     expect(filterQuestionRows(t.questions, 'correct').map((r) => r.no)).toEqual([1, 3, 6]);
     expect(filterQuestionRows(t.questions, 'skipped').map((r) => r.no)).toEqual([4]);
     expect(filterQuestionRows(t.questions, 'marked').map((r) => r.no)).toEqual([6]);
+    expect(filterQuestionRows(t.questions, 'slow', 90).map((r) => r.no)).toEqual([2, 6]);
+    expect(filterQuestionRows(t.questions, 'slow', null)).toEqual([]);
     expect(filterQuestionRows(t.questions, 'all')).toHaveLength(6);
   });
   it('sorts by time, marks, status and number; rows with no time sort last either way; ties keep test order', () => {

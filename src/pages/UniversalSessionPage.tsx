@@ -48,10 +48,12 @@ import type { SessionQuestionState } from '../types/practiceSession';
 // text go through QuestionMarkdownRenderer — the same renderer the mock shell
 // uses — so maths (KaTeX), images and Hindi text render correctly here too.
 
+// Keep question changes lightweight: a tiny directional nudge, not a full-card slide.
+// With AnimatePresence mode=wait this remains a very short ~120ms hand-off.
 const questionSlideVariants = {
-  enter: (direction: number) => ({ opacity: 0, x: direction < 0 ? '100%' : '-100%' }),
+  enter: (direction: number) => ({ opacity: 0.88, x: direction < 0 ? 6 : -6 }),
   center: { opacity: 1, x: 0 },
-  exit: (direction: number) => ({ opacity: 0, x: direction < 0 ? '-100%' : '100%' }),
+  exit: (direction: number) => ({ opacity: 0.88, x: direction < 0 ? -6 : 6 }),
 };
 
 function toDisplayAttempts(questionIds: string[], states: SessionQuestionState[], questionsById: Map<string, UniversalQuestion>): QuestionAttempt[] {
@@ -528,7 +530,7 @@ export default function UniversalSessionPage() {
           initial="enter"
           animate="center"
           exit="exit"
-          transition={{ duration: 0.2, ease: 'easeOut' }}
+          transition={{ duration: 0.06, ease: 'linear' }}
           className={`${isTestMode ? 'py-4 sm:py-6 px-3 sm:px-5 lg:px-8 pb-6' : 'py-4 sm:py-6 px-3 sm:px-5 md:px-16 pb-16 md:pb-6'}`}
         >
           {!currentQuestion ? (

@@ -27,10 +27,12 @@ import { effectivePurpose, getMarkPurposeInfo, normalizePurposes, savedPurposes,
 import { QuestionMarkdownRenderer, QuestionOptionContent } from '../components/mock/QuestionMarkdownRenderer';
 import type { UniversalQuestion } from '../types/universalQuestion';
 
+// Keep question changes lightweight: a tiny directional nudge, not a full-card slide.
+// With AnimatePresence mode=wait this remains a very short ~120ms hand-off.
 const questionSlideVariants = {
-  enter: (direction: number) => ({ opacity: 0, x: direction < 0 ? '100%' : '-100%' }),
+  enter: (direction: number) => ({ opacity: 0.88, x: direction < 0 ? 6 : -6 }),
   center: { opacity: 1, x: 0 },
-  exit: (direction: number) => ({ opacity: 0, x: direction < 0 ? '-100%' : '100%' }),
+  exit: (direction: number) => ({ opacity: 0.88, x: direction < 0 ? -6 : 6 }),
 };
 
 export default function MockTestShellPage() {
@@ -434,7 +436,7 @@ export default function MockTestShellPage() {
           initial="enter"
           animate="center"
           exit="exit"
-          transition={{ duration: 0.2, ease: 'easeOut' }}
+          transition={{ duration: 0.06, ease: 'linear' }}
           className="px-3 sm:px-5 lg:px-8 py-4 sm:py-6"
         >
           {!currentQuestion ? (

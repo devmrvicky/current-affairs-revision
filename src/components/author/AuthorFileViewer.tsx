@@ -5,12 +5,11 @@ import { Modal } from '../common/Modal';
 import { ConfirmDialog } from '../common/ConfirmDialog';
 import { QuestionMarkdownRenderer } from '../mock/QuestionMarkdownRenderer';
 import { AuthorQuestionEditorDialog, type EditableQuestion } from './AuthorQuestionEditorDialog';
-import { getBreadcrumb, getFile, getFileContent, setFilePracticeLink, touchFileOpened, updateFileContent } from '../../services/author/authorDb';
+import { createFolder, getBreadcrumb, getFile, getFileContent, listFolders, setFilePracticeLink, touchFileOpened, updateFileContent } from '../../services/author/authorDb';
 import { validateQuestionFileText } from '../../services/author/authorValidation';
 import { questionBankRepository } from '../../services/questionBank/repository';
 import { parseTestFile, examIdsForSubject } from '../../services/questionBank/testFile';
-import { slugify } from '../../utils/slug';
-import type { AuthorFile } from '../../types/authorStudio';
+import type { AuthorFile, AuthorFolder } from '../../types/authorStudio';
 import { downloadBlob } from './authorUi';
 
 type Tab = 'preview' | 'source' | 'validation';
@@ -27,6 +26,21 @@ interface Props {
   onClose: () => void;
   /** Called after a save so lists can refresh their cached validation badges. */
   onSaved: () => void;
+}
+
+function getPracticeFolderDisplayPath(folder: AuthorFolder, folders: AuthorFolder[]): string {
+  const byId = new Map(folders.map((item) => [item.id, item] as const));
+  const names = [folder.name];
+  let parentId = folder.parentId;
+  const seen = new Set<string>([folder.id]);
+  while (parentId && !seen.has(parentId)) {
+    seen.add(parentId);
+    const parent = byId.get(parentId);
+    if (!parent) break;
+    if (!parent.systemSubjectId) names.unshift(parent.name);
+    parentId = parent.parentId;
+  }
+  return names.join(' / ');
 }
 
 function readQuestionContainer(source: string): { root: unknown[] | Record<string, unknown>; questions: EditableQuestion[]; wrapped: boolean } {
@@ -59,6 +73,10 @@ export function AuthorFileViewer({ fileId, onClose, onSaved }: Props) {
   const [practiceDialogOpen, setPracticeDialogOpen] = useState(false);
   const [practiceSubject, setPracticeSubject] = useState<string>('general-awareness');
   const [practiceChapter, setPracticeChapter] = useState('');
+  const [practiceFolderId, setPracticeFolderId] = useState('');
+  const [practiceFolders, setPracticeFolders] = useState<AuthorFolder[]>([]);
+  const [createPracticeFolderOpen, setCreatePracticeFolderOpen] = useState(false);
+  const [newPracticeFolderName, setNewPracticeFolderName] = useState('');
   const [practiceTitle, setPracticeTitle] = useState('');
   const [practiceBusy, setPracticeBusy] = useState(false);
   const [debounced, setDebounced] = useState('');
@@ -73,13 +91,21 @@ export function AuthorFileViewer({ fileId, onClose, onSaved }: Props) {
       if (!meta || meta.deletedAt) { toast.error('That file is no longer available.'); onClose(); return; }
       const source = content ?? '';
       setFile(meta); setSaved(source); setText(source); setDebounced(source);
-      const breadcrumb = await getBreadcrumb(meta.folderId);
+      const [breadcrumb, allFolders] = await Promise.all([getBreadcrumb(meta.folderId), listFolders()]);
       if (!alive) return;
       const subjectRoot = breadcrumb.find((folder) => folder.systemSubjectId);
-      const subjectId = subjectRoot?.systemSubjectId ?? 'general-awareness';
+      const subjectId = meta.practiceLink?.subjectId ?? subjectRoot?.systemSubjectId ?? 'general-awareness';
       const folderPath = breadcrumb.filter((folder) => !folder.systemSubjectId).map((folder) => folder.name).join(' / ');
-      setPracticeSubject(meta.practiceLink?.subjectId ?? subjectId);
+      const linkedFolderId = meta.practiceLink?.chapterId.startsWith('author-folder-') ? meta.practiceLink.chapterId.slice('author-folder-'.length) : '';
+      const linkedFolderExists = linkedFolderId && allFolders.some((folder) => folder.id === linkedFolderId);
+      const subjectFolder = allFolders.find((folder) => folder.parentId === null && folder.systemSubjectId === subjectId);
+      const initialFolderId = linkedFolderExists ? linkedFolderId : (subjectRoot?.systemSubjectId === subjectId ? meta.folderId ?? subjectRoot.id : subjectFolder?.id ?? '');
+      setPracticeFolders(allFolders);
+      setPracticeSubject(subjectId);
+      setPracticeFolderId(initialFolderId);
       setPracticeChapter(meta.practiceLink?.chapterTitle ?? (folderPath || meta.name.replace(/\.json$/i, '').replace(/[-_]/g, ' ')));
+      setCreatePracticeFolderOpen(false);
+      setNewPracticeFolderName('');
       setPracticeTitle(meta.practiceLink?.title ?? meta.name.replace(/\.json$/i, '').replace(/[-_]/g, ' '));
       setTab('preview'); setPage(0);
       setEditor({ open: false, question: null, index: null, key: 0 });
@@ -96,6 +122,38 @@ export function AuthorFileViewer({ fileId, onClose, onSaved }: Props) {
   const result = useMemo(() => (fileId ? validateQuestionFileText(debounced) : null), [debounced, fileId]);
   const loading = fileId !== null && file?.id !== fileId;
   const dirty = text !== saved;
+  const practiceFolderOptions = useMemo(() => {
+    const byId = new Map(practiceFolders.map((folder) => [folder.id, folder] as const));
+    const root = practiceFolders.find((folder) => folder.parentId === null && folder.systemSubjectId === practiceSubject);
+    if (!root) return [] as { id: string; label: string; isRoot: boolean }[];
+    const isInTree = (folder: AuthorFolder) => {
+      let parentId: string | null = folder.id;
+      const seen = new Set<string>();
+      while (parentId && !seen.has(parentId)) {
+        if (parentId === root.id) return true;
+        seen.add(parentId);
+        parentId = byId.get(parentId)?.parentId ?? null;
+      }
+      return false;
+    };
+    const labelFor = (folder: AuthorFolder) => {
+      const names = [folder.name];
+      let parentId = folder.parentId;
+      const seen = new Set<string>([folder.id]);
+      while (parentId && !seen.has(parentId)) {
+        seen.add(parentId);
+        const parent = byId.get(parentId);
+        if (!parent) break;
+        if (parent.id === root.id) break;
+        names.unshift(parent.name);
+        parentId = parent.parentId;
+      }
+      return names.join('  ›  ');
+    };
+    return [root, ...practiceFolders.filter((folder) => folder.id !== root.id && isInTree(folder))]
+      .map((folder) => ({ id: folder.id, label: folder.id === root.id ? `${root.name} (subject root)` : labelFor(folder), isRoot: folder.id === root.id }))
+      .sort((a, b) => a.isRoot ? -1 : b.isRoot ? 1 : a.label.localeCompare(b.label, undefined, { numeric: true, sensitivity: 'base' }));
+  }, [practiceFolders, practiceSubject]);
   const requestClose = useCallback(() => { if (dirty) setConfirmClose(true); else onClose(); }, [dirty, onClose]);
 
   async function syncPracticeProjection(targetFile: AuthorFile, source: string) {
@@ -201,15 +259,41 @@ export function AuthorFileViewer({ fileId, onClose, onSaved }: Props) {
     setPracticeSubject(file.practiceLink?.subjectId ?? practiceSubject);
     setPracticeChapter(file.practiceLink?.chapterTitle ?? (practiceChapter || file.name.replace(/\.json$/i, '').replace(/[-_]/g, ' ')));
     setPracticeTitle(file.practiceLink?.title ?? file.name.replace(/\.json$/i, '').replace(/[-_]/g, ' '));
+    setCreatePracticeFolderOpen(false);
     setPracticeDialogOpen(true);
+  }
+
+  function changePracticeSubject(subjectId: string) {
+    setPracticeSubject(subjectId);
+    const root = practiceFolders.find((folder) => folder.parentId === null && folder.systemSubjectId === subjectId);
+    setPracticeFolderId(root?.id ?? '');
+    setCreatePracticeFolderOpen(false);
+  }
+
+  async function createPracticeDestinationFolder() {
+    if (!practiceFolderId || !newPracticeFolderName.trim()) return void toast.error('Choose a parent folder and enter a folder name.');
+    try {
+      const created = await createFolder(practiceFolderId, newPracticeFolderName.trim());
+      const folders = await listFolders();
+      setPracticeFolders(folders);
+      setPracticeFolderId(created.id);
+      setPracticeChapter(created.name);
+      setNewPracticeFolderName('');
+      setCreatePracticeFolderOpen(false);
+      toast.success('Practice destination folder created.');
+    } catch (error) {
+      toast.error(error instanceof Error ? error.message : 'Could not create the Practice folder.');
+    }
   }
 
   async function enablePractice() {
     if (!file) return;
     const title = practiceTitle.trim();
-    const chapterTitle = practiceChapter.trim();
-    const chapterId = slugify(chapterTitle);
-    if (!title || !chapterTitle || !chapterId) return void toast.error('Enter both a test title and a chapter name.');
+    const destinationFolder = practiceFolders.find((folder) => folder.id === practiceFolderId);
+    const chapterTitle = destinationFolder ? (destinationFolder.systemSubjectId ? destinationFolder.name : getPracticeFolderDisplayPath(destinationFolder, practiceFolders)) : '';
+    const sameExistingDestination = !!file.practiceLink && file.practiceLink.subjectId === practiceSubject && practiceFolderId === file.folderId && file.practiceLink.chapterTitle === chapterTitle;
+    const chapterId = sameExistingDestination ? file.practiceLink!.chapterId : destinationFolder ? `author-folder-${destinationFolder.id}` : '';
+    if (!title || !destinationFolder || !chapterTitle || !chapterId) return void toast.error('Choose a destination folder and enter a test title.');
     if (!AUTHOR_SUBJECTS.some((subject) => subject.id === practiceSubject)) return void toast.error('Choose one of the four ExamVerse subjects.');
     setPracticeBusy(true);
     try {
@@ -349,14 +433,29 @@ export function AuthorFileViewer({ fileId, onClose, onSaved }: Props) {
         <div className="space-y-3">
           <label className="block text-sm">
             <span style={{ color: 'var(--text-secondary)' }}>Subject</span>
-            <select value={practiceSubject} onChange={(event) => setPracticeSubject(event.target.value)} className="mt-1 w-full rounded-xl px-3 py-2.5 text-sm bg-transparent" style={{ border: '1px solid var(--border)', color: 'var(--text-primary)' }}>
+            <select value={practiceSubject} onChange={(event) => changePracticeSubject(event.target.value)} className="mt-1 w-full rounded-xl px-3 py-2.5 text-sm bg-transparent" style={{ border: '1px solid var(--border)', color: 'var(--text-primary)' }}>
               {AUTHOR_SUBJECTS.map((subject) => <option key={subject.id} value={subject.id}>{subject.name}</option>)}
             </select>
           </label>
-          <label className="block text-sm">
-            <span style={{ color: 'var(--text-secondary)' }}>Chapter / Folder name</span>
-            <input value={practiceChapter} onChange={(event) => setPracticeChapter(event.target.value)} placeholder="e.g. Parliament" maxLength={100} className="mt-1 w-full rounded-xl px-3 py-2.5 text-sm bg-transparent" style={{ border: '1px solid var(--border)', color: 'var(--text-primary)' }} />
-          </label>
+          <div className="space-y-2">
+            <label className="block text-sm">
+              <span style={{ color: 'var(--text-secondary)' }}>Practice destination folder</span>
+              <select value={practiceFolderId} onChange={(event) => { setPracticeFolderId(event.target.value); setCreatePracticeFolderOpen(false); }} className="mt-1 w-full rounded-xl px-3 py-2.5 text-sm bg-transparent" style={{ border: '1px solid var(--border)', color: 'var(--text-primary)' }}>
+                <option value="">Choose a folder…</option>
+                {practiceFolderOptions.map((folder) => <option key={folder.id} value={folder.id}>{folder.label}</option>)}
+              </select>
+            </label>
+            <button type="button" onClick={() => { setCreatePracticeFolderOpen((open) => !open); setNewPracticeFolderName(''); }} className="text-xs font-semibold inline-flex items-center gap-1.5 px-2.5 py-2 rounded-lg hover:bg-brand-500/10" style={{ color: 'var(--brand-500)' }}>
+              <Plus size={13} /> {createPracticeFolderOpen ? 'Cancel new folder' : 'Create new folder'}
+            </button>
+            {createPracticeFolderOpen && (
+              <div className="rounded-xl p-3 space-y-2" style={{ background: 'var(--border)' }}>
+                <label className="block text-xs font-medium" style={{ color: 'var(--text-secondary)' }}>New folder inside selected folder</label>
+                <input value={newPracticeFolderName} onChange={(event) => setNewPracticeFolderName(event.target.value)} placeholder="e.g. Parliament" maxLength={120} className="w-full rounded-xl px-3 py-2.5 text-sm bg-transparent" style={{ border: '1px solid var(--border)', color: 'var(--text-primary)' }} />
+                <button type="button" onClick={() => void createPracticeDestinationFolder()} className="btn-secondary text-xs px-3 py-2">Create folder</button>
+              </div>
+            )}
+          </div>
           <label className="block text-sm">
             <span style={{ color: 'var(--text-secondary)' }}>Test title</span>
             <input value={practiceTitle} onChange={(event) => setPracticeTitle(event.target.value)} placeholder="e.g. Parliament Practice Set" maxLength={100} className="mt-1 w-full rounded-xl px-3 py-2.5 text-sm bg-transparent" style={{ border: '1px solid var(--border)', color: 'var(--text-primary)' }} />

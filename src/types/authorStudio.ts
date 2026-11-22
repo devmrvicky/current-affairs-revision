@@ -1,3 +1,13 @@
+export type AuthorSubjectId = 'mathematics' | 'english' | 'reasoning' | 'general-awareness';
+
+/** Optional canonical chapter destination used when adding a personal mirror of an Original folder. */
+export interface AuthorPracticeTarget {
+  subjectId: AuthorSubjectId;
+  chapterId: string;
+  chapterTitle: string;
+  title?: string;
+}
+
 // ─── Author Studio: private local question-bank workspace ────────────────────
 // Everything here lives in its own IndexedDB stores (authorFolders, authorFiles,
 // authorImports, authorMeta). Nothing in the public question pipeline
@@ -15,7 +25,7 @@ export interface AuthorFolder {
   updatedAt: number;
   favorite?: boolean;
   /** Present only for the four permanent top-level subject folders. */
-  systemSubjectId?: 'mathematics' | 'english' | 'reasoning' | 'general-awareness';
+  systemSubjectId?: AuthorSubjectId;
   /** Set when soft-deleted. Absent = live. Indexed, so Trash is a cheap query. */
   deletedAt?: number;
   /** The folder/file whose deletion put this item in Trash (the "root" of the deleted subtree). */

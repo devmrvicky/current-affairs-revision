@@ -8,6 +8,7 @@
 // There is deliberately NO rank, percentile, topper comparison or cut-off here — the app has no real data for them.
 
 import type { MockAnalysis, QuestionAnalysis } from '../types/mockAnalysis';
+import type { MarkPurpose } from '../types/questionMark';
 import { WEAK_MIN_ATTEMPTS, WEAK_BELOW, STRONG_FROM } from './reviewAnalytics';
 import { subjectRegistry } from '../data/registry/subjectRegistry';
 
@@ -107,6 +108,10 @@ export interface QuestionRow {
   difficulty: 'easy' | 'medium' | 'hard' | null;
   status: RowStatus;
   marked: boolean;
+  markPurpose?: MarkPurpose | null;
+  options: { id: string; text: string; image?: string }[];
+  selectedOptionId: string | null;
+  correctOptionId: string;
   yourAnswer: string | null;
   correctAnswer: string;
   timeSeconds: number | null;
@@ -272,7 +277,11 @@ export function buildResultTables(analysis: MockAnalysis, ctx: ResultContext = E
       topic: q.topicName ?? q.topicId,
       difficulty: q.difficulty ?? null,
       status,
-      marked: q.isMarkedForReview,
+      marked: q.isMarkedForReview || !!q.markPurpose,
+      markPurpose: q.markPurpose ?? null,
+      options: q.options.map((option) => ({ id: option.id, text: option.text, image: option.image })),
+      selectedOptionId: q.selectedAnswer,
+      correctOptionId: q.correctAnswer,
       yourAnswer: optionText(q, q.selectedAnswer),
       correctAnswer: optionText(q, q.correctAnswer) ?? q.correctAnswer,
       timeSeconds: q.timeSpentSeconds > 0 ? q.timeSpentSeconds : null,
@@ -297,14 +306,15 @@ export function buildResultTables(analysis: MockAnalysis, ctx: ResultContext = E
 
 export type QuestionSortKey = 'no' | 'status' | 'subject' | 'difficulty' | 'time' | 'marks';
 export type SortDir = 'asc' | 'desc';
-export type QuestionFilter = 'all' | RowStatus | 'marked';
+export type QuestionFilter = 'all' | RowStatus | 'marked' | 'slow';
 
 const STATUS_ORDER: Record<RowStatus, number> = { wrong: 0, skipped: 1, correct: 2 };
 const DIFFICULTY_ORDER = { easy: 0, medium: 1, hard: 2 } as const;
 
-export function filterQuestionRows(rows: readonly QuestionRow[], filter: QuestionFilter): QuestionRow[] {
+export function filterQuestionRows(rows: readonly QuestionRow[], filter: QuestionFilter, slowThresholdSeconds: number | null = null): QuestionRow[] {
   if (filter === 'all') return [...rows];
   if (filter === 'marked') return rows.filter((r) => r.marked);
+  if (filter === 'slow') return slowThresholdSeconds === null ? [] : rows.filter((r) => r.timeSeconds !== null && r.timeSeconds > slowThresholdSeconds);
   return rows.filter((r) => r.status === filter);
 }
 

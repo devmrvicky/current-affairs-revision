@@ -1,16 +1,15 @@
 import { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Trophy, CheckCircle2, XCircle, MinusCircle, ListChecks, RotateCcw, BarChart3, Home } from 'lucide-react';
+import { Trophy, ListChecks, RotateCcw, BarChart3, Home, MoreVertical } from 'lucide-react';
 import { useQuizStore } from '../store/quizStore';
 import { useHistoryStore } from '../store/historyStore';
 import { useWrongQuestionsStore } from '../store/wrongQuestionsStore';
 import { useBookmarkStore } from '../store/bookmarkStore';
 import { useMarkedReviewStore } from '../store/markedReviewStore';
 import { useDailyGoalStore } from '../store/dailyGoalStore';
-import { computeTestScore } from '../services/testScoringService';
 import { recordSessionToLedger } from '../services/attemptLedgerService';
-import { formatTime, formatDateKey, sessionToSavedTest } from '../utils';
+import { formatDateKey, sessionToSavedTest } from '../utils';
 import { LegacyResultTables } from '../components/results/LegacyResultTables';
 import type { DailyQuiz } from '../types';
 
@@ -25,6 +24,7 @@ export default function TestResultPage() {
 
   const ingestedRef = useRef(false);
   const [isRetrying, setIsRetrying] = useState(false);
+  const [showResultActions, setShowResultActions] = useState(false);
 
   useEffect(() => {
     if (!session || !session.isCompleted || !session.testMeta) {
@@ -34,16 +34,14 @@ export default function TestResultPage() {
     if (ingestedRef.current) return;
     ingestedRef.current = true;
 
-    // Reuse exactly the same ingestion the existing (Current Affairs)
-    // analysis flow uses — wrong questions / bookmarks / marked-for-review /
-    // daily goal all work identically for a test session, no separate
-    // pipeline (master prompt §22, §70).
+    // Keep the existing single ingestion path for history, wrong questions, bookmarks,
+    // marked-for-review, daily goals and the attempt ledger.
     const dateKey = formatDateKey(new Date());
     saveToHistory(sessionToSavedTest(session));
     ingestFromAttempts(session.attempts, dateKey, session.date, session.fileName);
     syncBookmarks(session.attempts, session.fileName, session.date);
     syncMarkedReview(session.attempts, session.fileName, session.date);
-    incrementGoal(session.attempts.filter((a) => a.status !== 'unanswered').length);
+    incrementGoal(session.attempts.filter((attempt) => attempt.status !== 'unanswered').length);
     incrementTests();
     recordSessionToLedger(session);
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -51,20 +49,17 @@ export default function TestResultPage() {
 
   if (!session || !session.isCompleted || !session.testMeta) return null;
 
-  const score = computeTestScore(session, session.testMeta.marking);
-  const hasNegativeMarking = session.testMeta.marking.negativeMarks > 0;
-
   function handleRetry() {
     if (!session || !session.testMeta) return;
     setIsRetrying(true);
     const quiz: DailyQuiz = {
       date: session.date,
-      questions: session.attempts.map((a) => ({
-        id: a.questionId,
-        question: a.question,
-        options: a.options,
-        correctAnswer: a.correctAnswer,
-        explanation: a.explanation,
+      questions: session.attempts.map((attempt) => ({
+        id: attempt.questionId,
+        question: attempt.question,
+        options: attempt.options,
+        correctAnswer: attempt.correctAnswer,
+        explanation: attempt.explanation,
       })),
     };
     startSession(quiz, `retry_${session.fileName}`, session.testMeta);
@@ -77,72 +72,40 @@ export default function TestResultPage() {
   }
 
   return (
-    <div className="space-y-6 pb-4">
-      <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="pt-4 text-center">
-        <div className="w-16 h-16 rounded-2xl bg-brand-50 dark:bg-brand-900/20 flex items-center justify-center mx-auto mb-3">
-          <Trophy size={28} className="text-brand-500" />
+    <div className="space-y-4 pb-8 max-w-4xl mx-auto">
+      <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} className="flex items-center justify-between gap-3 pt-3">
+        <div className="flex items-center gap-3 min-w-0">
+          <div className="w-11 h-11 rounded-xl bg-brand-50 dark:bg-brand-900/20 flex items-center justify-center flex-shrink-0">
+            <Trophy size={22} className="text-brand-500" />
+          </div>
+          <div className="min-w-0">
+            <h1 className="text-xl font-display font-bold" style={{ color: 'var(--text-primary)' }}>Test Completed</h1>
+            <p className="text-sm truncate" style={{ color: 'var(--text-secondary)' }}>{session.testMeta.examName}</p>
+          </div>
         </div>
-        <h1 className="text-2xl font-display font-bold" style={{ color: 'var(--text-primary)' }}>Test Completed</h1>
-        <p className="text-sm mt-1" style={{ color: 'var(--text-secondary)' }}>{session.testMeta.examName}</p>
-      </motion.div>
-
-      {/* Score */}
-      <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.05 }} className="card p-6 text-center">
-        <p className="text-xs uppercase tracking-wider mb-1" style={{ color: 'var(--text-muted)' }}>Score</p>
-        <p className="text-4xl font-display font-bold" style={{ color: 'var(--text-primary)' }}>
-          {score.marks} <span className="text-lg font-medium" style={{ color: 'var(--text-muted)' }}>/ {score.maxMarks}</span>
-        </p>
-        <p className="text-sm mt-1" style={{ color: score.percentage >= 0 ? 'var(--text-secondary)' : '#ef4444' }}>
-          {score.percentage}%
-        </p>
-        {hasNegativeMarking && (
-          <p className="text-xs mt-2" style={{ color: 'var(--text-muted)' }}>
-            +{session.testMeta.marking.marksPerCorrect} correct · −{session.testMeta.marking.negativeMarks} incorrect
-          </p>
-        )}
-      </motion.div>
-
-      {/* Breakdown */}
-      <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="grid grid-cols-2 gap-3">
-        <div className="card p-4 text-center">
-          <p className="text-2xl font-display font-bold" style={{ color: 'var(--text-primary)' }}>{score.accuracy}%</p>
-          <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Accuracy</p>
+        <div className="relative flex-shrink-0">
+          <button type="button" onClick={() => setShowResultActions((open) => !open)} aria-haspopup="menu" aria-expanded={showResultActions}
+            className="btn-secondary inline-flex items-center gap-2 px-3 py-2 text-xs font-semibold">
+            <MoreVertical size={15} /> More actions
+          </button>
+          {showResultActions && (
+            <div role="menu" aria-label="Result actions" className="absolute right-0 top-full mt-2 z-30 w-48 rounded-xl py-1 shadow-xl"
+              style={{ background: 'var(--card)', border: '1px solid var(--border)' }}>
+              <button role="menuitem" type="button" onClick={() => { setShowResultActions(false); navigate('/tests/result/review'); }} className="w-full flex items-center gap-2 px-3 py-2.5 text-left text-sm hover:bg-gray-100 dark:hover:bg-white/5" style={{ color: 'var(--text-primary)' }}>
+                <ListChecks size={15} /> Review Answers
+              </button>
+              <button role="menuitem" type="button" disabled={isRetrying} onClick={() => { setShowResultActions(false); handleRetry(); }} className="w-full flex items-center gap-2 px-3 py-2.5 text-left text-sm hover:bg-gray-100 dark:hover:bg-white/5 disabled:opacity-50" style={{ color: 'var(--text-primary)' }}>
+                <RotateCcw size={15} /> {isRetrying ? 'Starting…' : 'Retry Test'}
+              </button>
+              <button role="menuitem" type="button" onClick={() => { setShowResultActions(false); navigate('/statistics'); }} className="w-full flex items-center gap-2 px-3 py-2.5 text-left text-sm hover:bg-gray-100 dark:hover:bg-white/5" style={{ color: 'var(--text-primary)' }}>
+                <BarChart3 size={15} /> View Analytics
+              </button>
+              <button role="menuitem" type="button" onClick={() => { setShowResultActions(false); handleDone(); }} className="w-full flex items-center gap-2 px-3 py-2.5 text-left text-sm hover:bg-gray-100 dark:hover:bg-white/5" style={{ color: 'var(--text-primary)' }}>
+                <Home size={15} /> Back Home
+              </button>
+            </div>
+          )}
         </div>
-        <div className="card p-4 text-center">
-          <p className="text-2xl font-display font-bold" style={{ color: 'var(--text-primary)' }}>{formatTime(score.timeTakenSeconds)}</p>
-          <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Time Used</p>
-        </div>
-        <div className="card p-4 text-center flex flex-col items-center">
-          <CheckCircle2 size={16} className="text-green-500 mb-1" />
-          <p className="text-lg font-display font-bold" style={{ color: 'var(--text-primary)' }}>{score.correct}</p>
-          <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Correct</p>
-        </div>
-        <div className="card p-4 text-center flex flex-col items-center">
-          <XCircle size={16} className="text-red-500 mb-1" />
-          <p className="text-lg font-display font-bold" style={{ color: 'var(--text-primary)' }}>{score.incorrect}</p>
-          <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Incorrect</p>
-        </div>
-        <div className="card p-4 text-center flex flex-col items-center col-span-2">
-          <MinusCircle size={16} style={{ color: 'var(--text-muted)' }} className="mb-1" />
-          <p className="text-lg font-display font-bold" style={{ color: 'var(--text-primary)' }}>{score.skipped}</p>
-          <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Skipped</p>
-        </div>
-      </motion.div>
-
-      {/* Actions */}
-      <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }} className="space-y-2.5">
-        <button onClick={() => navigate('/tests/result/review')} className="btn-secondary w-full flex items-center justify-center gap-2 py-3">
-          <ListChecks size={16} /> Review Answers
-        </button>
-        <button onClick={handleRetry} disabled={isRetrying} className="btn-secondary w-full flex items-center justify-center gap-2 py-3">
-          <RotateCcw size={16} /> Retry Test
-        </button>
-        <button onClick={() => navigate('/statistics')} className="btn-secondary w-full flex items-center justify-center gap-2 py-3">
-          <BarChart3 size={16} /> View Analytics
-        </button>
-        <button onClick={handleDone} className="btn-primary w-full flex items-center justify-center gap-2 py-3">
-          <Home size={16} /> Done
-        </button>
       </motion.div>
 
       <LegacyResultTables session={session} />

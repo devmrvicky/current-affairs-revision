@@ -6,15 +6,16 @@ import { resolveTiming, validateTimingSpec, type TimingSpec } from '../services/
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Check, Settings2, X, ListChecks, Zap, ClipboardList, Newspaper, Search, SlidersHorizontal, ChevronsDownUp, ChevronsUpDown, FilterX, EyeOff, LayoutGrid } from 'lucide-react';
+import { Check, Settings2, X, ListChecks, Zap, ClipboardList, Newspaper, Search, SlidersHorizontal, ChevronsDownUp, ChevronsUpDown, FilterX, EyeOff, LayoutGrid, Filter } from 'lucide-react';
 import toast from 'react-hot-toast';
 import { useExamStore } from '../store/examStore';
 import { usePracticeSessionStore } from '../store/practiceSessionStore';
 import { getSubjectsForExam, getExam } from '../services/examService';
 import { getAvailableTopics, getAvailableSubjects, getRandomQuestions, type AvailableTopic } from '../services/questionRepository';
 import { createQuestionPool } from '../services/practiceService';
+import { matchesQuestionOwnership } from '../services/questionOwnership';
 import {
-  applyLibraryFilters, activeFilterCount, countDistinctTopics, restrictLibrary, DEFAULT_FILTERS,
+  applyLibraryFilters, activeFilterCount, restrictLibrary, DEFAULT_FILTERS,
   type LibraryFilters, type SortKey, type StatusFilter, type TypeFilter,
 } from '../services/testLibraryBuilder';
 import { usePracticeTestLibrary } from '../hooks/usePracticeTestLibrary';
@@ -79,6 +80,7 @@ export default function PracticeConfigurePage() {
   const [quickPool, setQuickPool] = useState(0);
   const [quickPoolLoading, setQuickPoolLoading] = useState(false);
   const [isStarting, setIsStarting] = useState(false);
+  const [showSourceFilter, setShowSourceFilter] = useState(false);
 
   // The Subject → Chapter → Topic → Test library for the selected subject, plus
   // the learner's attempt stats for it (one cached build, one ledger read).
@@ -95,15 +97,18 @@ export default function PracticeConfigurePage() {
   const hiddenGroupCount = fullLibrary && library ? fullLibrary.chapters.length - library.chapters.length : 0;
   const [showTopicPicker, setShowTopicPicker] = useState(false);
   const [manage, setManage] = useState<{ open: boolean; query: string }>({ open: false, query: '' });
-  const topicTestCounts = useMemo(() => {
-    const counts = new Map<string, number>();
-    for (const t of fullLibrary?.tests ?? []) for (const id of t.topicIds) counts.set(id, (counts.get(id) ?? 0) + 1);
-    return counts;
-  }, [fullLibrary]);
-  const { start: startTest, startingId } = useStartPracticeTest();
-
   const [filters, setFilters] = useState<LibraryFilters>(DEFAULT_FILTERS);
   const [showFilters, setShowFilters] = useState(false);
+  const topicTestCounts = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const t of fullLibrary?.tests ?? []) {
+      if (filters.questionSource !== 'all' && (t.questionOwnership ?? 'original') !== filters.questionSource) continue;
+      for (const id of t.topicIds) counts.set(id, (counts.get(id) ?? 0) + 1);
+    }
+    return counts;
+  }, [fullLibrary, filters.questionSource]);
+  const { start: startTest, startingId } = useStartPracticeTest();
+
   // Explicit open/closed choices per chapter, scoped to the subject they were made in.
   const [openChoices, setOpenChoices] = useState<{ subjectId: string; byKey: Record<string, boolean> }>({ subjectId: '', byKey: {} });
 
@@ -126,11 +131,12 @@ export default function PracticeConfigurePage() {
         difficulty, questionCount: 0, mode, label: '',
       };
       let pool = await createQuestionPool(config);
+      pool = pool.filter((q) => matchesQuestionOwnership(q.id, filters.questionSource));
       if (selectedTopicIds.length > 1) pool = pool.filter((q) => q.topicId && selectedTopicIds.includes(q.topicId));
       if (!cancelled) setQuickPool(pool.length);
     })().finally(() => { if (!cancelled) setQuickPoolLoading(false); });
     return () => { cancelled = true; };
-  }, [selectedSubjectId, selectedTopicIds, difficulty, selectedExamId]);
+  }, [selectedSubjectId, selectedTopicIds, difficulty, selectedExamId, filters.questionSource]);
 
   function toggleTopic(topicId: string) {
     setSelectedTopicIds((prev) => (prev.includes(topicId) ? prev.filter((t) => t !== topicId) : [...prev, topicId]));
@@ -156,6 +162,7 @@ export default function PracticeConfigurePage() {
         if (resolved.timing) config.timing = resolved.timing;
       }
       let pool = await createQuestionPool(config);
+      pool = pool.filter((q) => matchesQuestionOwnership(q.id, filters.questionSource));
       if (selectedTopicIds.length > 1) pool = pool.filter((q) => q.topicId && selectedTopicIds.includes(q.topicId));
       const picked = await getRandomQuestions(config.questionCount, pool);
       startSession(config, picked.map((q) => q.id));
@@ -177,25 +184,35 @@ export default function PracticeConfigurePage() {
     return applyLibraryFilters(hiddenOnly, filters, libraryData.activity).testCount;
   }, [fullLibrary, filtered, hiddenGroupCount, visibilityState, visScope, filters, libraryData.activity]);
   const libraryTotals = useMemo(() => {
-    if (!library) return null;
-    const realChapters = library.chapters.filter((c) => c.kind === 'chapter');
+    if (!library || !filtered) return null;
+    const visibleLibrary = { ...library, chapters: filtered.chapters, tests: filtered.chapters.flatMap((c) => [...c.chapterTests, ...c.topics.flatMap((g) => g.tests)]) };
+    const realChapters = filtered.chapters.filter((c) => c.kind === 'chapter');
     return {
       chapters: realChapters.length,
-      topics: countDistinctTopics(library),
-      tests: library.tests.length,
-      questions: library.tests.reduce((n, t) => n + t.questionCount, 0),
-      attempted: library.tests.filter((t) => libraryData.stats.has(t.id)).length,
+      topics: filtered.topicCount,
+      tests: filtered.testCount,
+      questions: filtered.questionCount,
+      attempted: visibleLibrary.tests.filter((t) => libraryData.stats.has(t.id)).length,
     };
-  }, [library, libraryData.stats]);
-  const topicOptions = useMemo(
-    () => (library ? Array.from(library.topicTitles, ([id, title]) => ({ id, title })).sort((a, b) => a.title.localeCompare(b.title, undefined, { numeric: true })) : []),
-    [library]
-  );
+  }, [library, filtered, libraryData.stats]);
+  const topicOptions = useMemo(() => {
+    if (!library) return [];
+    const topicIds = new Set<string>();
+    for (const test of library.tests) {
+      if (filters.questionSource !== 'all' && (test.questionOwnership ?? 'original') !== filters.questionSource) continue;
+      for (const id of test.topicIds) topicIds.add(id);
+    }
+    return Array.from(topicIds, (id) => ({ id, title: library.topicTitles.get(id) ?? id }))
+      .sort((a, b) => a.title.localeCompare(b.title, undefined, { numeric: true }));
+  }, [library, filters.questionSource]);
   const typeCounts = useMemo(() => {
     const counts: Record<string, number> = { chapter: 0, topic: 0, 'multi-topic': 0, paper: 0 };
-    for (const t of library?.tests ?? []) counts[t.scope] += 1;
+    for (const t of library?.tests ?? []) {
+      if (filters.questionSource !== 'all' && (t.questionOwnership ?? 'original') !== filters.questionSource) continue;
+      counts[t.scope] += 1;
+    }
     return counts;
-  }, [library]);
+  }, [library, filters.questionSource]);
   // With nothing to go on, open the chapter the learner touched most recently (resume where they left off);
   // a single-chapter subject opens by itself.
   const defaultOpenKey = useMemo(() => {
@@ -243,7 +260,7 @@ export default function PracticeConfigurePage() {
     const holders = fullLibrary.chapters.filter((c) => [...c.chapterTests, ...c.topics.flatMap((g) => g.tests)].some((t) => t.topicIds.includes(topicId)));
     const anyVisible = holders.some((c) => isGroupVisible(visibilityState, visScope, c.key));
     if (anyVisible) {
-      setFilters({ ...DEFAULT_FILTERS, topicId });
+      setFilters({ ...DEFAULT_FILTERS, questionSource: filters.questionSource, topicId });
       setShowFilters(true);
       window.setTimeout(() => document.getElementById('test-library-heading')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
     } else {
@@ -320,9 +337,44 @@ export default function PracticeConfigurePage() {
         <>
           {/* Quick Practice — topic multi-select + Start, using current settings */}
           <section className="card p-4">
-            <h2 className="text-sm font-display font-semibold mb-3 flex items-center gap-2" style={{ color: 'var(--text-primary)' }}>
-              <Zap size={14} className="text-teal-500" /> Quick Practice
-            </h2>
+            <div className="flex items-center justify-between gap-2 mb-3">
+              <h2 className="text-sm font-display font-semibold flex items-center gap-2" style={{ color: 'var(--text-primary)' }}>
+                <Zap size={14} className="text-teal-500" /> Quick Practice
+              </h2>
+              <button
+                type="button"
+                onClick={() => setShowSourceFilter((value) => !value)}
+                aria-expanded={showSourceFilter}
+                aria-controls="question-source-filter"
+                className={`inline-flex items-center gap-1.5 rounded-xl px-2.5 py-1.5 text-xs font-semibold transition-colors ${filters.questionSource !== 'all' ? 'bg-brand-500 text-white' : ''}`}
+                style={filters.questionSource === 'all' ? { border: '1px solid var(--border)', color: 'var(--text-secondary)', background: 'var(--card)' } : undefined}
+              >
+                <Filter size={13} /> Filter
+                {filters.questionSource !== 'all' && <span className="max-w-[112px] truncate">· {filters.questionSource === 'original' ? 'ExamVerse Original' : 'My Questions'}</span>}
+              </button>
+            </div>
+            {showSourceFilter && (
+              <div id="question-source-filter" className="mb-3 rounded-xl p-3 space-y-2" style={{ background: 'var(--bg)', border: '1px solid var(--border)' }}>
+                <div className="flex items-center justify-between gap-2">
+                  <p className="text-xs font-semibold" style={{ color: 'var(--text-primary)' }}>Question source</p>
+                  <button type="button" onClick={() => setShowSourceFilter(false)} aria-label="Close question source filter" className="p-1 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10"><X size={13} style={{ color: 'var(--text-muted)' }} /></button>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-1.5">
+                  {([
+                    ['all', 'All Questions'],
+                    ['original', 'ExamVerse Original'],
+                    ['personal', 'My Questions'],
+                  ] as const).map(([value, label]) => (
+                    <button key={value} type="button" onClick={() => patchFilters({ questionSource: value })} aria-pressed={filters.questionSource === value}
+                      className={`rounded-lg px-3 py-2 text-xs font-semibold text-left transition-colors ${filters.questionSource === value ? 'bg-brand-500 text-white shadow-sm' : ''}`}
+                      style={filters.questionSource !== value ? { border: '1px solid var(--border)', color: 'var(--text-secondary)', background: 'var(--card)' } : undefined}>
+                      {label}
+                    </button>
+                  ))}
+                </div>
+                <p className="text-[11px]" style={{ color: 'var(--text-muted)' }}>This filter applies to Quick Practice and the Test Library. Questions look and behave the same while you solve them.</p>
+              </div>
+            )}
             {topics.length > 0 && (
               <div className="mb-3">
                 <div className="flex flex-wrap items-center gap-2">
@@ -519,7 +571,7 @@ export default function PracticeConfigurePage() {
               <div className="card p-6 text-center mt-2" role="status">
                 <Search size={22} className="mx-auto mb-2" style={{ color: 'var(--text-muted)' }} />
                 <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>No tests match</p>
-                <p className="text-xs mt-1 mb-3" style={{ color: 'var(--text-muted)' }}>Try a different search or loosen the filters.</p>
+                <p className="text-xs mt-1 mb-3" style={{ color: 'var(--text-muted)' }}>Try another question source, search, or filter.</p>
                 <button type="button" onClick={() => setFilters({ ...DEFAULT_FILTERS, sort: filters.sort })} className="btn-secondary text-xs py-1.5 px-4">Clear search and filters</button>
               </div>
             ) : filtered && (
