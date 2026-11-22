@@ -23,8 +23,6 @@ import { MarkPurposeSheet } from '../components/exam/MarkPurposeSheet';
 import { FloatingQuestionNav } from '../components/exam/FloatingQuestionNav';
 import { ShuffledOptions } from '../components/exam/ShuffledOptions';
 import { TestExitControls } from '../components/exam/TestExitControls';
-import { TestFileNamePopover } from '../components/exam/TestFileNamePopover';
-import { useQuestionSwipe } from '../hooks/useQuestionSwipe';
 import { summarizePractice } from '../services/sessionLifecycle';
 import { savedMarkId, syncQuestionMark } from '../services/questionMarkService';
 import { useMarkedReviewStore } from '../store/markedReviewStore';
@@ -48,14 +46,6 @@ import type { SessionQuestionState } from '../types/practiceSession';
 // text go through QuestionMarkdownRenderer — the same renderer the mock shell
 // uses — so maths (KaTeX), images and Hindi text render correctly here too.
 
-// Keep question changes lightweight: a tiny directional nudge, not a full-card slide.
-// With AnimatePresence mode=wait this remains a very short ~120ms hand-off.
-const questionSlideVariants = {
-  enter: (direction: number) => ({ opacity: 0.88, x: direction < 0 ? 6 : -6 }),
-  center: { opacity: 1, x: 0 },
-  exit: (direction: number) => ({ opacity: 0.88, x: direction < 0 ? -6 : 6 }),
-};
-
 function toDisplayAttempts(questionIds: string[], states: SessionQuestionState[], questionsById: Map<string, UniversalQuestion>): QuestionAttempt[] {
   return questionIds.map((qid, idx) => {
     const state = states[idx];
@@ -65,6 +55,9 @@ function toDisplayAttempts(questionIds: string[], states: SessionQuestionState[]
     const status: QuestionAttempt['status'] = !state.selectedAnswer ? 'unanswered' : state.selectedAnswer === q?.correctAnswer ? 'correct' : 'wrong';
     return {
       questionId: idx,
+      orderKey: qid,
+      difficulty: q?.difficulty,
+      questionType: q?.questionType ?? 'mcq',
       question: q?.question ?? '(unresolved question)',
       options: q?.options.map((o) => o.text) ?? [],
       correctAnswer: correctOption?.text ?? '',
@@ -84,6 +77,7 @@ export default function UniversalSessionPage() {
   const {
     session, selectAnswer, clearAnswer, goToQuestion, addTimeSpent,
     pauseSession, resumeSession, completeSession, setSectionStarts, setMarks,
+    applyQuestionOrder,
   } = usePracticeSessionStore();
   // Saved Review Center marks: the purposes a question carries beyond this test. (A hook — keep it above every early return.)
   const savedMarks = useMarkedReviewStore((st) => st.items);
@@ -273,15 +267,6 @@ export default function UniversalSessionPage() {
     onNext: () => navigateTo(currentIndex + 1),
   });
 
-  const swipeHandlers = useQuestionSwipe({
-    enabled: loaded && !!session && !isPaused && !showPalette && !showSubmitConfirm && !showMarkSheet && !showFinishSection && !isFinishing,
-    canGoPrevious: currentIndex > rangeStart,
-    canGoNext: currentIndex < rangeEnd - 1,
-    onPrevious: () => navigateTo(currentIndex - 1),
-    onNext: () => navigateTo(currentIndex + 1),
-  });
-  const { direction: swipeDirection, ...swipeEventHandlers } = swipeHandlers;
-
   // `suspendedAt` is cleared by the presence hook within a frame of mounting; until then the clock is not
   // running, so don't render (or let the timer judge) a session whose away-time hasn't been folded in yet.
   if (!session || !loaded || session.suspendedAt) {
@@ -314,6 +299,8 @@ export default function UniversalSessionPage() {
     currentState?.isMarkedForReview ? 'review' : undefined,
   ]);
   const displayAttempts = toDisplayAttempts(session.questionIds, session.states, questionsById);
+  const paletteOrderMode = session.questionOrderMode ?? 'original';
+  const paletteOriginalOrderIds = session.originalQuestionIds ?? session.questionIds;
 
   function handleSelect(optionId: string) {
     // Practice reveals the answer immediately, so it is final. Test lets the learner change it.
@@ -357,8 +344,8 @@ export default function UniversalSessionPage() {
         <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
           <TestExitControls getSummary={() => summarizePractice(session, 'active')} exit={exitTest} />
           <div className="min-w-0">
-            <h1 className="font-display font-bold text-xs sm:text-sm min-w-0 max-w-[54vw] sm:max-w-[28rem]">
-              <TestFileNamePopover fileName={session.config.label} displayName={session.config.label} />
+            <h1 className="font-display font-bold text-xs sm:text-sm truncate" style={{ color: 'var(--text-primary)' }}>
+              {session.config.label}
             </h1>
             <p className="text-[11px] sm:text-xs" style={{ color: 'var(--text-muted)' }} data-testid="question-position">
               Q{session.currentIndex + 1} / {session.questionIds.length}
@@ -494,7 +481,7 @@ export default function UniversalSessionPage() {
                 <button onClick={() => setShowPalette(false)} className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-white/10" aria-label="Close palette"><X size={16} style={{ color: 'var(--text-secondary)' }} /></button>
               </div>
               <div className="flex-1 min-h-0 overflow-y-auto px-4 pb-3">
-                <QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={(idx) => { navigateTo(idx); setShowPalette(false); }} hideCorrectness={isTestMode} lockedIndices={lockedIndices} lockedReason={lockedReason} />
+                <QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={(idx) => { navigateTo(idx); setShowPalette(false); }} hideCorrectness={isTestMode} lockedIndices={lockedIndices} lockedReason={lockedReason} orderMode={paletteOrderMode} originalOrderIds={paletteOriginalOrderIds} orderIds={session.questionIds} onOrderChange={applyQuestionOrder} />
               </div>
               <div className="flex-shrink-0 p-4" style={{ borderTop: '1px solid var(--border)' }}>
                 <button type="button" onClick={() => { setShowPalette(false); setShowSubmitConfirm(true); }} className="btn-primary w-full flex items-center justify-center gap-2 text-sm py-2.5"><Send size={14} /> Submit Test</button>
@@ -510,9 +497,8 @@ export default function UniversalSessionPage() {
     <ExamShell
       header={header}
       footer={footer}
-      swipeHandlers={swipeEventHandlers}
       overlays={overlays}
-      palette={<QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={navigateTo} hideCorrectness={isTestMode} lockedIndices={lockedIndices} lockedReason={lockedReason} />}
+      palette={<QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={navigateTo} hideCorrectness={isTestMode} lockedIndices={lockedIndices} lockedReason={lockedReason} orderMode={paletteOrderMode} originalOrderIds={paletteOriginalOrderIds} orderIds={session.questionIds} onOrderChange={applyQuestionOrder} />}
       paletteFooter={submitButton}
       floating={
         // Both modes: only once an option is chosen on this question (Test: no feedback is shown, Practice: its feedback is on screen).
@@ -522,17 +508,8 @@ export default function UniversalSessionPage() {
         ) : null
       }
     >
-      <AnimatePresence mode="wait" custom={swipeDirection}>
-        <motion.div
-          key={session.currentIndex}
-          custom={swipeDirection}
-          variants={questionSlideVariants}
-          initial="enter"
-          animate="center"
-          exit="exit"
-          transition={{ duration: 0.06, ease: 'linear' }}
-          className={`${isTestMode ? 'py-4 sm:py-6 px-3 sm:px-5 lg:px-8 pb-6' : 'py-4 sm:py-6 px-3 sm:px-5 md:px-16 pb-16 md:pb-6'}`}
-        >
+      <AnimatePresence mode="wait">
+        <motion.div key={session.currentIndex} initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.15 }} className={isTestMode ? 'py-4 sm:py-6 px-3 sm:px-5 lg:px-8 pb-6' : 'py-4 sm:py-6 px-3 sm:px-5 md:px-16 pb-16 md:pb-6'}>
           {!currentQuestion ? (
             // Question resolution failed — show it plainly rather than crash or silently substitute another question (master prompt §22).
             <div className="flex items-start gap-3 p-4 rounded-xl" style={{ background: 'rgba(239,68,68,0.08)' }}>

@@ -18,7 +18,7 @@
 
 import { v4 as uuidv4 } from 'uuid';
 import { getDB } from '../db';
-import type { AuthorFile, AuthorFolder, AuthorImportRecord, AuthorSettingsRecord, ConflictPolicy } from '../../types/authorStudio';
+import type { AuthorFile, AuthorFolder, AuthorImportRecord, AuthorSettingsRecord, AuthorSubjectId, ConflictPolicy } from '../../types/authorStudio';
 import { cleanName, nameKey, uniqueName, utf8Size } from './authorNames';
 import { summarizeValidation, validateQuestionFileText } from './authorValidation';
 import { createZip, readZip, ZipError, type ZipEntry } from './authorZip';
@@ -28,6 +28,14 @@ export type BackupScope = 'selection' | 'bank' | 'full';
 
 export const BACKUP_APP_ID = 'examverse-author-studio';
 export const BACKUP_FORMAT_VERSION = 1;
+
+const AUTHOR_SUBJECT_IDS = new Set<AuthorSubjectId>([
+  'mathematics', 'english', 'reasoning', 'general-awareness',
+]);
+
+function isAuthorSubjectId(value: unknown): value is AuthorSubjectId {
+  return typeof value === 'string' && AUTHOR_SUBJECT_IDS.has(value as AuthorSubjectId);
+}
 
 export interface BackupManifest {
   app: typeof BACKUP_APP_ID;
@@ -229,7 +237,7 @@ export async function parseBackup(bytes: Uint8Array): Promise<ParsedBackup> {
     if (!parts) { warnings.push('A file entry with an invalid path was ignored.'); continue; }
     const r = raw as Record<string, unknown>;
     const rawLink = isRecord(r.practiceLink) ? r.practiceLink : undefined;
-    const practiceLink = rawLink && typeof rawLink.testId === 'string' && typeof rawLink.subjectId === 'string'
+    const practiceLink = rawLink && typeof rawLink.testId === 'string' && isAuthorSubjectId(rawLink.subjectId)
       && typeof rawLink.chapterId === 'string' && typeof rawLink.chapterTitle === 'string' && typeof rawLink.title === 'string'
       && Array.isArray(rawLink.examIds) && rawLink.examIds.every((id) => typeof id === 'string')
       ? { testId: rawLink.testId, subjectId: rawLink.subjectId, chapterId: rawLink.chapterId, chapterTitle: rawLink.chapterTitle, title: rawLink.title, examIds: rawLink.examIds as string[], syncedAt: num(rawLink.syncedAt, Date.now()) }

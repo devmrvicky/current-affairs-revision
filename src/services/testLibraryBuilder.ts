@@ -290,7 +290,8 @@ export function buildPracticeTests(
       if (nested.length > 0) def.groupPath = nested;
       def.chapterId = chapterId;
       def.chapterSubjectId = chapterSubjectId;
-      def.chapterTitle = ref?.title ?? parsed.chapterName ?? humanize(chapterId);
+      def.chapterTitle = playable.find((question) => question.sourceChapterTitle)?.sourceChapterTitle
+        ?? ref?.title ?? parsed.chapterName ?? humanize(chapterId);
       def.categoryTitle = ref?.categoryTitle;
 
       // A chapter question's topicId defaults to the chapter id; only a *different* topic is real topic information.

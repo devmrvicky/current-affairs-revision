@@ -6,7 +6,8 @@ import { AuthorLockGate } from '../../components/author/AuthorLockGate';
 import { AuthorFileManager } from '../../components/author/AuthorFileManager';
 import { AuthorFileViewer } from '../../components/author/AuthorFileViewer';
 import { AllFilesPanel, DashboardPanel, FavoritesPanel, ImportHistoryPanel, RecentPanel, SettingsPanel, StoragePanel, TrashPanel } from '../../components/author/AuthorPanels';
-import { getAuthorSettings, DEFAULT_AUTHOR_SETTINGS, ensureSubjectFolders, ensureSubjectFolderPath } from '../../services/author/authorDb';
+import { getAuthorSettings, DEFAULT_AUTHOR_SETTINGS, ensureSubjectFolders, ensureSubjectFolderPath, syncExamVerseFolderTree } from '../../services/author/authorDb';
+import { getOriginalFolderPaths } from '../../services/author/originalFolderScanner';
 import { isIdleExpired, useAuthorLockStore } from '../../store/authorLockStore';
 import type { AuthorPracticeTarget, AuthorSettingsRecord, AuthorSubjectId } from '../../types/authorStudio';
 
@@ -61,9 +62,10 @@ function Workspace() {
     void (async () => {
       try {
         await ensureSubjectFolders();
+        await syncExamVerseFolderTree(getOriginalFolderPaths());
         const s = await getAuthorSettings();
         if (alive) setSettings(s);
-      } catch { /* The workspace still opens; the folder manager reports any storage failure. */ }
+      } catch (error) { toast.error(error instanceof Error ? error.message : 'Could not prepare the ExamVerse folder tree.'); }
       if (alive) setReady(true);
     })();
     return () => { alive = false; };
@@ -145,7 +147,7 @@ function Workspace() {
         <main>
           {section === 'dashboard' && <DashboardPanel refreshKey={refreshKey} onOpenFile={setOpenFileId} onNavigate={go} />}
           {section === 'all' && <AllFilesPanel refreshKey={refreshKey} onOpenFile={setOpenFileId} />}
-          {section === 'bank' && <AuthorFileManager key={bank.key} initialView={settings.view} startFolderId={bank.folderId} onOpenFile={setOpenFileId} refreshKey={refreshKey} onChanged={changed} autoAddQuestionOnOpen={autoAddQuestion} practiceTarget={autoAddTarget ?? undefined} onAutoAddHandled={() => setAutoAddQuestion(false)} onAutoAddCompleted={() => setAutoAddTarget(null)} />}
+          {section === 'bank' && <AuthorFileManager key={bank.key} initialView={settings.view} initialShowExamVerseFolders={settings.showExamVerseFolders !== false} startFolderId={bank.folderId} onOpenFile={setOpenFileId} refreshKey={refreshKey} onChanged={changed} autoAddQuestionOnOpen={autoAddQuestion} practiceTarget={autoAddTarget ?? undefined} onAutoAddHandled={() => setAutoAddQuestion(false)} onAutoAddCompleted={() => setAutoAddTarget(null)} onShowExamVerseFoldersChange={(show) => setSettings((current) => ({ ...current, showExamVerseFolders: show }))} />}
           {section === 'recent' && <RecentPanel refreshKey={refreshKey} onOpenFile={setOpenFileId} />}
           {section === 'favorites' && <FavoritesPanel refreshKey={refreshKey} onOpenFile={setOpenFileId} onOpenFolder={openFolder} />}
           {section === 'trash' && <TrashPanel refreshKey={refreshKey} onChanged={changed} />}

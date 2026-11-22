@@ -3,8 +3,8 @@
 // IndexedDB database (new stores added by the v12 migration in services/db.ts).
 //
 // PRIVATE BY CONSTRUCTION: these stores are read and written only from this folder
-// and the Author Studio screens. The public question pipeline never reads these stores.
-// An explicit Author Studio action may project a validated copy into the local Question Bank.
+// and the Author Studio screens. The public question pipeline never touches them
+// (enforced by services/author/isolation.test.ts), and nothing here is synced.
 //
 // TRANSACTIONS: every multi-record change runs in ONE readwrite transaction over the
 // stores it needs and awaits only IndexedDB requests inside it. (A transaction
@@ -18,7 +18,8 @@
 import { v4 as uuidv4 } from 'uuid';
 import type { IDBPTransaction } from 'idb';
 import { getDB, type AppDB } from '../db';
-import type { AuthorFile, AuthorFolder, AuthorImportRecord, AuthorSettingsRecord, ConflictPolicy } from '../../types/authorStudio';
+import type { AuthorFile, AuthorFolder, AuthorImportRecord, AuthorPracticeLink, AuthorSettingsRecord, AuthorSubjectId, ConflictPolicy } from '../../types/authorStudio';
+import type { OriginalFolderPath } from './originalFolderScanner';
 import { cleanName, ensureJsonName, nameKey, uniqueName, utf8Size, wouldCreateCycle } from './authorNames';
 import { summarizeValidation, validateQuestionFileText } from './authorValidation';
 
@@ -102,72 +103,6 @@ export async function listAllFiles(): Promise<AuthorFile[]> {
   return (await (await getDB()).getAll('authorFiles')).filter((f) => !f.deletedAt);
 }
 
-const FIXED_SUBJECT_FOLDERS = [
-  { id: 'mathematics', name: 'Mathematics' },
-  { id: 'english', name: 'English' },
-  { id: 'reasoning', name: 'Reasoning' },
-  { id: 'general-awareness', name: 'General Awareness' },
-] as const;
-
-/** Creates the four permanent subject roots without changing or moving any existing user content. */
-export async function ensureSubjectFolders(): Promise<void> {
-  await withTx(async (tx) => {
-    const store = tx.objectStore('authorFolders');
-    const all = await store.getAll();
-    const liveRoots = all.filter((folder) => !folder.deletedAt && folder.parentId === null);
-    const now = Date.now();
-    for (const subject of FIXED_SUBJECT_FOLDERS) {
-      const existing = all.find((folder) => !folder.deletedAt && folder.parentId === null && folder.systemSubjectId === subject.id)
-        ?? liveRoots.find((folder) => nameKey(folder.name) === nameKey(subject.name));
-      if (existing) {
-        if (existing.systemSubjectId !== subject.id || existing.name !== subject.name) {
-          await store.put({ ...existing, name: subject.name, systemSubjectId: subject.id, updatedAt: now });
-        }
-        continue;
-      }
-      const preferredId = `system-subject-${subject.id}`;
-      const id = all.some((folder) => folder.id === preferredId) ? uuidv4() : preferredId;
-      await store.put({ id, parentId: null, parentKey: '', name: subject.name, systemSubjectId: subject.id, createdAt: now, updatedAt: now });
-    }
-    await tx.done;
-  });
-}
-
-/**
- * Finds or creates a Personal Question Bank path that mirrors an ExamVerse Original chapter.
- * The bundled/GitHub source is never written to; only this device's Author Studio folders are created.
- */
-export async function ensureSubjectFolderPath(
-  subjectId: NonNullable<AuthorFolder['systemSubjectId']>,
-  segments: string[],
-): Promise<{ folderId: string; folders: AuthorFolder[] }> {
-  await ensureSubjectFolders();
-  const roots = await listFolders();
-  const root = roots.find((folder) => folder.parentId === null && folder.systemSubjectId === subjectId);
-  if (!root) throw new AuthorError('not-found', `The ${subjectId} subject folder is not available.`);
-  let parentId = root.id;
-  for (const rawSegment of segments) {
-    const segment = cleanName(rawSegment);
-    if (!segment) continue;
-    const children = await listChildren(parentId);
-    const existing = children.folders.find((folder) => nameKey(folder.name) === nameKey(segment));
-    parentId = existing?.id ?? (await createFolder(parentId, segment)).id;
-  }
-  return { folderId: parentId, folders: await listFolders() };
-}
-
-/** Stores the local Practice projection mapping on the author file, so future edits can update the same local test. */
-export async function setFilePracticeLink(id: string, practiceLink: NonNullable<AuthorFile['practiceLink']> | undefined): Promise<AuthorFile> {
-  return withTx(async (tx) => {
-    const file = await tx.objectStore('authorFiles').get(id);
-    if (!file || file.deletedAt) throw new AuthorError('not-found', 'That question file is no longer available.');
-    const next = { ...file, practiceLink, updatedAt: Date.now() };
-    await tx.objectStore('authorFiles').put(next);
-    await tx.done;
-    return next;
-  });
-}
-
 /** Folder chain from the top level down to `folderId`, inclusive. Empty for the top level itself. */
 export async function getBreadcrumb(folderId: string | null): Promise<AuthorFolder[]> {
   const db = await getDB();
@@ -227,6 +162,181 @@ export async function collectSubtree(tx: Tx, rootId: string, include: (item: Aut
 
 export const isLive = (x: { deletedAt?: number }) => !x.deletedAt;
 
+// ─── ExamVerse source folders + personal overlay ─────────────────────────────
+
+const SUBJECT_ROOTS: ReadonlyArray<{ id: AuthorSubjectId; name: string }> = [
+  { id: 'mathematics', name: 'Mathematics' },
+  { id: 'english', name: 'English' },
+  { id: 'reasoning', name: 'Reasoning' },
+  { id: 'general-awareness', name: 'General Awareness' },
+];
+
+function folderNameIdentity(value: string): string {
+  return value.normalize('NFKC').trim().toLowerCase().replace(/\s+/g, ' ');
+}
+
+export function examVerseFolderPathKey(subjectId: AuthorSubjectId, segments: string[]): string {
+  return `examverse:${subjectId}:${segments.map(folderNameIdentity).join('/')}`;
+}
+
+export function isProtectedAuthorFolder(folder: AuthorFolder): boolean {
+  return !!folder.systemSubjectId || (!!folder.isExamVerseFolder && folder.sourcePresent !== false);
+}
+
+/** Ensures exactly one stable root folder for each of the four Author subjects. */
+export async function ensureSubjectFolders(): Promise<AuthorFolder[]> {
+  return withTx(async (tx) => {
+    const store = tx.objectStore('authorFolders');
+    const all = await store.getAll();
+    const result: AuthorFolder[] = [];
+    for (const subject of SUBJECT_ROOTS) {
+      let root = all.find((folder) => !folder.deletedAt && folder.parentId === null && folder.systemSubjectId === subject.id);
+      if (!root) {
+        // Upgrade a legacy top-level personal folder with the same subject name
+        // instead of creating a second visually identical subject.
+        root = all.find((folder) => !folder.deletedAt && folder.parentId === null && !folder.systemSubjectId && folderNameIdentity(folder.name) === folderNameIdentity(subject.name));
+      }
+      if (root) {
+        const next: AuthorFolder = { ...root, parentId: null, parentKey: '', name: subject.name, systemSubjectId: subject.id, isExamVerseFolder: false, sourcePathKey: undefined, updatedAt: Date.now() };
+        await store.put(next);
+        Object.assign(root, next);
+        result.push(next);
+      } else {
+        const now = Date.now();
+        const created: AuthorFolder = { id: uuidv4(), parentId: null, parentKey: '', name: subject.name, systemSubjectId: subject.id, createdAt: now, updatedAt: now };
+        await store.put(created);
+        all.push(created);
+        result.push(created);
+      }
+    }
+    return result;
+  });
+}
+
+/**
+ * Reconciles the source-controlled folder tree into stable local mirror nodes.
+ * Matching personal folders are promoted/reused, never duplicated. Nodes that
+ * disappear from a later GitHub build are demoted to ordinary local folders so
+ * their user-created descendants and questions remain accessible.
+ */
+export async function syncExamVerseFolderTree(paths: OriginalFolderPath[]): Promise<void> {
+  await ensureSubjectFolders();
+  await withTx(async (tx) => {
+    const store = tx.objectStore('authorFolders');
+    const all = await store.getAll();
+    const bySubject = new Map<AuthorSubjectId, AuthorFolder>();
+    for (const subject of SUBJECT_ROOTS) {
+      const root = all.find((folder) => !folder.deletedAt && folder.parentId === null && folder.systemSubjectId === subject.id);
+      if (root) bySubject.set(subject.id, root);
+    }
+    const wantedKeys = new Set<string>();
+    const ordered = [...paths].sort((a, b) => a.segments.length - b.segments.length || a.segments.join('/').localeCompare(b.segments.join('/')));
+
+    for (const path of ordered) {
+      let parent = bySubject.get(path.subjectId);
+      if (!parent) continue;
+      const traversed: string[] = [];
+      for (const rawSegment of path.segments) {
+        const name = rawSegment.trim();
+        if (!name) continue;
+        traversed.push(name);
+        const sourcePathKey = examVerseFolderPathKey(path.subjectId, traversed);
+        wantedKeys.add(sourcePathKey);
+        // Reuse a source identity only while its visible name and parent still
+        // match. If a removed Original folder was later renamed/moved locally,
+        // never pull it back over the user's custom folder during a future update.
+        let folder = all.find((item) => !item.deletedAt
+          && item.sourcePathKey === sourcePathKey
+          && item.parentId === parent!.id
+          && folderNameIdentity(item.name) === folderNameIdentity(name));
+        if (!folder) {
+          // A learner may have created this folder before it arrived from GitHub.
+          // Promote it in place and retain all personal files/subfolders.
+          folder = all.find((item) => !item.deletedAt && item.parentId === parent!.id && !item.systemSubjectId && folderNameIdentity(item.name) === folderNameIdentity(name));
+        }
+        if (folder) {
+          const next: AuthorFolder = {
+            ...folder,
+            parentId: parent.id,
+            parentKey: parent.id,
+            name,
+            isExamVerseFolder: true,
+            sourcePathKey,
+            sourcePresent: true,
+            updatedAt: Date.now(),
+          };
+          await store.put(next);
+          Object.assign(folder, next);
+        } else {
+          const now = Date.now();
+          folder = {
+            id: uuidv4(), parentId: parent.id, parentKey: parent.id,
+            name, isExamVerseFolder: true, sourcePathKey, sourcePresent: true,
+            createdAt: now, updatedAt: now,
+          };
+          await store.put(folder);
+          all.push(folder);
+        }
+        parent = folder;
+      }
+    }
+
+    // Do not delete old source nodes. If upstream removes a folder, any local
+    // additions beneath it survive and the node becomes a normal personal folder.
+    for (const folder of all) {
+      if (folder.isExamVerseFolder && folder.sourcePathKey && folder.sourcePresent !== false && !wantedKeys.has(folder.sourcePathKey)) {
+        await store.put({ ...folder, isExamVerseFolder: false, sourcePresent: false, updatedAt: Date.now() });
+      }
+    }
+  });
+}
+
+/** Finds or creates a local path under the chosen subject root. Existing nodes are always reused. */
+export async function ensureSubjectFolderPath(subjectId: AuthorSubjectId, pathSegments: string[]): Promise<{ folderId: string; folder: AuthorFolder }> {
+  await ensureSubjectFolders();
+  const cleanSegments = pathSegments.map((part) => {
+    const name = cleanName(part);
+    if (!name) throw new AuthorError('invalid-name', BAD_FOLDER_NAME);
+    return name;
+  }).filter(Boolean);
+  return withTx(async (tx) => {
+    const store = tx.objectStore('authorFolders');
+    const all = await store.getAll();
+    const root = all.find((folder) => !folder.deletedAt && folder.parentId === null && folder.systemSubjectId === subjectId);
+    if (!root) throw new AuthorError('not-found', 'The selected subject folder could not be created.');
+    let parent = root;
+    const traversed: string[] = [];
+    for (const name of cleanSegments) {
+      traversed.push(name);
+      const pathKey = examVerseFolderPathKey(subjectId, traversed);
+      let next = all.find((folder) => !folder.deletedAt
+        && folder.sourcePathKey === pathKey
+        && folder.parentId === parent.id
+        && folderNameIdentity(folder.name) === folderNameIdentity(name));
+      if (!next) next = all.find((folder) => !folder.deletedAt && folder.parentId === parent.id && folderNameIdentity(folder.name) === folderNameIdentity(name));
+      if (!next) {
+        const now = Date.now();
+        next = { id: uuidv4(), parentId: parent.id, parentKey: parent.id, name, createdAt: now, updatedAt: now };
+        await store.put(next);
+        all.push(next);
+      }
+      parent = next;
+    }
+    if (cleanSegments.length === 0) parent = root;
+    return { folderId: parent.id, folder: parent };
+  });
+}
+
+export async function setFilePracticeLink(id: string, practiceLink: AuthorPracticeLink | undefined): Promise<AuthorFile> {
+  const db = await getDB();
+  const file = await db.get('authorFiles', id);
+  if (!file) throw new AuthorError('not-found', 'That question file no longer exists.');
+  if (file.deletedAt) throw new AuthorError('in-trash', 'Restore the file before changing its Practice link.');
+  const next = { ...file, practiceLink, updatedAt: Date.now() };
+  await db.put('authorFiles', next);
+  return next;
+}
+
 // ─── Folders ─────────────────────────────────────────────────────────────────
 
 export async function createFolder(parentId: string | null, rawName: string): Promise<AuthorFolder> {
@@ -250,7 +360,7 @@ export async function renameFolder(id: string, rawName: string): Promise<AuthorF
     const folder = await tx.objectStore('authorFolders').get(id);
     if (!folder) throw new AuthorError('not-found', 'That folder no longer exists.');
     if (folder.deletedAt) throw new AuthorError('in-trash', 'Restore the folder before renaming it.');
-    if (folder.systemSubjectId) throw new AuthorError('invalid-name', 'The four top-level subjects cannot be renamed.');
+    if (isProtectedAuthorFolder(folder)) throw new AuthorError('invalid-name', 'ExamVerse subject and Original folders cannot be renamed. Create a personal subfolder inside them instead.');
     if ((await liveFolderNames(tx, folder.parentId, id)).some((n) => nameKey(n) === nameKey(name))) throw new AuthorError('name-conflict', `A folder named "${name}" already exists here.`);
     const next = { ...folder, name, updatedAt: Date.now() };
     await tx.objectStore('authorFolders').put(next);
@@ -265,7 +375,7 @@ export async function moveFolder(id: string, newParentId: string | null): Promis
     const folder = await store.get(id);
     if (!folder) throw new AuthorError('not-found', 'That folder no longer exists.');
     if (folder.deletedAt) throw new AuthorError('in-trash', 'Restore the folder before moving it.');
-    if (folder.systemSubjectId) throw new AuthorError('invalid-name', 'The four top-level subjects cannot be moved.');
+    if (isProtectedAuthorFolder(folder)) throw new AuthorError('invalid-name', 'ExamVerse subject and Original folders cannot be moved. Move your personal files or subfolders instead.');
     await requireLiveFolder(tx, newParentId);
     const all = new Map((await store.getAll()).map((f) => [f.id, f] as const));
     if (wouldCreateCycle(all, id, newParentId)) throw new AuthorError('cycle', 'A folder cannot be moved into itself or one of its own subfolders.');
@@ -284,7 +394,6 @@ export async function copyFolder(id: string, targetParentId: string | null, styl
     await requireLiveFolder(tx, targetParentId);
     const { folders, files } = await collectSubtree(tx, id, isLive); // snapshot first — copying into itself can't recurse
     if (folders[0].deletedAt) throw new AuthorError('in-trash', 'Restore the folder before copying it.');
-    if (folders[0].systemSubjectId) throw new AuthorError('invalid-name', 'The four top-level subjects cannot be duplicated.');
     const now = Date.now();
     const idMap = new Map<string, string>(folders.map((f) => [f.id, uuidv4()] as const));
     const rootName = uniqueName(await liveFolderNames(tx, targetParentId), folders[0].name, { style });
@@ -301,7 +410,7 @@ export async function copyFolder(id: string, targetParentId: string | null, styl
       const content = await tx.objectStore('authorContent').get(file.id);
       const newId = uuidv4();
       const folderId = idMap.get(file.folderId!)!;
-      await tx.objectStore('authorFiles').put({ ...file, id: newId, folderId, folderKey: folderId, favorite: false, createdAt: now, updatedAt: now, lastOpenedAt: undefined, practiceLink: undefined });
+      await tx.objectStore('authorFiles').put({ ...file, id: newId, folderId, folderKey: folderId, favorite: false, createdAt: now, updatedAt: now, lastOpenedAt: undefined });
       await tx.objectStore('authorContent').put({ id: newId, content: content?.content ?? '' });
     }
     await tx.done;
@@ -334,8 +443,8 @@ export async function setFileFavorite(id: string, favorite: boolean): Promise<vo
 /** Moves a folder and everything live beneath it to Trash. Returns how many items went. Nothing is destroyed. */
 export async function trashFolderIn(tx: Tx, id: string): Promise<number> {
   const { folders, files } = await collectSubtree(tx, id, isLive);
-  if (folders[0].systemSubjectId) throw new AuthorError('invalid-name', 'The four top-level subjects cannot be deleted.');
   if (folders[0].deletedAt) return 0;
+  if (isProtectedAuthorFolder(folders[0])) throw new AuthorError('invalid-name', 'ExamVerse subject and Original folders cannot be deleted. Only your personal files and subfolders can be removed.');
   const now = Date.now();
   for (const f of folders) {
     await tx.objectStore('authorFolders').put({ ...f, deletedAt: now, trashRootId: id, ...(f.id === id ? { trashOriginalParentId: f.parentId } : {}) });
@@ -548,7 +657,7 @@ export async function copyFile(id: string, folderId: string | null, style: 'numb
     const content = (await tx.objectStore('authorContent').get(id))?.content ?? '';
     const name = uniqueName(await liveFileNames(tx, folderId), file.name, { hasExt: true, style });
     const now = Date.now();
-    const copy: AuthorFile = { ...file, id: uuidv4(), name, folderId, folderKey: parentKeyOf(folderId), favorite: false, createdAt: now, updatedAt: now, lastOpenedAt: undefined, practiceLink: undefined };
+    const copy: AuthorFile = { ...file, id: uuidv4(), name, folderId, folderKey: parentKeyOf(folderId), favorite: false, createdAt: now, updatedAt: now, lastOpenedAt: undefined };
     await tx.objectStore('authorFiles').put(copy);
     await tx.objectStore('authorContent').put({ id: copy.id, content });
     await tx.objectStore('authorImports').put(importRecord('duplicate', name, { added: 1 }));
@@ -773,7 +882,7 @@ export async function searchAuthor(opts: SearchOptions): Promise<SearchResults> 
 
 // ─── Settings ────────────────────────────────────────────────────────────────
 
-export const DEFAULT_AUTHOR_SETTINGS: AuthorSettingsRecord = { key: 'settings', autoLockMinutes: 5, view: 'list' };
+export const DEFAULT_AUTHOR_SETTINGS: AuthorSettingsRecord = { key: 'settings', autoLockMinutes: 5, view: 'list', showExamVerseFolders: true };
 
 export async function getAuthorSettings(): Promise<AuthorSettingsRecord> {
   const rec = await (await getDB()).get('authorMeta', 'settings');

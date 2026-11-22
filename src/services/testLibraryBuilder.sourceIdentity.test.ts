@@ -39,3 +39,22 @@ describe('Practice test source identity', () => {
     expect(personal?.title).toContain('My Questions');
   });
 });
+
+
+describe('local folder-backed Practice labels', () => {
+  it('uses the selected human folder path instead of exposing the internal Author folder id', () => {
+    const source = 'chapter:english/author-folder-folder-123/Questions (Local)';
+    const localQuestion: UniversalQuestion = {
+      ...question('qb:local:author-file-123:q1'),
+      source,
+      sourceChapterTitle: 'Fixed Preposition / My Revision Set',
+    };
+    const tests = buildPracticeTests('ssc-chsl', 'english', [localQuestion], {
+      chapter: () => undefined,
+      topicTitle: () => 'Fixed Preposition',
+    });
+    expect(tests).toHaveLength(1);
+    expect(tests[0].chapterTitle).toBe('Fixed Preposition / My Revision Set');
+    expect(tests[0].chapterTitle).not.toContain('author-folder-');
+  });
+});

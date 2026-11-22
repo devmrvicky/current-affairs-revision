@@ -2,8 +2,9 @@ import { beforeEach, describe, expect, it } from 'vitest';
 import { getDB } from '../db';
 import {
   AuthorError, copyFolder, createFile, createFolder, duplicateFile, duplicateFolder, emptyTrash, getFileContent, getStats, importFiles,
-  listChildren, listFolders, listImports, listRecent, listTrash, moveFile, moveFolder, purgeFromTrash, renameFile, renameFolder, ensureSubjectFolders, setFilePracticeLink,
+  listChildren, listFolders, listImports, listRecent, listTrash, moveFile, moveFolder, purgeFromTrash, renameFile, renameFolder,
   restoreFile, restoreFolder, searchAuthor, setFileFavorite, trashFile, trashFolder, updateFileContent, listFavorites, getBreadcrumb, listAllFiles,
+  ensureSubjectFolders, ensureSubjectFolderPath, syncExamVerseFolderTree, isProtectedAuthorFolder, getFolder,
 } from './authorDb';
 
 const q = (id: string, extra: Record<string, unknown> = {}) => ({
@@ -18,43 +19,6 @@ async function wipe() {
 const err = async (p: Promise<unknown>) => { try { await p; return null; } catch (e) { return e as AuthorError; } };
 
 beforeEach(wipe);
-
-describe('fixed subject roots', () => {
-  it('creates four permanent subject folders once and preserves matching legacy content', async () => {
-    const existing = await createFolder(null, 'General Awareness');
-    const child = await createFolder(existing.id, 'Polity');
-    await ensureSubjectFolders();
-    await ensureSubjectFolders();
-    const roots = (await listFolders()).filter((folder) => folder.parentId === null);
-    expect(roots.map((folder) => folder.systemSubjectId).filter(Boolean).sort()).toEqual(['english', 'general-awareness', 'mathematics', 'reasoning']);
-    expect(roots).toHaveLength(4);
-    expect((await listFolders()).find((folder) => folder.id === existing.id)).toMatchObject({ systemSubjectId: 'general-awareness' });
-    expect((await listFolders()).find((folder) => folder.id === child.id)?.parentId).toBe(existing.id);
-  });
-
-  it('stores a Practice link on the source file metadata', async () => {
-    const folder = await createFolder(null, 'General Awareness');
-    const file = await createFile(folder.id, 'Parliament', good('1'));
-    const link = { testId: 'author-test-1', subjectId: 'general-awareness', chapterId: 'parliament', chapterTitle: 'Parliament', title: 'Parliament Set', examIds: ['ssc-chsl'], syncedAt: 123 };
-    expect(await setFilePracticeLink(file.id, link)).toMatchObject({ practiceLink: link });
-  });
-
-  it('does not copy a linked Practice test when a source file or folder is duplicated', async () => {
-    await ensureSubjectFolders();
-    const root = (await listFolders()).find((folder) => folder.systemSubjectId === 'general-awareness')!;
-    const folder = await createFolder(root.id, 'Polity');
-    const file = await createFile(folder.id, 'Parliament', good('1'));
-    const link = { testId: 'author-source-test', subjectId: 'general-awareness', chapterId: 'parliament', chapterTitle: 'Parliament', title: 'Parliament Set', examIds: ['ssc-chsl'], syncedAt: 123 };
-    await setFilePracticeLink(file.id, link);
-
-    const copiedFile = await duplicateFile(file.id);
-    expect(copiedFile.practiceLink).toBeUndefined();
-    expect((await (await import('./authorDb')).getFile(file.id))?.practiceLink).toEqual(link);
-
-    const copiedFolder = await duplicateFolder(folder.id);
-    expect((await listChildren(copiedFolder.id)).files[0].practiceLink).toBeUndefined();
-  });
-});
 
 describe('folders', () => {
   it('nests without limit and reports a breadcrumb', async () => {
@@ -271,5 +235,106 @@ describe('search, recent, favourites', () => {
   it('stats come from the stored records', async () => {
     await createFile(null, 'a', good('1', '2')); await createFile(null, 'b', '[{"id":1}]'); await createFolder(null, 'F');
     expect(await getStats()).toMatchObject({ files: 2, folders: 1, questions: 3, validFiles: 1, invalidFiles: 1 });
+  });
+});
+
+
+describe('ExamVerse source folders and local overlay', () => {
+  it('creates the four subject roots and resolves folder paths under the correct subject', async () => {
+    const roots = await ensureSubjectFolders();
+    expect(roots.map((folder) => folder.systemSubjectId).sort()).toEqual(['english', 'general-awareness', 'mathematics', 'reasoning']);
+    expect(roots.every((folder) => folder.parentId === null && folder.parentKey === '')).toBe(true);
+    const first = await ensureSubjectFolderPath('english', ['Fixed preposition', 'Vidyagram Jay sir']);
+    const again = await ensureSubjectFolderPath('english', ['Fixed preposition', 'Vidyagram Jay sir']);
+    expect(again.folderId).toBe(first.folderId);
+    expect((await getBreadcrumb(first.folderId)).map((folder) => folder.name)).toEqual(['English', 'Fixed preposition', 'Vidyagram Jay sir']);
+    expect((await listFolders()).some((folder) => folder.name === 'Author' && folder.id === first.folderId)).toBe(false);
+  });
+
+  it('repeated upstream sync keeps the same Original folder node and never creates duplicates', async () => {
+    const path = [{ subjectId: 'english' as const, subjectName: 'English', segments: ['Fixed preposition', 'Vidyagram'] }];
+    await syncExamVerseFolderTree(path);
+    const [english] = (await ensureSubjectFolders()).filter((folder) => folder.systemSubjectId === 'english');
+    const firstParent = (await listChildren(english.id)).folders.find((folder) => folder.name === 'Fixed preposition')!;
+    const firstChild = (await listChildren(firstParent.id)).folders.find((folder) => folder.name === 'Vidyagram')!;
+
+    await syncExamVerseFolderTree(path);
+    const rootChildren = (await listChildren(english.id)).folders.filter((folder) => folder.name === 'Fixed preposition');
+    const nestedChildren = (await listChildren(firstParent.id)).folders.filter((folder) => folder.name === 'Vidyagram');
+    expect(rootChildren).toHaveLength(1);
+    expect(nestedChildren).toHaveLength(1);
+    expect(rootChildren[0].id).toBe(firstParent.id);
+    expect(nestedChildren[0].id).toBe(firstChild.id);
+  });
+
+  it('saves personal questions in the exact selected Original folder and permits local child-folder deletion', async () => {
+    await syncExamVerseFolderTree([{ subjectId: 'english', subjectName: 'English', segments: ['Fixed preposition'] }]);
+    const [english] = (await ensureSubjectFolders()).filter((folder) => folder.systemSubjectId === 'english');
+    const original = (await listChildren(english.id)).folders.find((folder) => folder.name === 'Fixed preposition')!;
+
+    const directFile = await createFile(original.id, 'My Fixed Preposition Test', good('direct-q1'));
+    expect(directFile.folderId).toBe(original.id);
+    expect((await getBreadcrumb(directFile.folderId)).map((folder) => folder.name)).toEqual(['English', 'Fixed preposition']);
+
+    const personalSubfolder = await createFolder(original.id, 'My Revision Set');
+    const nestedFile = await createFile(personalSubfolder.id, 'Questions', good('nested-q1'));
+    expect(nestedFile.folderId).toBe(personalSubfolder.id);
+    expect((await getBreadcrumb(nestedFile.folderId)).map((folder) => folder.name)).toEqual(['English', 'Fixed preposition', 'My Revision Set']);
+
+    expect((await err(trashFolder(original.id)))?.message).toMatch(/cannot be deleted/i);
+    expect(await trashFolder(personalSubfolder.id)).toBe(2);
+    expect((await listTrash()).map((entry) => entry.name)).toEqual(expect.arrayContaining(['My Revision Set', 'Questions.json']));
+  });
+
+  it('merges a newly arriving Original folder into a same-name personal folder without duplicating or losing its contents', async () => {
+    const [english] = (await ensureSubjectFolders()).filter((folder) => folder.systemSubjectId === 'english');
+    const personal = await createFolder(english.id, 'AI vocab test');
+    const nested = await createFolder(personal.id, 'My Homonyms');
+    const questionFile = await createFile(nested.id, 'my-questions', good('mine-1'));
+
+    await syncExamVerseFolderTree([{ subjectId: 'english', subjectName: 'English', segments: ['AI vocab test'] }]);
+
+    const sameName = (await listChildren(english.id)).folders.filter((folder) => folder.name === 'AI vocab test');
+    expect(sameName).toHaveLength(1);
+    expect(sameName[0].id).toBe(personal.id);
+    expect(sameName[0].isExamVerseFolder).toBe(true);
+    expect(isProtectedAuthorFolder(sameName[0])).toBe(true);
+    expect((await listChildren(nested.id)).files.map((file) => file.id)).toContain(questionFile.id);
+    expect((await err(trashFolder(personal.id)))?.message).toMatch(/cannot be deleted/i);
+  });
+
+
+  it('does not reclaim a locally renamed folder if its old Original path returns in a later update', async () => {
+    const [english] = (await ensureSubjectFolders()).filter((folder) => folder.systemSubjectId === 'english');
+    await syncExamVerseFolderTree([{ subjectId: 'english', subjectName: 'English', segments: ['AI vocab test'] }]);
+    const original = (await listChildren(english.id)).folders.find((folder) => folder.name === 'AI vocab test')!;
+    const mine = await createFolder(original.id, 'My Custom Set');
+    await syncExamVerseFolderTree([]); // upstream removes it; it becomes personal
+    const renamed = await renameFolder(original.id, 'My Former AI Vocabulary');
+
+    await syncExamVerseFolderTree([{ subjectId: 'english', subjectName: 'English', segments: ['AI vocab test'] }]);
+
+    const rootChildren = (await listChildren(english.id)).folders;
+    expect(rootChildren.some((folder) => folder.id === renamed.id && folder.name === 'My Former AI Vocabulary' && !folder.isExamVerseFolder)).toBe(true);
+    const newOriginal = rootChildren.find((folder) => folder.name === 'AI vocab test' && folder.isExamVerseFolder);
+    expect(newOriginal).toBeDefined();
+    expect((await listChildren(renamed.id)).folders.map((folder) => folder.id)).toContain(mine.id);
+  });
+
+  it('rejects unsafe paths from a deep-link destination instead of creating fake folders', async () => {
+    await ensureSubjectFolders();
+    expect((await err(ensureSubjectFolderPath('english', ['Fixed preposition', '../Author'])))?.code).toBe('invalid-name');
+  });
+
+  it('demotes upstream-removed folders but keeps personal hierarchy and content', async () => {
+    const [english] = (await ensureSubjectFolders()).filter((folder) => folder.systemSubjectId === 'english');
+    await syncExamVerseFolderTree([{ subjectId: 'english', subjectName: 'English', segments: ['Fixed preposition'] }]);
+    const fixed = (await listChildren(english.id)).folders.find((folder) => folder.name === 'Fixed preposition')!;
+    const localChild = await createFolder(fixed.id, 'My revision set');
+    await syncExamVerseFolderTree([]);
+    const retained = await getFolder(fixed.id);
+    expect(retained).toMatchObject({ isExamVerseFolder: false, sourcePresent: false });
+    expect(isProtectedAuthorFolder(retained!)).toBe(false);
+    expect((await listChildren(fixed.id)).folders[0].id).toBe(localChild.id);
   });
 });

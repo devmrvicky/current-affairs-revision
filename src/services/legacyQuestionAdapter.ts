@@ -1,43 +1,58 @@
 // ─── Legacy → Universal Question Adapter ──────────────────────────────────────
 // Converts the existing `DailyQuiz` / `Question` shape (types/index.ts,
 // per-file numeric ids) into `UniversalQuestion` (types/universalQuestion.ts,
-// globally stable string ids). Nothing about the legacy stores/pages changes —
-// this is purely additive so the new question-centric engine (Practice, Test,
-// Analytics) can operate over the SAME underlying content the app already has.
+// globally stable string ids). This is additive: existing legacy quiz data and
+// stores keep their original shape while the universal session engine reuses it.
 
 import type { DailyQuiz, Question as LegacyQuestion } from '../types';
-import type { UniversalQuestion, UniversalQuestionOption, Difficulty } from '../types/universalQuestion';
+import type {
+  Difficulty,
+  QuestionType,
+  UniversalQuestion,
+  UniversalQuestionOption,
+} from '../types/universalQuestion';
 
 const OPTION_LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'];
 
-/**
- * Legacy questions store `correctAnswer` as the option TEXT, not an option id.
- * The universal model always stores `correctAnswer` as an option id, so we
- * assign stable letter ids in array order and resolve the match by text.
- */
 function toUniversalOptions(legacyOptions: string[]): UniversalQuestionOption[] {
-  return legacyOptions.map((text, i) => ({ id: OPTION_LETTERS[i] ?? String(i), text }));
+  return legacyOptions.map((text, index) => ({
+    id: OPTION_LETTERS[index] ?? String(index),
+    text,
+  }));
 }
 
-function resolveCorrectAnswerId(options: UniversalQuestionOption[], legacyCorrectAnswerText: string): string {
-  const match = options.find((o) => o.text === legacyCorrectAnswerText);
+function resolveCorrectAnswerId(
+  options: UniversalQuestionOption[],
+  legacyCorrectAnswerText: string,
+): string {
+  const match = options.find((option) => option.text === legacyCorrectAnswerText);
   if (match) return match.id;
-  // Defensive fallback: legacy data should always match by text, but if it
-  // doesn't (whitespace/encoding drift), keep the option list valid rather
-  // than silently producing an unanswerable question.
+  // Keep malformed legacy data answerable rather than returning an unknown id.
   return options[0]?.id ?? 'A';
 }
 
+function isQuestionType(value: string | undefined): value is QuestionType {
+  return value === 'mcq' || value === 'true_false' || value === 'fill_blank';
+}
+
+function parseDifficulty(value: string | undefined): Difficulty | undefined {
+  const normalized = value?.trim().toLowerCase();
+  if (normalized === 'easy' || normalized === 'medium' || normalized === 'hard') {
+    return normalized;
+  }
+  return undefined;
+}
+
 export interface LegacyToUniversalOptions {
-  /** Stable prefix for generated ids, e.g. "current-affairs-2026-06-27" or "current-affairs-budget". */
+  /** Stable prefix for generated ids, e.g. "current-affairs-2026-06-27". */
   idPrefix: string;
   examIds: string[];
   subjectId: string;
   topicId?: string;
   isCurrentAffairs?: boolean;
-  currentAffairDate?: string; // ISO date
+  currentAffairDate?: string;
   currentAffairCategory?: string;
-  difficulty?: Difficulty; // legacy data has no difficulty field — default to 'medium'
+  difficulty?: Difficulty;
   language?: 'hi' | 'en' | 'bilingual';
   source?: string;
 }
@@ -45,20 +60,22 @@ export interface LegacyToUniversalOptions {
 export function convertLegacyQuestion(
   legacy: LegacyQuestion,
   index: number,
-  opts: LegacyToUniversalOptions
+  opts: LegacyToUniversalOptions,
 ): UniversalQuestion {
   const options = toUniversalOptions(legacy.options);
+  const difficulty = parseDifficulty(legacy.difficulty) ?? opts.difficulty ?? 'medium';
+
   return {
     id: `${opts.idPrefix}-${String(index + 1).padStart(4, '0')}`,
     examIds: opts.examIds,
     subjectId: opts.subjectId,
     topicId: opts.topicId,
-    questionType: 'mcq',
+    questionType: isQuestionType(legacy.questionType) ? legacy.questionType : 'mcq',
     question: legacy.question,
     options,
     correctAnswer: resolveCorrectAnswerId(options, legacy.correctAnswer),
     explanation: legacy.explanation,
-    difficulty: opts.difficulty ?? 'medium',
+    difficulty,
     language: opts.language ?? 'hi',
     source: opts.source,
     isCurrentAffairs: opts.isCurrentAffairs,
@@ -69,34 +86,37 @@ export function convertLegacyQuestion(
 
 export function convertDailyQuiz(
   quiz: DailyQuiz,
-  opts: LegacyToUniversalOptions
+  opts: LegacyToUniversalOptions,
 ): UniversalQuestion[] {
-  return quiz.questions.map((q, i) => convertLegacyQuestion(q, i, opts));
+  return quiz.questions.map((question, index) => convertLegacyQuestion(question, index, opts));
 }
 
-/** Inverse mapping, used when handing a UniversalQuestion to legacy quiz-session/store code that still expects the old shape. */
-export function toLegacyQuestion(uq: UniversalQuestion): LegacyQuestion {
-  const correctOption = uq.options.find((o) => o.id === uq.correctAnswer);
+/** Inverse mapping for legacy quiz-session/store code. */
+export function toLegacyQuestion(universalQuestion: UniversalQuestion): LegacyQuestion {
+  const correctOption = universalQuestion.options.find(
+    (option) => option.id === universalQuestion.correctAnswer,
+  );
+
   return {
-    id: hashToLegacyId(uq.id),
-    question: uq.question,
-    options: uq.options.map((o) => o.text),
-    correctAnswer: correctOption?.text ?? uq.options[0]?.text ?? '',
-    explanation: uq.explanation ?? '',
-    // Carried through so the attempt ledger can link back to this exact
-    // universal question — see Question.universalId in types/index.ts.
-    universalId: uq.id,
-    subjectId: uq.subjectId,
-    topicId: uq.topicId,
-    examId: uq.examIds[0],
+    id: hashToLegacyId(universalQuestion.id),
+    question: universalQuestion.question,
+    options: universalQuestion.options.map((option) => option.text),
+    correctAnswer: correctOption?.text ?? universalQuestion.options[0]?.text ?? '',
+    explanation: universalQuestion.explanation ?? '',
+    universalId: universalQuestion.id,
+    subjectId: universalQuestion.subjectId,
+    topicId: universalQuestion.topicId,
+    examId: universalQuestion.examIds[0],
+    difficulty: universalQuestion.difficulty,
+    questionType: universalQuestion.questionType,
   };
 }
 
-/** Legacy `Question.id` is a number (scoped to one file). Deterministic numeric hash for interop only — never used as the universal id. */
+/** Deterministic numeric hash for legacy interop; not used as the universal id. */
 function hashToLegacyId(stableId: string): number {
   let hash = 0;
-  for (let i = 0; i < stableId.length; i++) {
-    hash = (hash * 31 + stableId.charCodeAt(i)) | 0;
+  for (let index = 0; index < stableId.length; index += 1) {
+    hash = (hash * 31 + stableId.charCodeAt(index)) | 0;
   }
   return Math.abs(hash);
 }

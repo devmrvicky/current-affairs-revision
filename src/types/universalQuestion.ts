@@ -38,6 +38,8 @@ export interface UniversalQuestion {
   language?: QuestionLanguage;
 
   source?: string;
+  /** Display name for a synthetic local Author Studio folder-backed chapter. */
+  sourceChapterTitle?: string;
   year?: number;
   examSource?: string; // e.g. "SSC CHSL 2025 Tier 1 Shift 2"
 

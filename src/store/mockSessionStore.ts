@@ -17,6 +17,8 @@ import { persist } from 'zustand/middleware';
 import type { MockDefinition } from '../types/examMock';
 import type { MockSession, MockSectionRuntime, MockQuestionState } from '../types/mockSession';
 import type { MarkPurpose } from '../types/questionMark';
+import type { QuestionOrderMode } from '../types/questionOrder';
+import { isQuestionOrderPermutation } from '../utils/questionOrder';
 import { activateMock, suspendMock, touchMock } from '../services/sessionLifecycle';
 import { sessionRegistry, parkInBackground } from '../services/sessionRegistry';
 import { captureOrigin, type ReturnOrigin } from '../services/returnRoute';
@@ -41,6 +43,8 @@ function buildSectionRuntime(
     title,
     subjectId,
     questionIds,
+    originalQuestionIds: [...questionIds],
+    questionOrderMode: 'original',
     marksPerQuestion,
     negativeMarks,
     durationSeconds,
@@ -96,6 +100,7 @@ interface MockSessionStore {
   recordTimeSpent: (questionId: string, deltaSeconds: number) => void;
 
   goToQuestion: (index: number) => void;
+  applyCurrentSectionOrder: (orderIds: string[], mode: QuestionOrderMode) => void;
   nextQuestion: () => void;
   prevQuestion: () => void;
 
@@ -260,6 +265,25 @@ export const useMockSessionStore = create<MockSessionStore>()(
         const clamped = Math.max(0, Math.min(index, section.questionIds.length - 1));
         set({ session: { ...session, currentQuestionIndex: clamped } });
       },
+
+      applyCurrentSectionOrder: (orderIds, mode) => {
+        const session = get().session;
+        if (!session) return;
+        const sectionIndex = session.currentSectionIndex;
+        const section = session.sections[sectionIndex];
+        if (!section || section.locked || !isQuestionOrderPermutation(section.questionIds, orderIds)) return;
+        const currentId = section.questionIds[session.currentQuestionIndex];
+        const nextSection = {
+          ...section,
+          questionIds: [...orderIds],
+          originalQuestionIds: section.originalQuestionIds ?? [...section.questionIds],
+          questionOrderMode: mode,
+        };
+        const sections = [...session.sections];
+        sections[sectionIndex] = nextSection;
+        set({ session: { ...session, sections, currentQuestionIndex: Math.max(0, orderIds.indexOf(currentId)) } });
+      },
+
 
       nextQuestion: () => {
         const session = get().session;

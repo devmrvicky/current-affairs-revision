@@ -58,6 +58,13 @@ describe('bank questions in the pool', () => {
     expect(mine.map((x) => x.id).sort()).toEqual(['qb:local:same:a', 'qb:remote:same:a']);
     expect(new Set(mine.map((x) => x.source)).size).toBe(2); // two different tests, tagged (Local) / (Published)
   });
+  it('preserves the chosen Author Studio folder path as the Practice chapter label', async () => {
+    await commitTests([test('author-file-1', [q('q1')], { chapterId: 'author-folder-folder-1', chapterTitle: 'Test series / My Revision Set' })], { mode: 'add' });
+    emitBankChanged();
+    const mine = (await getQuestions()).find((question) => question.id === 'qb:local:author-file-1:q1');
+    expect(mine?.sourceChapterTitle).toBe('Test series / My Revision Set');
+  });
+
   it('appear in Practice by Topic as tests under their subject and chapter, with the title and count', async () => {
     await commitTests([test('avg-1', [q('a'), q('b'), q('c')])], { mode: 'add' });
     emitBankChanged();

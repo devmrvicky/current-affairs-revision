@@ -32,7 +32,7 @@ export function bankSource(t: Pick<BankTestRecord, 'subjectId' | 'chapterId' | '
   return `chapter:${t.subjectId}/${t.chapterId}/${disambiguator ? `${name} [${disambiguator}]` : name}`;
 }
 
-export function toUniversalQuestion(rec: BankQuestionRecord, test: Pick<BankTestRecord, 'examIds' | 'subjectId' | 'chapterId' | 'title' | 'origin'>, source?: string): UniversalQuestion {
+export function toUniversalQuestion(rec: BankQuestionRecord, test: Pick<BankTestRecord, 'examIds' | 'subjectId' | 'chapterId' | 'title' | 'origin'> & Partial<Pick<BankTestRecord, 'chapterTitle'>>, source?: string): UniversalQuestion {
   const d: BankQuestionData = rec.data;
   return {
     id: bankQuestionId(rec.origin, rec.testId, rec.questionId),
@@ -48,6 +48,10 @@ export function toUniversalQuestion(rec: BankQuestionRecord, test: Pick<BankTest
     difficulty: d.difficulty ?? 'medium',
     language: d.language,
     source,
+    // Author Studio stores a stable synthetic chapter id for local folder-backed
+    // tests. Preserve the human folder path so Practice never displays that id
+    // (for example "Author Folder <uuid>") as a chapter name.
+    sourceChapterTitle: test.chapterId.startsWith('author-folder-') ? test.chapterTitle : undefined,
     tags: d.tags,
     updatedAt: new Date(rec.updatedAt).toISOString(),
   };

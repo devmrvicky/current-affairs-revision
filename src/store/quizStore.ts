@@ -5,6 +5,8 @@ import type { QuizSession, QuestionAttempt, DailyQuiz, TestMeta } from '../types
 import { v4 as uuidv4 } from 'uuid';
 import { shuffleQuestion } from '../utils';
 import type { MarkPurpose } from '../types/questionMark';
+import type { QuestionOrderMode } from '../types/questionOrder';
+import { isQuestionOrderPermutation } from '../utils/questionOrder';
 import { activateQuiz, suspendQuiz, touchQuiz } from '../services/sessionLifecycle';
 import { sessionRegistry, parkInBackground } from '../services/sessionRegistry';
 import { captureOrigin, type ReturnOrigin } from '../services/returnRoute';
@@ -28,6 +30,7 @@ interface QuizStore {
   submitAnswer: (selectedAnswer: string, timeTaken: number) => void;
   nextQuestion: () => void;
   goToQuestion: (index: number) => void;
+  applyQuestionOrder: (orderKeys: string[], mode: QuestionOrderMode) => void;
   pauseSession: () => void;
   resumeSession: () => void;
   completeSession: () => void;
@@ -59,10 +62,14 @@ export const useQuizStore = create<QuizStore>()(
         // shuffleQuestion again, so option order stays fixed for the
         // duration of this session and is preserved exactly as-is if the
         // session is persisted and resumed later.
-        const attempts: QuestionAttempt[] = quiz.questions.map((q) => {
+        const sessionId = uuidv4();
+        const attempts: QuestionAttempt[] = quiz.questions.map((q, index) => {
           const shuffled = shuffleQuestion(q);
           return {
             questionId: shuffled.id,
+            orderKey: `${sessionId}:${index}`,
+            difficulty: shuffled.difficulty,
+            questionType: shuffled.questionType ?? 'mcq',
             question: shuffled.question,
             options: shuffled.options,
             correctAnswer: shuffled.correctAnswer,
@@ -80,11 +87,13 @@ export const useQuizStore = create<QuizStore>()(
 
         set({
           session: {
-            id: uuidv4(),
+            id: sessionId,
             date: quiz.date,
             fileName,
             totalQuestions: quiz.questions.length,
             attempts,
+            originalQuestionOrder: attempts.map((attempt) => attempt.orderKey!),
+            questionOrderMode: 'original',
             currentIndex: 0,
             startTime: Date.now(),
             totalPausedTime: 0,
@@ -152,6 +161,32 @@ export const useQuizStore = create<QuizStore>()(
           },
         });
       },
+
+      applyQuestionOrder: (orderKeys, mode) => {
+        const { session } = get();
+        if (!session) return;
+        const attemptsWithKeys = session.attempts.map((attempt, index) => ({
+          ...attempt,
+          orderKey: attempt.orderKey ?? `${session.id}:${index}`,
+        }));
+        const currentKeys = attemptsWithKeys.map((attempt) => attempt.orderKey!);
+        if (!isQuestionOrderPermutation(currentKeys, orderKeys)) return;
+        const byKey = new Map(attemptsWithKeys.map((attempt) => [attempt.orderKey!, attempt]));
+        const currentKey = currentKeys[session.currentIndex];
+        const visitedKeys = (session.visitedIndices ?? []).map((index) => currentKeys[index]).filter((key): key is string => !!key);
+        const nextAttempts = orderKeys.map((key) => byKey.get(key)!);
+        const nextIndex = Math.max(0, orderKeys.indexOf(currentKey));
+        const nextVisited = visitedKeys.map((key) => orderKeys.indexOf(key)).filter((index) => index >= 0);
+        set({ session: {
+          ...session,
+          attempts: nextAttempts,
+          currentIndex: nextIndex,
+          visitedIndices: [...new Set(nextVisited)],
+          originalQuestionOrder: session.originalQuestionOrder ?? currentKeys,
+          questionOrderMode: mode,
+        } });
+      },
+
 
       pauseSession: () => {
         const { session } = get();

@@ -1,11 +1,11 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type DragEvent, type MouseEvent as ReactMouseEvent } from 'react';
 import toast from 'react-hot-toast';
-import { CheckCircle2, ChevronRight, Copy, Download, FileJson, FilePlus2, FolderInput, FolderPlus, FolderUp, Grid2x2, List, MoreVertical, Pencil, Search, Star, Trash2, Upload, XCircle } from 'lucide-react';
+import { CheckCircle2, ChevronRight, Copy, Download, Eye, EyeOff, FileJson, FilePlus2, FolderInput, FolderPlus, FolderUp, Grid2x2, List, MoreVertical, Pencil, Search, Star, Trash2, Upload, XCircle } from 'lucide-react';
 import { ConfirmDialog } from '../common/ConfirmDialog';
 import { Modal } from '../common/Modal';
 import {
   AuthorError, copyFile, copyFolder, createFile, createFolder, duplicateFile, duplicateFolder, getFileContent, listChildren, listFolders, moveFile, moveFolder,
-  renameFile, renameFolder, saveAuthorSettings, searchAuthor, setFileFavorite, setFolderFavorite, trashFile, trashFolder, type ImportResult,
+  isProtectedAuthorFolder, renameFile, renameFolder, saveAuthorSettings, searchAuthor, setFileFavorite, setFolderFavorite, trashFile, trashFolder, type ImportResult,
 } from '../../services/author/authorDb';
 import { buildBackup } from '../../services/author/authorBackup';
 import { findImportConflicts, importTree, type IncomingFile } from '../../services/author/authorImportTree';
@@ -44,9 +44,11 @@ interface Props {
   practiceTarget?: AuthorPracticeTarget;
   onAutoAddHandled?: () => void;
   onAutoAddCompleted?: () => void;
+  initialShowExamVerseFolders?: boolean;
+  onShowExamVerseFoldersChange?: (show: boolean) => void;
 }
 
-export function AuthorFileManager({ initialView, startFolderId = null, onOpenFile, refreshKey, onChanged, autoAddQuestionOnOpen = false, practiceTarget, onAutoAddHandled, onAutoAddCompleted }: Props) {
+export function AuthorFileManager({ initialView, startFolderId = null, onOpenFile, refreshKey, onChanged, autoAddQuestionOnOpen = false, practiceTarget, onAutoAddHandled, onAutoAddCompleted, initialShowExamVerseFolders = true, onShowExamVerseFoldersChange }: Props) {
   const [folderId, setFolderId] = useState<string | null>(startFolderId);
   const [folders, setFolders] = useState<AuthorFolder[]>([]);
   const [children, setChildren] = useState<{ folders: AuthorFolder[]; files: AuthorFile[] }>({ folders: [], files: [] });
@@ -65,6 +67,11 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
   const [addQuestionOpen, setAddQuestionOpen] = useState(false);
   const [addQuestionFolderId, setAddQuestionFolderId] = useState<string | null>(null);
   const [addQuestionFileId, setAddQuestionFileId] = useState<string | null>(null);
+  const [showExamVerseFolders, setShowExamVerseFolders] = useState(initialShowExamVerseFolders);
+  const [savingFolderVisibility, setSavingFolderVisibility] = useState(false);
+  const autoAddTriggered = useRef(false);
+
+  useEffect(() => { setShowExamVerseFolders(initialShowExamVerseFolders); }, [initialShowExamVerseFolders]);
 
   const [dialog, setDialog] = useState<
     | { type: 'new-folder' } | { type: 'new-file' } | { type: 'rename'; item: Item }
@@ -76,7 +83,6 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
 
   const fileInput = useRef<HTMLInputElement>(null);
   const folderInput = useRef<HTMLInputElement>(null);
-  const autoAddHandledRef = useRef(false);
 
   const reload = useCallback(async () => {
     try {
@@ -105,12 +111,14 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
   }, [reload, refreshKey, query]);
 
   useEffect(() => {
-    if (!autoAddQuestionOnOpen) { autoAddHandledRef.current = false; return; }
-    if (loading || autoAddHandledRef.current) return;
-    autoAddHandledRef.current = true;
-    startAddQuestion(folderId);
+    if (!autoAddQuestionOnOpen) { autoAddTriggered.current = false; return; }
+    if (loading || autoAddTriggered.current) return;
+    autoAddTriggered.current = true;
+    startAddQuestion(folderId ?? startFolderId ?? null);
     onAutoAddHandled?.();
-  }, [autoAddQuestionOnOpen, loading, folderId, onAutoAddHandled]);
+    // This action is a one-shot deep-link request; the ref prevents StrictMode duplicates.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [autoAddQuestionOnOpen, loading, folderId, startFolderId]);
 
   const run = useCallback(async (label: string, work: () => Promise<unknown>, success?: string) => {
     setBusy(true);
@@ -137,6 +145,22 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
       if (filter === 'valid') list = list.filter((i) => i.kind === 'file' && i.file.validation?.valid);
       if (filter === 'invalid') list = list.filter((i) => i.kind === 'file' && i.file.validation && !i.file.validation.valid);
     }
+    // The visibility preference applies consistently to every list/search view,
+    // not only when the user happens to be inside a subject root.
+    if (!showExamVerseFolders) {
+      const byId = new Map(folders.map((folder) => [folder.id, folder] as const));
+      const belongsToHiddenOriginalTree = (folderId: string | null) => {
+        let cursor = folderId ? byId.get(folderId) : undefined;
+        const seen = new Set<string>();
+        while (cursor && !seen.has(cursor.id)) {
+          seen.add(cursor.id);
+          if (cursor.isExamVerseFolder && cursor.sourcePresent !== false) return true;
+          cursor = cursor.parentId ? byId.get(cursor.parentId) : undefined;
+        }
+        return false;
+      };
+      list = list.filter((item) => !belongsToHiddenOriginalTree(item.kind === 'folder' ? item.folder.id : item.file.folderId));
+    }
     const dir = (a: Item, b: Item) => (a.kind === b.kind ? 0 : a.kind === 'folder' ? -1 : 1); // folders first
     const stamp = (i: Item) => (i.kind === 'folder' ? i.folder.updatedAt : i.file.updatedAt);
     const size = (i: Item) => (i.kind === 'file' ? i.file.size : 0);
@@ -149,7 +173,7 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
       if (sort === 'questions') return qs(b) - qs(a) || naturalCompare(itemName(a), itemName(b));
       return naturalCompare(itemName(a), itemName(b));
     });
-  }, [children, found, filter, sort]);
+  }, [children, found, filter, sort, folders, folderId, showExamVerseFolders]);
 
   const crumbs = useMemo(() => {
     const byId = new Map(folders.map((f) => [f.id, f] as const));
@@ -159,12 +183,52 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
     while (cur && !seen.has(cur)) { seen.add(cur); const f = byId.get(cur); if (!f) break; chain.unshift(f); cur = f.parentId; }
     return chain;
   }, [folders, folderId]);
+  const subjectRoot = crumbs.find((folder) => folder.systemSubjectId);
+  const currentFolder = folderId ? folders.find((folder) => folder.id === folderId) : undefined;
+  const currentIsOriginalFolder = !!currentFolder?.isExamVerseFolder && currentFolder.sourcePresent !== false;
+  const visibleTreeFolders = useMemo(() => {
+    if (showExamVerseFolders) return folders;
+    const hidden = new Set<string>();
+    const byId = new Map(folders.map((folder) => [folder.id, folder] as const));
+    for (const folder of folders) {
+      let cursor: AuthorFolder | undefined = folder;
+      const seen = new Set<string>();
+      while (cursor && !seen.has(cursor.id)) {
+        seen.add(cursor.id);
+        if (cursor.isExamVerseFolder && cursor.sourcePresent !== false) {
+          hidden.add(folder.id);
+          break;
+        }
+        cursor = cursor.parentId ? byId.get(cursor.parentId) : undefined;
+      }
+    }
+    return folders.filter((folder) => !hidden.has(folder.id));
+  }, [folders, showExamVerseFolders]);
 
-  const selectableItems = items.filter((i) => !(i.kind === 'folder' && i.folder.systemSubjectId));
+  const selectableItems = items.filter((i) => !(i.kind === 'folder' && isProtectedAuthorFolder(i.folder)));
   const selectedItems = selectableItems.filter((i) => selection.has(itemKey(i)));
   const allSelected = selectableItems.length > 0 && selectedItems.length === selectableItems.length;
 
   function goTo(id: string | null) { setFolderId(id); setSelection(new Set()); setQuery(''); setFilter('all'); setTreeOpen(false); }
+  async function updateExamVerseFolderVisibility(next: boolean) {
+    if (savingFolderVisibility || next === showExamVerseFolders) return;
+    setSavingFolderVisibility(true);
+    try {
+      await saveAuthorSettings({ showExamVerseFolders: next });
+      setShowExamVerseFolders(next);
+      onShowExamVerseFoldersChange?.(next);
+      setSelection(new Set());
+      // When hiding the source tree from inside one of its folders, return to
+      // that subject root so the hidden branch is no longer the active view.
+      if (!next && subjectRoot && crumbs.some((folder) => folder.isExamVerseFolder && folder.sourcePresent !== false)) {
+        goTo(subjectRoot.id);
+      }
+    } catch (error) {
+      toast.error(error instanceof Error ? error.message : 'Could not save folder visibility.');
+    } finally {
+      setSavingFolderVisibility(false);
+    }
+  }
   function toggleSelect(i: Item) { setSelection((prev) => { const n = new Set(prev); const k = itemKey(i); if (n.has(k)) n.delete(k); else n.add(k); return n; }); }
   function openItem(i: Item) { if (i.kind === 'folder') goTo(i.folder.id); else onOpenFile(i.file.id); }
   function startAddQuestion(targetFolderId: string | null = folderId, targetFileId: string | null = null) {
@@ -240,11 +304,12 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
   }, [dialog, folders]);
 
   const single = selectedItems.length === 1 ? selectedItems[0] : null;
+  const folderByIdForRows = useMemo(() => new Map(folders.map((folder) => [folder.id, folder] as const)), [folders]);
 
   return (
     <div className="grid gap-4 lg:grid-cols-[220px_minmax(0,1fr)]">
       <aside className="hidden lg:block card p-2 h-fit max-h-[70vh] overflow-y-auto" aria-label="Folders">
-        <AuthorTree folders={folders} selectedId={folderId} onSelect={goTo} />
+        <AuthorTree folders={visibleTreeFolders} selectedId={folderId} onSelect={goTo} />
       </aside>
 
       <section
@@ -266,6 +331,22 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
             ))}
           </nav>
           <div className="flex flex-wrap items-center gap-1.5">
+            {subjectRoot && (
+              <label className="inline-flex items-center gap-2 rounded-xl px-3 py-2 text-xs font-medium cursor-pointer select-none" style={{ border: '1px solid var(--border)', color: 'var(--text-secondary)' }} title="Show or hide ExamVerse folder branches. Your personal additions inside hidden branches are kept and reappear when you turn this on again.">
+                {showExamVerseFolders ? <Eye size={14} /> : <EyeOff size={14} />}
+                <span>Show ExamVerse folders</span>
+                <input
+                  type="checkbox"
+                  role="switch"
+                  aria-label="Show ExamVerse folders"
+                  checked={showExamVerseFolders}
+                  onChange={(event) => { void updateExamVerseFolderVisibility(event.target.checked); }}
+                  disabled={savingFolderVisibility}
+                  className="accent-brand-500"
+                />
+                <span className="text-[10px] font-bold" style={{ color: showExamVerseFolders ? '#059669' : 'var(--text-muted)' }}>{showExamVerseFolders ? 'ON' : 'OFF'}</span>
+              </label>
+            )}
             {folderId === null && (
               <span className="text-[11px] rounded-lg px-3 py-2" style={{ background: 'var(--border)', color: 'var(--text-secondary)' }}>
                 Choose any subject or nested folder when adding a question.
@@ -282,6 +363,12 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
           <input ref={fileInput} type="file" multiple accept=".json,application/json" className="hidden" onChange={async (e) => { const f = e.target.files; if (f?.length) await startImport(await readPickedFiles(f), 'upload'); e.target.value = ''; }} />
           <input ref={folderInput} type="file" multiple className="hidden" {...({ webkitdirectory: '' } as object)} onChange={async (e) => { const f = e.target.files; if (f?.length) await startImport(await readPickedFiles(f), 'folder-upload'); e.target.value = ''; }} />
         </div>
+        {currentIsOriginalFolder && (
+          <div className="flex items-start gap-2 rounded-xl px-3 py-2.5 text-xs" style={{ background: 'rgba(59,130,246,0.08)', color: 'var(--text-secondary)', border: '1px solid rgba(59,130,246,0.18)' }}>
+            <Eye size={14} className="mt-0.5 shrink-0" style={{ color: 'var(--brand-500)' }} />
+            <p><strong style={{ color: 'var(--text-primary)' }}>ExamVerse Original folder.</strong> Original questions stay read-only. Anything you add here is stored separately on this device and will remain safe when ExamVerse content updates.</p>
+          </div>
+        )}
 
         <div className="flex flex-wrap items-center gap-2">
           <label className="relative flex-1 min-w-[10rem]">
@@ -326,7 +413,9 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
           <div className="card p-8 text-center text-sm space-y-2" style={{ color: 'var(--text-secondary)' }}>
             <FileJson size={28} className="mx-auto text-brand-500" aria-hidden />
             {query || filter !== 'all' ? <p>No matches{query ? <> for “{query}”</> : null}.</p> : (
-              <><p className="font-semibold" style={{ color: 'var(--text-primary)' }}>This folder is empty</p><p>Create a folder or file, or drop JSON files (or a whole folder) here.</p></>
+              currentIsOriginalFolder
+                ? <><p className="font-semibold" style={{ color: 'var(--text-primary)' }}>No personal additions here yet</p><p>ExamVerse Original questions remain protected and available in the regular Practice area. You can add your own questions, tests, JSON files or nested folders here.</p></>
+                : <><p className="font-semibold" style={{ color: 'var(--text-primary)' }}>This folder is empty</p><p>Create a folder or file, drop JSON files, or show the ExamVerse folders if they are hidden.</p></>
             )}
           </div>
         ) : (
@@ -345,6 +434,16 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
                   const isFolder = i.kind === 'folder';
                   const fav = isFolder ? i.folder.favorite : i.file.favorite;
                   const v = !isFolder ? i.file.validation : undefined;
+                  const fileIsInsideOriginal = !isFolder && (() => {
+                    let cursor = i.file.folderId ? folderByIdForRows.get(i.file.folderId) : undefined;
+                    const seen = new Set<string>();
+                    while (cursor && !seen.has(cursor.id)) {
+                      seen.add(cursor.id);
+                      if (cursor.isExamVerseFolder && cursor.sourcePresent !== false) return true;
+                      cursor = cursor.parentId ? folderByIdForRows.get(cursor.parentId) : undefined;
+                    }
+                    return false;
+                  })();
                   const badge = v ? (v.valid ? <CheckCircle2 size={14} className="text-green-600 shrink-0" aria-label="valid" /> : <XCircle size={14} className="text-red-600 shrink-0" aria-label={`${v.errors} errors`} />) : null;
                   return (
                     <li key={k} onContextMenu={(e) => openMenu(e, i)} data-testid={isFolder ? 'author-folder' : 'author-file'}
@@ -359,6 +458,9 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
                         </span>
                       </button>
                       {fav && <Star size={13} className="fill-amber-400 text-amber-400 shrink-0" aria-label="favourite" />}
+                      {isFolder && i.folder.isExamVerseFolder && i.folder.sourcePresent !== false && <span className="text-[10px] rounded-full px-2 py-0.5 shrink-0" style={{ background: 'rgba(59,130,246,0.10)', color: 'var(--brand-500)' }}>ExamVerse</span>}
+                      {isFolder && !i.folder.isExamVerseFolder && !i.folder.systemSubjectId && <span className="text-[10px] rounded-full px-2 py-0.5 shrink-0" style={{ background: 'rgba(16,185,129,0.10)', color: '#059669' }}>My</span>}
+                      {fileIsInsideOriginal && <span className="text-[10px] rounded-full px-2 py-0.5 shrink-0" style={{ background: 'rgba(16,185,129,0.10)', color: '#059669' }}>My</span>}
                       {badge}
                       {view === 'list' && (
                         <>
@@ -386,7 +488,7 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
                 <p>Modified {formatWhen(single.kind === 'folder' ? single.folder.updatedAt : single.file.updatedAt)}</p>
                 <div className="flex gap-1.5 pt-1">
                   <button type="button" className="btn-primary px-3 py-1.5 text-xs" onClick={() => openItem(single)}>Open</button>
-                  {! (single.kind === 'folder' && single.folder.systemSubjectId) && <button type="button" className="btn-ghost px-3 py-1.5 text-xs" onClick={() => setDialog({ type: 'rename', item: single })}>Rename</button>}
+                  {!(single.kind === 'folder' && isProtectedAuthorFolder(single.folder)) && <button type="button" className="btn-ghost px-3 py-1.5 text-xs" onClick={() => setDialog({ type: 'rename', item: single })}>Rename</button>}
                 </div>
               </aside>
             )}
@@ -397,15 +499,16 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
       <AuthorAddQuestionDialog
         open={addQuestionOpen}
         folders={folders}
+        showExamVerseFolders={showExamVerseFolders}
         currentFolderId={addQuestionFolderId}
         initialFileId={addQuestionFileId}
         practiceTarget={practiceTarget}
-        onCancel={() => { setAddQuestionOpen(false); onAutoAddCompleted?.(); }}
+        onCancel={() => setAddQuestionOpen(false)}
         onComplete={(id, targetFolderId) => {
           setAddQuestionOpen(false);
-          onAutoAddCompleted?.();
           if (targetFolderId !== null) goTo(targetFolderId);
           onChanged();
+          onAutoAddCompleted?.();
           onOpenFile(id);
         }}
       />
@@ -435,7 +538,7 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
           try { if (it.kind === 'folder') await renameFolder(it.folder.id, name); else await renameFile(it.file.id, name); onChanged(); await reload(); setDialog(null); } catch (e) { return e instanceof Error ? e.message : 'Could not rename.'; }
         }} />
       <FolderPickerDialog open={dialog?.type === 'move' || dialog?.type === 'copy'} title={dialog?.type === 'copy' ? 'Copy to…' : 'Move to…'} confirmLabel={dialog?.type === 'copy' ? 'Copy here' : 'Move here'}
-        folders={folders} startId={folderId} disabledIds={moveBlocked} allowRoot={false} busy={busy} onCancel={() => setDialog(null)}
+        folders={visibleTreeFolders} startId={folderId} disabledIds={moveBlocked} allowRoot={false} busy={busy} onCancel={() => setDialog(null)}
         onConfirm={async (target) => {
           if (dialog?.type !== 'move' && dialog?.type !== 'copy') return;
           const { type, items: list } = dialog;
@@ -461,7 +564,7 @@ export function AuthorFileManager({ initialView, startFolderId = null, onOpenFil
         onChoose={(p) => pendingImport && void finishImport(pendingImport.files, p, pendingImport.source)} onCancel={() => setPendingImport(null)} />
       <ImportReportDialog result={report} onClose={() => setReport(null)} />
       <Modal open={treeOpen} onClose={() => setTreeOpen(false)} title="Folders" size="lg">
-        <div className="max-h-[60vh] overflow-y-auto"><AuthorTree folders={folders} selectedId={folderId} onSelect={goTo} /></div>
+        <div className="max-h-[60vh] overflow-y-auto"><AuthorTree folders={visibleTreeFolders} selectedId={folderId} onSelect={goTo} /></div>
       </Modal>
     </div>
   );
@@ -484,7 +587,7 @@ function ItemMenu({ menu, onClose, actions }: { menu: MenuState; onClose: () => 
     return () => { document.removeEventListener('mousedown', onDown); document.removeEventListener('keydown', onKey); };
   }, [onClose]);
   const fav = menu.item.kind === 'folder' ? menu.item.folder.favorite : menu.item.file.favorite;
-  const fixedSubject = menu.item.kind === 'folder' && !!menu.item.folder.systemSubjectId;
+  const protectedFolder = menu.item.kind === 'folder' && isProtectedAuthorFolder(menu.item.folder);
   const entries: { label: string; icon: typeof Pencil; run: () => void; danger?: boolean }[] = [
     { label: menu.item.kind === 'folder' ? 'Open folder' : 'Open', icon: FileJson, run: actions.open },
     { label: menu.item.kind === 'folder' ? 'Add question here' : 'Add question to this file', icon: FilePlus2, run: actions.addQuestion },
@@ -493,9 +596,9 @@ function ItemMenu({ menu, onClose, actions }: { menu: MenuState; onClose: () => 
     { label: 'Copy to…', icon: Copy, run: actions.copy },
     { label: 'Duplicate', icon: Copy, run: actions.duplicate },
     { label: fav ? 'Remove favourite' : 'Add to favourites', icon: Star, run: actions.favorite },
-    { label: menu.item.kind === 'folder' ? 'Export folder (ZIP)' : 'Download', icon: Download, run: actions.download },
+    { label: menu.item.kind === 'folder' ? (protectedFolder ? 'Export my additions (ZIP)' : 'Export folder (ZIP)') : 'Download', icon: Download, run: actions.download },
     { label: 'Move to Trash', icon: Trash2, run: actions.remove, danger: true },
-  ].filter((entry) => !fixedSubject || ['Open folder', 'Add question here', fav ? 'Remove favourite' : 'Add to favourites', 'Export folder (ZIP)'].includes(entry.label));
+  ].filter((entry) => !protectedFolder || ['Open folder', 'Add question here', fav ? 'Remove favourite' : 'Add to favourites', 'Export my additions (ZIP)'].includes(entry.label));
   return (
     <div ref={ref} role="menu" aria-label={`Actions for ${itemName(menu.item)}`} style={{ position: 'fixed', left: Math.max(8, menu.x), top: Math.max(8, menu.y), zIndex: 60, background: 'var(--card)', border: '1px solid var(--border)' }} className="rounded-xl shadow-xl py-1 w-48">
       {entries.map((e) => (

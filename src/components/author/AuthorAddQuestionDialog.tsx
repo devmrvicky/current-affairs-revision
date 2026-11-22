@@ -11,11 +11,9 @@ import {
   listChildren,
   trashFolder,
   updateFileContent,
-  setFilePracticeLink,
 } from '../../services/author/authorDb';
 import type { AuthorFile, AuthorFolder, AuthorPracticeTarget } from '../../types/authorStudio';
-import { examIdsForSubject, parseTestFile } from '../../services/questionBank/testFile';
-import { questionBankRepository } from '../../services/questionBank/repository';
+import { publishAuthorFileToPractice } from '../../services/author/authorPractice';
 import { v4 as uuidv4 } from 'uuid';
 
 type DestinationMode = 'folder' | 'existing-file' | 'new-file' | 'new-folder';
@@ -29,8 +27,8 @@ interface Props {
   open: boolean;
   folders: AuthorFolder[];
   currentFolderId: string | null;
+  showExamVerseFolders?: boolean;
   initialFileId?: string | null;
-  /** When launched from an ExamVerse Original chapter, publish the new Personal file to that Practice destination automatically. */
   practiceTarget?: AuthorPracticeTarget;
   onCancel: () => void;
   onComplete: (fileId: string, folderId: string | null) => void;
@@ -65,27 +63,9 @@ function appendQuestionToJson(source: string, question: EditableQuestion): strin
   throw new Error('The selected file must contain a question array or an object with a questions array.');
 }
 
-async function syncLinkedPractice(file: AuthorFile, source: string): Promise<void> {
-  const link = file.practiceLink;
-  if (!link) return;
-  const parsed = parseTestFile(source, file.name, {
-    id: link.testId,
-    title: link.title,
-    subjectId: link.subjectId,
-    chapterId: link.chapterId,
-    chapterTitle: link.chapterTitle,
-    examIds: link.examIds,
-  });
-  if (!parsed.ok || !parsed.meta) {
-    throw new Error(parsed.errors[0]?.message ?? 'The saved questions could not be converted into a Practice test.');
-  }
-  const existing = await questionBankRepository.getTestById(`local:${link.testId}`);
-  if (existing) await questionBankRepository.replaceLocalTest(link.testId, parsed);
-  else await questionBankRepository.importLocalTest(parsed);
-}
 
 /** Adds one question directly to any existing folder/file, or creates the requested destination. */
-export function AuthorAddQuestionDialog({ open, folders, currentFolderId, initialFileId = null, practiceTarget, onCancel, onComplete }: Props) {
+export function AuthorAddQuestionDialog({ open, folders, currentFolderId, showExamVerseFolders = true, initialFileId = null, practiceTarget, onCancel, onComplete }: Props) {
   const [folderId, setFolderId] = useState('');
   const [mode, setMode] = useState<DestinationMode>('folder');
   const [files, setFiles] = useState<AuthorFile[]>([]);
@@ -96,12 +76,28 @@ export function AuthorAddQuestionDialog({ open, folders, currentFolderId, initia
   const [editorKey, setEditorKey] = useState(0);
   const [busy, setBusy] = useState(false);
   const [loadError, setLoadError] = useState('');
+  const [addToPractice, setAddToPractice] = useState(true);
 
   const byId = useMemo(() => new Map(folders.map((folder) => [folder.id, folder] as const)), [folders]);
-  const folderOptions = useMemo(() => folders
-    .filter((folder) => !folder.deletedAt)
-    .map((folder) => ({ id: folder.id, label: folderPath(folder, byId) }))
-    .sort((a, b) => a.label.localeCompare(b.label, undefined, { numeric: true, sensitivity: 'base' })), [folders, byId]);
+  const folderOptions = useMemo(() => {
+    const isInsideOriginalTree = (folder: AuthorFolder) => {
+      let cursor: AuthorFolder | undefined = folder;
+      const seen = new Set<string>();
+      while (cursor && !seen.has(cursor.id)) {
+        seen.add(cursor.id);
+        if (cursor.isExamVerseFolder && cursor.sourcePresent !== false) return true;
+        cursor = cursor.parentId ? byId.get(cursor.parentId) : undefined;
+      }
+      return false;
+    };
+    return folders
+      .filter((folder) => !folder.deletedAt)
+      // Keep the current deep-link destination selectable even when the learner
+      // has hidden Original folders; all other Original branches follow the toggle.
+      .filter((folder) => showExamVerseFolders || !isInsideOriginalTree(folder) || folder.id === currentFolderId)
+      .map((folder) => ({ id: folder.id, label: `${folderPath(folder, byId)}${folder.systemSubjectId ? ' · Subject' : folder.isExamVerseFolder && folder.sourcePresent !== false ? ' · ExamVerse' : ' · My folder'}` }))
+      .sort((a, b) => a.label.localeCompare(b.label, undefined, { numeric: true, sensitivity: 'base' }));
+  }, [folders, byId, showExamVerseFolders, currentFolderId]);
 
   useEffect(() => {
     if (!open) return;
@@ -110,6 +106,7 @@ export function AuthorAddQuestionDialog({ open, folders, currentFolderId, initia
     setFileId(initialFileId ?? '');
     setNewFileName('Questions');
     setNewFolderName('New folder');
+    setAddToPractice(true);
     setDestination(null);
     setLoadError('');
     setEditorKey((key) => key + 1);
@@ -188,61 +185,25 @@ export function AuthorAddQuestionDialog({ open, folders, currentFolderId, initia
         }
       }
 
+      let savedFile = targetFile;
       let syncWarning = '';
-      let addedToPractice = false;
-      if (targetFile.practiceLink) {
-        // Preserve an existing Practice destination and update the same local test.
-        try { await syncLinkedPractice(targetFile, source); addedToPractice = true; }
-        catch (error) { syncWarning = error instanceof Error ? error.message : 'Practice sync failed.'; }
-      } else if (practiceTarget) {
-        // A launch from an Original chapter provides a canonical destination. The
-        // question remains in the Personal Author DB, while a linked local projection
-        // makes it immediately available to Practice/Mock without a second manual step.
-        const testId = `author-${targetFile.id}`;
-        const title = practiceTarget.title?.trim() || targetFile.name.replace(/\.json$/i, '');
-        const examIds = examIdsForSubject(practiceTarget.subjectId);
-        const parsed = parseTestFile(source, targetFile.name, {
-          id: testId,
-          title,
-          subjectId: practiceTarget.subjectId,
-          chapterId: practiceTarget.chapterId,
-          chapterTitle: practiceTarget.chapterTitle,
-          examIds,
-        });
-        if (!parsed.ok || !parsed.meta) {
-          syncWarning = parsed.errors[0]?.message ?? 'The question was saved, but it could not be added to Practice.';
-        } else {
-          let importedNewTest = false;
-          try {
-            const existing = await questionBankRepository.getTestById(`local:${testId}`);
-            if (existing) await questionBankRepository.replaceLocalTest(testId, parsed);
-            else {
-              await questionBankRepository.importLocalTest(parsed);
-              importedNewTest = true;
-            }
-            await setFilePracticeLink(targetFile.id, {
-              testId,
-              subjectId: practiceTarget.subjectId,
-              chapterId: practiceTarget.chapterId,
-              chapterTitle: practiceTarget.chapterTitle,
-              title,
-              examIds,
-              syncedAt: Date.now(),
-            });
-            addedToPractice = true;
-          } catch (error) {
-            // Do not leave an unlinked local test behind if the Author DB link could
-            // not be saved. The original question file itself remains safely saved.
-            try { if (importedNewTest) await questionBankRepository.deleteLocalTest(testId); } catch { /* preserve the original error */ }
-            syncWarning = error instanceof Error ? error.message : 'Practice publishing failed.';
-          }
+      if (targetFile.practiceLink || addToPractice) {
+        try {
+          // A deep link may preselect the canonical chapter. Retain that target
+          // only when the learner keeps the exact folder they opened from; if
+          // they choose another folder or create a nested one, publish against
+          // that selected destination's own path instead of the stale chapter.
+          const selectedTarget = practiceTarget && targetFile.folderId === currentFolderId ? practiceTarget : undefined;
+          const published = await publishAuthorFileToPractice(targetFile, source, selectedTarget);
+          savedFile = published.file;
+        } catch (error) {
+          syncWarning = error instanceof Error ? error.message : 'Practice publishing failed.';
         }
       }
-      if (syncWarning) toast.error(`Question saved, but Practice was not updated: ${syncWarning}`, { duration: 6000 });
-      else if (addedToPractice) toast.success(`Question added to ${targetFile.name} and made available in Practice.`);
-      else toast.success(`Question added to ${targetFile.name}.`);
+      if (syncWarning) toast.error(`Question saved in ${savedFile.name}, but Practice was not updated: ${syncWarning}`, { duration: 6500 });
+      else toast.success(savedFile.practiceLink ? `Question saved and available in Practice · ${savedFile.name}.` : `Question added to ${savedFile.name}.`);
       setDestination(null);
-      onComplete(targetFile.id, targetFile.folderId);
+      onComplete(savedFile.id, savedFile.folderId);
     } catch (error) {
       toast.error(error instanceof Error ? error.message : 'Could not add the question.');
     } finally {
@@ -298,7 +259,11 @@ export function AuthorAddQuestionDialog({ open, folders, currentFolderId, initia
             </label>
           )}
           {loadError && <p role="alert" className="text-xs text-red-600">{loadError}</p>}
-          <p className="text-[11px]" style={{ color: 'var(--text-muted)' }}>You can repeat this at any folder depth. Existing files keep their IDs and any linked Practice test is refreshed after the question is saved.</p>
+          <label className="flex items-start gap-2.5 rounded-xl p-3 text-sm" style={{ background: 'var(--border)' }}>
+            <input type="checkbox" checked={addToPractice} onChange={(event) => setAddToPractice(event.target.checked)} className="mt-0.5" />
+            <span><strong className="block" style={{ color: 'var(--text-primary)' }}>Add to Practice & Mock automatically</strong><span className="block text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>No need to open Add to Practice afterwards. Existing linked files will sync automatically.</span></span>
+          </label>
+          <p className="text-[11px]" style={{ color: 'var(--text-muted)' }}>The exact selected folder is the save destination. Existing files keep their IDs, and your personal questions stay separate from the read-only ExamVerse source.</p>
           <div className="flex gap-2">
             <button type="button" disabled={busy} onClick={onCancel} className="btn-secondary flex-1 py-2.5 text-sm">Cancel</button>
             <button type="button" disabled={busy || (mode !== 'existing-file' && !folderId) || (mode === 'existing-file' && !fileId)} onClick={continueToEditor} className="btn-primary flex-1 py-2.5 text-sm">Continue</button>

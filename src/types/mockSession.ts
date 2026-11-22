@@ -19,6 +19,11 @@ export interface MockSectionRuntime {
   subjectId: string;
   /** Fixed at session start — the only per-question ordering this session ever uses. */
   questionIds: string[];
+  /** Immutable initial order used to restore the section after Shuffle/Sort. */
+  originalQuestionIds?: string[];
+  questionOrderMode?: import('./questionOrder').QuestionOrderMode;
+  /** Legacy persisted field; question-type filtering is no longer supported in the palette. */
+  questionTypeFilter?: string;
   marksPerQuestion: number;
   negativeMarks: number;
   durationSeconds: number;

@@ -1,9 +1,12 @@
-import { memo } from 'react';
+import { memo, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import type { QuestionAttempt } from '../../types';
+import type { QuestionOrderMode } from '../../types/questionOrder';
 import { CheckCircle2, XCircle, Circle, Flag } from 'lucide-react';
 import { MarkBadge } from '../exam/MarkBadge';
 import { effectivePurpose, getMarkPurposeInfo } from '../../types/questionMark';
+import { buildQuestionOrder } from '../../utils/questionOrder';
+import { QuestionPaletteControls } from './QuestionPaletteControls';
 
 interface QuestionPaletteProps {
   attempts: QuestionAttempt[];
@@ -16,9 +19,26 @@ interface QuestionPaletteProps {
   lockedIndices?: ReadonlySet<number>;
   /** Why they are locked, for the tooltip. */
   lockedReason?: (index: number) => string;
+  orderMode?: QuestionOrderMode;
+  originalOrderIds?: string[];
+  /** Stable IDs from the session store; required for legacy sessions with older persisted attempts. */
+  orderIds?: string[];
+  onOrderChange?: (orderIds: string[], mode: QuestionOrderMode) => void;
 }
 
-export const QuestionPalette = memo(function QuestionPalette({ attempts, currentIndex, visitedIndices, onJump, hideCorrectness, lockedIndices, lockedReason }: QuestionPaletteProps) {
+export const QuestionPalette = memo(function QuestionPalette({
+  attempts,
+  currentIndex,
+  visitedIndices,
+  onJump,
+  hideCorrectness,
+  lockedIndices,
+  lockedReason,
+  orderMode = 'original',
+  originalOrderIds,
+  orderIds,
+  onOrderChange,
+}: QuestionPaletteProps) {
   const correct = attempts.filter((a) => a.status === 'correct').length;
   const wrong = attempts.filter((a) => a.status === 'wrong').length;
   const answered = attempts.filter((a) => a.status !== 'unanswered').length;
@@ -27,10 +47,32 @@ export const QuestionPalette = memo(function QuestionPalette({ attempts, current
   const marked = attempts.filter((a) => purposeOf(a)).length;
   const visited = new Set(visitedIndices ?? []);
 
+  const questionIds = useMemo(() => orderIds?.length === attempts.length ? orderIds : attempts.map((attempt, index) => attempt.orderKey ?? attempt.universalId ?? `${attempt.questionId}:${index}`), [attempts, orderIds]);
+  const metadata = useMemo(() => new Map(attempts.map((attempt, index) => [questionIds[index], {
+    difficulty: attempt.difficulty,
+  }])), [attempts, questionIds]);
+  // The palette always lists the full test; ordering never hides or filters questions.
+  const visibleItems = attempts.map((attempt, index) => ({ attempt, index, id: questionIds[index] }));
+
+  function changeOrder(mode: QuestionOrderMode) {
+    if (!onOrderChange) return;
+    // The current and previous questions remain in place. Shuffle/sort only
+    // changes the upcoming questions, so an active timer and answer state are never interrupted.
+    const reorderableIds = questionIds.filter((_, index) => index > currentIndex && !lockedIndices?.has(index));
+    const next = buildQuestionOrder(
+      questionIds,
+      originalOrderIds?.length === questionIds.length ? originalOrderIds : questionIds,
+      metadata,
+      mode,
+      reorderableIds,
+    );
+    onOrderChange(next, mode);
+  }
+
   return (
     <div className="card p-4 h-fit">
       {/* Legend */}
-      <div className="mb-4 space-y-2">
+      <div className="mb-3 space-y-2">
         <h3 className="font-display font-semibold text-sm mb-3" style={{ color: 'var(--text-primary)' }}>
           Question Palette
         </h3>
@@ -73,61 +115,66 @@ export const QuestionPalette = memo(function QuestionPalette({ attempts, current
         </div>
       </div>
 
-      {/* Grid — every question is always clickable; jump freely, no sequential restriction */}
-      <div className="grid grid-cols-5 gap-1.5">
-        {attempts.map((attempt, idx) => {
-          const isCurrent = idx === currentIndex;
-          const isAnswered = attempt.status !== 'unanswered';
-          const isVisited = visited.has(idx);
+      <div className="flex items-center justify-between mb-2 text-[10px]" style={{ color: 'var(--text-muted)' }}>
+        <span>Question numbers</span>
+        <span>{attempts.length} total</span>
+      </div>
 
-          let bg = 'var(--bg)';           // not visited
-          let textColor = 'var(--text-muted)';
-          let extraClass = 'border';
-          let borderColor = 'var(--border)';
+      {/* All questions remain visible; their displayed positions follow the active order. */}
+      {visibleItems.length > 0 ? (
+        <div className="grid grid-cols-5 gap-1.5">
+          {visibleItems.map(({ attempt, index: idx, id }) => {
+            const isCurrent = idx === currentIndex;
+            const isAnswered = attempt.status !== 'unanswered';
+            const isVisited = visited.has(idx);
 
-          if (hideCorrectness) {
-            if (isAnswered) {
-              bg = '#6366f1'; textColor = '#fff'; extraClass = ''; // brand-500, no correctness reveal
+            let bg = 'var(--bg)';
+            let textColor = 'var(--text-muted)';
+            let extraClass = 'border';
+            let borderColor = 'var(--border)';
+
+            if (hideCorrectness) {
+              if (isAnswered) {
+                bg = '#6366f1'; textColor = '#fff'; extraClass = '';
+              } else if (isVisited) {
+                bg = 'var(--border)'; textColor = 'var(--text-secondary)'; extraClass = 'border-2 border-dashed';
+                borderColor = 'var(--text-muted)';
+              }
+            } else if (attempt.status === 'correct') {
+              bg = '#22c55e'; textColor = '#fff'; extraClass = '';
+            } else if (attempt.status === 'wrong') {
+              bg = '#ef4444'; textColor = '#fff'; extraClass = '';
             } else if (isVisited) {
               bg = 'var(--border)'; textColor = 'var(--text-secondary)'; extraClass = 'border-2 border-dashed';
               borderColor = 'var(--text-muted)';
             }
-          } else if (attempt.status === 'correct') {
-            bg = '#22c55e'; textColor = '#fff'; extraClass = '';
-          } else if (attempt.status === 'wrong') {
-            bg = '#ef4444'; textColor = '#fff'; extraClass = '';
-          } else if (isVisited) {
-            // visited but skipped
-            bg = 'var(--border)'; textColor = 'var(--text-secondary)'; extraClass = 'border-2 border-dashed';
-            borderColor = 'var(--text-muted)';
-          }
 
-          const purpose = purposeOf(attempt);
-          if (purpose) {
-            borderColor = getMarkPurposeInfo(purpose)?.color ?? '#f59e0b';
-            extraClass = `${extraClass.includes('border') ? extraClass : 'border-2'}`.replace('border-dashed', 'border-solid');
-          }
+            const purpose = purposeOf(attempt);
+            if (purpose) {
+              borderColor = getMarkPurposeInfo(purpose)?.color ?? '#f59e0b';
+              extraClass = `${extraClass.includes('border') ? extraClass : 'border-2'}`.replace('border-dashed', 'border-solid');
+            }
 
-          return (
-            <motion.button
-              key={idx}
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-              onClick={() => { if (!lockedIndices?.has(idx)) onJump(idx); }}
-              aria-disabled={lockedIndices?.has(idx) || undefined}
-              className={`quiz-palette-btn relative ${extraClass} ${isCurrent ? 'ring-2 ring-amber-400 ring-offset-1' : ''} ${lockedIndices?.has(idx) ? 'opacity-35 cursor-not-allowed' : ''}`}
-              style={{ background: bg, color: textColor, borderColor }}
-              title={lockedIndices?.has(idx) ? `Q${idx + 1}: ${lockedReason?.(idx) ?? 'not available right now'}` : `Q${idx + 1}: ${purpose ? `marked — ${getMarkPurposeInfo(purpose)?.label}, ` : ''}${hideCorrectness ? (isAnswered ? 'answered' : isVisited ? 'visited' : 'not visited') : isAnswered ? attempt.status : isVisited ? 'visited' : 'not visited'}`}
-            >
-              {idx + 1}
-              {attempt.bookmarked && (
-                <div className="absolute -top-0.5 -right-0.5 w-1.5 h-1.5 bg-purple-500 rounded-full" />
-              )}
-              <MarkBadge purpose={purpose} />
-            </motion.button>
-          );
-        })}
-      </div>
+            return (
+              <motion.button
+                key={id}
+                type="button"
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}
+                onClick={() => { if (!lockedIndices?.has(idx)) onJump(idx); }}
+                aria-disabled={lockedIndices?.has(idx) || undefined}
+                className={`quiz-palette-btn relative ${extraClass} ${isCurrent ? 'ring-2 ring-amber-400 ring-offset-1' : ''} ${lockedIndices?.has(idx) ? 'opacity-35 cursor-not-allowed' : ''}`}
+                style={{ background: bg, color: textColor, borderColor }}
+                title={lockedIndices?.has(idx) ? `Q${idx + 1}: ${lockedReason?.(idx) ?? 'not available right now'}` : `Q${idx + 1}: ${purpose ? `marked — ${getMarkPurposeInfo(purpose)?.label}, ` : ''}${hideCorrectness ? (isAnswered ? 'answered' : isVisited ? 'visited' : 'not visited') : isAnswered ? attempt.status : isVisited ? 'visited' : 'not visited'}`}
+              >
+                {idx + 1}
+                {attempt.bookmarked && <div className="absolute -top-0.5 -right-0.5 w-1.5 h-1.5 bg-purple-500 rounded-full" />}
+                <MarkBadge purpose={purpose} />
+              </motion.button>
+            );
+          })}
+        </div>
+      ) : null}
 
       {/* Summary */}
       <div className="mt-4 pt-4 border-t border-[var(--border)] grid grid-cols-3 gap-2">
@@ -174,6 +221,12 @@ export const QuestionPalette = memo(function QuestionPalette({ attempts, current
           </>
         )}
       </div>
+
+      <QuestionPaletteControls
+        orderMode={orderMode}
+        onOrderModeChange={changeOrder}
+        disabled={!onOrderChange || attempts.length < 2}
+      />
     </div>
   );
 });

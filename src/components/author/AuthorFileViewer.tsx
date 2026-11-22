@@ -9,7 +9,7 @@ import { createFolder, getBreadcrumb, getFile, getFileContent, listFolders, setF
 import { validateQuestionFileText } from '../../services/author/authorValidation';
 import { questionBankRepository } from '../../services/questionBank/repository';
 import { parseTestFile, examIdsForSubject } from '../../services/questionBank/testFile';
-import type { AuthorFile, AuthorFolder } from '../../types/authorStudio';
+import type { AuthorFile, AuthorFolder, AuthorSubjectId } from '../../types/authorStudio';
 import { downloadBlob } from './authorUi';
 
 type Tab = 'preview' | 'source' | 'validation';
@@ -71,7 +71,7 @@ export function AuthorFileViewer({ fileId, onClose, onSaved }: Props) {
   const [pendingDeleteIndex, setPendingDeleteIndex] = useState<number | null>(null);
   const [editor, setEditor] = useState<{ open: boolean; question: EditableQuestion | null; index: number | null; key: number }>({ open: false, question: null, index: null, key: 0 });
   const [practiceDialogOpen, setPracticeDialogOpen] = useState(false);
-  const [practiceSubject, setPracticeSubject] = useState<string>('general-awareness');
+  const [practiceSubject, setPracticeSubject] = useState<AuthorSubjectId>('general-awareness');
   const [practiceChapter, setPracticeChapter] = useState('');
   const [practiceFolderId, setPracticeFolderId] = useState('');
   const [practiceFolders, setPracticeFolders] = useState<AuthorFolder[]>([]);
@@ -263,7 +263,7 @@ export function AuthorFileViewer({ fileId, onClose, onSaved }: Props) {
     setPracticeDialogOpen(true);
   }
 
-  function changePracticeSubject(subjectId: string) {
+  function changePracticeSubject(subjectId: AuthorSubjectId) {
     setPracticeSubject(subjectId);
     const root = practiceFolders.find((folder) => folder.parentId === null && folder.systemSubjectId === subjectId);
     setPracticeFolderId(root?.id ?? '');
@@ -433,7 +433,7 @@ export function AuthorFileViewer({ fileId, onClose, onSaved }: Props) {
         <div className="space-y-3">
           <label className="block text-sm">
             <span style={{ color: 'var(--text-secondary)' }}>Subject</span>
-            <select value={practiceSubject} onChange={(event) => changePracticeSubject(event.target.value)} className="mt-1 w-full rounded-xl px-3 py-2.5 text-sm bg-transparent" style={{ border: '1px solid var(--border)', color: 'var(--text-primary)' }}>
+            <select value={practiceSubject} onChange={(event) => changePracticeSubject(event.target.value as AuthorSubjectId)} className="mt-1 w-full rounded-xl px-3 py-2.5 text-sm bg-transparent" style={{ border: '1px solid var(--border)', color: 'var(--text-primary)' }}>
               {AUTHOR_SUBJECTS.map((subject) => <option key={subject.id} value={subject.id}>{subject.name}</option>)}
             </select>
           </label>

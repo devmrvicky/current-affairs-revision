@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, it } from 'vitest';
 import { getDB } from '../db';
-import type { AuthorLockRecord } from '../../types/authorStudio';
+import type { AuthorLockRecord, AuthorPracticeLink } from '../../types/authorStudio';
 import { createFile, createFolder, getFileContent, listAllFiles, listFolders, listTrash, restoreFolder, saveAuthorSettings, getAuthorSettings, setFileFavorite, setFolderFavorite, trashFile, setFilePracticeLink, ensureSubjectFolders } from './authorDb';
 import { applyRestore, buildBackup, parseBackup, planRestore } from './authorBackup';
 import { setupPassword } from './authorLockService';
@@ -29,7 +29,7 @@ describe('what a backup contains', () => {
     await setupPassword('a-very-secret-passphrase', 1_000);
     await saveAuthorSettings({ autoLockMinutes: 9 });
     const { b } = await seed();
-    const practiceLink = { testId: 'author-test-1', subjectId: 'general-awareness', chapterId: 'parliament', chapterTitle: 'Parliament', title: 'Parliament Set', examIds: ['ssc-chsl'], syncedAt: 123 };
+    const practiceLink: AuthorPracticeLink = { testId: 'author-test-1', subjectId: 'general-awareness', chapterId: 'parliament', chapterTitle: 'Parliament', title: 'Parliament Set', examIds: ['ssc-chsl'], syncedAt: 123 };
     await setFilePracticeLink(b.id, practiceLink);
     const { bytes, manifest, fileName } = await buildBackup('full', undefined, new Date('2026-11-06T10:00:00Z'));
     expect(fileName).toBe('author-studio-full-2026-11-06.zip');

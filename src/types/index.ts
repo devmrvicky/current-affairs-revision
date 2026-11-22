@@ -7,6 +7,9 @@ export interface Question {
   correctAnswer: string;
   explanation: string;
   bookmarked?: boolean;
+  /** Content metadata used by the in-test question palette when available. */
+  difficulty?: string;
+  questionType?: string;
   /** Present when this question came from the universal question repository (Practice/Test Configurator) — links back to it for the attempt ledger. Absent for legacy content, which is fine; nothing downstream requires it. */
   universalId?: string;
   subjectId?: string;
@@ -32,6 +35,10 @@ export interface QuestionAttempt {
   selectedAnswer: string | null;
   status: AnswerStatus;
   timeTaken: number; // seconds
+  /** Stable per-session key; stays with the attempt when question order changes. */
+  orderKey?: string;
+  difficulty?: string;
+  questionType?: string;
   bookmarked?: boolean;
   markedForReview?: boolean;
   /** Why the question was marked — see MarkPurpose. markedForReview stays true exactly when this is 'review'. */
@@ -77,6 +84,11 @@ export interface QuizSession {
   isPaused: boolean;
   visitedIndices: number[]; // indices the user has navigated to (for palette "visited" state)
   testMeta?: TestMeta;
+  /** Initial sequence retained so Shuffle/Sort can be switched back to Original. */
+  originalQuestionOrder?: string[];
+  questionOrderMode?: import('./questionOrder').QuestionOrderMode;
+  /** Legacy persisted field; question-type filtering is no longer supported in the palette. */
+  questionTypeFilter?: string;
 
   // ── Resumability (optional; see PracticeSession) ──
   suspendedAt?: number;

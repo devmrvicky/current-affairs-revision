@@ -19,23 +19,13 @@ import { useExitTest } from '../hooks/useExitTest';
 import { getOptionLabel } from '../utils';
 import { ShuffledOptions } from '../components/exam/ShuffledOptions';
 import { TestExitControls } from '../components/exam/TestExitControls';
-import { TestFileNamePopover } from '../components/exam/TestFileNamePopover';
-import { useQuestionSwipe } from '../hooks/useQuestionSwipe';
 import { summarizeQuiz } from '../services/sessionLifecycle';
-
-// Keep question changes lightweight: a tiny directional nudge, not a full-card slide.
-// With AnimatePresence mode=wait this remains a very short ~120ms hand-off.
-const questionSlideVariants = {
-  enter: (direction: number) => ({ opacity: 0.88, x: direction < 0 ? 6 : -6 }),
-  center: { opacity: 1, x: 0 },
-  exit: (direction: number) => ({ opacity: 0.88, x: direction < 0 ? -6 : 6 }),
-};
 
 export default function QuizPage() {
   const navigate = useNavigate();
   const {
     session, submitAnswer, nextQuestion, goToQuestion, pauseSession, resumeSession,
-    toggleBookmark, setMarks, completeSession,
+    toggleBookmark, setMarks, completeSession, applyQuestionOrder,
   } = useQuizStore();
   // Saved Review Center marks: the purposes a question carries beyond this test. (A hook — keep it above every early return.)
   const savedMarks = useMarkedReviewStore((st) => st.items);
@@ -173,15 +163,6 @@ export default function QuizPage() {
     onNext: () => (isTestMode ? goToQuestion(kbIndex + 1) : nextQuestion()),
   });
 
-  const swipeHandlers = useQuestionSwipe({
-    enabled: !!session && isTestMode && !showSheet && !searchSheetOpen && !showPalette && !showMarkSheet && !manualPause,
-    canGoPrevious: kbIndex > 0,
-    canGoNext: kbIndex < kbTotal - 1,
-    onPrevious: () => goToQuestion(kbIndex - 1),
-    onNext: () => goToQuestion(kbIndex + 1),
-  });
-  const { direction: swipeDirection, ...swipeEventHandlers } = swipeHandlers;
-
   // Timed mock tests: auto-submit the instant the countdown reaches zero.
   const handleExpire = useCallback(() => {
     if (!session) return;
@@ -205,6 +186,9 @@ export default function QuizPage() {
     .map((a, idx) => (a.markedForReview ? idx : -1))
     .filter((idx) => idx !== -1);
   const unansweredCount = session.attempts.filter((a) => a.status === 'unanswered').length;
+  const paletteOrderIds = session.attempts.map((attempt, index) => attempt.orderKey ?? `${session.id}:${index}`);
+  const paletteOriginalOrderIds = session.originalQuestionOrder ?? paletteOrderIds;
+  const paletteOrderMode = session.questionOrderMode ?? 'original';
 
   function handleSelect(option: string) {
     if (isAnswered) return;
@@ -281,11 +265,11 @@ export default function QuizPage() {
           <div className="flex items-center gap-2 sm:gap-3 min-w-0 flex-1">
             <TestExitControls getSummary={() => summarizeQuiz(session, 'active')} exit={exitTest} />
             <div className="min-w-0">
-              <h1 className="font-display font-bold text-xs sm:text-sm min-w-0 max-w-[54vw] sm:max-w-[28rem]">
-                <TestFileNamePopover
-                  fileName={session.fileName}
-                  displayName={isTestMode ? session.testMeta!.examName : session.date}
-                />
+              <h1 className="font-display font-bold text-xs sm:text-sm truncate" style={{ color: 'var(--text-primary)' }}>
+                {session.date}
+                <span className="hidden sm:inline">
+                  {isTestMode ? ` — ${session.testMeta!.examName}` : ' — Current Affairs'}
+                </span>
               </h1>
               <p className="text-[11px] sm:text-xs" style={{ color: 'var(--text-muted)' }}>
                 Q{session.currentIndex + 1} / {session.totalQuestions}
@@ -359,19 +343,17 @@ export default function QuizPage() {
       </AnimatePresence>
 
       {/* Main Content */}
-      <div {...swipeEventHandlers} className="max-w-5xl mx-auto px-3 sm:px-4 py-4 sm:py-6 touch-pan-y min-h-[calc(100dvh-4rem)]">
+      <div className="max-w-5xl mx-auto px-3 sm:px-4 py-4 sm:py-6">
         <div className="flex gap-6">
           {/* Question Area */}
           <div className="flex-1 min-w-0">
-            <AnimatePresence mode="wait" custom={swipeDirection}>
+            <AnimatePresence mode="wait">
               <motion.div
                 key={session.currentIndex}
-                custom={swipeDirection}
-                variants={questionSlideVariants}
-                initial="enter"
-                animate="center"
-                exit="exit"
-                transition={{ duration: 0.06, ease: 'linear' }}
+                initial={{ opacity: 0, x: 20 }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 0, x: -20 }}
+                transition={{ duration: 0.22 }}
               >
                 {/* Question Card */}
                 <div className="card p-4 sm:p-6">
@@ -503,7 +485,6 @@ export default function QuizPage() {
               <div className="flex justify-between mt-4">
                 <button
                   className="btn-ghost flex items-center gap-1 text-sm"
-                  data-swipe-ignore="true"
                   onClick={() => goToQuestion(Math.max(0, session.currentIndex - 1))}
                   disabled={session.currentIndex === 0}
                 >
@@ -511,7 +492,6 @@ export default function QuizPage() {
                 </button>
                 <button
                   className="btn-primary flex items-center gap-1 text-sm"
-                  data-swipe-ignore="true"
                   onClick={handleNext}
                 >
                   {isLast ? (isTestMode ? 'Submit Test' : 'Finish') : isTestMode ? 'Next' : 'Skip'}
@@ -531,6 +511,10 @@ export default function QuizPage() {
                   visitedIndices={session.visitedIndices ?? []}
                   onJump={goToQuestion}
                   hideCorrectness={isTestMode}
+                  orderMode={paletteOrderMode}
+                  originalOrderIds={paletteOriginalOrderIds}
+                  orderIds={paletteOrderIds}
+                  onOrderChange={(orderIds, mode) => applyQuestionOrder(orderIds, mode)}
                 />
               </div>
               <button type="button" onClick={openSubmit} className="btn-primary w-full flex items-center justify-center gap-2 text-sm py-2.5 flex-shrink-0"><Send size={14} /> Submit Test</button>
@@ -659,6 +643,10 @@ export default function QuizPage() {
                   setShowPalette(false);
                 }}
                 hideCorrectness={isTestMode}
+                orderMode={paletteOrderMode}
+                originalOrderIds={paletteOriginalOrderIds}
+                orderIds={paletteOrderIds}
+                onOrderChange={(orderIds, mode) => applyQuestionOrder(orderIds, mode)}
               />
               </div>
               <div className="flex-shrink-0 p-4" style={{ borderTop: '1px solid var(--border)' }}>

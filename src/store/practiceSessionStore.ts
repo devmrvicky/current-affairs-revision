@@ -9,6 +9,8 @@ import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import type { PracticeConfiguration, PracticeSession, SessionQuestionState } from '../types/practiceSession';
 import { sessionPurpose, type MarkPurpose } from '../types/questionMark';
+import type { QuestionOrderMode } from '../types/questionOrder';
+import { isQuestionOrderPermutation } from '../utils/questionOrder';
 import { activatePractice, suspendPractice, touchPractice } from '../services/sessionLifecycle';
 import { sessionRegistry, parkInBackground } from '../services/sessionRegistry';
 import { captureOrigin, type ReturnOrigin } from '../services/returnRoute';
@@ -44,6 +46,7 @@ interface PracticeSessionStore {
   /** Sectional tests: records which sections have begun (see services/sessionTiming.ts). Only ever grows. */
   setSectionStarts: (starts: number[]) => void;
   goToQuestion: (index: number) => void;
+  applyQuestionOrder: (orderIds: string[], mode: QuestionOrderMode) => void;
   nextQuestion: () => void;
   pauseSession: () => void;
   resumeSession: () => void;
@@ -77,6 +80,8 @@ export const usePracticeSessionStore = create<PracticeSessionStore>()(
             config,
             questionIds,
             states,
+            originalQuestionIds: [...questionIds],
+            questionOrderMode: 'original',
             currentIndex: 0,
             startedAt: now,
             lastActiveAt: now,
@@ -176,6 +181,27 @@ export const usePracticeSessionStore = create<PracticeSessionStore>()(
         const visited = session.visitedIndices.includes(index) ? session.visitedIndices : [...session.visitedIndices, index];
         set({ session: { ...session, currentIndex: index, visitedIndices: visited } });
       },
+
+      applyQuestionOrder: (orderIds, mode) => {
+        const session = get().session;
+        if (!session || !isQuestionOrderPermutation(session.questionIds, orderIds)) return;
+        const currentId = session.questionIds[session.currentIndex];
+        const stateById = new Map(session.states.map((state) => [state.questionId, state]));
+        if (orderIds.some((id) => !stateById.has(id))) return;
+        const visitedIds = session.visitedIndices.map((index) => session.questionIds[index]).filter((id): id is string => !!id);
+        const nextIndex = Math.max(0, orderIds.indexOf(currentId));
+        const nextVisited = visitedIds.map((id) => orderIds.indexOf(id)).filter((index) => index >= 0);
+        set({ session: {
+          ...session,
+          questionIds: [...orderIds],
+          states: orderIds.map((id) => stateById.get(id)!),
+          currentIndex: nextIndex,
+          visitedIndices: [...new Set(nextVisited)],
+          originalQuestionIds: session.originalQuestionIds ?? [...session.questionIds],
+          questionOrderMode: mode,
+        } });
+      },
+
 
       nextQuestion: () => {
         const session = get().session;

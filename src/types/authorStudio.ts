@@ -1,18 +1,27 @@
+// ─── Author Studio: private local question-bank workspace ────────────────────
+
 export type AuthorSubjectId = 'mathematics' | 'english' | 'reasoning' | 'general-awareness';
 
-/** Optional canonical chapter destination used when adding a personal mirror of an Original folder. */
 export interface AuthorPracticeTarget {
   subjectId: AuthorSubjectId;
   chapterId: string;
   chapterTitle: string;
-  title?: string;
+  title: string;
 }
 
-// ─── Author Studio: private local question-bank workspace ────────────────────
+export interface AuthorPracticeLink {
+  testId: string;
+  subjectId: AuthorSubjectId;
+  chapterId: string;
+  chapterTitle: string;
+  title: string;
+  examIds: string[];
+  syncedAt: number;
+}
 // Everything here lives in its own IndexedDB stores (authorFolders, authorFiles,
 // authorImports, authorMeta). Nothing in the public question pipeline
 // (questionRepository, testLibraryBuilder, mock registry…) reads these stores,
-// Source files remain private; validated files can be explicitly projected to the local Question Bank.
+// and nothing here writes to the public data — see services/author/isolation.test.ts.
 
 export interface AuthorFolder {
   id: string;
@@ -24,8 +33,14 @@ export interface AuthorFolder {
   createdAt: number;
   updatedAt: number;
   favorite?: boolean;
-  /** Present only for the four permanent top-level subject folders. */
+  /** Protected root for one of the four fixed subjects (e.g. English). */
   systemSubjectId?: AuthorSubjectId;
+  /** True when this node mirrors a folder shipped inside src/data/chapters. */
+  isExamVerseFolder?: boolean;
+  /** Stable subject + relative path identity, independent of display-name casing. */
+  sourcePathKey?: string;
+  /** False when an upstream build removed this folder; local descendants are retained as personal data. */
+  sourcePresent?: boolean;
   /** Set when soft-deleted. Absent = live. Indexed, so Trash is a cheap query. */
   deletedAt?: number;
   /** The folder/file whose deletion put this item in Trash (the "root" of the deleted subtree). */
@@ -50,17 +65,9 @@ export interface AuthorFile {
   deletedAt?: number;
   trashRootId?: string;
   trashOriginalFolderId?: string | null;
-  /** Optional link to the local Practice/Mock Test projection. Author JSON remains the editable source. */
-  practiceLink?: {
-    testId: string;
-    subjectId: string;
-    chapterId: string;
-    chapterTitle: string;
-    title: string;
-    examIds: string[];
-    syncedAt: number;
-  };
   /** Cached validation summary (recomputed on every save). */
+  /** Optional link to the same-device Practice/Mock projection. The JSON remains the source of truth. */
+  practiceLink?: AuthorPracticeLink;
   validation?: {
     valid: boolean; errors: number; warnings: number; questions: number; checkedAt: number;
     /** Searchable metadata read from the file itself. */
@@ -106,6 +113,8 @@ export interface AuthorSettingsRecord {
   /** 0 = never auto-lock. */
   autoLockMinutes: number;
   view: 'list' | 'grid';
+  /** Whether Original ExamVerse source folders are visible in My Question Bank. */
+  showExamVerseFolders?: boolean;
 }
 
 export type AuthorMetaRecord = AuthorLockRecord | AuthorSettingsRecord;

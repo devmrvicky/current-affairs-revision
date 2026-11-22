@@ -75,6 +75,11 @@ export interface PracticeSession {
   questionIds: string[];
   /** Parallel array to questionIds, same order/length. */
   states: SessionQuestionState[];
+  /** Original order is preserved to let the learner switch Shuffle/Sort off safely. */
+  originalQuestionIds?: string[];
+  questionOrderMode?: import('./questionOrder').QuestionOrderMode;
+  /** Legacy persisted field; question-type filtering is no longer supported in the palette. */
+  questionTypeFilter?: string;
   currentIndex: number;
   startedAt: number;
   completedAt?: number;
