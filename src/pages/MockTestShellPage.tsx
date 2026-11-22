@@ -27,6 +27,12 @@ import { effectivePurpose, getMarkPurposeInfo, normalizePurposes, savedPurposes,
 import { QuestionMarkdownRenderer, QuestionOptionContent } from '../components/mock/QuestionMarkdownRenderer';
 import type { UniversalQuestion } from '../types/universalQuestion';
 
+const questionSlideVariants = {
+  enter: (direction: number) => ({ opacity: 0, x: direction < 0 ? '100%' : '-100%' }),
+  center: { opacity: 1, x: 0 },
+  exit: (direction: number) => ({ opacity: 0, x: direction < 0 ? '-100%' : '100%' }),
+};
+
 export default function MockTestShellPage() {
   const { mockId } = useParams<{ mockId: string }>();
   const navigate = useNavigate();
@@ -174,6 +180,7 @@ export default function MockTestShellPage() {
     onPrevious: () => { flushTimeSpent(); prevQuestion(); },
     onNext: () => { flushTimeSpent(); nextQuestion(); },
   });
+  const { direction: swipeDirection, ...swipeEventHandlers } = swipeHandlers;
 
   // A suspended session's section clock hasn't been shifted by the time away yet — wait for the presence hook to do that.
   if (!session || !loaded || !currentSection || !currentQuestionId || session.suspendedAt) {
@@ -414,12 +421,22 @@ export default function MockTestShellPage() {
     <ExamShell
       header={header}
       footer={footer}
+      swipeHandlers={swipeEventHandlers}
       overlays={overlays}
       palette={<MockQuestionPalette questionIds={currentSection.questionIds} states={session.states} currentIndex={currentIndexInSection} onJump={handleJump} />}
       paletteFooter={sidebarFinish}
     >
-      <AnimatePresence mode="wait">
-        <motion.div {...swipeHandlers} key={currentQuestionId} initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.15 }} className="touch-pan-y px-3 sm:px-5 lg:px-8 py-4 sm:py-6">
+      <AnimatePresence mode="wait" custom={swipeDirection}>
+        <motion.div
+          key={currentQuestionId}
+          custom={swipeDirection}
+          variants={questionSlideVariants}
+          initial="enter"
+          animate="center"
+          exit="exit"
+          transition={{ duration: 0.2, ease: 'easeOut' }}
+          className="px-3 sm:px-5 lg:px-8 py-4 sm:py-6"
+        >
           {!currentQuestion ? (
             <div className="flex items-start gap-3 p-4 rounded-xl" style={{ background: 'rgba(239,68,68,0.08)' }}>
               <AlertTriangle size={20} className="text-red-500 flex-shrink-0 mt-0.5" />

@@ -23,6 +23,12 @@ import { TestFileNamePopover } from '../components/exam/TestFileNamePopover';
 import { useQuestionSwipe } from '../hooks/useQuestionSwipe';
 import { summarizeQuiz } from '../services/sessionLifecycle';
 
+const questionSlideVariants = {
+  enter: (direction: number) => ({ opacity: 0, x: direction < 0 ? '100%' : '-100%' }),
+  center: { opacity: 1, x: 0 },
+  exit: (direction: number) => ({ opacity: 0, x: direction < 0 ? '-100%' : '100%' }),
+};
+
 export default function QuizPage() {
   const navigate = useNavigate();
   const {
@@ -172,6 +178,7 @@ export default function QuizPage() {
     onPrevious: () => goToQuestion(kbIndex - 1),
     onNext: () => goToQuestion(kbIndex + 1),
   });
+  const { direction: swipeDirection, ...swipeEventHandlers } = swipeHandlers;
 
   // Timed mock tests: auto-submit the instant the countdown reaches zero.
   const handleExpire = useCallback(() => {
@@ -350,17 +357,19 @@ export default function QuizPage() {
       </AnimatePresence>
 
       {/* Main Content */}
-      <div className="max-w-5xl mx-auto px-3 sm:px-4 py-4 sm:py-6">
+      <div {...swipeEventHandlers} className="max-w-5xl mx-auto px-3 sm:px-4 py-4 sm:py-6 touch-pan-y min-h-[calc(100dvh-4rem)]">
         <div className="flex gap-6">
           {/* Question Area */}
-          <div className="flex-1 min-w-0 touch-pan-y" {...swipeHandlers}>
-            <AnimatePresence mode="wait">
+          <div className="flex-1 min-w-0">
+            <AnimatePresence mode="wait" custom={swipeDirection}>
               <motion.div
                 key={session.currentIndex}
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -20 }}
-                transition={{ duration: 0.22 }}
+                custom={swipeDirection}
+                variants={questionSlideVariants}
+                initial="enter"
+                animate="center"
+                exit="exit"
+                transition={{ duration: 0.2, ease: 'easeOut' }}
               >
                 {/* Question Card */}
                 <div className="card p-4 sm:p-6">
@@ -492,6 +501,7 @@ export default function QuizPage() {
               <div className="flex justify-between mt-4">
                 <button
                   className="btn-ghost flex items-center gap-1 text-sm"
+                  data-swipe-ignore="true"
                   onClick={() => goToQuestion(Math.max(0, session.currentIndex - 1))}
                   disabled={session.currentIndex === 0}
                 >
@@ -499,6 +509,7 @@ export default function QuizPage() {
                 </button>
                 <button
                   className="btn-primary flex items-center gap-1 text-sm"
+                  data-swipe-ignore="true"
                   onClick={handleNext}
                 >
                   {isLast ? (isTestMode ? 'Submit Test' : 'Finish') : isTestMode ? 'Next' : 'Skip'}

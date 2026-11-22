@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react';
+import type { HTMLAttributes, ReactNode } from 'react';
 
 interface ExamShellProps {
   header: ReactNode;
@@ -12,6 +12,8 @@ interface ExamShellProps {
   footer?: ReactNode;
   /** Overlays (pause screen, drawers, dialogs) rendered inside the shell's stacking context. */
   overlays?: ReactNode;
+  /** Touch handlers are attached only to the central question viewport (not header/footer). */
+  swipeHandlers?: Pick<HTMLAttributes<HTMLElement>, 'onTouchStart' | 'onTouchEnd' | 'onTouchCancel' | 'onClickCapture'>;
   children: ReactNode;
 }
 
@@ -23,13 +25,13 @@ interface ExamShellProps {
  * header, timer or navigation buttons off screen. Safe-area insets keep it clear
  * of notches and home indicators. All sizing lives in `.exam-shell*` (index.css).
  */
-export function ExamShell({ header, palette, paletteFooter, floating, footer, overlays, children }: ExamShellProps) {
+export function ExamShell({ header, palette, paletteFooter, floating, footer, overlays, swipeHandlers, children }: ExamShellProps) {
   return (
     <div className="exam-shell" data-testid="exam-shell">
       <div className="exam-shell__header">{header}</div>
       <div className="exam-shell__body">
-        <div className="exam-shell__main-wrap">
-          <main className="exam-shell__main" tabIndex={-1} data-testid="exam-question-area"><div className="exam-shell__content">{children}</div></main>
+        <div {...swipeHandlers} className="exam-shell__main-wrap touch-pan-y">
+          <main className="exam-shell__main touch-pan-y" tabIndex={-1} data-testid="exam-question-area"><div className="exam-shell__content">{children}</div></main>
           {floating && <div className="exam-shell__floating">{floating}</div>}
         </div>
         {palette && (
