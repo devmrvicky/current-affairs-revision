@@ -16,6 +16,7 @@ import { QuestionPalette } from '../components/quiz/QuestionPalette';
 import { ExamShell } from '../components/exam/ExamShell';
 import { QuestionMarkdownRenderer, QuestionOptionContent } from '../components/mock/QuestionMarkdownRenderer';
 import { useExamKeyboardNavigation } from '../hooks/useExamKeyboardNavigation';
+import { useQuestionSwipe } from '../hooks/useQuestionSwipe';
 import { useSessionPresence } from '../hooks/useSessionPresence';
 import { useExitTest } from '../hooks/useExitTest';
 import { SubmitTestDialog } from '../components/exam/SubmitTestDialog';
@@ -45,6 +46,13 @@ import type { SessionQuestionState } from '../types/practiceSession';
 // area / palette / pinned navigation bar). Question, option and explanation
 // text go through QuestionMarkdownRenderer — the same renderer the mock shell
 // uses — so maths (KaTeX), images and Hindi text render correctly here too.
+
+// Preserve the original subtle directional hand-off when swiping between questions.
+const questionSlideVariants = {
+  enter: (direction: number) => ({ opacity: 0.88, x: direction < 0 ? 6 : -6 }),
+  center: { opacity: 1, x: 0 },
+  exit: (direction: number) => ({ opacity: 0.88, x: direction < 0 ? -6 : 6 }),
+};
 
 function toDisplayAttempts(questionIds: string[], states: SessionQuestionState[], questionsById: Map<string, UniversalQuestion>): QuestionAttempt[] {
   return questionIds.map((qid, idx) => {
@@ -266,6 +274,15 @@ export default function UniversalSessionPage() {
     onPrevious: () => navigateTo(currentIndex - 1),
     onNext: () => navigateTo(currentIndex + 1),
   });
+
+  const swipeHandlers = useQuestionSwipe({
+    enabled: loaded && !!session && !isPaused && !showPalette && !showSubmitConfirm && !showMarkSheet && !showFinishSection && !isFinishing,
+    canGoPrevious: currentIndex > rangeStart,
+    canGoNext: currentIndex < rangeEnd - 1,
+    onPrevious: () => navigateTo(currentIndex - 1),
+    onNext: () => navigateTo(currentIndex + 1),
+  });
+  const { direction: swipeDirection, ...swipeEventHandlers } = swipeHandlers;
 
   // `suspendedAt` is cleared by the presence hook within a frame of mounting; until then the clock is not
   // running, so don't render (or let the timer judge) a session whose away-time hasn't been folded in yet.
@@ -497,6 +514,7 @@ export default function UniversalSessionPage() {
     <ExamShell
       header={header}
       footer={footer}
+      swipeHandlers={swipeEventHandlers}
       overlays={overlays}
       palette={<QuestionPalette attempts={displayAttempts} currentIndex={session.currentIndex} visitedIndices={session.visitedIndices} onJump={navigateTo} hideCorrectness={isTestMode} lockedIndices={lockedIndices} lockedReason={lockedReason} orderMode={paletteOrderMode} originalOrderIds={paletteOriginalOrderIds} orderIds={session.questionIds} onOrderChange={applyQuestionOrder} />}
       paletteFooter={submitButton}
@@ -508,8 +526,17 @@ export default function UniversalSessionPage() {
         ) : null
       }
     >
-      <AnimatePresence mode="wait">
-        <motion.div key={session.currentIndex} initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.15 }} className={isTestMode ? 'py-4 sm:py-6 px-3 sm:px-5 lg:px-8 pb-6' : 'py-4 sm:py-6 px-3 sm:px-5 md:px-16 pb-16 md:pb-6'}>
+      <AnimatePresence mode="wait" custom={swipeDirection}>
+        <motion.div
+          key={session.currentIndex}
+          custom={swipeDirection}
+          variants={questionSlideVariants}
+          initial="enter"
+          animate="center"
+          exit="exit"
+          transition={{ duration: 0.06, ease: 'linear' }}
+          className={isTestMode ? 'py-4 sm:py-6 px-3 sm:px-5 lg:px-8 pb-6' : 'py-4 sm:py-6 px-3 sm:px-5 md:px-16 pb-16 md:pb-6'}
+        >
           {!currentQuestion ? (
             // Question resolution failed — show it plainly rather than crash or silently substitute another question (master prompt §22).
             <div className="flex items-start gap-3 p-4 rounded-xl" style={{ background: 'rgba(239,68,68,0.08)' }}>

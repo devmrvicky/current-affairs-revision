@@ -11,6 +11,7 @@ import { AnswerBottomSheet, EXPLANATION_DRAWER_WIDTH } from '../components/quiz/
 import { useIsDesktop } from '../hooks/useMediaQuery';
 import { QuestionWebSearchSheet } from '../components/quiz/QuestionWebSearchSheet';
 import { useExamKeyboardNavigation } from '../hooks/useExamKeyboardNavigation';
+import { useQuestionSwipe } from '../hooks/useQuestionSwipe';
 import { useSessionPresence } from '../hooks/useSessionPresence';
 import { MarkPurposeSheet } from '../components/exam/MarkPurposeSheet';
 import { useMarkedReviewStore } from '../store/markedReviewStore';
@@ -20,6 +21,13 @@ import { getOptionLabel } from '../utils';
 import { ShuffledOptions } from '../components/exam/ShuffledOptions';
 import { TestExitControls } from '../components/exam/TestExitControls';
 import { summarizeQuiz } from '../services/sessionLifecycle';
+
+// Preserve the original subtle directional hand-off when swiping between questions.
+const questionSlideVariants = {
+  enter: (direction: number) => ({ opacity: 0.88, x: direction < 0 ? 6 : -6 }),
+  center: { opacity: 1, x: 0 },
+  exit: (direction: number) => ({ opacity: 0.88, x: direction < 0 ? -6 : 6 }),
+};
 
 export default function QuizPage() {
   const navigate = useNavigate();
@@ -162,6 +170,16 @@ export default function QuizPage() {
     onPrevious: () => goToQuestion(kbIndex - 1),
     onNext: () => (isTestMode ? goToQuestion(kbIndex + 1) : nextQuestion()),
   });
+
+  // One-finger swipe navigation in timed tests; practice sessions retain their original interaction.
+  const swipeHandlers = useQuestionSwipe({
+    enabled: !!session && isTestMode && !showSheet && !searchSheetOpen && !showPalette && !showMarkSheet && !manualPause,
+    canGoPrevious: kbIndex > 0,
+    canGoNext: kbIndex < kbTotal - 1,
+    onPrevious: () => goToQuestion(kbIndex - 1),
+    onNext: () => goToQuestion(kbIndex + 1),
+  });
+  const { direction: swipeDirection, ...swipeEventHandlers } = swipeHandlers;
 
   // Timed mock tests: auto-submit the instant the countdown reaches zero.
   const handleExpire = useCallback(() => {
@@ -343,17 +361,19 @@ export default function QuizPage() {
       </AnimatePresence>
 
       {/* Main Content */}
-      <div className="max-w-5xl mx-auto px-3 sm:px-4 py-4 sm:py-6">
+      <div {...swipeEventHandlers} className="max-w-5xl mx-auto px-3 sm:px-4 py-4 sm:py-6 touch-pan-y">
         <div className="flex gap-6">
           {/* Question Area */}
           <div className="flex-1 min-w-0">
-            <AnimatePresence mode="wait">
+            <AnimatePresence mode="wait" custom={swipeDirection}>
               <motion.div
                 key={session.currentIndex}
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -20 }}
-                transition={{ duration: 0.22 }}
+                custom={swipeDirection}
+                variants={questionSlideVariants}
+                initial="enter"
+                animate="center"
+                exit="exit"
+                transition={{ duration: 0.06, ease: 'linear' }}
               >
                 {/* Question Card */}
                 <div className="card p-4 sm:p-6">
@@ -485,6 +505,7 @@ export default function QuizPage() {
               <div className="flex justify-between mt-4">
                 <button
                   className="btn-ghost flex items-center gap-1 text-sm"
+                  data-swipe-ignore="true"
                   onClick={() => goToQuestion(Math.max(0, session.currentIndex - 1))}
                   disabled={session.currentIndex === 0}
                 >
@@ -492,6 +513,7 @@ export default function QuizPage() {
                 </button>
                 <button
                   className="btn-primary flex items-center gap-1 text-sm"
+                  data-swipe-ignore="true"
                   onClick={handleNext}
                 >
                   {isLast ? (isTestMode ? 'Submit Test' : 'Finish') : isTestMode ? 'Next' : 'Skip'}

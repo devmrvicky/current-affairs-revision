@@ -15,6 +15,7 @@ import { TestExitControls } from '../components/exam/TestExitControls';
 import { summarizeMock } from '../services/sessionLifecycle';
 import { getOptionLabel } from '../utils';
 import { useExamKeyboardNavigation } from '../hooks/useExamKeyboardNavigation';
+import { useQuestionSwipe } from '../hooks/useQuestionSwipe';
 import { useSessionPresence } from '../hooks/useSessionPresence';
 import { useExitTest } from '../hooks/useExitTest';
 import { SubmitTestDialog } from '../components/exam/SubmitTestDialog';
@@ -24,6 +25,13 @@ import { useMarkedReviewStore } from '../store/markedReviewStore';
 import { effectivePurpose, getMarkPurposeInfo, normalizePurposes, savedPurposes, toggleMarkPurpose, type MarkPurpose } from '../types/questionMark';
 import { QuestionMarkdownRenderer, QuestionOptionContent } from '../components/mock/QuestionMarkdownRenderer';
 import type { UniversalQuestion } from '../types/universalQuestion';
+
+// Preserve the original subtle directional hand-off when swiping between questions.
+const questionSlideVariants = {
+  enter: (direction: number) => ({ opacity: 0.88, x: direction < 0 ? 6 : -6 }),
+  center: { opacity: 1, x: 0 },
+  exit: (direction: number) => ({ opacity: 0.88, x: direction < 0 ? -6 : 6 }),
+};
 
 export default function MockTestShellPage() {
   const { mockId } = useParams<{ mockId: string }>();
@@ -167,6 +175,15 @@ export default function MockTestShellPage() {
     onPrevious: () => { flushTimeSpent(); prevQuestion(); },
     onNext: () => { flushTimeSpent(); nextQuestion(); },
   });
+
+  const swipeHandlers = useQuestionSwipe({
+    enabled: loaded && !!session && session.status === 'active' && !showPalette && !showSubmitConfirm && !showFinishSectionConfirm && !showMarkSheet && !transitionMessage && !isFinishing,
+    canGoPrevious: kbIndex > 0,
+    canGoNext: kbIndex < kbCount - 1,
+    onPrevious: () => { flushTimeSpent(); prevQuestion(); },
+    onNext: () => { flushTimeSpent(); nextQuestion(); },
+  });
+  const { direction: swipeDirection, ...swipeEventHandlers } = swipeHandlers;
 
   // A suspended session's section clock hasn't been shifted by the time away yet — wait for the presence hook to do that.
   if (!session || !loaded || !currentSection || !currentQuestionId || session.suspendedAt) {
@@ -405,12 +422,22 @@ export default function MockTestShellPage() {
     <ExamShell
       header={header}
       footer={footer}
+      swipeHandlers={swipeEventHandlers}
       overlays={overlays}
       palette={<MockQuestionPalette questionIds={currentSection.questionIds} states={session.states} currentIndex={currentIndexInSection} onJump={handleJump} questionsById={questionsById} orderMode={paletteOrderMode} originalOrderIds={paletteOriginalOrderIds} onOrderChange={applyCurrentSectionOrder} />}
       paletteFooter={sidebarFinish}
     >
-      <AnimatePresence mode="wait">
-        <motion.div key={currentQuestionId} initial={{ opacity: 0, x: 12 }} animate={{ opacity: 1, x: 0 }} exit={{ opacity: 0, x: -12 }} transition={{ duration: 0.15 }} className="px-3 sm:px-5 lg:px-8 py-4 sm:py-6">
+      <AnimatePresence mode="wait" custom={swipeDirection}>
+        <motion.div
+          key={currentQuestionId}
+          custom={swipeDirection}
+          variants={questionSlideVariants}
+          initial="enter"
+          animate="center"
+          exit="exit"
+          transition={{ duration: 0.06, ease: 'linear' }}
+          className="px-3 sm:px-5 lg:px-8 py-4 sm:py-6"
+        >
           {!currentQuestion ? (
             <div className="flex items-start gap-3 p-4 rounded-xl" style={{ background: 'rgba(239,68,68,0.08)' }}>
               <AlertTriangle size={20} className="text-red-500 flex-shrink-0 mt-0.5" />
