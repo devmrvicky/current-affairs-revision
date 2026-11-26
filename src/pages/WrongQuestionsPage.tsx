@@ -10,6 +10,7 @@ import { EmptyState } from '../components/common/EmptyState';
 import { getOptionLabel } from '../utils';
 import { ShuffledOptions } from '../components/exam/ShuffledOptions';
 import type { WrongQuestion } from '../types';
+import { QuestionMarkdownRenderer, QuestionOptionContent } from '../components/mock/QuestionMarkdownRenderer';
 
 const MASTERY_THRESHOLD = 3;
 
@@ -78,9 +79,9 @@ const WQCard = memo(function WQCard({ wq, onDismiss, onRecord }: WQCardProps) {
               {isMastered ? '🏆 Mastered' : `❌ Wrong ${wq.wrongCount}×`}
             </span>
           </div>
-          <p className="text-sm font-medium leading-relaxed line-clamp-2" style={{ color: 'var(--text-primary)' }}>
-            {wq.question}
-          </p>
+          <div className="text-sm font-medium leading-relaxed line-clamp-2" style={{ color: 'var(--text-primary)' }}>
+            <QuestionMarkdownRenderer content={wq.question} />
+          </div>
         </div>
 
         <div className="flex items-center gap-1 flex-shrink-0">
@@ -168,7 +169,7 @@ const WQCard = memo(function WQCard({ wq, onDismiss, onRecord }: WQCardProps) {
                       }`}>
                         {label}
                       </span>
-                      {opt}
+                      <QuestionOptionContent text={opt} />
                     </span>
                   </button>
                 );
@@ -187,9 +188,9 @@ const WQCard = memo(function WQCard({ wq, onDismiss, onRecord }: WQCardProps) {
                 <p className="text-xs font-bold uppercase tracking-wider mb-1" style={{ color: 'var(--text-muted)' }}>
                   Explanation
                 </p>
-                <p className="text-xs leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                  {wq.explanation}
-                </p>
+                <div className="text-xs leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+                  <QuestionMarkdownRenderer content={wq.explanation} />
+                </div>
               </motion.div>
             )}
           </motion.div>

@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import { EmptyState } from '../components/common/EmptyState';
 import { getOptionLabel } from '../utils';
 import { ShuffledOptions } from '../components/exam/ShuffledOptions';
+import { QuestionMarkdownRenderer, QuestionOptionContent } from '../components/mock/QuestionMarkdownRenderer';
 import type { WrongQuestion } from '../types';
 import toast from 'react-hot-toast';
 
@@ -62,9 +63,9 @@ const DangerCard = memo(function DangerCard({
               </span>
             )}
           </div>
-          <p className="text-sm font-medium leading-relaxed" style={{ color: 'var(--text-primary)' }}>
-            {wq.question}
-          </p>
+          <div className="text-sm font-medium leading-relaxed" style={{ color: 'var(--text-primary)' }}>
+            <QuestionMarkdownRenderer content={wq.question} />
+          </div>
         </div>
 
         <button
@@ -109,7 +110,7 @@ const DangerCard = memo(function DangerCard({
                       }`}>
                         {getOptionLabel(idx)}
                       </span>
-                      {opt}
+                      <QuestionOptionContent text={opt} />
                     </span>
                   </button>
                 );
@@ -120,7 +121,7 @@ const DangerCard = memo(function DangerCard({
             {revealed && wq.explanation && (
               <div className="mt-2 p-3 rounded-xl border" style={{ background: 'var(--bg)', borderColor: 'var(--border)' }}>
                 <p className="text-xs font-bold uppercase tracking-wider mb-1" style={{ color: 'var(--text-muted)' }}>Explanation</p>
-                <p className="text-xs leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{wq.explanation}</p>
+                <div className="text-xs leading-relaxed" style={{ color: 'var(--text-secondary)' }}><QuestionMarkdownRenderer content={wq.explanation} /></div>
               </div>
             )}
             {revealed && (

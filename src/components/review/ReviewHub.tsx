@@ -4,6 +4,7 @@ import toast from 'react-hot-toast';
 import { ChevronDown, ChevronUp, Layers, Rocket, X } from 'lucide-react';
 import { Modal } from '../common/Modal';
 import { SpeakExplanationButton } from '../common/SpeakExplanationButton';
+import { QuestionMarkdownRenderer, QuestionOptionContent } from '../mock/QuestionMarkdownRenderer';
 import { loadReviewItems, setSavedPurposes } from '../../services/reviewCenterService';
 import {
   buildRevisionQuiz, EMPTY_FILTERS, filterReviewItems, monthSummaries, REVIEW_CATEGORIES, reviewMetrics, selectForRevision,
@@ -197,21 +198,21 @@ function ReviewItemRow({ item, expanded, onToggle, onChanged, catLabel }: { item
   return (
     <li className="card p-3" data-testid="review-item" data-key={item.key}>
       <button type="button" onClick={onToggle} aria-expanded={expanded} className="w-full flex items-start gap-2 text-left">
-        <span className="min-w-0 flex-1">
-          <span className="block text-sm" style={{ color: 'var(--text-primary)' }}>{item.question}</span>
+        <div className="min-w-0 flex-1">
+          <div className="text-sm" style={{ color: 'var(--text-primary)' }}><QuestionMarkdownRenderer content={item.question} /></div>
           <span className="mt-1 flex flex-wrap gap-1.5 text-[11px]">
             {item.categories.map((c) => <span key={c} className="px-1.5 py-0.5 rounded-full" style={{ background: 'var(--border)', color: 'var(--text-secondary)' }}>{catLabel(c).split(' / ')[0]}</span>)}
             <span style={{ color: 'var(--text-muted)' }}>{subjectName(item.subjectId)}{item.topicId ? ` › ${getTopicDisplayName(item.subjectId ?? '', item.topicId)}` : ''}{item.difficulty ? ` · ${item.difficulty}` : ''} · {item.sourceLabel}</span>
             {item.wrong > 0 && <span className="text-red-600">{item.wrong}× wrong</span>}
             {item.priority !== undefined && <span style={{ color: 'var(--text-muted)' }}>priority {item.priority}</span>}
           </span>
-        </span>
+        </div>
         {expanded ? <ChevronUp size={16} aria-hidden /> : <ChevronDown size={16} aria-hidden />}
       </button>
       {expanded && (
         <div className="mt-3 space-y-2 text-xs" style={{ color: 'var(--text-secondary)' }}>
-          <ol className="grid gap-1 sm:grid-cols-2">{item.options.map((o, i) => <li key={i} className="rounded-lg px-2.5 py-1.5" style={{ border: `1px solid ${o === item.correctAnswer ? '#16a34a' : 'var(--border)'}`, background: o === item.correctAnswer ? 'rgba(22,163,74,0.08)' : undefined, color: 'var(--text-primary)' }}>{String.fromCharCode(65 + i)}. {o}</li>)}</ol>
-          {item.explanation && <p className="p-2 rounded-lg" style={{ background: 'var(--border)' }}>{item.explanation}</p>}
+          <ol className="grid gap-1 sm:grid-cols-2">{item.options.map((o, i) => <li key={i} className="rounded-lg px-2.5 py-1.5" style={{ border: `1px solid ${o === item.correctAnswer ? '#16a34a' : 'var(--border)'}`, background: o === item.correctAnswer ? 'rgba(22,163,74,0.08)' : undefined, color: 'var(--text-primary)' }}>{String.fromCharCode(65 + i)}. <QuestionOptionContent text={o} /></li>)}</ol>
+          {item.explanation && <div className="p-2 rounded-lg" style={{ background: 'var(--border)' }}><QuestionMarkdownRenderer content={item.explanation} /></div>}
           {item.explanation && <SpeakExplanationButton text={item.explanation} />}
           <RemoveActions item={item} onChanged={onChanged} />
           {item.purposes.length > 0 && (

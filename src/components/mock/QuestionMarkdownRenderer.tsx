@@ -46,7 +46,7 @@ export function QuestionOptionContent({ text, image, baseDir }: QuestionOptionCo
         <span className="question-plain">{text}</span>
       ) : (
         <span className="question-markdown-inline">
-          <ReactMarkdown remarkPlugins={REMARK_PLUGINS} rehypePlugins={[rehypeKatex]} components={{ p: ({ children }) => <>{children}</> }}>{prepareMarkdown(text)}</ReactMarkdown>
+          <ReactMarkdown remarkPlugins={REMARK_PLUGINS} rehypePlugins={[[rehypeKatex, { throwOnError: false, strict: 'warn' }]]} components={{ p: ({ children }) => <>{children}</> }}>{prepareMarkdown(text)}</ReactMarkdown>
         </span>
       ))}
     </span>
@@ -80,7 +80,7 @@ export function QuestionMarkdownRenderer({ content, baseDir, className }: Questi
     <div className={`question-markdown ${className ?? ''}`}>
       <ReactMarkdown
         remarkPlugins={REMARK_PLUGINS}
-        rehypePlugins={[rehypeKatex]}
+        rehypePlugins={[[rehypeKatex, { throwOnError: false, strict: 'warn' }]]}
         components={{
           img: ({ src, alt }) => {
             if (!src) return null;

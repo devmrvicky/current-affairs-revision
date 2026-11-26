@@ -5,6 +5,7 @@ import { ArrowLeft, CheckCircle2, XCircle, Circle, Clock, Flag, Bookmark } from 
 import { useQuizStore } from '../store/quizStore';
 import { getOptionLabel, formatTime } from '../utils';
 import { LegacyQuestionTable } from '../components/results/LegacyResultTables';
+import { QuestionMarkdownRenderer, QuestionOptionContent } from '../components/mock/QuestionMarkdownRenderer';
 
 export default function TestReviewPage() {
   const navigate = useNavigate();
@@ -51,9 +52,9 @@ export default function TestReviewPage() {
                 <span className="inline-flex items-center justify-center w-7 h-7 rounded-lg bg-brand-100 dark:bg-brand-900/40 text-brand-600 dark:text-brand-400 font-bold text-xs flex-shrink-0 mt-0.5">
                   {idx + 1}
                 </span>
-                <p className="text-sm font-medium leading-relaxed" style={{ color: 'var(--text-primary)' }}>
-                  {attempt.question}
-                </p>
+                <div className="text-sm font-medium leading-relaxed min-w-0" style={{ color: 'var(--text-primary)' }}>
+                  <QuestionMarkdownRenderer content={attempt.question} />
+                </div>
               </div>
               <div className="flex-shrink-0">
                 {isCorrect && <CheckCircle2 size={18} className="text-green-500" />}
@@ -72,7 +73,7 @@ export default function TestReviewPage() {
                 return (
                   <div key={option} className="px-3 py-2 rounded-lg text-xs flex items-center gap-2" style={style}>
                     <span className="font-bold flex-shrink-0">{getOptionLabel(oIdx)}</span>
-                    <span>{option}</span>
+                    <span><QuestionOptionContent text={option} /></span>
                   </div>
                 );
               })}
@@ -80,7 +81,7 @@ export default function TestReviewPage() {
 
             {attempt.explanation && (
               <div className="text-xs p-3 rounded-lg mb-2" style={{ background: 'var(--border)', color: 'var(--text-secondary)' }}>
-                <p>{attempt.explanation}</p>
+                <div><QuestionMarkdownRenderer content={attempt.explanation} /></div>
                 <SpeakExplanationButton text={attempt.explanation} className="mt-2" />
               </div>
             )}

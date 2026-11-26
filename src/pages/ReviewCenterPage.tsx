@@ -22,6 +22,7 @@ import { getTopicDisplayName } from '../data/registry/subjectRegistry';
 import { EmptyState } from '../components/common/EmptyState';
 import { formatRelativeDate } from '../utils';
 import type { DailyQuiz } from '../types';
+import { QuestionMarkdownRenderer, QuestionOptionContent } from '../components/mock/QuestionMarkdownRenderer';
 
 type ReviewTab = 'hub' | 'bookmarked' | 'weak' | 'insights' | 'unattempted' | 'archived';
 
@@ -55,9 +56,9 @@ const ReviewItemCard = memo(function ReviewItemCard({ item, accentClass, onRemov
     >
       <div className="flex items-start justify-between gap-3">
         <button className="flex-1 text-left min-w-0" onClick={() => setExpanded((e) => !e)}>
-          <p className="text-sm font-medium leading-relaxed" style={{ color: 'var(--text-primary)' }}>
-            {item.question}
-          </p>
+          <div className="text-sm font-medium leading-relaxed" style={{ color: 'var(--text-primary)' }}>
+            <QuestionMarkdownRenderer content={item.question} />
+          </div>
           <div className="flex flex-wrap items-center gap-2 mt-2 text-xs" style={{ color: 'var(--text-muted)' }}>
             <span>{item.sourceLabel}</span>
             <span>·</span>
@@ -102,15 +103,15 @@ const ReviewItemCard = memo(function ReviewItemCard({ item, accentClass, onRemov
                     }`}
                     style={!isCorrect ? { color: 'var(--text-secondary)' } : undefined}
                   >
-                    {isCorrect && '✓ '}{opt}
+                    {isCorrect && '✓ '}<QuestionOptionContent text={opt} />
                   </div>
                 );
               })}
             </div>
             {item.explanation && (
-              <p className="text-xs leading-relaxed mt-3" style={{ color: 'var(--text-secondary)' }}>
-                <strong style={{ color: 'var(--text-muted)' }}>Explanation: </strong>{item.explanation}
-              </p>
+              <div className="text-xs leading-relaxed mt-3" style={{ color: 'var(--text-secondary)' }}>
+                <strong style={{ color: 'var(--text-muted)' }}>Explanation: </strong><QuestionMarkdownRenderer content={item.explanation} />
+              </div>
             )}
           </motion.div>
         )}

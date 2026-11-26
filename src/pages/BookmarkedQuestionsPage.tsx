@@ -11,6 +11,7 @@ import { useQuizStore } from '../store/quizStore';
 import { EmptyState } from '../components/common/EmptyState';
 import { getOptionLabel, formatRelativeDate } from '../utils';
 import type { BookmarkedQuestion } from '../types';
+import { QuestionMarkdownRenderer, QuestionOptionContent } from '../components/mock/QuestionMarkdownRenderer';
 
 // ─── Single bookmark card ─────────────────────────────────────────────────────
 
@@ -37,9 +38,9 @@ const BookmarkCard = memo(function BookmarkCard({
               {formatRelativeDate(bq.bookmarkedAt)}
             </span>
           </div>
-          <p className="text-sm font-medium leading-relaxed line-clamp-2" style={{ color: 'var(--text-primary)' }}>
-            {bq.question}
-          </p>
+          <div className="text-sm font-medium leading-relaxed line-clamp-2" style={{ color: 'var(--text-primary)' }}>
+            <QuestionMarkdownRenderer content={bq.question} />
+          </div>
         </div>
 
         <div className="flex items-center gap-1 flex-shrink-0">
@@ -89,7 +90,7 @@ const BookmarkCard = memo(function BookmarkCard({
                     style={!isCorrect ? { color: 'var(--text-secondary)' } : undefined}>
                       {getOptionLabel(idx)}
                     </span>
-                    {opt}
+                    <QuestionOptionContent text={opt} />
                     {isCorrect && <span className="ml-auto text-xs font-bold text-green-600 dark:text-green-400">✓ Correct</span>}
                   </div>
                 );
@@ -99,7 +100,7 @@ const BookmarkCard = memo(function BookmarkCard({
             {bq.explanation && (
               <div className="mt-3 px-3 py-2.5 rounded-xl border" style={{ background: 'var(--bg)', borderColor: 'var(--border)' }}>
                 <p className="text-xs font-bold uppercase tracking-wider mb-1" style={{ color: 'var(--text-muted)' }}>Explanation</p>
-                <p className="text-xs leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{bq.explanation}</p>
+                <div className="text-xs leading-relaxed" style={{ color: 'var(--text-secondary)' }}><QuestionMarkdownRenderer content={bq.explanation} /></div>
               </div>
             )}
           </motion.div>

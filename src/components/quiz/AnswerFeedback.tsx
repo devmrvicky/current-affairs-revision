@@ -2,6 +2,7 @@ import { SpeakExplanationButton } from '../../components/common/SpeakExplanation
 import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle2, XCircle, ArrowRight, Bookmark } from 'lucide-react';
 import type { QuestionAttempt } from '../../types';
+import { QuestionMarkdownRenderer, QuestionOptionContent } from '../mock/QuestionMarkdownRenderer';
 
 interface AnswerFeedbackProps {
   attempt: QuestionAttempt;
@@ -50,7 +51,7 @@ export function AnswerFeedback({ attempt, isLastQuestion, onNext, onBookmark, sh
             </p>
             {!isCorrect && (
               <p className="text-sm mt-0.5" style={{ color: 'var(--text-secondary)' }}>
-                Correct: <span className="font-semibold text-green-600 dark:text-green-400">{attempt.correctAnswer}</span>
+                Correct: <span className="font-semibold text-green-600 dark:text-green-400"><QuestionOptionContent text={attempt.correctAnswer} /></span>
               </p>
             )}
           </div>
@@ -62,9 +63,9 @@ export function AnswerFeedback({ attempt, isLastQuestion, onNext, onBookmark, sh
             <p className="text-xs font-semibold uppercase tracking-wider mb-2" style={{ color: 'var(--text-muted)' }}>
               Explanation
             </p>
-            <p className="text-sm leading-relaxed" style={{ color: 'var(--text-primary)' }}>
-              {attempt.explanation}
-            </p>
+            <div className="text-sm leading-relaxed" style={{ color: 'var(--text-primary)' }}>
+              <QuestionMarkdownRenderer content={attempt.explanation} />
+            </div>
             {attempt.explanation && <SpeakExplanationButton text={attempt.explanation} className="mt-2" />}
           </div>
         )}

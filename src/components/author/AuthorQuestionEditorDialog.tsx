@@ -2,6 +2,7 @@ import { useState, type FormEvent } from 'react';
 import { Plus, Trash2 } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
 import { Modal } from '../common/Modal';
+import { MathTextField } from './MathTextField';
 
 export interface EditableQuestion {
   id?: string | number;
@@ -98,8 +99,13 @@ export function AuthorQuestionEditorDialog({ open, initial, onCancel, onSave, de
       <form onSubmit={submit} className="space-y-3">
         <label className="block text-sm">
           <span style={{ color: 'var(--text-secondary)' }}>Question</span>
-          <textarea autoFocus value={question} onChange={(event) => { setQuestion(event.target.value); setError(''); }} rows={3} data-exam-keys="off"
-            className="mt-1 w-full rounded-xl px-3 py-2.5 text-sm bg-transparent" style={{ border: '1px solid var(--border)', color: 'var(--text-primary)' }} />
+          <MathTextField
+            value={question}
+            onChange={(value) => { setQuestion(value); setError(''); }}
+            rows={3}
+            ariaLabel="Question"
+            className="mt-1"
+          />
         </label>
         <div className="space-y-2">
           <div className="flex items-center justify-between">
@@ -115,8 +121,15 @@ export function AuthorQuestionEditorDialog({ open, initial, onCancel, onSave, de
                 {optionLabel}
               </label>
               <div className="min-w-0 flex-1 grid gap-1">
-                <input value={value.text} onChange={(event) => setOptions((current) => current.map((item, i) => i === index ? { ...item, text: event.target.value } : item))} placeholder={`Option ${optionLabel} text`} data-exam-keys="off"
-                  className="w-full rounded-xl px-3 py-2 text-sm bg-transparent" style={{ border: '1px solid var(--border)', color: 'var(--text-primary)' }} />
+                <MathTextField
+                  value={value.text}
+                  onChange={(text) => setOptions((current) => current.map((item, i) => i === index ? { ...item, text } : item))}
+                  rows={1}
+                  placeholder={`Option ${optionLabel} text`}
+                  ariaLabel={`Option ${optionLabel} text`}
+                  className="mt-0 py-2"
+                  compact
+                />
                 <input value={value.image} onChange={(event) => setOptions((current) => current.map((item, i) => i === index ? { ...item, image: event.target.value } : item))} placeholder="Optional image URL" data-exam-keys="off"
                   className="w-full rounded-xl px-3 py-1.5 text-xs bg-transparent" style={{ border: '1px solid var(--border)', color: 'var(--text-secondary)' }} />
               </div>
@@ -139,7 +152,13 @@ export function AuthorQuestionEditorDialog({ open, initial, onCancel, onSave, de
           </label>
           <label className="block text-sm">
             <span style={{ color: 'var(--text-secondary)' }}>Explanation (optional)</span>
-            <textarea value={explanation} onChange={(event) => setExplanation(event.target.value)} rows={2} data-exam-keys="off" className="mt-1 w-full rounded-xl px-3 py-2 text-sm bg-transparent" style={{ border: '1px solid var(--border)', color: 'var(--text-primary)' }} />
+            <MathTextField
+              value={explanation}
+              onChange={setExplanation}
+              rows={2}
+              ariaLabel="Explanation"
+              className="mt-0"
+            />
           </label>
         </div>
         <p role="alert" className="text-xs min-h-4 text-red-600">{error}</p>

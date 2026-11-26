@@ -21,11 +21,12 @@ export function looksLikeMath(inner: string): boolean {
   if (inner.length === 0 || inner.length > 160) return false;
   if (/^\s|\s$/.test(inner)) return false; // "$ 5 and $" — spaces hugging the delimiters means currency, not math
   if (/\\[a-zA-Z]+/.test(inner)) return true; // \frac, \sqrt, \times …
+  if (/^[A-Za-z]$/.test(inner)) return true; // a standalone variable such as $x$
   if (/[\^_{}]/.test(inner)) return true; // x^2, a_1, {…}
   // A short, space-free-ish expression of symbols, digits and single letters: "2+3", "x=5", "a/b".
   const words = inner.split(/\s+/).filter(Boolean);
   const hasLongWord = words.some((w) => /[\p{L}]{3,}/u.test(w));
-  return !hasLongWord && words.length <= 6 && /[=+\-−×÷*/<>≤≥]/.test(inner) && /[A-Za-z0-9]/.test(inner);
+  return !hasLongWord && words.length <= 6 && /[=+\-−×÷*/<>≤≥%!:\u221aπ∑∠]/u.test(inner) && /[A-Za-z0-9]/.test(inner);
 }
 
 const DISPLAY_MATH = /\$\$[\s\S]+?\$\$|\\\[[\s\S]+?\\\]|\\\([\s\S]+?\\\)/;
@@ -75,12 +76,20 @@ export function protectCurrency(text: string): string {
 }
 
 /**
- * Authors write display math as a single line — `$$\frac{a}{b}$$` on a line of its own — but the math parser
- * only treats `$$` as a *block* when the fences sit on their own lines (a one-line `$$…$$` is read as inline math
- * and loses its display size). A `$$…$$` that fills a whole line is expanded to the fenced form.
+ * The math parser only treats `$$` as a *block* when both fences sit on their own lines. Authors may insert a
+ * one-line display formula at the cursor after prose (for example, "Solution: $$\frac{a}{b}$$"), so move any
+ * surrounding prose onto adjacent lines while preserving its text and order.
  */
 export function expandDisplayMath(text: string): string {
-  return text.replace(/(^|\n)[ \t]*\$\$([^\n$][^\n]*?)\$\$[ \t]*(?=\n|$)/g, (_m, lead: string, body: string) => `${lead}$$\n${body}\n$$`);
+  // A block formula may be inserted after prose at the current editor cursor, e.g.
+  // "Solution: $$\frac{1}{2}$$". Move surrounding prose onto adjacent lines so
+  // remark-math always sees the two $$ fences as a real display-math block.
+  return text.replace(/(^|\n)([^\n]*?)\$\$([^\n$][^\n]*?)\$\$([^\n]*)(?=\n|$)/g,
+    (_m, lead: string, before: string, body: string, after: string) => {
+      const prefix = before.trimEnd();
+      const suffix = after.trimStart();
+      return `${lead}${prefix}${prefix ? '\n' : ''}$$\n${body}\n$$${suffix ? `\n${suffix}` : ''}`;
+    });
 }
 
 /** Everything Markdown-bound text needs before parsing: currency protected, one-line display math expanded. */

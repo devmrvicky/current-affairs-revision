@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle2, XCircle, ArrowRight, Bookmark, Flag, X } from 'lucide-react';
 import { useIsDesktop } from '../../hooks/useMediaQuery';
 import type { QuestionAttempt } from '../../types';
+import { QuestionMarkdownRenderer, QuestionOptionContent } from '../mock/QuestionMarkdownRenderer';
 
 /** Width of the desktop explanation drawer. The quiz page reserves exactly this much room beside the question while it is open. */
 export const EXPLANATION_DRAWER_WIDTH = 'min(26rem, 45vw)';
@@ -140,7 +141,7 @@ export function AnswerBottomSheet({
                     >
                       Answer:{' '}
                       <span className="font-semibold text-green-600 dark:text-green-400">
-                        {attempt.correctAnswer}
+                        <QuestionOptionContent text={attempt.correctAnswer} />
                       </span>
                     </motion.p>
                   )}
@@ -193,9 +194,9 @@ export function AnswerBottomSheet({
                   >
                     Explanation
                   </p>
-                  <p className="text-sm leading-relaxed" style={{ color: 'var(--text-primary)' }}>
-                    {attempt.explanation}
-                  </p>
+                  <div className="text-sm leading-relaxed" style={{ color: 'var(--text-primary)' }}>
+                    <QuestionMarkdownRenderer content={attempt.explanation} />
+                  </div>
                   <SpeakExplanationButton text={attempt.explanation} className="mt-2" />
                 </motion.div>
               )}

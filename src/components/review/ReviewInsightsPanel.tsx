@@ -7,6 +7,7 @@ import {
   type MarkInfo, type PriorityBand,
 } from '../../services/reviewAnalytics';
 import { getTopicDisplayName } from '../../data/registry/subjectRegistry';
+import { QuestionMarkdownRenderer } from '../mock/QuestionMarkdownRenderer';
 
 const BAND_STYLE: Record<PriorityBand, { label: string; color: string }> = {
   high: { label: 'High', color: '#ef4444' }, medium: { label: 'Medium', color: '#f59e0b' }, low: { label: 'Low', color: '#0ea5e9' }, mastered: { label: 'Mastered', color: '#22c55e' },
@@ -16,8 +17,6 @@ type Loaded = {
   rows: Awaited<ReturnType<typeof universalAttemptsDB.getAll>>;
   marks: Map<string, MarkInfo>;
 };
-
-function truncate(text: string, n = 140) { return text.length > n ? `${text.slice(0, n - 1)}…` : text; }
 
 /** Revision priority, repeated mistakes and improvement — computed from the learner's own stored attempts and marks. */
 export function ReviewInsightsPanel() {
@@ -82,7 +81,7 @@ export function ReviewInsightsPanel() {
 
   const nameOf = (subjectId: string, topicId: string) => getTopicDisplayName(subjectId, topicId);
   const W = PRIORITY_WEIGHTS;
-  const label = (id: string) => (!textsReady ? 'Loading question…' : truncate(texts.get(id) ?? 'Question text unavailable (it may have been removed from the bank)'));
+  const label = (id: string) => (!textsReady ? 'Loading question…' : texts.get(id) ?? 'Question text unavailable (it may have been removed from the bank)');
 
   return (
     <div className="space-y-6" data-testid="review-insights">
@@ -100,7 +99,7 @@ export function ReviewInsightsPanel() {
                     <span className="block text-lg font-bold leading-none">{p.score}</span><span className="block text-[10px] font-semibold uppercase">{BAND_STYLE[p.band].label}</span>
                   </span>
                   <div className="min-w-0 flex-1">
-                    <p className="text-sm" style={{ color: 'var(--text-primary)' }}>{label(p.questionId)}</p>
+                    <div className="text-sm line-clamp-3" style={{ color: 'var(--text-primary)' }}><QuestionMarkdownRenderer content={label(p.questionId)} /></div>
                     <p className="mt-1 text-xs flex flex-wrap gap-x-2" style={{ color: 'var(--text-muted)' }}>
                       {p.factors.map((f) => <span key={f.label}>{f.label} (+{f.points})</span>)}
                       {p.masteryMultiplier < 1 && <span>× {p.masteryMultiplier} recent correct answers</span>}
@@ -135,7 +134,7 @@ export function ReviewInsightsPanel() {
               {repeatedShown.map((h) => (
                 <li key={h.questionId} className="card p-3 flex items-start gap-3" data-testid="repeated-row">
                   <span className="shrink-0 rounded-lg px-2 py-1 text-xs font-bold bg-red-500/10 text-red-600">{h.wrong}× wrong</span>
-                  <div className="min-w-0"><p className="text-sm" style={{ color: 'var(--text-primary)' }}>{label(h.questionId)}</p>
+                  <div className="min-w-0"><div className="text-sm line-clamp-3" style={{ color: 'var(--text-primary)' }}><QuestionMarkdownRenderer content={label(h.questionId)} /></div>
                     <p className="text-xs" style={{ color: 'var(--text-muted)' }}>{h.topicId ? nameOf(h.subjectId, h.topicId) : h.subjectId} · {h.answered} answered · {h.trailingCorrect > 0 ? `${h.trailingCorrect} correct in a row now` : 'still wrong'}</p></div>
                 </li>
               ))}

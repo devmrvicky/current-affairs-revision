@@ -21,6 +21,7 @@ import { getOptionLabel } from '../utils';
 import { ShuffledOptions } from '../components/exam/ShuffledOptions';
 import { TestExitControls } from '../components/exam/TestExitControls';
 import { summarizeQuiz } from '../services/sessionLifecycle';
+import { QuestionMarkdownRenderer, QuestionOptionContent } from '../components/mock/QuestionMarkdownRenderer';
 
 // Preserve the original subtle directional hand-off when swiping between questions.
 const questionSlideVariants = {
@@ -382,9 +383,9 @@ export default function QuizPage() {
                       <span className="inline-flex items-center justify-center w-8 h-8 rounded-xl bg-brand-100 dark:bg-brand-900/40 text-brand-600 dark:text-brand-400 font-bold text-sm flex-shrink-0 mt-0.5">
                         {session.currentIndex + 1}
                       </span>
-                      <p className="text-base md:text-lg leading-relaxed font-medium" style={{ color: 'var(--text-primary)' }}>
-                        {currentAttempt.question}
-                      </p>
+                      <div className="text-base md:text-lg leading-relaxed font-medium min-w-0" style={{ color: 'var(--text-primary)' }}>
+                        <QuestionMarkdownRenderer content={currentAttempt.question} />
+                      </div>
                     </div>
                     <div className="flex items-center gap-1 flex-shrink-0">
                       <button
@@ -473,7 +474,7 @@ export default function QuizPage() {
                             <span className={`w-6 h-6 rounded-lg flex items-center justify-center text-xs font-bold flex-shrink-0 ${badgeCls}`}>
                               {label}
                             </span>
-                            {option}
+                            <QuestionOptionContent text={option} />
                           </span>
                         </motion.button>
                       );

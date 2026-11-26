@@ -438,3 +438,47 @@
   .input:focus-visible { outline: 2px solid #6366f1; outline-offset: 1px; }
   .input::placeholder { color: var(--text-muted); }
 }
+
+
+/* Mathematical content: keep long fractions, aligned working and tables readable on phones. */
+.question-markdown,
+.question-markdown-inline,
+.math-editor-preview {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.question-markdown .katex-display,
+.math-editor-preview .katex-display {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.25rem 0.15rem;
+  scrollbar-width: thin;
+}
+
+.question-markdown .katex,
+.question-markdown-inline .katex,
+.math-editor-preview .katex {
+  font-size: 1.05em;
+}
+
+.question-markdown-inline .katex-display {
+  display: inline-block;
+  margin: 0.2em 0;
+  vertical-align: middle;
+}
+
+.math-toolbar {
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.math-editor-preview .katex-error {
+  color: #dc2626;
+  white-space: normal;
+}
+
+.math-text-field textarea {
+  line-height: 1.6;
+}

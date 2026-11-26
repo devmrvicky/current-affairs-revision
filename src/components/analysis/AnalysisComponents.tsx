@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import type { AnalysisResult, QuestionAttempt } from '../../types';
 import { formatTime, getBadgeColors } from '../../utils';
 import { CheckCircle2, XCircle, Clock, Target, Award, Percent, Flag } from 'lucide-react';
+import { QuestionMarkdownRenderer, QuestionOptionContent } from '../mock/QuestionMarkdownRenderer';
 
 interface AnalysisOverviewProps {
   result: AnalysisResult;
@@ -174,9 +175,9 @@ export function QuestionReview({ attempts, filter }: QuestionReviewProps) {
               style={{ background: 'var(--border)', color: 'var(--text-secondary)' }}>
               {attempts.indexOf(attempt) + 1}
             </span>
-            <p className="text-sm font-medium leading-relaxed flex-1" style={{ color: 'var(--text-primary)' }}>
-              {attempt.question}
-            </p>
+            <div className="text-sm font-medium leading-relaxed flex-1 min-w-0" style={{ color: 'var(--text-primary)' }}>
+              <QuestionMarkdownRenderer content={attempt.question} />
+            </div>
             {attempt.markedForReview && (
               <span className="flex-shrink-0 text-amber-500" title="Marked for review">
                 <Flag size={14} fill="currentColor" />
@@ -198,7 +199,7 @@ export function QuestionReview({ attempts, filter }: QuestionReviewProps) {
                   }`}
                   style={!isCorrect && !isSelected ? { color: 'var(--text-secondary)' } : undefined}
                 >
-                  {isCorrect && '✓ '}{isSelected && !isCorrect && '✗ '}{opt}
+                  {isCorrect && '✓ '}{isSelected && !isCorrect && '✗ '}<QuestionOptionContent text={opt} />
                 </div>
               );
             })}
@@ -209,9 +210,9 @@ export function QuestionReview({ attempts, filter }: QuestionReviewProps) {
               <p className="text-xs font-semibold uppercase tracking-wider mb-1" style={{ color: 'var(--text-muted)' }}>
                 Explanation
               </p>
-              <p className="text-xs leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                {attempt.explanation}
-              </p>
+              <div className="text-xs leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+                <QuestionMarkdownRenderer content={attempt.explanation} />
+              </div>
               <SpeakExplanationButton text={attempt.explanation} className="mt-2" />
             </div>
           )}
